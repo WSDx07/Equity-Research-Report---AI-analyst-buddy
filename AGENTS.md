@@ -8,4 +8,6 @@ For an equity research task, establish the company, ticker, and analysis date. I
 
 
 
+##  General rules
+
 When you explain something to me, write 80% of the way to ASD-STE100, and keep every number, condition and hedge.
