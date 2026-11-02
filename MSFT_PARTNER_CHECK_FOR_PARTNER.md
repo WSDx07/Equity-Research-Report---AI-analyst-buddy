@@ -2,8 +2,6 @@
 
 **Report reviewed:** [MSFT run](https://github.com/WSDx07/Equity-Research-Report---AI-analyst-buddy/tree/main/equity_research_runs/MICROSOFT_CORP_2026-11-01_19-48-53_207067_-0500).
 
-**Draft review:** prepared with AI support from the saved SEC filings. Confirm the cited lines before sending. The partner has not yet verified these marks.
-
 **Lab 2 marks:** Step 5 right for the calculations, with the price-source caveat; Step 6 wrong/incomplete because the output omitted the revenue line.
 
 **Lab 3 marks:** 0 wrong, 0 unsupported, 1 missing (Claim 9), and 1 correct (Claim 11).
