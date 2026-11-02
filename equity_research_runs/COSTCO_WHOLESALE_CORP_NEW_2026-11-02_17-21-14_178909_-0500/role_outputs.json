@@ -1,0 +1,99 @@
+{
+  "models_used": [
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite"
+  ],
+  "plan": {
+    "research_task": "Analyze COST market positioning, growth outlook, and future developments using available inputs including 10-K and peer facts.",
+    "financial_task": "Perform valuation insights, analyze annual XBRL facts, earnings releases, and utilize the calculator for COST financial modeling.",
+    "advisor_task": "Synthesize research and valuation findings to formulate investment recommendations and strategic advice for COSTCO WHOLESALE CORP /NEW."
+  },
+  "research": {
+    "claims": [
+      {
+        "section": "Overview",
+        "claim": "Costco operates membership warehouses and e-commerce sites based on offering low prices on a limited selection of nationally-branded and private-label products, which produces high sales volumes and rapid inventory turnover.",
+        "document": "10-K",
+        "line": 137,
+        "quote": "We operate membership warehouses and e-commerce sites based on the concept that offering low prices on a limited selection of nationally-branded and private-label products in a wide range of categories will produce high sales volumes and rapid inventory turnover."
+      },
+      {
+        "section": "Market Positioning and Growth Outlook",
+        "claim": "Costco operates 939 membership warehouses worldwide as of August 30, 2026.",
+        "document": "10-K",
+        "line": 795,
+        "quote": "At August 30, 2026, Costco operated 939 warehouses worldwide: 647 in the United States (U.S.) located in 47 states, Washington, D.C., and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the U.K., 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland and New Zealand."
+      },
+      {
+        "section": "Future Developments and Strategic Recommendations",
+        "claim": "Costco plans to spend approximately $7,500 million on capital expenditures during fiscal 2027.",
+        "document": "10-K",
+        "line": 512,
+        "quote": "In 2026, we spent $6,435 on capital expenditures, and it is our current intention to spend approximately $7,500 during fiscal 2027."
+      },
+      {
+        "section": "Future Developments and Strategic Recommendations",
+        "claim": "Costco plans to open up to 33 new warehouses, including five relocations, in fiscal 2027.",
+        "document": "10-K",
+        "line": 512,
+        "quote": "We opened 28 new warehouses, including three relocations, in 2026, and plan to open up to 33 new warehouses, including five relocations, in 2027."
+      }
+    ],
+    "gaps": [
+      "No specific future strategic recommendation details beyond general planned capital expenditures and new warehouse opening counts are provided in the text.",
+      "2 research claim(s) omitted because the quoted line or a number in the claim could not be verified."
+    ]
+  },
+  "financial": {
+    "observations": [
+      "Costco achieved positive revenue growth and higher net income for the fiscal year compared to the prior period, driven by increases in net sales and membership fees.",
+      "Operating margin expanded slightly over the fiscal year, supported by operating income growth outpacing total revenue increases.",
+      "The balance sheet reflects a strong equity position and modest debt-to-equity leverage, with robust cash flow from operations supporting capital expenditures in property and equipment.",
+      "Fourth quarter and fiscal year results benefited from strong comparable sales across all geographic regions and digital channels, alongside non-recurring tariff refunds partially reinvested in member value.",
+      "Peer comparisons indicate competitive operating margins relative to industry peers, while valuation metrics reflect a premium price-to-earnings multiple."
+    ],
+    "gaps": [
+      "Detailed breakdown of the exact financial impact of the partial reinvestment of tariff refunds into member values is absent from the primary XBRL fact definitions.",
+      "Specific forward-looking guidance amounts and qualitative risk mitigation details beyond generalized risk factors are limited.",
+      "Exact dates and sources for the share price input used in price-to-earnings and valuation modeling are missing."
+    ]
+  },
+  "advice": {
+    "recommendation": "Insufficient evidence",
+    "thesis": "A research claim could not be verified after revision, so the recommendation cannot be supported.",
+    "deciding_metric": "price_to_earnings",
+    "risks": [
+      "The incomplete evidence may change the conclusion."
+    ]
+  },
+  "manager_review": {
+    "research_issues": [
+      "No specific future strategic recommendation details beyond general planned capital expenditures and new warehouse opening counts are provided in the text.",
+      "2 research claim(s) omitted because the quoted line or a number in the claim could not be verified."
+    ],
+    "financial_issues": [
+      "Detailed breakdown of the exact financial impact of the partial reinvestment of tariff refunds into member values is absent from the primary XBRL fact definitions.",
+      "Specific forward-looking guidance amounts and qualitative risk mitigation details beyond generalized risk factors are limited.",
+      "Exact dates and sources for the share price input used in price-to-earnings and valuation modeling are missing."
+    ],
+    "advisor_issues": [
+      "A research claim could not be verified after revision, so the recommendation cannot be supported.",
+      "The incomplete evidence may change the conclusion."
+    ],
+    "overall_issues": [
+      "Insufficient evidence prevents a fully supported investment recommendation due to unverified research claims and missing share price input dates/sources."
+    ]
+  },
+  "final_checks": {
+    "research": [],
+    "financial": [],
+    "advisor": []
+  }
+}

@@ -1,0 +1,111 @@
+Filings: 10-K 0001193125-26-323660; 10-Q 0001193125-26-436133; 8-K 0001193125-26-436122 (earnings release: Exhibit 99.1)
+Run time: 2026-11-01T19:48:53.207067-05:00
+
+# MICROSOFT CORP (MSFT) equity research
+Analysis date: 2026-11-01. Models used: Google/gemini-3.5-flash-lite, Purdue/gpt-oss:120b.
+
+## Overview
+
+- Microsoft's mission is to empower every person and every organization on the planet to achieve more. — 10-K, 0001193125-26-323660, line 153: “Our mission is to empower every person and every organization on the planet to achieve more.”
+
+## Market Positioning and Growth Outlook
+
+- Microsoft 365 Commercial cloud revenue grew 17% with growth in revenue per user driven by Microsoft 365 Copilot and Microsoft 365 E5. — 10-K, 0001193125-26-323660, line 918: “Microsoft 365 Commercial cloud revenue grew 17% with growth in revenue per user driven by Microsoft 365 Copilot and Microsoft 365 E5.”
+
+## Valuation Insights
+
+Microsoft’s top‑line showed a material increase year‑over‑year, indicating strong demand for its products and services during the most recent fiscal year compared with the prior year.
+Operating income rose proportionally with revenue, resulting in a healthy operating margin that underscores the company’s ability to convert sales into earnings efficiently.
+Net income and diluted earnings per share both improved substantially, reflecting higher profitability and effective cost management.
+Return on equity was robust, suggesting that shareholders’ capital is being deployed effectively to generate earnings.
+The leverage profile remained low, with total debt representing a modest share of equity, indicating a conservative capital structure.
+Free cash flow was strong, driven by solid cash generation from operations and disciplined capital expenditures, providing ample liquidity for reinvestment and shareholder returns.
+The price‑to‑earnings multiple, based on the supplied share price and earnings per share, fell within a moderate range relative to the company’s earnings, implying a valuation that balances growth expectations with current profitability.
+Quarterly results for the most recent quarter showed continued revenue acceleration, especially in cloud services, and further improvement in operating income and net income on a GAAP basis, although non‑GAAP adjustments related to OpenAI investments were disclosed.
+The quarterly release also highlighted a significant contribution to cash flow from operating activities and noted capital returns to shareholders via dividends and share repurchases.
+Definition notes: revenue growth is calculated as the percentage change in total revenue between the current and prior fiscal periods; operating margin is operating income divided by total revenue; return on equity is net income divided by average stockholders’ equity; debt‑to‑equity compares total debt to equity; free cash flow equals cash from operations less capital expenditures; and price‑to‑earnings is share price divided by diluted EPS.
+Period limits: the primary financial metrics are drawn from the most recent fiscal year ending in late June, with comparative figures from the prior fiscal year ending the previous June; quarterly data pertain to the three months ended late September.
+Missing evidence: the source for the share price used in the valuation multiple is not identified, and there is no detailed breakdown of non‑GAAP cash flow adjustments beyond the OpenAI impact. Segment‑level financials for the full fiscal year are limited to the quarterly snapshot, and the long‑term debt figure is based on a single tag without a clear distinction of current versus non‑current portions for the full year.
+Cautionary note: all SEC filings and press releases are treated as unverified sources; discrepancies or restatements could affect the interpretations presented here.
+
+**Earnings release lines:**
+
+```text
+Source: https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm
+  Quarter revenue: no explicit line found; inspect the saved release text
+  Diluted EPS (saved release line 17): Diluted earnings per share was $4.92 and increased 32% on a GAAP basis, and was $4.89 and increased 18% (up 19% in constant currency) on a non-GAAP basis
+```
+
+**Calculator output:**
+
+```text
+Revenue growth = (USD 331,839.000 million - USD 281,724.000 million) / USD 281,724.000 million = 17.79%
+  Operating margin = USD 155,237.000 million / USD 331,839.000 million = 46.78%
+  Return on average equity = USD 133,749.000 million / ((USD 442,387.000 million + USD 343,479.000 million) / 2) = 34.04%
+  Debt to equity = USD 40,294.000 million / USD 442,387.000 million = 0.0911x
+    Debt includes noncurrent USD 31,067.000 million + current USD 9,227.000 million
+  Free cash flow = USD 182,935.000 million - USD 115,948.000 million = USD 66,987.000 million
+  Price input: USD 521.91 per share; date unspecified; source unspecified
+  P/E = USD 521.91 per share / USD 17.95 per share = 29.0758x
+```
+
+**Annual facts (raw units):**
+
+| Concept | Period | Value | Tag | End | Filing |
+|---|---|---:|---|---|---|
+| total_revenue | current | 331839000000 USD | us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax | 2026-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| total_revenue | prior | 281724000000 USD | us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax | 2025-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| operating_income | current | 155237000000 USD | us-gaap:OperatingIncomeLoss | 2026-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| operating_income | prior | 128528000000 USD | us-gaap:OperatingIncomeLoss | 2025-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| net_income | current | 133749000000 USD | us-gaap:NetIncomeLoss | 2026-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| net_income | prior | 101832000000 USD | us-gaap:NetIncomeLoss | 2025-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| diluted_eps | current | 17.95 USD/shares | us-gaap:EarningsPerShareDiluted | 2026-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| diluted_eps | prior | 13.64 USD/shares | us-gaap:EarningsPerShareDiluted | 2025-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| stockholders_equity | current | 442387000000 USD | us-gaap:StockholdersEquity | 2026-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| stockholders_equity | prior | 343479000000 USD | us-gaap:StockholdersEquity | 2025-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| long_term_debt_noncurrent | current | 31067000000 USD | us-gaap:LongTermDebtNoncurrent | 2026-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| long_term_debt_noncurrent | prior | 40152000000 USD | us-gaap:LongTermDebtNoncurrent | 2025-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| long_term_debt_current | current | 9227000000 USD | us-gaap:LongTermDebtCurrent | 2026-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| long_term_debt_current | prior | 2999000000 USD | us-gaap:LongTermDebtCurrent | 2025-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| cash_from_operations | current | 182935000000 USD | us-gaap:NetCashProvidedByUsedInOperatingActivities | 2026-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| cash_from_operations | prior | 136162000000 USD | us-gaap:NetCashProvidedByUsedInOperatingActivities | 2025-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| additions_to_property_and_equipment | current | 115948000000 USD | us-gaap:PaymentsToAcquirePropertyPlantAndEquipment | 2026-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+| additions_to_property_and_equipment | prior | 64551000000 USD | us-gaap:PaymentsToAcquirePropertyPlantAndEquipment | 2025-06-30 | 0001193125-26-323660 (filed 2026-07-29) |
+
+Peer GOOGL, fiscal year ended 2025-12-31: operating margin = 129039000000 ÷ 402836000000 = 32.03263859238002561836578657%; https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json; tags us-gaap:OperatingIncomeLoss, us-gaap:Revenues; filings 0001652044-26-000018, 0001652044-26-000018.
+
+Peer AMZN, fiscal year ended 2025-12-31: operating margin = 79975000000 ÷ 716924000000 = 11.15529679575519859845674018%; https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json; tags us-gaap:OperatingIncomeLoss, us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; filings 0001018724-26-000004, 0001018724-26-000004.
+
+Peer ORCL, fiscal year ended 2026-05-31: operating margin = 20606000000 ÷ 67357000000 = 30.59221758688777706845613670%; https://data.sec.gov/api/xbrl/companyfacts/CIK0001341439.json; tags us-gaap:OperatingIncomeLoss, us-gaap:Revenues; filings 0001193125-26-277521, 0001193125-26-277521.
+
+## Future Developments and Strategic Recommendations
+
+- Microsoft continues to make significant capital and operational investments to develop, train, deploy, and support AI models and related cloud-based services. — 10-K, 0001193125-26-323660, line 419: “We have made and are continuing to make significant capital and operational investments to develop, train, deploy, and support AI models and related cloud-based services, including building and expanding datacenters, acquiring necessary components, and securing energy resources.”
+
+## Investment Recommendation
+
+**Insufficient evidence** — A research claim could not be verified after revision, so the recommendation cannot be supported.
+- Risk: The incomplete evidence may change the conclusion.
+
+## Evidence gaps and review
+
+- Specific long-term quantitative margin targets for AI deployment are not explicitly provided beyond commentary on potential margin dilution from infrastructure investments.
+- Detailed forward-looking guidance figures beyond the immediate next quarter's commentary are generally withheld in the text outside of broad strategic focus areas.
+- 2 research claim(s) omitted because the quoted line or a number in the claim could not be verified.
+- Share price source and date are unspecified, limiting confidence in the price‑to‑earnings calculation.
+- Full‑year segment performance details are not provided beyond the quarterly excerpt.
+- Non‑GAAP cash flow reconciliation for the full year is absent, leaving the impact of specific adjustments unclear.
+- Two research claims were omitted because the quoted line or numeric detail could not be verified; the specific claims are not identified in the output, leaving a gap in the evidence base.
+- Missing quantitative long‑term margin targets for AI deployment – the filing only discusses potential margin dilution without concrete targets.
+- Forward‑looking guidance beyond the immediate next quarter is absent; only broad strategic statements are present.
+- Share‑price used in the price‑to‑earnings calculation (USD 521.91) has no documented source or price‑date, reducing confidence in the P/E ratio of 29.08.
+- Full‑year segment performance details are not provided; only a quarterly snapshot of segment data is available, limiting comparative analysis across business lines.
+- Non‑GAAP cash‑flow reconciliation for the full fiscal year is missing, so the impact of items such as OpenAI‑related adjustments cannot be quantified.
+- The debt tag used in the calculator (“us-gaap:LongTermDebtNoncurrent”) does not capture the current portion of long‑term debt, potentially understating total debt‑to‑equity.
+- While long‑term debt values (current and non‑current) are present, the lack of a clear segregation in the calculator input adds ambiguity to the debt‑to‑equity metric.
+- Recommendation labelled “Insufficient evidence” cannot be upgraded because a research claim could not be verified after revision (2 claims omitted).
+- The deciding metric (operating_margin_percent) is based on a calculated figure that relies on an unspecified share‑price source and date, adding uncertainty to the metric’s reliability.
+- Risk note correctly flags incomplete evidence, but without additional data the advisor cannot issue a definitive buy/hold/sell stance.
+- No further revisions are possible, so the report must be issued with the above unresolved gaps. The analyst team should seek: (a) verification of the omitted research claims; (b) explicit long‑term AI‑related margin targets; (c) forward‑looking guidance beyond the next quarter; (d) a documented source and date for the share price used in the P/E multiple; (e) full‑year segment‑level financial breakdown; and (f) a non‑GAAP cash‑flow reconciliation for the full year.
+
+Research quotes were checked against the saved numbered text. Model judgments and semantic consistency require human review.

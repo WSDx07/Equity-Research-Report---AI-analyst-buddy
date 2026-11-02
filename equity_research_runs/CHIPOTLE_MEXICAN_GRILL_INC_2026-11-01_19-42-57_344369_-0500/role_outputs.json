@@ -1,0 +1,98 @@
+{
+  "models_used": [
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite",
+    "Google/gemini-3.5-flash-lite"
+  ],
+  "plan": {
+    "research_task": "Analyze Chipotle Mexican Grill Inc (CMG) business model, market positioning, growth outlook, and strategic developments using the 10-K and earnings releases to assess competitive advantages and operational performance.",
+    "financial_task": "Evaluate annual XBRL facts, historical financial statements, and peer facts using available financial calculators to generate comprehensive valuation insights and quantitative metrics for CMG.",
+    "advisor_task": "Synthesize the research and financial findings across all report sections to formulate a final, well-supported investment recommendation and actionable strategic roadmap for CMG."
+  },
+  "research": {
+    "claims": [
+      {
+        "section": "Overview",
+        "claim": "Chipotle operates restaurants featuring a menu of burritos, burrito bowls, quesadillas, tacos, and salads, and is committed to serving responsibly sourced, real food with no artificial colors, flavors, or preservatives under its Food with Integrity philosophy.",
+        "document": "10-K",
+        "line": 181,
+        "quote": "Chipotle Mexican Grill, Inc., a Delaware corporation, together with its subsidiaries (“Chipotle,” “we,” “us,” or “our”) owns and operates Chipotle Mexican Grill restaurants, which feature a relevant menu of burritos, burrito bowls (a burrito without the tortilla), quesadillas, tacos, and salads. We strive to cultivate a better world by serving responsibly sourced, classically cooked, real food with wholesome ingredients and without artificial colors, flavors or preservatives."
+      },
+      {
+        "section": "Overview",
+        "claim": "As of December 31, 2025, Chipotle owned 3,938 restaurants in the U.S. and 104 international Chipotle restaurants, alongside 14 international partner-operated restaurants.",
+        "document": "10-K",
+        "line": 182,
+        "quote": "As of December 31, 2025, we owned 3,938 Chipotle restaurants throughout the United States (“U.S.”) and 104 international Chipotle restaurants. Additionally, we had 14 international partner-operated restaurants."
+      },
+      {
+        "section": "Market Positioning and Growth Outlook",
+        "claim": "Digital sales represented 36.7% of total food and beverage revenue in fiscal year 2025.",
+        "document": "10-K",
+        "line": 208,
+        "quote": "Digital sales represented 36.7% of food and beverage revenue in 2025, compared to 35.1% in 2024."
+      },
+      {
+        "section": "Future Developments and Strategic Recommendations",
+        "claim": "Management expects to open approximately 350 to 370 new restaurants in 2026, including 10 to 15 international partner-operated restaurants, with around 80% of new company-owned restaurants featuring a Chipotlane.",
+        "document": "10-K",
+        "line": 461,
+        "quote": "We expect to open approximately 350 to 370 restaurants in 2026, which includes 10 to 15 international partner-operated restaurants. We expect around 80% of our new company-owned restaurants will include a Chipotlane."
+      }
+    ],
+    "gaps": [
+      "Specific details regarding strategic menu additions outside of standard offerings or granular regional performance breakdowns beyond the 11 U.S. operating regions are omitted.",
+      "1 research claim(s) omitted because the quoted line or a number in the claim could not be verified."
+    ]
+  },
+  "financial": {
+    "observations": [
+      "Total revenue expanded year over year, driven by new restaurant openings and positive comparable restaurant sales.",
+      "Operating margin and net income contracted during the quarterly period compared to the prior year period.",
+      "Free cash flow generation remained positive, supported by cash provided by operating activities despite substantial capital expenditures for property and equipment.",
+      "Peer companies display varied profitability levels, with some reporting positive operating income and others operating at a loss.",
+      "Share repurchase activities continued under authorizations provided by the Board of Directors."
+    ],
+    "gaps": [
+      "Specific share price source and valuation date parameters were unspecified.",
+      "Certain peer companies report distinct fiscal year-end date boundaries and lack explicit long-term debt reporting tags in specific filings.",
+      "Detailed breakdowns of short-term versus long-term debt classifications require further filing verification for exact debt-to-equity determinations."
+    ]
+  },
+  "advice": {
+    "recommendation": "Insufficient evidence",
+    "thesis": "A research claim could not be verified after revision, so the recommendation cannot be supported.",
+    "deciding_metric": "operating_margin_percent",
+    "risks": [
+      "The incomplete evidence may change the conclusion."
+    ]
+  },
+  "manager_review": {
+    "research_issues": [
+      "Specific details regarding strategic menu additions outside of standard offerings or granular regional performance breakdowns beyond the 11 U.S. operating regions are omitted.",
+      "1 research claim(s) omitted because the quoted line or a number in the claim could not be verified."
+    ],
+    "financial_issues": [
+      "Specific share price source and valuation date parameters were unspecified.",
+      "Certain peer companies report distinct fiscal year-end date boundaries and lack explicit long-term debt reporting tags in specific filings.",
+      "Detailed breakdowns of short-term versus long-term debt classifications require further filing verification for exact debt-to-equity determinations."
+    ],
+    "advisor_issues": [
+      "A research claim could not be verified after revision, so the recommendation cannot be supported."
+    ],
+    "overall_issues": [
+      "Insufficient evidence prevents a fully supported investment recommendation due to unverified research claims and missing share price source parameters."
+    ]
+  },
+  "final_checks": {
+    "research": [],
+    "financial": [],
+    "advisor": []
+  }
+}
