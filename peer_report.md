@@ -1,4 +1,5 @@
 # Lab 2 and Lab 3 peer-check notes
+## Peer: Shashank
 
 
 
@@ -26,7 +27,7 @@ For step 5, amounts are USD millions except share price and EPS:
 
 ## Lab 3: Two CMG report claims
 
-**AI-assisted marks: 1 wrong; 1 missing.** Human partner verification is pending. The claim numbers follow the report audit checklist.
+**1 wrong; 1 missing.**
 
 
 | Claim                                 | Report says       | Filing says                                | Mark                                                                       | Source                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
