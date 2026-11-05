@@ -1,0 +1,190 @@
+{
+  "marks": [
+    {
+      "line": 36,
+      "value": "478834000000 USD",
+      "supported": true,
+      "reason": "matches company fact total_revenue current (us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax) for FY 2026"
+    },
+    {
+      "line": 37,
+      "value": "416161000000 USD",
+      "supported": true,
+      "reason": "matches company fact total_revenue prior (us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax) for FY 2025"
+    },
+    {
+      "line": 38,
+      "value": "158063000000 USD",
+      "supported": true,
+      "reason": "matches company fact operating_income current (us‑gaap:OperatingIncomeLoss) for FY 2026"
+    },
+    {
+      "line": 39,
+      "value": "133050000000 USD",
+      "supported": true,
+      "reason": "matches company fact operating_income prior (us‑gaap:OperatingIncomeLoss) for FY 2025"
+    },
+    {
+      "line": 40,
+      "value": "132175000000 USD",
+      "supported": true,
+      "reason": "matches company fact net_income current (us‑gaap:NetIncomeLoss) for FY 2026"
+    },
+    {
+      "line": 41,
+      "value": "112010000000 USD",
+      "supported": true,
+      "reason": "matches company fact net_income prior (us‑gaap:NetIncomeLoss) for FY 2025"
+    },
+    {
+      "line": 42,
+      "value": "8.98 USD/share",
+      "supported": true,
+      "reason": "matches company fact diluted_eps current (us‑gaap:EarningsPerShareDiluted) for FY 2026"
+    },
+    {
+      "line": 43,
+      "value": "7.46 USD/share",
+      "supported": true,
+      "reason": "matches company fact diluted_eps prior (us‑gaap:EarningsPerShareDiluted) for FY 2025"
+    },
+    {
+      "line": 44,
+      "value": "112093000000 USD",
+      "supported": true,
+      "reason": "matches company fact stockholders_equity current (us‑gaap:StockholdersEquity) as of 2026‑09‑26"
+    },
+    {
+      "line": 45,
+      "value": "73733000000 USD",
+      "supported": true,
+      "reason": "matches company fact stockholders_equity prior (us‑gaap:StockholdersEquity) as of 2025‑09‑27"
+    },
+    {
+      "line": 46,
+      "value": "68208000000 USD",
+      "supported": true,
+      "reason": "matches company fact long_term_debt_noncurrent current (us‑gaap:LongTermDebtNoncurrent) as of 2026‑09‑26"
+    },
+    {
+      "line": 47,
+      "value": "78328000000 USD",
+      "supported": true,
+      "reason": "matches company fact long_term_debt_noncurrent prior (us‑gaap:LongTermDebtNoncurrent) as of 2025‑09‑27"
+    },
+    {
+      "line": 48,
+      "value": "9906000000 USD",
+      "supported": true,
+      "reason": "matches company fact long_term_debt_current current (us‑gaap:LongTermDebtCurrent) as of 2026‑09‑26"
+    },
+    {
+      "line": 49,
+      "value": "12350000000 USD",
+      "supported": true,
+      "reason": "matches company fact long_term_debt_current prior (us‑gaap:LongTermDebtCurrent) as of 2025‑09‑27"
+    },
+    {
+      "line": 50,
+      "value": "145097000000 USD",
+      "supported": true,
+      "reason": "matches company fact cash_from_operations current (us‑gaap:NetCashProvidedByUsedInOperatingActivities) for FY 2026"
+    },
+    {
+      "line": 51,
+      "value": "111482000000 USD",
+      "supported": true,
+      "reason": "matches company fact cash_from_operations prior (us‑gaap:NetCashProvidedByUsedInOperatingActivities) for FY 2025"
+    },
+    {
+      "line": 52,
+      "value": "9041000000 USD",
+      "supported": true,
+      "reason": "matches company fact additions_to_property_and_equipment current (us‑gaap:PaymentsToAcquirePropertyPlantAndEquipment) for FY 2026"
+    },
+    {
+      "line": 53,
+      "value": "12715000000 USD",
+      "supported": true,
+      "reason": "matches company fact additions_to_property_and_equipment prior (us‑gaap:PaymentsToAcquirePropertyPlantAndEquipment) for FY 2025"
+    },
+    {
+      "line": 54,
+      "value": "15.06 %",
+      "supported": true,
+      "reason": "calculated from the two revenue facts; arithmetic checked separately, source facts verified"
+    },
+    {
+      "line": 55,
+      "value": "33.01 %",
+      "supported": true,
+      "reason": "based on operating_income current and total_revenue current; inputs are verified"
+    },
+    {
+      "line": 56,
+      "value": "142.26 %",
+      "supported": true,
+      "reason": "based on net_income current and average of stockholders equity current & prior; all inputs verified"
+    },
+    {
+      "line": 57,
+      "value": "0.6969 ratio",
+      "supported": true,
+      "reason": "derived from total long‑term debt (current + non‑current) and stockholders equity current; inputs verified"
+    },
+    {
+      "line": 58,
+      "value": "136056000000 USD",
+      "supported": true,
+      "reason": "cash_from_operations current minus additions_to_property_and_equipment current; both inputs verified"
+    },
+    {
+      "line": 59,
+      "value": "46.78 %",
+      "supported": true,
+      "reason": "Microsoft operating margin calculated from peer facts (operating_income current / total_revenue current) – inputs verified"
+    },
+    {
+      "line": 60,
+      "value": "32.03 %",
+      "supported": true,
+      "reason": "Alphabet operating margin derived from peer facts – inputs verified"
+    },
+    {
+      "line": 61,
+      "value": "11.16 %",
+      "supported": true,
+      "reason": "Amazon operating margin derived from peer facts – inputs verified"
+    },
+    {
+      "line": 62,
+      "value": "38.33 ratio",
+      "supported": false,
+      "reason": "price component (344.17 USD/share) is a user‑input with no filing citation; therefore the derived P/E ratio lacks a supported source"
+    },
+    {
+      "line": 64,
+      "value": "114.5 billion USD",
+      "supported": true,
+      "reason": "EX‑99.1 line 12 explicitly states quarterly revenue of $114.5 billion"
+    },
+    {
+      "line": 64,
+      "value": "12 %",
+      "supported": true,
+      "reason": "EX‑99.1 line 12 states revenue was up 12 percent year over year"
+    },
+    {
+      "line": 65,
+      "value": "2.10 USD/share",
+      "supported": true,
+      "reason": "EX‑99.1 line 12 includes diluted EPS of $2.10"
+    },
+    {
+      "line": 65,
+      "value": "14 %",
+      "supported": true,
+      "reason": "EX‑99.1 line 12 states EPS was up 14 percent year over year"
+    }
+  ]
+}

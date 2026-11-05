@@ -1,0 +1,35 @@
+{
+  "research_issues": [
+    "Missing claim for the required “Valuation Insights” section.",
+    "Missing claim for the required “Investment Recommendation” section.",
+    "Automatic check flagged all nine research claims as having invalid or non‑verbatim document line and quote.",
+    "Research Insight does not align with the supplied release first paragraph; the paragraph contains no discussion of the Starlink Wi‑Fi rollout, so evidence is insufficient."
+  ],
+  "financial_issues": [
+    "No Insight line was supplied for the Financial section (automatic check).",
+    "Financial observations contain raw digits rather than formatted commentary (automatic check).",
+    "Price input lacks a date and source, preventing a credible price‑to‑earnings multiple construction."
+  ],
+  "advisor_issues": [
+    "No Insight line was supplied for the Advisor section (automatic check).",
+    "Advisor prose contains raw digits (automatic check)."
+  ],
+  "overall_issues": [
+    "The five mandatory sections are not all populated: Valuation Insights and Investment Recommendation are missing.",
+    "Research claims lack verifiable line citations; all claim line references are flagged as invalid.",
+    "Key quantitative impacts (e.g., revenue or load‑factor effect of Starlink rollout, ZeroAvia retrofit timeline) remain unaddressed.",
+    "Insufficient evidence linking the provided Insight to the release’s first paragraph for all roles."
+  ],
+  "research_insight": {
+    "status": "unassessed",
+    "reason": "The release first paragraph does not contain any reference to the Starlink Wi‑Fi rollout; therefore the claim cannot be validated against the supplied paragraph."
+  },
+  "financial_insight": {
+    "status": "fail",
+    "reason": "No Insight line was provided for the Financial role."
+  },
+  "advisor_insight": {
+    "status": "fail",
+    "reason": "No Insight line was provided for the Advisor role."
+  }
+}

@@ -7,9 +7,73 @@ from types import SimpleNamespace
 from desk_verifier import SemanticMark, SemanticReview, annual_revenue_growth, check_fact_source, check_line_source, diluted_eps_line, quoted_line_matches, semantic_lookup, structured_semantic_lookup, verify
 from structured_claims import check_claim, formula_value
 from decimal import Decimal
+from report_metrics import metrics, render_metric
 
 
 class VerifierTest(unittest.TestCase):
+    def test_metric_rows_recompute_and_label_unsourced_price(self):
+        class Model:
+            def generate_content(self, **kwargs):
+                return SimpleNamespace(parsed=SemanticReview(marks=[
+                    SemanticMark(line=5, value='20%', supported=True, reason='matching periods'),
+                    SemanticMark(line=6, value='10', supported=True, reason='matching EPS'),
+                ]), text=None)
+        def fact(value, tag, unit='USD'):
+            return {'tag': tag, 'unit': unit, 'current': {'val':value, 'start':'2025-01-01', 'end':'2025-12-31', 'accn':'id', 'filed':'2026-01-01'}}
+        facts = {'concepts': {'operating_income':fact(20, 'op'), 'total_revenue':fact(100, 'rev'), 'diluted_eps':fact(5, 'eps', 'USD/shares')}}
+        rows = metrics(facts, {}, '50')
+        shifted = json.loads(json.dumps(facts))
+        shifted['concepts']['operating_income']['current']['end'] = '2024-12-31'
+        self.assertNotIn('operating_margin_percent', metrics(shifted, {}, '50'))
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            (folder/'facts.json').write_text(json.dumps(facts), encoding='utf-8')
+            for form in ('10-K','10-Q','8-K','EX-99.1'):
+                (folder/f'TEST_{form}_id.txt').write_text('Test.\n',encoding='utf-8')
+            report = 'Filings: test\n## Valuation Insights\n| Measure | Result | Source |\n|---|---|---|\n' + render_metric('operating_margin_percent',rows['operating_margin_percent']) + '\n' + render_metric('price_to_earnings',rows['price_to_earnings'],'50') + '\n'
+            (folder/'equity_research_report.md').write_text(report,encoding='utf-8')
+            output = verify(folder,folder,SimpleNamespace(models=Model()),'fake').read_text(encoding='utf-8')
+            marks = json.loads((folder/'verifier_output.json').read_text(encoding='utf-8'))
+            self.assertEqual([x['mark'] for x in marks], ['correct','unsupported'])
+            self.assertIn('Price to earnings (unverified)', output)
+            (folder/'equity_research_report.md').write_text(report.replace('20.00 %','21.00 %'),encoding='utf-8')
+            verify(folder,folder,SimpleNamespace(models=Model()),'fake')
+            marks = json.loads((folder/'verifier_output.json').read_text(encoding='utf-8'))
+            self.assertEqual(marks[0]['mark'], 'unsupported')
+
+    def test_wrong_source_line_is_not_presented_as_correction(self):
+        class Model:
+            def generate_content(self, **kwargs):
+                return SimpleNamespace(parsed=SemanticReview(marks=[]), text=None)
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            report = "Filings: sample\n## Overview\n- Revenue was 5. — 10-K line 1: Revenue was 5.\n"
+            (folder / "equity_research_report.md").write_text(report, encoding="utf-8")
+            (folder / "facts.json").write_text('{}', encoding="utf-8")
+            for form in ("10-K", "10-Q", "8-K", "EX-99.1"):
+                (folder / f"TEST_{form}_id.txt").write_text("Unresolved staff comments.\n", encoding="utf-8")
+            verified = verify(folder, folder, SimpleNamespace(models=Model()), "fake").read_text(encoding="utf-8")
+            self.assertNotIn("Filing text, 10-K line 1: Unresolved staff comments", verified)
+            self.assertIn("wrong", verified)
+
+    def test_repeated_invalid_quotes_have_one_notice_and_separate_marks(self):
+        class Model:
+            def generate_content(self, **kwargs):
+                return SimpleNamespace(parsed=SemanticReview(marks=[]), text=None)
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            report = ("Filings: sample\n## Overview\n"
+                      "- First claim — 10-K line 1: invented.\n"
+                      "- Second claim — 10-K line 1: also invented.\n")
+            (folder / "equity_research_report.md").write_text(report, encoding="utf-8")
+            (folder / "facts.json").write_text('{}', encoding="utf-8")
+            for form in ("10-K", "10-Q", "8-K", "EX-99.1"):
+                (folder / f"TEST_{form}_id.txt").write_text("Actual text.\n", encoding="utf-8")
+            result = verify(folder, folder, SimpleNamespace(models=Model()), "fake").read_text(encoding="utf-8")
+            marks = json.loads((folder / "verifier_output.json").read_text(encoding="utf-8"))
+            self.assertEqual(result.count("Unsupported claim removed;"), 1)
+            self.assertEqual([m["report_line"] for m in marks], [3, 4])
+
     def test_omitted_structured_mark_gets_one_retry_without_guessing(self):
         class Model:
             calls = 0

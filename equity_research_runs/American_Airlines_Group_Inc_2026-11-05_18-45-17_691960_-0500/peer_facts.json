@@ -1,0 +1,420 @@
+{
+  "DAL": {
+    "company": {
+      "ticker": "DAL",
+      "name": "DELTA AIR LINES, INC.",
+      "cik": 27904,
+      "source": "https://www.sec.gov/files/company_tickers.json"
+    },
+    "as_of": "2026-11-05",
+    "retrieved_at": "2026-11-05T18:45:27.719594-05:00",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027904.json",
+    "fiscal_year_end": "2025-12-31",
+    "prior_fiscal_year_end": "2024-12-31",
+    "preferred_10k_accession": "0000027904-26-000013",
+    "concepts": {
+      "total_revenue": {
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "current": {
+          "val": 63364000000,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 61643000000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "operating_income": {
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "current": {
+          "val": 5822000000,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 5995000000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "net_income": {
+        "tag": "us-gaap:NetIncomeLoss",
+        "unit": "USD",
+        "current": {
+          "val": 5005000000,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 3457000000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "diluted_eps": {
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "current": {
+          "val": 7.66,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 5.33,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "stockholders_equity": {
+        "tag": "us-gaap:StockholdersEquity",
+        "unit": "USD",
+        "current": {
+          "val": 20853000000,
+          "end": "2025-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 15293000000,
+          "end": "2024-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "long_term_debt_noncurrent": {
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "unit": "USD",
+        "current": {
+          "val": 11936000000,
+          "end": "2025-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 13546000000,
+          "end": "2024-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "long_term_debt_current": {
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "unit": "USD",
+        "current": {
+          "val": 1372000000,
+          "end": "2025-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 1801000000,
+          "end": "2024-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "cash_from_operations": {
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "current": {
+          "val": 8342000000,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 8025000000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000027904-26-000013",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "additions_to_property_and_equipment": {
+        "tag": null,
+        "unit": "USD",
+        "current": null,
+        "prior": null
+      }
+    },
+    "operating_margin_percent": "9.188182564232056057067104349"
+  },
+  "UAL": {
+    "company": {
+      "ticker": "UAL",
+      "name": "United Airlines Holdings, Inc.",
+      "cik": 100517,
+      "source": "https://www.sec.gov/files/company_tickers.json"
+    },
+    "as_of": "2026-11-05",
+    "retrieved_at": "2026-11-05T18:45:28.739705-05:00",
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000100517.json",
+    "fiscal_year_end": "2025-12-31",
+    "prior_fiscal_year_end": "2024-12-31",
+    "preferred_10k_accession": "0000100517-26-000023",
+    "concepts": {
+      "total_revenue": {
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "current": {
+          "val": 59070000000,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 57063000000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "operating_income": {
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "current": {
+          "val": 4713000000,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 5096000000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "net_income": {
+        "tag": "us-gaap:NetIncomeLoss",
+        "unit": "USD",
+        "current": {
+          "val": 3353000000,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 3149000000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "diluted_eps": {
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "current": {
+          "val": 10.2,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 9.45,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "stockholders_equity": {
+        "tag": "us-gaap:StockholdersEquity",
+        "unit": "USD",
+        "current": {
+          "val": 15282000000,
+          "end": "2025-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 12675000000,
+          "end": "2024-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "long_term_debt_noncurrent": {
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "unit": "USD",
+        "current": {
+          "val": 17170000000,
+          "end": "2025-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 21680000000,
+          "end": "2024-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "long_term_debt_current": {
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "unit": "USD",
+        "current": {
+          "val": 4096000000,
+          "end": "2025-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 2973000000,
+          "end": "2024-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "cash_from_operations": {
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "current": {
+          "val": 8431000000,
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        },
+        "prior": {
+          "val": 9445000000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0000100517-26-000023",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "fy": 2025,
+          "fp": "FY"
+        }
+      },
+      "additions_to_property_and_equipment": {
+        "tag": null,
+        "unit": "USD",
+        "current": null,
+        "prior": null
+      }
+    },
+    "operating_margin_percent": "7.978669375317420010157440325"
+  }
+}

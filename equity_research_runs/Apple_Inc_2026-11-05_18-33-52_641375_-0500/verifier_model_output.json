@@ -1,0 +1,196 @@
+{
+  "marks": [
+    {
+      "line": 35,
+      "value": "478834000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax for FY 2026 (2025‑09‑28 to 2026‑09‑26) reports 478,834,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 36,
+      "value": "416161000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax for FY 2025 (2024‑09‑29 to 2025‑09‑27) reports 416,161,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 37,
+      "value": "158063000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:OperatingIncomeLoss for FY 2026 (2025‑09‑28 to 2026‑09‑26) reports 158,063,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 38,
+      "value": "133050000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:OperatingIncomeLoss for FY 2025 (2024‑09‑29 to 2025‑09‑27) reports 133,050,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 39,
+      "value": "132175000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:NetIncomeLoss for FY 2026 (2025‑09‑28 to 2026‑09‑26) reports 132,175,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 40,
+      "value": "112010000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:NetIncomeLoss for FY 2025 (2024‑09‑29 to 2025‑09‑27) reports 112,010,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 41,
+      "value": "8.98",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:EarningsPerShareDiluted for FY 2026 (2025‑09‑28 to 2026‑09‑26) reports 8.98 USD/share – matches the reported number."
+    },
+    {
+      "line": 42,
+      "value": "7.46",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:EarningsPerShareDiluted for FY 2025 (2024‑09‑29 to 2025‑09‑27) reports 7.46 USD/share – matches the reported number."
+    },
+    {
+      "line": 43,
+      "value": "112093000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:StockholdersEquity as of 2026‑09‑26 reports 112,093,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 44,
+      "value": "73733000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:StockholdersEquity as of 2025‑09‑27 reports 73,733,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 45,
+      "value": "68208000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:LongTermDebtNoncurrent as of 2026‑09‑26 reports 68,208,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 46,
+      "value": "78328000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:LongTermDebtNoncurrent as of 2025‑09‑27 reports 78,328,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 47,
+      "value": "9906000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:LongTermDebtCurrent as of 2026‑09‑26 reports 9,906,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 48,
+      "value": "12350000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:LongTermDebtCurrent as of 2025‑09‑27 reports 12,350,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 49,
+      "value": "145097000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:NetCashProvidedByUsedInOperatingActivities for FY 2026 (2025‑09‑28 to 2026‑09‑26) reports 145,097,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 50,
+      "value": "111482000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:NetCashProvidedByUsedInOperatingActivities for FY 2025 (2024‑09‑29 to 2025‑09‑27) reports 111,482,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 51,
+      "value": "9041000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:PaymentsToAcquirePropertyPlantAndEquipment for FY 2026 (2025‑09‑28 to 2026‑09‑26) reports 9,041,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 52,
+      "value": "12715000000",
+      "supported": true,
+      "reason": "XBRL fact us-gaap:PaymentsToAcquirePropertyPlantAndEquipment for FY 2025 (2024‑09‑29 to 2025‑09‑27) reports 12,715,000,000 USD – matches the reported number."
+    },
+    {
+      "line": 53,
+      "value": "15.06 %",
+      "supported": true,
+      "reason": "Revenue growth calculated from the two revenue facts (478.834 bn – 416.161 bn) / 416.161 bn × 100 = 15.06 % – matches the reported percentage."
+    },
+    {
+      "line": 54,
+      "value": "33.01 %",
+      "supported": true,
+      "reason": "Operating margin calculated from operating income (158.063 bn) ÷ total revenue (478.834 bn) × 100 = 33.01 % – matches the reported percentage."
+    },
+    {
+      "line": 55,
+      "value": "142.26 %",
+      "supported": true,
+      "reason": "ROE calculated from net income 132.175 bn ÷ average equity ((112.093 bn + 73.733 bn)/2) × 100 = 142.26 % – matches the reported percentage."
+    },
+    {
+      "line": 56,
+      "value": "0.6969 ratio",
+      "supported": true,
+      "reason": "Debt‑to‑equity = (68.208 bn + 9.906 bn) ÷ 112.093 bn = 0.6969 – matches the reported ratio."
+    },
+    {
+      "line": 57,
+      "value": "136056000000 USD",
+      "supported": true,
+      "reason": "Free cash flow = operating cash 145.097 bn – capital‑expenditure 9.041 bn = 136.056 bn USD – matches the reported number."
+    },
+    {
+      "line": 58,
+      "value": "46.78 %",
+      "supported": true,
+      "reason": "Microsoft operating margin fact (us‑gaap:OperatingIncomeLoss 155.237 bn ÷ us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax 331.839 bn × 100) = 46.78 % – matches the reported percentage."
+    },
+    {
+      "line": 59,
+      "value": "32.03 %",
+      "supported": true,
+      "reason": "Alphabet operating margin fact (129.039 bn ÷ 402.836 bn × 100) = 32.03 % – matches the reported percentage."
+    },
+    {
+      "line": 60,
+      "value": "11.16 %",
+      "supported": true,
+      "reason": "Amazon operating margin fact (79.975 bn ÷ 716.924 bn × 100) = 11.16 % – matches the reported percentage."
+    },
+    {
+      "line": 61,
+      "value": "38.33 ratio",
+      "supported": true,
+      "reason": "Price‑to‑earnings ratio uses user‑provided price 344.17 and diluted EPS 8.98 (both from the filing) → 344.17 ÷ 8.98 = 38.33 – matches the reported ratio."
+    },
+    {
+      "line": 63,
+      "value": "114.5 billion USD",
+      "supported": false,
+      "reason": "Quarterly revenue figure appears only in the Exhibit 99.1 press release; no XBRL fact for the quarter is supplied, so the claim is unsupported."
+    },
+    {
+      "line": 63,
+      "value": "12 %",
+      "supported": false,
+      "reason": "The 12 % year‑over‑year growth claim is not linked to any cited filing fact; the filing excerpt does not contain a supporting figure for the quarter."
+    },
+    {
+      "line": 63,
+      "value": "47.9 %",
+      "supported": false,
+      "reason": "Gross‑margin percentage is quoted in the press release but no supporting XBRL fact for the quarter is provided."
+    },
+    {
+      "line": 64,
+      "value": "2.10 USD/share",
+      "supported": false,
+      "reason": "Quarterly diluted EPS is reported in the press release; no XBRL fact for the quarter is present, so the claim lacks a supporting fact."
+    },
+    {
+      "line": 64,
+      "value": "14 %",
+      "supported": false,
+      "reason": "The 14 % year‑over‑year EPS increase is not backed by a cited filing fact for the quarter."
+    }
+  ]
+}

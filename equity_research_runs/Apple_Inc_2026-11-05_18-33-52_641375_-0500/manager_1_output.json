@@ -1,0 +1,35 @@
+{
+  "research_issues": [
+    "Insight line is empty – cannot assess claim (fail).",
+    "No content supplied for the Overview section.",
+    "No content supplied for the Market Positioning and Growth Outlook section.",
+    "No content supplied for the Future Developments and Strategic Recommendations section."
+  ],
+  "financial_issues": [
+    "Insight does not provide an exact quote with a correct filing and line reference; it mixes quarterly EPS from the press release with full‑year EPS from the 10‑K (fail).",
+    "Valuation multiples (e.g., P/E) cannot be derived because market price, price date, and source are missing."
+  ],
+  "advisor_issues": [
+    "Insight line is empty – recommendation lacks supporting evidence (fail).",
+    "Investment Recommendation section is present only as a recommendation text without the required Insight citation.",
+    "research_insight_status",
+    "financial_insight_status"
+  ],
+  "overall_issues": [
+    "Missing content for required sections: Overview, Market Positioning and Growth Outlook, Valuation Insights, Future Developments and Strategic Recommendations, Investment Recommendation.",
+    "Market price (value, date, source) not provided – prevents P/E or valuation multiple analysis.",
+    "Automatic checks reported numerous claim line‑quote mismatches (claims 3,4,5,6,7,8,12,13,16,17,19,20,21) and missing Insight lines."
+  ],
+  "research_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

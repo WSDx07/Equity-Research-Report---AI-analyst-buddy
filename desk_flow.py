@@ -22,6 +22,7 @@ from desk_verifier import verify
 from financialdatasets_check import compare, fetch_statements
 from filing_excerpts import numbered_excerpt
 from insight_checks import insight_errors, release_first_paragraph
+from report_metrics import metrics, render_metric
 
 ROOT = Path(__file__).resolve().parent
 
@@ -65,6 +66,15 @@ def json_decimal(value):
 
 def save_json(path: Path, obj) -> None:
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2, default=json_decimal) + "\n", encoding="utf-8")
+
+
+def financial_insight_sources(text: str) -> list[dict]:
+    """Give analysts short, exact statement lines with their original numbers."""
+    matches = []
+    for index, line in enumerate(text.splitlines(), 1):
+        if len(line) <= 500 and re.search(r'\b(?:net sales|total revenue|operating income|net income|cash.*operating activities)\b', line, re.I) and re.search(r'\d', line):
+            matches.append({'document': '10-K', 'line': index, 'quote': line})
+    return matches[:20]
 
 
 class DeskState(BaseModel):
@@ -158,6 +168,7 @@ class EquityDeskFlow(Flow[DeskState]):
     def do_financial(self, feedback=None):
         context = dict(self.contexts["financial"])
         context["filing_10k"] = self.contexts["research"]["10-K"]
+        context["insight_source_candidates"] = financial_insight_sources(self.desk.filing_text['10-K'])
         context["release_first_paragraph"] = self.contexts["first_paragraph"]
         if feedback:
             context["revision_feedback"] = feedback
@@ -193,6 +204,10 @@ class EquityDeskFlow(Flow[DeskState]):
             automatic["financial_issues"].append("Financial observations contain digits.")
         if not self.state.advice["thesis"].strip():
             automatic["advisor_issues"].append("The investment thesis is missing.")
+        metric = self.state.advice.get("deciding_metric")
+        calculations = self.contexts["financial"]["calculator_results"]
+        if not metric or metric == "inputs" or calculations.get(metric) is None:
+            automatic["advisor_issues"].append("Select one available calculator result as the deciding metric and explain why it drives the recommendation.")
         if any(re.search(r"\d", s) for s in [self.state.advice["thesis"], *self.state.advice["risks"]]):
             automatic["advisor_issues"].append("Advisor prose contains digits.")
         self.state.review = self.role("manager", "strategy_manager.txt", "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.", {"sections": SECTIONS, "research": self.state.research, "financial": self.state.financial, "advisor": self.state.advice, "release_first_paragraph": self.contexts["first_paragraph"], "facts": self.contexts["financial"]["facts"], "calculator_results": self.contexts["financial"]["calculator_results"], "financialdatasets_crosscheck": self.contexts["financial"]["financialdatasets_crosscheck"], "automatic_checks": automatic}, "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason.", ManagerReview)
@@ -236,6 +251,18 @@ class EquityDeskFlow(Flow[DeskState]):
                 lines.append(self.state.research.get("insight") or "Insight: unavailable; no supported research insight was supplied.")
             if section == SECTIONS[2]:
                 lines.extend(self.state.financial["observations"] or ["Evidence unavailable for this section."])
+                rows = metrics(facts, self.contexts['financial'].get('peer_facts', {}), self.state.price)
+                lines.extend(['', '| Measure | Result | Inputs, source and calculation |', '|---|---:|---|'])
+                lines.extend(render_metric(key, row, self.state.price) for key, row in rows.items())
+                lines.extend(['', 'Peer periods may differ; compare their fiscal year ends and business models. The share price is a user input without an independently verified date or source.', ''])
+                step6_path = folder / 'step_6_output.json'
+                if step6_path.exists():
+                    step6 = json.loads(step6_path.read_text(encoding='utf-8')).get('output', '')
+                    release_lines = desk.filing_text['EX-99.1'].splitlines()
+                    for match in re.finditer(r'^\s*(?:Quarter revenue|Diluted EPS) \(saved release line (\d+)\): (.+)$', step6, re.M):
+                        line_number = int(match.group(1))
+                        if 1 <= line_number <= len(release_lines) and match.group(2) in release_lines[line_number - 1]:
+                            lines.append(f"- {match.group(2)} — EX-99.1 line {line_number}: {release_lines[line_number - 1]}")
                 crosscheck = self.contexts["financial"]["financialdatasets_crosscheck"]
                 if crosscheck["status"] != "completed":
                     lines.append(f"Financial Datasets cross-check unavailable: {crosscheck['reason']}")
@@ -247,18 +274,21 @@ class EquityDeskFlow(Flow[DeskState]):
                         lines.append("Differences require review: " + ", ".join(differences) + ".")
                     if unavailable:
                         lines.append("Not comparable or unavailable: " + ", ".join(unavailable) + ".")
-                for name, concept in facts["concepts"].items():
-                    for period in ("current", "prior"):
-                        record = concept.get(period)
-                        if record:
-                            lines.append(f"- {name}: {record['val']} {concept['unit']}; tag {concept['tag']}; period end {record['end']}; filed {record['filed']}.")
                 lines.append(self.state.financial.get("insight") or "Insight: unavailable; no supported financial insight was supplied.")
             if section == SECTIONS[4]:
                 lines.append(f"**{self.state.advice['recommendation']}** — {self.state.advice['thesis']}")
+                chosen = self.state.advice.get('deciding_metric')
+                rows = metrics(facts, self.contexts['financial'].get('peer_facts', {}), self.state.price)
+                if chosen in rows:
+                    lines.extend(['', 'Deciding metric selected by the advisor:', '', '| Measure | Result | Inputs, source and calculation |', '|---|---:|---|', render_metric(chosen, rows[chosen], self.state.price), ''])
+                else:
+                    lines.append('Deciding metric unavailable; the recommendation cannot be assessed against its selected calculation.')
                 lines.extend(f"- Risk: {risk}" for risk in self.state.advice["risks"])
                 lines.append(self.state.advice.get("insight") or "Insight: unavailable; no supported investment insight was supplied.")
             lines.append("")
-        lines.extend(["## Evidence gaps and review", ""] + [f"- {gap}" for gap in self.state.research["gaps"] + self.state.financial["gaps"] + self.state.review["overall_issues"]])
+        gaps = list(dict.fromkeys(self.state.research["gaps"] + self.state.financial["gaps"]))
+        lines.extend(["## Evidence gaps", ""] + [f"- {gap}" for gap in gaps])
+        lines.extend(["", "## Audit appendix", ""] + [f"- {gap}" for gap in dict.fromkeys(self.state.review["overall_issues"])])
         for role, issues in self.state.review.get("post_revision_insight_issues", {}).items():
             lines.extend(f"- {role} Insight: {issue}" for issue in issues)
         (folder / "equity_research_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -1,0 +1,17 @@
+{
+  "observations": [
+    "The filing under review is the company's annual report on Form 10‑K for its fiscal year that closes in the last Saturday of September, covering the most recent twelve‑month period and the comparable prior twelve‑month period.",
+    "The financial concepts reported follow US‑GAAP definitions: revenue is captured under the tag us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax, operating income under us‑gaap:OperatingIncomeLoss, net income under us‑gaap:NetIncomeLoss, diluted earnings per share under us‑gaap:EarningsPerShareDiluted, and stockholders’ equity under us‑gaap:StockholdersEquity. Cash from operations is presented under us‑gaap:NetCashProvidedByUsedInOperatingActivities.",
+    "All quantitative figures cited are sourced from the 10‑K filing and have been cross‑checked against an external financial‑datasets source, which reports exact numeric matches for the revenue, operating income, net income, EPS and equity items for the current period. However, the cross‑check flags the prior‑period figures as not comparable due to missing unique annual statements in the external data set.",
+    "The calculator output includes a price per share and a price‑to‑earnings multiple, but the required price date and source fields are empty. Because valuation analysis relies on a complete price quotation and a clearly identified earnings denominator, the current data set cannot support a valid valuation conclusion.",
+    "Peer analysis is limited. The peer companies report fiscal years that end on different dates, and the data set does not provide aligned reporting periods or comparable segment breakdowns. Consequently, no reliable peer‑company comparison can be drawn.",
+    "Certain balance‑sheet components such as long‑term debt (both non‑current and current) are noted as not safely mappable to the provider fields, indicating a gap in the evidence required for a full leverage assessment.",
+    "The 8‑K quarterly release provides a narrative of the quarter’s performance and mentions a record quarterly revenue figure, but does not supply the full‑year context needed to evaluate the company’s complete annual trajectory."
+  ],
+  "gaps": [
+    "Missing price date and source prevents any price‑based valuation.",
+    "Peer financials are not aligned to the same fiscal period, limiting comparative analysis.",
+    "Long‑term debt tags lack a clear mapping, leaving debt‑to‑equity calculations unsupported."
+  ],
+  "insight": "Insight: Apple achieved an all‑time record full‑year revenue, surpassing prior years — EX‑99.1 line 14: \"Apple’s board of directors has declared a cash dividend ... capped off a strong fiscal 2026, with all‑time record revenue of $479 billion\"."
+}

@@ -1,0 +1,37 @@
+{
+  "research_issues": [
+    "Claim 3 has an invalid or non‑verbatim document line and quote.",
+    "Claim 5 has an invalid or non‑verbatim document line and quote.",
+    "Claim 7 has an invalid or non‑verbatim document line and quote.",
+    "Claim 13 has an invalid or non‑verbatim document line and quote.",
+    "Claim 16 has an invalid or non‑verbatim document line and quote.",
+    "Claim 17 has an invalid or non‑verbatim document line and quote.",
+    "Claim 18 has an invalid or non‑verbatim document line and quote.",
+    "Claim 20 has an invalid or non‑verbatim document line and quote.",
+    "No Insight line was supplied."
+  ],
+  "financial_issues": [
+    "No Insight line was supplied.",
+    "Financial observations contain digits."
+  ],
+  "advisor_issues": [
+    "Insight needs a filing, line number, and exact quote from that line."
+  ],
+  "overall_issues": [
+    "Research insight missing – cannot evaluate completeness/consistency.",
+    "Financial insight missing – cannot evaluate completeness/consistency.",
+    "Advisor insight missing – recommendation lacks required citation."
+  ],
+  "research_insight": {
+    "status": "fail",
+    "reason": "No Insight line supplied; cannot assess research claims."
+  },
+  "financial_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

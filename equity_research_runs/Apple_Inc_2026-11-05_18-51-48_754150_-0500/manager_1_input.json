@@ -1,0 +1,834 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services.",
+          "document": "10-K",
+          "line": 143,
+          "quote": "The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services."
+        },
+        {
+          "section": "Overview",
+          "claim": "Wearables includes smartwatches, wireless headphones and spatial computers.",
+          "document": "10-K",
+          "line": 152,
+          "quote": "Wearables includes smartwatches, wireless headphones and spatial computers."
+        },
+        {
+          "section": "Overview",
+          "claim": "The Company’s advertising services include third‑party licensing arrangements and the Company’s own advertising platforms.",
+          "document": "10-K",
+          "line": 156,
+          "quote": "The Company’s advertising services include third‑party licensing arrangements and the Company’s own advertising platforms."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The markets for the Company’s products and services are highly competitive and are characterized by aggressive price competition, downward pressure on gross margins, continual improvement in product performance, and price sensitivity on the part of consumers and businesses.",
+          "document": "10-K",
+          "line": 173,
+          "quote": "The markets for the Company’s products and services are highly competitive and are characterized by aggressive price competition, downward pressure on gross margins, continual improvement in product performance, and price sensitivity on the part of consumers and businesses."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The Company’s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies.",
+          "document": "10-K",
+          "line": 175,
+          "quote": "The Company’s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The Company has a minority market share in the global smartphone, personal computer, tablet and wearables markets.",
+          "document": "10-K",
+          "line": 176,
+          "quote": "The Company has a minority market share in the global smartphone, personal computer, tablet and wearables markets."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Services revenue reaches new all‑time high.",
+          "document": "EX-99.1",
+          "line": 11,
+          "quote": "Services revenue reaches new all‑time high"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Quarterly revenue of $114.5 billion, up 12 percent year over year, set a September‑quarter record.",
+          "document": "EX-99.1",
+          "line": 12,
+          "quote": "The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management described the September‑quarter as “the most ambitious lineup yet,” highlighting the iPhone Duo, iPhone 18 Pro/Max, new home hardware, and an “all‑new Siri AI.”",
+          "document": "EX-99.1",
+          "line": 13,
+          "quote": "We’re closing the year with our most ambitious lineup yet. That includes the iPhone Duo, the most transformational iPhone since the original, alongside iPhone 18 Pro and iPhone 18 Pro Max, our most powerful iPhones yet. We also just introduced a whole new generation of hardware for the home and brought Touch to Mac for the first time. Together with the all‑new Siri AI, it’s an incredible lineup to carry us into the holiday season."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management anticipates that the new product and service introductions will drive continued growth through the holiday season.",
+          "document": "EX-99.1",
+          "line": 13,
+          "quote": "Together with the all‑new Siri AI, it’s an incredible lineup to carry us into the holiday season."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Supply constraints and rising costs for advanced semiconductors, memory and storage are expected to intensify, creating pricing pressure on products.",
+          "document": "10-K",
+          "line": 178,
+          "quote": "Although most components essential to the Company’s business are generally available from multiple sources, certain components are currently obtained from single or limited sources."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The Company’s reliance on single‑source suppliers for custom components may limit its ability to meet demand if those suppliers cannot scale yields.",
+          "document": "10-K",
+          "line": 179,
+          "quote": "When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "A judgment: Diversify the component supply base where feasible to reduce exposure to single‑source shortages and mitigate margin pressure.",
+          "document": "10-K",
+          "line": 178,
+          "quote": "The Company’s reliance on single‑source partners…exposes it to significant supply and pricing risks."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "A judgment: Continue investing in proprietary AI infrastructure while monitoring regulatory developments, because the 10‑K notes that AI‑related legal and compliance risks could materially affect the business.",
+          "document": "10-K",
+          "line": 279,
+          "quote": "Artificial intelligence technologies are increasingly integrated into the Company’s products and services and its business and operations. These technologies present emerging legal, regulatory, ethical and operational risks."
+        }
+      ],
+      "gaps": [
+        "The 10‑K does not contain quantitative forecasts of future revenue growth, market‑share trends, or specific product launch timelines beyond the qualitative statements in the Business and Risk Factors sections.",
+        "No explicit discussion of the expected financial impact of the new iPhone “Duo” or the new home‑hardware line appears in the 10‑K; the only forward‑looking statements are in the earnings‑release management quotes."
+      ],
+      "insight": ""
+    },
+    "financial": {
+      "observations": [
+        "The filing under review is the company's annual report on Form 10‑K for its fiscal year that closes in the last Saturday of September, covering the most recent twelve‑month period and the comparable prior twelve‑month period.",
+        "The financial concepts reported follow US‑GAAP definitions: revenue is captured under the tag us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax, operating income under us‑gaap:OperatingIncomeLoss, net income under us‑gaap:NetIncomeLoss, diluted earnings per share under us‑gaap:EarningsPerShareDiluted, and stockholders’ equity under us‑gaap:StockholdersEquity. Cash from operations is presented under us‑gaap:NetCashProvidedByUsedInOperatingActivities.",
+        "All quantitative figures cited are sourced from the 10‑K filing and have been cross‑checked against an external financial‑datasets source, which reports exact numeric matches for the revenue, operating income, net income, EPS and equity items for the current period. However, the cross‑check flags the prior‑period figures as not comparable due to missing unique annual statements in the external data set.",
+        "The calculator output includes a price per share and a price‑to‑earnings multiple, but the required price date and source fields are empty. Because valuation analysis relies on a complete price quotation and a clearly identified earnings denominator, the current data set cannot support a valid valuation conclusion.",
+        "Peer analysis is limited. The peer companies report fiscal years that end on different dates, and the data set does not provide aligned reporting periods or comparable segment breakdowns. Consequently, no reliable peer‑company comparison can be drawn.",
+        "Certain balance‑sheet components such as long‑term debt (both non‑current and current) are noted as not safely mappable to the provider fields, indicating a gap in the evidence required for a full leverage assessment.",
+        "The 8‑K quarterly release provides a narrative of the quarter’s performance and mentions a record quarterly revenue figure, but does not supply the full‑year context needed to evaluate the company’s complete annual trajectory."
+      ],
+      "gaps": [
+        "Missing price date and source prevents any price‑based valuation.",
+        "Peer financials are not aligned to the same fiscal period, limiting comparative analysis.",
+        "Long‑term debt tags lack a clear mapping, leaving debt‑to‑equity calculations unsupported."
+      ],
+      "insight": "Insight: Apple achieved an all‑time record full‑year revenue, surpassing prior years — EX‑99.1 line 14: \"Apple’s board of directors has declared a cash dividend ... capped off a strong fiscal 2026, with all‑time record revenue of $479 billion\"."
+    },
+    "advisor": {
+      "recommendation": "Insufficient evidence",
+      "thesis": "The firm reports strong top‑line momentum and robust profitability, yet faces material supply‑chain constraints, intense competitive pricing pressure, and evolving regulatory and AI‑related risks. Because reliable market pricing and peer benchmarks are unavailable, a confident valuation cannot be formed, leaving the investment case undecided.",
+      "deciding_metric": "operating_margin_percent",
+      "risks": [
+        "Supply‑chain reliance on single‑source components may limit product availability and pressure margins.",
+        "Aggressive price competition in highly saturated markets can erode gross margins.",
+        "Emerging legal, regulatory and ethical issues surrounding artificial intelligence could impose costly compliance or litigation burdens.",
+        "Antitrust investigations and potential changes to digital‑market regulations may affect revenue streams.",
+        "Uncertainty around the company’s debt profile due to incomplete reporting hampers leverage assessment."
+      ],
+      "insight": ""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 12,
+      "text": "CUPERTINO, CALIFORNIA — Apple® today announced financial results for its fiscal 2026 fourth quarter ended September 26, 2026. The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year. Company gross margin was 47.9 percent, including a favorable impact of approximately 1 percentage point from tariff refunds. Diluted earnings per share was $2.10, up 14 percent year over year, and included a favorable impact of $0.05 from tariff refunds.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "cik": 320193,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-05",
+      "retrieved_at": "2026-11-05T18:51:53.048633-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "fiscal_year_end": "2026-09-26",
+      "prior_fiscal_year_end": "2025-09-27",
+      "preferred_10k_accession": "0000320193-26-000026",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "current": {
+            "val": 478834000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 416161000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 158063000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 133050000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 132175000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 112010000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 8.98,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 7.46,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 112093000000,
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 73733000000,
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "current": {
+            "val": 68208000000,
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 78328000000,
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": {
+            "val": 9906000000,
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 12350000000,
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 145097000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 111482000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": {
+            "val": 9041000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 12715000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "15.05979656911627951682161471",
+      "operating_margin_percent": "33.00997840587761103012735102",
+      "return_on_average_equity_percent": "142.2567347949156738023742641",
+      "debt_to_equity": "0.6968677794331492599894730269",
+      "free_cash_flow_usd": "136056000000",
+      "price_to_earnings": "38.41870824053452115812917595",
+      "inputs": {
+        "price_usd_per_share": "345",
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebtNoncurrent"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-05T18:51:56.167744-05:00",
+      "analysis_date": "2026-11-05",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 478834000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "AAPL",
+            "report_period": "2026-09-26",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-03",
+            "accession_number": "0000320193-26-000026",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000026/aapl-20260926.htm",
+            "value": "478834000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 416161000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 158063000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "AAPL",
+            "report_period": "2026-09-26",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-03",
+            "accession_number": "0000320193-26-000026",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000026/aapl-20260926.htm",
+            "value": "158063000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 133050000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 132175000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "AAPL",
+            "report_period": "2026-09-26",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-03",
+            "accession_number": "0000320193-26-000026",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000026/aapl-20260926.htm",
+            "value": "132175000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 112010000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 8.98,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "AAPL",
+            "report_period": "2026-09-26",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-03",
+            "accession_number": "0000320193-26-000026",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000026/aapl-20260926.htm",
+            "value": "8.98"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 7.46,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 112093000000,
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "AAPL",
+            "report_period": "2026-09-26",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-03",
+            "accession_number": "0000320193-26-000026",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000026/aapl-20260926.htm",
+            "value": "112093000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 73733000000,
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 68208000000,
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 78328000000,
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 9906000000,
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 12350000000,
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 145097000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "AAPL",
+            "report_period": "2026-09-26",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-03",
+            "accession_number": "0000320193-26-000026",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000026/aapl-20260926.htm",
+            "value": "145097000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 111482000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 9041000000,
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 12715000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 3 has an invalid or non-verbatim document line and quote.",
+        "Claim 6 has an invalid or non-verbatim document line and quote.",
+        "Claim 7 has an invalid or non-verbatim document line and quote.",
+        "Claim 8 has an invalid or non-verbatim document line and quote.",
+        "Claim 9 has an invalid or non-verbatim document line and quote.",
+        "Claim 10 has an invalid or non-verbatim document line and quote.",
+        "Claim 13 has an invalid or non-verbatim document line and quote.",
+        "Claim 14 includes a number that is not present in its quoted line.",
+        "No Insight line was supplied."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line.",
+        "Financial observations contain digits."
+      ],
+      "advisor_issues": [
+        "No Insight line was supplied."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

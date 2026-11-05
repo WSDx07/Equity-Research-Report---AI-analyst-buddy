@@ -1,0 +1,58 @@
+{
+  "marks": [
+    {
+      "line": 54,
+      "value": "15.06 %",
+      "supported": true,
+      "reason": "The revenue growth percentage is calculated from the cited total revenue current (478,834,000,000 USD) and prior (416,161,000,000 USD) facts, which match the saved company facts for the correct periods and definition."
+    },
+    {
+      "line": 55,
+      "value": "33.01 %",
+      "supported": true,
+      "reason": "Operating margin is derived from operating income current (158,063,000,000 USD) and total revenue current (478,834,000,000 USD) facts, both cited correctly and matching the saved facts for the fiscal year ending 2026‑09‑26."
+    },
+    {
+      "line": 56,
+      "value": "142.26 %",
+      "supported": true,
+      "reason": "Return on average equity uses net income current (132,175,000,000 USD) and the average of stockholders' equity current (112,093,000,000 USD) and prior (73,733,000,000 USD), all of which are directly cited and match the saved company facts for the appropriate periods."
+    },
+    {
+      "line": 57,
+      "value": "0.6969 ratio",
+      "supported": true,
+      "reason": "Debt‑to‑equity ratio is calculated from long‑term debt non‑current (68,208,000,000 USD) + long‑term debt current (9,906,000,000 USD) and stockholders' equity current (112,093,000,000 USD), with each component matching the cited XBRL facts for the fiscal year ending 2026‑09‑26."
+    },
+    {
+      "line": 59,
+      "value": "46.78 %",
+      "supported": true,
+      "reason": "Peer Microsoft operating margin uses Microsoft operating income (155,237,000,000 USD) and total revenue (331,839,000,000 USD) from the peer facts, which correspond to the cited filing period (2025‑07‑01 to 2026‑06‑30) and definition."
+    },
+    {
+      "line": 60,
+      "value": "32.03 %",
+      "supported": true,
+      "reason": "Peer Google operating margin is based on Google operating income (129,039,000,000 USD) and revenue (402,836,000,000 USD) from the peer facts, matching the cited filing period (2025‑01‑01 to 2025‑12‑31) and definition."
+    },
+    {
+      "line": 61,
+      "value": "11.16 %",
+      "supported": true,
+      "reason": "Peer Amazon operating margin uses Amazon operating income (79,975,000,000 USD) and revenue (716,924,000,000 USD) from the peer facts, matching the cited filing period (2025‑01‑01 to 2025‑12‑31) and definition."
+    },
+    {
+      "line": 62,
+      "value": "38.33 ratio",
+      "supported": true,
+      "reason": "Price‑to‑earnings uses the user‑provided price (344.17 USD) and Apple diluted EPS (8.98 USD) from the cited XBRL fact for the fiscal year ending 2026‑09‑26; the EPS matches the saved fact, and the price is accepted as given, so the reported ratio is consistent with the inputs."
+    },
+    {
+      "line": 93,
+      "value": "",
+      "supported": false,
+      "reason": "Line 93 contains no numeric claim; it is a textual risk statement, so there is nothing to verify against the filings."
+    }
+  ]
+}

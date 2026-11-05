@@ -1,0 +1,769 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "American operates a major network air carrier serving over three hundred fifty destinations and carried over two hundred twenty‑four million passengers in the most recent year, while adding more than sixty new routes.",
+          "document": "10-K",
+          "line": 212,
+          "quote": "Together with our wholly‑owned regional airline subsidiaries and third‑party regional carriers operating as American Eagle, our primary business activity is the operation of a major network air carrier, providing scheduled air transportation for passengers and cargo through our hubs in Charlotte, Chicago, Dallas/Fort Worth, Los Angeles, Miami, New York, Philadelphia, Phoenix and Washington, D.C. and partner gateways, including in London, Doha, Madrid, Seattle/Tacoma, Sydney and Tokyo (among others). We provide service to over 350 destinations around the world, and in 2025, approximately 224 million passengers boarded our flights. In 2025, we launched more than 60 new routes, including to trans‑Atlantic destinations such as Spain, Italy and Greece. We also announced over 20 new routes for customers to explore in 2026, including our first trans‑Atlantic route to be flown by the Airbus A321XLR from New York to Edinburgh, Scotland."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The airline faces a highly competitive environment across all its markets.",
+          "document": "10-K",
+          "line": 246,
+          "quote": "The markets in which we operate are highly competitive."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management says its investments in connectivity, lounges, seatback entertainment, airport facilities and fleet modernization are intended to build a best‑in‑class customer experience.",
+          "document": "EX-99.1",
+          "line": 34,
+          "quote": "American’s investments in high‑speed connectivity, lounges, seatback entertainment, airport facilities and fleet modernization are creating the foundation for a best‑in‑class customer experience."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The company announced a plan to outfit more than five hundred aircraft with high‑speed Starlink Wi‑Fi, the largest in‑flight connectivity upgrade in its history.",
+          "document": "EX-99.1",
+          "line": 35,
+          "quote": "In May, American announced plans to equip more than 500 aircraft with high‑speed Starlink Wi‑Fi, representing the largest in‑flight connectivity upgrade in the airline’s history."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "American has invested in ZeroAvia’s hydrogen‑fuel‑cell technology and is working to retrofit existing FAA‑certified aircraft, a strategy aimed at simplifying regulation and shortening time to market.",
+          "document": "10-K",
+          "line": 347,
+          "quote": "ZeroAvia’s technology uses green hydrogen to produce electricity through a catalytic chemical reaction, which then powers the motors of the aircraft. ZeroAvia is working to retrofit and linefit its powertrains to existing FAA‑certified fixed‑wing aircraft, a strategy aimed at simplifying the regulatory process and reducing time to market."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The airline introduced a new premium Flagship Suite on select aircraft and announced plans to extend the offering to its larger wide‑body fleet.",
+          "document": "10-K",
+          "line": 334,
+          "quote": "•introduced the new premium Flagship Suite® on our Boeing 787‑9s and Airbus A321XLRs and announced plans to expand this product to our Boeing 777 fleet;"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management plans to expand premium seating on both new deliveries and retrofits, aiming to raise the premium seat share on narrow‑body aircraft to roughly forty percent.",
+          "document": "10-K",
+          "line": 41,
+          "quote": "American plans to continue expanding premium seating through the delivery of new aircraft and the retrofit of existing aircraft. Premium products generate roughly half of the company’s ticket revenue on approximately 30% of seats today. Through the recently announced narrowbody retrofit program, American expects premium seats on narrowbody aircraft to increase to 40% in the coming years."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Fuel cost sensitivity is highlighted; a one‑cent per gallon rise in fuel price is projected to add roughly fifty million dollars to annual fuel expense.",
+          "document": "10-K",
+          "line": 352,
+          "quote": "Based on our 2026 forecasted mainline and regional fuel consumption, we estimate that a one cent per gallon increase in the price of aircraft fuel would increase our 2026 annual fuel expense by approximately $50 million."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management indicates ongoing and future business‑model changes intended to drive revenue growth and cost offset.",
+          "document": "10-K",
+          "line": 518,
+          "quote": "We have in the past instituted, and intend to institute in the future, changes to our business model designed to increase revenues and offset costs."
+        }
+      ],
+      "gaps": [
+        "No specific evidence in the provided filings about the quantitative impact of the Starlink rollout on revenue or load factor; the effect remains unproven.",
+        "No disclosed timeline for the ZeroAvia retrofit beyond the current development stage; the future operational benefit is uncertain."
+      ],
+      "insight": "Insight: American’s rollout of Starlink Wi‑Fi to more than five hundred aircraft marks the largest in‑flight connectivity upgrade in its history, a potential differentiator for customer experience. — EX-99.1 line 35: In May, American announced plans to equip more than 500 aircraft with high‑speed Starlink Wi‑Fi, representing the largest in‑flight connectivity upgrade in the airline’s history."
+    },
+    "financial": {
+      "observations": [
+        "The 2025 annual filing shows total revenue marginally higher than the prior year, but operating income fell sharply and net income turned modestly positive after a loss the year before.",
+        "Diluted earnings per share slipped from the prior period to a much lower level, indicating earnings pressure.",
+        "Stockholders’ equity is reported as a deficit, reflecting negative book value.",
+        "Long‑term debt remains a dominant component of the capital structure, with both non‑current and current portions sizeable.",
+        "Cash generated from operating activities decreased year‑over‑year, suggesting tighter cash flow.",
+        "The filing highlights a strong focus on premium product expansion, network growth and technology investments, yet also notes elevated fuel costs and high debt as material risks.",
+        "Risk disclosures repeatedly emphasize exposure to fuel price volatility, regulatory changes, labor relations, cyber‑security and climate‑related regulations, underscoring uncertainty in future performance.",
+        "Because the price of the common stock and a reliable earnings denominator are not supplied with a date and source, a price‑to‑earnings valuation cannot be credibly constructed.",
+        "Peer companies with the same fiscal year end provide comparable metrics; American’s operating margin is materially lower than those of Delta Air Lines and United Airlines, indicating weaker profitability relative to its main network peers.",
+        "The peer data lacks a comparable equity deficit metric, so a direct balance‑sheet strength comparison is limited."
+      ],
+      "gaps": [
+        "The price input lacks a filing date and source, preventing any valuation multiple from being calculated.",
+        "Although peer operating income and net income are available, the peer filings do not include a disclosed stockholders’ equity figure that would allow a full return on equity comparison.",
+        "The quarterly release provides a forward‑looking fuel price estimate but does not disclose the actual fuel expense for the upcoming quarter, limiting the ability to assess near‑term cost impact.",
+        "The cash‑flow statement for the prior year is not directly comparable in the cross‑check dataset, leaving some uncertainty around the trend in operating cash generation."
+      ],
+      "insight": ""
+    },
+    "advisor": {
+      "recommendation": "Insufficient evidence",
+      "thesis": "American Airlines operates a large global network and is investing heavily in premium cabins, connectivity and emerging fuel technologies, which could enhance the customer experience and long‑term sustainability. However, the company’s profitability metrics remain weak, with operating margins low relative to peers, a negative return on equity and a balance sheet weighed down by substantial debt and an equity deficit. Cash generation is contracting and earnings per share have slipped, indicating pressure on near‑term earnings. The competitive landscape is intense and fuel cost sensitivity is high. Given the mixed operational progress and the material financial headwinds, the current data do not provide a clear basis for a definitive buy or sell stance.",
+      "deciding_metric": "operating_margin_percent",
+      "risks": [
+        "Volatility in aircraft fuel prices that could further strain earnings.",
+        "A high debt load that may limit financial flexibility and increase refinancing risk.",
+        "Intense competition across domestic and international routes that pressures pricing and yields.",
+        "Potential disruptions from labor actions or shortages of qualified personnel.",
+        "Technology and cybersecurity failures that could damage operations and reputation.",
+        "insight\": \"Insight: American’s rollout of Starlink Wi‑Fi to more than five hundred aircraft marks the largest in‑flight connectivity upgrade in its history, a potential differentiator for customer experience. — EX-99.1 line 35: In May, American announced plans to equip more than 500 aircraft with high‑speed Starlink Wi‑Fi, representing the largest in‑flight connectivity upgrade in the airline’s history.\""
+      ],
+      "insight": ""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 88,
+      "text": "could disrupt our operations, harm our reputation, expose us to legal risks and otherwise materially adversely affect our business, results of operations and financial condition; we are exposed to risks from cyberattacks, and any cybersecurity incidents involving us, our third-party service providers, or one of our AAdvantage partners or other business partners; we have a significant amount of goodwill, which is assessed for impairment at least annually. We may never realize the full value of our intangible or long-lived assets, causing us to record material impairment charges; the commercial relationships that we have with other companies, including any related equity investments, may not produce the returns or results we expect; our business is very dependent on the price and availability of aircraft fuel. Continued periods of high volatility in fuel costs, increased fuel prices or significant disruptions in the supply of aircraft fuel could have a significant negative impact on consumer demand, our operating results and liquidity; our business is subject to extensive government regulation; we can be adversely affected by any prolonged partial or full U.S. Government shutdown; we operate a global business with international operations that are subject to economic and political instability and have been, and in the future may continue to be, adversely affected by numerous events, circumstances or government actions beyond our control; we may be adversely affected by conflicts overseas, terrorist attacks or other acts of violence, domestically or abroad; the travel industry continues to face ongoing security concerns; we are subject to risks associated with climate change, including increased regulation of our greenhouse gas emissions, changing consumer preferences and the potential for increased impacts of severe weather events on our operations and infrastructure; we are subject to various risks associated with environmental and social matters, and many forms of environmental and noise regulation; a shortage of pilots or other personnel could materially adversely affect our business; we depend on a limited number of suppliers for aircraft, aircraft engines and parts. Delays in scheduled aircraft deliveries, unexpected grounding of aircraft or aircraft engines whether by regulators or by us, or other loss of anticipated fleet capacity, and failure of new aircraft to receive regulatory approval, be produced or otherwise perform as and when expected, adversely impacts our business, results of operations and financial condition; we rely on third-party distribution channels and must effectively manage the costs, rights and functionality of these channels; if we are unable to obtain and maintain adequate facilities and infrastructure throughout our system and, at some airports, adequate slots, we may be unable to operate our existing flight schedule and to expand or change our route network in the future; interruptions or disruptions in service at one of our key facilities; increases in insurance costs or reductions in insurance coverage, and heavy taxation of the airline industry; risks related to ownership of AAG common stock; and other risks set forth herein as well as in the company’s latest annual report on Form 10-K for the year ended December 31, 2025 (especially in Part I, Item 1A. Risk Factors and Part II, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations) and subsequent quarterly reports on Form 10-Q (especially in Part I, Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations and Part II, Item 1A. Risk Factors), and other risks and uncertainties listed from time to time in the company’s other filings with the Securities and Exchange Commission. Additionally, there may be other factors of which the company is not currently aware that may affect matters discussed in the forward-looking statements and may also cause actual results to differ materially from those discussed. The company does not assume any obligation to publicly update or supplement any forward-looking statement to reflect actual results, changes in assumptions or changes in other factors affecting these forward-looking statements other than as required by law. Any forward-looking statements speak only as of the date hereof or as of the dates indicated in the statement.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "AAL",
+        "name": "American Airlines Group Inc.",
+        "cik": 6201,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-05",
+      "retrieved_at": "2026-11-05T18:45:26.985949-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000006201.json",
+      "fiscal_year_end": "2025-12-31",
+      "prior_fiscal_year_end": "2024-12-31",
+      "preferred_10k_accession": "0000006201-26-000014",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "current": {
+            "val": 54633000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 54211000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 1467000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2614000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 111000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 846000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 0.17,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1.24,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": -3727000000,
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -3977000000,
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebt",
+          "unit": "USD",
+          "current": {
+            "val": 24639000000,
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 24617000000,
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": {
+            "val": 3641000000,
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 5196000000,
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 3099000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 3983000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "0.7784398000405821696703621036",
+      "operating_margin_percent": "2.685190269617264290813244742",
+      "return_on_average_equity_percent": "-2.881619937694704049844236760",
+      "debt_to_equity": null,
+      "free_cash_flow_usd": null,
+      "price_to_earnings": "76.05882352941176470588235294",
+      "inputs": {
+        "price_usd_per_share": "12.93",
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebt"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-05T18:45:29.793495-05:00",
+      "analysis_date": "2026-11-05",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 54633000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "AAL",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-18",
+            "accession_number": "0000006201-26-000014",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/0000006201-26-000014-index.htm",
+            "value": "54633000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 54211000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1467000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "AAL",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-18",
+            "accession_number": "0000006201-26-000014",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/0000006201-26-000014-index.htm",
+            "value": "1467000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2614000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 111000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "AAL",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-18",
+            "accession_number": "0000006201-26-000014",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/0000006201-26-000014-index.htm",
+            "value": "111000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 846000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 0.17,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "AAL",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-18",
+            "accession_number": "0000006201-26-000014",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/0000006201-26-000014-index.htm",
+            "value": "0.17"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 1.24,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -3727000000,
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "AAL",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-18",
+            "accession_number": "0000006201-26-000014",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/0000006201-26-000014-index.htm",
+            "value": "-3727000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -3977000000,
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebt",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 24639000000,
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebt",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 24617000000,
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3641000000,
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 5196000000,
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3099000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "AAL",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-18",
+            "accession_number": "0000006201-26-000014",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/0000006201-26-000014-index.htm",
+            "value": "3099000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3983000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0000006201-26-000014",
+            "filed": "2026-02-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 1 has an invalid or non-verbatim document line and quote.",
+        "Claim 2 has an invalid or non-verbatim document line and quote.",
+        "Claim 3 has an invalid or non-verbatim document line and quote.",
+        "Claim 4 has an invalid or non-verbatim document line and quote.",
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 6 has an invalid or non-verbatim document line and quote.",
+        "Claim 7 has an invalid or non-verbatim document line and quote.",
+        "Claim 8 has an invalid or non-verbatim document line and quote.",
+        "Claim 9 has an invalid or non-verbatim document line and quote."
+      ],
+      "financial_issues": [
+        "No Insight line was supplied.",
+        "Financial observations contain digits."
+      ],
+      "advisor_issues": [
+        "No Insight line was supplied.",
+        "Advisor prose contains digits."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}
