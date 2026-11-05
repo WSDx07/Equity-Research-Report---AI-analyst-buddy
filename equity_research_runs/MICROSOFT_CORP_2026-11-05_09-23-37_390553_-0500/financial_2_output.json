@@ -1,0 +1,19 @@
+{
+  "observations": [
+    "The annual filing supplies a complete set of audited financial statements for the fiscal year ending June 30, 2026, whereas the quarterly exhibit offers an unaudited snapshot for the three months ended September 30, 2026.",
+    "Both sources describe revenue, operating income and net income using the SEC‑defined US‑GAAP tags, but the exhibit additionally provides a non‑GAAP reconciliation that excludes the impact of OpenAI investments, a nuance absent from the annual filing.",
+    "The valuation metrics computed by the model (such as revenue growth, operating margin, return on equity, debt‑to‑equity, free cash flow and price‑to‑earnings) depend on specific definitions of numerator and denominator items; the underlying documentation does not explicitly confirm that the definitions align with the model’s inputs, so the quantitative outputs should be treated as provisional.",
+    "The debt figures required for a debt‑to‑equity calculation are disclosed in the balance sheet, yet the cross‑reference table flags the long‑term debt tags as lacking a safe mapping, indicating a gap in the evidentiary chain for that ratio.",
+    "The share‑based compensation and other cash‑flow adjustments mentioned in the cash‑flow statement affect free cash flow, but the calculation does not disclose the exact reconciliation steps, leaving the free‑cash‑flow figure without a transparent audit trail.",
+    "The quarterly release cites a strong increase in operating income and net income year‑over‑year, but it does not provide the underlying period‑over‑period comparability tables for the prior year, limiting the ability to verify the growth percentages stated.",
+    "The filing confirms that Microsoft is a large accelerated filer, which constrains the set of permissible disclosures under SEC rules, and it also contains extensive forward‑looking language that is qualified by standard risk‑factor caveats.",
+    "There is no explicit evidence in the examined documents for a current price per share, which is necessary to substantiate the price‑to‑earnings multiple reported by the calculator.",
+    "Overall, the available evidence is sufficient to confirm the presence of the key financial line items but incomplete for validating the derived valuation ratios, especially where tag‑mapping ambiguities and missing price data are identified."
+  ],
+  "gaps": [
+    "Missing clear mapping for long‑term non‑current and current debt tags prevents a fully documented debt‑to‑equity calculation.",
+    "Absence of a disclosed market price for the common stock leaves the price‑based multiples unverified.",
+    "The quarterly exhibit’s non‑GAAP adjustments are described but not fully itemised, creating a gap for reconstructing the adjusted operating margin."
+  ],
+  "insight": "Insight: Microsoft returned $10.2 billion to shareholders in the form of dividends and share repurchases in the first quarter of fiscal year 2027 — EX-99.1 line 86: \"Microsoft returned $10.2 billion to shareholders in the form of dividends and share repurchases in the first quarter of fiscal year 2027.\""
+}

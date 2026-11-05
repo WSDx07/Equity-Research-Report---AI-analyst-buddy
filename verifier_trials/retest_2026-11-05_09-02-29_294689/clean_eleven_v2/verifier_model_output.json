@@ -1,0 +1,166 @@
+{
+  "marks": [
+    {
+      "line": 8,
+      "value": "4,000",
+      "supported": true,
+      "reason": "10‑K line 144 explicitly states the company carries less than 4,000 SKUs per warehouse."
+    },
+    {
+      "line": 11,
+      "value": "one‑tenth (≈10%)",
+      "supported": false,
+      "reason": "10‑K line 153 reports gasoline accounted for 11% of net sales, not exactly 10%."
+    },
+    {
+      "line": 12,
+      "value": "11%",
+      "supported": true,
+      "reason": "10‑K line 156 confirms digitally‑enabled sales represented 11% of total net sales in 2026."
+    },
+    {
+      "line": 36,
+      "value": "303154000000",
+      "supported": true,
+      "reason": "Fact set shows total_revenue current value = 303,154,000,000 USD for FY ending 2026‑08‑30."
+    },
+    {
+      "line": 37,
+      "value": "275235000000",
+      "supported": true,
+      "reason": "Fact set shows total_revenue prior value = 275,235,000,000 USD for FY ending 2025‑08‑31."
+    },
+    {
+      "line": 38,
+      "value": "11685000000",
+      "supported": true,
+      "reason": "Fact set shows operating_income current = 11,685,000,000 USD for FY ending 2026‑08‑30."
+    },
+    {
+      "line": 39,
+      "value": "10383000000",
+      "supported": true,
+      "reason": "Fact set shows operating_income prior = 10,383,000,000 USD for FY ending 2025‑08‑31."
+    },
+    {
+      "line": 40,
+      "value": "9226000000",
+      "supported": true,
+      "reason": "Fact set shows net_income current = 9,226,000,000 USD for FY ending 2026‑08‑30."
+    },
+    {
+      "line": 41,
+      "value": "8099000000",
+      "supported": true,
+      "reason": "Fact set shows net_income prior = 8,099,000,000 USD for FY ending 2025‑08‑31."
+    },
+    {
+      "line": 42,
+      "value": "20.76",
+      "supported": true,
+      "reason": "Fact set shows diluted_eps current = 20.76 USD per share for FY ending 2026‑08‑30."
+    },
+    {
+      "line": 43,
+      "value": "18.21",
+      "supported": true,
+      "reason": "Fact set shows diluted_eps prior = 18.21 USD per share for FY ending 2025‑08‑31."
+    },
+    {
+      "line": 44,
+      "value": "35803000000",
+      "supported": true,
+      "reason": "Fact set shows stockholders_equity current = 35,803,000,000 USD for FY ending 2026‑08‑30."
+    },
+    {
+      "line": 45,
+      "value": "29164000000",
+      "supported": true,
+      "reason": "Fact set shows stockholders_equity prior = 29,164,000,000 USD for FY ending 2025‑08‑31."
+    },
+    {
+      "line": 46,
+      "value": "3914000000",
+      "supported": true,
+      "reason": "Fact set shows long_term_debt_noncurrent current = 3,914,000,000 USD for FY ending 2026‑08‑30."
+    },
+    {
+      "line": 47,
+      "value": "5713000000",
+      "supported": true,
+      "reason": "Fact set shows long_term_debt_noncurrent prior = 5,713,000,000 USD for FY ending 2025‑08‑31."
+    },
+    {
+      "line": 48,
+      "value": "2248000000",
+      "supported": true,
+      "reason": "Fact set shows long_term_debt_current current = 2,248,000,000 USD for FY ending 2026‑08‑30."
+    },
+    {
+      "line": 49,
+      "value": "75000000",
+      "supported": true,
+      "reason": "Fact set shows long_term_debt_current prior = 75,000,000 USD for FY ending 2025‑08‑31."
+    },
+    {
+      "line": 50,
+      "value": "15817000000",
+      "supported": true,
+      "reason": "Fact set shows cash_from_operations current = 15,817,000,000 USD for FY ending 2026‑08‑30."
+    },
+    {
+      "line": 51,
+      "value": "13335000000",
+      "supported": true,
+      "reason": "Fact set shows cash_from_operations prior = 13,335,000,000 USD for FY ending 2025‑08‑31."
+    },
+    {
+      "line": 52,
+      "value": "6435000000",
+      "supported": true,
+      "reason": "Fact set shows additions_to_property_and_equipment current = 6,435,000,000 USD for FY ending 2026‑08‑30."
+    },
+    {
+      "line": 53,
+      "value": "5498000000",
+      "supported": true,
+      "reason": "Fact set shows additions_to_property_and_equipment prior = 5,498,000,000 USD for FY ending 2025‑08‑31."
+    },
+    {
+      "line": 59,
+      "value": "11%",
+      "supported": true,
+      "reason": "10‑K line 418 states membership fee revenue increased 11% to $5,907."
+    },
+    {
+      "line": 60,
+      "value": "10.1%",
+      "supported": true,
+      "reason": "EX‑99.1 line 12 reports net sales increased 10.1% for fiscal year 2026."
+    },
+    {
+      "line": 61,
+      "value": "9.4%",
+      "supported": true,
+      "reason": "EX‑99.1 line 19 shows total company comparable sales grew 9.4%."
+    },
+    {
+      "line": 61,
+      "value": "roughly 20%",
+      "supported": true,
+      "reason": "EX‑99.1 line 20 shows digitally‑enabled comparable sales of 19.5% (16‑week) and 20.9% (52‑week), which are reasonably described as “roughly 20%.”"
+    },
+    {
+      "line": 62,
+      "value": "0.15",
+      "supported": true,
+      "reason": "EX‑99.1 line 22 notes a non‑recurring benefit of $0.15 per diluted share from tariff refunds."
+    },
+    {
+      "line": 63,
+      "value": "939 warehouses, 69%",
+      "supported": true,
+      "reason": "EX‑99.1 line 23 lists 939 total warehouses and 647 in the U.S./Puerto Rico (647/939 ≈ 68.9% ≈ 69%)."
+    }
+  ]
+}

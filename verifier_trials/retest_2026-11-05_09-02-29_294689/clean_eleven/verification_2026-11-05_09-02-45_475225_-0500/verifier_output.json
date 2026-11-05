@@ -1,0 +1,79 @@
+[
+  {
+    "report_line": 15,
+    "number": "303154",
+    "claim_id": "core_1",
+    "mark": "correct",
+    "reason": "Annual total revenue; inputs: a=303154 USD million (2026-08-30; 10-K line 624, column 1); formula a = 303154.000000, rounded to 303154 USD million. Model confirmed the definition and periods: The 10‑K excerpt line 624 shows Total revenue 303,154 USD million, matching the reported figure; the company facts also list 303,154 million for FY2026."
+  },
+  {
+    "report_line": 16,
+    "number": "10.14%",
+    "claim_id": "core_2",
+    "mark": "correct",
+    "reason": "Annual total revenue growth versus prior year; inputs: a=303154 USD million (2026-08-30; 10-K line 624, column 1); b=275235 USD million (2025-08-31; 10-K line 624, column 2); formula (a-b)/b*100 = 10.143695, rounded to 10.14 %. Model confirmed the definition and periods: Values for current (303,154) and prior (275,235) total revenue are present in 10‑K line 624; the calculated growth ((303,154‑275,235)/275,235 × 100) = 10.146 % rounds to the reported 10.14 %. "
+  },
+  {
+    "report_line": 17,
+    "number": "3.85%",
+    "claim_id": "core_3",
+    "mark": "correct",
+    "reason": "Operating income divided by total revenue; inputs: a=11685 USD million (2026-08-30; 10-K line 628, column 1); b=303154 USD million (2026-08-30; 10-K line 624, column 1); formula a/b*100 = 3.854477, rounded to 3.85 %. Model confirmed the definition and periods: 10‑K line 628 reports Operating income 11,685 USD million and line 624 reports Total revenue 303,154 USD million; 11,685 / 303,154 × 100 = 3.85 % which matches the claim."
+  },
+  {
+    "report_line": 18,
+    "number": "9226",
+    "claim_id": "core_4",
+    "mark": "correct",
+    "reason": "Annual net income; inputs: a=9226 USD million (2026-08-30; 10-K line 634, column 1); formula a = 9226.000000, rounded to 9226 USD million. Model confirmed the definition and periods: The 10‑K excerpt line 634 lists NET INCOME $ 9,226 million, identical to the reported 9,226 USD million."
+  },
+  {
+    "report_line": 19,
+    "number": "20.76",
+    "claim_id": "core_5",
+    "mark": "correct",
+    "reason": "Annual GAAP diluted earnings per share; inputs: a=20.76 USD/share (2026-08-30; 10-K line 637, column 1); formula a = 20.760000, rounded to 20.76 USD/share. Model confirmed the definition and periods: The 10‑K excerpt line 637 shows Diluted EPS $ 20.76, matching the reported figure; company facts also list 20.76."
+  },
+  {
+    "report_line": 20,
+    "number": "28.40%",
+    "claim_id": "core_6",
+    "mark": "correct",
+    "reason": "Net income divided by mean of beginning and ending equity; inputs: a=9226 USD million (2026-08-30; 10-K line 634, column 1); b=35803 USD million (2026-08-30; 10-K line 698, column 1); c=29164 USD million (2025-08-31; 10-K line 698, column 2); formula a/((b+c)/2)*100 = 28.402112, rounded to 28.40 %. Model confirmed the definition and periods: Net income (9,226) from line 634 and equity values 35,803 (current) and 29,164 (prior) from line 698 give average equity 32,483.5; 9,226 / 32,483.5 × 100 = 28.40 %. The claim aligns with the source values."
+  },
+  {
+    "report_line": 21,
+    "number": "0.1721",
+    "claim_id": "core_7",
+    "mark": "correct",
+    "reason": "Current plus noncurrent long-term debt divided by ending equity; inputs: a=3914 USD million (2026-08-30; 10-K line 687, column 1); b=2248 USD million (2026-08-30; 10-K line 683, column 1); c=35803 USD million (2026-08-30; 10-K line 698, column 1); formula (a+b)/c = 0.172108, rounded to 0.1721 ratio. Model confirmed the definition and periods: Long‑term debt non‑current (3,914) from line 687, current portion (2,248) from line 683, and total equity (35,803) from line 698 yield (3,914 + 2,248) / 35,803 = 0.1721, exactly as reported."
+  },
+  {
+    "report_line": 22,
+    "number": "9382",
+    "claim_id": "core_8",
+    "mark": "correct",
+    "reason": "Operating cash flow less the magnitude of capital spending; inputs: a=15817 USD million (2026-08-30; 10-K line 760, column 1); b=6435 USD million (2026-08-30; 10-K line 762, column 1); formula a-b = 9382.000000, rounded to 9382 USD million. Model confirmed the definition and periods: Operating cash flow (15,817) from line 760 minus capital expenditures (6,435) from line 762 equals 9,382 USD million, matching the reported free‑cash‑flow figure."
+  },
+  {
+    "report_line": 23,
+    "number": "95723",
+    "claim_id": "core_9",
+    "mark": "correct",
+    "reason": "Total revenue for the 16-week fourth quarter; inputs: a=95723 USD million (2026-08-30; EX-99.1 line 45, column 1); formula a = 95723.000000, rounded to 95723 USD million. Model confirmed the definition and periods: EX‑99.1 line 45 lists Total revenue 95,723 USD million for the 16‑week quarter, which is the reported figure."
+  },
+  {
+    "report_line": 24,
+    "number": "11.10%",
+    "claim_id": "core_10",
+    "mark": "correct",
+    "reason": "Fourth-quarter total revenue growth versus prior comparable quarter; inputs: a=95723 USD million (2026-08-30; EX-99.1 line 45, column 1); b=86156 USD million (2025-08-31; EX-99.1 line 45, column 2); formula (a-b)/b*100 = 11.104276, rounded to 11.10 %. Model confirmed the definition and periods: Quarter‑over‑quarter growth uses the quarter values 95,723 (current) and 86,156 (prior) from EX‑99.1 line 45; ((95,723‑86,156)/86,156 × 100) = 11.108 %, rounded to 11.10 % as reported."
+  },
+  {
+    "report_line": 25,
+    "number": "6.75",
+    "claim_id": "core_11",
+    "mark": "correct",
+    "reason": "GAAP diluted earnings per share for the 16-week fourth quarter; inputs: a=6.75 USD/share (2026-08-30; EX-99.1 line 58, column 1); formula a = 6.750000, rounded to 6.75 USD/share. Model confirmed the definition and periods: EX‑99.1 line 58 shows Diluted EPS $ 6.75 for the fourth quarter, matching the reported value."
+  }
+]

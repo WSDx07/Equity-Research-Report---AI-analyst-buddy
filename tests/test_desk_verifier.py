@@ -4,10 +4,68 @@ import unittest
 from pathlib import Path
 from types import SimpleNamespace
 
-from desk_verifier import SemanticMark, SemanticReview, check_fact_source, check_line_source, quoted_line_matches, semantic_lookup, verify
+from desk_verifier import SemanticMark, SemanticReview, annual_revenue_growth, check_fact_source, check_line_source, diluted_eps_line, quoted_line_matches, semantic_lookup, structured_semantic_lookup, verify
+from structured_claims import check_claim, formula_value
+from decimal import Decimal
 
 
 class VerifierTest(unittest.TestCase):
+    def test_omitted_structured_mark_gets_one_retry_without_guessing(self):
+        class Model:
+            calls = 0
+            def generate_content(self, **kwargs):
+                self.calls += 1
+                marks = [] if self.calls == 1 else [SemanticMark(line=3, value="120 USD million", supported=True, reason="Period and definition match")]
+                return SimpleNamespace(parsed=SemanticReview(marks=marks), text=None)
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            fact = {"tag":"us-gaap:Revenue", "unit":"USD", "current":{"val":120000000,"end":"2025-12-31"}}
+            (folder / "facts.json").write_text(json.dumps({"concepts":{"total_revenue":fact}}), encoding="utf-8")
+            filing = "(amounts in millions) December 31, 2025 | December 31, 2024\nTotal revenue | 120 | 100\n"
+            for form in ("10-K", "10-Q", "8-K", "EX-99.1"):
+                (folder / f"TEST_{form}_id.txt").write_text(filing, encoding="utf-8")
+            claim = {"id":"revenue", "label":"Revenue", "reported":"120", "unit":"USD million", "definition":"annual total revenue", "formula":"a", "inputs":{"a":{"value":"120","unit":"USD million","document":"10-K","line":2,"column":1,"period_end":"2025-12-31","concept":"total_revenue","tag":"us-gaap:Revenue","fact_period":"current"}}}
+            line = "- Revenue: 120 USD million — 10-K line 2: Total revenue | 120 | 100 <!-- FINANCIAL_CLAIM " + json.dumps(claim) + " -->"
+            (folder / "equity_research_report.md").write_text("Filings: sample\n## Valuation Insights\n" + line + "\n", encoding="utf-8")
+            model = Model()
+            verify(folder, folder, SimpleNamespace(models=model), "fake")
+            marks = json.loads((folder / "verifier_output.json").read_text(encoding="utf-8"))
+            self.assertEqual(model.calls, 2)
+            self.assertEqual(marks[0]["mark"], "correct")
+            self.assertTrue((folder / "verifier_retry_output.json").exists())
+
+    def test_eps_correction_locates_only_per_share_row(self):
+        filing = {"10-K": "NET INCOME PER COMMON SHARE:\nBasic | 4.30 | 3.10\nDiluted | 4.20 | 3.00\nShares used\nDiluted | 123 | 120\n"}
+        self.assertEqual(diluted_eps_line(filing, {"val": "4.20"}), (3, "Diluted | 4.20 | 3.00"))
+        self.assertIsNone(diluted_eps_line(filing, {"val": "4.25"}))
+
+    def test_growth_recomputes_only_with_matching_filing_and_fact_inputs(self):
+        facts = {"concepts": {"total_revenue": {"unit": "USD", "current": {"val": 120000000, "end": "2025-12-31"}, "prior": {"val": 100000000, "end": "2024-12-31"}}}}
+        filing = {"10-K": "Total revenue | 120 | | 100"}
+        line = "- Annual total revenue growth was 24.00%, calculated as (120 - 100) / 100 x 100. — 10-K line 1: Total revenue | 120 | | 100"
+        result = annual_revenue_growth(line, facts, filing)
+        self.assertEqual(result["status"], "wrong")
+        self.assertIn("20.00%", result["formula"])
+        self.assertEqual(annual_revenue_growth(line.replace("/ 100", "/ 110"), facts, filing)["status"], "unsupported")
+
+    def test_structured_claim_checks_facts_period_columns_and_arithmetic(self):
+        filing = {"10-K": "(amounts in millions) Year ended December 31, 2025 | December 31, 2024\nTotal revenue | 120 | | 100"}
+        facts = {"concepts": {"total_revenue": {"tag":"us-gaap:Revenue", "unit":"USD", "current":{"val":120000000,"end":"2025-12-31"}, "prior":{"val":100000000,"end":"2024-12-31"}}}}
+        base = {"document":"10-K", "line":2, "unit":"USD million", "concept":"total_revenue", "tag":"us-gaap:Revenue"}
+        claim = {"id":"growth", "label":"Revenue growth", "reported":"20.00", "unit":"%", "definition":"change in total revenue", "formula":"(a-b)/b*100", "inputs":{"a":base | {"value":"120","column":1,"fact_period":"current","period_end":"2025-12-31"}, "b":base | {"value":"100","column":2,"fact_period":"prior","period_end":"2024-12-31"}}}
+        self.assertEqual(check_claim(claim, facts, filing)["status"], "candidate")
+        self.assertEqual(check_claim(claim | {"reported":"24.00"}, facts, filing)["status"], "wrong")
+        broken = claim | {"inputs": {**claim["inputs"], "b":claim["inputs"]["b"] | {"column":1}}}
+        self.assertEqual(check_claim(broken, facts, filing)["status"], "unsupported")
+        wrong_period = claim | {"inputs": {**claim["inputs"], "a":claim["inputs"]["a"] | {"period_end":"2024-12-31"}}}
+        self.assertEqual(check_claim(wrong_period, facts, filing)["status"], "unsupported")
+        with self.assertRaises(ValueError):
+            formula_value('__import__("os")', {"a":Decimal(1)})
+
+    def test_same_end_date_does_not_confuse_quarter_and_full_year(self):
+        filing = {"EX-99.1": "(dollars in millions)\n16 Weeks Ended | 52 Weeks Ended\nDecember 31, 2025 | December 31, 2024 | December 31, 2025 | December 31, 2024\nTotal revenue | 10 | 8 | 40 | 30"}
+        claim = {"id":"quarter", "label":"Quarter revenue", "reported":"40", "unit":"USD million", "definition":"quarterly revenue", "formula":"a", "inputs":{"a":{"value":"40", "unit":"USD million", "document":"EX-99.1", "line":4, "column":3, "period_end":"2025-12-31", "duration_weeks":16}}}
+        self.assertEqual(check_claim(claim, {}, filing)["status"], "unsupported")
     def test_investment_insight_number_is_not_skipped_with_thesis(self):
         class Model:
             def generate_content(self, **kwargs):
@@ -36,6 +94,14 @@ class VerifierTest(unittest.TestCase):
         self.assertIsNone(semantic_lookup(marks, 4, "331839000000%"))
         conflict = marks + [SemanticMark(line=4, value="331839000000 USD", supported=False, reason="Conflict")]
         self.assertFalse(semantic_lookup(conflict, 4, "331839000000").supported)
+        percentage = [SemanticMark(line=6, value="10.14", supported=True, reason="Matched")]
+        self.assertTrue(structured_semantic_lookup(percentage, 6, "10.14", "%").supported)
+        percentage.append(SemanticMark(line=6, value="10.14%", supported=False, reason="Conflict"))
+        self.assertFalse(structured_semantic_lookup(percentage, 6, "10.14", "%").supported)
+        amounts = [SemanticMark(line=7, value="303154 USD million", supported=True, reason="Matched"), SemanticMark(line=8, value="0.1721 ratio", supported=True, reason="Matched")]
+        self.assertTrue(structured_semantic_lookup(amounts, 7, "303154", "USD million").supported)
+        self.assertTrue(structured_semantic_lookup(amounts, 8, "0.1721", "ratio").supported)
+        self.assertIsNone(structured_semantic_lookup(amounts, 7, "303154", "%"))
 
     def test_exact_fact_and_wrong_value(self):
         facts = {"concepts": {"revenue": {"tag": "us-gaap:Revenue", "unit": "USD", "current": {"val": 1200, "end": "2025-12-31", "filed": "2026-02-01"}, "prior": None}}}

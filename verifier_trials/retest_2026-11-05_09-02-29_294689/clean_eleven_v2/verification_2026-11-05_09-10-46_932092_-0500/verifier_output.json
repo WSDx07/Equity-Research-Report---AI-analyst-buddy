@@ -1,0 +1,79 @@
+[
+  {
+    "report_line": 15,
+    "number": "303154",
+    "claim_id": "core_1",
+    "mark": "correct",
+    "reason": "Annual total revenue; inputs: a=303154 USD million (2026-08-30; 10-K line 624, column 1); formula a = 303154.000000, rounded to 303154 USD million. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 16,
+    "number": "10.14%",
+    "claim_id": "core_2",
+    "mark": "correct",
+    "reason": "Annual total revenue growth versus prior year; inputs: a=303154 USD million (2026-08-30; 10-K line 624, column 1); b=275235 USD million (2025-08-31; 10-K line 624, column 2); formula (a-b)/b*100 = 10.143695, rounded to 10.14 %. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 17,
+    "number": "3.85%",
+    "claim_id": "core_3",
+    "mark": "correct",
+    "reason": "Operating income divided by total revenue; inputs: a=11685 USD million (2026-08-30; 10-K line 628, column 1); b=303154 USD million (2026-08-30; 10-K line 624, column 1); formula a/b*100 = 3.854477, rounded to 3.85 %. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 18,
+    "number": "9226",
+    "claim_id": "core_4",
+    "mark": "correct",
+    "reason": "Annual net income; inputs: a=9226 USD million (2026-08-30; 10-K line 634, column 1); formula a = 9226.000000, rounded to 9226 USD million. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 19,
+    "number": "20.76",
+    "claim_id": "core_5",
+    "mark": "correct",
+    "reason": "Annual GAAP diluted earnings per share; inputs: a=20.76 USD/share (2026-08-30; 10-K line 637, column 1); formula a = 20.760000, rounded to 20.76 USD/share. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 20,
+    "number": "28.40%",
+    "claim_id": "core_6",
+    "mark": "correct",
+    "reason": "Net income divided by mean of beginning and ending equity; inputs: a=9226 USD million (2026-08-30; 10-K line 634, column 1); b=35803 USD million (2026-08-30; 10-K line 698, column 1); c=29164 USD million (2025-08-31; 10-K line 698, column 2); formula a/((b+c)/2)*100 = 28.402112, rounded to 28.40 %. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 21,
+    "number": "0.1721",
+    "claim_id": "core_7",
+    "mark": "correct",
+    "reason": "Current plus noncurrent long-term debt divided by ending equity; inputs: a=3914 USD million (2026-08-30; 10-K line 687, column 1); b=2248 USD million (2026-08-30; 10-K line 683, column 1); c=35803 USD million (2026-08-30; 10-K line 698, column 1); formula (a+b)/c = 0.172108, rounded to 0.1721 ratio. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 22,
+    "number": "9382",
+    "claim_id": "core_8",
+    "mark": "correct",
+    "reason": "Operating cash flow less the magnitude of capital spending; inputs: a=15817 USD million (2026-08-30; 10-K line 760, column 1); b=6435 USD million (2026-08-30; 10-K line 762, column 1); formula a-b = 9382.000000, rounded to 9382 USD million. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 23,
+    "number": "95723",
+    "claim_id": "core_9",
+    "mark": "correct",
+    "reason": "Total revenue for the 16-week fourth quarter; inputs: a=95723 USD million (2026-08-30; EX-99.1 line 45, column 1); formula a = 95723.000000, rounded to 95723 USD million. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 24,
+    "number": "11.10%",
+    "claim_id": "core_10",
+    "mark": "correct",
+    "reason": "Fourth-quarter total revenue growth versus prior comparable quarter; inputs: a=95723 USD million (2026-08-30; EX-99.1 line 45, column 1); b=86156 USD million (2025-08-31; EX-99.1 line 45, column 2); formula (a-b)/b*100 = 11.104276, rounded to 11.10 %. Model marked the definition and periods as supported; its full response is saved separately."
+  },
+  {
+    "report_line": 25,
+    "number": "6.75",
+    "claim_id": "core_11",
+    "mark": "unsupported",
+    "reason": "GAAP diluted earnings per share for the 16-week fourth quarter; inputs: a=6.75 USD/share (2026-08-30; EX-99.1 line 58, column 1); formula a = 6.750000, rounded to 6.75 USD/share. Model did not confirm the claim's definition and periods."
+  }
+]

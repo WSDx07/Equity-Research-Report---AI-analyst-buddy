@@ -1,0 +1,70 @@
+{
+  "marks": [
+    {
+      "line": 15,
+      "value": "303154",
+      "supported": true,
+      "reason": "The 10‑K excerpt line 624 shows Total revenue 303,154 USD million, matching the reported figure; the company facts also list 303,154 million for FY2026."
+    },
+    {
+      "line": 16,
+      "value": "10.14%",
+      "supported": true,
+      "reason": "Values for current (303,154) and prior (275,235) total revenue are present in 10‑K line 624; the calculated growth ((303,154‑275,235)/275,235 × 100) = 10.146 % rounds to the reported 10.14 %. "
+    },
+    {
+      "line": 17,
+      "value": "3.85%",
+      "supported": true,
+      "reason": "10‑K line 628 reports Operating income 11,685 USD million and line 624 reports Total revenue 303,154 USD million; 11,685 / 303,154 × 100 = 3.85 % which matches the claim."
+    },
+    {
+      "line": 18,
+      "value": "9226",
+      "supported": true,
+      "reason": "The 10‑K excerpt line 634 lists NET INCOME $ 9,226 million, identical to the reported 9,226 USD million."
+    },
+    {
+      "line": 19,
+      "value": "20.76",
+      "supported": true,
+      "reason": "The 10‑K excerpt line 637 shows Diluted EPS $ 20.76, matching the reported figure; company facts also list 20.76."
+    },
+    {
+      "line": 20,
+      "value": "28.40%",
+      "supported": true,
+      "reason": "Net income (9,226) from line 634 and equity values 35,803 (current) and 29,164 (prior) from line 698 give average equity 32,483.5; 9,226 / 32,483.5 × 100 = 28.40 %. The claim aligns with the source values."
+    },
+    {
+      "line": 21,
+      "value": "0.1721",
+      "supported": true,
+      "reason": "Long‑term debt non‑current (3,914) from line 687, current portion (2,248) from line 683, and total equity (35,803) from line 698 yield (3,914 + 2,248) / 35,803 = 0.1721, exactly as reported."
+    },
+    {
+      "line": 22,
+      "value": "9382",
+      "supported": true,
+      "reason": "Operating cash flow (15,817) from line 760 minus capital expenditures (6,435) from line 762 equals 9,382 USD million, matching the reported free‑cash‑flow figure."
+    },
+    {
+      "line": 23,
+      "value": "95723",
+      "supported": true,
+      "reason": "EX‑99.1 line 45 lists Total revenue 95,723 USD million for the 16‑week quarter, which is the reported figure."
+    },
+    {
+      "line": 24,
+      "value": "11.10%",
+      "supported": true,
+      "reason": "Quarter‑over‑quarter growth uses the quarter values 95,723 (current) and 86,156 (prior) from EX‑99.1 line 45; ((95,723‑86,156)/86,156 × 100) = 11.108 %, rounded to 11.10 % as reported."
+    },
+    {
+      "line": 25,
+      "value": "6.75",
+      "supported": true,
+      "reason": "EX‑99.1 line 58 shows Diluted EPS $ 6.75 for the fourth quarter, matching the reported value."
+    }
+  ]
+}

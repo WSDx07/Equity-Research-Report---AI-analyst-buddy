@@ -13,7 +13,7 @@ from typing import Literal
 
 import requests
 from dotenv import dotenv_values
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 from google import genai
 from google.genai import errors, types
 
@@ -108,10 +108,19 @@ class ProviderRouter:
         if not data:
             raise ValueError("Purdue API returned no response after retries.")
         try:
-            content = data["choices"][0]["message"]["content"]
+            choice = data["choices"][0]
+            content = choice["message"]["content"]
+        except (KeyError, IndexError, TypeError):
+            raise ValueError(f"Purdue API returned an invalid structured response for {schema.__name__}: missing response content.") from None
+        try:
             parsed = schema.model_validate_json(content)
-        except (KeyError, IndexError, TypeError, ValueError) as exc:
-            raise ValueError("Purdue API returned an invalid structured response.") from exc
+        except ValidationError as exc:
+            issues = exc.errors(include_input=False, include_url=False)
+            details = "; ".join(f"{'.'.join(map(str, issue['loc'])) or 'response'}: {issue['msg']}" for issue in issues[:3])
+            finish = choice.get("finish_reason") or "unknown"
+            raise ValueError(f"Purdue API returned an invalid structured response for {schema.__name__} (finish reason: {finish}): {details}") from None
+        except (TypeError, ValueError):
+            raise ValueError(f"Purdue API returned an invalid structured response for {schema.__name__}: response content is not valid JSON text.") from None
         self.used.append(f"Purdue/{self.purdue_model}")
         return SimpleNamespace(parsed=parsed, text=None)
 

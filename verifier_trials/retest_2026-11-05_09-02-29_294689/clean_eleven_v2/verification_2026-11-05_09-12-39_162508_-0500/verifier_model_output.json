@@ -1,0 +1,70 @@
+{
+  "marks": [
+    {
+      "line": 15,
+      "value": "303154",
+      "supported": true,
+      "reason": "The 10‑K line 624 shows Total revenue 303,154 USD million, matching the XBRL fact for FY2026 total revenue. ✅"
+    },
+    {
+      "line": 16,
+      "value": "10.14%",
+      "supported": true,
+      "reason": "Revenue growth is calculated from the 10‑K values 303,154 vs 275,235 USD million ((303154‑275235)/275235*100≈10.14%). ✅"
+    },
+    {
+      "line": 17,
+      "value": "3.85%",
+      "supported": true,
+      "reason": "Operating margin uses Operating income 11,685 USD million (10‑K line 628) divided by Total revenue 303,154 USD million (line 624) = 3.85% (rounded). ✅"
+    },
+    {
+      "line": 18,
+      "value": "9226",
+      "supported": true,
+      "reason": "The 10‑K line 634 lists NET INCOME 9,226 USD million, which matches the reported FY2026 net income. ✅"
+    },
+    {
+      "line": 19,
+      "value": "20.76",
+      "supported": true,
+      "reason": "The 10‑K line 637 shows Diluted EPS 20.76 USD/share, identical to the claim. ✅"
+    },
+    {
+      "line": 20,
+      "value": "28.40%",
+      "supported": true,
+      "reason": "Return on average equity = 9,226 / ((35,803 + 29,164)/2) ≈ 28.40% using the 10‑K equity figures (lines 634 & 698). ✅"
+    },
+    {
+      "line": 21,
+      "value": "0.1721",
+      "supported": true,
+      "reason": "Debt‑to‑equity = (3,914 + 2,248) / 35,803 = 0.1721, based on 10‑K lines 687, 683, 698. ✅"
+    },
+    {
+      "line": 22,
+      "value": "9382",
+      "supported": true,
+      "reason": "Free cash flow = Operating cash 15,817 ‑ Capex 6,435 = 9,382 USD million, exactly as shown on 10‑K lines 760 & 762. ✅"
+    },
+    {
+      "line": 23,
+      "value": "95723",
+      "supported": true,
+      "reason": "The EX‑99.1 press release (line 45) lists Fourth‑quarter Total revenue 95,723 USD million, matching the claim. ✅"
+    },
+    {
+      "line": 24,
+      "value": "11.10%",
+      "supported": true,
+      "reason": "Quarter‑over‑quarter growth = (95,723 ‑ 86,156)/86,156 ≈ 11.10%, directly derived from the EX‑99.1 values. ✅"
+    },
+    {
+      "line": 25,
+      "value": "6.75",
+      "supported": true,
+      "reason": "EX‑99.1 line 58 reports Diluted EPS for Q4 6.75 USD/share, exactly the reported figure. ✅"
+    }
+  ]
+}

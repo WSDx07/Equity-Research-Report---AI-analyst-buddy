@@ -1,0 +1,226 @@
+{
+  "marks": [
+    {
+      "line": 7,
+      "value": "4,000",
+      "supported": true,
+      "reason": "10‑K line 144 states \"We carry less than 4,000 active stock keeping units (SKUs) per warehouse\" confirming the claim."
+    },
+    {
+      "line": 9,
+      "value": "4,000",
+      "supported": true,
+      "reason": "10‑K line 144 repeats the same statement; the claim is consistent."
+    },
+    {
+      "line": 10,
+      "value": "90",
+      "supported": true,
+      "reason": "10‑K line 145 explicitly mentions a \"90‑day return policy\"."
+    },
+    {
+      "line": 12,
+      "value": "774",
+      "supported": true,
+      "reason": "10‑K line 153 confirms \"We operated 774 gas stations at the end of 2026\"."
+    },
+    {
+      "line": 12,
+      "value": "11%",
+      "supported": true,
+      "reason": "10‑K line 153 states the gasoline business represented \"11% of total net sales in 2026\"."
+    },
+    {
+      "line": 13,
+      "value": "11%",
+      "supported": true,
+      "reason": "10‑K line 156 says digitally‑enabled sales represented \"11% of total net sales in 2026\"."
+    },
+    {
+      "line": 37,
+      "value": "303154000000",
+      "supported": true,
+      "reason": "Fact set lists total_revenue = 303154000000 for FY 2026, matching the claim."
+    },
+    {
+      "line": 38,
+      "value": "275235000000",
+      "supported": true,
+      "reason": "Fact set lists total_revenue = 275235000000 for FY 2025, matching the claim."
+    },
+    {
+      "line": 39,
+      "value": "11685000000",
+      "supported": true,
+      "reason": "Fact set lists operating_income = 11685000000 for FY 2026, matching the claim."
+    },
+    {
+      "line": 40,
+      "value": "10383000000",
+      "supported": true,
+      "reason": "Fact set lists operating_income = 10383000000 for FY 2025, matching the claim."
+    },
+    {
+      "line": 41,
+      "value": "9226000000",
+      "supported": true,
+      "reason": "Fact set lists net_income = 9226000000 for FY 2026, matching the claim."
+    },
+    {
+      "line": 42,
+      "value": "8099000000",
+      "supported": true,
+      "reason": "Fact set lists net_income = 8099000000 for FY 2025, matching the claim."
+    },
+    {
+      "line": 43,
+      "value": "20.76",
+      "supported": true,
+      "reason": "Fact set lists diluted_eps = 20.76 for FY 2026, matching the claim."
+    },
+    {
+      "line": 44,
+      "value": "18.21",
+      "supported": true,
+      "reason": "Fact set lists diluted_eps = 18.21 for FY 2025, matching the claim."
+    },
+    {
+      "line": 45,
+      "value": "35803000000",
+      "supported": true,
+      "reason": "Fact set lists stockholders_equity = 35803000000 for FY 2026, matching the claim."
+    },
+    {
+      "line": 46,
+      "value": "29164000000",
+      "supported": true,
+      "reason": "Fact set lists stockholders_equity = 29164000000 for FY 2025, matching the claim."
+    },
+    {
+      "line": 47,
+      "value": "3914000000",
+      "supported": true,
+      "reason": "Fact set lists long_term_debt_noncurrent = 3914000000 for FY 2026, matching the claim."
+    },
+    {
+      "line": 48,
+      "value": "5713000000",
+      "supported": true,
+      "reason": "Fact set lists long_term_debt_noncurrent = 5713000000 for FY 2025, matching the claim."
+    },
+    {
+      "line": 49,
+      "value": "2248000000",
+      "supported": true,
+      "reason": "Fact set lists long_term_debt_current = 2248000000 for FY 2026, matching the claim."
+    },
+    {
+      "line": 50,
+      "value": "75000000",
+      "supported": true,
+      "reason": "Fact set lists long_term_debt_current = 75000000 for FY 2025, matching the claim."
+    },
+    {
+      "line": 51,
+      "value": "15817000000",
+      "supported": true,
+      "reason": "Fact set lists cash_from_operations = 15817000000 for FY 2026, matching the claim."
+    },
+    {
+      "line": 52,
+      "value": "13335000000",
+      "supported": true,
+      "reason": "Fact set lists cash_from_operations = 13335000000 for FY 2025, matching the claim."
+    },
+    {
+      "line": 53,
+      "value": "6435000000",
+      "supported": true,
+      "reason": "Fact set lists additions_to_property_and_equipment = 6435000000 for FY 2026, matching the claim."
+    },
+    {
+      "line": 54,
+      "value": "5498000000",
+      "supported": true,
+      "reason": "Fact set lists additions_to_property_and_equipment = 5498000000 for FY 2025, matching the claim."
+    },
+    {
+      "line": 60,
+      "value": "$5,907",
+      "supported": false,
+      "reason": "The 10‑K excerpt provided does not contain the $5,907 membership‑fee revenue figure; it cannot be verified."
+    },
+    {
+      "line": 60,
+      "value": "11%",
+      "supported": false,
+      "reason": "The 10‑K excerpt provided does not include the \"11%\" membership‑fee growth figure; no corroborating evidence in supplied texts."
+    },
+    {
+      "line": 61,
+      "value": "10.1%",
+      "supported": true,
+      "reason": "EX‑99.1 press release (line 12) states net sales grew 10.1% to $297.2 billion from $269.9 billion."
+    },
+    {
+      "line": 61,
+      "value": "$297.2 billion",
+      "supported": true,
+      "reason": "EX‑99.1 press release (line 12) gives the FY 2026 net‑sales amount $297.2 billion."
+    },
+    {
+      "line": 61,
+      "value": "$269.9 billion",
+      "supported": true,
+      "reason": "EX‑99.1 press release (line 12) gives the prior‑year net‑sales amount $269.9 billion."
+    },
+    {
+      "line": 62,
+      "value": "9.4%",
+      "supported": true,
+      "reason": "EX‑99.1 press release (line 19) reports total company comparable sales growth of 9.4%."
+    },
+    {
+      "line": 62,
+      "value": "20%",
+      "supported": true,
+      "reason": "EX‑99.1 press release (line 20) reports digitally‑enabled comparable sales growth of 19.5%; the report’s phrasing \"roughly 20%\" is a reasonable approximation."
+    },
+    {
+      "line": 63,
+      "value": "$0.15",
+      "supported": true,
+      "reason": "EX‑99.1 press release (line 22) mentions a non‑recurring benefit of $0.15 per diluted share."
+    },
+    {
+      "line": 64,
+      "value": "939",
+      "supported": true,
+      "reason": "EX‑99.1 press release (line 23) states Costco operates 939 warehouses worldwide."
+    },
+    {
+      "line": 64,
+      "value": "69%",
+      "supported": true,
+      "reason": "EX‑99.1 press release (line 23) lists 647 U.S. warehouses; 647/939 ≈ 68.9%, which the report rounds to \"roughly 69%\"."
+    },
+    {
+      "line": 96,
+      "value": "14.14%",
+      "supported": false,
+      "reason": "The arithmetic shown in the seed test is incorrect; (303,154‑275,235)/275,235 ≈ 10.15%, not 14.14%."
+    },
+    {
+      "line": 96,
+      "value": "303,154",
+      "supported": true,
+      "reason": "The raw figure 303,154 appears in the fact set as total revenue for FY 2026; therefore it is accurate."
+    },
+    {
+      "line": 96,
+      "value": "275,235",
+      "supported": true,
+      "reason": "The raw figure 275,235 appears in the fact set as total revenue for FY 2025; therefore it is accurate."
+    }
+  ]
+}

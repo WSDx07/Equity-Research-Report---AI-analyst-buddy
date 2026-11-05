@@ -1,0 +1,20 @@
+{
+  "observations": [
+    "The annual filing shows the company generating substantial top‑line growth year over year, reflecting an accelerating adoption of its cloud and AI platforms.",
+    "Operating income represents a high proportion of total revenue, indicating effective cost control and strong pricing power across its segments.",
+    "Net income and diluted earnings per share have both risen markedly, pointing to improved profitability and shareholder value creation.",
+    "Cash from operations is robust, providing ample liquidity to fund continued investment in infrastructure, research and development, and shareholder returns.",
+    "The balance‑sheet data suggest a modest level of long‑term debt relative to equity, implying a low leverage stance that supports financial flexibility.",
+    "Capital spending on property and equipment has increased, aligning with the company’s stated strategy to expand datacenter capacity and AI compute resources.",
+    "The quarterly press release (EX‑99.1) reinforces the annual narrative, highlighting double‑digit revenue and operating‑income growth for the most recent quarter.",
+    "Definitions used in the XBRL concepts (e.g., us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax) focus on contract‑based revenue and exclude indirect taxes, which aligns with the company’s reported revenue figure.",
+    "Period coverage differs across sources: the 10‑K provides annual results for the fiscal year ending 30 June 2026, while the EX‑99.1 release presents three‑month results ending 30 September 2026 (first quarter of fiscal 2027). This creates a gap when trying to directly compare quarterly performance to the full‑year metrics without appropriate pro‑rata adjustments.",
+    "The cross‑check dataset flags several data points (e.g., long‑term debt tags) as not comparable due to mapping uncertainties, indicating that debt‑related ratios should be interpreted cautiously."
+  ],
+  "gaps": [
+    "The quarterly release does not provide the full set of balance‑sheet items, limiting verification of the debt‑to‑equity ratio for the quarter.",
+    "Long‑term debt figures from the SEC tags lack a confirmed mapping to the provider’s fields, so the precise leverage measurement remains uncertain.",
+    "The release does not disclose the free‑cash‑flow amount, which would be needed to validate the free‑cash‑flow figure derived by the calculator."
+  ],
+  "insight": "Quarterly revenue reached $92.3 billion — EX-99.1 line 11: \"Revenue was $92.3 billion and increased 19%\""
+}

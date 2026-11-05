@@ -1,0 +1,290 @@
+[
+  {
+    "report_line": 7,
+    "number": "—",
+    "mark": "unsupported",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 8,
+    "number": "—",
+    "mark": "unsupported",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 9,
+    "number": "4,000",
+    "mark": "correct",
+    "reason": "10‑K line 144 states \"We carry less than 4,000 active stock keeping units (SKUs) per warehouse\" confirming the “under 4,000 per warehouse” claim."
+  },
+  {
+    "report_line": 10,
+    "number": "—",
+    "mark": "unsupported",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 13,
+    "number": "11%",
+    "mark": "wrong",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 17,
+    "number": "—",
+    "mark": "unsupported",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 37,
+    "number": "303154000000",
+    "mark": "correct",
+    "reason": "Company facts (derived from the 10‑K filing) list total revenue for FY 2026 as 303,154,000,000 USD, matching the reported number."
+  },
+  {
+    "report_line": 38,
+    "number": "275235000000",
+    "mark": "correct",
+    "reason": "Company facts list total revenue for FY 2025 as 275,235,000,000 USD, matching the reported number."
+  },
+  {
+    "report_line": 39,
+    "number": "11685000000",
+    "mark": "correct",
+    "reason": "Company facts list operating income for FY 2026 as 11,685,000,000 USD, matching the reported number."
+  },
+  {
+    "report_line": 40,
+    "number": "10383000000",
+    "mark": "correct",
+    "reason": "Company facts list operating income for FY 2025 as 10,383,000,000 USD, matching the reported number."
+  },
+  {
+    "report_line": 41,
+    "number": "9226000000",
+    "mark": "correct",
+    "reason": "Company facts list net income for FY 2026 as 9,226,000,000 USD, matching the reported number."
+  },
+  {
+    "report_line": 42,
+    "number": "8099000000",
+    "mark": "correct",
+    "reason": "Company facts list net income for FY 2025 as 8,099,000,000 USD, matching the reported number."
+  },
+  {
+    "report_line": 43,
+    "number": "21.76",
+    "mark": "wrong",
+    "reason": "Value differs from the exact saved XBRL fact"
+  },
+  {
+    "report_line": 44,
+    "number": "21.76",
+    "mark": "wrong",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 45,
+    "number": "18.21",
+    "mark": "unsupported",
+    "reason": "The filing excerpt does not contain the prior‑year diluted EPS; without citation it cannot be verified."
+  },
+  {
+    "report_line": 46,
+    "number": "35803000000",
+    "mark": "unsupported",
+    "reason": "No filing excerpt cites stockholders’ equity; the number is only present in the facts file, but the claim lacks a citation, so it is treated as unsupported."
+  },
+  {
+    "report_line": 47,
+    "number": "29164000000",
+    "mark": "unsupported",
+    "reason": "Same as line 46 – no explicit citation in the filing excerpt."
+  },
+  {
+    "report_line": 48,
+    "number": "3914000000",
+    "mark": "unsupported",
+    "reason": "Long‑term debt (non‑current) amount is not shown in any provided filing excerpt; claim lacks verifiable source."
+  },
+  {
+    "report_line": 49,
+    "number": "5713000000",
+    "mark": "unsupported",
+    "reason": "Same as line 48 – no supporting excerpt."
+  },
+  {
+    "report_line": 50,
+    "number": "2248000000",
+    "mark": "unsupported",
+    "reason": "Long‑term debt (current) amount not present in the excerpts; claim unsupported."
+  },
+  {
+    "report_line": 51,
+    "number": "75000000",
+    "mark": "unsupported",
+    "reason": "Same as line 50 – no supporting excerpt."
+  },
+  {
+    "report_line": 52,
+    "number": "15817000000",
+    "mark": "unsupported",
+    "reason": "Cash from operations figure not included in any excerpt; claim unsupported."
+  },
+  {
+    "report_line": 53,
+    "number": "13335000000",
+    "mark": "unsupported",
+    "reason": "Same as line 52 – no supporting excerpt."
+  },
+  {
+    "report_line": 54,
+    "number": "6435000000",
+    "mark": "unsupported",
+    "reason": "Additions to property & equipment not shown in any excerpt; claim unsupported."
+  },
+  {
+    "report_line": 55,
+    "number": "5498000000",
+    "mark": "unsupported",
+    "reason": "Same as line 54 – no supporting excerpt."
+  },
+  {
+    "report_line": 60,
+    "number": "—",
+    "mark": "unsupported",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 61,
+    "number": "11%",
+    "mark": "wrong",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 62,
+    "number": "2026",
+    "mark": "wrong",
+    "reason": "The cited line does not contain this number"
+  },
+  {
+    "report_line": 62,
+    "number": "10.1%",
+    "mark": "correct",
+    "reason": "EX‑99.1 line 12 states net sales increased 10.1% for FY 2026."
+  },
+  {
+    "report_line": 63,
+    "number": "9.4%",
+    "mark": "wrong",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 63,
+    "number": "20%",
+    "mark": "wrong",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 64,
+    "number": "0.15",
+    "mark": "wrong",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 65,
+    "number": "939",
+    "mark": "correct",
+    "reason": "EX‑99.1 line 23 states Costco operates 939 warehouses."
+  },
+  {
+    "report_line": 65,
+    "number": "69%",
+    "mark": "wrong",
+    "reason": "The cited line does not contain this number"
+  },
+  {
+    "report_line": 66,
+    "number": "—",
+    "mark": "unsupported",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 67,
+    "number": "—",
+    "mark": "unsupported",
+    "reason": "Quoted text does not match the cited filing line"
+  },
+  {
+    "report_line": 81,
+    "number": "244",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 81,
+    "number": "250",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 82,
+    "number": "194",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 83,
+    "number": "20",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 83,
+    "number": "11%",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 84,
+    "number": "2026",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 84,
+    "number": "458",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 84,
+    "number": "459",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 85,
+    "number": "404",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 85,
+    "number": "405",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 92,
+    "number": "2027",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  },
+  {
+    "report_line": 92,
+    "number": "2028",
+    "mark": "unsupported",
+    "reason": "No verifiable filing-line source"
+  }
+]

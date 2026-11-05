@@ -1,0 +1,70 @@
+{
+  "marks": [
+    {
+      "line": 15,
+      "value": "303154",
+      "supported": true,
+      "reason": "The 10‑K excerpt shows \"Total revenue | 303,154\" on line 624 for the period ended 2026‑08‑30, exactly matching the reported figure and definition (annual total revenue)."
+    },
+    {
+      "line": 16,
+      "value": "10.14",
+      "supported": true,
+      "reason": "Inputs a=303,154 (current total revenue) and b=275,235 (prior‑year total revenue) are present in the 10‑K line 624. The derived growth ((a‑b)/b*100) equals 10.14 % when rounded to two decimals, so the claim is consistent with the filing."
+    },
+    {
+      "line": 17,
+      "value": "3.85",
+      "supported": true,
+      "reason": "Operating income of 11,685 (10‑K line 628) divided by total revenue of 303,154 (10‑K line 624) yields 3.855 %, rounded to 3.85 %, matching the report."
+    },
+    {
+      "line": 18,
+      "value": "9226",
+      "supported": true,
+      "reason": "The 10‑K line 634 lists NET INCOME $ 9,226 for FY2026, identical to the reported figure."
+    },
+    {
+      "line": 19,
+      "value": "20.76",
+      "supported": true,
+      "reason": "The 10‑K line 637 reports Diluted EPS of $ 20.76 for FY2026, exactly as claimed."
+    },
+    {
+      "line": 20,
+      "value": "28.40",
+      "supported": true,
+      "reason": "Net income $ 9,226 (line 634) divided by the average equity ((35,803 + 29,164)/2 = 32,483.5) gives 28.40 %, matching the reported percentage."
+    },
+    {
+      "line": 21,
+      "value": "0.1721",
+      "supported": true,
+      "reason": "Long‑term debt non‑current $ 3,914 (line 687) plus current portion $ 2,248 (line 683) equals $ 6,162. Dividing by total equity $ 35,803 (line 698) yields 0.1721, exactly the reported ratio."
+    },
+    {
+      "line": 22,
+      "value": "9382",
+      "supported": true,
+      "reason": "Operating cash flow $ 15,817 (line 760) less capital expenditures $ 6,435 (line 762) equals $ 9,382, the reported free‑cash‑flow amount."
+    },
+    {
+      "line": 23,
+      "value": "95723",
+      "supported": true,
+      "reason": "The EX‑99.1 excerpt (line 45) shows Total revenue $ 95,723 for the 16‑week fourth quarter, matching the claim."
+    },
+    {
+      "line": 24,
+      "value": "11.10",
+      "supported": true,
+      "reason": "Quarter‑over‑quarter growth ((95,723 − 86,156)/86,156*100) equals 11.10 %, consistent with the inputs from EX‑99.1 line 45."
+    },
+    {
+      "line": 25,
+      "value": "6.75",
+      "supported": true,
+      "reason": "The EX‑99.1 excerpt (line 58) reports Diluted EPS of $ 6.75 for the fourth quarter, identical to the reported figure."
+    }
+  ]
+}

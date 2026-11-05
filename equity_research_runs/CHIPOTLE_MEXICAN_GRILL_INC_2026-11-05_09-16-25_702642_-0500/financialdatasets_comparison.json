@@ -1,0 +1,401 @@
+{
+  "source": "https://api.financialdatasets.ai/financials/",
+  "retrieved_at": "2026-11-05T09:16:34.500788-05:00",
+  "analysis_date": "2026-11-05",
+  "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+  "rows": [
+    {
+      "concept": "total_revenue",
+      "period_label": "current",
+      "sec_tag": "us-gaap:Revenues",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 11925601000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "revenue",
+      "provider_fact": {
+        "ticker": "CMG",
+        "report_period": "2025-12-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-04",
+        "accession_number": "0001058090-26-000009",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+        "value": "11925601000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "total_revenue",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:Revenues",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 11313853000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "revenue"
+    },
+    {
+      "concept": "operating_income",
+      "period_label": "current",
+      "sec_tag": "us-gaap:OperatingIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 1935798000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "operating_income",
+      "provider_fact": {
+        "ticker": "CMG",
+        "report_period": "2025-12-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-04",
+        "accession_number": "0001058090-26-000009",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+        "value": "1935798000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "operating_income",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:OperatingIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 1916333000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "operating_income"
+    },
+    {
+      "concept": "net_income",
+      "period_label": "current",
+      "sec_tag": "us-gaap:NetIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 1535761000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "net_income",
+      "provider_fact": {
+        "ticker": "CMG",
+        "report_period": "2025-12-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-04",
+        "accession_number": "0001058090-26-000009",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+        "value": "1535761000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "net_income",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:NetIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 1534110000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "net_income"
+    },
+    {
+      "concept": "diluted_eps",
+      "period_label": "current",
+      "sec_tag": "us-gaap:EarningsPerShareDiluted",
+      "sec_unit": "USD/shares",
+      "sec_fact": {
+        "val": 1.14,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "earnings_per_share_diluted",
+      "provider_fact": {
+        "ticker": "CMG",
+        "report_period": "2025-12-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-04",
+        "accession_number": "0001058090-26-000009",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+        "value": "1.14"
+      },
+      "difference_provider_minus_sec": "0.00"
+    },
+    {
+      "concept": "diluted_eps",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:EarningsPerShareDiluted",
+      "sec_unit": "USD/shares",
+      "sec_fact": {
+        "val": 1.11,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "earnings_per_share_diluted"
+    },
+    {
+      "concept": "stockholders_equity",
+      "period_label": "current",
+      "sec_tag": "us-gaap:StockholdersEquity",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 2830607000,
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "balance_sheets",
+      "provider_field": "shareholders_equity",
+      "provider_fact": {
+        "ticker": "CMG",
+        "report_period": "2025-12-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-04",
+        "accession_number": "0001058090-26-000009",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+        "value": "2830607000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "stockholders_equity",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:StockholdersEquity",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 3655546000,
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "balance_sheets",
+      "provider_field": "shareholders_equity"
+    },
+    {
+      "concept": "long_term_debt_noncurrent",
+      "period_label": "current",
+      "sec_tag": "us-gaap:LongTermDebt",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 0,
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "long_term_debt_noncurrent",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:LongTermDebt",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 0,
+        "end": "2024-12-31",
+        "accn": "0001058090-25-000014",
+        "filed": "2025-02-05",
+        "form": "10-K",
+        "fy": 2024,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "long_term_debt_current",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "long_term_debt_current",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "cash_from_operations",
+      "period_label": "current",
+      "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 2113926000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "cash_flow_statements",
+      "provider_field": "net_cash_flow_from_operations",
+      "provider_fact": {
+        "ticker": "CMG",
+        "report_period": "2025-12-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-04",
+        "accession_number": "0001058090-26-000009",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+        "value": "2113926000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "cash_from_operations",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 2105076000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "cash_flow_statements",
+      "provider_field": "net_cash_flow_from_operations"
+    },
+    {
+      "concept": "additions_to_property_and_equipment",
+      "period_label": "current",
+      "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 666336000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "additions_to_property_and_equipment",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 593603000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    }
+  ],
+  "status": "completed"
+}

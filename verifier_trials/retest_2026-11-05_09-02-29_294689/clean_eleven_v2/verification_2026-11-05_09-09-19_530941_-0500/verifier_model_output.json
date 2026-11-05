@@ -1,0 +1,70 @@
+{
+  "marks": [
+    {
+      "line": 15,
+      "value": "303154 USD million",
+      "supported": true,
+      "reason": "The 10‑K excerpt shows Total revenue = 303,154 (USD million) on line 624 for the period ending 2026‑08‑30, which matches the fact total_revenue.current val 303,154,000,000. The definition and period are consistent."
+    },
+    {
+      "line": 16,
+      "value": "10.14%",
+      "supported": true,
+      "reason": "From the 10‑K, Total revenue for 2026 is 303,154 and for 2025 is 275,235 (USD million). The calculated growth ((303,154‑275,235)/275,235·100) equals 10.14 %, matching the reported figure and the fact data."
+    },
+    {
+      "line": 17,
+      "value": "3.85%",
+      "supported": true,
+      "reason": "Operating income on line 628 is 11,685 USD million and total revenue on line 624 is 303,154 USD million for FY2026. 11,685 / 303,154 · 100 = 3.85 %, which matches the reported margin and the fact operating_income.current."
+    },
+    {
+      "line": 18,
+      "value": "9226 USD million",
+      "supported": true,
+      "reason": "The 10‑K line 634 lists Net income = 9,226 USD million for FY2026, exactly the reported number and identical to fact net_income.current."
+    },
+    {
+      "line": 19,
+      "value": "20.76 USD/share",
+      "supported": true,
+      "reason": "The 10‑K line 637 gives Diluted EPS = 20.76 USD/share for FY2026, matching the report and fact diluted_eps.current."
+    },
+    {
+      "line": 20,
+      "value": "28.40%",
+      "supported": true,
+      "reason": "Net income 9,226 USD million divided by the average equity ((35,803 + 29,164)/2 = 32,483.5 USD million) yields 28.40 %, consistent with the claim and the underlying facts for net_income and stockholders_equity."
+    },
+    {
+      "line": 21,
+      "value": "0.1721 ratio",
+      "supported": true,
+      "reason": "Long‑term debt (non‑current 3,914 + current 2,248) = 6,162 USD million; equity 35,803 USD million. 6,162 / 35,803 = 0.1721, matching the claim and the values in the 10‑K excerpt."
+    },
+    {
+      "line": 22,
+      "value": "9382 USD million",
+      "supported": true,
+      "reason": "Operating cash flow on line 760 is 15,817 USD million and capital expenditures on line 762 are 6,435 USD million; 15,817 ‑ 6,435 = 9,382 USD million, exactly the reported free‑cash‑flow and consistent with the XBRL facts."
+    },
+    {
+      "line": 23,
+      "value": "95723 USD million",
+      "supported": true,
+      "reason": "EX‑99.1 line 45 shows Fourth‑quarter total revenue = 95,723 USD million (16‑week period ending 2026‑08‑30), which matches the claimed 95,723 USD million."
+    },
+    {
+      "line": 24,
+      "value": "11.10%",
+      "supported": true,
+      "reason": "Quarter‑over‑quarter growth: (95,723 ‑ 86,156) / 86,156 · 100 = 11.10 %, exactly the claimed percentage and derived from the EX‑99.1 figures."
+    },
+    {
+      "line": 25,
+      "value": "6.75 USD/share",
+      "supported": true,
+      "reason": "EX‑99.1 line 58 lists Diluted EPS for the fourth quarter as 6.75 USD/share, matching the report and the XBRL fact for that quarter."
+    }
+  ]
+}

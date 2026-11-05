@@ -1,0 +1,190 @@
+{
+  "marks": [
+    {
+      "line": 9,
+      "value": "4,000",
+      "supported": true,
+      "reason": "10‑K line 144 states \"We carry less than 4,000 active stock keeping units (SKUs) per warehouse\" confirming the “under 4,000 per warehouse” claim."
+    },
+    {
+      "line": 13,
+      "value": "11%",
+      "supported": true,
+      "reason": "10‑K line 156 reports that digitally‑enabled sales represented 11% of total net sales in 2026, matching the claim."
+    },
+    {
+      "line": 37,
+      "value": "303154000000",
+      "supported": true,
+      "reason": "Company facts (derived from the 10‑K filing) list total revenue for FY 2026 as 303,154,000,000 USD, matching the reported number."
+    },
+    {
+      "line": 38,
+      "value": "275235000000",
+      "supported": true,
+      "reason": "Company facts list total revenue for FY 2025 as 275,235,000,000 USD, matching the reported number."
+    },
+    {
+      "line": 39,
+      "value": "11685000000",
+      "supported": true,
+      "reason": "Company facts list operating income for FY 2026 as 11,685,000,000 USD, matching the reported number."
+    },
+    {
+      "line": 40,
+      "value": "10383000000",
+      "supported": true,
+      "reason": "Company facts list operating income for FY 2025 as 10,383,000,000 USD, matching the reported number."
+    },
+    {
+      "line": 41,
+      "value": "9226000000",
+      "supported": true,
+      "reason": "Company facts list net income for FY 2026 as 9,226,000,000 USD, matching the reported number."
+    },
+    {
+      "line": 42,
+      "value": "8099000000",
+      "supported": true,
+      "reason": "Company facts list net income for FY 2025 as 8,099,000,000 USD, matching the reported number."
+    },
+    {
+      "line": 43,
+      "value": "21.76",
+      "supported": false,
+      "reason": "The 10‑K excerpt does not contain the diluted EPS figure; the company‑facts JSON shows a value of 20.76 USD, so the reported 21.76 USD cannot be verified."
+    },
+    {
+      "line": 44,
+      "value": "21.76",
+      "supported": false,
+      "reason": "Same as line 43 – the filing excerpt does not provide the EPS number, and the facts disagree, making the claim unsupported."
+    },
+    {
+      "line": 45,
+      "value": "18.21",
+      "supported": false,
+      "reason": "The filing excerpt does not contain the prior‑year diluted EPS; without citation it cannot be verified."
+    },
+    {
+      "line": 46,
+      "value": "35803000000",
+      "supported": false,
+      "reason": "No filing excerpt cites stockholders’ equity; the number is only present in the facts file, but the claim lacks a citation, so it is treated as unsupported."
+    },
+    {
+      "line": 47,
+      "value": "29164000000",
+      "supported": false,
+      "reason": "Same as line 46 – no explicit citation in the filing excerpt."
+    },
+    {
+      "line": 48,
+      "value": "3914000000",
+      "supported": false,
+      "reason": "Long‑term debt (non‑current) amount is not shown in any provided filing excerpt; claim lacks verifiable source."
+    },
+    {
+      "line": 49,
+      "value": "5713000000",
+      "supported": false,
+      "reason": "Same as line 48 – no supporting excerpt."
+    },
+    {
+      "line": 50,
+      "value": "2248000000",
+      "supported": false,
+      "reason": "Long‑term debt (current) amount not present in the excerpts; claim unsupported."
+    },
+    {
+      "line": 51,
+      "value": "75000000",
+      "supported": false,
+      "reason": "Same as line 50 – no supporting excerpt."
+    },
+    {
+      "line": 52,
+      "value": "15817000000",
+      "supported": false,
+      "reason": "Cash from operations figure not included in any excerpt; claim unsupported."
+    },
+    {
+      "line": 53,
+      "value": "13335000000",
+      "supported": false,
+      "reason": "Same as line 52 – no supporting excerpt."
+    },
+    {
+      "line": 54,
+      "value": "6435000000",
+      "supported": false,
+      "reason": "Additions to property & equipment not shown in any excerpt; claim unsupported."
+    },
+    {
+      "line": 55,
+      "value": "5498000000",
+      "supported": false,
+      "reason": "Same as line 54 – no supporting excerpt."
+    },
+    {
+      "line": 61,
+      "value": "11%",
+      "supported": true,
+      "reason": "10‑Q line 594 shows Membership fee revenue increased 11%."
+    },
+    {
+      "line": 61,
+      "value": "$5,907",
+      "supported": false,
+      "reason": "The 10‑Q shows membership fee revenue increased to $1,373 (‑ presumably billions); $5,907 is not present in any filing excerpt."
+    },
+    {
+      "line": 62,
+      "value": "10.1%",
+      "supported": true,
+      "reason": "EX‑99.1 line 12 states net sales increased 10.1% for FY 2026."
+    },
+    {
+      "line": 62,
+      "value": "$297.2 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 12 reports FY 2026 net sales of $297.2 billion."
+    },
+    {
+      "line": 62,
+      "value": "$269.9 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 12 reports prior‑year net sales of $269.9 billion."
+    },
+    {
+      "line": 63,
+      "value": "9.4%",
+      "supported": true,
+      "reason": "EX‑99.1 line 16 lists Total Company comparable sales growth of 9.4%."
+    },
+    {
+      "line": 63,
+      "value": "roughly 20%",
+      "supported": true,
+      "reason": "EX‑99.1 line 16 lists Digitally‑Enabled comparable sales growth of 19.5%; rounding to “roughly 20%” is accurate."
+    },
+    {
+      "line": 64,
+      "value": "$0.15",
+      "supported": true,
+      "reason": "EX‑99.1 line 22 mentions a non‑recurring benefit of $0.15 per diluted share."
+    },
+    {
+      "line": 65,
+      "value": "939",
+      "supported": true,
+      "reason": "EX‑99.1 line 23 states Costco operates 939 warehouses."
+    },
+    {
+      "line": 65,
+      "value": "roughly 69%",
+      "supported": true,
+      "reason": "EX‑99.1 line 23 lists 647 U.S. warehouses; 647/939 ≈ 68.9%, which rounds to “roughly 69%”."
+    }
+  ]
+}

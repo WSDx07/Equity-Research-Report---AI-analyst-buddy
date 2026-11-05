@@ -32,6 +32,23 @@ class FakeResponses:
 
 
 class RoleWorkflowTest(unittest.TestCase):
+    def test_invalid_purdue_response_reports_schema_problem_without_echoing_content(self):
+        class Response:
+            def raise_for_status(self): pass
+            def json(self):
+                return {"choices": [{"finish_reason": "stop", "message": {"content": '{"recommendation":"UNEXPECTED_PRIVATE_TEXT"}'}}]}
+        config = SimpleNamespace(response_schema=roles.Advice, system_instruction="test")
+        with patch.object(roles.requests, "post", return_value=Response()):
+            pool = roles.ProviderRouter(None, "test-key")
+            with self.assertRaises(ValueError) as error:
+                pool.generate_content(model="test", contents="{}", config=config)
+        message = str(error.exception)
+        self.assertIn("Advice", message)
+        self.assertIn("finish reason: stop", message)
+        self.assertIn("recommendation", message)
+        self.assertNotIn("UNEXPECTED_PRIVATE_TEXT", message)
+        self.assertNotIn("test-key", message)
+
     def test_backup_key_is_used_for_quota_and_stays_active(self):
         from google.genai import errors
         class Models:

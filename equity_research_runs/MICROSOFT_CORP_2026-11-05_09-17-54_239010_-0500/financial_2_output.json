@@ -1,0 +1,19 @@
+{
+  "observations": [
+    "The audited annual filing supplies FY revenue, operating income, net income, diluted EPS, equity and cash‑from‑operations, yet the cross‑check notes that prior‑year figures lack a comparable unique statement, reducing confidence in year‑over‑year trends.",
+    "The quarterly EX‑99.1 release offers unaudited three‑month results and mentions non‑GAAP adjustments for OpenAI, but the precise definition of those adjustments appears later in the document and is not part of the first paragraph, limiting immediate clarity.",
+    "Mapping of long‑term debt tags from the XBRL facts to provider fields is flagged as not comparable, indicating that debt‑to‑equity calculations rest on incomplete or uncertain debt data.",
+    "Operating cash generation is described, yet the reconciliation with non‑GAAP measures and the OpenAI impact are presented only in narrative form, constraining the precision of free‑cash‑flow assessment.",
+    "Peer data for Alphabet and Amazon includes operating‑margin percentages, allowing relative margin comparisons, while Oracle’s filing lacks non‑current debt figures, hindering leverage benchmarking across all peers.",
+    "Valuation multiples such as price‑to‑earnings, debt‑to‑equity and free‑cash‑flow are produced by the calculator, but the underlying assumptions (share price, chosen debt tag) are not independently verified within the supplied documents.",
+    "Fiscal‑year‑end dates differ among the companies (Microsoft ends in June, Alphabet and Amazon in December, Oracle in May), which restricts period‑alignment for direct peer benchmarking.",
+    "The 10‑K indicates Microsoft is a large accelerated filer, yet it does not explicitly confirm emerging‑growth company status, and the filing provides limited detail on filing‑status definitions.",
+    "Risk factors enumerate numerous uncertainties—competition, AI investment, regulatory changes, cyber‑security, supply‑chain constraints—without quantitative estimates, leaving the magnitude of potential financial impact undefined."
+  ],
+  "gaps": [
+    "Debt figures for long‑term obligations cannot be confidently linked to the SEC tags, resulting in missing evidence for a reliable debt‑to‑equity ratio.",
+    "The prior‑year annual numbers are marked as not comparable, so the growth rates lack independent verification.",
+    "Non‑GAAP adjustments for OpenAI are described, but the exact monetary impact is only summarized, not detailed line by line, creating a gap for precise adjusted earnings analysis."
+  ],
+  "insight": "Insight: Azure revenue grew markedly in the quarter — EX-99.1 line 72: Azure revenue increased 48%."
+}

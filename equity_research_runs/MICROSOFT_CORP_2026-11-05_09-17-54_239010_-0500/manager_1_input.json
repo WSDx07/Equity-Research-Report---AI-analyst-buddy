@@ -1,0 +1,843 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "Microsoft describes itself as a developer and supporter of a broad portfolio of technology solutions that span artificial intelligence, cloud computing, productivity, collaboration and personal computing.",
+          "document": "10-K",
+          "line": 154,
+          "quote": "We develop and support a broad portfolio of technology solutions for individuals and businesses, focusing on secure, trusted, and innovative platforms and applications that meet evolving customer needs across AI, cloud computing, productivity and collaboration, and personal computing."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The company emphasises the scale advantages of its cloud infrastructure, noting that large data centres lower the cost per unit of compute and improve utilisation across diverse demand patterns.",
+          "document": "10-K",
+          "line": 165,
+          "quote": "The Microsoft Cloud provides integration across the technology stack while offering openness, improving time to value, reducing costs, and increasing agility. Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at significantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application demand patterns, improving the utilization of computing, storage, and network resources; and multi‑tenancy locations that lower application maintenance labor costs."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Academic and industry peers compete with Microsoft’s productivity suite by offering a mix of software, web‑based and mobile applications, but Microsoft counters this by delivering secure, integrated, and easy‑to‑use tools that work with existing on‑premise and cloud environments.",
+          "document": "10-K",
+          "line": 226,
+          "quote": "Competitors to Office include software and global application vendors, web‑based and mobile application companies, AI‑first application companies, as well as local application developers. We compete by providing secure, integrated industry‑specific, and easy‑to‑use productivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already have both on‑premises or in the cloud."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Azure’s competitive edge is portrayed as its hybrid cloud capability, global scale and breadth of identity and security solutions that differentiate it from other cloud providers.",
+          "document": "10-K",
+          "line": 249,
+          "quote": "Azure’s competitive advantage includes enabling a hybrid cloud, allowing deployment of existing datacenters with our public cloud into a single, cohesive infrastructure, and the ability to run at a scale that meets the needs of businesses of all sizes and complexities."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Microsoft positions its Azure artificial intelligence services as a differentiator, providing supercomputing power, custom silicon and a broad portfolio of AI models to support large workloads.",
+          "document": "10-K",
+          "line": 243,
+          "quote": "Azure AI offerings provide a competitive advantage as companies seek ways to optimise and scale their business with AI. We offer supercomputing power for AI at scale to run large workloads, complemented by our rapidly expanding portfolio of AI cloud services (including the latest models) and hardware, which includes custom‑built silicon and strong partnerships with chip manufacturers."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The firm states that it is investing heavily in artificial intelligence and cloud capabilities to drive customer adoption, usage and retention of its services.",
+          "document": "10-K",
+          "line": 176,
+          "quote": "We are focused on helping customers use the breadth and depth of the Microsoft Cloud to get the most value out of their digital spend while leading the AI platform wave across our solution areas."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The quarterly earnings release reports that Azure revenue grew by nearly half year‑over‑year.",
+          "document": "EX-99.1",
+          "line": 72,
+          "quote": "Azure revenue increased 48%"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The same release notes that overall cloud revenue rose by thirty percent year‑over‑year, indicating strong demand for the company’s cloud services.",
+          "document": "EX-99.1",
+          "line": 70,
+          "quote": "Microsoft Cloud revenue was $63.9 billion and increased 30% (up 31% in constant currency) year‑over‑year"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The earnings release highlights a growth in the commercial segment of Microsoft 365 cloud revenue of roughly eighteen percent on an adjusted basis.",
+          "document": "EX-99.1",
+          "line": 74,
+          "quote": "Microsoft 365 commercial cloud revenue increased 18% (up 19% in constant currency) on an adjusted basis, normalised for a 1‑point benefit from in‑period revenue recognition in the prior year, and increased 17% (up 18% in constant currency) on a reported basis"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Search and advertising revenue, when measured without traffic acquisition costs, rose by roughly twelve percent, showing diversification beyond cloud services.",
+          "document": "EX-99.1",
+          "line": 81,
+          "quote": "Search and advertising revenue excluding traffic acquisition costs increased 12%"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "In the product development arena, the company explains that it creates most of its offerings internally, which it says helps maintain differentiation and technical control.",
+          "document": "10-K",
+          "line": 315,
+          "quote": "We develop most of our products and services internally which allows us to maintain competitive advantages that come from product differentiation and closer technical control over our products and services."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Microsoft notes that it plans to continue significant research and development investments across artificial intelligence, cloud, devices, security and operating systems.",
+          "document": "10-K",
+          "line": 313,
+          "quote": "We make significant investments in research and development for new and existing products, services, and technologies, including tools and platforms spanning digital work and life experiences, cloud computing, AI, devices, security, and operating systems."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The firm indicates that it is expanding its data‑centre footprint globally to meet growing AI demand, while recognising the dependence on land, energy and component availability.",
+          "document": "10-K",
+          "line": 309,
+          "quote": "We continue to align our datacenter locations and server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units and other components."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The company discloses that it completed a major acquisition in the previous year and maintains a long‑term partnership with an artificial‑intelligence leader.",
+          "document": "10-K",
+          "line": 446,
+          "quote": "For example, in October 2023 we completed our acquisition of Activision Blizzard, Inc. Additionally, we have a long‑term strategic partnership with OpenAI."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The filing acknowledges that rigorous capital and operational investments are required to support AI and cloud growth, and that these investments carry execution risk and depend on the ability to generate sufficient cash flow.",
+          "document": "10-K",
+          "line": 419,
+          "quote": "These investments are being made at significant scale and on an accelerated timeline, require substantial and increasing capital expenditures and continued access to capital, and are in advance of fully developed revenue streams."
+        }
+      ],
+      "gaps": [
+        "The 10‑K does not provide explicit forward‑looking financial guidance for the next fiscal period, only a general statement that guidance will be given on the earnings call (line 88).",
+        "The filing does not quantify the expected impact of upcoming regulatory changes on specific business segments, so any claim about regulatory cost impact would be speculative."
+      ],
+      "insight": "Insight: Azure revenue grew by forty‑eight percent year‑over‑year — EX-99.1 line 72: \"Azure revenue increased 48%\""
+    },
+    "financial": {
+      "observations": [
+        "The company reports a strong increase in top‑line results compared with the prior fiscal year, indicating robust demand for its cloud and AI offerings.",
+        "Operating performance appears to have improved markedly, with operating margins expanding relative to the prior period, reflecting efficient cost management and scale benefits.",
+        "Cash generated from operations shows a substantial rise, supporting the firm’s ability to fund ongoing investments without relying heavily on external financing.",
+        "The balance sheet reflects a notable increase in equity, while long‑term debt remains relatively modest, suggesting a solid financial foundation.",
+        "Capital spending on property and equipment has accelerated, consistent with the company’s stated focus on expanding datacenter capacity and AI infrastructure.",
+        "The quarterly release emphasizes continued growth in cloud segments, particularly Azure and Microsoft 365, which aligns with the disclosed revenue growth trends.",
+        "Risk disclosures highlight competitive pressures, regulatory uncertainties, and execution risks around AI and cloud investments, underscoring potential headwinds despite the positive financial indicators.",
+        "Cross‑checking of SEC filings reveals that certain line‑item mappings (e.g., long‑term debt tags) lack a reliable correspondence, limiting confidence in those specific figures.",
+        "The 10‑K filing does not explicitly define the measurement basis for some metrics (e.g., non‑GAAP adjustments), so caution is warranted when interpreting adjusted results."
+      ],
+      "gaps": [
+        "The prior‑year comparative figures for some balance sheet items are marked as not comparable, leaving a gap in year‑over‑year analysis for those accounts.",
+        "Long‑term debt figures lack a clear mapping to the provider’s data fields, limiting the ability to assess leverage precisely."
+      ],
+      "insight": "Insight: Operating income grew by 21% year‑over‑year — EX-99.1 line 13: \"Operating income was $45.9 billion and increased 21%\""
+    },
+    "advisor": {
+      "recommendation": "Buy",
+      "thesis": "Microsoft’s diversified technology platform—spanning cloud, AI, productivity and personal computing—continues to benefit from scale‑driven cost efficiencies and strong customer adoption of Azure and Microsoft 365. Internal product development and sizable R&D investment protect its differentiation, while the hybrid cloud advantage and AI‑centric services deepen market stickiness. Robust operating performance, ample cash generation and a solid balance sheet support ongoing strategic investments without heavy reliance on external financing.",
+      "deciding_metric": "operating_margin_percent",
+      "risks": [
+        "Execution risk surrounding large‑scale AI and cloud infrastructure expansion, including land, energy and component constraints.",
+        "Intense competitive dynamics in cloud, AI, productivity and advertising that could pressure pricing and market share.",
+        "Regulatory and legal uncertainties across data privacy, AI governance and competition law that may increase compliance costs.",
+        "Cybersecurity threats that could disrupt services, erode trust and lead to reputational damage.",
+        "Supply‑chain disruptions for critical hardware components that could delay datacenter roll‑outs and raise costs."
+      ],
+      "insight": ""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 9,
+      "text": "REDMOND, Wash. — October 28, 2026 — Microsoft Corp. today announced the following results for the quarter ended September 30, 2026, as compared to the corresponding period of last fiscal year:",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "MSFT",
+        "name": "MICROSOFT CORP",
+        "cik": 789019,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-05",
+      "retrieved_at": "2026-11-05T09:18:03.340224-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "fiscal_year_end": "2026-06-30",
+      "prior_fiscal_year_end": "2025-06-30",
+      "preferred_10k_accession": "0001193125-26-323660",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "current": {
+            "val": 331839000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 281724000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 155237000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 128528000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 133749000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 101832000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 17.95,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 13.64,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 442387000000,
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 343479000000,
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "current": {
+            "val": 31067000000,
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 40152000000,
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": {
+            "val": 9227000000,
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2999000000,
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 182935000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 136162000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": {
+            "val": 115948000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 64551000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "17.78868679984665843165651489",
+      "operating_margin_percent": "46.78081840892722073053498835",
+      "return_on_average_equity_percent": "34.03862745048137977721392706",
+      "debt_to_equity": "0.09108314665666034490163589798",
+      "free_cash_flow_usd": "66987000000",
+      "price_to_earnings": "30.96378830083565459610027855",
+      "inputs": {
+        "price_usd_per_share": "555.80",
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebtNoncurrent"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-05T09:18:06.244913-05:00",
+      "analysis_date": "2026-11-05",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 331839000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "MSFT",
+            "report_period": "2026-06-30",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-07-29",
+            "accession_number": "0001193125-26-323660",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm",
+            "value": "331839000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 281724000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 155237000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "MSFT",
+            "report_period": "2026-06-30",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-07-29",
+            "accession_number": "0001193125-26-323660",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm",
+            "value": "155237000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 128528000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 133749000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "MSFT",
+            "report_period": "2026-06-30",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-07-29",
+            "accession_number": "0001193125-26-323660",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm",
+            "value": "133749000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 101832000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 17.95,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "MSFT",
+            "report_period": "2026-06-30",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-07-29",
+            "accession_number": "0001193125-26-323660",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm",
+            "value": "17.95"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 13.64,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 442387000000,
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "MSFT",
+            "report_period": "2026-06-30",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-07-29",
+            "accession_number": "0001193125-26-323660",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm",
+            "value": "442387000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 343479000000,
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 31067000000,
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 40152000000,
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 9227000000,
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2999000000,
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 182935000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "MSFT",
+            "report_period": "2026-06-30",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-07-29",
+            "accession_number": "0001193125-26-323660",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm",
+            "value": "182935000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 136162000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 115948000000,
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 64551000000,
+            "start": "2024-07-01",
+            "end": "2025-06-30",
+            "accn": "0001193125-26-323660",
+            "filed": "2026-07-29",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 2 has an invalid or non-verbatim document line and quote.",
+        "Claim 3 has an invalid or non-verbatim document line and quote.",
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 8 has an invalid or non-verbatim document line and quote.",
+        "Claim 9 has an invalid or non-verbatim document line and quote.",
+        "Claim 12 has an invalid or non-verbatim document line and quote.",
+        "Claim 14 has an invalid or non-verbatim document line and quote.",
+        "No sourced claim for Future Developments and Strategic Recommendations.",
+        "Insight needs a filing, line number, and exact quote from that line."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line.",
+        "Financial observations contain digits."
+      ],
+      "advisor_issues": [
+        "No Insight line was supplied.",
+        "Advisor prose contains digits."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

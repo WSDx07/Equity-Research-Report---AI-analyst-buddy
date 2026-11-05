@@ -1,0 +1,309 @@
+[
+  {
+    "id": "core_1",
+    "label": "FY2026 total revenue",
+    "reported": "303154",
+    "unit": "USD million",
+    "definition": "Annual total revenue",
+    "formula": "a",
+    "inputs": {
+      "a": {
+        "value": "303154",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 624,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "total_revenue",
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "fact_period": "current"
+      }
+    }
+  },
+  {
+    "id": "core_2",
+    "label": "FY2026 revenue growth",
+    "reported": "10.14",
+    "unit": "%",
+    "definition": "Annual total revenue growth versus prior year",
+    "formula": "(a-b)/b*100",
+    "inputs": {
+      "a": {
+        "value": "303154",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 624,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "total_revenue",
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "fact_period": "current"
+      },
+      "b": {
+        "value": "275235",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 624,
+        "column": 2,
+        "period_end": "2025-08-31",
+        "concept": "total_revenue",
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "fact_period": "prior"
+      }
+    }
+  },
+  {
+    "id": "core_3",
+    "label": "FY2026 operating margin",
+    "reported": "3.85",
+    "unit": "%",
+    "definition": "Operating income divided by total revenue",
+    "formula": "a/b*100",
+    "inputs": {
+      "a": {
+        "value": "11685",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 628,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "operating_income",
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "fact_period": "current"
+      },
+      "b": {
+        "value": "303154",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 624,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "total_revenue",
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "fact_period": "current"
+      }
+    }
+  },
+  {
+    "id": "core_4",
+    "label": "FY2026 net income",
+    "reported": "9226",
+    "unit": "USD million",
+    "definition": "Annual net income",
+    "formula": "a",
+    "inputs": {
+      "a": {
+        "value": "9226",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 634,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "net_income",
+        "tag": "us-gaap:NetIncomeLoss",
+        "fact_period": "current"
+      }
+    }
+  },
+  {
+    "id": "core_5",
+    "label": "FY2026 diluted earnings per share",
+    "reported": "20.76",
+    "unit": "USD/share",
+    "definition": "Annual GAAP diluted earnings per share",
+    "formula": "a",
+    "inputs": {
+      "a": {
+        "value": "20.76",
+        "unit": "USD/share",
+        "document": "10-K",
+        "line": 637,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "diluted_eps",
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "fact_period": "current"
+      }
+    }
+  },
+  {
+    "id": "core_6",
+    "label": "FY2026 return on average equity",
+    "reported": "28.40",
+    "unit": "%",
+    "definition": "Net income divided by mean of beginning and ending equity",
+    "formula": "a/((b+c)/2)*100",
+    "inputs": {
+      "a": {
+        "value": "9226",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 634,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "net_income",
+        "tag": "us-gaap:NetIncomeLoss",
+        "fact_period": "current"
+      },
+      "b": {
+        "value": "35803",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 698,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "stockholders_equity",
+        "tag": "us-gaap:StockholdersEquity",
+        "fact_period": "current"
+      },
+      "c": {
+        "value": "29164",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 698,
+        "column": 2,
+        "period_end": "2025-08-31",
+        "concept": "stockholders_equity",
+        "tag": "us-gaap:StockholdersEquity",
+        "fact_period": "prior"
+      }
+    }
+  },
+  {
+    "id": "core_7",
+    "label": "FY2026 debt to equity",
+    "reported": "0.1721",
+    "unit": "ratio",
+    "definition": "Current plus noncurrent long-term debt divided by ending equity",
+    "formula": "(a+b)/c",
+    "inputs": {
+      "a": {
+        "value": "3914",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 687,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "long_term_debt_noncurrent",
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "fact_period": "current"
+      },
+      "b": {
+        "value": "2248",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 683,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "long_term_debt_current",
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "fact_period": "current"
+      },
+      "c": {
+        "value": "35803",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 698,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "stockholders_equity",
+        "tag": "us-gaap:StockholdersEquity",
+        "fact_period": "current"
+      }
+    }
+  },
+  {
+    "id": "core_8",
+    "label": "FY2026 free cash flow",
+    "reported": "9382",
+    "unit": "USD million",
+    "definition": "Operating cash flow less the magnitude of capital spending",
+    "formula": "a-b",
+    "inputs": {
+      "a": {
+        "value": "15817",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 760,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "cash_from_operations",
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "fact_period": "current"
+      },
+      "b": {
+        "value": "6435",
+        "unit": "USD million",
+        "document": "10-K",
+        "line": 762,
+        "column": 1,
+        "period_end": "2026-08-30",
+        "concept": "additions_to_property_and_equipment",
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "fact_period": "current"
+      }
+    }
+  },
+  {
+    "id": "core_9",
+    "label": "FY2026 fourth-quarter total revenue",
+    "reported": "95723",
+    "unit": "USD million",
+    "definition": "Total revenue for the 16-week fourth quarter",
+    "formula": "a",
+    "inputs": {
+      "a": {
+        "value": "95723",
+        "unit": "USD million",
+        "document": "EX-99.1",
+        "line": 45,
+        "column": 1,
+        "period_end": "2026-08-30"
+      }
+    }
+  },
+  {
+    "id": "core_10",
+    "label": "FY2026 fourth-quarter revenue growth",
+    "reported": "11.10",
+    "unit": "%",
+    "definition": "Fourth-quarter total revenue growth versus prior comparable quarter",
+    "formula": "(a-b)/b*100",
+    "inputs": {
+      "a": {
+        "value": "95723",
+        "unit": "USD million",
+        "document": "EX-99.1",
+        "line": 45,
+        "column": 1,
+        "period_end": "2026-08-30"
+      },
+      "b": {
+        "value": "86156",
+        "unit": "USD million",
+        "document": "EX-99.1",
+        "line": 45,
+        "column": 2,
+        "period_end": "2025-08-31"
+      }
+    }
+  },
+  {
+    "id": "core_11",
+    "label": "FY2026 fourth-quarter diluted earnings per share",
+    "reported": "6.75",
+    "unit": "USD/share",
+    "definition": "GAAP diluted earnings per share for the 16-week fourth quarter",
+    "formula": "a",
+    "inputs": {
+      "a": {
+        "value": "6.75",
+        "unit": "USD/share",
+        "document": "EX-99.1",
+        "line": 58,
+        "column": 1,
+        "period_end": "2026-08-30"
+      }
+    }
+  }
+]

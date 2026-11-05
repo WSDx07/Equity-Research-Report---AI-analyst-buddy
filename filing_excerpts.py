@@ -37,7 +37,7 @@ def cited_excerpts(report: str, filings: dict[str, str], limit_each: int = 20000
     for form, text in filings.items():
         lines = text.splitlines()
         cited = {int(m.group(1)) - 1 for m in re.finditer(re.escape(form) + r"\s*(?:,\s*[^\n]*?,\s*)?line\s+(\d+)", report, re.I)}
-        indexes = {j for i in cited for j in range(max(0, i - 4), min(len(lines), i + 5))}
+        indexes = {j for i in cited for j in range(max(0, i - 20), min(len(lines), i + 6))}
         excerpt = "\n".join(f"{i + 1}: {lines[i]}" for i in sorted(indexes))
         if not excerpt:
             excerpt = numbered_excerpt(text, limit_each)

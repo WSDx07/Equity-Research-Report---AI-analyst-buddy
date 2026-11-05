@@ -1,0 +1,70 @@
+{
+  "marks": [
+    {
+      "line": 15,
+      "value": "303154",
+      "supported": true,
+      "reason": "10‑K line 624 lists Total revenue = 303,154 (USD million) for the fiscal year ending 2026‑08‑30, matching the claim definition and period."
+    },
+    {
+      "line": 16,
+      "value": "10.14",
+      "supported": true,
+      "reason": "The 10‑K provides current revenue 303,154 and prior revenue 275,235 (USD million). ((303,154‑275,235)/275,235)*100 ≈ 10.14 %, matching the reported growth for FY2026."
+    },
+    {
+      "line": 17,
+      "value": "3.85",
+      "supported": true,
+      "reason": "Operating income 11,685 and total revenue 303,154 (both from 10‑K lines 628 and 624) give (11,685/303,154)*100 ≈ 3.85 % for FY2026, as claimed."
+    },
+    {
+      "line": 18,
+      "value": "9226",
+      "supported": true,
+      "reason": "10‑K line 634 shows NET INCOME = 9,226 (USD million) for the fiscal year ending 2026‑08‑30, exactly the reported figure."
+    },
+    {
+      "line": 19,
+      "value": "20.76",
+      "supported": true,
+      "reason": "10‑K line 637 lists Diluted earnings per share = 20.76 USD/share for FY2026, matching the claim."
+    },
+    {
+      "line": 20,
+      "value": "28.40",
+      "supported": true,
+      "reason": "Net income 9,226 (USD million) divided by average equity ((35,803 + 29,164)/2 = 32,483.5) yields 28.40 %, matching the FY2026 return on average equity."
+    },
+    {
+      "line": 21,
+      "value": "0.1721",
+      "supported": true,
+      "reason": "Long‑term debt (non‑current 3,914 + current 2,248) = 6,162 USD million; equity ending FY2026 = 35,803 USD million. 6,162/35,803 ≈ 0.1721, exactly the reported ratio."
+    },
+    {
+      "line": 22,
+      "value": "9382",
+      "supported": true,
+      "reason": "Operating cash flow 15,817 minus capital expenditures 6,435 (both from 10‑K lines 760 and 762) equals 9,382 USD million, matching the free‑cash‑flow claim."
+    },
+    {
+      "line": 23,
+      "value": "95723",
+      "supported": true,
+      "reason": "EX‑99.1 line 45 records Total revenue = 95,723 USD million for the 16‑week quarter ending 2026‑08‑30, identical to the claim."
+    },
+    {
+      "line": 24,
+      "value": "11.10",
+      "supported": true,
+      "reason": "Quarter‑over‑quarter growth: ((95,723‑86,156)/86,156)*100 ≈ 11.10 % using the figures from EX‑99.1 line 45, matching the reported growth."
+    },
+    {
+      "line": 26,
+      "value": "6.75",
+      "supported": true,
+      "reason": "EX‑99.1 line 58 lists Diluted EPS = 6.75 USD/share for the 16‑week quarter ending 2026‑08‑30, exactly as claimed."
+    }
+  ]
+}
