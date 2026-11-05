@@ -1,0 +1,22 @@
+{
+  "observations": [
+    "Costco’s disclosed revenue figure reflects the total amount generated from contracts with customers, excluding taxes, and is measured over the company’s fiscal year that concludes in late August. The filing indicates that the fiscal calendar follows a 52‑/53‑week schedule rather than a calendar year, which may affect direct comparability with peers that use calendar‑year reporting.",
+    "Operating income is reported under the same fiscal period and is derived after subtracting operating expenses from the total revenue. The company’s narrative emphasizes that operating efficiency stems from high inventory turnover and low gross margins relative to the broader retail sector.",
+    "Net income is presented for the same fiscal window and is used to calculate diluted earnings per share, which the filing notes are presented on a fully diluted basis.",
+    "Stockholders’ equity is reported at the end of the fiscal year and represents the residual interest in the assets after liabilities. The filing’s balance sheet reflects the equity amount without disclosing the composition of retained earnings versus other equity components.",
+    "Long‑term debt is split between non‑current and current portions. The data set notes that the mapping of the SEC tags for these debt items to a provider field could not be safely established, indicating a gap in the evidence for a complete debt‑to‑equity assessment.",
+    "Cash provided by operating activities is disclosed for the fiscal year and is used to evaluate free cash flow after accounting for capital expenditures. The release mentions that capital spending includes additions to property and equipment, but the precise cash flow impact is not quantified in the narrative.",
+    "Peer comparison shows that the other large retailers also report revenue and operating income for fiscal years that end at the end of January, which introduces a timing mismatch when aligning performance metrics with Costco’s August‑ending fiscal year.",
+    "The filing’s risk discussion highlights exposure to commodity price volatility, foreign‑currency fluctuations, and competitive pressures, all of which can materially influence margin performance and cash generation.",
+    "The press release confirms that the company announced its results for the fourth quarter and the full fiscal year, matching the period covered by the financial statements.",
+    "Missing evidence: the cross‑check dataset flags that the long‑term debt tags could not be reliably mapped, and the prior‑period revenue comparison is marked as not comparable, leaving a gap in trend analysis."
+  ],
+  "gaps": [
+    "No numeric data is provided in the qualitative discussion, and the cross‑check indicates that prior‑period revenue figures lack a comparable secular filing, limiting trend verification.",
+    "The definitions for cash flow from operations and additions to property and equipment are present, but the precise calculation of free cash flow is missing from the narrative.",
+    "There is no explicit statement linking the reported operating margin percentage to the underlying definition of operating income, leaving a potential gap in understanding the margin derivation.",
+    "The filing does not include a line‑by‑line breakdown of the debt composition that would support a detailed debt‑to‑equity ratio.",
+    "The peer filings use a different fiscal year end, and the analysis does not contain a conversion or alignment methodology, which limits direct peer comparison."
+  ],
+  "insight": ""
+}

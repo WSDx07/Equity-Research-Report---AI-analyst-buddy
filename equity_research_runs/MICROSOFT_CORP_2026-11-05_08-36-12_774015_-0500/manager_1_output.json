@@ -1,0 +1,38 @@
+{
+  "research_issues": [
+    "Claim 3 has an invalid or non‑verbatim document line and quote.",
+    "Claim 5 has an invalid or non‑verbatim document line and quote.",
+    "Claim 7 has an invalid or non‑verbatim document line and quote.",
+    "Claim 8 has an invalid or non‑verbatim document line and quote.",
+    "Claim 9 has an invalid or non‑verbatim document line and quote.",
+    "Claim 10 has an invalid or non‑verbatim document line and quote.",
+    "No sourced claim for Overview section.",
+    "No sourced claim for Valuation Insights section.",
+    "No sourced claim for Future Developments and Strategic Recommendations section.",
+    "No sourced claim for Investment Recommendation section."
+  ],
+  "financial_issues": [
+    "No Insight line was supplied for the financial role.",
+    "Financial observations contain digits, which may impede textual consistency checks."
+  ],
+  "advisor_issues": [
+    "Insight missing – filing, line number, and exact quote are required.",
+    "No sourced claim for Investment Recommendation section."
+  ],
+  "overall_issues": [
+    "Missing sourced claims for four core sections: Overview, Valuation Insights, Future Developments and Strategic Recommendations, Investment Recommendation.",
+    "Release first paragraph limitation: saved text lacks original HTML paragraph boundaries, so its status as the true first paragraph cannot be confirmed."
+  ],
+  "research_insight": {
+    "status": "pass",
+    "reason": "Insight provided with filing, line number, and exact quote; it adds qualitative context (security focus) and does not merely restate a figure from the release first paragraph."
+  },
+  "financial_insight": {
+    "status": "fail",
+    "reason": "Insight field is empty; no insight line supplied for the financial specialist."
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

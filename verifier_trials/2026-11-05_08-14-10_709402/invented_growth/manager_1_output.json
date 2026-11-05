@@ -1,0 +1,20 @@
+{
+  "research_issues": [
+    "Many claims in the Overview and Market Positioning sections are flagged as “invalid or non‑verbatim” (claims 1‑4, 6‑10, 14‑28). These need source‑line verification or removal.",
+    "Claim 15 references a numeric value that is not present in the quoted line – verify the figure or correct the quote.",
+    "The research section lacks any claims for the required “Valuation Insights” and “Investment Recommendation” sections, violating completeness of the five‑section structure.",
+    "Research gaps identified in the source data (no forward‑looking warehouse‑opening guidance, no concrete private‑label or AI‑tech rollout details, and uncertain legal‑matter outcomes) remain unaddressed."
+  ],
+  "financial_issues": [
+    "Observation text contains raw digits (e.g., “303 154 000 000”), which the automated check flags as a style/formatting issue – consider summarising numbers or placing them in tables.",
+    "Prior‑year financial line items for revenue, operating income, net income, EPS, equity, long‑term debt and cash‑flow are marked “not comparable”. Trend analysis that relies on these figures is therefore uncertain.",
+    "Mapping for long‑term debt (non‑current and current) and capital‑expenditure items is missing, preventing verification of leverage ratios and free‑cash‑flow trends."
+  ],
+  "advisor_issues": [],
+  "overall_issues": [
+    "Incomplete section coverage: Valuation Insights and Investment Recommendation sections have no supporting claims or data.",
+    "Unresolved claim verification: dozens of research claims require corrected line numbers/quotes before the report can be finalized.",
+    "Data gaps for forward‑looking statements (warehouse openings FY 2027‑2028, private‑label launches, AI initiatives) remain; these should be sourced or explicitly noted as unknown.",
+    "Legal‑matter uncertainty (Glazer/Salisbury class actions) is mentioned in research gaps but not reflected in any claim – either add a disclaimer claim or acknowledge the uncertainty in the relevant section."
+  ]
+}

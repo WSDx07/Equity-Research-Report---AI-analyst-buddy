@@ -87,6 +87,18 @@ class ProviderRouter:
                 response = requests.post("https://genai.rcac.purdue.edu/api/chat/completions", headers={"Authorization": f"Bearer {self.purdue_key}"}, json=body, timeout=180)
                 response.raise_for_status()
                 data = response.json()
+            except requests.HTTPError as exc:
+                error_response = exc.response
+                status = error_response.status_code if error_response is not None else "unknown"
+                detail = ""
+                if error_response is not None:
+                    try:
+                        body_error = error_response.json()
+                        value = body_error.get("detail", body_error.get("error", "")) if isinstance(body_error, dict) else ""
+                        detail = str(value).replace(self.purdue_key or "", "[redacted]")[:600] if value else ""
+                    except (ValueError, TypeError):
+                        pass
+                raise ValueError(f"Purdue API HTTP {status}" + (f": {detail}" if detail else ". Check the key, model and connection.")) from None
             except (requests.RequestException, ValueError) as exc:
                 raise ValueError(f"Purdue API request failed: {type(exc).__name__}. Check the key, model and connection.") from exc
             if data is not None:
@@ -152,6 +164,7 @@ def claim_numbers_supported(claim: Claim) -> bool:
 
 
 def run_roles(desk) -> Path:
+    raise RuntimeError("The legacy role runner is disabled because it bypasses the Verifier. Run desk_flow.py instead.")
     settings = dotenv_values(Path(__file__).resolve().parent / ".env")
     google_key = (settings.get("API_KEY") or "").strip()
     purdue_key = (settings.get("PURDUE_API_KEY") or "").strip()

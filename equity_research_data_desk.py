@@ -392,6 +392,8 @@ class Desk:
                 say(f"  {label}: no explicit line found; inspect the saved release text")
 
     def run(self) -> None:
+        if self.step is None:
+            raise ValueError("The legacy full-desk runner has been retired; run desk_flow.py to include the Verifier. Use --step for an individual data step.")
         if self.selected(1):
             self.announce(1, "Resolve ticker to CIK")
             say(f"  {self.company_info()['ticker']} | {self.company['name']} | CIK {self.company['cik']:010d} | {self.company['source']}")
@@ -437,11 +439,6 @@ class Desk:
                 self.save_json("peer_facts.json", peer_results)
         if self.run_dir is not None:
             say(f"\nSaved output: {self.run_dir}")
-        if self.step is None:
-            from equity_research_roles import run_roles
-            run_roles(self)
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("ticker", help="SEC ticker symbol")

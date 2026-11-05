@@ -1,0 +1,19 @@
+{
+  "observations": [
+    "The primary financial evidence for Costco Wholesale is drawn from its most recent annual filing, which covers the fiscal year ending late August 2026. The same filing supplies the comparable prior‑year period ending late August 2025, enabling year‑over‑year analysis.",
+    "Key performance measures such as total revenue, operating income, net income and diluted earnings per share are all reported under standard U.S. GAAP tags and have been confirmed by an independent cross‑check to match the provider data exactly, indicating that the numeric values themselves are internally consistent across the SEC filing and the supplemental dataset.",
+    "Despite the numeric match, the cross‑check flags several items as “not comparable” because the provider does not furnish a uniquely identifiable annual statement for the prior period or because the mapping between the SEC tag and the provider field is uncertain. This includes the prior‑year figures for total revenue, operating income, net income, diluted EPS, stockholders’ equity, long‑term debt (both non‑current and current) and cash‑from‑operations. Consequently, any trend analysis that relies on those prior figures should be treated with caution.",
+    "The balance‑sheet items for long‑term debt (both non‑current and current) lack a clear mapping to the supplemental data source, which means the derived leverage ratios must be interpreted as based on the SEC filing alone, without external verification.",
+    "Operating cash flow and capital expenditures are reported, but the supplemental data does not provide a reliable cross‑reference for the prior period, limiting confidence in free‑cash‑flow trends.",
+    "The press release accompanying the annual results contains forward‑looking statements that are qualified by a comprehensive risk disclaimer. These statements are not part of the audited financials and therefore should not be treated as evidence of current performance.",
+    "When benchmarked against peers in the wholesale and big‑box retail segment, Costco’s reported growth rate appears higher than that of the listed competitors, and its operating margin is positioned competitively relative to the peers’ margins. However, because the peer data also includes items flagged as not comparable for prior periods, any direct numeric comparison should be qualified.",
+    "Costco’s valuation multiples, such as price‑to‑earnings, are calculated using the most recent share price and earnings figures from the annual report. The methodology follows standard market practice, but the absence of a comparable peer multiple for the same period means the relative valuation assessment remains qualitative.",
+    "The debt‑to‑equity ratio derived from the filing reflects a relatively low level of leverage, consistent with the company’s historical capital structure, yet the lack of a verifiable mapping for the debt components in the supplemental source suggests the ratio should be corroborated with the company’s own disclosures.",
+    "Overall, the evidence supports a view that Costco delivered robust financial performance in the most recent fiscal year, with improvements in revenue, profitability and cash generation. Nonetheless, gaps in the comparability of prior‑year data and the limited external verification of certain balance‑sheet items introduce uncertainty into any trend‑oriented or valuation‑oriented conclusions."
+  ],
+  "gaps": [
+    "Prior‑year financial line items for several key metrics are not directly comparable across data sources, limiting trend analysis.",
+    "Mapping for long‑term debt items to the supplemental dataset is missing, affecting leverage assessments.",
+    "Free‑cash‑flow calculations rely on a single period’s cash‑flow and capital‑expenditure figures without a verified prior period for comparison."
+  ]
+}

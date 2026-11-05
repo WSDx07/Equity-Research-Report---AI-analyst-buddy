@@ -1,0 +1,244 @@
+{
+  "task": "Synthesize the specialist evidence into an investment view.",
+  "context": {
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "Costco Wholesale operates a membership‑based warehouse club and e‑commerce platform that focuses on low‑price, limited‑assortment merchandise to drive high sales volumes and rapid inventory turnover.",
+          "document": "10-K",
+          "line": 137,
+          "quote": "We operate membership warehouses and e‑commerce sites based on the concept that offering low prices on a limited selection of nationally‑branded and private‑label products in a wide range of categories will produce high sales volumes and rapid inventory turnover."
+        },
+        {
+          "section": "Overview",
+          "claim": "The business model relies on volume purchasing, efficient distribution, and a no‑frills, self‑service warehouse format that enables profit at lower gross margins than most retailers.",
+          "document": "10-K",
+          "line": 137,
+          "quote": "When combined with the operating efficiencies achieved by volume purchasing, efficient distribution and reduced handling of merchandise in no‑frills, self‑service warehouse facilities, these volumes and turnover enable us to operate profitably at significantly lower gross margins (net sales less merchandise costs) than most other retailers."
+        },
+        {
+          "section": "Overview",
+          "claim": "Costco limits the number of active SKUs per warehouse to under 4,000, far fewer than typical broad‑line retailers, and carries 9,000‑11,000 SKUs online.",
+          "document": "10-K",
+          "line": 144,
+          "quote": "We carry less than 4,000 active stock keeping units (SKUs) per warehouse in our core warehouse business, significantly less than other broadline retailers. We average from 9,000 to 11,000 SKUs online, some of which are available in our warehouses."
+        },
+        {
+          "section": "Overview",
+          "claim": "Membership fees, renewal rates, and the growth of the Executive membership tier are key profitability drivers.",
+          "document": "10-K",
+          "line": 418,
+          "quote": "Membership fee revenue increased 11% to $5,907, driven by new member sign‑ups, membership fee increases, and upgrades to Executive membership."
+        },
+        {
+          "section": "Overview",
+          "claim": "In 2026, Costco operated 939 warehouses worldwide, with 647 in the United States, 115 in Canada, and the remainder in other international markets.",
+          "document": "10-K",
+          "line": 795,
+          "quote": "At August 30, 2026, Costco operated 939 warehouses worldwide: 647 in the United States (U.S.) located in 47 states, Washington, D.C., and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the U.K., 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland and New Zealand."
+        },
+        {
+          "section": "Overview",
+          "claim": "The company’s “Other Businesses” segment—e‑commerce, business centers, travel, and gas stations—contributed 11% of total net sales in 2026.",
+          "document": "10-K",
+          "line": 156,
+          "quote": "Our other businesses sell products and services that largely complement our warehouse operations... Digitally‑enabled sales, which represents sales that are initiated through a digital device... as well as Costco Travel, represented 11% of total net sales in 2026."
+        },
+        {
+          "section": "Overview",
+          "claim": "Gasoline sales represented 11% of total net sales in 2026, derived from 774 gas stations operating alongside warehouses.",
+          "document": "10-K",
+          "line": 153,
+          "quote": "We operated 774 gas stations at the end of 2026. Our gasoline business represented 11% of total net sales in 2026."
+        },
+        {
+          "section": "Overview",
+          "claim": "The private‑label Kirkland Signature brand is positioned as high‑quality, lower‑priced than national brands and is expected to increase its sales penetration.",
+          "document": "10-K",
+          "line": 194,
+          "quote": "We believe that Kirkland Signature products are high quality, offered at prices that are generally lower than national brands, and help lower costs, differentiate our merchandise offerings, and generally earn higher margins. We expect to continue to increase the sales penetration of our private‑label items."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Costco views its warehouses as among the most productive in the retail industry, citing high employee retention and a target of at least 50% full‑time staff.",
+          "document": "10-K",
+          "line": 182,
+          "quote": "We believe that our warehouses are among the most productive in the retail industry... a target ratio of at least 50% of our base being full‑time employees."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The firm competes globally with a wide range of retailers, including Walmart, Target, Kroger, Amazon, and other warehouse clubs such as Sam’s Club and BJ’s.",
+          "document": "10-K",
+          "line": 191,
+          "quote": "Walmart, Target, Kroger, and Amazon are among our significant general merchandise retail competitors in the U.S. We also compete with other warehouse clubs, including Walmart’s Sam’s Club and BJ’s Wholesale Club in the U.S."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Costco’s competitive advantage is rooted in low prices, limited assortment, rapid turnover, and the ability to sell inventory before payment is due, often capturing early‑payment discounts.",
+          "document": "10-K",
+          "line": 137,
+          "quote": "We often sell inventory before we are required to pay for it, even while taking advantage of early payment discounts."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The company’s growth strategy emphasizes opening new warehouses (both domestic and international) and expanding e‑commerce capabilities.",
+          "document": "10-K",
+          "line": 405,
+          "quote": "We also achieve net sales growth by opening new warehouses. As our warehouse base grows and available and desirable sites become more difficult to secure, square footage growth becomes a comparatively less substantial component of growth."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "International warehouse expansion is a priority; 31% of the total warehouse count (292 locations) is outside the U.S., and the company expects continued international growth.",
+          "document": "10-K",
+          "line": 300,
+          "quote": "At the end of 2026, we operated 292 warehouses outside of the U.S. (31% of all warehouse locations), and we plan to continue expanding our international operations."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Specific growth catalysts cited by management include digitally‑enabled comparable sales growth (≈20% YoY) and membership fee revenue growth (≈11% YoY).",
+          "document": "EX-99.1",
+          "line": 20,
+          "quote": "Digitally‑Enabled ... 20.9% ... for the fiscal year 2026 (excluding the impacts from changes in gasoline prices and foreign exchange)."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Net sales for FY 2026 grew 10.1% to $297.2 billion, driven largely by comparable sales growth across all regions.",
+          "document": "EX-99.1",
+          "line": 12,
+          "quote": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Comparable sales for the full year rose 6.6% company‑wide, with the U.S. contributing 8.2% growth.",
+          "document": "EX-99.1",
+          "line": 18,
+          "quote": "Total Company ... 6.6% (adjusted) for 52 Weeks."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Membership renewal rates at year‑end 2026 were 92.3% in the U.S. and Canada and 89.8% worldwide.",
+          "document": "10-K",
+          "line": 458,
+          "quote": "At the end of 2026, member renewal rates were 92.3% in the U.S. and Canada and 89.8% worldwide."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The company raised annual membership fees in the U.S. and Canada effective September 1, 2024, which contributed roughly 30‑40% of membership‑fee revenue growth in 2025‑2026.",
+          "document": "10-K",
+          "line": 461,
+          "quote": "We increased annual membership fees in the U.S. and Canada, effective September 1, 2024... The fee income increase accounted for approximately 30% and 40% of membership income growth during 2026 and 2025."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The IEEPA tariff refund received in Q4 2026 added a non‑recurring $0.15 per diluted share benefit to net income.",
+          "document": "EX-99.1",
+          "line": 22,
+          "quote": "This year's fourth quarter was positively impacted by a non‑recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Costco’s gasoline business tends to boost traffic to warehouses; rising gasoline prices raise net sales but lower gross‑margin percentages, while lower gasoline prices have the opposite effect.",
+          "document": "10-K",
+          "line": 404,
+          "quote": "We believe our gasoline business enhances traffic in our warehouses; it generally has a lower gross margin percentage... Rising gasoline prices benefit net sales growth which, given the higher sales base, negatively impacts our gross margin percentage but decreases our SG&A expenses as a percentage of net sales."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Digital and e‑commerce investments are considered crucial for retaining members; the company notes that failure to keep pace could hurt results.",
+          "document": "10-K",
+          "line": 260,
+          "quote": "We must keep pace with changing member expectations and new developments by our competitors. Our members are increasingly using mobile phones, tablets, computers, and other devices to shop... If we are unable to make, improve, or develop relevant member‑facing technology in a timely manner, our ability to compete and our results of operations could be adversely affected."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Costco is actively managing cybersecurity risk, employing NIST and CIS frameworks, third‑party assessments, and a security operations center.",
+          "document": "10-K",
+          "line": 321,
+          "quote": "We have implemented processes, technologies, and controls to seek to assess, identify, and manage risks associated with cybersecurity threats. Management considers cybersecurity risks within our overall approach to enterprise risk management."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The firm acknowledges AI‑related competitive risk: competitors with faster AI adoption could erode its pricing and member‑loyalty advantages.",
+          "document": "10-K",
+          "line": 270,
+          "quote": "Some competitors have greater technology capabilities, including the faster adoption of AI technologies... Our inability to respond effectively to competitive pressures, changes in the retail markets or customer expectations could result in lost market share."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management expects continued expansion of warehouse square footage in international markets where the base is smaller, potentially offsetting slower U.S. growth.",
+          "document": "10-K",
+          "line": 408,
+          "quote": "Our operating models are generally the same across our U.S., Canadian, and Other International operating segments... Certain operations in the Other International segment have relatively higher rates of square footage growth."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Costco plans to maintain its high employee‑retention focus, targeting a 50% full‑time workforce and emphasizing internal promotion, which it believes supports operational productivity.",
+          "document": "10-K",
+          "line": 182,
+          "quote": "We seek to provide them not merely with employment but careers... a target ratio of at least 50% of our base being full‑time employees."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The company’s cash position ($20.2 billion) and operating cash flow ($15.8 billion) are expected to be sufficient to meet liquidity and capital needs for the foreseeable future.",
+          "document": "10-K",
+          "line": 506,
+          "quote": "We believe that our cash and investment positions and operating cash flow... will be sufficient to meet our liquidity and capital requirements for the foreseeable future."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Share repurchases continue under a $4 billion program that expires January 2027; 891,000 shares were repurchased in 2026 at an average price of $950.90.",
+          "document": "10-K",
+          "line": 522,
+          "quote": "During 2026 ... we repurchased 891,000 ... shares of common stock, at an average price per share of $950.90, totaling $847."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The company expects growth of its digitally‑enabled sales (online and Costco Travel) to remain a significant driver, representing 11% of total net sales in 2026.",
+          "document": "10-K",
+          "line": 156,
+          "quote": "... Digitally‑enabled sales, which represents sales that are initiated through a digital device... represented 11% of total net sales in 2026."
+        }
+      ],
+      "gaps": [
+        "The 10‑K excerpt does not provide quantitative guidance on the timing or number of new warehouse openings planned for FY 2027‑2028, so precise forward‑looking growth targets cannot be cited.",
+        "No specific data on upcoming private‑label product launches, pricing initiatives, or technology roll‑outs (e.g., AI‑driven personalization) are included in the provided text; therefore claims about future product or tech initiatives are not supported by evidence.",
+        "The filing does not disclose detailed outcomes of pending legal matters (e.g., the Glazer/Salisbury class actions) beyond the statement that they are not expected to be material; any material impact remains uncertain."
+      ]
+    },
+    "financial": {
+      "observations": [
+        "The primary financial evidence for Costco Wholesale is drawn from its most recent annual filing, which covers the fiscal year ending late August 2026. The same filing supplies the comparable prior‑year period ending late August 2025, enabling year‑over‑year analysis.",
+        "Key performance measures such as total revenue, operating income, net income and diluted earnings per share are all reported under standard U.S. GAAP tags and have been confirmed by an independent cross‑check to match the provider data exactly, indicating that the numeric values themselves are internally consistent across the SEC filing and the supplemental dataset.",
+        "Despite the numeric match, the cross‑check flags several items as “not comparable” because the provider does not furnish a uniquely identifiable annual statement for the prior period or because the mapping between the SEC tag and the provider field is uncertain. This includes the prior‑year figures for total revenue, operating income, net income, diluted EPS, stockholders’ equity, long‑term debt (both non‑current and current) and cash‑from‑operations. Consequently, any trend analysis that relies on those prior figures should be treated with caution.",
+        "The balance‑sheet items for long‑term debt (both non‑current and current) lack a clear mapping to the supplemental data source, which means the derived leverage ratios must be interpreted as based on the SEC filing alone, without external verification.",
+        "Operating cash flow and capital expenditures are reported, but the supplemental data does not provide a reliable cross‑reference for the prior period, limiting confidence in free‑cash‑flow trends.",
+        "The press release accompanying the annual results contains forward‑looking statements that are qualified by a comprehensive risk disclaimer. These statements are not part of the audited financials and therefore should not be treated as evidence of current performance.",
+        "When benchmarked against peers in the wholesale and big‑box retail segment, Costco’s reported growth rate appears higher than that of the listed competitors, and its operating margin is positioned competitively relative to the peers’ margins. However, because the peer data also includes items flagged as not comparable for prior periods, any direct numeric comparison should be qualified.",
+        "Costco’s valuation multiples, such as price‑to‑earnings, are calculated using the most recent share price and earnings figures from the annual report. The methodology follows standard market practice, but the absence of a comparable peer multiple for the same period means the relative valuation assessment remains qualitative.",
+        "The debt‑to‑equity ratio derived from the filing reflects a relatively low level of leverage, consistent with the company’s historical capital structure, yet the lack of a verifiable mapping for the debt components in the supplemental source suggests the ratio should be corroborated with the company’s own disclosures.",
+        "Overall, the evidence supports a view that Costco delivered robust financial performance in the most recent fiscal year, with improvements in revenue, profitability and cash generation. Nonetheless, gaps in the comparability of prior‑year data and the limited external verification of certain balance‑sheet items introduce uncertainty into any trend‑oriented or valuation‑oriented conclusions."
+      ],
+      "gaps": [
+        "Prior‑year financial line items for several key metrics are not directly comparable across data sources, limiting trend analysis.",
+        "Mapping for long‑term debt items to the supplemental dataset is missing, affecting leverage assessments.",
+        "Free‑cash‑flow calculations rely on a single period’s cash‑flow and capital‑expenditure figures without a verified prior period for comparison."
+      ],
+      "calculator_results": {
+        "revenue_growth_percent": "10.14369538757788798662960743",
+        "operating_margin_percent": "3.854476602650797944279145253",
+        "return_on_average_equity_percent": "28.40211184139640124986531624",
+        "debt_to_equity": "0.1721084825293969779068793118",
+        "free_cash_flow_usd": "9382000000",
+        "price_to_earnings": "50.40799614643545279383429672",
+        "inputs": {
+          "price_usd_per_share": "1046.47",
+          "price_date": null,
+          "price_source": null,
+          "debt_tag": "us-gaap:LongTermDebtNoncurrent"
+        }
+      }
+    }
+  },
+  "expected_output": "Return a recommendation, qualitative thesis, one calculator key and risks."
+}

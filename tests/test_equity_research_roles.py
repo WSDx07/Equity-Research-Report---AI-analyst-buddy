@@ -74,14 +74,8 @@ class RoleWorkflowTest(unittest.TestCase):
                 def fact_data(self): return {"as_of": "2026-01-01", "concepts": {}}
                 def calculate(self, facts): print("Operating margin = 10 / 100 = 10%")
                 def release_lines(self): print("Quarter revenue: release line")
-            with patch.object(roles.genai, "Client", return_value=SimpleNamespace(models=response)), patch.object(roles, "dotenv_values", return_value={"API_KEY": "test"}), contextlib.redirect_stdout(io.StringIO()):
-                path = roles.run_roles(Desk())
-            text = path.read_text(encoding="utf-8")
-            self.assertTrue(text.splitlines()[0].startswith("Filings:"))
-            self.assertTrue(text.splitlines()[1].startswith("Run time:"))
-            self.assertTrue(all("## " + section in text for section in roles.SECTIONS))
-            advisor_context = next(message["context"] for name, message in response.messages if name == "Advice")
-            self.assertEqual(set(advisor_context), {"research", "financial"})
+            with self.assertRaisesRegex(RuntimeError, "bypasses the Verifier"):
+                roles.run_roles(Desk())
 
 
 if __name__ == "__main__":

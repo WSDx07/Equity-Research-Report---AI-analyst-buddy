@@ -1,0 +1,210 @@
+{
+  "company": {
+    "ticker": "CMG",
+    "name": "CHIPOTLE MEXICAN GRILL INC",
+    "cik": 1058090,
+    "source": "https://www.sec.gov/files/company_tickers.json"
+  },
+  "as_of": "2026-11-05",
+  "retrieved_at": "2026-11-05T08:46:09.644612-05:00",
+  "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001058090.json",
+  "fiscal_year_end": "2025-12-31",
+  "prior_fiscal_year_end": "2024-12-31",
+  "preferred_10k_accession": "0001058090-26-000009",
+  "concepts": {
+    "total_revenue": {
+      "tag": "us-gaap:Revenues",
+      "unit": "USD",
+      "current": {
+        "val": 11925601000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 11313853000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "operating_income": {
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "val": 1935798000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 1916333000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "net_income": {
+      "tag": "us-gaap:NetIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "val": 1535761000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 1534110000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "diluted_eps": {
+      "tag": "us-gaap:EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "current": {
+        "val": 1.14,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 1.11,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "stockholders_equity": {
+      "tag": "us-gaap:StockholdersEquity",
+      "unit": "USD",
+      "current": {
+        "val": 2830607000,
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 3655546000,
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "long_term_debt_noncurrent": {
+      "tag": "us-gaap:LongTermDebt",
+      "unit": "USD",
+      "current": {
+        "val": 0,
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 0,
+        "end": "2024-12-31",
+        "accn": "0001058090-25-000014",
+        "filed": "2025-02-05",
+        "form": "10-K",
+        "fy": 2024,
+        "fp": "FY"
+      }
+    },
+    "long_term_debt_current": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "cash_from_operations": {
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "current": {
+        "val": 2113926000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 2105076000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "additions_to_property_and_equipment": {
+      "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "unit": "USD",
+      "current": {
+        "val": 666336000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 593603000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001058090-26-000009",
+        "filed": "2026-02-04",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    }
+  }
+}

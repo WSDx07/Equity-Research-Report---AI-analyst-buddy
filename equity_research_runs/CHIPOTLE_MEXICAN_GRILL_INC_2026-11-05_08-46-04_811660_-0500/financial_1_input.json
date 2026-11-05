@@ -1,0 +1,1246 @@
+{
+  "task": "Evaluate financial evidence and valuation limits.",
+  "context": {
+    "facts": {
+      "company": {
+        "ticker": "CMG",
+        "name": "CHIPOTLE MEXICAN GRILL INC",
+        "cik": 1058090,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-05",
+      "retrieved_at": "2026-11-05T08:46:09.644612-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001058090.json",
+      "fiscal_year_end": "2025-12-31",
+      "prior_fiscal_year_end": "2024-12-31",
+      "preferred_10k_accession": "0001058090-26-000009",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:Revenues",
+          "unit": "USD",
+          "current": {
+            "val": 11925601000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 11313853000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 1935798000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1916333000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 1535761000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1534110000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 1.14,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1.11,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 2830607000,
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 3655546000,
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebt",
+          "unit": "USD",
+          "current": {
+            "val": 0,
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 0,
+            "end": "2024-12-31",
+            "accn": "0001058090-25-000014",
+            "filed": "2025-02-05",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 2113926000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2105076000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": {
+            "val": 666336000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 593603000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "5.407070429499128192667873624",
+      "operating_margin_percent": "16.23228883810551770095276540",
+      "return_on_average_equity_percent": "47.35506547563709952571269904",
+      "debt_to_equity": null,
+      "free_cash_flow_usd": "1447590000",
+      "price_to_earnings": "30.87719298245614035087719298",
+      "inputs": {
+        "price_usd_per_share": "35.20",
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebt"
+      }
+    },
+    "quarter_release": {
+      "source": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000103/cmg-20261028xex991.htm",
+      "text_with_line_numbers": "[Excerpt selected from filing; omitted lines are not evidence of absence.]\n1: EX-99.1\n2: 2\n3: cmg-20261028xex991.htm\n4: EX-99.1\n5: Document created using Wdesk\n6: Copyright 2026 Workiva\n7: Document\n8: Exhibit 99.1\n9: EARNINGS RELEASE\n10: PR Contact: Laurie Schalow\n11: (949) 524-4035\n12: MediaRelations@chipotle.com\n13: IR Contact: Christian D'Souza\n14: (949) 524-4075\n15: Christian.DSouza@chipotle.com\n16: CHIPOTLE ANNOUNCES THIRD QUARTER 2026 RESULTS\n17: COMPARABLE RESTAURANT SALES INCREASE 2.1% AS CHIPOTLE DELIVERS A THIRD CONSECUTIVE QUARTER OF POSITIVE TRANSACTION GROWTH\n18: NEWPORT BEACH, Calif. – October 28, 2026 – Chipotle Mexican Grill, Inc. (NYSE: CMG) today reported financial results for its third quarter ended September 30, 2026.\n19: Third quarter highlights, year over year:\n20: •Total revenue increased 9.6% to $3.3 billion\n21: •Comparable restaurant sales increased 2.1%\n22: •Operating margin was 13.7%, a decrease from 15.9%\n23: •Restaurant level operating margin1 was 23.3%, a decrease from 24.5%\n24: •Diluted earnings per share was $0.27, a 6.9% decrease from $0.29\n25: •Adjusted diluted earnings per share1 was $0.27, a 6.9% decrease from $0.29\n26: •Opened 84 company-owned restaurants, with 53 locations including a Chipotlane. We also opened five international partner-operated restaurants.\n27: “Three consecutive quarters of positive comparable transaction growth demonstrates that our Recipe for Growth strategy is working,” said Scott Boatwright, Chief Executive Officer, Chipotle. “We're gaining traction with menu and digital innovation, making significant progress on our high-efficiency equipment rollout, and accelerating our global expansion with entry into three new markets this quarter. These achievements reinforce our confidence in the strategy and our ability to execute as we build Chipotle into an iconic global brand.”\n28: Results for the three months ended September 30, 2026:\n29: Total revenue in the third quarter of 2026 was $3.3 billion, an increase of 9.6% compared to the third quarter of 2025. The increase was driven by new restaurant openings and, to a lesser extent, comparable restaurant sales. Comparable restaurant sales increased 2.1%, including a 1.3% increase in average check and a 0.8% increase in transactions. Digital sales represented 38.8% of total food and beverage revenue for the three months ended September 30, 2026, an increase from 36.7% for the three months ended September 30, 2025.\n30: During the third quarter we opened 84 company-owned restaurants, of which 53 included a Chipotlane, and five international partner-operated restaurants. Chipotlanes continue to perform well and are helping enhance guest access and convenience, as well as increase new restaurant sales, margins and returns.\n31: Food, beverage and packaging costs in the third quarter of 2026 were 29.5% of total revenue, a decrease from 30.0% in the third quarter of 2025. The decrease was primarily driven by the benefit of menu price increases, tariff relief, and favorable limited-time offer mix. These benefits were partially offset by inflation, primarily in beef and freight, and higher protein usage.\n32: 1Restaurant level operating margin, adjusted diluted earnings per share, adjusted net income, adjusted general and administrative expenses, and non-GAAP effective income tax rate are non-GAAP financial measures. Reconciliations to GAAP measures and further information are set forth in the table at the end of this press release.\n33: Labor costs in the third quarter of 2026 were 25.7% of total revenue, an increase from 25.2% in the third quarter of 2025. The increase was primarily driven by lower sales volumes, higher employee compensation, including wage inflation and performance-based bonuses, additional restaurant labor supporting operational execution including promotional activities, and increased insurance costs. These headwinds were partially offset by the benefit from menu price increases.\n34: General and administrative expenses for the third quarter of 2026 were $185.2 million, compared to $146.7 million in the third quarter of 2025. The increase was driven by stock-based compensation, performance bonuses, and outside services related to corporate initiatives. Adjusted general and administrative expenses1 for the third quarter of 2026 were $183.8 million, compared to $138.7 million in the third quarter of 2025.\n35: The effective income tax rate for the third quarter of 2026 was 25.6%, an increase from 23.1% in the third quarter of 2025. The increase was primarily due to an increase in nondeductible expenses and a reduction in tax credits.\n36: Net income for the third quarter of 2026 was $339.9 million, or $0.27 per diluted share, compared to $382.1 million, or $0.29 per diluted share, in the third quarter of 2025. Adjusted net income1 for the third quarter of 2026 was $344.6 million, or $0.27 per adjusted diluted share, compared to $389.9 million, or $0.29 per adjusted diluted share, in the third quarter of 2025.\n37: During the third quarter of 2026 we repurchased $110.0 million of stock at an average price per share of $34.05. As of September 30, 2026, $1.6 billion remained available under share repurchase authorizations from our Board of Directors. The repurchase authorization may be modified, suspended or discontinued at any time.\n38: More information will be available in our Quarterly Report on Form 10-Q, which will be filed with the Securities and Exchange Commission (the \"SEC\") in accordance with applicable rules.\n39: Outlook\n40: For 2026, management continues to anticipate the following:\n41: •Full year comparable restaurant sales growth in the low single digit range\n42: •350 to 370 new restaurant openings, which includes 10 to 15 international partner-operated restaurants. Around 80% of new company-owned restaurants will have a Chipotlane\n43: •An estimated underlying full year effective tax rate between 24% and 26% before discrete items\n44: For 2027, management is anticipating the following:\n45: •340 to 360 new company-owned restaurant openings in the U.S. and Canada\n46: •Around 15 to 25 company-owned and partner-operated restaurants outside the U.S. and Canada.\n47: Definitions\n48: The following definitions apply to these terms as used throughout this release:\n49: •Comparable restaurant sales, or sales comps, and comparable restaurant transactions, represent the change in period-over-period total revenue or transactions for company-owned restaurants in operation for at least 13 full calendar months.\n50: •Average restaurant sales refers to the average trailing 12-month food and beverage revenue for company-owned restaurants in operation for at least 12 full calendar months.\n51: •Restaurant level operating margin represents total revenue less direct restaurant operating costs, expressed as a percent of total revenue.\n52: •Digital sales represent food and beverage revenue for company-owned restaurants generated through the Chipotle website, Chipotle app or third-party delivery aggregators. Digital sales include revenue deferrals associated with Chipotle Rewards.\n53: •Partner-operated restaurants represent Chipotle restaurants over which Chipotle does not have a controlling financial interest and for which Chipotle does not directly manage day-to-day operations. This includes restaurants operated by third parties pursuant to license or franchise agreements and restaurants in which Chipotle holds a minority, non‑controlling ownership interest.\n54: 1Restaurant level operating margin, adjusted diluted earnings per share, adjusted net income, adjusted general and administrative expenses, and non-GAAP effective income tax rate are non-GAAP financial measures. Reconciliations to GAAP measures and further information are set forth in the table at the end of this press release.\n55: Conference Call Details and Supplemental Slides\n56: Chipotle will host a conference call on Wednesday, October 28, 2026, at 4:30 PM Eastern time to discuss third quarter 2026 financial results and provide a business update for the fourth quarter to date. In connection with the call, supplemental slides will be available on the company's website at ir.chipotle.com/presentations.\n57: The conference call can be accessed live over the phone by dialing 1-888-317-6003 or, for international callers, by dialing 1-412-317-6061 and entering code: 6029014. The call will be webcast live on the company's website at ir.chipotle.com/events. An archived webcast will be available approximately one hour after the end of the call.\n58: Available Information\n59: We use the investor relations section at ir.chipotle.com and newsroom section at newsroom.chipotle.com, as well as other portions of our website (together, our \"website\") and our LinkedIn profile as means to routinely distribute important or material, non-public information and for complying with our disclosure obligations under Regulation FD. Accordingly, investors and potential investors are encouraged to consult our website and this social media channel regularly for important information, in addition to following our press releases, filings with the SEC, and public conference calls and webcasts. You may sign up on our website to automatically receive e-mail alerts when we post financial information and issue press releases and to receive information about upcoming events. The information contained on, or that may be accessed through, our website, LinkedIn, and any corresponding applications of those sites, is not incorporated by reference into, and is not a part of, this release.\n60: About Chipotle\n61: Chipotle Mexican Grill, Inc. (NYSE: CMG) is cultivating a better world by serving responsibly sourced, classically-cooked, real food with wholesome ingredients without artificial colors, flavors or preservatives. There are over 4,200 restaurants as of September 30, 2026, in the United States, Canada, the United Kingdom, France, Germany, Mexico, the Middle East, and South Korea. Chipotle is the only restaurant company of its size that owns and operates all its restaurants in the United States, Canada and Europe. With nearly 140,000 employees passionate about providing a great guest experience, Chipotle is a longtime leader and innovator in the food industry. Chipotle is committed to making its food more accessible to everyone while continuing to be a brand with a demonstrated purpose as it leads the way in digital, technology and sustainable business practices. For more information or to place an order online, visit WWW.CHIPOTLE.COM.\n62: Forward-Looking Statements\n63: Certain statements in this press release, in the October 28, 2026, conference call and in the supplemental slides for the call are forward-looking statements as defined in the Private Securities Litigation Reform Act of 1995, including statements under “Outlook,” and about our anticipated full year 2026 comparable restaurant sales growth, the number of new company-owned and international partner-operated restaurant openings in 2026 and 2027, expected number of restaurants with Chipotlanes, and estimated underlying effective 2026 full year tax rate, as well as statements about the expected success of our “Recipe for Growth” strategy overall and its related initiatives, the impacts of pricing and inflation in 2026 and 2027, our future food, beverage, packaging, labor, general and administrative and other costs, future estimated tax rate and future long-term prospects. We use words such as “anticipate”, “believe”, “could”, “should”, “may”, “approximately”, “estimate”, “confident”, “assuming”, “expect”, “intend”, “project”, “target”, “goal” and similar terms and phrases, including references to assumptions, to identify forward-looking statements. The forward-looking statements in this press release are based on currently available operating, financial and competitive information available to us as of the date of this release and speak only as of the date they are made. We assume no obligation to update these forward-looking statements, whether as a result of new information, future events or otherwise, except as may be required by applicable law. These statements are subject to risks and uncertainties that could cause actual results to differ materially from those described in the statements, including but not limited to: wage inflation and state or local regulations mandating higher minimum wages; the competitive labor market, which impacts our ability to attract and retain qualified employees; the impact of any union organizing efforts and our responses to such efforts; increases in ingredient and other operating costs due to inflation, global conflicts, severe weather, our Food with Integrity philosophy, tariffs, or trade restrictions; intermittent supply shortages relating to our Food with Integrity philosophy, rapid expansion, limited time offerings, and supply chain disruptions; risks and impacts of food safety incidents and food-borne illnesses; our reliance on certain information technology systems and potential material failures, interruptions, or outages; risks that our investments in new technology and technological innovations may not generate returns; privacy and cybersecurity risks, including breaches, unauthorized access, theft, modification, destruction, or ransom of guest or employee personal or confidential information stored on our network or the network of third party providers; the impact of competition, including from sources outside the restaurant industry; the impact of government laws and regulations relating to our employees, employment practices, restaurant design and construction, and the sale of food or alcoholic beverages; our ability to achieve our planned growth, such as the costs and availability of suitable new restaurant sites, construction materials, and contractors and restaurant equipment; the expected costs and risks related to our international expansion, including through partner-operated restaurants in the Middle East, South Korea, and Mexico; our ability to achieve expected levels of comparable restaurant sales due to factors such as changes in guests' perceptions of our brand, including as a result of negative publicity or social media posts and decreased consumer spending or restaurant visits, or the inability to increase menu prices or realize the benefits of menu price increases; failure to meet market expectations for our financial performance or any announced guidance and the impact thereof; the potential impact of activist shareholder actions or tactics; failure to attract or retain key executive talent; the impact of our brand, marketing, promotional, advertising, and pricing strategies, digital platform and menu innovations; our reliance on third-party delivery services and the information technology infrastructure; and enforcement and litigation risks, including possible governmental actions and potential litigation related to food safety incidents, cybersecurity incidents, employment or privacy laws, advertising claims, contract disputes, or other matters. In addition, many of the foregoing risks and uncertainties are, or could be, exacerbated by any worsening of the global business and macroeconomic environment or developments in the rapidly evolving capabilities of artificial intelligence and other advanced technologies. These statements also are subject to other risk factors described from time to time in our SEC reports, including our annual report on Form 10-K and quarterly reports on Form 10-Q, all of which are available on the investor relations page of our website at ir.Chipotle.com.\n64: CHIPOTLE MEXICAN GRILL, INC.\n65: CONDENSED CONSOLIDATED STATEMENTS OF INCOME\n66: (in thousands, except per share data)\n67: (unaudited)\n68: Three months ended September 30,\n69: 2026 | | 2025\n70: Food and beverage revenue | $ | 3,277,942 | | | 99.5 | % | | $ | 2,989,255 | | | 99.5 | %\n71: Delivery service revenue | 15,220 | | | 0.5 | | | 14,189 | | | 0.5\n72: Total revenue | 3,293,162 | | | 100.0 | | | 3,003,444 | | | 100.0\n73: Restaurant operating costs (exclusive of depreciation and amortization shown separately below):\n74: Food, beverage and packaging | 972,360 | | | 29.5 | | | 902,445 | | | 30.0\n75: Labor | 847,507 | | | 25.7 | | | 756,669 | | | 25.2\n76: Occupancy | 179,403 | | | 5.4 | | | 158,314 | | | 5.3\n77: Other operating costs | 525,735 | | | 16.0 | | | 450,433 | | | 15.0\n78: General and administrative expenses | 185,228 | | | 5.6 | | | 146,742 | | | 4.9\n79: Depreciation and amortization | 102,611 | | | 3.1 | | | 90,524 | | | 3.0\n80: Pre-opening costs | 15,104 | | | 0.5 | | | 13,741 | | | 0.5\n81: Impairment, closure costs, and asset disposals | 13,250 | | | 0.4 | | | 7,404 | | | 0.2\n82: Total operating expenses | 2,841,198 | | | 86.3 | | | 2,526,272 | | | 84.1\n83: Income from operations | 451,964 | | | 13.7 | | | 477,172 | | | 15.9\n84: Interest and other income, net | 5,161 | | | 0.2 | | | 19,789 | | | 0.7\n85: Income before income taxes | 457,125 | | | 13.9 | | | 496,961 | | | 16.5\n86: Provision for income taxes | 117,251 | | | 3.6 | | | 114,858 | | | 3.8\n87: Net income | $ | 339,874 | | | 10.3 | % | | $ | 382,103 | | | 12.7 | %\n88: Earnings per share:\n89: Basic | $ | 0.27 | | | | | $ | 0.29\n90: Diluted | $ | 0.27 | | | | | $ | 0.29\n91: Weighted-average common shares outstanding:\n92: Basic | 1,265,427 | | | | 1,335,000\n93: Diluted | 1,267,703 | | | | 1,339,522\n94: CHIPOTLE MEXICAN GRILL, INC.\n95: CONDENSED CONSOLIDATED STATEMENTS OF INCOME\n96: (in thousands, except per share data)\n97: (unaudited)\n98: Nine months ended September 30,\n99: 2026 | | 2025\n100: Food and beverage revenue | $ | 9,683,464 | | | 99.5 | % | | $ | 8,896,840 | | | 99.5 | %\n101: Delivery service revenue | 46,502 | | | 0.5 | | | 45,250 | | | 0.5\n102: Total revenue | 9,729,966 | | | 100.0 | | | 8,942,090 | | | 100.0\n103: Restaurant operating costs (exclusive of depreciation and amortization shown separately below):\n104: Food, beverage and packaging | 2,879,279 | | | 29.6 | | | 2,626,837 | | | 29.4\n105: Labor | 2,489,368 | | | 25.6 | | | 2,231,156 | | | 25.0\n106: Occupancy | 523,494 | | | 5.4 | | | 462,405 | | | 5.2\n107: Other operating costs | 1,506,142 | | | 15.5 | | | 1,294,257 | | | 14.5\n108: General and administrative expenses | 579,419 | | | 6.0 | | | 491,676 | | | 5.5\n109: Depreciation and amortization | 297,656 | | | 3.1 | | | 268,680 | | | 3.0\n110: Pre-opening costs | 43,109 | | | 0.4 | | | 32,561 | | | 0.4\n111: Impairment, closure costs, and asset disposals | 36,877 | | | 0.4 | | | 19,039 | | | 0.2\n112: Total operating expenses | 8,355,344 | | | 85.9 | | | 7,426,611 | | | 83.1\n113: Income from operations | 1,374,622 | | | 14.1 | | | 1,515,479 | | | 16.9\n114: Interest and other income, net | 21,580 | | | 0.2 | | | 60,397 | | | 0.7\n115: Income before income taxes | 1,396,202 | | | 14.3 | | | 1,575,876 | | | 17.6\n116: Provision for income taxes | 349,957 | | | 3.6 | | | 371,047 | | | 4.1\n117: Net income | $ | 1,046,245 | | | 10.8 | % | | $ | 1,204,829 | | | 13.5 | %\n118: Earnings per share:\n119: Basic | $ | 0.82 | | | | | $ | 0.90\n120: Diluted | $ | 0.82 | | | | | $ | 0.89\n121: Weighted-average common shares outstanding:\n122: Basic | 1,280,337 | | | | 1,344,824\n123: Diluted | 1,282,875 | | | | 1,350,159\n124: CHIPOTLE MEXICAN GRILL, INC.\n125: CONDENSED CONSOLIDATED BALANCE SHEETS\n126: (in thousands, except per share data)\n127: September 30,\n128: 2026 | | December 31,\n129: 2025\n130: (unaudited)\n131: Assets\n132: Current assets:\n133: Cash and cash equivalents | $ | 634,210 | | | $ | 350,545\n134: Accounts receivable, net | 99,544 | | | 156,466\n135: Inventory | 48,867 | | | 49,508\n136: Prepaid expenses and other current assets | 121,068 | | | 120,450\n137: Income tax receivable | - | | | 91,393\n138: Investments | 268,354 | | | 698,591\n139: Total current assets | 1,172,043 | | | 1,466,953\n140: Leasehold improvements, property and equipment, net | 3,038,421 | | | 2,679,361\n141: Long-term investments | 100,365 | | | 197,123\n142: Restricted cash | 35,799 | | | 35,364\n143: Operating lease assets | 4,928,149 | | | 4,463,010\n144: Other assets | 135,967 | | | 130,781\n145: Goodwill | 21,939 | | | 21,939\n146: Total assets | $ | 9,432,683 | | | $ | 8,994,531\n147: Liabilities and shareholders' equity\n148: Current liabilities:\n149: Accounts payable | $ | 308,352 | | | $ | 212,813\n150: Accrued payroll and benefits | 247,661 | | | 250,126\n151: Accrued liabilities | 233,053 | | | 182,448\n152: Unearned revenue | 223,644 | | | 240,375\n153: Current operating lease liabilities | 321,557 | | | 302,380\n154: Income tax payable | 112,339 | | | -\n155: Total current liabilities | 1,446,606 | | | 1,188,142\n156: Long-term operating lease liabilities | 5,277,474 | | | 4,773,434\n157: Deferred income tax liabilities | 169,145 | | | 125,674\n158: Other liabilities | 84,314 | | | 76,674\n159: Total liabilities | 6,977,539 | | | 6,163,924\n160: Shareholders' equity:\n161: Common stock, $0.01 par value, 11,500,000 shares authorized, 1,264,970 and 1,304,360 shares issued as of September 30, 2026 and December 31, 2025, respectively | 12,650 | | | 13,044\n162: Additional paid-in capital | 2,297,332 | | | 2,204,944\n163: Accumulated other comprehensive loss | (9,311) | | | (7,289)\n164: Retained earnings | 154,473 | | | 619,908\n165: Total shareholders' equity | 2,455,144 | | | 2,830,607\n166: Total liabilities and shareholders' equity | $ | 9,432,683 | | | $ | 8,994,531\n167: CHIPOTLE MEXICAN GRILL, INC.\n168: CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS\n169: (in thousands)\n170: (unaudited)\n171: Nine months ended\n172: September 30,\n173: 2026 | | 2025\n174: Operating activities\n175: Net income | $ | 1,046,245 | | | $ | 1,204,829\n176: Adjustments to reconcile net income to net cash provided by operating activities:\n177: Depreciation and amortization | 297,656 | | | 268,680\n178: Deferred income tax provision | 43,477 | | | 94,285\n179: Impairment, closure costs, and asset disposals | 35,564 | | | 18,271\n180: Provision for credit losses | (351) | | | (1,626)\n181: Stock-based compensation expense | 86,369 | | | 93,966\n182: Other | 3,268 | | | 7,571\n183: Changes in operating assets and liabilities:\n184: Accounts receivable | 55,521 | | | 49,982\n185: Inventory | 443 | | | 2,408\n186: Prepaid expenses and other current assets | (8,948) | | | (9,456)\n187: Operating lease assets | 254,125 | | | 235,619\n188: Other assets | 1,820 | | | (4,487)\n189: Accounts payable | 47,386 | | | 29,304\n190: Accrued payroll and benefits | (207) | | | (68,890)\n191: Accrued liabilities | 58,595 | | | 10,342\n192: Unearned revenue | (5,141) | | | (23,514)\n193: Income tax payable/receivable | 203,679 | | | (42,428)\n194: Operating lease liabilities | (199,213) | | | (179,482)\n195: Other long-term liabilities | 1,850 | | | 2,708\n196: Net cash provided by operating activities | 1,922,138 | | | 1,688,082\n197: Investing activities\n198: Purchases of leasehold improvements, property and equipment | (640,597) | | | (468,881)\n199: Purchases of investments | (7,562) | | | (15,719)\n200: Maturities of investments | 526,910 | | | 477,264\n201: Net cash used in investing activities | (121,249) | | | (7,336)\n202: Financing activities\n203: Repurchase of common stock | (1,464,934) | | | (1,683,720)\n204: Tax withholding on stock-based compensation awards | (56,662) | | | (48,558)\n205: Other financing activities | 4,146 | | | 2,976\n206: Net cash used in financing activities | (1,517,450) | | | (1,729,302)\n207: Effect of exchange rate changes on cash, cash equivalents and restricted cash | 661 | | | (187)\n208: Net change in cash, cash equivalents, and restricted cash | 284,100 | | | (48,743)\n209: Cash, cash equivalents, and restricted cash at beginning of period | 385,909 | | | 778,379\n210: Cash, cash equivalents, and restricted cash at end of period | $ | 670,009 | | | $ | 729,636\n211: Supplemental disclosures of cash flow information\n212: Income taxes paid(1) | $ | 102,635 | | | $ | 319,004\n213: Purchases of leasehold improvements, property and equipment accrued in accounts payable and accrued liabilities | $ | 138,947 | | | $ | 101,478\n214: Repurchase of common stock accrued in accounts payable and accrued liabilities | $ | 13,462 | | | $ | 15,685\n215: (1) Included in the income taxes paid amount for the nine months ended September 30, 2026, is $93,000 related to the purchase of federal transferable energy credits for the 2026 tax year.\n216: CHIPOTLE MEXICAN GRILL, INC.\n217: SUPPLEMENTAL FINANCIAL AND OTHER DATA\n218: (dollars in thousands)\n219: (unaudited)\n220: The following table details company-owned restaurant unit data for the periods indicated:\n221: For the three months ended\n222: Sep. 30,\n223: 2026 | | Jun. 30,\n224: 2026 | | Mar. 31,\n225: 2026 | | Dec. 31,\n226: 2025 | | Sep. 30,\n227: 2025\n228: Opened | 84 | | 100 | | 49 | | 132 | | 84\n229: Permanent closures | - | | (3) | | (1) | | (5) | | (4)\n230: Relocations | (3) | | (1) | | - | | (1) | | (3)\n231: Total | 4,267 | | 4,186 | | 4,090 | | 4,042 | | 3,916\n232: Average restaurant sales | $ | 3,106 | | $ | 3,102 | | $ | 3,094 | | $ | 3,104 | | $ | 3,132\n233: Comparable restaurant sales increase/(decrease) | 2.1 | % | | 2.2 | % | | 0.5 | % | | (2.5 | %) | | 0.3 | %\n234: The following table details partner-operated restaurant unit data for the periods indicated:\n235: For the three months ended\n236: Sep. 30,\n237: 2026 | | Jun. 30,\n238: 2026 | | Mar. 31,\n239: 2026 | | Dec. 31,\n240: 2025 | | Sep. 30,\n241: 2025\n242: Opened | 5 | | 1 | | - | | 7 | | 2\n243: Total | 20 | | 15 | | 14 | | 14 | | 7\n244: CHIPOTLE MEXICAN GRILL, INC.\n245: RECONCILIATION OF NON-GAAP FINANCIAL MEASURES\n246: Below are definitions of the non-GAAP financial measures in this release. The following tables provide a reconciliation of non-GAAP financial measures presented in this release to the most directly comparable financial measures calculated and presented in accordance with GAAP.\n247: Adjusted net income is net income excluding restaurant asset impairment and stock-based compensation retention.\n248: Adjusted diluted earnings per share is calculated by dividing adjusted net income by the diluted weighted-average number of common shares outstanding.\n249: Adjusted general and administrative expenses are general and administrative expenses excluding expenses related to stock-based compensation expense for specified retention equity awards.\n250: The adjusted effective income tax rate is the effective income tax rate adjusted to reflect the after-tax impact of non-GAAP adjustments.\n251: Restaurant level operating margin is equal to the revenues generated by our restaurants less direct restaurant operating costs, which consist of food, beverage and packaging, labor, occupancy and other operating costs, expressed as a percent of total revenue. This performance measure primarily includes the costs that restaurant level managers can directly control and excludes other costs that are essential to conduct our business. Management uses restaurant level operating margin as a measure of restaurant performance. Management believes restaurant level operating margin is useful because it highlights trends in our core business that may not otherwise be apparent when relying solely on GAAP financial measures.\n252: We present these non-GAAP measures to facilitate a meaningful evaluation of our operating performance across periods. These adjustments are intended to provide greater transparency of underlying performance and to allow investors to evaluate our business on the same basis as management, which uses these non-GAAP measures in evaluating our performance.\n253: Our adjusted net income, adjusted diluted earnings per share, adjusted general and administrative expenses, adjusted effective income tax rate, and restaurant level operating margin measures may not be comparable to other companies’ adjusted measures. These adjustments are not necessarily indicative of what our actual financial performance would have been during the periods presented and should be viewed in addition to, and not as an alternative to, our results prepared in accordance with GAAP. Further details regarding these adjustments are included in the tables below.\n254: CHIPOTLE MEXICAN GRILL, INC.\n255: RECONCILIATION OF NON-GAAP FINANCIAL MEASURES\n256: Adjusted Net Income and Adjusted Diluted Earnings per Share\n257: (in thousands, except per share amounts)\n258: (unaudited)\n259: Three months ended\n260: September 30,\n261: 2026 | | 2025\n262: Net income | $ | 339,874 | | | $ | 382,103\n263: Non-GAAP adjustments:\n264: Impairment and exit costs:\n265: Restaurant asset impairment(1) | 4,339 | | | -\n266: Stock-based compensation(2) | 1,475 | | | 8,058\n267: Total non-GAAP adjustments | 5,814 | | | 8,058\n268: Tax effect of non-GAAP adjustments above(3) | (1,108) | | | (298)\n269: After tax impact of non-GAAP adjustments | 4,706 | | | 7,760\n270: Adjusted net income | $ | 344,580 | | | $ | 389,863\n271: Diluted weighted-average number of common shares outstanding | 1,267,703 | | 1,339,522\n272: Diluted earnings per share | $ | 0.27 | | | $ | 0.29\n273: Adjusted diluted earnings per share | $ | 0.27 | | | $ | 0.29\n274: (1)Operating lease asset and leasehold improvements, property, plant and equipment impairment charges and other expenses for restaurants due to closures, relocations, or underperformance.\n275: (2)Stock-based compensation for retention equity awards granted to certain executives in connection with the former CEO's departure.\n276: (3)Adjustments related to the tax effect of non-GAAP adjustments, which were determined based on the nature of the underlying non-GAAP adjustments and their relevant jurisdictional tax rates.\n277: CHIPOTLE MEXICAN GRILL, INC.\n278: RECONCILIATION OF NON-GAAP FINANCIAL MEASURES\n279: Adjusted General and Administrative Expenses\n307: Three months ended September 30,\n308: 2026 | | Percent of total revenue | | 2025 | | Percent of total revenue\n309: Income from operations | $ | 451,964 | | | 13.7 | % | | $ | 477,172 | | | 15.9 | %"
+    },
+    "peer_facts": {
+      "CAVA": {
+        "company": {
+          "ticker": "CAVA",
+          "name": "CAVA GROUP, INC.",
+          "cik": 1639438,
+          "source": "https://www.sec.gov/files/company_tickers.json"
+        },
+        "as_of": "2026-11-05",
+        "retrieved_at": "2026-11-05T08:46:10.475903-05:00",
+        "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001639438.json",
+        "fiscal_year_end": "2025-12-28",
+        "prior_fiscal_year_end": "2024-12-29",
+        "preferred_10k_accession": "0001628280-26-011296",
+        "concepts": {
+          "total_revenue": {
+            "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "USD",
+            "current": {
+              "val": 1179664000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 963713000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "operating_income": {
+            "tag": "us-gaap:OperatingIncomeLoss",
+            "unit": "USD",
+            "current": {
+              "val": 55285000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 43118000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "net_income": {
+            "tag": "us-gaap:NetIncomeLoss",
+            "unit": "USD",
+            "current": {
+              "val": 63743000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 130319000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "diluted_eps": {
+            "tag": "us-gaap:EarningsPerShareDiluted",
+            "unit": "USD/shares",
+            "current": {
+              "val": 0.54,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 1.1,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "stockholders_equity": {
+            "tag": "us-gaap:StockholdersEquity",
+            "unit": "USD",
+            "current": {
+              "val": 779656000,
+              "end": "2025-12-28",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 695566000,
+              "end": "2024-12-29",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "long_term_debt_noncurrent": {
+            "tag": null,
+            "unit": "USD",
+            "current": null,
+            "prior": null
+          },
+          "long_term_debt_current": {
+            "tag": null,
+            "unit": "USD",
+            "current": null,
+            "prior": null
+          },
+          "cash_from_operations": {
+            "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+            "unit": "USD",
+            "current": {
+              "val": 184840000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 161027000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "additions_to_property_and_equipment": {
+            "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+            "unit": "USD",
+            "current": {
+              "val": 158699000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 108131000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-011296",
+              "filed": "2026-02-25",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          }
+        },
+        "operating_margin_percent": "4.686503953668163137978271779"
+      },
+      "SG": {
+        "company": {
+          "ticker": "SG",
+          "name": "Sweetgreen, Inc.",
+          "cik": 1477815,
+          "source": "https://www.sec.gov/files/company_tickers.json"
+        },
+        "as_of": "2026-11-05",
+        "retrieved_at": "2026-11-05T08:46:11.380248-05:00",
+        "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001477815.json",
+        "fiscal_year_end": "2025-12-28",
+        "prior_fiscal_year_end": "2024-12-29",
+        "preferred_10k_accession": "0001628280-26-012520",
+        "concepts": {
+          "total_revenue": {
+            "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "USD",
+            "current": {
+              "val": 679474000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 676826000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "operating_income": {
+            "tag": "us-gaap:OperatingIncomeLoss",
+            "unit": "USD",
+            "current": {
+              "val": -139318000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": -95704000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "net_income": {
+            "tag": "us-gaap:NetIncomeLoss",
+            "unit": "USD",
+            "current": {
+              "val": -134065000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": -90373000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "diluted_eps": {
+            "tag": "us-gaap:EarningsPerShareDiluted",
+            "unit": "USD/shares",
+            "current": {
+              "val": -1.14,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": -0.79,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "stockholders_equity": {
+            "tag": "us-gaap:StockholdersEquity",
+            "unit": "USD",
+            "current": {
+              "val": 356125000,
+              "end": "2025-12-28",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 446145000,
+              "end": "2024-12-29",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "long_term_debt_noncurrent": {
+            "tag": null,
+            "unit": "USD",
+            "current": null,
+            "prior": null
+          },
+          "long_term_debt_current": {
+            "tag": null,
+            "unit": "USD",
+            "current": null,
+            "prior": null
+          },
+          "cash_from_operations": {
+            "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+            "unit": "USD",
+            "current": {
+              "val": -12696000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 43390000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "additions_to_property_and_equipment": {
+            "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+            "unit": "USD",
+            "current": {
+              "val": 106492000,
+              "start": "2024-12-30",
+              "end": "2025-12-28",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 84457000,
+              "start": "2024-01-01",
+              "end": "2024-12-29",
+              "accn": "0001628280-26-012520",
+              "filed": "2026-02-27",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          }
+        },
+        "operating_margin_percent": "-20.50380146996058716006793490"
+      },
+      "SHAK": {
+        "company": {
+          "ticker": "SHAK",
+          "name": "Shake Shack Inc.",
+          "cik": 1620533,
+          "source": "https://www.sec.gov/files/company_tickers.json"
+        },
+        "as_of": "2026-11-05",
+        "retrieved_at": "2026-11-05T08:46:12.220390-05:00",
+        "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001620533.json",
+        "fiscal_year_end": "2025-12-31",
+        "prior_fiscal_year_end": "2024-12-25",
+        "preferred_10k_accession": "0001620533-26-000018",
+        "concepts": {
+          "total_revenue": {
+            "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+            "unit": "USD",
+            "current": {
+              "val": 1445306000,
+              "start": "2024-12-26",
+              "end": "2025-12-31",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 1252608000,
+              "start": "2023-12-28",
+              "end": "2024-12-25",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "operating_income": {
+            "tag": "us-gaap:OperatingIncomeLoss",
+            "unit": "USD",
+            "current": {
+              "val": 62508000,
+              "start": "2024-12-26",
+              "end": "2025-12-31",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 3038000,
+              "start": "2023-12-28",
+              "end": "2024-12-25",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "net_income": {
+            "tag": "us-gaap:NetIncomeLoss",
+            "unit": "USD",
+            "current": {
+              "val": 45725000,
+              "start": "2024-12-26",
+              "end": "2025-12-31",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 10207000,
+              "start": "2023-12-28",
+              "end": "2024-12-25",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "diluted_eps": {
+            "tag": "us-gaap:EarningsPerShareDiluted",
+            "unit": "USD/shares",
+            "current": {
+              "val": 1.09,
+              "start": "2024-12-26",
+              "end": "2025-12-31",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 0.24,
+              "start": "2023-12-28",
+              "end": "2024-12-25",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "stockholders_equity": {
+            "tag": "us-gaap:StockholdersEquity",
+            "unit": "USD",
+            "current": {
+              "val": 525327000,
+              "end": "2025-12-31",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 470018000,
+              "end": "2024-12-25",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "long_term_debt_noncurrent": {
+            "tag": "us-gaap:LongTermDebt",
+            "unit": "USD",
+            "current": {
+              "val": 247731000,
+              "end": "2025-12-31",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 246683000,
+              "end": "2024-12-25",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "long_term_debt_current": {
+            "tag": null,
+            "unit": "USD",
+            "current": null,
+            "prior": null
+          },
+          "cash_from_operations": {
+            "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+            "unit": "USD",
+            "current": {
+              "val": 222355000,
+              "start": "2024-12-26",
+              "end": "2025-12-31",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 171155000,
+              "start": "2023-12-28",
+              "end": "2024-12-25",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          },
+          "additions_to_property_and_equipment": {
+            "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+            "unit": "USD",
+            "current": {
+              "val": 165849000,
+              "start": "2024-12-26",
+              "end": "2025-12-31",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            },
+            "prior": {
+              "val": 135499000,
+              "start": "2023-12-28",
+              "end": "2024-12-25",
+              "accn": "0001620533-26-000018",
+              "filed": "2026-02-26",
+              "form": "10-K",
+              "fy": 2025,
+              "fp": "FY"
+            }
+          }
+        },
+        "operating_margin_percent": "4.324897288186723088397889443"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-05T08:46:12.977823-05:00",
+      "analysis_date": "2026-11-05",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 11925601000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "CMG",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-04",
+            "accession_number": "0001058090-26-000009",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+            "value": "11925601000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 11313853000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1935798000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "CMG",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-04",
+            "accession_number": "0001058090-26-000009",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+            "value": "1935798000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1916333000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1535761000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "CMG",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-04",
+            "accession_number": "0001058090-26-000009",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+            "value": "1535761000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1534110000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 1.14,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "CMG",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-04",
+            "accession_number": "0001058090-26-000009",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+            "value": "1.14"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 1.11,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2830607000,
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "CMG",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-04",
+            "accession_number": "0001058090-26-000009",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+            "value": "2830607000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3655546000,
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebt",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 0,
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebt",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 0,
+            "end": "2024-12-31",
+            "accn": "0001058090-25-000014",
+            "filed": "2025-02-05",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2113926000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "CMG",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-04",
+            "accession_number": "0001058090-26-000009",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/0001058090-26-000009-index.htm",
+            "value": "2113926000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2105076000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 666336000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 593603000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001058090-26-000009",
+            "filed": "2026-02-04",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        }
+      ],
+      "status": "completed"
+    },
+    "filing_10k": "[Excerpt selected from filing; omitted lines are not evidence of absence.]\n41: Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act (check one):\n46: o Emerging growth company\n47: If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with accounting standards provided pursuant to Section 13(a) of the Exchange Act. o\n58: PART I\n59: Item 1.\n60: Business\n63: Risk Factors\n87: Item 7.\n88: Management’s Discussion and Analysis of Financial Condition and Results of Operations\n91: Quantitative and Qualitative Disclosure About Market Risk\n93: Item 8.\n108: Note 1 – Description of Business and Summary of Significant Accounting Policies\n112: Note 3 – Revenue Recognition\n126: Note 10 – Earnings Per Share\n162: Principal Accountant Fees and Services\n176: This report includes “forward-looking” statements within the meaning of the Private Securities Litigation Reform Act of 1995. Forward-looking statements are statements that do not relate strictly to historical or current facts and often use words such as “may,” “will,” “should,” “expect,” “intend,” “plan,” “anticipate,” “believe,” “estimate,” “seek,” “predict,” “could,” “project,” “potential”, “goal” and other similar terms and phrases, and include references to assumptions. Forward-looking statements in this report include statements about our anticipated comparable restaurant sales in 2026; the number of new restaurants we expect to open in 2026 and the number that will include a Chipotlane; the expected impact of tariffs on our food, beverage and packaging costs; our expectation to generate positive cash flow and that our cash from operations will be sufficient to meet ongoing capital expenditures, working capital requirements and other cash needs for the foreseeable future; our expected capital expenditures in 2026 for the construction of new restaurants, remodeling existing restaurants, new equipment and hardware, and technology; our ability to manage risks and pricing volatility in our supply chain; the ability of our supply chain to meet current or future business needs and our ability to scale and strengthen our forecasting, contracting and logistics management; the effectiveness of our food safety and cybersecurity programs; our plans for continuing stock buybacks; and all other statements that are not historical facts. Forward-looking statements are based on currently available operating, financial and competitive information and our actual future results and trends may differ materially depending on a variety of factors, including, but not limited to, the risks and uncertainties described in this report under the heading “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and in other reports we file with the SEC. You should not place undue reliance on forward-looking statements. These forward-looking statements are subject to risks and uncertainties including, among others: wage inflation and state or local regulations mandating higher minimum wages; the competitive labor market, which impacts our ability to attract and retain qualified employees; the impact of any union organizing efforts and our responses to such efforts; increases in ingredient and other operating costs and the inability of our third-party suppliers and business partners to fulfill their commitments due to inflation, global conflicts, climate change, extreme weather, our Food with Integrity philosophy, tariffs or trade restrictions and supply shortages; risks of food safety incidents and food-borne illnesses; our reliance on certain information technology systems operated by us or by third parties and potential failures, outages or interruptions; our reliance on third party delivery services; privacy and cybersecurity risks, including risk of breaches, unauthorized access, theft, modification, destruction or ransom of guest or employee personal or confidential information stored on our network or the network of third-party providers; the impact of competition, including from sources outside the restaurant industry; the impact of laws and regulations governing employment practices, restaurant design and construction, and the sale of food or alcoholic beverages; our ability to preserve, grow, and leverage our brand reputation; the impact of our brand, marketing, promotional, advertising and pricing strategies, digital platform, menu innovations; our ability to achieve our planned growth, such as the costs and availability of suitable new restaurant sites, and the necessary restaurant equipment, technology, construction materials and contractors; and the expected costs of our international expansion plans, including through partner-operated restaurants in the Middle East, Mexico and Asia; evolving consumer preferences, demand, consumption, or spending behavior, reduction in discretionary spending and price increases, and our ability to anticipate or react to these changes; our ability to increase menu prices or realize the benefits of menu price increases to offset inflation and increased costs; failure to meet market expectations for our financial performance or any announced guidance and the impact thereof; the potential impact of activist shareholder actions or tactics; failure to attract or retain key executive talent; and the expense and outcomes of litigation, including possible governmental audits and legal actions and potential class action litigation related to food safety incidents, cybersecurity incidents, compliance with employment or privacy laws, advertising claims, contract disputes or other matters. In addition, many of the foregoing risks and uncertainties are, or could be, exacerbated by any worsening of the global business and macroeconomic environment. We are including this Cautionary Note to take advantage of the safe harbor provisions of the Private Securities Litigation Reform Act of 1995 for forward-looking statements. We expressly disclaim any obligation to update or revise any forward-looking statements after the date of this report as a result of new information, future events or other developments, except as required by applicable laws and regulations.\n179: ITEM 1. BUSINESS\n182: As of December 31, 2025, we owned 3,938 Chipotle restaurants throughout the United States (“U.S.”) and 104 international Chipotle restaurants. Additionally, we had 14 international partner-operated restaurants. Partner-operated restaurants represent Chipotle restaurants over which Chipotle does not have a controlling financial interest and for which Chipotle does not directly manage day-to-day operations. This includes restaurants operated by third parties pursuant to license or franchise agreements and restaurants in which Chipotle holds a minority, non-controlling ownership interest. We manage our U.S. operations based on 11 regions and aggregate our operations to one reportable segment. Our revenue is derived from sales by our restaurants.\n183: Business Strategy\n184: Chipotle is a brand with a demonstrated purpose of Cultivating a Better World. Our Recipe for Growth strategy leans into what uniquely differentiates Chipotle, with a focus on accelerating growth and sharpening competitiveness. The strategy is grounded in five key areas:\n187: •Modernize our business model with industry-leading technology, including leveraging AI and relaunching our Rewards Program, to elevate the experience for our guests and teams;\n191: Serving high-quality food at reasonable prices is critical to ensuring guests enjoy wholesome food at a great value. In Chipotle-owned restaurants, we strive to serve only animal products that are raised in accordance with criteria we have established to improve sustainability and promote animal welfare, and without the use of non-therapeutic antibiotics or added growth hormones. We brand our meats as “Responsibly Raised®.” We also seek to use responsibly grown produce, by which we mean produce grown by suppliers whose practices conform to our Food with Integrity standards and our priorities with respect to environmental considerations and employee welfare. For more information about our sustainability and animal welfare initiatives, see our biennial Sustainability Report and interim Update Report on our website www.chipotle.com/sustainability.\n198: •naturally derived inhibitors to prevent microbial growth in ingredients;\n204: •supplier intervention steps to mitigate food safety risks before ingredients reach Chipotle restaurants; and\n207: Digital Business and Innovation\n208: Our digital platform continues to be a strategic driver of our growth. Digital sales represent food and beverage revenue for company-owned restaurants generated through the Chipotle website, Chipotle app or third-party delivery aggregators and include revenue deferrals associated with Chipotle Rewards. Digital sales represented 36.7% of food and beverage revenue in 2025, compared to 35.1% in 2024. We have made digital ordering convenient with continued enhancements to our app and by building more Chipotlanes, which is our drive through format for guest pick-up of digital orders. We are also investing in technology and tools to modernize the back of house of our restaurants and to improve the team member experience.\n212: We are committed to the growth, development, and advancement of our people. In 2025, nearly 90% of our in-restaurant leadership roles were filled through internal promotions, which remains a critical component of our staffing strategy. When hiring external talent, our focus is on building a scalable talent engine that powers growth and advances our vision to Cultivate a Better World. With Ava Cado, a virtual scheduling assistant, candidates can apply, complete applications, and schedule interviews in a few minutes. This tool is intended to broaden access and streamline hiring, enabling managers to focus on operations and our guest experience.\n221: •Developing a consistent strategy for inclusive storytelling that promotes our values, celebrates our employees, engages our fans and increases employee generated content.\n224: We are dedicated to building a high-performing organization through a comprehensive talent strategy focused on attracting, developing, and retaining top talent across all levels. In 2025, more than 23,000 employees earned promotions. Notably, internal advancement within our Field Leadership positions—including Field Leaders, Team Directors and Regional Vice Presidents—was above 82%. Our strong recruitment, onboarding, and training programs are designed to position new hires and recently promoted team members for success while reinforcing alignment with Chipotle’s mission and values. We continue to offer a range of targeted initiatives that strengthen leadership capabilities where they are most critical by:\n227: •Supporting leadership growth through topic-rich Learning Labs intended for Field Leaders and above, and Restaurant Support Center team members. These 60-minute live sessions focus on developing leadership skills and knowledge essential for personal and professional advancement.\n229: Collectively, these initiatives strengthen leadership capability, improve employee engagement, and position the organization for sustained operational excellence and long-term growth.\n237: •We offer student loan payment matching programs via our 401(k) retirement program. This, in addition to a credit optimization service, has helped to bolster our employees' financial well-being.\n242: We value employee feedback and are committed to translating it into real, visible improvements across our restaurants and Restaurant Support Centers. Following our engagement surveys, we launched organization-wide action plans to help our leaders convert survey results into change.\n244: We are subject to various federal, state and local laws and regulations that govern aspects of our business operations. While costs associated with compliance with laws and regulations have increased as the number and scope of regulations have increased, the total costs incurred have not had, and are not expected to have, a material effect on our capital expenditures, results of operations or competitive position. See “Risk Factors” in Item 1A for a discussion of risks relating to federal, state, local and international laws and regulations applicable to our business.\n246: Seasonal factors influencing our business are described under the heading “Quarterly Financial Data/Seasonality” in Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations.”\n247: Competition\n248: The fast-casual, quick-service, and casual dining segments of the restaurant industry are highly competitive with respect to, among other things, taste, price, food quality and presentation, customer service, location, convenience, brand reputation, and cleanliness and ambience of each restaurant. Our competition includes a variety of restaurants in each of these segments, including locally-owned restaurants, as well as national and regional chains. Competition from food delivery services, which offer meals from a wide variety of restaurants, also has increased in recent years and is expected to continue to increase. Many of our competitors also offer dine-in, carry-out, online, catering, and delivery services. Among our main competitors are restaurant formats that claim to serve higher quality ingredients without artificial flavors, colors and preservatives, and that serve food quickly and at a reasonable price.\n253: From time to time, we have taken action against other restaurants that we believe are misappropriating our trademarks, restaurant designs or advertising. Although our policy is to protect and defend vigorously our rights to our intellectual property, we may not be able to adequately protect our intellectual property, which could harm the value of our brand and adversely affect our business.\n255: We maintain a website at www.chipotle.com, including an investor relations section at ir.chipotle.com, on which we routinely post important information, such as webcasts of quarterly earnings calls and other investor events in which we participate or host, and any related materials. Our Code of Ethics and our Supplier Code of Conduct also are available in this section of our website. You may access our annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and amendments to those reports, as well as other reports relating to us that are filed with or furnished to the SEC, free of charge in the investor relations section of our website as soon as reasonably practicable after such material is electronically filed with or furnished to the SEC. The SEC also maintains a website that contains reports, proxy and information statements and other information regarding issuers that file electronically with the SEC at www.sec.gov.\n259: ITEM 1A. RISK FACTORS\n260: You should carefully consider the risks described below in addition to the other information set forth in this Annual Report on Form 10-K, including the “Management’s Discussion and Analysis of Financial Conditions and Results of Operations” section and the consolidated financial statements and related notes. If any of the risks and uncertainties described below occur or continue to occur, our business, financial condition and results of operations, and the trading price of our common stock could be materially and adversely affected. The risks and uncertainties described below are those that we have identified as material but are not the only risks and uncertainties we face. Our business is also subject to general risks and uncertainties that affect many other companies, including, but not limited to, overall economic and industry conditions. Additional risks not currently known to us or that we presently deem immaterial may arise or become material and may negatively impact our business, reputation, financial condition, results of operations or the trading price of our common stock.\n261: Risks Related to our Brand Reputation and Restaurant Operations\n262: Food safety and food-borne illness concerns may have an adverse effect on our business by negatively impacting our brand, decreasing sales and increasing costs.\n263: Food safety is our top priority, and we dedicate significant resources to ensuring that our food products are safe; however, even strong preventative controls and interventions from farm to restaurant cannot completely eliminate food safety risks. Incidents of food-borne illnesses have occurred and may continue to occur in our and other restaurants resulting from the failure of restaurant employees to properly cook or maintain ingredients; employees or guests entering a restaurant while infected with communicable diseases; or contaminated ingredients resulting from the failure of a supplier, distributor or employee to execute food safety preventive controls. Although we monitor and audit compliance with our program, we cannot guarantee that every food item is safely and properly maintained from the start of the supply chain through guest consumption. Any report, legitimate or rumored, of food-borne illness caused by pathogens such as E. coli, hepatitis A, norovirus, listeria, Campylobacter, Clostridium perfringens or salmonella, or other food safety issues, such as food tampering, contamination or natural or foreign objects, at one of our restaurants could adversely affect our reputation and have a negative impact on our sales. In addition, instances of food-borne illness or food safety issues that occur solely at competitors’ restaurants or at suppliers or distributors (even if we do not work with them) could result in negative publicity about the restaurant industry and adversely impact our sales. The occurrence of food-borne illnesses or food safety issues could also adversely affect the price and availability of affected ingredients, resulting in higher costs and lower margins.\n264: We may have higher risk for food safety incidents than some of our competitors because we use fresh, unprocessed produce, handle raw chicken in our restaurants, rely on employees cooking with traditional methods and don't use artificial preservatives or frozen ingredients in our menu items. The risk of illnesses associated with our food also may increase due to our delivery and catering businesses, in which our food is transported, stored and/or served in conditions that are not under our control. All of these factors could have an adverse impact on our ability to attract and retain guests, which could in turn have a material adverse effect on our growth and profitability. In addition, real or perceived concerns about pervasive chemicals and substances in the U.S. food supply chain, such as phthalates, per- and polyfluoroalkyl substances (\"PFAS\"), microplastics or heavy metals, have been the subject of increased regulatory scrutiny and lawsuits against us and other restaurant companies, which could impact consumers’ confidence in the restaurant industry and reduce restaurant sales.\n265: Failure to maintain the value and reputation of the Chipotle brand could negatively impact our financial results.\n266: We built strong value in the Chipotle brand by serving delicious, high quality food, made fresh every day using responsibly sourced ingredients served in generous portions. Our continued success depends on maintaining this compelling brand value, which may be eroded by numerous factors, some of which are outside of our control. Incidents that could erode trust in our brand include actual or perceived food safety or food-borne illnesses; allegations of unethical or unprofessional behavior by employees and/or guests; privacy breaches or violations of privacy laws; safety-related incidents occurring in or around our restaurants; guest perceptions regarding smaller entrée portion sizes; or other events or incidents described in this risk factors section. The adverse impact of such incidents may be compounded by negative publicity, including through social or digital media, or if they result in litigation. Social media, video-sharing, networking, and gaming and messaging platforms dramatically increase the speed and reach at which negative publicity is disseminated, often before we have a meaningful opportunity to investigate, respond to and address an issue. Negative online postings or comments about us, including as a result of inaccurate, fictitious or malicious postings or media content, have in the past and could in the future magnify and prolong the adverse impact of any one incident and increase the damage to the value of our brand.\n269: Additionally, consumer demand for our products and our brand value could diminish significantly if we, our employees or business partners fail to comply with applicable laws and regulations, take positions or actions that may be considered controversial, fail to deliver a consistently positive guest experience or fail to foster an inclusive and welcoming environment. In addition, we cannot ensure that our restaurant crew or business partners will not take actions that adversely affect our brand reputation and relevance.\n270: The restaurant industry is highly competitive. If we are not able to compete successfully, our business, financial condition and results of operations would be adversely affected.\n271: The restaurant industry is highly competitive on factors such as taste, price, food quality and selection, customer service, brand reputation, digital engagement, advertising and promotional initiatives, and the location, attractiveness and maintenance of restaurants. We also compete with non-traditional market participants, such as “convenience meals” in the form of entrées, side dishes or meal preparation kits from grocery stores, meal kit delivery services, and “ghost” or “dark” kitchens, where meals are prepared at separate takeaway premises rather than a restaurant. Delivery aggregators and food delivery services, which provide consumers with convenient access to a broad range of competing restaurant chains and food retailers, particularly in urbanized areas, may direct potential customers to other restaurants based on paid placements, online reviews and other factors, and may form a closer relationship with our guests. Increased competition could have an adverse effect on our sales, profitability and development plans. If guest tastes or dietary preferences change, if our marketing efforts are unsuccessful, or if we are unable to compete successfully with other restaurant concepts, our business could be adversely affected.\n272: We continue to believe our commitment to higher-quality and responsibly sourced ingredients resonates with guests and gives us a competitive advantage; however, many of our competitors also make claims related to the quality of their ingredients and lack of artificial flavors, colors and preservatives. The use of these claims by competitors, even if such claims are not accurate or comparable, may lessen our differentiation and make it more difficult for us to compete. If we are unable to continue to maintain our distinctiveness and compete effectively, our business, financial condition and results of operations could be adversely affected.\n273: Our use of third-party delivery services may not be profitable and substandard service may negatively impact our reputation.\n274: Over 16% of our 2025 food and beverage revenue consisted of delivery orders for which we are reliant on third-party delivery companies. Depending on which ordering platform a guest uses – our brand platform or the third-party delivery platform – the delivery fee we collect from the guest may be less than the actual delivery cost. If we increase our menu prices on third-party delivery platforms to cover higher delivery fees, we may not be competitive with other restaurant options offered on that platform. If the third-party delivery companies we use increase the fees they charge users or give greater priority or promotions on their platforms to other restaurants, our delivery business and our sales may be negatively impacted. In addition, if a third-party delivery driver fails to deliver an order on time, fails to deliver the complete order or otherwise provides a bad guest experience, our guest may attribute that negative experience to Chipotle and our reputation and sales could be adversely impacted. The ordering and payment platforms used by these third parties, our mobile app or our online ordering site have been and could again be interrupted by technological failures, user errors, cyber-attacks or other factors, which could adversely impact sales through these channels and negatively impact our overall sales and reputation.\n277: Risks Related to Human Capital\n278: If we are not able to hire, train and retain qualified restaurant employees and/or appropriately plan our workforce, our growth plan and profitability could be adversely affected.\n279: The aggressive pace at which we open new restaurants can make it increasingly difficult to recruit and hire sufficient numbers of qualified employees to manage and work in our restaurants, to train employees to deliver a consistently high-quality product and guest experience and to maintain an effective system of internal controls for a dispersed workforce, which could materially harm our business and results of operations. Maintaining appropriate staffing in our restaurants requires precise workforce planning, which has become more complex due to predictive scheduling laws (also called “fair workweek” or “secure scheduling”) and “just cause” termination legislation in certain geographic areas where we operate. The market for qualified talent continues to be competitive and we must continue to offer competitive wages, benefits and workplace conditions to retain qualified employees. We have experienced and may continue to experience challenges in hiring and retaining restaurant employees and in maintaining full restaurant staffing in various locations, which may have resulted in longer wait times for guest orders, temporary closures of the digital make line and decreased employee and guest satisfaction. A shortage of qualified candidates who meet legal work authorization requirements, failure to hire, train and retain new restaurant employees in a timely manner or higher than expected turnover levels could affect our ability to open new restaurants, grow sales at existing restaurants or meet our labor cost objectives. Changes in immigration laws could decrease the number of potential candidates with legal work authorization, disrupt the workforce for companies that rely on hourly workers and increase the costs, time and requirements to hire new employees. In addition, our failure to adequately monitor and proactively respond to employee dissatisfaction could lead to poor guest satisfaction, higher turnover, litigation and unionization efforts, which could negatively impact our financial results. We have experienced labor union efforts to organize groups of our employees from time to time and, if successful, those organizational efforts may decrease our operational flexibility and disrupt our normal operations, which could adversely affect our business.\n280: If we fail to comply with applicable employment and labor laws and regulations, it could have a material, adverse impact on our business.\n285: Increases in the cost of labor, including mandated minimum wage increases and increases in the cost of health benefits, could adversely impact our business and profitability.\n286: Our profitability has been and could continue to be adversely impacted by increases in labor costs, including wages and health benefits, which are some of our most significant costs. Increases could be triggered by federal, state and local laws governing matters such as minimum wages, meal and rest breaks and changes to eligibility for overtime pay; regulations regarding scheduling and benefits; increased health care and workers’ compensation insurance costs; and higher wages and benefit costs necessary to attract, hire and retain high-quality employees with the right skill sets in a highly competitive job market. In addition, state and local laws may require wage increases, restrictions on working hours and other factors that would restrict our flexibility to respond to market conditions and increase our costs without corresponding benefits. Our ability to offset higher labor costs by increasing menu prices depends on the willingness of our guests to pay the higher prices and the perceived value of our meals relative to competitors. If competitive or inflationary pressures or other factors prevent us from offsetting higher labor costs by increased menu prices, our profitability may decline.\n287: A failure to recruit, develop and retain effective leaders or the loss or shortage of management personnel with key capacities and skills could impact our strategic growth plans and jeopardize our ability to meet our business performance expectations and growth targets.\n288: Our ability to continue to grow our business depends substantially on the contributions and abilities of our executive leadership team and other key management personnel. Changes in senior management could result in significant changes in strategic direction and initiatives. A failure to maintain appropriate organizational capability to support our strategic initiatives, a failure to implement appropriate leadership development programs and build adequate bench strength with key skillsets, or a failure to effectively manage our leadership succession, could jeopardize our ability to meet our business performance expectations and growth targets. If we are unable to attract, develop, retain and incentivize sufficiently experienced and capable management personnel, our business and financial results may suffer.\n289: Risks Related to Cybersecurity, Data Privacy and IT Systems\n290: We are heavily dependent on information technology systems and failures or interruptions in our IT systems could harm our ability to effectively operate our business and/or result in the loss of guests or employees.\n291: We are heavily dependent on information technology systems, including for point-of-sale and payment processing in our restaurants, digital ordering and order delivery, tracing ingredients back to suppliers and growers, digital Hazard Analysis and Critical Control Points monitoring, monitoring and managing our supply chain, our guest rewards program, payroll processing, sales forecasting, marketing initiatives, business analytics and various other processes and transactions. Our ability to effectively manage our business and coordinate the procurement, production, distribution, safety and sale of our products depends significantly on the consistent availability, reliability and security of these systems. Many of these critical systems are provided and managed by third parties, and we are reliant on these third-party providers to implement protective measures that ensure the security and availability of their systems. Although we have operational safeguards in place and we take efforts to ensure that our third-party providers have implemented proper safeguards and controls, we cannot guarantee that breaches or failures caused by these third-party systems or platforms will not occur. Failures may be caused by factors such as power outages, natural disasters and other catastrophic events, physical theft, computer and network failures, inadequate or ineffective redundancy, problems with transitioning to upgraded or replacement systems or platforms, flaws in third-party software or services, or errors or improper use by our employees or our third-party service providers. If any of our critical IT systems were to become unreliable, unavailable, compromised or otherwise fail, and we were unable to recover in a timely manner, we could experience an interruption in our operations that could have a material adverse impact on our profitability.\n292: We continue to invest in and utilize emerging technologies that have potential to make business tasks easier, more efficient and less labor intensive, including artificial intelligence and machine learning. These new technologies may not deliver the expected efficiencies and could expose us to new risks, including risks related to cybersecurity, data privacy, inaccuracies, hallucinations, bias or discrimination and claims of intellectual property infringement.\n295: Breaches or other unauthorized access, theft, modification or destruction of guest and/or employee personal information, or Chipotle confidential or proprietary information that is stored in our information technology systems or by third parties could damage our reputation and expose us to potential liabilities and loss of revenue.\n296: As our dependence on technology has grown, the scope and severity of potential risks from cyber-attacks and security threats have increased. We expect that the rapid evolution and increased adoption of artificial intelligence have heightened and will continue to heighten those risks. Many of our information technology systems and the systems of our third-party business partners (whether cloud-based or hosted in proprietary servers) contain personal, financial or other information of our guests, employees, and business partners, and confidential information about our business, such as business strategies, financial results, development initiatives, and confidential information about third parties, such as suppliers. Similar to many other restaurant companies, we have in the past experienced, and we expect to continue to experience, cyber-attacks, including phishing, and other attempts to breach, or gain unauthorized access to, our systems and databases and we expect the number and frequency of these attempts to increase as the scope and scale of our technology footprint and digital operations increases.\n297: In addition, individuals performing work for us and our third-party business partners may access some of this data, including on personally owned digital devices. To the extent we, a third party or any such individual were to experience a breach of our or their information technology systems that results in the unauthorized access, theft, use, destruction or other compromises of guests’ or employees’ data or confidential information of Chipotle, including through cyber-attacks or other external or internal methods, it could have an adverse impact on our reputation and brand and we could experience a material loss of revenues, a decrease in our ability to retain guests or attract new ones, the imposition of potentially significant costs (including loss of data or payment for recovery of data) and liabilities, loss of business partners and the disruption to our supply chain and business plans. Unauthorized access, theft, use, destruction or other compromises are becoming increasingly sophisticated and may occur through a variety of methods, including attacks using malicious code, vulnerabilities in software, hardware or other infrastructure (including systems used by our supply chain), system misconfigurations, phishing, deepfakes, ransomware, malware or social engineering. Our logging capabilities, or the logging capabilities of third parties, are not always complete or sufficiently granular, affecting our ability to fully understand the scope of security breaches.\n299: Such security breaches also could result in a violation of applicable U.S. and international privacy, cyber and other laws or trigger data breach notification laws, including under the SEC’s disclosure rules, and subject us to private third party or securities litigation and governmental investigations and proceedings, any of which could result in our exposure to material civil or criminal liability. These risks also exist in companies that license our brand, that we partner with or invest in that use separate information systems.\n300: We may be required to make significant capital investments and other expenditures to investigate security incidents, remedy cybersecurity problems, recuperate lost data, prevent future compromises and adapt systems and practices to react to the changing threat environment. These include costs associated with notifying affected individuals and other agencies, additional security technologies and training, hiring additional employees, retention of experts and providing credit monitoring services for individuals whose data has been breached. These costs could be material and could adversely impact our results of operations in the period in which they are incurred, including by causing us to delay the pursuit of other important business strategies and initiatives, and may not meaningfully limit the success of future attempts to breach our information technology systems.\n302: Complex local, state, federal and international laws and regulations apply to the collection, use, retention, protection, disclosure, transfer and other processing of personal data. These privacy, consumer protection, and data protection laws and regulations are quickly evolving, with new or modified laws and regulations proposed and implemented frequently and existing laws and regulations subject to new or different interpretations and enforcement. Complying with these laws and regulations is costly and can delay or impede the development of new services or the continued use of existing services or data.\n305: If we fail or are perceived to have failed to comply with applicable privacy, consumer protection, and data protection laws, or to properly respond to or honor individual requests under such laws, we may face enforcement actions, regulatory investigations, and oversight, consent orders limiting our ability to use data or requiring data or model disgorgement, or claims for damages by guests and other affected parties. The matters could result in regulatory fines, civil actions, reputational harm, any of which could materially adversely effect on our operations, financial performance, and business. The amount and scope of insurance we maintain may not cover all types of claims that may arise.\n306: Risks Related to Our Supply Chain\n307: Increases in the costs of ingredients, restaurant equipment and other materials could adversely affect our financial results.\n308: The prices for some of our ingredients, such as beef, avocados and other produce fluctuate due to factors beyond our control, such as limited sources, seasonal shifts, climate conditions or inclement weather, natural disasters, inflation, military and geopolitical conflicts and industry demand, including as a result of animal disease outbreaks, international commodity markets, food safety concerns, product recalls and government regulation. In addition, we source some ingredients (including avocados, tomatoes, beef, pork, limes, peppers and spices), restaurant equipment, packaging and paper products outside the U.S. (including from Mexico, Canada and China), which could subject them to increased tariffs, trade sanctions or taxes. We try to mitigate future price risk through forward contracts, strong partnerships with key suppliers, directly managing key raw material procurement and diversifying our supply base and countries of origin; however, these activities may not fully insulate us from increases in costs, which could have an adverse impact on our profitability.\n309: We also could be adversely impacted by price increases specific to meats raised in accordance with our Responsibly Raised animal welfare criteria, and ingredients grown in accordance with our Food with Integrity specifications, the markets for which are generally smaller and more concentrated than the markets for conventionally raised or grown ingredients. Any increase in the prices of the ingredients most critical to our menu, such as chicken, beef, dairy (for cheese, sour cream and queso), avocados, tortillas and pork, would have a particularly adverse effect on our operating results. If the cost of one or more ingredients significantly increases, we may choose to temporarily suspend serving menu items that use those ingredients, such as guacamole or one of our proteins, rather than pay the increased cost. Any such changes to our available menu may negatively impact our restaurant traffic and could adversely impact our sales and brand.\n310: Shortages or interruptions in the supply of ingredients could adversely affect our operating results.\n311: Our business is dependent on frequent and consistent deliveries of ingredients that comply with our Food with Integrity specifications, such as dairy (for cheese, sour cream and queso), and beef, pork and chicken that meets our Responsibly Raised requirements. We may experience shortages, delays or interruptions in the supply of ingredients and other supplies to our restaurants due to higher or more lucrative demand from other sources; inclement weather or natural disasters; animal disease outbreaks (such as avian flu); social or labor unrest; shortages of agricultural workers (including due to changes in immigration laws); operational disruptions at our suppliers, distributors or transportation providers (including due to cyberattacks, malware or ransomware); financial distress or insolvency of suppliers or distributors, or the inability of suppliers or distributors to manage adverse business conditions; or other conditions beyond our control. Several states have adopted, and others are considering adopting, extended producer requirement (EPR) laws covering end-of-life management of packaging, which aim to reduce waste and encourage sustainable product design through fees and processing requirements. We could incur shortages of or increased costs for certain food packaging we use due to changes made by our suppliers to comply with these EPR laws. In addition, we have a limited number of suppliers for some of our ingredients, including lemon and lime juice, tomatoes and adobo. Although we believe we have potential alternative suppliers and sufficient reserves of ingredients, shortages or interruptions in our supply of ingredients could adversely affect our financial results.\n314: If our supply chain capacity does not expand to support our new restaurant growth, our long-term growth goals could be impaired or delayed.\n315: We have set aggressive goals for the number of new restaurants we plan to open over the next few years. Even in the absence of extraordinary disruptions, we may not be able to increase the capacity of our supply chain to keep pace with our growth and fully meet our future business needs. We have experienced and may in the future experience limited available supplies of Responsibly Raised proteins and ingredients that meet our Food with Integrity specifications. In addition, we rely on independent third-party distributors to maintain an inventory of our ingredients and supplies, and deliver them to our restaurants on a timely, as needed basis. There can be no assurance that our suppliers or distributors will be able to accommodate our planned growth or continue to supply required ingredients at preferential prices or at all. The inability of our suppliers to accommodate our growth in a timely or cost-effective manner could impair our growth and have an adverse effect on our business, financial condition, results of operations, and prospects.\n316: Legal and Regulatory Risks\n317: We could be party to litigation or other legal proceedings that could adversely affect our business, results of operations and reputation.\n318: We have been and will continue to be subject to litigation and other legal proceedings that may adversely affect our business, including claims brought by employees, guests, government agencies, suppliers, distributors, shareholders, job applicants or others. These proceedings may be in the form of private actions, administrative proceedings, government enforcement or regulatory actions and litigation on a class or collective basis on behalf of what can be a large group of potential claimants. These legal proceedings have involved, and in the future may involve, allegations of illegal, unfair or inconsistent employment practices, including those governing wage and hour, employment of minors, discrimination, harassment, wrongful termination, fair scheduling, pay disclosure and vacation and family leave laws; food safety issues including food-borne illness, food contamination and adverse health effects from consumption of our food products; data security or privacy incidents or violations of related laws; discrimination against guests or job applicants; personal injury in our restaurants; marketing and advertising claims, including claims that our Food with Integrity, marketing, nutrition, or sustainability claims are misleading or inaccurate or that price-related disclosures are misleading; infringement of patent, copyright or other intellectual property rights; violation of the federal securities laws; workers’ compensation; or other concerns. We are party to multiple lawsuits and governmental audits alleging violations of federal and state employment laws, including wage and hour and predictive scheduling claims, and we could be involved in similar or even more significant litigation and legal proceedings in the future. Even if the allegations against us are unfounded or we ultimately are held not liable, the costs to defend ourselves may be significant and the proceedings may divert management's attention away from operating our business, all of which could negatively impact our financial condition and results of operations. A judgment significantly greater than any applicable insurance coverage or third-party indemnity could materially adversely affect our financial condition or results of operations. In addition, adverse publicity resulting from claims may damage our reputation.\n321: We are subject to extensive laws, government regulation, and other legal requirements and our failure to comply with existing or new laws and regulations could adversely affect our operational efficiencies, ability to attract and retain talent and results of operations.\n322: Our business is subject to extensive federal, state, local and international laws and regulations, including those relating to:\n334: Risks Related to Our Growth and Business Strategy\n336: Our growth depends on our ability to open new restaurants at an aggressive rate and operate them profitably as soon as possible. The cost of opening new restaurants has continued to increase due to construction labor inflation and increased costs of materials and equipment. In addition, we incur substantial startup expenses each time we open a new restaurant, and it can take around 36 months to ramp up the sales and profitability of a new restaurant, during which time costs may be higher as we train new employees and build up a guest base. If we are unable to build the guest base that we expect or fail to overcome the higher startup expenses associated with new restaurants, our new restaurants may not be as profitable as our existing restaurants. In addition, the opening of new restaurants may negatively impact the profitability of existing restaurants that are located nearby.\n339: Our ability to open and profitably operate new restaurants also is subject to risks, such as the identification and availability of desirable locations; the negotiation of acceptable lease terms; the need to obtain required governmental permits (including zoning approvals and liquor licenses) and comply with other regulatory requirements; the availability of capable contractors and subcontractors; increases in the cost and decreases in the availability of labor and building material; changes in weather, natural disasters, pandemics or other acts of God that could delay construction and adversely affect guest traffic; our ability to hire and train qualified management and restaurant employees; and general economic and business conditions. At each potential location, we compete with other restaurants and retail businesses for desirable development sites, construction contractors, management personnel, hourly employees and other resources. If we are unable to successfully manage these risks, we could face increased costs and lower than anticipated sales and earnings in future periods. Our timeline for completing construction also has gotten longer, due to landlord reluctance to commit to building in light of fluctuating interest rates, tight money supply and general economic conditions, and due to backlogs and long wait times for us to obtain required permits and utility hookups.\n340: In addition, we need to maintain the attractiveness of our existing restaurants through remodels, upgrades and regular upkeep. If the costs associated with remodels, upgrades or regular upkeep are higher than anticipated, restaurants are closed for remodeling for longer periods than planned or remodeled restaurants do not perform as expected, which could have a negative effect on our operating results, and we may not realize our projected desired return on investment.\n341: Our failure to effectively manage and support our growth could have a negative adverse effect on our business and financial results.\n342: As of December 31, 2025, we owned over 4,000 Chipotle restaurants and we plan to open a significant number of new restaurants in the next several years, working towards our long-term goal of 7,000 restaurants in the U.S. and Canada. Our existing restaurant management systems, back-office technology systems and processes, financial and management controls, information systems and staffing may not be adequate to support our growing business. To effectively manage a larger number of restaurants, we may need to upgrade and expand our infrastructure and information systems, automate more processes that currently are manual or require manual intervention and hire, train and retrain restaurant employees and corporate support staff, all of which may result in increased costs and at least temporary inefficiencies. We also believe our culture is an important contributor to our success, and as we continue to grow it may be increasingly difficult to embed and maintain our culture across the company. Our failure to sufficiently invest in our infrastructure and information systems and maintain our strong staffing and culture could harm our brand and operating results.\n343: If we partner with third parties or acquire new businesses that do not align with our core values or that do not fulfill their contractual responsibilities and commitments, our brand reputation and international growth plans could suffer.\n344: Our global growth strategy includes expanding our existing restaurant footprint and introducing Chipotle in new international jurisdictions in which we currently do not operate. The success of our strategy will depend on our identifying and partnering with new business partners, including licensees, joint venture partners, suppliers and distributors, and may include identifying suitable acquisition targets in these new jurisdictions that align with our core values. As of December 31, 2025, we had 14 international partner-operated Chipotle restaurants in the Middle East in partnership with the Alshaya Group, and we have plans to open more partner-operated Chipotle restaurants in the Middle East, Mexico and Asia. We believe guests expect the same high quality food and excellent customer service at partner-operated restaurants as they receive in Chipotle-owned and operated restaurants. We provide extensive training to our business partners and we require compliance with specific food quality and safety standards and guest service levels in our agreements with business partners; however, we do not have direct control over the partner-operated restaurants, and the quality and service in those restaurants may be less than the quality and service of Chipotle-owned restaurants. Failure of our business partners to adhere to our high food quality and operating standards, comply with applicable law, adhere to high ethical standards, and create a culture of respect in the partner-operated restaurants could damage our brand reputation, domestically and internationally, and impair our international expansion plans. New partnerships and/or acquisitions also may divert management’s attention from other initiatives and/or day-to-day operations, which could adversely affect our business and results of operations.\n347: Risks Related to Sustainability Factors\n348: We are subject to evolving public disclosure obligations, including with respect to sustainability matters, which could expose us to numerous risks and could adversely affect our reputation and results of operations.\n349: We are subject to evolving disclosure obligations promulgated by governmental and regulatory organizations relating to sustainability factors that impact our business. These disclosure obligations are complex and not always consistent, making compliance difficult and uncertain. We have incurred and expect to continue to incur increased expenses and management time and attention to comply with these disclosure obligations and stakeholder expectations. For example, measuring Scope 1, 2 and 3 greenhouse gas emissions relating to our business, developing reduction plans and initiatives, and creating and disclosing achievable reduction goals can be costly, difficult and time consuming and is subject to evolving reporting standards, including California’s Climate Corporate Data Accountability Act and Climate-Related Financial Risk Act, and similar proposals by other national, local and international regulatory agencies. We may also communicate certain initiatives, goals and strategies regarding environmental sustainability and human capital management related matters, such as workforce metrics, responsible sourcing and social investments in our SEC filings or in other public disclosures. We previously announced that we had set science-based targets validated by the Science Based Targets Initiative to reduce absolute Scope 1, 2 and 3 greenhouse gas emissions 50% by 2030 from a 2019 base year, and achievement of this goal is subject to risks and uncertainties, including the challenge of lowering emissions from a 2019 base year as the number of restaurants we operate has increased significantly since 2019 and continues to increase. Achievement of this goal may prove to be more difficult and costly than we anticipate.\n350: In addition, we could be criticized by anti-ESG stakeholders for the scope or nature of our sustainability initiatives or goals or for any revisions to these goals. We could also be subjected to negative responses by governmental actors (such as anti-ESG legislation or retaliatory legislative treatment) or consumers (such as boycotts or negative publicity campaigns) that could adversely affect our reputation, business, financial performance and growth.\n351: Climate change and volatile adverse weather conditions could adversely affect our restaurant sales or results of operations.\n352: Adverse weather conditions have impacted and may again impact guest traffic at our restaurants and, in more severe cases such as hurricanes, tornadoes, wildfires or other natural disasters, cause temporary restaurant closures, all of which negatively impact our restaurant sales. In addition, our supply chain is subject to increased costs caused by the effects of severe, volatile weather, extended droughts and diminished energy and water resources. Increasing weather volatility and changes in global weather patterns could reduce crop size and crop quality, or destroy crops altogether, which could result in decreased availability or higher pricing for our produce and other ingredients. We may be forced to source ingredients from new geographic regions, which could impact quality and taste, and increase our costs. These factors are beyond our control and may be unpredictable. Climate change and government regulation relating to climate change mitigation also could result in construction delays for new restaurants and interruptions to the availability or increases in the cost of utilities. The ongoing and long-term costs of these impacts related to climate change and other sustainability-related issues could have a material adverse effect on our business and financial condition if we are not able to mitigate them.\n353: Risks Related to Macroeconomic Conditions\n354: Our financial condition and results of operations have been, and may continue to be, adversely affected by a number of macroeconomic and other factors, many of which are largely outside our control.\n355: Restaurant dining generally is dependent upon consumer discretionary spending, which may be affected by macroeconomic conditions that are beyond our control. A prolonged economic downturn or slow recovery may reduce consumer spending, leading to lower demand or shifts to lower-priced options. Factors such as unemployment, inflation, interest rate changes, taxes, access to credit, public health crises, trade disputes, and geopolitical instability can all impact consumer behavior, including discretionary spending, potentially reducing demand for our products. A significant decrease in guest traffic or average transaction size would negatively impact our financial performance. If economic uncertainty persists, guests may adopt lasting changes in spending habits, potentially affecting our sales, profitability, and growth plans.\n358: Our operating results have been, and will continue to be, subject to a number of other macroeconomic and other factors, many of which are largely outside our control. Any one or more of the factors listed below could have a material adverse impact on our business, financial condition, or results of operations:\n370: In addition, we purchase ingredients, packaging and equipment from both U.S. and international suppliers and we may need to increase our menu prices in response to increased inflation, higher taxes, new tariffs on imported goods, wage increases due to a tighter job market and other macro-economic factors. Higher menu prices or the perceived value of our meals relative to competitors may lead consumers to reduce their spending in our restaurants or switch to competitors’ value or lower-priced meals. If competitive or other factors prevent us from offsetting these higher costs through menu price increases, our profitability may decline.\n371: Failure to meet market expectations for our financial performance or any announced guidance will likely adversely affect the market price and increase the volatility of our stock, and fluctuations in the stock market as a whole may also impact the market price and volatility of our stock.\n372: We have in the past failed, and may in the future fail, to meet our forecasted guidance or market expectations, which has adversely affected, and could in the future adversely affect, the market price of our stock. Any guidance we provide is based on certain assumptions at the time the guidance is given, which may or may not prove to be correct. Failure to meet announced guidance or market expectations of future results, particularly with respect to our operational and financial results and shareholder returns, whether due to our assumptions not being met or the impact of various risks and uncertainties, will likely result in either or both a decline in or increased volatility in the market price of our stock. In addition, price and volume fluctuations in the stock market as a whole may affect the market price of our stock in ways that may be unrelated to our financial performance.\n373: Our quarterly financial results may fluctuate significantly and could fail to meet investors’ expectations for various reasons, including:\n387: For these reasons, results for any one quarter are not necessarily indicative of results to be expected for any other quarter or for any year. A significant or sudden decrease in our stock price could entice an activist shareholder to initiate a campaign against the Company. If we are the target of public activism, it could cause us to incur significant costs, including legal expenses, divert the attention of our management and Board, create uncertainty about our strategic direction and cause stock price volatility that is unrelated to our business fundamentals.\n391: Cybersecurity Risk Management and Strategy\n392: As a global company, we are regularly subject to cyberattacks and other cybersecurity incidents. In response, we have implemented cybersecurity processes, technologies, and controls to aid in our efforts to assess, identify, and manage cybersecurity risks. As part of our enterprise risk management program, we consider cybersecurity risk alongside other company risks as part of our overall risk assessment process. Our enterprise risk management team collaborates with our Information Security function, led by our Chief Information Security Officer (“CISO”) and our President, Chief Strategy and Technology Officer (“CSTO”), to gather insights for assessing, identifying and managing cybersecurity threat risks, the severity of the risks, and potential mitigations. We also are a member of an industry cybersecurity intelligence and risk sharing organization to stay abreast of changes in the cybersecurity environment.\n393: We assess Chipotle’s Information Security program using an industry cybersecurity framework from the National Institute of Standards and Technology (NIST). This program includes policies, processes and procedures that help us assess and identify our cybersecurity risks and inform how our security measures and controls are developed, implemented and maintained. We use the risk assessment along with risk-based analysis and judgment to select security controls to address risks. During this process, the following factors, among others, are considered: likelihood and severity of risk, impact on the Company and third parties we work with if a risk materializes, feasibility and cost of controls and impact of controls on operations.\n394: We maintain internal resources to perform penetration testing designed to simulate evolving tactics and techniques of real-world threat actors, engage with industry partners and law enforcement and intelligence communities and conduct tabletop exercises and periodic risk interviews across our business. We also engage an independent third party to periodically perform internal and external penetration testing of Chipotle's information security environment and engage other third parties to periodically conduct assessments of our cybersecurity capabilities. In addition, we continue to expand training and awareness practices to mitigate risk from human error, including mandatory computer-based training and internal communications for employees. Our employees undergo cybersecurity awareness training and regular phishing awareness campaigns that are based upon and designed to emulate real-world contemporary threats. We provide prompt feedback (and, if necessary, additional training or remedial action) based on the results of such exercises.\n395: Our processes also address cybersecurity risks associated with our use of third-party service providers including suppliers, software and cloud-based service providers, as well as third-party security firms used in different capacities to provide or operate some of our cybersecurity controls and technology systems. We proactively evaluate the cybersecurity risk of a third party by utilizing a repository of risk assessments, external monitoring sources, threat intelligence and predictive analytics to better inform Chipotle during contracting and vendor selection processes. Additionally, when third party risks are identified, we require those third parties to contractually agree to implement appropriate security controls. Security issues are documented and tracked, and periodic monitoring of third parties is conducted in an effort to mitigate risk.\n399: In addition to our cybersecurity incident response plan, we conduct tabletop exercises to enhance our incident response preparedness. We maintain business continuity and disaster recovery plans to prepare for and respond to the potential for a disruption in the technology we rely on.\n400: Chipotle (or the third parties it relies on) may not be able to fully, continuously, or effectively implement security controls as intended. As described above, we utilize a risk-based approach and judgment to determine whether and how to implement certain security controls and it is possible that we may not implement the necessary controls if we are unable to recognize or underestimate a particular risk. In addition, security controls, no matter how well designed or implemented, may only mitigate and not fully eliminate cybersecurity risks. Cybersecurity events, when detected by security tools or third parties, may not always be identified immediately or addressed in the manner intended by our cybersecurity incident response plan.\n401: Impact of cybersecurity risks on business strategy, results of operations or financial condition\n402: Based on the information available as of the date of this Annual Report, we have no reason to believe any risks from cybersecurity threats, including as a result of any previous cybersecurity incidents, have materially affected or are reasonably likely to materially affect us, including our business strategy, results of operations or financial condition. For additional information, see “Risks Related to Cybersecurity, Data Privacy and IT Systems,” in Item 1A, “Risk Factors” in this Annual Report.\n404: Our cybersecurity risk management and strategy processes are led by our CISO and our CSTO. These individuals have collectively over 50 years of professional experience in various roles across multiple industries involving managing information security, developing cybersecurity strategy, implementing effective information and cybersecurity programs and managing multiple industry and regulatory compliance environments. Both individuals previously held positions similar to their current roles at other large publicly traded organizations.\n405: Cybersecurity is an important part of our risk management processes and an area of focus for our Board of Directors (the “Board”) and management. Although cybersecurity risk oversight continues to remain a top priority for the Board, the Audit and Risk Committee of our Board has primary oversight responsibility for the Company’s cybersecurity and other technology risks. The Committee regularly reviews with and discusses cybersecurity, privacy and data security programs, the status of projects to strengthen internal cybersecurity, results from third-party assessments, and any significant cybersecurity incidents, including recent incidents at other companies and the emerging threat landscape with our CISO and CSTO. The Committee also reviews with management the implementation and effectiveness of the Company’s controls to monitor and mitigate cybersecurity risks. In addition, our Board receives an annual report and quarterly written updates regarding our cybersecurity program.\n407: As of December 31, 2025, Chipotle and our consolidated subsidiaries owned and operated 4,042 restaurants. Our main office is located at 610 Newport Center Drive, Suite 1100, Newport Beach, CA 92660 and our telephone number is (949) 524-4000. We lease our main office and substantially all of the properties on which we operate restaurants. We own 17 properties and operate restaurants on all of them. For additional information regarding the lease terms and provisions, see Note 1. “Description of Business and Summary of Significant Accounting Policies” and Note 9. “Leases” in our consolidated financial statements included in Item 8. “Financial Statements and Supplementary Data.”\n409: For information regarding legal proceedings, see Note 11. “Commitments and Contingencies” in our consolidated financial statements included in Item 8. “Financial Statements and Supplementary Data.”\n430: We are not required to pay any dividends and have not declared or paid any cash dividends on our common stock. We intend to continue to retain earnings for use in the operation and expansion of our business and to repurchase shares of common stock (subject to market conditions), and therefore do not anticipate paying any cash dividends on our common stock in the foreseeable future.\n445: ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n446: You should read the following discussion together with our consolidated financial statements and related notes included in Item 8. “Financial Statements and Supplementary Data.” This section of the Form 10-K generally discusses 2025 items and year-to-year comparisons of 2025 to 2024. Discussions of 2023 items and year-to-year comparisons of 2024 and 2023 that are not included in this Form 10-K can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 on our Annual Report on Form 10-K for the year ended December 31, 2024. The discussion contains forward-looking statements involving risks, uncertainties and assumptions that could cause our results to differ materially from expectations. See “Cautionary Note Regarding Forward-Looking Statements.” Factors that might cause such differences include those described in Item 1A. “Risk Factors”, 7A. \"Quantitative and Qualitative Disclosure About Market Risk\", and elsewhere in this report.\n449: Throughout “Management’s Discussion and Analysis of Financial Condition and Results of Operations” we discuss the following key operating metrics which we believe will drive our financial results and long-term growth model. We believe these metrics are useful to investors because management uses these metrics to assess the growth of our business and the effectiveness of our marketing and operational strategies:\n451: •Food, beverage, and packaging as a percentage of total revenue\n452: •Labor as a percentage of total revenue\n453: •Occupancy as a percentage of total revenue\n454: •Other operating costs as a percentage of total revenue\n457: •Total revenue increased 5.4% to $11.9 billion\n459: •Diluted earnings per share was $1.14, a 2.7% increase from $1.11\n460: Sales Trends. Comparable restaurant sales decreased 1.7% for the year ended December 31, 2025. The decrease is attributable to lower transactions of 2.9%, partially offset by a 1.2% increase in average check. Comparable restaurant sales represent the change in period-over-period total revenue for company-owned restaurants in operation for at least 13 full calendar months. Digital sales represented 36.7% of total food and beverage revenue. For 2026, management is anticipating comparable restaurant sales to be about flat.\n482: Results of Operations\n483: Our results of operations as a percentage of total revenue and period-over-period change are discussed in the following section.\n484: Revenue\n489: Food and beverage revenue | | | | | | | $ | 11,866.1 | | $ | 11,247.4 | | 5.5%\n490: Delivery service revenue | | | | | | | 59.6 | | 66.5 | | (10.4 | %)\n491: Total revenue | | | | | | | $ | 11,925.6 | | $ | 11,313.9 | | 5.4%\n498: (1)Average restaurant sales refers to the average trailing 12-month food and beverage revenue for company-owned restaurants in operation for at least 12 full calendar months.\n512: (1)Other includes the impact of gift card breakage adjustments, as $20.1 million of additional gift card breakage revenue was recorded during the year ended December 31, 2025 as compared to the year ended December 31, 2024.\n519: As a percentage of total revenue | 29.6% | | 29.8% | | (0.2 | %)\n520: Food, beverage and packaging costs decreased 0.2% as a percentage of total revenue for the year ended December 31, 2025 compared to the year ended December 31, 2024. The decrease was primarily due to a 0.6% benefit from menu price increases and, to a lesser extent, cost of sales efficiencies. These decreases were partially offset by 0.4% of inflation, primarily beef and chicken, and a 0.2% impact from tariffs enacted in 2025.\n528: As a percentage of total revenue | 25.1% | | 24.7% | | 0.4 | %\n529: Labor costs increased 0.4% as a percentage of total revenue for the year ended December 31, 2025 compared to the year ended December 31, 2024. The increase was primarily due to a 0.7% impact from lower sales volumes and 0.4% from restaurant wage inflation. This increase is partially offset by a 0.5% benefit from menu price increases.\n538: As a percentage of total revenue | 5.2% | | 5.0% | | 0.2 | %\n539: Occupancy costs increased 0.2% as a percentage of total revenue for the year ended December 31, 2025 compared to the year ended December 31, 2024. The increase was due to the impact from lower sales volumes, as a 0.1% benefit from menu price increases was offset by expenses associated with new restaurants.\n546: As a percentage of total revenue | 14.7% | | 13.9% | | 0.8 | %\n547: Other operating costs increased 0.8% as a percentage of total revenue for the year ended December 31, 2025 compared to the year ended December 31, 2024. The increase was due to the impact from several items, primarily 0.5% of higher marketing and promotional activities, 0.2% of lower sales volumes, and 0.2% of inflation in natural gas and electricity. This increase was partially offset by a 0.2% benefit from menu price increases.\n554: As a percentage of total revenue | 5.5% | | 6.2% | | (0.7 | %)\n566: Legal services | | | 4.3\n567: Outside services related to corporate initiatives | | | 11.1\n578: As a percentage of total revenue | 3.0% | | 3.0% | | - | %\n579: Depreciation and amortization remained flat as a percentage of total revenue for the year ended December 31, 2025 compared to the year ended December 31, 2024. Increased depreciation expense associated with existing restaurants and the impact from lower sales volumes was offset by the benefit of menu price increases.\n586: As a percentage of total revenue | 0.6% | | 0.8% | | (0.2%)\n599: Seasonal factors cause our profitability to fluctuate from quarter to quarter. Historically, our average daily restaurant sales and net income are lower in the first and fourth quarters due, in part, to the holiday season and because fewer people eat out during periods of inclement weather (the winter months) than during periods of mild or warm weather (the spring, summer and fall months). Other factors also have a seasonal effect on our results. For example, restaurants located near colleges and universities generally do more business during the academic year. Seasonal factors, however, might be moderated or outweighed by other factors that may influence our quarterly results, such as unexpected publicity impacting our business in a positive or negative way, disease outbreak, epidemic or endemic, the impact of inflation and consumer sentiment on consumer spending, fluctuations in food or packaging costs, the timing of holidays, or the timing of menu price increases or promotional activities and other marketing initiatives. The number of trading days in a quarter can also affect our results, although, on an overall annual basis, changes in trading days do not have a significant impact.\n600: Our quarterly results are also affected by other factors such as the amount and timing of non-cash stock-based compensation expense and related tax rate impacts, litigation, settlement costs and related legal expenses, impairment charges and non-operating costs, timing of marketing or promotional expenses, the number and timing of new restaurants opened in a quarter, and closure of restaurants. New restaurants typically have higher operating costs following opening because of the expenses associated with their opening and operating inefficiencies in the months immediately following opening. Accordingly, results for a particular quarter are not necessarily indicative of results to be expected for any other quarter or for any year.\n603: As of December 31, 2025, we had a cash and marketable investments balance of $1.1 billion, non-marketable investments of $106.0 million, and $35.4 million of restricted cash. After funding the current operations in our restaurants and support centers, the first planned use of our cash flow from operations is to provide capital for the continued investment in new restaurant construction. In addition to continuing to invest in our restaurant expansion, we expect to utilize cash flow from operations to: repurchase additional shares of our common stock subject to market conditions; invest in, maintain, and refurbish our existing restaurants; and for general corporate purposes. As of December 31, 2025, $1.7 billion remained available for repurchases of shares of our common stock. Under the remaining repurchase authorizations, shares may be purchased from time to time in open market transactions, subject to market conditions.\n607: We believe that cash from operations, together with our cash and investment balances, will be sufficient to meet ongoing capital expenditures, working capital requirements and other cash needs for the foreseeable future. Assuming no significant declines in comparable restaurant sales, we expect we will generate positive cash flow for the foreseeable future.\n610: We have not required significant working capital because guests generally pay using cash or credit and debit cards and because our operations do not require significant receivables or significant inventories, partly due to our use of various fresh ingredients. In addition, we generally have the right to pay for the purchase of food, beverages and supplies sometime after the receipt of those items, generally within ten days, thereby reducing the need for incremental working capital to support our growth.\n619: (1)See Note 9. “Leases” of our consolidated financial statements included in Item 8. “Financial Statements and Supplementary Data.” This includes commitments related to reasonably certain renewal periods for leases that have commenced and includes legally binding lease payments for leases signed but not yet commenced.\n620: (2)Purchase obligations include agreements to purchase goods or services that are enforceable and legally binding on us and that specify all significant terms. We have excluded agreements that are cancellable without penalty. The majority of our purchase obligations relate to food, beverage and packaging, capital projects, information technology, marketing initiatives and corporate sponsorships, and other miscellaneous items.\n621: The above table does not include income tax liabilities for uncertain tax positions for which we are not able to make a reasonably reliable estimate of the amount and period of related future payments. Additionally, we have excluded our estimated loss contingencies, due to uncertainty regarding the timing and amount of payment. See Note 11. “Commitments and Contingencies” of our consolidated financial statements included in Item 8. “Financial Statements and Supplementary Data.”\n629: We describe our significant accounting policies in Note 1. “Description of Business and Summary of Significant Accounting Policies” of our consolidated financial statements included in Item 8. “Financial Statements and Supplementary Data.” Critical accounting estimates are those that we believe are both significant and that require us to make difficult, subjective or complex judgments, often because we need to estimate the effect of inherently uncertain matters. We base our estimates and judgments on historical experiences and various other factors that we believe to be appropriate under the circumstances. Actual results may differ from these estimates, and we might obtain different estimates if we used different assumptions or factors.\n635: The fair value measurement for asset impairment is generally based on Level 3 inputs. We first compare the carrying value of the asset (or asset group, referred interchangeably throughout as asset) to the asset’s estimated future undiscounted cash flows. If the estimated undiscounted future cash flows are less than the carrying value of the asset, we determine if we have an impairment loss by comparing the carrying value of the asset to the asset's estimated fair value. The estimated fair value of the asset is generally determined using the income approach to measure the fair value, which is based on the present value of estimated future cash flows. Key inputs to the income approach for restaurant assets include the discount rate, projected revenue and expenses, and sublease income to the extent applicable. In certain cases, management uses other market information, when available, to estimate the fair value of an asset. The impairment charges represent the excess of each asset’s carrying amount over its estimated fair value and are allocated among the long-lived asset or assets of the group.\n636: Our estimates of future revenues and expenses are highly subjective judgments based on internal projections and knowledge of our operations, historical performance, and trends in sales and restaurant operating costs, and can be significantly impacted by changes in our business or economic conditions. The determination of asset fair value is also subject to significant judgment and utilizes valuation techniques including discounting estimated future cash flows and market-based analyses to determine fair value. If our estimates or underlying assumptions, including discount rate and sublease income change in the future, our operating results may be materially impacted.\n640: We recognize compensation expense for equity awards over the requisite service period based on the award’s fair value. Under our stock incentive plans, we issue stock-only stock appreciation rights (\"SOSARs\"), restricted stock units (\"RSUs\"), and performance stock units (\"PSUs\"). We use the Black-Scholes valuation model to determine the fair value of our SOSARs, and we use a Monte Carlo simulation model to determine the fair value of PSUs that contain market conditions. Both of these models require assumptions to be made regarding our stock price volatility, the expected life of the award and expected dividend rates. The volatility and the expected life assumptions are based on our historical data. Similarly, the compensation expense of PSUs is based in part on the estimated probability of achieving levels of performance associated with particular levels of payout for PSUs. We determine the probability of achievement of future levels of performance by comparing the relevant performance level with our internal estimates of future performance. Those estimates are based on a number of assumptions, including but not limited to growth in restaurant cash flow dollars, average restaurant level operating margin, and growth in new restaurant openings, and different assumptions may have resulted in different conclusions regarding the probability of achieving future levels of performance relevant to the payout levels for the awards. If we change our estimates of stock price volatility or expected lives of our SOSARs, or if we change our assumptions regarding the probability of achieving future levels of performance with respect to PSUs, our stock-based compensation expense and results of operations may be materially impacted.\n642: Our provision for income taxes, deferred tax assets and liabilities and any related valuation allowance requires the use of estimates based on our management’s interpretation and application of complex tax laws and accounting guidance. The majority of our income tax liability is incurred in the U.S. We establish reserves for uncertain tax positions for material, known tax exposures relating to deductions, transactions and other matters involving some uncertainty as to the measurement and recognition of the item. We may adjust these reserves when our judgment changes as a result of the evaluation of new information not previously available and will be reflected in the period in which the new information is available, or due to the expiration of any applicable statute of limitations. While we believe that our reserves are adequate, issues raised by a tax authority may be resolved at an amount different than the related reserve and could materially increase or decrease our income tax provision in future periods.\n643: ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURE ABOUT MARKET RISK\n644: Commodity Price Risks\n645: We are exposed to commodity price risks. The prices of many of the ingredients we use to prepare our food, as well as our packaging materials, kitchen equipment, construction material and utilities to run our restaurants, are affected by the price of other commodities, exchange rates, trade tariffs, limited sources, geopolitical conflict, animal disease outbreaks, weather, natural disaster, seasonality, availability, and other factors outside our control. We work closely with our suppliers and use a mix of forward pricing protocols under which we agree with our supplier on fixed prices for deliveries at some time in the future, fixed pricing protocols under which we agree on a fixed price with our supplier for the duration of that protocol, formula pricing protocols under which the prices we pay are based on a specified formula related to the prices of the goods, such as spot prices in industry indices, and range forward protocols under which we agree on a price range for the duration of that protocol. Generally, our pricing protocols with suppliers can remain in effect for periods ranging from one to 24 months, depending on the outlook for prices of the particular ingredient. In some cases, we agree to minimum purchase obligations. We work to diversify the number of suppliers and geographic locations for our ingredients, packaging, equipment, construction and utilities, which we believe can help mitigate pricing volatility and supply continuity risks, and we monitor industry news, trade tariffs, exchange rates, foreign demand, weather, geopolitical crises and other world events that may affect our ingredient prices. Increases in ingredient prices could adversely affect our results if we choose for competitive or other reasons not to increase menu prices at the same rate at which ingredient costs increase, or if menu price increases result in guest resistance. We also could experience shortages of key ingredients for many unforeseen reasons, such as crop damage due to natural disasters or inclement weather, if our suppliers decide to close, restrict operations or divert supply to other sales channels, or due to industry-wide shipping and freight delays.\n647: We are exposed to interest rate risk through interest rate fluctuations on our investments. As of December 31, 2025, we had $1.3 billion in cash and cash equivalents, current and long-term investments, and restricted cash, of which the substantial majority are interest bearing. Changes in interest rates affect the interest income we earn, and therefore impact our cash flows and results of operations.\n650: Foreign Currency Exchange Risk\n651: A portion of our operations consist of activities outside of the U.S. and we have currency risk on the transactions in other currencies and translation adjustments resulting from the conversion of our international financial results into the U.S. dollar. However, a substantial majority of our operations and investment activities are transacted in the U.S., and therefore our foreign currency risk is not material at this date.\n654: ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA\n658: We have audited the accompanying consolidated balance sheets of Chipotle Mexican Grill, Inc. (the Company) as of December 31, 2025 and 2024, the related consolidated statements of income and comprehensive income, shareholders' equity and cash flows for each of the three years in the period ended December 31, 2025, and the related notes (collectively referred to as the “consolidated financial statements”). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company at December 31, 2025 and 2024, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2025, in conformity with U.S. generally accepted accounting principles.\n662: We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement, whether due to error or fraud. Our audits included performing procedures to assess the risks of material misstatement of the financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the financial statements. We believe that our audits provide a reasonable basis for our opinion.\n669: The Company incurred $121.4 million in stock-based compensation expense during the year ended December 31, 2025. Approximately 2,190,000 of the Company’s vested and non-vested stock awards were subject to performance conditions during the year ended December 31, 2025. As described in Notes 1 and 8 of the consolidated financial statements, the Company records the grant date fair value of the performance stock awards and expenses the fair value of the performance stock awards subject to service conditions over the respective vesting period. Stock-based compensation expense of stock awards subject to performance conditions is based on the estimated probability of achieving levels of performance associated with particular levels of payout. Additionally, at each reporting period, the Company evaluates the probable outcome of the performance conditions including consideration of significant assumptions and as applicable, recognizes the cumulative effect of the change in estimate in the period of the change.\n670: Auditing the estimated quantity of awards the Company determined are probable of vesting for the Company’s stock awards subject to performance conditions was complex and judgmental. In particular, the stock compensation expense is sensitive to significant assumptions including management’s internal estimates of the Company’s future performance. Those estimates are based on certain targets relating to growth in cumulative base restaurant cash flow dollars.\n672: Our substantive audit procedures included, among others, testing the significant assumptions underlying the performance conditions (e.g., certain targets related to growth in cumulative base restaurant cash flow dollars) and testing the completeness and accuracy of the underlying data. We evaluated management’s significant assumptions by comparing the assumptions to current market and economic trends, historical results of the Company's business, and to other relevant factors. We additionally performed a sensitivity analysis of the significant assumptions to evaluate the change in the expense to be recognized for the stock awards subject to performance conditions. We also evaluated the adequacy of the Company’s stock-based compensation disclosures included in Notes 1 and 8 of the consolidated financial statements in relation to these matters.\n705: Unearned revenue | 240,375 | | 238,577\n717: Retained earnings | 619,908 | | 1,574,232\n728: Food and beverage revenue | $ | 11,866,051 | | $ | 11,247,384 | | $ | 9,804,124\n729: Delivery service revenue | 59,550 | | 66,469 | | 67,525\n730: Total revenue | 11,925,601 | | 11,313,853 | | 9,871,649\n746: Earnings per share:\n765: Earnings | | Accumulated Other Comprehensive Loss | | Total\n812: Unearned revenue | 40,710 | | | 46,139 | | | 35,685\n832: Supplemental disclosures of cash flow information\n842: 1. Description of Business and Summary of Significant Accounting Policies\n844: We develop and operate restaurants that serve a relevant menu of burritos, burrito bowls, quesadillas, tacos, and salads, made using fresh, high-quality ingredients. As of December 31, 2025, we own 4,042 restaurants including 3,938 Chipotle restaurants within the United States, and 104 international Chipotle restaurants. Additionally, we had 14 international partner-operated restaurants. We manage our U.S. operations based on 11 regions and aggregate our operations to one reportable segment. Additional details on the nature of our business and our reportable operating segment are included in Note 14. \"Segment Reporting\".\n845: On June 26, 2024, we effected a 50-for-1 stock split of our common stock and proportionately increased the number of authorized shares of common stock. All share and per share information, including share-based compensation, throughout this Annual Report on Form 10-K has been retroactively adjusted to reflect the stock split. The shares of common stock retain a par value of $0.01 per share. Accordingly, an amount equal to the par value of the additional shares issued in the stock split was reclassified from capital in excess of par value to common stock. In the second quarter of 2024, we retired all treasury stock owned, which was recognized as a deduction from common stock for the shares' par value and the excess of cost over par as a deduction from retained earnings. All shares of common stock that we repurchase are immediately retired and not held as treasury stock.\n849: The preparation of financial statements in conformity with U.S. generally accepted accounting principles requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and the disclosure of contingent assets and liabilities as of the date of the financial statements, as well as the reported amounts of revenue and expenses during the reporting period. Actual results could differ from those estimates under different assumptions or conditions.\n859: We closely monitor accounts receivable and held to maturity investment balances and estimate the allowance for credit losses when lifetime credit losses are expected by management. Our estimate is based on historical collection experience, external market data and other factors, including those related to current market conditions and events. We do not recognize a reserve for expected credit losses related to our U.S. Treasury security investments as management has concluded there is no risk of non-payment.\n864: Investments in common stock or in-substance common stock are accounted for under the equity method if we are able to exercise significant influence, but not control, over an investee. Our share of the earnings or losses as reported by the investees is included in interest and other income, net on the consolidated statements of income and comprehensive income. The investments are evaluated for impairment annually and when facts and circumstances indicate that the carrying value may not be recoverable. If a decline in fair value is determined to be other-than-temporary, an impairment charge is recorded in interest income and other income, net on our consolidated statements of income and comprehensive income.\n875: Level 3: Unobservable inputs for the asset or liability. This includes certain pricing models, discounted cash flow methodologies and similar techniques that use significant unobservable inputs.\n880: Capitalized software includes the costs of developing or obtaining internal-use software, such as external direct costs of materials and services, payroll and benefits costs, additional functionality, and costs to develop or obtain software that allows for access or conversion of historical data by new systems. We capitalize costs when the preliminary project stage is complete, management has authorized and committed to funding the software project, it is probable that the software project will be completed, and it is probable that the software will be used to perform the intended function.\n902: We are self-insured for a significant portion of our employee health benefits programs, and carry significant retentions for risks and associated liabilities with respect to workers’ compensation, general liability, property and auto damage, employment practices liability, cyber liability and directors’ and officers’ liability. Predetermined loss limits have been arranged with third party insurance companies to limit exposure to these claims. We record a liability that represents our estimated cost of claims incurred and unpaid as of the balance sheet date. Our estimated liability is not discounted and is based on a number of assumptions and factors, including historical trends, actuarial assumptions and economic conditions, and is closely monitored and adjusted when warranted by changing circumstances.\n904: We are involved in various claims and legal actions that arise in the ordinary course of business. We record an accrual for legal contingencies when we determine that it is probable that we have incurred a liability and we can reasonably estimate the amount of the loss.\n913: Revenue Recognition\n914: We generally recognize revenue, net of discounts and incentives, when payment is tendered at the point of sale. We report revenue net of sales-related taxes collected from guests and remitted to governmental taxing authorities. Food and beverage revenue primarily relates to the sale of food and beverages. Delivery service revenue is comprised of delivery and related service fees charged to guests on sales made through Chipotle’s app and website.\n916: Delivery services are fulfilled by third-party service providers. In some cases, we make delivery sales through our website Chipotle.com or the Chipotle App (“White Label Sales”). In other cases, we make delivery sales through a non-Chipotle owned channel, such as the delivery partner’s website or mobile app (“Marketplace Sales”). With respect to White Label Sales, we control the delivery services and generally recognize revenue, including delivery fees, when the delivery partner transfers food to the guest. For these sales, we receive payment directly from the guest at the time of sale. With respect to Marketplace Sales, we generally recognize revenue, excluding delivery fees collected by the delivery partner, when control of the food is transferred to the guest. We receive payment from the delivery partner subsequent to the transfer of food and the payment terms are short-term in nature.\n924: We defer revenue associated with the estimated selling price of points or rewards, when earned by guests, net of points or rewards we do not expect to be redeemed. The estimated selling price of each point or reward earned is based on the estimated value of the product for which the reward is expected to be redeemed. Our estimate of points and rewards we expect to be redeemed is based on historical and other company specific data. The costs associated with rewards redeemed are primarily included in food, beverage, and packaging on our consolidated statements of income and comprehensive income.\n945: Earnings per Share\n990: 3. Revenue Recognition",
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 18,
+      "text": "NEWPORT BEACH, Calif. – October 28, 2026 – Chipotle Mexican Grill, Inc. (NYSE: CMG) today reported financial results for its third quarter ended September 30, 2026.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    }
+  },
+  "expected_output": "Return qualitative observations without digits and gaps; do not perform arithmetic. The Insight may contain a sourced number. End with an insight field containing exactly one line: \"Insight: <one supported claim> — <10-K, 10-Q, 8-K or EX-99.1> line <number>: <exact quote>\". The claim must add more than a figure repeated from the release first paragraph. If no evidence supports such a claim, use an empty insight field and explain the gap."
+}

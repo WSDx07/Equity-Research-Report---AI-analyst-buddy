@@ -1,0 +1,82 @@
+{
+  "marks": [
+    {
+      "line": 5,
+      "value": "303154",
+      "supported": true,
+      "reason": "The 10‑K excerpt (line 624) lists Total revenue = 303,154 (millions), which matches the claim."
+    },
+    {
+      "line": 6,
+      "value": "10.14%",
+      "supported": false,
+      "reason": "The 10‑K provides the current and prior revenue amounts, but it does not state a growth percentage. The figure is a derived calculation, not directly disclosed."
+    },
+    {
+      "line": 7,
+      "value": "11685",
+      "supported": true,
+      "reason": "The 10‑K excerpt (line 628) shows Operating income = 11,685 (millions), matching the claim."
+    },
+    {
+      "line": 7,
+      "value": "3.85%",
+      "supported": false,
+      "reason": "Operating margin is not reported in the filing; it is calculated from operating income and revenue, so the percentage is not directly supported."
+    },
+    {
+      "line": 8,
+      "value": "9226",
+      "supported": true,
+      "reason": "The 10‑K excerpt (line 634) lists NET INCOME = 9,226 (millions), identical to the claim."
+    },
+    {
+      "line": 9,
+      "value": "20.76",
+      "supported": true,
+      "reason": "The 10‑K excerpt (line 637) lists Diluted EPS = 20.76 USD, which matches the claim."
+    },
+    {
+      "line": 10,
+      "value": "28.40%",
+      "supported": false,
+      "reason": "Return on average equity is not presented in the filing; the claim is a derived calculation using net income and equity values, not a disclosed figure."
+    },
+    {
+      "line": 11,
+      "value": "6162",
+      "supported": false,
+      "reason": "The filing shows Long‑term debt, non‑current = 3,914 and current portion = 2,248 (lines 687 and 683). The combined total of 6,162 million is not directly reported, so the claim is unsupported."
+    },
+    {
+      "line": 11,
+      "value": "0.1721",
+      "supported": false,
+      "reason": "The debt‑to‑equity ratio is not disclosed in the filing; it is a calculation from the debt and equity figures, thus not directly supported."
+    },
+    {
+      "line": 12,
+      "value": "9382",
+      "supported": false,
+      "reason": "Free cash flow is not presented in the filing. The claim is derived (15,817 – 6,435) from operating cash flow (line 760) and PPE additions (line 762), but the resulting figure is not explicitly disclosed."
+    },
+    {
+      "line": 13,
+      "value": "95723",
+      "supported": true,
+      "reason": "The Exhibit 99.1 excerpt (line 45) lists Total revenue = 95,723 (millions) for the quarter, matching the claim."
+    },
+    {
+      "line": 14,
+      "value": "11.10%",
+      "supported": false,
+      "reason": "The filing provides the quarterly revenue numbers (95,723 and 86,156) but does not state a percentage growth; the 11.10% figure is a derived calculation, not directly disclosed."
+    },
+    {
+      "line": 15,
+      "value": "6.75",
+      "supported": true,
+      "reason": "The Exhibit 99.1 excerpt (line 58) lists Diluted EPS = 6.75 USD per share, exactly matching the claim."
+    }
+  ]
+}
