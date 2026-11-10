@@ -7,7 +7,7 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
 
-import equity_research_roles as roles
+import equity_desk.equity_research_roles as roles
 
 
 class FakeResponses:

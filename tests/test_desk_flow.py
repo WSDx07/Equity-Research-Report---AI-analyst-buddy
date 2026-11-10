@@ -7,7 +7,7 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 from desk_flow import EquityDeskFlow, purdue_client, ResearchWithInsight, FinancialWithInsight, AdviceWithInsight, ManagerReview
-from equity_research_roles import Advice, Financial, Research, Review, SECTIONS
+from equity_desk.equity_research_roles import Advice, Financial, Research, Review, SECTIONS
 
 
 class FlowTest(unittest.TestCase):

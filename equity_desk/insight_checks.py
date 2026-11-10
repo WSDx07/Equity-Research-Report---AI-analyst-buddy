@@ -1,7 +1,7 @@
 """Validation helpers for analyst Insight lines."""
 from __future__ import annotations
 import re
-from desk_verifier import quoted_line_matches
+from equity_desk.desk_verifier import quoted_line_matches
 
 MONTH = r"(?:January|February|March|April|May|June|July|August|September|October|November|December)"
 

@@ -12,6 +12,49 @@ import desk_ui
 
 
 class DeskUiTest(unittest.TestCase):
+    def test_spinoff_start_date_validation(self):
+        self.assertEqual(desk_ui.validate_spinoff({'start_date':'2025-01-02'}),'2025-01-02')
+        for item in ('not a date','2025-02-30','9999-01-01','2025-01-02;bad'):
+            with self.assertRaises(ValueError): desk_ui.validate_spinoff({'start_date':item})
+
+    def test_spinoff_page_only_displays_saved_report_inside_run_directory(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            runs=Path(tmp).resolve()
+            report=runs/'spinoff-screen-2025.md'
+            report.write_text('Run date: 2025-01-01 | Price date: unavailable | Index date: unavailable\n\nscreens, not recommendations\n',encoding='utf-8')
+            class Process:
+                stdout=iter([f'Screen report: {report}\n'])
+                def wait(self): return 0
+            desk_ui.jobs['spinoff-test']={'status':'running','events':[]}
+            with patch.object(desk_ui,'SPINOFF_RUNS',runs), patch.object(desk_ui.subprocess,'Popen',return_value=Process()) as popen:
+                desk_ui.execute_spinoff('spinoff-test','2025-01-01')
+            result=desk_ui.jobs.pop('spinoff-test')
+            self.assertEqual(result['status'],'complete')
+            self.assertIn('screens, not recommendations',result['report_html'])
+            self.assertIn('2025-01-01',popen.call_args.args[0])
+
+    def test_spinoff_job_accepts_date_and_rejects_cross_origin(self):
+        server=desk_ui.ThreadingHTTPServer(('127.0.0.1',0),desk_ui.Handler)
+        thread=threading.Thread(target=server.serve_forever,daemon=True); thread.start()
+        url=f'http://127.0.0.1:{server.server_port}'
+        called=threading.Event()
+        def fake_execute(job_id,start):
+            with desk_ui.lock: desk_ui.jobs[job_id].update(status='complete',events=[start],report_html='done',report_path='saved')
+            called.set()
+        try:
+            with patch.object(desk_ui,'execute_spinoff',fake_execute):
+                req=Request(url+'/api/spinoff-jobs',data=json.dumps({'start_date':'2025-01-01'}).encode(),headers={'Content-Type':'application/json','Origin':url})
+                job_id=json.loads(urlopen(req,timeout=5).read())['job_id']
+                self.assertTrue(called.wait(5))
+                result=json.loads(urlopen(url+'/api/jobs/'+job_id,timeout=5).read())
+                self.assertEqual(result['events'],['2025-01-01'])
+                desk_ui.jobs.pop(job_id)
+            req=Request(url+'/api/spinoff-jobs',data=b'{}',headers={'Content-Type':'application/json','Origin':'http://evil.invalid'})
+            with self.assertRaises(HTTPError) as err: urlopen(req,timeout=5)
+            self.assertEqual(err.exception.code,403)
+        finally:
+            server.shutdown(); server.server_close(); thread.join()
+
     def test_validation_and_argument_safety(self):
         self.assertEqual(desk_ui.validate({"ticker":"abc", "peers":"def, ghi", "price":"12.50"}), ("ABC", ["DEF", "GHI"], "12.50"))
         for payload in ({"ticker":"ABC;whoami"}, {"ticker":"ABC", "price":"-1"}, {"ticker":"ABC", "peers":"DEF;X"}):

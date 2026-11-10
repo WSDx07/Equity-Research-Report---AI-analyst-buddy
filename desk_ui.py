@@ -10,6 +10,7 @@ import threading
 import uuid
 import webbrowser
 from decimal import Decimal, InvalidOperation
+from datetime import date
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -18,6 +19,8 @@ from markdown_it import MarkdownIt
 
 ROOT = Path(__file__).resolve().parent
 RUNS = (ROOT / "equity_research_runs").resolve()
+SPINOFF_RUNS = (ROOT / "spinoff_runs").resolve()
+SPINOFF_SCRIPT = Path.home() / ".codex" / "skills" / "us-spinoff-seeker" / "scripts" / "seeker.py"
 PAGE = ROOT / "desk_ui" / "index.html"
 TICKER = re.compile(r"^[A-Z0-9][A-Z0-9.\-]{0,14}$")
 ANSI = re.compile(r"\x1b\[[0-?]*[ -/]*[@-~]")
@@ -25,6 +28,60 @@ NODES = re.compile(r"^(?:Step \d+ started|Research Analyst|Financial Analyst|Inv
 renderer = MarkdownIt("commonmark", {"html": False}).enable("table")
 jobs: dict[str, dict] = {}
 lock = threading.Lock()
+
+
+def validate_spinoff(payload: dict) -> str:
+    if not isinstance(payload, dict):
+        raise ValueError("Enter a start date.")
+    raw = str(payload.get("start_date", ""))
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", raw):
+        raise ValueError("Enter a start date in YYYY-MM-DD format.")
+    try:
+        day = date.fromisoformat(raw)
+    except ValueError:
+        raise ValueError("Enter a valid start date.") from None
+    if day > date.today():
+        raise ValueError("The start date cannot be in the future.")
+    return raw
+
+
+def execute_spinoff(job_id: str, start: str) -> None:
+    command = [sys.executable, "-u", str(SPINOFF_SCRIPT), "--start", start,
+               "--config", str(ROOT / "spinoff_factors.json"), "--env", str(ROOT / ".env"),
+               "--output", str(SPINOFF_RUNS)]
+    env = os.environ.copy()
+    env.update(PYTHONUTF8="1", PYTHONUNBUFFERED="1")
+    report_path = None
+    last_lines = []
+    try:
+        process = subprocess.Popen(command, cwd=ROOT, env=env, stdout=subprocess.PIPE,
+                                   stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace")
+        assert process.stdout is not None
+        for line in process.stdout:
+            clean = ANSI.sub("", line).strip()
+            if not clean:
+                continue
+            last_lines = (last_lines + [clean])[-8:]
+            if clean.startswith("Screen report:"):
+                report_path = clean.removeprefix("Screen report:").strip()
+            else:
+                with lock:
+                    jobs[job_id]["events"].append(clean[:500])
+        if process.wait() != 0:
+            raise RuntimeError(" ".join(last_lines[-3:]) or "The spinoff screen stopped.")
+        if not report_path:
+            raise RuntimeError("The spinoff screen did not save a report.")
+        path = Path(report_path).resolve()
+        if not path.is_relative_to(SPINOFF_RUNS) or not path.name.startswith("spinoff-screen-") or path.suffix != ".md" or not path.is_file():
+            raise RuntimeError("The spinoff report is missing or outside the run folder.")
+        report = path.read_text(encoding="utf-8")
+        if report.rstrip().splitlines()[-1:] != ["screens, not recommendations"]:
+            raise RuntimeError("The spinoff report is incomplete.")
+        with lock:
+            jobs[job_id].update(status="complete", report_html=renderer.render(report), report_path=str(path))
+    except (OSError, RuntimeError, UnicodeError) as exc:
+        with lock:
+            jobs[job_id].update(status="error", error=str(exc))
 
 
 def validate(payload: dict) -> tuple[str, list[str], str | None]:
@@ -118,7 +175,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_error(404)
 
     def do_POST(self):
-        if self.path != "/api/jobs":
+        if self.path not in {"/api/jobs", "/api/spinoff-jobs"}:
             self.send_error(404)
             return
         origin = self.headers.get("Origin", "")
@@ -133,7 +190,13 @@ class Handler(BaseHTTPRequestHandler):
             size = int(self.headers.get("Content-Length", "0"))
             if size <= 0 or size > 4096:
                 raise ValueError("Invalid request size.")
-            ticker, peers, price = validate(json.loads(self.rfile.read(size)))
+            payload = json.loads(self.rfile.read(size))
+            if self.path == "/api/spinoff-jobs":
+                args = (validate_spinoff(payload),)
+                executor = execute_spinoff
+            else:
+                args = validate(payload)
+                executor = execute
         except (ValueError, UnicodeError, json.JSONDecodeError) as exc:
             self.send_json(400, {"error": str(exc)})
             return
@@ -143,7 +206,7 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_json(409, {"error": "A run is already in progress. Wait for it to finish."})
                 return
             jobs[job_id] = {"status": "running", "events": []}
-        threading.Thread(target=execute, args=(job_id, ticker, peers, price), daemon=True).start()
+        threading.Thread(target=executor, args=(job_id, *args), daemon=True).start()
         self.send_json(202, {"job_id": job_id})
 
 

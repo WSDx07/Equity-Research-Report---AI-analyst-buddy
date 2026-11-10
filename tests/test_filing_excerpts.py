@@ -1,6 +1,6 @@
 import unittest
 
-from filing_excerpts import cited_excerpts, numbered_excerpt
+from equity_desk.filing_excerpts import cited_excerpts, numbered_excerpt
 
 
 class FilingExcerptsTest(unittest.TestCase):

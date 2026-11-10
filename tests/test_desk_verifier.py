@@ -4,10 +4,10 @@ import unittest
 from pathlib import Path
 from types import SimpleNamespace
 
-from desk_verifier import SemanticMark, SemanticReview, annual_revenue_growth, check_fact_source, check_line_source, diluted_eps_line, quoted_line_matches, semantic_lookup, structured_semantic_lookup, verify
-from structured_claims import check_claim, formula_value
+from equity_desk.desk_verifier import SemanticMark, SemanticReview, annual_revenue_growth, check_fact_source, check_line_source, diluted_eps_line, quoted_line_matches, semantic_lookup, structured_semantic_lookup, verify
+from equity_desk.structured_claims import check_claim, formula_value
 from decimal import Decimal
-from report_metrics import metrics, render_metric
+from equity_desk.report_metrics import metrics, render_metric
 
 
 class VerifierTest(unittest.TestCase):

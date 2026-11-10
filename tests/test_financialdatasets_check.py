@@ -2,7 +2,7 @@ import json
 import unittest
 from types import SimpleNamespace
 
-from financialdatasets_check import compare, fetch_statements
+from equity_desk.financialdatasets_check import compare, fetch_statements
 
 
 class FinancialDatasetsTest(unittest.TestCase):

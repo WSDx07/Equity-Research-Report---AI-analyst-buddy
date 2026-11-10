@@ -13,9 +13,9 @@ from pathlib import Path
 
 from google.genai import types
 from pydantic import BaseModel
-from filing_excerpts import cited_excerpts
-from structured_claims import check_claim, parse_claim
-from report_metrics import metrics, render_metric
+from equity_desk.filing_excerpts import cited_excerpts
+from equity_desk.structured_claims import check_claim, parse_claim
+from equity_desk.report_metrics import metrics, render_metric
 
 
 class SemanticMark(BaseModel):

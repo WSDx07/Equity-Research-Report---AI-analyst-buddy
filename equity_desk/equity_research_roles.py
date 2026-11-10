@@ -174,7 +174,7 @@ def claim_numbers_supported(claim: Claim) -> bool:
 
 def run_roles(desk) -> Path:
     raise RuntimeError("The legacy role runner is disabled because it bypasses the Verifier. Run desk_flow.py instead.")
-    settings = dotenv_values(Path(__file__).resolve().parent / ".env")
+    settings = dotenv_values(Path(__file__).resolve().parent.parent / ".env")
     google_key = (settings.get("API_KEY") or "").strip()
     purdue_key = (settings.get("PURDUE_API_KEY") or "").strip()
     if not google_key and not purdue_key:

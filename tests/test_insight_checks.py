@@ -1,5 +1,5 @@
 import unittest
-from insight_checks import insight_errors, release_first_paragraph
+from equity_desk.insight_checks import insight_errors, release_first_paragraph
 
 class InsightChecksTest(unittest.TestCase):
     def test_missing_insight_and_missing_release_are_rejected(self):

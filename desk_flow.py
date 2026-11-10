@@ -17,12 +17,12 @@ from google.genai import types
 from pydantic import BaseModel, Field
 
 from equity_research_data_desk import Desk
-from equity_research_roles import Advice, Financial, ProviderRouter, Research, Review, SECTIONS, numbered, research_errors
-from desk_verifier import verify
-from financialdatasets_check import compare, fetch_statements
-from filing_excerpts import numbered_excerpt
-from insight_checks import insight_errors, release_first_paragraph
-from report_metrics import metrics, render_metric
+from equity_desk.equity_research_roles import Advice, Financial, ProviderRouter, Research, Review, SECTIONS, numbered, research_errors
+from equity_desk.desk_verifier import verify
+from equity_desk.financialdatasets_check import compare, fetch_statements
+from equity_desk.filing_excerpts import numbered_excerpt
+from equity_desk.insight_checks import insight_errors, release_first_paragraph
+from equity_desk.report_metrics import metrics, render_metric
 
 ROOT = Path(__file__).resolve().parent
 
