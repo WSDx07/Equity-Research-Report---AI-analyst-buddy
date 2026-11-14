@@ -1,0 +1,17 @@
+{
+  "observations": [
+    "The primary financial evidence comes from the company’s annual filing, which presents revenue, operating income, net income, diluted earnings per share, stockholders’ equity, long‑term debt, cash from operations and capital expenditures for the fiscal year that concluded in June. The filing is identified by its accession number and filing date, but the data are treated as untrusted until corroborated by an independent source.",
+    "A quarterly earnings release supplies results for the first quarter that ended in September, highlighting revenue, operating income, net income and diluted earnings per share, as well as a narrative on cloud revenue growth and the impact of OpenAI investments. No market price for the common stock is supplied, so a price‑earnings valuation cannot be performed.",
+    "The filing notes that foreign‑currency movements had a favorable effect on revenue and operating income, but it does not quantify the effect in the narrative, leaving the magnitude of that impact unverified.",
+    "The filing also discloses a non‑GAAP adjustment for OpenAI investments that altered net income and earnings per share, providing a specific description of the direction of the impact without presenting the dollar values in the surrounding text.",
+    "Peer comparison is limited because the peer’s fiscal year ends in May, which does not align with the company’s fiscal year ending in June, preventing a like‑for‑like period analysis.",
+    "There is no disclosed share price, price date, or source, so any valuation that relies on a price‑to‑earnings multiple lacks the required inputs and must be omitted.",
+    "Key definitions such as revenue, operating income and net income follow the standard accounting tags from the SEC XBRL taxonomy, but the exact measurement bases (e.g., GAAP versus constant‑currency) are only described in narrative footnotes, and those footnotes are not reproduced here."
+  ],
+  "gaps": [
+    "Missing market price data prevents calculation of valuation multiples.",
+    "Peer financial data are not on a comparable reporting timeline, limiting direct peer analysis.",
+    "Quantitative details of foreign‑currency effects and the OpenAI adjustments are not provided in the narrative, leaving those impacts partially unsupported."
+  ],
+  "insight": "Insight: Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted EPS of $5.0 billion and $0.67, respectively. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted EPS of $3.6 billion and $0.49, respectively — 10‑K line 822"
+}

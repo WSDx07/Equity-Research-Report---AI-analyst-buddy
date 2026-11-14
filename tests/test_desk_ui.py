@@ -17,6 +17,19 @@ class DeskUiTest(unittest.TestCase):
         for item in ('not a date','2025-02-30','9999-01-01','2025-01-02;bad'):
             with self.assertRaises(ValueError): desk_ui.validate_spinoff({'start_date':item})
 
+    def test_spinoff_prefers_lseg_python_when_available(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            runs=Path(tmp).resolve(); python=runs/'python.exe'; python.touch()
+            report=runs/'spinoff-screen-test.md'; report.write_text('screens, not recommendations\n',encoding='utf-8')
+            class Process:
+                stdout=iter([f'Screen report: {report}\n'])
+                def wait(self): return 0
+            desk_ui.jobs['spinoff-python']={'status':'running','events':[]}
+            with patch.object(desk_ui,'SPINOFF_RUNS',runs), patch.object(desk_ui,'LSEG_PYTHON',python), patch.object(desk_ui.subprocess,'Popen',return_value=Process()) as popen:
+                desk_ui.execute_spinoff('spinoff-python','2025-01-01')
+            desk_ui.jobs.pop('spinoff-python')
+            self.assertEqual(popen.call_args.args[0][0],str(python))
+
     def test_spinoff_page_only_displays_saved_report_inside_run_directory(self):
         with tempfile.TemporaryDirectory() as tmp:
             runs=Path(tmp).resolve()

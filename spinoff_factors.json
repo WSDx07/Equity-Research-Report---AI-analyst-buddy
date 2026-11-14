@@ -1,28 +1,36 @@
 {
   "window_days": 90,
   "provisional": true,
-  "description": "Starter screen only. Thresholds and weights are editable and do not establish investment merit.",
+  "description": "User-selected fixed thresholds; independent pass/fail points. Screening hypotheses are unvalidated. Analyst coverage is disabled until a verified source is available.",
   "factors": [
     {
       "name": "size",
-      "description": "Market capitalization in USD, at or below the threshold.",
-      "weight": 10,
+      "description": "Spinoff market capitalization in USD at or below the threshold.",
+      "weight": 25,
       "direction": "lower",
       "threshold": 2000000000
     },
     {
       "name": "weakness",
-      "description": "Percentage decline from the first eligible regular-way close, at or above the threshold.",
-      "weight": 10,
+      "description": "Percentage decline from the first regular-way close strictly after distribution, at or above the threshold.",
+      "weight": 25,
       "direction": "higher",
-      "threshold": 20
+      "threshold": 15.0
     },
     {
       "name": "insiders",
-      "description": "Documented insider ownership percentage, at or above the threshold.",
-      "weight": 10,
+      "description": "Documented insider equity ownership percentage, at or above the threshold.",
+      "weight": 25,
       "direction": "higher",
-      "threshold": 5
+      "threshold": 5.0
+    },
+    {
+      "name": "analysts",
+      "description": "Number of sell-side analysts covering the company, at or below the threshold. Disabled until a verified source is available.",
+      "weight": 0,
+      "direction": "lower",
+      "threshold": 2,
+      "intended_weight": 25
     }
   ]
 }

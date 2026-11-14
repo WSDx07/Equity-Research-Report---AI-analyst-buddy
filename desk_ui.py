@@ -20,7 +20,8 @@ from markdown_it import MarkdownIt
 ROOT = Path(__file__).resolve().parent
 RUNS = (ROOT / "equity_research_runs").resolve()
 SPINOFF_RUNS = (ROOT / "spinoff_runs").resolve()
-SPINOFF_SCRIPT = Path.home() / ".codex" / "skills" / "us-spinoff-seeker" / "scripts" / "seeker.py"
+SPINOFF_SCRIPT = ROOT / ".agents" / "skills" / "us-spinoff-seeker" / "scripts" / "seeker.py"
+LSEG_PYTHON = Path.home() / ".codex" / "venvs" / "us-spinoff-lseg" / "Scripts" / "python.exe"
 PAGE = ROOT / "desk_ui" / "index.html"
 TICKER = re.compile(r"^[A-Z0-9][A-Z0-9.\-]{0,14}$")
 ANSI = re.compile(r"\x1b\[[0-?]*[ -/]*[@-~]")
@@ -46,7 +47,8 @@ def validate_spinoff(payload: dict) -> str:
 
 
 def execute_spinoff(job_id: str, start: str) -> None:
-    command = [sys.executable, "-u", str(SPINOFF_SCRIPT), "--start", start,
+    python = str(LSEG_PYTHON) if LSEG_PYTHON.is_file() else sys.executable
+    command = [python, "-u", str(SPINOFF_SCRIPT), "--start", start,
                "--config", str(ROOT / "spinoff_factors.json"), "--env", str(ROOT / ".env"),
                "--output", str(SPINOFF_RUNS)]
     env = os.environ.copy()

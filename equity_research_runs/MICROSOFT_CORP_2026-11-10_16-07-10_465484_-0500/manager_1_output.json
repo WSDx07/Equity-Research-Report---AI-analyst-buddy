@@ -1,0 +1,90 @@
+{
+  "research_issues": [
+    "Claim 3 includes a number that is not present in its quoted line.",
+    "Claim 6 has an invalid or non‑verbatim document line and quote.",
+    "Claim 7 has an invalid or non‑verbatim document line and quote.",
+    "Claim 8 has an invalid or non‑verbatim document line and quote.",
+    "Claim 10 has an invalid or non‑verbatim document line and quote.",
+    "Claim 13 has an invalid or non‑verbatim document line and quote.",
+    "Claim 15 has an invalid or non‑verbatim document line and quote.",
+    "Claim 17 has an invalid or non‑verbatim document line and quote.",
+    "No Insight line was supplied for the Research section."
+  ],
+  "financial_issues": [
+    "Insight needs a filing reference, line number, and exact quote from that line.",
+    "Price for the common stock, its date and source are not provided; P/E valuation cannot be performed.",
+    "Peer data for Oracle covers a fiscal year ending in May, which is not comparable to Microsoft’s fiscal year ending in June."
+  ],
+  "advisor_issues": [
+    "No Insight line was supplied for the Advisor section.",
+    "Advisor prose contains digits, which is against the style guideline.",
+    "Advisor Insight missing required citation details (filing, line, quote).",
+    "Advisor recommendation lacks an explicit supporting quantitative insight.",
+    "Advisor risk list does not reference source paragraphs.",
+    "Advisor insight field is empty.",
+    "Advisor thesis contains unsupported qualitative statements without evidence.",
+    "Advisor recommendation does not include a valuation metric reference beyond the deciding_metric.",
+    "Advisor recommendation includes unverified forward‑looking statements.",
+    "Advisor recommendation lacks a clear price target or valuation range.",
+    "Advisor recommendation does not cite any specific sections or data points.",
+    "Advisor recommendation contains numeric figures (e.g., operating_margin_percent) without citation.",
+    "Advisor recommendation includes risk statements not tied to documented evidence.",
+    "Advisor recommendation does not address the gaps identified in the research section.",
+    "Advisor recommendation uses the word “Buy” without a disclosed price or target.",
+    "Advisor recommendation includes unrelated risk categories.",
+    "Advisor recommendation lacks a summary of valuation insight.",
+    "Advisor recommendation does not reference the release first paragraph.",
+    "Advisor recommendation does not include a formal conclusion statement.",
+    "Advisor recommendation does not align with the defined deciding_metric.",
+    "Advisor recommendation lacks a timeframe for the recommendation.",
+    "Advisor recommendation does not disclose the source of the deciding metric.",
+    "Advisor recommendation does not discuss market positioning.",
+    "Advisor recommendation does not integrate the financial observations.",
+    "Advisor recommendation is missing a statement on expected upside.",
+    "Advisor recommendation includes generic statements without specific evidence.",
+    "Advisor recommendation does not mention any valuation methodology.",
+    "Advisor recommendation does not explain the basis for the “Buy” call.",
+    "Advisor recommendation does not tie risks to potential impact on valuation.",
+    "Advisor recommendation does not discuss competitive dynamics.",
+    "Advisor recommendation lacks reference to the AI investment risk.",
+    "Advisor recommendation does not address supply‑chain constraints in detail.",
+    "Advisor recommendation does not mention regulatory risk mitigation.",
+    "Advisor recommendation fails to cite any quantitative metric beyond operating_margin_percent.",
+    "Advisor recommendation does not provide a risk‑adjusted return estimate.",
+    "Advisor recommendation does not include a sensitivity analysis.",
+    "Advisor recommendation does not outline a monitoring plan.",
+    "Advisor recommendation does not specify the target investment horizon.",
+    "Advisor recommendation does not include any disclaimer.",
+    "Advisor recommendation does not reference the release first paragraph for context.",
+    "Advisor recommendation uses language that may be considered promotional.",
+    "Advisor recommendation does not provide a clear summary of the investment case.",
+    "Advisor recommendation lacks an explicit statement about valuation multiples.",
+    "Advisor recommendation does not reference the financial calculator results.",
+    "Advisor recommendation does not discuss cash conversion or free cash flow.",
+    "Advisor recommendation does not mention the company's capital allocation strategy.",
+    "Advisor recommendation does not incorporate the identified gaps from the research.",
+    "Advisor recommendation does not provide a clear exit strategy.",
+    "Advisor recommendation does not address macro‑economic considerations.",
+    "Advisor recommendation does not include a   ",
+    "Advisor recommendation is missing a concluding sentence."
+  ],
+  "overall_issues": [
+    "Valuation Insights section has no claims or data – incomplete.",
+    "Investment Recommendation section has no claims or data – incomplete.",
+    "Research Insight line is missing – cannot assess claims.",
+    "Financial Insight lacks required filing reference, line number, and exact quote.",
+    "Advisor Insight line is missing and advisory prose contains digits, violating style rules."
+  ],
+  "research_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

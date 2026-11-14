@@ -86,19 +86,25 @@ This prints the SEC user agent and the first four characters of the legacy `API_
 
 The files in `equity_desk/` are supporting Python modules. The entry-point scripts import them automatically; they are not intended to be run on their own.
 
-## Spinoff seeker (in development)
+## Spinoff seeker
 
-The local page has a start-date form for a future spinoff screen. The full seeker is not ready: the SEC filing reader is incomplete, and an LSEG export and exchange check are still needed before using prices. The page reports this instead of displaying a screen as complete.
+The seeker skill is included in .agents/skills/us-spinoff-seeker/, so GitHub receives the instructions, scripts, and tests with this project. The local desk page runs this project copy. spinoff_factors.json sets the 90-day window and user-selected thresholds: market capitalization at or below USD 2 billion, decline of at least 15% from the first post-distribution close, and insider ownership of at least 5%. Each active factor is worth 25 points; analyst coverage has weight 0 until a verified data source is available.
 
-`spinoff_factors.json` contains **provisional** settings: a 90-calendar-day window and three independent 10-point factors. The current starter thresholds are market capitalization at or below USD 2 billion, a price decline of at least 20%, and documented insider ownership of at least 5%. These are editable examples, not validated investment rules. Set a factor's `weight` to `0` to omit its points; other factors' points do not change. Missing inputs remain unavailable.
+The report identifies its index date, search limits, missing sources, and unranked names. The search starts with the year before the requested start date. The SEC filing extractors cover limited formats, so the report is a screen and can miss filings or facts. The LSEG close path uses the user's stated `TR.CLOSEPRICE(Adjusted=0)` and primary RIC assumptions; the report discloses the remaining limits. Missing active factors leave a company unranked. The report ends with `screens, not recommendations`.
 
-The prototype's offline tests run from PowerShell:
+Run the seeker from the page with a distribution start date. To run it from PowerShell:
 
 ```powershell
-.\.venv\Scripts\python.exe -m unittest discover -s "$env:USERPROFILE\.codex\skills\us-spinoff-seeker\scripts" -p "test_*.py"
+& "$env:USERPROFILE\.codex\venvs\us-spinoff-lseg\Scripts\python.exe" .\.agents\skills\us-spinoff-seeker\scripts\seeker.py --start 2025-11-13 --config .\spinoff_factors.json --env .\.env --output .\spinoff_runs
 ```
 
-LSEG Workspace web exports must stay outside this repository. The prototype can read mapped CSV or XLSX exports, but it must first be configured for the actual exported fields and checked against an exchange. It does not send raw price series to the model. The optional diagnostic run is labeled partial and is not a complete spinoff screen; generated outputs are ignored by Git.
+Run the skill tests:
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s .\.agents\skills\us-spinoff-seeker\scripts -p "test_*.py"
+```
+
+Keep .env private. The isolated LSEG Python environment is machine-specific; on another computer, install the LSEG library there and set the SEC User-Agent and LSEG App Key in its local .env.
 
 ## Tests
 

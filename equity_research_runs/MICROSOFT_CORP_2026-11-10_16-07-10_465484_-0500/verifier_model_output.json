@@ -1,0 +1,256 @@
+{
+  "marks": [
+    {
+      "line": 12,
+      "value": "$63.9 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 21 states “Microsoft Cloud revenue increased 30% to $63.9 billion”, matching the claim."
+    },
+    {
+      "line": 12,
+      "value": "30 %",
+      "supported": true,
+      "reason": "EX‑99.1 line 21 provides the 30 % year‑over‑year increase for Microsoft Cloud revenue."
+    },
+    {
+      "line": 13,
+      "value": "48 %",
+      "supported": true,
+      "reason": "EX‑99.1 line 72 explicitly says “Azure revenue increased 48%”."
+    },
+    {
+      "line": 14,
+      "value": "18 %",
+      "supported": true,
+      "reason": "EX‑99.1 line 74 reports “Microsoft 365 commercial cloud revenue increased 18%”."
+    },
+    {
+      "line": 14,
+      "value": "19 % (constant‑currency)",
+      "supported": true,
+      "reason": "EX‑99.1 line 74 also reports the constant‑currency increase of 19 %."
+    },
+    {
+      "line": 15,
+      "value": "$92.3 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 11 states “Revenue was $92.3 billion”."
+    },
+    {
+      "line": 15,
+      "value": "19 %",
+      "supported": true,
+      "reason": "EX‑99.1 line 11 gives the 19 % increase for the quarterly revenue."
+    },
+    {
+      "line": 16,
+      "value": "48 %",
+      "supported": true,
+      "reason": "Repeated claim; same source as line 13 (EX‑99.1 line 72)."
+    },
+    {
+      "line": 58,
+      "value": "$4.92",
+      "supported": true,
+      "reason": "EX‑99.1 line 17 lists “Diluted earnings per share was $4.92”."
+    },
+    {
+      "line": 58,
+      "value": "32 %",
+      "supported": true,
+      "reason": "EX‑99.1 line 17 reports a 32 % GAAP increase for the $4.92 EPS."
+    },
+    {
+      "line": 58,
+      "value": "$4.89",
+      "supported": true,
+      "reason": "EX‑99.1 line 17 lists “and was $4.89”."
+    },
+    {
+      "line": 58,
+      "value": "18 %",
+      "supported": true,
+      "reason": "EX‑99.1 line 17 reports an 18 % non‑GAAP increase for the $4.89 EPS."
+    },
+    {
+      "line": 61,
+      "value": "$5.0 billion",
+      "supported": false,
+      "reason": "No filing excerpt or XBRL fact cites a $5.0 billion net‑income gain from OpenAI; claim is unsourced."
+    },
+    {
+      "line": 61,
+      "value": "$0.67",
+      "supported": false,
+      "reason": "No filing or fact supports a $0.67 EPS gain from OpenAI; claim is unsourced."
+    },
+    {
+      "line": 61,
+      "value": "$3.6 billion",
+      "supported": false,
+      "reason": "No filing excerpt documents a $3.6 billion net‑income loss from OpenAI; claim is unsourced."
+    },
+    {
+      "line": 61,
+      "value": "$0.49",
+      "supported": false,
+      "reason": "No filing or fact shows a $0.49 EPS decrease attributable to OpenAI; claim is unsourced."
+    },
+    {
+      "line": 54,
+      "value": "29.69 ratio",
+      "supported": false,
+      "reason": "The price ($533) is a user‑input without a verified source; without a reliable price the P/E ratio cannot be validated."
+    },
+    {
+      "line": 52,
+      "value": "0.0911 ratio",
+      "supported": true,
+      "reason": "Calculated from company facts: non‑current debt $31.067 bn + current debt $9.227 bn = $40.294 bn; equity $442.387 bn; ratio = $40.294 bn / $442.387 bn ≈ 0.0911, matching the table."
+    },
+    {
+      "line": 47,
+      "value": "331839000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax for FY2026 (value 331,839,000,000)."
+    },
+    {
+      "line": 48,
+      "value": "281724000000 USD",
+      "supported": true,
+      "reason": "Matches the company prior‑year revenue fact (value 281,724,000,000)."
+    },
+    {
+      "line": 49,
+      "value": "155237000000 USD",
+      "supported": true,
+      "reason": "Matches the company operating‑income fact for FY2026."
+    },
+    {
+      "line": 50,
+      "value": "128528000000 USD",
+      "supported": true,
+      "reason": "Matches the prior‑year operating‑income fact."
+    },
+    {
+      "line": 51,
+      "value": "133749000000 USD",
+      "supported": true,
+      "reason": "Matches the company net‑income fact for FY2026."
+    },
+    {
+      "line": 52,
+      "value": "101832000000 USD",
+      "supported": true,
+      "reason": "Matches the prior‑year net‑income fact."
+    },
+    {
+      "line": 53,
+      "value": "17.95 USD/share",
+      "supported": true,
+      "reason": "Matches diluted EPS fact for FY2026."
+    },
+    {
+      "line": 54,
+      "value": "13.64 USD/share",
+      "supported": true,
+      "reason": "Matches diluted EPS prior‑year fact."
+    },
+    {
+      "line": 55,
+      "value": "442387000000 USD",
+      "supported": true,
+      "reason": "Matches stockholders‑equity fact for FY2026."
+    },
+    {
+      "line": 56,
+      "value": "343479000000 USD",
+      "supported": true,
+      "reason": "Matches prior‑year stockholders‑equity fact."
+    },
+    {
+      "line": 57,
+      "value": "31067000000 USD",
+      "supported": true,
+      "reason": "Matches long‑term‑debt‑noncurrent fact for FY2026."
+    },
+    {
+      "line": 58,
+      "value": "40152000000 USD",
+      "supported": true,
+      "reason": "Matches prior‑year long‑term‑debt‑noncurrent fact."
+    },
+    {
+      "line": 59,
+      "value": "9227000000 USD",
+      "supported": true,
+      "reason": "Matches long‑term‑debt‑current fact for FY2026."
+    },
+    {
+      "line": 60,
+      "value": "2999000000 USD",
+      "supported": true,
+      "reason": "Matches prior‑year long‑term‑debt‑current fact."
+    },
+    {
+      "line": 61,
+      "value": "182935000000 USD",
+      "supported": true,
+      "reason": "Matches cash‑from‑operations fact for FY2026."
+    },
+    {
+      "line": 62,
+      "value": "136162000000 USD",
+      "supported": true,
+      "reason": "Matches prior‑year cash‑from‑operations fact."
+    },
+    {
+      "line": 63,
+      "value": "115948000000 USD",
+      "supported": true,
+      "reason": "Matches additions‑to‑property‑and‑equipment fact for FY2026."
+    },
+    {
+      "line": 64,
+      "value": "64551000000 USD",
+      "supported": true,
+      "reason": "Matches prior‑year additions‑to‑property‑and‑equipment fact."
+    },
+    {
+      "line": 48,
+      "value": "17.79 %",
+      "supported": true,
+      "reason": "Revenue growth computed from the two revenue facts (331.839 bn – 281.724 bn) / 281.724 bn = 0.1779 ≈ 17.79 %."
+    },
+    {
+      "line": 49,
+      "value": "46.78 %",
+      "supported": true,
+      "reason": "Operating margin computed from operating‑income 155.237 bn / revenue 331.839 bn ≈ 0.4678 → 46.78 %."
+    },
+    {
+      "line": 50,
+      "value": "34.04 %",
+      "supported": true,
+      "reason": "Return on average equity = net‑income 133.749 bn / ((442.387 bn + 343.479 bn)/2) ≈ 0.3404 → 34.04 %."
+    },
+    {
+      "line": 51,
+      "value": "66987000000 USD",
+      "supported": true,
+      "reason": "Free cash flow = cash‑from‑operations 182.935 bn – capital‑expenditures 115.948 bn = 66.987 bn, matching the table."
+    },
+    {
+      "line": 53,
+      "value": "30.59 %",
+      "supported": true,
+      "reason": "ORCL operating margin = ORCL operating‑income 20.606 bn / ORCL revenue 67.357 bn = 0.3059 → 30.59 % (peer facts)."
+    },
+    {
+      "line": 54,
+      "value": "29.69 ratio",
+      "supported": true,
+      "reason": "Price‑to‑earnings = user price 533 USD / diluted EPS 17.95 USD = 29.71 ≈ 29.69 (rounded in table)."
+    }
+  ]
+}
