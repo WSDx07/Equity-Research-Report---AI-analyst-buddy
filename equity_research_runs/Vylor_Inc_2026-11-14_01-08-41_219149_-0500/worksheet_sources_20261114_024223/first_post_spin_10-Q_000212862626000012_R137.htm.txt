@@ -1,0 +1,282 @@
+000001 | v3.26.3
+000002 | Receivables, Loans, Notes Receivable, and Others (Details) - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2026
+000006 | Sep. 30, 2025
+000007 | Dec. 31, 2025
+000008 | Dec. 31, 2024
+000009 | Accounts, Notes, Loans and Financing Receivable [Line Items]
+000010 | Accounts Receivable - trade
+000011 | $ 1,267
+000012 | $ 1,296
+000013 | $ 1,263
+000014 | Financing Receivable, after Allowance for Credit Loss, Current
+000015 | 1,208
+000016 | 1,178
+000017 | 104
+000018 | Other
+000019 | 674
+000020 | 612
+000021 | 487
+000022 | Accounts and notes receivable - net
+000023 | 3,149
+000024 | 3,086
+000025 | 1,854
+000026 | Accounts Receivable, Allowance for Credit Loss, Current
+000027 | 161
+000028 | 139
+000029 | $ 144
+000030 | $ 110
+000031 | Net Provision for Credit Losses
+000032 | 36
+000033 | 33
+000034 | Write-offs charged against allowance/ other
+000035 | $ (19)
+000036 | $ (4)
+000037 | X
+000038 | - Definition
+000039 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000040 | + References
+000041 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000042 | -Topic 310
+000043 | -SubTopic 10
+000044 | -Name Accounting Standards Codification
+000045 | -Section 50
+000046 | -Paragraph 3
+000047 | -Publisher FASB
+000048 | -URI https://asc.fasb.org/1943274/2147481962/310-10-50-3
+000049 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000050 | -Topic 210
+000051 | -SubTopic 10
+000052 | -Name Accounting Standards Codification
+000053 | -Section S99
+000054 | -Paragraph 1
+000055 | -Subparagraph (SX 210.5-02(3)(c)(3))
+000056 | -Publisher FASB
+000057 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000058 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000059 | -Topic 310
+000060 | -SubTopic 20
+000061 | -Name Accounting Standards Codification
+000062 | -Section 40
+000063 | -Paragraph 7
+000064 | -Publisher FASB
+000065 | -URI https://asc.fasb.org/1943274/2147481628/310-20-40-7
+000066 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000067 | -Topic 310
+000068 | -SubTopic 10
+000069 | -Name Accounting Standards Codification
+000070 | -Section 45
+000071 | -Paragraph 2
+000072 | -Publisher FASB
+000073 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-2
+000074 | + Details
+000075 | Name:
+000076 | us-gaap_AccountsNotesAndLoansReceivableLineItems
+000077 | Namespace Prefix:
+000078 | us-gaap_
+000079 | Data Type:
+000080 | xbrli:stringItemType
+000081 | Balance Type:
+000082 | na
+000083 | Period Type:
+000084 | duration
+000085 | X
+000086 | - Definition
+000087 | Amount, after allowance for credit loss, of right to consideration from customer for product sold and service rendered in normal course of business, classified as current.
+000088 | + References
+000089 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000090 | -Topic 310
+000091 | -SubTopic 10
+000092 | -Name Accounting Standards Codification
+000093 | -Section 45
+000094 | -Paragraph 2
+000095 | -Publisher FASB
+000096 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-2
+000097 | + Details
+000098 | Name:
+000099 | us-gaap_AccountsReceivableNetCurrent
+000100 | Namespace Prefix:
+000101 | us-gaap_
+000102 | Data Type:
+000103 | xbrli:monetaryItemType
+000104 | Balance Type:
+000105 | debit
+000106 | Period Type:
+000107 | instant
+000108 | X
+000109 | - Definition
+000110 | Amount of allowance for credit loss on accounts receivable, classified as current.
+000111 | + References
+000112 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000113 | -Topic 210
+000114 | -SubTopic 10
+000115 | -Name Accounting Standards Codification
+000116 | -Section S99
+000117 | -Paragraph 1
+000118 | -Subparagraph (SX 210.5-02(4))
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000121 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000122 | -Topic 326
+000123 | -SubTopic 20
+000124 | -Name Accounting Standards Codification
+000125 | -Section 45
+000126 | -Paragraph 1
+000127 | -Publisher FASB
+000128 | -URI https://asc.fasb.org/1943274/2147479344/326-20-45-1
+000129 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000130 | -Topic 310
+000131 | -SubTopic 10
+000132 | -Name Accounting Standards Codification
+000133 | -Section 50
+000134 | -Paragraph 4
+000135 | -Publisher FASB
+000136 | -URI https://asc.fasb.org/1943274/2147481962/310-10-50-4
+000137 | + Details
+000138 | Name:
+000139 | us-gaap_AllowanceForDoubtfulAccountsReceivableCurrent
+000140 | Namespace Prefix:
+000141 | us-gaap_
+000142 | Data Type:
+000143 | xbrli:monetaryItemType
+000144 | Balance Type:
+000145 | credit
+000146 | Period Type:
+000147 | instant
+000148 | X
+000149 | - Definition
+000150 | Amount of increase (decrease) in allowance for credit loss on accounts receivable.
+000151 | + References
+000152 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000153 | -Topic 326
+000154 | -SubTopic 20
+000155 | -Name Accounting Standards Codification
+000156 | -Section 50
+000157 | -Paragraph 13
+000158 | -Publisher FASB
+000159 | -URI https://asc.fasb.org/1943274/2147479319/326-20-50-13
+000160 | + Details
+000161 | Name:
+000162 | us-gaap_AllowanceForDoubtfulAccountsReceivablePeriodIncreaseDecrease
+000163 | Namespace Prefix:
+000164 | us-gaap_
+000165 | Data Type:
+000166 | xbrli:monetaryItemType
+000167 | Balance Type:
+000168 | na
+000169 | Period Type:
+000170 | duration
+000171 | X
+000172 | - Definition
+000173 | Amortized cost, after allowance for credit loss, of financing receivable classified as current. Excludes net investment in lease.
+000174 | + References
+000175 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000176 | -Topic 310
+000177 | -SubTopic 10
+000178 | -Name Accounting Standards Codification
+000179 | -Section 45
+000180 | -Paragraph 2
+000181 | -Publisher FASB
+000182 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-2
+000183 | + Details
+000184 | Name:
+000185 | us-gaap_NotesAndLoansReceivableNetCurrent
+000186 | Namespace Prefix:
+000187 | us-gaap_
+000188 | Data Type:
+000189 | xbrli:monetaryItemType
+000190 | Balance Type:
+000191 | debit
+000192 | Period Type:
+000193 | instant
+000194 | X
+000195 | - Definition
+000196 | Amount, after allowance, of receivables classified as other, due within one year or the operating cycle, if longer.
+000197 | + References
+000198 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000199 | -Topic 210
+000200 | -SubTopic 10
+000201 | -Name Accounting Standards Codification
+000202 | -Section 45
+000203 | -Paragraph 1
+000204 | -Subparagraph (d)
+000205 | -Publisher FASB
+000206 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-1
+000207 | + Details
+000208 | Name:
+000209 | us-gaap_OtherReceivablesNetCurrent
+000210 | Namespace Prefix:
+000211 | us-gaap_
+000212 | Data Type:
+000213 | xbrli:monetaryItemType
+000214 | Balance Type:
+000215 | debit
+000216 | Period Type:
+000217 | instant
+000218 | X
+000219 | - Definition
+000220 | Amount of expense (reversal of expense) for expected credit loss on accounts receivable.
+000221 | + References
+000222 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000223 | -Topic 326
+000224 | -SubTopic 20
+000225 | -Name Accounting Standards Codification
+000226 | -Section 50
+000227 | -Paragraph 13
+000228 | -Subparagraph (b)
+000229 | -Publisher FASB
+000230 | -URI https://asc.fasb.org/1943274/2147479319/326-20-50-13
+000231 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000232 | -Topic 220
+000233 | -SubTopic 40
+000234 | -Name Accounting Standards Codification
+000235 | -Section 50
+000236 | -Paragraph 22
+000237 | -Subparagraph (a)
+000238 | -Publisher FASB
+000239 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-22
+000240 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000241 | -Topic 220
+000242 | -SubTopic 10
+000243 | -Name Accounting Standards Codification
+000244 | -Section S99
+000245 | -Paragraph 2
+000246 | -Subparagraph (SX 210.5-03(5))
+000247 | -Publisher FASB
+000248 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000249 | + Details
+000250 | Name:
+000251 | us-gaap_ProvisionForDoubtfulAccounts
+000252 | Namespace Prefix:
+000253 | us-gaap_
+000254 | Data Type:
+000255 | xbrli:monetaryItemType
+000256 | Balance Type:
+000257 | debit
+000258 | Period Type:
+000259 | duration
+000260 | X
+000261 | - Definition
+000262 | The total amount due to the entity within one year of the balance sheet date (or one operating cycle, if longer) from outside sources, including trade accounts receivable, notes and loans receivable, as well as any other types of receivables, net of allowances established for the purpose of reducing such receivables to an amount that approximates their net realizable value.
+000263 | + References
+000264 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000265 | -Topic 852
+000266 | -SubTopic 10
+000267 | -Name Accounting Standards Codification
+000268 | -Section 55
+000269 | -Paragraph 10
+000270 | -Publisher FASB
+000271 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000272 | + Details
+000273 | Name:
+000274 | us-gaap_ReceivablesNetCurrent
+000275 | Namespace Prefix:
+000276 | us-gaap_
+000277 | Data Type:
+000278 | xbrli:monetaryItemType
+000279 | Balance Type:
+000280 | debit
+000281 | Period Type:
+000282 | instant

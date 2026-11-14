@@ -1,0 +1,626 @@
+000001 | v3.26.3
+000002 | Related Party Disclosures (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Dec. 31, 2025
+000011 | Related Party Transaction [Line Items]
+000012 | Purchases from Historical Dow and affiliates
+000013 | $ 132
+000014 | $ 87
+000015 | $ 253
+000016 | $ 189
+000017 | Investments in nonconsolidated affiliates
+000018 | 78
+000019 | 65
+000020 | 78
+000021 | 65
+000022 | $ 75
+000023 | Amounts due from nonconsolidated affiliates
+000024 | 67
+000025 | 63
+000026 | 67
+000027 | 63
+000028 | 63
+000029 | Research and Development Expense
+000030 | 268
+000031 | 238
+000032 | 781
+000033 | 733
+000034 | Selling, general and administrative expenses
+000035 | 420
+000036 | 391
+000037 | 1,759
+000038 | 1,645
+000039 | Restructuring and asset related charges - net
+000040 | (5)
+000041 | 0
+000042 | 28
+000043 | 3
+000044 | Corporate Expense Allocations
+000045 | Related Party Transaction [Line Items]
+000046 | Research and Development Expense
+000047 | 0
+000048 | 0
+000049 | 1
+000050 | 1
+000051 | Selling, general and administrative expenses
+000052 | 26
+000053 | 18
+000054 | 61
+000055 | 52
+000056 | Costs and Expenses, Related Party
+000057 | 24
+000058 | 18
+000059 | 66
+000060 | 53
+000061 | Restructuring and asset related charges - net
+000062 | (2)
+000063 | 0
+000064 | 4
+000065 | 0
+000066 | Equity Method Investment, Nonconsolidated Investee or Group of Investees
+000067 | Related Party Transaction [Line Items]
+000068 | Amounts due from nonconsolidated affiliates
+000069 | 67
+000070 | 63
+000071 | 67
+000072 | 63
+000073 | 63
+000074 | Accounts Payable, Other
+000075 | $ 6
+000076 | $ 5
+000077 | $ 6
+000078 | $ 5
+000079 | $ 4
+000080 | X
+000081 | - Definition
+000082 | Amount of obligations incurred and payable classified as other.
+000083 | + References
+000084 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000085 | -Topic 210
+000086 | -SubTopic 10
+000087 | -Name Accounting Standards Codification
+000088 | -Section S99
+000089 | -Paragraph 1
+000090 | -Subparagraph (SX 210.5-02(19)(7))
+000091 | -Publisher FASB
+000092 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000093 | + Details
+000094 | Name:
+000095 | us-gaap_AccountsPayableOtherCurrentAndNoncurrent
+000096 | Namespace Prefix:
+000097 | us-gaap_
+000098 | Data Type:
+000099 | xbrli:monetaryItemType
+000100 | Balance Type:
+000101 | credit
+000102 | Period Type:
+000103 | instant
+000104 | X
+000105 | - Definition
+000106 | Costs of sales and operating expenses for the period incurred from transactions with related parties.
+000107 | + References
+000108 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000109 | -Topic 220
+000110 | -SubTopic 10
+000111 | -Name Accounting Standards Codification
+000112 | -Section S99
+000113 | -Paragraph 2
+000114 | -Subparagraph (SX 210.5-03(2))
+000115 | -Publisher FASB
+000116 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000117 | + Details
+000118 | Name:
+000119 | us-gaap_CostsAndExpensesRelatedParty
+000120 | Namespace Prefix:
+000121 | us-gaap_
+000122 | Data Type:
+000123 | xbrli:monetaryItemType
+000124 | Balance Type:
+000125 | debit
+000126 | Period Type:
+000127 | duration
+000128 | X
+000129 | - Definition
+000130 | This item represents the carrying amount on the entity's balance sheet of its investment in common stock of an equity method investee. This is not an indicator of the fair value of the investment, rather it is the initial cost adjusted for the entity's share of earnings and losses of the investee, adjusted for any distributions (dividends) and other than temporary impairment (OTTI) losses recognized.
+000131 | + References
+000132 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000133 | -Topic 280
+000134 | -SubTopic 10
+000135 | -Name Accounting Standards Codification
+000136 | -Section 50
+000137 | -Paragraph 32
+000138 | -Subparagraph (ee)
+000139 | -Publisher FASB
+000140 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000141 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000142 | -Topic 280
+000143 | -SubTopic 10
+000144 | -Name Accounting Standards Codification
+000145 | -Section 50
+000146 | -Paragraph 25
+000147 | -Subparagraph (a)
+000148 | -Publisher FASB
+000149 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-25
+000150 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000151 | -Topic 270
+000152 | -SubTopic 10
+000153 | -Name Accounting Standards Codification
+000154 | -Section 50
+000155 | -Paragraph 1
+000156 | -Subparagraph (i)
+000157 | -Publisher FASB
+000158 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000159 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000160 | -Topic 323
+000161 | -SubTopic 10
+000162 | -Name Accounting Standards Codification
+000163 | -Section 45
+000164 | -Paragraph 1
+000165 | -Publisher FASB
+000166 | -URI https://asc.fasb.org/1943274/2147481664/323-10-45-1
+000167 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000168 | -Topic 323
+000169 | -SubTopic 10
+000170 | -Name Accounting Standards Codification
+000171 | -Section 50
+000172 | -Paragraph 3
+000173 | -Subparagraph (a)(3)
+000174 | -Publisher FASB
+000175 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+000176 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000177 | -Topic 210
+000178 | -SubTopic 10
+000179 | -Name Accounting Standards Codification
+000180 | -Section S99
+000181 | -Paragraph 1
+000182 | -Subparagraph (SX 210.5-02(10))
+000183 | -Publisher FASB
+000184 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000185 | + Details
+000186 | Name:
+000187 | us-gaap_EquityMethodInvestments
+000188 | Namespace Prefix:
+000189 | us-gaap_
+000190 | Data Type:
+000191 | xbrli:monetaryItemType
+000192 | Balance Type:
+000193 | debit
+000194 | Period Type:
+000195 | instant
+000196 | X
+000197 | - Definition
+000198 | Carrying amounts due as of the balance sheet date of the sum of amounts receivable other than from customers.
+000199 | + References
+000200 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000201 | -Topic 210
+000202 | -SubTopic 10
+000203 | -Name Accounting Standards Codification
+000204 | -Section S99
+000205 | -Paragraph 1
+000206 | -Subparagraph (SX 210.5-02(3)(a)(4))
+000207 | -Publisher FASB
+000208 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000209 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000210 | -Topic 210
+000211 | -SubTopic 10
+000212 | -Name Accounting Standards Codification
+000213 | -Section S50
+000214 | -Paragraph 2
+000215 | -Publisher FASB
+000216 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-2
+000217 | + Details
+000218 | Name:
+000219 | us-gaap_NontradeReceivables
+000220 | Namespace Prefix:
+000221 | us-gaap_
+000222 | Data Type:
+000223 | xbrli:monetaryItemType
+000224 | Balance Type:
+000225 | debit
+000226 | Period Type:
+000227 | instant
+000228 | X
+000229 | - Definition
+000230 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000231 | + References
+000232 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000233 | -Topic 942
+000234 | -SubTopic 210
+000235 | -Name Accounting Standards Codification
+000236 | -Section S45
+000237 | -Paragraph 1
+000238 | -Publisher FASB
+000239 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000240 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000241 | -Topic 942
+000242 | -SubTopic 210
+000243 | -Name Accounting Standards Codification
+000244 | -Section S50
+000245 | -Paragraph 1
+000246 | -Publisher FASB
+000247 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000248 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000249 | -Topic 942
+000250 | -SubTopic 210
+000251 | -Name Accounting Standards Codification
+000252 | -Section S99
+000253 | -Paragraph 1
+000254 | -Subparagraph (SX 210.9-03(7)(e)(1)(i))
+000255 | -Publisher FASB
+000256 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000257 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000258 | -Topic 946
+000259 | -SubTopic 220
+000260 | -Name Accounting Standards Codification
+000261 | -Section S99
+000262 | -Paragraph 1
+000263 | -Subparagraph (SX 210.6-07(2)(g)(3))
+000264 | -Publisher FASB
+000265 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000266 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000267 | -Topic 942
+000268 | -SubTopic 210
+000269 | -Name Accounting Standards Codification
+000270 | -Section S99
+000271 | -Paragraph 1
+000272 | -Subparagraph (SX 210.9-03(16))
+000273 | -Publisher FASB
+000274 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000275 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000276 | -Topic 942
+000277 | -SubTopic 210
+000278 | -Name Accounting Standards Codification
+000279 | -Section S99
+000280 | -Paragraph 1
+000281 | -Subparagraph (SX 210.9-03(15)(4))
+000282 | -Publisher FASB
+000283 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000284 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000285 | -Topic 942
+000286 | -SubTopic 210
+000287 | -Name Accounting Standards Codification
+000288 | -Section S99
+000289 | -Paragraph 1
+000290 | -Subparagraph (SX 210.9-03(15)(3))
+000291 | -Publisher FASB
+000292 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000293 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+000294 | -Topic 970
+000295 | -SubTopic 810
+000296 | -Name Accounting Standards Codification
+000297 | -Section 45
+000298 | -Paragraph 1
+000299 | -Publisher FASB
+000300 | -URI https://asc.fasb.org/1943274/2147477383/970-810-45-1
+000301 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000302 | -Topic 850
+000303 | -SubTopic 10
+000304 | -Name Accounting Standards Codification
+000305 | -Section 50
+000306 | -Paragraph 1
+000307 | -Subparagraph (d)
+000308 | -Publisher FASB
+000309 | -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1
+000310 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000311 | -Topic 850
+000312 | -SubTopic 10
+000313 | -Name Accounting Standards Codification
+000314 | -Section 50
+000315 | -Paragraph 1
+000316 | -Subparagraph (c)
+000317 | -Publisher FASB
+000318 | -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1
+000319 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000320 | -Topic 850
+000321 | -SubTopic 10
+000322 | -Name Accounting Standards Codification
+000323 | -Section 50
+000324 | -Paragraph 3
+000325 | -Publisher FASB
+000326 | -URI https://asc.fasb.org/1943274/2147483326/850-10-50-3
+000327 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000328 | -Topic 235
+000329 | -SubTopic 10
+000330 | -Name Accounting Standards Codification
+000331 | -Section S50
+000332 | -Paragraph 1
+000333 | -Publisher FASB
+000334 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000335 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000336 | -Topic 235
+000337 | -SubTopic 10
+000338 | -Name Accounting Standards Codification
+000339 | -Section S99
+000340 | -Paragraph 1
+000341 | -Subparagraph (SX 210.4-08(k)(2))
+000342 | -Publisher FASB
+000343 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000344 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000345 | -Topic 235
+000346 | -SubTopic 10
+000347 | -Name Accounting Standards Codification
+000348 | -Section S99
+000349 | -Paragraph 1
+000350 | -Subparagraph (SX 210.4-08(k)(1))
+000351 | -Publisher FASB
+000352 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000353 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000354 | -Topic 310
+000355 | -SubTopic 10
+000356 | -Name Accounting Standards Codification
+000357 | -Section 45
+000358 | -Paragraph 13
+000359 | -Publisher FASB
+000360 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-13
+000361 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000362 | -Topic 946
+000363 | -SubTopic 220
+000364 | -Name Accounting Standards Codification
+000365 | -Section S99
+000366 | -Paragraph 1
+000367 | -Subparagraph (SX 210.6-07(2)(c)(2)(i))
+000368 | -Publisher FASB
+000369 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000370 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000371 | -Topic 946
+000372 | -SubTopic 220
+000373 | -Name Accounting Standards Codification
+000374 | -Section S99
+000375 | -Paragraph 1
+000376 | -Subparagraph (SX 210.6-07(2)(c)(2)(ii))
+000377 | -Publisher FASB
+000378 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000379 | + Details
+000380 | Name:
+000381 | us-gaap_RelatedPartyTransactionLineItems
+000382 | Namespace Prefix:
+000383 | us-gaap_
+000384 | Data Type:
+000385 | xbrli:stringItemType
+000386 | Balance Type:
+000387 | na
+000388 | Period Type:
+000389 | duration
+000390 | X
+000391 | - Definition
+000392 | Purchases during the period (excluding transactions that are eliminated in consolidated or combined financial statements) with related party.
+000393 | + References
+000394 | No definition available.
+000395 | + Details
+000396 | Name:
+000397 | us-gaap_RelatedPartyTransactionPurchasesFromRelatedParty
+000398 | Namespace Prefix:
+000399 | us-gaap_
+000400 | Data Type:
+000401 | xbrli:monetaryItemType
+000402 | Balance Type:
+000403 | debit
+000404 | Period Type:
+000405 | duration
+000406 | X
+000407 | - Definition
+000408 | Amount of expense for research and development. Includes, but is not limited to, cost for computer software product to be sold, leased, or otherwise marketed and writeoff of research and development assets acquired in transaction other than business combination or joint venture formation or both. Excludes write-down of intangible asset acquired in business combination or from joint venture formation or both, used in research and development activity.
+000409 | + References
+000410 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000411 | -Topic 985
+000412 | -SubTopic 20
+000413 | -Name Accounting Standards Codification
+000414 | -Section 50
+000415 | -Paragraph 2
+000416 | -Publisher FASB
+000417 | -URI https://asc.fasb.org/1943274/2147481283/985-20-50-2
+000418 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000419 | -Topic 220
+000420 | -SubTopic 40
+000421 | -Name Accounting Standards Codification
+000422 | -Section 55
+000423 | -Paragraph 18
+000424 | -Publisher FASB
+000425 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-18
+000426 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000427 | -Topic 220
+000428 | -SubTopic 40
+000429 | -Name Accounting Standards Codification
+000430 | -Section 55
+000431 | -Paragraph 14
+000432 | -Publisher FASB
+000433 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-14
+000434 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000435 | -Topic 280
+000436 | -SubTopic 10
+000437 | -Name Accounting Standards Codification
+000438 | -Section 55
+000439 | -Paragraph 48
+000440 | -Publisher FASB
+000441 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-48
+000442 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000443 | -Topic 730
+000444 | -SubTopic 10
+000445 | -Name Accounting Standards Codification
+000446 | -Section 50
+000447 | -Paragraph 1
+000448 | -Publisher FASB
+000449 | -URI https://asc.fasb.org/1943274/2147482916/730-10-50-1
+000450 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000451 | -Topic 912
+000452 | -SubTopic 730
+000453 | -Name Accounting Standards Codification
+000454 | -Section 25
+000455 | -Paragraph 1
+000456 | -Publisher FASB
+000457 | -URI https://asc.fasb.org/1943274/2147479532/912-730-25-1
+000458 | + Details
+000459 | Name:
+000460 | us-gaap_ResearchAndDevelopmentExpense
+000461 | Namespace Prefix:
+000462 | us-gaap_
+000463 | Data Type:
+000464 | xbrli:monetaryItemType
+000465 | Balance Type:
+000466 | debit
+000467 | Period Type:
+000468 | duration
+000469 | X
+000470 | - Definition
+000471 | Amount of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.
+000472 | + References
+000473 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000474 | -Name Accounting Standards Codification
+000475 | -Section 45
+000476 | -Paragraph 28
+000477 | -Subparagraph (b)
+000478 | -SubTopic 10
+000479 | -Topic 230
+000480 | -Publisher FASB
+000481 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000482 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000483 | -Topic 220
+000484 | -SubTopic 40
+000485 | -Name Accounting Standards Codification
+000486 | -Section 55
+000487 | -Paragraph 18
+000488 | -Publisher FASB
+000489 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-18
+000490 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000491 | -Topic 420
+000492 | -SubTopic 10
+000493 | -Name Accounting Standards Codification
+000494 | -Section S99
+000495 | -Paragraph 2
+000496 | -Subparagraph (SAB Topic 5.P.4.b.1)
+000497 | -Publisher FASB
+000498 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000499 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000500 | -Topic 420
+000501 | -SubTopic 10
+000502 | -Name Accounting Standards Codification
+000503 | -Section 45
+000504 | -Paragraph 3
+000505 | -Publisher FASB
+000506 | -URI https://asc.fasb.org/1943274/2147482047/420-10-45-3
+000507 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000508 | -Topic 420
+000509 | -SubTopic 10
+000510 | -Name Accounting Standards Codification
+000511 | -Section S99
+000512 | -Paragraph 1
+000513 | -Subparagraph (SAB Topic 5.P.3)
+000514 | -Publisher FASB
+000515 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-1
+000516 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000517 | -Topic 220
+000518 | -SubTopic 40
+000519 | -Name Accounting Standards Codification
+000520 | -Section 50
+000521 | -Paragraph 21
+000522 | -Subparagraph (e)
+000523 | -Publisher FASB
+000524 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-21
+000525 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000526 | -Topic 220
+000527 | -SubTopic 40
+000528 | -Name Accounting Standards Codification
+000529 | -Section 50
+000530 | -Paragraph 6
+000531 | -Subparagraph (b)
+000532 | -Publisher FASB
+000533 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-6
+000534 | + Details
+000535 | Name:
+000536 | us-gaap_RestructuringCharges
+000537 | Namespace Prefix:
+000538 | us-gaap_
+000539 | Data Type:
+000540 | xbrli:monetaryItemType
+000541 | Balance Type:
+000542 | debit
+000543 | Period Type:
+000544 | duration
+000545 | X
+000546 | - Definition
+000547 | The aggregate total costs related to selling a firm's product and services, as well as all other general and administrative expenses. Direct selling expenses (for example, credit, warranty, and advertising) are expenses that can be directly linked to the sale of specific products. Indirect selling expenses are expenses that cannot be directly linked to the sale of specific products, for example telephone expenses, Internet, and postal charges. General and administrative expenses include salaries of non-sales personnel, rent, utilities, communication, etc.
+000548 | + References
+000549 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000550 | -Topic 220
+000551 | -SubTopic 40
+000552 | -Name Accounting Standards Codification
+000553 | -Section 55
+000554 | -Paragraph 11
+000555 | -Publisher FASB
+000556 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-11
+000557 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000558 | -Topic 220
+000559 | -SubTopic 40
+000560 | -Name Accounting Standards Codification
+000561 | -Section 55
+000562 | -Paragraph 18
+000563 | -Publisher FASB
+000564 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-18
+000565 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000566 | -Topic 220
+000567 | -SubTopic 40
+000568 | -Name Accounting Standards Codification
+000569 | -Section 55
+000570 | -Paragraph 4
+000571 | -Publisher FASB
+000572 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-4
+000573 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000574 | -Topic 220
+000575 | -SubTopic 40
+000576 | -Name Accounting Standards Codification
+000577 | -Section 55
+000578 | -Paragraph 14
+000579 | -Publisher FASB
+000580 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-14
+000581 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000582 | -Topic 220
+000583 | -SubTopic 10
+000584 | -Name Accounting Standards Codification
+000585 | -Section S99
+000586 | -Paragraph 2
+000587 | -Subparagraph (SX 210.5-03(4))
+000588 | -Publisher FASB
+000589 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000590 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000591 | -Topic 220
+000592 | -SubTopic 40
+000593 | -Name Accounting Standards Codification
+000594 | -Section 50
+000595 | -Paragraph 6
+000596 | -Publisher FASB
+000597 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-6
+000598 | + Details
+000599 | Name:
+000600 | us-gaap_SellingGeneralAndAdministrativeExpense
+000601 | Namespace Prefix:
+000602 | us-gaap_
+000603 | Data Type:
+000604 | xbrli:monetaryItemType
+000605 | Balance Type:
+000606 | debit
+000607 | Period Type:
+000608 | duration
+000609 | X
+000610 | - Details
+000611 | Name:
+000612 | us-gaap_RelatedPartyTransactionAxis=vylr_CorporateExpenseAllocationsMember
+000613 | Namespace Prefix:
+000614 | Data Type:
+000615 | na
+000616 | Balance Type:
+000617 | Period Type:
+000618 | X
+000619 | - Details
+000620 | Name:
+000621 | us-gaap_EquityMethodInvestmentNonconsolidatedInvesteeAxis=us-gaap_EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember
+000622 | Namespace Prefix:
+000623 | Data Type:
+000624 | na
+000625 | Balance Type:
+000626 | Period Type:

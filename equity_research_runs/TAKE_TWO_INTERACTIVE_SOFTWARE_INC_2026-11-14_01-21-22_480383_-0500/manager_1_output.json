@@ -1,0 +1,34 @@
+{
+  "research_issues": [
+    "Claim 5 (Management lists economic stability …) has an invalid or non‑verbatim document line and quote – line 120 in the 10‑K does not match the supplied quote.",
+    "Claim 6 (Scheduled launch date for GTA VI) has an invalid or non‑verbatim document line and quote – line 130 in the 10‑K does not match the supplied quote.",
+    "Claim 8 (Expanding role of mobile gaming) has an invalid or non‑verbatim document line and quote – line 365 in the 10‑K does not match the supplied quote.",
+    "Research Insight (“Grand Theft Auto VI is planned for release on November 19 2026”) is missing a required exact quote from the filing (only line number supplied)."
+  ],
+  "financial_issues": [
+    "Financial observations contain raw numeric digits rather than narrative description, violating the formatting rule.",
+    "Valuation Insights section is incomplete: no market price, price date, or peer‑company data were provided, so valuation multiples (P/E, debt‑to‑equity, etc.) cannot be calculated."
+  ],
+  "advisor_issues": [
+    "Advisor Insight is empty – no supporting line number, filing reference, or quotation was supplied for the recommendation."
+  ],
+  "overall_issues": [
+    "Research claims 5, 6 and 8 need correct line numbers and verbatim quotations from the 10‑K.",
+    "Research Insight requires an exact quoted passage from the filing.",
+    "Financial observations need to be re‑phrased to remove raw numbers.",
+    "Valuation Insights lack essential market‑price and peer‑comparison data.",
+    "Advisor Insight is missing; a supporting citation is required."
+  ],
+  "research_insight": {
+    "status": "fail",
+    "reason": "Missing exact filing quote; only line number supplied."
+  },
+  "financial_insight": {
+    "status": "pass",
+    "reason": "Insight includes filing reference (10‑K line 791) and a verbatim table excerpt showing operating cash‑flow turn‑positive."
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

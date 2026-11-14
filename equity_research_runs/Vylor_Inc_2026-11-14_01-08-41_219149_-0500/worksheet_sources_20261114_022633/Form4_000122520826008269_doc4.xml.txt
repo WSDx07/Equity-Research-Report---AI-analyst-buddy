@@ -1,0 +1,307 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0609</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2026-10-01</periodOfReport>
+000010 | 
+000011 |     <issuer>
+000012 |         <issuerCik>0002128626</issuerCik>
+000013 |         <issuerName>Vylor Inc.</issuerName>
+000014 |         <issuerTradingSymbol>VYLR</issuerTradingSymbol>
+000015 |         <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+000016 |     </issuer>
+000017 | 
+000018 |     <reportingOwner>
+000019 |         <reportingOwnerId>
+000020 |             <rptOwnerCik>0001893081</rptOwnerCik>
+000021 |             <rptOwnerName>Magro Charles V.</rptOwnerName>
+000022 |         </reportingOwnerId>
+000023 |         <reportingOwnerAddress>
+000024 |             <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+000025 |             <rptOwnerStreet1>1000 N WEST STREET</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2>SUITE 900</rptOwnerStreet2>
+000027 |             <rptOwnerCity>WILMINGTON</rptOwnerCity>
+000028 |             <rptOwnerState>DE</rptOwnerState>
+000029 |             <rptOwnerZipCode>19801</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isOfficer>1</isOfficer>
+000034 |             <officerTitle>Chief Executive Officer</officerTitle>
+000035 |         </reportingOwnerRelationship>
+000036 |     </reportingOwner>
+000037 | 
+000038 |     <aff10b5One>0</aff10b5One>
+000039 | 
+000040 |     <nonDerivativeTable>
+000041 |         <nonDerivativeTransaction>
+000042 |             <securityTitle>
+000043 |                 <value>Common</value>
+000044 |             </securityTitle>
+000045 |             <transactionDate>
+000046 |                 <value>2026-10-01</value>
+000047 |             </transactionDate>
+000048 |             <transactionCoding>
+000049 |                 <transactionFormType>4</transactionFormType>
+000050 |                 <transactionCode>J</transactionCode>
+000051 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000052 |             </transactionCoding>
+000053 |             <transactionAmounts>
+000054 |                 <transactionShares>
+000055 |                     <value>834808.9865</value>
+000056 |                     <footnoteId id="F1"/>
+000057 |                 </transactionShares>
+000058 |                 <transactionPricePerShare>
+000059 |                     <value>0.0000</value>
+000060 |                 </transactionPricePerShare>
+000061 |                 <transactionAcquiredDisposedCode>
+000062 |                     <value>A</value>
+000063 |                 </transactionAcquiredDisposedCode>
+000064 |             </transactionAmounts>
+000065 |             <postTransactionAmounts>
+000066 |                 <sharesOwnedFollowingTransaction>
+000067 |                     <value>834808.9865</value>
+000068 |                 </sharesOwnedFollowingTransaction>
+000069 |             </postTransactionAmounts>
+000070 |             <ownershipNature>
+000071 |                 <directOrIndirectOwnership>
+000072 |                     <value>D</value>
+000073 |                 </directOrIndirectOwnership>
+000074 |             </ownershipNature>
+000075 |         </nonDerivativeTransaction>
+000076 |     </nonDerivativeTable>
+000077 | 
+000078 |     <derivativeTable>
+000079 |         <derivativeTransaction>
+000080 |             <securityTitle>
+000081 |                 <value>Stock Options (Right to Buy)</value>
+000082 |             </securityTitle>
+000083 |             <conversionOrExercisePrice>
+000084 |                 <value>45.0000</value>
+000085 |             </conversionOrExercisePrice>
+000086 |             <transactionDate>
+000087 |                 <value>2026-10-01</value>
+000088 |             </transactionDate>
+000089 |             <transactionCoding>
+000090 |                 <transactionFormType>4</transactionFormType>
+000091 |                 <transactionCode>J</transactionCode>
+000092 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000093 |             </transactionCoding>
+000094 |             <transactionAmounts>
+000095 |                 <transactionShares>
+000096 |                     <value>145694.0000</value>
+000097 |                     <footnoteId id="F2"/>
+000098 |                 </transactionShares>
+000099 |                 <transactionPricePerShare>
+000100 |                     <value>0.0000</value>
+000101 |                 </transactionPricePerShare>
+000102 |                 <transactionAcquiredDisposedCode>
+000103 |                     <value>A</value>
+000104 |                 </transactionAcquiredDisposedCode>
+000105 |             </transactionAmounts>
+000106 |             <exerciseDate>
+000107 |                 <value>2022-02-18</value>
+000108 |             </exerciseDate>
+000109 |             <expirationDate>
+000110 |                 <value>2032-02-18</value>
+000111 |             </expirationDate>
+000112 |             <underlyingSecurity>
+000113 |                 <underlyingSecurityTitle>
+000114 |                     <value>Common</value>
+000115 |                 </underlyingSecurityTitle>
+000116 |                 <underlyingSecurityShares>
+000117 |                     <value>145694.0000</value>
+000118 |                 </underlyingSecurityShares>
+000119 |             </underlyingSecurity>
+000120 |             <postTransactionAmounts>
+000121 |                 <sharesOwnedFollowingTransaction>
+000122 |                     <value>145694.0000</value>
+000123 |                 </sharesOwnedFollowingTransaction>
+000124 |             </postTransactionAmounts>
+000125 |             <ownershipNature>
+000126 |                 <directOrIndirectOwnership>
+000127 |                     <value>D</value>
+000128 |                 </directOrIndirectOwnership>
+000129 |             </ownershipNature>
+000130 |         </derivativeTransaction>
+000131 |         <derivativeTransaction>
+000132 |             <securityTitle>
+000133 |                 <value>Stock Options (Right to Buy)</value>
+000134 |             </securityTitle>
+000135 |             <conversionOrExercisePrice>
+000136 |                 <value>57.2200</value>
+000137 |             </conversionOrExercisePrice>
+000138 |             <transactionDate>
+000139 |                 <value>2026-10-01</value>
+000140 |             </transactionDate>
+000141 |             <transactionCoding>
+000142 |                 <transactionFormType>4</transactionFormType>
+000143 |                 <transactionCode>J</transactionCode>
+000144 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000145 |             </transactionCoding>
+000146 |             <transactionAmounts>
+000147 |                 <transactionShares>
+000148 |                     <value>110257.0000</value>
+000149 |                     <footnoteId id="F3"/>
+000150 |                 </transactionShares>
+000151 |                 <transactionPricePerShare>
+000152 |                     <value>0.0000</value>
+000153 |                 </transactionPricePerShare>
+000154 |                 <transactionAcquiredDisposedCode>
+000155 |                     <value>A</value>
+000156 |                 </transactionAcquiredDisposedCode>
+000157 |             </transactionAmounts>
+000158 |             <exerciseDate>
+000159 |                 <value>2025-02-18</value>
+000160 |             </exerciseDate>
+000161 |             <expirationDate>
+000162 |                 <value>2035-02-18</value>
+000163 |             </expirationDate>
+000164 |             <underlyingSecurity>
+000165 |                 <underlyingSecurityTitle>
+000166 |                     <value>Common</value>
+000167 |                 </underlyingSecurityTitle>
+000168 |                 <underlyingSecurityShares>
+000169 |                     <value>110257.0000</value>
+000170 |                 </underlyingSecurityShares>
+000171 |             </underlyingSecurity>
+000172 |             <postTransactionAmounts>
+000173 |                 <sharesOwnedFollowingTransaction>
+000174 |                     <value>110257.0000</value>
+000175 |                 </sharesOwnedFollowingTransaction>
+000176 |             </postTransactionAmounts>
+000177 |             <ownershipNature>
+000178 |                 <directOrIndirectOwnership>
+000179 |                     <value>D</value>
+000180 |                 </directOrIndirectOwnership>
+000181 |             </ownershipNature>
+000182 |         </derivativeTransaction>
+000183 |         <derivativeTransaction>
+000184 |             <securityTitle>
+000185 |                 <value>Stock Options (Right to Buy)</value>
+000186 |             </securityTitle>
+000187 |             <conversionOrExercisePrice>
+000188 |                 <value>48.2500</value>
+000189 |             </conversionOrExercisePrice>
+000190 |             <transactionDate>
+000191 |                 <value>2026-10-01</value>
+000192 |             </transactionDate>
+000193 |             <transactionCoding>
+000194 |                 <transactionFormType>4</transactionFormType>
+000195 |                 <transactionCode>J</transactionCode>
+000196 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000197 |             </transactionCoding>
+000198 |             <transactionAmounts>
+000199 |                 <transactionShares>
+000200 |                     <value>131778.0000</value>
+000201 |                     <footnoteId id="F4"/>
+000202 |                 </transactionShares>
+000203 |                 <transactionPricePerShare>
+000204 |                     <value>0.0000</value>
+000205 |                 </transactionPricePerShare>
+000206 |                 <transactionAcquiredDisposedCode>
+000207 |                     <value>A</value>
+000208 |                 </transactionAcquiredDisposedCode>
+000209 |             </transactionAmounts>
+000210 |             <exerciseDate>
+000211 |                 <value>2024-02-20</value>
+000212 |             </exerciseDate>
+000213 |             <expirationDate>
+000214 |                 <value>2034-02-20</value>
+000215 |             </expirationDate>
+000216 |             <underlyingSecurity>
+000217 |                 <underlyingSecurityTitle>
+000218 |                     <value>Common</value>
+000219 |                 </underlyingSecurityTitle>
+000220 |                 <underlyingSecurityShares>
+000221 |                     <value>131778.0000</value>
+000222 |                 </underlyingSecurityShares>
+000223 |             </underlyingSecurity>
+000224 |             <postTransactionAmounts>
+000225 |                 <sharesOwnedFollowingTransaction>
+000226 |                     <value>131778.0000</value>
+000227 |                 </sharesOwnedFollowingTransaction>
+000228 |             </postTransactionAmounts>
+000229 |             <ownershipNature>
+000230 |                 <directOrIndirectOwnership>
+000231 |                     <value>D</value>
+000232 |                 </directOrIndirectOwnership>
+000233 |             </ownershipNature>
+000234 |         </derivativeTransaction>
+000235 |         <derivativeTransaction>
+000236 |             <securityTitle>
+000237 |                 <value>Stock Options (Right to Buy)</value>
+000238 |             </securityTitle>
+000239 |             <conversionOrExercisePrice>
+000240 |                 <value>55.2900</value>
+000241 |             </conversionOrExercisePrice>
+000242 |             <transactionDate>
+000243 |                 <value>2026-10-01</value>
+000244 |             </transactionDate>
+000245 |             <transactionCoding>
+000246 |                 <transactionFormType>4</transactionFormType>
+000247 |                 <transactionCode>J</transactionCode>
+000248 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000249 |             </transactionCoding>
+000250 |             <transactionAmounts>
+000251 |                 <transactionShares>
+000252 |                     <value>107830.0000</value>
+000253 |                     <footnoteId id="F2"/>
+000254 |                 </transactionShares>
+000255 |                 <transactionPricePerShare>
+000256 |                     <value>0.0000</value>
+000257 |                 </transactionPricePerShare>
+000258 |                 <transactionAcquiredDisposedCode>
+000259 |                     <value>A</value>
+000260 |                 </transactionAcquiredDisposedCode>
+000261 |             </transactionAmounts>
+000262 |             <exerciseDate>
+000263 |                 <value>2023-02-28</value>
+000264 |             </exerciseDate>
+000265 |             <expirationDate>
+000266 |                 <value>2033-02-28</value>
+000267 |             </expirationDate>
+000268 |             <underlyingSecurity>
+000269 |                 <underlyingSecurityTitle>
+000270 |                     <value>Common</value>
+000271 |                 </underlyingSecurityTitle>
+000272 |                 <underlyingSecurityShares>
+000273 |                     <value>107830.0000</value>
+000274 |                 </underlyingSecurityShares>
+000275 |             </underlyingSecurity>
+000276 |             <postTransactionAmounts>
+000277 |                 <sharesOwnedFollowingTransaction>
+000278 |                     <value>107830.0000</value>
+000279 |                 </sharesOwnedFollowingTransaction>
+000280 |             </postTransactionAmounts>
+000281 |             <ownershipNature>
+000282 |                 <directOrIndirectOwnership>
+000283 |                     <value>D</value>
+000284 |                 </directOrIndirectOwnership>
+000285 |             </ownershipNature>
+000286 |         </derivativeTransaction>
+000287 |     </derivativeTable>
+000288 | 
+000289 |     <footnotes>
+000290 |         <footnote id="F1">On October 1, 2026, the Reporting Person received a dividend of one (1) share of Vylor Inc. (&quot;Vylor&quot;) common stock for every one (1) share of Corteva Inc. (&quot;Corteva&quot;) common stock held by the Reporting Person, and
+000291 | the Reporting Person's equity awards denominated in Corteva common stock were adjusted, in part, into equity awards denominated in Vylor common stock, in connection with the spin-off of Vylor from Corteva.  This
+000292 | amount includes the Vylor common stock received in connection with the spin-off in an exempt transaction pursuant to Rule 16b-3, including restricted stock units and dividend equivalent units.</footnote>
+000293 |         <footnote id="F2">Represents equity awards originally granted by Corteva that have been converted into Vylor equity awards in connection with the spin-off of Vylor from Corteva, as described in Vylor's Resigistration Statement on
+000294 | Form 10 filed with the SEC on September 21, 2026. These options are vested and exercisable.</footnote>
+000295 |         <footnote id="F3">Represents equity awards originally granted by Corteva that have been converted into Vylor equity awards in connection with the spin-off of Vylor from Corteva, as described in Vylor's Resigistration Statement on
+000296 | Form 10 filed with the SEC on September 21, 2026. 36,751 options are vested and exercisable. The remainingoptions will vest in two equal installments on February 18, 2027 and February 18, 2028.</footnote>
+000297 |         <footnote id="F4">Represents equity awards originally granted by Corteva that have been converted into Vylor equity awards in connection with the spin-off of Vylor from Corteva, as described in Vylor's Resigistration Statement on
+000298 | Form 10 filed with the SEC on September 21, 2026. The remainingoptions will vest on February 20, 2027.</footnote>
+000299 |     </footnotes>
+000300 | 
+000301 |     <ownerSignature>
+000302 |         <signatureName>Andrea I. Rennig, by power-of-attorney</signatureName>
+000303 |         <signatureDate>2026-10-05</signatureDate>
+000304 |     </ownerSignature>
+000305 | </ownershipDocument>
+000306 | </XML>
+000307 | 

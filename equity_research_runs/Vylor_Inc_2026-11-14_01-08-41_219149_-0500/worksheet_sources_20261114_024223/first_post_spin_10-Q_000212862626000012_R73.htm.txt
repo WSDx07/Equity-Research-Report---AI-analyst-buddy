@@ -1,0 +1,149 @@
+000001 | v3.26.3
+000002 | Equity (Tables)
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | Equity [Abstract]
+000006 | Schedule of Accumulated Other Comprehensive Income (Loss) [Table Text Block]
+000007 | (In millions) Cumulative Translation Adjustment Derivative Instruments Pension Benefit Plans Other Benefit Plans Total
+000008 | 2025
+000009 | Balance at January 1, 2025 $ (1,532) $ (49) $ 15 $ 21 $ (1,545)
+000010 | Other comprehensive income (loss) before reclassifications $ 199 $ (29) $ 2 $ — $ 172
+000011 | Amounts reclassified from accumulated other comprehensive income (loss) $ — $ 59 $ (1) $ (1) $ 57
+000012 | Net other comprehensive income (loss) $ 199 $ 30 $ 1 $ (1) $ 229
+000013 | Balance at September 30, 2025 $ (1,333) $ (19) $ 16 $ 20 $ (1,316)
+000014 | 2026
+000015 | Balance at January 1, 2026 $ (1,314) $ 9 $ 23 $ 17 $ (1,265)
+000016 | Other comprehensive income (loss) before reclassifications $ (46) $ 28 $ (3) $ — $ (21)
+000017 | Amounts reclassified from accumulated other comprehensive income (loss) $ — $ 2 $ (2) $ (1) $ (1)
+000018 | Net other comprehensive income (loss) $ (46) $ 30 $ (5) $ (1) $ (22)
+000019 | Balance at September 30, 2026 $ (1,360) $ 39 $ 18 $ 16 $ (1,287)
+000020 | Tax (Expense) Benefit of Other Comprehensive (Loss) Income
+000021 | Three Months Ended September 30, Nine Months Ended September 30,
+000022 | (In millions) 2026 2025 2026 2025
+000023 | Derivative instruments $ (4) $ 3 $ (7) $ (11)
+000024 | Pension benefit plans - net $ — $ — $ (1) $ 1
+000025 | Other benefit plans - net $ — $ (1) $ — $ (1)
+000026 | (Provision for) benefit from income taxes related to other comprehensive income (loss) items $ (4) $ 2 $ (8) $ (11)
+000027 | Reclassification out of Accumulated Other Comprehensive (Loss) Income [Table Text Block]
+000028 | Three Months Ended September 30, Nine Months Ended September 30,
+000029 | (In millions) 2026 2025 2026 2025
+000030 | Derivative instruments: 1
+000031 | $ 2 $ 2 $ 2 $ 76
+000032 | Tax (benefit) expense 2
+000033 | $ (1) $ (1) $ — $ (17)
+000034 | After-tax $ 1 $ 1 $ 2 $ 59
+000035 | Amortization of pension benefit plans:
+000036 | Prior service (benefit) cost 3,4
+000037 | $ — $ — $ (1) $ (1)
+000038 | Actuarial (gains) losses 3,4
+000039 | $ (1) $ (2) $ (1) $ (1)
+000040 | Total before tax $ (1) $ (2) $ (2) $ (2)
+000041 | Tax (benefit) expense 2
+000042 | $ — $ — $ — $ 1
+000043 | After-tax $ (1) $ (2) $ (2) $ (1)
+000044 | Amortization of other benefit plans:
+000045 | Prior service (benefit) cost 3,4
+000046 | $ — $ — $ — $ —
+000047 | Actuarial (gains) losses 3,4
+000048 | $ — $ — $ (1) $ (1)
+000049 | Total before tax $ — $ — $ (1) $ (1)
+000050 | Tax (benefit) expense 2
+000051 | $ — $ — $ — $ —
+000052 | After-tax $ — $ — $ (1) $ (1)
+000053 | Total reclassifications for the period, after-tax $ — $ (1) $ (1) $ 57
+000054 | 1.Reflected in cost of goods sold in the interim Combined Statements of Operations.
+000055 | 2.Reflected in provision for (benefit from) income taxes in the interim Combined Statements of Operations.
+000056 | 3.These accumulated other comprehensive income (loss) components are included in the computation of net periodic benefit (credit) cost of the Company's pension and other benefit plans. See Note 13 - Pension Plans and Other Post Employment Benefits, to the interim Combined Financial Statements, for additional information.
+000057 | 4.Reflected in other income (expense) - net in the interim Combined Statements of Operations.
+000058 | X
+000059 | - References
+000060 | No definition available.
+000061 | + Details
+000062 | Name:
+000063 | us-gaap_EquityAbstract
+000064 | Namespace Prefix:
+000065 | us-gaap_
+000066 | Data Type:
+000067 | xbrli:stringItemType
+000068 | Balance Type:
+000069 | na
+000070 | Period Type:
+000071 | duration
+000072 | X
+000073 | - Definition
+000074 | Tabular disclosure of information about items reclassified out of accumulated other comprehensive income (loss).
+000075 | + References
+000076 | No definition available.
+000077 | + Details
+000078 | Name:
+000079 | us-gaap_ReclassificationOutOfAccumulatedOtherComprehensiveIncomeTableTextBlock
+000080 | Namespace Prefix:
+000081 | us-gaap_
+000082 | Data Type:
+000083 | dtr-types:textBlockItemType
+000084 | Balance Type:
+000085 | na
+000086 | Period Type:
+000087 | duration
+000088 | X
+000089 | - Definition
+000090 | Tabular disclosure of the components of accumulated other comprehensive income (loss).
+000091 | + References
+000092 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000093 | -Name Accounting Standards Codification
+000094 | -Topic 220
+000095 | -SubTopic 10
+000096 | -Section 45
+000097 | -Paragraph 14A
+000098 | -Publisher FASB
+000099 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-14A
+000100 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000101 | -Topic 830
+000102 | -SubTopic 30
+000103 | -Name Accounting Standards Codification
+000104 | -Section 50
+000105 | -Paragraph 1
+000106 | -Publisher FASB
+000107 | -URI https://asc.fasb.org/1943274/2147481674/830-30-50-1
+000108 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000109 | -Topic 830
+000110 | -SubTopic 30
+000111 | -Name Accounting Standards Codification
+000112 | -Section 45
+000113 | -Paragraph 20
+000114 | -Publisher FASB
+000115 | -URI https://asc.fasb.org/1943274/2147481694/830-30-45-20
+000116 | + Details
+000117 | Name:
+000118 | us-gaap_ScheduleOfAccumulatedOtherComprehensiveIncomeLossTableTextBlock
+000119 | Namespace Prefix:
+000120 | us-gaap_
+000121 | Data Type:
+000122 | dtr-types:textBlockItemType
+000123 | Balance Type:
+000124 | na
+000125 | Period Type:
+000126 | duration
+000127 | X
+000128 | - Definition
+000129 | Tabular disclosure of components of comprehensive income (loss). Includes, but is not limited to, foreign currency translation adjustments, foreign currency transactions designated as economic hedges of a net investment in foreign entity, gain (loss) and prior service cost (credit) for pension plans and other postretirement benefit plans.
+000130 | + References
+000131 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000132 | -Topic 220
+000133 | -SubTopic 10
+000134 | -Name Accounting Standards Codification
+000135 | -Paragraph 1
+000136 | -Section 45
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-1
+000139 | + Details
+000140 | Name:
+000141 | us-gaap_ScheduleOfComprehensiveIncomeLossTableTextBlock
+000142 | Namespace Prefix:
+000143 | us-gaap_
+000144 | Data Type:
+000145 | dtr-types:textBlockItemType
+000146 | Balance Type:
+000147 | na
+000148 | Period Type:
+000149 | duration

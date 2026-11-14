@@ -1,0 +1,109 @@
+000001 | v3.26.3
+000002 | Receivables, Loans, Notes Receivable, and Others (Details) - Factoring Agreement [Member] - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Dec. 31, 2025
+000011 | Other Commitments [Line Items]
+000012 | Trade Receivables Sold
+000013 | $ 14
+000014 | $ 7
+000015 | $ 61
+000016 | $ 52
+000017 | Trade receivables that remain outstanding with an element of recourse
+000018 | 9
+000019 | 3
+000020 | 9
+000021 | 3
+000022 | $ 4
+000023 | Corteva,Inc.
+000024 | Other Commitments [Line Items]
+000025 | Trade Receivables Sold
+000026 | 23
+000027 | 58
+000028 | 134
+000029 | 147
+000030 | Trade receivables that remain outstanding with an element of recourse
+000031 | $ 13
+000032 | $ 15
+000033 | $ 13
+000034 | $ 15
+000035 | $ 17
+000036 | X
+000037 | - Definition
+000038 | Amount of transferred financial assets in which the transferor has continuing involvement with the assets underlying the transaction that have been derecognized. Continuing involvement includes, but is not limited to, servicing, recourse, and restrictions on transferor's interests in transferred financial assets.
+000039 | + References
+000040 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000041 | -Topic 860
+000042 | -SubTopic 20
+000043 | -Name Accounting Standards Codification
+000044 | -Section 50
+000045 | -Paragraph 4
+000046 | -Subparagraph (a)(2)
+000047 | -Publisher FASB
+000048 | -URI https://asc.fasb.org/1943274/2147481326/860-20-50-4
+000049 | + Details
+000050 | Name:
+000051 | us-gaap_DerecognizedAssetsSecuritizedOrAssetbackedFinancingArrangementAssetsAndAnyOtherFinancialAssetsManagedTogetherPrincipalAmountOutstanding
+000052 | Namespace Prefix:
+000053 | us-gaap_
+000054 | Data Type:
+000055 | xbrli:monetaryItemType
+000056 | Balance Type:
+000057 | debit
+000058 | Period Type:
+000059 | instant
+000060 | X
+000061 | - Definition
+000062 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000063 | + References
+000064 | No definition available.
+000065 | + Details
+000066 | Name:
+000067 | us-gaap_OtherCommitmentsLineItems
+000068 | Namespace Prefix:
+000069 | us-gaap_
+000070 | Data Type:
+000071 | xbrli:stringItemType
+000072 | Balance Type:
+000073 | na
+000074 | Period Type:
+000075 | duration
+000076 | X
+000077 | - Definition
+000078 | Trade Receivables Sold
+000079 | + References
+000080 | No definition available.
+000081 | + Details
+000082 | Name:
+000083 | vylr_TradeReceivablesSold
+000084 | Namespace Prefix:
+000085 | vylr_
+000086 | Data Type:
+000087 | xbrli:monetaryItemType
+000088 | Balance Type:
+000089 | credit
+000090 | Period Type:
+000091 | duration
+000092 | X
+000093 | - Details
+000094 | Name:
+000095 | us-gaap_OtherCommitmentsAxis=vylr_FactoringAgreementMember
+000096 | Namespace Prefix:
+000097 | Data Type:
+000098 | na
+000099 | Balance Type:
+000100 | Period Type:
+000101 | X
+000102 | - Details
+000103 | Name:
+000104 | dei_LegalEntityAxis=vylr_CortevaInc.Member
+000105 | Namespace Prefix:
+000106 | Data Type:
+000107 | na
+000108 | Balance Type:
+000109 | Period Type:

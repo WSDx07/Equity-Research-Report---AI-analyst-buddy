@@ -1,0 +1,104 @@
+000001 | v3.26.3
+000002 | Accounts and Notes Receivable (Tables)
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | Accounts and Notes Receivable [Abstract]
+000006 | Schedule of Accounts, Notes, Loans and Financing Receivable [Table Text Block]
+000007 | (In millions) September 30, 2026 December 31, 2025 September 30, 2025
+000008 | Accounts receivable – trade 1
+000009 | $ 4,797 $ 4,881 $ 5,050
+000010 | Notes receivable – trade 1,2
+000011 | 1,392 153 1,378
+000012 | Other 3
+000013 | 1,302 1,337 1,356
+000014 | Total accounts and notes receivable - net $ 7,491 $ 6,371 $ 7,784
+000015 | 1.Accounts and notes receivable – trade are net of allowances of $292 million, $241 million and $220 million at September 30, 2026, December 31, 2025 and September 30, 2025, respectively.
+000016 | 2.Notes receivable – trade primarily consists of receivables for deferred payment loan programs for the sale of seed and crop protection products to customers. These loans have terms of one year or less and are primarily concentrated in North America. The company maintains a rigid approval process for extending credit to customers in order to manage overall risk and exposure associated with credit losses. As of September 30, 2026, December 31, 2025 and September 30, 2025, there were no significant impairments related to current loan agreements.
+000017 | 3.Other includes receivables in relation to indemnification assets, royalties, value added tax, general sales tax and other taxes. No individual group represents more than 5 percent of total current assets. In addition, Other includes amounts due from nonconsolidated affiliates of $113 million, $117 million and $108 million as of September 30, 2026, December 31, 2025 and September 30, 2025, respectively.
+000018 | Accounts Receivable, Allowance for Credit Loss [Table Text Block]
+000019 | (In millions)
+000020 | 2025
+000021 | Balance at December 31, 2024 $ 179
+000022 | Net provision for credit losses
+000023 | 58
+000024 | Other - net of write-offs charged against allowance
+000025 | (17)
+000026 | Balance at September 30, 2025
+000027 | $ 220
+000028 | 2026
+000029 | Balance at December 31, 2025 $ 241
+000030 | Net provision for credit losses 75
+000031 | Other - net of write-offs charged against allowance
+000032 | (24)
+000033 | Balance at September 30, 2026
+000034 | $ 292
+000035 | X
+000036 | - Definition
+000037 | Accounts and Notes Receivable [Abstract]
+000038 | + References
+000039 | No definition available.
+000040 | + Details
+000041 | Name:
+000042 | ctva_AccountsandNotesReceivableAbstract
+000043 | Namespace Prefix:
+000044 | ctva_
+000045 | Data Type:
+000046 | xbrli:stringItemType
+000047 | Balance Type:
+000048 | na
+000049 | Period Type:
+000050 | duration
+000051 | X
+000052 | - Definition
+000053 | Tabular disclosure of allowance for credit loss on accounts receivable.
+000054 | + References
+000055 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000056 | -Topic 326
+000057 | -SubTopic 20
+000058 | -Name Accounting Standards Codification
+000059 | -Section 50
+000060 | -Paragraph 13
+000061 | -Publisher FASB
+000062 | -URI https://asc.fasb.org/1943274/2147479319/326-20-50-13
+000063 | + Details
+000064 | Name:
+000065 | us-gaap_AccountsReceivableAllowanceForCreditLossTableTextBlock
+000066 | Namespace Prefix:
+000067 | us-gaap_
+000068 | Data Type:
+000069 | dtr-types:textBlockItemType
+000070 | Balance Type:
+000071 | na
+000072 | Period Type:
+000073 | duration
+000074 | X
+000075 | - Definition
+000076 | Tabular disclosure of the various types of trade accounts and notes receivable and for each the gross carrying value, allowance, and net carrying value as of the balance sheet date. Presentation is categorized by current, noncurrent and unclassified receivables.
+000077 | + References
+000078 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000079 | -Topic 310
+000080 | -SubTopic 10
+000081 | -Name Accounting Standards Codification
+000082 | -Section 50
+000083 | -Paragraph 3
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147481962/310-10-50-3
+000086 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000087 | -Topic 310
+000088 | -SubTopic 10
+000089 | -Name Accounting Standards Codification
+000090 | -Section 45
+000091 | -Paragraph 2
+000092 | -Publisher FASB
+000093 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-2
+000094 | + Details
+000095 | Name:
+000096 | us-gaap_ScheduleOfAccountsNotesLoansAndFinancingReceivableTextBlock
+000097 | Namespace Prefix:
+000098 | us-gaap_
+000099 | Data Type:
+000100 | dtr-types:textBlockItemType
+000101 | Balance Type:
+000102 | na
+000103 | Period Type:
+000104 | duration

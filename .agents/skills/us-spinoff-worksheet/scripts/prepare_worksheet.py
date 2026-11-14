@@ -89,17 +89,20 @@ def choose_registration(entity, filing_rows, target_cik):
     if preferred:
         accession, row, url, _ = max(preferred, key=lambda item: (str((item[1] or {}).get('filingDate', '')), item[3]))
         return accession, row, url
-    # Older registries keep the filing URL but not a separate accession field.
-    # Use the accession from the saved SEC filing list only when it identifies
-    # a Form 10 registration for this exact CIK.
-    forms = {'10-12B', '10-12B/A', '10-12G', '10-12G/A', '10', '10/A'}
-    candidates = []
-    for row in filing_rows:
-        form = str(row.get('form', '')).upper()
-        accession = re.sub(r'\D', '', str(row.get('accessionNumber', '')))
-        if form in forms and accession:
-            candidates.append((accession, row, ''))
-    return max(candidates, key=lambda item: str(item[1].get('filingDate', ''))) if candidates else None
+    # The user requires the accession to be established in the registry.
+    return None
+
+
+def registry_as_of(entity, as_of):
+    """A later filing must never supply a fact to a historical run."""
+    result = {}
+    for key, records in (entity or {}).items():
+        records = [records] if isinstance(records, dict) else records
+        if not isinstance(records, list):
+            continue
+        result[key] = [record for record in records if isinstance(record, dict)
+                       and record.get('filing_date') and record['filing_date'] <= as_of]
+    return result
 
 
 def numbered(text):
@@ -113,7 +116,8 @@ def safe_component(value):
 
 def save_document(folder, accession, document_name, content, url, form, *, is_raw=False):
     safe_name = safe_component(document_name or 'submission.txt')
-    output = folder / f'{form}_{accession}_{safe_name}.txt'
+    safe_form = safe_component(form or 'filing')
+    output = folder / f'{safe_form}_{accession}_{safe_name}.txt'
     text = str(content) if is_raw else seeker.html_text(str(content))
     output.write_text(numbered(text), encoding='utf-8')
     return {'form': form, 'accession': accession, 'name': document_name,
@@ -122,10 +126,10 @@ def save_document(folder, accession, document_name, content, url, form, *, is_ra
 
 def sec_row(cik, accession, form, filing_date):
     compact = re.sub(r'\D', '', str(accession))
-    if not str(cik).isdigit() or not re.fullmatch(r'\d{18,20}', compact):
+    if not str(cik).isdigit() or not re.fullmatch(r'\d{18}', compact):
         raise ValueError('Invalid CIK or SEC accession')
     return {'form': form, 'date': filing_date, 'cik': str(cik).zfill(10),
-            'path': f'edgar/data/{int(cik)}/{compact}.txt'}
+            'path': f'edgar/data/{int(cik)}/{compact[:10]}-{compact[10:12]}-{compact[12:]}.txt'}
 
 
 def get_form_folder(client, row, target, *, expected_form=None):
@@ -140,8 +144,10 @@ def get_form_folder(client, row, target, *, expected_form=None):
         basename = urlparse(doc.get('url', '')).path.rsplit('/', 1)[-1]
         if doc.get('embedded_filename'):
             basename = doc['embedded_filename']
-        records.append(save_document(target, accession, basename or f'document_{index}.txt',
-                                     doc['text'], doc.get('url', ''), expected_form or row['form']))
+        record = save_document(target, accession, basename or f'document_{index}.txt',
+                               doc['text'], doc.get('url', ''), expected_form or row['form'])
+        record['filing_date'] = row.get('date')
+        records.append(record)
     return records
 
 
@@ -149,6 +155,15 @@ def parse_form4_purchases(text, accession, filing_date):
     """Count transaction-table rows with transaction code P from one Form 4."""
     from xml.etree import ElementTree
     docs = seeker.submission_text_documents(text)
+    if not docs:
+        # Many Form 4 archive folders expose doc4.xml directly instead of a
+        # complete-submission SGML file.
+        try:
+            ElementTree.fromstring(text)
+        except ElementTree.ParseError:
+            pass
+        else:
+            docs = {'ownership.xml': text}
     purchases = []
     for filename, body in docs.items():
         if not filename.lower().endswith(('.xml', '.txt')):
@@ -160,6 +175,11 @@ def parse_form4_purchases(text, accession, filing_date):
         def first(node, suffix):
             for item in node.iter():
                 if item.tag.rsplit('}', 1)[-1] == suffix:
+                    # SEC ownership XML typically nests the actual text in
+                    # a <value> child rather than on the enclosing element.
+                    for child in item.iter():
+                        if child is not item and child.tag.rsplit('}', 1)[-1] == 'value':
+                            return (child.text or '').strip()
                     return (item.text or '').strip()
             return ''
         for transaction in root.iter():
@@ -179,6 +199,29 @@ def parse_form4_purchases(text, accession, filing_date):
                 'document': filename,
             })
     return purchases
+
+
+def read_form4_folder(client, row, target):
+    """Read Form 4's actual archive folder and return sourced code-P rows."""
+    accession = re.sub(r'\D', '', str(row['path'].rsplit('/', 1)[-1].removesuffix('.txt')))
+    documents = seeker.read_filing_folder(client, row)
+    saved = []
+    purchases = []
+    errors = []
+    for index, doc in enumerate(documents, 1):
+        url = doc.get('url', '')
+        name = doc.get('embedded_filename') or urlparse(url).path.rsplit('/', 1)[-1]
+        body = doc.get('text')
+        if not isinstance(body, str):
+            errors.append({'stage': 'Form 4 document', 'accession': accession,
+                           'error': doc.get('error', 'document text unavailable')})
+            continue
+        if str(name).lower().endswith(('.xml', '.txt')):
+            purchases.extend(parse_form4_purchases(body, accession, row.get('date')))
+        saved.append(save_document(target, accession, name or f'document_{index}.txt',
+                                   body, url, 'Form4', is_raw=str(name).lower().endswith(('.xml', '.txt'))))
+        saved[-1]['filing_date'] = row.get('date')
+    return saved, purchases, errors
 
 
 def accession_acceptance_time(client, cik, accession, filing_date):
@@ -229,8 +272,9 @@ def prepare(args):
         raise ValueError('The saved run has no valid company CIK')
     as_of = date.fromisoformat(str(args.as_of or facts.get('as_of', '')))
     registry = read_json(args.registry)
-    entity = registry.get(cik)
-    present = entity is not None
+    raw_entity = registry.get(cik)
+    present = raw_entity is not None
+    entity = registry_as_of(raw_entity, as_of.isoformat()) if present else None
     filing_rows = ((filings.get('filings') or {}).get('filing_list') or [])
     selected_registration = choose_registration(entity or {}, filing_rows, cik) if present else None
 
@@ -291,6 +335,10 @@ def prepare(args):
         if args.release_accession:
             wanted = re.sub(r'\D', '', args.release_accession)
             eligible = [row for row in eligible if re.sub(r'\D', '', str(row.get('accessionNumber', ''))) == wanted]
+        else:
+            # A recent 8-K can cover an unrelated event. Only choose an
+            # earnings release automatically when its items identify one.
+            eligible = [row for row in eligible if re.search(r'(?<!\d)2\.02(?!\d)', str(row.get('items', '')))]
         chosen = max(eligible, key=lambda row: (row['filingDate'], str(row.get('accessionNumber', '')))) if eligible else None
         live_release.update({'ticker': live_ticker or None, 'cik': live_cik if live_cik.isdigit() else None})
         if chosen and live_cik.isdigit():
@@ -318,8 +366,6 @@ def prepare(args):
     distribution_filing_documents = []
     if present:
         for source_cik, accession, source_url, filed in registry_source_accessions(entity or {}, 'distribution_date'):
-            if parent_cik and int(source_cik) != int(parent_cik):
-                continue
             try:
                 event_row = sec_row(source_cik, accession, '8-K', filed or as_of.isoformat())
                 distribution_filing_documents.extend(
@@ -370,14 +416,16 @@ def prepare(args):
         accession = re.sub(r'\D', '', str(row.get('accessionNumber', '')))
         if not accession:
             continue
-        url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession}/{accession}.txt"
         try:
-            complete = client.get(url)
-            purchases = parse_form4_purchases(complete, accession, row['filingDate'])
+            form4_row = sec_row(cik, accession, str(row.get('form', '4')), row['filingDate'])
+            form4_documents, purchases, document_errors = read_form4_folder(client, form4_row, output)
+            saved.extend(form4_documents)
             form4_purchases.extend(purchases)
-            saved.append(save_document(output, accession, accession + '.txt', complete, url, 'Form4', is_raw=True))
+            errors.extend(document_errors)
         except Exception as exc:
-            errors.append({'stage': 'Form 4', 'accession': accession, 'error': type(exc).__name__})
+            code = getattr(exc, 'code', None)
+            error = f'{type(exc).__name__} HTTP {code}' if code else type(exc).__name__
+            errors.append({'stage': 'Form 4', 'accession': accession, 'error': error})
 
     (output / 'form4_purchases.json').write_text(json.dumps(form4_purchases, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     run_filing_paths = sorted(str(path.relative_to(run)) for pattern in ('*_10-K_*.txt', '*_10-Q_*.txt', '*_10-K*.txt', '*_10-Q*.txt') for path in run.glob(pattern))

@@ -1,0 +1,205 @@
+000001 | v3.26.3
+000002 | Subsequent Events (Details) - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Oct. 01, 2026
+000006 | Sep. 30, 2026
+000007 | Subsequent Event [Line Items]
+000008 | Opening Balance Sheet Settlement
+000009 | $ 82
+000010 | Notes Maturing 2026 [Member] | Senior Notes
+000011 | Subsequent Event [Line Items]
+000012 | Repayments of Debt
+000013 | $ 600
+000014 | Subsequent Event
+000015 | Subsequent Event [Line Items]
+000016 | Payments of Dividends from Vylor to Corteva
+000017 | 761
+000018 | Repayments of Commercial Paper
+000019 | 161
+000020 | Proceeds from (Repayments of) Related Party Debt
+000021 | 183
+000022 | Opening Balance Sheet Settlement payment
+000023 | 82
+000024 | Subsequent Event | Notes Maturing 2026 [Member] | Senior Notes
+000025 | Subsequent Event [Line Items]
+000026 | Repayments of Debt
+000027 | $ 600
+000028 | X
+000029 | - Definition
+000030 | Cash outflow in the form of capital distributions and dividends to common shareholders, preferred shareholders and noncontrolling interests.
+000031 | + References
+000032 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000033 | -Topic 230
+000034 | -SubTopic 10
+000035 | -Name Accounting Standards Codification
+000036 | -Section 45
+000037 | -Paragraph 15
+000038 | -Subparagraph (a)
+000039 | -Publisher FASB
+000040 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-15
+000041 | + Details
+000042 | Name:
+000043 | us-gaap_PaymentsOfDividends
+000044 | Namespace Prefix:
+000045 | us-gaap_
+000046 | Data Type:
+000047 | xbrli:monetaryItemType
+000048 | Balance Type:
+000049 | credit
+000050 | Period Type:
+000051 | duration
+000052 | X
+000053 | - Definition
+000054 | Amount of cash inflow (outflow) from long-term debt by a related party. Related parties, include, but are not limited to, affiliates, owners or officers and their immediate families, and pension trusts.
+000055 | + References
+000056 | No definition available.
+000057 | + Details
+000058 | Name:
+000059 | us-gaap_ProceedsFromRepaymentsOfRelatedPartyDebt
+000060 | Namespace Prefix:
+000061 | us-gaap_
+000062 | Data Type:
+000063 | xbrli:monetaryItemType
+000064 | Balance Type:
+000065 | debit
+000066 | Period Type:
+000067 | duration
+000068 | X
+000069 | - Definition
+000070 | The cash outflow due to repaying amounts borrowed by issuing commercial paper.
+000071 | + References
+000072 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000073 | -Topic 230
+000074 | -SubTopic 10
+000075 | -Name Accounting Standards Codification
+000076 | -Section 45
+000077 | -Paragraph 15
+000078 | -Subparagraph (b)
+000079 | -Publisher FASB
+000080 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-15
+000081 | + Details
+000082 | Name:
+000083 | us-gaap_RepaymentsOfCommercialPaper
+000084 | Namespace Prefix:
+000085 | us-gaap_
+000086 | Data Type:
+000087 | xbrli:monetaryItemType
+000088 | Balance Type:
+000089 | credit
+000090 | Period Type:
+000091 | duration
+000092 | X
+000093 | - Definition
+000094 | Amount of cash outflow for short-term and long-term debt. Excludes payment of lease obligation.
+000095 | + References
+000096 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000097 | -Topic 230
+000098 | -SubTopic 10
+000099 | -Name Accounting Standards Codification
+000100 | -Section 45
+000101 | -Paragraph 15
+000102 | -Subparagraph (b)
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-15
+000105 | + Details
+000106 | Name:
+000107 | us-gaap_RepaymentsOfDebt
+000108 | Namespace Prefix:
+000109 | us-gaap_
+000110 | Data Type:
+000111 | xbrli:monetaryItemType
+000112 | Balance Type:
+000113 | credit
+000114 | Period Type:
+000115 | duration
+000116 | X
+000117 | - Definition
+000118 | Detail information of subsequent event by type. User is expected to use existing line items from elsewhere in the taxonomy as the primary line items for this disclosure, which is further associated with dimension and member elements pertaining to a subsequent event.
+000119 | + References
+000120 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000121 | -Topic 830
+000122 | -SubTopic 30
+000123 | -Name Accounting Standards Codification
+000124 | -Section 50
+000125 | -Paragraph 2
+000126 | -Publisher FASB
+000127 | -URI https://asc.fasb.org/1943274/2147481674/830-30-50-2
+000128 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000129 | -Topic 855
+000130 | -SubTopic 10
+000131 | -Name Accounting Standards Codification
+000132 | -Section 50
+000133 | -Paragraph 2
+000134 | -Publisher FASB
+000135 | -URI https://asc.fasb.org/1943274/2147483399/855-10-50-2
+000136 | + Details
+000137 | Name:
+000138 | us-gaap_SubsequentEventLineItems
+000139 | Namespace Prefix:
+000140 | us-gaap_
+000141 | Data Type:
+000142 | xbrli:stringItemType
+000143 | Balance Type:
+000144 | na
+000145 | Period Type:
+000146 | duration
+000147 | X
+000148 | - Definition
+000149 | Opening Balance Sheet Settlement payment
+000150 | + References
+000151 | No definition available.
+000152 | + Details
+000153 | Name:
+000154 | vylr_OpeningBalanceSheetSettlementPayment
+000155 | Namespace Prefix:
+000156 | vylr_
+000157 | Data Type:
+000158 | xbrli:monetaryItemType
+000159 | Balance Type:
+000160 | credit
+000161 | Period Type:
+000162 | instant
+000163 | X
+000164 | - Definition
+000165 | Opening Balance Sheet Settlement proceeds
+000166 | + References
+000167 | No definition available.
+000168 | + Details
+000169 | Name:
+000170 | vylr_OpeningBalanceSheetSettlementProceeds
+000171 | Namespace Prefix:
+000172 | vylr_
+000173 | Data Type:
+000174 | xbrli:monetaryItemType
+000175 | Balance Type:
+000176 | debit
+000177 | Period Type:
+000178 | instant
+000179 | X
+000180 | - Details
+000181 | Name:
+000182 | us-gaap_CreditFacilityAxis=vylr_NotesMaturing2026Member
+000183 | Namespace Prefix:
+000184 | Data Type:
+000185 | na
+000186 | Balance Type:
+000187 | Period Type:
+000188 | X
+000189 | - Details
+000190 | Name:
+000191 | us-gaap_LongtermDebtTypeAxis=us-gaap_SeniorNotesMember
+000192 | Namespace Prefix:
+000193 | Data Type:
+000194 | na
+000195 | Balance Type:
+000196 | Period Type:
+000197 | X
+000198 | - Details
+000199 | Name:
+000200 | us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember
+000201 | Namespace Prefix:
+000202 | Data Type:
+000203 | na
+000204 | Balance Type:
+000205 | Period Type:

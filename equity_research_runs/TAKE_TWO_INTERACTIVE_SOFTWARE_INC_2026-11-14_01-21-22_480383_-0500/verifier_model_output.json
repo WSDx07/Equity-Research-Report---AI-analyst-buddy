@@ -1,0 +1,166 @@
+{
+  "marks": [
+    {
+      "line": 14,
+      "value": "80.6%",
+      "supported": true,
+      "reason": "10‑K line 172 explicitly states sales to the five largest customers accounted for 80.6% of net revenue."
+    },
+    {
+      "line": 21,
+      "value": "November 19, 2026",
+      "supported": true,
+      "reason": "10‑K line 154 confirms Grand Theft Auto VI is planned for release on November 19 2026."
+    },
+    {
+      "line": 38,
+      "value": "6656400000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax (2025‑04‑01 to 2026‑03‑31) reports 6 656 400 000 USD, matching the table result."
+    },
+    {
+      "line": 39,
+      "value": "5633600000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax (2024‑04‑01 to 2025‑03‑31) reports 5 633 600 000 USD, matching the table result."
+    },
+    {
+      "line": 40,
+      "value": "-104200000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:OperatingIncomeLoss (2025‑04‑01 to 2026‑03‑31) reports -104 200 000 USD, matching the table result."
+    },
+    {
+      "line": 41,
+      "value": "-4391100000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:OperatingIncomeLoss (2024‑04‑01 to 2025‑03‑31) reports -4 391 100 000 USD, matching the table result."
+    },
+    {
+      "line": 42,
+      "value": "-298200000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:NetIncomeLoss (2025‑04‑01 to 2026‑03‑31) reports -298 200 000 USD, matching the table result."
+    },
+    {
+      "line": 43,
+      "value": "-4478900000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:NetIncomeLoss (2024‑04‑01 to 2025‑03‑31) reports -4 478 900 000 USD, matching the table result."
+    },
+    {
+      "line": 44,
+      "value": "-1.62 USD/share",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:EarningsPerShareDiluted (2025‑04‑01 to 2026‑03‑31) reports -1.62 USD per share, matching the table result."
+    },
+    {
+      "line": 45,
+      "value": "-25.58 USD/share",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:EarningsPerShareDiluted (2024‑04‑01 to 2025‑03‑31) reports -25.58 USD per share, matching the table result."
+    },
+    {
+      "line": 46,
+      "value": "3510900000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:StockholdersEquity (as of 2026‑03‑31) reports 3 510 900 000 USD, matching the table result."
+    },
+    {
+      "line": 47,
+      "value": "2137700000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:StockholdersEquity (as of 2025‑03‑31) reports 2 137 700 000 USD, matching the table result."
+    },
+    {
+      "line": 48,
+      "value": "2488000000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:LongTermDebtNoncurrent (as of 2026‑03‑31) reports 2 488 000 000 USD, matching the table result."
+    },
+    {
+      "line": 49,
+      "value": "2512600000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:LongTermDebtNoncurrent (as of 2025‑03‑31) reports 2 512 600 000 USD, matching the table result."
+    },
+    {
+      "line": 50,
+      "value": "624300000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:NetCashProvidedByUsedInOperatingActivities (2025‑04‑01 to 2026‑03‑31) reports 624 300 000 USD, matching the table result."
+    },
+    {
+      "line": 51,
+      "value": "-45200000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:NetCashProvidedByUsedInOperatingActivities (2024‑04‑01 to 2025‑03‑31) reports -45 200 000 USD, matching the table result."
+    },
+    {
+      "line": 52,
+      "value": "162800000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:PaymentsToAcquirePropertyPlantAndEquipment (2025‑04‑01 to 2026‑03‑31) reports 162 800 000 USD, matching the table result."
+    },
+    {
+      "line": 53,
+      "value": "169400000 USD",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:PaymentsToAcquirePropertyPlantAndEquipment (2024‑04‑01 to 2025‑03‑31) reports 169 400 000 USD, matching the table result."
+    },
+    {
+      "line": 54,
+      "value": "18.16 %",
+      "supported": true,
+      "reason": "Computed from the revenue facts (6 656.4 M current vs 5 633.6 M prior) yields 18.16 % growth; arithmetic verified separately."
+    },
+    {
+      "line": 55,
+      "value": "-1.57 %",
+      "supported": true,
+      "reason": "Operating margin calculated as -104.2 M / 6 656.4 M = -1.57 %; matches the reported figure."
+    },
+    {
+      "line": 56,
+      "value": "-10.56 %",
+      "supported": true,
+      "reason": "Return on average equity = -298.2 M / ((3 510.9 M + 2 137.7 M)/2) = -10.56 %, matches the table."
+    },
+    {
+      "line": 57,
+      "value": "461500000 USD",
+      "supported": true,
+      "reason": "Free cash flow = operating cash 624.3 M – capex 162.8 M = 461.5 M, matching the table."
+    },
+    {
+      "line": 61,
+      "value": "188.0 million",
+      "supported": true,
+      "reason": "EX‑99.1 line 52 states the share count used for diluted net income is 188.0 million."
+    },
+    {
+      "line": 75,
+      "value": "roughly two‑thirds of revenue",
+      "supported": false,
+      "reason": "10‑K line 298 gives a specific figure of 39.0 % of net revenue by product platform, which does not support a claim of roughly two‑thirds (~66 %)."
+    },
+    {
+      "line": 81,
+      "value": "1.60 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 19 reports fiscal Q2 net bookings of $1.60 billion."
+    },
+    {
+      "line": 84,
+      "value": "7.98 billion to 8.18 billion",
+      "supported": true,
+      "reason": "EX‑99.1 lines 64‑66 list total net revenue guidance as $7,980 million to $8,180 million, equivalent to $7.98‑$8.18 billion."
+    },
+    {
+      "line": 85,
+      "value": "8.0 billion to 8.2 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 86 provides net bookings guidance of $8,000 million to $8,200 million, i.e., $8.0‑$8.2 billion."
+    }
+  ]
+}

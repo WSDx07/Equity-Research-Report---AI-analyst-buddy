@@ -68,12 +68,12 @@ def save_json(path: Path, obj) -> None:
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2, default=json_decimal) + "\n", encoding="utf-8")
 
 
-def financial_insight_sources(text: str) -> list[dict]:
+def financial_insight_sources(text: str, document: str = '10-K') -> list[dict]:
     """Give analysts short, exact statement lines with their original numbers."""
     matches = []
     for index, line in enumerate(text.splitlines(), 1):
         if len(line) <= 500 and re.search(r'\b(?:net sales|total revenue|operating income|net income|cash.*operating activities)\b', line, re.I) and re.search(r'\d', line):
-            matches.append({'document': '10-K', 'line': index, 'quote': line})
+            matches.append({'document': document, 'line': index, 'quote': line})
     return matches[:20]
 
 
@@ -106,6 +106,8 @@ class EquityDeskFlow(Flow[DeskState]):
         prefix = f"{name}_{self.counts[name]}"
         save_json(folder / f"{prefix}_input.json", payload)
         instructions = (ROOT / "roles" / role_file).read_text(encoding="utf-8")
+        if name == 'research' and self.contexts.get('source_form') == '10-Q':
+            instructions = instructions.replace('10-K', '10-Q')
         if name in {"research", "financial", "advisor"}:
             instructions += "\nThe separate required Insight field may contain a sourced number even when other prose must not contain digits."
         response = self.client.models.generate_content(
@@ -140,9 +142,11 @@ class EquityDeskFlow(Flow[DeskState]):
         folder = desk.folder()
         filings = desk.choose_filings()
         facts = desk.fact_data()
+        source_form = '10-K' if '10-K' in filings else '10-Q'
+        self.contexts['source_form'] = source_form
         first = release_first_paragraph(desk.filing_text["EX-99.1"])
         self.contexts["first_paragraph"] = first
-        self.contexts["research"] = {"analysis_date": facts["as_of"], "10-K": numbered_excerpt(desk.filing_text["10-K"], 100000), "EX-99.1": numbered_excerpt(desk.filing_text["EX-99.1"], 30000), "filing_metadata": {k: {"accession": filings[k]["accessionNumber"], "url": filings[k]["index_url"], "filed": filings[k]["filingDate"]} for k in ("10-K", "8-K")}}
+        self.contexts["research"] = {"analysis_date": facts["as_of"], source_form: numbered_excerpt(desk.filing_text[source_form], 100000), "EX-99.1": numbered_excerpt(desk.filing_text["EX-99.1"], 30000), "filing_metadata": {k: {"accession": filings[k]["accessionNumber"], "url": filings[k]["index_url"], "filed": filings[k]["filingDate"]} for k in (source_form, "8-K")}, "source_limit": "No annual 10-K is available; the 10-Q covers interim periods." if source_form == '10-Q' else None}
         self.contexts["financial"] = {"facts": facts, "calculator_results": json.loads((folder / "calculations.json").read_text(encoding="utf-8")), "quarter_release": {"source": desk.downloads.get("EX-99.1"), "text_with_line_numbers": numbered_excerpt(desk.filing_text["EX-99.1"], 30000)}, "peer_facts": json.loads((folder / "peer_facts.json").read_text(encoding="utf-8")) if (folder / "peer_facts.json").exists() else {}}
         print("Financial Datasets cross-check", flush=True)
         save_json(folder / "financialdatasets_input.json", {"ticker": desk.ticker, "period": "annual", "analysis_date": facts["as_of"]})
@@ -167,15 +171,17 @@ class EquityDeskFlow(Flow[DeskState]):
 
     def do_financial(self, feedback=None):
         context = dict(self.contexts["financial"])
-        context["filing_10k"] = self.contexts["research"]["10-K"]
-        context["insight_source_candidates"] = financial_insight_sources(self.desk.filing_text['10-K'])
+        form = self.contexts['source_form']
+        context["filing_10k" if form == '10-K' else "filing_10q"] = self.contexts["research"][form]
+        context["insight_source_candidates"] = financial_insight_sources(self.desk.filing_text[form], form)
         context["release_first_paragraph"] = self.contexts["first_paragraph"]
         if feedback:
             context["revision_feedback"] = feedback
         self.state.financial = self.role("financial", "financial_analyst.txt", "Evaluate financial evidence and valuation limits.", context, "Return qualitative observations without digits and gaps; do not perform arithmetic. The Insight may contain a sourced number." + INSIGHT_OUTPUT, FinancialWithInsight)
 
     def do_advisor(self, feedback=None):
-        context = {"research": self.state.research, "financial": {**self.state.financial, "calculator_results": self.contexts["financial"]["calculator_results"]}, "filing_10k": self.contexts["research"]["10-K"], "release_first_paragraph": self.contexts["first_paragraph"]}
+        form = self.contexts['source_form']
+        context = {"research": self.state.research, "financial": {**self.state.financial, "calculator_results": self.contexts["financial"]["calculator_results"]}, ("filing_10k" if form == '10-K' else "filing_10q"): self.contexts["research"][form], "release_first_paragraph": self.contexts["first_paragraph"]}
         if feedback:
             context["revision_feedback"] = feedback
         self.state.advice = self.role("advisor", "investment_advisor.txt", "Synthesize the specialist evidence into an investment view.", context, "Return a recommendation, qualitative thesis, one calculator key and risks. The Insight may contain a sourced number." + INSIGHT_OUTPUT, AdviceWithInsight)
@@ -194,7 +200,8 @@ class EquityDeskFlow(Flow[DeskState]):
 
     @listen(investment_advisor)
     def strategy_manager(self):
-        automatic = {"research_issues": research_errors(Research.model_validate(self.state.research), {"10-K": self.desk.filing_text["10-K"], "EX-99.1": self.desk.filing_text["EX-99.1"]}), "financial_issues": [], "advisor_issues": []}
+        form = self.contexts['source_form']
+        automatic = {"research_issues": research_errors(Research.model_validate(self.state.research), {form: self.desk.filing_text[form], "EX-99.1": self.desk.filing_text["EX-99.1"]}), "financial_issues": [], "advisor_issues": []}
         for name in ("research", "financial", "advisor"):
             output = getattr(self.state, "advice" if name == "advisor" else name)
             automatic[f"{name}_issues"].extend(insight_errors(output.get("insight", ""), self.desk.filing_text, self.contexts["first_paragraph"]))
@@ -239,7 +246,10 @@ class EquityDeskFlow(Flow[DeskState]):
         desk, folder = self.desk, Path(self.state.folder)
         filings = desk.choose_filings()
         facts = desk.fact_data()
-        lines = ["Filings: " + "; ".join(f"{k} {filings[k]['accessionNumber']} filed {filings[k]['filingDate']} {filings[k]['index_url']}" for k in ("10-K", "10-Q", "8-K")), f"# {desk.company_info()['name']} ({desk.ticker})", f"Analysis date: {facts['as_of']}", ""]
+        forms = ('10-K' if '10-K' in filings else 'Form 10', '10-Q', '8-K')
+        lines = ["Filings: " + "; ".join(f"{k} {filings[k]['accessionNumber']} filed {filings[k]['filingDate']} {filings[k]['index_url']}" for k in forms), f"# {desk.company_info()['name']} ({desk.ticker})", f"Analysis date: {facts['as_of']}", ""]
+        if facts.get('limitation'):
+            lines.extend([f"Data limitation: {facts['limitation']}", ""])
         for section in SECTIONS:
             lines.extend([f"## {section}", ""])
             claims = [c for c in self.state.research["claims"] if c["section"] == section]

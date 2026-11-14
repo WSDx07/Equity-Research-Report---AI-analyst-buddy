@@ -1,0 +1,87 @@
+000001 | v3.26.3
+000002 | Receivables, Loans, Notes Receivable, and Others (Details) - Factoring Agreement - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Dec. 31, 2025
+000011 | Other Commitments [Line Items]
+000012 | Trade Receivables Sold
+000013 | $ 23
+000014 | $ 58
+000015 | $ 134
+000016 | $ 147
+000017 | Trade receivables that remain outstanding with an element of recourse
+000018 | $ 13
+000019 | $ 15
+000020 | $ 13
+000021 | $ 15
+000022 | $ 17
+000023 | X
+000024 | - Definition
+000025 | Trade Receivables Sold
+000026 | + References
+000027 | No definition available.
+000028 | + Details
+000029 | Name:
+000030 | ctva_TradeReceivablesSold
+000031 | Namespace Prefix:
+000032 | ctva_
+000033 | Data Type:
+000034 | xbrli:monetaryItemType
+000035 | Balance Type:
+000036 | credit
+000037 | Period Type:
+000038 | duration
+000039 | X
+000040 | - Definition
+000041 | Amount of transferred financial assets in which the transferor has continuing involvement with the assets underlying the transaction that have been derecognized. Continuing involvement includes, but is not limited to, servicing, recourse, and restrictions on transferor's interests in transferred financial assets.
+000042 | + References
+000043 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000044 | -Topic 860
+000045 | -SubTopic 20
+000046 | -Name Accounting Standards Codification
+000047 | -Section 50
+000048 | -Paragraph 4
+000049 | -Subparagraph (a)(2)
+000050 | -Publisher FASB
+000051 | -URI https://asc.fasb.org/1943274/2147481326/860-20-50-4
+000052 | + Details
+000053 | Name:
+000054 | us-gaap_DerecognizedAssetsSecuritizedOrAssetbackedFinancingArrangementAssetsAndAnyOtherFinancialAssetsManagedTogetherPrincipalAmountOutstanding
+000055 | Namespace Prefix:
+000056 | us-gaap_
+000057 | Data Type:
+000058 | xbrli:monetaryItemType
+000059 | Balance Type:
+000060 | debit
+000061 | Period Type:
+000062 | instant
+000063 | X
+000064 | - Definition
+000065 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000066 | + References
+000067 | No definition available.
+000068 | + Details
+000069 | Name:
+000070 | us-gaap_OtherCommitmentsLineItems
+000071 | Namespace Prefix:
+000072 | us-gaap_
+000073 | Data Type:
+000074 | xbrli:stringItemType
+000075 | Balance Type:
+000076 | na
+000077 | Period Type:
+000078 | duration
+000079 | X
+000080 | - Details
+000081 | Name:
+000082 | us-gaap_OtherCommitmentsAxis=ctva_FactoringAgreementMember
+000083 | Namespace Prefix:
+000084 | Data Type:
+000085 | na
+000086 | Balance Type:
+000087 | Period Type:

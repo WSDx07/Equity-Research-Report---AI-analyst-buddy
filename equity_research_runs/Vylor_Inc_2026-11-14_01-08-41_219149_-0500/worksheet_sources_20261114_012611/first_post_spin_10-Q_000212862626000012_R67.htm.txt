@@ -1,0 +1,122 @@
+000001 | v3.26.3
+000002 | Revenue from Contract with Customer (Tables)
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | Revenue from Contract with Customer [Abstract]
+000006 | Contract Balances
+000007 | Contract Balances September 30, 2026 December 31, 2025 September 30, 2025
+000008 | (In millions)
+000009 | Deferred revenue - current $ 373 $ 3,232 $ 414
+000010 | Disaggregation of Revenue by Product Line
+000011 | Three Months Ended September 30, Nine Months Ended September 30,
+000012 | (In millions) 2026 2025 2026 2025
+000013 | Corn 432 382 4,635 4,428
+000014 | Soybean 93 145 1,691 1,681
+000015 | Other oilseeds 14 16 204 186
+000016 | Other 40 23 158 161
+000017 | Americas 579 566 6,688 6,456
+000018 | Corn 175 204 1,213 1,188
+000019 | Soybean 6 7 32 33
+000020 | Other oilseeds 135 125 418 364
+000021 | Other 10 15 109 120
+000022 | Rest of World 326 351 1,772 1,705
+000023 | Total $ 905 $ 917 $ 8,460 $ 8,161
+000024 | Disaggregation of Revenue by Geography
+000025 | Three Months Ended September 30, Nine Months Ended September 30,
+000026 | (In millions) 2026 2025 2026 2025
+000027 | North America 1
+000028 | 192 175 5,917 5,726
+000029 | Latin America
+000030 | 387 391 771 730
+000031 | Americas total 579 566 6,688 6,456
+000032 | EMEA 2
+000033 | 268 262 1,468 1,370
+000034 | Asia Pacific 58 89 304 335
+000035 | Rest of World total 326 351 1,772 1,705
+000036 | Total 905 917 8,460 8,161
+000037 | 1.Represents U.S. and Canada.
+000038 | 2.Europe, Middle East and Africa ("EMEA").
+000039 | X
+000040 | - Definition
+000041 | Tabular disclosure of receivable, contract asset, and contract liability from contract with customer. Includes, but is not limited to, change in contract asset and contract liability.
+000042 | + References
+000043 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000044 | -Topic 606
+000045 | -SubTopic 10
+000046 | -Name Accounting Standards Codification
+000047 | -Section 50
+000048 | -Paragraph 10
+000049 | -Publisher FASB
+000050 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-10
+000051 | + Details
+000052 | Name:
+000053 | us-gaap_ContractWithCustomerAssetAndLiabilityTableTextBlock
+000054 | Namespace Prefix:
+000055 | us-gaap_
+000056 | Data Type:
+000057 | dtr-types:textBlockItemType
+000058 | Balance Type:
+000059 | na
+000060 | Period Type:
+000061 | duration
+000062 | X
+000063 | - Definition
+000064 | Tabular disclosure of disaggregation of revenue into categories depicting how nature, amount, timing, and uncertainty of revenue and cash flows are affected by economic factor.
+000065 | + References
+000066 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000067 | -Topic 606
+000068 | -SubTopic 10
+000069 | -Name Accounting Standards Codification
+000070 | -Section 50
+000071 | -Paragraph 5
+000072 | -Publisher FASB
+000073 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-5
+000074 | + Details
+000075 | Name:
+000076 | us-gaap_DisaggregationOfRevenueTableTextBlock
+000077 | Namespace Prefix:
+000078 | us-gaap_
+000079 | Data Type:
+000080 | dtr-types:textBlockItemType
+000081 | Balance Type:
+000082 | na
+000083 | Period Type:
+000084 | duration
+000085 | X
+000086 | - References
+000087 | No definition available.
+000088 | + Details
+000089 | Name:
+000090 | us-gaap_RevenueFromContractWithCustomerAbstract
+000091 | Namespace Prefix:
+000092 | us-gaap_
+000093 | Data Type:
+000094 | xbrli:stringItemType
+000095 | Balance Type:
+000096 | na
+000097 | Period Type:
+000098 | duration
+000099 | X
+000100 | - Definition
+000101 | Tabular disclosure of revenue attributed to country of domicile and foreign country from which revenue is derived if it is not provided as part of reportable segment information. Includes, but is not limited to, subtotal of geographical information about group of countries.
+000102 | + References
+000103 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000104 | -Topic 280
+000105 | -SubTopic 10
+000106 | -Name Accounting Standards Codification
+000107 | -Section 50
+000108 | -Paragraph 41
+000109 | -Subparagraph (a)
+000110 | -Publisher FASB
+000111 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-41
+000112 | + Details
+000113 | Name:
+000114 | us-gaap_RevenueFromExternalCustomersByGeographicAreasTableTextBlock
+000115 | Namespace Prefix:
+000116 | us-gaap_
+000117 | Data Type:
+000118 | dtr-types:textBlockItemType
+000119 | Balance Type:
+000120 | na
+000121 | Period Type:
+000122 | duration

@@ -381,6 +381,22 @@ def _tool_command(event):
     return value if isinstance(value, str) else ''
 
 
+def _automatic_worksheet(event, run):
+    """Read the exact saved worksheet path from a completed runner's output."""
+    response = event.get('tool_response')
+    if isinstance(response, dict):
+        response = response.get('output', '')
+    if not isinstance(response, str):
+        raise ValueError('Worksheet runner output is unavailable')
+    paths = re.findall(r'^Worksheet:\s*(.+?)\s*$', response, re.M)
+    if len(paths) != 1 or not run:
+        raise ValueError('Worksheet runner did not identify exactly one output and run folder')
+    worksheet = Path(paths[0]).resolve()
+    if not worksheet.is_relative_to(Path(run).resolve()) or not worksheet.is_file():
+        raise ValueError('Worksheet output is missing or outside its saved run')
+    return worksheet
+
+
 def hook_main():
     """Codex lifecycle hook. State contains paths only, never worksheet claims."""
     try:
@@ -395,21 +411,26 @@ def hook_main():
     state_path = Path(tempfile.gettempdir()) / f'lab07_worksheet_hook_{state_key}.json'
     if event_name == 'PostToolUse':
         command = _tool_command(event)
-        if 'save_worksheet.py' not in command.casefold():
+        automatic = 'run_worksheet.py' in command.casefold()
+        if not automatic and 'save_worksheet.py' not in command.casefold():
             return 0
         args = {}
         tokens = shlex.split(command, posix=False)
-        for name in ('--output', '--run', '--rules', '--reader'):
+        for name in ('--output', '--run', '--rules', '--reader', '--bars'):
             if name in tokens:
                 i = tokens.index(name)
                 if i + 1 < len(tokens):
                     args[name] = tokens[i + 1].strip('"\'')
-        if '--output' not in args:
+        if not automatic and '--output' not in args:
             print(json.dumps({'decision': 'block', 'reason': 'Worksheet writer did not give the hook an output path.'}))
             return 0
-        worksheet = Path(args['--output']).resolve()
+        try:
+            worksheet = _automatic_worksheet(event, args.get('--run')) if automatic else Path(args['--output']).resolve()
+        except ValueError as exc:
+            print(json.dumps({'decision': 'block', 'reason': str(exc)}))
+            return 0
         state = {'session_id': session, 'turn_id': turn, 'worksheet': str(worksheet),
-                 'run': args.get('--run'), 'rules': args.get('--rules'), 'reader': args.get('--reader')}
+                 'run': args.get('--run'), 'rules': args.get('--rules'), 'reader': args.get('--reader') or args.get('--bars')}
         state_path.write_text(json.dumps(state), encoding='utf-8')
         try:
             issues = validate_worksheet(worksheet, run=state['run'], rules_path=state['rules'], reader_path=state['reader'])

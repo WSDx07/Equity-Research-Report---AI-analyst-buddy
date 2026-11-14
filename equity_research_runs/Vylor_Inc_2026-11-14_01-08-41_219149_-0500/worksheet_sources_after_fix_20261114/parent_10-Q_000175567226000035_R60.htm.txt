@@ -1,0 +1,195 @@
+000001 | v3.26.3
+000002 | Earnings Per Share Share Count Information (Details) - shares
+000003 | shares in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Earnings Per Share [Abstract]
+000011 | Weighted Average Number of Shares Outstanding, Basic
+000012 | 667.8
+000013 | 678.7
+000014 | 669.5
+000015 | 681.7
+000016 | Dilutive effect of equity compensation plans
+000017 | [1]
+000018 | 0.0
+000019 | 0.0
+000020 | 1.2
+000021 | 1.4
+000022 | Weighted Average Number of Shares Outstanding, Diluted
+000023 | 667.8
+000024 | 678.7
+000025 | 670.7
+000026 | 683.1
+000027 | Potential shares of common stock excluded from EPS calculations
+000028 | [2]
+000029 | 2.2
+000030 | 2.1
+000031 | 2.6
+000032 | 2.4
+000033 | [1]
+000034 | Diluted earnings (loss) per share considers the impact of potentially dilutive securities except in periods in which there is a loss because the inclusion of the potential common shares would have an anti-dilutive effect.
+000035 | [2]
+000036 | These outstanding potential shares of common stock relating to stock options, restricted stock units and performance-based restricted stock units were excluded from the calculation of diluted earnings (loss) per share because (i) the effect of including them would have been anti-dilutive; or (ii) the performance metrics have not yet been achieved for the outstanding potential shares relating to performance-based restricted stock units, which are deemed to be contingently issuable.
+000037 | X
+000038 | - Definition
+000039 | Securities (including those issuable pursuant to contingent stock agreements) that could potentially dilute basic earnings per share (EPS) or earnings per unit (EPU) in the future that were not included in the computation of diluted EPS or EPU because to do so would increase EPS or EPU amounts or decrease loss per share or unit amounts for the period presented.
+000040 | + References
+000041 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000042 | -Topic 260
+000043 | -SubTopic 10
+000044 | -Name Accounting Standards Codification
+000045 | -Section 50
+000046 | -Paragraph 1
+000047 | -Subparagraph (c)
+000048 | -Publisher FASB
+000049 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000050 | + Details
+000051 | Name:
+000052 | us-gaap_AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount
+000053 | Namespace Prefix:
+000054 | us-gaap_
+000055 | Data Type:
+000056 | xbrli:sharesItemType
+000057 | Balance Type:
+000058 | na
+000059 | Period Type:
+000060 | duration
+000061 | X
+000062 | - References
+000063 | No definition available.
+000064 | + Details
+000065 | Name:
+000066 | us-gaap_EarningsPerShareAbstract
+000067 | Namespace Prefix:
+000068 | us-gaap_
+000069 | Data Type:
+000070 | xbrli:stringItemType
+000071 | Balance Type:
+000072 | na
+000073 | Period Type:
+000074 | duration
+000075 | X
+000076 | - Definition
+000077 | Additional shares included in the calculation of diluted EPS as a result of the potentially dilutive effect of share based payment arrangements using the treasury stock method.
+000078 | + References
+000079 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000080 | -Topic 260
+000081 | -SubTopic 10
+000082 | -Name Accounting Standards Codification
+000083 | -Section 50
+000084 | -Paragraph 1
+000085 | -Subparagraph (a)
+000086 | -Publisher FASB
+000087 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000088 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000089 | -Topic 718
+000090 | -SubTopic 10
+000091 | -Name Accounting Standards Codification
+000092 | -Section 45
+000093 | -Paragraph 1
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147480454/718-10-45-1
+000096 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000097 | -Topic 260
+000098 | -SubTopic 10
+000099 | -Name Accounting Standards Codification
+000100 | -Section 45
+000101 | -Paragraph 22
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147482689/260-10-45-22
+000104 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000105 | -Topic 260
+000106 | -SubTopic 10
+000107 | -Name Accounting Standards Codification
+000108 | -Section 45
+000109 | -Paragraph 23
+000110 | -Subparagraph (c)
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147482689/260-10-45-23
+000113 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000114 | -Topic 260
+000115 | -SubTopic 10
+000116 | -Name Accounting Standards Codification
+000117 | -Section 45
+000118 | -Paragraph 28A
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147482689/260-10-45-28A
+000121 | + Details
+000122 | Name:
+000123 | us-gaap_IncrementalCommonSharesAttributableToShareBasedPaymentArrangements
+000124 | Namespace Prefix:
+000125 | us-gaap_
+000126 | Data Type:
+000127 | xbrli:sharesItemType
+000128 | Balance Type:
+000129 | na
+000130 | Period Type:
+000131 | duration
+000132 | X
+000133 | - Definition
+000134 | The average number of shares or units issued and outstanding that are used in calculating diluted EPS or earnings per unit (EPU), determined based on the timing of issuance of shares or units in the period.
+000135 | + References
+000136 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000137 | -Topic 260
+000138 | -SubTopic 10
+000139 | -Name Accounting Standards Codification
+000140 | -Section 50
+000141 | -Paragraph 1
+000142 | -Subparagraph (a)
+000143 | -Publisher FASB
+000144 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000145 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000146 | -Topic 260
+000147 | -SubTopic 10
+000148 | -Name Accounting Standards Codification
+000149 | -Section 45
+000150 | -Paragraph 16
+000151 | -Publisher FASB
+000152 | -URI https://asc.fasb.org/1943274/2147482689/260-10-45-16
+000153 | + Details
+000154 | Name:
+000155 | us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding
+000156 | Namespace Prefix:
+000157 | us-gaap_
+000158 | Data Type:
+000159 | xbrli:sharesItemType
+000160 | Balance Type:
+000161 | na
+000162 | Period Type:
+000163 | duration
+000164 | X
+000165 | - Definition
+000166 | Number of [basic] shares or units, after adjustment for contingently issuable shares or units and other shares or units not deemed outstanding, determined by relating the portion of time within a reporting period that common shares or units have been outstanding to the total time in that period.
+000167 | + References
+000168 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000169 | -Topic 260
+000170 | -SubTopic 10
+000171 | -Name Accounting Standards Codification
+000172 | -Section 50
+000173 | -Paragraph 1
+000174 | -Subparagraph (a)
+000175 | -Publisher FASB
+000176 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000177 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000178 | -Topic 260
+000179 | -SubTopic 10
+000180 | -Name Accounting Standards Codification
+000181 | -Section 45
+000182 | -Paragraph 10
+000183 | -Publisher FASB
+000184 | -URI https://asc.fasb.org/1943274/2147482689/260-10-45-10
+000185 | + Details
+000186 | Name:
+000187 | us-gaap_WeightedAverageNumberOfSharesOutstandingBasic
+000188 | Namespace Prefix:
+000189 | us-gaap_
+000190 | Data Type:
+000191 | xbrli:sharesItemType
+000192 | Balance Type:
+000193 | na
+000194 | Period Type:
+000195 | duration

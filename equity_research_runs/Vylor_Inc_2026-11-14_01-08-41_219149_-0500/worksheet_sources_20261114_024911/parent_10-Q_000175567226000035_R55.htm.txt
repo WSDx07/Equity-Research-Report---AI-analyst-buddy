@@ -1,0 +1,147 @@
+000001 | v3.26.3
+000002 | Supplementary Information Supplementary Information (Narrative) (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Accounts payable
+000008 | $ 4,431
+000009 | $ 4,398
+000010 | $ 4,337
+000011 | Accounts Payable, Trade, Current
+000012 | 2,397
+000013 | 2,871
+000014 | 2,286
+000015 | Accrued Discounts and Rebates
+000016 | Accrued discounts and rebates
+000017 | 1,853
+000018 | 1,328
+000019 | 1,853
+000020 | Seed Grower Compensation
+000021 | Accounts Payable, Trade, Current
+000022 | $ 163
+000023 | $ 420
+000024 | $ 257
+000025 | X
+000026 | - Definition
+000027 | Carrying value as of the balance sheet date of liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received that are used in an entity's business. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000028 | + References
+000029 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000030 | -Topic 210
+000031 | -SubTopic 10
+000032 | -Name Accounting Standards Codification
+000033 | -Section S99
+000034 | -Paragraph 1
+000035 | -Subparagraph (SX 210.5-02(19))
+000036 | -Publisher FASB
+000037 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000038 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000039 | -Topic 210
+000040 | -SubTopic 10
+000041 | -Name Accounting Standards Codification
+000042 | -Section S50
+000043 | -Paragraph 8
+000044 | -Publisher FASB
+000045 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-8
+000046 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000047 | -Topic 852
+000048 | -SubTopic 10
+000049 | -Name Accounting Standards Codification
+000050 | -Section 55
+000051 | -Paragraph 10
+000052 | -Publisher FASB
+000053 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000054 | + Details
+000055 | Name:
+000056 | us-gaap_AccountsPayableCurrent
+000057 | Namespace Prefix:
+000058 | us-gaap_
+000059 | Data Type:
+000060 | xbrli:monetaryItemType
+000061 | Balance Type:
+000062 | credit
+000063 | Period Type:
+000064 | instant
+000065 | X
+000066 | - Definition
+000067 | Amount of obligations incurred and payable classified as other.
+000068 | + References
+000069 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000070 | -Topic 210
+000071 | -SubTopic 10
+000072 | -Name Accounting Standards Codification
+000073 | -Section S99
+000074 | -Paragraph 1
+000075 | -Subparagraph (SX 210.5-02(19)(7))
+000076 | -Publisher FASB
+000077 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000078 | + Details
+000079 | Name:
+000080 | us-gaap_AccountsPayableOtherCurrentAndNoncurrent
+000081 | Namespace Prefix:
+000082 | us-gaap_
+000083 | Data Type:
+000084 | xbrli:monetaryItemType
+000085 | Balance Type:
+000086 | credit
+000087 | Period Type:
+000088 | instant
+000089 | X
+000090 | - Definition
+000091 | Carrying value as of the balance sheet date of obligations incurred (and for which invoices have typically been received) and payable to vendors for goods and services received that are used in an entity's business. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000092 | + References
+000093 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000094 | -Topic 210
+000095 | -SubTopic 10
+000096 | -Name Accounting Standards Codification
+000097 | -Section S99
+000098 | -Paragraph 1
+000099 | -Subparagraph (SX 210.5-02(19)(a)(4))
+000100 | -Publisher FASB
+000101 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000102 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000103 | -Topic 210
+000104 | -SubTopic 10
+000105 | -Name Accounting Standards Codification
+000106 | -Section S50
+000107 | -Paragraph 8
+000108 | -Publisher FASB
+000109 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-8
+000110 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000111 | -Topic 210
+000112 | -SubTopic 10
+000113 | -Name Accounting Standards Codification
+000114 | -Section 45
+000115 | -Paragraph 8
+000116 | -Subparagraph (a)
+000117 | -Publisher FASB
+000118 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-8
+000119 | + Details
+000120 | Name:
+000121 | us-gaap_AccountsPayableTradeCurrent
+000122 | Namespace Prefix:
+000123 | us-gaap_
+000124 | Data Type:
+000125 | xbrli:monetaryItemType
+000126 | Balance Type:
+000127 | credit
+000128 | Period Type:
+000129 | instant
+000130 | X
+000131 | - Details
+000132 | Name:
+000133 | ctva_TypeOfAccountsPayableOtherAxis=ctva_AccruedDiscountsAndRebatesMember
+000134 | Namespace Prefix:
+000135 | Data Type:
+000136 | na
+000137 | Balance Type:
+000138 | Period Type:
+000139 | X
+000140 | - Details
+000141 | Name:
+000142 | ctva_TypeOfAccountsPayableTradeCurrentAxis=ctva_SeedGrowerCompensationMember
+000143 | Namespace Prefix:
+000144 | Data Type:
+000145 | na
+000146 | Balance Type:
+000147 | Period Type:

@@ -1,0 +1,91 @@
+000001 | v3.26.3
+000002 | Financial Instruments Notional Amounts (Details) - Long [Member] - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Derivative [Line Items]
+000008 | Derivative, Notional Amount, Net
+000009 | $ 774
+000010 | $ 904
+000011 | $ 1,164
+000012 | Corteva,Inc.
+000013 | Derivative [Line Items]
+000014 | Derivative, Notional Amount, Net
+000015 | $ 883
+000016 | $ 1,280
+000017 | $ 1,724
+000018 | X
+000019 | - Definition
+000020 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000021 | + References
+000022 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000023 | -Topic 815
+000024 | -SubTopic 10
+000025 | -Name Accounting Standards Codification
+000026 | -Section 50
+000027 | -Paragraph 5A
+000028 | -Publisher FASB
+000029 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-5A
+000030 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000031 | -Topic 505
+000032 | -SubTopic 10
+000033 | -Name Accounting Standards Codification
+000034 | -Section 50
+000035 | -Paragraph 18
+000036 | -Subparagraph (c)
+000037 | -Publisher FASB
+000038 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-18
+000039 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000040 | -Topic 815
+000041 | -SubTopic 20
+000042 | -Name Accounting Standards Codification
+000043 | -Section 25
+000044 | -Paragraph 6A
+000045 | -Publisher FASB
+000046 | -URI https://asc.fasb.org/1943274/2147480682/815-20-25-6A
+000047 | + Details
+000048 | Name:
+000049 | us-gaap_DerivativeLineItems
+000050 | Namespace Prefix:
+000051 | us-gaap_
+000052 | Data Type:
+000053 | xbrli:stringItemType
+000054 | Balance Type:
+000055 | na
+000056 | Period Type:
+000057 | duration
+000058 | X
+000059 | - Definition
+000060 | Derivative, Notional Amount, Net
+000061 | + References
+000062 | No definition available.
+000063 | + Details
+000064 | Name:
+000065 | vylr_DerivativeNotionalAmountNet
+000066 | Namespace Prefix:
+000067 | vylr_
+000068 | Data Type:
+000069 | xbrli:monetaryItemType
+000070 | Balance Type:
+000071 | debit
+000072 | Period Type:
+000073 | instant
+000074 | X
+000075 | - Details
+000076 | Name:
+000077 | us-gaap_PositionAxis=us-gaap_LongMember
+000078 | Namespace Prefix:
+000079 | Data Type:
+000080 | na
+000081 | Balance Type:
+000082 | Period Type:
+000083 | X
+000084 | - Details
+000085 | Name:
+000086 | dei_LegalEntityAxis=vylr_CortevaInc.Member
+000087 | Namespace Prefix:
+000088 | Data Type:
+000089 | na
+000090 | Balance Type:
+000091 | Period Type:

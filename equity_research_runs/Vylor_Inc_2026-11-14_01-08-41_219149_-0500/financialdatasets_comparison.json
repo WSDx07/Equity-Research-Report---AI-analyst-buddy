@@ -1,0 +1,171 @@
+{
+  "source": "https://api.financialdatasets.ai/financials/",
+  "retrieved_at": "2026-11-14T01:09:03.268204-05:00",
+  "analysis_date": "2026-11-14",
+  "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+  "rows": [
+    {
+      "concept": "total_revenue",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "total_revenue",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "operating_income",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "operating_income",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "net_income",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "net_income",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "diluted_eps",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD/shares",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "diluted_eps",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD/shares",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "stockholders_equity",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "stockholders_equity",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "long_term_debt_noncurrent",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "long_term_debt_noncurrent",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "long_term_debt_current",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "long_term_debt_current",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "cash_from_operations",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "cash_from_operations",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "additions_to_property_and_equipment",
+      "period_label": "current",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "additions_to_property_and_equipment",
+      "period_label": "prior",
+      "sec_tag": null,
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    }
+  ],
+  "status": "completed"
+}

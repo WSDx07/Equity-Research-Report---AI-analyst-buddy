@@ -1,0 +1,244 @@
+000001 | v3.26.3
+000002 | Commitments and Contingent Liabilities - Supplier Finance (Details) - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2026
+000006 | Sep. 30, 2025
+000007 | Commitments and Contingencies Disclosure [Abstract]
+000008 | Supplier Finance Program, Obligation, Current
+000009 | $ 48
+000010 | $ 48
+000011 | Supplier Finance Program, Obligation [Roll Forward]
+000012 | Supplier Finance Program, Obligation, Current
+000013 | 53
+000014 | Invoices confirmed during the year (Supplier Finance Program, Obligation, Addition)
+000015 | 114
+000016 | Confirmed invoices paid during the year (Supplier Finance Program, Obligation, Settlement)
+000017 | (119)
+000018 | Supplier Finance Program, Obligation, Current
+000019 | 48
+000020 | Guarantor Obligations [Line Items]
+000021 | Supplier Finance Program, Obligation, Current
+000022 | 48
+000023 | 48
+000024 | Invoices confirmed during the year (Supplier Finance Program, Obligation, Addition)
+000025 | 114
+000026 | Confirmed invoices paid during the year (Supplier Finance Program, Obligation, Settlement)
+000027 | 119
+000028 | Corteva,Inc.
+000029 | Commitments and Contingencies Disclosure [Abstract]
+000030 | Supplier Finance Program, Obligation, Current
+000031 | 140
+000032 | 160
+000033 | Supplier Finance Program, Obligation [Roll Forward]
+000034 | Supplier Finance Program, Obligation, Current
+000035 | 121
+000036 | Invoices confirmed during the year (Supplier Finance Program, Obligation, Addition)
+000037 | 470
+000038 | Confirmed invoices paid during the year (Supplier Finance Program, Obligation, Settlement)
+000039 | (451)
+000040 | Supplier Finance Program, Obligation, Current
+000041 | 140
+000042 | Guarantor Obligations [Line Items]
+000043 | Supplier Finance Program, Obligation, Current
+000044 | 140
+000045 | $ 160
+000046 | Invoices confirmed during the year (Supplier Finance Program, Obligation, Addition)
+000047 | 470
+000048 | Confirmed invoices paid during the year (Supplier Finance Program, Obligation, Settlement)
+000049 | $ 451
+000050 | X
+000051 | - References
+000052 | No definition available.
+000053 | + Details
+000054 | Name:
+000055 | us-gaap_CommitmentsAndContingenciesDisclosureAbstract
+000056 | Namespace Prefix:
+000057 | us-gaap_
+000058 | Data Type:
+000059 | xbrli:stringItemType
+000060 | Balance Type:
+000061 | na
+000062 | Period Type:
+000063 | duration
+000064 | X
+000065 | - Definition
+000066 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000067 | + References
+000068 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000069 | -Topic 460
+000070 | -SubTopic 10
+000071 | -Name Accounting Standards Codification
+000072 | -Section 50
+000073 | -Paragraph 4
+000074 | -Subparagraph (a)(1)
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-4
+000077 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000078 | -Topic 460
+000079 | -SubTopic 10
+000080 | -Name Accounting Standards Codification
+000081 | -Section 50
+000082 | -Paragraph 4
+000083 | -Subparagraph (f)
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-4
+000086 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000087 | -Topic 460
+000088 | -SubTopic 10
+000089 | -Name Accounting Standards Codification
+000090 | -Section 50
+000091 | -Paragraph 4
+000092 | -Subparagraph (b)(1)
+000093 | -Publisher FASB
+000094 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-4
+000095 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000096 | -Topic 460
+000097 | -SubTopic 10
+000098 | -Name Accounting Standards Codification
+000099 | -Section 50
+000100 | -Paragraph 4
+000101 | -Subparagraph (c)
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-4
+000104 | + Details
+000105 | Name:
+000106 | us-gaap_GuaranteeObligationsLineItems
+000107 | Namespace Prefix:
+000108 | us-gaap_
+000109 | Data Type:
+000110 | xbrli:stringItemType
+000111 | Balance Type:
+000112 | na
+000113 | Period Type:
+000114 | duration
+000115 | X
+000116 | - Definition
+000117 | Amount of obligation for supplier finance program, classified as current.
+000118 | + References
+000119 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000120 | -Topic 405
+000121 | -SubTopic 50
+000122 | -Name Accounting Standards Codification
+000123 | -Section 50
+000124 | -Paragraph 3
+000125 | -Subparagraph (b)(1)
+000126 | -Publisher FASB
+000127 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000128 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000129 | -Topic 405
+000130 | -SubTopic 50
+000131 | -Name Accounting Standards Codification
+000132 | -Section 50
+000133 | -Paragraph 3
+000134 | -Subparagraph (b)
+000135 | -Publisher FASB
+000136 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000137 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000138 | -Topic 405
+000139 | -SubTopic 50
+000140 | -Name Accounting Standards Codification
+000141 | -Section 50
+000142 | -Paragraph 4
+000143 | -Publisher FASB
+000144 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-4
+000145 | + Details
+000146 | Name:
+000147 | us-gaap_SupplierFinanceProgramObligationCurrent
+000148 | Namespace Prefix:
+000149 | us-gaap_
+000150 | Data Type:
+000151 | xbrli:monetaryItemType
+000152 | Balance Type:
+000153 | credit
+000154 | Period Type:
+000155 | instant
+000156 | X
+000157 | - Definition
+000158 | Amount of decrease in obligation for supplier finance program from settlement.
+000159 | + References
+000160 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000161 | -Topic 405
+000162 | -SubTopic 50
+000163 | -Name Accounting Standards Codification
+000164 | -Section 55
+000165 | -Paragraph 5
+000166 | -Publisher FASB
+000167 | -URI https://asc.fasb.org/1943274/2147477128/405-50-55-5
+000168 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000169 | -Topic 405
+000170 | -SubTopic 50
+000171 | -Name Accounting Standards Codification
+000172 | -Section 50
+000173 | -Paragraph 3
+000174 | -Subparagraph (b)(2)(iii)
+000175 | -Publisher FASB
+000176 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000177 | + Details
+000178 | Name:
+000179 | us-gaap_SupplierFinanceProgramObligationDecreaseSettlement
+000180 | Namespace Prefix:
+000181 | us-gaap_
+000182 | Data Type:
+000183 | xbrli:monetaryItemType
+000184 | Balance Type:
+000185 | debit
+000186 | Period Type:
+000187 | duration
+000188 | X
+000189 | - Definition
+000190 | Amount of increase in obligation for supplier finance program.
+000191 | + References
+000192 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000193 | -Topic 405
+000194 | -SubTopic 50
+000195 | -Name Accounting Standards Codification
+000196 | -Section 55
+000197 | -Paragraph 5
+000198 | -Publisher FASB
+000199 | -URI https://asc.fasb.org/1943274/2147477128/405-50-55-5
+000200 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000201 | -Topic 405
+000202 | -SubTopic 50
+000203 | -Name Accounting Standards Codification
+000204 | -Section 50
+000205 | -Paragraph 3
+000206 | -Subparagraph (b)(2)(ii)
+000207 | -Publisher FASB
+000208 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000209 | + Details
+000210 | Name:
+000211 | us-gaap_SupplierFinanceProgramObligationIncrease
+000212 | Namespace Prefix:
+000213 | us-gaap_
+000214 | Data Type:
+000215 | xbrli:monetaryItemType
+000216 | Balance Type:
+000217 | credit
+000218 | Period Type:
+000219 | duration
+000220 | X
+000221 | - Definition
+000222 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000223 | + References
+000224 | No definition available.
+000225 | + Details
+000226 | Name:
+000227 | us-gaap_SupplierFinanceProgramObligationRollForward
+000228 | Namespace Prefix:
+000229 | us-gaap_
+000230 | Data Type:
+000231 | xbrli:stringItemType
+000232 | Balance Type:
+000233 | na
+000234 | Period Type:
+000235 | duration
+000236 | X
+000237 | - Details
+000238 | Name:
+000239 | dei_LegalEntityAxis=vylr_CortevaInc.Member
+000240 | Namespace Prefix:
+000241 | Data Type:
+000242 | na
+000243 | Balance Type:
+000244 | Period Type:

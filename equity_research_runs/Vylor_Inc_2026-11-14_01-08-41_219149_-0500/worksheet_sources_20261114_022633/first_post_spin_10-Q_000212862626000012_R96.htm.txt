@@ -1,0 +1,197 @@
+000001 | v3.26.3
+000002 | Accounts and Notes Receivable Allowance Rollforward (Details) - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2026
+000006 | Sep. 30, 2025
+000007 | Receivables [Abstract]
+000008 | Accounts Receivable, Allowance for Credit Loss, Beginning Balance
+000009 | $ 144
+000010 | $ 110
+000011 | Net Provision for Credit Losses
+000012 | 36
+000013 | 33
+000014 | Write-offs charged against allowance/ other
+000015 | (19)
+000016 | (4)
+000017 | Accounts Receivable, Allowance for Credit Loss, Ending Balance
+000018 | 161
+000019 | 139
+000020 | Other Commitments [Line Items]
+000021 | Accounts Receivable, Allowance for Credit Loss, Current
+000022 | 161
+000023 | 139
+000024 | Net Provision for Credit Losses
+000025 | 36
+000026 | 33
+000027 | Write-offs charged against allowance/ other
+000028 | (19)
+000029 | (4)
+000030 | Corteva,Inc.
+000031 | Receivables [Abstract]
+000032 | Accounts Receivable, Allowance for Credit Loss, Beginning Balance
+000033 | 241
+000034 | 179
+000035 | Net Provision for Credit Losses
+000036 | 75
+000037 | 58
+000038 | Write-offs charged against allowance/ other
+000039 | (24)
+000040 | (17)
+000041 | Accounts Receivable, Allowance for Credit Loss, Ending Balance
+000042 | 292
+000043 | 220
+000044 | Other Commitments [Line Items]
+000045 | Accounts Receivable, Allowance for Credit Loss, Current
+000046 | 292
+000047 | 220
+000048 | Net Provision for Credit Losses
+000049 | 75
+000050 | 58
+000051 | Write-offs charged against allowance/ other
+000052 | $ (24)
+000053 | $ (17)
+000054 | X
+000055 | - Definition
+000056 | Amount of allowance for credit loss on accounts receivable, classified as current.
+000057 | + References
+000058 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000059 | -Topic 210
+000060 | -SubTopic 10
+000061 | -Name Accounting Standards Codification
+000062 | -Section S99
+000063 | -Paragraph 1
+000064 | -Subparagraph (SX 210.5-02(4))
+000065 | -Publisher FASB
+000066 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000067 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000068 | -Topic 326
+000069 | -SubTopic 20
+000070 | -Name Accounting Standards Codification
+000071 | -Section 45
+000072 | -Paragraph 1
+000073 | -Publisher FASB
+000074 | -URI https://asc.fasb.org/1943274/2147479344/326-20-45-1
+000075 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000076 | -Topic 310
+000077 | -SubTopic 10
+000078 | -Name Accounting Standards Codification
+000079 | -Section 50
+000080 | -Paragraph 4
+000081 | -Publisher FASB
+000082 | -URI https://asc.fasb.org/1943274/2147481962/310-10-50-4
+000083 | + Details
+000084 | Name:
+000085 | us-gaap_AllowanceForDoubtfulAccountsReceivableCurrent
+000086 | Namespace Prefix:
+000087 | us-gaap_
+000088 | Data Type:
+000089 | xbrli:monetaryItemType
+000090 | Balance Type:
+000091 | credit
+000092 | Period Type:
+000093 | instant
+000094 | X
+000095 | - Definition
+000096 | Amount of increase (decrease) in allowance for credit loss on accounts receivable.
+000097 | + References
+000098 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000099 | -Topic 326
+000100 | -SubTopic 20
+000101 | -Name Accounting Standards Codification
+000102 | -Section 50
+000103 | -Paragraph 13
+000104 | -Publisher FASB
+000105 | -URI https://asc.fasb.org/1943274/2147479319/326-20-50-13
+000106 | + Details
+000107 | Name:
+000108 | us-gaap_AllowanceForDoubtfulAccountsReceivablePeriodIncreaseDecrease
+000109 | Namespace Prefix:
+000110 | us-gaap_
+000111 | Data Type:
+000112 | xbrli:monetaryItemType
+000113 | Balance Type:
+000114 | na
+000115 | Period Type:
+000116 | duration
+000117 | X
+000118 | - Definition
+000119 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000120 | + References
+000121 | No definition available.
+000122 | + Details
+000123 | Name:
+000124 | us-gaap_OtherCommitmentsLineItems
+000125 | Namespace Prefix:
+000126 | us-gaap_
+000127 | Data Type:
+000128 | xbrli:stringItemType
+000129 | Balance Type:
+000130 | na
+000131 | Period Type:
+000132 | duration
+000133 | X
+000134 | - Definition
+000135 | Amount of expense (reversal of expense) for expected credit loss on accounts receivable.
+000136 | + References
+000137 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000138 | -Topic 326
+000139 | -SubTopic 20
+000140 | -Name Accounting Standards Codification
+000141 | -Section 50
+000142 | -Paragraph 13
+000143 | -Subparagraph (b)
+000144 | -Publisher FASB
+000145 | -URI https://asc.fasb.org/1943274/2147479319/326-20-50-13
+000146 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000147 | -Topic 220
+000148 | -SubTopic 40
+000149 | -Name Accounting Standards Codification
+000150 | -Section 50
+000151 | -Paragraph 22
+000152 | -Subparagraph (a)
+000153 | -Publisher FASB
+000154 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-22
+000155 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000156 | -Topic 220
+000157 | -SubTopic 10
+000158 | -Name Accounting Standards Codification
+000159 | -Section S99
+000160 | -Paragraph 2
+000161 | -Subparagraph (SX 210.5-03(5))
+000162 | -Publisher FASB
+000163 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000164 | + Details
+000165 | Name:
+000166 | us-gaap_ProvisionForDoubtfulAccounts
+000167 | Namespace Prefix:
+000168 | us-gaap_
+000169 | Data Type:
+000170 | xbrli:monetaryItemType
+000171 | Balance Type:
+000172 | debit
+000173 | Period Type:
+000174 | duration
+000175 | X
+000176 | - References
+000177 | No definition available.
+000178 | + Details
+000179 | Name:
+000180 | us-gaap_ReceivablesAbstract
+000181 | Namespace Prefix:
+000182 | us-gaap_
+000183 | Data Type:
+000184 | xbrli:stringItemType
+000185 | Balance Type:
+000186 | na
+000187 | Period Type:
+000188 | duration
+000189 | X
+000190 | - Details
+000191 | Name:
+000192 | dei_LegalEntityAxis=vylr_CortevaInc.Member
+000193 | Namespace Prefix:
+000194 | Data Type:
+000195 | na
+000196 | Balance Type:
+000197 | Period Type:

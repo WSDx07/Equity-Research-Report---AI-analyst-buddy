@@ -1,0 +1,46 @@
+{
+  "marks": [
+    {
+      "line": 14,
+      "value": "4 %",
+      "supported": true,
+      "reason": "The claim “4 %” appears verbatim in the cited EX‑99.1 line 8 (\"Pro forma net sales1 increased 4% versus prior year\")."
+    },
+    {
+      "line": 14,
+      "value": "first nine months of 2026",
+      "supported": false,
+      "reason": "The cited EX‑99.1 line 8 reports a YTD (nine‑month) result, but the line itself does not explicitly state \"first nine months of 2026\", so the period claim is not directly supported by the excerpt."
+    },
+    {
+      "line": 40,
+      "value": "$3 billion",
+      "supported": true,
+      "reason": "The 10‑Q excerpt at line 2151 contains the exact phrase \"$3 billion\" describing the authorized multi‑year share‑repurchase program, matching the claim."
+    },
+    {
+      "line": 41,
+      "value": "$0.13",
+      "supported": true,
+      "reason": "EX‑99.1 line 10 explicitly states \"$0.13 per share\" for the cash dividend, matching the claim exactly."
+    },
+    {
+      "line": 42,
+      "value": "$19 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 10 contains the exact wording \"$19 billion technology pipeline\", which matches the claim."
+    },
+    {
+      "line": 42,
+      "value": "12",
+      "supported": true,
+      "reason": "EX‑99.1 line 10 mentions \"12 groundbreaking technology platform launches\", directly supporting the claim of 12 platform launches."
+    },
+    {
+      "line": 66,
+      "value": "$3 bn",
+      "supported": false,
+      "reason": "The source text uses the phrase \"$3 billion\" whereas the claim uses the abbreviation \"$3 bn\"; the exact string is not present, so the claim is not directly supported."
+    }
+  ]
+}

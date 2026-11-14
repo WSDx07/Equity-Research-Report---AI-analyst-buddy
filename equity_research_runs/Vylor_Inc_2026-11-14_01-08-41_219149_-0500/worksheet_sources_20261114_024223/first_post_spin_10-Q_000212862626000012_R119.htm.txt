@@ -1,0 +1,428 @@
+000001 | v3.26.3
+000002 | Debt Securities - Held-to-Maturity (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Time Deposits and Money Market Funds | Cash Equivalents [Member]
+000008 | Schedule of Held-to-maturity Securities [Line Items]
+000009 | Held-to-maturity securities
+000010 | $ 669
+000011 | $ 358
+000012 | $ 478
+000013 | Time Deposits and Money Market Funds | Cash Equivalents [Member] | Corteva,Inc.
+000014 | Schedule of Held-to-maturity Securities [Line Items]
+000015 | Held-to-maturity securities
+000016 | [1]
+000017 | 1,910
+000018 | 3,431
+000019 | 1,726
+000020 | Bank Time Deposits | Marketable Securities [Member]
+000021 | Schedule of Held-to-maturity Securities [Line Items]
+000022 | Held-to-maturity securities
+000023 | 0
+000024 | 1
+000025 | 2
+000026 | Bank Time Deposits | Marketable Securities [Member] | Corteva,Inc.
+000027 | Schedule of Held-to-maturity Securities [Line Items]
+000028 | Held-to-maturity securities
+000029 | [2]
+000030 | $ 1
+000031 | $ 1
+000032 | $ 1
+000033 | [1]
+000034 | Maturity at time of purchase was three months or less.
+000035 | [2]
+000036 | Maturity at time of purchase was more than three months to less than one year.
+000037 | X
+000038 | - Definition
+000039 | Amount, before allowance for credit loss, of investment in debt security measured at amortized cost (held-to-maturity).
+000040 | + References
+000041 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000042 | -Topic 326
+000043 | -SubTopic 20
+000044 | -Name Accounting Standards Codification
+000045 | -Section 50
+000046 | -Paragraph 14
+000047 | -Publisher FASB
+000048 | -URI https://asc.fasb.org/1943274/2147479319/326-20-50-14
+000049 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000050 | -Topic 326
+000051 | -SubTopic 20
+000052 | -Name Accounting Standards Codification
+000053 | -Section 45
+000054 | -Paragraph 1
+000055 | -Publisher FASB
+000056 | -URI https://asc.fasb.org/1943274/2147479344/326-20-45-1
+000057 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000058 | -Topic 825
+000059 | -SubTopic 10
+000060 | -Name Accounting Standards Codification
+000061 | -Section 45
+000062 | -Paragraph 1A
+000063 | -Publisher FASB
+000064 | -URI https://asc.fasb.org/1943274/2147482736/825-10-45-1A
+000065 | Reference 4: http://fasb.org/us-gaap/role/ref/otherTransitionRef
+000066 | -Topic 310
+000067 | -SubTopic 10
+000068 | -Name Accounting Standards Codification
+000069 | -Section 50
+000070 | -Paragraph 7A
+000071 | -Publisher FASB
+000072 | -URI https://asc.fasb.org/1943274/2147481962/310-10-50-7A
+000073 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000074 | -Topic 320
+000075 | -SubTopic 10
+000076 | -Name Accounting Standards Codification
+000077 | -Section 50
+000078 | -Paragraph 5
+000079 | -Subparagraph (a)
+000080 | -Publisher FASB
+000081 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000082 | + Details
+000083 | Name:
+000084 | us-gaap_HeldToMaturitySecurities
+000085 | Namespace Prefix:
+000086 | us-gaap_
+000087 | Data Type:
+000088 | xbrli:monetaryItemType
+000089 | Balance Type:
+000090 | debit
+000091 | Period Type:
+000092 | instant
+000093 | X
+000094 | - Definition
+000095 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000096 | + References
+000097 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000098 | -Topic 320
+000099 | -SubTopic 10
+000100 | -Name Accounting Standards Codification
+000101 | -Section 50
+000102 | -Paragraph 5B
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5B
+000105 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000106 | -Topic 320
+000107 | -SubTopic 10
+000108 | -Name Accounting Standards Codification
+000109 | -Section 50
+000110 | -Paragraph 5
+000111 | -Subparagraph (f)
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000114 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000115 | -Topic 942
+000116 | -SubTopic 320
+000117 | -Name Accounting Standards Codification
+000118 | -Section 50
+000119 | -Paragraph 2
+000120 | -Subparagraph (g)
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2
+000123 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000124 | -Topic 942
+000125 | -SubTopic 320
+000126 | -Name Accounting Standards Codification
+000127 | -Section 50
+000128 | -Paragraph 2
+000129 | -Subparagraph (fff)
+000130 | -Publisher FASB
+000131 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2
+000132 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000133 | -Topic 942
+000134 | -SubTopic 320
+000135 | -Name Accounting Standards Codification
+000136 | -Section 50
+000137 | -Paragraph 2
+000138 | -Subparagraph (ff)
+000139 | -Publisher FASB
+000140 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2
+000141 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000142 | -Topic 942
+000143 | -SubTopic 320
+000144 | -Name Accounting Standards Codification
+000145 | -Section 50
+000146 | -Paragraph 2
+000147 | -Subparagraph (f)
+000148 | -Publisher FASB
+000149 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2
+000150 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000151 | -Topic 942
+000152 | -SubTopic 320
+000153 | -Name Accounting Standards Codification
+000154 | -Section 50
+000155 | -Paragraph 2
+000156 | -Subparagraph (e)
+000157 | -Publisher FASB
+000158 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2
+000159 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000160 | -Topic 942
+000161 | -SubTopic 320
+000162 | -Name Accounting Standards Codification
+000163 | -Section 50
+000164 | -Paragraph 2
+000165 | -Subparagraph (d)
+000166 | -Publisher FASB
+000167 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2
+000168 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000169 | -Topic 942
+000170 | -SubTopic 320
+000171 | -Name Accounting Standards Codification
+000172 | -Section 50
+000173 | -Paragraph 2
+000174 | -Subparagraph (c)
+000175 | -Publisher FASB
+000176 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2
+000177 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000178 | -Topic 942
+000179 | -SubTopic 320
+000180 | -Name Accounting Standards Codification
+000181 | -Section 50
+000182 | -Paragraph 2
+000183 | -Subparagraph (b)
+000184 | -Publisher FASB
+000185 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-2
+000186 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000187 | -Topic 942
+000188 | -SubTopic 320
+000189 | -Name Accounting Standards Codification
+000190 | -Section 50
+000191 | -Paragraph 3
+000192 | -Subparagraph (d)
+000193 | -Publisher FASB
+000194 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3
+000195 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000196 | -Topic 942
+000197 | -SubTopic 320
+000198 | -Name Accounting Standards Codification
+000199 | -Section 50
+000200 | -Paragraph 3
+000201 | -Subparagraph (c)
+000202 | -Publisher FASB
+000203 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3
+000204 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000205 | -Topic 942
+000206 | -SubTopic 320
+000207 | -Name Accounting Standards Codification
+000208 | -Section 50
+000209 | -Paragraph 3
+000210 | -Subparagraph (b)
+000211 | -Publisher FASB
+000212 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3
+000213 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000214 | -Topic 942
+000215 | -SubTopic 320
+000216 | -Name Accounting Standards Codification
+000217 | -Section 50
+000218 | -Paragraph 3
+000219 | -Subparagraph (a)
+000220 | -Publisher FASB
+000221 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3
+000222 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000223 | -Topic 942
+000224 | -SubTopic 320
+000225 | -Name Accounting Standards Codification
+000226 | -Section 50
+000227 | -Paragraph 3
+000228 | -Publisher FASB
+000229 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3
+000230 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000231 | -Topic 320
+000232 | -SubTopic 10
+000233 | -Name Accounting Standards Codification
+000234 | -Section 50
+000235 | -Paragraph 5
+000236 | -Subparagraph (a)
+000237 | -Publisher FASB
+000238 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000239 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000240 | -Topic 320
+000241 | -SubTopic 10
+000242 | -Name Accounting Standards Codification
+000243 | -Section 50
+000244 | -Paragraph 5
+000245 | -Subparagraph (aaa)
+000246 | -Publisher FASB
+000247 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000248 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+000249 | -Topic 320
+000250 | -SubTopic 10
+000251 | -Name Accounting Standards Codification
+000252 | -Section 50
+000253 | -Paragraph 5
+000254 | -Subparagraph (d)
+000255 | -Publisher FASB
+000256 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000257 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+000258 | -Topic 320
+000259 | -SubTopic 10
+000260 | -Name Accounting Standards Codification
+000261 | -Section 50
+000262 | -Paragraph 5
+000263 | -Subparagraph (e)
+000264 | -Publisher FASB
+000265 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000266 | Reference 20: http://www.xbrl.org/2003/role/disclosureRef
+000267 | -Topic 320
+000268 | -SubTopic 10
+000269 | -Name Accounting Standards Codification
+000270 | -Section 50
+000271 | -Paragraph 5
+000272 | -Subparagraph (f)(1)
+000273 | -Publisher FASB
+000274 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000275 | Reference 21: http://www.xbrl.org/2003/role/disclosureRef
+000276 | -Topic 320
+000277 | -SubTopic 10
+000278 | -Name Accounting Standards Codification
+000279 | -Section 50
+000280 | -Paragraph 5
+000281 | -Subparagraph (f)(2)
+000282 | -Publisher FASB
+000283 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000284 | Reference 22: http://www.xbrl.org/2003/role/disclosureRef
+000285 | -Topic 320
+000286 | -SubTopic 10
+000287 | -Name Accounting Standards Codification
+000288 | -Section 50
+000289 | -Paragraph 5
+000290 | -Subparagraph (f)(3)
+000291 | -Publisher FASB
+000292 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000293 | Reference 23: http://www.xbrl.org/2003/role/disclosureRef
+000294 | -Topic 320
+000295 | -SubTopic 10
+000296 | -Name Accounting Standards Codification
+000297 | -Section 50
+000298 | -Paragraph 5
+000299 | -Subparagraph (f)(4)
+000300 | -Publisher FASB
+000301 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000302 | Reference 24: http://www.xbrl.org/2003/role/disclosureRef
+000303 | -Topic 320
+000304 | -SubTopic 10
+000305 | -Name Accounting Standards Codification
+000306 | -Section 50
+000307 | -Paragraph 5A
+000308 | -Subparagraph (a)
+000309 | -Publisher FASB
+000310 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5A
+000311 | Reference 25: http://www.xbrl.org/2003/role/disclosureRef
+000312 | -Topic 320
+000313 | -SubTopic 10
+000314 | -Name Accounting Standards Codification
+000315 | -Section 50
+000316 | -Paragraph 5A
+000317 | -Subparagraph (b)
+000318 | -Publisher FASB
+000319 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5A
+000320 | Reference 26: http://www.xbrl.org/2003/role/disclosureRef
+000321 | -Topic 320
+000322 | -SubTopic 10
+000323 | -Name Accounting Standards Codification
+000324 | -Section 50
+000325 | -Paragraph 5A
+000326 | -Subparagraph (c)
+000327 | -Publisher FASB
+000328 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5A
+000329 | Reference 27: http://www.xbrl.org/2003/role/disclosureRef
+000330 | -Topic 320
+000331 | -SubTopic 10
+000332 | -Name Accounting Standards Codification
+000333 | -Section 50
+000334 | -Paragraph 5B
+000335 | -Subparagraph (a)
+000336 | -Publisher FASB
+000337 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5B
+000338 | Reference 28: http://www.xbrl.org/2003/role/disclosureRef
+000339 | -Topic 320
+000340 | -SubTopic 10
+000341 | -Name Accounting Standards Codification
+000342 | -Section 50
+000343 | -Paragraph 5B
+000344 | -Subparagraph (b)
+000345 | -Publisher FASB
+000346 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5B
+000347 | Reference 29: http://www.xbrl.org/2003/role/disclosureRef
+000348 | -Topic 320
+000349 | -SubTopic 10
+000350 | -Name Accounting Standards Codification
+000351 | -Section 50
+000352 | -Paragraph 5B
+000353 | -Subparagraph (c)
+000354 | -Publisher FASB
+000355 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5B
+000356 | Reference 30: http://www.xbrl.org/2003/role/disclosureRef
+000357 | -Topic 320
+000358 | -SubTopic 10
+000359 | -Name Accounting Standards Codification
+000360 | -Section 50
+000361 | -Paragraph 5B
+000362 | -Subparagraph (d)
+000363 | -Publisher FASB
+000364 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5B
+000365 | Reference 31: http://www.xbrl.org/2003/role/disclosureRef
+000366 | -Topic 320
+000367 | -SubTopic 10
+000368 | -Name Accounting Standards Codification
+000369 | -Section 50
+000370 | -Paragraph 5
+000371 | -Publisher FASB
+000372 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-5
+000373 | + Details
+000374 | Name:
+000375 | us-gaap_ScheduleOfHeldToMaturitySecuritiesLineItems
+000376 | Namespace Prefix:
+000377 | us-gaap_
+000378 | Data Type:
+000379 | xbrli:stringItemType
+000380 | Balance Type:
+000381 | na
+000382 | Period Type:
+000383 | duration
+000384 | X
+000385 | - Details
+000386 | Name:
+000387 | us-gaap_DebtInstrumentAxis=vylr_TimeDepositsAndMoneyMarketFundsMember
+000388 | Namespace Prefix:
+000389 | Data Type:
+000390 | na
+000391 | Balance Type:
+000392 | Period Type:
+000393 | X
+000394 | - Details
+000395 | Name:
+000396 | vylr_LocationStatementOfFinancialPositionBalanceAxis=us-gaap_CashEquivalentsMember
+000397 | Namespace Prefix:
+000398 | Data Type:
+000399 | na
+000400 | Balance Type:
+000401 | Period Type:
+000402 | X
+000403 | - Details
+000404 | Name:
+000405 | dei_LegalEntityAxis=vylr_CortevaInc.Member
+000406 | Namespace Prefix:
+000407 | Data Type:
+000408 | na
+000409 | Balance Type:
+000410 | Period Type:
+000411 | X
+000412 | - Details
+000413 | Name:
+000414 | us-gaap_DebtInstrumentAxis=us-gaap_BankTimeDepositsMember
+000415 | Namespace Prefix:
+000416 | Data Type:
+000417 | na
+000418 | Balance Type:
+000419 | Period Type:
+000420 | X
+000421 | - Details
+000422 | Name:
+000423 | vylr_LocationStatementOfFinancialPositionBalanceAxis=vylr_MarketableSecuritiesMember
+000424 | Namespace Prefix:
+000425 | Data Type:
+000426 | na
+000427 | Balance Type:
+000428 | Period Type:

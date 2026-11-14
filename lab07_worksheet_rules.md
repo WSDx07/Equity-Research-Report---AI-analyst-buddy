@@ -105,11 +105,11 @@ Use the course formula:
 - Persona execution: The persona writes the qualitative judgment from sourced filing facts, the value range, and the comparison of market price against the low case. It does not calculate numbers or receive other reader data.
 - View transition: The judgment must end with the exact evidence in the next filing that would change the view.
 
-## 7. Missing-data labels (including SportsQuest rule)
+## 7. Missing-data labels
 
-- Registry-present companies (including SportsQuest):
-  - If a company (such as SportsQuest) is in the seeker's registry, the skill reads its filings.
-  - Facts that the filings do not establish (such as parent distribution, distribution date, or distribution ratio) must be labeled `not known`.
+- Registry-present companies (including Vylor):
+  - If a company is in the seeker's registry, the skill reads its filings.
+  - Facts that the filings do not establish must be labeled `not known`.
   - The skill must never guess or invent missing facts.
 - Registry-absent companies:
   - If a ticker is absent from the seeker's registry, the skill labels spinoff-specific fields (parent, distribution ratio, record date, distribution date, parent debt/liabilities pushed down, parent after the spin) as `not applicable`.

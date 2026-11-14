@@ -1,0 +1,71 @@
+{
+  "company": {
+    "ticker": "VYLR",
+    "name": "Vylor Inc.",
+    "cik": 2128626,
+    "source": "https://www.sec.gov/files/company_tickers.json"
+  },
+  "as_of": "2026-11-14",
+  "retrieved_at": "2026-11-14T01:09:01.489953-05:00",
+  "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002128626.json",
+  "fiscal_year_end": null,
+  "prior_fiscal_year_end": null,
+  "preferred_10k_accession": null,
+  "limitation": "No annual 10-K facts established; quarterly facts are not annualized.",
+  "concepts": {
+    "total_revenue": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "operating_income": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "net_income": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "diluted_eps": {
+      "tag": null,
+      "unit": "USD/shares",
+      "current": null,
+      "prior": null
+    },
+    "stockholders_equity": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "long_term_debt_noncurrent": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "long_term_debt_current": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "cash_from_operations": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "additions_to_property_and_equipment": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    }
+  }
+}

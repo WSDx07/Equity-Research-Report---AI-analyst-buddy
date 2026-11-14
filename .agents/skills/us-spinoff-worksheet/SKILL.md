@@ -7,6 +7,20 @@ description: "Build a sourced Lab 07 investment worksheet from a saved agent-tea
 
 Use this skill to prepare a Lab 07 worksheet from a saved company run. Keep the selected ticker generic. Do not put a company name in code or assume that an example company is the selected ticker.
 
+## Automated command
+
+From the project root in PowerShell, substitute the saved run and reader-file paths:
+
+```powershell
+.\.venv\Scripts\python.exe .\.agents\skills\us-spinoff-worksheet\scripts\run_worksheet.py --run "<worksheet-run-folder>" --live-run "<live-release-run-folder>" --registry ".\spinoff_runs\registry-2026-11-13_22-39-11_137090_-0500_ddc00b3d.json" --env ".\.env" --bars "<worksheet-bars.json>" --live-bars "<live-release-bars.json>"
+```
+
+The saved runs need `facts.json`, `filings.json`, and the saved filing text. The `.env` needs `SEC_USER_AGENT` and `PURDUE_API_KEY`. Reader files must be output from the verified regular-way closes and volume reader and stay outside the repository. Use the same-company form without `--live-run` and `--live-bars` when the worksheet and release are for the same ticker. Omit a missing bars argument to produce `not computed` for the corresponding price and view. `--release-accession` selects an 8-K; otherwise the most recent saved 8-K with Item 2.02 is used. If its SEC acceptance time is unavailable, the pre-release price and view stay `not computed`.
+
+The command saves an SEC source pack and a dated worksheet in the saved run, calculates in Python, and makes one Purdue model request for the qualitative judgment. Its filing-text extraction is conservative and supports limited statement and narrative formats. It identifies unsupported or ambiguous facts as not established, rather than claiming the filing does not contain them. It does not establish that all covenants or restrictions have been found. The staged numeric-claim hook uses a separate marked draft format; the automatic renderer's output has not been integrated with that guard.
+
+The sections below document the individual helper workflow and the marked-draft format. They are not additional model calls required by the automated command.
+
 ## Scope and inputs
 
 - Read `lab07_worksheet_rules.md` before extracting or calculating a fact. Treat it as the source for client size, periods, units, valuation rates, liquidity lookback, conviction, and missing-data rules.
@@ -139,6 +153,6 @@ python .\.agents\skills\us-spinoff-worksheet\scripts\hit_rate_table.py --runs ".
 
 The denominator excludes rows marked `after`, views marked `not computed`, and rows with no reaction. The table reports short-term price reaction only. It does not score whether the value range was right.
 
-## Lab boundary
+## Execution limits
 
-This skill prepares the toolchain. A complete Lab 07 session still requires the actual paired-review choice, the live company release, the agent-team run, the partner-selected worksheet name, hook review and trust, the seeded-copy and clean-copy hook checks, and any live report required by the class. Do not perform those steps as part of pre-work alone.
+`prepare_worksheet.py` collects sources only. Use `run_worksheet.py` for the automated workflow. Neither the conservative extractor nor a successful model response proves that every fact in a filing has been found. Review the saved sources and preserve gaps. The automatic worksheet and the staged hook need integration before the hook can validate that output.

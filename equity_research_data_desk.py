@@ -203,11 +203,18 @@ class Desk:
         submissions = self.submissions(company["cik"])
         rows = submissions["rows"]
         result = {"submissions_url": submissions["url"], "filing_list": [{key: row.get(key) for key in ("form", "filingDate", "accessionNumber", "items")} for row in rows]}
-        for form in ("10-K", "10-Q"):
-            row = next((row for row in rows if row["form"] == form), None)
-            if row is None:
-                raise ValueError(f"No {form} found for {self.ticker} as of {AS_OF}")
-            result[form] = {**row, **self.index_details(company["cik"], row)}
+        annual = next((row for row in rows if row["form"] == "10-K"), None)
+        if annual:
+            result["10-K"] = {**annual, **self.index_details(company["cik"], annual)}
+        else:
+            registration = next((row for row in rows if row["form"] in {"10-12B", "10-12B/A", "10-12G", "10-12G/A"}), None)
+            if not registration:
+                raise ValueError(f"No 10-K or Form 10 registration found for {self.ticker} as of {AS_OF}")
+            result["Form 10"] = {**registration, **self.index_details(company["cik"], registration)}
+        quarterly = next((row for row in rows if row["form"] == "10-Q"), None)
+        if quarterly is None:
+            raise ValueError(f"No 10-Q found for {self.ticker} as of {AS_OF}")
+        result["10-Q"] = {**quarterly, **self.index_details(company["cik"], quarterly)}
         for row in rows:
             if row["form"] != "8-K" or "2.02" not in (row.get("items") or ""):
                 continue
@@ -231,9 +238,10 @@ class Desk:
 
     def download_documents(self) -> None:
         filings = self.choose_filings()
-        for form in ("10-K", "10-Q", "8-K"):
+        for form in (("10-K" if "10-K" in filings else "Form 10"), "10-Q", "8-K"):
             detail = filings[form]
-            document = next((doc for doc in detail["documents"] if doc["type"] == form), None)
+            document_type = "EX-99.1" if form == "Form 10" else form
+            document = next((doc for doc in detail["documents"] if doc["type"].upper() == document_type), None)
             if document is None:
                 raise ValueError(f"Primary {form} document missing from {detail['index_url']}")
             content = self.filing_text.get(form) or text_from_html(self.client.get(document["url"]))
@@ -289,6 +297,14 @@ class Desk:
         revenue_tags, revenue_unit, _ = CONCEPTS["total_revenue"]
         revenue_tag, revenue_records = self.choose_tag(raw["facts"], revenue_tags, revenue_unit, True)
         if not revenue_records:
+            filings = self.submissions(company["cik"])["rows"]
+            if not any(row["form"] == "10-K" for row in filings) and any(row["form"] in {"10-12B", "10-12B/A", "10-12G", "10-12G/A"} for row in filings):
+                return {"company": company, "as_of": AS_OF, "retrieved_at": datetime.now().astimezone().isoformat(),
+                        "source": url, "fiscal_year_end": None, "prior_fiscal_year_end": None,
+                        "preferred_10k_accession": None,
+                        "limitation": "No annual 10-K facts established; quarterly facts are not annualized.",
+                        "concepts": {name: {"tag": None, "unit": unit, "current": None, "prior": None}
+                                     for name, (_, unit, _) in CONCEPTS.items()}}
             raise ValueError(f"No annual revenue concept found for {company['ticker']}")
         filings = self.submissions(company["cik"])["rows"]
         latest_annual = next((row for row in filings if row["form"] == "10-K"), None)
@@ -325,7 +341,9 @@ class Desk:
         return None if record is None else Decimal(str(record["val"]))
 
     def show_facts(self, facts: dict) -> None:
-        say(f"  Fiscal year ended {facts['fiscal_year_end']}; prior year ended {facts['prior_fiscal_year_end']}")
+        say(f"  Fiscal year ended {facts['fiscal_year_end'] or 'unavailable'}; prior year ended {facts['prior_fiscal_year_end'] or 'unavailable'}")
+        if facts.get('limitation'):
+            say(f"  Limitation: {facts['limitation']}")
         say(f"  Source: {facts['source']}")
         for name, item in facts["concepts"].items():
             say(f"  {name} [{item['tag'] or 'tag unavailable'}]")
@@ -404,7 +422,7 @@ class Desk:
             for row in selected_filings["filing_list"]:
                 say(f"    {row['filingDate']} | {row['form']} | {row['accessionNumber']} | items {row['items'] or '-'}")
             for form, detail in selected_filings.items():
-                if form in ("10-K", "10-Q", "8-K"):
+                if form in ("10-K", "Form 10", "10-Q", "8-K"):
                     say(f"  {form}: {detail['accessionNumber']} | filed {detail['filingDate']} | Accepted {detail['accepted']} | {detail['index_url']}")
         if self.selected(3):
             self.announce(3, "Download documents and convert to plain text")

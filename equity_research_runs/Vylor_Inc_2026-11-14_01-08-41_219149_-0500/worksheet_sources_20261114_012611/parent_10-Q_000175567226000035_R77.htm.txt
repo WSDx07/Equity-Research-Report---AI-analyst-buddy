@@ -1,0 +1,398 @@
+000001 | v3.26.3
+000002 | Commitments and Contingent Liabilities Environmental (Details)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | USD ($)
+000006 | Loss Contingencies [Line Items]
+000007 | Indemnification Asset
+000008 | $ 363
+000009 | Accrual for Environmental Loss Contingencies
+000010 | 582
+000011 | Accrual for Environmental Loss Contingencies, Potential Exposure in Excess of Accrual
+000012 | 581
+000013 | DuPont de Nemours
+000014 | Loss Contingencies [Line Items]
+000015 | Stray liability threshold
+000016 | 200
+000017 | Superfund Sites
+000018 | Loss Contingencies [Line Items]
+000019 | Accrual for Environmental Loss Contingencies
+000020 | 49
+000021 | Superfund Sites | Chemours | Indemnification Agreement
+000022 | Loss Contingencies [Line Items]
+000023 | Indemnification Asset
+000024 | 22
+000025 | Chemours related obligation subject to indemnification
+000026 | Loss Contingencies [Line Items]
+000027 | Indemnification Asset
+000028 | 274
+000029 | [1],[2]
+000030 | Accrual for Environmental Loss Contingencies
+000031 | 289
+000032 | [1],[2],[3]
+000033 | Accrual for Environmental Loss Contingencies, Potential Exposure in Excess of Accrual
+000034 | 199
+000035 | [1],[2],[3]
+000036 | Discontinued Operations
+000037 | Loss Contingencies [Line Items]
+000038 | Indemnification Asset
+000039 | 38
+000040 | [1]
+000041 | Other discontinued or divested business obligations
+000042 | Loss Contingencies [Line Items]
+000043 | Accrual for Environmental Loss Contingencies
+000044 | 75
+000045 | [1],[3]
+000046 | Accrual for Environmental Loss Contingencies, Potential Exposure in Excess of Accrual
+000047 | 202
+000048 | [1],[3]
+000049 | Environmental remediation liabilities primarily related to DuPont - subject to indemnity from DuPont
+000050 | Loss Contingencies [Line Items]
+000051 | Indemnification Asset
+000052 | 51
+000053 | [2]
+000054 | Accrual for Environmental Loss Contingencies
+000055 | 56
+000056 | [2],[3]
+000057 | Accrual for Environmental Loss Contingencies, Potential Exposure in Excess of Accrual
+000058 | 53
+000059 | [2],[3]
+000060 | Not subject to indemnification
+000061 | Loss Contingencies [Line Items]
+000062 | Indemnification Asset
+000063 | 0
+000064 | Accrual for Environmental Loss Contingencies
+000065 | 105
+000066 | Accrual for Environmental Loss Contingencies, Potential Exposure in Excess of Accrual
+000067 | 117
+000068 | Indemnification liabilities related to the MOU
+000069 | Loss Contingencies [Line Items]
+000070 | Indemnification Asset
+000071 | 0
+000072 | [4]
+000073 | Accrual for Environmental Loss Contingencies
+000074 | 57
+000075 | [3],[4]
+000076 | Accrual for Environmental Loss Contingencies, Potential Exposure in Excess of Accrual
+000077 | $ 10
+000078 | [3],[4]
+000079 | [1]
+000080 | Represents liabilities that are subject to the $200 million threshold and sharing arrangements as discussed in the section entitled “Corteva Separation Agreement” within Note 12 - Commitments and Contingent Liabilities, to the interim Consolidated Financial Statements.
+000081 | [2]
+000082 | The company has recorded an indemnification asset related to these accruals, including $22 million related to the Superfund sites.
+000083 | [3]
+000084 | Accrual balance represents management’s best estimate of the costs of remediation and restoration, although it is reasonably possible that the potential exposure, as indicated, could range above the amounts accrued, as there are inherent uncertainties in these estimates. Accrual balance includes $49 million for remediation of Superfund sites. Amounts do not include possible impacts from the remediation elements of the EPA’s October 2021 PFAS Strategic Roadmap (as applicable), except as disclosed in the section entitled “Fayetteville Works Facility, North Carolina” within Note 12 - Commitments and Contingent Liabilities, to the interim Consolidated Financial Statements, relating to Chemours’ remediation activities at the Fayetteville Works Facility pursuant to the Consent Order with the North Carolina Department of Environmental Quality (“NC DEQ”).
+000085 | [4]
+000086 | Represents liabilities that are subject to the $150 million threshold and sharing agreements as discussed in the section entitled “Chemours Separation Agreement (Performance Chemicals)” within Note 12 - Commitments and Contingent Liabilities, to the interim Consolidated Financial Statements.
+000087 | X
+000088 | - Definition
+000089 | Accrual for Environmental Loss Contingencies, Potential Exposure in Excess of Accrual
+000090 | + References
+000091 | No definition available.
+000092 | + Details
+000093 | Name:
+000094 | ctva_AccrualforEnvironmentalLossContingenciesPotentialExposureinExcessofAccrual
+000095 | Namespace Prefix:
+000096 | ctva_
+000097 | Data Type:
+000098 | xbrli:monetaryItemType
+000099 | Balance Type:
+000100 | credit
+000101 | Period Type:
+000102 | instant
+000103 | X
+000104 | - Definition
+000105 | Indemnification asset for indemnified liabilities related to environmental remediation.
+000106 | + References
+000107 | No definition available.
+000108 | + Details
+000109 | Name:
+000110 | ctva_IndemnificationAsset
+000111 | Namespace Prefix:
+000112 | ctva_
+000113 | Data Type:
+000114 | xbrli:monetaryItemType
+000115 | Balance Type:
+000116 | debit
+000117 | Period Type:
+000118 | instant
+000119 | X
+000120 | - Definition
+000121 | Amount over and above specified amounts of liability, for which Corteva and DuPont are responsible for strays.
+000122 | + References
+000123 | No definition available.
+000124 | + Details
+000125 | Name:
+000126 | ctva_Strayliabilitythreshold
+000127 | Namespace Prefix:
+000128 | ctva_
+000129 | Data Type:
+000130 | xbrli:monetaryItemType
+000131 | Balance Type:
+000132 | credit
+000133 | Period Type:
+000134 | instant
+000135 | X
+000136 | - Definition
+000137 | Total costs accrued as of the balance sheet date for environmental loss contingencies.
+000138 | + References
+000139 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000140 | -Topic 450
+000141 | -SubTopic 20
+000142 | -Name Accounting Standards Codification
+000143 | -Section 50
+000144 | -Paragraph 1
+000145 | -Publisher FASB
+000146 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000147 | Reference 2: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000148 | -Topic 410
+000149 | -SubTopic 30
+000150 | -Name Accounting Standards Codification
+000151 | -Section 50
+000152 | -Paragraph 10
+000153 | -Subparagraph (d)(1)
+000154 | -Publisher FASB
+000155 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-10
+000156 | Reference 3: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000157 | -Topic 410
+000158 | -SubTopic 30
+000159 | -Name Accounting Standards Codification
+000160 | -Section 50
+000161 | -Paragraph 10
+000162 | -Subparagraph (d)(3)
+000163 | -Publisher FASB
+000164 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-10
+000165 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000166 | -Topic 410
+000167 | -SubTopic 30
+000168 | -Name Accounting Standards Codification
+000169 | -Section 55
+000170 | -Paragraph 16
+000171 | -Publisher FASB
+000172 | -URI https://asc.fasb.org/1943274/2147481899/410-30-55-16
+000173 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000174 | -Topic 450
+000175 | -SubTopic 20
+000176 | -Name Accounting Standards Codification
+000177 | -Section S99
+000178 | -Paragraph 1
+000179 | -Subparagraph (SAB Topic 5.Y.Q1)
+000180 | -Publisher FASB
+000181 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000182 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000183 | -Topic 410
+000184 | -SubTopic 30
+000185 | -Name Accounting Standards Codification
+000186 | -Section 50
+000187 | -Paragraph 7
+000188 | -Publisher FASB
+000189 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-7
+000190 | + Details
+000191 | Name:
+000192 | us-gaap_AccrualForEnvironmentalLossContingencies
+000193 | Namespace Prefix:
+000194 | us-gaap_
+000195 | Data Type:
+000196 | xbrli:monetaryItemType
+000197 | Balance Type:
+000198 | credit
+000199 | Period Type:
+000200 | instant
+000201 | X
+000202 | - Definition
+000203 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000204 | + References
+000205 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000206 | -Topic 450
+000207 | -SubTopic 20
+000208 | -Name Accounting Standards Codification
+000209 | -Section 50
+000210 | -Paragraph 9
+000211 | -Subparagraph (a)
+000212 | -Publisher FASB
+000213 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000214 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000215 | -Topic 450
+000216 | -SubTopic 20
+000217 | -Name Accounting Standards Codification
+000218 | -Section 50
+000219 | -Paragraph 4
+000220 | -Subparagraph (a)
+000221 | -Publisher FASB
+000222 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000223 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000224 | -Topic 405
+000225 | -SubTopic 30
+000226 | -Name Accounting Standards Codification
+000227 | -Section 50
+000228 | -Paragraph 1
+000229 | -Publisher FASB
+000230 | -URI https://asc.fasb.org/1943274/2147482645/405-30-50-1
+000231 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000232 | -Topic 944
+000233 | -SubTopic 40
+000234 | -Name Accounting Standards Codification
+000235 | -Section S99
+000236 | -Paragraph 1
+000237 | -Subparagraph (SAB Topic 5.W.Q2)
+000238 | -Publisher FASB
+000239 | -URI https://asc.fasb.org/1943274/2147479583/944-40-S99-1
+000240 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000241 | -Topic 275
+000242 | -SubTopic 10
+000243 | -Name Accounting Standards Codification
+000244 | -Section 50
+000245 | -Paragraph 9
+000246 | -Publisher FASB
+000247 | -URI https://asc.fasb.org/1943274/2147482861/275-10-50-9
+000248 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000249 | -Topic 720
+000250 | -SubTopic 20
+000251 | -Name Accounting Standards Codification
+000252 | -Section 50
+000253 | -Paragraph 1
+000254 | -Publisher FASB
+000255 | -URI https://asc.fasb.org/1943274/2147483359/720-20-50-1
+000256 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000257 | -Topic 460
+000258 | -SubTopic 10
+000259 | -Name Accounting Standards Codification
+000260 | -Section 55
+000261 | -Paragraph 27
+000262 | -Publisher FASB
+000263 | -URI https://asc.fasb.org/1943274/2147482395/460-10-55-27
+000264 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000265 | -Topic 450
+000266 | -SubTopic 20
+000267 | -Name Accounting Standards Codification
+000268 | -Section 50
+000269 | -Paragraph 9
+000270 | -Subparagraph (b)
+000271 | -Publisher FASB
+000272 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000273 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000274 | -Topic 450
+000275 | -SubTopic 20
+000276 | -Name Accounting Standards Codification
+000277 | -Section 50
+000278 | -Paragraph 4
+000279 | -Subparagraph (b)
+000280 | -Publisher FASB
+000281 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000282 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000283 | -Topic 460
+000284 | -SubTopic 10
+000285 | -Name Accounting Standards Codification
+000286 | -Section 50
+000287 | -Paragraph 3
+000288 | -Publisher FASB
+000289 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-3
+000290 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000291 | -Topic 450
+000292 | -SubTopic 20
+000293 | -Name Accounting Standards Codification
+000294 | -Section 50
+000295 | -Paragraph 1
+000296 | -Publisher FASB
+000297 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000298 | + Details
+000299 | Name:
+000300 | us-gaap_LossContingenciesLineItems
+000301 | Namespace Prefix:
+000302 | us-gaap_
+000303 | Data Type:
+000304 | xbrli:stringItemType
+000305 | Balance Type:
+000306 | na
+000307 | Period Type:
+000308 | duration
+000309 | X
+000310 | - Details
+000311 | Name:
+000312 | srt_CounterpartyNameAxis=ctva_DuPontdeNemoursMember
+000313 | Namespace Prefix:
+000314 | Data Type:
+000315 | na
+000316 | Balance Type:
+000317 | Period Type:
+000318 | X
+000319 | - Details
+000320 | Name:
+000321 | us-gaap_EnvironmentalRemediationSiteAxis=ctva_SuperfundSitesMember
+000322 | Namespace Prefix:
+000323 | Data Type:
+000324 | na
+000325 | Balance Type:
+000326 | Period Type:
+000327 | X
+000328 | - Details
+000329 | Name:
+000330 | srt_CounterpartyNameAxis=ctva_ChemoursMember
+000331 | Namespace Prefix:
+000332 | Data Type:
+000333 | na
+000334 | Balance Type:
+000335 | Period Type:
+000336 | X
+000337 | - Details
+000338 | Name:
+000339 | us-gaap_LossContingenciesByNatureOfContingencyAxis=us-gaap_IndemnificationGuaranteeMember
+000340 | Namespace Prefix:
+000341 | Data Type:
+000342 | na
+000343 | Balance Type:
+000344 | Period Type:
+000345 | X
+000346 | - Details
+000347 | Name:
+000348 | ctva_EnvironmentalRemediationStrayLiabilitiesAxis=ctva_ChemoursrelatedobligationsubjecttoindemnificationMember
+000349 | Namespace Prefix:
+000350 | Data Type:
+000351 | na
+000352 | Balance Type:
+000353 | Period Type:
+000354 | X
+000355 | - Details
+000356 | Name:
+000357 | ctva_EnvironmentalRemediationStrayLiabilitiesAxis=us-gaap_SegmentDiscontinuedOperationsMember
+000358 | Namespace Prefix:
+000359 | Data Type:
+000360 | na
+000361 | Balance Type:
+000362 | Period Type:
+000363 | X
+000364 | - Details
+000365 | Name:
+000366 | ctva_EnvironmentalRemediationStrayLiabilitiesAxis=ctva_OtherdiscontinuedordivestedbusinessobligationsMember
+000367 | Namespace Prefix:
+000368 | Data Type:
+000369 | na
+000370 | Balance Type:
+000371 | Period Type:
+000372 | X
+000373 | - Details
+000374 | Name:
+000375 | ctva_EnvironmentalRemediationStrayLiabilitiesAxis=ctva_EnvironmentalremediationliabilitiesprimarilyrelatedtoDuPontsubjecttoindemnityfromDuPontMember
+000376 | Namespace Prefix:
+000377 | Data Type:
+000378 | na
+000379 | Balance Type:
+000380 | Period Type:
+000381 | X
+000382 | - Details
+000383 | Name:
+000384 | ctva_EnvironmentalRemediationStrayLiabilitiesAxis=ctva_NotsubjecttoindemnificationMember
+000385 | Namespace Prefix:
+000386 | Data Type:
+000387 | na
+000388 | Balance Type:
+000389 | Period Type:
+000390 | X
+000391 | - Details
+000392 | Name:
+000393 | ctva_EnvironmentalRemediationStrayLiabilitiesAxis=ctva_IndemnificationLiabilitiesRelatedToTheMOUDomain
+000394 | Namespace Prefix:
+000395 | Data Type:
+000396 | na
+000397 | Balance Type:
+000398 | Period Type:

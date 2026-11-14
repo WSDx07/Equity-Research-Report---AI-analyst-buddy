@@ -1,0 +1,166 @@
+000001 | v3.26.3
+000002 | Revenue Narrative (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Disaggregation of Revenue [Line Items]
+000008 | Revenue, Remaining Performance Obligation, Amount
+000009 | $ 158
+000010 | $ 150
+000011 | $ 147
+000012 | Maximum [Member]
+000013 | Disaggregation of Revenue [Line Items]
+000014 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction, Period
+000015 | 6 years
+000016 | X
+000017 | - Definition
+000018 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000019 | + References
+000020 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000021 | -Topic 606
+000022 | -SubTopic 10
+000023 | -Name Accounting Standards Codification
+000024 | -Section 50
+000025 | -Paragraph 7
+000026 | -Publisher FASB
+000027 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-7
+000028 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000029 | -Topic 606
+000030 | -SubTopic 10
+000031 | -Name Accounting Standards Codification
+000032 | -Section 50
+000033 | -Paragraph 5
+000034 | -Publisher FASB
+000035 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-5
+000036 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000037 | -Topic 606
+000038 | -SubTopic 10
+000039 | -Name Accounting Standards Codification
+000040 | -Section 55
+000041 | -Paragraph 91
+000042 | -Subparagraph (a)
+000043 | -Publisher FASB
+000044 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000045 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000046 | -Topic 606
+000047 | -SubTopic 10
+000048 | -Name Accounting Standards Codification
+000049 | -Section 55
+000050 | -Paragraph 91
+000051 | -Subparagraph (b)
+000052 | -Publisher FASB
+000053 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000054 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000055 | -Topic 606
+000056 | -SubTopic 10
+000057 | -Name Accounting Standards Codification
+000058 | -Section 55
+000059 | -Paragraph 91
+000060 | -Subparagraph (c)
+000061 | -Publisher FASB
+000062 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000063 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000064 | -Topic 606
+000065 | -SubTopic 10
+000066 | -Name Accounting Standards Codification
+000067 | -Section 55
+000068 | -Paragraph 91
+000069 | -Subparagraph (d)
+000070 | -Publisher FASB
+000071 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000072 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000073 | -Topic 606
+000074 | -SubTopic 10
+000075 | -Name Accounting Standards Codification
+000076 | -Section 55
+000077 | -Paragraph 91
+000078 | -Subparagraph (e)
+000079 | -Publisher FASB
+000080 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000081 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+000082 | -Topic 606
+000083 | -SubTopic 10
+000084 | -Name Accounting Standards Codification
+000085 | -Section 55
+000086 | -Paragraph 91
+000087 | -Subparagraph (f)
+000088 | -Publisher FASB
+000089 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000090 | Reference 9: http://www.xbrl.org/2003/role/exampleRef
+000091 | -Topic 606
+000092 | -SubTopic 10
+000093 | -Name Accounting Standards Codification
+000094 | -Section 55
+000095 | -Paragraph 91
+000096 | -Subparagraph (g)
+000097 | -Publisher FASB
+000098 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000099 | + Details
+000100 | Name:
+000101 | us-gaap_DisaggregationOfRevenueLineItems
+000102 | Namespace Prefix:
+000103 | us-gaap_
+000104 | Data Type:
+000105 | xbrli:stringItemType
+000106 | Balance Type:
+000107 | na
+000108 | Period Type:
+000109 | duration
+000110 | X
+000111 | - Definition
+000112 | Amount of transaction price allocated to performance obligation that has not been recognized as revenue.
+000113 | + References
+000114 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000115 | -Name Accounting Standards Codification
+000116 | -Section 50
+000117 | -Paragraph 13
+000118 | -Subparagraph (a)
+000119 | -SubTopic 10
+000120 | -Topic 606
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-13
+000123 | + Details
+000124 | Name:
+000125 | us-gaap_RevenueRemainingPerformanceObligation
+000126 | Namespace Prefix:
+000127 | us-gaap_
+000128 | Data Type:
+000129 | xbrli:monetaryItemType
+000130 | Balance Type:
+000131 | credit
+000132 | Period Type:
+000133 | instant
+000134 | X
+000135 | - Definition
+000136 | Period in which remaining performance obligation is expected to be recognized as revenue, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000137 | + References
+000138 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000139 | -Topic 606
+000140 | -SubTopic 10
+000141 | -Name Accounting Standards Codification
+000142 | -Section 50
+000143 | -Paragraph 13
+000144 | -Subparagraph (b)(1)
+000145 | -Publisher FASB
+000146 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-13
+000147 | + Details
+000148 | Name:
+000149 | us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionPeriod1
+000150 | Namespace Prefix:
+000151 | us-gaap_
+000152 | Data Type:
+000153 | xbrli:durationItemType
+000154 | Balance Type:
+000155 | na
+000156 | Period Type:
+000157 | instant
+000158 | X
+000159 | - Details
+000160 | Name:
+000161 | srt_RangeAxis=srt_MaximumMember
+000162 | Namespace Prefix:
+000163 | Data Type:
+000164 | na
+000165 | Balance Type:
+000166 | Period Type:

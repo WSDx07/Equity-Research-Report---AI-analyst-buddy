@@ -126,7 +126,8 @@ def calculate(inputs, rules):
         try:
             price = dec(price_item['value'], 'market price')
             price_date = date.fromisoformat(str(price_item['date'])).isoformat()
-            if price <= 0 or not price_item.get('reader_source') or price_item.get('basis') != 'official_unadjusted':
+            if (price <= 0 or date.fromisoformat(price_date) > as_of
+                    or not price_item.get('reader_source') or price_item.get('basis') != 'official_unadjusted'):
                 raise ValueError('Market price is missing its verified reader source')
         except (ValueError, KeyError, TypeError) as exc:
             price = None
@@ -204,19 +205,19 @@ def calculate(inputs, rules):
     conviction_reason = None
     if price is None:
         conviction_reason = price_gap or 'market price is not known'
-    elif low_per_share is None:
-        conviction_reason = s_gap or ocf_gap or 'low-case value per share is not computed'
-    elif liquidity['supported'] is None:
-        conviction_reason = liquidity['reason']
     else:
-        price_cutoff = dec(rules['safety_price_multiple'], 'margin-of-safety cutoff') * dec(low_per_share, 'low-case value per share')
+        price_pass = None
+        if low_per_share is not None:
+            price_cutoff = dec(rules['safety_price_multiple'], 'margin-of-safety cutoff') * dec(low_per_share, 'low-case value per share')
+            price_pass = price <= price_cutoff
         high_conditions = [
-            ('price at or below low-case threshold', price <= price_cutoff),
+            ('price at or below low-case threshold', price_pass),
             ('purchase size within liquidity limit', liquidity['supported']),
             ('no material debt, covenant, parent-liability, or restriction gaps', not material_unknowns),
         ]
-        conviction = 'high' if all(ok for _, ok in high_conditions) else 'low'
-        conviction_reason = '; '.join(f'{label}: {"pass" if ok else "fail"}' for label, ok in high_conditions)
+        states = [ok for _, ok in high_conditions]
+        conviction = 'low' if False in states else ('high' if all(ok is True for ok in states) else 'not computed')
+        conviction_reason = '; '.join(f'{label}: {"unknown" if ok is None else "pass" if ok else "fail"}' for label, ok in high_conditions)
 
     missing = [gap for gap in (ocf_gap, s_gap, price_gap, liquidity['reason']) if gap]
     missing.extend(str(item) for item in material_unknowns if item)

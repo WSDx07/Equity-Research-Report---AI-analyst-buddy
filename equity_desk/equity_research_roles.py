@@ -29,7 +29,7 @@ class Plan(BaseModel):
 class Claim(BaseModel):
     section: Literal["Overview", "Market Positioning and Growth Outlook", "Future Developments and Strategic Recommendations"]
     claim: str
-    document: Literal["10-K", "EX-99.1"]
+    document: Literal["10-K", "10-Q", "EX-99.1"]
     line: int
     quote: str
 
@@ -155,7 +155,7 @@ def call(client, model: str, role: str, instructions: str, task: str, context: d
 def research_errors(research: Research, docs: dict[str, str]) -> list[str]:
     errors = []
     for i, claim in enumerate(research.claims, 1):
-        lines = docs[claim.document].splitlines()
+        lines = docs.get(claim.document, '').splitlines()
         if claim.line < 1 or claim.line > len(lines) or not claim.quote.strip() or claim.quote not in lines[claim.line - 1]:
             errors.append(f"Claim {i} has an invalid or non-verbatim document line and quote.")
         elif not claim_numbers_supported(claim):

@@ -1,0 +1,184 @@
+{
+  "marks": [
+    {
+      "line": 14,
+      "value": "80.6 %",
+      "supported": false,
+      "reason": "The report cites 10‑K line 172 for the 80.6 % figure, but the supplied 10‑K excerpt does not contain that line or any statement of the percentage. Without a matching filing excerpt the claim cannot be verified."
+    },
+    {
+      "line": 14,
+      "value": "10.0 %",
+      "supported": false,
+      "reason": "The report cites 10‑K line 172 for the ‘more than 10.0 %’ figure for each of the four largest customers, but the provided 10‑K excerpt does not show that information, so the claim is not supported by the available source."
+    },
+    {
+      "line": 60,
+      "value": "188.0 million",
+      "supported": true,
+      "reason": "EX‑99.1 line 52 explicitly states the share count used for diluted EPS calculations as 188.0 million, matching the claim."
+    },
+    {
+      "line": 63,
+      "value": "624.3",
+      "supported": false,
+      "reason": "The statement that operating cash flow turned positive is backed only by a quoted table fragment (\"$ 624.3\") that is not present in any of the supplied filing excerpts. Therefore the numeric claim cannot be verified."
+    },
+    {
+      "line": 73,
+      "value": "39.0 %",
+      "supported": false,
+      "reason": "The claim of 39.0 % of net revenue coming from platform manufacturers references 10‑K line 298, which is not included in the provided 10‑K excerpt. No evidence is available to confirm the percentage."
+    },
+    {
+      "line": 79,
+      "value": "1.60 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 19 reports fiscal‑Q2 net bookings of $1.60 billion, exactly matching the claim."
+    },
+    {
+      "line": 82,
+      "value": "7.98 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 65 lists total net revenue guidance as $7,980 to $8,180 million, which corresponds to $7.98 billion to $8.18 billion as stated in the report."
+    },
+    {
+      "line": 82,
+      "value": "8.18 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 65 lists total net revenue guidance as $7,980 to $8,180 million, which corresponds to $7.98 billion to $8.18 billion as stated in the report."
+    },
+    {
+      "line": 83,
+      "value": "8.0 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 86 shows Net Bookings guidance of $8,000 to $8,200 million, which equals $8.0 billion to $8.2 billion as reported."
+    },
+    {
+      "line": 83,
+      "value": "8.2 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 86 shows Net Bookings guidance of $8,000 to $8,200 million, which equals $8.0 billion to $8.2 billion as reported."
+    },
+    {
+      "line": 38,
+      "value": "6656400000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax for the period 2025‑04‑01 to 2026‑03‑31 has value 6 656 400 000 USD, matching the reported result."
+    },
+    {
+      "line": 39,
+      "value": "5633600000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax for the period 2024‑04‑01 to 2025‑03‑31 has value 5 633 600 000 USD, matching the reported result."
+    },
+    {
+      "line": 40,
+      "value": "-104200000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:OperatingIncomeLoss for the period 2025‑04‑01 to 2026‑03‑31 has value –104 200 000 USD, matching the reported result."
+    },
+    {
+      "line": 41,
+      "value": "-4391100000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:OperatingIncomeLoss for the period 2024‑04‑01 to 2025‑03‑31 has value –4 391 100 000 USD, matching the reported result."
+    },
+    {
+      "line": 42,
+      "value": "-298200000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:NetIncomeLoss for the period 2025‑04‑01 to 2026‑03‑31 has value –298 200 000 USD, matching the reported result."
+    },
+    {
+      "line": 43,
+      "value": "-4478900000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:NetIncomeLoss for the period 2024‑04‑01 to 2025‑03‑31 has value –4 478 900 000 USD, matching the reported result."
+    },
+    {
+      "line": 44,
+      "value": "-1.62",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:EarningsPerShareDiluted for the period 2025‑04‑01 to 2026‑03‑31 has value –1.62 USD/shares, matching the reported result."
+    },
+    {
+      "line": 45,
+      "value": "-25.58",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:EarningsPerShareDiluted for the period 2024‑04‑01 to 2025‑03‑31 has value –25.58 USD/shares, matching the reported result."
+    },
+    {
+      "line": 46,
+      "value": "3510900000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:StockholdersEquity as of 2026‑03‑31 has value 3 510 900 000 USD, matching the reported result."
+    },
+    {
+      "line": 47,
+      "value": "2137700000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:StockholdersEquity as of 2025‑03‑31 has value 2 137 700 000 USD, matching the reported result."
+    },
+    {
+      "line": 48,
+      "value": "2488000000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:LongTermDebtNoncurrent as of 2026‑03‑31 has value 2 488 000 000 USD, matching the reported result."
+    },
+    {
+      "line": 49,
+      "value": "2512600000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:LongTermDebtNoncurrent as of 2025‑03‑31 has value 2 512 600 000 USD, matching the reported result."
+    },
+    {
+      "line": 50,
+      "value": "624300000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:NetCashProvidedByUsedInOperatingActivities for 2025‑04‑01 to 2026‑03‑31 has value 624 300 000 USD, matching the reported result."
+    },
+    {
+      "line": 51,
+      "value": "-45200000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:NetCashProvidedByUsedInOperatingActivities for 2024‑04‑01 to 2025‑03‑31 has value –45 200 000 USD, matching the reported result."
+    },
+    {
+      "line": 52,
+      "value": "162800000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:PaymentsToAcquirePropertyPlantAndEquipment for 2025‑04‑01 to 2026‑03‑31 has value 162 800 000 USD, matching the reported result."
+    },
+    {
+      "line": 53,
+      "value": "169400000",
+      "supported": true,
+      "reason": "Company XBRL fact us‑gaap:PaymentsToAcquirePropertyPlantAndEquipment for 2024‑04‑01 to 2025‑03‑31 has value 169 400 000 USD, matching the reported result."
+    },
+    {
+      "line": 54,
+      "value": "18.16 %",
+      "supported": true,
+      "reason": "Revenue growth of 18.16 % is correctly derived from the current and prior total‑revenue facts ( (6 656.4 bn – 5 633.6 bn) ÷ 5 633.6 bn ≈ 0.1816 )."
+    },
+    {
+      "line": 55,
+      "value": "-1.57 %",
+      "supported": true,
+      "reason": "Operating margin of –1.57 % is correctly derived from operating‑income and total‑revenue facts ( –104.2 mn ÷ 6 656.4 bn ≈ –0.01566 ≈ –1.57 %)."
+    },
+    {
+      "line": 56,
+      "value": "-10.56 %",
+      "supported": true,
+      "reason": "Return on average equity of –10.56 % is correctly derived from net‑income and the average of current and prior equity ( –298.2 mn ÷ ((3 510.9 bn + 2 137.7 bn)/2) ≈ –0.1056 ≈ –10.56 %)."
+    },
+    {
+      "line": 57,
+      "value": "461500000",
+      "supported": true,
+      "reason": "Free cash flow of 461 500 000 USD is the difference between cash‑from‑operations (624 300 000) and property‑and‑equipment additions (162 800 000) as shown in the XBRL facts."
+    }
+  ]
+}

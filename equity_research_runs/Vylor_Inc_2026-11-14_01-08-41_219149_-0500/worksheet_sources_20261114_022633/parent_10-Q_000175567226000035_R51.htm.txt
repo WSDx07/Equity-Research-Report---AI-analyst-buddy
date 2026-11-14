@@ -1,0 +1,302 @@
+000001 | v3.26.3
+000002 | Restructuring and Asset Related Charges - Reconciliation (Details) - Crop Protection Operations Strategy Restructuring Program - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | 35 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2026
+000008 | Restructuring Cost and Reserve [Line Items]
+000009 | Restructuring Reserve, Beginning Balance
+000010 | $ 94
+000011 | Charges to income from continuing operations
+000012 | 82
+000013 | Payments for Restructuring
+000014 | (90)
+000015 | $ (267)
+000016 | Asset write-offs and adjustments
+000017 | (23)
+000018 | Restructuring Reserve, Ending Balance
+000019 | 63
+000020 | 63
+000021 | Severance and Related Benefit Costs
+000022 | Restructuring Cost and Reserve [Line Items]
+000023 | Restructuring Reserve, Beginning Balance
+000024 | 32
+000025 | Charges to income from continuing operations
+000026 | 15
+000027 | Payments for Restructuring
+000028 | (13)
+000029 | Asset write-offs and adjustments
+000030 | 0
+000031 | Restructuring Reserve, Ending Balance
+000032 | 34
+000033 | 34
+000034 | Asset Related Charges
+000035 | Restructuring Cost and Reserve [Line Items]
+000036 | Restructuring Reserve, Beginning Balance
+000037 | 0
+000038 | Charges to income from continuing operations
+000039 | 23
+000040 | Payments for Restructuring
+000041 | 0
+000042 | Asset write-offs and adjustments
+000043 | (23)
+000044 | Restructuring Reserve, Ending Balance
+000045 | 0
+000046 | 0
+000047 | Decommissioning and Demolition
+000048 | Restructuring Cost and Reserve [Line Items]
+000049 | Restructuring Reserve, Beginning Balance
+000050 | 8
+000051 | Charges to income from continuing operations
+000052 | 28
+000053 | Payments for Restructuring
+000054 | (33)
+000055 | Asset write-offs and adjustments
+000056 | 0
+000057 | Restructuring Reserve, Ending Balance
+000058 | 3
+000059 | 3
+000060 | Contract Termination
+000061 | Restructuring Cost and Reserve [Line Items]
+000062 | Restructuring Reserve, Beginning Balance
+000063 | 54
+000064 | Charges to income from continuing operations
+000065 | 16
+000066 | Payments for Restructuring
+000067 | (44)
+000068 | Asset write-offs and adjustments
+000069 | 0
+000070 | Restructuring Reserve, Ending Balance
+000071 | $ 26
+000072 | $ 26
+000073 | X
+000074 | - Definition
+000075 | Noncash activity affecting the restructuring reserve related to asset write-offs and adjustments.
+000076 | + References
+000077 | No definition available.
+000078 | + Details
+000079 | Name:
+000080 | ctva_AssetWriteOffsAndAdjustments
+000081 | Namespace Prefix:
+000082 | ctva_
+000083 | Data Type:
+000084 | xbrli:monetaryItemType
+000085 | Balance Type:
+000086 | debit
+000087 | Period Type:
+000088 | duration
+000089 | X
+000090 | - Definition
+000091 | Charges to income from continuing operations
+000092 | + References
+000093 | No definition available.
+000094 | + Details
+000095 | Name:
+000096 | ctva_ChargesToIncomeFromContinuingOperations
+000097 | Namespace Prefix:
+000098 | ctva_
+000099 | Data Type:
+000100 | xbrli:monetaryItemType
+000101 | Balance Type:
+000102 | credit
+000103 | Period Type:
+000104 | duration
+000105 | X
+000106 | - Definition
+000107 | Amount of cash payments made as the result of exit or disposal activities. Excludes payments associated with a discontinued operation or an asset retirement obligation.
+000108 | + References
+000109 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000110 | -Topic 230
+000111 | -SubTopic 10
+000112 | -Name Accounting Standards Codification
+000113 | -Section 45
+000114 | -Paragraph 17
+000115 | -Subparagraph (f)
+000116 | -Publisher FASB
+000117 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-17
+000118 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000119 | -Topic 420
+000120 | -SubTopic 10
+000121 | -Name Accounting Standards Codification
+000122 | -Section 50
+000123 | -Paragraph 1
+000124 | -Subparagraph (b)(2)
+000125 | -Publisher FASB
+000126 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000127 | + Details
+000128 | Name:
+000129 | us-gaap_PaymentsForRestructuring
+000130 | Namespace Prefix:
+000131 | us-gaap_
+000132 | Data Type:
+000133 | xbrli:monetaryItemType
+000134 | Balance Type:
+000135 | credit
+000136 | Period Type:
+000137 | duration
+000138 | X
+000139 | - Definition
+000140 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000141 | + References
+000142 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000143 | -Topic 420
+000144 | -SubTopic 10
+000145 | -Name Accounting Standards Codification
+000146 | -Section 50
+000147 | -Paragraph 1
+000148 | -Subparagraph (b)(1)
+000149 | -Publisher FASB
+000150 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000151 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000152 | -Topic 420
+000153 | -SubTopic 10
+000154 | -Name Accounting Standards Codification
+000155 | -Section 50
+000156 | -Paragraph 1
+000157 | -Subparagraph (c)
+000158 | -Publisher FASB
+000159 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000160 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000161 | -Topic 420
+000162 | -SubTopic 10
+000163 | -Name Accounting Standards Codification
+000164 | -Section S99
+000165 | -Paragraph 2
+000166 | -Subparagraph (SAB Topic 5.P.4.c)
+000167 | -Publisher FASB
+000168 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000169 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000170 | -Topic 420
+000171 | -SubTopic 10
+000172 | -Name Accounting Standards Codification
+000173 | -Section S99
+000174 | -Paragraph 2
+000175 | -Subparagraph (SAB Topic 5.P.4.d)
+000176 | -Publisher FASB
+000177 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000178 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000179 | -Topic 420
+000180 | -SubTopic 10
+000181 | -Name Accounting Standards Codification
+000182 | -Section S99
+000183 | -Paragraph 2
+000184 | -Subparagraph (SAB Topic 5.P.4.b.1)
+000185 | -Publisher FASB
+000186 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000187 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000188 | -Topic 420
+000189 | -SubTopic 10
+000190 | -Name Accounting Standards Codification
+000191 | -Section S99
+000192 | -Paragraph 2
+000193 | -Subparagraph (SAB Topic 5.P.4.b.2)
+000194 | -Publisher FASB
+000195 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000196 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000197 | -Topic 420
+000198 | -SubTopic 10
+000199 | -Name Accounting Standards Codification
+000200 | -Section 50
+000201 | -Paragraph 1
+000202 | -Subparagraph (b)(2)
+000203 | -Publisher FASB
+000204 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000205 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000206 | -Topic 420
+000207 | -SubTopic 10
+000208 | -Name Accounting Standards Codification
+000209 | -Section 50
+000210 | -Paragraph 1
+000211 | -Subparagraph (d)
+000212 | -Publisher FASB
+000213 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000214 | + Details
+000215 | Name:
+000216 | us-gaap_RestructuringCostAndReserveLineItems
+000217 | Namespace Prefix:
+000218 | us-gaap_
+000219 | Data Type:
+000220 | xbrli:stringItemType
+000221 | Balance Type:
+000222 | na
+000223 | Period Type:
+000224 | duration
+000225 | X
+000226 | - Definition
+000227 | Carrying amount (including both current and noncurrent portions of the accrual) as of the balance sheet date pertaining to a specified type of cost associated with exit from or disposal of business activities or restructuring pursuant to a duly authorized plan.
+000228 | + References
+000229 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000230 | -Topic 420
+000231 | -SubTopic 10
+000232 | -Name Accounting Standards Codification
+000233 | -Section S99
+000234 | -Paragraph 2
+000235 | -Subparagraph (SAB Topic 5.P.4.b.2)
+000236 | -Publisher FASB
+000237 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000238 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000239 | -Topic 420
+000240 | -SubTopic 10
+000241 | -Name Accounting Standards Codification
+000242 | -Section 50
+000243 | -Paragraph 1
+000244 | -Subparagraph (b)(2)
+000245 | -Publisher FASB
+000246 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000247 | + Details
+000248 | Name:
+000249 | us-gaap_RestructuringReserve
+000250 | Namespace Prefix:
+000251 | us-gaap_
+000252 | Data Type:
+000253 | xbrli:monetaryItemType
+000254 | Balance Type:
+000255 | credit
+000256 | Period Type:
+000257 | instant
+000258 | X
+000259 | - Details
+000260 | Name:
+000261 | us-gaap_RestructuringPlanAxis=ctva_CropProtectionOperationsStrategyRestructuringProgramMember
+000262 | Namespace Prefix:
+000263 | Data Type:
+000264 | na
+000265 | Balance Type:
+000266 | Period Type:
+000267 | X
+000268 | - Details
+000269 | Name:
+000270 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_EmployeeSeveranceMember
+000271 | Namespace Prefix:
+000272 | Data Type:
+000273 | na
+000274 | Balance Type:
+000275 | Period Type:
+000276 | X
+000277 | - Details
+000278 | Name:
+000279 | us-gaap_RestructuringCostAndReserveAxis=ctva_AssetRelatedChargesMember
+000280 | Namespace Prefix:
+000281 | Data Type:
+000282 | na
+000283 | Balance Type:
+000284 | Period Type:
+000285 | X
+000286 | - Details
+000287 | Name:
+000288 | us-gaap_RestructuringCostAndReserveAxis=ctva_DecommissioningAndDemolitionMember
+000289 | Namespace Prefix:
+000290 | Data Type:
+000291 | na
+000292 | Balance Type:
+000293 | Period Type:
+000294 | X
+000295 | - Details
+000296 | Name:
+000297 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_ContractTerminationMember
+000298 | Namespace Prefix:
+000299 | Data Type:
+000300 | na
+000301 | Balance Type:
+000302 | Period Type:

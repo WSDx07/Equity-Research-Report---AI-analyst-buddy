@@ -1,0 +1,37 @@
+{
+  "research_issues": [
+    "Claims 5, 6, and 7 have invalid or non‑verbatim document lines and quotes, preventing verification.",
+    "Valuation Insights section missing – required for a complete research report.",
+    "No quantitative market‑share or competitive‑position data to substantiate the “leader” claim in Market Positioning.",
+    "Research Insight citation is incomplete (no filing/line/quote)."
+  ],
+  "financial_issues": [
+    "Insight missing required citation – no filing name, line number, or verbatim quote is provided (automatic check).",
+    "Financial observations contain numeric digits, which violates the rule that observations must be pure narrative (automatic check).",
+    "All key SEC‑tagged numeric concepts (revenue, operating income, net income, EPS, etc.) are unavailable, preventing any quantitative analysis, ratio calculation or margin assessment.",
+    "Valuation Insights section is completely absent – no claim, metric, or commentary is supplied for the Valuation Insights required by the research template."
+  ],
+  "advisor_issues": [
+    "Insight lacks a filing reference, line number, and exact quote – does not meet the required citation format (automatic check).",
+    "No deciding metric is selected from the calculator results; all calculator fields are null, yet the advisor recommendation is required to identify a primary metric that drives the investment thesis (automatic check).",
+    "Investment Recommendation section is missing – there is no explicit recommendation, target price, or holdings guidance."
+  ],
+  "overall_issues": [
+    "Research claims 5, 6 and 7 are flagged as having invalid or non‑verbatim document lines/quotes, so they cannot be validated.",
+    "No quantitative competitive‑position data (e.g., market‑share percentages) are supplied, making the Market Positioning claim about “leader” unsubstantiable.",
+    "Capital‑allocation guidance beyond the announced $3 bn share‑repurchase is absent, so the recommendation to prioritize debt repayment vs reinvestment cannot be supported.",
+    "The release first paragraph does not provide any of the metric‑level detail required to assess the insights; therefore all insights that rely on it must be marked unassessed or fail."
+  ],
+  "research_insight": {
+    "status": "fail",
+    "reason": "The research insight (“$19 bn technology pipeline anchored by 12 platform launches”) is not accompanied by a filing name, line number, and exact quote; therefore it does not meet citation requirements."
+  },
+  "financial_insight": {
+    "status": "fail",
+    "reason": "Financial insight (“GAAP net‑sales are substantially higher than pro‑forma net‑sales”) lacks a precise filing/line citation and the accompanying observation contains digits, violating narrative‑only rules."
+  },
+  "advisor_insight": {
+    "status": "fail",
+    "reason": "Advisor insight repeats the $19 bn pipeline claim without a proper citation and no deciding metric is chosen from the null calculator results; consequently the insight cannot be validated."
+  }
+}

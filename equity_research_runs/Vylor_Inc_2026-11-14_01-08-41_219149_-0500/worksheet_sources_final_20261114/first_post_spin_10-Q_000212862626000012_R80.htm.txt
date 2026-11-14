@@ -1,0 +1,354 @@
+000001 | v3.26.3
+000002 | Revenue Contract Balances (Details) - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2026
+000006 | Sep. 30, 2025
+000007 | Dec. 31, 2025
+000008 | Contract with Customer, Contract Asset, Contract Liability, and Receivable [Abstract]
+000009 | Contract assets - current
+000010 | [1]
+000011 | $ 36
+000012 | $ 33
+000013 | $ 34
+000014 | Contract assets - noncurrent
+000015 | [2]
+000016 | 90
+000017 | 81
+000018 | 83
+000019 | Deferred revenue - noncurrent
+000020 | [3]
+000021 | 121
+000022 | 123
+000023 | 125
+000024 | Deferred revenue recognized during the period
+000025 | 3,135
+000026 | 2,843
+000027 | Deferred Revenue
+000028 | 373
+000029 | 414
+000030 | 3,232
+000031 | Disaggregation of Revenue [Line Items]
+000032 | Deferred revenue recognized during the period
+000033 | 3,135
+000034 | 2,843
+000035 | Corteva,Inc.
+000036 | Contract with Customer, Contract Asset, Contract Liability, and Receivable [Abstract]
+000037 | Deferred revenue recognized during the period
+000038 | 3,463
+000039 | 3,202
+000040 | Deferred Revenue
+000041 | 440
+000042 | 483
+000043 | $ 3,579
+000044 | Disaggregation of Revenue [Line Items]
+000045 | Deferred revenue recognized during the period
+000046 | $ 3,463
+000047 | $ 3,202
+000048 | [1]
+000049 | Included in other current assets in the interim Consolidated Balance Sheets.
+000050 | [2]
+000051 | Included in other assets in the interim Consolidated Balance Sheets.
+000052 | [3]
+000053 | Included in other noncurrent obligations in the interim Consolidated Balance Sheets.
+000054 | X
+000055 | - References
+000056 | No definition available.
+000057 | + Details
+000058 | Name:
+000059 | us-gaap_ContractWithCustomerAssetAndLiabilityAbstract
+000060 | Namespace Prefix:
+000061 | us-gaap_
+000062 | Data Type:
+000063 | xbrli:stringItemType
+000064 | Balance Type:
+000065 | na
+000066 | Period Type:
+000067 | duration
+000068 | X
+000069 | - Definition
+000070 | Amount, after allowance for credit loss, of right to consideration in exchange for good or service transferred to customer when right is conditioned on something other than passage of time, classified as current.
+000071 | + References
+000072 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000073 | -Topic 606
+000074 | -SubTopic 10
+000075 | -Name Accounting Standards Codification
+000076 | -Section 50
+000077 | -Paragraph 11
+000078 | -Publisher FASB
+000079 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000080 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000081 | -Topic 606
+000082 | -SubTopic 10
+000083 | -Name Accounting Standards Codification
+000084 | -Section 45
+000085 | -Paragraph 3
+000086 | -Publisher FASB
+000087 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-3
+000088 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000089 | -Topic 606
+000090 | -SubTopic 10
+000091 | -Name Accounting Standards Codification
+000092 | -Section 45
+000093 | -Paragraph 1
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000096 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000097 | -Topic 606
+000098 | -SubTopic 10
+000099 | -Name Accounting Standards Codification
+000100 | -Section 50
+000101 | -Paragraph 8
+000102 | -Subparagraph (a)
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000105 | + Details
+000106 | Name:
+000107 | us-gaap_ContractWithCustomerAssetNetCurrent
+000108 | Namespace Prefix:
+000109 | us-gaap_
+000110 | Data Type:
+000111 | xbrli:monetaryItemType
+000112 | Balance Type:
+000113 | debit
+000114 | Period Type:
+000115 | instant
+000116 | X
+000117 | - Definition
+000118 | Amount, after allowance for credit loss, of right to consideration in exchange for good or service transferred to customer when right is conditioned on something other than passage of time, classified as noncurrent.
+000119 | + References
+000120 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000121 | -Topic 606
+000122 | -SubTopic 10
+000123 | -Name Accounting Standards Codification
+000124 | -Section 50
+000125 | -Paragraph 11
+000126 | -Publisher FASB
+000127 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000128 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000129 | -Topic 606
+000130 | -SubTopic 10
+000131 | -Name Accounting Standards Codification
+000132 | -Section 45
+000133 | -Paragraph 3
+000134 | -Publisher FASB
+000135 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-3
+000136 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000137 | -Topic 606
+000138 | -SubTopic 10
+000139 | -Name Accounting Standards Codification
+000140 | -Section 45
+000141 | -Paragraph 1
+000142 | -Publisher FASB
+000143 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000144 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000145 | -Topic 606
+000146 | -SubTopic 10
+000147 | -Name Accounting Standards Codification
+000148 | -Section 50
+000149 | -Paragraph 8
+000150 | -Subparagraph (a)
+000151 | -Publisher FASB
+000152 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000153 | + Details
+000154 | Name:
+000155 | us-gaap_ContractWithCustomerAssetNetNoncurrent
+000156 | Namespace Prefix:
+000157 | us-gaap_
+000158 | Data Type:
+000159 | xbrli:monetaryItemType
+000160 | Balance Type:
+000161 | debit
+000162 | Period Type:
+000163 | instant
+000164 | X
+000165 | - Definition
+000166 | Amount of obligation to transfer good or service to customer for which consideration has been received or is receivable, classified as noncurrent.
+000167 | + References
+000168 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000169 | -Topic 606
+000170 | -SubTopic 10
+000171 | -Name Accounting Standards Codification
+000172 | -Section 50
+000173 | -Paragraph 11
+000174 | -Publisher FASB
+000175 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000176 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000177 | -Topic 606
+000178 | -SubTopic 10
+000179 | -Name Accounting Standards Codification
+000180 | -Section 45
+000181 | -Paragraph 1
+000182 | -Publisher FASB
+000183 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000184 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000185 | -Topic 606
+000186 | -SubTopic 10
+000187 | -Name Accounting Standards Codification
+000188 | -Section 50
+000189 | -Paragraph 8
+000190 | -Subparagraph (a)
+000191 | -Publisher FASB
+000192 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000193 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000194 | -Topic 606
+000195 | -SubTopic 10
+000196 | -Name Accounting Standards Codification
+000197 | -Section 45
+000198 | -Paragraph 2
+000199 | -Publisher FASB
+000200 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-2
+000201 | + Details
+000202 | Name:
+000203 | us-gaap_ContractWithCustomerLiabilityNoncurrent
+000204 | Namespace Prefix:
+000205 | us-gaap_
+000206 | Data Type:
+000207 | xbrli:monetaryItemType
+000208 | Balance Type:
+000209 | credit
+000210 | Period Type:
+000211 | instant
+000212 | X
+000213 | - Definition
+000214 | Amount of deferred income and obligation to transfer product and service to customer for which consideration has been received or is receivable.
+000215 | + References
+000216 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000217 | -Topic 210
+000218 | -SubTopic 10
+000219 | -Name Accounting Standards Codification
+000220 | -Section S99
+000221 | -Paragraph 1
+000222 | -Subparagraph (SX 210.5-02(26)(c))
+000223 | -Publisher FASB
+000224 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000225 | + Details
+000226 | Name:
+000227 | us-gaap_DeferredRevenue
+000228 | Namespace Prefix:
+000229 | us-gaap_
+000230 | Data Type:
+000231 | xbrli:monetaryItemType
+000232 | Balance Type:
+000233 | credit
+000234 | Period Type:
+000235 | instant
+000236 | X
+000237 | - Definition
+000238 | Amount of revenue recognized that was previously reported as deferred or unearned revenue.
+000239 | + References
+000240 | No definition available.
+000241 | + Details
+000242 | Name:
+000243 | us-gaap_DeferredRevenueRevenueRecognized1
+000244 | Namespace Prefix:
+000245 | us-gaap_
+000246 | Data Type:
+000247 | xbrli:monetaryItemType
+000248 | Balance Type:
+000249 | credit
+000250 | Period Type:
+000251 | duration
+000252 | X
+000253 | - Definition
+000254 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000255 | + References
+000256 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000257 | -Topic 606
+000258 | -SubTopic 10
+000259 | -Name Accounting Standards Codification
+000260 | -Section 50
+000261 | -Paragraph 7
+000262 | -Publisher FASB
+000263 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-7
+000264 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000265 | -Topic 606
+000266 | -SubTopic 10
+000267 | -Name Accounting Standards Codification
+000268 | -Section 50
+000269 | -Paragraph 5
+000270 | -Publisher FASB
+000271 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-5
+000272 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000273 | -Topic 606
+000274 | -SubTopic 10
+000275 | -Name Accounting Standards Codification
+000276 | -Section 55
+000277 | -Paragraph 91
+000278 | -Subparagraph (a)
+000279 | -Publisher FASB
+000280 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000281 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000282 | -Topic 606
+000283 | -SubTopic 10
+000284 | -Name Accounting Standards Codification
+000285 | -Section 55
+000286 | -Paragraph 91
+000287 | -Subparagraph (b)
+000288 | -Publisher FASB
+000289 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000290 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000291 | -Topic 606
+000292 | -SubTopic 10
+000293 | -Name Accounting Standards Codification
+000294 | -Section 55
+000295 | -Paragraph 91
+000296 | -Subparagraph (c)
+000297 | -Publisher FASB
+000298 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000299 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000300 | -Topic 606
+000301 | -SubTopic 10
+000302 | -Name Accounting Standards Codification
+000303 | -Section 55
+000304 | -Paragraph 91
+000305 | -Subparagraph (d)
+000306 | -Publisher FASB
+000307 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000308 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000309 | -Topic 606
+000310 | -SubTopic 10
+000311 | -Name Accounting Standards Codification
+000312 | -Section 55
+000313 | -Paragraph 91
+000314 | -Subparagraph (e)
+000315 | -Publisher FASB
+000316 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000317 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+000318 | -Topic 606
+000319 | -SubTopic 10
+000320 | -Name Accounting Standards Codification
+000321 | -Section 55
+000322 | -Paragraph 91
+000323 | -Subparagraph (f)
+000324 | -Publisher FASB
+000325 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000326 | Reference 9: http://www.xbrl.org/2003/role/exampleRef
+000327 | -Topic 606
+000328 | -SubTopic 10
+000329 | -Name Accounting Standards Codification
+000330 | -Section 55
+000331 | -Paragraph 91
+000332 | -Subparagraph (g)
+000333 | -Publisher FASB
+000334 | -URI https://asc.fasb.org/1943274/2147479777/606-10-55-91
+000335 | + Details
+000336 | Name:
+000337 | us-gaap_DisaggregationOfRevenueLineItems
+000338 | Namespace Prefix:
+000339 | us-gaap_
+000340 | Data Type:
+000341 | xbrli:stringItemType
+000342 | Balance Type:
+000343 | na
+000344 | Period Type:
+000345 | duration
+000346 | X
+000347 | - Details
+000348 | Name:
+000349 | dei_LegalEntityAxis=vylr_CortevaInc.Member
+000350 | Namespace Prefix:
+000351 | Data Type:
+000352 | na
+000353 | Balance Type:
+000354 | Period Type:

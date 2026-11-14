@@ -1,0 +1,101 @@
+000001 | v3.26.3
+000002 | Financial Instruments Notional Amounts (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Long [Member]
+000008 | Derivative [Line Items]
+000009 | Derivative, Notional Amount, Net
+000010 | $ 883
+000011 | $ 1,280
+000012 | $ 1,724
+000013 | X
+000014 | - Definition
+000015 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000016 | + References
+000017 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000018 | -Topic 815
+000019 | -SubTopic 10
+000020 | -Name Accounting Standards Codification
+000021 | -Section 50
+000022 | -Paragraph 5A
+000023 | -Publisher FASB
+000024 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-5A
+000025 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000026 | -Topic 505
+000027 | -SubTopic 10
+000028 | -Name Accounting Standards Codification
+000029 | -Section 50
+000030 | -Paragraph 18
+000031 | -Subparagraph (c)
+000032 | -Publisher FASB
+000033 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-18
+000034 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000035 | -Topic 815
+000036 | -SubTopic 20
+000037 | -Name Accounting Standards Codification
+000038 | -Section 25
+000039 | -Paragraph 6A
+000040 | -Publisher FASB
+000041 | -URI https://asc.fasb.org/1943274/2147480682/815-20-25-6A
+000042 | + Details
+000043 | Name:
+000044 | us-gaap_DerivativeLineItems
+000045 | Namespace Prefix:
+000046 | us-gaap_
+000047 | Data Type:
+000048 | xbrli:stringItemType
+000049 | Balance Type:
+000050 | na
+000051 | Period Type:
+000052 | duration
+000053 | X
+000054 | - Definition
+000055 | Nominal or face amount used to calculate payment on derivative.
+000056 | + References
+000057 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000058 | -Topic 815
+000059 | -SubTopic 10
+000060 | -Name Accounting Standards Codification
+000061 | -Section 50
+000062 | -Paragraph 1A
+000063 | -Subparagraph (d)
+000064 | -Publisher FASB
+000065 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-1A
+000066 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000067 | -Topic 815
+000068 | -SubTopic 10
+000069 | -Name Accounting Standards Codification
+000070 | -Section 55
+000071 | -Paragraph 181
+000072 | -Publisher FASB
+000073 | -URI https://asc.fasb.org/1943274/2147480401/815-10-55-181
+000074 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000075 | -Topic 815
+000076 | -SubTopic 10
+000077 | -Name Accounting Standards Codification
+000078 | -Section 50
+000079 | -Paragraph 1B
+000080 | -Publisher FASB
+000081 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-1B
+000082 | + Details
+000083 | Name:
+000084 | us-gaap_DerivativeNotionalAmount
+000085 | Namespace Prefix:
+000086 | us-gaap_
+000087 | Data Type:
+000088 | xbrli:monetaryItemType
+000089 | Balance Type:
+000090 | na
+000091 | Period Type:
+000092 | instant
+000093 | X
+000094 | - Details
+000095 | Name:
+000096 | us-gaap_PositionAxis=us-gaap_LongMember
+000097 | Namespace Prefix:
+000098 | Data Type:
+000099 | na
+000100 | Balance Type:
+000101 | Period Type:

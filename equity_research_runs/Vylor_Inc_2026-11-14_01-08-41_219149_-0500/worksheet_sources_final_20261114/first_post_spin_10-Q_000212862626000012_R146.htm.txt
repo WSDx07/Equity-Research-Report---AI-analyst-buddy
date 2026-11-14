@@ -1,0 +1,169 @@
+000001 | v3.26.3
+000002 | Subsequent Events (Details)
+000003 | $ / shares in Units, $ in Millions
+000004 | Oct. 01, 2026
+000005 | USD ($)
+000006 | $ / shares
+000007 | Subsequent Event [Line Items]
+000008 | Opening Balance Sheet Settlement
+000009 | $ 82
+000010 | Subsequent Event
+000011 | Subsequent Event [Line Items]
+000012 | Repayments of Notes Payable
+000013 | $ 183
+000014 | Dividends Payable, Amount Per Share | $ / shares
+000015 | $ 0.13
+000016 | Share Repurchase Program, Authorized, Amount
+000017 | $ 3,000
+000018 | Payments of Dividends
+000019 | $ 761
+000020 | X
+000021 | - Definition
+000022 | Amount authorized for purchase of share under share repurchase plan. Includes, but is not limited to, repurchase of stock and unit of ownership.
+000023 | + References
+000024 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000025 | -Topic 505
+000026 | -SubTopic 30
+000027 | -Name Accounting Standards Codification
+000028 | -Section 50
+000029 | -Paragraph 4
+000030 | -Publisher FASB
+000031 | -URI https://asc.fasb.org/1943274/2147481520/505-30-50-4
+000032 | + Details
+000033 | Name:
+000034 | srt_StockRepurchaseProgramAuthorizedAmount1
+000035 | Namespace Prefix:
+000036 | srt_
+000037 | Data Type:
+000038 | xbrli:monetaryItemType
+000039 | Balance Type:
+000040 | credit
+000041 | Period Type:
+000042 | instant
+000043 | X
+000044 | - Definition
+000045 | The per share amount of a dividend declared, but not paid, as of the financial reporting date.
+000046 | + References
+000047 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000048 | -Topic 230
+000049 | -SubTopic 10
+000050 | -Name Accounting Standards Codification
+000051 | -Section 50
+000052 | -Paragraph 3
+000053 | -Publisher FASB
+000054 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-3
+000055 | + Details
+000056 | Name:
+000057 | us-gaap_DividendsPayableAmountPerShare
+000058 | Namespace Prefix:
+000059 | us-gaap_
+000060 | Data Type:
+000061 | dtr-types:perShareItemType
+000062 | Balance Type:
+000063 | na
+000064 | Period Type:
+000065 | instant
+000066 | X
+000067 | - Definition
+000068 | Cash outflow in the form of capital distributions and dividends to common shareholders, preferred shareholders and noncontrolling interests.
+000069 | + References
+000070 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000071 | -Topic 230
+000072 | -SubTopic 10
+000073 | -Name Accounting Standards Codification
+000074 | -Section 45
+000075 | -Paragraph 15
+000076 | -Subparagraph (a)
+000077 | -Publisher FASB
+000078 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-15
+000079 | + Details
+000080 | Name:
+000081 | us-gaap_PaymentsOfDividends
+000082 | Namespace Prefix:
+000083 | us-gaap_
+000084 | Data Type:
+000085 | xbrli:monetaryItemType
+000086 | Balance Type:
+000087 | credit
+000088 | Period Type:
+000089 | duration
+000090 | X
+000091 | - Definition
+000092 | The cash outflow for a borrowing supported by a written promise to pay an obligation.
+000093 | + References
+000094 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000095 | -Topic 230
+000096 | -SubTopic 10
+000097 | -Name Accounting Standards Codification
+000098 | -Section 45
+000099 | -Paragraph 15
+000100 | -Subparagraph (b)
+000101 | -Publisher FASB
+000102 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-15
+000103 | + Details
+000104 | Name:
+000105 | us-gaap_RepaymentsOfNotesPayable
+000106 | Namespace Prefix:
+000107 | us-gaap_
+000108 | Data Type:
+000109 | xbrli:monetaryItemType
+000110 | Balance Type:
+000111 | credit
+000112 | Period Type:
+000113 | duration
+000114 | X
+000115 | - Definition
+000116 | Detail information of subsequent event by type. User is expected to use existing line items from elsewhere in the taxonomy as the primary line items for this disclosure, which is further associated with dimension and member elements pertaining to a subsequent event.
+000117 | + References
+000118 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000119 | -Topic 830
+000120 | -SubTopic 30
+000121 | -Name Accounting Standards Codification
+000122 | -Section 50
+000123 | -Paragraph 2
+000124 | -Publisher FASB
+000125 | -URI https://asc.fasb.org/1943274/2147481674/830-30-50-2
+000126 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000127 | -Topic 855
+000128 | -SubTopic 10
+000129 | -Name Accounting Standards Codification
+000130 | -Section 50
+000131 | -Paragraph 2
+000132 | -Publisher FASB
+000133 | -URI https://asc.fasb.org/1943274/2147483399/855-10-50-2
+000134 | + Details
+000135 | Name:
+000136 | us-gaap_SubsequentEventLineItems
+000137 | Namespace Prefix:
+000138 | us-gaap_
+000139 | Data Type:
+000140 | xbrli:stringItemType
+000141 | Balance Type:
+000142 | na
+000143 | Period Type:
+000144 | duration
+000145 | X
+000146 | - Definition
+000147 | Opening Balance Sheet Settlement proceeds
+000148 | + References
+000149 | No definition available.
+000150 | + Details
+000151 | Name:
+000152 | vylr_OpeningBalanceSheetSettlementProceeds
+000153 | Namespace Prefix:
+000154 | vylr_
+000155 | Data Type:
+000156 | xbrli:monetaryItemType
+000157 | Balance Type:
+000158 | debit
+000159 | Period Type:
+000160 | instant
+000161 | X
+000162 | - Details
+000163 | Name:
+000164 | us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember
+000165 | Namespace Prefix:
+000166 | Data Type:
+000167 | na
+000168 | Balance Type:
+000169 | Period Type:

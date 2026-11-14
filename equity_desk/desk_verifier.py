@@ -71,7 +71,7 @@ def annual_revenue_growth(line: str, facts: dict, filings: dict[str, str]) -> di
         if not source or not current_fact or not prior_fact or concept.get("unit") != "USD" or divisor != prior or prior == 0:
             return result
         index, quote = int(source.group(1)), source.group(2)
-        lines = filings["10-K"].splitlines()
+        lines = filings.get("10-K", "").splitlines()
         if not 1 <= index <= len(lines) or not quote.strip() or normalize(quote) not in normalize(lines[index - 1]):
             return result
         source_line = lines[index - 1]
@@ -185,11 +185,19 @@ def check_fact_source(value: str, line: str, facts: dict):
 
 def load_filings(folder: Path) -> dict[str, str]:
     result = {}
-    for form in ("10-K", "10-Q", "8-K", "EX-99.1"):
+    for form in ("10-Q", "8-K", "EX-99.1"):
         matches = list(folder.glob(f"*_{form}_*.txt"))
         if len(matches) != 1:
             raise ValueError(f"Expected exactly one saved {form} text in {folder}")
         result[form] = matches[0].read_text(encoding="utf-8")
+    annual = list(folder.glob('*_10-K_*.txt'))
+    registration = list(folder.glob('*_Form 10_*.txt'))
+    if len(annual) == 1:
+        result['10-K'] = annual[0].read_text(encoding='utf-8')
+    elif len(annual) == 0 and len(registration) == 1:
+        result['Form 10'] = registration[0].read_text(encoding='utf-8')
+    else:
+        raise ValueError(f'Expected one saved 10-K or Form 10 text in {folder}')
     return result
 
 

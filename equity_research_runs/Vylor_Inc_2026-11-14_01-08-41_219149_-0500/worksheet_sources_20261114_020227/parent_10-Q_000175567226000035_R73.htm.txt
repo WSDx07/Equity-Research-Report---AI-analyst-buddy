@@ -1,0 +1,328 @@
+000001 | v3.26.3
+000002 | Commitments and Contingent Liabilities Corteva Separation (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | PFAS | Minimum
+000008 | Loss Contingencies [Line Items]
+000009 | De minimis threshold
+000010 | $ 1
+000011 | DuPont de Nemours and Dow | Location, Statement of Financial Position, Balance [Axis]: us-gaap:AccruedLiabilitiesCurrent
+000012 | Loss Contingencies [Line Items]
+000013 | Indemnified Liabilities
+000014 | 22
+000015 | $ 26
+000016 | $ 17
+000017 | DuPont de Nemours and Dow | Location, Statement of Financial Position, Balance [Axis]: us-gaap:LiabilitiesNoncurrent
+000018 | Loss Contingencies [Line Items]
+000019 | Indemnified Liabilities
+000020 | 104
+000021 | 154
+000022 | 145
+000023 | DuPont de Nemours and Dow | Location, Statement of Financial Position, Balance [Axis]: us-gaap:OtherAssetsNoncurrent
+000024 | Loss Contingencies [Line Items]
+000025 | Indemnification Assets
+000026 | 284
+000027 | 263
+000028 | 263
+000029 | DuPont de Nemours and Dow | Location, Statement of Financial Position, Balance [Axis]: us-gaap:ReceivablesNetCurrent
+000030 | Loss Contingencies [Line Items]
+000031 | Indemnification Assets
+000032 | $ 58
+000033 | 104
+000034 | 112
+000035 | Corteva
+000036 | Loss Contingencies [Line Items]
+000037 | Stray liability sharing percentage
+000038 | 29.00%
+000039 | Corteva | Location, Statement of Financial Position, Balance [Axis]: us-gaap:AccruedLiabilitiesCurrent
+000040 | Loss Contingencies [Line Items]
+000041 | Estimated Litigation Liability
+000042 | $ 265
+000043 | $ 874
+000044 | $ 310
+000045 | Corteva | Location, Statement of Financial Position, Balance [Axis]: us-gaap:ReceivablesNetCurrent
+000046 | Loss Contingencies [Line Items]
+000047 | Indemnification Assets
+000048 | $ 76
+000049 | DuPont de Nemours
+000050 | Loss Contingencies [Line Items]
+000051 | Stray liability sharing percentage
+000052 | 71.00%
+000053 | X
+000054 | - Definition
+000055 | De minimis requirement for which certain stray liabilities will be subject to for sharing arrangement between DuPont and Corteva.
+000056 | + References
+000057 | No definition available.
+000058 | + Details
+000059 | Name:
+000060 | ctva_Deminimisthreshold
+000061 | Namespace Prefix:
+000062 | ctva_
+000063 | Data Type:
+000064 | xbrli:monetaryItemType
+000065 | Balance Type:
+000066 | credit
+000067 | Period Type:
+000068 | instant
+000069 | X
+000070 | - Definition
+000071 | Indemnification asset for liabilities indemnified against certain litigation, environmental, workers' compensation and other liabilities that arose prior to the spin-off of Corteva.
+000072 | + References
+000073 | No definition available.
+000074 | + Details
+000075 | Name:
+000076 | ctva_IndemnificationAssets
+000077 | Namespace Prefix:
+000078 | ctva_
+000079 | Data Type:
+000080 | xbrli:monetaryItemType
+000081 | Balance Type:
+000082 | debit
+000083 | Period Type:
+000084 | instant
+000085 | X
+000086 | - Definition
+000087 | Indemnified Liabilities for liabilities indemnified by Corteva against certain litigation, environmental, workers compensation and other liabilities that arose prior to the spin-off of Corteva.
+000088 | + References
+000089 | No definition available.
+000090 | + Details
+000091 | Name:
+000092 | ctva_IndemnifiedLiabilities
+000093 | Namespace Prefix:
+000094 | ctva_
+000095 | Data Type:
+000096 | xbrli:monetaryItemType
+000097 | Balance Type:
+000098 | credit
+000099 | Period Type:
+000100 | instant
+000101 | X
+000102 | - Definition
+000103 | Stray liability sharing percentage
+000104 | + References
+000105 | No definition available.
+000106 | + Details
+000107 | Name:
+000108 | ctva_Strayliabilitysharingpercentage
+000109 | Namespace Prefix:
+000110 | ctva_
+000111 | Data Type:
+000112 | dtr-types:percentItemType
+000113 | Balance Type:
+000114 | na
+000115 | Period Type:
+000116 | instant
+000117 | X
+000118 | - Definition
+000119 | Aggregate carrying amount of the estimated litigation liability for known or estimated probable loss from litigation, which may include attorneys' fees and other litigation costs.
+000120 | + References
+000121 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000122 | -Topic 450
+000123 | -SubTopic 20
+000124 | -Name Accounting Standards Codification
+000125 | -Section 50
+000126 | -Paragraph 1
+000127 | -Publisher FASB
+000128 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000129 | + Details
+000130 | Name:
+000131 | us-gaap_LitigationReserve
+000132 | Namespace Prefix:
+000133 | us-gaap_
+000134 | Data Type:
+000135 | xbrli:monetaryItemType
+000136 | Balance Type:
+000137 | credit
+000138 | Period Type:
+000139 | instant
+000140 | X
+000141 | - Definition
+000142 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000143 | + References
+000144 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000145 | -Topic 450
+000146 | -SubTopic 20
+000147 | -Name Accounting Standards Codification
+000148 | -Section 50
+000149 | -Paragraph 9
+000150 | -Subparagraph (a)
+000151 | -Publisher FASB
+000152 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000153 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000154 | -Topic 450
+000155 | -SubTopic 20
+000156 | -Name Accounting Standards Codification
+000157 | -Section 50
+000158 | -Paragraph 4
+000159 | -Subparagraph (a)
+000160 | -Publisher FASB
+000161 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000162 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000163 | -Topic 405
+000164 | -SubTopic 30
+000165 | -Name Accounting Standards Codification
+000166 | -Section 50
+000167 | -Paragraph 1
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147482645/405-30-50-1
+000170 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000171 | -Topic 944
+000172 | -SubTopic 40
+000173 | -Name Accounting Standards Codification
+000174 | -Section S99
+000175 | -Paragraph 1
+000176 | -Subparagraph (SAB Topic 5.W.Q2)
+000177 | -Publisher FASB
+000178 | -URI https://asc.fasb.org/1943274/2147479583/944-40-S99-1
+000179 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000180 | -Topic 275
+000181 | -SubTopic 10
+000182 | -Name Accounting Standards Codification
+000183 | -Section 50
+000184 | -Paragraph 9
+000185 | -Publisher FASB
+000186 | -URI https://asc.fasb.org/1943274/2147482861/275-10-50-9
+000187 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000188 | -Topic 720
+000189 | -SubTopic 20
+000190 | -Name Accounting Standards Codification
+000191 | -Section 50
+000192 | -Paragraph 1
+000193 | -Publisher FASB
+000194 | -URI https://asc.fasb.org/1943274/2147483359/720-20-50-1
+000195 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000196 | -Topic 460
+000197 | -SubTopic 10
+000198 | -Name Accounting Standards Codification
+000199 | -Section 55
+000200 | -Paragraph 27
+000201 | -Publisher FASB
+000202 | -URI https://asc.fasb.org/1943274/2147482395/460-10-55-27
+000203 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000204 | -Topic 450
+000205 | -SubTopic 20
+000206 | -Name Accounting Standards Codification
+000207 | -Section 50
+000208 | -Paragraph 9
+000209 | -Subparagraph (b)
+000210 | -Publisher FASB
+000211 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000212 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000213 | -Topic 450
+000214 | -SubTopic 20
+000215 | -Name Accounting Standards Codification
+000216 | -Section 50
+000217 | -Paragraph 4
+000218 | -Subparagraph (b)
+000219 | -Publisher FASB
+000220 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000221 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000222 | -Topic 460
+000223 | -SubTopic 10
+000224 | -Name Accounting Standards Codification
+000225 | -Section 50
+000226 | -Paragraph 3
+000227 | -Publisher FASB
+000228 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-3
+000229 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000230 | -Topic 450
+000231 | -SubTopic 20
+000232 | -Name Accounting Standards Codification
+000233 | -Section 50
+000234 | -Paragraph 1
+000235 | -Publisher FASB
+000236 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000237 | + Details
+000238 | Name:
+000239 | us-gaap_LossContingenciesLineItems
+000240 | Namespace Prefix:
+000241 | us-gaap_
+000242 | Data Type:
+000243 | xbrli:stringItemType
+000244 | Balance Type:
+000245 | na
+000246 | Period Type:
+000247 | duration
+000248 | X
+000249 | - Details
+000250 | Name:
+000251 | srt_LitigationCaseAxis=ctva_PFASMember
+000252 | Namespace Prefix:
+000253 | Data Type:
+000254 | na
+000255 | Balance Type:
+000256 | Period Type:
+000257 | X
+000258 | - Details
+000259 | Name:
+000260 | srt_RangeAxis=srt_MinimumMember
+000261 | Namespace Prefix:
+000262 | Data Type:
+000263 | na
+000264 | Balance Type:
+000265 | Period Type:
+000266 | X
+000267 | - Details
+000268 | Name:
+000269 | srt_CounterpartyNameAxis=ctva_DuPontDeNemoursAndDowMember
+000270 | Namespace Prefix:
+000271 | Data Type:
+000272 | na
+000273 | Balance Type:
+000274 | Period Type:
+000275 | X
+000276 | - Details
+000277 | Name:
+000278 | us-gaap_StatementOfFinancialPositionLocationBalanceAxis=us-gaap_AccruedLiabilitiesCurrent
+000279 | Namespace Prefix:
+000280 | Data Type:
+000281 | na
+000282 | Balance Type:
+000283 | Period Type:
+000284 | X
+000285 | - Details
+000286 | Name:
+000287 | us-gaap_StatementOfFinancialPositionLocationBalanceAxis=us-gaap_LiabilitiesNoncurrent
+000288 | Namespace Prefix:
+000289 | Data Type:
+000290 | na
+000291 | Balance Type:
+000292 | Period Type:
+000293 | X
+000294 | - Details
+000295 | Name:
+000296 | us-gaap_StatementOfFinancialPositionLocationBalanceAxis=us-gaap_OtherAssetsNoncurrent
+000297 | Namespace Prefix:
+000298 | Data Type:
+000299 | na
+000300 | Balance Type:
+000301 | Period Type:
+000302 | X
+000303 | - Details
+000304 | Name:
+000305 | us-gaap_StatementOfFinancialPositionLocationBalanceAxis=us-gaap_ReceivablesNetCurrent
+000306 | Namespace Prefix:
+000307 | Data Type:
+000308 | na
+000309 | Balance Type:
+000310 | Period Type:
+000311 | X
+000312 | - Details
+000313 | Name:
+000314 | dei_LegalEntityAxis=ctva_CortevaMember
+000315 | Namespace Prefix:
+000316 | Data Type:
+000317 | na
+000318 | Balance Type:
+000319 | Period Type:
+000320 | X
+000321 | - Details
+000322 | Name:
+000323 | dei_LegalEntityAxis=ctva_DuPontdeNemoursMember
+000324 | Namespace Prefix:
+000325 | Data Type:
+000326 | na
+000327 | Balance Type:
+000328 | Period Type:

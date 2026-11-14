@@ -1,0 +1,559 @@
+000001 | v3.26.3
+000002 | Segment Reporting Significant Items (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Segment Reporting [Line Items]
+000011 | Restructuring and asset related charges - net
+000012 | [1]
+000013 | $ (17)
+000014 | $ (30)
+000015 | $ (158)
+000016 | $ (131)
+000017 | Gain (loss) on sale of assets
+000018 | [2]
+000019 | 14
+000020 | Litigation settlement
+000021 | [3]
+000022 | 1
+000023 | (120)
+000024 | AltEn facility remediation charges
+000025 | [4]
+000026 | (37)
+000027 | Insurance Proceeds
+000028 | [5]
+000029 | 98
+000030 | Significant Items
+000031 | (16)
+000032 | (30)
+000033 | (278)
+000034 | (56)
+000035 | Seed
+000036 | Segment Reporting [Line Items]
+000037 | Restructuring and asset related charges - net
+000038 | [1]
+000039 | 0
+000040 | 0
+000041 | 0
+000042 | (4)
+000043 | Gain (loss) on sale of assets
+000044 | [2]
+000045 | 0
+000046 | Litigation settlement
+000047 | [3]
+000048 | 0
+000049 | 0
+000050 | AltEn facility remediation charges
+000051 | [4]
+000052 | (37)
+000053 | Insurance Proceeds
+000054 | [5]
+000055 | 0
+000056 | Other Nonrecurring Expense
+000057 | 0
+000058 | 0
+000059 | 0
+000060 | (41)
+000061 | Crop Protection
+000062 | Segment Reporting [Line Items]
+000063 | Restructuring and asset related charges - net
+000064 | [1]
+000065 | (22)
+000066 | (28)
+000067 | (67)
+000068 | (117)
+000069 | Gain (loss) on sale of assets
+000070 | [2]
+000071 | 14
+000072 | Litigation settlement
+000073 | [3]
+000074 | 1
+000075 | (120)
+000076 | AltEn facility remediation charges
+000077 | [4]
+000078 | 0
+000079 | Insurance Proceeds
+000080 | [5]
+000081 | 98
+000082 | Other Nonrecurring Expense
+000083 | (21)
+000084 | (28)
+000085 | (187)
+000086 | (5)
+000087 | Corporate Segment
+000088 | Segment Reporting [Line Items]
+000089 | Restructuring and asset related charges - net
+000090 | [1]
+000091 | 5
+000092 | (2)
+000093 | (91)
+000094 | (10)
+000095 | Gain (loss) on sale of assets
+000096 | [2]
+000097 | 0
+000098 | Litigation settlement
+000099 | [3]
+000100 | 0
+000101 | 0
+000102 | AltEn facility remediation charges
+000103 | [4]
+000104 | 0
+000105 | Insurance Proceeds
+000106 | [5]
+000107 | 0
+000108 | Other Nonrecurring Expense
+000109 | $ 5
+000110 | $ (2)
+000111 | $ (91)
+000112 | $ (10)
+000113 | [1]
+000114 | Includes restructuring plans and asset related charges. See Note 4 - Restructuring and Asset Related Charges - Net, to the interim Consolidated Financial Statements, for additional information.
+000115 | [2]
+000116 | Incremental gains (losses) associated with activities related to the 2022 Restructuring Actions.
+000117 | [3]
+000118 | Relates to estimated settlements associated with various lawsuits filed as described in the section entitled “Federal Trade Commission Investigation” within Note 12 - Commitments and Contingent Liabilities, to the interim Consolidated Financial Statements.
+000119 | [4]
+000120 | Relates to a charge to increase the remediation accrual at the AltEn facility relating to Corteva’s estimated voluntary contribution to the solid waste and wastewater remedial action plans. See Note 12 - Commitments and Contingent Liabilities, to the interim Consolidated Financial Statements, for additional information.
+000121 | [5]
+000122 | Includes proceeds received related to prior significant items.
+000123 | X
+000124 | - Definition
+000125 | Includes a charge relating to the increase in the remediation accrual at the AltEn facility relating to Corteva's estimated voluntary contribution to the solid waste and wastewater remedial action plans.
+000126 | + References
+000127 | No definition available.
+000128 | + Details
+000129 | Name:
+000130 | ctva_AltEnFacilityRemediationCharges
+000131 | Namespace Prefix:
+000132 | ctva_
+000133 | Data Type:
+000134 | xbrli:monetaryItemType
+000135 | Balance Type:
+000136 | debit
+000137 | Period Type:
+000138 | duration
+000139 | X
+000140 | - Definition
+000141 | Gain (loss) on sale of assets
+000142 | + References
+000143 | No definition available.
+000144 | + Details
+000145 | Name:
+000146 | ctva_GainLossOnSaleOfAssets
+000147 | Namespace Prefix:
+000148 | ctva_
+000149 | Data Type:
+000150 | xbrli:monetaryItemType
+000151 | Balance Type:
+000152 | credit
+000153 | Period Type:
+000154 | duration
+000155 | X
+000156 | - Definition
+000157 | Litigation settlement
+000158 | + References
+000159 | No definition available.
+000160 | + Details
+000161 | Name:
+000162 | ctva_LitigationSettlement
+000163 | Namespace Prefix:
+000164 | ctva_
+000165 | Data Type:
+000166 | xbrli:monetaryItemType
+000167 | Balance Type:
+000168 | debit
+000169 | Period Type:
+000170 | duration
+000171 | X
+000172 | - Definition
+000173 | Amount of other expense (income) that is infrequent in occurrence or unusual in nature.
+000174 | + References
+000175 | No definition available.
+000176 | + Details
+000177 | Name:
+000178 | ctva_SignificantItems
+000179 | Namespace Prefix:
+000180 | ctva_
+000181 | Data Type:
+000182 | xbrli:monetaryItemType
+000183 | Balance Type:
+000184 | debit
+000185 | Period Type:
+000186 | duration
+000187 | X
+000188 | - Definition
+000189 | Amount of other income that is infrequent in occurrence or unusual in nature.
+000190 | + References
+000191 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000192 | -Topic 220
+000193 | -SubTopic 20
+000194 | -Name Accounting Standards Codification
+000195 | -Section 50
+000196 | -Paragraph 1
+000197 | -Publisher FASB
+000198 | -URI https://asc.fasb.org/1943274/2147483613/220-20-50-1
+000199 | + Details
+000200 | Name:
+000201 | us-gaap_OtherNonrecurringIncome
+000202 | Namespace Prefix:
+000203 | us-gaap_
+000204 | Data Type:
+000205 | xbrli:monetaryItemType
+000206 | Balance Type:
+000207 | credit
+000208 | Period Type:
+000209 | duration
+000210 | X
+000211 | - Definition
+000212 | Amount of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.
+000213 | + References
+000214 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000215 | -Name Accounting Standards Codification
+000216 | -Section 45
+000217 | -Paragraph 28
+000218 | -Subparagraph (b)
+000219 | -SubTopic 10
+000220 | -Topic 230
+000221 | -Publisher FASB
+000222 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000223 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000224 | -Topic 220
+000225 | -SubTopic 40
+000226 | -Name Accounting Standards Codification
+000227 | -Section 55
+000228 | -Paragraph 18
+000229 | -Publisher FASB
+000230 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-18
+000231 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000232 | -Topic 420
+000233 | -SubTopic 10
+000234 | -Name Accounting Standards Codification
+000235 | -Section S99
+000236 | -Paragraph 2
+000237 | -Subparagraph (SAB Topic 5.P.4.b.1)
+000238 | -Publisher FASB
+000239 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000240 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000241 | -Topic 420
+000242 | -SubTopic 10
+000243 | -Name Accounting Standards Codification
+000244 | -Section 45
+000245 | -Paragraph 3
+000246 | -Publisher FASB
+000247 | -URI https://asc.fasb.org/1943274/2147482047/420-10-45-3
+000248 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000249 | -Topic 420
+000250 | -SubTopic 10
+000251 | -Name Accounting Standards Codification
+000252 | -Section S99
+000253 | -Paragraph 1
+000254 | -Subparagraph (SAB Topic 5.P.3)
+000255 | -Publisher FASB
+000256 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-1
+000257 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000258 | -Topic 220
+000259 | -SubTopic 40
+000260 | -Name Accounting Standards Codification
+000261 | -Section 50
+000262 | -Paragraph 21
+000263 | -Subparagraph (e)
+000264 | -Publisher FASB
+000265 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-21
+000266 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000267 | -Topic 220
+000268 | -SubTopic 40
+000269 | -Name Accounting Standards Codification
+000270 | -Section 50
+000271 | -Paragraph 6
+000272 | -Subparagraph (b)
+000273 | -Publisher FASB
+000274 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-6
+000275 | + Details
+000276 | Name:
+000277 | us-gaap_RestructuringCharges
+000278 | Namespace Prefix:
+000279 | us-gaap_
+000280 | Data Type:
+000281 | xbrli:monetaryItemType
+000282 | Balance Type:
+000283 | debit
+000284 | Period Type:
+000285 | duration
+000286 | X
+000287 | - Definition
+000288 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000289 | + References
+000290 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000291 | -Topic 280
+000292 | -SubTopic 10
+000293 | -Name Accounting Standards Codification
+000294 | -Section 50
+000295 | -Paragraph 34
+000296 | -Publisher FASB
+000297 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-34
+000298 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000299 | -Topic 280
+000300 | -SubTopic 10
+000301 | -Name Accounting Standards Codification
+000302 | -Section 50
+000303 | -Paragraph 32
+000304 | -Subparagraph (f)
+000305 | -Publisher FASB
+000306 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000307 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000308 | -Topic 280
+000309 | -SubTopic 10
+000310 | -Name Accounting Standards Codification
+000311 | -Section 50
+000312 | -Paragraph 32
+000313 | -Subparagraph (ee)
+000314 | -Publisher FASB
+000315 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000316 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000317 | -Topic 280
+000318 | -SubTopic 10
+000319 | -Name Accounting Standards Codification
+000320 | -Section 50
+000321 | -Paragraph 31
+000322 | -Publisher FASB
+000323 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-31
+000324 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000325 | -Topic 280
+000326 | -SubTopic 10
+000327 | -Name Accounting Standards Codification
+000328 | -Section 50
+000329 | -Paragraph 30
+000330 | -Subparagraph (d)
+000331 | -Publisher FASB
+000332 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000333 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000334 | -Topic 280
+000335 | -SubTopic 10
+000336 | -Name Accounting Standards Codification
+000337 | -Section 50
+000338 | -Paragraph 30
+000339 | -Subparagraph (c)
+000340 | -Publisher FASB
+000341 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000342 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000343 | -Topic 280
+000344 | -SubTopic 10
+000345 | -Name Accounting Standards Codification
+000346 | -Section 50
+000347 | -Paragraph 30
+000348 | -Subparagraph (b)
+000349 | -Publisher FASB
+000350 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000351 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000352 | -Topic 280
+000353 | -SubTopic 10
+000354 | -Name Accounting Standards Codification
+000355 | -Section 50
+000356 | -Paragraph 30
+000357 | -Subparagraph (a)
+000358 | -Publisher FASB
+000359 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000360 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000361 | -Topic 280
+000362 | -SubTopic 10
+000363 | -Name Accounting Standards Codification
+000364 | -Section 50
+000365 | -Paragraph 26C
+000366 | -Publisher FASB
+000367 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-26C
+000368 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000369 | -Topic 280
+000370 | -SubTopic 10
+000371 | -Name Accounting Standards Codification
+000372 | -Section 50
+000373 | -Paragraph 26B
+000374 | -Publisher FASB
+000375 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-26B
+000376 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000377 | -Topic 280
+000378 | -SubTopic 10
+000379 | -Name Accounting Standards Codification
+000380 | -Section 50
+000381 | -Paragraph 26A
+000382 | -Publisher FASB
+000383 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-26A
+000384 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000385 | -Topic 280
+000386 | -SubTopic 10
+000387 | -Name Accounting Standards Codification
+000388 | -Section 50
+000389 | -Paragraph 25
+000390 | -Subparagraph (b)
+000391 | -Publisher FASB
+000392 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-25
+000393 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000394 | -Topic 280
+000395 | -SubTopic 10
+000396 | -Name Accounting Standards Codification
+000397 | -Section 50
+000398 | -Paragraph 25
+000399 | -Subparagraph (a)
+000400 | -Publisher FASB
+000401 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-25
+000402 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000403 | -Topic 280
+000404 | -SubTopic 10
+000405 | -Name Accounting Standards Codification
+000406 | -Section 50
+000407 | -Paragraph 22
+000408 | -Subparagraph (j)
+000409 | -Publisher FASB
+000410 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000411 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000412 | -Topic 280
+000413 | -SubTopic 10
+000414 | -Name Accounting Standards Codification
+000415 | -Section 50
+000416 | -Paragraph 22
+000417 | -Subparagraph (h)
+000418 | -Publisher FASB
+000419 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000420 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000421 | -Topic 280
+000422 | -SubTopic 10
+000423 | -Name Accounting Standards Codification
+000424 | -Section 50
+000425 | -Paragraph 22
+000426 | -Subparagraph (g)
+000427 | -Publisher FASB
+000428 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000429 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000430 | -Topic 280
+000431 | -SubTopic 10
+000432 | -Name Accounting Standards Codification
+000433 | -Section 50
+000434 | -Paragraph 22
+000435 | -Subparagraph (f)
+000436 | -Publisher FASB
+000437 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000438 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+000439 | -Topic 280
+000440 | -SubTopic 10
+000441 | -Name Accounting Standards Codification
+000442 | -Section 50
+000443 | -Paragraph 22
+000444 | -Subparagraph (e)
+000445 | -Publisher FASB
+000446 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000447 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+000448 | -Topic 280
+000449 | -SubTopic 10
+000450 | -Name Accounting Standards Codification
+000451 | -Section 50
+000452 | -Paragraph 22
+000453 | -Subparagraph (d)
+000454 | -Publisher FASB
+000455 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000456 | Reference 20: http://www.xbrl.org/2003/role/disclosureRef
+000457 | -Topic 280
+000458 | -SubTopic 10
+000459 | -Name Accounting Standards Codification
+000460 | -Section 50
+000461 | -Paragraph 22
+000462 | -Subparagraph (c)
+000463 | -Publisher FASB
+000464 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000465 | Reference 21: http://www.xbrl.org/2003/role/disclosureRef
+000466 | -Topic 280
+000467 | -SubTopic 10
+000468 | -Name Accounting Standards Codification
+000469 | -Section 50
+000470 | -Paragraph 22
+000471 | -Subparagraph (b)
+000472 | -Publisher FASB
+000473 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000474 | Reference 22: http://www.xbrl.org/2003/role/disclosureRef
+000475 | -Topic 280
+000476 | -SubTopic 10
+000477 | -Name Accounting Standards Codification
+000478 | -Section 50
+000479 | -Paragraph 22
+000480 | -Subparagraph (a)
+000481 | -Publisher FASB
+000482 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000483 | Reference 23: http://www.xbrl.org/2003/role/disclosureRef
+000484 | -Topic 280
+000485 | -SubTopic 10
+000486 | -Name Accounting Standards Codification
+000487 | -Section 50
+000488 | -Paragraph 22
+000489 | -Publisher FASB
+000490 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000491 | Reference 24: http://www.xbrl.org/2003/role/disclosureRef
+000492 | -Topic 280
+000493 | -SubTopic 10
+000494 | -Name Accounting Standards Codification
+000495 | -Section 50
+000496 | -Paragraph 15
+000497 | -Publisher FASB
+000498 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-15
+000499 | + Details
+000500 | Name:
+000501 | us-gaap_SegmentReportingInformationLineItems
+000502 | Namespace Prefix:
+000503 | us-gaap_
+000504 | Data Type:
+000505 | xbrli:stringItemType
+000506 | Balance Type:
+000507 | na
+000508 | Period Type:
+000509 | duration
+000510 | X
+000511 | - Definition
+000512 | Amount of insurance proceeds for an event or transaction that is unusual in nature or infrequent in occurrence, or both.
+000513 | + References
+000514 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000515 | -Topic 220
+000516 | -SubTopic 20
+000517 | -Name Accounting Standards Codification
+000518 | -Section 50
+000519 | -Paragraph 1
+000520 | -Publisher FASB
+000521 | -URI https://asc.fasb.org/1943274/2147483613/220-20-50-1
+000522 | + Details
+000523 | Name:
+000524 | us-gaap_UnusualOrInfrequentItemInsuranceProceeds
+000525 | Namespace Prefix:
+000526 | us-gaap_
+000527 | Data Type:
+000528 | xbrli:monetaryItemType
+000529 | Balance Type:
+000530 | credit
+000531 | Period Type:
+000532 | duration
+000533 | X
+000534 | - Details
+000535 | Name:
+000536 | us-gaap_StatementBusinessSegmentsAxis=ctva_SeedMember
+000537 | Namespace Prefix:
+000538 | Data Type:
+000539 | na
+000540 | Balance Type:
+000541 | Period Type:
+000542 | X
+000543 | - Details
+000544 | Name:
+000545 | us-gaap_StatementBusinessSegmentsAxis=ctva_CropProtectionMember
+000546 | Namespace Prefix:
+000547 | Data Type:
+000548 | na
+000549 | Balance Type:
+000550 | Period Type:
+000551 | X
+000552 | - Details
+000553 | Name:
+000554 | us-gaap_StatementBusinessSegmentsAxis=us-gaap_CorporateMember
+000555 | Namespace Prefix:
+000556 | Data Type:
+000557 | na
+000558 | Balance Type:
+000559 | Period Type:

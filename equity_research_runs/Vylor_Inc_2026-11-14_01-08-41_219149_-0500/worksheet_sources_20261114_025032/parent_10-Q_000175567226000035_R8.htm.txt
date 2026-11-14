@@ -1,0 +1,161 @@
+000001 | v3.26.3
+000002 | Statement of Stockholders' Equity - Dividends Declared (Parentheticals) - $ / shares
+000003 | 3 Months Ended
+000004 | Sep. 30, 2026
+000005 | Jun. 30, 2026
+000006 | Mar. 31, 2026
+000007 | Sep. 30, 2025
+000008 | Jun. 30, 2025
+000009 | Mar. 31, 2025
+000010 | Common Stock, Dividends, Per Share, Declared
+000011 | $ 0.18
+000012 | $ 0.18
+000013 | $ 0.18
+000014 | $ 0.18
+000015 | $ 0.17
+000016 | $ 0.17
+000017 | EIDP | $4.50 Series Preferred Stock
+000018 | Preferred Stock, Dividends Per Share
+000019 | 1.125
+000020 | 1.125
+000021 | 1.125
+000022 | 1.125
+000023 | 1.125
+000024 | 1.125
+000025 | Preferred Stock, Dividend Rate, Per-Dollar-Amount
+000026 | 4.50
+000027 | 4.50
+000028 | 4.50
+000029 | 4.50
+000030 | 4.50
+000031 | 4.50
+000032 | EIDP | $3.50 Series Preferred Stock
+000033 | Preferred Stock, Dividends Per Share
+000034 | 0.875
+000035 | 0.875
+000036 | 0.875
+000037 | 0.875
+000038 | 0.875
+000039 | 0.875
+000040 | Preferred Stock, Dividend Rate, Per-Dollar-Amount
+000041 | $ 3.50
+000042 | $ 3.50
+000043 | $ 3.50
+000044 | $ 3.50
+000045 | $ 3.50
+000046 | $ 3.50
+000047 | X
+000048 | - Definition
+000049 | Aggregate dividends declared during the period for each share of common stock outstanding.
+000050 | + References
+000051 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000052 | -Topic 505
+000053 | -SubTopic 10
+000054 | -Name Accounting Standards Codification
+000055 | -Section S99
+000056 | -Paragraph 1
+000057 | -Subparagraph (SX 210.3-04)
+000058 | -Publisher FASB
+000059 | -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1
+000060 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000061 | -Topic 505
+000062 | -SubTopic 10
+000063 | -Name Accounting Standards Codification
+000064 | -Section S50
+000065 | -Paragraph 1
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147480070/505-10-S50-1
+000068 | + Details
+000069 | Name:
+000070 | us-gaap_CommonStockDividendsPerShareDeclared
+000071 | Namespace Prefix:
+000072 | us-gaap_
+000073 | Data Type:
+000074 | dtr-types:perShareItemType
+000075 | Balance Type:
+000076 | na
+000077 | Period Type:
+000078 | duration
+000079 | X
+000080 | - Definition
+000081 | The amount per share used to calculated dividend payments on preferred stock.
+000082 | + References
+000083 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000084 | -Topic 505
+000085 | -SubTopic 10
+000086 | -Name Accounting Standards Codification
+000087 | -Section 50
+000088 | -Paragraph 13
+000089 | -Subparagraph (b)
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-13
+000092 | + Details
+000093 | Name:
+000094 | us-gaap_PreferredStockDividendRatePerDollarAmount
+000095 | Namespace Prefix:
+000096 | us-gaap_
+000097 | Data Type:
+000098 | dtr-types:perShareItemType
+000099 | Balance Type:
+000100 | na
+000101 | Period Type:
+000102 | duration
+000103 | X
+000104 | - Definition
+000105 | Aggregate dividends declared during the period for each share of preferred stock outstanding.
+000106 | + References
+000107 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000108 | -Topic 505
+000109 | -SubTopic 10
+000110 | -Name Accounting Standards Codification
+000111 | -Section S99
+000112 | -Paragraph 1
+000113 | -Subparagraph (SX 210.3-04)
+000114 | -Publisher FASB
+000115 | -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1
+000116 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000117 | -Topic 505
+000118 | -SubTopic 10
+000119 | -Name Accounting Standards Codification
+000120 | -Section S50
+000121 | -Paragraph 1
+000122 | -Publisher FASB
+000123 | -URI https://asc.fasb.org/1943274/2147480070/505-10-S50-1
+000124 | + Details
+000125 | Name:
+000126 | us-gaap_PreferredStockDividendsPerShareDeclared
+000127 | Namespace Prefix:
+000128 | us-gaap_
+000129 | Data Type:
+000130 | dtr-types:perShareItemType
+000131 | Balance Type:
+000132 | na
+000133 | Period Type:
+000134 | duration
+000135 | X
+000136 | - Details
+000137 | Name:
+000138 | dei_LegalEntityAxis=ctva_EIDPMember
+000139 | Namespace Prefix:
+000140 | Data Type:
+000141 | na
+000142 | Balance Type:
+000143 | Period Type:
+000144 | X
+000145 | - Details
+000146 | Name:
+000147 | us-gaap_StatementClassOfStockAxis=ctva_A4.50SeriesPreferredStockMember
+000148 | Namespace Prefix:
+000149 | Data Type:
+000150 | na
+000151 | Balance Type:
+000152 | Period Type:
+000153 | X
+000154 | - Details
+000155 | Name:
+000156 | us-gaap_StatementClassOfStockAxis=ctva_A3.50SeriesPreferredStockMember
+000157 | Namespace Prefix:
+000158 | Data Type:
+000159 | na
+000160 | Balance Type:
+000161 | Period Type:

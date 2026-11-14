@@ -1,0 +1,760 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "The Company describes itself as a leading developer, publisher, and marketer of interactive entertainment worldwide.",
+          "document": "10-K",
+          "line": 135,
+          "quote": "We are a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe."
+        },
+        {
+          "section": "Overview",
+          "claim": "Management states that its strategy focuses on hit experiences delivered across all relevant platforms using multiple business models.",
+          "document": "10-K",
+          "line": 138,
+          "quote": "Our strategy is to create hit entertainment experiences, delivered on every platform relevant to our audience through a variety of sound business models."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The firm acknowledges competition from a broad spectrum of interactive‑entertainment firms, from tiny studios to large, well‑funded rivals.",
+          "document": "10-K",
+          "line": 188,
+          "quote": "•Other interactive entertainment companies that range in size and cost structure from very small with limited resources to very large with greater financial, marketing, technical, and other resources than ours."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Take‑Two notes that overseas sales constitute a material portion of total revenue.",
+          "document": "10-K",
+          "line": 194,
+          "quote": "International sales are a significant part of our business."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management lists economic stability, timely title releases, console‑generation growth, mobile performance, live‑service focus and FX stability as the primary drivers of its outlook.",
+          "document": "10-K",
+          "line": 120,
+          "quote": "Key assumptions and dependencies underlying the Company’s outlook include: a continuation of the current economic backdrop; the timely delivery of the titles included in this financial outlook; continued growth in the installed base of PlayStation 5 and Xbox Series X|S; the ability to develop and publish products that capture market share for these current generation systems while also leveraging opportunities on PC, mobile and other platforms; factors affecting our performance on mobile, such as player acquisition costs; our ongoing focus on our live services portfolio and new game pipeline; and stable foreign exchange rates."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The company has disclosed a scheduled launch date for the next Grand Theft Auto title.",
+          "document": "10-K",
+          "line": 130,
+          "quote": "Grand Theft Auto VI is planned for release on November 19, 2026."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management highlights the expanding role of mobile gaming and predicts continued growth in mobile device usage.",
+          "document": "10-K",
+          "line": 365,
+          "quote": "An increased percentage of our operations consists of mobile gaming. The number of people using mobile Internet-enabled devices has increased dramatically over time, and we expect that this trend will continue."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "No specific quantitative forecast for post‑launch revenue of Grand Theft Auto VI is provided in the filing; any projection would be speculative.",
+          "document": "10-K",
+          "line": 0,
+          "quote": ""
+        }
+      ],
+      "gaps": [
+        "The filing does not contain a forward‑looking revenue or earnings estimate for the Grand Theft Auto VI launch beyond the qualitative statement about timing.",
+        "There is no disclosed plan for new geographic expansion beyond the general statement in line 120; details of target markets are absent."
+      ],
+      "insight": "Insight: Grand Theft Auto VI is planned for release on November 19, 2026 — 10-K line 130"
+    },
+    "financial": {
+      "observations": [
+        "The company’s fiscal year runs from early April through the end of March, with the most recent filing covering the year ending in late March 2026.",
+        "Revenue reported for the latest fiscal year was higher than the prior year, indicating a positive growth trend.",
+        "Operating income was reported as a loss, showing that expenses exceeded operating profit.",
+        "Net income was also a loss, and diluted earnings per share were negative, reflecting overall unprofitability for the period.",
+        "Return on equity was negative, suggesting that the company generated a loss relative to the equity invested by shareholders.",
+        "Cash generated from operating activities turned positive for the latest fiscal year, contrasting with a negative cash flow in the earlier year.",
+        "Free cash flow was reported as a positive amount after accounting for capital expenditures.",
+        "Long‑term debt remained substantial, with a modest reduction compared with the prior year, while stockholders’ equity increased, improving the capital structure but still leaving a sizeable debt burden.",
+        "The company’s recent quarterly earnings release highlighted a strong upcoming product launch, noting that the launch of a flagship title was imminent and that bookings expectations for the full fiscal year were reaffirmed.",
+        "Management emphasized strategic priorities such as expanding geographic reach, pursuing accretive acquisitions, and leveraging live‑service models to drive future earnings power.",
+        "Risk disclosures underscore dependence on hit titles, platform licensing agreements, competitive pressures, regulatory and cyber‑security risks, and the challenges of operating in a fast‑changing digital entertainment environment.",
+        "No market price for the common stock, no valuation multiples, and no peer comparison data were supplied, so valuation analysis and benchmarking cannot be performed at this time.",
+        "The filing does not provide a computed debt‑to‑equity ratio or price‑to‑earnings multiple, and the price information needed for such calculations is missing."
+      ],
+      "gaps": [
+        "Missing market price data and corresponding date/source prevents calculation of valuation multiples such as price‑to‑earnings.",
+        "Absence of peer financial data precludes any meaningful peer‑relative analysis."
+      ],
+      "insight": "Insight: Operating cash flow turned positive, at $624.3 million, versus a prior‑year negative cash flow — 10‑K line 791: \"Net cash provided by (used in) operating activities | | $ | 624.3 | | | $ | (45.2) | | | $ | (16.1)\""
+    },
+    "advisor": {
+      "recommendation": "Hold",
+      "thesis": "Take‑Two Interactive positions itself as a leading creator of hit entertainment experiences with a forthcoming marquee title that could drive future growth. The latest filing shows revenue expanding year‑over‑year and operating cash flow turning positive, yet profitability remains negative and the business is heavily dependent on a limited set of blockbuster franchises. While the announced launch of the next Grand Theft Auto title provides a clear catalyst, the lack of concrete revenue guidance for that launch and persistent margin pressure create uncertainty about sustainable earnings momentum.",
+      "deciding_metric": "free_cash_flow_usd",
+      "risks": [
+        "Continued reliance on a small number of hit franchises; any miss on the next major release could depress revenue.",
+        "Exposure to platform licensor agreements and the bargaining power of major console manufacturers.",
+        "Significant debt load combined with negative operating margins limits financial flexibility.",
+        "Intensifying competition from both established studios and emerging mobile and AI‑driven developers.",
+        "Regulatory and cybersecurity risks that could disrupt operations or erode consumer trust."
+      ],
+      "insight": ""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 21,
+      "text": "New York, NY – November 9, 2026 – Take-Two Interactive Software, Inc. (NASDAQ:TTWO) today reported results for the second quarter of its fiscal year 2027, ended September 30, 2026. For further information, please see the second quarter fiscal 2027 results slide deck posted to the Company’s investor relations website at take2games.com/ir.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "TTWO",
+        "name": "TAKE TWO INTERACTIVE SOFTWARE INC",
+        "cik": 946581,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-14",
+      "retrieved_at": "2026-11-14T01:21:28.670018-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000946581.json",
+      "fiscal_year_end": "2026-03-31",
+      "prior_fiscal_year_end": "2025-03-31",
+      "preferred_10k_accession": "0001628280-26-037434",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "current": {
+            "val": 6656400000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 5633600000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": -104200000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -4391100000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": -298200000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -4478900000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": -1.62,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -25.58,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 3510900000,
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2137700000,
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "current": {
+            "val": 2488000000,
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2512600000,
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 624300000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -45200000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": {
+            "val": 162800000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 169400000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "18.15535359272933825617722238",
+      "operating_margin_percent": "-1.565410732528093263625984015",
+      "return_on_average_equity_percent": "-10.55836844527847608256913217",
+      "debt_to_equity": null,
+      "free_cash_flow_usd": "461500000",
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebtNoncurrent"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-14T01:21:29.832911-05:00",
+      "analysis_date": "2026-11-14",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 6656400000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "TTWO",
+            "report_period": "2026-03-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-05-21",
+            "accession_number": "0001628280-26-037434",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/0001628280-26-037434-index.htm",
+            "value": "6656400000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 5633600000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -104200000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "TTWO",
+            "report_period": "2026-03-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-05-21",
+            "accession_number": "0001628280-26-037434",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/0001628280-26-037434-index.htm",
+            "value": "-104200000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -4391100000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -298200000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "TTWO",
+            "report_period": "2026-03-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-05-21",
+            "accession_number": "0001628280-26-037434",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/0001628280-26-037434-index.htm",
+            "value": "-298200000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -4478900000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": -1.62,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "TTWO",
+            "report_period": "2026-03-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-05-21",
+            "accession_number": "0001628280-26-037434",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/0001628280-26-037434-index.htm",
+            "value": "-1.62"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": -25.58,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3510900000,
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "TTWO",
+            "report_period": "2026-03-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-05-21",
+            "accession_number": "0001628280-26-037434",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/0001628280-26-037434-index.htm",
+            "value": "3510900000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2137700000,
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2488000000,
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2512600000,
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 624300000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "TTWO",
+            "report_period": "2026-03-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-05-21",
+            "accession_number": "0001628280-26-037434",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/0001628280-26-037434-index.htm",
+            "value": "624300000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -45200000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 162800000,
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 169400000,
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "accn": "0001628280-26-037434",
+            "filed": "2026-05-22",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 6 has an invalid or non-verbatim document line and quote.",
+        "Claim 8 has an invalid or non-verbatim document line and quote.",
+        "Insight needs a filing, line number, and exact quote from that line."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line.",
+        "Financial observations contain digits."
+      ],
+      "advisor_issues": [
+        "No Insight line was supplied."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

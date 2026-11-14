@@ -32,7 +32,11 @@ Or run it from the command line:
 .\.venv\Scripts\python.exe desk_flow.py MSFT --peers AAPL GOOGL --price 400
 ```
 
-Replace the example ticker, peers, and price. The supplied price is an unverified user input. The workflow saves its inputs, intermediate outputs, and reports under `equity_research_runs/`. To verify a saved run again:
+Replace the example ticker, peers, and price. The supplied price is an unverified user input. The workflow saves its inputs, intermediate outputs, and reports under `equity_research_runs/`.
+
+For a newly listed company without a 10-K, the desk can use its Form 10 information statement and 10-Q when available. It keeps annual 10-K figures unavailable rather than treating quarterly figures as annual. Review the verifier's findings and filing sources before relying on a report.
+
+To verify a saved run again:
 
 ```powershell
 .\.venv\Scripts\python.exe desk_flow.py --verify-only "C:\path\to\saved\run"
@@ -106,7 +110,7 @@ Run the skill tests:
 
 Keep .env private. The isolated LSEG Python environment is machine-specific; on another computer, install the LSEG library there and set the SEC User-Agent and LSEG App Key in its local .env.
 
-## Lab 07 preparation
+## Lab 07 worksheet
 
 Lab 07 pre-work is in the repository. The worksheet skill is `.agents/skills/us-spinoff-worksheet/`; its `SKILL.md` gives the source-collection, LSEG reader, calculation, save, validation, and hit-rate-table commands. The input rules are in `lab07_worksheet_rules.md`, and the qualitative persona is `personas/investment_advisor.md`.
 
@@ -114,7 +118,9 @@ The seeker close reader now also returns daily share volume. Its official reader
 
 The worksheet values owner cash flow as equity directly because the course formula starts with after-tax earnings. Do not call that result firm or enterprise value, or add cash and subtract debt from it. Report cash, debt, and liabilities as separate sourced facts. The rules file contains the formulas, thresholds, missing-data behavior, and conviction conditions.
 
-Prep checks completed: 24 synthetic closes-reader tests passed; Python syntax checks passed for the new scripts; the staged hook configuration parsed as JSON. A live LSEG candidate-bars request returned two rows, but those rows were not independently verified as official primary-listing prices. No company worksheet or actual Lab 07 report has been prepared, and the hook remains inactive.
+The Vylor team run and a dated worksheet now exist. The latest is [the Vylor worksheet](equity_research_runs/Vylor_Inc_2026-11-14_01-08-41_219149_-0500/worksheet-20261114-025135-330558.md). It includes pro forma financing assumptions and conditional separation obligations, but diluted share counts and several filing facts remain unestablished; affected per-share values and the Take-Two live view remain `not computed`. The Vylor research report's verifier recorded unresolved unsupported and incorrect claims, so review its sources before relying on it.
+
+LSEG bars were obtained with `TR.CLOSEPRICE(Adjusted=0)` under the user's stated interpretation of that field. The report discloses that an independent exchange-price comparison was not completed. The local files in `%TEMP%` are licensed reader data and are not included in the repository. Vylor volume is from the selected NYSE instrument, not necessarily consolidated market volume. The 28 worksheet tests passed.
 
 Run the focused closes-reader tests from the repository root:
 
@@ -122,7 +128,7 @@ Run the focused closes-reader tests from the repository root:
 .\.venv\Scripts\python.exe -m unittest discover -s .\.agents\skills\us-spinoff-seeker\scripts -p "test_closes_reader.py"
 ```
 
-Use the worksheet skill for its commands and required evidence. The hit-rate table reads saved live views only; it does not validate investment performance. Current selections recorded from prior messages are SportsQuest as the working worksheet name and Take-Two Interactive as the live-release company. Confirm these with the partner as part of the actual Lab 07 session. The actual paired review, company run, hook review/trust and checks, and live worksheet/report remain to be done.
+`run_worksheet.py` collects sources, extracts supported facts, calculates in code, makes one qualitative model request, and saves a dated worksheet. The extractor covers limited filing formats and records gaps. The staged hook can identify the runner's output, but it cannot yet validate the automatic renderer: the renderer must emit compatible numeric markers, then pass clean-copy and altered-copy checks. The hook is not enabled. The hit-rate table reads saved live views only; it does not validate investment performance. Vylor is the selected spinoff company, with the partner's agreement; Take-Two is the separate live-release company. The worksheet still needs to be placed on the project page beside the report.
 
 ## Tests
 

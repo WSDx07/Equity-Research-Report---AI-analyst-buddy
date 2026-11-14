@@ -1,0 +1,242 @@
+000001 | v3.26.3
+000002 | Inventories Schedule of Inventory (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Inventory Disclosure [Abstract]
+000008 | Finished Products
+000009 | $ 1,308
+000010 | $ 1,946
+000011 | $ 1,206
+000012 | Semi-finished Products
+000013 | 1,441
+000014 | 1,144
+000015 | 1,295
+000016 | Raw Materials and Supplies
+000017 | 226
+000018 | 248
+000019 | 210
+000020 | Total inventories
+000021 | 2,975
+000022 | 3,338
+000023 | 2,711
+000024 | Inventory [Line Items]
+000025 | Finished Products
+000026 | 1,308
+000027 | 1,946
+000028 | 1,206
+000029 | Semi-finished Products
+000030 | 1,441
+000031 | 1,144
+000032 | 1,295
+000033 | Raw Materials and Supplies
+000034 | 226
+000035 | 248
+000036 | 210
+000037 | Total inventories
+000038 | 2,975
+000039 | 3,338
+000040 | 2,711
+000041 | Corteva,Inc.
+000042 | Inventory Disclosure [Abstract]
+000043 | Finished Products
+000044 | 2,405
+000045 | 2,956
+000046 | 2,318
+000047 | Semi-finished Products
+000048 | 2,642
+000049 | 2,276
+000050 | 2,556
+000051 | Raw Materials and Supplies
+000052 | 435
+000053 | 435
+000054 | 436
+000055 | Total inventories
+000056 | 5,482
+000057 | 5,667
+000058 | 5,310
+000059 | Inventory [Line Items]
+000060 | Finished Products
+000061 | 2,405
+000062 | 2,956
+000063 | 2,318
+000064 | Semi-finished Products
+000065 | 2,642
+000066 | 2,276
+000067 | 2,556
+000068 | Raw Materials and Supplies
+000069 | 435
+000070 | 435
+000071 | 436
+000072 | Total inventories
+000073 | $ 5,482
+000074 | $ 5,667
+000075 | $ 5,310
+000076 | X
+000077 | - References
+000078 | No definition available.
+000079 | + Details
+000080 | Name:
+000081 | us-gaap_InventoryDisclosureAbstract
+000082 | Namespace Prefix:
+000083 | us-gaap_
+000084 | Data Type:
+000085 | xbrli:stringItemType
+000086 | Balance Type:
+000087 | na
+000088 | Period Type:
+000089 | duration
+000090 | X
+000091 | - Definition
+000092 | Amount before valuation and LIFO reserves of completed merchandise or goods expected to be sold within one year or operating cycle, if longer.
+000093 | + References
+000094 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000095 | -Topic 210
+000096 | -SubTopic 10
+000097 | -Name Accounting Standards Codification
+000098 | -Section S50
+000099 | -Paragraph 3
+000100 | -Publisher FASB
+000101 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000102 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000103 | -Topic 210
+000104 | -SubTopic 10
+000105 | -Name Accounting Standards Codification
+000106 | -Section S99
+000107 | -Paragraph 1
+000108 | -Subparagraph (SX 210.5-02(6)(a)(1))
+000109 | -Publisher FASB
+000110 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000111 | + Details
+000112 | Name:
+000113 | us-gaap_InventoryFinishedGoods
+000114 | Namespace Prefix:
+000115 | us-gaap_
+000116 | Data Type:
+000117 | xbrli:monetaryItemType
+000118 | Balance Type:
+000119 | debit
+000120 | Period Type:
+000121 | instant
+000122 | X
+000123 | - Definition
+000124 | Gross amount, as of the balance sheet date, of merchandise, goods, commodities, or supplies held for future sale or to be used in manufacturing, servicing or production process.
+000125 | + References
+000126 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000127 | -Topic 210
+000128 | -SubTopic 10
+000129 | -Name Accounting Standards Codification
+000130 | -Section S99
+000131 | -Paragraph 1
+000132 | -Subparagraph (SX 210.5-02(6))
+000133 | -Publisher FASB
+000134 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000135 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000136 | -Topic 210
+000137 | -SubTopic 10
+000138 | -Name Accounting Standards Codification
+000139 | -Section S50
+000140 | -Paragraph 3
+000141 | -Publisher FASB
+000142 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000143 | + Details
+000144 | Name:
+000145 | us-gaap_InventoryGross
+000146 | Namespace Prefix:
+000147 | us-gaap_
+000148 | Data Type:
+000149 | xbrli:monetaryItemType
+000150 | Balance Type:
+000151 | debit
+000152 | Period Type:
+000153 | instant
+000154 | X
+000155 | - Definition
+000156 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000157 | + References
+000158 | No definition available.
+000159 | + Details
+000160 | Name:
+000161 | us-gaap_InventoryLineItems
+000162 | Namespace Prefix:
+000163 | us-gaap_
+000164 | Data Type:
+000165 | xbrli:stringItemType
+000166 | Balance Type:
+000167 | na
+000168 | Period Type:
+000169 | duration
+000170 | X
+000171 | - Definition
+000172 | Gross amount of unprocessed materials to be used in manufacturing or production process and supplies that will be consumed.
+000173 | + References
+000174 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000175 | -Topic 210
+000176 | -SubTopic 10
+000177 | -Name Accounting Standards Codification
+000178 | -Section S99
+000179 | -Paragraph 1
+000180 | -Subparagraph (SX 210.5-02(6))
+000181 | -Publisher FASB
+000182 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000183 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000184 | -Topic 210
+000185 | -SubTopic 10
+000186 | -Name Accounting Standards Codification
+000187 | -Section S50
+000188 | -Paragraph 3
+000189 | -Publisher FASB
+000190 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000191 | + Details
+000192 | Name:
+000193 | us-gaap_InventoryRawMaterialsAndSupplies
+000194 | Namespace Prefix:
+000195 | us-gaap_
+000196 | Data Type:
+000197 | xbrli:monetaryItemType
+000198 | Balance Type:
+000199 | debit
+000200 | Period Type:
+000201 | instant
+000202 | X
+000203 | - Definition
+000204 | Amount before valuation and LIFO reserves of merchandise or goods in the production process expected to be completed within one year or operating cycle, if longer.
+000205 | + References
+000206 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000207 | -Topic 210
+000208 | -SubTopic 10
+000209 | -Name Accounting Standards Codification
+000210 | -Section S50
+000211 | -Paragraph 3
+000212 | -Publisher FASB
+000213 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000214 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000215 | -Topic 210
+000216 | -SubTopic 10
+000217 | -Name Accounting Standards Codification
+000218 | -Section S99
+000219 | -Paragraph 1
+000220 | -Subparagraph (SX 210.5-02(6)(a)(3))
+000221 | -Publisher FASB
+000222 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000223 | + Details
+000224 | Name:
+000225 | us-gaap_InventoryWorkInProcess
+000226 | Namespace Prefix:
+000227 | us-gaap_
+000228 | Data Type:
+000229 | xbrli:monetaryItemType
+000230 | Balance Type:
+000231 | debit
+000232 | Period Type:
+000233 | instant
+000234 | X
+000235 | - Details
+000236 | Name:
+000237 | dei_LegalEntityAxis=vylr_CortevaInc.Member
+000238 | Namespace Prefix:
+000239 | Data Type:
+000240 | na
+000241 | Balance Type:
+000242 | Period Type:
