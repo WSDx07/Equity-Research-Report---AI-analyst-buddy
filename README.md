@@ -106,6 +106,24 @@ Run the skill tests:
 
 Keep .env private. The isolated LSEG Python environment is machine-specific; on another computer, install the LSEG library there and set the SEC User-Agent and LSEG App Key in its local .env.
 
+## Lab 07 preparation
+
+Lab 07 pre-work is in the repository. The worksheet skill is `.agents/skills/us-spinoff-worksheet/`; its `SKILL.md` gives the source-collection, LSEG reader, calculation, save, validation, and hit-rate-table commands. The input rules are in `lab07_worksheet_rules.md`, and the qualitative persona is `personas/investment_advisor.md`.
+
+The seeker close reader now also returns daily share volume. Its official reader requires listing evidence and an exchange spot check; its candidate reader is explicitly unverified. The worksheet skill's hook is staged in `.agents/skills/us-spinoff-worksheet/hooks/hooks.json` and is **not enabled**. Review the hook source and configuration, then complete the lab's seeded-copy and clean-copy checks before enabling it.
+
+The worksheet values owner cash flow as equity directly because the course formula starts with after-tax earnings. Do not call that result firm or enterprise value, or add cash and subtract debt from it. Report cash, debt, and liabilities as separate sourced facts. The rules file contains the formulas, thresholds, missing-data behavior, and conviction conditions.
+
+Prep checks completed: 24 synthetic closes-reader tests passed; Python syntax checks passed for the new scripts; the staged hook configuration parsed as JSON. A live LSEG candidate-bars request returned two rows, but those rows were not independently verified as official primary-listing prices. No company worksheet or actual Lab 07 report has been prepared, and the hook remains inactive.
+
+Run the focused closes-reader tests from the repository root:
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s .\.agents\skills\us-spinoff-seeker\scripts -p "test_closes_reader.py"
+```
+
+Use the worksheet skill for its commands and required evidence. The hit-rate table reads saved live views only; it does not validate investment performance. Current selections recorded from prior messages are SportsQuest as the working worksheet name and Take-Two Interactive as the live-release company. Confirm these with the partner as part of the actual Lab 07 session. The actual paired review, company run, hook review/trust and checks, and live worksheet/report remain to be done.
+
 ## Tests
 
 Run the local test suite from the repository folder:

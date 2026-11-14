@@ -1,0 +1,30 @@
+{
+  "description": "Staged Lab 07 worksheet number check. Review this file and the hook source before copying it into .codex/hooks.json.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "^Bash$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .agents/skills/us-spinoff-worksheet/hooks/worksheet_hook.py",
+            "timeout": 30,
+            "statusMessage": "Checking saved worksheet numbers"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .agents/skills/us-spinoff-worksheet/hooks/worksheet_hook.py",
+            "timeout": 30,
+            "statusMessage": "Checking worksheet before completion"
+          }
+        ]
+      }
+    ]
+  }
+}

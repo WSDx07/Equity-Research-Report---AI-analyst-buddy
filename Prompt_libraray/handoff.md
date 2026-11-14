@@ -1,3 +1,21 @@
+# Latest continuation - November 14, 2026: Lab 07 pre-work is ready; actual lab not started
+
+The user asked to complete the preparation work only, not perform Lab 07. The pre-work is now represented in the repository by `.agents/skills/us-spinoff-worksheet/`, `lab07_worksheet_rules.md`, and `personas/investment_advisor.md`.
+
+The seeker closes reader in `.agents/skills/us-spinoff-seeker/scripts/closes_reader.py` now returns daily close and share volume from export, candidate, and official Workspace reader paths. Candidate data is labeled unverified. The official reader requires filing-based listing evidence and an exchange spot check; do not treat a candidate-bars response as verified official close history. The reader's focused synthetic suite passed **24 tests**. Python syntax checks passed for the new worksheet scripts, and the staged hook JSON parsed successfully. A live LSEG candidate-bars query returned two rows for a generic instrument, which confirms field delivery only; it does not validate a real spinoff's official primary-listing series.
+
+The worksheet skill covers SEC source collection, the Workspace bars reader, deterministic calculations, worksheet saving and checking, and the read-only hit-rate table. Raw licensed LSEG histories must stay outside Git and model context. The worksheet rule file was corrected so after-tax-earnings-based owner cash flow is capitalized directly as **equity value**. Do not call it firm/enterprise value or bridge cash and debt into it; report those as separate sourced facts.
+
+The worksheet hook and its `hooks.json` are staged only inside `.agents/skills/us-spinoff-worksheet/hooks/`. They are **not enabled** in the project Codex configuration. Before activation, inspect the source/configuration, review and trust it, and run the seeded-copy and clean-copy checks required by Lab 07. Official Codex hook review guidance: https://learn.chatgpt.com/docs/hooks .
+
+Prior selections to carry forward as tentative setup: SportsQuest is the working worksheet name; Take-Two Interactive is the live-release company. Check these with the partner during the actual lab. The team pairing, agent-team company run, selected company worksheet, hook activation/checks, and live worksheet/report have **not** been done. Do not imply Lab 07 is complete.
+
+Focused reader test command from the project root:
+
+`.\.venv\Scripts\python.exe -m unittest discover -s .\.agents\skills\us-spinoff-seeker\scripts -p "test_closes_reader.py"`
+
+For the full worksheet workflow and its command sequence, see `.agents/skills/us-spinoff-worksheet/SKILL.md`. README was updated with the pre-work status, corrected valuation treatment, focused test command, and remaining actual-lab steps.
+
 # Latest continuation - November 13, 2026: registry write collision
 
 The one-year run stopped after recording 80 registrants because the installed script tried to replace the shared `spinoff_runs/registry.json` and Windows denied access. The existing `registry.json` is still present with 80 CIK entries; the interrupted run did not produce its screen report.

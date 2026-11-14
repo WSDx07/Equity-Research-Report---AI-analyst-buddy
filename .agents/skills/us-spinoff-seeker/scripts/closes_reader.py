@@ -105,6 +105,28 @@ def matches_exchange(close: dict, reference: dict) -> bool:
         return False
 
 
+def _normalized_lseg_key(value):
+    return ''.join(character for character in str(value).casefold() if character.isalnum())
+
+
+def _lseg_value(row, aliases, label):
+    wanted = {_normalized_lseg_key(value) for value in aliases}
+    matches = [value for key, value in row.items() if _normalized_lseg_key(key) in wanted]
+    if len(matches) != 1:
+        raise ValueError(f'Unrecognized LSEG {label} response column')
+    return matches[0]
+
+
+def _parse_share_volume(value):
+    try:
+        volume = Decimal(str(value).strip().replace(',', ''))
+    except (InvalidOperation, TypeError, AttributeError) as exc:
+        raise ValueError('Invalid share volume') from exc
+    if not volume.is_finite() or volume < 0 or volume != volume.to_integral_value():
+        raise ValueError('Invalid share volume')
+    return str(volume)
+
+
 class WorkspaceExportReader:
     """Read a mapped LSEG web export after a user-supplied exchange spot check.
 
@@ -166,7 +188,13 @@ class WorkspaceExportReader:
             try: close=Decimal(str(raw_close).strip().replace(',',''))
             except InvalidOperation as exc: raise ValueError('Invalid close in export') from exc
             if not close.is_finite() or close<=0 or day in seen: raise ValueError('Invalid or duplicate close')
-            seen.add(day); result.append({'date':day.isoformat(),'close':str(close)})
+            item={'ticker':self.ticker,'date':day.isoformat(),'close':str(close),
+                  'basis':'official_unadjusted','session':'regular','when_issued':False}
+            if self.mapping.get('volume'):
+                raw_volume=row.get(self.mapping['volume'])
+                if raw_volume in (None, ''): raise ValueError('Share volume is missing in export')
+                item['volume']=_parse_share_volume(raw_volume)
+            seen.add(day); result.append(item)
         if hashlib.sha256(self.path.read_bytes()).digest()!=self.digest:
             raise ValueError('Export changed while reading')
         return sorted(result,key=lambda r:r['date'])
@@ -177,6 +205,11 @@ class WorkspaceExportReader:
         if last<first: raise ValueError('end date precedes start date')
         if first<self.coverage_start or last>self.coverage_end: raise ValueError('Requested dates exceed declared export coverage')
         return [r for r in self._read_rows() if first<=date.fromisoformat(r['date'])<=last]
+
+    def daily_bars(self,ticker,start,end):
+        if not self.mapping.get('volume'):
+            raise ValueError('Export mapping must identify a share-volume column')
+        return self.daily_closes(ticker,start,end)
 
     def last_close_before(self,ticker,moment):
         if moment.tzinfo is None or moment.utcoffset() is None: raise ValueError('Date and time must include a time zone')
@@ -213,6 +246,34 @@ class WorkspaceCandidateReader:
             if not price.is_finite() or price<=0 or day in seen or not first<=day<=last: raise ValueError('Invalid or duplicate candidate close')
             seen.add(day)
             output.append({'date':day.isoformat(),'close':str(price),'verification':'unverified candidate'})
+        if output and missing: raise ValueError('Candidate history contains missing observations')
+        return sorted(output,key=lambda item:item['date'])
+
+    def daily_bars(self, ticker, start, end):
+        first=date.fromisoformat(start); last=date.fromisoformat(end)
+        if not ticker or last<first: raise ValueError('Ticker and valid date range are required')
+        frame=self.client.get_data(universe=[ticker],fields=[
+            'TR.CLOSEPRICE.date','TR.CLOSEPRICE(Adjusted=0)','TR.Volume'],
+            parameters={'SDate':start,'EDate':end,'Frq':'D'})
+        output=[]; seen=set(); missing=0
+        for row in frame.to_dict('records'):
+            raw_day=_lseg_value(row,('Date','TR.CLOSEPRICE.date'),'date')
+            raw_price=_lseg_value(row,('Close Price','TR.CLOSEPRICE','TR.CLOSEPRICE(Adjusted=0)'),'close')
+            raw_volume=_lseg_value(row,('Volume','TR.Volume'),'volume')
+            absent=lambda value: value is None or str(value).strip().casefold() in {'','<na>','nan','nat','none'}
+            if absent(raw_price):
+                missing+=1
+                continue
+            if absent(raw_day) or absent(raw_volume): raise ValueError('Candidate date or volume is missing')
+            try:
+                day=date.fromisoformat(str(raw_day)[:10]); price=Decimal(str(raw_price).replace(',',''))
+            except (ValueError,InvalidOperation,TypeError) as exc: raise ValueError('Invalid candidate close') from exc
+            volume=_parse_share_volume(raw_volume)
+            if not price.is_finite() or price<=0 or day in seen or not first<=day<=last: raise ValueError('Invalid or duplicate candidate close')
+            seen.add(day)
+            output.append({'ticker':str(ticker).strip().upper(),'date':day.isoformat(),'close':str(price),'volume':volume,
+                           'verification':'unverified candidate','basis':'candidate_unadjusted',
+                           'source':'LSEG TR.CLOSEPRICE(Adjusted=0), TR.Volume'})
         if output and missing: raise ValueError('Candidate history contains missing observations')
         return sorted(output,key=lambda item:item['date'])
 
@@ -273,6 +334,32 @@ class WorkspaceOfficialReader:
             seen.add(day)
             out.append({'date':day.isoformat(),'close':str(close),'when_issued':False,
                         'basis':'official_unadjusted','source':'LSEG TR.OFFICIALCLOSEPRICE; exchange spot check: '+self.evidence['exchange_url']})
+        return sorted(out,key=lambda x:x['date'])
+
+    def daily_bars(self,start,end):
+        first=date.fromisoformat(start); last=date.fromisoformat(end)
+        if last<first: raise ValueError('end date precedes start date')
+        frame=self.client.get_data(universe=[self.evidence['ric']],fields=[
+            'TR.OFFICIALCLOSEPRICE.date','TR.OFFICIALCLOSEPRICE(Adjusted=0)','TR.Volume'],
+            parameters={'SDate':start,'EDate':end,'Frq':'D'})
+        out=[]; seen=set()
+        for row in frame.to_dict('records'):
+            day_value=_lseg_value(row,('Date','TR.OFFICIALCLOSEPRICE.date'),'date')
+            close_value=_lseg_value(row,('Official Close Price','TR.OFFICIALCLOSEPRICE',
+                                          'TR.OFFICIALCLOSEPRICE(Adjusted=0)'),'official close')
+            volume_value=_lseg_value(row,('Volume','TR.Volume'),'volume')
+            absent=lambda value: value is None or str(value).strip().casefold() in {'','none','nat','nan','<na>'}
+            if absent(day_value) or absent(close_value) or absent(volume_value):
+                raise ValueError('Official close, date, or share volume is missing')
+            try: day=date.fromisoformat(str(day_value)[:10]); close=Decimal(str(close_value).replace(',',''))
+            except (ValueError,TypeError,InvalidOperation) as exc: raise ValueError('Invalid official close') from exc
+            volume=_parse_share_volume(volume_value)
+            if day in seen or not first<=day<=last or not close.is_finite() or close<=0:
+                raise ValueError('Invalid or duplicate official close')
+            seen.add(day)
+            out.append({'ticker':str(self.evidence['ticker']).strip().upper(),'date':day.isoformat(),'close':str(close),'volume':volume,
+                        'when_issued':False,'basis':'official_unadjusted','session':'regular',
+                        'source':'LSEG TR.OFFICIALCLOSEPRICE(Adjusted=0), TR.Volume; exchange spot check: '+self.evidence['exchange_url']})
         return sorted(out,key=lambda x:x['date'])
 
     def last_close_before(self,moment,start):

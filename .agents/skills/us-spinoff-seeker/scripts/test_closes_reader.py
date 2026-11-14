@@ -158,6 +158,68 @@ class OfficialCloseTests(unittest.TestCase):
             with self.assertRaises(ValueError): reader.last_close_before('TEST',datetime(2024,3,12,21,0,tzinfo=timezone.utc))
             with self.assertRaises(ValueError):
                 closes_reader.WorkspaceExportReader(path,mapping,dict(reference,close='12.00'),workspace_root=workspace)
+
+    def test_official_reader_returns_unadjusted_close_and_share_volume(self):
+        class Frame:
+            def __init__(self, rows): self.rows=rows
+            def to_dict(self, orient): return self.rows
+        class Discovery:
+            class Views: EQUITY_QUOTES='equities'
+            def search(self, **kwargs):
+                return Frame([{'TickerSymbol':'TEST','RIC':'TEST.N','AssetState':'AC','ExchangeName':'New York Stock Exchange'}])
+        class Client:
+            def __init__(self):
+                self.discovery=Discovery(); self.calls=[]
+                self.rows=[{'Date':'2024-01-03','Official Close Price':'10.00','Volume':1000},
+                           {'Date':'2024-01-04','Official Close Price':'8.00','Volume':2500}]
+            def get_data(self, **kwargs):
+                self.calls.append(kwargs)
+                return Frame([r for r in self.rows if kwargs['parameters']['SDate']<=r['Date']<=kwargs['parameters']['EDate']])
+        evidence={'cik':'1','ticker':'TEST','ric':'TEST.N','exchange':'New York Stock Exchange',
+                  'regular_way':True,'exchange_url':'https://exchange.example/close',
+                  'reference_date':'2024-01-03','reference_close':'10.00'}
+        client=Client()
+        reader=closes_reader.WorkspaceOfficialReader(client,evidence,lambda value: True)
+        bars=reader.daily_bars('2024-01-03','2024-01-04')
+        self.assertEqual([(x['date'],x['close'],x['volume']) for x in bars],
+                         [('2024-01-03','10.00','1000'),('2024-01-04','8.00','2500')])
+        self.assertTrue(all(x['basis']=='official_unadjusted' and x['session']=='regular' for x in bars))
+        self.assertIn('TR.Volume',client.calls[-1]['fields'])
+
+    def test_official_reader_rejects_missing_or_fractional_volume(self):
+        class Frame:
+            def __init__(self, rows): self.rows=rows
+            def to_dict(self, orient): return self.rows
+        class Discovery:
+            class Views: EQUITY_QUOTES='equities'
+            def search(self, **kwargs):
+                return Frame([{'TickerSymbol':'TEST','RIC':'TEST.N','AssetState':'AC','ExchangeName':'New York Stock Exchange'}])
+        class Client:
+            def __init__(self): self.discovery=Discovery(); self.rows=[]
+            def get_data(self, **kwargs):
+                return Frame([r for r in self.rows if kwargs['parameters']['SDate']<=r['Date']<=kwargs['parameters']['EDate']])
+        evidence={'cik':'1','ticker':'TEST','ric':'TEST.N','exchange':'New York Stock Exchange',
+                  'regular_way':True,'exchange_url':'https://exchange.example/close',
+                  'reference_date':'2024-01-03','reference_close':'10.00'}
+        client=Client(); client.rows=[{'Date':'2024-01-03','Official Close Price':'10.00','Volume':1000}]
+        reader=closes_reader.WorkspaceOfficialReader(client,evidence,lambda value: True)
+        client.rows=[{'Date':'2024-01-04','Official Close Price':'8.00'}]
+        with self.assertRaises(ValueError): reader.daily_bars('2024-01-04','2024-01-04')
+        client.rows=[{'Date':'2024-01-04','Official Close Price':'8.00','Volume':'1.5'}]
+        with self.assertRaises(ValueError): reader.daily_bars('2024-01-04','2024-01-04')
+
+    def test_workspace_export_reader_returns_mapped_volume(self):
+        with tempfile.TemporaryDirectory() as outside, tempfile.TemporaryDirectory() as workspace:
+            path=Path(outside)/'workspace.csv'
+            path.write_text('Date,Official close,Volume\n2024-03-08,10.00,200\n2024-03-11,11.00,400\n',encoding='utf-8')
+            mapping={'date':'Date','close':'Official close','volume':'Volume','ticker':'TEST',
+                     'price_basis':'official_unadjusted','session':'regular',
+                     'coverage_start':'2024-03-08','coverage_end':'2024-03-11'}
+            reference={'ticker':'TEST','date':'2024-03-11','close':'11.00','url':'https://exchange.test/official'}
+            reader=closes_reader.WorkspaceExportReader(path,mapping,reference,workspace_root=workspace)
+            bars=reader.daily_bars('TEST','2024-03-08','2024-03-11')
+            self.assertEqual([row['volume'] for row in bars],['200','400'])
+            self.assertTrue(all(row['basis']=='official_unadjusted' and row['session']=='regular' for row in bars))
             inside=Path(workspace)/'workspace.csv'; inside.write_text(path.read_text(encoding='utf-8'),encoding='utf-8')
             with self.assertRaises(ValueError):
                 closes_reader.WorkspaceExportReader(inside,mapping,reference,workspace_root=workspace)

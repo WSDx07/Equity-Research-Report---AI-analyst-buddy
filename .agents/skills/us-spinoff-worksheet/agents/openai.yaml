@@ -1,0 +1,7 @@
+interface:
+  display_name: "U.S. Spinoff Worksheet"
+  short_description: "Build a sourced Lab 07 worksheet"
+  default_prompt: "Use $us-spinoff-worksheet to prepare a sourced worksheet from a saved run."
+
+policy:
+  allow_implicit_invocation: true
