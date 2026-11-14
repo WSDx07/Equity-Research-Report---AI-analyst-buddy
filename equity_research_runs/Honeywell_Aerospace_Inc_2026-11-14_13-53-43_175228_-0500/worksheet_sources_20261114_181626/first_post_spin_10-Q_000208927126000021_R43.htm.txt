@@ -1,0 +1,170 @@
+000001 | v3.26.1
+000002 | Revenue Recognition from Contracts with Customers - Additional Information (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 6 Months Ended
+000006 | Jun. 27, 2026
+000007 | Jun. 28, 2025
+000008 | Jun. 27, 2026
+000009 | Jun. 28, 2025
+000010 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]
+000011 | Contract liability, revenue recognized
+000012 | $ 236
+000013 | $ 210
+000014 | $ 669
+000015 | $ 611
+000016 | Performance obligation, amount
+000017 | $ 18,200
+000018 | $ 18,200
+000019 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction, Start Date [Axis]: 2026-06-28
+000020 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]
+000021 | Revenue, remaining performance obligation, expected timing of satisfaction, period
+000022 | 1 year
+000023 | 1 year
+000024 | Performance obligation, percentage
+000025 | 58.00%
+000026 | 58.00%
+000027 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction, Start Date [Axis]: 2027-06-28
+000028 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]
+000029 | Revenue, remaining performance obligation, expected timing of satisfaction, period
+000030 | Performance obligation, percentage
+000031 | 42.00%
+000032 | 42.00%
+000033 | X
+000034 | - Definition
+000035 | Amount of revenue recognized that was previously included in balance of obligation to transfer good or service to customer for which consideration from customer has been received or is due.
+000036 | + References
+000037 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000038 | -Topic 606
+000039 | -SubTopic 10
+000040 | -Name Accounting Standards Codification
+000041 | -Section 50
+000042 | -Paragraph 8
+000043 | -Subparagraph (b)
+000044 | -Publisher FASB
+000045 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000046 | + Details
+000047 | Name:
+000048 | us-gaap_ContractWithCustomerLiabilityRevenueRecognized
+000049 | Namespace Prefix:
+000050 | us-gaap_
+000051 | Data Type:
+000052 | xbrli:monetaryItemType
+000053 | Balance Type:
+000054 | credit
+000055 | Period Type:
+000056 | duration
+000057 | X
+000058 | - Definition
+000059 | Amount of transaction price allocated to performance obligation that has not been recognized as revenue.
+000060 | + References
+000061 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000062 | -Name Accounting Standards Codification
+000063 | -Section 50
+000064 | -Paragraph 13
+000065 | -Subparagraph (a)
+000066 | -SubTopic 10
+000067 | -Topic 606
+000068 | -Publisher FASB
+000069 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-13
+000070 | + Details
+000071 | Name:
+000072 | us-gaap_RevenueRemainingPerformanceObligation
+000073 | Namespace Prefix:
+000074 | us-gaap_
+000075 | Data Type:
+000076 | xbrli:monetaryItemType
+000077 | Balance Type:
+000078 | credit
+000079 | Period Type:
+000080 | instant
+000081 | X
+000082 | - Definition
+000083 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000084 | + References
+000085 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000086 | -Topic 606
+000087 | -SubTopic 10
+000088 | -Name Accounting Standards Codification
+000089 | -Section 50
+000090 | -Paragraph 13
+000091 | -Subparagraph (b)(1)
+000092 | -Publisher FASB
+000093 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-13
+000094 | + Details
+000095 | Name:
+000096 | us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionLineItems
+000097 | Namespace Prefix:
+000098 | us-gaap_
+000099 | Data Type:
+000100 | xbrli:stringItemType
+000101 | Balance Type:
+000102 | na
+000103 | Period Type:
+000104 | duration
+000105 | X
+000106 | - Definition
+000107 | Period in which remaining performance obligation is expected to be recognized as revenue, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000108 | + References
+000109 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000110 | -Topic 606
+000111 | -SubTopic 10
+000112 | -Name Accounting Standards Codification
+000113 | -Section 50
+000114 | -Paragraph 13
+000115 | -Subparagraph (b)(1)
+000116 | -Publisher FASB
+000117 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-13
+000118 | + Details
+000119 | Name:
+000120 | us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionPeriod1
+000121 | Namespace Prefix:
+000122 | us-gaap_
+000123 | Data Type:
+000124 | xbrli:durationItemType
+000125 | Balance Type:
+000126 | na
+000127 | Period Type:
+000128 | instant
+000129 | X
+000130 | - Definition
+000131 | Percentage of remaining performance obligation to total remaining performance obligation not recognized as revenue.
+000132 | + References
+000133 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000134 | -Name Accounting Standards Codification
+000135 | -Section 50
+000136 | -Paragraph 13
+000137 | -Subparagraph (b)(1)
+000138 | -SubTopic 10
+000139 | -Topic 606
+000140 | -Publisher FASB
+000141 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-13
+000142 | + Details
+000143 | Name:
+000144 | us-gaap_RevenueRemainingPerformanceObligationPercentage
+000145 | Namespace Prefix:
+000146 | us-gaap_
+000147 | Data Type:
+000148 | dtr-types:percentItemType
+000149 | Balance Type:
+000150 | na
+000151 | Period Type:
+000152 | instant
+000153 | X
+000154 | - Details
+000155 | Name:
+000156 | us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionStartDateAxis=2026-06-28
+000157 | Namespace Prefix:
+000158 | Data Type:
+000159 | na
+000160 | Balance Type:
+000161 | Period Type:
+000162 | X
+000163 | - Details
+000164 | Name:
+000165 | us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionStartDateAxis=2027-06-28
+000166 | Namespace Prefix:
+000167 | Data Type:
+000168 | na
+000169 | Balance Type:
+000170 | Period Type:

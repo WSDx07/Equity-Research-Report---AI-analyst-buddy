@@ -98,7 +98,7 @@ def _pipe_row_amount(line, scale, target):
     return None
 
 
-def _text_annual_input(run, target, distribution_date, as_of):
+def _text_annual_input(run, target, distribution_date, as_of, ticker=None):
     """Read one unambiguous annual statement row when the run has no XBRL fact."""
     candidates = []
     pattern = STATEMENT_HEADINGS[target]
@@ -106,6 +106,8 @@ def _text_annual_input(run, target, distribution_date, as_of):
     for source in Path(run).rglob('*.txt'):
         lower_name = source.name.lower()
         if lower_name.startswith(('parent_', 'live_', 'distribution_', 'form4_')):
+            continue
+        if ticker and not lower_name.startswith((ticker.lower() + '_', '10-12', 'first_post_spin_10-k')):
             continue
         if target == 'diluted_shares':
             continue
@@ -362,7 +364,8 @@ def read_financial_inputs(run, facts, distribution_date=None):
     # filing itself, with the table heading, scale, year, accession, and line.
     for target in ('after_tax_earnings', 'depreciation', 'capital_spending'):
         if target not in found:
-            item = _text_annual_input(run, target, distribution_date, as_of.isoformat())
+            item = _text_annual_input(run, target, distribution_date, as_of.isoformat(),
+                                      ticker=(facts.get('company') or {}).get('ticker'))
             if item:
                 found[target] = item
     if 'diluted_shares' not in found:

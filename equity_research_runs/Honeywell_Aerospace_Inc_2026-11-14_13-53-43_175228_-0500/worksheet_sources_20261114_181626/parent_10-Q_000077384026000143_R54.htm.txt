@@ -1,0 +1,106 @@
+000001 | v3.26.3
+000002 | Revenue Recognition and Contracts with Customers - Performance Obligation (Details)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | USD ($)
+000006 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]
+000007 | Performance obligation, amount
+000008 | $ 18,798
+000009 | Within One Year
+000010 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]
+000011 | Performance obligation, percentage
+000012 | 49.00%
+000013 | Greater Than One Year
+000014 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]
+000015 | Performance obligation, percentage
+000016 | 51.00%
+000017 | X
+000018 | - Definition
+000019 | Amount of transaction price allocated to performance obligation that has not been recognized as revenue.
+000020 | + References
+000021 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000022 | -Name Accounting Standards Codification
+000023 | -Section 50
+000024 | -Paragraph 13
+000025 | -Subparagraph (a)
+000026 | -SubTopic 10
+000027 | -Topic 606
+000028 | -Publisher FASB
+000029 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-13
+000030 | + Details
+000031 | Name:
+000032 | us-gaap_RevenueRemainingPerformanceObligation
+000033 | Namespace Prefix:
+000034 | us-gaap_
+000035 | Data Type:
+000036 | xbrli:monetaryItemType
+000037 | Balance Type:
+000038 | credit
+000039 | Period Type:
+000040 | instant
+000041 | X
+000042 | - Definition
+000043 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000044 | + References
+000045 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000046 | -Topic 606
+000047 | -SubTopic 10
+000048 | -Name Accounting Standards Codification
+000049 | -Section 50
+000050 | -Paragraph 13
+000051 | -Subparagraph (b)(1)
+000052 | -Publisher FASB
+000053 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-13
+000054 | + Details
+000055 | Name:
+000056 | us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionLineItems
+000057 | Namespace Prefix:
+000058 | us-gaap_
+000059 | Data Type:
+000060 | xbrli:stringItemType
+000061 | Balance Type:
+000062 | na
+000063 | Period Type:
+000064 | duration
+000065 | X
+000066 | - Definition
+000067 | Percentage of remaining performance obligation to total remaining performance obligation not recognized as revenue.
+000068 | + References
+000069 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000070 | -Name Accounting Standards Codification
+000071 | -Section 50
+000072 | -Paragraph 13
+000073 | -Subparagraph (b)(1)
+000074 | -SubTopic 10
+000075 | -Topic 606
+000076 | -Publisher FASB
+000077 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-13
+000078 | + Details
+000079 | Name:
+000080 | us-gaap_RevenueRemainingPerformanceObligationPercentage
+000081 | Namespace Prefix:
+000082 | us-gaap_
+000083 | Data Type:
+000084 | dtr-types:percentItemType
+000085 | Balance Type:
+000086 | na
+000087 | Period Type:
+000088 | instant
+000089 | X
+000090 | - Details
+000091 | Name:
+000092 | hon_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionAxis=hon_WithinOneYearMember
+000093 | Namespace Prefix:
+000094 | Data Type:
+000095 | na
+000096 | Balance Type:
+000097 | Period Type:
+000098 | X
+000099 | - Details
+000100 | Name:
+000101 | hon_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionAxis=hon_GreaterThanOneYearMember
+000102 | Namespace Prefix:
+000103 | Data Type:
+000104 | na
+000105 | Balance Type:
+000106 | Period Type:

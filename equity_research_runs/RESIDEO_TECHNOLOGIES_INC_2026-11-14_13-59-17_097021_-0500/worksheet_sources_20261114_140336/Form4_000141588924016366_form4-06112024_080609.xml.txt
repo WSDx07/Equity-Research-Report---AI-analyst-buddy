@@ -1,0 +1,128 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0508</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2024-06-08</periodOfReport>
+000010 | 
+000011 |     <issuer>
+000012 |         <issuerCik>0001740332</issuerCik>
+000013 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000014 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000015 |     </issuer>
+000016 | 
+000017 |     <reportingOwner>
+000018 |         <reportingOwnerId>
+000019 |             <rptOwnerCik>0001261083</rptOwnerCik>
+000020 |             <rptOwnerName>TRUNZO ANTHONY L</rptOwnerName>
+000021 |         </reportingOwnerId>
+000022 |         <reportingOwnerAddress>
+000023 |             <rptOwnerStreet1>16100 N 71ST STREET</rptOwnerStreet1>
+000024 |             <rptOwnerStreet2>SUITE 550</rptOwnerStreet2>
+000025 |             <rptOwnerCity>SCOTTSDALE</rptOwnerCity>
+000026 |             <rptOwnerState>AZ</rptOwnerState>
+000027 |             <rptOwnerZipCode>85254</rptOwnerZipCode>
+000028 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000029 |         </reportingOwnerAddress>
+000030 |         <reportingOwnerRelationship>
+000031 |             <isDirector>false</isDirector>
+000032 |             <isOfficer>true</isOfficer>
+000033 |             <isTenPercentOwner>false</isTenPercentOwner>
+000034 |             <isOther>false</isOther>
+000035 |             <officerTitle>EVP, Chief Financial Officer</officerTitle>
+000036 |             <otherText></otherText>
+000037 |         </reportingOwnerRelationship>
+000038 |     </reportingOwner>
+000039 | 
+000040 |     <aff10b5One>0</aff10b5One>
+000041 | 
+000042 |     <nonDerivativeTable>
+000043 |         <nonDerivativeTransaction>
+000044 |             <securityTitle>
+000045 |                 <value>Common Stock</value>
+000046 |             </securityTitle>
+000047 |             <transactionDate>
+000048 |                 <value>2024-06-08</value>
+000049 |             </transactionDate>
+000050 |             <transactionCoding>
+000051 |                 <transactionFormType>4</transactionFormType>
+000052 |                 <transactionCode>F</transactionCode>
+000053 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000054 |             </transactionCoding>
+000055 |             <transactionAmounts>
+000056 |                 <transactionShares>
+000057 |                     <value>66001</value>
+000058 |                 </transactionShares>
+000059 |                 <transactionPricePerShare>
+000060 |                     <value>20.575</value>
+000061 |                 </transactionPricePerShare>
+000062 |                 <transactionAcquiredDisposedCode>
+000063 |                     <value>D</value>
+000064 |                 </transactionAcquiredDisposedCode>
+000065 |             </transactionAmounts>
+000066 |             <postTransactionAmounts>
+000067 |                 <sharesOwnedFollowingTransaction>
+000068 |                     <value>366964</value>
+000069 |                 </sharesOwnedFollowingTransaction>
+000070 |             </postTransactionAmounts>
+000071 |             <ownershipNature>
+000072 |                 <directOrIndirectOwnership>
+000073 |                     <value>D</value>
+000074 |                 </directOrIndirectOwnership>
+000075 |                 <natureOfOwnership>
+000076 |                     <value></value>
+000077 |                 </natureOfOwnership>
+000078 |             </ownershipNature>
+000079 |         </nonDerivativeTransaction>
+000080 |         <nonDerivativeHolding>
+000081 |             <securityTitle>
+000082 |                 <value>Common Stock</value>
+000083 |             </securityTitle>
+000084 |             <postTransactionAmounts>
+000085 |                 <sharesOwnedFollowingTransaction>
+000086 |                     <value>2020</value>
+000087 |                 </sharesOwnedFollowingTransaction>
+000088 |             </postTransactionAmounts>
+000089 |             <ownershipNature>
+000090 |                 <directOrIndirectOwnership>
+000091 |                     <value>I</value>
+000092 |                 </directOrIndirectOwnership>
+000093 |                 <natureOfOwnership>
+000094 |                     <value>Held by Son 1</value>
+000095 |                 </natureOfOwnership>
+000096 |             </ownershipNature>
+000097 |         </nonDerivativeHolding>
+000098 |         <nonDerivativeHolding>
+000099 |             <securityTitle>
+000100 |                 <value>Common Stock</value>
+000101 |             </securityTitle>
+000102 |             <postTransactionAmounts>
+000103 |                 <sharesOwnedFollowingTransaction>
+000104 |                     <value>2000</value>
+000105 |                 </sharesOwnedFollowingTransaction>
+000106 |             </postTransactionAmounts>
+000107 |             <ownershipNature>
+000108 |                 <directOrIndirectOwnership>
+000109 |                     <value>I</value>
+000110 |                 </directOrIndirectOwnership>
+000111 |                 <natureOfOwnership>
+000112 |                     <value>Held by Son 2</value>
+000113 |                 </natureOfOwnership>
+000114 |             </ownershipNature>
+000115 |         </nonDerivativeHolding>
+000116 |     </nonDerivativeTable>
+000117 | 
+000118 |     <derivativeTable></derivativeTable>
+000119 | 
+000120 |     <footnotes></footnotes>
+000121 | 
+000122 |     <ownerSignature>
+000123 |         <signatureName>/s/ Jeannine J. Lane, as Attorney-in-Fact for Anthony L. Trunzo</signatureName>
+000124 |         <signatureDate>2024-06-11</signatureDate>
+000125 |     </ownerSignature>
+000126 | </ownershipDocument>
+000127 | </XML>
+000128 | 

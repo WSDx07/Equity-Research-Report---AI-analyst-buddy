@@ -1,0 +1,170 @@
+000001 | v3.10.0.1
+000002 | Earnings Per Share - Schedule of Earnings Per Share (Details) - USD ($)
+000003 | $ / shares in Units, shares in Thousands, $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2018
+000007 | Sep. 30, 2017
+000008 | Sep. 30, 2018
+000009 | Sep. 30, 2017
+000010 | Earnings Per Share [Abstract]
+000011 | Net Income
+000012 | $ 311
+000013 | $ 23
+000014 | $ 389
+000015 | $ 55
+000016 | Weighted average common shares outstanding (in thousands)
+000017 | 122,967
+000018 | 122,967
+000019 | 122,967
+000020 | 122,967
+000021 | Common stock - basic and diluted
+000022 | $ 2.53
+000023 | $ 0.19
+000024 | $ 3.16
+000025 | $ 0.45
+000026 | X
+000027 | - References
+000028 | No definition available.
+000029 | + Details
+000030 | Name:
+000031 | us-gaap_EarningsPerShareAbstract
+000032 | Namespace Prefix:
+000033 | us-gaap_
+000034 | Data Type:
+000035 | xbrli:stringItemType
+000036 | Balance Type:
+000037 | na
+000038 | Period Type:
+000039 | duration
+000040 | X
+000041 | - Definition
+000042 | The amount of net income or loss for the period per each share in instances when basic and diluted earnings per share are the same amount and reported as a single line item on the face of the financial statements. Basic earnings per share is the amount of net income or loss for the period per each share of common stock or unit outstanding during the reporting period. Diluted earnings per share includes the amount of net income or loss for the period available to each share of common stock or common unit outstanding during the reporting period and to each share or unit that would have been outstanding assuming the issuance of common shares or units for all dilutive potential common shares or units outstanding during the reporting period.
+000043 | + References
+000044 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000045 | -Publisher FASB
+000046 | -Name Accounting Standards Codification
+000047 | -Topic 260
+000048 | -SubTopic 10
+000049 | -Section 45
+000050 | -Paragraph 7
+000051 | -URI http://asc.fasb.org/extlink&oid=109260490&loc=d3e1337-109256
+000052 | + Details
+000053 | Name:
+000054 | us-gaap_EarningsPerShareBasicAndDiluted
+000055 | Namespace Prefix:
+000056 | us-gaap_
+000057 | Data Type:
+000058 | num:perShareItemType
+000059 | Balance Type:
+000060 | na
+000061 | Period Type:
+000062 | duration
+000063 | X
+000064 | - Definition
+000065 | The portion of profit or loss for the period, net of income taxes, which is attributable to the parent.
+000066 | + References
+000067 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000068 | -Publisher FASB
+000069 | -Name Accounting Standards Codification
+000070 | -Topic 220
+000071 | -SubTopic 10
+000072 | -Section 45
+000073 | -Paragraph 1A
+000074 | -Subparagraph (a)
+000075 | -URI http://asc.fasb.org/extlink&oid=114867106&loc=SL7669619-108580
+000076 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000077 | -Publisher FASB
+000078 | -Name Accounting Standards Codification
+000079 | -Topic 942
+000080 | -SubTopic 220
+000081 | -Section S99
+000082 | -Paragraph 1
+000083 | -Subparagraph (SX 210.9-04(22))
+000084 | -URI http://asc.fasb.org/extlink&oid=114873765&loc=SL114874048-224260
+000085 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000086 | -Publisher FASB
+000087 | -Name Accounting Standards Codification
+000088 | -Topic 220
+000089 | -SubTopic 10
+000090 | -Section 45
+000091 | -Paragraph 1B
+000092 | -Subparagraph (a)
+000093 | -URI http://asc.fasb.org/extlink&oid=114867106&loc=SL7669625-108580
+000094 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000095 | -Publisher FASB
+000096 | -Name Accounting Standards Codification
+000097 | -Topic 944
+000098 | -SubTopic 220
+000099 | -Section S99
+000100 | -Paragraph 1
+000101 | -Subparagraph (SX 210.7-04(18))
+000102 | -URI http://asc.fasb.org/extlink&oid=114873790&loc=SL114874131-224263
+000103 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000104 | -Publisher FASB
+000105 | -Name Accounting Standards Codification
+000106 | -Topic 220
+000107 | -SubTopic 10
+000108 | -Section S99
+000109 | -Paragraph 2
+000110 | -Subparagraph (SX 210.5-03(20))
+000111 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000112 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+000113 | -Publisher FASB
+000114 | -Name Accounting Standards Codification
+000115 | -Topic 230
+000116 | -SubTopic 10
+000117 | -Section 45
+000118 | -Paragraph 28
+000119 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000120 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000121 | -Publisher FASB
+000122 | -Name Accounting Standards Codification
+000123 | -Topic 260
+000124 | -SubTopic 10
+000125 | -Section 50
+000126 | -Paragraph 1
+000127 | -URI http://asc.fasb.org/extlink&oid=6371337&loc=d3e3550-109257
+000128 | + Details
+000129 | Name:
+000130 | us-gaap_NetIncomeLoss
+000131 | Namespace Prefix:
+000132 | us-gaap_
+000133 | Data Type:
+000134 | xbrli:monetaryItemType
+000135 | Balance Type:
+000136 | credit
+000137 | Period Type:
+000138 | duration
+000139 | X
+000140 | - Definition
+000141 | Number of [basic] shares or units, after adjustment for contingently issuable shares or units and other shares or units not deemed outstanding, determined by relating the portion of time within a reporting period that common shares or units have been outstanding to the total time in that period.
+000142 | + References
+000143 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000144 | -Publisher FASB
+000145 | -Name Accounting Standards Codification
+000146 | -Topic 260
+000147 | -SubTopic 10
+000148 | -Section 45
+000149 | -Paragraph 10
+000150 | -URI http://asc.fasb.org/extlink&oid=109260490&loc=d3e1448-109256
+000151 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000152 | -Publisher FASB
+000153 | -Name Accounting Standards Codification
+000154 | -Topic 260
+000155 | -SubTopic 10
+000156 | -Section 50
+000157 | -Paragraph 1
+000158 | -Subparagraph (a)
+000159 | -URI http://asc.fasb.org/extlink&oid=6371337&loc=d3e3550-109257
+000160 | + Details
+000161 | Name:
+000162 | us-gaap_WeightedAverageNumberOfSharesOutstandingBasic
+000163 | Namespace Prefix:
+000164 | us-gaap_
+000165 | Data Type:
+000166 | xbrli:sharesItemType
+000167 | Balance Type:
+000168 | na
+000169 | Period Type:
+000170 | duration

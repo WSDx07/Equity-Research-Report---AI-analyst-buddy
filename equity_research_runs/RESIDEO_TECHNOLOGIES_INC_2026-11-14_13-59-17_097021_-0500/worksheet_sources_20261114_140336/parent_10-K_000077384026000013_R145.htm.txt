@@ -1,0 +1,730 @@
+000001 | v3.25.4
+000002 | SEGMENT FINANCIAL DATA Reconciliation of Operating Profit Loss From Segments to Consolidated (Details) - USD ($)
+000003 | 12 Months Ended
+000004 | Oct. 01, 2025
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Segment Reporting, Reconciling Item for Operating Profit (Loss) from Segment to Consolidated [Line Items]
+000009 | Segment profit
+000010 | $ 8,127,000,000
+000011 | $ 7,667,000,000
+000012 | $ 7,563,000,000
+000013 | Interest and other financial charges
+000014 | (1,344,000,000)
+000015 | (1,048,000,000)
+000016 | (749,000,000)
+000017 | Interest income
+000018 | 369,000,000
+000019 | 430,000,000
+000020 | 321,000,000
+000021 | Amortization of acquisition-related intangibles
+000022 | (570,000,000)
+000023 | (411,000,000)
+000024 | (290,000,000)
+000025 | Impairment of goodwill
+000026 | $ 0
+000027 | (724,000,000)
+000028 | 0
+000029 | 0
+000030 | Impairment of assets held for sale
+000031 | (270,000,000)
+000032 | (219,000,000)
+000033 | 0
+000034 | Stock compensation expense
+000035 | (196,000,000)
+000036 | (189,000,000)
+000037 | (197,000,000)
+000038 | Pension mark-to-market expense
+000039 | (163,000,000)
+000040 | (126,000,000)
+000041 | (153,000,000)
+000042 | Repositioning and other charges
+000043 | 167,000,000
+000044 | (239,000,000)
+000045 | (844,000,000)
+000046 | Other expense
+000047 | (479,000,000)
+000048 | (223,000,000)
+000049 | (21,000,000)
+000050 | Income from continuing operations before taxes
+000051 | 5,476,000,000
+000052 | 6,244,000,000
+000053 | 6,191,000,000
+000054 | Pension ongoing income—non-service
+000055 | Segment Reporting, Reconciling Item for Operating Profit (Loss) from Segment to Consolidated [Line Items]
+000056 | Pension ongoing income and other postretirement income
+000057 | 544,000,000
+000058 | 591,000,000
+000059 | 532,000,000
+000060 | Other postretirement income—non-service
+000061 | Segment Reporting, Reconciling Item for Operating Profit (Loss) from Segment to Consolidated [Line Items]
+000062 | Pension ongoing income and other postretirement income
+000063 | 15,000,000
+000064 | 11,000,000
+000065 | 29,000,000
+000066 | Corporate and All Other
+000067 | Segment Reporting, Reconciling Item for Operating Profit (Loss) from Segment to Consolidated [Line Items]
+000068 | Impairment of goodwill
+000069 | 0
+000070 | Repositioning and other charges
+000071 | $ 290,000,000
+000072 | $ (139,000,000)
+000073 | $ (617,000,000)
+000074 | X
+000075 | - Definition
+000076 | Other income (expense) excluding equity of affiliated companies
+000077 | + References
+000078 | No definition available.
+000079 | + Details
+000080 | Name:
+000081 | hon_OtherIncomeExpenseExcludingEquityOfAffiliatedCompanies
+000082 | Namespace Prefix:
+000083 | hon_
+000084 | Data Type:
+000085 | xbrli:monetaryItemType
+000086 | Balance Type:
+000087 | credit
+000088 | Period Type:
+000089 | duration
+000090 | X
+000091 | - Definition
+000092 | Recognized gains (losses) on pension plan
+000093 | + References
+000094 | No definition available.
+000095 | + Details
+000096 | Name:
+000097 | hon_PensionMarkToMarket
+000098 | Namespace Prefix:
+000099 | hon_
+000100 | Data Type:
+000101 | xbrli:monetaryItemType
+000102 | Balance Type:
+000103 | debit
+000104 | Period Type:
+000105 | duration
+000106 | X
+000107 | - Definition
+000108 | Net total Increase or Decrease in the accrual for restructuring and other costs, including asbestos litigation charges - net of insurance and environmental remediation activities, during the reporting period.
+000109 | + References
+000110 | No definition available.
+000111 | + Details
+000112 | Name:
+000113 | hon_RestructuringReserveAndOtherChargesPeriodIncreaseDecrease
+000114 | Namespace Prefix:
+000115 | hon_
+000116 | Data Type:
+000117 | xbrli:monetaryItemType
+000118 | Balance Type:
+000119 | debit
+000120 | Period Type:
+000121 | duration
+000122 | X
+000123 | - Definition
+000124 | Segment profit is measured as business unit income (loss) before taxes excluding general corporate unallocated expense, other income (expense), interest and other financial charges, pension and other postretirement benefits (expense), stock compensation expense, repositioning and other charges and accounting changes and includes equity income.
+000125 | + References
+000126 | No definition available.
+000127 | + Details
+000128 | Name:
+000129 | hon_SegmentReportingSegmentProfitLoss
+000130 | Namespace Prefix:
+000131 | hon_
+000132 | Data Type:
+000133 | xbrli:monetaryItemType
+000134 | Balance Type:
+000135 | credit
+000136 | Period Type:
+000137 | duration
+000138 | X
+000139 | - Definition
+000140 | Amount of expense for award under share-based payment arrangement. Excludes amount capitalized.
+000141 | + References
+000142 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000143 | -Topic 718
+000144 | -SubTopic 10
+000145 | -Name Accounting Standards Codification
+000146 | -Section S45
+000147 | -Paragraph 1
+000148 | -Publisher FASB
+000149 | -URI https://asc.fasb.org/1943274/2147479983/718-10-S45-1
+000150 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000151 | -Topic 718
+000152 | -SubTopic 10
+000153 | -Name Accounting Standards Codification
+000154 | -Section S99
+000155 | -Paragraph 1
+000156 | -Subparagraph (SAB Topic 14.F)
+000157 | -Publisher FASB
+000158 | -URI https://asc.fasb.org/1943274/2147479830/718-10-S99-1
+000159 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000160 | -Topic 718
+000161 | -SubTopic 10
+000162 | -Name Accounting Standards Codification
+000163 | -Section 50
+000164 | -Paragraph 2
+000165 | -Subparagraph (h)(1)(i)
+000166 | -Publisher FASB
+000167 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000168 | + Details
+000169 | Name:
+000170 | us-gaap_AllocatedShareBasedCompensationExpense
+000171 | Namespace Prefix:
+000172 | us-gaap_
+000173 | Data Type:
+000174 | xbrli:monetaryItemType
+000175 | Balance Type:
+000176 | debit
+000177 | Period Type:
+000178 | duration
+000179 | X
+000180 | - Definition
+000181 | The aggregate expense charged against earnings to allocate the cost of intangible assets (nonphysical assets not used in production) in a systematic and rational manner to the periods expected to benefit from such assets.
+000182 | + References
+000183 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000184 | -Name Accounting Standards Codification
+000185 | -Section 45
+000186 | -Paragraph 28
+000187 | -Subparagraph (b)
+000188 | -SubTopic 10
+000189 | -Topic 230
+000190 | -Publisher FASB
+000191 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000192 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000193 | -Topic 220
+000194 | -SubTopic 40
+000195 | -Name Accounting Standards Codification
+000196 | -Section 55
+000197 | -Paragraph 18
+000198 | -Publisher FASB
+000199 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-18
+000200 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000201 | -Topic 220
+000202 | -SubTopic 40
+000203 | -Name Accounting Standards Codification
+000204 | -Section 55
+000205 | -Paragraph 11
+000206 | -Publisher FASB
+000207 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-11
+000208 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000209 | -Topic 220
+000210 | -SubTopic 40
+000211 | -Name Accounting Standards Codification
+000212 | -Section 55
+000213 | -Paragraph 24
+000214 | -Publisher FASB
+000215 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-24
+000216 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000217 | -Topic 220
+000218 | -SubTopic 40
+000219 | -Name Accounting Standards Codification
+000220 | -Section 50
+000221 | -Paragraph 12
+000222 | -Publisher FASB
+000223 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-12
+000224 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000225 | -Name Accounting Standards Codification
+000226 | -Section 55
+000227 | -Paragraph 40
+000228 | -SubTopic 30
+000229 | -Topic 350
+000230 | -Publisher FASB
+000231 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000232 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000233 | -Topic 350
+000234 | -SubTopic 30
+000235 | -Name Accounting Standards Codification
+000236 | -Section 50
+000237 | -Paragraph 2
+000238 | -Subparagraph (a)(2)
+000239 | -Publisher FASB
+000240 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000241 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000242 | -Topic 350
+000243 | -SubTopic 30
+000244 | -Name Accounting Standards Codification
+000245 | -Section 45
+000246 | -Paragraph 2
+000247 | -Publisher FASB
+000248 | -URI https://asc.fasb.org/1943274/2147482686/350-30-45-2
+000249 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000250 | -Topic 220
+000251 | -SubTopic 40
+000252 | -Name Accounting Standards Codification
+000253 | -Section 50
+000254 | -Paragraph 6
+000255 | -Subparagraph (d)
+000256 | -Publisher FASB
+000257 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-6
+000258 | + Details
+000259 | Name:
+000260 | us-gaap_AmortizationOfIntangibleAssets
+000261 | Namespace Prefix:
+000262 | us-gaap_
+000263 | Data Type:
+000264 | xbrli:monetaryItemType
+000265 | Balance Type:
+000266 | debit
+000267 | Period Type:
+000268 | duration
+000269 | X
+000270 | - Definition
+000271 | Amount of net periodic benefit cost (credit) for defined benefit plan.
+000272 | + References
+000273 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000274 | -Topic 715
+000275 | -SubTopic 20
+000276 | -Name Accounting Standards Codification
+000277 | -Section 50
+000278 | -Paragraph 5
+000279 | -Subparagraph (q)
+000280 | -Publisher FASB
+000281 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000282 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000283 | -Topic 715
+000284 | -SubTopic 20
+000285 | -Name Accounting Standards Codification
+000286 | -Section 55
+000287 | -Paragraph 17
+000288 | -Publisher FASB
+000289 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17
+000290 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000291 | -Topic 715
+000292 | -SubTopic 20
+000293 | -Name Accounting Standards Codification
+000294 | -Section 55
+000295 | -Paragraph 18
+000296 | -Publisher FASB
+000297 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18
+000298 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000299 | -Topic 715
+000300 | -SubTopic 20
+000301 | -Name Accounting Standards Codification
+000302 | -Section 50
+000303 | -Paragraph 1
+000304 | -Subparagraph (h)
+000305 | -Publisher FASB
+000306 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000307 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000308 | -Topic 715
+000309 | -SubTopic 20
+000310 | -Name Accounting Standards Codification
+000311 | -Section 50
+000312 | -Paragraph 6
+000313 | -Subparagraph (a)
+000314 | -Publisher FASB
+000315 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6
+000316 | + Details
+000317 | Name:
+000318 | us-gaap_DefinedBenefitPlanNetPeriodicBenefitCost
+000319 | Namespace Prefix:
+000320 | us-gaap_
+000321 | Data Type:
+000322 | xbrli:monetaryItemType
+000323 | Balance Type:
+000324 | debit
+000325 | Period Type:
+000326 | duration
+000327 | X
+000328 | - Definition
+000329 | Amount of impairment loss from asset representing future economic benefit arising from other asset acquired in business combination or from joint venture formation or both, that is not individually identified and separately recognized.
+000330 | + References
+000331 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000332 | -Name Accounting Standards Codification
+000333 | -Section 45
+000334 | -Paragraph 28
+000335 | -Subparagraph (b)
+000336 | -SubTopic 10
+000337 | -Topic 230
+000338 | -Publisher FASB
+000339 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000340 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000341 | -Topic 350
+000342 | -SubTopic 20
+000343 | -Name Accounting Standards Codification
+000344 | -Section 55
+000345 | -Paragraph 24
+000346 | -Publisher FASB
+000347 | -URI https://asc.fasb.org/1943274/2147482548/350-20-55-24
+000348 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000349 | -Topic 350
+000350 | -SubTopic 20
+000351 | -Name Accounting Standards Codification
+000352 | -Section 50
+000353 | -Paragraph 2
+000354 | -Subparagraph (b)
+000355 | -Publisher FASB
+000356 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-2
+000357 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000358 | -Topic 350
+000359 | -SubTopic 20
+000360 | -Name Accounting Standards Codification
+000361 | -Section 50
+000362 | -Paragraph 6
+000363 | -Subparagraph (b)
+000364 | -Publisher FASB
+000365 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-6
+000366 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000367 | -Topic 820
+000368 | -SubTopic 10
+000369 | -Name Accounting Standards Codification
+000370 | -Section 55
+000371 | -Paragraph 100
+000372 | -Subparagraph (d)
+000373 | -Publisher FASB
+000374 | -URI https://asc.fasb.org/1943274/2147482078/820-10-55-100
+000375 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000376 | -Topic 350
+000377 | -SubTopic 20
+000378 | -Name Accounting Standards Codification
+000379 | -Section 50
+000380 | -Paragraph 1
+000381 | -Subparagraph (e)
+000382 | -Publisher FASB
+000383 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-1
+000384 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000385 | -Topic 350
+000386 | -SubTopic 20
+000387 | -Name Accounting Standards Codification
+000388 | -Section 45
+000389 | -Paragraph 2
+000390 | -Publisher FASB
+000391 | -URI https://asc.fasb.org/1943274/2147482598/350-20-45-2
+000392 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000393 | -Topic 805
+000394 | -SubTopic 30
+000395 | -Name Accounting Standards Codification
+000396 | -Section 50
+000397 | -Paragraph 4
+000398 | -Subparagraph (b)
+000399 | -Publisher FASB
+000400 | -URI https://asc.fasb.org/1943274/2147479581/805-30-50-4
+000401 | + Details
+000402 | Name:
+000403 | us-gaap_GoodwillImpairmentLoss
+000404 | Namespace Prefix:
+000405 | us-gaap_
+000406 | Data Type:
+000407 | xbrli:monetaryItemType
+000408 | Balance Type:
+000409 | debit
+000410 | Period Type:
+000411 | duration
+000412 | X
+000413 | - Definition
+000414 | The aggregate amount of write-downs for impairments recognized during the period for long-lived assets held for abandonment, exchange or sale.
+000415 | + References
+000416 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000417 | -Name Accounting Standards Codification
+000418 | -Section 45
+000419 | -Paragraph 28
+000420 | -Subparagraph (b)
+000421 | -SubTopic 10
+000422 | -Topic 230
+000423 | -Publisher FASB
+000424 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000425 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000426 | -Topic 820
+000427 | -SubTopic 10
+000428 | -Name Accounting Standards Codification
+000429 | -Section 55
+000430 | -Paragraph 100
+000431 | -Subparagraph (e)
+000432 | -Publisher FASB
+000433 | -URI https://asc.fasb.org/1943274/2147482078/820-10-55-100
+000434 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000435 | -Topic 360
+000436 | -SubTopic 10
+000437 | -Name Accounting Standards Codification
+000438 | -Section 45
+000439 | -Paragraph 15
+000440 | -Publisher FASB
+000441 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-15
+000442 | + Details
+000443 | Name:
+000444 | us-gaap_ImpairmentOfLongLivedAssetsToBeDisposedOf
+000445 | Namespace Prefix:
+000446 | us-gaap_
+000447 | Data Type:
+000448 | xbrli:monetaryItemType
+000449 | Balance Type:
+000450 | debit
+000451 | Period Type:
+000452 | duration
+000453 | X
+000454 | - Definition
+000455 | Amount of income (loss) from continuing operations, including income (loss) from equity method investments, before deduction of income tax expense (benefit), and income (loss) attributable to noncontrolling interest.
+000456 | + References
+000457 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000458 | -Topic 220
+000459 | -SubTopic 40
+000460 | -Name Accounting Standards Codification
+000461 | -Section 55
+000462 | -Paragraph 4
+000463 | -Publisher FASB
+000464 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-4
+000465 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000466 | -Topic 220
+000467 | -SubTopic 40
+000468 | -Name Accounting Standards Codification
+000469 | -Section 55
+000470 | -Paragraph 21
+000471 | -Publisher FASB
+000472 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-21
+000473 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000474 | -Topic 220
+000475 | -SubTopic 40
+000476 | -Name Accounting Standards Codification
+000477 | -Section 55
+000478 | -Paragraph 14
+000479 | -Publisher FASB
+000480 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-14
+000481 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000482 | -Topic 942
+000483 | -SubTopic 235
+000484 | -Name Accounting Standards Codification
+000485 | -Section S50
+000486 | -Paragraph 1
+000487 | -Publisher FASB
+000488 | -URI https://asc.fasb.org/1943274/2147478671/942-235-S50-1
+000489 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000490 | -Topic 942
+000491 | -SubTopic 235
+000492 | -Name Accounting Standards Codification
+000493 | -Section S99
+000494 | -Paragraph 1
+000495 | -Subparagraph (SX 210.9-05(b)(2))
+000496 | -Publisher FASB
+000497 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-1
+000498 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000499 | -Topic 280
+000500 | -SubTopic 10
+000501 | -Name Accounting Standards Codification
+000502 | -Section 50
+000503 | -Paragraph 22
+000504 | -Publisher FASB
+000505 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000506 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000507 | -Topic 280
+000508 | -SubTopic 10
+000509 | -Name Accounting Standards Codification
+000510 | -Section 55
+000511 | -Paragraph 48
+000512 | -Publisher FASB
+000513 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-48
+000514 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+000515 | -Topic 280
+000516 | -SubTopic 10
+000517 | -Name Accounting Standards Codification
+000518 | -Section 50
+000519 | -Paragraph 32
+000520 | -Subparagraph (f)
+000521 | -Publisher FASB
+000522 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000523 | Reference 9: http://www.xbrl.org/2009/role/commonPracticeRef
+000524 | -Topic 280
+000525 | -SubTopic 10
+000526 | -Name Accounting Standards Codification
+000527 | -Section 50
+000528 | -Paragraph 30
+000529 | -Subparagraph (b)
+000530 | -Publisher FASB
+000531 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000532 | Reference 10: http://www.xbrl.org/2009/role/commonPracticeRef
+000533 | -Topic 270
+000534 | -SubTopic 10
+000535 | -Name Accounting Standards Codification
+000536 | -Section 50
+000537 | -Paragraph 1
+000538 | -Subparagraph (i)
+000539 | -Publisher FASB
+000540 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000541 | Reference 11: http://www.xbrl.org/2009/role/commonPracticeRef
+000542 | -Topic 280
+000543 | -SubTopic 10
+000544 | -Name Accounting Standards Codification
+000545 | -Section 50
+000546 | -Paragraph 32
+000547 | -Subparagraph (ee)
+000548 | -Publisher FASB
+000549 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000550 | Reference 12: http://fasb.org/us-gaap/role/ref/otherTransitionRef
+000551 | -Topic 280
+000552 | -SubTopic 10
+000553 | -Name Accounting Standards Codification
+000554 | -Section 50
+000555 | -Paragraph 32
+000556 | -Subparagraph (c)
+000557 | -Publisher FASB
+000558 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000559 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000560 | -Topic 944
+000561 | -SubTopic 220
+000562 | -Name Accounting Standards Codification
+000563 | -Section S99
+000564 | -Paragraph 1
+000565 | -Subparagraph (SX 210.7-04(11))
+000566 | -Publisher FASB
+000567 | -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1
+000568 | Reference 14: http://www.xbrl.org/2003/role/exampleRef
+000569 | -Topic 280
+000570 | -SubTopic 10
+000571 | -Name Accounting Standards Codification
+000572 | -Section 50
+000573 | -Paragraph 31
+000574 | -Publisher FASB
+000575 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-31
+000576 | Reference 15: http://fasb.org/us-gaap/role/ref/legacyRef
+000577 | -Topic 220
+000578 | -SubTopic 10
+000579 | -Name Accounting Standards Codification
+000580 | -Section S99
+000581 | -Paragraph 2
+000582 | -Subparagraph (SX 210.5-03(10))
+000583 | -Publisher FASB
+000584 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000585 | Reference 16: http://fasb.org/us-gaap/role/ref/legacyRef
+000586 | -Topic 942
+000587 | -SubTopic 220
+000588 | -Name Accounting Standards Codification
+000589 | -Section S99
+000590 | -Paragraph 1
+000591 | -Subparagraph (SX 210.9-04(15))
+000592 | -Publisher FASB
+000593 | -URI https://asc.fasb.org/1943274/2147478524/942-220-S99-1
+000594 | + Details
+000595 | Name:
+000596 | us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+000597 | Namespace Prefix:
+000598 | us-gaap_
+000599 | Data Type:
+000600 | xbrli:monetaryItemType
+000601 | Balance Type:
+000602 | credit
+000603 | Period Type:
+000604 | duration
+000605 | X
+000606 | - Definition
+000607 | Interest and debt related expenses associated with nonoperating financing activities of the entity.
+000608 | + References
+000609 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000610 | -Topic 220
+000611 | -SubTopic 10
+000612 | -Name Accounting Standards Codification
+000613 | -Section S99
+000614 | -Paragraph 2
+000615 | -Subparagraph (SX 210.5-03(8))
+000616 | -Publisher FASB
+000617 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000618 | + Details
+000619 | Name:
+000620 | us-gaap_InterestAndDebtExpense
+000621 | Namespace Prefix:
+000622 | us-gaap_
+000623 | Data Type:
+000624 | xbrli:monetaryItemType
+000625 | Balance Type:
+000626 | debit
+000627 | Period Type:
+000628 | duration
+000629 | X
+000630 | - Definition
+000631 | Amount before accretion (amortization) of purchase discount (premium) of interest income on nonoperating securities.
+000632 | + References
+000633 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000634 | -Topic 280
+000635 | -SubTopic 10
+000636 | -Name Accounting Standards Codification
+000637 | -Section 50
+000638 | -Paragraph 22
+000639 | -Subparagraph (c)
+000640 | -Publisher FASB
+000641 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000642 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000643 | -Topic 280
+000644 | -SubTopic 10
+000645 | -Name Accounting Standards Codification
+000646 | -Section 55
+000647 | -Paragraph 48
+000648 | -Publisher FASB
+000649 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-48
+000650 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000651 | -Topic 220
+000652 | -SubTopic 10
+000653 | -Name Accounting Standards Codification
+000654 | -Section S99
+000655 | -Paragraph 2
+000656 | -Subparagraph (SX 210.5-03(7)(b))
+000657 | -Publisher FASB
+000658 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000659 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000660 | -Topic 270
+000661 | -SubTopic 10
+000662 | -Name Accounting Standards Codification
+000663 | -Section 50
+000664 | -Paragraph 1
+000665 | -Subparagraph (i)
+000666 | -Publisher FASB
+000667 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000668 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000669 | -Topic 280
+000670 | -SubTopic 10
+000671 | -Name Accounting Standards Codification
+000672 | -Section 50
+000673 | -Paragraph 32
+000674 | -Subparagraph (ee)
+000675 | -Publisher FASB
+000676 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000677 | + Details
+000678 | Name:
+000679 | us-gaap_InvestmentIncomeInterest
+000680 | Namespace Prefix:
+000681 | us-gaap_
+000682 | Data Type:
+000683 | xbrli:monetaryItemType
+000684 | Balance Type:
+000685 | credit
+000686 | Period Type:
+000687 | duration
+000688 | X
+000689 | - Definition
+000690 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000691 | + References
+000692 | No definition available.
+000693 | + Details
+000694 | Name:
+000695 | us-gaap_SegmentReportingReconcilingItemForOperatingProfitLossFromSegmentToConsolidatedLineItems
+000696 | Namespace Prefix:
+000697 | us-gaap_
+000698 | Data Type:
+000699 | xbrli:stringItemType
+000700 | Balance Type:
+000701 | na
+000702 | Period Type:
+000703 | duration
+000704 | X
+000705 | - Details
+000706 | Name:
+000707 | us-gaap_RetirementPlanTypeAxis=us-gaap_PensionPlansDefinedBenefitMember
+000708 | Namespace Prefix:
+000709 | Data Type:
+000710 | na
+000711 | Balance Type:
+000712 | Period Type:
+000713 | X
+000714 | - Details
+000715 | Name:
+000716 | us-gaap_RetirementPlanTypeAxis=us-gaap_OtherPostretirementBenefitPlansDefinedBenefitMember
+000717 | Namespace Prefix:
+000718 | Data Type:
+000719 | na
+000720 | Balance Type:
+000721 | Period Type:
+000722 | X
+000723 | - Details
+000724 | Name:
+000725 | srt_ConsolidationItemsAxis=us-gaap_CorporateNonSegmentMember
+000726 | Namespace Prefix:
+000727 | Data Type:
+000728 | na
+000729 | Balance Type:
+000730 | Period Type:

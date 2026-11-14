@@ -1,0 +1,863 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "Resideo describes itself as a global manufacturer, developer, and distributor of technology‑driven sensing and controls products and solutions that help homeowners and businesses stay connected and in control of their comfort, security, energy use, and smart living",
+          "document": "10-K",
+          "line": 137,
+          "quote": "We are a global manufacturer, developer, and distributor of technology-driven sensing and controls products and solutions that help homeowners and businesses stay connected and in control of their comfort, security, energy use, and smart living."
+        },
+        {
+          "section": "Overview",
+          "claim": "The company serves both residential and commercial end‑markets and its solutions can be found in over 150 million spaces globally with tens of millions of new devices sold annually",
+          "document": "10-K",
+          "line": 137,
+          "quote": "Our solutions and services can be found in over 150 million residential and commercial spaces globally, with tens of millions of new devices sold annually."
+        },
+        {
+          "section": "Overview",
+          "claim": "Resideo’s primary focus is the professional channel, partnering with roughly 100 thousand contractors, installers, dealers and integrators across HVAC, security, fire, electrical, connected home and home comfort markets",
+          "document": "10-K",
+          "line": 139,
+          "quote": "Our primary focus is on the professional channel where we are a trusted partner to approximately 100 thousand professional contractors, installers, dealers, and integrators in the HVAC, security, fire, electrical, connected home, and home comfort markets (“professionals”)."
+        },
+        {
+          "section": "Overview",
+          "claim": "Competitive strengths cited include global scale, breadth of product offerings, innovation heritage and differentiated service and support",
+          "document": "10-K",
+          "line": 139,
+          "quote": "Our global scale, breadth of product offerings, innovation heritage, and differentiated service and support has enabled our trusted relationship with professionals and has been a key driver of our success."
+        },
+        {
+          "section": "Overview",
+          "claim": "The firm operates in two segments – Products and Solutions and ADI Global Distribution – and announced a tax‑free spin‑off of ADI in July 2025",
+          "document": "10-K",
+          "line": 140,
+          "quote": "We manage our business operations through two business segments, Products and Solutions and ADI Global Distribution. On July 30, 2025, we announced our intention to separate the ADI Global Distribution segment through a tax-free spin‑off to our shareholders (the “ADI Spin‑Off”)."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Resideo says it operates in large markets at the intersection of secular growth trends such as comfort, energy management, safety and security, and the long‑term impacts of energy transitions",
+          "document": "10-K",
+          "line": 138,
+          "quote": "We operate in large markets that sit at the intersection of multiple secular growth trends. We believe the increased desire for critical and cost-effective comfort, energy management, and actionable safety and security solutions in residential and commercial spaces, combined with the long-term impacts of energy transitions, are driving investment in the types of products and solutions we provide."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Through its Products and Solutions segment the company reports over 14 million connected customers and a comprehensive suite that enables home connectivity",
+          "document": "10-K",
+          "line": 141,
+          "quote": "Through our whole home presence, we are an enabler of home connectivity with over 14 million connected customers."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Seasonality drives higher sales in the fall and early winter, but climate‑change‑induced extreme weather could further disrupt typical patterns",
+          "document": "10-K",
+          "line": 182,
+          "quote": "Sales activity is generally highest in the fall and early winter months, reflecting increased customer purchases of heating related products with the highest sales at the end of the third quarter and throughout the fourth quarter in the majority of our geographical markets."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Resideo’s FY 2026 outlook projects revenue of $2.927‑$2.947 billion and Adjusted EBITDA of $614‑$624 million",
+          "document": "EX-99.1",
+          "line": 36,
+          "quote": "Revenue | $710 - $730 | $2,927 - $2,947"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Standalone Adjusted EBITDA for FY 2026 is projected at $614‑$624 million",
+          "document": "EX-99.1",
+          "line": 37,
+          "quote": "Standalone Adjusted EBITDA (1) | $145 - $155 | $614 - $624"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "ADI Global Distribution contributed 64 % of revenue and 35 % of operating income in the twelve months ended Dec 31 2025; its removal could reduce earnings and cash flow",
+          "document": "10-K",
+          "line": 301,
+          "quote": "ADI Global Distribution business contributed 64% of our revenue and 35% of our operating income during the twelve months ended December 31, 2025."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The company acknowledges that the ADI Spin‑Off could adversely affect earnings, cash flows and credit ratings",
+          "document": "10-K",
+          "line": 300,
+          "quote": "A spin‑off of ADI Global Distribution business could adversely affect our earnings and cash flows."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management highlights new AI‑powered capabilities on the next‑generation FORTIQ platform as a growth catalyst",
+          "document": "EX-99.1",
+          "line": 18,
+          "quote": "new AI-powered capabilities on our next-generation FORTIQ software platform, which delivers actionable intelligence that enhances customer productivity and optimizes the end‑user’s experience."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Resideo expects to complete the ADI Spin‑Off in the second half of 2026 pending customary regulatory and shareholder approvals",
+          "document": "10-K",
+          "line": 292,
+          "quote": "We expect to complete the ADI Spin‑Off in the second half of 2026, subject to satisfaction of customary conditions, including among others, final approval from the Resideo Board of Directors, filing and effectiveness of a registration statement on Form 10 with the SEC, receipt of a tax opinion from our advisors and/or private letter ruling from the Internal Revenue Service, satisfactory completion of financing, and receipt of necessary consents and regulatory approvals."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Risks specific to AI include potential intellectual‑property leakage, biased outputs and regulatory scrutiny",
+          "document": "10-K",
+          "line": 236,
+          "quote": "While these technologies can enhance efficiency, they also present potential intellectual property and privacy risks."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Competitive pressure may require continual investment in product and service development, marketing, manufacturing and distribution; insufficient resources could erode position",
+          "document": "10-K",
+          "line": 211,
+          "quote": "To remain competitive, we will need to invest continually in product and services development, marketing, custom installer service and support, manufacturing, and our distribution networks."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Supply‑chain exposure is highlighted, with reliance on single‑source suppliers and potential disruptions from raw‑material price swings, tariffs or geopolitical events",
+          "document": "10-K",
+          "line": 225,
+          "quote": "Our business, results of operations, financial condition and cash flows have in the past and could in the future be adversely affected by the impact of disruptions in our supply chain from third‑party suppliers and manufacturers, including our inability to obtain necessary raw materials and product components, production equipment, or replacement parts."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Judgment: accelerate rollout of AI‑enhanced FORTIQ features while establishing robust IP protection and compliance processes to mitigate the AI‑related risks noted in lines 236‑237.",
+          "document": "10-K",
+          "line": 236,
+          "quote": "While these technologies can enhance efficiency, they also present potential intellectual property and privacy risks."
+        }
+      ],
+      "gaps": [
+        "The filing does not provide quantitative market‑share metrics for Resideo versus competitors, so no claim about relative share can be made.",
+        "There is no disclosed timeline for specific new product launches beyond the AI‑powered FORTIQ mention; detailed product‑roadmap dates are absent."
+      ],
+      "insight": "Insight: Resideo is targeting AI‑powered capabilities on its next‑generation FORTIQ software platform to enhance customer productivity — EX-99.1 line 18: new AI-powered capabilities on our next-generation FORTIQ software platform, which delivers actionable intelligence that enhances customer productivity and optimizes the end‑user’s experience."
+    },
+    "financial": {
+      "observations": [
+        "The annual filing shows that total revenue grew year‑over‑year, while operating income also increased in absolute terms.",
+        "Diluted earnings per share turned negative for the fiscal year, reversing a positive figure reported in the prior year.",
+        "Net income shifted to a loss, indicating that the company’s profitability deteriorated relative to the previous period.",
+        "Cash provided by operating activities moved from a positive amount in the prior year to a negative amount, reflecting a reversal in cash flow generation.",
+        "Long‑term debt rose substantially during the year, while stockholders’ equity declined, pointing to a worsening leverage profile.",
+        "The third‑quarter 2026 press release notes modest revenue growth, continued gross‑margin expansion, and a significant reduction in gross debt through a large repayment funded by a dividend from the spin‑off and cash on hand.",
+        "Management highlighted that the quarter’s results were near the high end of the outlook range and emphasized progress on AI‑powered capabilities and product differentiation.",
+        "The filing indicates that the ADI Global Distribution segment represented a large share of revenue and operating income before its planned spin‑off, creating uncertainty around future earnings composition.",
+        "No share price, valuation date, or source is provided, so price‑based multiples such as price‑to‑earnings cannot be evaluated.",
+        "Peer financial data are not supplied, preventing any comparative analysis with industry peers."
+      ],
+      "gaps": [
+        "Missing market price and date prevents calculation of valuation multiples.",
+        "Absence of comparable peer facts limits peer‑relative assessments."
+      ],
+      "insight": "Insight: The company posted a net loss for the fiscal year, contrasting with a profit in the previous year — 10‑K, line 474: \"Net income (loss) | (527) | | | 116 | | (643) | | (554.3) | %\""
+    },
+    "advisor": {
+      "recommendation": "Hold",
+      "thesis": "Resideo operates at the intersection of several secular growth trends and benefits from a broad global footprint and strong professional‑channel relationships. Management is emphasizing AI‑enabled features on its next‑generation FORTIQ platform, which could differentiate its product suite and support margin expansion. However, the company posted a net loss for the most recent fiscal year, its operating margin has turned modestly positive only after a prior decline, and free cash flow remains negative. The planned spin‑off of ADI Global Distribution, which contributed a majority of revenue and a sizable share of operating income, creates significant uncertainty around future earnings and cash‑flow generation. Combined with a high leverage profile and ongoing supply‑chain and regulatory risks, the upside from AI initiatives and secular market exposure is not yet sufficient to outweigh the near‑term financial and execution risks.",
+      "deciding_metric": "operating_margin_percent",
+      "risks": [
+        "Spin‑off execution risk – the removal of a revenue‑rich segment could suppress earnings and cash flow.",
+        "Continued negative profitability and impaired cash generation limiting investment capacity.",
+        "Elevated leverage and debt‑to‑equity exposure increasing financing costs and covenant pressure.",
+        "AI‑related intellectual‑property and privacy risks that could trigger legal or reputational issues.",
+        "Supply‑chain disruptions from single‑source suppliers or raw‑material price volatility."
+      ],
+      "insight": "Insight: Resideo is targeting AI‑powered capabilities on its next‑generation FORTIQ platform to enhance customer productivity — EX-99.1 line 18: \"new AI-powered capabilities on our next-generation FORTIQ software platform, which delivers actionable intelligence that enhances customer productivity and optimizes the end‑user’s experience.\""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 15,
+      "text": "SCOTTSDALE, Ariz., November 10, 2026 – Resideo Technologies, Inc. (NYSE: REZI), a leading global developer and manufacturer of critical control and sensing solutions for residential markets, today announced financial results for the third fiscal quarter ended October 3, 2026.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "REZI",
+        "name": "RESIDEO TECHNOLOGIES, INC.",
+        "cik": 1740332,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-14",
+      "retrieved_at": "2026-11-14T13:59:22.896200-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001740332.json",
+      "fiscal_year_end": "2025-12-31",
+      "prior_fiscal_year_end": "2024-12-31",
+      "preferred_10k_accession": "0001740332-26-000005",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "current": {
+            "val": 7472000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 6761000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 607000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 520000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": -527000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 116000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": -3.77,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 0.61,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 2917000000,
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 3309000000,
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "current": {
+            "val": 3167000000,
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1983000000,
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": {
+            "val": 18000000,
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 6000000,
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": -1137000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 444000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": {
+            "val": 116000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 80000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "10.51619582901937583197751812",
+      "operating_margin_percent": "8.123661670235546038543897216",
+      "return_on_average_equity_percent": "-16.92900738837134596851911340",
+      "debt_to_equity": "1.091875214261227288309907439",
+      "free_cash_flow_usd": "-1253000000",
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebtNoncurrent"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-14T13:59:23.775436-05:00",
+      "analysis_date": "2026-11-14",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 7472000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "REZI",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-24",
+            "accession_number": "0001740332-26-000005",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1740332/000174033226000005/0001740332-26-000005-index.htm",
+            "value": "7472000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 6761000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 607000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "REZI",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-24",
+            "accession_number": "0001740332-26-000005",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1740332/000174033226000005/0001740332-26-000005-index.htm",
+            "value": "607000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 520000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -527000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "REZI",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-24",
+            "accession_number": "0001740332-26-000005",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1740332/000174033226000005/0001740332-26-000005-index.htm",
+            "value": "-527000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 116000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": -3.77,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "REZI",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-24",
+            "accession_number": "0001740332-26-000005",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1740332/000174033226000005/0001740332-26-000005-index.htm",
+            "value": "-3.77"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 0.61,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2917000000,
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "REZI",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-24",
+            "accession_number": "0001740332-26-000005",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1740332/000174033226000005/0001740332-26-000005-index.htm",
+            "value": "2917000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3309000000,
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3167000000,
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1983000000,
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 18000000,
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 6000000,
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -1137000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "REZI",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-24",
+            "accession_number": "0001740332-26-000005",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1740332/000174033226000005/0001740332-26-000005-index.htm",
+            "value": "-1137000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 444000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 116000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 80000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001740332-26-000005",
+            "filed": "2026-02-24",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 9 includes a number that is not present in its quoted line.",
+        "Claim 10 includes a number that is not present in its quoted line.",
+        "Claim 12 has an invalid or non-verbatim document line and quote.",
+        "Claim 13 has an invalid or non-verbatim document line and quote.",
+        "Claim 14 has an invalid or non-verbatim document line and quote.",
+        "Claim 17 has an invalid or non-verbatim document line and quote.",
+        "Claim 18 includes a number that is not present in its quoted line."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line.",
+        "Financial observations contain digits."
+      ],
+      "advisor_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

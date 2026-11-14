@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import tempfile
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from types import SimpleNamespace
@@ -14,6 +15,7 @@ import requests
 import prepare_worksheet
 import worksheet_evidence
 import worksheet_math
+import marked_worksheet
 
 
 ROOT = Path(__file__).resolve().parents[4]
@@ -129,6 +131,9 @@ def model_judgment(key, model, persona, payload, post=requests.post):
         raise ValueError('PURDUE_API_KEY is missing from the selected .env file')
     prompt = ('Use only the supplied sourced facts and already calculated comparison. '
               'Make no calculations and do not introduce new factual claims or any numbers. '
+              'When the low-case per-share comparison is not computed, do not say or imply '
+              'that the share price is above or below that value, or that the stock is cheap '
+              'based on that unavailable comparison. '
               'Return JSON with two short strings named story and change: explain whether '
               'the spinoff may be cheap or the story does not fit, and specify evidence '
               'in the next filing that would change that view. If evidence is missing say so.\n'
@@ -322,11 +327,25 @@ def run(args, prepare=prepare_worksheet.prepare, judge=model_judgment):
     # Never send the licensed history or liquidity calculations to the model.
     print('Requesting the single qualitative judgment.', flush=True)
     judgment = judge(cfg['PURDUE_API_KEY'], cfg.get('PURDUE_MODEL') or 'gpt-oss:120b', persona, payload)
-    text = render(target, calculated, manifest, purchases, judgment, live, live_calculated, rules)
+    selected_live_bars = args.live_bars or (args.bars if not args.live_run else None)
+    text = marked_worksheet.render(target, calculated, manifest, purchases, judgment, live, live_calculated,
+                                   rules, registry_lines(target, manifest), rules_path=args.rules,
+                                   reader_path=args.bars, live_reader_path=selected_live_bars)
     stamp = datetime.now().astimezone().strftime('%Y%m%d-%H%M%S-%f')
     output = args.run.resolve() / f'worksheet-{stamp}.md'
-    output.write_text(text, encoding='utf-8')
-    selected_live_bars = args.live_bars or (args.bars if not args.live_run else None)
+    # Validate the actual rendered Markdown before publishing it as a worksheet.
+    # The guard's known semantic limits still require independent source review.
+    with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', suffix='.tmp',
+                                     prefix='worksheet-check-', dir=args.run.resolve(), delete=False) as stream:
+        temporary = Path(stream.name)
+        stream.write(text)
+    try:
+        issues = marked_worksheet.worksheet_guard.validate_worksheet(temporary)
+        if issues:
+            raise ValueError('Worksheet format check failed: ' + '; '.join(issues[:8]))
+        temporary.replace(output)
+    finally:
+        temporary.unlink(missing_ok=True)
     record = {'schema_version': 1, 'ticker': live['ticker'], 'worksheet_file': '../' + output.name,
               'live_view': {'ticker': live['ticker'], 'filing_time': raw_time,
                             'view_time': datetime.now(timezone.utc).isoformat(),

@@ -1,0 +1,145 @@
+000001 | v3.26.3
+000002 | Earnings Per Share (Tables)
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | Earnings Per Share [Abstract]
+000006 | Schedule of Earnings Per Share Basic
+000007 | The details of the earnings (loss) per share calculations for the three and nine months ended September 30, 2026 and 2025, are as follows (shares in millions):
+000008 | Basic Three Months Ended September 30, Nine Months Ended September 30,
+000009 | 2026 2025 2026 2025
+000010 | Net income from continuing operations attributable to Honeywell Technologies $ 767 $ 956 $ 6,125 $ 1,606
+000011 | Net (loss) income from discontinued operations attributable to Honeywell Technologies (103) 869 1,042 3,238
+000012 | Net income attributable to Honeywell Technologies $ 664 $ 1,825 $ 7,167 $ 4,844
+000013 | Weighted average shares outstanding 317.5 317.7 317.3 320.2
+000014 | Earnings per share of common stock from continuing operations—basic
+000015 | $ 2.42 $ 3.01 $ 19.30 $ 5.02
+000016 | (Loss) earnings per share of common stock from discontinued operations—basic (0.33) 2.73 3.29 10.11
+000017 | Earnings per share of common stock—basic
+000018 | $ 2.09 $ 5.74 $ 22.59 $ 15.13
+000019 | Schedule of Earnings Per Share Diluted
+000020 | Three Months Ended September 30, Nine Months Ended September 30,
+000021 | Assuming Dilution 2026 2025 2026 2025
+000022 | Net income from continuing operations attributable to Honeywell Technologies
+000023 | $ 767 $ 956 $ 6,125 $ 1,606
+000024 | Net (loss) income from discontinued operations attributable to Honeywell Technologies (103) 869 1,042 3,238
+000025 | Net income attributable to Honeywell Technologies
+000026 | $ 664 $ 1,825 $ 7,167 $ 4,844
+000027 | Average shares
+000028 | Weighted average shares outstanding 317.5 317.7 317.3 320.2
+000029 | Dilutive securities issuable—stock plans 1.7 1.7 1.8 1.8
+000030 | Total weighted average diluted shares outstanding 319.2 319.4 319.1 322.0
+000031 | Earnings per share of common stock from continuing operations—assuming dilution
+000032 | $ 2.40 $ 2.99 $ 19.19 $ 4.99
+000033 | (Loss) earnings per share of common stock from discontinued operations—assuming dilution (0.32) 2.72 3.27 10.05
+000034 | Earnings per share of common stock—assuming dilution
+000035 | $ 2.08 $ 5.71 $ 22.46 $ 15.04
+000036 | X
+000037 | - References
+000038 | No definition available.
+000039 | + Details
+000040 | Name:
+000041 | us-gaap_EarningsPerShareAbstract
+000042 | Namespace Prefix:
+000043 | us-gaap_
+000044 | Data Type:
+000045 | xbrli:stringItemType
+000046 | Balance Type:
+000047 | na
+000048 | Period Type:
+000049 | duration
+000050 | X
+000051 | - Definition
+000052 | Tabular disclosure of the effect of income (loss) on basic earnings per share.
+000053 | + References
+000054 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000055 | -Topic 260
+000056 | -SubTopic 10
+000057 | -Name Accounting Standards Codification
+000058 | -Section 45
+000059 | -Paragraph 3
+000060 | -Publisher FASB
+000061 | -URI https://asc.fasb.org/1943274/2147482689/260-10-45-3
+000062 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000063 | -Topic 260
+000064 | -SubTopic 10
+000065 | -Name Accounting Standards Codification
+000066 | -Section 55
+000067 | -Paragraph 63
+000068 | -Publisher FASB
+000069 | -URI https://asc.fasb.org/1943274/2147482635/260-10-55-63
+000070 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000071 | -Topic 260
+000072 | -SubTopic 10
+000073 | -Name Accounting Standards Codification
+000074 | -Section 55
+000075 | -Paragraph 75
+000076 | -Publisher FASB
+000077 | -URI https://asc.fasb.org/1943274/2147482635/260-10-55-75
+000078 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000079 | -Topic 260
+000080 | -SubTopic 10
+000081 | -Name Accounting Standards Codification
+000082 | -Section 55
+000083 | -Paragraph 74
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147482635/260-10-55-74
+000086 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000087 | -Topic 260
+000088 | -SubTopic 10
+000089 | -Name Accounting Standards Codification
+000090 | -Section 55
+000091 | -Paragraph 73
+000092 | -Publisher FASB
+000093 | -URI https://asc.fasb.org/1943274/2147482635/260-10-55-73
+000094 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000095 | -Topic 260
+000096 | -SubTopic 10
+000097 | -Name Accounting Standards Codification
+000098 | -Section 50
+000099 | -Paragraph 1
+000100 | -Subparagraph (a)
+000101 | -Publisher FASB
+000102 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000103 | + Details
+000104 | Name:
+000105 | us-gaap_ScheduleOfEarningsPerShareBasicByCommonClassTextBlock
+000106 | Namespace Prefix:
+000107 | us-gaap_
+000108 | Data Type:
+000109 | dtr-types:textBlockItemType
+000110 | Balance Type:
+000111 | na
+000112 | Period Type:
+000113 | duration
+000114 | X
+000115 | - Definition
+000116 | Tabular disclosure of the effect of income (loss) on an entity's diluted earnings per share.
+000117 | + References
+000118 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000119 | -Topic 260
+000120 | -SubTopic 10
+000121 | -Name Accounting Standards Codification
+000122 | -Section 45
+000123 | -Paragraph 3
+000124 | -Publisher FASB
+000125 | -URI https://asc.fasb.org/1943274/2147482689/260-10-45-3
+000126 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000127 | -Topic 260
+000128 | -SubTopic 10
+000129 | -Name Accounting Standards Codification
+000130 | -Section 50
+000131 | -Paragraph 1
+000132 | -Subparagraph (a)
+000133 | -Publisher FASB
+000134 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000135 | + Details
+000136 | Name:
+000137 | us-gaap_ScheduleOfEarningsPerShareDilutedByCommonClassTextBlock
+000138 | Namespace Prefix:
+000139 | us-gaap_
+000140 | Data Type:
+000141 | dtr-types:textBlockItemType
+000142 | Balance Type:
+000143 | na
+000144 | Period Type:
+000145 | duration

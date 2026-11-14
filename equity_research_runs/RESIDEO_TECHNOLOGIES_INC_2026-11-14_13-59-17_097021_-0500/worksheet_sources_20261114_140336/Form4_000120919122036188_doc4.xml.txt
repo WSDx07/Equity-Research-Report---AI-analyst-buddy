@@ -1,0 +1,189 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0306</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2022-06-08</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001740332</issuerCik>
+000015 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000016 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001728934</rptOwnerCik>
+000022 |             <rptOwnerName>Kushner Brian</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>16100 N 71ST STREET, SUITE 550</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2></rptOwnerStreet2>
+000027 |             <rptOwnerCity>SCOTTSDALE</rptOwnerCity>
+000028 |             <rptOwnerState>AZ</rptOwnerState>
+000029 |             <rptOwnerZipCode>85254</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>1</isDirector>
+000034 |             <isOfficer>0</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |         </reportingOwnerRelationship>
+000038 |     </reportingOwner>
+000039 | 
+000040 |     <nonDerivativeTable>
+000041 |         <nonDerivativeTransaction>
+000042 |             <securityTitle>
+000043 |                 <value>Common Stock</value>
+000044 |             </securityTitle>
+000045 |             <transactionDate>
+000046 |                 <value>2022-06-08</value>
+000047 |             </transactionDate>
+000048 |             <deemedExecutionDate></deemedExecutionDate>
+000049 |             <transactionCoding>
+000050 |                 <transactionFormType>4</transactionFormType>
+000051 |                 <transactionCode>A</transactionCode>
+000052 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000053 |             </transactionCoding>
+000054 |             <transactionTimeliness>
+000055 |                 <value></value>
+000056 |             </transactionTimeliness>
+000057 |             <transactionAmounts>
+000058 |                 <transactionShares>
+000059 |                     <value>6280</value>
+000060 |                 </transactionShares>
+000061 |                 <transactionPricePerShare>
+000062 |                     <value>0.00</value>
+000063 |                 </transactionPricePerShare>
+000064 |                 <transactionAcquiredDisposedCode>
+000065 |                     <value>A</value>
+000066 |                 </transactionAcquiredDisposedCode>
+000067 |             </transactionAmounts>
+000068 |             <postTransactionAmounts>
+000069 |                 <sharesOwnedFollowingTransaction>
+000070 |                     <value>35856</value>
+000071 |                 </sharesOwnedFollowingTransaction>
+000072 |             </postTransactionAmounts>
+000073 |             <ownershipNature>
+000074 |                 <directOrIndirectOwnership>
+000075 |                     <value>D</value>
+000076 |                 </directOrIndirectOwnership>
+000077 |             </ownershipNature>
+000078 |         </nonDerivativeTransaction>
+000079 |         <nonDerivativeTransaction>
+000080 |             <securityTitle>
+000081 |                 <value>Common Stock</value>
+000082 |             </securityTitle>
+000083 |             <transactionDate>
+000084 |                 <value>2022-06-09</value>
+000085 |             </transactionDate>
+000086 |             <deemedExecutionDate></deemedExecutionDate>
+000087 |             <transactionCoding>
+000088 |                 <transactionFormType>4</transactionFormType>
+000089 |                 <transactionCode>M</transactionCode>
+000090 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000091 |             </transactionCoding>
+000092 |             <transactionTimeliness>
+000093 |                 <value></value>
+000094 |             </transactionTimeliness>
+000095 |             <transactionAmounts>
+000096 |                 <transactionShares>
+000097 |                     <value>4070</value>
+000098 |                 </transactionShares>
+000099 |                 <transactionPricePerShare>
+000100 |                     <value>0.00</value>
+000101 |                 </transactionPricePerShare>
+000102 |                 <transactionAcquiredDisposedCode>
+000103 |                     <value>A</value>
+000104 |                 </transactionAcquiredDisposedCode>
+000105 |             </transactionAmounts>
+000106 |             <postTransactionAmounts>
+000107 |                 <sharesOwnedFollowingTransaction>
+000108 |                     <value>39926</value>
+000109 |                 </sharesOwnedFollowingTransaction>
+000110 |             </postTransactionAmounts>
+000111 |             <ownershipNature>
+000112 |                 <directOrIndirectOwnership>
+000113 |                     <value>D</value>
+000114 |                 </directOrIndirectOwnership>
+000115 |             </ownershipNature>
+000116 |         </nonDerivativeTransaction>
+000117 |     </nonDerivativeTable>
+000118 | 
+000119 |     <derivativeTable>
+000120 |         <derivativeTransaction>
+000121 |             <securityTitle>
+000122 |                 <value>Restricted Stock Unit</value>
+000123 |             </securityTitle>
+000124 |             <conversionOrExercisePrice>
+000125 |                 <footnoteId id="F1"/>
+000126 |             </conversionOrExercisePrice>
+000127 |             <transactionDate>
+000128 |                 <value>2022-06-09</value>
+000129 |             </transactionDate>
+000130 |             <deemedExecutionDate></deemedExecutionDate>
+000131 |             <transactionCoding>
+000132 |                 <transactionFormType>4</transactionFormType>
+000133 |                 <transactionCode>M</transactionCode>
+000134 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000135 |             </transactionCoding>
+000136 |             <transactionTimeliness>
+000137 |                 <value></value>
+000138 |             </transactionTimeliness>
+000139 |             <transactionAmounts>
+000140 |                 <transactionShares>
+000141 |                     <value>4070</value>
+000142 |                 </transactionShares>
+000143 |                 <transactionPricePerShare>
+000144 |                     <value>0.00</value>
+000145 |                 </transactionPricePerShare>
+000146 |                 <transactionAcquiredDisposedCode>
+000147 |                     <value>D</value>
+000148 |                 </transactionAcquiredDisposedCode>
+000149 |             </transactionAmounts>
+000150 |             <exerciseDate>
+000151 |                 <value>2022-06-09</value>
+000152 |             </exerciseDate>
+000153 |             <expirationDate>
+000154 |                 <value>2022-06-09</value>
+000155 |             </expirationDate>
+000156 |             <underlyingSecurity>
+000157 |                 <underlyingSecurityTitle>
+000158 |                     <value>Common Stock</value>
+000159 |                 </underlyingSecurityTitle>
+000160 |                 <underlyingSecurityShares>
+000161 |                     <value>4070</value>
+000162 |                 </underlyingSecurityShares>
+000163 |             </underlyingSecurity>
+000164 |             <postTransactionAmounts>
+000165 |                 <sharesOwnedFollowingTransaction>
+000166 |                     <value>0</value>
+000167 |                 </sharesOwnedFollowingTransaction>
+000168 |             </postTransactionAmounts>
+000169 |             <ownershipNature>
+000170 |                 <directOrIndirectOwnership>
+000171 |                     <value>D</value>
+000172 |                 </directOrIndirectOwnership>
+000173 |             </ownershipNature>
+000174 |         </derivativeTransaction>
+000175 |     </derivativeTable>
+000176 | 
+000177 |     <footnotes>
+000178 |         <footnote id="F1">Instrument converts to common stock on a one-for-one basis.</footnote>
+000179 |     </footnotes>
+000180 | 
+000181 |     <remarks></remarks>
+000182 | 
+000183 |     <ownerSignature>
+000184 |         <signatureName>/s/ Jeannine J. Lane, as Attorney-in-Fact for Brian G. Kushner</signatureName>
+000185 |         <signatureDate>2022-06-10</signatureDate>
+000186 |     </ownerSignature>
+000187 | </ownershipDocument>
+000188 | </XML>
+000189 | 

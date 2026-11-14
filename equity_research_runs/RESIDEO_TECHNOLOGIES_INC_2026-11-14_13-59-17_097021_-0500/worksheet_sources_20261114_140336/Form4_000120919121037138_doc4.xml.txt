@@ -1,0 +1,192 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0306</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2021-06-01</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001740332</issuerCik>
+000015 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000016 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001813762</rptOwnerCik>
+000022 |             <rptOwnerName>Theodore Phillip L.</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>901 E 6TH STREET</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2></rptOwnerStreet2>
+000027 |             <rptOwnerCity>AUSTIN</rptOwnerCity>
+000028 |             <rptOwnerState>TX</rptOwnerState>
+000029 |             <rptOwnerZipCode>78702</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>0</isDirector>
+000034 |             <isOfficer>1</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |             <officerTitle>Pres., Products &amp; Solutions</officerTitle>
+000038 |         </reportingOwnerRelationship>
+000039 |     </reportingOwner>
+000040 | 
+000041 |     <nonDerivativeTable>
+000042 |         <nonDerivativeTransaction>
+000043 |             <securityTitle>
+000044 |                 <value>Common Stock</value>
+000045 |             </securityTitle>
+000046 |             <transactionDate>
+000047 |                 <value>2021-06-01</value>
+000048 |             </transactionDate>
+000049 |             <deemedExecutionDate></deemedExecutionDate>
+000050 |             <transactionCoding>
+000051 |                 <transactionFormType>4</transactionFormType>
+000052 |                 <transactionCode>M</transactionCode>
+000053 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000054 |             </transactionCoding>
+000055 |             <transactionTimeliness>
+000056 |                 <value></value>
+000057 |             </transactionTimeliness>
+000058 |             <transactionAmounts>
+000059 |                 <transactionShares>
+000060 |                     <value>5676</value>
+000061 |                 </transactionShares>
+000062 |                 <transactionPricePerShare>
+000063 |                     <value>0.00</value>
+000064 |                 </transactionPricePerShare>
+000065 |                 <transactionAcquiredDisposedCode>
+000066 |                     <value>A</value>
+000067 |                 </transactionAcquiredDisposedCode>
+000068 |             </transactionAmounts>
+000069 |             <postTransactionAmounts>
+000070 |                 <sharesOwnedFollowingTransaction>
+000071 |                     <value>7479</value>
+000072 |                     <footnoteId id="F1"/>
+000073 |                 </sharesOwnedFollowingTransaction>
+000074 |             </postTransactionAmounts>
+000075 |             <ownershipNature>
+000076 |                 <directOrIndirectOwnership>
+000077 |                     <value>D</value>
+000078 |                 </directOrIndirectOwnership>
+000079 |             </ownershipNature>
+000080 |         </nonDerivativeTransaction>
+000081 |         <nonDerivativeTransaction>
+000082 |             <securityTitle>
+000083 |                 <value>Common Stock</value>
+000084 |             </securityTitle>
+000085 |             <transactionDate>
+000086 |                 <value>2021-06-01</value>
+000087 |             </transactionDate>
+000088 |             <deemedExecutionDate></deemedExecutionDate>
+000089 |             <transactionCoding>
+000090 |                 <transactionFormType>4</transactionFormType>
+000091 |                 <transactionCode>F</transactionCode>
+000092 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000093 |             </transactionCoding>
+000094 |             <transactionTimeliness>
+000095 |                 <value></value>
+000096 |             </transactionTimeliness>
+000097 |             <transactionAmounts>
+000098 |                 <transactionShares>
+000099 |                     <value>1383</value>
+000100 |                 </transactionShares>
+000101 |                 <transactionPricePerShare>
+000102 |                     <value>30.65</value>
+000103 |                 </transactionPricePerShare>
+000104 |                 <transactionAcquiredDisposedCode>
+000105 |                     <value>D</value>
+000106 |                 </transactionAcquiredDisposedCode>
+000107 |             </transactionAmounts>
+000108 |             <postTransactionAmounts>
+000109 |                 <sharesOwnedFollowingTransaction>
+000110 |                     <value>6096</value>
+000111 |                 </sharesOwnedFollowingTransaction>
+000112 |             </postTransactionAmounts>
+000113 |             <ownershipNature>
+000114 |                 <directOrIndirectOwnership>
+000115 |                     <value>D</value>
+000116 |                 </directOrIndirectOwnership>
+000117 |             </ownershipNature>
+000118 |         </nonDerivativeTransaction>
+000119 |     </nonDerivativeTable>
+000120 | 
+000121 |     <derivativeTable>
+000122 |         <derivativeTransaction>
+000123 |             <securityTitle>
+000124 |                 <value>Restricted Stock Units</value>
+000125 |             </securityTitle>
+000126 |             <conversionOrExercisePrice>
+000127 |                 <footnoteId id="F2"/>
+000128 |             </conversionOrExercisePrice>
+000129 |             <transactionDate>
+000130 |                 <value>2021-06-01</value>
+000131 |             </transactionDate>
+000132 |             <deemedExecutionDate></deemedExecutionDate>
+000133 |             <transactionCoding>
+000134 |                 <transactionFormType>4</transactionFormType>
+000135 |                 <transactionCode>M</transactionCode>
+000136 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000137 |             </transactionCoding>
+000138 |             <transactionTimeliness>
+000139 |                 <value></value>
+000140 |             </transactionTimeliness>
+000141 |             <transactionAmounts>
+000142 |                 <transactionShares>
+000143 |                     <value>5676</value>
+000144 |                 </transactionShares>
+000145 |                 <transactionPricePerShare>
+000146 |                     <value>0.00</value>
+000147 |                 </transactionPricePerShare>
+000148 |                 <transactionAcquiredDisposedCode>
+000149 |                     <value>D</value>
+000150 |                 </transactionAcquiredDisposedCode>
+000151 |             </transactionAmounts>
+000152 |             <exerciseDate>
+000153 |                 <value>2021-06-01</value>
+000154 |             </exerciseDate>
+000155 |             <expirationDate>
+000156 |                 <value>2021-06-01</value>
+000157 |             </expirationDate>
+000158 |             <underlyingSecurity>
+000159 |                 <underlyingSecurityTitle>
+000160 |                     <value>Common Stock</value>
+000161 |                 </underlyingSecurityTitle>
+000162 |                 <underlyingSecurityShares>
+000163 |                     <value>5676</value>
+000164 |                 </underlyingSecurityShares>
+000165 |             </underlyingSecurity>
+000166 |             <postTransactionAmounts>
+000167 |                 <sharesOwnedFollowingTransaction>
+000168 |                     <value>11352</value>
+000169 |                 </sharesOwnedFollowingTransaction>
+000170 |             </postTransactionAmounts>
+000171 |             <ownershipNature>
+000172 |                 <directOrIndirectOwnership>
+000173 |                     <value>D</value>
+000174 |                 </directOrIndirectOwnership>
+000175 |             </ownershipNature>
+000176 |         </derivativeTransaction>
+000177 |     </derivativeTable>
+000178 | 
+000179 |     <footnotes>
+000180 |         <footnote id="F1">Includes 1,803 shares purchased under the Resideo Employee Stock Purchase Plan.</footnote>
+000181 |         <footnote id="F2">Instrument converts to common stock on a one-for-one basis.</footnote>
+000182 |     </footnotes>
+000183 | 
+000184 |     <remarks></remarks>
+000185 | 
+000186 |     <ownerSignature>
+000187 |         <signatureName>/s/ Jeannine J. Lane, as Attorney-in-Fact for Phillip L. Theodore</signatureName>
+000188 |         <signatureDate>2021-06-02</signatureDate>
+000189 |     </ownerSignature>
+000190 | </ownershipDocument>
+000191 | </XML>
+000192 | 

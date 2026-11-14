@@ -1,0 +1,235 @@
+000001 | v3.10.0.1
+000002 | Segment Financial Data - Schedule of Reconciliation of Segment Profit to Combined Income (Loss) from Continuing Operations Before Taxes (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2018
+000007 | Mar. 31, 2018
+000008 | Sep. 30, 2017
+000009 | Sep. 30, 2018
+000010 | Sep. 30, 2017
+000011 | Segment Reporting [Abstract]
+000012 | Segment profit
+000013 | $ 131
+000014 | $ 128
+000015 | $ 403
+000016 | $ 341
+000017 | Pension expense
+000018 | (3)
+000019 | (4)
+000020 | (10)
+000021 | (12)
+000022 | Repositioning
+000023 | 0
+000024 | $ (5)
+000025 | (2)
+000026 | (5)
+000027 | (21)
+000028 | Other expense
+000029 | (146)
+000030 | (65)
+000031 | (322)
+000032 | (165)
+000033 | Interest and other charges, net
+000034 | 1
+000035 | 1
+000036 | Income (loss) before taxes
+000037 | $ (18)
+000038 | $ 58
+000039 | $ 66
+000040 | $ 144
+000041 | X
+000042 | - Definition
+000043 | Amount of income (loss) from continuing operations, including income (loss) from equity method investments, before deduction of income tax expense (benefit), and income (loss) attributable to noncontrolling interest.
+000044 | + References
+000045 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000046 | -Publisher FASB
+000047 | -Name Accounting Standards Codification
+000048 | -Topic 940
+000049 | -SubTopic 20
+000050 | -Section 25
+000051 | -Paragraph 1
+000052 | -URI http://asc.fasb.org/extlink&oid=68072869&loc=d3e41242-110953
+000053 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000054 | -Publisher FASB
+000055 | -Name Accounting Standards Codification
+000056 | -Topic 220
+000057 | -SubTopic 10
+000058 | -Section S99
+000059 | -Paragraph 2
+000060 | -Subparagraph (SX 210.5-03(10))
+000061 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000062 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000063 | -Publisher FASB
+000064 | -Name Accounting Standards Codification
+000065 | -Topic 944
+000066 | -SubTopic 220
+000067 | -Section S99
+000068 | -Paragraph 1
+000069 | -Subparagraph (SX 210.7-04(8))
+000070 | -URI http://asc.fasb.org/extlink&oid=114873790&loc=SL114874131-224263
+000071 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000072 | -Publisher FASB
+000073 | -Name Accounting Standards Codification
+000074 | -Topic 250
+000075 | -SubTopic 10
+000076 | -Section 50
+000077 | -Paragraph 11
+000078 | -URI http://asc.fasb.org/extlink&oid=109234566&loc=d3e22694-107794
+000079 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000080 | -Publisher FASB
+000081 | -Name Accounting Standards Codification
+000082 | -Topic 942
+000083 | -SubTopic 220
+000084 | -Section S99
+000085 | -Paragraph 1
+000086 | -Subparagraph (SX 210.9-04(15))
+000087 | -URI http://asc.fasb.org/extlink&oid=114873765&loc=SL114874048-224260
+000088 | + Details
+000089 | Name:
+000090 | us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+000091 | Namespace Prefix:
+000092 | us-gaap_
+000093 | Data Type:
+000094 | xbrli:monetaryItemType
+000095 | Balance Type:
+000096 | credit
+000097 | Period Type:
+000098 | duration
+000099 | X
+000100 | - Definition
+000101 | The net amount of nonoperating interest income (expense).
+000102 | + References
+000103 | No definition available.
+000104 | + Details
+000105 | Name:
+000106 | us-gaap_InterestIncomeExpenseNonoperatingNet
+000107 | Namespace Prefix:
+000108 | us-gaap_
+000109 | Data Type:
+000110 | xbrli:monetaryItemType
+000111 | Balance Type:
+000112 | credit
+000113 | Period Type:
+000114 | duration
+000115 | X
+000116 | - Definition
+000117 | The net result for the period of deducting operating expenses from operating revenues.
+000118 | + References
+000119 | No definition available.
+000120 | + Details
+000121 | Name:
+000122 | us-gaap_OperatingIncomeLoss
+000123 | Namespace Prefix:
+000124 | us-gaap_
+000125 | Data Type:
+000126 | xbrli:monetaryItemType
+000127 | Balance Type:
+000128 | credit
+000129 | Period Type:
+000130 | duration
+000131 | X
+000132 | - Definition
+000133 | Amount of income (expense) related to nonoperating activities, classified as other.
+000134 | + References
+000135 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000136 | -Publisher FASB
+000137 | -Name Accounting Standards Codification
+000138 | -Topic 220
+000139 | -SubTopic 10
+000140 | -Section S99
+000141 | -Paragraph 2
+000142 | -Subparagraph (SX 210.5-03.9)
+000143 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000144 | + Details
+000145 | Name:
+000146 | us-gaap_OtherNonoperatingIncomeExpense
+000147 | Namespace Prefix:
+000148 | us-gaap_
+000149 | Data Type:
+000150 | xbrli:monetaryItemType
+000151 | Balance Type:
+000152 | credit
+000153 | Period Type:
+000154 | duration
+000155 | X
+000156 | - Definition
+000157 | Amount of cost (reversal of cost) for pension and other postretirement benefits.
+000158 | + References
+000159 | No definition available.
+000160 | + Details
+000161 | Name:
+000162 | us-gaap_PensionAndOtherPostretirementBenefitExpense
+000163 | Namespace Prefix:
+000164 | us-gaap_
+000165 | Data Type:
+000166 | xbrli:monetaryItemType
+000167 | Balance Type:
+000168 | debit
+000169 | Period Type:
+000170 | duration
+000171 | X
+000172 | - Definition
+000173 | Amount of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.
+000174 | + References
+000175 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000176 | -Publisher FASB
+000177 | -Name Accounting Standards Codification
+000178 | -Topic 420
+000179 | -SubTopic 10
+000180 | -Section S99
+000181 | -Paragraph 1
+000182 | -Subparagraph (SAB Topic 5.P.3)
+000183 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140864-122747
+000184 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000185 | -Publisher FASB
+000186 | -Name Accounting Standards Codification
+000187 | -Topic 420
+000188 | -SubTopic 10
+000189 | -Section 50
+000190 | -Paragraph 1
+000191 | -Subparagraph (b)
+000192 | -URI http://asc.fasb.org/extlink&oid=6394359&loc=d3e17939-110869
+000193 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000194 | -Publisher FASB
+000195 | -Name Accounting Standards Codification
+000196 | -Topic 230
+000197 | -SubTopic 10
+000198 | -Section 45
+000199 | -Paragraph 28
+000200 | -Subparagraph (b)
+000201 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000202 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000203 | -Publisher FASB
+000204 | -Name Accounting Standards Codification
+000205 | -Topic 420
+000206 | -SubTopic 10
+000207 | -Section S99
+000208 | -Paragraph 2
+000209 | -Subparagraph (SAB Topic 5.P.4(b))
+000210 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140904-122747
+000211 | + Details
+000212 | Name:
+000213 | us-gaap_RestructuringCharges
+000214 | Namespace Prefix:
+000215 | us-gaap_
+000216 | Data Type:
+000217 | xbrli:monetaryItemType
+000218 | Balance Type:
+000219 | debit
+000220 | Period Type:
+000221 | duration
+000222 | X
+000223 | - References
+000224 | No definition available.
+000225 | + Details
+000226 | Name:
+000227 | us-gaap_SegmentReportingAbstract
+000228 | Namespace Prefix:
+000229 | us-gaap_
+000230 | Data Type:
+000231 | xbrli:stringItemType
+000232 | Balance Type:
+000233 | na
+000234 | Period Type:
+000235 | duration

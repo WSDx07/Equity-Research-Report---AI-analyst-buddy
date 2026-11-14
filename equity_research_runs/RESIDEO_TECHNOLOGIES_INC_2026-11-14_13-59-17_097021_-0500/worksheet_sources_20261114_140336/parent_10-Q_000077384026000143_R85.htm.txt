@@ -1,0 +1,305 @@
+000001 | v3.26.3
+000002 | Segment Financial Data - Additional Information (Details)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | Jun. 29, 2026
+000006 | USD ($)
+000007 | Sep. 30, 2026
+000008 | segment
+000009 | Segment Reporting [Line Items]
+000010 | Number of reportable segments | segment
+000011 | 3
+000012 | Industrial Automation
+000013 | Segment Reporting [Line Items]
+000014 | Segment reporting, assets transferred to another segment, amount | $
+000015 | $ 26
+000016 | X
+000017 | - Definition
+000018 | Segment Reporting, Assets Transferred To Another Segment, Amount
+000019 | + References
+000020 | No definition available.
+000021 | + Details
+000022 | Name:
+000023 | hon_SegmentReportingAssetsTransferredToAnotherSegmentAmount
+000024 | Namespace Prefix:
+000025 | hon_
+000026 | Data Type:
+000027 | xbrli:monetaryItemType
+000028 | Balance Type:
+000029 | credit
+000030 | Period Type:
+000031 | duration
+000032 | X
+000033 | - Definition
+000034 | Number of segments reported by the entity. A reportable segment is a component of an entity for which there is an accounting requirement to report separate financial information on that component in the entity's financial statements.
+000035 | + References
+000036 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000037 | -Topic 280
+000038 | -SubTopic 10
+000039 | -Name Accounting Standards Codification
+000040 | -Section 55
+000041 | -Paragraph 47
+000042 | -Subparagraph (a)
+000043 | -Publisher FASB
+000044 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-47
+000045 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000046 | -Topic 280
+000047 | -SubTopic 10
+000048 | -Name Accounting Standards Codification
+000049 | -Section 55
+000050 | -Paragraph 54
+000051 | -Subparagraph (e)
+000052 | -Publisher FASB
+000053 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-54
+000054 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000055 | -Topic 280
+000056 | -SubTopic 10
+000057 | -Name Accounting Standards Codification
+000058 | -Section 50
+000059 | -Paragraph 18
+000060 | -Publisher FASB
+000061 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-18
+000062 | + Details
+000063 | Name:
+000064 | us-gaap_NumberOfReportableSegments
+000065 | Namespace Prefix:
+000066 | us-gaap_
+000067 | Data Type:
+000068 | xbrli:integerItemType
+000069 | Balance Type:
+000070 | na
+000071 | Period Type:
+000072 | duration
+000073 | X
+000074 | - Definition
+000075 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000076 | + References
+000077 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000078 | -Topic 280
+000079 | -SubTopic 10
+000080 | -Name Accounting Standards Codification
+000081 | -Section 50
+000082 | -Paragraph 34
+000083 | -Publisher FASB
+000084 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-34
+000085 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000086 | -Topic 280
+000087 | -SubTopic 10
+000088 | -Name Accounting Standards Codification
+000089 | -Section 50
+000090 | -Paragraph 32
+000091 | -Subparagraph (f)
+000092 | -Publisher FASB
+000093 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000094 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000095 | -Topic 280
+000096 | -SubTopic 10
+000097 | -Name Accounting Standards Codification
+000098 | -Section 50
+000099 | -Paragraph 32
+000100 | -Subparagraph (ee)
+000101 | -Publisher FASB
+000102 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000103 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000104 | -Topic 280
+000105 | -SubTopic 10
+000106 | -Name Accounting Standards Codification
+000107 | -Section 50
+000108 | -Paragraph 31
+000109 | -Publisher FASB
+000110 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-31
+000111 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000112 | -Topic 280
+000113 | -SubTopic 10
+000114 | -Name Accounting Standards Codification
+000115 | -Section 50
+000116 | -Paragraph 30
+000117 | -Subparagraph (d)
+000118 | -Publisher FASB
+000119 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000120 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000121 | -Topic 280
+000122 | -SubTopic 10
+000123 | -Name Accounting Standards Codification
+000124 | -Section 50
+000125 | -Paragraph 30
+000126 | -Subparagraph (c)
+000127 | -Publisher FASB
+000128 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000129 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000130 | -Topic 280
+000131 | -SubTopic 10
+000132 | -Name Accounting Standards Codification
+000133 | -Section 50
+000134 | -Paragraph 30
+000135 | -Subparagraph (b)
+000136 | -Publisher FASB
+000137 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000138 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000139 | -Topic 280
+000140 | -SubTopic 10
+000141 | -Name Accounting Standards Codification
+000142 | -Section 50
+000143 | -Paragraph 30
+000144 | -Subparagraph (a)
+000145 | -Publisher FASB
+000146 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000147 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000148 | -Topic 280
+000149 | -SubTopic 10
+000150 | -Name Accounting Standards Codification
+000151 | -Section 50
+000152 | -Paragraph 26C
+000153 | -Publisher FASB
+000154 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-26C
+000155 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000156 | -Topic 280
+000157 | -SubTopic 10
+000158 | -Name Accounting Standards Codification
+000159 | -Section 50
+000160 | -Paragraph 26B
+000161 | -Publisher FASB
+000162 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-26B
+000163 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000164 | -Topic 280
+000165 | -SubTopic 10
+000166 | -Name Accounting Standards Codification
+000167 | -Section 50
+000168 | -Paragraph 26A
+000169 | -Publisher FASB
+000170 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-26A
+000171 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000172 | -Topic 280
+000173 | -SubTopic 10
+000174 | -Name Accounting Standards Codification
+000175 | -Section 50
+000176 | -Paragraph 25
+000177 | -Subparagraph (b)
+000178 | -Publisher FASB
+000179 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-25
+000180 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000181 | -Topic 280
+000182 | -SubTopic 10
+000183 | -Name Accounting Standards Codification
+000184 | -Section 50
+000185 | -Paragraph 25
+000186 | -Subparagraph (a)
+000187 | -Publisher FASB
+000188 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-25
+000189 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000190 | -Topic 280
+000191 | -SubTopic 10
+000192 | -Name Accounting Standards Codification
+000193 | -Section 50
+000194 | -Paragraph 22
+000195 | -Subparagraph (j)
+000196 | -Publisher FASB
+000197 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000198 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000199 | -Topic 280
+000200 | -SubTopic 10
+000201 | -Name Accounting Standards Codification
+000202 | -Section 50
+000203 | -Paragraph 22
+000204 | -Subparagraph (h)
+000205 | -Publisher FASB
+000206 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000207 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000208 | -Topic 280
+000209 | -SubTopic 10
+000210 | -Name Accounting Standards Codification
+000211 | -Section 50
+000212 | -Paragraph 22
+000213 | -Subparagraph (g)
+000214 | -Publisher FASB
+000215 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000216 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000217 | -Topic 280
+000218 | -SubTopic 10
+000219 | -Name Accounting Standards Codification
+000220 | -Section 50
+000221 | -Paragraph 22
+000222 | -Subparagraph (f)
+000223 | -Publisher FASB
+000224 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000225 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+000226 | -Topic 280
+000227 | -SubTopic 10
+000228 | -Name Accounting Standards Codification
+000229 | -Section 50
+000230 | -Paragraph 22
+000231 | -Subparagraph (e)
+000232 | -Publisher FASB
+000233 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000234 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+000235 | -Topic 280
+000236 | -SubTopic 10
+000237 | -Name Accounting Standards Codification
+000238 | -Section 50
+000239 | -Paragraph 22
+000240 | -Subparagraph (d)
+000241 | -Publisher FASB
+000242 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000243 | Reference 20: http://www.xbrl.org/2003/role/disclosureRef
+000244 | -Topic 280
+000245 | -SubTopic 10
+000246 | -Name Accounting Standards Codification
+000247 | -Section 50
+000248 | -Paragraph 22
+000249 | -Subparagraph (c)
+000250 | -Publisher FASB
+000251 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000252 | Reference 21: http://www.xbrl.org/2003/role/disclosureRef
+000253 | -Topic 280
+000254 | -SubTopic 10
+000255 | -Name Accounting Standards Codification
+000256 | -Section 50
+000257 | -Paragraph 22
+000258 | -Subparagraph (b)
+000259 | -Publisher FASB
+000260 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000261 | Reference 22: http://www.xbrl.org/2003/role/disclosureRef
+000262 | -Topic 280
+000263 | -SubTopic 10
+000264 | -Name Accounting Standards Codification
+000265 | -Section 50
+000266 | -Paragraph 22
+000267 | -Subparagraph (a)
+000268 | -Publisher FASB
+000269 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000270 | Reference 23: http://www.xbrl.org/2003/role/disclosureRef
+000271 | -Topic 280
+000272 | -SubTopic 10
+000273 | -Name Accounting Standards Codification
+000274 | -Section 50
+000275 | -Paragraph 22
+000276 | -Publisher FASB
+000277 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000278 | Reference 24: http://www.xbrl.org/2003/role/disclosureRef
+000279 | -Topic 280
+000280 | -SubTopic 10
+000281 | -Name Accounting Standards Codification
+000282 | -Section 50
+000283 | -Paragraph 15
+000284 | -Publisher FASB
+000285 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-15
+000286 | + Details
+000287 | Name:
+000288 | us-gaap_SegmentReportingInformationLineItems
+000289 | Namespace Prefix:
+000290 | us-gaap_
+000291 | Data Type:
+000292 | xbrli:stringItemType
+000293 | Balance Type:
+000294 | na
+000295 | Period Type:
+000296 | duration
+000297 | X
+000298 | - Details
+000299 | Name:
+000300 | us-gaap_StatementBusinessSegmentsAxis=hon_IndustrialAutomationMember
+000301 | Namespace Prefix:
+000302 | Data Type:
+000303 | na
+000304 | Balance Type:
+000305 | Period Type:

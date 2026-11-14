@@ -1,0 +1,880 @@
+000001 | v3.10.0.1
+000002 | COMBINED INTERIM BALANCE SHEET (Unaudited) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2018
+000005 | Dec. 31, 2017
+000006 | Current assets:
+000007 | Cash and cash equivalents
+000008 | $ 184
+000009 | $ 56
+000010 | Due from related parties, current
+000011 | 26
+000012 | 23
+000013 | Accounts, notes and other receivables – net
+000014 | 783
+000015 | 779
+000016 | Inventories
+000017 | 603
+000018 | 465
+000019 | Other current assets
+000020 | 72
+000021 | 69
+000022 | Total current assets
+000023 | 1,668
+000024 | 1,392
+000025 | Property, plant and equipment – net
+000026 | 276
+000027 | 265
+000028 | Goodwill
+000029 | 2,638
+000030 | 2,648
+000031 | Other intangible assets - net
+000032 | 138
+000033 | 140
+000034 | Deferred income taxes
+000035 | 4
+000036 | 5
+000037 | Other assets
+000038 | 18
+000039 | 23
+000040 | Total assets
+000041 | 4,742
+000042 | 4,473
+000043 | Current liabilities:
+000044 | Accounts payable
+000045 | 850
+000046 | 678
+000047 | Due to related parties, current
+000048 | 162
+000049 | 60
+000050 | Accrued liabilities
+000051 | 388
+000052 | 409
+000053 | Total current liabilities
+000054 | 1,400
+000055 | 1,147
+000056 | Deferred income taxes
+000057 | 100
+000058 | 377
+000059 | Other liabilities
+000060 | 557
+000061 | 346
+000062 | EQUITY
+000063 | Invested equity
+000064 | 2,809
+000065 | 2,703
+000066 | Accumulated other comprehensive (loss)
+000067 | (124)
+000068 | (100)
+000069 | Total equity
+000070 | 2,685
+000071 | 2,603
+000072 | Total liabilities and equity
+000073 | $ 4,742
+000074 | $ 4,473
+000075 | X
+000076 | - Definition
+000077 | Invested equity value.
+000078 | + References
+000079 | No definition available.
+000080 | + Details
+000081 | Name:
+000082 | rezi_InvestedEquityValue
+000083 | Namespace Prefix:
+000084 | rezi_
+000085 | Data Type:
+000086 | xbrli:monetaryItemType
+000087 | Balance Type:
+000088 | credit
+000089 | Period Type:
+000090 | instant
+000091 | X
+000092 | - Definition
+000093 | Amount, after allowance, receivable from customers, clients, or other third-parties, and receivables classified as other due within one year or the normal operating cycle, if longer.
+000094 | + References
+000095 | No definition available.
+000096 | + Details
+000097 | Name:
+000098 | us-gaap_AccountsAndOtherReceivablesNetCurrent
+000099 | Namespace Prefix:
+000100 | us-gaap_
+000101 | Data Type:
+000102 | xbrli:monetaryItemType
+000103 | Balance Type:
+000104 | debit
+000105 | Period Type:
+000106 | instant
+000107 | X
+000108 | - Definition
+000109 | Carrying value as of the balance sheet date of liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received that are used in an entity's business. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000110 | + References
+000111 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000112 | -Publisher FASB
+000113 | -Name Accounting Standards Codification
+000114 | -Topic 210
+000115 | -SubTopic 10
+000116 | -Section S99
+000117 | -Paragraph 1
+000118 | -Subparagraph (SX 210.5-02.19(a))
+000119 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000120 | + Details
+000121 | Name:
+000122 | us-gaap_AccountsPayableCurrent
+000123 | Namespace Prefix:
+000124 | us-gaap_
+000125 | Data Type:
+000126 | xbrli:monetaryItemType
+000127 | Balance Type:
+000128 | credit
+000129 | Period Type:
+000130 | instant
+000131 | X
+000132 | - Definition
+000133 | Carrying value as of the balance sheet date of obligations incurred and payable, pertaining to costs that are statutory in nature, are incurred on contractual obligations, or accumulate over time and for which invoices have not yet been received or will not be rendered. Examples include taxes, interest, rent and utilities. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000134 | + References
+000135 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000136 | -Publisher FASB
+000137 | -Name Accounting Standards Codification
+000138 | -Topic 210
+000139 | -SubTopic 10
+000140 | -Section S99
+000141 | -Paragraph 1
+000142 | -Subparagraph (SX 210.5-02.20)
+000143 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000144 | + Details
+000145 | Name:
+000146 | us-gaap_AccruedLiabilitiesCurrent
+000147 | Namespace Prefix:
+000148 | us-gaap_
+000149 | Data Type:
+000150 | xbrli:monetaryItemType
+000151 | Balance Type:
+000152 | credit
+000153 | Period Type:
+000154 | instant
+000155 | X
+000156 | - Definition
+000157 | Accumulated change in equity from transactions and other events and circumstances from non-owner sources, net of tax effect, at period end. Excludes Net Income (Loss), and accumulated changes in equity from transactions resulting from investments by owners and distributions to owners. Includes foreign currency translation items, certain pension adjustments, unrealized gains and losses on certain investments in debt and equity securities, other than temporary impairment (OTTI) losses related to factors other than credit losses on available-for-sale and held-to-maturity debt securities that an entity does not intend to sell and it is not more likely than not that the entity will be required to sell before recovery of the amortized cost basis, as well as changes in the fair value of derivatives related to the effective portion of a designated cash flow hedge.
+000158 | + References
+000159 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000160 | -Publisher FASB
+000161 | -Name Accounting Standards Codification
+000162 | -Topic 220
+000163 | -SubTopic 10
+000164 | -Section 45
+000165 | -Paragraph 11
+000166 | -URI http://asc.fasb.org/extlink&oid=114867106&loc=d3e637-108580
+000167 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000168 | -Publisher FASB
+000169 | -Name Accounting Standards Codification
+000170 | -Topic 220
+000171 | -SubTopic 10
+000172 | -Section 45
+000173 | -Paragraph 14A
+000174 | -URI http://asc.fasb.org/extlink&oid=114867106&loc=SL7669686-108580
+000175 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000176 | -Publisher FASB
+000177 | -Name Accounting Standards Codification
+000178 | -Topic 220
+000179 | -SubTopic 10
+000180 | -Section 45
+000181 | -Paragraph 14
+000182 | -URI http://asc.fasb.org/extlink&oid=114867106&loc=d3e681-108580
+000183 | + Details
+000184 | Name:
+000185 | us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax
+000186 | Namespace Prefix:
+000187 | us-gaap_
+000188 | Data Type:
+000189 | xbrli:monetaryItemType
+000190 | Balance Type:
+000191 | credit
+000192 | Period Type:
+000193 | instant
+000194 | X
+000195 | - Definition
+000196 | Sum of the carrying amounts as of the balance sheet date of all assets that are recognized. Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.
+000197 | + References
+000198 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000199 | -Publisher FASB
+000200 | -Name Accounting Standards Codification
+000201 | -Topic 942
+000202 | -SubTopic 210
+000203 | -Section S99
+000204 | -Paragraph 1
+000205 | -Subparagraph (SX 210.9-03(11))
+000206 | -URI http://asc.fasb.org/extlink&oid=6876686&loc=d3e534808-122878
+000207 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000208 | -Publisher FASB
+000209 | -Name Accounting Standards Codification
+000210 | -Topic 280
+000211 | -SubTopic 10
+000212 | -Section 50
+000213 | -Paragraph 22
+000214 | -URI http://asc.fasb.org/extlink&oid=115929826&loc=d3e8736-108599
+000215 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000216 | -Publisher FASB
+000217 | -Name Accounting Standards Codification
+000218 | -Topic 944
+000219 | -SubTopic 210
+000220 | -Section S99
+000221 | -Paragraph 1
+000222 | -Subparagraph (SX 210.7-03(a)(12))
+000223 | -URI http://asc.fasb.org/extlink&oid=6879938&loc=d3e572229-122910
+000224 | + Details
+000225 | Name:
+000226 | us-gaap_Assets
+000227 | Namespace Prefix:
+000228 | us-gaap_
+000229 | Data Type:
+000230 | xbrli:monetaryItemType
+000231 | Balance Type:
+000232 | debit
+000233 | Period Type:
+000234 | instant
+000235 | X
+000236 | - Definition
+000237 | Sum of the carrying amounts as of the balance sheet date of all assets that are expected to be realized in cash, sold, or consumed within one year (or the normal operating cycle, if longer). Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.
+000238 | + References
+000239 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000240 | -Publisher FASB
+000241 | -Name Accounting Standards Codification
+000242 | -Topic 210
+000243 | -SubTopic 10
+000244 | -Section 45
+000245 | -Paragraph 3
+000246 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e6801-107765
+000247 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000248 | -Publisher FASB
+000249 | -Name Accounting Standards Codification
+000250 | -Topic 210
+000251 | -SubTopic 10
+000252 | -Section S99
+000253 | -Paragraph 1
+000254 | -Subparagraph (SX 210.5-02.9)
+000255 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000256 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000257 | -Publisher FASB
+000258 | -Name Accounting Standards Codification
+000259 | -Topic 210
+000260 | -SubTopic 10
+000261 | -Section 45
+000262 | -Paragraph 1
+000263 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e6676-107765
+000264 | + Details
+000265 | Name:
+000266 | us-gaap_AssetsCurrent
+000267 | Namespace Prefix:
+000268 | us-gaap_
+000269 | Data Type:
+000270 | xbrli:monetaryItemType
+000271 | Balance Type:
+000272 | debit
+000273 | Period Type:
+000274 | instant
+000275 | X
+000276 | - References
+000277 | No definition available.
+000278 | + Details
+000279 | Name:
+000280 | us-gaap_AssetsCurrentAbstract
+000281 | Namespace Prefix:
+000282 | us-gaap_
+000283 | Data Type:
+000284 | xbrli:stringItemType
+000285 | Balance Type:
+000286 | na
+000287 | Period Type:
+000288 | duration
+000289 | X
+000290 | - Definition
+000291 | Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+000292 | + References
+000293 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000294 | -Publisher FASB
+000295 | -Name Accounting Standards Codification
+000296 | -Topic 230
+000297 | -SubTopic 10
+000298 | -Section 45
+000299 | -Paragraph 4
+000300 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3044-108585
+000301 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000302 | -Publisher FASB
+000303 | -Name Accounting Standards Codification
+000304 | -Topic 210
+000305 | -SubTopic 10
+000306 | -Section 45
+000307 | -Paragraph 1
+000308 | -Subparagraph (a)
+000309 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e6676-107765
+000310 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000311 | -Publisher FASB
+000312 | -Name Accounting Standards Codification
+000313 | -Topic 210
+000314 | -SubTopic 10
+000315 | -Section S99
+000316 | -Paragraph 1
+000317 | -Subparagraph (SX 210.5-02.1)
+000318 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000319 | + Details
+000320 | Name:
+000321 | us-gaap_CashAndCashEquivalentsAtCarryingValue
+000322 | Namespace Prefix:
+000323 | us-gaap_
+000324 | Data Type:
+000325 | xbrli:monetaryItemType
+000326 | Balance Type:
+000327 | debit
+000328 | Period Type:
+000329 | instant
+000330 | X
+000331 | - Definition
+000332 | Amount, after allocation of valuation allowances and deferred tax liability, of deferred tax asset attributable to deductible differences and carryforwards, with jurisdictional netting and classified as noncurrent.
+000333 | + References
+000334 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000335 | -Publisher FASB
+000336 | -Name Accounting Standards Codification
+000337 | -Topic 740
+000338 | -SubTopic 10
+000339 | -Section 45
+000340 | -Paragraph 4
+000341 | -URI http://asc.fasb.org/extlink&oid=84176650&loc=d3e31917-109318
+000342 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000343 | -Publisher FASB
+000344 | -Name Accounting Standards Codification
+000345 | -Topic 740
+000346 | -SubTopic 10
+000347 | -Section 45
+000348 | -Paragraph 6
+000349 | -URI http://asc.fasb.org/extlink&oid=84176650&loc=d3e31931-109318
+000350 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000351 | -Publisher FASB
+000352 | -Name Accounting Standards Codification
+000353 | -Topic 740
+000354 | -SubTopic 10
+000355 | -Section 50
+000356 | -Paragraph 2
+000357 | -URI http://asc.fasb.org/extlink&oid=84230637&loc=d3e32537-109319
+000358 | + Details
+000359 | Name:
+000360 | us-gaap_DeferredTaxAssetsLiabilitiesNetNoncurrent
+000361 | Namespace Prefix:
+000362 | us-gaap_
+000363 | Data Type:
+000364 | xbrli:monetaryItemType
+000365 | Balance Type:
+000366 | debit
+000367 | Period Type:
+000368 | instant
+000369 | X
+000370 | - Definition
+000371 | Amount, after deferred tax asset, of deferred tax liability attributable to taxable differences, with jurisdictional netting and classified as noncurrent.
+000372 | + References
+000373 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000374 | -Publisher FASB
+000375 | -Name Accounting Standards Codification
+000376 | -Topic 740
+000377 | -SubTopic 10
+000378 | -Section 45
+000379 | -Paragraph 9
+000380 | -URI http://asc.fasb.org/extlink&oid=84176650&loc=d3e31958-109318
+000381 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000382 | -Publisher FASB
+000383 | -Name Accounting Standards Codification
+000384 | -Topic 740
+000385 | -SubTopic 10
+000386 | -Section 45
+000387 | -Paragraph 6
+000388 | -URI http://asc.fasb.org/extlink&oid=84176650&loc=d3e31931-109318
+000389 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000390 | -Publisher FASB
+000391 | -Name Accounting Standards Codification
+000392 | -Topic 740
+000393 | -SubTopic 10
+000394 | -Section 45
+000395 | -Paragraph 4
+000396 | -URI http://asc.fasb.org/extlink&oid=84176650&loc=d3e31917-109318
+000397 | + Details
+000398 | Name:
+000399 | us-gaap_DeferredTaxLiabilitiesNoncurrent
+000400 | Namespace Prefix:
+000401 | us-gaap_
+000402 | Data Type:
+000403 | xbrli:monetaryItemType
+000404 | Balance Type:
+000405 | credit
+000406 | Period Type:
+000407 | instant
+000408 | X
+000409 | - Definition
+000410 | The aggregate amount of receivables to be collected from related parties where one party can exercise control or significant influence over another party; including affiliates, owners or officers and their immediate families, pension trusts, and so forth, at the financial statement date. which are usually due within one year (or one business cycle).
+000411 | + References
+000412 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000413 | -Publisher FASB
+000414 | -Name Accounting Standards Codification
+000415 | -Topic 235
+000416 | -SubTopic 10
+000417 | -Section S99
+000418 | -Paragraph 1
+000419 | -Subparagraph (SX 210.4-08(k)(1))
+000420 | -URI http://asc.fasb.org/extlink&oid=26873400&loc=d3e23780-122690
+000421 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000422 | -Publisher FASB
+000423 | -Name Accounting Standards Codification
+000424 | -Topic 210
+000425 | -SubTopic 10
+000426 | -Section S99
+000427 | -Paragraph 1
+000428 | -Subparagraph (SX 210.5-02(11))
+000429 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000430 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000431 | -Publisher FASB
+000432 | -Name Accounting Standards Codification
+000433 | -Topic 210
+000434 | -SubTopic 10
+000435 | -Section S99
+000436 | -Paragraph 1
+000437 | -Subparagraph (SX 210.5-02(3)(a)(2))
+000438 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000439 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000440 | -Publisher FASB
+000441 | -Name Accounting Standards Codification
+000442 | -Topic 210
+000443 | -SubTopic 10
+000444 | -Section 45
+000445 | -Paragraph 1
+000446 | -Subparagraph (d)
+000447 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e6676-107765
+000448 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000449 | -Publisher FASB
+000450 | -Name Accounting Standards Codification
+000451 | -Topic 850
+000452 | -SubTopic 10
+000453 | -Section 50
+000454 | -Paragraph 1
+000455 | -Subparagraph (d)
+000456 | -URI http://asc.fasb.org/extlink&oid=6457730&loc=d3e39549-107864
+000457 | + Details
+000458 | Name:
+000459 | us-gaap_DueFromRelatedPartiesCurrent
+000460 | Namespace Prefix:
+000461 | us-gaap_
+000462 | Data Type:
+000463 | xbrli:monetaryItemType
+000464 | Balance Type:
+000465 | debit
+000466 | Period Type:
+000467 | instant
+000468 | X
+000469 | - Definition
+000470 | Carrying amount as of the balance sheet date of obligations due all related parties. For classified balance sheets, represents the current portion of such liabilities (due within one year or within the normal operating cycle if longer).
+000471 | + References
+000472 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000473 | -Publisher FASB
+000474 | -Name Accounting Standards Codification
+000475 | -Topic 235
+000476 | -SubTopic 10
+000477 | -Section S99
+000478 | -Paragraph 1
+000479 | -Subparagraph (SX 210.4-08.(k)(1))
+000480 | -URI http://asc.fasb.org/extlink&oid=26873400&loc=d3e23780-122690
+000481 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000482 | -Publisher FASB
+000483 | -Name Accounting Standards Codification
+000484 | -Topic 850
+000485 | -SubTopic 10
+000486 | -Section 50
+000487 | -Paragraph 1
+000488 | -Subparagraph (d)
+000489 | -URI http://asc.fasb.org/extlink&oid=6457730&loc=d3e39549-107864
+000490 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000491 | -Publisher FASB
+000492 | -Name Accounting Standards Codification
+000493 | -Topic 210
+000494 | -SubTopic 10
+000495 | -Section S99
+000496 | -Paragraph 1
+000497 | -Subparagraph (SX 210.5-02.19(a))
+000498 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000499 | + Details
+000500 | Name:
+000501 | us-gaap_DueToRelatedPartiesCurrent
+000502 | Namespace Prefix:
+000503 | us-gaap_
+000504 | Data Type:
+000505 | xbrli:monetaryItemType
+000506 | Balance Type:
+000507 | credit
+000508 | Period Type:
+000509 | instant
+000510 | X
+000511 | - Definition
+000512 | Amount after accumulated impairment loss of an asset representing future economic benefits arising from other assets acquired in a business combination that are not individually identified and separately recognized.
+000513 | + References
+000514 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000515 | -Publisher FASB
+000516 | -Name Accounting Standards Codification
+000517 | -Topic 350
+000518 | -SubTopic 20
+000519 | -Section 45
+000520 | -Paragraph 5
+000521 | -URI http://asc.fasb.org/extlink&oid=77989000&loc=SL49117168-202975
+000522 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000523 | -Publisher FASB
+000524 | -Name Accounting Standards Codification
+000525 | -Topic 350
+000526 | -SubTopic 20
+000527 | -Section 45
+000528 | -Paragraph 1
+000529 | -URI http://asc.fasb.org/extlink&oid=99380562&loc=d3e13770-109266
+000530 | + Details
+000531 | Name:
+000532 | us-gaap_Goodwill
+000533 | Namespace Prefix:
+000534 | us-gaap_
+000535 | Data Type:
+000536 | xbrli:monetaryItemType
+000537 | Balance Type:
+000538 | debit
+000539 | Period Type:
+000540 | instant
+000541 | X
+000542 | - Definition
+000543 | Sum of the carrying amounts of all intangible assets, excluding goodwill, as of the balance sheet date, net of accumulated amortization and impairment charges.
+000544 | + References
+000545 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000546 | -Publisher FASB
+000547 | -Name Accounting Standards Codification
+000548 | -Topic 350
+000549 | -SubTopic 30
+000550 | -Section 50
+000551 | -Paragraph 2
+000552 | -Subparagraph ((a)(1),(b))
+000553 | -URI http://asc.fasb.org/extlink&oid=66006027&loc=d3e16323-109275
+000554 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000555 | -Publisher FASB
+000556 | -Name Accounting Standards Codification
+000557 | -Topic 350
+000558 | -SubTopic 30
+000559 | -Section 45
+000560 | -Paragraph 1
+000561 | -URI http://asc.fasb.org/extlink&oid=6388964&loc=d3e16212-109274
+000562 | + Details
+000563 | Name:
+000564 | us-gaap_IntangibleAssetsNetExcludingGoodwill
+000565 | Namespace Prefix:
+000566 | us-gaap_
+000567 | Data Type:
+000568 | xbrli:monetaryItemType
+000569 | Balance Type:
+000570 | debit
+000571 | Period Type:
+000572 | instant
+000573 | X
+000574 | - Definition
+000575 | Amount after valuation and LIFO reserves of inventory expected to be sold, or consumed within one year or operating cycle, if longer.
+000576 | + References
+000577 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000578 | -Publisher FASB
+000579 | -Name Accounting Standards Codification
+000580 | -Topic 210
+000581 | -SubTopic 10
+000582 | -Section 45
+000583 | -Paragraph 1
+000584 | -Subparagraph (b)
+000585 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e6676-107765
+000586 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000587 | -Publisher FASB
+000588 | -Name Accounting Standards Codification
+000589 | -Topic 330
+000590 | -SubTopic 10
+000591 | -Section 35
+000592 | -Paragraph 2
+000593 | -URI http://asc.fasb.org/extlink&oid=68049868&loc=d3e3927-108312
+000594 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000595 | -Publisher FASB
+000596 | -Name Accounting Standards Codification
+000597 | -Topic 210
+000598 | -SubTopic 10
+000599 | -Section S99
+000600 | -Paragraph 1
+000601 | -Subparagraph (SX 210.5-02.6(a))
+000602 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000603 | + Details
+000604 | Name:
+000605 | us-gaap_InventoryNet
+000606 | Namespace Prefix:
+000607 | us-gaap_
+000608 | Data Type:
+000609 | xbrli:monetaryItemType
+000610 | Balance Type:
+000611 | debit
+000612 | Period Type:
+000613 | instant
+000614 | X
+000615 | - Definition
+000616 | Amount of liabilities and equity items, including the portion of equity attributable to noncontrolling interests, if any.
+000617 | + References
+000618 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000619 | -Publisher FASB
+000620 | -Name Accounting Standards Codification
+000621 | -Topic 942
+000622 | -SubTopic 210
+000623 | -Section S99
+000624 | -Paragraph 1
+000625 | -Subparagraph (SX 210.9-03(23))
+000626 | -URI http://asc.fasb.org/extlink&oid=6876686&loc=d3e534808-122878
+000627 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000628 | -Publisher FASB
+000629 | -Name Accounting Standards Codification
+000630 | -Topic 944
+000631 | -SubTopic 210
+000632 | -Section S99
+000633 | -Paragraph 1
+000634 | -Subparagraph (SX 210.7-03(a)(25))
+000635 | -URI http://asc.fasb.org/extlink&oid=6879938&loc=d3e572229-122910
+000636 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000637 | -Publisher FASB
+000638 | -Name Accounting Standards Codification
+000639 | -Topic 210
+000640 | -SubTopic 10
+000641 | -Section S99
+000642 | -Paragraph 1
+000643 | -Subparagraph (SX 210.5-02(32))
+000644 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000645 | + Details
+000646 | Name:
+000647 | us-gaap_LiabilitiesAndStockholdersEquity
+000648 | Namespace Prefix:
+000649 | us-gaap_
+000650 | Data Type:
+000651 | xbrli:monetaryItemType
+000652 | Balance Type:
+000653 | credit
+000654 | Period Type:
+000655 | instant
+000656 | X
+000657 | - Definition
+000658 | Total obligations incurred as part of normal operations that are expected to be paid during the following twelve months or within one business cycle, if longer.
+000659 | + References
+000660 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000661 | -Publisher FASB
+000662 | -Name Accounting Standards Codification
+000663 | -Topic 210
+000664 | -SubTopic 10
+000665 | -Section S99
+000666 | -Paragraph 1
+000667 | -Subparagraph (SX 210.5-02.21)
+000668 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000669 | + Details
+000670 | Name:
+000671 | us-gaap_LiabilitiesCurrent
+000672 | Namespace Prefix:
+000673 | us-gaap_
+000674 | Data Type:
+000675 | xbrli:monetaryItemType
+000676 | Balance Type:
+000677 | credit
+000678 | Period Type:
+000679 | instant
+000680 | X
+000681 | - References
+000682 | No definition available.
+000683 | + Details
+000684 | Name:
+000685 | us-gaap_LiabilitiesCurrentAbstract
+000686 | Namespace Prefix:
+000687 | us-gaap_
+000688 | Data Type:
+000689 | xbrli:stringItemType
+000690 | Balance Type:
+000691 | na
+000692 | Period Type:
+000693 | duration
+000694 | X
+000695 | - Definition
+000696 | Amount of current assets classified as other.
+000697 | + References
+000698 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000699 | -Publisher FASB
+000700 | -Name Accounting Standards Codification
+000701 | -Topic 210
+000702 | -SubTopic 10
+000703 | -Section S99
+000704 | -Paragraph 1
+000705 | -Subparagraph (SX 210.5-02.8)
+000706 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000707 | + Details
+000708 | Name:
+000709 | us-gaap_OtherAssetsCurrent
+000710 | Namespace Prefix:
+000711 | us-gaap_
+000712 | Data Type:
+000713 | xbrli:monetaryItemType
+000714 | Balance Type:
+000715 | debit
+000716 | Period Type:
+000717 | instant
+000718 | X
+000719 | - Definition
+000720 | Amount of noncurrent assets classified as other.
+000721 | + References
+000722 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000723 | -Publisher FASB
+000724 | -Name Accounting Standards Codification
+000725 | -Topic 210
+000726 | -SubTopic 10
+000727 | -Section S99
+000728 | -Paragraph 1
+000729 | -Subparagraph (SX 210.5-02.17)
+000730 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000731 | + Details
+000732 | Name:
+000733 | us-gaap_OtherAssetsNoncurrent
+000734 | Namespace Prefix:
+000735 | us-gaap_
+000736 | Data Type:
+000737 | xbrli:monetaryItemType
+000738 | Balance Type:
+000739 | debit
+000740 | Period Type:
+000741 | instant
+000742 | X
+000743 | - Definition
+000744 | Amount of liabilities classified as other, due after one year or the normal operating cycle, if longer.
+000745 | + References
+000746 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000747 | -Publisher FASB
+000748 | -Name Accounting Standards Codification
+000749 | -Topic 210
+000750 | -SubTopic 10
+000751 | -Section S99
+000752 | -Paragraph 1
+000753 | -Subparagraph (SX 210.5-02.24)
+000754 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000755 | + Details
+000756 | Name:
+000757 | us-gaap_OtherLiabilitiesNoncurrent
+000758 | Namespace Prefix:
+000759 | us-gaap_
+000760 | Data Type:
+000761 | xbrli:monetaryItemType
+000762 | Balance Type:
+000763 | credit
+000764 | Period Type:
+000765 | instant
+000766 | X
+000767 | - Definition
+000768 | Amount after accumulated depreciation, depletion and amortization of physical assets used in the normal conduct of business to produce goods and services and not intended for resale. Examples include, but are not limited to, land, buildings, machinery and equipment, office equipment, and furniture and fixtures.
+000769 | + References
+000770 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000771 | -Publisher FASB
+000772 | -Name Accounting Standards Codification
+000773 | -Topic 210
+000774 | -SubTopic 10
+000775 | -Section S99
+000776 | -Paragraph 1
+000777 | -Subparagraph (SX 210.5-02(14))
+000778 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000779 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000780 | -Publisher FASB
+000781 | -Name Accounting Standards Codification
+000782 | -Topic 360
+000783 | -SubTopic 10
+000784 | -Section 50
+000785 | -Paragraph 1
+000786 | -URI http://asc.fasb.org/extlink&oid=6391035&loc=d3e2868-110229
+000787 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000788 | -Publisher FASB
+000789 | -Name Accounting Standards Codification
+000790 | -Topic 944
+000791 | -SubTopic 210
+000792 | -Section S99
+000793 | -Paragraph 1
+000794 | -Subparagraph (SX 210.7-03(a)(8))
+000795 | -URI http://asc.fasb.org/extlink&oid=6879938&loc=d3e572229-122910
+000796 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000797 | -Publisher FASB
+000798 | -Name Accounting Standards Codification
+000799 | -Topic 210
+000800 | -SubTopic 10
+000801 | -Section S99
+000802 | -Paragraph 1
+000803 | -Subparagraph (SX 210.5-02(13))
+000804 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000805 | + Details
+000806 | Name:
+000807 | us-gaap_PropertyPlantAndEquipmentNet
+000808 | Namespace Prefix:
+000809 | us-gaap_
+000810 | Data Type:
+000811 | xbrli:monetaryItemType
+000812 | Balance Type:
+000813 | debit
+000814 | Period Type:
+000815 | instant
+000816 | X
+000817 | - Definition
+000818 | Total of all stockholders' equity (deficit) items, net of receivables from officers, directors, owners, and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest, minority interest). This excludes temporary equity and is sometimes called permanent equity.
+000819 | + References
+000820 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000821 | -Publisher FASB
+000822 | -Name Accounting Standards Codification
+000823 | -Topic 310
+000824 | -SubTopic 10
+000825 | -Section S99
+000826 | -Paragraph 2
+000827 | -Subparagraph (SAB Topic 4.E)
+000828 | -URI http://asc.fasb.org/extlink&oid=27010918&loc=d3e74512-122707
+000829 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000830 | -Publisher FASB
+000831 | -Name Accounting Standards Codification
+000832 | -Topic 210
+000833 | -SubTopic 10
+000834 | -Section S99
+000835 | -Paragraph 1
+000836 | -Subparagraph (SX 210.5-02(31))
+000837 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000838 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000839 | -Publisher FASB
+000840 | -Name Accounting Standards Codification
+000841 | -Topic 210
+000842 | -SubTopic 10
+000843 | -Section S99
+000844 | -Paragraph 1
+000845 | -Subparagraph (SX 210.5-02(29))
+000846 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000847 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000848 | -Publisher FASB
+000849 | -Name Accounting Standards Codification
+000850 | -Topic 210
+000851 | -SubTopic 10
+000852 | -Section S99
+000853 | -Paragraph 1
+000854 | -Subparagraph (SX 210.5-02(30))
+000855 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000856 | + Details
+000857 | Name:
+000858 | us-gaap_StockholdersEquity
+000859 | Namespace Prefix:
+000860 | us-gaap_
+000861 | Data Type:
+000862 | xbrli:monetaryItemType
+000863 | Balance Type:
+000864 | credit
+000865 | Period Type:
+000866 | instant
+000867 | X
+000868 | - References
+000869 | No definition available.
+000870 | + Details
+000871 | Name:
+000872 | us-gaap_StockholdersEquityAbstract
+000873 | Namespace Prefix:
+000874 | us-gaap_
+000875 | Data Type:
+000876 | xbrli:stringItemType
+000877 | Balance Type:
+000878 | na
+000879 | Period Type:
+000880 | duration

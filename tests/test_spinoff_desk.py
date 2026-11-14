@@ -56,6 +56,27 @@ class SpinoffDeskTests(unittest.TestCase):
         result = research_errors(Research(claims=[claim], gaps=[]), {'10-Q': 'Evidence.', 'EX-99.1': ''})
         self.assertFalse(any('invalid or non-verbatim' in issue for issue in result))
 
+    def test_earnings_exhibit_99_is_used_only_when_filing_names_it(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.desk.folder = Mock(return_value=Path(tmp))
+            self.desk.save_json = Mock()
+            self.desk.downloads = {}
+            filings = {
+                '10-K': {'accessionNumber': 'k', 'documents': [{'type': '10-K', 'url': 'https://sec.example/k'}]},
+                '10-Q': {'accessionNumber': 'q', 'documents': [{'type': '10-Q', 'url': 'https://sec.example/q'}]},
+                '8-K': {'accessionNumber': 'e', 'index_url': 'https://sec.example/index',
+                        'documents': [{'type': '8-K', 'url': 'https://sec.example/e'},
+                                      {'type': 'EX-99', 'url': 'https://sec.example/exhibit99'}]},
+            }
+            self.desk.choose_filings = Mock(return_value=filings)
+            self.desk.filing_text['8-K'] = 'Item 2.02. The earnings release is Exhibit 99.'
+            self.desk.download_documents()
+            self.assertEqual(filings['8-K']['selected_earnings_exhibit_type'], 'EX-99')
+            self.assertEqual(self.desk.downloads['EX-99.1'], 'https://sec.example/exhibit99')
+            self.desk.filing_text['8-K'] = 'Item 2.02. An exhibit is attached.'
+            with self.assertRaisesRegex(ValueError, 'Exhibit'):
+                self.desk.download_documents()
+
 
 if __name__ == '__main__':
     unittest.main()

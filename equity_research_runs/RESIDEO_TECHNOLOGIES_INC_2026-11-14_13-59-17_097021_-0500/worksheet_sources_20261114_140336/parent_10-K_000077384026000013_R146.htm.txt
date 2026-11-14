@@ -1,0 +1,397 @@
+000001 | v3.25.4
+000002 | GEOGRAPHIC AREAS - FINANCIAL DATA (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 12 Months Ended
+000006 | Dec. 31, 2025
+000007 | Sep. 30, 2025
+000008 | Jun. 30, 2025
+000009 | Mar. 31, 2025
+000010 | Dec. 31, 2024
+000011 | Sep. 30, 2024
+000012 | Jun. 30, 2024
+000013 | Mar. 31, 2024
+000014 | Dec. 31, 2025
+000015 | Dec. 31, 2024
+000016 | Dec. 31, 2023
+000017 | Revenues from External Customers and Long-Lived Assets [Line Items]
+000018 | Net sales
+000019 | $ 9,758
+000020 | $ 9,437
+000021 | $ 9,322
+000022 | $ 8,925
+000023 | $ 9,169
+000024 | $ 8,819
+000025 | $ 8,572
+000026 | $ 8,157
+000027 | $ 37,442
+000028 | $ 34,717
+000029 | $ 33,009
+000030 | Long-lived Assets
+000031 | 4,628
+000032 | 4,457
+000033 | 4,628
+000034 | 4,457
+000035 | 4,031
+000036 | Disposal Group, Held-for-Sale, Not Discontinued Operations | Productivity Solutions and Services and Warehouse Workflow Solutions Businesses
+000037 | Revenues from External Customers and Long-Lived Assets [Line Items]
+000038 | Property, plant and equipment—net
+000039 | 153
+000040 | 153
+000041 | Disposal Group, Held-for-Sale, Not Discontinued Operations | Personal Protective Equipment Business
+000042 | Revenues from External Customers and Long-Lived Assets [Line Items]
+000043 | Property, plant and equipment—net
+000044 | 155
+000045 | 155
+000046 | United States
+000047 | Revenues from External Customers and Long-Lived Assets [Line Items]
+000048 | Net sales
+000049 | 21,784
+000050 | 19,531
+000051 | 18,697
+000052 | Long-lived Assets
+000053 | 3,192
+000054 | 3,139
+000055 | 3,192
+000056 | 3,139
+000057 | 2,660
+000058 | Export sales included in United States net sales
+000059 | 7,895
+000060 | 4,760
+000061 | 4,134
+000062 | Europe
+000063 | Revenues from External Customers and Long-Lived Assets [Line Items]
+000064 | Net sales
+000065 | 8,112
+000066 | 7,963
+000067 | 7,265
+000068 | Long-lived Assets
+000069 | 484
+000070 | 415
+000071 | 484
+000072 | 415
+000073 | 439
+000074 | Other international
+000075 | Revenues from External Customers and Long-Lived Assets [Line Items]
+000076 | Net sales
+000077 | 7,546
+000078 | 7,223
+000079 | 7,047
+000080 | Long-lived Assets
+000081 | $ 952
+000082 | $ 903
+000083 | $ 952
+000084 | $ 903
+000085 | $ 932
+000086 | X
+000087 | - Definition
+000088 | Export Sales originating in the United States
+000089 | + References
+000090 | No definition available.
+000091 | + Details
+000092 | Name:
+000093 | hon_ExportSalesIncludedInNetSalesOfUnitedStates
+000094 | Namespace Prefix:
+000095 | hon_
+000096 | Data Type:
+000097 | xbrli:monetaryItemType
+000098 | Balance Type:
+000099 | credit
+000100 | Period Type:
+000101 | duration
+000102 | X
+000103 | - Definition
+000104 | Amount classified as property, plant and equipment attributable to disposal group held for sale or disposed of.
+000105 | + References
+000106 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000107 | -Name Accounting Standards Codification
+000108 | -Section 45
+000109 | -Paragraph 10
+000110 | -SubTopic 20
+000111 | -Topic 205
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+000114 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000115 | -Topic 205
+000116 | -SubTopic 20
+000117 | -Name Accounting Standards Codification
+000118 | -Section 50
+000119 | -Paragraph 5B
+000120 | -Subparagraph (e)
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000123 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000124 | -Topic 360
+000125 | -SubTopic 10
+000126 | -Name Accounting Standards Codification
+000127 | -Section 50
+000128 | -Paragraph 3
+000129 | -Subparagraph (e)
+000130 | -Publisher FASB
+000131 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000132 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000133 | -Topic 205
+000134 | -SubTopic 20
+000135 | -Name Accounting Standards Codification
+000136 | -Section 45
+000137 | -Paragraph 11
+000138 | -Publisher FASB
+000139 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000140 | + Details
+000141 | Name:
+000142 | us-gaap_DisposalGroupIncludingDiscontinuedOperationPropertyPlantAndEquipment
+000143 | Namespace Prefix:
+000144 | us-gaap_
+000145 | Data Type:
+000146 | xbrli:monetaryItemType
+000147 | Balance Type:
+000148 | debit
+000149 | Period Type:
+000150 | instant
+000151 | X
+000152 | - Definition
+000153 | Long-lived assets other than financial instruments, long-term customer relationships of a financial institution, mortgage and other servicing rights, deferred policy acquisition costs, and deferred tax assets.
+000154 | + References
+000155 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000156 | -Topic 280
+000157 | -SubTopic 10
+000158 | -Name Accounting Standards Codification
+000159 | -Section 50
+000160 | -Paragraph 41
+000161 | -Subparagraph (b)
+000162 | -Publisher FASB
+000163 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-41
+000164 | + Details
+000165 | Name:
+000166 | us-gaap_NoncurrentAssets
+000167 | Namespace Prefix:
+000168 | us-gaap_
+000169 | Data Type:
+000170 | xbrli:monetaryItemType
+000171 | Balance Type:
+000172 | debit
+000173 | Period Type:
+000174 | instant
+000175 | X
+000176 | - Definition
+000177 | Amount, excluding tax collected from customer, of revenue from satisfaction of performance obligation by transferring promised good or service to customer. Tax collected from customer is tax assessed by governmental authority that is both imposed on and concurrent with specific revenue-producing transaction, including, but not limited to, sales, use, value added and excise.
+000178 | + References
+000179 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000180 | -Topic 220
+000181 | -SubTopic 40
+000182 | -Name Accounting Standards Codification
+000183 | -Section 55
+000184 | -Paragraph 4
+000185 | -Publisher FASB
+000186 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-4
+000187 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000188 | -Topic 220
+000189 | -SubTopic 40
+000190 | -Name Accounting Standards Codification
+000191 | -Section 55
+000192 | -Paragraph 14
+000193 | -Publisher FASB
+000194 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-14
+000195 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000196 | -Topic 280
+000197 | -SubTopic 10
+000198 | -Name Accounting Standards Codification
+000199 | -Section 50
+000200 | -Paragraph 41
+000201 | -Subparagraph (a)
+000202 | -Publisher FASB
+000203 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-41
+000204 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000205 | -Topic 280
+000206 | -SubTopic 10
+000207 | -Name Accounting Standards Codification
+000208 | -Section 50
+000209 | -Paragraph 42
+000210 | -Publisher FASB
+000211 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-42
+000212 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000213 | -Topic 606
+000214 | -SubTopic 10
+000215 | -Name Accounting Standards Codification
+000216 | -Section 50
+000217 | -Paragraph 7
+000218 | -Publisher FASB
+000219 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-7
+000220 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000221 | -Topic 270
+000222 | -SubTopic 10
+000223 | -Name Accounting Standards Codification
+000224 | -Section 50
+000225 | -Paragraph 1
+000226 | -Subparagraph (i)
+000227 | -Publisher FASB
+000228 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000229 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000230 | -Topic 280
+000231 | -SubTopic 10
+000232 | -Name Accounting Standards Codification
+000233 | -Section 50
+000234 | -Paragraph 32
+000235 | -Subparagraph (ee)
+000236 | -Publisher FASB
+000237 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000238 | Reference 8: http://fasb.org/us-gaap/role/ref/otherTransitionRef
+000239 | -Topic 280
+000240 | -SubTopic 10
+000241 | -Name Accounting Standards Codification
+000242 | -Section 50
+000243 | -Paragraph 32
+000244 | -Subparagraph (b)
+000245 | -Publisher FASB
+000246 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000247 | Reference 9: http://fasb.org/us-gaap/role/ref/otherTransitionRef
+000248 | -Topic 280
+000249 | -SubTopic 10
+000250 | -Name Accounting Standards Codification
+000251 | -Section 50
+000252 | -Paragraph 32
+000253 | -Subparagraph (a)
+000254 | -Publisher FASB
+000255 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000256 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000257 | -Topic 924
+000258 | -SubTopic 10
+000259 | -Name Accounting Standards Codification
+000260 | -Section S99
+000261 | -Paragraph 1
+000262 | -Subparagraph (SAB Topic 11.L)
+000263 | -Publisher FASB
+000264 | -URI https://asc.fasb.org/1943274/2147479941/924-10-S99-1
+000265 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000266 | -Topic 606
+000267 | -SubTopic 10
+000268 | -Name Accounting Standards Codification
+000269 | -Section 50
+000270 | -Paragraph 5
+000271 | -Publisher FASB
+000272 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-5
+000273 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000274 | -Topic 280
+000275 | -SubTopic 10
+000276 | -Name Accounting Standards Codification
+000277 | -Section 50
+000278 | -Paragraph 30
+000279 | -Subparagraph (a)
+000280 | -Publisher FASB
+000281 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000282 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000283 | -Topic 280
+000284 | -SubTopic 10
+000285 | -Name Accounting Standards Codification
+000286 | -Section 50
+000287 | -Paragraph 22
+000288 | -Subparagraph (b)
+000289 | -Publisher FASB
+000290 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000291 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000292 | -Topic 280
+000293 | -SubTopic 10
+000294 | -Name Accounting Standards Codification
+000295 | -Section 50
+000296 | -Paragraph 40
+000297 | -Publisher FASB
+000298 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-40
+000299 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000300 | -Topic 280
+000301 | -SubTopic 10
+000302 | -Name Accounting Standards Codification
+000303 | -Section 50
+000304 | -Paragraph 22
+000305 | -Subparagraph (a)
+000306 | -Publisher FASB
+000307 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000308 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000309 | -Topic 606
+000310 | -SubTopic 10
+000311 | -Name Accounting Standards Codification
+000312 | -Section 50
+000313 | -Paragraph 4
+000314 | -Subparagraph (a)
+000315 | -Publisher FASB
+000316 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-4
+000317 | + Details
+000318 | Name:
+000319 | us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+000320 | Namespace Prefix:
+000321 | us-gaap_
+000322 | Data Type:
+000323 | xbrli:monetaryItemType
+000324 | Balance Type:
+000325 | credit
+000326 | Period Type:
+000327 | duration
+000328 | X
+000329 | - Definition
+000330 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000331 | + References
+000332 | No definition available.
+000333 | + Details
+000334 | Name:
+000335 | us-gaap_RevenuesFromExternalCustomersAndLongLivedAssetsLineItems
+000336 | Namespace Prefix:
+000337 | us-gaap_
+000338 | Data Type:
+000339 | xbrli:stringItemType
+000340 | Balance Type:
+000341 | na
+000342 | Period Type:
+000343 | duration
+000344 | X
+000345 | - Details
+000346 | Name:
+000347 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+000348 | Namespace Prefix:
+000349 | Data Type:
+000350 | na
+000351 | Balance Type:
+000352 | Period Type:
+000353 | X
+000354 | - Details
+000355 | Name:
+000356 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=hon_ProductivitySolutionsAndServicesAndWarehouseWorkflowSolutionsBusinessesMember
+000357 | Namespace Prefix:
+000358 | Data Type:
+000359 | na
+000360 | Balance Type:
+000361 | Period Type:
+000362 | X
+000363 | - Details
+000364 | Name:
+000365 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=hon_PersonalProtectiveEquipmentBusinessMember
+000366 | Namespace Prefix:
+000367 | Data Type:
+000368 | na
+000369 | Balance Type:
+000370 | Period Type:
+000371 | X
+000372 | - Details
+000373 | Name:
+000374 | srt_StatementGeographicalAxis=country_US
+000375 | Namespace Prefix:
+000376 | Data Type:
+000377 | na
+000378 | Balance Type:
+000379 | Period Type:
+000380 | X
+000381 | - Details
+000382 | Name:
+000383 | srt_StatementGeographicalAxis=srt_EuropeMember
+000384 | Namespace Prefix:
+000385 | Data Type:
+000386 | na
+000387 | Balance Type:
+000388 | Period Type:
+000389 | X
+000390 | - Details
+000391 | Name:
+000392 | srt_StatementGeographicalAxis=hon_OtherInternationalMember
+000393 | Namespace Prefix:
+000394 | Data Type:
+000395 | na
+000396 | Balance Type:
+000397 | Period Type:

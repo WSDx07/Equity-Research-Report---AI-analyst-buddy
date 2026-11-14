@@ -1,0 +1,35 @@
+{
+  "research_issues": [
+    "Claim 6 has an invalid or non‑verbatim document line and quote.",
+    "Claim 9 has an invalid or non‑verbatim document line and quote.",
+    "Claim 13 has an invalid or non‑verbatim document line and quote.",
+    "No Insight line was supplied for the Research role.",
+    "Research Insight is missing; therefore the five required sections (Overview, Market Positioning and Growth Outlook, Valuation Insights, Future Developments and Strategic Recommendations, Investment Recommendation) are incomplete."
+  ],
+  "financial_issues": [
+    "Insight needs a filing reference, line number, and exact quote from that line.",
+    "Financial observations contain raw digits instead of a properly cited insight.",
+    "Financial Insight is missing; the Valuation Insights section is incomplete."
+  ],
+  "advisor_issues": [
+    "Insight needs a filing reference, line number, and exact quote from that line.",
+    "Advisor Insight is missing; the Investment Recommendation section is incomplete."
+  ],
+  "overall_issues": [
+    "The research, financial and advisor deliverables lack the required Insight statements with proper citations.",
+    "All five report sections are currently absent or incomplete across the three specialist outputs.",
+    "Multiple claim citations (6, 9, 13) are malformed or do not match the source document verbatim."
+  ],
+  "research_insight": {
+    "status": "fail",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "fail",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

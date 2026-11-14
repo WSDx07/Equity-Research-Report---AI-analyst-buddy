@@ -1,0 +1,596 @@
+000001 | v3.25.4
+000002 | INCOME TAXES - Tax Expense (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Current
+000009 | U.S. Federal
+000010 | $ 49
+000011 | $ 478
+000012 | $ 13
+000013 | U.S. State
+000014 | 27
+000015 | 57
+000016 | 22
+000017 | Non-U.S.
+000018 | 914
+000019 | 943
+000020 | 1,038
+000021 | Total current tax expense
+000022 | 990
+000023 | 1,478
+000024 | 1,073
+000025 | Deferred
+000026 | U.S. Federal
+000027 | 10
+000028 | (209)
+000029 | 58
+000030 | U.S. State
+000031 | (54)
+000032 | (23)
+000033 | 17
+000034 | Non-U.S.
+000035 | 62
+000036 | 3
+000037 | 114
+000038 | Total deferred tax expense (benefit)
+000039 | 18
+000040 | (229)
+000041 | 189
+000042 | Tax expense
+000043 | $ 1,008
+000044 | $ 1,249
+000045 | $ 1,262
+000046 | X
+000047 | - Definition
+000048 | Amount of current federal tax expense (benefit) attributable to income (loss) from continuing operations. Includes, but is not limited to, current national tax expense (benefit) for non-US (United States of America) jurisdiction.
+000049 | + References
+000050 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000051 | -Topic 235
+000052 | -SubTopic 10
+000053 | -Name Accounting Standards Codification
+000054 | -Section S50
+000055 | -Paragraph 1
+000056 | -Publisher FASB
+000057 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000058 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000059 | -Topic 740
+000060 | -SubTopic 10
+000061 | -Name Accounting Standards Codification
+000062 | -Section S99
+000063 | -Paragraph 1
+000064 | -Subparagraph (SAB Topic 6.I.7)
+000065 | -Publisher FASB
+000066 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-1
+000067 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000068 | -Topic 235
+000069 | -SubTopic 10
+000070 | -Name Accounting Standards Codification
+000071 | -Section S99
+000072 | -Paragraph 1
+000073 | -Subparagraph (SX 210.4-08(h)(1)(Note 1))
+000074 | -Publisher FASB
+000075 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000076 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000077 | -Name Accounting Standards Codification
+000078 | -Section 50
+000079 | -Paragraph 9
+000080 | -Subparagraph (a)
+000081 | -SubTopic 10
+000082 | -Topic 740
+000083 | -Publisher FASB
+000084 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9
+000085 | + Details
+000086 | Name:
+000087 | us-gaap_CurrentFederalTaxExpenseBenefit
+000088 | Namespace Prefix:
+000089 | us-gaap_
+000090 | Data Type:
+000091 | xbrli:monetaryItemType
+000092 | Balance Type:
+000093 | debit
+000094 | Period Type:
+000095 | duration
+000096 | X
+000097 | - Definition
+000098 | Amount of current foreign income tax expense (benefit) pertaining to income (loss) from continuing operations.
+000099 | + References
+000100 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000101 | -Topic 235
+000102 | -SubTopic 10
+000103 | -Name Accounting Standards Codification
+000104 | -Section S50
+000105 | -Paragraph 1
+000106 | -Publisher FASB
+000107 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000108 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000109 | -Topic 235
+000110 | -SubTopic 10
+000111 | -Name Accounting Standards Codification
+000112 | -Section S99
+000113 | -Paragraph 1
+000114 | -Subparagraph (SX 210.4-08(h)(1)(Note 1))
+000115 | -Publisher FASB
+000116 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000117 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000118 | -Name Accounting Standards Codification
+000119 | -Section 50
+000120 | -Paragraph 9
+000121 | -Subparagraph (a)
+000122 | -SubTopic 10
+000123 | -Topic 740
+000124 | -Publisher FASB
+000125 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9
+000126 | + Details
+000127 | Name:
+000128 | us-gaap_CurrentForeignTaxExpenseBenefit
+000129 | Namespace Prefix:
+000130 | us-gaap_
+000131 | Data Type:
+000132 | xbrli:monetaryItemType
+000133 | Balance Type:
+000134 | debit
+000135 | Period Type:
+000136 | duration
+000137 | X
+000138 | - Definition
+000139 | Amount of current income tax expense (benefit) pertaining to taxable income (loss) from continuing operations.
+000140 | + References
+000141 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000142 | -Topic 235
+000143 | -SubTopic 10
+000144 | -Name Accounting Standards Codification
+000145 | -Section S50
+000146 | -Paragraph 1
+000147 | -Publisher FASB
+000148 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000149 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000150 | -Topic 235
+000151 | -SubTopic 10
+000152 | -Name Accounting Standards Codification
+000153 | -Section S99
+000154 | -Paragraph 1
+000155 | -Subparagraph (SX 210.4-08(h)(1)(Note 1))
+000156 | -Publisher FASB
+000157 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000158 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000159 | -Topic 740
+000160 | -SubTopic 10
+000161 | -Name Accounting Standards Codification
+000162 | -Section 50
+000163 | -Paragraph 9
+000164 | -Subparagraph (a)
+000165 | -Publisher FASB
+000166 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9
+000167 | + Details
+000168 | Name:
+000169 | us-gaap_CurrentIncomeTaxExpenseBenefit
+000170 | Namespace Prefix:
+000171 | us-gaap_
+000172 | Data Type:
+000173 | xbrli:monetaryItemType
+000174 | Balance Type:
+000175 | debit
+000176 | Period Type:
+000177 | duration
+000178 | X
+000179 | - References
+000180 | No definition available.
+000181 | + Details
+000182 | Name:
+000183 | us-gaap_CurrentIncomeTaxExpenseBenefitContinuingOperationsAbstract
+000184 | Namespace Prefix:
+000185 | us-gaap_
+000186 | Data Type:
+000187 | xbrli:stringItemType
+000188 | Balance Type:
+000189 | na
+000190 | Period Type:
+000191 | duration
+000192 | X
+000193 | - Definition
+000194 | Amount of current state and local tax expense (benefit) attributable to income (loss) from continuing operations. Includes, but is not limited to, current regional, territorial, and provincial tax expense (benefit) for non-US (United States of America) jurisdiction.
+000195 | + References
+000196 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000197 | -Topic 235
+000198 | -SubTopic 10
+000199 | -Name Accounting Standards Codification
+000200 | -Section S50
+000201 | -Paragraph 1
+000202 | -Publisher FASB
+000203 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000204 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000205 | -Topic 740
+000206 | -SubTopic 10
+000207 | -Name Accounting Standards Codification
+000208 | -Section S99
+000209 | -Paragraph 1
+000210 | -Subparagraph (SAB Topic 6.I.7)
+000211 | -Publisher FASB
+000212 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-1
+000213 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000214 | -Topic 235
+000215 | -SubTopic 10
+000216 | -Name Accounting Standards Codification
+000217 | -Section S99
+000218 | -Paragraph 1
+000219 | -Subparagraph (SX 210.4-08(h)(1)(Note 1))
+000220 | -Publisher FASB
+000221 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000222 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000223 | -Name Accounting Standards Codification
+000224 | -Section 50
+000225 | -Paragraph 9
+000226 | -Subparagraph (a)
+000227 | -SubTopic 10
+000228 | -Topic 740
+000229 | -Publisher FASB
+000230 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9
+000231 | + Details
+000232 | Name:
+000233 | us-gaap_CurrentStateAndLocalTaxExpenseBenefit
+000234 | Namespace Prefix:
+000235 | us-gaap_
+000236 | Data Type:
+000237 | xbrli:monetaryItemType
+000238 | Balance Type:
+000239 | debit
+000240 | Period Type:
+000241 | duration
+000242 | X
+000243 | - Definition
+000244 | Amount of deferred federal tax expense (benefit) attributable to income (loss) from continuing operations. Includes, but is not limited to, deferred national tax expense (benefit) for non-US (United States of America) jurisdiction.
+000245 | + References
+000246 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000247 | -Topic 235
+000248 | -SubTopic 10
+000249 | -Name Accounting Standards Codification
+000250 | -Section S50
+000251 | -Paragraph 1
+000252 | -Publisher FASB
+000253 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000254 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000255 | -Topic 740
+000256 | -SubTopic 10
+000257 | -Name Accounting Standards Codification
+000258 | -Section S99
+000259 | -Paragraph 1
+000260 | -Subparagraph (SAB Topic 6.I.7)
+000261 | -Publisher FASB
+000262 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-1
+000263 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000264 | -Topic 235
+000265 | -SubTopic 10
+000266 | -Name Accounting Standards Codification
+000267 | -Section S99
+000268 | -Paragraph 1
+000269 | -Subparagraph (SX 210.4-08(h)(1)(Note 1))
+000270 | -Publisher FASB
+000271 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000272 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000273 | -Topic 740
+000274 | -SubTopic 10
+000275 | -Name Accounting Standards Codification
+000276 | -Section 50
+000277 | -Paragraph 9
+000278 | -Subparagraph (b)
+000279 | -Publisher FASB
+000280 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9
+000281 | + Details
+000282 | Name:
+000283 | us-gaap_DeferredFederalIncomeTaxExpenseBenefit
+000284 | Namespace Prefix:
+000285 | us-gaap_
+000286 | Data Type:
+000287 | xbrli:monetaryItemType
+000288 | Balance Type:
+000289 | debit
+000290 | Period Type:
+000291 | duration
+000292 | X
+000293 | - Definition
+000294 | Amount of deferred foreign income tax expense (benefit) pertaining to income (loss) from continuing operations.
+000295 | + References
+000296 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000297 | -Topic 235
+000298 | -SubTopic 10
+000299 | -Name Accounting Standards Codification
+000300 | -Section S50
+000301 | -Paragraph 1
+000302 | -Publisher FASB
+000303 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000304 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000305 | -Topic 235
+000306 | -SubTopic 10
+000307 | -Name Accounting Standards Codification
+000308 | -Section S99
+000309 | -Paragraph 1
+000310 | -Subparagraph (SX 210.4-08(h)(1)(Note 1))
+000311 | -Publisher FASB
+000312 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000313 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000314 | -Topic 740
+000315 | -SubTopic 10
+000316 | -Name Accounting Standards Codification
+000317 | -Section 50
+000318 | -Paragraph 9
+000319 | -Subparagraph (b)
+000320 | -Publisher FASB
+000321 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9
+000322 | + Details
+000323 | Name:
+000324 | us-gaap_DeferredForeignIncomeTaxExpenseBenefit
+000325 | Namespace Prefix:
+000326 | us-gaap_
+000327 | Data Type:
+000328 | xbrli:monetaryItemType
+000329 | Balance Type:
+000330 | debit
+000331 | Period Type:
+000332 | duration
+000333 | X
+000334 | - Definition
+000335 | Amount of deferred income tax expense (benefit) pertaining to income (loss) from continuing operations.
+000336 | + References
+000337 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000338 | -Name Accounting Standards Codification
+000339 | -Section 45
+000340 | -Paragraph 28
+000341 | -Subparagraph (b)
+000342 | -SubTopic 10
+000343 | -Topic 230
+000344 | -Publisher FASB
+000345 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000346 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000347 | -Topic 235
+000348 | -SubTopic 10
+000349 | -Name Accounting Standards Codification
+000350 | -Section S50
+000351 | -Paragraph 1
+000352 | -Publisher FASB
+000353 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000354 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000355 | -Topic 235
+000356 | -SubTopic 10
+000357 | -Name Accounting Standards Codification
+000358 | -Section S99
+000359 | -Paragraph 1
+000360 | -Subparagraph (SX 210.4-08(h)(1)(Note 1))
+000361 | -Publisher FASB
+000362 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000363 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000364 | -Name Accounting Standards Codification
+000365 | -Section 50
+000366 | -Paragraph 9
+000367 | -Subparagraph (b)
+000368 | -SubTopic 10
+000369 | -Topic 740
+000370 | -Publisher FASB
+000371 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9
+000372 | + Details
+000373 | Name:
+000374 | us-gaap_DeferredIncomeTaxExpenseBenefit
+000375 | Namespace Prefix:
+000376 | us-gaap_
+000377 | Data Type:
+000378 | xbrli:monetaryItemType
+000379 | Balance Type:
+000380 | debit
+000381 | Period Type:
+000382 | duration
+000383 | X
+000384 | - References
+000385 | No definition available.
+000386 | + Details
+000387 | Name:
+000388 | us-gaap_DeferredIncomeTaxExpenseBenefitContinuingOperationsAbstract
+000389 | Namespace Prefix:
+000390 | us-gaap_
+000391 | Data Type:
+000392 | xbrli:stringItemType
+000393 | Balance Type:
+000394 | na
+000395 | Period Type:
+000396 | duration
+000397 | X
+000398 | - Definition
+000399 | Amount of deferred state and local tax expense (benefit) attributable to income (loss) from continuing operations. Includes, but is not limited to, deferred regional, territorial, and provincial tax expense (benefit) for non-US (United States of America) jurisdiction.
+000400 | + References
+000401 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000402 | -Topic 235
+000403 | -SubTopic 10
+000404 | -Name Accounting Standards Codification
+000405 | -Section S50
+000406 | -Paragraph 1
+000407 | -Publisher FASB
+000408 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000409 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000410 | -Topic 740
+000411 | -SubTopic 10
+000412 | -Name Accounting Standards Codification
+000413 | -Section S99
+000414 | -Paragraph 1
+000415 | -Subparagraph (SAB Topic 6.I.7)
+000416 | -Publisher FASB
+000417 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-1
+000418 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000419 | -Topic 235
+000420 | -SubTopic 10
+000421 | -Name Accounting Standards Codification
+000422 | -Section S99
+000423 | -Paragraph 1
+000424 | -Subparagraph (SX 210.4-08(h)(1)(Note 1))
+000425 | -Publisher FASB
+000426 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000427 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000428 | -Topic 740
+000429 | -SubTopic 10
+000430 | -Name Accounting Standards Codification
+000431 | -Section 50
+000432 | -Paragraph 9
+000433 | -Subparagraph (b)
+000434 | -Publisher FASB
+000435 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-9
+000436 | + Details
+000437 | Name:
+000438 | us-gaap_DeferredStateAndLocalIncomeTaxExpenseBenefit
+000439 | Namespace Prefix:
+000440 | us-gaap_
+000441 | Data Type:
+000442 | xbrli:monetaryItemType
+000443 | Balance Type:
+000444 | debit
+000445 | Period Type:
+000446 | duration
+000447 | X
+000448 | - Definition
+000449 | Amount of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining to continuing operations.
+000450 | + References
+000451 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000452 | -Topic 220
+000453 | -SubTopic 40
+000454 | -Name Accounting Standards Codification
+000455 | -Section 55
+000456 | -Paragraph 4
+000457 | -Publisher FASB
+000458 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-4
+000459 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000460 | -Topic 220
+000461 | -SubTopic 40
+000462 | -Name Accounting Standards Codification
+000463 | -Section 55
+000464 | -Paragraph 21
+000465 | -Publisher FASB
+000466 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-21
+000467 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000468 | -Topic 220
+000469 | -SubTopic 40
+000470 | -Name Accounting Standards Codification
+000471 | -Section 55
+000472 | -Paragraph 14
+000473 | -Publisher FASB
+000474 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-14
+000475 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000476 | -Topic 235
+000477 | -SubTopic 10
+000478 | -Name Accounting Standards Codification
+000479 | -Section S50
+000480 | -Paragraph 1
+000481 | -Publisher FASB
+000482 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000483 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000484 | -Topic 270
+000485 | -SubTopic 10
+000486 | -Name Accounting Standards Codification
+000487 | -Section 50
+000488 | -Paragraph 1
+000489 | -Subparagraph (i)
+000490 | -Publisher FASB
+000491 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000492 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000493 | -Topic 280
+000494 | -SubTopic 10
+000495 | -Name Accounting Standards Codification
+000496 | -Section 50
+000497 | -Paragraph 32
+000498 | -Subparagraph (ee)
+000499 | -Publisher FASB
+000500 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000501 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000502 | -Topic 740
+000503 | -SubTopic 10
+000504 | -Name Accounting Standards Codification
+000505 | -Section 50
+000506 | -Paragraph 12
+000507 | -Publisher FASB
+000508 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000509 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+000510 | -Topic 740
+000511 | -SubTopic 10
+000512 | -Name Accounting Standards Codification
+000513 | -Section 55
+000514 | -Paragraph 231
+000515 | -Publisher FASB
+000516 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000517 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000518 | -Topic 250
+000519 | -SubTopic 10
+000520 | -Name Accounting Standards Codification
+000521 | -Section 50
+000522 | -Paragraph 9
+000523 | -Publisher FASB
+000524 | -URI https://asc.fasb.org/1943274/2147483443/250-10-50-9
+000525 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000526 | -Topic 740
+000527 | -SubTopic 10
+000528 | -Name Accounting Standards Codification
+000529 | -Section S99
+000530 | -Paragraph 1
+000531 | -Subparagraph (SAB Topic 6.I.7)
+000532 | -Publisher FASB
+000533 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-1
+000534 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000535 | -Topic 250
+000536 | -SubTopic 10
+000537 | -Name Accounting Standards Codification
+000538 | -Section 50
+000539 | -Paragraph 8
+000540 | -Publisher FASB
+000541 | -URI https://asc.fasb.org/1943274/2147483443/250-10-50-8
+000542 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000543 | -Topic 740
+000544 | -SubTopic 10
+000545 | -Name Accounting Standards Codification
+000546 | -Section 50
+000547 | -Paragraph 10
+000548 | -Publisher FASB
+000549 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-10
+000550 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000551 | -Topic 280
+000552 | -SubTopic 10
+000553 | -Name Accounting Standards Codification
+000554 | -Section 50
+000555 | -Paragraph 22
+000556 | -Subparagraph (h)
+000557 | -Publisher FASB
+000558 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000559 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000560 | -Topic 944
+000561 | -SubTopic 220
+000562 | -Name Accounting Standards Codification
+000563 | -Section S99
+000564 | -Paragraph 1
+000565 | -Subparagraph (SX 210.7-04(9))
+000566 | -Publisher FASB
+000567 | -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1
+000568 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000569 | -Name Accounting Standards Codification
+000570 | -Section 45
+000571 | -Paragraph 2
+000572 | -Subparagraph (a)
+000573 | -SubTopic 20
+000574 | -Topic 740
+000575 | -Publisher FASB
+000576 | -URI https://asc.fasb.org/1943274/2147482659/740-20-45-2
+000577 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000578 | -Name Accounting Standards Codification
+000579 | -Section S99
+000580 | -Paragraph 1
+000581 | -Subparagraph (SX 210.4-08(h))
+000582 | -SubTopic 10
+000583 | -Topic 235
+000584 | -Publisher FASB
+000585 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000586 | + Details
+000587 | Name:
+000588 | us-gaap_IncomeTaxExpenseBenefit
+000589 | Namespace Prefix:
+000590 | us-gaap_
+000591 | Data Type:
+000592 | xbrli:monetaryItemType
+000593 | Balance Type:
+000594 | debit
+000595 | Period Type:
+000596 | duration

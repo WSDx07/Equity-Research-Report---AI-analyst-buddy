@@ -15,22 +15,24 @@ import statistics
 import sys
 import tempfile
 from datetime import date, datetime
+from datetime import time as clock_time
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 from worksheet_math import dec, read_rules  # noqa: E402
 
 
-MARKER = re.compile(r'\[(fact|filing|calc|rule|price)\s+([^\]]+)\]', re.I)
-NUMBER = re.compile(r'(?<![A-Za-z])[-+]?\$?\(?\d[\d,]*(?:\.\d+)?\)?%?(?![A-Za-z])')
+MARKER = re.compile(r'\[(fact|filing|form4|calc|rule|price)\s+([^\]]+)\]', re.I)
+NUMBER = re.compile(r'(?<![A-Za-z])[-+]?\$?\(?\d[\d,]*(?:\.\d+)?\)?%?')
 IDENTIFIERS = (
     re.compile(r'\b(?:CIK|line|page|accession|form|item|section|fiscal\s+year|FY|Q[1-4])\s*[:#-]?\s*\d+(?:\.\d+)*', re.I),
     re.compile(r'\b\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:?\d{2})?)?\b', re.I),
     re.compile(r'\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{1,2},?\s+\d{4}\b', re.I),
     re.compile(r'\b\d{4}\s+Q[1-4]\b', re.I),
-    re.compile(r'\b\d{18,20}\b'),
+    re.compile(r'(?<![\d.])\d{18,20}(?![\d.])'),
     re.compile(r'https?://\S+', re.I),
     re.compile(r'\b\d+\s*[-/]\s*(?:K|Q|A|B|G)\b', re.I),
 )
@@ -54,9 +56,12 @@ def parse_marker(text):
 def visible_numbers(line):
     text = MARKER.sub('', line)
     text = re.sub(r'<!--.*?-->', '', text)
-    text = re.sub(r'\[[^\]]*\]\([^)]*\)', '', text)
+    # Link destinations are identifiers; visible link labels can contain claims.
+    text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
     # A leading Markdown section or list number is an outline identifier.
-    text = re.sub(r'^\s*(?:#{1,6}\s*)?\d+(?:\.\d+)*[.)]?\s+', '', text)
+    text = re.sub(r'^\s*(?:#{1,6}\s*)?\d+(?:\.\d+)*[.)]\s+', '', text)
+    # Remove full URLs before date/form patterns can fragment them.
+    text = re.sub(r'https?://\S+', ' ', text, flags=re.I)
     for pattern in IDENTIFIERS:
         text = pattern.sub(' ', text)
     return [token for token in NUMBER.findall(text)]
@@ -64,8 +69,8 @@ def visible_numbers(line):
 
 def number_value(token):
     value = token.replace('$', '').replace(',', '').replace('%', '').strip()
-    if value.startswith('(') and value.endswith(')'):
-        value = '-' + value[1:-1]
+    if value.startswith('('):
+        value = '-' + value[1:].rstrip(')')
     try:
         return Decimal(value)
     except InvalidOperation as exc:
@@ -91,25 +96,31 @@ def line_numbers(path, line_number):
     return [number_value(token) for token in visible_numbers(line)]
 
 
-def facts_value(run, concept, period, filename='facts.json'):
+def facts_value(run, concept, period, filename='facts.json', *, xbrl_tag=None, accession=None, reporting_tag=None):
     path = source_file(run, filename)
     data = json.loads(path.read_text(encoding='utf-8'))
     record = data.get('concepts', {}).get(concept)
     if not isinstance(record, dict):
         raise ValueError(f'Unknown saved fact: {concept} ({period})')
+    if not xbrl_tag or record.get('tag') != xbrl_tag:
+        raise ValueError(f'Saved XBRL tag does not match for {concept}')
     if period in {'current', 'prior'}:
         entry = record.get(period)
     else:
         wanted_year = re.fullmatch(r'FY(\d{4})', period, re.I)
         entries = [value for name, value in record.items() if name in {'current', 'prior'} and isinstance(value, dict)]
         if wanted_year:
-            entries = [value for value in entries if str(value.get('fy', '')) == wanted_year.group(1)
-                       or str(value.get('end', '')).startswith(wanted_year.group(1))]
+            entries = [value for value in entries if str(value.get('end', '')).startswith(wanted_year.group(1))
+                       and value.get('fp') == 'FY']
         else:
             entries = [value for value in entries if value.get('end') == period]
         entry = entries[0] if len(entries) == 1 else None
     if not isinstance(entry, dict) or entry.get('val') in (None, ''):
         raise ValueError(f'Saved fact is not available: {concept} ({period})')
+    if not reporting_tag or entry.get('reporting_tag') != reporting_tag:
+        raise ValueError(f'Saved reporting tag is missing or does not match for {concept} ({period})')
+    if not accession or str(entry.get('accn', '')).replace('-', '') != str(accession).replace('-', ''):
+        raise ValueError(f'Saved filing accession does not match for {concept} ({period})')
     return Decimal(str(entry['val']))
 
 
@@ -152,36 +163,56 @@ def label_number(text, label):
     number = number_value(values[0])
     if '%' in values[0]:
         number /= Decimal('100')
+    for unit, factor in (('billions', '1000000000'), ('millions', '1000000'), ('thousands', '1000')):
+        if re.search(r'\bUSD\s+' + unit + r'\b', match.group(1), re.I):
+            number *= Decimal(factor)
+            break
     return number
 
 
 def expected_calculation(text, line_text, calc_id, rules, reader_path, live_reader_path, fields):
     key = calc_id.casefold()
-    if key == 'owner_cash_flow':
-        earnings = label_number(text, 'After-tax earnings')
-        depreciation = label_number(text, 'Depreciation')
-        capex = label_number(text, 'Capital spending')
+    if key in {'owner_cash_flow', 'live_owner_cash_flow'}:
+        prefix = 'Live ' if key.startswith('live_') else ''
+        earnings = label_number(text, prefix + 'After-tax earnings')
+        depreciation = label_number(text, prefix + 'Depreciation')
+        capex = label_number(text, prefix + 'Capital spending')
         return [earnings + depreciation - capex]
-    if key in {'low_equity_value', 'mid_equity_value'}:
-        ocf = label_number(text, 'Owner cash flow')
-        rate = label_number(text, f'{key[:3].title()} case discount rate')
-        growth = label_number(text, f'{key[:3].title()} case growth rate')
+    prefix = 'Live ' if key.startswith('live_') else ''
+    case_key = key.removeprefix('live_')
+    if case_key in {'low_equity_value', 'mid_equity_value'}:
+        ocf = label_number(text, prefix + 'Owner cash flow')
+        case = case_key.split('_')[0].title()
+        rate = label_number(text, f'{case} case discount rate')
+        growth = label_number(text, f'{case} case growth rate')
         if rate <= growth:
             raise ValueError('Discount rate must exceed growth rate')
         return [ocf * (Decimal('1') + growth) / (rate - growth)]
-    if key in {'low_value_per_share', 'mid_value_per_share'}:
-        case = key.split('_')[0]
-        equity = label_number(text, f'{case.title()} case equity value')
-        shares = label_number(text, 'Diluted shares')
+    if case_key in {'low_value_per_share', 'mid_value_per_share'}:
+        case = case_key.split('_')[0]
+        equity = label_number(text, f'{prefix}{case.title()} case equity value')
+        shares = label_number(text, prefix + 'Diluted shares')
         if shares <= 0:
             raise ValueError('Diluted shares must be positive')
         return [equity / shares]
-    if key == 'margin_of_safety':
-        low = label_number(text, 'Low case value per share')
-        price = label_number(text, 'Dated market price')
+    if case_key == 'margin_of_safety':
+        low = label_number(text, prefix + 'Low case value per share')
+        price = label_number(text, prefix + 'Dated market price')
         if price <= 0:
             raise ValueError('Dated market price must be positive')
         return [(low - price) / price * Decimal('100')]
+    if key == 'eligible_live_bars':
+        if not live_reader_path or not fields.get('ticker') or not fields.get('cutoff'):
+            raise ValueError('Eligible live bar count needs the live reader, ticker and filing time')
+        cutoff = datetime.fromisoformat(fields['cutoff'].replace('Z', '+00:00'))
+        if cutoff.tzinfo is None or cutoff.utcoffset() is None:
+            raise ValueError('Filing time needs a timezone')
+        bars = read_bars(live_reader_path, fields['ticker'])
+        eastern = ZoneInfo('America/New_York')
+        as_of = date.fromisoformat(fields.get('as_of') or cutoff.date().isoformat())
+        return [Decimal(sum(date.fromisoformat(bar['date']) <= as_of and
+                            datetime.combine(date.fromisoformat(bar['date']), clock_time(16), eastern) < cutoff
+                            for bar in bars))]
     if key == 'daily_dollar_volume':
         match = re.search(r'Liquidity bar:\s*(\d{4}-\d{2}-\d{2})\s*\|\s*dollar_volume=([^\s\[]+)', line_text, re.I)
         if not match:
@@ -212,6 +243,10 @@ def expected_calculation(text, line_text, calc_id, rules, reader_path, live_read
         if not ticker or not selected_reader:
             raise ValueError('Median dollar-volume marker needs a ticker and reader file')
         bars = read_bars(selected_reader, ticker)
+        if fields.get('as_of'):
+            cutoff_day = date.fromisoformat(fields['as_of'])
+            bars = [bar for bar in bars if date.fromisoformat(bar['date']) <= cutoff_day]
+        bars.sort(key=lambda bar: bar['date'])
         if len(bars) < required:
             raise ValueError(f'Reader has fewer than {required} official bars')
         expected_days = [bar['date'] for bar in bars[-required:]]
@@ -222,7 +257,7 @@ def expected_calculation(text, line_text, calc_id, rules, reader_path, live_read
     raise ValueError(f'Unknown calculation marker: {calc_id}')
 
 
-def validate_marker(kind, fields, claimed, *, line, line_text, text, run, rules, reader_path, live_reader_path):
+def validate_marker(kind, fields, claimed, *, line, line_text, text, run, rules, reader_path, live_reader_path, live_run=None):
     if not claimed:
         return None
     if kind == 'rule':
@@ -247,7 +282,9 @@ def validate_marker(kind, fields, claimed, *, line, line_text, text, run, rules,
         if len(claimed) != 1:
             return f'line {line}: put one fact number on each line'
         try:
-            expected = facts_value(run, concept, period, fields.get('facts_file', 'facts.json'))
+            expected = facts_value(run, concept, period, fields.get('facts_file', 'facts.json'),
+                                   xbrl_tag=fields.get('xbrl_tag'), accession=fields.get('filing'),
+                                   reporting_tag=tag)
         except (OSError, ValueError, KeyError) as exc:
             return f'line {line}: {exc}'
         if expected not in claimed:
@@ -272,11 +309,42 @@ def validate_marker(kind, fields, claimed, *, line, line_text, text, run, rules,
         if not filename or not source_line or not section or fields.get('tag') not in {'historical', 'pro forma', 'reported after the spin'} or not fields.get('period'):
             return f'line {line}: filing marker needs file, line, section, tag, and period'
         try:
-            source = source_file(run, filename)
+            if fields.get('source_run') not in (None, '', 'target', 'live'):
+                raise ValueError('Unknown source run')
+            source_root = live_run if fields.get('source_run') == 'live' else run
+            if source_root is None:
+                raise ValueError('Live source run is not specified')
+            source = source_file(source_root, filename)
             supported = line_numbers(source, int(source_line))
+            if fields.get('sign') == 'magnitude':
+                supported = [abs(value) for value in supported]
+            word = fields.get('number_word')
+            if word:
+                word_values = {'one': Decimal(1), 'two': Decimal(2)}
+                if word not in word_values:
+                    raise ValueError('Unsupported source number word')
+                source_lines = source.read_text(encoding='utf-8', errors='replace').splitlines()
+                if not re.search(r'\b' + re.escape(word) + r'\b', source_lines[int(source_line) - 1], re.I):
+                    raise ValueError(f'Source number word {word} is absent from filing line {source_line}')
+                supported.append(word_values[word])
         except (OSError, ValueError) as exc:
             return f'line {line}: {exc}'
         return compare_tokens(claimed, supported, f'filing line {source_line}')
+    if kind == 'form4':
+        from prepare_worksheet import parse_form4_purchases
+        filename, accession, transaction_date, field = (fields.get(key) for key in ('file', 'accession', 'date', 'field'))
+        if not filename or not accession or not transaction_date or field not in {'shares', 'price_per_share'}:
+            return f'line {line}: Form 4 marker needs file, accession, date, and shares or price_per_share field'
+        try:
+            source = source_file(run, filename)
+            raw = source.read_text(encoding='utf-8', errors='replace').splitlines()
+            xml = '\n'.join(re.sub(r'^\s*\d{6}\s*\|\s?', '', row) for row in raw)
+            rows = parse_form4_purchases(xml, accession, None)
+            matches = [Decimal(row[field]) for row in rows if row.get('transaction_date') == transaction_date
+                       and row.get('transaction_code') == 'P' and row.get(field) not in (None, '')]
+        except (OSError, ValueError, KeyError, InvalidOperation) as exc:
+            return f'line {line}: Form 4 source error: {exc}'
+        return compare_tokens(claimed, matches, f'Form 4 code-P {field} on {transaction_date}')
     if kind == 'price':
         day = fields.get('date'); ticker = fields.get('ticker') or ''
         selected_reader = live_reader_path if fields.get('reader') == 'live' else reader_path
@@ -319,7 +387,7 @@ def metadata(text, worksheet_path):
                 decoded = value.strip('"\'')
             fields[key.strip().casefold()] = decoded
     base = Path(worksheet_path).parent
-    for key in ('run', 'rules', 'reader', 'live_reader'):
+    for key in ('run', 'rules', 'reader', 'live_reader', 'live_run'):
         if fields.get(key):
             path = Path(fields[key])
             fields[key] = path if path.is_absolute() else (base / path).resolve()
@@ -347,32 +415,37 @@ def validate_worksheet(worksheet_path, *, run=None, rules_path=None, reader_path
             continue
         if line.strip().startswith('<!--') and '-->' in line:
             continue
+        visible_text = MARKER.sub('', line)
+        visible_text = re.sub(r'https?://\S+', '', visible_text, flags=re.I)
+        if re.search(r'(?<![A-Za-z0-9])\d+(?:\.\d+)?[eE][+-]?\d+', visible_text):
+            failures.append(f'line {line_number}: scientific notation is not supported | {line.strip()}')
+            continue
         raw = visible_numbers(line)
         if not raw:
             continue
         if len(raw) != 1:
-            failures.append(f'line {line_number}: split numeric claims onto separate lines')
+            failures.append(f'line {line_number}: split numeric claims onto separate lines | {line.strip()}')
             continue
         markers = list(MARKER.finditer(line))
         claimed = [number_value(token) for token in raw]
         if not markers:
-            failures.append(f'line {line_number}: {raw[0]} has no source, rule, reader, or calculation marker')
+            failures.append(f'line {line_number}: {raw[0]} has no source, rule, reader, or calculation marker | {line.strip()}')
             continue
         if len(markers) > 1:
-            failures.append(f'line {line_number}: use one claim marker per numeric line')
+            failures.append(f'line {line_number}: use one claim marker per numeric line | {line.strip()}')
             continue
         marker = markers[0]
         kind = marker.group(1).casefold()
         try:
             fields = parse_marker(marker.group(2))
         except ValueError as exc:
-            failures.append(f'line {line_number}: {exc}')
+            failures.append(f'line {line_number}: {exc} | {line.strip()}')
             continue
         issue = validate_marker(kind, fields, claimed, line=line_number, line_text=line, text=text,
                                 run=run, rules=rules, reader_path=reader_path,
-                                live_reader_path=live_reader_path)
+                                live_reader_path=live_reader_path, live_run=meta.get('live_run'))
         if issue:
-            failures.append(issue if issue.startswith('line ') else f'line {line_number}: {issue}')
+            failures.append((issue if issue.startswith('line ') else f'line {line_number}: {issue}') + f' | {line.strip()}')
     return failures
 
 
@@ -422,11 +495,14 @@ def hook_main():
                 if i + 1 < len(tokens):
                     args[name] = tokens[i + 1].strip('"\'')
         if not automatic and '--output' not in args:
-            print(json.dumps({'decision': 'block', 'reason': 'Worksheet writer did not give the hook an output path.'}))
+            reason = 'Worksheet writer did not give the hook an output path.'
+            state_path.write_text(json.dumps({'session_id': session, 'turn_id': turn, 'error': reason}), encoding='utf-8')
+            print(json.dumps({'decision': 'block', 'reason': reason}))
             return 0
         try:
             worksheet = _automatic_worksheet(event, args.get('--run')) if automatic else Path(args['--output']).resolve()
         except ValueError as exc:
+            state_path.write_text(json.dumps({'session_id': session, 'turn_id': turn, 'error': str(exc)}), encoding='utf-8')
             print(json.dumps({'decision': 'block', 'reason': str(exc)}))
             return 0
         state = {'session_id': session, 'turn_id': turn, 'worksheet': str(worksheet),
@@ -444,8 +520,13 @@ def hook_main():
         try:
             state = json.loads(state_path.read_text(encoding='utf-8'))
         except (OSError, json.JSONDecodeError):
+            print('{}')
             return 0
         if state.get('session_id') != session or state.get('turn_id') != turn:
+            print('{}')
+            return 0
+        if state.get('error'):
+            print(json.dumps({'decision': 'block', 'reason': 'Worksheet check could not run: ' + state['error']}))
             return 0
         try:
             issues = validate_worksheet(state['worksheet'], run=state.get('run'),
@@ -456,6 +537,7 @@ def hook_main():
             print(json.dumps({'decision': 'block', 'reason': 'Worksheet check failed: ' + '; '.join(issues[:8])}))
         else:
             state_path.unlink(missing_ok=True)
+            print('{}')
         return 0
     return 0
 
@@ -475,7 +557,6 @@ def main():
         for issue in issues:
             print('refused: ' + issue)
         raise SystemExit(1)
-    print('Worksheet numeric claims verified.')
 
 
 if __name__ == '__main__':

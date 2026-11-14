@@ -1,0 +1,260 @@
+000001 | v3.25.4
+000002 | COMMITMENTS AND CONTINGENCIES - Warranties and Guarantees (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Movement in Standard Product Warranty Accrual [Roll Forward]
+000009 | Beginning of year
+000010 | $ 237
+000011 | $ 219
+000012 | $ 213
+000013 | Accruals for warranties/guarantees issued during the year
+000014 | 144
+000015 | 186
+000016 | 139
+000017 | Adjustment of pre-existing warranties/guarantees
+000018 | 6
+000019 | 3
+000020 | (27)
+000021 | Settlement of warranty/guarantee claims
+000022 | (148)
+000023 | (171)
+000024 | (106)
+000025 | Reclassifications to Liabilities held for sale
+000026 | (19)
+000027 | 0
+000028 | 0
+000029 | End of year
+000030 | 220
+000031 | 237
+000032 | 219
+000033 | Standard Product Warranty Accrual, Balance Sheet Classification [Abstract]
+000034 | Accrued liabilities
+000035 | 180
+000036 | 202
+000037 | Other liabilities
+000038 | 40
+000039 | 35
+000040 | Total obligations for product warranties and product performance guarantees
+000041 | $ 220
+000042 | $ 237
+000043 | $ 219
+000044 | X
+000045 | - Definition
+000046 | Standard Product Warranty Accrual, Reclassifications to Liabilities Held for Sale
+000047 | + References
+000048 | No definition available.
+000049 | + Details
+000050 | Name:
+000051 | hon_StandardProductWarrantyAccrualReclassificationsToLiabilitiesHeldForSale
+000052 | Namespace Prefix:
+000053 | hon_
+000054 | Data Type:
+000055 | xbrli:monetaryItemType
+000056 | Balance Type:
+000057 | debit
+000058 | Period Type:
+000059 | duration
+000060 | X
+000061 | - Definition
+000062 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000063 | + References
+000064 | No definition available.
+000065 | + Details
+000066 | Name:
+000067 | us-gaap_MovementInStandardProductWarrantyAccrualRollForward
+000068 | Namespace Prefix:
+000069 | us-gaap_
+000070 | Data Type:
+000071 | xbrli:stringItemType
+000072 | Balance Type:
+000073 | na
+000074 | Period Type:
+000075 | duration
+000076 | X
+000077 | - Definition
+000078 | Amount as of the balance sheet date of the aggregate standard product warranty liability. Does not include the balance for the extended product warranty liability.
+000079 | + References
+000080 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000081 | -Topic 460
+000082 | -SubTopic 10
+000083 | -Name Accounting Standards Codification
+000084 | -Section 50
+000085 | -Paragraph 8
+000086 | -Subparagraph (c)(1)
+000087 | -Publisher FASB
+000088 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000089 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000090 | -Topic 460
+000091 | -SubTopic 10
+000092 | -Name Accounting Standards Codification
+000093 | -Section 50
+000094 | -Paragraph 8
+000095 | -Subparagraph (c)(5)
+000096 | -Publisher FASB
+000097 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000098 | + Details
+000099 | Name:
+000100 | us-gaap_StandardProductWarrantyAccrual
+000101 | Namespace Prefix:
+000102 | us-gaap_
+000103 | Data Type:
+000104 | xbrli:monetaryItemType
+000105 | Balance Type:
+000106 | credit
+000107 | Period Type:
+000108 | instant
+000109 | X
+000110 | - References
+000111 | No definition available.
+000112 | + Details
+000113 | Name:
+000114 | us-gaap_StandardProductWarrantyAccrualBalanceSheetClassificationAbstract
+000115 | Namespace Prefix:
+000116 | us-gaap_
+000117 | Data Type:
+000118 | xbrli:stringItemType
+000119 | Balance Type:
+000120 | na
+000121 | Period Type:
+000122 | duration
+000123 | X
+000124 | - Definition
+000125 | Amount as of the balance sheet date of the aggregate standard product warranty liability that is expected to be paid within one year or the normal operating cycle, if longer. Does not include the balance for the extended product warranty liability.
+000126 | + References
+000127 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000128 | -Topic 460
+000129 | -SubTopic 10
+000130 | -Name Accounting Standards Codification
+000131 | -Section 50
+000132 | -Paragraph 8
+000133 | -Subparagraph (c)(1)
+000134 | -Publisher FASB
+000135 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000136 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000137 | -Topic 460
+000138 | -SubTopic 10
+000139 | -Name Accounting Standards Codification
+000140 | -Section 50
+000141 | -Paragraph 8
+000142 | -Subparagraph (c)(5)
+000143 | -Publisher FASB
+000144 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000145 | + Details
+000146 | Name:
+000147 | us-gaap_StandardProductWarrantyAccrualCurrent
+000148 | Namespace Prefix:
+000149 | us-gaap_
+000150 | Data Type:
+000151 | xbrli:monetaryItemType
+000152 | Balance Type:
+000153 | credit
+000154 | Period Type:
+000155 | instant
+000156 | X
+000157 | - Definition
+000158 | Amount as of the balance sheet date of the aggregate standard product warranty liability that is expected to be paid after one year or beyond the normal operating cycle, if longer. Does not include the balance for the extended product warranty liability.
+000159 | + References
+000160 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000161 | -Topic 460
+000162 | -SubTopic 10
+000163 | -Name Accounting Standards Codification
+000164 | -Section 50
+000165 | -Paragraph 8
+000166 | -Subparagraph (c)(1)
+000167 | -Publisher FASB
+000168 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000169 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000170 | -Topic 460
+000171 | -SubTopic 10
+000172 | -Name Accounting Standards Codification
+000173 | -Section 50
+000174 | -Paragraph 8
+000175 | -Subparagraph (c)(5)
+000176 | -Publisher FASB
+000177 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000178 | + Details
+000179 | Name:
+000180 | us-gaap_StandardProductWarrantyAccrualNoncurrent
+000181 | Namespace Prefix:
+000182 | us-gaap_
+000183 | Data Type:
+000184 | xbrli:monetaryItemType
+000185 | Balance Type:
+000186 | credit
+000187 | Period Type:
+000188 | instant
+000189 | X
+000190 | - Definition
+000191 | Amount of decrease in the standard product warranty accrual from payments made in cash or in kind to satisfy claims under the terms of the standard product warranty. Excludes extended product warranties.
+000192 | + References
+000193 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000194 | -Topic 460
+000195 | -SubTopic 10
+000196 | -Name Accounting Standards Codification
+000197 | -Section 50
+000198 | -Paragraph 8
+000199 | -Subparagraph (c)(2)
+000200 | -Publisher FASB
+000201 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000202 | + Details
+000203 | Name:
+000204 | us-gaap_StandardProductWarrantyAccrualPayments
+000205 | Namespace Prefix:
+000206 | us-gaap_
+000207 | Data Type:
+000208 | xbrli:monetaryItemType
+000209 | Balance Type:
+000210 | debit
+000211 | Period Type:
+000212 | duration
+000213 | X
+000214 | - Definition
+000215 | Amount of increase (decrease) in the standard product warranty accrual from changes in estimates attributable to preexisting product warranties. Excludes extended product warranties.
+000216 | + References
+000217 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000218 | -Topic 460
+000219 | -SubTopic 10
+000220 | -Name Accounting Standards Codification
+000221 | -Section 50
+000222 | -Paragraph 8
+000223 | -Subparagraph (c)(4)
+000224 | -Publisher FASB
+000225 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000226 | + Details
+000227 | Name:
+000228 | us-gaap_StandardProductWarrantyAccrualPreexistingIncreaseDecrease
+000229 | Namespace Prefix:
+000230 | us-gaap_
+000231 | Data Type:
+000232 | xbrli:monetaryItemType
+000233 | Balance Type:
+000234 | credit
+000235 | Period Type:
+000236 | duration
+000237 | X
+000238 | - Definition
+000239 | Amount of increase in the standard product warranty accrual from warranties issued. Excludes extended product warranties.
+000240 | + References
+000241 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000242 | -Topic 460
+000243 | -SubTopic 10
+000244 | -Name Accounting Standards Codification
+000245 | -Section 50
+000246 | -Paragraph 8
+000247 | -Subparagraph (c)(3)
+000248 | -Publisher FASB
+000249 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000250 | + Details
+000251 | Name:
+000252 | us-gaap_StandardProductWarrantyAccrualWarrantiesIssued
+000253 | Namespace Prefix:
+000254 | us-gaap_
+000255 | Data Type:
+000256 | xbrli:monetaryItemType
+000257 | Balance Type:
+000258 | credit
+000259 | Period Type:
+000260 | duration

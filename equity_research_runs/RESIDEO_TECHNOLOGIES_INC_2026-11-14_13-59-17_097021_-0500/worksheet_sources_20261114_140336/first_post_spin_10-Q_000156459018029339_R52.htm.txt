@@ -1,0 +1,182 @@
+000001 | v3.10.0.1
+000002 | Segment Financial Data - Schedule of Segment Information (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2018
+000007 | Sep. 30, 2017
+000008 | Sep. 30, 2018
+000009 | Sep. 30, 2017
+000010 | Sales
+000011 | Total sales
+000012 | $ 1,200
+000013 | $ 1,152
+000014 | $ 3,561
+000015 | $ 3,310
+000016 | Segment profit
+000017 | Total
+000018 | 131
+000019 | 128
+000020 | 403
+000021 | 341
+000022 | Products
+000023 | Sales
+000024 | Total sales
+000025 | 526
+000026 | 519
+000027 | 1,567
+000028 | 1,461
+000029 | Segment profit
+000030 | Total
+000031 | 92
+000032 | 90
+000033 | 290
+000034 | 239
+000035 | Distribution
+000036 | Sales
+000037 | Total sales
+000038 | 674
+000039 | 633
+000040 | 1,994
+000041 | 1,849
+000042 | Segment profit
+000043 | Total
+000044 | 39
+000045 | 38
+000046 | 113
+000047 | 102
+000048 | Operating Segments | Products
+000049 | Sales
+000050 | Total sales
+000051 | 603
+000052 | 603
+000053 | 1,803
+000054 | 1,719
+000055 | Intersegment Sales Eliminations | Products
+000056 | Sales
+000057 | Total sales
+000058 | $ 77
+000059 | $ 84
+000060 | $ 236
+000061 | $ 258
+000062 | X
+000063 | - Definition
+000064 | The net result for the period of deducting operating expenses from operating revenues.
+000065 | + References
+000066 | No definition available.
+000067 | + Details
+000068 | Name:
+000069 | us-gaap_OperatingIncomeLoss
+000070 | Namespace Prefix:
+000071 | us-gaap_
+000072 | Data Type:
+000073 | xbrli:monetaryItemType
+000074 | Balance Type:
+000075 | credit
+000076 | Period Type:
+000077 | duration
+000078 | X
+000079 | - Definition
+000080 | Amount, excluding tax collected from customer, of revenue from satisfaction of performance obligation by transferring promised good or service to customer. Tax collected from customer is tax assessed by governmental authority that is both imposed on and concurrent with specific revenue-producing transaction, including, but not limited to, sales, use, value added and excise.
+000081 | + References
+000082 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000083 | -Publisher FASB
+000084 | -Name Accounting Standards Codification
+000085 | -Topic 606
+000086 | -SubTopic 10
+000087 | -Section 50
+000088 | -Paragraph 4
+000089 | -Subparagraph (a)
+000090 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130543-203045
+000091 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000092 | -Publisher FASB
+000093 | -Name Accounting Standards Codification
+000094 | -Topic 606
+000095 | -SubTopic 10
+000096 | -Section 50
+000097 | -Paragraph 1
+000098 | -Subparagraph (a)
+000099 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130539-203045
+000100 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000101 | -Publisher FASB
+000102 | -Name Accounting Standards Codification
+000103 | -Topic 606
+000104 | -SubTopic 10
+000105 | -Section 50
+000106 | -Paragraph 5
+000107 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130545-203045
+000108 | + Details
+000109 | Name:
+000110 | us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+000111 | Namespace Prefix:
+000112 | us-gaap_
+000113 | Data Type:
+000114 | xbrli:monetaryItemType
+000115 | Balance Type:
+000116 | credit
+000117 | Period Type:
+000118 | duration
+000119 | X
+000120 | - References
+000121 | No definition available.
+000122 | + Details
+000123 | Name:
+000124 | us-gaap_RevenuesAbstract
+000125 | Namespace Prefix:
+000126 | us-gaap_
+000127 | Data Type:
+000128 | xbrli:stringItemType
+000129 | Balance Type:
+000130 | na
+000131 | Period Type:
+000132 | duration
+000133 | X
+000134 | - References
+000135 | No definition available.
+000136 | + Details
+000137 | Name:
+000138 | us-gaap_SegmentReportingInformationProfitLossAbstract
+000139 | Namespace Prefix:
+000140 | us-gaap_
+000141 | Data Type:
+000142 | xbrli:stringItemType
+000143 | Balance Type:
+000144 | na
+000145 | Period Type:
+000146 | duration
+000147 | X
+000148 | - Details
+000149 | Name:
+000150 | us-gaap_StatementBusinessSegmentsAxis=rezi_ProductSegmentMember
+000151 | Namespace Prefix:
+000152 | Data Type:
+000153 | na
+000154 | Balance Type:
+000155 | Period Type:
+000156 | X
+000157 | - Details
+000158 | Name:
+000159 | us-gaap_StatementBusinessSegmentsAxis=rezi_DistributionSegmentMember
+000160 | Namespace Prefix:
+000161 | Data Type:
+000162 | na
+000163 | Balance Type:
+000164 | Period Type:
+000165 | X
+000166 | - Details
+000167 | Name:
+000168 | srt_ConsolidationItemsAxis=us-gaap_OperatingSegmentsMember
+000169 | Namespace Prefix:
+000170 | Data Type:
+000171 | na
+000172 | Balance Type:
+000173 | Period Type:
+000174 | X
+000175 | - Details
+000176 | Name:
+000177 | srt_ConsolidationItemsAxis=us-gaap_IntersegmentEliminationMember
+000178 | Namespace Prefix:
+000179 | Data Type:
+000180 | na
+000181 | Balance Type:
+000182 | Period Type:

@@ -1,0 +1,135 @@
+000001 | v3.26.3
+000002 | Basis of Presentation (Details)
+000003 | shares in Billions
+000004 | 3 Months Ended
+000005 | Jun. 30, 2026
+000006 | Jun. 29, 2026
+000007 | shares
+000008 | Jun. 28, 2026
+000009 | shares
+000010 | Organization, Consolidation and Presentation of Financial Statements [Abstract]
+000011 | Stock split, conversion ratio
+000012 | 0.5
+000013 | Common stock, shares authorized (in shares)
+000014 | 1
+000015 | 2
+000016 | X
+000017 | - Definition
+000018 | The maximum number of common shares permitted to be issued by an entity's charter and bylaws.
+000019 | + References
+000020 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000021 | -Topic 505
+000022 | -SubTopic 10
+000023 | -Name Accounting Standards Codification
+000024 | -Section S45
+000025 | -Paragraph 3
+000026 | -Publisher FASB
+000027 | -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3
+000028 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000029 | -Topic 210
+000030 | -SubTopic 10
+000031 | -Name Accounting Standards Codification
+000032 | -Section S99
+000033 | -Paragraph 1
+000034 | -Subparagraph (SX 210.5-02(29))
+000035 | -Publisher FASB
+000036 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000037 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000038 | -Topic 942
+000039 | -SubTopic 210
+000040 | -Name Accounting Standards Codification
+000041 | -Section S45
+000042 | -Paragraph 1
+000043 | -Publisher FASB
+000044 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000045 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000046 | -Topic 942
+000047 | -SubTopic 210
+000048 | -Name Accounting Standards Codification
+000049 | -Section S50
+000050 | -Paragraph 1
+000051 | -Publisher FASB
+000052 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000053 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000054 | -Topic 942
+000055 | -SubTopic 210
+000056 | -Name Accounting Standards Codification
+000057 | -Section S99
+000058 | -Paragraph 1
+000059 | -Subparagraph (SX 210.9-03(20))
+000060 | -Publisher FASB
+000061 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000062 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000063 | -Topic 946
+000064 | -SubTopic 210
+000065 | -Name Accounting Standards Codification
+000066 | -Section S99
+000067 | -Paragraph 1
+000068 | -Subparagraph (SX 210.6-04(16)(a))
+000069 | -Publisher FASB
+000070 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000071 | + Details
+000072 | Name:
+000073 | us-gaap_CommonStockSharesAuthorized
+000074 | Namespace Prefix:
+000075 | us-gaap_
+000076 | Data Type:
+000077 | xbrli:sharesItemType
+000078 | Balance Type:
+000079 | na
+000080 | Period Type:
+000081 | instant
+000082 | X
+000083 | - References
+000084 | No definition available.
+000085 | + Details
+000086 | Name:
+000087 | us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract
+000088 | Namespace Prefix:
+000089 | us-gaap_
+000090 | Data Type:
+000091 | xbrli:stringItemType
+000092 | Balance Type:
+000093 | na
+000094 | Period Type:
+000095 | duration
+000096 | X
+000097 | - Definition
+000098 | Ratio applied to the conversion of stock split, for example but not limited to, one share converted to two or two shares converted to one.
+000099 | + References
+000100 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000101 | -Topic 505
+000102 | -SubTopic 20
+000103 | -Name Accounting Standards Codification
+000104 | -Section S50
+000105 | -Paragraph 2
+000106 | -Publisher FASB
+000107 | -URI https://asc.fasb.org/1943274/2147479951/505-20-S50-2
+000108 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000109 | -Topic 505
+000110 | -SubTopic 20
+000111 | -Name Accounting Standards Codification
+000112 | -Section S25
+000113 | -Paragraph 2
+000114 | -Publisher FASB
+000115 | -URI https://asc.fasb.org/1943274/2147479982/505-20-S25-2
+000116 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000117 | -Topic 505
+000118 | -SubTopic 10
+000119 | -Name Accounting Standards Codification
+000120 | -Section S99
+000121 | -Paragraph 4
+000122 | -Subparagraph (SAB Topic 4.C)
+000123 | -Publisher FASB
+000124 | -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-4
+000125 | + Details
+000126 | Name:
+000127 | us-gaap_StockholdersEquityNoteStockSplitConversionRatio1
+000128 | Namespace Prefix:
+000129 | us-gaap_
+000130 | Data Type:
+000131 | xbrli:pureItemType
+000132 | Balance Type:
+000133 | na
+000134 | Period Type:
+000135 | duration

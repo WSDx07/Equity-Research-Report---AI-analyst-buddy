@@ -1,0 +1,473 @@
+000001 | v3.25.4
+000002 | SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Narrative (Details) - USD ($)
+000003 | 12 Months Ended
+000004 | Oct. 01, 2025
+000005 | Sep. 29, 2025
+000006 | Dec. 31, 2025
+000007 | Dec. 31, 2024
+000008 | Dec. 31, 2023
+000009 | Product Information [Line Items]
+000010 | Impairment of goodwill
+000011 | $ 0
+000012 | $ 724,000,000
+000013 | $ 0
+000014 | $ 0
+000015 | Indefinite- lived intangible impairment
+000016 | $ 44,000,000
+000017 | Supplier Finance Program, Obligation, Statement of Financial Position [Extensible Enumeration]
+000018 | Accounts payable
+000019 | Capitalized contract fulfillment costs
+000020 | $ 1,193,000,000
+000021 | 1,156,000,000
+000022 | Capitalized contract amounts recognized as cost of products and services sold
+000023 | 116,000,000
+000024 | 188,000,000
+000025 | 148,000,000
+000026 | Resideo indemnification and reimbursement agreement termination payment
+000027 | 1,590,000,000
+000028 | $ 0
+000029 | $ 0
+000030 | Total
+000031 | Product Information [Line Items]
+000032 | Cash divested from deconsolidation
+000033 | $ 1,428,000,000
+000034 | 1,428,000,000
+000035 | Environmental Liabilities | Resideo
+000036 | Product Information [Line Items]
+000037 | Resideo indemnification and reimbursement agreement termination payment
+000038 | $ 1,590,000,000
+000039 | Minimum
+000040 | Product Information [Line Items]
+000041 | Finite lived intangible assets estimated useful lives
+000042 | 1 year
+000043 | Supplier finance program, payment timing, period
+000044 | 60 days
+000045 | Minimum | Building and Building Improvements
+000046 | Product Information [Line Items]
+000047 | Property, plant and equipment, useful life
+000048 | 10 years
+000049 | Minimum | Machinery and equipment
+000050 | Product Information [Line Items]
+000051 | Property, plant and equipment, useful life
+000052 | 3 years
+000053 | Maximum
+000054 | Product Information [Line Items]
+000055 | Finite lived intangible assets estimated useful lives
+000056 | 20 years
+000057 | Supplier finance program, payment timing, period
+000058 | 120 days
+000059 | Maximum | Software and Software Development Costs
+000060 | Product Information [Line Items]
+000061 | Finite lived intangible assets estimated useful lives
+000062 | 7 years
+000063 | Maximum | Software Development
+000064 | Product Information [Line Items]
+000065 | Finite lived intangible assets estimated useful lives
+000066 | 7 years
+000067 | Maximum | Building and Building Improvements
+000068 | Product Information [Line Items]
+000069 | Property, plant and equipment, useful life
+000070 | 50 years
+000071 | Maximum | Machinery and equipment
+000072 | Product Information [Line Items]
+000073 | Property, plant and equipment, useful life
+000074 | 16 years
+000075 | X
+000076 | - Definition
+000077 | Proceeds From Indemnification And Reimbursement Agreement Termination
+000078 | + References
+000079 | No definition available.
+000080 | + Details
+000081 | Name:
+000082 | hon_ProceedsFromIndemnificationAndReimbursementAgreementTermination
+000083 | Namespace Prefix:
+000084 | hon_
+000085 | Data Type:
+000086 | xbrli:monetaryItemType
+000087 | Balance Type:
+000088 | debit
+000089 | Period Type:
+000090 | duration
+000091 | X
+000092 | - Definition
+000093 | Amount of accumulated amortization of asset recognized from cost incurred to obtain or fulfill contract with customer.
+000094 | + References
+000095 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000096 | -Topic 340
+000097 | -SubTopic 40
+000098 | -Name Accounting Standards Codification
+000099 | -Section 50
+000100 | -Paragraph 3
+000101 | -Subparagraph (a)
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147479483/340-40-50-3
+000104 | + Details
+000105 | Name:
+000106 | us-gaap_CapitalizedContractCostAccumulatedAmortization
+000107 | Namespace Prefix:
+000108 | us-gaap_
+000109 | Data Type:
+000110 | xbrli:monetaryItemType
+000111 | Balance Type:
+000112 | credit
+000113 | Period Type:
+000114 | instant
+000115 | X
+000116 | - Definition
+000117 | Amount, before accumulated amortization and accumulated impairment loss, of asset recognized from cost incurred to obtain or fulfill contract with customer.
+000118 | + References
+000119 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000120 | -Topic 340
+000121 | -SubTopic 40
+000122 | -Name Accounting Standards Codification
+000123 | -Section 50
+000124 | -Paragraph 3
+000125 | -Subparagraph (a)
+000126 | -Publisher FASB
+000127 | -URI https://asc.fasb.org/1943274/2147479483/340-40-50-3
+000128 | + Details
+000129 | Name:
+000130 | us-gaap_CapitalizedContractCostGross
+000131 | Namespace Prefix:
+000132 | us-gaap_
+000133 | Data Type:
+000134 | xbrli:monetaryItemType
+000135 | Balance Type:
+000136 | debit
+000137 | Period Type:
+000138 | instant
+000139 | X
+000140 | - Definition
+000141 | Reduction in cash due to no longer including the former subsidiary's cash in the consolidated entity's cash.
+000142 | + References
+000143 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000144 | -Topic 230
+000145 | -SubTopic 10
+000146 | -Name Accounting Standards Codification
+000147 | -Section 45
+000148 | -Paragraph 13
+000149 | -Publisher FASB
+000150 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-13
+000151 | + Details
+000152 | Name:
+000153 | us-gaap_CashDivestedFromDeconsolidation
+000154 | Namespace Prefix:
+000155 | us-gaap_
+000156 | Data Type:
+000157 | xbrli:monetaryItemType
+000158 | Balance Type:
+000159 | credit
+000160 | Period Type:
+000161 | duration
+000162 | X
+000163 | - Definition
+000164 | Useful life of finite-lived intangible assets, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents the reported fact of one year, five months, and thirteen days.
+000165 | + References
+000166 | No definition available.
+000167 | + Details
+000168 | Name:
+000169 | us-gaap_FiniteLivedIntangibleAssetUsefulLife
+000170 | Namespace Prefix:
+000171 | us-gaap_
+000172 | Data Type:
+000173 | xbrli:durationItemType
+000174 | Balance Type:
+000175 | na
+000176 | Period Type:
+000177 | instant
+000178 | X
+000179 | - Definition
+000180 | Amount of impairment loss from asset representing future economic benefit arising from other asset acquired in business combination or from joint venture formation or both, that is not individually identified and separately recognized.
+000181 | + References
+000182 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000183 | -Name Accounting Standards Codification
+000184 | -Section 45
+000185 | -Paragraph 28
+000186 | -Subparagraph (b)
+000187 | -SubTopic 10
+000188 | -Topic 230
+000189 | -Publisher FASB
+000190 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000191 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000192 | -Topic 350
+000193 | -SubTopic 20
+000194 | -Name Accounting Standards Codification
+000195 | -Section 55
+000196 | -Paragraph 24
+000197 | -Publisher FASB
+000198 | -URI https://asc.fasb.org/1943274/2147482548/350-20-55-24
+000199 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000200 | -Topic 350
+000201 | -SubTopic 20
+000202 | -Name Accounting Standards Codification
+000203 | -Section 50
+000204 | -Paragraph 2
+000205 | -Subparagraph (b)
+000206 | -Publisher FASB
+000207 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-2
+000208 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000209 | -Topic 350
+000210 | -SubTopic 20
+000211 | -Name Accounting Standards Codification
+000212 | -Section 50
+000213 | -Paragraph 6
+000214 | -Subparagraph (b)
+000215 | -Publisher FASB
+000216 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-6
+000217 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000218 | -Topic 820
+000219 | -SubTopic 10
+000220 | -Name Accounting Standards Codification
+000221 | -Section 55
+000222 | -Paragraph 100
+000223 | -Subparagraph (d)
+000224 | -Publisher FASB
+000225 | -URI https://asc.fasb.org/1943274/2147482078/820-10-55-100
+000226 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000227 | -Topic 350
+000228 | -SubTopic 20
+000229 | -Name Accounting Standards Codification
+000230 | -Section 50
+000231 | -Paragraph 1
+000232 | -Subparagraph (e)
+000233 | -Publisher FASB
+000234 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-1
+000235 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000236 | -Topic 350
+000237 | -SubTopic 20
+000238 | -Name Accounting Standards Codification
+000239 | -Section 45
+000240 | -Paragraph 2
+000241 | -Publisher FASB
+000242 | -URI https://asc.fasb.org/1943274/2147482598/350-20-45-2
+000243 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000244 | -Topic 805
+000245 | -SubTopic 30
+000246 | -Name Accounting Standards Codification
+000247 | -Section 50
+000248 | -Paragraph 4
+000249 | -Subparagraph (b)
+000250 | -Publisher FASB
+000251 | -URI https://asc.fasb.org/1943274/2147479581/805-30-50-4
+000252 | + Details
+000253 | Name:
+000254 | us-gaap_GoodwillImpairmentLoss
+000255 | Namespace Prefix:
+000256 | us-gaap_
+000257 | Data Type:
+000258 | xbrli:monetaryItemType
+000259 | Balance Type:
+000260 | debit
+000261 | Period Type:
+000262 | duration
+000263 | X
+000264 | - Definition
+000265 | Amount of impairment loss resulting from write-down of assets, excluding financial assets and goodwill, lacking physical substance and having a projected indefinite period of benefit to fair value.
+000266 | + References
+000267 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000268 | -Topic 350
+000269 | -SubTopic 30
+000270 | -Name Accounting Standards Codification
+000271 | -Section 45
+000272 | -Paragraph 2
+000273 | -Publisher FASB
+000274 | -URI https://asc.fasb.org/1943274/2147482686/350-30-45-2
+000275 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000276 | -Topic 350
+000277 | -SubTopic 30
+000278 | -Name Accounting Standards Codification
+000279 | -Section 50
+000280 | -Paragraph 2
+000281 | -Subparagraph (b)
+000282 | -Publisher FASB
+000283 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000284 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000285 | -Topic 350
+000286 | -SubTopic 30
+000287 | -Name Accounting Standards Codification
+000288 | -Section 50
+000289 | -Paragraph 3
+000290 | -Subparagraph (b)
+000291 | -Publisher FASB
+000292 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-3
+000293 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000294 | -Topic 230
+000295 | -SubTopic 10
+000296 | -Name Accounting Standards Codification
+000297 | -Section 45
+000298 | -Paragraph 28
+000299 | -Subparagraph (b)
+000300 | -Publisher FASB
+000301 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000302 | + Details
+000303 | Name:
+000304 | us-gaap_ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill
+000305 | Namespace Prefix:
+000306 | us-gaap_
+000307 | Data Type:
+000308 | xbrli:monetaryItemType
+000309 | Balance Type:
+000310 | debit
+000311 | Period Type:
+000312 | duration
+000313 | X
+000314 | - Definition
+000315 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000316 | + References
+000317 | No definition available.
+000318 | + Details
+000319 | Name:
+000320 | us-gaap_ProductInformationLineItems
+000321 | Namespace Prefix:
+000322 | us-gaap_
+000323 | Data Type:
+000324 | xbrli:stringItemType
+000325 | Balance Type:
+000326 | na
+000327 | Period Type:
+000328 | duration
+000329 | X
+000330 | - Definition
+000331 | Useful life of long lived, physical assets used in the normal conduct of business and not intended for resale, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents the reported fact of one year, five months, and thirteen days. Examples include, but not limited to, land, buildings, machinery and equipment, office equipment, furniture and fixtures, and computer equipment.
+000332 | + References
+000333 | No definition available.
+000334 | + Details
+000335 | Name:
+000336 | us-gaap_PropertyPlantAndEquipmentUsefulLife
+000337 | Namespace Prefix:
+000338 | us-gaap_
+000339 | Data Type:
+000340 | xbrli:durationItemType
+000341 | Balance Type:
+000342 | na
+000343 | Period Type:
+000344 | instant
+000345 | X
+000346 | - Definition
+000347 | Indicates line item in statement of financial position that includes obligation for supplier finance program.
+000348 | + References
+000349 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000350 | -Topic 405
+000351 | -SubTopic 50
+000352 | -Name Accounting Standards Codification
+000353 | -Section 50
+000354 | -Paragraph 3
+000355 | -Subparagraph (b)(1)
+000356 | -Publisher FASB
+000357 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000358 | + Details
+000359 | Name:
+000360 | us-gaap_SupplierFinanceProgramObligationStatementOfFinancialPositionExtensibleEnumeration
+000361 | Namespace Prefix:
+000362 | us-gaap_
+000363 | Data Type:
+000364 | enum2:enumerationSetItemType
+000365 | Balance Type:
+000366 | na
+000367 | Period Type:
+000368 | instant
+000369 | X
+000370 | - Definition
+000371 | Period when payment is expected to be made to finance provider or intermediary in supplier finance program, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000372 | + References
+000373 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000374 | -Topic 405
+000375 | -SubTopic 50
+000376 | -Name Accounting Standards Codification
+000377 | -Section 50
+000378 | -Paragraph 3
+000379 | -Subparagraph (a)(1)
+000380 | -Publisher FASB
+000381 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000382 | + Details
+000383 | Name:
+000384 | us-gaap_SupplierFinanceProgramPaymentTimingPeriod
+000385 | Namespace Prefix:
+000386 | us-gaap_
+000387 | Data Type:
+000388 | xbrli:durationItemType
+000389 | Balance Type:
+000390 | na
+000391 | Period Type:
+000392 | instant
+000393 | X
+000394 | - Details
+000395 | Name:
+000396 | us-gaap_LossContingenciesByNatureOfContingencyAxis=hon_AsbestosRelatedLiabilitiesMember
+000397 | Namespace Prefix:
+000398 | Data Type:
+000399 | na
+000400 | Balance Type:
+000401 | Period Type:
+000402 | X
+000403 | - Details
+000404 | Name:
+000405 | us-gaap_LossContingenciesByNatureOfContingencyAxis=hon_EnvironmentalLiabilitiesMember
+000406 | Namespace Prefix:
+000407 | Data Type:
+000408 | na
+000409 | Balance Type:
+000410 | Period Type:
+000411 | X
+000412 | - Details
+000413 | Name:
+000414 | us-gaap_RestructuringCostAndReserveAxis=hon_ResideoMember
+000415 | Namespace Prefix:
+000416 | Data Type:
+000417 | na
+000418 | Balance Type:
+000419 | Period Type:
+000420 | X
+000421 | - Details
+000422 | Name:
+000423 | srt_RangeAxis=srt_MinimumMember
+000424 | Namespace Prefix:
+000425 | Data Type:
+000426 | na
+000427 | Balance Type:
+000428 | Period Type:
+000429 | X
+000430 | - Details
+000431 | Name:
+000432 | us-gaap_PropertyPlantAndEquipmentByTypeAxis=us-gaap_BuildingAndBuildingImprovementsMember
+000433 | Namespace Prefix:
+000434 | Data Type:
+000435 | na
+000436 | Balance Type:
+000437 | Period Type:
+000438 | X
+000439 | - Details
+000440 | Name:
+000441 | us-gaap_PropertyPlantAndEquipmentByTypeAxis=us-gaap_MachineryAndEquipmentMember
+000442 | Namespace Prefix:
+000443 | Data Type:
+000444 | na
+000445 | Balance Type:
+000446 | Period Type:
+000447 | X
+000448 | - Details
+000449 | Name:
+000450 | srt_RangeAxis=srt_MaximumMember
+000451 | Namespace Prefix:
+000452 | Data Type:
+000453 | na
+000454 | Balance Type:
+000455 | Period Type:
+000456 | X
+000457 | - Details
+000458 | Name:
+000459 | us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis=us-gaap_SoftwareAndSoftwareDevelopmentCostsMember
+000460 | Namespace Prefix:
+000461 | Data Type:
+000462 | na
+000463 | Balance Type:
+000464 | Period Type:
+000465 | X
+000466 | - Details
+000467 | Name:
+000468 | us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis=us-gaap_SoftwareDevelopmentMember
+000469 | Namespace Prefix:
+000470 | Data Type:
+000471 | na
+000472 | Balance Type:
+000473 | Period Type:

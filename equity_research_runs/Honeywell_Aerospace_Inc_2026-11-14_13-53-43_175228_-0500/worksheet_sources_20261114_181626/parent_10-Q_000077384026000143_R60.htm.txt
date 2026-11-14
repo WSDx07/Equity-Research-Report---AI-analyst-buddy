@@ -1,0 +1,204 @@
+000001 | v3.26.3
+000002 | Inventories (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Inventory Disclosure [Abstract]
+000007 | Raw materials
+000008 | $ 753
+000009 | $ 639
+000010 | Work in process
+000011 | 231
+000012 | 207
+000013 | Finished products
+000014 | 1,072
+000015 | 831
+000016 | Total Inventories
+000017 | $ 2,056
+000018 | $ 1,677
+000019 | X
+000020 | - References
+000021 | No definition available.
+000022 | + Details
+000023 | Name:
+000024 | us-gaap_InventoryDisclosureAbstract
+000025 | Namespace Prefix:
+000026 | us-gaap_
+000027 | Data Type:
+000028 | xbrli:stringItemType
+000029 | Balance Type:
+000030 | na
+000031 | Period Type:
+000032 | duration
+000033 | X
+000034 | - Definition
+000035 | Carrying amount, net of valuation reserves and adjustments, as of the balance sheet date of merchandise or goods held by the company that are readily available for sale.
+000036 | + References
+000037 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000038 | -Topic 210
+000039 | -SubTopic 10
+000040 | -Name Accounting Standards Codification
+000041 | -Section S50
+000042 | -Paragraph 3
+000043 | -Publisher FASB
+000044 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000045 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000046 | -Topic 330
+000047 | -SubTopic 10
+000048 | -Name Accounting Standards Codification
+000049 | -Section S99
+000050 | -Paragraph 2
+000051 | -Subparagraph (SAB Topic 5.BB)
+000052 | -Publisher FASB
+000053 | -URI https://asc.fasb.org/1943274/2147480581/330-10-S99-2
+000054 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000055 | -Topic 210
+000056 | -SubTopic 10
+000057 | -Name Accounting Standards Codification
+000058 | -Section S99
+000059 | -Paragraph 1
+000060 | -Subparagraph (SX 210.5-02(6)(a)(1))
+000061 | -Publisher FASB
+000062 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000063 | + Details
+000064 | Name:
+000065 | us-gaap_InventoryFinishedGoodsNetOfReserves
+000066 | Namespace Prefix:
+000067 | us-gaap_
+000068 | Data Type:
+000069 | xbrli:monetaryItemType
+000070 | Balance Type:
+000071 | debit
+000072 | Period Type:
+000073 | instant
+000074 | X
+000075 | - Definition
+000076 | Amount after valuation and LIFO reserves of inventory expected to be sold, or consumed within one year or operating cycle, if longer.
+000077 | + References
+000078 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000079 | -Topic 210
+000080 | -SubTopic 10
+000081 | -Name Accounting Standards Codification
+000082 | -Section S50
+000083 | -Paragraph 3
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000086 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000087 | -Topic 852
+000088 | -SubTopic 10
+000089 | -Name Accounting Standards Codification
+000090 | -Section 55
+000091 | -Paragraph 10
+000092 | -Publisher FASB
+000093 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000094 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000095 | -Topic 210
+000096 | -SubTopic 10
+000097 | -Name Accounting Standards Codification
+000098 | -Section 45
+000099 | -Paragraph 1
+000100 | -Subparagraph (b)
+000101 | -Publisher FASB
+000102 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-1
+000103 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000104 | -Topic 210
+000105 | -SubTopic 10
+000106 | -Name Accounting Standards Codification
+000107 | -Section S99
+000108 | -Paragraph 1
+000109 | -Subparagraph (SX 210.5-02(6))
+000110 | -Publisher FASB
+000111 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000112 | + Details
+000113 | Name:
+000114 | us-gaap_InventoryNet
+000115 | Namespace Prefix:
+000116 | us-gaap_
+000117 | Data Type:
+000118 | xbrli:monetaryItemType
+000119 | Balance Type:
+000120 | debit
+000121 | Period Type:
+000122 | instant
+000123 | X
+000124 | - Definition
+000125 | Carrying amount, net of valuation reserves and adjustments, as of the balance sheet date of unprocessed items to be consumed in the manufacturing or production process.
+000126 | + References
+000127 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000128 | -Topic 210
+000129 | -SubTopic 10
+000130 | -Name Accounting Standards Codification
+000131 | -Section S50
+000132 | -Paragraph 3
+000133 | -Publisher FASB
+000134 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000135 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000136 | -Topic 330
+000137 | -SubTopic 10
+000138 | -Name Accounting Standards Codification
+000139 | -Section S99
+000140 | -Paragraph 2
+000141 | -Subparagraph (SAB Topic 5.BB)
+000142 | -Publisher FASB
+000143 | -URI https://asc.fasb.org/1943274/2147480581/330-10-S99-2
+000144 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000145 | -Topic 210
+000146 | -SubTopic 10
+000147 | -Name Accounting Standards Codification
+000148 | -Section S99
+000149 | -Paragraph 1
+000150 | -Subparagraph (SX 210.5-02(6)(a)(4))
+000151 | -Publisher FASB
+000152 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000153 | + Details
+000154 | Name:
+000155 | us-gaap_InventoryRawMaterialsNetOfReserves
+000156 | Namespace Prefix:
+000157 | us-gaap_
+000158 | Data Type:
+000159 | xbrli:monetaryItemType
+000160 | Balance Type:
+000161 | debit
+000162 | Period Type:
+000163 | instant
+000164 | X
+000165 | - Definition
+000166 | Carrying amount, net of reserves and adjustments, as of the balance sheet date of merchandise or goods which are partially completed. This inventory is generally comprised of raw materials, labor and factory overhead costs, which require further materials, labor and overhead to be converted into finished goods, and which generally require the use of estimates to determine percentage complete and pricing.
+000167 | + References
+000168 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000169 | -Topic 210
+000170 | -SubTopic 10
+000171 | -Name Accounting Standards Codification
+000172 | -Section S50
+000173 | -Paragraph 3
+000174 | -Publisher FASB
+000175 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000176 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000177 | -Topic 330
+000178 | -SubTopic 10
+000179 | -Name Accounting Standards Codification
+000180 | -Section S99
+000181 | -Paragraph 2
+000182 | -Subparagraph (SAB Topic 5.BB)
+000183 | -Publisher FASB
+000184 | -URI https://asc.fasb.org/1943274/2147480581/330-10-S99-2
+000185 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000186 | -Topic 210
+000187 | -SubTopic 10
+000188 | -Name Accounting Standards Codification
+000189 | -Section S99
+000190 | -Paragraph 1
+000191 | -Subparagraph (SX 210.5-02(6)(a)(3))
+000192 | -Publisher FASB
+000193 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000194 | + Details
+000195 | Name:
+000196 | us-gaap_InventoryWorkInProcessNetOfReserves
+000197 | Namespace Prefix:
+000198 | us-gaap_
+000199 | Data Type:
+000200 | xbrli:monetaryItemType
+000201 | Balance Type:
+000202 | debit
+000203 | Period Type:
+000204 | instant

@@ -1,0 +1,130 @@
+000001 | v3.25.4
+000002 | DERIVATIVE INSTRUMENTS AND HEDGING TRANSACTIONS - Schedule of Net Investment Hedges in Accumulated Other Comprehensive Income (Loss) (Details) - Designated as Hedging Instrument - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Euro-denominated long-term debt
+000008 | Derivative [Line Items]
+000009 | Gain (loss) on net investment hedges recognized in accumulated other comprehensive income
+000010 | $ (664)
+000011 | $ 249
+000012 | Euro-denominated commercial paper
+000013 | Derivative [Line Items]
+000014 | Gain (loss) on net investment hedges recognized in accumulated other comprehensive income
+000015 | (139)
+000016 | 72
+000017 | Cross currency swap agreements
+000018 | Derivative [Line Items]
+000019 | Gain (loss) on net investment hedges recognized in accumulated other comprehensive income
+000020 | $ (868)
+000021 | $ 190
+000022 | X
+000023 | - Definition
+000024 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000025 | + References
+000026 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000027 | -Topic 815
+000028 | -SubTopic 20
+000029 | -Name Accounting Standards Codification
+000030 | -Section 25
+000031 | -Paragraph 6A
+000032 | -Publisher FASB
+000033 | -URI https://asc.fasb.org/1943274/2147480682/815-20-25-6A
+000034 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000035 | -Topic 815
+000036 | -SubTopic 40
+000037 | -Name Accounting Standards Codification
+000038 | -Section 50
+000039 | -Paragraph 5
+000040 | -Subparagraph (f)
+000041 | -Publisher FASB
+000042 | -URI https://asc.fasb.org/1943274/2147480237/815-40-50-5
+000043 | + Details
+000044 | Name:
+000045 | us-gaap_DerivativeLineItems
+000046 | Namespace Prefix:
+000047 | us-gaap_
+000048 | Data Type:
+000049 | xbrli:stringItemType
+000050 | Balance Type:
+000051 | na
+000052 | Period Type:
+000053 | duration
+000054 | X
+000055 | - Definition
+000056 | Amount, before tax and reclassification, of gain (loss) from derivative designated and qualifying as net investment hedge.
+000057 | + References
+000058 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000059 | -Topic 815
+000060 | -SubTopic 10
+000061 | -Name Accounting Standards Codification
+000062 | -Section 55
+000063 | -Paragraph 182
+000064 | -Publisher FASB
+000065 | -URI https://asc.fasb.org/1943274/2147480401/815-10-55-182
+000066 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000067 | -Topic 815
+000068 | -SubTopic 10
+000069 | -Name Accounting Standards Codification
+000070 | -Section 50
+000071 | -Paragraph 4A
+000072 | -Subparagraph (b)(2)
+000073 | -Publisher FASB
+000074 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4A
+000075 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000076 | -Topic 815
+000077 | -SubTopic 10
+000078 | -Name Accounting Standards Codification
+000079 | -Section 50
+000080 | -Paragraph 4CCC
+000081 | -Subparagraph (a)
+000082 | -Publisher FASB
+000083 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4CCC
+000084 | + Details
+000085 | Name:
+000086 | us-gaap_OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax
+000087 | Namespace Prefix:
+000088 | us-gaap_
+000089 | Data Type:
+000090 | xbrli:monetaryItemType
+000091 | Balance Type:
+000092 | credit
+000093 | Period Type:
+000094 | duration
+000095 | X
+000096 | - Details
+000097 | Name:
+000098 | us-gaap_DerivativeInstrumentsGainLossByHedgingRelationshipAxis=hon_NetInvestmentEuroDenominatedLongtermDebtMember
+000099 | Namespace Prefix:
+000100 | Data Type:
+000101 | na
+000102 | Balance Type:
+000103 | Period Type:
+000104 | X
+000105 | - Details
+000106 | Name:
+000107 | us-gaap_HedgingDesignationAxis=us-gaap_DesignatedAsHedgingInstrumentMember
+000108 | Namespace Prefix:
+000109 | Data Type:
+000110 | na
+000111 | Balance Type:
+000112 | Period Type:
+000113 | X
+000114 | - Details
+000115 | Name:
+000116 | us-gaap_DerivativeInstrumentsGainLossByHedgingRelationshipAxis=hon_NetInvestmentEuroDenominatedCommercialPaperMember
+000117 | Namespace Prefix:
+000118 | Data Type:
+000119 | na
+000120 | Balance Type:
+000121 | Period Type:
+000122 | X
+000123 | - Details
+000124 | Name:
+000125 | us-gaap_DerivativeInstrumentsGainLossByHedgingRelationshipAxis=hon_NetInvestmentCrossCurrencySwapMember
+000126 | Namespace Prefix:
+000127 | Data Type:
+000128 | na
+000129 | Balance Type:
+000130 | Period Type:

@@ -1,0 +1,213 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0306</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2019-02-11</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001740332</issuerCik>
+000015 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000016 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001754267</rptOwnerCik>
+000022 |             <rptOwnerName>Aarnes Robert B</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>1985 DOUGLAS DRIVE NORTH</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2></rptOwnerStreet2>
+000027 |             <rptOwnerCity>GOLDEN VALLEY</rptOwnerCity>
+000028 |             <rptOwnerState>MN</rptOwnerState>
+000029 |             <rptOwnerZipCode>55422</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>0</isDirector>
+000034 |             <isOfficer>1</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |             <officerTitle>PRESIDENT, ADI</officerTitle>
+000038 |         </reportingOwnerRelationship>
+000039 |     </reportingOwner>
+000040 | 
+000041 |     <nonDerivativeTable>
+000042 |         <nonDerivativeTransaction>
+000043 |             <securityTitle>
+000044 |                 <value>Common Stock</value>
+000045 |             </securityTitle>
+000046 |             <transactionDate>
+000047 |                 <value>2019-02-12</value>
+000048 |             </transactionDate>
+000049 |             <deemedExecutionDate></deemedExecutionDate>
+000050 |             <transactionCoding>
+000051 |                 <transactionFormType>4</transactionFormType>
+000052 |                 <transactionCode>P</transactionCode>
+000053 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000054 |                 <footnoteId id="F1"/>
+000055 |             </transactionCoding>
+000056 |             <transactionTimeliness>
+000057 |                 <value></value>
+000058 |             </transactionTimeliness>
+000059 |             <transactionAmounts>
+000060 |                 <transactionShares>
+000061 |                     <value>20</value>
+000062 |                 </transactionShares>
+000063 |                 <transactionPricePerShare>
+000064 |                     <value>24.88</value>
+000065 |                     <footnoteId id="F2"/>
+000066 |                 </transactionPricePerShare>
+000067 |                 <transactionAcquiredDisposedCode>
+000068 |                     <value>A</value>
+000069 |                 </transactionAcquiredDisposedCode>
+000070 |             </transactionAmounts>
+000071 |             <postTransactionAmounts>
+000072 |                 <sharesOwnedFollowingTransaction>
+000073 |                     <value>278</value>
+000074 |                     <footnoteId id="F2"/>
+000075 |                 </sharesOwnedFollowingTransaction>
+000076 |             </postTransactionAmounts>
+000077 |             <ownershipNature>
+000078 |                 <directOrIndirectOwnership>
+000079 |                     <value>D</value>
+000080 |                 </directOrIndirectOwnership>
+000081 |             </ownershipNature>
+000082 |         </nonDerivativeTransaction>
+000083 |     </nonDerivativeTable>
+000084 | 
+000085 |     <derivativeTable>
+000086 |         <derivativeTransaction>
+000087 |             <securityTitle>
+000088 |                 <value>Stock Option (right to buy)</value>
+000089 |             </securityTitle>
+000090 |             <conversionOrExercisePrice>
+000091 |                 <value>24.39</value>
+000092 |             </conversionOrExercisePrice>
+000093 |             <transactionDate>
+000094 |                 <value>2019-02-11</value>
+000095 |             </transactionDate>
+000096 |             <deemedExecutionDate></deemedExecutionDate>
+000097 |             <transactionCoding>
+000098 |                 <transactionFormType>4</transactionFormType>
+000099 |                 <transactionCode>A</transactionCode>
+000100 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000101 |             </transactionCoding>
+000102 |             <transactionTimeliness>
+000103 |                 <value></value>
+000104 |             </transactionTimeliness>
+000105 |             <transactionAmounts>
+000106 |                 <transactionShares>
+000107 |                     <value>68829</value>
+000108 |                 </transactionShares>
+000109 |                 <transactionPricePerShare>
+000110 |                     <value>0.00</value>
+000111 |                 </transactionPricePerShare>
+000112 |                 <transactionAcquiredDisposedCode>
+000113 |                     <value>A</value>
+000114 |                 </transactionAcquiredDisposedCode>
+000115 |             </transactionAmounts>
+000116 |             <exerciseDate>
+000117 |                 <footnoteId id="F3"/>
+000118 |             </exerciseDate>
+000119 |             <expirationDate>
+000120 |                 <value>2026-02-10</value>
+000121 |             </expirationDate>
+000122 |             <underlyingSecurity>
+000123 |                 <underlyingSecurityTitle>
+000124 |                     <value>Common Stock</value>
+000125 |                 </underlyingSecurityTitle>
+000126 |                 <underlyingSecurityShares>
+000127 |                     <value>68829</value>
+000128 |                 </underlyingSecurityShares>
+000129 |             </underlyingSecurity>
+000130 |             <postTransactionAmounts>
+000131 |                 <sharesOwnedFollowingTransaction>
+000132 |                     <value>68829</value>
+000133 |                 </sharesOwnedFollowingTransaction>
+000134 |             </postTransactionAmounts>
+000135 |             <ownershipNature>
+000136 |                 <directOrIndirectOwnership>
+000137 |                     <value>D</value>
+000138 |                 </directOrIndirectOwnership>
+000139 |             </ownershipNature>
+000140 |         </derivativeTransaction>
+000141 |         <derivativeTransaction>
+000142 |             <securityTitle>
+000143 |                 <value>Restricted Stock Units</value>
+000144 |             </securityTitle>
+000145 |             <conversionOrExercisePrice>
+000146 |                 <footnoteId id="F4"/>
+000147 |             </conversionOrExercisePrice>
+000148 |             <transactionDate>
+000149 |                 <value>2019-02-11</value>
+000150 |             </transactionDate>
+000151 |             <deemedExecutionDate></deemedExecutionDate>
+000152 |             <transactionCoding>
+000153 |                 <transactionFormType>4</transactionFormType>
+000154 |                 <transactionCode>A</transactionCode>
+000155 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000156 |             </transactionCoding>
+000157 |             <transactionTimeliness>
+000158 |                 <value></value>
+000159 |             </transactionTimeliness>
+000160 |             <transactionAmounts>
+000161 |                 <transactionShares>
+000162 |                     <value>19133</value>
+000163 |                 </transactionShares>
+000164 |                 <transactionPricePerShare>
+000165 |                     <value>0.00</value>
+000166 |                 </transactionPricePerShare>
+000167 |                 <transactionAcquiredDisposedCode>
+000168 |                     <value>A</value>
+000169 |                 </transactionAcquiredDisposedCode>
+000170 |             </transactionAmounts>
+000171 |             <exerciseDate>
+000172 |                 <footnoteId id="F4"/>
+000173 |             </exerciseDate>
+000174 |             <expirationDate>
+000175 |                 <footnoteId id="F4"/>
+000176 |             </expirationDate>
+000177 |             <underlyingSecurity>
+000178 |                 <underlyingSecurityTitle>
+000179 |                     <value>Common Stock</value>
+000180 |                 </underlyingSecurityTitle>
+000181 |                 <underlyingSecurityShares>
+000182 |                     <value>19133</value>
+000183 |                 </underlyingSecurityShares>
+000184 |             </underlyingSecurity>
+000185 |             <postTransactionAmounts>
+000186 |                 <sharesOwnedFollowingTransaction>
+000187 |                     <value>19133</value>
+000188 |                 </sharesOwnedFollowingTransaction>
+000189 |             </postTransactionAmounts>
+000190 |             <ownershipNature>
+000191 |                 <directOrIndirectOwnership>
+000192 |                     <value>D</value>
+000193 |                 </directOrIndirectOwnership>
+000194 |             </ownershipNature>
+000195 |         </derivativeTransaction>
+000196 |     </derivativeTable>
+000197 | 
+000198 |     <footnotes>
+000199 |         <footnote id="F1">The purchase reported in this Form 4 was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on December 14, 2018.</footnote>
+000200 |         <footnote id="F2">The price reported in this column is a weighted average price. These shares were purchased in multiple transactions at prices ranging from $24.087 to $24.088, inclusive. The Reporting Person undertakes to provide to Resideo Technologies, Inc. (&quot;Resideo&quot;), any security holder of Resideo, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.</footnote>
+000201 |         <footnote id="F3">Grant of non-qualified stock options under the 2018 Stock Incentive Plan of Resideo Technologies, Inc. and its Affiliates, and will vest in three equal installments on each of February 11, 2020, February 11, 2021 and February 11, 2022 subject to continued employment.</footnote>
+000202 |         <footnote id="F4">Restricted Stock Units were granted under the 2018 Stock Incentive Plan of Resideo Technologies, Inc. and its Affiliates, and will vest in three equal installments on each of February 11, 2020, February 11, 2021 and February 11, 2022 subject to continued employment.</footnote>
+000203 |     </footnotes>
+000204 | 
+000205 |     <remarks></remarks>
+000206 | 
+000207 |     <ownerSignature>
+000208 |         <signatureName>/s/ Jacqueline W. Katzel, as Attorney-in-Fact for Robert B. Aarnes</signatureName>
+000209 |         <signatureDate>2019-02-13</signatureDate>
+000210 |     </ownerSignature>
+000211 | </ownershipDocument>
+000212 | </XML>
+000213 | 

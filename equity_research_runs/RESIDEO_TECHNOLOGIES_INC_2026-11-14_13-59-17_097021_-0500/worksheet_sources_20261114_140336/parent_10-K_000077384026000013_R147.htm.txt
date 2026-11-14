@@ -1,0 +1,325 @@
+000001 | v3.25.4
+000002 | SUPPLEMENTAL CASH FLOW INFORMATION (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Net payments for repositioning and other charges
+000009 | Severance and exit cost payments
+000010 | $ (153)
+000011 | $ (189)
+000012 | $ (280)
+000013 | Environmental payments
+000014 | (175)
+000015 | (221)
+000016 | (196)
+000017 | Reimbursement receipts
+000018 | 105
+000019 | 140
+000020 | 140
+000021 | Insurance receipts for asbestos-related liabilities
+000022 | 17
+000023 | 24
+000024 | 39
+000025 | Insurance receivables settlements, write-offs, and other
+000026 | 0
+000027 | 9
+000028 | 26
+000029 | Asbestos-related liability payments
+000030 | (172)
+000031 | (233)
+000032 | (174)
+000033 | Total net payments for repositioning and other charges
+000034 | (378)
+000035 | (470)
+000036 | (445)
+000037 | Interest paid, net of amounts capitalized
+000038 | 1,300
+000039 | 869
+000040 | 649
+000041 | Income taxes paid, net of refunds
+000042 | 1,798
+000043 | 1,689
+000044 | 1,581
+000045 | Non-cash investing and financing activities
+000046 | Common stock contributed to savings plans
+000047 | $ 276
+000048 | $ 225
+000049 | $ 216
+000050 | X
+000051 | - Definition
+000052 | Amounts received from spin-off entities as described in indemnification agreements.
+000053 | + References
+000054 | No definition available.
+000055 | + Details
+000056 | Name:
+000057 | hon_LossContingencyIndemnityReceivable
+000058 | Namespace Prefix:
+000059 | hon_
+000060 | Data Type:
+000061 | xbrli:monetaryItemType
+000062 | Balance Type:
+000063 | debit
+000064 | Period Type:
+000065 | duration
+000066 | X
+000067 | - Definition
+000068 | Cash inflow from insurance receipts for asbestos related liabilities
+000069 | + References
+000070 | No definition available.
+000071 | + Details
+000072 | Name:
+000073 | hon_LossContingencyInsuranceReceiptsForAsbestosRelatedLiabilities
+000074 | Namespace Prefix:
+000075 | hon_
+000076 | Data Type:
+000077 | xbrli:monetaryItemType
+000078 | Balance Type:
+000079 | debit
+000080 | Period Type:
+000081 | duration
+000082 | X
+000083 | - Definition
+000084 | Insurance receivables settlements and write-offs
+000085 | + References
+000086 | No definition available.
+000087 | + Details
+000088 | Name:
+000089 | hon_LossContingencyRelatedReceivableIncreaseDecreaseDueToSettlementsWriteoffsAndOther
+000090 | Namespace Prefix:
+000091 | hon_
+000092 | Data Type:
+000093 | xbrli:monetaryItemType
+000094 | Balance Type:
+000095 | debit
+000096 | Period Type:
+000097 | duration
+000098 | X
+000099 | - Definition
+000100 | The amount of cash paid during the reporting period for charges associated with the consolidation and relocation of operations, disposition or abandonment of operations or productive assets (that is, for reorganizing and restructuring charges and
+000101 | + References
+000102 | No definition available.
+000103 | + Details
+000104 | Name:
+000105 | hon_NetPaymentsForRepositioningAndOtherCharges
+000106 | Namespace Prefix:
+000107 | hon_
+000108 | Data Type:
+000109 | xbrli:monetaryItemType
+000110 | Balance Type:
+000111 | credit
+000112 | Period Type:
+000113 | duration
+000114 | X
+000115 | - References
+000116 | No definition available.
+000117 | + Details
+000118 | Name:
+000119 | hon_PaymentsForRepositioningAndOtherChargesAbstract
+000120 | Namespace Prefix:
+000121 | hon_
+000122 | Data Type:
+000123 | xbrli:stringItemType
+000124 | Balance Type:
+000125 | na
+000126 | Period Type:
+000127 | duration
+000128 | X
+000129 | - Definition
+000130 | Common stock contributed to savings plans
+000131 | + References
+000132 | No definition available.
+000133 | + Details
+000134 | Name:
+000135 | hon_SupplementalCashFlowInformationCommonStockContributedToSavingsPlans
+000136 | Namespace Prefix:
+000137 | hon_
+000138 | Data Type:
+000139 | xbrli:monetaryItemType
+000140 | Balance Type:
+000141 | debit
+000142 | Period Type:
+000143 | duration
+000144 | X
+000145 | - References
+000146 | No definition available.
+000147 | + Details
+000148 | Name:
+000149 | us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract
+000150 | Namespace Prefix:
+000151 | us-gaap_
+000152 | Data Type:
+000153 | xbrli:stringItemType
+000154 | Balance Type:
+000155 | na
+000156 | Period Type:
+000157 | duration
+000158 | X
+000159 | - Definition
+000160 | Amount, after refund, of cash paid to foreign, federal, state, and local jurisdictions as income tax.
+000161 | + References
+000162 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000163 | -Topic 230
+000164 | -SubTopic 10
+000165 | -Name Accounting Standards Codification
+000166 | -Section 50
+000167 | -Paragraph 2A
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-2A
+000170 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000171 | -Topic 740
+000172 | -SubTopic 10
+000173 | -Name Accounting Standards Codification
+000174 | -Section 50
+000175 | -Paragraph 23
+000176 | -Publisher FASB
+000177 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-23
+000178 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000179 | -Topic 740
+000180 | -SubTopic 10
+000181 | -Name Accounting Standards Codification
+000182 | -Section 50
+000183 | -Paragraph 22
+000184 | -Publisher FASB
+000185 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-22
+000186 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000187 | -Name Accounting Standards Codification
+000188 | -Topic 230
+000189 | -SubTopic 10
+000190 | -Section 50
+000191 | -Paragraph 2
+000192 | -Publisher FASB
+000193 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-2
+000194 | + Details
+000195 | Name:
+000196 | us-gaap_IncomeTaxesPaidNet
+000197 | Namespace Prefix:
+000198 | us-gaap_
+000199 | Data Type:
+000200 | xbrli:monetaryItemType
+000201 | Balance Type:
+000202 | credit
+000203 | Period Type:
+000204 | duration
+000205 | X
+000206 | - Definition
+000207 | Amount of cash paid for interest, excluding capitalized interest, classified as operating activity. Includes, but is not limited to, payment to settle zero-coupon bond for accreted interest of debt discount and debt instrument with insignificant coupon interest rate in relation to effective interest rate of borrowing attributable to accreted interest of debt discount.
+000208 | + References
+000209 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000210 | -Topic 230
+000211 | -SubTopic 10
+000212 | -Name Accounting Standards Codification
+000213 | -Section 45
+000214 | -Paragraph 17
+000215 | -Subparagraph (d)
+000216 | -Publisher FASB
+000217 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-17
+000218 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000219 | -Topic 230
+000220 | -SubTopic 10
+000221 | -Name Accounting Standards Codification
+000222 | -Section 45
+000223 | -Paragraph 25
+000224 | -Subparagraph (e)
+000225 | -Publisher FASB
+000226 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-25
+000227 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000228 | -Topic 230
+000229 | -SubTopic 10
+000230 | -Name Accounting Standards Codification
+000231 | -Section 50
+000232 | -Paragraph 2
+000233 | -Publisher FASB
+000234 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-2
+000235 | + Details
+000236 | Name:
+000237 | us-gaap_InterestPaidNet
+000238 | Namespace Prefix:
+000239 | us-gaap_
+000240 | Data Type:
+000241 | xbrli:monetaryItemType
+000242 | Balance Type:
+000243 | credit
+000244 | Period Type:
+000245 | duration
+000246 | X
+000247 | - Definition
+000248 | Amount of cash outflow reducing loss contingency liability.
+000249 | + References
+000250 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000251 | -Topic 450
+000252 | -SubTopic 20
+000253 | -Name Accounting Standards Codification
+000254 | -Section 50
+000255 | -Paragraph 1
+000256 | -Publisher FASB
+000257 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000258 | + Details
+000259 | Name:
+000260 | us-gaap_LossContingencyAccrualPayments
+000261 | Namespace Prefix:
+000262 | us-gaap_
+000263 | Data Type:
+000264 | xbrli:monetaryItemType
+000265 | Balance Type:
+000266 | credit
+000267 | Period Type:
+000268 | duration
+000269 | X
+000270 | - Definition
+000271 | Cash outflows made during the period for environmental remediation activities.
+000272 | + References
+000273 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000274 | -Topic 230
+000275 | -SubTopic 10
+000276 | -Name Accounting Standards Codification
+000277 | -Section 45
+000278 | -Paragraph 17
+000279 | -Subparagraph (f)
+000280 | -Publisher FASB
+000281 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-17
+000282 | + Details
+000283 | Name:
+000284 | us-gaap_PaymentsForEnvironmentalLiabilities
+000285 | Namespace Prefix:
+000286 | us-gaap_
+000287 | Data Type:
+000288 | xbrli:monetaryItemType
+000289 | Balance Type:
+000290 | credit
+000291 | Period Type:
+000292 | duration
+000293 | X
+000294 | - Definition
+000295 | Amount of cash payments made as the result of exit or disposal activities. Excludes payments associated with a discontinued operation or an asset retirement obligation.
+000296 | + References
+000297 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000298 | -Topic 420
+000299 | -SubTopic 10
+000300 | -Name Accounting Standards Codification
+000301 | -Section 50
+000302 | -Paragraph 1
+000303 | -Subparagraph (b)(2)
+000304 | -Publisher FASB
+000305 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000306 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000307 | -Topic 230
+000308 | -SubTopic 10
+000309 | -Name Accounting Standards Codification
+000310 | -Section 45
+000311 | -Paragraph 17
+000312 | -Subparagraph (f)
+000313 | -Publisher FASB
+000314 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-17
+000315 | + Details
+000316 | Name:
+000317 | us-gaap_PaymentsForRestructuring
+000318 | Namespace Prefix:
+000319 | us-gaap_
+000320 | Data Type:
+000321 | xbrli:monetaryItemType
+000322 | Balance Type:
+000323 | credit
+000324 | Period Type:
+000325 | duration

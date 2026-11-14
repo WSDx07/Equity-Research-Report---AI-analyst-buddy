@@ -1,0 +1,166 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0306</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2018-11-16</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001740332</issuerCik>
+000015 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000016 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001190861</rptOwnerCik>
+000022 |             <rptOwnerName>DENINGER PAUL F</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>1985 DOUGLAS DRIVE NORTH</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2></rptOwnerStreet2>
+000027 |             <rptOwnerCity>GOLDEN VALLEY</rptOwnerCity>
+000028 |             <rptOwnerState>MN</rptOwnerState>
+000029 |             <rptOwnerZipCode>55422</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>1</isDirector>
+000034 |             <isOfficer>0</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |         </reportingOwnerRelationship>
+000038 |     </reportingOwner>
+000039 | 
+000040 |     <derivativeTable>
+000041 |         <derivativeTransaction>
+000042 |             <securityTitle>
+000043 |                 <value>Restricted Stock Units</value>
+000044 |             </securityTitle>
+000045 |             <conversionOrExercisePrice>
+000046 |                 <footnoteId id="F1"/>
+000047 |             </conversionOrExercisePrice>
+000048 |             <transactionDate>
+000049 |                 <value>2018-11-16</value>
+000050 |             </transactionDate>
+000051 |             <deemedExecutionDate></deemedExecutionDate>
+000052 |             <transactionCoding>
+000053 |                 <transactionFormType>4</transactionFormType>
+000054 |                 <transactionCode>A</transactionCode>
+000055 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000056 |             </transactionCoding>
+000057 |             <transactionTimeliness>
+000058 |                 <value></value>
+000059 |             </transactionTimeliness>
+000060 |             <transactionAmounts>
+000061 |                 <transactionShares>
+000062 |                     <value>5578</value>
+000063 |                 </transactionShares>
+000064 |                 <transactionPricePerShare>
+000065 |                     <value>0.00</value>
+000066 |                 </transactionPricePerShare>
+000067 |                 <transactionAcquiredDisposedCode>
+000068 |                     <value>A</value>
+000069 |                 </transactionAcquiredDisposedCode>
+000070 |             </transactionAmounts>
+000071 |             <exerciseDate>
+000072 |                 <footnoteId id="F1"/>
+000073 |             </exerciseDate>
+000074 |             <expirationDate>
+000075 |                 <footnoteId id="F1"/>
+000076 |             </expirationDate>
+000077 |             <underlyingSecurity>
+000078 |                 <underlyingSecurityTitle>
+000079 |                     <value>Common Stock</value>
+000080 |                 </underlyingSecurityTitle>
+000081 |                 <underlyingSecurityShares>
+000082 |                     <value>5578</value>
+000083 |                 </underlyingSecurityShares>
+000084 |             </underlyingSecurity>
+000085 |             <postTransactionAmounts>
+000086 |                 <sharesOwnedFollowingTransaction>
+000087 |                     <value>5578</value>
+000088 |                 </sharesOwnedFollowingTransaction>
+000089 |             </postTransactionAmounts>
+000090 |             <ownershipNature>
+000091 |                 <directOrIndirectOwnership>
+000092 |                     <value>D</value>
+000093 |                 </directOrIndirectOwnership>
+000094 |             </ownershipNature>
+000095 |         </derivativeTransaction>
+000096 |         <derivativeTransaction>
+000097 |             <securityTitle>
+000098 |                 <value>Restricted Stock Units</value>
+000099 |             </securityTitle>
+000100 |             <conversionOrExercisePrice>
+000101 |                 <footnoteId id="F2"/>
+000102 |             </conversionOrExercisePrice>
+000103 |             <transactionDate>
+000104 |                 <value>2018-11-16</value>
+000105 |             </transactionDate>
+000106 |             <deemedExecutionDate></deemedExecutionDate>
+000107 |             <transactionCoding>
+000108 |                 <transactionFormType>4</transactionFormType>
+000109 |                 <transactionCode>A</transactionCode>
+000110 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000111 |             </transactionCoding>
+000112 |             <transactionTimeliness>
+000113 |                 <value></value>
+000114 |             </transactionTimeliness>
+000115 |             <transactionAmounts>
+000116 |                 <transactionShares>
+000117 |                     <value>11157</value>
+000118 |                 </transactionShares>
+000119 |                 <transactionPricePerShare>
+000120 |                     <value>0.00</value>
+000121 |                 </transactionPricePerShare>
+000122 |                 <transactionAcquiredDisposedCode>
+000123 |                     <value>A</value>
+000124 |                 </transactionAcquiredDisposedCode>
+000125 |             </transactionAmounts>
+000126 |             <exerciseDate>
+000127 |                 <footnoteId id="F2"/>
+000128 |             </exerciseDate>
+000129 |             <expirationDate>
+000130 |                 <footnoteId id="F2"/>
+000131 |             </expirationDate>
+000132 |             <underlyingSecurity>
+000133 |                 <underlyingSecurityTitle>
+000134 |                     <value>Common Stock</value>
+000135 |                 </underlyingSecurityTitle>
+000136 |                 <underlyingSecurityShares>
+000137 |                     <value>11157</value>
+000138 |                 </underlyingSecurityShares>
+000139 |             </underlyingSecurity>
+000140 |             <postTransactionAmounts>
+000141 |                 <sharesOwnedFollowingTransaction>
+000142 |                     <value>11157</value>
+000143 |                 </sharesOwnedFollowingTransaction>
+000144 |             </postTransactionAmounts>
+000145 |             <ownershipNature>
+000146 |                 <directOrIndirectOwnership>
+000147 |                     <value>D</value>
+000148 |                 </directOrIndirectOwnership>
+000149 |             </ownershipNature>
+000150 |         </derivativeTransaction>
+000151 |     </derivativeTable>
+000152 | 
+000153 |     <footnotes>
+000154 |         <footnote id="F1">Grant of restricted stock units pursuant to the 2018 Stock Plan for Non-Employee Directors of Resideo Technologies, Inc., which will vest on the earliest of November 16, 2019, the reporting person's death or disability, or removal from the board of directors of Resideo coincident with the occurrence of a change in control.</footnote>
+000155 |         <footnote id="F2">Grant of restricted stock units pursuant to the 2018 Stock Plan for Non-Employee Directors of Resideo Technologies, Inc., which will vest as to 50% on November 16, 2021 and 50% on November 16, 2022 or, if earlier, shall fully vest upon the director's death or disability, or removal from the board of directors of Resideo coincident with the occurrence of a change in control.</footnote>
+000156 |     </footnotes>
+000157 | 
+000158 |     <remarks></remarks>
+000159 | 
+000160 |     <ownerSignature>
+000161 |         <signatureName>/s/ Jacqueline W. Katzel, as Attorney-in-Fact for Paul F. Deninger</signatureName>
+000162 |         <signatureDate>2018-11-19</signatureDate>
+000163 |     </ownerSignature>
+000164 | </ownershipDocument>
+000165 | </XML>
+000166 | 

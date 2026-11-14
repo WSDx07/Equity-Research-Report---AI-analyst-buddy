@@ -1,0 +1,1084 @@
+000001 | v3.10.0.1
+000002 | COMBINED INTERIM STATEMENT OF CASH FLOWS (Unaudited) - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2018
+000006 | Sep. 30, 2017
+000007 | Cash flows from operating activities:
+000008 | Net income
+000009 | $ 389
+000010 | $ 55
+000011 | Adjustments to reconcile net income to net cash provided by operating activities:
+000012 | Depreciation
+000013 | 40
+000014 | 42
+000015 | Amortization
+000016 | 9
+000017 | 8
+000018 | Repositioning
+000019 | 5
+000020 | 21
+000021 | Net payments for repositioning
+000022 | (9)
+000023 | (11)
+000024 | Stock compensation expense
+000025 | 15
+000026 | 12
+000027 | Pension expense
+000028 | 10
+000029 | 12
+000030 | Deferred income taxes
+000031 | (275)
+000032 | Bad debt expense
+000033 | 7
+000034 | 2
+000035 | Changes in assets and liabilities:
+000036 | Accounts, notes and other receivables
+000037 | (11)
+000038 | (5)
+000039 | Inventories
+000040 | (142)
+000041 | (90)
+000042 | Other current assets
+000043 | (4)
+000044 | (18)
+000045 | Other assets
+000046 | (6)
+000047 | (2)
+000048 | Accounts payable
+000049 | 151
+000050 | 120
+000051 | Accrued liabilities
+000052 | (15)
+000053 | (1)
+000054 | Other Liabilities
+000055 | 211
+000056 | 35
+000057 | Net cash provided by operating activities
+000058 | 375
+000059 | 180
+000060 | Cash flows used in investing activities:
+000061 | Expenditures for property, plant and equipment
+000062 | (63)
+000063 | (38)
+000064 | Proceeds received related to amounts due from related parties
+000065 | 7
+000066 | 13
+000067 | Issuance related to amounts due from related parties
+000068 | (13)
+000069 | Net cash used for investing activities
+000070 | (56)
+000071 | (38)
+000072 | Cash flows used in financing activities:
+000073 | Net (decrease) in invested equity
+000074 | (300)
+000075 | (142)
+000076 | Proceeds received related to amounts due to related parties
+000077 | 1
+000078 | Payments related to amounts due to related parties
+000079 | (2)
+000080 | (4)
+000081 | Net cash flows from cash pooling
+000082 | 115
+000083 | 10
+000084 | Net cash used for financing activities
+000085 | (186)
+000086 | (136)
+000087 | Effect of foreign exchange rate changes on cash and cash equivalents
+000088 | (5)
+000089 | 4
+000090 | Net increase in cash and cash equivalents
+000091 | 128
+000092 | 10
+000093 | Cash and cash equivalents at beginning of period
+000094 | 56
+000095 | 47
+000096 | Cash and cash equivalents at end of period
+000097 | 184
+000098 | 57
+000099 | Supplemental Cash Flow Information:
+000100 | Income taxes paid (net of refunds)
+000101 | $ 33
+000102 | $ 86
+000103 | X
+000104 | - Definition
+000105 | Increase decrease in equity investment.
+000106 | + References
+000107 | No definition available.
+000108 | + Details
+000109 | Name:
+000110 | rezi_IncreaseDecreaseInEquityInvestment
+000111 | Namespace Prefix:
+000112 | rezi_
+000113 | Data Type:
+000114 | xbrli:monetaryItemType
+000115 | Balance Type:
+000116 | credit
+000117 | Period Type:
+000118 | duration
+000119 | X
+000120 | - Definition
+000121 | The amount of cash paid during the reporting period for charges associated with the consolidation and relocation of operations, disposition or abandonment of operations or productive assets (that is, for reorganizing and restructuring charges.
+000122 | + References
+000123 | No definition available.
+000124 | + Details
+000125 | Name:
+000126 | rezi_NetPaymentsForRepositioning
+000127 | Namespace Prefix:
+000128 | rezi_
+000129 | Data Type:
+000130 | xbrli:monetaryItemType
+000131 | Balance Type:
+000132 | credit
+000133 | Period Type:
+000134 | duration
+000135 | X
+000136 | - Definition
+000137 | Proceeds from payments for cash pooling.
+000138 | + References
+000139 | No definition available.
+000140 | + Details
+000141 | Name:
+000142 | rezi_ProceedsFromPaymentsForCashPooling
+000143 | Namespace Prefix:
+000144 | rezi_
+000145 | Data Type:
+000146 | xbrli:monetaryItemType
+000147 | Balance Type:
+000148 | debit
+000149 | Period Type:
+000150 | duration
+000151 | X
+000152 | - References
+000153 | No definition available.
+000154 | + Details
+000155 | Name:
+000156 | us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract
+000157 | Namespace Prefix:
+000158 | us-gaap_
+000159 | Data Type:
+000160 | xbrli:stringItemType
+000161 | Balance Type:
+000162 | na
+000163 | Period Type:
+000164 | duration
+000165 | X
+000166 | - Definition
+000167 | The aggregate expense charged against earnings to allocate the cost of intangible assets (nonphysical assets not used in production) in a systematic and rational manner to the periods expected to benefit from such assets. As a noncash expense, this element is added back to net income when calculating cash provided by or used in operations using the indirect method.
+000168 | + References
+000169 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000170 | -Publisher FASB
+000171 | -Name Accounting Standards Codification
+000172 | -Topic 230
+000173 | -SubTopic 10
+000174 | -Section 45
+000175 | -Paragraph 28
+000176 | -Subparagraph (b)
+000177 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000178 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000179 | -Publisher FASB
+000180 | -Name Accounting Standards Codification
+000181 | -Topic 350
+000182 | -SubTopic 30
+000183 | -Section 50
+000184 | -Paragraph 2
+000185 | -Subparagraph (a)(2)
+000186 | -URI http://asc.fasb.org/extlink&oid=66006027&loc=d3e16323-109275
+000187 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000188 | -Publisher FASB
+000189 | -Name Accounting Standards Codification
+000190 | -Topic 350
+000191 | -SubTopic 30
+000192 | -Section 45
+000193 | -Paragraph 2
+000194 | -URI http://asc.fasb.org/extlink&oid=6388964&loc=d3e16225-109274
+000195 | + Details
+000196 | Name:
+000197 | us-gaap_AmortizationOfIntangibleAssets
+000198 | Namespace Prefix:
+000199 | us-gaap_
+000200 | Data Type:
+000201 | xbrli:monetaryItemType
+000202 | Balance Type:
+000203 | debit
+000204 | Period Type:
+000205 | duration
+000206 | X
+000207 | - Definition
+000208 | Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.
+000209 | + References
+000210 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000211 | -Publisher FASB
+000212 | -Name Accounting Standards Codification
+000213 | -Topic 230
+000214 | -SubTopic 10
+000215 | -Section 45
+000216 | -Paragraph 4
+000217 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3044-108585
+000218 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000219 | -Publisher FASB
+000220 | -Name Accounting Standards Codification
+000221 | -Topic 210
+000222 | -SubTopic 10
+000223 | -Section 45
+000224 | -Paragraph 1
+000225 | -Subparagraph (a)
+000226 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e6676-107765
+000227 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000228 | -Publisher FASB
+000229 | -Name Accounting Standards Codification
+000230 | -Topic 210
+000231 | -SubTopic 10
+000232 | -Section S99
+000233 | -Paragraph 1
+000234 | -Subparagraph (SX 210.5-02.1)
+000235 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000236 | + Details
+000237 | Name:
+000238 | us-gaap_CashAndCashEquivalentsAtCarryingValue
+000239 | Namespace Prefix:
+000240 | us-gaap_
+000241 | Data Type:
+000242 | xbrli:monetaryItemType
+000243 | Balance Type:
+000244 | debit
+000245 | Period Type:
+000246 | instant
+000247 | X
+000248 | - Definition
+000249 | Amount of increase (decrease) in cash and cash equivalents. Cash and cash equivalents are the amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Includes effect from exchange rate changes.
+000250 | + References
+000251 | No definition available.
+000252 | + Details
+000253 | Name:
+000254 | us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease
+000255 | Namespace Prefix:
+000256 | us-gaap_
+000257 | Data Type:
+000258 | xbrli:monetaryItemType
+000259 | Balance Type:
+000260 | debit
+000261 | Period Type:
+000262 | duration
+000263 | X
+000264 | - Definition
+000265 | Amount of deferred income tax expense (benefit) pertaining to income (loss) from continuing operations.
+000266 | + References
+000267 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000268 | -Publisher FASB
+000269 | -Name Accounting Standards Codification
+000270 | -Topic 740
+000271 | -SubTopic 10
+000272 | -Section S99
+000273 | -Paragraph 1
+000274 | -Subparagraph (SAB Topic 6.I.7)
+000275 | -URI http://asc.fasb.org/extlink&oid=34349781&loc=d3e330036-122817
+000276 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000277 | -Publisher FASB
+000278 | -Name Accounting Standards Codification
+000279 | -Topic 235
+000280 | -SubTopic 10
+000281 | -Section S99
+000282 | -Paragraph 1
+000283 | -Subparagraph (SX 210.4-08(h))
+000284 | -URI http://asc.fasb.org/extlink&oid=26873400&loc=d3e23780-122690
+000285 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000286 | -Publisher FASB
+000287 | -Name Accounting Standards Codification
+000288 | -Topic 230
+000289 | -SubTopic 10
+000290 | -Section 45
+000291 | -Paragraph 28
+000292 | -Subparagraph (b)
+000293 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000294 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000295 | -Publisher FASB
+000296 | -Name Accounting Standards Codification
+000297 | -Topic 740
+000298 | -SubTopic 10
+000299 | -Section 50
+000300 | -Paragraph 9
+000301 | -Subparagraph (b)
+000302 | -URI http://asc.fasb.org/extlink&oid=84230637&loc=d3e32639-109319
+000303 | + Details
+000304 | Name:
+000305 | us-gaap_DeferredIncomeTaxExpenseBenefit
+000306 | Namespace Prefix:
+000307 | us-gaap_
+000308 | Data Type:
+000309 | xbrli:monetaryItemType
+000310 | Balance Type:
+000311 | debit
+000312 | Period Type:
+000313 | duration
+000314 | X
+000315 | - Definition
+000316 | The amount of expense recognized in the current period that reflects the allocation of the cost of tangible assets over the assets' useful lives. Includes production and non-production related depreciation.
+000317 | + References
+000318 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000319 | -Publisher FASB
+000320 | -Name Accounting Standards Codification
+000321 | -Topic 360
+000322 | -SubTopic 10
+000323 | -Section 50
+000324 | -Paragraph 1
+000325 | -Subparagraph (a)
+000326 | -URI http://asc.fasb.org/extlink&oid=6391035&loc=d3e2868-110229
+000327 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000328 | -Publisher FASB
+000329 | -Name Accounting Standards Codification
+000330 | -Topic 230
+000331 | -SubTopic 10
+000332 | -Section 45
+000333 | -Paragraph 28
+000334 | -Subparagraph (b)
+000335 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000336 | + Details
+000337 | Name:
+000338 | us-gaap_Depreciation
+000339 | Namespace Prefix:
+000340 | us-gaap_
+000341 | Data Type:
+000342 | xbrli:monetaryItemType
+000343 | Balance Type:
+000344 | debit
+000345 | Period Type:
+000346 | duration
+000347 | X
+000348 | - Definition
+000349 | Amount of increase (decrease) from the effect of exchange rate changes on cash and cash equivalent balances held in foreign currencies.
+000350 | + References
+000351 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000352 | -Publisher FASB
+000353 | -Name Accounting Standards Codification
+000354 | -Topic 830
+000355 | -SubTopic 230
+000356 | -Section 45
+000357 | -Paragraph 1
+000358 | -URI http://asc.fasb.org/extlink&oid=98513438&loc=d3e33268-110906
+000359 | + Details
+000360 | Name:
+000361 | us-gaap_EffectOfExchangeRateOnCashAndCashEquivalents
+000362 | Namespace Prefix:
+000363 | us-gaap_
+000364 | Data Type:
+000365 | xbrli:monetaryItemType
+000366 | Balance Type:
+000367 | debit
+000368 | Period Type:
+000369 | duration
+000370 | X
+000371 | - Definition
+000372 | The amount of cash paid during the current period to foreign, federal, state, and local authorities as taxes on income, net of any cash received during the current period as refunds for the overpayment of taxes.
+000373 | + References
+000374 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000375 | -Publisher FASB
+000376 | -Name Accounting Standards Codification
+000377 | -Topic 230
+000378 | -SubTopic 10
+000379 | -Section 50
+000380 | -Paragraph 2
+000381 | -URI http://asc.fasb.org/extlink&oid=98513485&loc=d3e4297-108586
+000382 | + Details
+000383 | Name:
+000384 | us-gaap_IncomeTaxesPaidNet
+000385 | Namespace Prefix:
+000386 | us-gaap_
+000387 | Data Type:
+000388 | xbrli:monetaryItemType
+000389 | Balance Type:
+000390 | credit
+000391 | Period Type:
+000392 | duration
+000393 | X
+000394 | - Definition
+000395 | The increase (decrease) during the reporting period in the aggregate amount of liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received that are used in an entity's business.
+000396 | + References
+000397 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000398 | -Publisher FASB
+000399 | -Name Accounting Standards Codification
+000400 | -Topic 230
+000401 | -SubTopic 10
+000402 | -Section 45
+000403 | -Paragraph 28
+000404 | -Subparagraph (a)
+000405 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000406 | + Details
+000407 | Name:
+000408 | us-gaap_IncreaseDecreaseInAccountsPayable
+000409 | Namespace Prefix:
+000410 | us-gaap_
+000411 | Data Type:
+000412 | xbrli:monetaryItemType
+000413 | Balance Type:
+000414 | debit
+000415 | Period Type:
+000416 | duration
+000417 | X
+000418 | - Definition
+000419 | The increase (decrease) during the reporting period in the aggregate amount of expenses incurred but not yet paid.
+000420 | + References
+000421 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000422 | -Publisher FASB
+000423 | -Name Accounting Standards Codification
+000424 | -Topic 230
+000425 | -SubTopic 10
+000426 | -Section 45
+000427 | -Paragraph 28
+000428 | -Subparagraph (a)
+000429 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000430 | + Details
+000431 | Name:
+000432 | us-gaap_IncreaseDecreaseInAccruedLiabilities
+000433 | Namespace Prefix:
+000434 | us-gaap_
+000435 | Data Type:
+000436 | xbrli:monetaryItemType
+000437 | Balance Type:
+000438 | debit
+000439 | Period Type:
+000440 | duration
+000441 | X
+000442 | - Definition
+000443 | The increase (decrease) during the reporting period in the aggregate value of all inventory held by the reporting entity, associated with underlying transactions that are classified as operating activities.
+000444 | + References
+000445 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000446 | -Publisher FASB
+000447 | -Name Accounting Standards Codification
+000448 | -Topic 230
+000449 | -SubTopic 10
+000450 | -Section 45
+000451 | -Paragraph 28
+000452 | -Subparagraph (a)
+000453 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000454 | + Details
+000455 | Name:
+000456 | us-gaap_IncreaseDecreaseInInventories
+000457 | Namespace Prefix:
+000458 | us-gaap_
+000459 | Data Type:
+000460 | xbrli:monetaryItemType
+000461 | Balance Type:
+000462 | credit
+000463 | Period Type:
+000464 | duration
+000465 | X
+000466 | - References
+000467 | No definition available.
+000468 | + Details
+000469 | Name:
+000470 | us-gaap_IncreaseDecreaseInOperatingCapitalAbstract
+000471 | Namespace Prefix:
+000472 | us-gaap_
+000473 | Data Type:
+000474 | xbrli:stringItemType
+000475 | Balance Type:
+000476 | na
+000477 | Period Type:
+000478 | duration
+000479 | X
+000480 | - Definition
+000481 | Amount of increase (decrease) in current assets classified as other.
+000482 | + References
+000483 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000484 | -Publisher FASB
+000485 | -Name Accounting Standards Codification
+000486 | -Topic 230
+000487 | -SubTopic 10
+000488 | -Section 45
+000489 | -Paragraph 28
+000490 | -Subparagraph (a)
+000491 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000492 | + Details
+000493 | Name:
+000494 | us-gaap_IncreaseDecreaseInOtherCurrentAssets
+000495 | Namespace Prefix:
+000496 | us-gaap_
+000497 | Data Type:
+000498 | xbrli:monetaryItemType
+000499 | Balance Type:
+000500 | credit
+000501 | Period Type:
+000502 | duration
+000503 | X
+000504 | - Definition
+000505 | Amount of increase (decrease) in operating assets classified as other.
+000506 | + References
+000507 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000508 | -Publisher FASB
+000509 | -Name Accounting Standards Codification
+000510 | -Topic 230
+000511 | -SubTopic 10
+000512 | -Section 45
+000513 | -Paragraph 28
+000514 | -Subparagraph (a)
+000515 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000516 | + Details
+000517 | Name:
+000518 | us-gaap_IncreaseDecreaseInOtherOperatingAssets
+000519 | Namespace Prefix:
+000520 | us-gaap_
+000521 | Data Type:
+000522 | xbrli:monetaryItemType
+000523 | Balance Type:
+000524 | credit
+000525 | Period Type:
+000526 | duration
+000527 | X
+000528 | - Definition
+000529 | Amount of increase (decrease) in operating liabilities classified as other.
+000530 | + References
+000531 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000532 | -Publisher FASB
+000533 | -Name Accounting Standards Codification
+000534 | -Topic 230
+000535 | -SubTopic 10
+000536 | -Section 45
+000537 | -Paragraph 28
+000538 | -Subparagraph (a)
+000539 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000540 | + Details
+000541 | Name:
+000542 | us-gaap_IncreaseDecreaseInOtherOperatingLiabilities
+000543 | Namespace Prefix:
+000544 | us-gaap_
+000545 | Data Type:
+000546 | xbrli:monetaryItemType
+000547 | Balance Type:
+000548 | debit
+000549 | Period Type:
+000550 | duration
+000551 | X
+000552 | - Definition
+000553 | The increase (decrease) during the reporting period in the total amount due within one year (or one operating cycle) from all parties, associated with underlying transactions that are classified as operating activities.
+000554 | + References
+000555 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000556 | -Publisher FASB
+000557 | -Name Accounting Standards Codification
+000558 | -Topic 230
+000559 | -SubTopic 10
+000560 | -Section 45
+000561 | -Paragraph 28
+000562 | -Subparagraph (a)
+000563 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000564 | + Details
+000565 | Name:
+000566 | us-gaap_IncreaseDecreaseInReceivables
+000567 | Namespace Prefix:
+000568 | us-gaap_
+000569 | Data Type:
+000570 | xbrli:monetaryItemType
+000571 | Balance Type:
+000572 | credit
+000573 | Period Type:
+000574 | duration
+000575 | X
+000576 | - Definition
+000577 | Amount of cash inflow (outflow) from financing activities, including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on, and a return of, their investment; borrowing money and repaying amounts borrowed, or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.
+000578 | + References
+000579 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000580 | -Publisher FASB
+000581 | -Name Accounting Standards Codification
+000582 | -Topic 230
+000583 | -SubTopic 10
+000584 | -Section 45
+000585 | -Paragraph 24
+000586 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3521-108585
+000587 | + Details
+000588 | Name:
+000589 | us-gaap_NetCashProvidedByUsedInFinancingActivities
+000590 | Namespace Prefix:
+000591 | us-gaap_
+000592 | Data Type:
+000593 | xbrli:monetaryItemType
+000594 | Balance Type:
+000595 | debit
+000596 | Period Type:
+000597 | duration
+000598 | X
+000599 | - References
+000600 | No definition available.
+000601 | + Details
+000602 | Name:
+000603 | us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract
+000604 | Namespace Prefix:
+000605 | us-gaap_
+000606 | Data Type:
+000607 | xbrli:stringItemType
+000608 | Balance Type:
+000609 | na
+000610 | Period Type:
+000611 | duration
+000612 | X
+000613 | - Definition
+000614 | Amount of cash inflow (outflow) from investing activities, including discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property, plant, and equipment and other productive assets.
+000615 | + References
+000616 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000617 | -Publisher FASB
+000618 | -Name Accounting Standards Codification
+000619 | -Topic 230
+000620 | -SubTopic 10
+000621 | -Section 45
+000622 | -Paragraph 24
+000623 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3521-108585
+000624 | + Details
+000625 | Name:
+000626 | us-gaap_NetCashProvidedByUsedInInvestingActivities
+000627 | Namespace Prefix:
+000628 | us-gaap_
+000629 | Data Type:
+000630 | xbrli:monetaryItemType
+000631 | Balance Type:
+000632 | debit
+000633 | Period Type:
+000634 | duration
+000635 | X
+000636 | - References
+000637 | No definition available.
+000638 | + Details
+000639 | Name:
+000640 | us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract
+000641 | Namespace Prefix:
+000642 | us-gaap_
+000643 | Data Type:
+000644 | xbrli:stringItemType
+000645 | Balance Type:
+000646 | na
+000647 | Period Type:
+000648 | duration
+000649 | X
+000650 | - Definition
+000651 | Amount of cash inflow (outflow) from operating activities, including discontinued operations. Operating activity cash flows include transactions, adjustments, and changes in value not defined as investing or financing activities.
+000652 | + References
+000653 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000654 | -Publisher FASB
+000655 | -Name Accounting Standards Codification
+000656 | -Topic 230
+000657 | -SubTopic 10
+000658 | -Section 45
+000659 | -Paragraph 25
+000660 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3536-108585
+000661 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000662 | -Publisher FASB
+000663 | -Name Accounting Standards Codification
+000664 | -Topic 230
+000665 | -SubTopic 10
+000666 | -Section 45
+000667 | -Paragraph 24
+000668 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3521-108585
+000669 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000670 | -Publisher FASB
+000671 | -Name Accounting Standards Codification
+000672 | -Topic 230
+000673 | -SubTopic 10
+000674 | -Section 45
+000675 | -Paragraph 28
+000676 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000677 | + Details
+000678 | Name:
+000679 | us-gaap_NetCashProvidedByUsedInOperatingActivities
+000680 | Namespace Prefix:
+000681 | us-gaap_
+000682 | Data Type:
+000683 | xbrli:monetaryItemType
+000684 | Balance Type:
+000685 | na
+000686 | Period Type:
+000687 | duration
+000688 | X
+000689 | - References
+000690 | No definition available.
+000691 | + Details
+000692 | Name:
+000693 | us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract
+000694 | Namespace Prefix:
+000695 | us-gaap_
+000696 | Data Type:
+000697 | xbrli:stringItemType
+000698 | Balance Type:
+000699 | na
+000700 | Period Type:
+000701 | duration
+000702 | X
+000703 | - Definition
+000704 | The cash outflow associated with the acquisition of long-lived, physical assets that are used in the normal conduct of business to produce goods and services and not intended for resale; includes cash outflows to pay for construction of self-constructed assets.
+000705 | + References
+000706 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000707 | -Publisher FASB
+000708 | -Name Accounting Standards Codification
+000709 | -Topic 230
+000710 | -SubTopic 10
+000711 | -Section 45
+000712 | -Paragraph 13
+000713 | -Subparagraph (c)
+000714 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3213-108585
+000715 | + Details
+000716 | Name:
+000717 | us-gaap_PaymentsToAcquirePropertyPlantAndEquipment
+000718 | Namespace Prefix:
+000719 | us-gaap_
+000720 | Data Type:
+000721 | xbrli:monetaryItemType
+000722 | Balance Type:
+000723 | credit
+000724 | Period Type:
+000725 | duration
+000726 | X
+000727 | - Definition
+000728 | The cash outflow associated with extending a long-term loan to a related party. Alternate caption: Payments for Advances to Affiliates.
+000729 | + References
+000730 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000731 | -Publisher FASB
+000732 | -Name Accounting Standards Codification
+000733 | -Topic 850
+000734 | -SubTopic 10
+000735 | -Section 50
+000736 | -Paragraph 1
+000737 | -Subparagraph (c)
+000738 | -URI http://asc.fasb.org/extlink&oid=6457730&loc=d3e39549-107864
+000739 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000740 | -Publisher FASB
+000741 | -Name Accounting Standards Codification
+000742 | -Topic 230
+000743 | -SubTopic 10
+000744 | -Section 45
+000745 | -Paragraph 13
+000746 | -Subparagraph (a)
+000747 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3213-108585
+000748 | + Details
+000749 | Name:
+000750 | us-gaap_PaymentsToFundLongtermLoansToRelatedParties
+000751 | Namespace Prefix:
+000752 | us-gaap_
+000753 | Data Type:
+000754 | xbrli:monetaryItemType
+000755 | Balance Type:
+000756 | credit
+000757 | Period Type:
+000758 | duration
+000759 | X
+000760 | - Definition
+000761 | Amount of noncash expense (reversal of expense) for pension benefits. Excludes other postretirement benefits.
+000762 | + References
+000763 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000764 | -Publisher FASB
+000765 | -Name Accounting Standards Codification
+000766 | -Topic 230
+000767 | -SubTopic 10
+000768 | -Section 45
+000769 | -Paragraph 28
+000770 | -Subparagraph (b)
+000771 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000772 | + Details
+000773 | Name:
+000774 | us-gaap_PensionExpenseReversalOfExpenseNoncash
+000775 | Namespace Prefix:
+000776 | us-gaap_
+000777 | Data Type:
+000778 | xbrli:monetaryItemType
+000779 | Balance Type:
+000780 | debit
+000781 | Period Type:
+000782 | duration
+000783 | X
+000784 | - Definition
+000785 | The cash inflow associated with collection, whether partial or full, of long-term loans to a related party. Alternate caption: Proceeds from Advances to Affiliates.
+000786 | + References
+000787 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000788 | -Publisher FASB
+000789 | -Name Accounting Standards Codification
+000790 | -Topic 230
+000791 | -SubTopic 10
+000792 | -Section 45
+000793 | -Paragraph 12
+000794 | -Subparagraph (a)
+000795 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3179-108585
+000796 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000797 | -Publisher FASB
+000798 | -Name Accounting Standards Codification
+000799 | -Topic 850
+000800 | -SubTopic 10
+000801 | -Section 50
+000802 | -Paragraph 1
+000803 | -Subparagraph (c)
+000804 | -URI http://asc.fasb.org/extlink&oid=6457730&loc=d3e39549-107864
+000805 | + Details
+000806 | Name:
+000807 | us-gaap_ProceedsFromCollectionOfLongtermLoansToRelatedParties
+000808 | Namespace Prefix:
+000809 | us-gaap_
+000810 | Data Type:
+000811 | xbrli:monetaryItemType
+000812 | Balance Type:
+000813 | debit
+000814 | Period Type:
+000815 | duration
+000816 | X
+000817 | - Definition
+000818 | The cash inflow from a long-term borrowing made from related parties where one party can exercise control or significant influence over another party; including affiliates, owners or officers and their immediate families, pension trusts, and so forth. Alternate caption: Proceeds from Advances from Affiliates.
+000819 | + References
+000820 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000821 | -Publisher FASB
+000822 | -Name Accounting Standards Codification
+000823 | -Topic 230
+000824 | -SubTopic 10
+000825 | -Section 45
+000826 | -Paragraph 14
+000827 | -Subparagraph (b)
+000828 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3255-108585
+000829 | + Details
+000830 | Name:
+000831 | us-gaap_ProceedsFromRelatedPartyDebt
+000832 | Namespace Prefix:
+000833 | us-gaap_
+000834 | Data Type:
+000835 | xbrli:monetaryItemType
+000836 | Balance Type:
+000837 | debit
+000838 | Period Type:
+000839 | duration
+000840 | X
+000841 | - Definition
+000842 | The consolidated profit or loss for the period, net of income taxes, including the portion attributable to the noncontrolling interest.
+000843 | + References
+000844 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000845 | -Publisher FASB
+000846 | -Name Accounting Standards Codification
+000847 | -Topic 220
+000848 | -SubTopic 10
+000849 | -Section 45
+000850 | -Paragraph 1A
+000851 | -Subparagraph (a)
+000852 | -URI http://asc.fasb.org/extlink&oid=114867106&loc=SL7669619-108580
+000853 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000854 | -Publisher FASB
+000855 | -Name Accounting Standards Codification
+000856 | -Topic 810
+000857 | -SubTopic 10
+000858 | -Section 50
+000859 | -Paragraph 1A
+000860 | -Subparagraph (a)(1)
+000861 | -URI http://asc.fasb.org/extlink&oid=109239629&loc=SL4573702-111684
+000862 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000863 | -Publisher FASB
+000864 | -Name Accounting Standards Codification
+000865 | -Topic 220
+000866 | -SubTopic 10
+000867 | -Section 45
+000868 | -Paragraph 1B
+000869 | -Subparagraph (a)
+000870 | -URI http://asc.fasb.org/extlink&oid=114867106&loc=SL7669625-108580
+000871 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000872 | -Publisher FASB
+000873 | -Name Accounting Standards Codification
+000874 | -Topic 810
+000875 | -SubTopic 10
+000876 | -Section 50
+000877 | -Paragraph 1A
+000878 | -Subparagraph (c)(1)
+000879 | -URI http://asc.fasb.org/extlink&oid=109239629&loc=SL4573702-111684
+000880 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000881 | -Publisher FASB
+000882 | -Name Accounting Standards Codification
+000883 | -Topic 280
+000884 | -SubTopic 10
+000885 | -Section 50
+000886 | -Paragraph 22
+000887 | -URI http://asc.fasb.org/extlink&oid=115929826&loc=d3e8736-108599
+000888 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000889 | -Publisher FASB
+000890 | -Name Accounting Standards Codification
+000891 | -Topic 810
+000892 | -SubTopic 10
+000893 | -Section 55
+000894 | -Paragraph 4J
+000895 | -URI http://asc.fasb.org/extlink&oid=84234705&loc=SL4591551-111686
+000896 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000897 | -Publisher FASB
+000898 | -Name Accounting Standards Codification
+000899 | -Topic 230
+000900 | -SubTopic 10
+000901 | -Section 45
+000902 | -Paragraph 2
+000903 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3000-108585
+000904 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000905 | -Publisher FASB
+000906 | -Name Accounting Standards Codification
+000907 | -Topic 810
+000908 | -SubTopic 10
+000909 | -Section 45
+000910 | -Paragraph 19
+000911 | -URI http://asc.fasb.org/extlink&oid=108774443&loc=SL4569616-111683
+000912 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000913 | -Publisher FASB
+000914 | -Name Accounting Standards Codification
+000915 | -Topic 280
+000916 | -SubTopic 10
+000917 | -Section 50
+000918 | -Paragraph 32
+000919 | -Subparagraph (c)
+000920 | -URI http://asc.fasb.org/extlink&oid=115929826&loc=d3e8933-108599
+000921 | Reference 10: http://www.xbrl.org/2003/role/exampleRef
+000922 | -Publisher FASB
+000923 | -Name Accounting Standards Codification
+000924 | -Topic 810
+000925 | -SubTopic 10
+000926 | -Section 55
+000927 | -Paragraph 4K
+000928 | -URI http://asc.fasb.org/extlink&oid=84234705&loc=SL4591552-111686
+000929 | + Details
+000930 | Name:
+000931 | us-gaap_ProfitLoss
+000932 | Namespace Prefix:
+000933 | us-gaap_
+000934 | Data Type:
+000935 | xbrli:monetaryItemType
+000936 | Balance Type:
+000937 | credit
+000938 | Period Type:
+000939 | duration
+000940 | X
+000941 | - Definition
+000942 | Amount of expense related to write-down of receivables to the amount expected to be collected. Includes, but is not limited to, accounts receivable and notes receivable.
+000943 | + References
+000944 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000945 | -Publisher FASB
+000946 | -Name Accounting Standards Codification
+000947 | -Topic 220
+000948 | -SubTopic 10
+000949 | -Section S99
+000950 | -Paragraph 2
+000951 | -Subparagraph (SX 210.5-03.5)
+000952 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000953 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000954 | -Publisher FASB
+000955 | -Name Accounting Standards Codification
+000956 | -Topic 606
+000957 | -SubTopic 10
+000958 | -Section 45
+000959 | -Paragraph 4
+000960 | -URI http://asc.fasb.org/extlink&oid=82913815&loc=SL49130534-203044
+000961 | + Details
+000962 | Name:
+000963 | us-gaap_ProvisionForDoubtfulAccounts
+000964 | Namespace Prefix:
+000965 | us-gaap_
+000966 | Data Type:
+000967 | xbrli:monetaryItemType
+000968 | Balance Type:
+000969 | debit
+000970 | Period Type:
+000971 | duration
+000972 | X
+000973 | - Definition
+000974 | The cash outflow for the payment of a long-term borrowing made from a related party where one party can exercise control or significant influence over another party; including affiliates, owners or officers and their immediate families, pension trusts, and so forth. Alternate caption: Payments for Advances from Affiliates.
+000975 | + References
+000976 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000977 | -Publisher FASB
+000978 | -Name Accounting Standards Codification
+000979 | -Topic 230
+000980 | -SubTopic 10
+000981 | -Section 45
+000982 | -Paragraph 15
+000983 | -Subparagraph (b)
+000984 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3291-108585
+000985 | + Details
+000986 | Name:
+000987 | us-gaap_RepaymentsOfRelatedPartyDebt
+000988 | Namespace Prefix:
+000989 | us-gaap_
+000990 | Data Type:
+000991 | xbrli:monetaryItemType
+000992 | Balance Type:
+000993 | credit
+000994 | Period Type:
+000995 | duration
+000996 | X
+000997 | - Definition
+000998 | Amount of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.
+000999 | + References
+001000 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+001001 | -Publisher FASB
+001002 | -Name Accounting Standards Codification
+001003 | -Topic 420
+001004 | -SubTopic 10
+001005 | -Section S99
+001006 | -Paragraph 1
+001007 | -Subparagraph (SAB Topic 5.P.3)
+001008 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140864-122747
+001009 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+001010 | -Publisher FASB
+001011 | -Name Accounting Standards Codification
+001012 | -Topic 420
+001013 | -SubTopic 10
+001014 | -Section 50
+001015 | -Paragraph 1
+001016 | -Subparagraph (b)
+001017 | -URI http://asc.fasb.org/extlink&oid=6394359&loc=d3e17939-110869
+001018 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+001019 | -Publisher FASB
+001020 | -Name Accounting Standards Codification
+001021 | -Topic 230
+001022 | -SubTopic 10
+001023 | -Section 45
+001024 | -Paragraph 28
+001025 | -Subparagraph (b)
+001026 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+001027 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+001028 | -Publisher FASB
+001029 | -Name Accounting Standards Codification
+001030 | -Topic 420
+001031 | -SubTopic 10
+001032 | -Section S99
+001033 | -Paragraph 2
+001034 | -Subparagraph (SAB Topic 5.P.4(b))
+001035 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140904-122747
+001036 | + Details
+001037 | Name:
+001038 | us-gaap_RestructuringCharges
+001039 | Namespace Prefix:
+001040 | us-gaap_
+001041 | Data Type:
+001042 | xbrli:monetaryItemType
+001043 | Balance Type:
+001044 | debit
+001045 | Period Type:
+001046 | duration
+001047 | X
+001048 | - Definition
+001049 | The aggregate amount of noncash, equity-based employee remuneration. This may include the value of stock or unit options, amortization of restricted stock or units, and adjustment for officers' compensation. As noncash, this element is an add back when calculating net cash generated by operating activities using the indirect method.
+001050 | + References
+001051 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+001052 | -Publisher FASB
+001053 | -Name Accounting Standards Codification
+001054 | -Topic 230
+001055 | -SubTopic 10
+001056 | -Section 45
+001057 | -Paragraph 28
+001058 | -Subparagraph (a)
+001059 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+001060 | + Details
+001061 | Name:
+001062 | us-gaap_ShareBasedCompensation
+001063 | Namespace Prefix:
+001064 | us-gaap_
+001065 | Data Type:
+001066 | xbrli:monetaryItemType
+001067 | Balance Type:
+001068 | debit
+001069 | Period Type:
+001070 | duration
+001071 | X
+001072 | - References
+001073 | No definition available.
+001074 | + Details
+001075 | Name:
+001076 | us-gaap_SupplementalCashFlowInformationAbstract
+001077 | Namespace Prefix:
+001078 | us-gaap_
+001079 | Data Type:
+001080 | xbrli:stringItemType
+001081 | Balance Type:
+001082 | na
+001083 | Period Type:
+001084 | duration

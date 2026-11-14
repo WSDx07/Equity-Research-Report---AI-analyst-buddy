@@ -1,0 +1,221 @@
+000001 | v3.10.0.1
+000002 | Related Party Transactions with Honeywell - Summary of Due to Related Parties, Current (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2018
+000005 | Dec. 31, 2017
+000006 | Related Party Transaction [Line Items]
+000007 | Due to related parties, current
+000008 | $ 162
+000009 | $ 60
+000010 | Honeywell
+000011 | Related Party Transaction [Line Items]
+000012 | Cash pooling and short-term notes payables, net
+000013 | 140
+000014 | 23
+000015 | Payables to related parties
+000016 | 21
+000017 | 36
+000018 | Foreign currency exchange contracts
+000019 | 1
+000020 | Related party notes payables
+000021 | 1
+000022 | Due to related parties, current
+000023 | $ 162
+000024 | $ 60
+000025 | X
+000026 | - Definition
+000027 | Cash pooling and short term notes payables net related parties current.
+000028 | + References
+000029 | No definition available.
+000030 | + Details
+000031 | Name:
+000032 | rezi_CashPoolingAndShortTermNotesPayablesNetRelatedPartiesCurrent
+000033 | Namespace Prefix:
+000034 | rezi_
+000035 | Data Type:
+000036 | xbrli:monetaryItemType
+000037 | Balance Type:
+000038 | credit
+000039 | Period Type:
+000040 | instant
+000041 | X
+000042 | - Definition
+000043 | Foreign currency exchange contracts related parties current.
+000044 | + References
+000045 | No definition available.
+000046 | + Details
+000047 | Name:
+000048 | rezi_ForeignCurrencyExchangeContractsRelatedPartiesCurrent
+000049 | Namespace Prefix:
+000050 | rezi_
+000051 | Data Type:
+000052 | xbrli:monetaryItemType
+000053 | Balance Type:
+000054 | credit
+000055 | Period Type:
+000056 | instant
+000057 | X
+000058 | - Definition
+000059 | Amount for accounts payable to related parties. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000060 | + References
+000061 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000062 | -Publisher FASB
+000063 | -Name Accounting Standards Codification
+000064 | -Topic 210
+000065 | -SubTopic 10
+000066 | -Section S99
+000067 | -Paragraph 1
+000068 | -Subparagraph (SX 210.5-02.19(a))
+000069 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000070 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000071 | -Publisher FASB
+000072 | -Name Accounting Standards Codification
+000073 | -Topic 850
+000074 | -SubTopic 10
+000075 | -Section 50
+000076 | -Paragraph 1
+000077 | -URI http://asc.fasb.org/extlink&oid=6457730&loc=d3e39549-107864
+000078 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000079 | -Publisher FASB
+000080 | -Name Accounting Standards Codification
+000081 | -Topic 850
+000082 | -SubTopic 10
+000083 | -Section 50
+000084 | -Paragraph 3
+000085 | -URI http://asc.fasb.org/extlink&oid=6457730&loc=d3e39603-107864
+000086 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000087 | -Publisher FASB
+000088 | -Name Accounting Standards Codification
+000089 | -Topic 850
+000090 | -SubTopic 10
+000091 | -Section 50
+000092 | -Paragraph 4
+000093 | -URI http://asc.fasb.org/extlink&oid=6457730&loc=d3e39622-107864
+000094 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000095 | -Publisher FASB
+000096 | -Name Accounting Standards Codification
+000097 | -Topic 235
+000098 | -SubTopic 10
+000099 | -Section S99
+000100 | -Paragraph 1
+000101 | -Subparagraph (SX 210.4-08.(k)(1))
+000102 | -URI http://asc.fasb.org/extlink&oid=26873400&loc=d3e23780-122690
+000103 | + Details
+000104 | Name:
+000105 | us-gaap_AccountsPayableRelatedPartiesCurrent
+000106 | Namespace Prefix:
+000107 | us-gaap_
+000108 | Data Type:
+000109 | xbrli:monetaryItemType
+000110 | Balance Type:
+000111 | credit
+000112 | Period Type:
+000113 | instant
+000114 | X
+000115 | - Definition
+000116 | Carrying amount as of the balance sheet date of obligations due all related parties. For classified balance sheets, represents the current portion of such liabilities (due within one year or within the normal operating cycle if longer).
+000117 | + References
+000118 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000119 | -Publisher FASB
+000120 | -Name Accounting Standards Codification
+000121 | -Topic 235
+000122 | -SubTopic 10
+000123 | -Section S99
+000124 | -Paragraph 1
+000125 | -Subparagraph (SX 210.4-08.(k)(1))
+000126 | -URI http://asc.fasb.org/extlink&oid=26873400&loc=d3e23780-122690
+000127 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000128 | -Publisher FASB
+000129 | -Name Accounting Standards Codification
+000130 | -Topic 850
+000131 | -SubTopic 10
+000132 | -Section 50
+000133 | -Paragraph 1
+000134 | -Subparagraph (d)
+000135 | -URI http://asc.fasb.org/extlink&oid=6457730&loc=d3e39549-107864
+000136 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000137 | -Publisher FASB
+000138 | -Name Accounting Standards Codification
+000139 | -Topic 210
+000140 | -SubTopic 10
+000141 | -Section S99
+000142 | -Paragraph 1
+000143 | -Subparagraph (SX 210.5-02.19(a))
+000144 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000145 | + Details
+000146 | Name:
+000147 | us-gaap_DueToRelatedPartiesCurrent
+000148 | Namespace Prefix:
+000149 | us-gaap_
+000150 | Data Type:
+000151 | xbrli:monetaryItemType
+000152 | Balance Type:
+000153 | credit
+000154 | Period Type:
+000155 | instant
+000156 | X
+000157 | - Definition
+000158 | The amount for notes payable (written promise to pay), due to related parties. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000159 | + References
+000160 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000161 | -Publisher FASB
+000162 | -Name Accounting Standards Codification
+000163 | -Topic 850
+000164 | -SubTopic 10
+000165 | -Section 50
+000166 | -Paragraph 1
+000167 | -URI http://asc.fasb.org/extlink&oid=6457730&loc=d3e39549-107864
+000168 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000169 | -Publisher FASB
+000170 | -Name Accounting Standards Codification
+000171 | -Topic 235
+000172 | -SubTopic 10
+000173 | -Section S99
+000174 | -Paragraph 1
+000175 | -Subparagraph (SX 210.4-08.(k)(1))
+000176 | -URI http://asc.fasb.org/extlink&oid=26873400&loc=d3e23780-122690
+000177 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000178 | -Publisher FASB
+000179 | -Name Accounting Standards Codification
+000180 | -Topic 210
+000181 | -SubTopic 10
+000182 | -Section S99
+000183 | -Paragraph 1
+000184 | -Subparagraph (SX 210.5-02.19(a)(5))
+000185 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000186 | + Details
+000187 | Name:
+000188 | us-gaap_NotesPayableRelatedPartiesClassifiedCurrent
+000189 | Namespace Prefix:
+000190 | us-gaap_
+000191 | Data Type:
+000192 | xbrli:monetaryItemType
+000193 | Balance Type:
+000194 | credit
+000195 | Period Type:
+000196 | instant
+000197 | X
+000198 | - Definition
+000199 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000200 | + References
+000201 | No definition available.
+000202 | + Details
+000203 | Name:
+000204 | us-gaap_RelatedPartyTransactionLineItems
+000205 | Namespace Prefix:
+000206 | us-gaap_
+000207 | Data Type:
+000208 | xbrli:stringItemType
+000209 | Balance Type:
+000210 | na
+000211 | Period Type:
+000212 | duration
+000213 | X
+000214 | - Details
+000215 | Name:
+000216 | us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=rezi_HoneywellMember
+000217 | Namespace Prefix:
+000218 | Data Type:
+000219 | na
+000220 | Balance Type:
+000221 | Period Type:

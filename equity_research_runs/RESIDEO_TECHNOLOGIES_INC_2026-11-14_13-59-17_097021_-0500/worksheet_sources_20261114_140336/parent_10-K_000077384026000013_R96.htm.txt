@@ -1,0 +1,120 @@
+000001 | v3.25.4
+000002 | LEASES - Narrative (Details)
+000003 | Dec. 31, 2025
+000004 | Minimum
+000005 | Lessee, Lease, Description [Line Items]
+000006 | Operating lease, remaining lease term
+000007 | 1 year
+000008 | Operating lease, renewal term
+000009 | 5 years
+000010 | Maximum
+000011 | Lessee, Lease, Description [Line Items]
+000012 | Operating lease, remaining lease term
+000013 | 20 years
+000014 | X
+000015 | - Definition
+000016 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000017 | + References
+000018 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000019 | -Topic 842
+000020 | -SubTopic 20
+000021 | -Name Accounting Standards Codification
+000022 | -Section 50
+000023 | -Paragraph 7A
+000024 | -Subparagraph (c)
+000025 | -Publisher FASB
+000026 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-7A
+000027 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000028 | -Topic 842
+000029 | -SubTopic 20
+000030 | -Name Accounting Standards Codification
+000031 | -Section 50
+000032 | -Paragraph 3
+000033 | -Publisher FASB
+000034 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-3
+000035 | + Details
+000036 | Name:
+000037 | us-gaap_LesseeLeaseDescriptionLineItems
+000038 | Namespace Prefix:
+000039 | us-gaap_
+000040 | Data Type:
+000041 | xbrli:stringItemType
+000042 | Balance Type:
+000043 | na
+000044 | Period Type:
+000045 | duration
+000046 | X
+000047 | - Definition
+000048 | Remaining lease term of operating lease, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000049 | + References
+000050 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000051 | -Topic 842
+000052 | -SubTopic 20
+000053 | -Name Accounting Standards Codification
+000054 | -Section 50
+000055 | -Paragraph 7A
+000056 | -Subparagraph (c)
+000057 | -Publisher FASB
+000058 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-7A
+000059 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000060 | -Topic 842
+000061 | -SubTopic 20
+000062 | -Name Accounting Standards Codification
+000063 | -Section 50
+000064 | -Paragraph 3
+000065 | -Subparagraph (a)(1)
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-3
+000068 | + Details
+000069 | Name:
+000070 | us-gaap_LesseeOperatingLeaseRemainingLeaseTerm
+000071 | Namespace Prefix:
+000072 | us-gaap_
+000073 | Data Type:
+000074 | xbrli:durationItemType
+000075 | Balance Type:
+000076 | na
+000077 | Period Type:
+000078 | instant
+000079 | X
+000080 | - Definition
+000081 | Term of lessee's operating lease renewal, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000082 | + References
+000083 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000084 | -Topic 842
+000085 | -SubTopic 20
+000086 | -Name Accounting Standards Codification
+000087 | -Section 50
+000088 | -Paragraph 3
+000089 | -Subparagraph (a)(3)
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-3
+000092 | + Details
+000093 | Name:
+000094 | us-gaap_LesseeOperatingLeaseRenewalTerm
+000095 | Namespace Prefix:
+000096 | us-gaap_
+000097 | Data Type:
+000098 | xbrli:durationItemType
+000099 | Balance Type:
+000100 | na
+000101 | Period Type:
+000102 | instant
+000103 | X
+000104 | - Details
+000105 | Name:
+000106 | srt_RangeAxis=srt_MinimumMember
+000107 | Namespace Prefix:
+000108 | Data Type:
+000109 | na
+000110 | Balance Type:
+000111 | Period Type:
+000112 | X
+000113 | - Details
+000114 | Name:
+000115 | srt_RangeAxis=srt_MaximumMember
+000116 | Namespace Prefix:
+000117 | Data Type:
+000118 | na
+000119 | Balance Type:
+000120 | Period Type:

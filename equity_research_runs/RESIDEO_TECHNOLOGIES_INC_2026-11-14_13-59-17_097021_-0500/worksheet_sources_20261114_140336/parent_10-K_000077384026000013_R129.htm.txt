@@ -1,0 +1,159 @@
+000001 | v3.25.4
+000002 | COMMITMENTS AND CONTINGENCIES - Petrobras and Unaoil Matters (Details) - USD ($)
+000003 | $ in Millions
+000004 | 1 Months Ended
+000005 | 12 Months Ended
+000006 | Jan. 31, 2023
+000007 | Dec. 31, 2025
+000008 | Dec. 31, 2024
+000009 | Dec. 31, 2023
+000010 | Loss Contingencies [Line Items]
+000011 | Loss contingency accrual, payments
+000012 | $ 172
+000013 | $ 233
+000014 | $ 174
+000015 | Petrobras
+000016 | Loss Contingencies [Line Items]
+000017 | Loss contingency accrual, payments
+000018 | $ 203
+000019 | Deferred prosecution agreement, period
+000020 | 3 years
+000021 | X
+000022 | - Definition
+000023 | Deferred Prosecution Agreement, Period
+000024 | + References
+000025 | No definition available.
+000026 | + Details
+000027 | Name:
+000028 | hon_DeferredProsecutionAgreementPeriod
+000029 | Namespace Prefix:
+000030 | hon_
+000031 | Data Type:
+000032 | xbrli:durationItemType
+000033 | Balance Type:
+000034 | na
+000035 | Period Type:
+000036 | duration
+000037 | X
+000038 | - Definition
+000039 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000040 | + References
+000041 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000042 | -Topic 275
+000043 | -SubTopic 10
+000044 | -Name Accounting Standards Codification
+000045 | -Section 50
+000046 | -Paragraph 9
+000047 | -Publisher FASB
+000048 | -URI https://asc.fasb.org/1943274/2147482861/275-10-50-9
+000049 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000050 | -Topic 450
+000051 | -SubTopic 20
+000052 | -Name Accounting Standards Codification
+000053 | -Section 50
+000054 | -Paragraph 4
+000055 | -Subparagraph (a)
+000056 | -Publisher FASB
+000057 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000058 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000059 | -Topic 450
+000060 | -SubTopic 20
+000061 | -Name Accounting Standards Codification
+000062 | -Section 50
+000063 | -Paragraph 9
+000064 | -Subparagraph (a)
+000065 | -Publisher FASB
+000066 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000067 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000068 | -Topic 720
+000069 | -SubTopic 20
+000070 | -Name Accounting Standards Codification
+000071 | -Section 50
+000072 | -Paragraph 1
+000073 | -Publisher FASB
+000074 | -URI https://asc.fasb.org/1943274/2147483359/720-20-50-1
+000075 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000076 | -Topic 460
+000077 | -SubTopic 10
+000078 | -Name Accounting Standards Codification
+000079 | -Section 55
+000080 | -Paragraph 27
+000081 | -Publisher FASB
+000082 | -URI https://asc.fasb.org/1943274/2147482395/460-10-55-27
+000083 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000084 | -Topic 450
+000085 | -SubTopic 20
+000086 | -Name Accounting Standards Codification
+000087 | -Section 50
+000088 | -Paragraph 9
+000089 | -Subparagraph (b)
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000092 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000093 | -Topic 450
+000094 | -SubTopic 20
+000095 | -Name Accounting Standards Codification
+000096 | -Section 50
+000097 | -Paragraph 4
+000098 | -Subparagraph (b)
+000099 | -Publisher FASB
+000100 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000101 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000102 | -Topic 460
+000103 | -SubTopic 10
+000104 | -Name Accounting Standards Codification
+000105 | -Section 50
+000106 | -Paragraph 3
+000107 | -Publisher FASB
+000108 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-3
+000109 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000110 | -Topic 450
+000111 | -SubTopic 20
+000112 | -Name Accounting Standards Codification
+000113 | -Section 50
+000114 | -Paragraph 1
+000115 | -Publisher FASB
+000116 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000117 | + Details
+000118 | Name:
+000119 | us-gaap_LossContingenciesLineItems
+000120 | Namespace Prefix:
+000121 | us-gaap_
+000122 | Data Type:
+000123 | xbrli:stringItemType
+000124 | Balance Type:
+000125 | na
+000126 | Period Type:
+000127 | duration
+000128 | X
+000129 | - Definition
+000130 | Amount of cash outflow reducing loss contingency liability.
+000131 | + References
+000132 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000133 | -Topic 450
+000134 | -SubTopic 20
+000135 | -Name Accounting Standards Codification
+000136 | -Section 50
+000137 | -Paragraph 1
+000138 | -Publisher FASB
+000139 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000140 | + Details
+000141 | Name:
+000142 | us-gaap_LossContingencyAccrualPayments
+000143 | Namespace Prefix:
+000144 | us-gaap_
+000145 | Data Type:
+000146 | xbrli:monetaryItemType
+000147 | Balance Type:
+000148 | credit
+000149 | Period Type:
+000150 | duration
+000151 | X
+000152 | - Details
+000153 | Name:
+000154 | srt_LitigationCaseAxis=hon_PetrobrasMember
+000155 | Namespace Prefix:
+000156 | Data Type:
+000157 | na
+000158 | Balance Type:
+000159 | Period Type:

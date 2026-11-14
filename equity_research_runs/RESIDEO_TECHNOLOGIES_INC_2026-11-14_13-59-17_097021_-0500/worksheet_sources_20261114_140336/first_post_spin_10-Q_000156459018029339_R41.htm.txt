@@ -1,0 +1,177 @@
+000001 | v3.10.0.1
+000002 | Revenue Recognition and Contracts with Customers - Schedule of Disaggregated Revenue (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2018
+000007 | Sep. 30, 2017
+000008 | Sep. 30, 2018
+000009 | Sep. 30, 2017
+000010 | Disaggregation Of Revenue [Line Items]
+000011 | Revenue
+000012 | $ 1,200
+000013 | $ 1,152
+000014 | $ 3,561
+000015 | $ 3,310
+000016 | Distribution
+000017 | Disaggregation Of Revenue [Line Items]
+000018 | Revenue
+000019 | 674
+000020 | 633
+000021 | 1,994
+000022 | 1,849
+000023 | Distribution | U.S. and Canada
+000024 | Disaggregation Of Revenue [Line Items]
+000025 | Revenue
+000026 | 525
+000027 | 1,579
+000028 | Distribution | EMEA
+000029 | Disaggregation Of Revenue [Line Items]
+000030 | Revenue
+000031 | [1]
+000032 | 107
+000033 | 338
+000034 | Distribution | India
+000035 | Disaggregation Of Revenue [Line Items]
+000036 | Revenue
+000037 | 42
+000038 | 77
+000039 | Products
+000040 | Disaggregation Of Revenue [Line Items]
+000041 | Revenue
+000042 | 526
+000043 | $ 519
+000044 | 1,567
+000045 | $ 1,461
+000046 | Products | Comfort & Care
+000047 | Disaggregation Of Revenue [Line Items]
+000048 | Revenue
+000049 | 407
+000050 | 1,209
+000051 | Products | Safety & Security
+000052 | Disaggregation Of Revenue [Line Items]
+000053 | Revenue
+000054 | $ 119
+000055 | $ 358
+000056 | [1]
+000057 | EMEA represents Europe, the Middle East and Africa.
+000058 | X
+000059 | - Definition
+000060 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000061 | + References
+000062 | No definition available.
+000063 | + Details
+000064 | Name:
+000065 | us-gaap_DisaggregationOfRevenueLineItems
+000066 | Namespace Prefix:
+000067 | us-gaap_
+000068 | Data Type:
+000069 | xbrli:stringItemType
+000070 | Balance Type:
+000071 | na
+000072 | Period Type:
+000073 | duration
+000074 | X
+000075 | - Definition
+000076 | Amount, excluding tax collected from customer, of revenue from satisfaction of performance obligation by transferring promised good or service to customer. Tax collected from customer is tax assessed by governmental authority that is both imposed on and concurrent with specific revenue-producing transaction, including, but not limited to, sales, use, value added and excise.
+000077 | + References
+000078 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000079 | -Publisher FASB
+000080 | -Name Accounting Standards Codification
+000081 | -Topic 606
+000082 | -SubTopic 10
+000083 | -Section 50
+000084 | -Paragraph 4
+000085 | -Subparagraph (a)
+000086 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130543-203045
+000087 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000088 | -Publisher FASB
+000089 | -Name Accounting Standards Codification
+000090 | -Topic 606
+000091 | -SubTopic 10
+000092 | -Section 50
+000093 | -Paragraph 1
+000094 | -Subparagraph (a)
+000095 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130539-203045
+000096 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000097 | -Publisher FASB
+000098 | -Name Accounting Standards Codification
+000099 | -Topic 606
+000100 | -SubTopic 10
+000101 | -Section 50
+000102 | -Paragraph 5
+000103 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130545-203045
+000104 | + Details
+000105 | Name:
+000106 | us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+000107 | Namespace Prefix:
+000108 | us-gaap_
+000109 | Data Type:
+000110 | xbrli:monetaryItemType
+000111 | Balance Type:
+000112 | credit
+000113 | Period Type:
+000114 | duration
+000115 | X
+000116 | - Details
+000117 | Name:
+000118 | us-gaap_StatementBusinessSegmentsAxis=rezi_DistributionSegmentMember
+000119 | Namespace Prefix:
+000120 | Data Type:
+000121 | na
+000122 | Balance Type:
+000123 | Period Type:
+000124 | X
+000125 | - Details
+000126 | Name:
+000127 | srt_StatementGeographicalAxis=rezi_USAndCanadaMember
+000128 | Namespace Prefix:
+000129 | Data Type:
+000130 | na
+000131 | Balance Type:
+000132 | Period Type:
+000133 | X
+000134 | - Details
+000135 | Name:
+000136 | srt_StatementGeographicalAxis=us-gaap_EMEAMember
+000137 | Namespace Prefix:
+000138 | Data Type:
+000139 | na
+000140 | Balance Type:
+000141 | Period Type:
+000142 | X
+000143 | - Details
+000144 | Name:
+000145 | srt_StatementGeographicalAxis=country_IN
+000146 | Namespace Prefix:
+000147 | Data Type:
+000148 | na
+000149 | Balance Type:
+000150 | Period Type:
+000151 | X
+000152 | - Details
+000153 | Name:
+000154 | us-gaap_StatementBusinessSegmentsAxis=rezi_ProductSegmentMember
+000155 | Namespace Prefix:
+000156 | Data Type:
+000157 | na
+000158 | Balance Type:
+000159 | Period Type:
+000160 | X
+000161 | - Details
+000162 | Name:
+000163 | srt_ProductOrServiceAxis=rezi_ComfortAndCareMember
+000164 | Namespace Prefix:
+000165 | Data Type:
+000166 | na
+000167 | Balance Type:
+000168 | Period Type:
+000169 | X
+000170 | - Details
+000171 | Name:
+000172 | srt_ProductOrServiceAxis=rezi_SafetyAndSecurityMember
+000173 | Namespace Prefix:
+000174 | Data Type:
+000175 | na
+000176 | Balance Type:
+000177 | Period Type:

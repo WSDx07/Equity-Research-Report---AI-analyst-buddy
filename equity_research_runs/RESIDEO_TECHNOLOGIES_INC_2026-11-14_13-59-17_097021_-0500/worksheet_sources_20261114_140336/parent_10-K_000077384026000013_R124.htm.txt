@@ -1,0 +1,279 @@
+000001 | v3.25.4
+000002 | CAPITAL STOCK - Narrative (Details)
+000003 | $ / shares in Units, $ in Billions
+000004 | Dec. 31, 2025
+000005 | USD ($)
+000006 | vote
+000007 | $ / shares
+000008 | shares
+000009 | Apr. 24, 2023
+000010 | USD ($)
+000011 | Equity, Class of Treasury Stock [Line Items]
+000012 | Number of votes for each share of common stock | vote
+000013 | 1
+000014 | Stock repurchase program, authorized amount | $
+000015 | $ 10.0
+000016 | Common stock, par value
+000017 | Equity, Class of Treasury Stock [Line Items]
+000018 | Common stock, shares authorized (in shares)
+000019 | 2,000,000,000.0
+000020 | Common shares par value (in dollars per share) | $ / shares
+000021 | $ 1
+000022 | Treasury stock
+000023 | Equity, Class of Treasury Stock [Line Items]
+000024 | Stock repurchase program remaining authorized repurchase amount | $
+000025 | $ 1.7
+000026 | Preferred Stock
+000027 | Equity, Class of Treasury Stock [Line Items]
+000028 | Preferred stock, shares authorized (in shares)
+000029 | 40,000,000.0
+000030 | Preferred stock, shares outstanding (in shares)
+000031 | 0
+000032 | X
+000033 | - Definition
+000034 | Number Of Votes For Each Share Of Common Stock
+000035 | + References
+000036 | No definition available.
+000037 | + Details
+000038 | Name:
+000039 | hon_NumberOfVotesForEachShareOfCommonStock
+000040 | Namespace Prefix:
+000041 | hon_
+000042 | Data Type:
+000043 | xbrli:integerItemType
+000044 | Balance Type:
+000045 | na
+000046 | Period Type:
+000047 | instant
+000048 | X
+000049 | - Definition
+000050 | Amount authorized for purchase of share under share repurchase plan. Includes, but is not limited to, repurchase of stock and unit of ownership.
+000051 | + References
+000052 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000053 | -Topic 505
+000054 | -SubTopic 30
+000055 | -Name Accounting Standards Codification
+000056 | -Section 50
+000057 | -Paragraph 4
+000058 | -Publisher FASB
+000059 | -URI https://asc.fasb.org/1943274/2147481520/505-30-50-4
+000060 | + Details
+000061 | Name:
+000062 | srt_StockRepurchaseProgramAuthorizedAmount1
+000063 | Namespace Prefix:
+000064 | srt_
+000065 | Data Type:
+000066 | xbrli:monetaryItemType
+000067 | Balance Type:
+000068 | credit
+000069 | Period Type:
+000070 | instant
+000071 | X
+000072 | - Definition
+000073 | Face amount or stated value per share of common stock.
+000074 | + References
+000075 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000076 | -Topic 210
+000077 | -SubTopic 10
+000078 | -Name Accounting Standards Codification
+000079 | -Section S99
+000080 | -Paragraph 1
+000081 | -Subparagraph (SX 210.5-02(29))
+000082 | -Publisher FASB
+000083 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000084 | + Details
+000085 | Name:
+000086 | us-gaap_CommonStockParOrStatedValuePerShare
+000087 | Namespace Prefix:
+000088 | us-gaap_
+000089 | Data Type:
+000090 | dtr-types:perShareItemType
+000091 | Balance Type:
+000092 | na
+000093 | Period Type:
+000094 | instant
+000095 | X
+000096 | - Definition
+000097 | The maximum number of common shares permitted to be issued by an entity's charter and bylaws.
+000098 | + References
+000099 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000100 | -Topic 210
+000101 | -SubTopic 10
+000102 | -Name Accounting Standards Codification
+000103 | -Section S99
+000104 | -Paragraph 1
+000105 | -Subparagraph (SX 210.5-02(29))
+000106 | -Publisher FASB
+000107 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000108 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000109 | -Topic 946
+000110 | -SubTopic 210
+000111 | -Name Accounting Standards Codification
+000112 | -Section S99
+000113 | -Paragraph 1
+000114 | -Subparagraph (SX 210.6-04(16)(a))
+000115 | -Publisher FASB
+000116 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000117 | + Details
+000118 | Name:
+000119 | us-gaap_CommonStockSharesAuthorized
+000120 | Namespace Prefix:
+000121 | us-gaap_
+000122 | Data Type:
+000123 | xbrli:sharesItemType
+000124 | Balance Type:
+000125 | na
+000126 | Period Type:
+000127 | instant
+000128 | X
+000129 | - Definition
+000130 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000131 | + References
+000132 | No definition available.
+000133 | + Details
+000134 | Name:
+000135 | us-gaap_EquityClassOfTreasuryStockLineItems
+000136 | Namespace Prefix:
+000137 | us-gaap_
+000138 | Data Type:
+000139 | xbrli:stringItemType
+000140 | Balance Type:
+000141 | na
+000142 | Period Type:
+000143 | duration
+000144 | X
+000145 | - Definition
+000146 | The maximum number of nonredeemable preferred shares (or preferred stock redeemable solely at the option of the issuer) permitted to be issued by an entity's charter and bylaws.
+000147 | + References
+000148 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000149 | -Topic 210
+000150 | -SubTopic 10
+000151 | -Name Accounting Standards Codification
+000152 | -Section S99
+000153 | -Paragraph 1
+000154 | -Subparagraph (SX 210.5-02(28))
+000155 | -Publisher FASB
+000156 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000157 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000158 | -Topic 946
+000159 | -SubTopic 210
+000160 | -Name Accounting Standards Codification
+000161 | -Section S99
+000162 | -Paragraph 1
+000163 | -Subparagraph (SX 210.6-04(16)(a))
+000164 | -Publisher FASB
+000165 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000166 | + Details
+000167 | Name:
+000168 | us-gaap_PreferredStockSharesAuthorized
+000169 | Namespace Prefix:
+000170 | us-gaap_
+000171 | Data Type:
+000172 | xbrli:sharesItemType
+000173 | Balance Type:
+000174 | na
+000175 | Period Type:
+000176 | instant
+000177 | X
+000178 | - Definition
+000179 | Aggregate share number for all nonredeemable preferred stock (or preferred stock redeemable solely at the option of the issuer) held by stockholders. Does not include preferred shares that have been repurchased.
+000180 | + References
+000181 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000182 | -Topic 210
+000183 | -SubTopic 10
+000184 | -Name Accounting Standards Codification
+000185 | -Section S99
+000186 | -Paragraph 1
+000187 | -Subparagraph (SX 210.5-02(28))
+000188 | -Publisher FASB
+000189 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000190 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000191 | -Topic 946
+000192 | -SubTopic 210
+000193 | -Name Accounting Standards Codification
+000194 | -Section S99
+000195 | -Paragraph 2
+000196 | -Subparagraph (SX 210.6-05(4))
+000197 | -Publisher FASB
+000198 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2
+000199 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000200 | -Topic 946
+000201 | -SubTopic 220
+000202 | -Name Accounting Standards Codification
+000203 | -Section S99
+000204 | -Paragraph 3
+000205 | -Subparagraph (SX 210.6-09(4)(b))
+000206 | -Publisher FASB
+000207 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000208 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000209 | -Topic 946
+000210 | -SubTopic 210
+000211 | -Name Accounting Standards Codification
+000212 | -Section S99
+000213 | -Paragraph 1
+000214 | -Subparagraph (SX 210.6-04(16)(a))
+000215 | -Publisher FASB
+000216 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000217 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000218 | -Topic 946
+000219 | -SubTopic 220
+000220 | -Name Accounting Standards Codification
+000221 | -Section S99
+000222 | -Paragraph 3
+000223 | -Subparagraph (SX 210.6-09(7))
+000224 | -Publisher FASB
+000225 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000226 | + Details
+000227 | Name:
+000228 | us-gaap_PreferredStockSharesOutstanding
+000229 | Namespace Prefix:
+000230 | us-gaap_
+000231 | Data Type:
+000232 | xbrli:sharesItemType
+000233 | Balance Type:
+000234 | na
+000235 | Period Type:
+000236 | instant
+000237 | X
+000238 | - Definition
+000239 | Amount remaining authorized for purchase of share under share repurchase plan. Includes, but is not limited to, repurchase of stock and unit of ownership.
+000240 | + References
+000241 | No definition available.
+000242 | + Details
+000243 | Name:
+000244 | us-gaap_StockRepurchaseProgramRemainingAuthorizedRepurchaseAmount1
+000245 | Namespace Prefix:
+000246 | us-gaap_
+000247 | Data Type:
+000248 | xbrli:monetaryItemType
+000249 | Balance Type:
+000250 | credit
+000251 | Period Type:
+000252 | instant
+000253 | X
+000254 | - Details
+000255 | Name:
+000256 | us-gaap_StatementClassOfStockAxis=us-gaap_CommonStockMember
+000257 | Namespace Prefix:
+000258 | Data Type:
+000259 | na
+000260 | Balance Type:
+000261 | Period Type:
+000262 | X
+000263 | - Details
+000264 | Name:
+000265 | us-gaap_StatementClassOfStockAxis=us-gaap_TreasuryStockCommonMember
+000266 | Namespace Prefix:
+000267 | Data Type:
+000268 | na
+000269 | Balance Type:
+000270 | Period Type:
+000271 | X
+000272 | - Details
+000273 | Name:
+000274 | us-gaap_StatementClassOfStockAxis=us-gaap_PreferredStockMember
+000275 | Namespace Prefix:
+000276 | Data Type:
+000277 | na
+000278 | Balance Type:
+000279 | Period Type:

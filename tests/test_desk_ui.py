@@ -12,6 +12,36 @@ import desk_ui
 
 
 class DeskUiTest(unittest.TestCase):
+    def test_saved_worksheet_is_paired_with_its_own_report(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            runs = Path(tmp).resolve()
+            run = runs / 'sample_run'
+            run.mkdir()
+            (run / 'verified_report.md').write_text('# Report\n<script>bad</script>', encoding='utf-8')
+            (run / 'worksheet-20260101.md').write_text('# Old worksheet', encoding='utf-8')
+            (run / 'worksheet-20260102.md').write_text('# Current worksheet', encoding='utf-8')
+            with patch.object(desk_ui, 'RUNS', runs):
+                self.assertEqual(desk_ui.saved_worksheets()[0]['id'], 'sample_run')
+                result = desk_ui.saved_worksheet('sample_run')
+                self.assertIn('Current worksheet', result['worksheet_html'])
+                self.assertIn('Report', result['report_html'])
+                self.assertNotIn('<script>', result['report_html'])
+                with self.assertRaises(ValueError):
+                    desk_ui.saved_worksheet('../sample_run')
+                server = desk_ui.ThreadingHTTPServer(('127.0.0.1', 0), desk_ui.Handler)
+                thread = threading.Thread(target=server.serve_forever, daemon=True)
+                thread.start()
+                try:
+                    base = f'http://127.0.0.1:{server.server_port}'
+                    listing = json.loads(urlopen(base + '/api/saved-worksheets', timeout=5).read())
+                    pair = json.loads(urlopen(base + '/api/saved-worksheets/sample_run', timeout=5).read())
+                    self.assertEqual(listing['runs'][0]['id'], 'sample_run')
+                    self.assertIn('Current worksheet', pair['worksheet_html'])
+                finally:
+                    server.shutdown()
+                    server.server_close()
+                    thread.join()
+
     def test_spinoff_start_date_validation(self):
         self.assertEqual(desk_ui.validate_spinoff({'start_date':'2025-01-02'}),'2025-01-02')
         for item in ('not a date','2025-02-30','9999-01-01','2025-01-02;bad'):

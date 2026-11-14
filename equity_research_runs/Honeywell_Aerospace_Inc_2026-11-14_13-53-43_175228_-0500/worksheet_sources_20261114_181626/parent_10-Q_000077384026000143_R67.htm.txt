@@ -1,0 +1,227 @@
+000001 | v3.26.3
+000002 | Debt and Credit Agreements - Redeemed Notes (Details) - Senior Notes - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Apr. 30, 2026
+000006 | Mar. 24, 2026
+000007 | 4.65% notes due 2027
+000008 | Debt Instrument, Redemption [Line Items]
+000009 | Debt instrument, interest rate, stated percentage
+000010 | 4.65%
+000011 | 4.65%
+000012 | Principal Amount
+000013 | $ 1,150
+000014 | 4.95% notes due 2028
+000015 | Debt Instrument, Redemption [Line Items]
+000016 | Debt instrument, interest rate, stated percentage
+000017 | 4.95%
+000018 | 4.95%
+000019 | Principal Amount
+000020 | $ 500
+000021 | 4.25% notes due 2029
+000022 | Debt Instrument, Redemption [Line Items]
+000023 | Debt instrument, interest rate, stated percentage
+000024 | 4.25%
+000025 | 4.25%
+000026 | Principal Amount
+000027 | $ 750
+000028 | 4.875% notes due 2029
+000029 | Debt Instrument, Redemption [Line Items]
+000030 | Debt instrument, interest rate, stated percentage
+000031 | 4.875%
+000032 | 4.875%
+000033 | Principal Amount
+000034 | $ 500
+000035 | 4.70% notes due 2030
+000036 | Debt Instrument, Redemption [Line Items]
+000037 | Debt instrument, interest rate, stated percentage
+000038 | 4.70%
+000039 | 4.70%
+000040 | Principal Amount
+000041 | $ 1,000
+000042 | 3.50% euro notes due 2027
+000043 | Debt Instrument, Redemption [Line Items]
+000044 | Debt instrument, interest rate, stated percentage
+000045 | 3.50%
+000046 | 3.50%
+000047 | 3.50%
+000048 | Principal Amount
+000049 | $ 224
+000050 | 2.25% euro notes due 2028
+000051 | Debt Instrument, Redemption [Line Items]
+000052 | Debt instrument, interest rate, stated percentage
+000053 | 2.25%
+000054 | 2.25%
+000055 | 2.25%
+000056 | Principal Amount
+000057 | $ 342
+000058 | X
+000059 | - Definition
+000060 | Debt Instrument, Redemptions, Face Amount
+000061 | + References
+000062 | No definition available.
+000063 | + Details
+000064 | Name:
+000065 | hon_DebtInstrumentRedemptionsFaceAmount
+000066 | Namespace Prefix:
+000067 | hon_
+000068 | Data Type:
+000069 | xbrli:monetaryItemType
+000070 | Balance Type:
+000071 | credit
+000072 | Period Type:
+000073 | instant
+000074 | X
+000075 | - Definition
+000076 | Contractual interest rate for funds borrowed, under the debt agreement.
+000077 | + References
+000078 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000079 | -Topic 942
+000080 | -SubTopic 210
+000081 | -Name Accounting Standards Codification
+000082 | -Section S45
+000083 | -Paragraph 1
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000086 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000087 | -Topic 942
+000088 | -SubTopic 210
+000089 | -Name Accounting Standards Codification
+000090 | -Section S50
+000091 | -Paragraph 1
+000092 | -Publisher FASB
+000093 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000094 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000095 | -Topic 942
+000096 | -SubTopic 210
+000097 | -Name Accounting Standards Codification
+000098 | -Section S99
+000099 | -Paragraph 1
+000100 | -Subparagraph (SX 210.9-03(16))
+000101 | -Publisher FASB
+000102 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000103 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000104 | -Topic 210
+000105 | -SubTopic 10
+000106 | -Name Accounting Standards Codification
+000107 | -Section S99
+000108 | -Paragraph 1
+000109 | -Subparagraph (SX 210.5-02(22)(a)(1))
+000110 | -Publisher FASB
+000111 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000112 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000113 | -Topic 210
+000114 | -SubTopic 10
+000115 | -Name Accounting Standards Codification
+000116 | -Section S50
+000117 | -Paragraph 9
+000118 | -Publisher FASB
+000119 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-9
+000120 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000121 | -Topic 470
+000122 | -SubTopic 20
+000123 | -Name Accounting Standards Codification
+000124 | -Section 50
+000125 | -Paragraph 1B
+000126 | -Subparagraph (b)
+000127 | -Publisher FASB
+000128 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000129 | + Details
+000130 | Name:
+000131 | us-gaap_DebtInstrumentInterestRateStatedPercentage
+000132 | Namespace Prefix:
+000133 | us-gaap_
+000134 | Data Type:
+000135 | dtr-types:percentItemType
+000136 | Balance Type:
+000137 | na
+000138 | Period Type:
+000139 | instant
+000140 | X
+000141 | - Definition
+000142 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000143 | + References
+000144 | No definition available.
+000145 | + Details
+000146 | Name:
+000147 | us-gaap_DebtInstrumentRedemptionLineItems
+000148 | Namespace Prefix:
+000149 | us-gaap_
+000150 | Data Type:
+000151 | xbrli:stringItemType
+000152 | Balance Type:
+000153 | na
+000154 | Period Type:
+000155 | duration
+000156 | X
+000157 | - Details
+000158 | Name:
+000159 | us-gaap_DebtInstrumentAxis=hon_Notes4.65Due2027Member
+000160 | Namespace Prefix:
+000161 | Data Type:
+000162 | na
+000163 | Balance Type:
+000164 | Period Type:
+000165 | X
+000166 | - Details
+000167 | Name:
+000168 | us-gaap_LongtermDebtTypeAxis=us-gaap_SeniorNotesMember
+000169 | Namespace Prefix:
+000170 | Data Type:
+000171 | na
+000172 | Balance Type:
+000173 | Period Type:
+000174 | X
+000175 | - Details
+000176 | Name:
+000177 | us-gaap_DebtInstrumentAxis=hon_Notes4.95Due2028Member
+000178 | Namespace Prefix:
+000179 | Data Type:
+000180 | na
+000181 | Balance Type:
+000182 | Period Type:
+000183 | X
+000184 | - Details
+000185 | Name:
+000186 | us-gaap_DebtInstrumentAxis=hon_Notes4.25Due2029Member
+000187 | Namespace Prefix:
+000188 | Data Type:
+000189 | na
+000190 | Balance Type:
+000191 | Period Type:
+000192 | X
+000193 | - Details
+000194 | Name:
+000195 | us-gaap_DebtInstrumentAxis=hon_Notes4.875Due2029Member
+000196 | Namespace Prefix:
+000197 | Data Type:
+000198 | na
+000199 | Balance Type:
+000200 | Period Type:
+000201 | X
+000202 | - Details
+000203 | Name:
+000204 | us-gaap_DebtInstrumentAxis=hon_Notes4.70Due2030Member
+000205 | Namespace Prefix:
+000206 | Data Type:
+000207 | na
+000208 | Balance Type:
+000209 | Period Type:
+000210 | X
+000211 | - Details
+000212 | Name:
+000213 | us-gaap_DebtInstrumentAxis=hon_EuroNotes3.50Due2027Member
+000214 | Namespace Prefix:
+000215 | Data Type:
+000216 | na
+000217 | Balance Type:
+000218 | Period Type:
+000219 | X
+000220 | - Details
+000221 | Name:
+000222 | us-gaap_DebtInstrumentAxis=hon_EuroNotes2.25Due2028Member
+000223 | Namespace Prefix:
+000224 | Data Type:
+000225 | na
+000226 | Balance Type:
+000227 | Period Type:

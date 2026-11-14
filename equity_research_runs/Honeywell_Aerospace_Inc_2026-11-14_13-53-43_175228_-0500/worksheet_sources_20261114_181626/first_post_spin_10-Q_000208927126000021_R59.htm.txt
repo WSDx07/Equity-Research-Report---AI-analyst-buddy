@@ -1,0 +1,165 @@
+000001 | v3.26.1
+000002 | Commitments and Contingencies - Narrative (Details) - USD ($)
+000003 | $ in Millions
+000004 | 1 Months Ended
+000005 | 3 Months Ended
+000006 | Dec. 31, 2025
+000007 | Mar. 28, 2026
+000008 | Duncan and StandardAero
+000009 | Loss Contingencies [Line Items]
+000010 | Payments for legal settlements
+000011 | $ 59
+000012 | Flexjet
+000013 | Loss Contingencies [Line Items]
+000014 | Payments for legal settlements
+000015 | $ 375
+000016 | X
+000017 | - Definition
+000018 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000019 | + References
+000020 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000021 | -Topic 450
+000022 | -SubTopic 20
+000023 | -Name Accounting Standards Codification
+000024 | -Section 50
+000025 | -Paragraph 9
+000026 | -Subparagraph (a)
+000027 | -Publisher FASB
+000028 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000029 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000030 | -Topic 450
+000031 | -SubTopic 20
+000032 | -Name Accounting Standards Codification
+000033 | -Section 50
+000034 | -Paragraph 4
+000035 | -Subparagraph (a)
+000036 | -Publisher FASB
+000037 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000038 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000039 | -Topic 405
+000040 | -SubTopic 30
+000041 | -Name Accounting Standards Codification
+000042 | -Section 50
+000043 | -Paragraph 1
+000044 | -Publisher FASB
+000045 | -URI https://asc.fasb.org/1943274/2147482645/405-30-50-1
+000046 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000047 | -Topic 944
+000048 | -SubTopic 40
+000049 | -Name Accounting Standards Codification
+000050 | -Section S99
+000051 | -Paragraph 1
+000052 | -Subparagraph (SAB Topic 5.W.Q2)
+000053 | -Publisher FASB
+000054 | -URI https://asc.fasb.org/1943274/2147479583/944-40-S99-1
+000055 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000056 | -Topic 275
+000057 | -SubTopic 10
+000058 | -Name Accounting Standards Codification
+000059 | -Section 50
+000060 | -Paragraph 9
+000061 | -Publisher FASB
+000062 | -URI https://asc.fasb.org/1943274/2147482861/275-10-50-9
+000063 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000064 | -Topic 720
+000065 | -SubTopic 20
+000066 | -Name Accounting Standards Codification
+000067 | -Section 50
+000068 | -Paragraph 1
+000069 | -Publisher FASB
+000070 | -URI https://asc.fasb.org/1943274/2147483359/720-20-50-1
+000071 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000072 | -Topic 460
+000073 | -SubTopic 10
+000074 | -Name Accounting Standards Codification
+000075 | -Section 55
+000076 | -Paragraph 27
+000077 | -Publisher FASB
+000078 | -URI https://asc.fasb.org/1943274/2147482395/460-10-55-27
+000079 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000080 | -Topic 450
+000081 | -SubTopic 20
+000082 | -Name Accounting Standards Codification
+000083 | -Section 50
+000084 | -Paragraph 9
+000085 | -Subparagraph (b)
+000086 | -Publisher FASB
+000087 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000088 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000089 | -Topic 450
+000090 | -SubTopic 20
+000091 | -Name Accounting Standards Codification
+000092 | -Section 50
+000093 | -Paragraph 4
+000094 | -Subparagraph (b)
+000095 | -Publisher FASB
+000096 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000097 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000098 | -Topic 460
+000099 | -SubTopic 10
+000100 | -Name Accounting Standards Codification
+000101 | -Section 50
+000102 | -Paragraph 3
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-3
+000105 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000106 | -Topic 450
+000107 | -SubTopic 20
+000108 | -Name Accounting Standards Codification
+000109 | -Section 50
+000110 | -Paragraph 1
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000113 | + Details
+000114 | Name:
+000115 | us-gaap_LossContingenciesLineItems
+000116 | Namespace Prefix:
+000117 | us-gaap_
+000118 | Data Type:
+000119 | xbrli:stringItemType
+000120 | Balance Type:
+000121 | na
+000122 | Period Type:
+000123 | duration
+000124 | X
+000125 | - Definition
+000126 | The amount of cash paid for the settlement of litigation or for other legal issues during the period.
+000127 | + References
+000128 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000129 | -Name Accounting Standards Codification
+000130 | -Section 45
+000131 | -Paragraph 25
+000132 | -Subparagraph (g)
+000133 | -SubTopic 10
+000134 | -Topic 230
+000135 | -Publisher FASB
+000136 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-25
+000137 | + Details
+000138 | Name:
+000139 | us-gaap_PaymentsForLegalSettlements
+000140 | Namespace Prefix:
+000141 | us-gaap_
+000142 | Data Type:
+000143 | xbrli:monetaryItemType
+000144 | Balance Type:
+000145 | credit
+000146 | Period Type:
+000147 | duration
+000148 | X
+000149 | - Details
+000150 | Name:
+000151 | srt_LitigationCaseAxis=hona_DuncanAndStandardAeroMember
+000152 | Namespace Prefix:
+000153 | Data Type:
+000154 | na
+000155 | Balance Type:
+000156 | Period Type:
+000157 | X
+000158 | - Details
+000159 | Name:
+000160 | srt_LitigationCaseAxis=hona_FlexjetMember
+000161 | Namespace Prefix:
+000162 | Data Type:
+000163 | na
+000164 | Balance Type:
+000165 | Period Type:

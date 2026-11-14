@@ -1,0 +1,127 @@
+000001 | v3.25.4
+000002 | INCOME TAXES - Operating Loss Carryforwards (Details)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | USD ($)
+000006 | Operating Loss Carryforwards [Line Items]
+000007 | Net Operating and Capital Loss Carryforwards
+000008 | $ 4,575
+000009 | Tax Credit Carryforwards and Other Attributes
+000010 | 316
+000011 | U.S. Federal
+000012 | Operating Loss Carryforwards [Line Items]
+000013 | Net Operating and Capital Loss Carryforwards
+000014 | 697
+000015 | Tax Credit Carryforwards and Other Attributes
+000016 | 72
+000017 | U.S. State
+000018 | Operating Loss Carryforwards [Line Items]
+000019 | Net Operating and Capital Loss Carryforwards
+000020 | 267
+000021 | Tax Credit Carryforwards and Other Attributes
+000022 | 21
+000023 | Non-U.S.
+000024 | Operating Loss Carryforwards [Line Items]
+000025 | Net Operating and Capital Loss Carryforwards
+000026 | 3,611
+000027 | Tax Credit Carryforwards and Other Attributes
+000028 | $ 223
+000029 | X
+000030 | - Definition
+000031 | Amount of operating loss carryforward, before tax effects, available to reduce future taxable income under enacted tax laws.
+000032 | + References
+000033 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000034 | -Topic 740
+000035 | -SubTopic 10
+000036 | -Name Accounting Standards Codification
+000037 | -Section 50
+000038 | -Paragraph 3
+000039 | -Subparagraph (a)
+000040 | -Publisher FASB
+000041 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-3
+000042 | + Details
+000043 | Name:
+000044 | us-gaap_OperatingLossCarryforwards
+000045 | Namespace Prefix:
+000046 | us-gaap_
+000047 | Data Type:
+000048 | xbrli:monetaryItemType
+000049 | Balance Type:
+000050 | debit
+000051 | Period Type:
+000052 | instant
+000053 | X
+000054 | - Definition
+000055 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000056 | + References
+000057 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000058 | -Topic 740
+000059 | -SubTopic 10
+000060 | -Name Accounting Standards Codification
+000061 | -Section 50
+000062 | -Paragraph 3
+000063 | -Subparagraph (a)
+000064 | -Publisher FASB
+000065 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-3
+000066 | + Details
+000067 | Name:
+000068 | us-gaap_OperatingLossCarryforwardsLineItems
+000069 | Namespace Prefix:
+000070 | us-gaap_
+000071 | Data Type:
+000072 | xbrli:stringItemType
+000073 | Balance Type:
+000074 | na
+000075 | Period Type:
+000076 | duration
+000077 | X
+000078 | - Definition
+000079 | The amount of the tax credit carryforward, before tax effects, available to reduce future taxable income under enacted tax laws.
+000080 | + References
+000081 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000082 | -Topic 740
+000083 | -SubTopic 10
+000084 | -Name Accounting Standards Codification
+000085 | -Section 50
+000086 | -Paragraph 3
+000087 | -Subparagraph (a)
+000088 | -Publisher FASB
+000089 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-3
+000090 | + Details
+000091 | Name:
+000092 | us-gaap_TaxCreditCarryforwardAmount
+000093 | Namespace Prefix:
+000094 | us-gaap_
+000095 | Data Type:
+000096 | xbrli:monetaryItemType
+000097 | Balance Type:
+000098 | debit
+000099 | Period Type:
+000100 | instant
+000101 | X
+000102 | - Details
+000103 | Name:
+000104 | us-gaap_IncomeTaxAuthorityAxis=us-gaap_InternalRevenueServiceIRSMember
+000105 | Namespace Prefix:
+000106 | Data Type:
+000107 | na
+000108 | Balance Type:
+000109 | Period Type:
+000110 | X
+000111 | - Details
+000112 | Name:
+000113 | us-gaap_IncomeTaxAuthorityAxis=us-gaap_StateAndLocalJurisdictionMember
+000114 | Namespace Prefix:
+000115 | Data Type:
+000116 | na
+000117 | Balance Type:
+000118 | Period Type:
+000119 | X
+000120 | - Details
+000121 | Name:
+000122 | us-gaap_IncomeTaxAuthorityAxis=us-gaap_ForeignTaxJurisdictionOtherMember
+000123 | Namespace Prefix:
+000124 | Data Type:
+000125 | na
+000126 | Balance Type:
+000127 | Period Type:

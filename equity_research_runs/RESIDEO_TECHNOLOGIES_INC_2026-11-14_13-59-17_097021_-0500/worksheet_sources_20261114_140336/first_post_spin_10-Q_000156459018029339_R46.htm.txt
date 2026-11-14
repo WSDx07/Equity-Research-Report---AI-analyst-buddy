@@ -1,0 +1,290 @@
+000001 | v3.10.0.1
+000002 | Accrued Liabilities - Summary of Accrued Liabilities (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2018
+000005 | Jun. 30, 2018
+000006 | Mar. 31, 2018
+000007 | Dec. 31, 2017
+000008 | Accrued Liabilities, Current [Abstract]
+000009 | Environmental costs
+000010 | $ 186
+000011 | $ 204
+000012 | Compensation, benefit and other employee related
+000013 | 61
+000014 | 65
+000015 | Customer rebate reserve
+000016 | 39
+000017 | 49
+000018 | Repositioning
+000019 | 17
+000020 | $ 20
+000021 | $ 22
+000022 | 22
+000023 | Product warranties and performance guarantees
+000024 | 15
+000025 | 17
+000026 | Customer advances and deferred income
+000027 | 2
+000028 | 3
+000029 | Other (primarily operating expenses)
+000030 | 68
+000031 | 49
+000032 | Total accrued liabilities
+000033 | $ 388
+000034 | $ 409
+000035 | X
+000036 | - Definition
+000037 | Customer advances and deferred income.
+000038 | + References
+000039 | No definition available.
+000040 | + Details
+000041 | Name:
+000042 | rezi_CustomerAdvancesAndDeferredIncome
+000043 | Namespace Prefix:
+000044 | rezi_
+000045 | Data Type:
+000046 | xbrli:monetaryItemType
+000047 | Balance Type:
+000048 | credit
+000049 | Period Type:
+000050 | instant
+000051 | X
+000052 | - Definition
+000053 | Carrying value of the obligation (known or estimated) arising from requirements to perform activities to remediate one or more sites, payable in twelve months or in the next operating cycle if longer.
+000054 | + References
+000055 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000056 | -Publisher FASB
+000057 | -Name Accounting Standards Codification
+000058 | -Topic 210
+000059 | -SubTopic 10
+000060 | -Section S99
+000061 | -Paragraph 1
+000062 | -Subparagraph (SX 210.5-02.20)
+000063 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000064 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000065 | -Publisher FASB
+000066 | -Name Accounting Standards Codification
+000067 | -Topic 410
+000068 | -SubTopic 30
+000069 | -Section 50
+000070 | -Paragraph 7
+000071 | -URI http://asc.fasb.org/extlink&oid=6393242&loc=d3e13207-110859
+000072 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000073 | -Publisher FASB
+000074 | -Name Accounting Standards Codification
+000075 | -Topic 410
+000076 | -SubTopic 30
+000077 | -Section 50
+000078 | -Paragraph 10
+000079 | -Subparagraph (d)(1)
+000080 | -URI http://asc.fasb.org/extlink&oid=6393242&loc=d3e13237-110859
+000081 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000082 | -Publisher FASB
+000083 | -Name Accounting Standards Codification
+000084 | -Topic 450
+000085 | -SubTopic 20
+000086 | -Section 50
+000087 | -Paragraph 1
+000088 | -URI http://asc.fasb.org/extlink&oid=82911808&loc=d3e14326-108349
+000089 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000090 | -Publisher FASB
+000091 | -Name Accounting Standards Codification
+000092 | -Topic 210
+000093 | -SubTopic 10
+000094 | -Section 45
+000095 | -Paragraph 6
+000096 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e6911-107765
+000097 | + Details
+000098 | Name:
+000099 | us-gaap_AccruedEnvironmentalLossContingenciesCurrent
+000100 | Namespace Prefix:
+000101 | us-gaap_
+000102 | Data Type:
+000103 | xbrli:monetaryItemType
+000104 | Balance Type:
+000105 | credit
+000106 | Period Type:
+000107 | instant
+000108 | X
+000109 | - Definition
+000110 | Carrying value as of the balance sheet date of obligations incurred and payable, pertaining to costs that are statutory in nature, are incurred on contractual obligations, or accumulate over time and for which invoices have not yet been received or will not be rendered. Examples include taxes, interest, rent and utilities. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000111 | + References
+000112 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000113 | -Publisher FASB
+000114 | -Name Accounting Standards Codification
+000115 | -Topic 210
+000116 | -SubTopic 10
+000117 | -Section S99
+000118 | -Paragraph 1
+000119 | -Subparagraph (SX 210.5-02.20)
+000120 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000121 | + Details
+000122 | Name:
+000123 | us-gaap_AccruedLiabilitiesCurrent
+000124 | Namespace Prefix:
+000125 | us-gaap_
+000126 | Data Type:
+000127 | xbrli:monetaryItemType
+000128 | Balance Type:
+000129 | credit
+000130 | Period Type:
+000131 | instant
+000132 | X
+000133 | - References
+000134 | No definition available.
+000135 | + Details
+000136 | Name:
+000137 | us-gaap_AccruedLiabilitiesCurrentAbstract
+000138 | Namespace Prefix:
+000139 | us-gaap_
+000140 | Data Type:
+000141 | xbrli:stringItemType
+000142 | Balance Type:
+000143 | na
+000144 | Period Type:
+000145 | duration
+000146 | X
+000147 | - Definition
+000148 | Current regulatory liabilities generally represent obligations to make refunds to customers for various reasons including overpayment.
+000149 | + References
+000150 | No definition available.
+000151 | + Details
+000152 | Name:
+000153 | us-gaap_CustomerRefundLiabilityCurrent
+000154 | Namespace Prefix:
+000155 | us-gaap_
+000156 | Data Type:
+000157 | xbrli:monetaryItemType
+000158 | Balance Type:
+000159 | credit
+000160 | Period Type:
+000161 | instant
+000162 | X
+000163 | - Definition
+000164 | Total of the carrying values as of the balance sheet date of obligations incurred through that date and payable for obligations related to services received from employees, such as accrued salaries and bonuses, payroll taxes and fringe benefits. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000165 | + References
+000166 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000167 | -Publisher FASB
+000168 | -Name Accounting Standards Codification
+000169 | -Topic 210
+000170 | -SubTopic 10
+000171 | -Section S99
+000172 | -Paragraph 1
+000173 | -Subparagraph (SX 210.5-02.20)
+000174 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000175 | + Details
+000176 | Name:
+000177 | us-gaap_EmployeeRelatedLiabilitiesCurrent
+000178 | Namespace Prefix:
+000179 | us-gaap_
+000180 | Data Type:
+000181 | xbrli:monetaryItemType
+000182 | Balance Type:
+000183 | credit
+000184 | Period Type:
+000185 | instant
+000186 | X
+000187 | - Definition
+000188 | Amount of expenses incurred but not yet paid classified as other, due within one year or the normal operating cycle, if longer.
+000189 | + References
+000190 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000191 | -Publisher FASB
+000192 | -Name Accounting Standards Codification
+000193 | -Topic 210
+000194 | -SubTopic 10
+000195 | -Section S99
+000196 | -Paragraph 1
+000197 | -Subparagraph (SX 210.5-02.20)
+000198 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000199 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000200 | -Publisher FASB
+000201 | -Name Accounting Standards Codification
+000202 | -Topic 210
+000203 | -SubTopic 10
+000204 | -Section 45
+000205 | -Paragraph 6
+000206 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e6911-107765
+000207 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000208 | -Publisher FASB
+000209 | -Name Accounting Standards Codification
+000210 | -Topic 210
+000211 | -SubTopic 10
+000212 | -Section 45
+000213 | -Paragraph 9
+000214 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e7018-107765
+000215 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000216 | -Publisher FASB
+000217 | -Name Accounting Standards Codification
+000218 | -Topic 210
+000219 | -SubTopic 10
+000220 | -Section 45
+000221 | -Paragraph 8
+000222 | -URI http://asc.fasb.org/extlink&oid=82887183&loc=d3e6935-107765
+000223 | + Details
+000224 | Name:
+000225 | us-gaap_OtherAccruedLiabilitiesCurrent
+000226 | Namespace Prefix:
+000227 | us-gaap_
+000228 | Data Type:
+000229 | xbrli:monetaryItemType
+000230 | Balance Type:
+000231 | credit
+000232 | Period Type:
+000233 | instant
+000234 | X
+000235 | - Definition
+000236 | Carrying amount (including both current and noncurrent portions of the accrual) as of the balance sheet date pertaining to a specified type of cost associated with exit from or disposal of business activities or restructuring pursuant to a duly authorized plan.
+000237 | + References
+000238 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000239 | -Publisher FASB
+000240 | -Name Accounting Standards Codification
+000241 | -Topic 420
+000242 | -SubTopic 10
+000243 | -Section 50
+000244 | -Paragraph 1
+000245 | -Subparagraph (b)(2)
+000246 | -URI http://asc.fasb.org/extlink&oid=6394359&loc=d3e17939-110869
+000247 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000248 | -Publisher FASB
+000249 | -Name Accounting Standards Codification
+000250 | -Topic 420
+000251 | -SubTopic 10
+000252 | -Section S99
+000253 | -Paragraph 2
+000254 | -Subparagraph (SAB TOPIC 5.P.4(b))
+000255 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140904-122747
+000256 | + Details
+000257 | Name:
+000258 | us-gaap_RestructuringReserve
+000259 | Namespace Prefix:
+000260 | us-gaap_
+000261 | Data Type:
+000262 | xbrli:monetaryItemType
+000263 | Balance Type:
+000264 | credit
+000265 | Period Type:
+000266 | instant
+000267 | X
+000268 | - Definition
+000269 | Amount as of the balance sheet date of the aggregate standard product warranty liability. Does not include the balance for the extended product warranty liability.
+000270 | + References
+000271 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000272 | -Publisher FASB
+000273 | -Name Accounting Standards Codification
+000274 | -Topic 460
+000275 | -SubTopic 10
+000276 | -Section 50
+000277 | -Paragraph 8
+000278 | -Subparagraph (c)(1),(c)(5)
+000279 | -URI http://asc.fasb.org/extlink&oid=68068213&loc=d3e12565-110249
+000280 | + Details
+000281 | Name:
+000282 | us-gaap_StandardProductWarrantyAccrual
+000283 | Namespace Prefix:
+000284 | us-gaap_
+000285 | Data Type:
+000286 | xbrli:monetaryItemType
+000287 | Balance Type:
+000288 | credit
+000289 | Period Type:
+000290 | instant

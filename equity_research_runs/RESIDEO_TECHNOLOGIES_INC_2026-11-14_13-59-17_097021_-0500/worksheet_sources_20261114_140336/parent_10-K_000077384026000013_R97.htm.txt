@@ -1,0 +1,290 @@
+000001 | v3.25.4
+000002 | LEASES - Schedule of Lease Cost (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Leases [Abstract]
+000009 | Operating lease cost
+000010 | $ 235
+000011 | $ 232
+000012 | $ 217
+000013 | Variable lease cost
+000014 | 5
+000015 | 7
+000016 | 4
+000017 | Short-term lease cost
+000018 | 7
+000019 | 2
+000020 | 13
+000021 | Finance lease cost
+000022 | Amortization of right-of-use assets
+000023 | 51
+000024 | 74
+000025 | 54
+000026 | Interest on lease liability
+000027 | 3
+000028 | 5
+000029 | 3
+000030 | Total finance lease cost
+000031 | 54
+000032 | 79
+000033 | 57
+000034 | Total lease cost
+000035 | $ 301
+000036 | $ 320
+000037 | $ 291
+000038 | X
+000039 | - Definition
+000040 | Total Financing Lease Cost
+000041 | + References
+000042 | No definition available.
+000043 | + Details
+000044 | Name:
+000045 | hon_TotalFinancingLeaseCost
+000046 | Namespace Prefix:
+000047 | hon_
+000048 | Data Type:
+000049 | xbrli:monetaryItemType
+000050 | Balance Type:
+000051 | debit
+000052 | Period Type:
+000053 | duration
+000054 | X
+000055 | - Definition
+000056 | Amount of interest expense on finance lease liability.
+000057 | + References
+000058 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000059 | -Topic 842
+000060 | -SubTopic 20
+000061 | -Name Accounting Standards Codification
+000062 | -Section 55
+000063 | -Paragraph 53
+000064 | -Publisher FASB
+000065 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000066 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000067 | -Topic 842
+000068 | -SubTopic 20
+000069 | -Name Accounting Standards Codification
+000070 | -Section 45
+000071 | -Paragraph 4
+000072 | -Subparagraph (a)
+000073 | -Publisher FASB
+000074 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-4
+000075 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000076 | -Topic 842
+000077 | -SubTopic 20
+000078 | -Name Accounting Standards Codification
+000079 | -Section 50
+000080 | -Paragraph 4
+000081 | -Subparagraph (a)
+000082 | -Publisher FASB
+000083 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000084 | + Details
+000085 | Name:
+000086 | us-gaap_FinanceLeaseInterestExpense
+000087 | Namespace Prefix:
+000088 | us-gaap_
+000089 | Data Type:
+000090 | xbrli:monetaryItemType
+000091 | Balance Type:
+000092 | debit
+000093 | Period Type:
+000094 | duration
+000095 | X
+000096 | - Definition
+000097 | Amount of amortization expense attributable to right-of-use asset from finance lease.
+000098 | + References
+000099 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000100 | -Topic 842
+000101 | -SubTopic 20
+000102 | -Name Accounting Standards Codification
+000103 | -Section 55
+000104 | -Paragraph 53
+000105 | -Publisher FASB
+000106 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000107 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000108 | -Topic 842
+000109 | -SubTopic 20
+000110 | -Name Accounting Standards Codification
+000111 | -Section 45
+000112 | -Paragraph 4
+000113 | -Subparagraph (a)
+000114 | -Publisher FASB
+000115 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-4
+000116 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000117 | -Topic 842
+000118 | -SubTopic 20
+000119 | -Name Accounting Standards Codification
+000120 | -Section 50
+000121 | -Paragraph 4
+000122 | -Subparagraph (a)
+000123 | -Publisher FASB
+000124 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000125 | + Details
+000126 | Name:
+000127 | us-gaap_FinanceLeaseRightOfUseAssetAmortization
+000128 | Namespace Prefix:
+000129 | us-gaap_
+000130 | Data Type:
+000131 | xbrli:monetaryItemType
+000132 | Balance Type:
+000133 | debit
+000134 | Period Type:
+000135 | duration
+000136 | X
+000137 | - Definition
+000138 | Amount of lease cost recognized by lessee for lease contract.
+000139 | + References
+000140 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000141 | -Topic 842
+000142 | -SubTopic 20
+000143 | -Name Accounting Standards Codification
+000144 | -Section 55
+000145 | -Paragraph 53
+000146 | -Publisher FASB
+000147 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000148 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000149 | -Topic 842
+000150 | -SubTopic 20
+000151 | -Name Accounting Standards Codification
+000152 | -Section 50
+000153 | -Paragraph 4
+000154 | -Publisher FASB
+000155 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000156 | + Details
+000157 | Name:
+000158 | us-gaap_LeaseCost
+000159 | Namespace Prefix:
+000160 | us-gaap_
+000161 | Data Type:
+000162 | xbrli:monetaryItemType
+000163 | Balance Type:
+000164 | debit
+000165 | Period Type:
+000166 | duration
+000167 | X
+000168 | - References
+000169 | No definition available.
+000170 | + Details
+000171 | Name:
+000172 | us-gaap_LeaseCostAbstract
+000173 | Namespace Prefix:
+000174 | us-gaap_
+000175 | Data Type:
+000176 | xbrli:stringItemType
+000177 | Balance Type:
+000178 | na
+000179 | Period Type:
+000180 | duration
+000181 | X
+000182 | - References
+000183 | No definition available.
+000184 | + Details
+000185 | Name:
+000186 | us-gaap_LeasesAbstract
+000187 | Namespace Prefix:
+000188 | us-gaap_
+000189 | Data Type:
+000190 | xbrli:stringItemType
+000191 | Balance Type:
+000192 | na
+000193 | Period Type:
+000194 | duration
+000195 | X
+000196 | - Definition
+000197 | Amount of single lease cost, calculated by allocation of remaining cost of lease over remaining lease term. Includes, but is not limited to, single lease cost, after impairment of right-of-use asset, calculated by amortization of remaining right-of-use asset and accretion of lease liability.
+000198 | + References
+000199 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000200 | -Topic 842
+000201 | -SubTopic 20
+000202 | -Name Accounting Standards Codification
+000203 | -Section 55
+000204 | -Paragraph 53
+000205 | -Publisher FASB
+000206 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000207 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000208 | -Topic 842
+000209 | -SubTopic 20
+000210 | -Name Accounting Standards Codification
+000211 | -Section 50
+000212 | -Paragraph 4
+000213 | -Subparagraph (b)
+000214 | -Publisher FASB
+000215 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000216 | + Details
+000217 | Name:
+000218 | us-gaap_OperatingLeaseCost
+000219 | Namespace Prefix:
+000220 | us-gaap_
+000221 | Data Type:
+000222 | xbrli:monetaryItemType
+000223 | Balance Type:
+000224 | debit
+000225 | Period Type:
+000226 | duration
+000227 | X
+000228 | - Definition
+000229 | Amount of short-term lease cost, excluding expense for lease with term of one month or less.
+000230 | + References
+000231 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000232 | -Topic 842
+000233 | -SubTopic 20
+000234 | -Name Accounting Standards Codification
+000235 | -Section 55
+000236 | -Paragraph 53
+000237 | -Publisher FASB
+000238 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000239 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000240 | -Topic 842
+000241 | -SubTopic 20
+000242 | -Name Accounting Standards Codification
+000243 | -Section 50
+000244 | -Paragraph 4
+000245 | -Subparagraph (c)
+000246 | -Publisher FASB
+000247 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000248 | + Details
+000249 | Name:
+000250 | us-gaap_ShortTermLeaseCost
+000251 | Namespace Prefix:
+000252 | us-gaap_
+000253 | Data Type:
+000254 | xbrli:monetaryItemType
+000255 | Balance Type:
+000256 | debit
+000257 | Period Type:
+000258 | duration
+000259 | X
+000260 | - Definition
+000261 | Amount of variable lease cost, excluded from lease liability, recognized when obligation for payment is incurred for finance and operating leases.
+000262 | + References
+000263 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000264 | -Topic 842
+000265 | -SubTopic 20
+000266 | -Name Accounting Standards Codification
+000267 | -Section 55
+000268 | -Paragraph 53
+000269 | -Publisher FASB
+000270 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000271 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000272 | -Topic 842
+000273 | -SubTopic 20
+000274 | -Name Accounting Standards Codification
+000275 | -Section 50
+000276 | -Paragraph 4
+000277 | -Subparagraph (d)
+000278 | -Publisher FASB
+000279 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000280 | + Details
+000281 | Name:
+000282 | us-gaap_VariableLeaseCost
+000283 | Namespace Prefix:
+000284 | us-gaap_
+000285 | Data Type:
+000286 | xbrli:monetaryItemType
+000287 | Balance Type:
+000288 | debit
+000289 | Period Type:
+000290 | duration

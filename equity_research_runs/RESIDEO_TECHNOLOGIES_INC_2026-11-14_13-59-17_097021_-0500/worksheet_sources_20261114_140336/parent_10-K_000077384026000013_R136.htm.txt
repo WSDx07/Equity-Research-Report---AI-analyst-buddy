@@ -1,0 +1,526 @@
+000001 | v3.25.4
+000002 | PENSION AND OTHER POSTRETIREMENT BENEFITS - Actuarial Assumptions (Details)
+000003 | 12 Months Ended
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Dec. 31, 2023
+000007 | Pension ongoing income—non-service | U.S. Plans
+000008 | Defined Benefit Plan Disclosure [Line Items]
+000009 | Discount rate
+000010 | 5.25%
+000011 | 5.57%
+000012 | 4.97%
+000013 | Expected annual rate of compensation increase
+000014 | 3.25%
+000015 | 3.25%
+000016 | 3.25%
+000017 | Discount rate—benefit obligation
+000018 | 5.57%
+000019 | 4.97%
+000020 | 5.17%
+000021 | Discount rate—service cost
+000022 | 5.55%
+000023 | 5.06%
+000024 | 5.26%
+000025 | Discount rate—interest cost
+000026 | 5.28%
+000027 | 4.89%
+000028 | 5.07%
+000029 | Expected rate of return on plan assets
+000030 | 7.25%
+000031 | 7.00%
+000032 | 6.75%
+000033 | Expected annual rate of compensation increase
+000034 | 3.25%
+000035 | 3.25%
+000036 | 3.25%
+000037 | Pension ongoing income—non-service | Non-U.S. Plans
+000038 | Defined Benefit Plan Disclosure [Line Items]
+000039 | Discount rate
+000040 | 5.22%
+000041 | 4.80%
+000042 | 4.15%
+000043 | Expected annual rate of compensation increase
+000044 | 2.77%
+000045 | 1.68%
+000046 | 2.68%
+000047 | Discount rate—benefit obligation
+000048 | 5.09%
+000049 | 4.13%
+000050 | 4.49%
+000051 | Discount rate—service cost
+000052 | 3.75%
+000053 | 3.38%
+000054 | 3.81%
+000055 | Discount rate—interest cost
+000056 | 4.86%
+000057 | 4.12%
+000058 | 4.56%
+000059 | Expected rate of return on plan assets
+000060 | 6.06%
+000061 | 5.48%
+000062 | 5.15%
+000063 | Expected annual rate of compensation increase
+000064 | 2.90%
+000065 | 2.68%
+000066 | 2.68%
+000067 | Other Postretirement Benefits
+000068 | Defined Benefit Plan Disclosure [Line Items]
+000069 | Discount rate
+000070 | 5.04%
+000071 | 5.42%
+000072 | 5.00%
+000073 | Discount rate
+000074 | 5.42%
+000075 | 5.00%
+000076 | 5.32%
+000077 | X
+000078 | - Definition
+000079 | Benefit Cost, Discount Rate, Benefit Obligation
+000080 | + References
+000081 | No definition available.
+000082 | + Details
+000083 | Name:
+000084 | hon_BenefitCostDiscountRateBenefitObligation
+000085 | Namespace Prefix:
+000086 | hon_
+000087 | Data Type:
+000088 | dtr-types:percentItemType
+000089 | Balance Type:
+000090 | na
+000091 | Period Type:
+000092 | duration
+000093 | X
+000094 | - Definition
+000095 | Benefit Cost, Discount Rate, Interest Cost
+000096 | + References
+000097 | No definition available.
+000098 | + Details
+000099 | Name:
+000100 | hon_BenefitCostDiscountRateInterestCost
+000101 | Namespace Prefix:
+000102 | hon_
+000103 | Data Type:
+000104 | dtr-types:percentItemType
+000105 | Balance Type:
+000106 | na
+000107 | Period Type:
+000108 | duration
+000109 | X
+000110 | - Definition
+000111 | Benefit Cost, Discount Rate, Service Cost
+000112 | + References
+000113 | No definition available.
+000114 | + Details
+000115 | Name:
+000116 | hon_BenefitCostDiscountRateServiceCost
+000117 | Namespace Prefix:
+000118 | hon_
+000119 | Data Type:
+000120 | dtr-types:percentItemType
+000121 | Balance Type:
+000122 | na
+000123 | Period Type:
+000124 | duration
+000125 | X
+000126 | - Definition
+000127 | Weighted average rate for present value of future retirement benefits cash flows, used to determine benefit obligation of defined benefit plan.
+000128 | + References
+000129 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000130 | -Topic 715
+000131 | -SubTopic 20
+000132 | -Name Accounting Standards Codification
+000133 | -Section 50
+000134 | -Paragraph 5
+000135 | -Subparagraph (j)(1)
+000136 | -Publisher FASB
+000137 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000138 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000139 | -Topic 715
+000140 | -SubTopic 20
+000141 | -Name Accounting Standards Codification
+000142 | -Section 50
+000143 | -Paragraph 1
+000144 | -Subparagraph (k)(1)
+000145 | -Publisher FASB
+000146 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000147 | + Details
+000148 | Name:
+000149 | us-gaap_DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate
+000150 | Namespace Prefix:
+000151 | us-gaap_
+000152 | Data Type:
+000153 | dtr-types:percentItemType
+000154 | Balance Type:
+000155 | na
+000156 | Period Type:
+000157 | instant
+000158 | X
+000159 | - Definition
+000160 | Weighted average rate increase of compensation, used to determine benefit obligation of defined benefit plan. Plan includes, but is not limited to, pay-related defined benefit plan.
+000161 | + References
+000162 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000163 | -Topic 715
+000164 | -SubTopic 20
+000165 | -Name Accounting Standards Codification
+000166 | -Section 50
+000167 | -Paragraph 5
+000168 | -Subparagraph (j)(2)
+000169 | -Publisher FASB
+000170 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000171 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000172 | -Topic 715
+000173 | -SubTopic 20
+000174 | -Name Accounting Standards Codification
+000175 | -Section 50
+000176 | -Paragraph 1
+000177 | -Subparagraph (k)(2)
+000178 | -Publisher FASB
+000179 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000180 | + Details
+000181 | Name:
+000182 | us-gaap_DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationRateOfCompensationIncrease
+000183 | Namespace Prefix:
+000184 | us-gaap_
+000185 | Data Type:
+000186 | dtr-types:percentItemType
+000187 | Balance Type:
+000188 | na
+000189 | Period Type:
+000190 | instant
+000191 | X
+000192 | - Definition
+000193 | Weighted average rate for present value of future retirement benefits cash flows, used to determine net periodic benefit cost of defined benefit plan.
+000194 | + References
+000195 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000196 | -Topic 715
+000197 | -SubTopic 20
+000198 | -Name Accounting Standards Codification
+000199 | -Section 50
+000200 | -Paragraph 5
+000201 | -Subparagraph (j)(1)
+000202 | -Publisher FASB
+000203 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000204 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000205 | -Topic 715
+000206 | -SubTopic 20
+000207 | -Name Accounting Standards Codification
+000208 | -Section 50
+000209 | -Paragraph 1
+000210 | -Subparagraph (k)(1)
+000211 | -Publisher FASB
+000212 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000213 | + Details
+000214 | Name:
+000215 | us-gaap_DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate
+000216 | Namespace Prefix:
+000217 | us-gaap_
+000218 | Data Type:
+000219 | dtr-types:percentItemType
+000220 | Balance Type:
+000221 | na
+000222 | Period Type:
+000223 | duration
+000224 | X
+000225 | - Definition
+000226 | Weighted average rate of return on plan assets, reflecting average rate of earnings expected on existing plan assets and expected contributions, used to determine net periodic benefit cost of defined benefit plan.
+000227 | + References
+000228 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000229 | -Topic 715
+000230 | -SubTopic 20
+000231 | -Name Accounting Standards Codification
+000232 | -Section 50
+000233 | -Paragraph 5
+000234 | -Subparagraph (j)(3)
+000235 | -Publisher FASB
+000236 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000237 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000238 | -Topic 715
+000239 | -SubTopic 20
+000240 | -Name Accounting Standards Codification
+000241 | -Section 50
+000242 | -Paragraph 8
+000243 | -Publisher FASB
+000244 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-8
+000245 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000246 | -Topic 715
+000247 | -SubTopic 20
+000248 | -Name Accounting Standards Codification
+000249 | -Section 50
+000250 | -Paragraph 1
+000251 | -Subparagraph (k)(3)
+000252 | -Publisher FASB
+000253 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000254 | + Details
+000255 | Name:
+000256 | us-gaap_DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostExpectedLongTermReturnOnAssets
+000257 | Namespace Prefix:
+000258 | us-gaap_
+000259 | Data Type:
+000260 | dtr-types:percentItemType
+000261 | Balance Type:
+000262 | na
+000263 | Period Type:
+000264 | duration
+000265 | X
+000266 | - Definition
+000267 | Weighted average rate of compensation increase used to determine net periodic benefit cost of defined benefit plan. Plan includes, but is not limited to, pay-related defined benefit plan.
+000268 | + References
+000269 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000270 | -Topic 715
+000271 | -SubTopic 20
+000272 | -Name Accounting Standards Codification
+000273 | -Section 50
+000274 | -Paragraph 5
+000275 | -Subparagraph (j)(2)
+000276 | -Publisher FASB
+000277 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000278 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000279 | -Topic 715
+000280 | -SubTopic 20
+000281 | -Name Accounting Standards Codification
+000282 | -Section 50
+000283 | -Paragraph 1
+000284 | -Subparagraph (k)(2)
+000285 | -Publisher FASB
+000286 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000287 | + Details
+000288 | Name:
+000289 | us-gaap_DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostRateOfCompensationIncrease
+000290 | Namespace Prefix:
+000291 | us-gaap_
+000292 | Data Type:
+000293 | dtr-types:percentItemType
+000294 | Balance Type:
+000295 | na
+000296 | Period Type:
+000297 | duration
+000298 | X
+000299 | - Definition
+000300 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000301 | + References
+000302 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000303 | -Topic 715
+000304 | -SubTopic 20
+000305 | -Name Accounting Standards Codification
+000306 | -Section 50
+000307 | -Paragraph 5
+000308 | -Subparagraph (k)
+000309 | -Publisher FASB
+000310 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000311 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000312 | -Topic 715
+000313 | -SubTopic 20
+000314 | -Name Accounting Standards Codification
+000315 | -Section 50
+000316 | -Paragraph 5
+000317 | -Subparagraph (d)
+000318 | -Publisher FASB
+000319 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000320 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000321 | -Topic 715
+000322 | -SubTopic 20
+000323 | -Name Accounting Standards Codification
+000324 | -Section 50
+000325 | -Paragraph 5
+000326 | -Subparagraph (i)
+000327 | -Publisher FASB
+000328 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000329 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000330 | -Topic 715
+000331 | -SubTopic 20
+000332 | -Name Accounting Standards Codification
+000333 | -Section 50
+000334 | -Paragraph 5
+000335 | -Subparagraph (l)
+000336 | -Publisher FASB
+000337 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000338 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000339 | -Topic 715
+000340 | -SubTopic 20
+000341 | -Name Accounting Standards Codification
+000342 | -Section 50
+000343 | -Paragraph 5
+000344 | -Subparagraph (g)
+000345 | -Publisher FASB
+000346 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000347 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000348 | -Topic 715
+000349 | -SubTopic 20
+000350 | -Name Accounting Standards Codification
+000351 | -Section 50
+000352 | -Paragraph 5
+000353 | -Subparagraph (j)(1)
+000354 | -Publisher FASB
+000355 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000356 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000357 | -Topic 715
+000358 | -SubTopic 20
+000359 | -Name Accounting Standards Codification
+000360 | -Section 50
+000361 | -Paragraph 5
+000362 | -Subparagraph (j)(2)
+000363 | -Publisher FASB
+000364 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000365 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000366 | -Topic 715
+000367 | -SubTopic 20
+000368 | -Name Accounting Standards Codification
+000369 | -Section 50
+000370 | -Paragraph 5
+000371 | -Subparagraph (j)(4)
+000372 | -Publisher FASB
+000373 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000374 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000375 | -Topic 715
+000376 | -SubTopic 20
+000377 | -Name Accounting Standards Codification
+000378 | -Section 50
+000379 | -Paragraph 5
+000380 | -Subparagraph (j)(3)
+000381 | -Publisher FASB
+000382 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000383 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000384 | -Topic 715
+000385 | -SubTopic 20
+000386 | -Name Accounting Standards Codification
+000387 | -Section 50
+000388 | -Paragraph 5
+000389 | -Subparagraph (a)
+000390 | -Publisher FASB
+000391 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000392 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000393 | -Topic 715
+000394 | -SubTopic 20
+000395 | -Name Accounting Standards Codification
+000396 | -Section 50
+000397 | -Paragraph 5
+000398 | -Subparagraph (b)
+000399 | -Publisher FASB
+000400 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000401 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000402 | -Topic 715
+000403 | -SubTopic 20
+000404 | -Name Accounting Standards Codification
+000405 | -Section 50
+000406 | -Paragraph 5
+000407 | -Subparagraph (c)(iv)(02)
+000408 | -Publisher FASB
+000409 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000410 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000411 | -Topic 715
+000412 | -SubTopic 20
+000413 | -Name Accounting Standards Codification
+000414 | -Section 50
+000415 | -Paragraph 5
+000416 | -Subparagraph (c)(ii)
+000417 | -Publisher FASB
+000418 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000419 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000420 | -Topic 715
+000421 | -SubTopic 20
+000422 | -Name Accounting Standards Codification
+000423 | -Section 50
+000424 | -Paragraph 7
+000425 | -Publisher FASB
+000426 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-7
+000427 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000428 | -Topic 715
+000429 | -SubTopic 20
+000430 | -Name Accounting Standards Codification
+000431 | -Section 50
+000432 | -Paragraph 5
+000433 | -Subparagraph (q)
+000434 | -Publisher FASB
+000435 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000436 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000437 | -Topic 715
+000438 | -SubTopic 20
+000439 | -Name Accounting Standards Codification
+000440 | -Section 50
+000441 | -Paragraph 5
+000442 | -Subparagraph (m)
+000443 | -Publisher FASB
+000444 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000445 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000446 | -Topic 715
+000447 | -SubTopic 20
+000448 | -Name Accounting Standards Codification
+000449 | -Section 50
+000450 | -Paragraph 5
+000451 | -Subparagraph (h)
+000452 | -Publisher FASB
+000453 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000454 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+000455 | -Topic 715
+000456 | -SubTopic 20
+000457 | -Name Accounting Standards Codification
+000458 | -Section 50
+000459 | -Paragraph 5
+000460 | -Subparagraph (f)
+000461 | -Publisher FASB
+000462 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000463 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+000464 | -Topic 715
+000465 | -SubTopic 20
+000466 | -Name Accounting Standards Codification
+000467 | -Section 50
+000468 | -Paragraph 5
+000469 | -Subparagraph (e)
+000470 | -Publisher FASB
+000471 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000472 | Reference 20: http://www.xbrl.org/2003/role/disclosureRef
+000473 | -Topic 715
+000474 | -SubTopic 20
+000475 | -Name Accounting Standards Codification
+000476 | -Section 50
+000477 | -Paragraph 5
+000478 | -Publisher FASB
+000479 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000480 | + Details
+000481 | Name:
+000482 | us-gaap_DefinedBenefitPlanDisclosureLineItems
+000483 | Namespace Prefix:
+000484 | us-gaap_
+000485 | Data Type:
+000486 | xbrli:stringItemType
+000487 | Balance Type:
+000488 | na
+000489 | Period Type:
+000490 | duration
+000491 | X
+000492 | - Details
+000493 | Name:
+000494 | us-gaap_RetirementPlanTypeAxis=us-gaap_PensionPlansDefinedBenefitMember
+000495 | Namespace Prefix:
+000496 | Data Type:
+000497 | na
+000498 | Balance Type:
+000499 | Period Type:
+000500 | X
+000501 | - Details
+000502 | Name:
+000503 | us-gaap_RetirementPlanSponsorLocationAxis=country_US
+000504 | Namespace Prefix:
+000505 | Data Type:
+000506 | na
+000507 | Balance Type:
+000508 | Period Type:
+000509 | X
+000510 | - Details
+000511 | Name:
+000512 | us-gaap_RetirementPlanSponsorLocationAxis=us-gaap_ForeignPlanMember
+000513 | Namespace Prefix:
+000514 | Data Type:
+000515 | na
+000516 | Balance Type:
+000517 | Period Type:
+000518 | X
+000519 | - Details
+000520 | Name:
+000521 | us-gaap_RetirementPlanTypeAxis=hon_OtherPostretirementBenefitsMember
+000522 | Namespace Prefix:
+000523 | Data Type:
+000524 | na
+000525 | Balance Type:
+000526 | Period Type:

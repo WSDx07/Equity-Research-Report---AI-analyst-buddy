@@ -1,0 +1,178 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0306</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2021-09-29</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001740332</issuerCik>
+000015 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000016 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001754267</rptOwnerCik>
+000022 |             <rptOwnerName>Aarnes Robert B</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>901 E 6TH STREET</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2></rptOwnerStreet2>
+000027 |             <rptOwnerCity>AUSTIN</rptOwnerCity>
+000028 |             <rptOwnerState>TX</rptOwnerState>
+000029 |             <rptOwnerZipCode>78702</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>0</isDirector>
+000034 |             <isOfficer>1</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |             <officerTitle>President, ADI</officerTitle>
+000038 |             <otherText></otherText>
+000039 |         </reportingOwnerRelationship>
+000040 |     </reportingOwner>
+000041 | 
+000042 |     <nonDerivativeTable>
+000043 |         <nonDerivativeTransaction>
+000044 |             <securityTitle>
+000045 |                 <value>Common Stock</value>
+000046 |             </securityTitle>
+000047 |             <transactionDate>
+000048 |                 <value>2021-09-29</value>
+000049 |             </transactionDate>
+000050 |             <transactionCoding>
+000051 |                 <transactionFormType>4</transactionFormType>
+000052 |                 <transactionCode>M</transactionCode>
+000053 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000054 |             </transactionCoding>
+000055 |             <transactionAmounts>
+000056 |                 <transactionShares>
+000057 |                     <value>3662</value>
+000058 |                 </transactionShares>
+000059 |                 <transactionPricePerShare>
+000060 |                     <footnoteId id="F1"/>
+000061 |                 </transactionPricePerShare>
+000062 |                 <transactionAcquiredDisposedCode>
+000063 |                     <value>A</value>
+000064 |                 </transactionAcquiredDisposedCode>
+000065 |             </transactionAmounts>
+000066 |             <postTransactionAmounts>
+000067 |                 <sharesOwnedFollowingTransaction>
+000068 |                     <value>33580</value>
+000069 |                 </sharesOwnedFollowingTransaction>
+000070 |             </postTransactionAmounts>
+000071 |             <ownershipNature>
+000072 |                 <directOrIndirectOwnership>
+000073 |                     <value>D</value>
+000074 |                 </directOrIndirectOwnership>
+000075 |             </ownershipNature>
+000076 |         </nonDerivativeTransaction>
+000077 |         <nonDerivativeTransaction>
+000078 |             <securityTitle>
+000079 |                 <value>Common Stock</value>
+000080 |             </securityTitle>
+000081 |             <transactionDate>
+000082 |                 <value>2021-09-29</value>
+000083 |             </transactionDate>
+000084 |             <transactionCoding>
+000085 |                 <transactionFormType>4</transactionFormType>
+000086 |                 <transactionCode>F</transactionCode>
+000087 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000088 |             </transactionCoding>
+000089 |             <transactionAmounts>
+000090 |                 <transactionShares>
+000091 |                     <value>1946</value>
+000092 |                 </transactionShares>
+000093 |                 <transactionPricePerShare>
+000094 |                     <value>25.34</value>
+000095 |                 </transactionPricePerShare>
+000096 |                 <transactionAcquiredDisposedCode>
+000097 |                     <value>D</value>
+000098 |                 </transactionAcquiredDisposedCode>
+000099 |             </transactionAmounts>
+000100 |             <postTransactionAmounts>
+000101 |                 <sharesOwnedFollowingTransaction>
+000102 |                     <value>31634</value>
+000103 |                 </sharesOwnedFollowingTransaction>
+000104 |             </postTransactionAmounts>
+000105 |             <ownershipNature>
+000106 |                 <directOrIndirectOwnership>
+000107 |                     <value>D</value>
+000108 |                 </directOrIndirectOwnership>
+000109 |             </ownershipNature>
+000110 |         </nonDerivativeTransaction>
+000111 |     </nonDerivativeTable>
+000112 | 
+000113 |     <derivativeTable>
+000114 |         <derivativeTransaction>
+000115 |             <securityTitle>
+000116 |                 <value>Restricted Stock Units</value>
+000117 |             </securityTitle>
+000118 |             <conversionOrExercisePrice>
+000119 |                 <footnoteId id="F1"/>
+000120 |             </conversionOrExercisePrice>
+000121 |             <transactionDate>
+000122 |                 <value>2021-09-29</value>
+000123 |             </transactionDate>
+000124 |             <transactionCoding>
+000125 |                 <transactionFormType>4</transactionFormType>
+000126 |                 <transactionCode>M</transactionCode>
+000127 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000128 |             </transactionCoding>
+000129 |             <transactionAmounts>
+000130 |                 <transactionShares>
+000131 |                     <value>3662</value>
+000132 |                 </transactionShares>
+000133 |                 <transactionPricePerShare>
+000134 |                     <value>0</value>
+000135 |                 </transactionPricePerShare>
+000136 |                 <transactionAcquiredDisposedCode>
+000137 |                     <value>D</value>
+000138 |                 </transactionAcquiredDisposedCode>
+000139 |             </transactionAmounts>
+000140 |             <exerciseDate>
+000141 |                 <footnoteId id="F2"/>
+000142 |             </exerciseDate>
+000143 |             <expirationDate>
+000144 |                 <footnoteId id="F2"/>
+000145 |             </expirationDate>
+000146 |             <underlyingSecurity>
+000147 |                 <underlyingSecurityTitle>
+000148 |                     <value>Common Stock</value>
+000149 |                 </underlyingSecurityTitle>
+000150 |                 <underlyingSecurityShares>
+000151 |                     <value>3662</value>
+000152 |                 </underlyingSecurityShares>
+000153 |             </underlyingSecurity>
+000154 |             <postTransactionAmounts>
+000155 |                 <sharesOwnedFollowingTransaction>
+000156 |                     <value>3788</value>
+000157 |                 </sharesOwnedFollowingTransaction>
+000158 |             </postTransactionAmounts>
+000159 |             <ownershipNature>
+000160 |                 <directOrIndirectOwnership>
+000161 |                     <value>D</value>
+000162 |                 </directOrIndirectOwnership>
+000163 |             </ownershipNature>
+000164 |         </derivativeTransaction>
+000165 |     </derivativeTable>
+000166 | 
+000167 |     <footnotes>
+000168 |         <footnote id="F1">Instrument converts to common stock on a one-for-one basis.</footnote>
+000169 |         <footnote id="F2">The reported restricted stock units vested on September 29, 2021 and the remaining restricted stock units vest on September 29, 2023, subject to continued employment.</footnote>
+000170 |     </footnotes>
+000171 | 
+000172 |     <ownerSignature>
+000173 |         <signatureName>/s/ Jeannine J. Lane, as Attorney-in-Fact for Robert B. Aarnes</signatureName>
+000174 |         <signatureDate>2021-09-30</signatureDate>
+000175 |     </ownerSignature>
+000176 | </ownershipDocument>
+000177 | </XML>
+000178 | 

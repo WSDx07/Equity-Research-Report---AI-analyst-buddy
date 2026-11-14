@@ -1,0 +1,314 @@
+000001 | v3.26.3
+000002 | Summary of Significant Accounting Policies - Narrative (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Jun. 29, 2026
+000007 | Sep. 30, 2026
+000008 | Sep. 30, 2025
+000009 | Sep. 30, 2026
+000010 | Sep. 30, 2025
+000011 | Dec. 31, 2025
+000012 | Confirmed Obligations Outstanding At the End of the Period [Line Items]
+000013 | Accounts payable
+000014 | $ 3,592
+000015 | $ 3,592
+000016 | $ 3,434
+000017 | Loss from equity method investments
+000018 | 147
+000019 | $ 0
+000020 | 412
+000021 | $ 0
+000022 | Level 2 | Carrying Value
+000023 | Confirmed Obligations Outstanding At the End of the Period [Line Items]
+000024 | Equity method investment in quantinuum
+000025 | 7,113
+000026 | 7,113
+000027 | 0
+000028 | Industrial Automation
+000029 | Confirmed Obligations Outstanding At the End of the Period [Line Items]
+000030 | Segment reporting, assets transferred to another segment, amount
+000031 | $ 26
+000032 | Suppliers Utilizing Third Party Services Sold Through To Financial Institutions
+000033 | Confirmed Obligations Outstanding At the End of the Period [Line Items]
+000034 | Accounts payable
+000035 | $ 433
+000036 | $ 433
+000037 | $ 620
+000038 | X
+000039 | - Definition
+000040 | Confirmed Obligations Outstanding At the End of the Period
+000041 | + References
+000042 | No definition available.
+000043 | + Details
+000044 | Name:
+000045 | hon_ConfirmedObligationsOutstandingAtTheEndOfThePeriodLineItems
+000046 | Namespace Prefix:
+000047 | hon_
+000048 | Data Type:
+000049 | xbrli:stringItemType
+000050 | Balance Type:
+000051 | na
+000052 | Period Type:
+000053 | duration
+000054 | X
+000055 | - Definition
+000056 | Segment Reporting, Assets Transferred To Another Segment, Amount
+000057 | + References
+000058 | No definition available.
+000059 | + Details
+000060 | Name:
+000061 | hon_SegmentReportingAssetsTransferredToAnotherSegmentAmount
+000062 | Namespace Prefix:
+000063 | hon_
+000064 | Data Type:
+000065 | xbrli:monetaryItemType
+000066 | Balance Type:
+000067 | credit
+000068 | Period Type:
+000069 | duration
+000070 | X
+000071 | - Definition
+000072 | Carrying value as of the balance sheet date of liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received that are used in an entity's business. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000073 | + References
+000074 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000075 | -Topic 210
+000076 | -SubTopic 10
+000077 | -Name Accounting Standards Codification
+000078 | -Section S99
+000079 | -Paragraph 1
+000080 | -Subparagraph (SX 210.5-02(19))
+000081 | -Publisher FASB
+000082 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000083 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000084 | -Topic 210
+000085 | -SubTopic 10
+000086 | -Name Accounting Standards Codification
+000087 | -Section S50
+000088 | -Paragraph 8
+000089 | -Publisher FASB
+000090 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-8
+000091 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000092 | -Topic 852
+000093 | -SubTopic 10
+000094 | -Name Accounting Standards Codification
+000095 | -Section 55
+000096 | -Paragraph 10
+000097 | -Publisher FASB
+000098 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000099 | + Details
+000100 | Name:
+000101 | us-gaap_AccountsPayableCurrent
+000102 | Namespace Prefix:
+000103 | us-gaap_
+000104 | Data Type:
+000105 | xbrli:monetaryItemType
+000106 | Balance Type:
+000107 | credit
+000108 | Period Type:
+000109 | instant
+000110 | X
+000111 | - Definition
+000112 | Fair value portion of investments accounted under the equity method.
+000113 | + References
+000114 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000115 | -Topic 820
+000116 | -SubTopic 10
+000117 | -Name Accounting Standards Codification
+000118 | -Section 50
+000119 | -Paragraph 2
+000120 | -Subparagraph (b)
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000123 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000124 | -Topic 820
+000125 | -SubTopic 10
+000126 | -Name Accounting Standards Codification
+000127 | -Section 50
+000128 | -Paragraph 2
+000129 | -Subparagraph (a)
+000130 | -Publisher FASB
+000131 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000132 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000133 | -Topic 210
+000134 | -SubTopic 10
+000135 | -Name Accounting Standards Codification
+000136 | -Section S99
+000137 | -Paragraph 1
+000138 | -Subparagraph (SX 210.5-02(12))
+000139 | -Publisher FASB
+000140 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000141 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000142 | -Topic 825
+000143 | -SubTopic 10
+000144 | -Name Accounting Standards Codification
+000145 | -Section 55
+000146 | -Paragraph 10
+000147 | -Publisher FASB
+000148 | -URI https://asc.fasb.org/1943274/2147482881/825-10-55-10
+000149 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000150 | -Topic 825
+000151 | -SubTopic 10
+000152 | -Name Accounting Standards Codification
+000153 | -Section 55
+000154 | -Paragraph 12
+000155 | -Publisher FASB
+000156 | -URI https://asc.fasb.org/1943274/2147482881/825-10-55-12
+000157 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000158 | -Topic 210
+000159 | -SubTopic 10
+000160 | -Name Accounting Standards Codification
+000161 | -Section S50
+000162 | -Paragraph 4
+000163 | -Publisher FASB
+000164 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-4
+000165 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000166 | -Topic 825
+000167 | -SubTopic 10
+000168 | -Name Accounting Standards Codification
+000169 | -Section 50
+000170 | -Paragraph 28
+000171 | -Subparagraph (c)(1)
+000172 | -Publisher FASB
+000173 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+000174 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+000175 | -Topic 820
+000176 | -SubTopic 10
+000177 | -Name Accounting Standards Codification
+000178 | -Section 50
+000179 | -Paragraph 2E
+000180 | -Publisher FASB
+000181 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2E
+000182 | + Details
+000183 | Name:
+000184 | us-gaap_EquityMethodInvestmentsFairValueDisclosure
+000185 | Namespace Prefix:
+000186 | us-gaap_
+000187 | Data Type:
+000188 | xbrli:monetaryItemType
+000189 | Balance Type:
+000190 | debit
+000191 | Period Type:
+000192 | instant
+000193 | X
+000194 | - Definition
+000195 | Amount of income (loss) for proportionate share of equity method investee's income (loss).
+000196 | + References
+000197 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000198 | -Name Accounting Standards Codification
+000199 | -Section 45
+000200 | -Paragraph 28
+000201 | -Subparagraph (b)
+000202 | -SubTopic 10
+000203 | -Topic 230
+000204 | -Publisher FASB
+000205 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000206 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000207 | -Topic 280
+000208 | -SubTopic 10
+000209 | -Name Accounting Standards Codification
+000210 | -Section 50
+000211 | -Paragraph 32
+000212 | -Subparagraph (ee)
+000213 | -Publisher FASB
+000214 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000215 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000216 | -Topic 280
+000217 | -SubTopic 10
+000218 | -Name Accounting Standards Codification
+000219 | -Section 50
+000220 | -Paragraph 22
+000221 | -Subparagraph (g)
+000222 | -Publisher FASB
+000223 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000224 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000225 | -Topic 270
+000226 | -SubTopic 10
+000227 | -Name Accounting Standards Codification
+000228 | -Section 50
+000229 | -Paragraph 1
+000230 | -Subparagraph (i)
+000231 | -Publisher FASB
+000232 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000233 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000234 | -Topic 944
+000235 | -SubTopic 220
+000236 | -Name Accounting Standards Codification
+000237 | -Section S99
+000238 | -Paragraph 1
+000239 | -Subparagraph (SX 210.7-04(10))
+000240 | -Publisher FASB
+000241 | -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1
+000242 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000243 | -Topic 323
+000244 | -SubTopic 10
+000245 | -Name Accounting Standards Codification
+000246 | -Section 45
+000247 | -Paragraph 1
+000248 | -Publisher FASB
+000249 | -URI https://asc.fasb.org/1943274/2147481664/323-10-45-1
+000250 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000251 | -Topic 220
+000252 | -SubTopic 10
+000253 | -Name Accounting Standards Codification
+000254 | -Section S99
+000255 | -Paragraph 2
+000256 | -Subparagraph (SX 210.5-03(12))
+000257 | -Publisher FASB
+000258 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000259 | Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef
+000260 | -Topic 942
+000261 | -SubTopic 220
+000262 | -Name Accounting Standards Codification
+000263 | -Section S99
+000264 | -Paragraph 1
+000265 | -Subparagraph (SX 210.9-04(13)(f))
+000266 | -Publisher FASB
+000267 | -URI https://asc.fasb.org/1943274/2147478524/942-220-S99-1
+000268 | + Details
+000269 | Name:
+000270 | us-gaap_IncomeLossFromEquityMethodInvestments
+000271 | Namespace Prefix:
+000272 | us-gaap_
+000273 | Data Type:
+000274 | xbrli:monetaryItemType
+000275 | Balance Type:
+000276 | credit
+000277 | Period Type:
+000278 | duration
+000279 | X
+000280 | - Details
+000281 | Name:
+000282 | us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel2Member
+000283 | Namespace Prefix:
+000284 | Data Type:
+000285 | na
+000286 | Balance Type:
+000287 | Period Type:
+000288 | X
+000289 | - Details
+000290 | Name:
+000291 | us-gaap_FairValueByMeasurementBasisAxis=us-gaap_CarryingReportedAmountFairValueDisclosureMember
+000292 | Namespace Prefix:
+000293 | Data Type:
+000294 | na
+000295 | Balance Type:
+000296 | Period Type:
+000297 | X
+000298 | - Details
+000299 | Name:
+000300 | us-gaap_StatementBusinessSegmentsAxis=hon_IndustrialAutomationMember
+000301 | Namespace Prefix:
+000302 | Data Type:
+000303 | na
+000304 | Balance Type:
+000305 | Period Type:
+000306 | X
+000307 | - Details
+000308 | Name:
+000309 | srt_CounterpartyNameAxis=hon_SuppliersUtilizingThirdPartyServicesSoldThroughToFinancialInstitutionsMember
+000310 | Namespace Prefix:
+000311 | Data Type:
+000312 | na
+000313 | Balance Type:
+000314 | Period Type:

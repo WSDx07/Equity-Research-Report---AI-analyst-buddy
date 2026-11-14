@@ -1,0 +1,127 @@
+000001 | v3.10.0.1
+000002 | Commitment and Contingencies - Summary of Information Concerning Our Recorded Liabilities For Environmental Costs (Details)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2018
+000006 | USD ($)
+000007 | Accrual for Environmental Loss Contingencies [Roll Forward]
+000008 | December 31, 2017
+000009 | $ 537
+000010 | Accruals for environmental matters deemed probable and reasonably estimable
+000011 | 322
+000012 | Environmental liability remediated
+000013 | (124)
+000014 | September 30, 2018
+000015 | $ 735
+000016 | X
+000017 | - Definition
+000018 | Total costs accrued as of the balance sheet date for environmental loss contingencies.
+000019 | + References
+000020 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000021 | -Publisher FASB
+000022 | -Name Accounting Standards Codification
+000023 | -Topic 450
+000024 | -SubTopic 20
+000025 | -Section 50
+000026 | -Paragraph 1
+000027 | -URI http://asc.fasb.org/extlink&oid=82911808&loc=d3e14326-108349
+000028 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000029 | -Publisher FASB
+000030 | -Name Accounting Standards Codification
+000031 | -Topic 450
+000032 | -SubTopic 20
+000033 | -Section 25
+000034 | -Paragraph 2
+000035 | -URI http://asc.fasb.org/extlink&oid=6395460&loc=d3e13647-108346
+000036 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000037 | -Publisher FASB
+000038 | -Name Accounting Standards Codification
+000039 | -Topic 410
+000040 | -SubTopic 30
+000041 | -Section 50
+000042 | -Paragraph 7
+000043 | -URI http://asc.fasb.org/extlink&oid=6393242&loc=d3e13207-110859
+000044 | + Details
+000045 | Name:
+000046 | us-gaap_AccrualForEnvironmentalLossContingencies
+000047 | Namespace Prefix:
+000048 | us-gaap_
+000049 | Data Type:
+000050 | xbrli:monetaryItemType
+000051 | Balance Type:
+000052 | credit
+000053 | Period Type:
+000054 | instant
+000055 | X
+000056 | - Definition
+000057 | Amount of expense for newly incurred environmental loss contingencies. Includes, but is not limited to, remediation expense and interest accretion.
+000058 | + References
+000059 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000060 | -Publisher FASB
+000061 | -Name Accounting Standards Codification
+000062 | -Topic 450
+000063 | -SubTopic 20
+000064 | -Section S99
+000065 | -Paragraph 1
+000066 | -Subparagraph (SAB TOPIC 5.Y.Q2)
+000067 | -URI http://asc.fasb.org/extlink&oid=27011672&loc=d3e149879-122751
+000068 | + Details
+000069 | Name:
+000070 | us-gaap_AccrualForEnvironmentalLossContingenciesChargesToExpenseForNewLosses
+000071 | Namespace Prefix:
+000072 | us-gaap_
+000073 | Data Type:
+000074 | xbrli:monetaryItemType
+000075 | Balance Type:
+000076 | debit
+000077 | Period Type:
+000078 | duration
+000079 | X
+000080 | - Definition
+000081 | Amount of cash outflow to settle environmental loss contingencies.
+000082 | + References
+000083 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000084 | -Publisher FASB
+000085 | -Name Accounting Standards Codification
+000086 | -Topic 450
+000087 | -SubTopic 20
+000088 | -Section S99
+000089 | -Paragraph 1
+000090 | -Subparagraph (SAB TOPIC 5.Y.Q1)
+000091 | -URI http://asc.fasb.org/extlink&oid=27011672&loc=d3e149879-122751
+000092 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000093 | -Publisher FASB
+000094 | -Name Accounting Standards Codification
+000095 | -Topic 230
+000096 | -SubTopic 10
+000097 | -Section 45
+000098 | -Paragraph 17
+000099 | -Subparagraph (f)
+000100 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3367-108585
+000101 | + Details
+000102 | Name:
+000103 | us-gaap_AccrualForEnvironmentalLossContingenciesPayments1
+000104 | Namespace Prefix:
+000105 | us-gaap_
+000106 | Data Type:
+000107 | xbrli:monetaryItemType
+000108 | Balance Type:
+000109 | credit
+000110 | Period Type:
+000111 | duration
+000112 | X
+000113 | - Definition
+000114 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000115 | + References
+000116 | No definition available.
+000117 | + Details
+000118 | Name:
+000119 | us-gaap_AccrualForEnvironmentalLossContingenciesRollForward
+000120 | Namespace Prefix:
+000121 | us-gaap_
+000122 | Data Type:
+000123 | xbrli:stringItemType
+000124 | Balance Type:
+000125 | na
+000126 | Period Type:
+000127 | duration

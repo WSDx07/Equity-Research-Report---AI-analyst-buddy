@@ -248,6 +248,9 @@ class EquityDeskFlow(Flow[DeskState]):
         facts = desk.fact_data()
         forms = ('10-K' if '10-K' in filings else 'Form 10', '10-Q', '8-K')
         lines = ["Filings: " + "; ".join(f"{k} {filings[k]['accessionNumber']} filed {filings[k]['filingDate']} {filings[k]['index_url']}" for k in forms), f"# {desk.company_info()['name']} ({desk.ticker})", f"Analysis date: {facts['as_of']}", ""]
+        actual_exhibit = filings['8-K'].get('selected_earnings_exhibit_type', 'EX-99.1')
+        if actual_exhibit != 'EX-99.1':
+            lines.extend([f"Release source note: the actual exhibit type is {actual_exhibit}; EX-99.1 in saved file labels is an internal alias.", ""])
         if facts.get('limitation'):
             lines.extend([f"Data limitation: {facts['limitation']}", ""])
         for section in SECTIONS:

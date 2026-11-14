@@ -43,6 +43,14 @@ class Form4Tests(unittest.TestCase):
 
 
 class SecRowTests(unittest.TestCase):
+    def test_explicit_weekly_report_can_be_a_form_d_or_form_four(self):
+        rows = [{'form': '8-K', 'filingDate': '2026-11-09', 'accessionNumber': '111', 'items': '2.02'},
+                {'form': 'D', 'filingDate': '2026-11-10', 'accessionNumber': '222'},
+                {'form': '4', 'filingDate': '2026-11-13', 'accessionNumber': '333'}]
+        self.assertEqual(prepare_worksheet.choose_live_filing(rows, '2026-11-14')['accessionNumber'], '111')
+        self.assertEqual(prepare_worksheet.choose_live_filing(rows, '2026-11-14', '222')['form'], 'D')
+        self.assertEqual(prepare_worksheet.choose_live_filing(rows, '2026-11-14', '333')['form'], '4')
+        self.assertIsNone(prepare_worksheet.choose_live_filing(rows, '2026-11-12', '333'))
     def test_sec_row_uses_dashed_accession_expected_by_edgar_folder_reader(self):
         row = prepare_worksheet.sec_row(
             '0002128626', '000119312526396054', '10-12B/A', '2026-09-21')

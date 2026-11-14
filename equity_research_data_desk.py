@@ -250,9 +250,13 @@ class Desk:
             self.downloads[form] = document["url"]
             self.filing_text[form] = content
             say(f"  Saved {filename} ({len(content):,} characters) from {document['url']}")
-        exhibit = next((doc for doc in filings["8-K"]["documents"] if doc["type"] == "EX-99.1"), None)
+        exhibit = next((doc for doc in filings["8-K"]["documents"] if doc["type"].upper() == "EX-99.1"), None)
+        if exhibit is None and re.search(r'\bExhibit\s+99\b(?!\s*\.\s*\d)', self.filing_text.get('8-K', ''), re.I):
+            matching = [doc for doc in filings["8-K"]["documents"] if doc["type"].upper() in {"EX-99", "EX-99.0"}]
+            exhibit = matching[0] if len(matching) == 1 else None
         if exhibit is None:
             raise ValueError(f"Exhibit 99.1 is missing from the latest Item 2.02 8-K: {filings['8-K']['index_url']}")
+        filings['8-K']['selected_earnings_exhibit_type'] = exhibit['type']
         content = text_from_html(self.client.get(exhibit["url"]))
         filename = f"{self.ticker}_EX-99.1_{filings['8-K']['accessionNumber']}.txt"
         (self.folder() / filename).write_text(content, encoding="utf-8")

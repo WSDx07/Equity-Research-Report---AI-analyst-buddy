@@ -1,0 +1,349 @@
+000001 | v3.25.4
+000002 | INCOME TAXES - Narrative (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Dec. 31, 2022
+000009 | Income Tax Examination [Line Items]
+000010 | Net (decrease) increase in the effective tax rate from prior period
+000011 | (1.60%)
+000012 | (0.40%)
+000013 | Non-U.S. effective income tax rate
+000014 | 19.10%
+000015 | 19.70%
+000016 | Net (decrease) increase in non-U.S. income tax rate
+000017 | (0.60%)
+000018 | (5.60%)
+000019 | Gross deferred tax assets
+000020 | $ 3,698
+000021 | $ 3,456
+000022 | Valuation allowance
+000023 | 1,374
+000024 | 1,253
+000025 | Valuation allowance impact to tax expense
+000026 | (88)
+000027 | (13)
+000028 | $ (458)
+000029 | Operating loss carryforward, not subject to expiration
+000030 | 3,228
+000031 | Capital loss carryforward, subject to expiration
+000032 | 510
+000033 | Unrecognized tax benefits
+000034 | 1,238
+000035 | 1,201
+000036 | 1,215
+000037 | $ 1,077
+000038 | Income tax examination unrecognized tax benefits from examination
+000039 | 874
+000040 | 787
+000041 | 803
+000042 | Income tax examination estimated interest and penalties from examination
+000043 | 55
+000044 | 94
+000045 | 74
+000046 | Income tax examination accrued interest and penalties from examination
+000047 | 751
+000048 | $ 707
+000049 | $ 612
+000050 | Non-U.S.
+000051 | Income Tax Examination [Line Items]
+000052 | Gross deferred tax assets
+000053 | 1,258
+000054 | Valuation allowance
+000055 | 1,058
+000056 | U.S. Plans
+000057 | Income Tax Examination [Line Items]
+000058 | Valuation allowance
+000059 | $ 316
+000060 | X
+000061 | - Definition
+000062 | Capital Loss Carryforward, Subject to Expiration
+000063 | + References
+000064 | No definition available.
+000065 | + Details
+000066 | Name:
+000067 | hon_CapitalLossCarryforwardSubjectToExpiration
+000068 | Namespace Prefix:
+000069 | hon_
+000070 | Data Type:
+000071 | xbrli:monetaryItemType
+000072 | Balance Type:
+000073 | debit
+000074 | Period Type:
+000075 | instant
+000076 | X
+000077 | - Definition
+000078 | Effective Foreign Income Tax Rate Increase (Decrease) Percent
+000079 | + References
+000080 | No definition available.
+000081 | + Details
+000082 | Name:
+000083 | hon_EffectiveForeignIncomeTaxRateIncreaseDecreasePercent
+000084 | Namespace Prefix:
+000085 | hon_
+000086 | Data Type:
+000087 | dtr-types:percentItemType
+000088 | Balance Type:
+000089 | na
+000090 | Period Type:
+000091 | duration
+000092 | X
+000093 | - Definition
+000094 | Foreign effective income tax rate for the period.
+000095 | + References
+000096 | No definition available.
+000097 | + Details
+000098 | Name:
+000099 | hon_ForeignEffectiveIncomeTaxRate
+000100 | Namespace Prefix:
+000101 | hon_
+000102 | Data Type:
+000103 | dtr-types:percentItemType
+000104 | Balance Type:
+000105 | na
+000106 | Period Type:
+000107 | duration
+000108 | X
+000109 | - Definition
+000110 | Unrecognized tax benefits for examinations in progress
+000111 | + References
+000112 | No definition available.
+000113 | + Details
+000114 | Name:
+000115 | hon_IncomeTaxExaminationUnrecognizedTaxBenefitsFromExamination
+000116 | Namespace Prefix:
+000117 | hon_
+000118 | Data Type:
+000119 | xbrli:monetaryItemType
+000120 | Balance Type:
+000121 | credit
+000122 | Period Type:
+000123 | duration
+000124 | X
+000125 | - Definition
+000126 | The net increase (decrease) in the effective tax rate for the current period compared to the corresponding rate for a prior period.
+000127 | + References
+000128 | No definition available.
+000129 | + Details
+000130 | Name:
+000131 | hon_NetChangeInEffectiveTaxRateFromPriorPeriod
+000132 | Namespace Prefix:
+000133 | hon_
+000134 | Data Type:
+000135 | dtr-types:percentItemType
+000136 | Balance Type:
+000137 | na
+000138 | Period Type:
+000139 | duration
+000140 | X
+000141 | - Definition
+000142 | Operating Loss Carryforward, Not Subject To Expiration
+000143 | + References
+000144 | No definition available.
+000145 | + Details
+000146 | Name:
+000147 | hon_OperatingLossCarryforwardNotSubjectToExpiration
+000148 | Namespace Prefix:
+000149 | hon_
+000150 | Data Type:
+000151 | xbrli:monetaryItemType
+000152 | Balance Type:
+000153 | debit
+000154 | Period Type:
+000155 | instant
+000156 | X
+000157 | - Definition
+000158 | Amount in change of valuation allowance charge (credit) to tax expense
+000159 | + References
+000160 | No definition available.
+000161 | + Details
+000162 | Name:
+000163 | hon_ValuationAllowanceIncreaseDecreaseToTaxExpense
+000164 | Namespace Prefix:
+000165 | hon_
+000166 | Data Type:
+000167 | xbrli:monetaryItemType
+000168 | Balance Type:
+000169 | debit
+000170 | Period Type:
+000171 | duration
+000172 | X
+000173 | - Definition
+000174 | Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences and carryforwards.
+000175 | + References
+000176 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000177 | -Topic 740
+000178 | -SubTopic 10
+000179 | -Name Accounting Standards Codification
+000180 | -Section 50
+000181 | -Paragraph 2
+000182 | -Subparagraph (b)
+000183 | -Publisher FASB
+000184 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000185 | + Details
+000186 | Name:
+000187 | us-gaap_DeferredTaxAssetsGross
+000188 | Namespace Prefix:
+000189 | us-gaap_
+000190 | Data Type:
+000191 | xbrli:monetaryItemType
+000192 | Balance Type:
+000193 | debit
+000194 | Period Type:
+000195 | instant
+000196 | X
+000197 | - Definition
+000198 | Amount of deferred tax assets for which it is more likely than not that a tax benefit will not be realized.
+000199 | + References
+000200 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000201 | -Topic 740
+000202 | -SubTopic 10
+000203 | -Name Accounting Standards Codification
+000204 | -Section 50
+000205 | -Paragraph 2
+000206 | -Subparagraph (c)
+000207 | -Publisher FASB
+000208 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000209 | + Details
+000210 | Name:
+000211 | us-gaap_DeferredTaxAssetsValuationAllowance
+000212 | Namespace Prefix:
+000213 | us-gaap_
+000214 | Data Type:
+000215 | xbrli:monetaryItemType
+000216 | Balance Type:
+000217 | credit
+000218 | Period Type:
+000219 | instant
+000220 | X
+000221 | - Definition
+000222 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000223 | + References
+000224 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000225 | -Topic 740
+000226 | -SubTopic 10
+000227 | -Name Accounting Standards Codification
+000228 | -Section 50
+000229 | -Paragraph 15
+000230 | -Subparagraph (e)
+000231 | -Publisher FASB
+000232 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15
+000233 | + Details
+000234 | Name:
+000235 | us-gaap_IncomeTaxExaminationLineItems
+000236 | Namespace Prefix:
+000237 | us-gaap_
+000238 | Data Type:
+000239 | xbrli:stringItemType
+000240 | Balance Type:
+000241 | na
+000242 | Period Type:
+000243 | duration
+000244 | X
+000245 | - Definition
+000246 | The amount of estimated penalties and interest accrued as of the balance sheet date arising from income tax examinations.
+000247 | + References
+000248 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000249 | -Topic 740
+000250 | -SubTopic 10
+000251 | -Name Accounting Standards Codification
+000252 | -Section 50
+000253 | -Paragraph 15
+000254 | -Subparagraph (c)
+000255 | -Publisher FASB
+000256 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15
+000257 | + Details
+000258 | Name:
+000259 | us-gaap_IncomeTaxExaminationPenaltiesAndInterestAccrued
+000260 | Namespace Prefix:
+000261 | us-gaap_
+000262 | Data Type:
+000263 | xbrli:monetaryItemType
+000264 | Balance Type:
+000265 | credit
+000266 | Period Type:
+000267 | instant
+000268 | X
+000269 | - Definition
+000270 | The sum of the amounts of estimated penalties and interest recognized in the period arising from income tax examinations.
+000271 | + References
+000272 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000273 | -Topic 740
+000274 | -SubTopic 10
+000275 | -Name Accounting Standards Codification
+000276 | -Section 50
+000277 | -Paragraph 15
+000278 | -Subparagraph (c)
+000279 | -Publisher FASB
+000280 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15
+000281 | + Details
+000282 | Name:
+000283 | us-gaap_IncomeTaxExaminationPenaltiesAndInterestExpense
+000284 | Namespace Prefix:
+000285 | us-gaap_
+000286 | Data Type:
+000287 | xbrli:monetaryItemType
+000288 | Balance Type:
+000289 | debit
+000290 | Period Type:
+000291 | duration
+000292 | X
+000293 | - Definition
+000294 | Amount of unrecognized tax benefits.
+000295 | + References
+000296 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000297 | -Topic 740
+000298 | -SubTopic 10
+000299 | -Name Accounting Standards Codification
+000300 | -Section 55
+000301 | -Paragraph 217
+000302 | -Publisher FASB
+000303 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-217
+000304 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000305 | -Topic 740
+000306 | -SubTopic 10
+000307 | -Name Accounting Standards Codification
+000308 | -Section 50
+000309 | -Paragraph 15A
+000310 | -Subparagraph (a)
+000311 | -Publisher FASB
+000312 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000313 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000314 | -Topic 740
+000315 | -SubTopic 10
+000316 | -Name Accounting Standards Codification
+000317 | -Section 45
+000318 | -Paragraph 10B
+000319 | -Publisher FASB
+000320 | -URI https://asc.fasb.org/1943274/2147482525/740-10-45-10B
+000321 | + Details
+000322 | Name:
+000323 | us-gaap_UnrecognizedTaxBenefits
+000324 | Namespace Prefix:
+000325 | us-gaap_
+000326 | Data Type:
+000327 | xbrli:monetaryItemType
+000328 | Balance Type:
+000329 | credit
+000330 | Period Type:
+000331 | instant
+000332 | X
+000333 | - Details
+000334 | Name:
+000335 | us-gaap_IncomeTaxAuthorityAxis=us-gaap_ForeignTaxJurisdictionOtherMember
+000336 | Namespace Prefix:
+000337 | Data Type:
+000338 | na
+000339 | Balance Type:
+000340 | Period Type:
+000341 | X
+000342 | - Details
+000343 | Name:
+000344 | us-gaap_IncomeTaxAuthorityAxis=country_US
+000345 | Namespace Prefix:
+000346 | Data Type:
+000347 | na
+000348 | Balance Type:
+000349 | Period Type:

@@ -1,0 +1,487 @@
+000001 | v3.25.4
+000002 | OTHER LIABILITIES (Details) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000007 | Income taxes
+000008 | $ 1,518
+000009 | $ 1,423
+000010 | Pension and other employee related
+000011 | 1,147
+000012 | 1,203
+000013 | Deferred income
+000014 | 1,111
+000015 | 1,166
+000016 | Operating lease liabilities
+000017 | 809
+000018 | 863
+000019 | Derivative liabilities
+000020 | 716
+000021 | 195
+000022 | Environmental costs
+000023 | 714
+000024 | 389
+000025 | Insurance
+000026 | 210
+000027 | 244
+000028 | Product warranties and performance guarantees
+000029 | 40
+000030 | 35
+000031 | Asset retirement obligations
+000032 | 18
+000033 | 15
+000034 | Other
+000035 | 125
+000036 | 48
+000037 | Total Other liabilities
+000038 | 6,408
+000039 | 5,581
+000040 | Disposal Group, Held-for-Sale, Not Discontinued Operations | Productivity Solutions and Services and Warehouse Workflow Solutions Businesses
+000041 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000042 | Other liabilities
+000043 | $ 182
+000044 | Disposal Group, Held-for-Sale, Not Discontinued Operations | Personal Protective Equipment Business
+000045 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000046 | Other liabilities
+000047 | $ 22
+000048 | X
+000049 | - Definition
+000050 | Liabilities related to pension and other employee related costs
+000051 | + References
+000052 | No definition available.
+000053 | + Details
+000054 | Name:
+000055 | hon_PensionAndOtherEmployeeRelatedLiabilitiesNoncurrent
+000056 | Namespace Prefix:
+000057 | hon_
+000058 | Data Type:
+000059 | xbrli:monetaryItemType
+000060 | Balance Type:
+000061 | credit
+000062 | Period Type:
+000063 | instant
+000064 | X
+000065 | - Definition
+000066 | Carrying value of the obligation (known or estimated) arising from requirements to perform activities to remediate one or more sites, payable after twelve months or beyond the next operating cycle if longer.
+000067 | + References
+000068 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000069 | -Topic 210
+000070 | -SubTopic 10
+000071 | -Name Accounting Standards Codification
+000072 | -Section S99
+000073 | -Paragraph 1
+000074 | -Subparagraph (SX 210.5-02(24))
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000077 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000078 | -Topic 450
+000079 | -SubTopic 20
+000080 | -Name Accounting Standards Codification
+000081 | -Section 50
+000082 | -Paragraph 1
+000083 | -Publisher FASB
+000084 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000085 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000086 | -Topic 410
+000087 | -SubTopic 30
+000088 | -Name Accounting Standards Codification
+000089 | -Section 50
+000090 | -Paragraph 7
+000091 | -Publisher FASB
+000092 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-7
+000093 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000094 | -Topic 410
+000095 | -SubTopic 30
+000096 | -Name Accounting Standards Codification
+000097 | -Section 50
+000098 | -Paragraph 10
+000099 | -Subparagraph (d)(1)
+000100 | -Publisher FASB
+000101 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-10
+000102 | + Details
+000103 | Name:
+000104 | us-gaap_AccruedEnvironmentalLossContingenciesNoncurrent
+000105 | Namespace Prefix:
+000106 | us-gaap_
+000107 | Data Type:
+000108 | xbrli:monetaryItemType
+000109 | Balance Type:
+000110 | credit
+000111 | Period Type:
+000112 | instant
+000113 | X
+000114 | - Definition
+000115 | Carrying amount as of the balance sheet date of the unpaid sum of the known and estimated amounts payable to satisfy all domestic and foreign income tax obligations due beyond one year or the operating cycle, whichever is longer. Alternate captions include income taxes payable, noncurrent.
+000116 | + References
+000117 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000118 | -Topic 210
+000119 | -SubTopic 10
+000120 | -Name Accounting Standards Codification
+000121 | -Section S99
+000122 | -Paragraph 1
+000123 | -Subparagraph (SX 210.5-02(24))
+000124 | -Publisher FASB
+000125 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000126 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000127 | -Topic 942
+000128 | -SubTopic 210
+000129 | -Name Accounting Standards Codification
+000130 | -Section S99
+000131 | -Paragraph 1
+000132 | -Subparagraph (SX 210.9-03(15)(1))
+000133 | -Publisher FASB
+000134 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000135 | + Details
+000136 | Name:
+000137 | us-gaap_AccruedIncomeTaxesNoncurrent
+000138 | Namespace Prefix:
+000139 | us-gaap_
+000140 | Data Type:
+000141 | xbrli:monetaryItemType
+000142 | Balance Type:
+000143 | credit
+000144 | Period Type:
+000145 | instant
+000146 | X
+000147 | - Definition
+000148 | Carrying value as of the balance sheet date of obligations incurred through that date and due beyond one year (or beyond one operating cycle if longer) to insurance entities to mitigate potential loss from various risks or to satisfy a promise to provide certain coverages to employees.
+000149 | + References
+000150 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000151 | -Topic 210
+000152 | -SubTopic 10
+000153 | -Name Accounting Standards Codification
+000154 | -Section S99
+000155 | -Paragraph 1
+000156 | -Subparagraph (SX 210.5-02(24))
+000157 | -Publisher FASB
+000158 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000159 | + Details
+000160 | Name:
+000161 | us-gaap_AccruedInsuranceNoncurrent
+000162 | Namespace Prefix:
+000163 | us-gaap_
+000164 | Data Type:
+000165 | xbrli:monetaryItemType
+000166 | Balance Type:
+000167 | credit
+000168 | Period Type:
+000169 | instant
+000170 | X
+000171 | - Definition
+000172 | Noncurrent portion of the carrying amount of a liability for an asset retirement obligation. An asset retirement obligation is a legal obligation associated with the disposal or retirement of a tangible long-lived asset that results from the acquisition, construction or development, or the normal operations of a long-lived asset, except for certain obligations of lessees.
+000173 | + References
+000174 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000175 | -Topic 410
+000176 | -SubTopic 20
+000177 | -Name Accounting Standards Codification
+000178 | -Section 50
+000179 | -Paragraph 1
+000180 | -Subparagraph (c)
+000181 | -Publisher FASB
+000182 | -URI https://asc.fasb.org/1943274/2147481850/410-20-50-1
+000183 | + Details
+000184 | Name:
+000185 | us-gaap_AssetRetirementObligationsNoncurrent
+000186 | Namespace Prefix:
+000187 | us-gaap_
+000188 | Data Type:
+000189 | xbrli:monetaryItemType
+000190 | Balance Type:
+000191 | credit
+000192 | Period Type:
+000193 | instant
+000194 | X
+000195 | - Definition
+000196 | Amount of obligation to transfer good or service to customer for which consideration has been received or is receivable, classified as noncurrent.
+000197 | + References
+000198 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000199 | -Topic 606
+000200 | -SubTopic 10
+000201 | -Name Accounting Standards Codification
+000202 | -Section 50
+000203 | -Paragraph 11
+000204 | -Publisher FASB
+000205 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000206 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000207 | -Topic 606
+000208 | -SubTopic 10
+000209 | -Name Accounting Standards Codification
+000210 | -Section 45
+000211 | -Paragraph 1
+000212 | -Publisher FASB
+000213 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000214 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000215 | -Topic 606
+000216 | -SubTopic 10
+000217 | -Name Accounting Standards Codification
+000218 | -Section 50
+000219 | -Paragraph 8
+000220 | -Subparagraph (a)
+000221 | -Publisher FASB
+000222 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000223 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000224 | -Topic 606
+000225 | -SubTopic 10
+000226 | -Name Accounting Standards Codification
+000227 | -Section 45
+000228 | -Paragraph 2
+000229 | -Publisher FASB
+000230 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-2
+000231 | + Details
+000232 | Name:
+000233 | us-gaap_ContractWithCustomerLiabilityNoncurrent
+000234 | Namespace Prefix:
+000235 | us-gaap_
+000236 | Data Type:
+000237 | xbrli:monetaryItemType
+000238 | Balance Type:
+000239 | credit
+000240 | Period Type:
+000241 | instant
+000242 | X
+000243 | - Definition
+000244 | Fair value, after the effects of master netting arrangements, of a financial liability or contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset, expected to be settled after one year or the normal operating cycle, if longer. Includes assets not subject to a master netting arrangement and not elected to be offset.
+000245 | + References
+000246 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000247 | -Topic 210
+000248 | -SubTopic 20
+000249 | -Name Accounting Standards Codification
+000250 | -Section 55
+000251 | -Paragraph 10
+000252 | -Publisher FASB
+000253 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-10
+000254 | + Details
+000255 | Name:
+000256 | us-gaap_DerivativeLiabilitiesNoncurrent
+000257 | Namespace Prefix:
+000258 | us-gaap_
+000259 | Data Type:
+000260 | xbrli:monetaryItemType
+000261 | Balance Type:
+000262 | credit
+000263 | Period Type:
+000264 | instant
+000265 | X
+000266 | - Definition
+000267 | Amount classified as other liabilities attributable to disposal group held for sale or disposed of.
+000268 | + References
+000269 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000270 | -Name Accounting Standards Codification
+000271 | -Section 45
+000272 | -Paragraph 10
+000273 | -SubTopic 20
+000274 | -Topic 205
+000275 | -Publisher FASB
+000276 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+000277 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000278 | -Topic 205
+000279 | -SubTopic 20
+000280 | -Name Accounting Standards Codification
+000281 | -Section 50
+000282 | -Paragraph 5B
+000283 | -Subparagraph (e)
+000284 | -Publisher FASB
+000285 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000286 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000287 | -Topic 360
+000288 | -SubTopic 10
+000289 | -Name Accounting Standards Codification
+000290 | -Section 50
+000291 | -Paragraph 3
+000292 | -Subparagraph (e)
+000293 | -Publisher FASB
+000294 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000295 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000296 | -Topic 205
+000297 | -SubTopic 20
+000298 | -Name Accounting Standards Codification
+000299 | -Section 45
+000300 | -Paragraph 11
+000301 | -Publisher FASB
+000302 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000303 | + Details
+000304 | Name:
+000305 | us-gaap_DisposalGroupIncludingDiscontinuedOperationOtherLiabilities
+000306 | Namespace Prefix:
+000307 | us-gaap_
+000308 | Data Type:
+000309 | xbrli:monetaryItemType
+000310 | Balance Type:
+000311 | credit
+000312 | Period Type:
+000313 | instant
+000314 | X
+000315 | - Definition
+000316 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000317 | + References
+000318 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000319 | -Topic 360
+000320 | -SubTopic 10
+000321 | -Name Accounting Standards Codification
+000322 | -Section 50
+000323 | -Paragraph 3A
+000324 | -Subparagraph (b)(2)
+000325 | -Publisher FASB
+000326 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3A
+000327 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000328 | -Topic 360
+000329 | -SubTopic 10
+000330 | -Name Accounting Standards Codification
+000331 | -Section 50
+000332 | -Paragraph 3A
+000333 | -Subparagraph (b)(1)
+000334 | -Publisher FASB
+000335 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3A
+000336 | + Details
+000337 | Name:
+000338 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsLineItems
+000339 | Namespace Prefix:
+000340 | us-gaap_
+000341 | Data Type:
+000342 | xbrli:stringItemType
+000343 | Balance Type:
+000344 | na
+000345 | Period Type:
+000346 | duration
+000347 | X
+000348 | - Definition
+000349 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as noncurrent.
+000350 | + References
+000351 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000352 | -Topic 842
+000353 | -SubTopic 20
+000354 | -Name Accounting Standards Codification
+000355 | -Section 45
+000356 | -Paragraph 1
+000357 | -Subparagraph (b)
+000358 | -Publisher FASB
+000359 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000360 | + Details
+000361 | Name:
+000362 | us-gaap_OperatingLeaseLiabilityNoncurrent
+000363 | Namespace Prefix:
+000364 | us-gaap_
+000365 | Data Type:
+000366 | xbrli:monetaryItemType
+000367 | Balance Type:
+000368 | credit
+000369 | Period Type:
+000370 | instant
+000371 | X
+000372 | - Definition
+000373 | Amount of liabilities classified as other, due after one year or the normal operating cycle, if longer.
+000374 | + References
+000375 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000376 | -Topic 210
+000377 | -SubTopic 10
+000378 | -Name Accounting Standards Codification
+000379 | -Section S99
+000380 | -Paragraph 1
+000381 | -Subparagraph (SX 210.5-02(24))
+000382 | -Publisher FASB
+000383 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000384 | + Details
+000385 | Name:
+000386 | us-gaap_OtherLiabilitiesNoncurrent
+000387 | Namespace Prefix:
+000388 | us-gaap_
+000389 | Data Type:
+000390 | xbrli:monetaryItemType
+000391 | Balance Type:
+000392 | credit
+000393 | Period Type:
+000394 | instant
+000395 | X
+000396 | - Definition
+000397 | Obligations not otherwise itemized or categorized in the footnotes to the financial statements that are expected to be paid after one year (or the normal operating cycle, if longer), from the balance sheet date.
+000398 | + References
+000399 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000400 | -Topic 210
+000401 | -SubTopic 10
+000402 | -Name Accounting Standards Codification
+000403 | -Section S99
+000404 | -Paragraph 1
+000405 | -Subparagraph (SX 210.5-02(24))
+000406 | -Publisher FASB
+000407 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000408 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000409 | -Topic 942
+000410 | -SubTopic 210
+000411 | -Name Accounting Standards Codification
+000412 | -Section S99
+000413 | -Paragraph 1
+000414 | -Subparagraph (SX 210.9-03(15))
+000415 | -Publisher FASB
+000416 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000417 | + Details
+000418 | Name:
+000419 | us-gaap_OtherSundryLiabilitiesNoncurrent
+000420 | Namespace Prefix:
+000421 | us-gaap_
+000422 | Data Type:
+000423 | xbrli:monetaryItemType
+000424 | Balance Type:
+000425 | credit
+000426 | Period Type:
+000427 | instant
+000428 | X
+000429 | - Definition
+000430 | Amount as of the balance sheet date of the aggregate standard product warranty liability that is expected to be paid after one year or beyond the normal operating cycle, if longer. Does not include the balance for the extended product warranty liability.
+000431 | + References
+000432 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000433 | -Topic 460
+000434 | -SubTopic 10
+000435 | -Name Accounting Standards Codification
+000436 | -Section 50
+000437 | -Paragraph 8
+000438 | -Subparagraph (c)(1)
+000439 | -Publisher FASB
+000440 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000441 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000442 | -Topic 460
+000443 | -SubTopic 10
+000444 | -Name Accounting Standards Codification
+000445 | -Section 50
+000446 | -Paragraph 8
+000447 | -Subparagraph (c)(5)
+000448 | -Publisher FASB
+000449 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000450 | + Details
+000451 | Name:
+000452 | us-gaap_StandardProductWarrantyAccrualNoncurrent
+000453 | Namespace Prefix:
+000454 | us-gaap_
+000455 | Data Type:
+000456 | xbrli:monetaryItemType
+000457 | Balance Type:
+000458 | credit
+000459 | Period Type:
+000460 | instant
+000461 | X
+000462 | - Details
+000463 | Name:
+000464 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+000465 | Namespace Prefix:
+000466 | Data Type:
+000467 | na
+000468 | Balance Type:
+000469 | Period Type:
+000470 | X
+000471 | - Details
+000472 | Name:
+000473 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=hon_ProductivitySolutionsAndServicesAndWarehouseWorkflowSolutionsBusinessesMember
+000474 | Namespace Prefix:
+000475 | Data Type:
+000476 | na
+000477 | Balance Type:
+000478 | Period Type:
+000479 | X
+000480 | - Details
+000481 | Name:
+000482 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=hon_PersonalProtectiveEquipmentBusinessMember
+000483 | Namespace Prefix:
+000484 | Data Type:
+000485 | na
+000486 | Balance Type:
+000487 | Period Type:

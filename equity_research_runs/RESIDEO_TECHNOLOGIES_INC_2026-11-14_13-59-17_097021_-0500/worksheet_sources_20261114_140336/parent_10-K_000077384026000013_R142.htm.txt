@@ -1,0 +1,515 @@
+000001 | v3.25.4
+000002 | OTHER (INCOME) EXPENSE (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Other Income and Expenses [Line Items]
+000009 | Interest income
+000010 | $ (369)
+000011 | $ (430)
+000012 | $ (321)
+000013 | Equity income of affiliated companies
+000014 | (44)
+000015 | (47)
+000016 | (82)
+000017 | Gain on Resideo indemnification and reimbursement agreement termination
+000018 | (802)
+000019 | 0
+000020 | 0
+000021 | Loss (gain) on sale of non-strategic businesses and assets
+000022 | 31
+000023 | 1
+000024 | (5)
+000025 | Foreign exchange (income) loss
+000026 | (48)
+000027 | 45
+000028 | (1)
+000029 | Divestiture-related costs
+000030 | 415
+000031 | 0
+000032 | 0
+000033 | Acquisition-related costs
+000034 | 43
+000035 | 44
+000036 | 7
+000037 | Expense (benefit) related to Russia-Ukraine conflict
+000038 | 0
+000039 | 17
+000040 | (3)
+000041 | Net expense related to the NARCO Buyout and HWI Sale
+000042 | 0
+000043 | 0
+000044 | 11
+000045 | Other, net
+000046 | (4)
+000047 | 64
+000048 | 28
+000049 | Total Other (income) expense
+000050 | (1,247)
+000051 | (843)
+000052 | (830)
+000053 | Pension ongoing income—non-service
+000054 | Other Income and Expenses [Line Items]
+000055 | Ongoing income - non-service
+000056 | (454)
+000057 | (526)
+000058 | (435)
+000059 | Other postretirement income—non-service
+000060 | Other Income and Expenses [Line Items]
+000061 | Ongoing income - non-service
+000062 | $ (15)
+000063 | $ (11)
+000064 | $ (29)
+000065 | X
+000066 | - Definition
+000067 | Divestiture Related Costs
+000068 | + References
+000069 | No definition available.
+000070 | + Details
+000071 | Name:
+000072 | hon_DivestitureRelatedCosts
+000073 | Namespace Prefix:
+000074 | hon_
+000075 | Data Type:
+000076 | xbrli:monetaryItemType
+000077 | Balance Type:
+000078 | debit
+000079 | Period Type:
+000080 | duration
+000081 | X
+000082 | - Definition
+000083 | Expense Related To Russia-Ukraine Conflict
+000084 | + References
+000085 | No definition available.
+000086 | + Details
+000087 | Name:
+000088 | hon_ExpenseRelatedToRussiaUkraineConflict
+000089 | Namespace Prefix:
+000090 | hon_
+000091 | Data Type:
+000092 | xbrli:monetaryItemType
+000093 | Balance Type:
+000094 | debit
+000095 | Period Type:
+000096 | duration
+000097 | X
+000098 | - Definition
+000099 | The difference between the value of the consideration received by the Entity on the sale or disposal and net book value of assets sold or disposed, before any tax related impact.
+000100 | + References
+000101 | No definition available.
+000102 | + Details
+000103 | Name:
+000104 | hon_GainLossOnSaleOfNonstrategicBusinessesAndAssets
+000105 | Namespace Prefix:
+000106 | hon_
+000107 | Data Type:
+000108 | xbrli:monetaryItemType
+000109 | Balance Type:
+000110 | credit
+000111 | Period Type:
+000112 | duration
+000113 | X
+000114 | - Definition
+000115 | Indemnification And Reimbursement Agreement, Gain (Loss) on Termination
+000116 | + References
+000117 | No definition available.
+000118 | + Details
+000119 | Name:
+000120 | hon_IndemnificationAndReimbursementAgreementGainLossOnTermination
+000121 | Namespace Prefix:
+000122 | hon_
+000123 | Data Type:
+000124 | xbrli:monetaryItemType
+000125 | Balance Type:
+000126 | credit
+000127 | Period Type:
+000128 | duration
+000129 | X
+000130 | - References
+000131 | No definition available.
+000132 | + Details
+000133 | Name:
+000134 | hon_OtherIncomeAndExpensesLineItems
+000135 | Namespace Prefix:
+000136 | hon_
+000137 | Data Type:
+000138 | xbrli:stringItemType
+000139 | Balance Type:
+000140 | na
+000141 | Period Type:
+000142 | duration
+000143 | X
+000144 | - Definition
+000145 | Other Operating And Nonoperating Expense (Income)
+000146 | + References
+000147 | No definition available.
+000148 | + Details
+000149 | Name:
+000150 | hon_OtherOperatingAndNonoperatingExpenseIncome
+000151 | Namespace Prefix:
+000152 | hon_
+000153 | Data Type:
+000154 | xbrli:monetaryItemType
+000155 | Balance Type:
+000156 | debit
+000157 | Period Type:
+000158 | duration
+000159 | X
+000160 | - Definition
+000161 | Amount of expense for acquisition-related cost incurred to effect business combination. Includes, but is not limited to, finder's fee; advisory, legal, accounting, valuation, and other professional and consulting fees; and general administrative cost, including cost of maintaining internal acquisition department.
+000162 | + References
+000163 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000164 | -Topic 805
+000165 | -SubTopic 10
+000166 | -Name Accounting Standards Codification
+000167 | -Section 50
+000168 | -Paragraph 7
+000169 | -Publisher FASB
+000170 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-7
+000171 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000172 | -Topic 805
+000173 | -SubTopic 10
+000174 | -Name Accounting Standards Codification
+000175 | -Section 25
+000176 | -Paragraph 23
+000177 | -Publisher FASB
+000178 | -URI https://asc.fasb.org/1943274/2147479405/805-10-25-23
+000179 | + Details
+000180 | Name:
+000181 | us-gaap_BusinessCombinationAcquisitionRelatedCosts
+000182 | Namespace Prefix:
+000183 | us-gaap_
+000184 | Data Type:
+000185 | xbrli:monetaryItemType
+000186 | Balance Type:
+000187 | debit
+000188 | Period Type:
+000189 | duration
+000190 | X
+000191 | - Definition
+000192 | Amount, before tax, of realized and unrealized gain (loss) from foreign currency transaction.
+000193 | + References
+000194 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000195 | -Topic 946
+000196 | -SubTopic 220
+000197 | -Name Accounting Standards Codification
+000198 | -Section S99
+000199 | -Paragraph 1
+000200 | -Subparagraph (SX 210.6-07(7))
+000201 | -Publisher FASB
+000202 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000203 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000204 | -Topic 830
+000205 | -SubTopic 20
+000206 | -Name Accounting Standards Codification
+000207 | -Section 35
+000208 | -Paragraph 1
+000209 | -Publisher FASB
+000210 | -URI https://asc.fasb.org/1943274/2147482014/830-20-35-1
+000211 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000212 | -Topic 830
+000213 | -SubTopic 20
+000214 | -Name Accounting Standards Codification
+000215 | -Section 45
+000216 | -Paragraph 1
+000217 | -Publisher FASB
+000218 | -URI https://asc.fasb.org/1943274/2147481956/830-20-45-1
+000219 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000220 | -Topic 830
+000221 | -SubTopic 20
+000222 | -Name Accounting Standards Codification
+000223 | -Section 50
+000224 | -Paragraph 1
+000225 | -Publisher FASB
+000226 | -URI https://asc.fasb.org/1943274/2147481926/830-20-50-1
+000227 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000228 | -Topic 830
+000229 | -SubTopic 10
+000230 | -Name Accounting Standards Codification
+000231 | -Section 45
+000232 | -Paragraph 17
+000233 | -Publisher FASB
+000234 | -URI https://asc.fasb.org/1943274/2147481839/830-10-45-17
+000235 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000236 | -Topic 220
+000237 | -SubTopic 40
+000238 | -Name Accounting Standards Codification
+000239 | -Section 50
+000240 | -Paragraph 22
+000241 | -Subparagraph (o)
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-22
+000244 | + Details
+000245 | Name:
+000246 | us-gaap_ForeignCurrencyTransactionGainLossBeforeTax
+000247 | Namespace Prefix:
+000248 | us-gaap_
+000249 | Data Type:
+000250 | xbrli:monetaryItemType
+000251 | Balance Type:
+000252 | credit
+000253 | Period Type:
+000254 | duration
+000255 | X
+000256 | - Definition
+000257 | Amount of income (loss) for proportionate share of equity method investee's income (loss).
+000258 | + References
+000259 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000260 | -Name Accounting Standards Codification
+000261 | -Section 45
+000262 | -Paragraph 28
+000263 | -Subparagraph (b)
+000264 | -SubTopic 10
+000265 | -Topic 230
+000266 | -Publisher FASB
+000267 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000268 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000269 | -Topic 270
+000270 | -SubTopic 10
+000271 | -Name Accounting Standards Codification
+000272 | -Section 50
+000273 | -Paragraph 1
+000274 | -Subparagraph (i)
+000275 | -Publisher FASB
+000276 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000277 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000278 | -Topic 280
+000279 | -SubTopic 10
+000280 | -Name Accounting Standards Codification
+000281 | -Section 50
+000282 | -Paragraph 32
+000283 | -Subparagraph (ee)
+000284 | -Publisher FASB
+000285 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000286 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000287 | -Topic 944
+000288 | -SubTopic 220
+000289 | -Name Accounting Standards Codification
+000290 | -Section S99
+000291 | -Paragraph 1
+000292 | -Subparagraph (SX 210.7-04(10))
+000293 | -Publisher FASB
+000294 | -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1
+000295 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000296 | -Topic 323
+000297 | -SubTopic 10
+000298 | -Name Accounting Standards Codification
+000299 | -Section 45
+000300 | -Paragraph 1
+000301 | -Publisher FASB
+000302 | -URI https://asc.fasb.org/1943274/2147481664/323-10-45-1
+000303 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000304 | -Topic 280
+000305 | -SubTopic 10
+000306 | -Name Accounting Standards Codification
+000307 | -Section 50
+000308 | -Paragraph 22
+000309 | -Subparagraph (g)
+000310 | -Publisher FASB
+000311 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000312 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000313 | -Topic 220
+000314 | -SubTopic 10
+000315 | -Name Accounting Standards Codification
+000316 | -Section S99
+000317 | -Paragraph 2
+000318 | -Subparagraph (SX 210.5-03(12))
+000319 | -Publisher FASB
+000320 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000321 | Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef
+000322 | -Topic 942
+000323 | -SubTopic 220
+000324 | -Name Accounting Standards Codification
+000325 | -Section S99
+000326 | -Paragraph 1
+000327 | -Subparagraph (SX 210.9-04(13)(f))
+000328 | -Publisher FASB
+000329 | -URI https://asc.fasb.org/1943274/2147478524/942-220-S99-1
+000330 | + Details
+000331 | Name:
+000332 | us-gaap_IncomeLossFromEquityMethodInvestments
+000333 | Namespace Prefix:
+000334 | us-gaap_
+000335 | Data Type:
+000336 | xbrli:monetaryItemType
+000337 | Balance Type:
+000338 | credit
+000339 | Period Type:
+000340 | duration
+000341 | X
+000342 | - Definition
+000343 | Amount before accretion (amortization) of purchase discount (premium) of interest income on nonoperating securities.
+000344 | + References
+000345 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000346 | -Topic 280
+000347 | -SubTopic 10
+000348 | -Name Accounting Standards Codification
+000349 | -Section 50
+000350 | -Paragraph 22
+000351 | -Subparagraph (c)
+000352 | -Publisher FASB
+000353 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000354 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000355 | -Topic 280
+000356 | -SubTopic 10
+000357 | -Name Accounting Standards Codification
+000358 | -Section 55
+000359 | -Paragraph 48
+000360 | -Publisher FASB
+000361 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-48
+000362 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000363 | -Topic 220
+000364 | -SubTopic 10
+000365 | -Name Accounting Standards Codification
+000366 | -Section S99
+000367 | -Paragraph 2
+000368 | -Subparagraph (SX 210.5-03(7)(b))
+000369 | -Publisher FASB
+000370 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000371 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000372 | -Topic 270
+000373 | -SubTopic 10
+000374 | -Name Accounting Standards Codification
+000375 | -Section 50
+000376 | -Paragraph 1
+000377 | -Subparagraph (i)
+000378 | -Publisher FASB
+000379 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000380 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000381 | -Topic 280
+000382 | -SubTopic 10
+000383 | -Name Accounting Standards Codification
+000384 | -Section 50
+000385 | -Paragraph 32
+000386 | -Subparagraph (ee)
+000387 | -Publisher FASB
+000388 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000389 | + Details
+000390 | Name:
+000391 | us-gaap_InvestmentIncomeInterest
+000392 | Namespace Prefix:
+000393 | us-gaap_
+000394 | Data Type:
+000395 | xbrli:monetaryItemType
+000396 | Balance Type:
+000397 | credit
+000398 | Period Type:
+000399 | duration
+000400 | X
+000401 | - Definition
+000402 | The amount of loss pertaining to the specified contingency that was charged against earnings in the period, including the effects of revisions in previously reported estimates.
+000403 | + References
+000404 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000405 | -Topic 450
+000406 | -SubTopic 20
+000407 | -Name Accounting Standards Codification
+000408 | -Section 50
+000409 | -Paragraph 1
+000410 | -Publisher FASB
+000411 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000412 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000413 | -Topic 220
+000414 | -SubTopic 40
+000415 | -Name Accounting Standards Codification
+000416 | -Section 50
+000417 | -Paragraph 22
+000418 | -Subparagraph (j)
+000419 | -Publisher FASB
+000420 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-22
+000421 | + Details
+000422 | Name:
+000423 | us-gaap_LossContingencyLossInPeriod
+000424 | Namespace Prefix:
+000425 | us-gaap_
+000426 | Data Type:
+000427 | xbrli:monetaryItemType
+000428 | Balance Type:
+000429 | debit
+000430 | Period Type:
+000431 | duration
+000432 | X
+000433 | - Definition
+000434 | Amount of expense (reversal of expense) for net periodic benefit cost components, excluding service cost component, of defined benefit plan. Amount includes, but is not limited to, interest cost, expected (return) loss on plan asset, amortization of prior service cost (credit), amortization of (gain) loss, amortization of transition (asset) obligation, settlement (gain) loss, curtailment (gain) loss and certain termination benefits.
+000435 | + References
+000436 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000437 | -Topic 715
+000438 | -SubTopic 20
+000439 | -Name Accounting Standards Codification
+000440 | -Section 45
+000441 | -Paragraph 3A
+000442 | -Subparagraph (b)
+000443 | -Publisher FASB
+000444 | -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A
+000445 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000446 | -Topic 220
+000447 | -SubTopic 40
+000448 | -Name Accounting Standards Codification
+000449 | -Section 50
+000450 | -Paragraph 21
+000451 | -Subparagraph (f)
+000452 | -Publisher FASB
+000453 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-21
+000454 | + Details
+000455 | Name:
+000456 | us-gaap_NetPeriodicDefinedBenefitsExpenseReversalOfExpenseExcludingServiceCostComponent
+000457 | Namespace Prefix:
+000458 | us-gaap_
+000459 | Data Type:
+000460 | xbrli:monetaryItemType
+000461 | Balance Type:
+000462 | debit
+000463 | Period Type:
+000464 | duration
+000465 | X
+000466 | - Definition
+000467 | Amount of income (expense) related to nonoperating activities, classified as other.
+000468 | + References
+000469 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000470 | -Topic 815
+000471 | -SubTopic 10
+000472 | -Name Accounting Standards Codification
+000473 | -Section 50
+000474 | -Paragraph 4A
+000475 | -Subparagraph (c)
+000476 | -Publisher FASB
+000477 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4A
+000478 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000479 | -Topic 220
+000480 | -SubTopic 10
+000481 | -Name Accounting Standards Codification
+000482 | -Section S99
+000483 | -Paragraph 2
+000484 | -Subparagraph (SX 210.5-03(9))
+000485 | -Publisher FASB
+000486 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000487 | + Details
+000488 | Name:
+000489 | us-gaap_OtherNonoperatingIncomeExpense
+000490 | Namespace Prefix:
+000491 | us-gaap_
+000492 | Data Type:
+000493 | xbrli:monetaryItemType
+000494 | Balance Type:
+000495 | credit
+000496 | Period Type:
+000497 | duration
+000498 | X
+000499 | - Details
+000500 | Name:
+000501 | us-gaap_RetirementPlanTypeAxis=us-gaap_PensionPlansDefinedBenefitMember
+000502 | Namespace Prefix:
+000503 | Data Type:
+000504 | na
+000505 | Balance Type:
+000506 | Period Type:
+000507 | X
+000508 | - Details
+000509 | Name:
+000510 | us-gaap_RetirementPlanTypeAxis=us-gaap_OtherPostretirementBenefitPlansDefinedBenefitMember
+000511 | Namespace Prefix:
+000512 | Data Type:
+000513 | na
+000514 | Balance Type:
+000515 | Period Type:

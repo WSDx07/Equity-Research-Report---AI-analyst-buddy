@@ -1,0 +1,188 @@
+000001 | v3.26.3
+000002 | Commitments and Contingencies - Environmental Matters (Details)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2026
+000006 | USD ($)
+000007 | Accrual for Environmental Loss Contingencies [Roll Forward]
+000008 | Beginning of period
+000009 | $ 58
+000010 | Accruals for environmental matters deemed probable and reasonably estimable
+000011 | $ 14
+000012 | Environmental Loss Contingency, Statement of Financial Position [Extensible Enumeration]
+000013 | Other liabilities
+000014 | Environmental liability payments
+000015 | $ (4)
+000016 | End of period
+000017 | $ 68
+000018 | X
+000019 | - Definition
+000020 | Total costs accrued as of the balance sheet date for environmental loss contingencies.
+000021 | + References
+000022 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000023 | -Topic 450
+000024 | -SubTopic 20
+000025 | -Name Accounting Standards Codification
+000026 | -Section 50
+000027 | -Paragraph 1
+000028 | -Publisher FASB
+000029 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000030 | Reference 2: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000031 | -Topic 410
+000032 | -SubTopic 30
+000033 | -Name Accounting Standards Codification
+000034 | -Section 50
+000035 | -Paragraph 10
+000036 | -Subparagraph (d)(1)
+000037 | -Publisher FASB
+000038 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-10
+000039 | Reference 3: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000040 | -Topic 410
+000041 | -SubTopic 30
+000042 | -Name Accounting Standards Codification
+000043 | -Section 50
+000044 | -Paragraph 10
+000045 | -Subparagraph (d)(3)
+000046 | -Publisher FASB
+000047 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-10
+000048 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000049 | -Topic 410
+000050 | -SubTopic 30
+000051 | -Name Accounting Standards Codification
+000052 | -Section 55
+000053 | -Paragraph 16
+000054 | -Publisher FASB
+000055 | -URI https://asc.fasb.org/1943274/2147481899/410-30-55-16
+000056 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000057 | -Topic 450
+000058 | -SubTopic 20
+000059 | -Name Accounting Standards Codification
+000060 | -Section S99
+000061 | -Paragraph 1
+000062 | -Subparagraph (SAB Topic 5.Y.Q1)
+000063 | -Publisher FASB
+000064 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000065 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000066 | -Topic 410
+000067 | -SubTopic 30
+000068 | -Name Accounting Standards Codification
+000069 | -Section 50
+000070 | -Paragraph 7
+000071 | -Publisher FASB
+000072 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-7
+000073 | + Details
+000074 | Name:
+000075 | us-gaap_AccrualForEnvironmentalLossContingencies
+000076 | Namespace Prefix:
+000077 | us-gaap_
+000078 | Data Type:
+000079 | xbrli:monetaryItemType
+000080 | Balance Type:
+000081 | credit
+000082 | Period Type:
+000083 | instant
+000084 | X
+000085 | - Definition
+000086 | Amount of expense for newly incurred environmental loss contingencies. Includes, but is not limited to, remediation expense and interest accretion.
+000087 | + References
+000088 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000089 | -Topic 450
+000090 | -SubTopic 20
+000091 | -Name Accounting Standards Codification
+000092 | -Section S99
+000093 | -Paragraph 1
+000094 | -Subparagraph (SAB Topic 5.Y.Q1)
+000095 | -Publisher FASB
+000096 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000097 | + Details
+000098 | Name:
+000099 | us-gaap_AccrualForEnvironmentalLossContingenciesChargesToExpenseForNewLosses
+000100 | Namespace Prefix:
+000101 | us-gaap_
+000102 | Data Type:
+000103 | xbrli:monetaryItemType
+000104 | Balance Type:
+000105 | debit
+000106 | Period Type:
+000107 | duration
+000108 | X
+000109 | - Definition
+000110 | Amount of cash outflow to settle environmental loss contingencies.
+000111 | + References
+000112 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000113 | -Topic 230
+000114 | -SubTopic 10
+000115 | -Name Accounting Standards Codification
+000116 | -Section 45
+000117 | -Paragraph 17
+000118 | -Subparagraph (f)
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-17
+000121 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000122 | -Topic 450
+000123 | -SubTopic 20
+000124 | -Name Accounting Standards Codification
+000125 | -Section S99
+000126 | -Paragraph 1
+000127 | -Subparagraph (SAB Topic 5.Y.Q1)
+000128 | -Publisher FASB
+000129 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000130 | + Details
+000131 | Name:
+000132 | us-gaap_AccrualForEnvironmentalLossContingenciesPayments1
+000133 | Namespace Prefix:
+000134 | us-gaap_
+000135 | Data Type:
+000136 | xbrli:monetaryItemType
+000137 | Balance Type:
+000138 | credit
+000139 | Period Type:
+000140 | duration
+000141 | X
+000142 | - Definition
+000143 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000144 | + References
+000145 | No definition available.
+000146 | + Details
+000147 | Name:
+000148 | us-gaap_AccrualForEnvironmentalLossContingenciesRollForward
+000149 | Namespace Prefix:
+000150 | us-gaap_
+000151 | Data Type:
+000152 | xbrli:stringItemType
+000153 | Balance Type:
+000154 | na
+000155 | Period Type:
+000156 | duration
+000157 | X
+000158 | - Definition
+000159 | Indicates line item in statement of financial position that includes accrual for environmental loss contingency.
+000160 | + References
+000161 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000162 | -Topic 450
+000163 | -SubTopic 20
+000164 | -Name Accounting Standards Codification
+000165 | -Section S99
+000166 | -Paragraph 1
+000167 | -Subparagraph (SAB Topic 5.Y.Q4)
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000170 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000171 | -Topic 410
+000172 | -SubTopic 30
+000173 | -Name Accounting Standards Codification
+000174 | -Section 55
+000175 | -Paragraph 16
+000176 | -Publisher FASB
+000177 | -URI https://asc.fasb.org/1943274/2147481899/410-30-55-16
+000178 | + Details
+000179 | Name:
+000180 | us-gaap_EnvironmentalLossContingencyStatementOfFinancialPositionExtensibleEnumeration
+000181 | Namespace Prefix:
+000182 | us-gaap_
+000183 | Data Type:
+000184 | enum2:enumerationSetItemType
+000185 | Balance Type:
+000186 | na
+000187 | Period Type:
+000188 | instant

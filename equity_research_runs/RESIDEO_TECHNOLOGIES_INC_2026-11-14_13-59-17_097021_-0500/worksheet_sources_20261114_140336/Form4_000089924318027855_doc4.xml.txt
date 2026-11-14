@@ -1,0 +1,727 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0306</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2018-10-29</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001740332</issuerCik>
+000015 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000016 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001754714</rptOwnerCik>
+000022 |             <rptOwnerName>Flink Michael David</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>1985 DOUGLAS DRIVE NORTH</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2></rptOwnerStreet2>
+000027 |             <rptOwnerCity>GOLDEN VALLEY</rptOwnerCity>
+000028 |             <rptOwnerState>MN</rptOwnerState>
+000029 |             <rptOwnerZipCode>55422</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>0</isDirector>
+000034 |             <isOfficer>1</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |             <officerTitle>See Remarks</officerTitle>
+000038 |         </reportingOwnerRelationship>
+000039 |     </reportingOwner>
+000040 | 
+000041 |     <derivativeTable>
+000042 |         <derivativeTransaction>
+000043 |             <securityTitle>
+000044 |                 <value>Restricted Stock Units</value>
+000045 |             </securityTitle>
+000046 |             <conversionOrExercisePrice>
+000047 |                 <footnoteId id="F1"/>
+000048 |             </conversionOrExercisePrice>
+000049 |             <transactionDate>
+000050 |                 <value>2018-10-29</value>
+000051 |             </transactionDate>
+000052 |             <deemedExecutionDate></deemedExecutionDate>
+000053 |             <transactionCoding>
+000054 |                 <transactionFormType>4</transactionFormType>
+000055 |                 <transactionCode>A</transactionCode>
+000056 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000057 |             </transactionCoding>
+000058 |             <transactionTimeliness>
+000059 |                 <value></value>
+000060 |             </transactionTimeliness>
+000061 |             <transactionAmounts>
+000062 |                 <transactionShares>
+000063 |                     <value>33690</value>
+000064 |                 </transactionShares>
+000065 |                 <transactionPricePerShare>
+000066 |                     <value>0.00</value>
+000067 |                 </transactionPricePerShare>
+000068 |                 <transactionAcquiredDisposedCode>
+000069 |                     <value>A</value>
+000070 |                 </transactionAcquiredDisposedCode>
+000071 |             </transactionAmounts>
+000072 |             <exerciseDate>
+000073 |                 <footnoteId id="F1"/>
+000074 |             </exerciseDate>
+000075 |             <expirationDate>
+000076 |                 <footnoteId id="F1"/>
+000077 |             </expirationDate>
+000078 |             <underlyingSecurity>
+000079 |                 <underlyingSecurityTitle>
+000080 |                     <value>Common Stock</value>
+000081 |                 </underlyingSecurityTitle>
+000082 |                 <underlyingSecurityShares>
+000083 |                     <value>33690</value>
+000084 |                 </underlyingSecurityShares>
+000085 |             </underlyingSecurity>
+000086 |             <postTransactionAmounts>
+000087 |                 <sharesOwnedFollowingTransaction>
+000088 |                     <value>33690</value>
+000089 |                 </sharesOwnedFollowingTransaction>
+000090 |             </postTransactionAmounts>
+000091 |             <ownershipNature>
+000092 |                 <directOrIndirectOwnership>
+000093 |                     <value>D</value>
+000094 |                 </directOrIndirectOwnership>
+000095 |             </ownershipNature>
+000096 |         </derivativeTransaction>
+000097 |         <derivativeTransaction>
+000098 |             <securityTitle>
+000099 |                 <value>Restricted Stock Units</value>
+000100 |             </securityTitle>
+000101 |             <conversionOrExercisePrice>
+000102 |                 <footnoteId id="F2"/>
+000103 |             </conversionOrExercisePrice>
+000104 |             <transactionDate>
+000105 |                 <value>2018-10-29</value>
+000106 |             </transactionDate>
+000107 |             <deemedExecutionDate></deemedExecutionDate>
+000108 |             <transactionCoding>
+000109 |                 <transactionFormType>4</transactionFormType>
+000110 |                 <transactionCode>A</transactionCode>
+000111 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000112 |             </transactionCoding>
+000113 |             <transactionTimeliness>
+000114 |                 <value></value>
+000115 |             </transactionTimeliness>
+000116 |             <transactionAmounts>
+000117 |                 <transactionShares>
+000118 |                     <value>6794</value>
+000119 |                 </transactionShares>
+000120 |                 <transactionPricePerShare>
+000121 |                     <value>0.00</value>
+000122 |                 </transactionPricePerShare>
+000123 |                 <transactionAcquiredDisposedCode>
+000124 |                     <value>A</value>
+000125 |                 </transactionAcquiredDisposedCode>
+000126 |             </transactionAmounts>
+000127 |             <exerciseDate>
+000128 |                 <footnoteId id="F2"/>
+000129 |             </exerciseDate>
+000130 |             <expirationDate>
+000131 |                 <footnoteId id="F2"/>
+000132 |             </expirationDate>
+000133 |             <underlyingSecurity>
+000134 |                 <underlyingSecurityTitle>
+000135 |                     <value>Common Stock</value>
+000136 |                 </underlyingSecurityTitle>
+000137 |                 <underlyingSecurityShares>
+000138 |                     <value>6794</value>
+000139 |                 </underlyingSecurityShares>
+000140 |             </underlyingSecurity>
+000141 |             <postTransactionAmounts>
+000142 |                 <sharesOwnedFollowingTransaction>
+000143 |                     <value>6794</value>
+000144 |                 </sharesOwnedFollowingTransaction>
+000145 |             </postTransactionAmounts>
+000146 |             <ownershipNature>
+000147 |                 <directOrIndirectOwnership>
+000148 |                     <value>D</value>
+000149 |                 </directOrIndirectOwnership>
+000150 |             </ownershipNature>
+000151 |         </derivativeTransaction>
+000152 |         <derivativeTransaction>
+000153 |             <securityTitle>
+000154 |                 <value>Restricted Stock Units</value>
+000155 |             </securityTitle>
+000156 |             <conversionOrExercisePrice>
+000157 |                 <footnoteId id="F3"/>
+000158 |             </conversionOrExercisePrice>
+000159 |             <transactionDate>
+000160 |                 <value>2018-10-29</value>
+000161 |             </transactionDate>
+000162 |             <deemedExecutionDate></deemedExecutionDate>
+000163 |             <transactionCoding>
+000164 |                 <transactionFormType>4</transactionFormType>
+000165 |                 <transactionCode>A</transactionCode>
+000166 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000167 |             </transactionCoding>
+000168 |             <transactionTimeliness>
+000169 |                 <value></value>
+000170 |             </transactionTimeliness>
+000171 |             <transactionAmounts>
+000172 |                 <transactionShares>
+000173 |                     <value>6109</value>
+000174 |                 </transactionShares>
+000175 |                 <transactionPricePerShare>
+000176 |                     <value>0.00</value>
+000177 |                 </transactionPricePerShare>
+000178 |                 <transactionAcquiredDisposedCode>
+000179 |                     <value>A</value>
+000180 |                 </transactionAcquiredDisposedCode>
+000181 |             </transactionAmounts>
+000182 |             <exerciseDate>
+000183 |                 <footnoteId id="F3"/>
+000184 |             </exerciseDate>
+000185 |             <expirationDate>
+000186 |                 <footnoteId id="F3"/>
+000187 |             </expirationDate>
+000188 |             <underlyingSecurity>
+000189 |                 <underlyingSecurityTitle>
+000190 |                     <value>Common Stock</value>
+000191 |                 </underlyingSecurityTitle>
+000192 |                 <underlyingSecurityShares>
+000193 |                     <value>6109</value>
+000194 |                 </underlyingSecurityShares>
+000195 |             </underlyingSecurity>
+000196 |             <postTransactionAmounts>
+000197 |                 <sharesOwnedFollowingTransaction>
+000198 |                     <value>6109</value>
+000199 |                 </sharesOwnedFollowingTransaction>
+000200 |             </postTransactionAmounts>
+000201 |             <ownershipNature>
+000202 |                 <directOrIndirectOwnership>
+000203 |                     <value>D</value>
+000204 |                 </directOrIndirectOwnership>
+000205 |             </ownershipNature>
+000206 |         </derivativeTransaction>
+000207 |         <derivativeTransaction>
+000208 |             <securityTitle>
+000209 |                 <value>Restricted Stock Units</value>
+000210 |             </securityTitle>
+000211 |             <conversionOrExercisePrice>
+000212 |                 <footnoteId id="F4"/>
+000213 |             </conversionOrExercisePrice>
+000214 |             <transactionDate>
+000215 |                 <value>2018-10-29</value>
+000216 |             </transactionDate>
+000217 |             <deemedExecutionDate></deemedExecutionDate>
+000218 |             <transactionCoding>
+000219 |                 <transactionFormType>4</transactionFormType>
+000220 |                 <transactionCode>A</transactionCode>
+000221 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000222 |             </transactionCoding>
+000223 |             <transactionTimeliness>
+000224 |                 <value></value>
+000225 |             </transactionTimeliness>
+000226 |             <transactionAmounts>
+000227 |                 <transactionShares>
+000228 |                     <value>6444</value>
+000229 |                 </transactionShares>
+000230 |                 <transactionPricePerShare>
+000231 |                     <value>0.00</value>
+000232 |                 </transactionPricePerShare>
+000233 |                 <transactionAcquiredDisposedCode>
+000234 |                     <value>A</value>
+000235 |                 </transactionAcquiredDisposedCode>
+000236 |             </transactionAmounts>
+000237 |             <exerciseDate>
+000238 |                 <footnoteId id="F4"/>
+000239 |             </exerciseDate>
+000240 |             <expirationDate>
+000241 |                 <footnoteId id="F4"/>
+000242 |             </expirationDate>
+000243 |             <underlyingSecurity>
+000244 |                 <underlyingSecurityTitle>
+000245 |                     <value>Common Stock</value>
+000246 |                 </underlyingSecurityTitle>
+000247 |                 <underlyingSecurityShares>
+000248 |                     <value>6444</value>
+000249 |                 </underlyingSecurityShares>
+000250 |             </underlyingSecurity>
+000251 |             <postTransactionAmounts>
+000252 |                 <sharesOwnedFollowingTransaction>
+000253 |                     <value>6444</value>
+000254 |                 </sharesOwnedFollowingTransaction>
+000255 |             </postTransactionAmounts>
+000256 |             <ownershipNature>
+000257 |                 <directOrIndirectOwnership>
+000258 |                     <value>D</value>
+000259 |                 </directOrIndirectOwnership>
+000260 |             </ownershipNature>
+000261 |         </derivativeTransaction>
+000262 |         <derivativeTransaction>
+000263 |             <securityTitle>
+000264 |                 <value>Restricted Stock Units</value>
+000265 |             </securityTitle>
+000266 |             <conversionOrExercisePrice>
+000267 |                 <footnoteId id="F5"/>
+000268 |             </conversionOrExercisePrice>
+000269 |             <transactionDate>
+000270 |                 <value>2018-10-29</value>
+000271 |             </transactionDate>
+000272 |             <deemedExecutionDate></deemedExecutionDate>
+000273 |             <transactionCoding>
+000274 |                 <transactionFormType>4</transactionFormType>
+000275 |                 <transactionCode>A</transactionCode>
+000276 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000277 |             </transactionCoding>
+000278 |             <transactionTimeliness>
+000279 |                 <value></value>
+000280 |             </transactionTimeliness>
+000281 |             <transactionAmounts>
+000282 |                 <transactionShares>
+000283 |                     <value>2403</value>
+000284 |                 </transactionShares>
+000285 |                 <transactionPricePerShare>
+000286 |                     <value>0.00</value>
+000287 |                 </transactionPricePerShare>
+000288 |                 <transactionAcquiredDisposedCode>
+000289 |                     <value>A</value>
+000290 |                 </transactionAcquiredDisposedCode>
+000291 |             </transactionAmounts>
+000292 |             <exerciseDate>
+000293 |                 <footnoteId id="F5"/>
+000294 |             </exerciseDate>
+000295 |             <expirationDate>
+000296 |                 <footnoteId id="F5"/>
+000297 |             </expirationDate>
+000298 |             <underlyingSecurity>
+000299 |                 <underlyingSecurityTitle>
+000300 |                     <value>Common Stock</value>
+000301 |                 </underlyingSecurityTitle>
+000302 |                 <underlyingSecurityShares>
+000303 |                     <value>2403</value>
+000304 |                 </underlyingSecurityShares>
+000305 |             </underlyingSecurity>
+000306 |             <postTransactionAmounts>
+000307 |                 <sharesOwnedFollowingTransaction>
+000308 |                     <value>2403</value>
+000309 |                 </sharesOwnedFollowingTransaction>
+000310 |             </postTransactionAmounts>
+000311 |             <ownershipNature>
+000312 |                 <directOrIndirectOwnership>
+000313 |                     <value>D</value>
+000314 |                 </directOrIndirectOwnership>
+000315 |             </ownershipNature>
+000316 |         </derivativeTransaction>
+000317 |         <derivativeTransaction>
+000318 |             <securityTitle>
+000319 |                 <value>Restricted Stock Units</value>
+000320 |             </securityTitle>
+000321 |             <conversionOrExercisePrice>
+000322 |                 <footnoteId id="F6"/>
+000323 |             </conversionOrExercisePrice>
+000324 |             <transactionDate>
+000325 |                 <value>2018-10-29</value>
+000326 |             </transactionDate>
+000327 |             <deemedExecutionDate></deemedExecutionDate>
+000328 |             <transactionCoding>
+000329 |                 <transactionFormType>4</transactionFormType>
+000330 |                 <transactionCode>A</transactionCode>
+000331 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000332 |             </transactionCoding>
+000333 |             <transactionTimeliness>
+000334 |                 <value></value>
+000335 |             </transactionTimeliness>
+000336 |             <transactionAmounts>
+000337 |                 <transactionShares>
+000338 |                     <value>6157</value>
+000339 |                 </transactionShares>
+000340 |                 <transactionPricePerShare>
+000341 |                     <value>0.00</value>
+000342 |                 </transactionPricePerShare>
+000343 |                 <transactionAcquiredDisposedCode>
+000344 |                     <value>A</value>
+000345 |                 </transactionAcquiredDisposedCode>
+000346 |             </transactionAmounts>
+000347 |             <exerciseDate>
+000348 |                 <footnoteId id="F6"/>
+000349 |             </exerciseDate>
+000350 |             <expirationDate>
+000351 |                 <footnoteId id="F6"/>
+000352 |             </expirationDate>
+000353 |             <underlyingSecurity>
+000354 |                 <underlyingSecurityTitle>
+000355 |                     <value>Common Stock</value>
+000356 |                 </underlyingSecurityTitle>
+000357 |                 <underlyingSecurityShares>
+000358 |                     <value>6157</value>
+000359 |                 </underlyingSecurityShares>
+000360 |             </underlyingSecurity>
+000361 |             <postTransactionAmounts>
+000362 |                 <sharesOwnedFollowingTransaction>
+000363 |                     <value>6157</value>
+000364 |                 </sharesOwnedFollowingTransaction>
+000365 |             </postTransactionAmounts>
+000366 |             <ownershipNature>
+000367 |                 <directOrIndirectOwnership>
+000368 |                     <value>D</value>
+000369 |                 </directOrIndirectOwnership>
+000370 |             </ownershipNature>
+000371 |         </derivativeTransaction>
+000372 |         <derivativeTransaction>
+000373 |             <securityTitle>
+000374 |                 <value>Restricted Stock Units</value>
+000375 |             </securityTitle>
+000376 |             <conversionOrExercisePrice>
+000377 |                 <footnoteId id="F7"/>
+000378 |             </conversionOrExercisePrice>
+000379 |             <transactionDate>
+000380 |                 <value>2018-10-29</value>
+000381 |             </transactionDate>
+000382 |             <deemedExecutionDate></deemedExecutionDate>
+000383 |             <transactionCoding>
+000384 |                 <transactionFormType>4</transactionFormType>
+000385 |                 <transactionCode>A</transactionCode>
+000386 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000387 |             </transactionCoding>
+000388 |             <transactionTimeliness>
+000389 |                 <value></value>
+000390 |             </transactionTimeliness>
+000391 |             <transactionAmounts>
+000392 |                 <transactionShares>
+000393 |                     <value>20641</value>
+000394 |                 </transactionShares>
+000395 |                 <transactionPricePerShare>
+000396 |                     <value>0.00</value>
+000397 |                 </transactionPricePerShare>
+000398 |                 <transactionAcquiredDisposedCode>
+000399 |                     <value>A</value>
+000400 |                 </transactionAcquiredDisposedCode>
+000401 |             </transactionAmounts>
+000402 |             <exerciseDate>
+000403 |                 <footnoteId id="F7"/>
+000404 |             </exerciseDate>
+000405 |             <expirationDate>
+000406 |                 <footnoteId id="F7"/>
+000407 |             </expirationDate>
+000408 |             <underlyingSecurity>
+000409 |                 <underlyingSecurityTitle>
+000410 |                     <value>Common Stock</value>
+000411 |                 </underlyingSecurityTitle>
+000412 |                 <underlyingSecurityShares>
+000413 |                     <value>20641</value>
+000414 |                 </underlyingSecurityShares>
+000415 |             </underlyingSecurity>
+000416 |             <postTransactionAmounts>
+000417 |                 <sharesOwnedFollowingTransaction>
+000418 |                     <value>20641</value>
+000419 |                 </sharesOwnedFollowingTransaction>
+000420 |             </postTransactionAmounts>
+000421 |             <ownershipNature>
+000422 |                 <directOrIndirectOwnership>
+000423 |                     <value>D</value>
+000424 |                 </directOrIndirectOwnership>
+000425 |             </ownershipNature>
+000426 |         </derivativeTransaction>
+000427 |         <derivativeTransaction>
+000428 |             <securityTitle>
+000429 |                 <value>Restricted Stock Units</value>
+000430 |             </securityTitle>
+000431 |             <conversionOrExercisePrice>
+000432 |                 <footnoteId id="F8"/>
+000433 |             </conversionOrExercisePrice>
+000434 |             <transactionDate>
+000435 |                 <value>2018-10-29</value>
+000436 |             </transactionDate>
+000437 |             <deemedExecutionDate></deemedExecutionDate>
+000438 |             <transactionCoding>
+000439 |                 <transactionFormType>4</transactionFormType>
+000440 |                 <transactionCode>A</transactionCode>
+000441 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000442 |             </transactionCoding>
+000443 |             <transactionTimeliness>
+000444 |                 <value></value>
+000445 |             </transactionTimeliness>
+000446 |             <transactionAmounts>
+000447 |                 <transactionShares>
+000448 |                     <value>7811</value>
+000449 |                 </transactionShares>
+000450 |                 <transactionPricePerShare>
+000451 |                     <value>0.00</value>
+000452 |                 </transactionPricePerShare>
+000453 |                 <transactionAcquiredDisposedCode>
+000454 |                     <value>A</value>
+000455 |                 </transactionAcquiredDisposedCode>
+000456 |             </transactionAmounts>
+000457 |             <exerciseDate>
+000458 |                 <footnoteId id="F8"/>
+000459 |             </exerciseDate>
+000460 |             <expirationDate>
+000461 |                 <footnoteId id="F8"/>
+000462 |             </expirationDate>
+000463 |             <underlyingSecurity>
+000464 |                 <underlyingSecurityTitle>
+000465 |                     <value>Common Stock</value>
+000466 |                 </underlyingSecurityTitle>
+000467 |                 <underlyingSecurityShares>
+000468 |                     <value>7811</value>
+000469 |                 </underlyingSecurityShares>
+000470 |             </underlyingSecurity>
+000471 |             <postTransactionAmounts>
+000472 |                 <sharesOwnedFollowingTransaction>
+000473 |                     <value>7811</value>
+000474 |                 </sharesOwnedFollowingTransaction>
+000475 |             </postTransactionAmounts>
+000476 |             <ownershipNature>
+000477 |                 <directOrIndirectOwnership>
+000478 |                     <value>D</value>
+000479 |                 </directOrIndirectOwnership>
+000480 |             </ownershipNature>
+000481 |         </derivativeTransaction>
+000482 |         <derivativeTransaction>
+000483 |             <securityTitle>
+000484 |                 <value>Restricted Stock Units</value>
+000485 |             </securityTitle>
+000486 |             <conversionOrExercisePrice>
+000487 |                 <footnoteId id="F9"/>
+000488 |             </conversionOrExercisePrice>
+000489 |             <transactionDate>
+000490 |                 <value>2018-10-29</value>
+000491 |             </transactionDate>
+000492 |             <deemedExecutionDate></deemedExecutionDate>
+000493 |             <transactionCoding>
+000494 |                 <transactionFormType>4</transactionFormType>
+000495 |                 <transactionCode>A</transactionCode>
+000496 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000497 |             </transactionCoding>
+000498 |             <transactionTimeliness>
+000499 |                 <value></value>
+000500 |             </transactionTimeliness>
+000501 |             <transactionAmounts>
+000502 |                 <transactionShares>
+000503 |                     <value>27902</value>
+000504 |                 </transactionShares>
+000505 |                 <transactionPricePerShare>
+000506 |                     <value>0.00</value>
+000507 |                 </transactionPricePerShare>
+000508 |                 <transactionAcquiredDisposedCode>
+000509 |                     <value>A</value>
+000510 |                 </transactionAcquiredDisposedCode>
+000511 |             </transactionAmounts>
+000512 |             <exerciseDate>
+000513 |                 <footnoteId id="F9"/>
+000514 |             </exerciseDate>
+000515 |             <expirationDate>
+000516 |                 <footnoteId id="F9"/>
+000517 |             </expirationDate>
+000518 |             <underlyingSecurity>
+000519 |                 <underlyingSecurityTitle>
+000520 |                     <value>Common Stock</value>
+000521 |                 </underlyingSecurityTitle>
+000522 |                 <underlyingSecurityShares>
+000523 |                     <value>27902</value>
+000524 |                 </underlyingSecurityShares>
+000525 |             </underlyingSecurity>
+000526 |             <postTransactionAmounts>
+000527 |                 <sharesOwnedFollowingTransaction>
+000528 |                     <value>27902</value>
+000529 |                 </sharesOwnedFollowingTransaction>
+000530 |             </postTransactionAmounts>
+000531 |             <ownershipNature>
+000532 |                 <directOrIndirectOwnership>
+000533 |                     <value>D</value>
+000534 |                 </directOrIndirectOwnership>
+000535 |             </ownershipNature>
+000536 |         </derivativeTransaction>
+000537 |         <derivativeTransaction>
+000538 |             <securityTitle>
+000539 |                 <value>Restricted Stock Units</value>
+000540 |             </securityTitle>
+000541 |             <conversionOrExercisePrice>
+000542 |                 <footnoteId id="F10"/>
+000543 |             </conversionOrExercisePrice>
+000544 |             <transactionDate>
+000545 |                 <value>2018-10-29</value>
+000546 |             </transactionDate>
+000547 |             <deemedExecutionDate></deemedExecutionDate>
+000548 |             <transactionCoding>
+000549 |                 <transactionFormType>4</transactionFormType>
+000550 |                 <transactionCode>A</transactionCode>
+000551 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000552 |             </transactionCoding>
+000553 |             <transactionTimeliness>
+000554 |                 <value></value>
+000555 |             </transactionTimeliness>
+000556 |             <transactionAmounts>
+000557 |                 <transactionShares>
+000558 |                     <value>7563</value>
+000559 |                 </transactionShares>
+000560 |                 <transactionPricePerShare>
+000561 |                     <value>0.00</value>
+000562 |                 </transactionPricePerShare>
+000563 |                 <transactionAcquiredDisposedCode>
+000564 |                     <value>A</value>
+000565 |                 </transactionAcquiredDisposedCode>
+000566 |             </transactionAmounts>
+000567 |             <exerciseDate>
+000568 |                 <footnoteId id="F10"/>
+000569 |             </exerciseDate>
+000570 |             <expirationDate>
+000571 |                 <footnoteId id="F10"/>
+000572 |             </expirationDate>
+000573 |             <underlyingSecurity>
+000574 |                 <underlyingSecurityTitle>
+000575 |                     <value>Common Stock</value>
+000576 |                 </underlyingSecurityTitle>
+000577 |                 <underlyingSecurityShares>
+000578 |                     <value>7563</value>
+000579 |                 </underlyingSecurityShares>
+000580 |             </underlyingSecurity>
+000581 |             <postTransactionAmounts>
+000582 |                 <sharesOwnedFollowingTransaction>
+000583 |                     <value>7563</value>
+000584 |                 </sharesOwnedFollowingTransaction>
+000585 |             </postTransactionAmounts>
+000586 |             <ownershipNature>
+000587 |                 <directOrIndirectOwnership>
+000588 |                     <value>D</value>
+000589 |                 </directOrIndirectOwnership>
+000590 |             </ownershipNature>
+000591 |         </derivativeTransaction>
+000592 |         <derivativeTransaction>
+000593 |             <securityTitle>
+000594 |                 <value>Restricted Stock Units</value>
+000595 |             </securityTitle>
+000596 |             <conversionOrExercisePrice>
+000597 |                 <footnoteId id="F11"/>
+000598 |             </conversionOrExercisePrice>
+000599 |             <transactionDate>
+000600 |                 <value>2018-10-29</value>
+000601 |             </transactionDate>
+000602 |             <deemedExecutionDate></deemedExecutionDate>
+000603 |             <transactionCoding>
+000604 |                 <transactionFormType>4</transactionFormType>
+000605 |                 <transactionCode>A</transactionCode>
+000606 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000607 |             </transactionCoding>
+000608 |             <transactionTimeliness>
+000609 |                 <value></value>
+000610 |             </transactionTimeliness>
+000611 |             <transactionAmounts>
+000612 |                 <transactionShares>
+000613 |                     <value>15596</value>
+000614 |                 </transactionShares>
+000615 |                 <transactionPricePerShare>
+000616 |                     <value>0.00</value>
+000617 |                 </transactionPricePerShare>
+000618 |                 <transactionAcquiredDisposedCode>
+000619 |                     <value>A</value>
+000620 |                 </transactionAcquiredDisposedCode>
+000621 |             </transactionAmounts>
+000622 |             <exerciseDate>
+000623 |                 <footnoteId id="F11"/>
+000624 |             </exerciseDate>
+000625 |             <expirationDate>
+000626 |                 <footnoteId id="F11"/>
+000627 |             </expirationDate>
+000628 |             <underlyingSecurity>
+000629 |                 <underlyingSecurityTitle>
+000630 |                     <value>Common Stock</value>
+000631 |                 </underlyingSecurityTitle>
+000632 |                 <underlyingSecurityShares>
+000633 |                     <value>15596</value>
+000634 |                 </underlyingSecurityShares>
+000635 |             </underlyingSecurity>
+000636 |             <postTransactionAmounts>
+000637 |                 <sharesOwnedFollowingTransaction>
+000638 |                     <value>15596</value>
+000639 |                 </sharesOwnedFollowingTransaction>
+000640 |             </postTransactionAmounts>
+000641 |             <ownershipNature>
+000642 |                 <directOrIndirectOwnership>
+000643 |                     <value>D</value>
+000644 |                 </directOrIndirectOwnership>
+000645 |             </ownershipNature>
+000646 |         </derivativeTransaction>
+000647 |         <derivativeTransaction>
+000648 |             <securityTitle>
+000649 |                 <value>Restricted Stock Units</value>
+000650 |             </securityTitle>
+000651 |             <conversionOrExercisePrice>
+000652 |                 <footnoteId id="F12"/>
+000653 |             </conversionOrExercisePrice>
+000654 |             <transactionDate>
+000655 |                 <value>2018-10-29</value>
+000656 |             </transactionDate>
+000657 |             <deemedExecutionDate></deemedExecutionDate>
+000658 |             <transactionCoding>
+000659 |                 <transactionFormType>4</transactionFormType>
+000660 |                 <transactionCode>A</transactionCode>
+000661 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000662 |             </transactionCoding>
+000663 |             <transactionTimeliness>
+000664 |                 <value></value>
+000665 |             </transactionTimeliness>
+000666 |             <transactionAmounts>
+000667 |                 <transactionShares>
+000668 |                     <value>8607</value>
+000669 |                 </transactionShares>
+000670 |                 <transactionPricePerShare>
+000671 |                     <value>0.00</value>
+000672 |                 </transactionPricePerShare>
+000673 |                 <transactionAcquiredDisposedCode>
+000674 |                     <value>A</value>
+000675 |                 </transactionAcquiredDisposedCode>
+000676 |             </transactionAmounts>
+000677 |             <exerciseDate>
+000678 |                 <footnoteId id="F12"/>
+000679 |             </exerciseDate>
+000680 |             <expirationDate>
+000681 |                 <footnoteId id="F12"/>
+000682 |             </expirationDate>
+000683 |             <underlyingSecurity>
+000684 |                 <underlyingSecurityTitle>
+000685 |                     <value>Common Stock</value>
+000686 |                 </underlyingSecurityTitle>
+000687 |                 <underlyingSecurityShares>
+000688 |                     <value>8607</value>
+000689 |                 </underlyingSecurityShares>
+000690 |             </underlyingSecurity>
+000691 |             <postTransactionAmounts>
+000692 |                 <sharesOwnedFollowingTransaction>
+000693 |                     <value>8607</value>
+000694 |                 </sharesOwnedFollowingTransaction>
+000695 |             </postTransactionAmounts>
+000696 |             <ownershipNature>
+000697 |                 <directOrIndirectOwnership>
+000698 |                     <value>D</value>
+000699 |                 </directOrIndirectOwnership>
+000700 |             </ownershipNature>
+000701 |         </derivativeTransaction>
+000702 |     </derivativeTable>
+000703 | 
+000704 |     <footnotes>
+000705 |         <footnote id="F1">Grant of restricted stock units pursuant to the initial Founder's Grants of Resideo Technologies, Inc., a Delaware corporation (&quot;Resideo&quot;), which will vest as to 50% on October 29, 2021 and 50% on October 29, 2022, subject to continued employment.</footnote>
+000706 |         <footnote id="F2">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell International Inc. (&quot;Honeywell&quot;) into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest in equal installments on February 27, 2019, February 27, 2020, February 27, 2021 and February 27, 2022, subject to continued employment.</footnote>
+000707 |         <footnote id="F3">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest in equal installments on February 28, 2019, February 28, 2020 and February 28, 2021, subject to continued employment.</footnote>
+000708 |         <footnote id="F4">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest in equal installments on February 25, 2019 and February 25, 2020, subject to continued employment.</footnote>
+000709 |         <footnote id="F5">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest on February 26, 2019, subject to continued employment.</footnote>
+000710 |         <footnote id="F6">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest on February 27, 2021, subject to continued employment.</footnote>
+000711 |         <footnote id="F7">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest 33% on July 27, 2019, 33% on July 27, 2021 and 34% on July 27, 2023, subject to continued employment.</footnote>
+000712 |         <footnote id="F8">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest on February 28, 2020, subject to continued employment.</footnote>
+000713 |         <footnote id="F9">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest 33% on June 1, 2019, 33% on June 1, 2021 and 34% on June 1, 2023, subject to continued employment.</footnote>
+000714 |         <footnote id="F10">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest on February 25, 2019, subject to continued employment.</footnote>
+000715 |         <footnote id="F11">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest 49% on July 25, 2019 and 51% on July 25, 2021.</footnote>
+000716 |         <footnote id="F12">Grant of restricted stock units in connection with the conversion of certain equity and cash incentive awards previously granted by Honeywell into equity awards of Resideo with respect to, or with a value determined with reference to, Resideo common stock, par value $0.001. The restricted stock units will vest on March 15, 2020, subject to continued employment.</footnote>
+000717 |     </footnotes>
+000718 | 
+000719 |     <remarks>EVP AND CHIEF SALES AND MARKETING OFFICER</remarks>
+000720 | 
+000721 |     <ownerSignature>
+000722 |         <signatureName>/s/ Jacqueline W. Katzel, as Attorney-in-Fact for Michael D. Flink</signatureName>
+000723 |         <signatureDate>2018-10-31</signatureDate>
+000724 |     </ownerSignature>
+000725 | </ownershipDocument>
+000726 | </XML>
+000727 | 

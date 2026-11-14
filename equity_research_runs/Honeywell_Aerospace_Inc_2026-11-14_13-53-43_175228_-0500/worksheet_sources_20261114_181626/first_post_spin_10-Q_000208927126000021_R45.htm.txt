@@ -1,0 +1,100 @@
+000001 | v3.26.1
+000002 | Income Taxes (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 6 Months Ended
+000006 | Jun. 27, 2026
+000007 | Jun. 27, 2026
+000008 | Income Tax Disclosure [Abstract]
+000009 | Effective tax expense (benefit) rate
+000010 | 32.30%
+000011 | 23.80%
+000012 | Nondeductible transaction costs and frictional tax costs
+000013 | $ 77
+000014 | $ 93
+000015 | X
+000016 | - Definition
+000017 | Percentage of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining to continuing operations.
+000018 | + References
+000019 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000020 | -Topic 740
+000021 | -SubTopic 10
+000022 | -Name Accounting Standards Codification
+000023 | -Section 50
+000024 | -Paragraph 12
+000025 | -Publisher FASB
+000026 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000027 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000028 | -Topic 740
+000029 | -SubTopic 10
+000030 | -Name Accounting Standards Codification
+000031 | -Section 55
+000032 | -Paragraph 231
+000033 | -Publisher FASB
+000034 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000035 | + Details
+000036 | Name:
+000037 | us-gaap_EffectiveIncomeTaxRateContinuingOperations
+000038 | Namespace Prefix:
+000039 | us-gaap_
+000040 | Data Type:
+000041 | dtr-types:percentItemType
+000042 | Balance Type:
+000043 | na
+000044 | Period Type:
+000045 | duration
+000046 | X
+000047 | - References
+000048 | No definition available.
+000049 | + Details
+000050 | Name:
+000051 | us-gaap_IncomeTaxDisclosureAbstract
+000052 | Namespace Prefix:
+000053 | us-gaap_
+000054 | Data Type:
+000055 | xbrli:stringItemType
+000056 | Balance Type:
+000057 | na
+000058 | Period Type:
+000059 | duration
+000060 | X
+000061 | - Definition
+000062 | Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to nondeductible expenses.
+000063 | + References
+000064 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000065 | -Topic 740
+000066 | -SubTopic 10
+000067 | -Name Accounting Standards Codification
+000068 | -Section 50
+000069 | -Paragraph 12A
+000070 | -Subparagraph (b)(1)
+000071 | -Publisher FASB
+000072 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12A
+000073 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000074 | -Topic 740
+000075 | -SubTopic 10
+000076 | -Name Accounting Standards Codification
+000077 | -Section 50
+000078 | -Paragraph 12A
+000079 | -Subparagraph (a)(7)
+000080 | -Publisher FASB
+000081 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12A
+000082 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000083 | -Topic 740
+000084 | -SubTopic 10
+000085 | -Name Accounting Standards Codification
+000086 | -Section 50
+000087 | -Paragraph 12
+000088 | -Publisher FASB
+000089 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000090 | + Details
+000091 | Name:
+000092 | us-gaap_IncomeTaxReconciliationNondeductibleExpense
+000093 | Namespace Prefix:
+000094 | us-gaap_
+000095 | Data Type:
+000096 | xbrli:monetaryItemType
+000097 | Balance Type:
+000098 | debit
+000099 | Period Type:
+000100 | duration

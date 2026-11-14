@@ -1,0 +1,188 @@
+000001 | v3.26.1
+000002 | Revenue Recognition from Contracts with Customers - Schedule of Contract Balances (Details) - USD ($)
+000003 | $ in Millions
+000004 | 6 Months Ended
+000005 | Jun. 27, 2026
+000006 | Jun. 28, 2025
+000007 | Contract With Customer, Asset And Liability [Roll Forward]
+000008 | Contract assets - beginning balance
+000009 | $ 1,373
+000010 | $ 1,219
+000011 | Contract assets - ending balance
+000012 | 1,418
+000013 | 1,251
+000014 | Change in Contract assets - increase
+000015 | 45
+000016 | 32
+000017 | Contract liabilities - beginning balance
+000018 | (2,680)
+000019 | (2,401)
+000020 | Contract liabilities - ending balance
+000021 | (2,702)
+000022 | (2,331)
+000023 | Change in Contract liabilities - (increase)
+000024 | (22)
+000025 | 70
+000026 | Net change
+000027 | $ 23
+000028 | $ 102
+000029 | X
+000030 | - Definition
+000031 | Contract With Customer, Asset And Liability
+000032 | + References
+000033 | No definition available.
+000034 | + Details
+000035 | Name:
+000036 | hona_ContractWithCustomerAssetAndLiabilityRollForward
+000037 | Namespace Prefix:
+000038 | hona_
+000039 | Data Type:
+000040 | xbrli:stringItemType
+000041 | Balance Type:
+000042 | na
+000043 | Period Type:
+000044 | duration
+000045 | X
+000046 | - Definition
+000047 | Amount of increase (decrease) in net contract assets and liabilities
+000048 | + References
+000049 | No definition available.
+000050 | + Details
+000051 | Name:
+000052 | hona_ContractWithCustomerAssetsLiabilitiesIncreaseDecreaseIncludingForeignExchangeAdjustments
+000053 | Namespace Prefix:
+000054 | hona_
+000055 | Data Type:
+000056 | xbrli:monetaryItemType
+000057 | Balance Type:
+000058 | credit
+000059 | Period Type:
+000060 | duration
+000061 | X
+000062 | - Definition
+000063 | Increase (Decrease) in Contract With Customer, Asset, Including Foreign Exchange Adjustments
+000064 | + References
+000065 | No definition available.
+000066 | + Details
+000067 | Name:
+000068 | hona_IncreaseDecreaseInContractWithCustomerAssetIncludingForeignExchangeAdjustments
+000069 | Namespace Prefix:
+000070 | hona_
+000071 | Data Type:
+000072 | xbrli:monetaryItemType
+000073 | Balance Type:
+000074 | credit
+000075 | Period Type:
+000076 | duration
+000077 | X
+000078 | - Definition
+000079 | Increase (Decrease) in Contract with Customer, Liability, Including Foreign Exchange Adjustments
+000080 | + References
+000081 | No definition available.
+000082 | + Details
+000083 | Name:
+000084 | hona_IncreaseDecreaseInContractWithCustomerLiabilityIncludingForeignExchangeAdjustments
+000085 | Namespace Prefix:
+000086 | hona_
+000087 | Data Type:
+000088 | xbrli:monetaryItemType
+000089 | Balance Type:
+000090 | debit
+000091 | Period Type:
+000092 | duration
+000093 | X
+000094 | - Definition
+000095 | Amount, after allowance for credit loss, of right to consideration in exchange for good or service transferred to customer when right is conditioned on something other than passage of time.
+000096 | + References
+000097 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000098 | -Topic 606
+000099 | -SubTopic 10
+000100 | -Name Accounting Standards Codification
+000101 | -Section 50
+000102 | -Paragraph 11
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000105 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000106 | -Topic 606
+000107 | -SubTopic 10
+000108 | -Name Accounting Standards Codification
+000109 | -Section 45
+000110 | -Paragraph 3
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-3
+000113 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000114 | -Topic 606
+000115 | -SubTopic 10
+000116 | -Name Accounting Standards Codification
+000117 | -Section 45
+000118 | -Paragraph 1
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000121 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000122 | -Topic 606
+000123 | -SubTopic 10
+000124 | -Name Accounting Standards Codification
+000125 | -Section 50
+000126 | -Paragraph 8
+000127 | -Subparagraph (a)
+000128 | -Publisher FASB
+000129 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000130 | + Details
+000131 | Name:
+000132 | us-gaap_ContractWithCustomerAssetNet
+000133 | Namespace Prefix:
+000134 | us-gaap_
+000135 | Data Type:
+000136 | xbrli:monetaryItemType
+000137 | Balance Type:
+000138 | debit
+000139 | Period Type:
+000140 | instant
+000141 | X
+000142 | - Definition
+000143 | Amount of obligation to transfer good or service to customer for which consideration has been received or is receivable.
+000144 | + References
+000145 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000146 | -Topic 606
+000147 | -SubTopic 10
+000148 | -Name Accounting Standards Codification
+000149 | -Section 50
+000150 | -Paragraph 11
+000151 | -Publisher FASB
+000152 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000153 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000154 | -Topic 606
+000155 | -SubTopic 10
+000156 | -Name Accounting Standards Codification
+000157 | -Section 45
+000158 | -Paragraph 1
+000159 | -Publisher FASB
+000160 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000161 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000162 | -Topic 606
+000163 | -SubTopic 10
+000164 | -Name Accounting Standards Codification
+000165 | -Section 50
+000166 | -Paragraph 8
+000167 | -Subparagraph (a)
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000170 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000171 | -Topic 606
+000172 | -SubTopic 10
+000173 | -Name Accounting Standards Codification
+000174 | -Section 45
+000175 | -Paragraph 2
+000176 | -Publisher FASB
+000177 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-2
+000178 | + Details
+000179 | Name:
+000180 | us-gaap_ContractWithCustomerLiability
+000181 | Namespace Prefix:
+000182 | us-gaap_
+000183 | Data Type:
+000184 | xbrli:monetaryItemType
+000185 | Balance Type:
+000186 | credit
+000187 | Period Type:
+000188 | instant

@@ -1,0 +1,238 @@
+000001 | v3.25.4
+000002 | FAIR VALUE MEASUREMENTS - Financial Assets and Liabilities not Carried at Fair Value (Details) - Level 2 - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Carrying Value
+000007 | Assets
+000008 | Long-term receivables
+000009 | $ 992
+000010 | $ 708
+000011 | Liabilities
+000012 | Long-term debt and related current maturities
+000013 | 28,688
+000014 | 26,826
+000015 | Fair Value
+000016 | Assets
+000017 | Long-term receivables
+000018 | 961
+000019 | 652
+000020 | Liabilities
+000021 | Long-term debt and related current maturities
+000022 | $ 28,144
+000023 | $ 25,503
+000024 | X
+000025 | - References
+000026 | No definition available.
+000027 | + Details
+000028 | Name:
+000029 | us-gaap_AssetsFairValueDisclosureAbstract
+000030 | Namespace Prefix:
+000031 | us-gaap_
+000032 | Data Type:
+000033 | xbrli:stringItemType
+000034 | Balance Type:
+000035 | na
+000036 | Period Type:
+000037 | duration
+000038 | X
+000039 | - References
+000040 | No definition available.
+000041 | + Details
+000042 | Name:
+000043 | us-gaap_LiabilitiesFairValueDisclosureAbstract
+000044 | Namespace Prefix:
+000045 | us-gaap_
+000046 | Data Type:
+000047 | xbrli:stringItemType
+000048 | Balance Type:
+000049 | na
+000050 | Period Type:
+000051 | duration
+000052 | X
+000053 | - Definition
+000054 | Fair value portion of loan receivable, including, but not limited to, mortgage loans held for investment, finance receivables held for investment, policy loans on insurance contracts.
+000055 | + References
+000056 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000057 | -Name Accounting Standards Codification
+000058 | -Section 55
+000059 | -Paragraph 10
+000060 | -SubTopic 10
+000061 | -Topic 825
+000062 | -Publisher FASB
+000063 | -URI https://asc.fasb.org/1943274/2147482881/825-10-55-10
+000064 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000065 | -Topic 825
+000066 | -SubTopic 10
+000067 | -Name Accounting Standards Codification
+000068 | -Section 50
+000069 | -Paragraph 28
+000070 | -Subparagraph (c)(1)
+000071 | -Publisher FASB
+000072 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+000073 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000074 | -Topic 825
+000075 | -SubTopic 10
+000076 | -Name Accounting Standards Codification
+000077 | -Section 50
+000078 | -Paragraph 11
+000079 | -Subparagraph (b)
+000080 | -Publisher FASB
+000081 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-11
+000082 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000083 | -Topic 825
+000084 | -SubTopic 10
+000085 | -Name Accounting Standards Codification
+000086 | -Section 50
+000087 | -Paragraph 11
+000088 | -Subparagraph (a)
+000089 | -Publisher FASB
+000090 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-11
+000091 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000092 | -Topic 825
+000093 | -SubTopic 10
+000094 | -Name Accounting Standards Codification
+000095 | -Section 50
+000096 | -Paragraph 10
+000097 | -Publisher FASB
+000098 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-10
+000099 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000100 | -Topic 825
+000101 | -SubTopic 10
+000102 | -Name Accounting Standards Codification
+000103 | -Section 55
+000104 | -Paragraph 12
+000105 | -Publisher FASB
+000106 | -URI https://asc.fasb.org/1943274/2147482881/825-10-55-12
+000107 | + Details
+000108 | Name:
+000109 | us-gaap_LoansReceivableFairValueDisclosure
+000110 | Namespace Prefix:
+000111 | us-gaap_
+000112 | Data Type:
+000113 | xbrli:monetaryItemType
+000114 | Balance Type:
+000115 | debit
+000116 | Period Type:
+000117 | instant
+000118 | X
+000119 | - Definition
+000120 | Fair value portion of notes payable.
+000121 | + References
+000122 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000123 | -Name Accounting Standards Codification
+000124 | -Section S99
+000125 | -Paragraph 1
+000126 | -Subparagraph (SX 210.5-02(22))
+000127 | -SubTopic 10
+000128 | -Topic 210
+000129 | -Publisher FASB
+000130 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000131 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000132 | -Topic 210
+000133 | -SubTopic 10
+000134 | -Name Accounting Standards Codification
+000135 | -Section S99
+000136 | -Paragraph 1
+000137 | -Subparagraph (SX 210.5-02(20))
+000138 | -Publisher FASB
+000139 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000140 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000141 | -Topic 825
+000142 | -SubTopic 10
+000143 | -Name Accounting Standards Codification
+000144 | -Section 50
+000145 | -Paragraph 28
+000146 | -Subparagraph (c)(1)
+000147 | -Publisher FASB
+000148 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+000149 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000150 | -Topic 825
+000151 | -SubTopic 10
+000152 | -Name Accounting Standards Codification
+000153 | -Section 50
+000154 | -Paragraph 11
+000155 | -Subparagraph (b)
+000156 | -Publisher FASB
+000157 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-11
+000158 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000159 | -Topic 825
+000160 | -SubTopic 10
+000161 | -Name Accounting Standards Codification
+000162 | -Section 50
+000163 | -Paragraph 11
+000164 | -Subparagraph (a)
+000165 | -Publisher FASB
+000166 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-11
+000167 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000168 | -Topic 825
+000169 | -SubTopic 10
+000170 | -Name Accounting Standards Codification
+000171 | -Section 50
+000172 | -Paragraph 10
+000173 | -Publisher FASB
+000174 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-10
+000175 | Reference 7: http://www.xbrl.org/2009/role/commonPracticeRef
+000176 | -Topic 820
+000177 | -SubTopic 10
+000178 | -Name Accounting Standards Codification
+000179 | -Section 50
+000180 | -Paragraph 2
+000181 | -Subparagraph (b)
+000182 | -Publisher FASB
+000183 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000184 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+000185 | -Topic 820
+000186 | -SubTopic 10
+000187 | -Name Accounting Standards Codification
+000188 | -Section 50
+000189 | -Paragraph 2E
+000190 | -Publisher FASB
+000191 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2E
+000192 | Reference 9: http://fasb.org/us-gaap/role/ref/legacyRef
+000193 | -Topic 210
+000194 | -SubTopic 10
+000195 | -Name Accounting Standards Codification
+000196 | -Section S99
+000197 | -Paragraph 1
+000198 | -Subparagraph (SX 210.5-02(19))
+000199 | -Publisher FASB
+000200 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000201 | + Details
+000202 | Name:
+000203 | us-gaap_NotesPayableFairValueDisclosure
+000204 | Namespace Prefix:
+000205 | us-gaap_
+000206 | Data Type:
+000207 | xbrli:monetaryItemType
+000208 | Balance Type:
+000209 | credit
+000210 | Period Type:
+000211 | instant
+000212 | X
+000213 | - Details
+000214 | Name:
+000215 | us-gaap_FairValueByMeasurementBasisAxis=us-gaap_CarryingReportedAmountFairValueDisclosureMember
+000216 | Namespace Prefix:
+000217 | Data Type:
+000218 | na
+000219 | Balance Type:
+000220 | Period Type:
+000221 | X
+000222 | - Details
+000223 | Name:
+000224 | us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel2Member
+000225 | Namespace Prefix:
+000226 | Data Type:
+000227 | na
+000228 | Balance Type:
+000229 | Period Type:
+000230 | X
+000231 | - Details
+000232 | Name:
+000233 | us-gaap_FairValueByMeasurementBasisAxis=us-gaap_EstimateOfFairValueFairValueDisclosureMember
+000234 | Namespace Prefix:
+000235 | Data Type:
+000236 | na
+000237 | Balance Type:
+000238 | Period Type:

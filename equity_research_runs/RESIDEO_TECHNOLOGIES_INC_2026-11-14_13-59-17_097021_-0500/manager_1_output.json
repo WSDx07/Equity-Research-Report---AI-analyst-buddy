@@ -1,0 +1,34 @@
+{
+  "research_issues": [
+    "Section \"Valuation Insights\" is absent – no content supplied for the required valuation analysis.",
+    "Section \"Overview\" – claim verification issues detected by automatic checks (invalid line/quote references).",
+    "Section \"Market Positioning and Growth Outlook\" – several claims have mismatched line numbers or missing quoted figures (automatic checks).",
+    "Section \"Future Developments and Strategic Recommendations\" – claim line/quote mismatches flagged (automatic checks)."
+  ],
+  "financial_issues": [
+    "Insight includes required filing, line number and exact quote – passes technical check.",
+    "Financial observations contain raw numeric values; while not a fatal error, the automatic checker flagged them (no further action needed)."
+  ],
+  "advisor_issues": [
+    "Insight includes required filing, line number and exact quote – passes technical check.",
+    "Recommendation \"Hold\" is present; no missing elements in the Investment Recommendation section."
+  ],
+  "overall_issues": [
+    "Valuation Insights section missing entirely – cannot assess valuation consistency.",
+    "Quantitative market‑share metrics for Resideo versus peers are unavailable, limiting competitive analysis.",
+    "Detailed product‑roadmap dates beyond the AI‑powered FORTIQ mention are absent.",
+    "Automatic claim‑level issues (invalid line numbers, mismatched numbers) need correction before final report."
+  ],
+  "research_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "marks": [
+    {
+      "line": 7,
+      "value": "100000",
+      "supported": false,
+      "reason": "Numeric claim pertains to number of contractors; no XBRL fact with matching definition, tag, period, or value is supplied."
+    },
+    {
+      "line": 8,
+      "value": "100000",
+      "supported": false,
+      "reason": "Numeric claim repeats contractor count; no supporting XBRL fact."
+    },
+    {
+      "line": 16,
+      "value": "2,900",
+      "supported": false,
+      "reason": "Claim of \"over 2,900\" patents; no XBRL fact for patents in the saved facts."
+    },
+    {
+      "line": 18,
+      "value": "2.927‑2.947 billion",
+      "supported": false,
+      "reason": "Full‑year guidance values are from the press‑release (EX‑99.1) and not present in the saved XBRL facts."
+    },
+    {
+      "line": 33,
+      "value": "7472000000 USD",
+      "supported": true,
+      "reason": "Current total revenue matches the XBRL fact us‑gaap:RevenueFromContractWithCustomerExcludingAssessedTax for FY 2025 (value 7,472,000,000)."
+    },
+    {
+      "line": 34,
+      "value": "6761000000 USD",
+      "supported": true,
+      "reason": "Prior total revenue matches the XBRL fact for FY 2024 (value 6,761,000,000)."
+    },
+    {
+      "line": 35,
+      "value": "607000000 USD",
+      "supported": true,
+      "reason": "Current operating income matches the XBRL fact us‑gaap:OperatingIncomeLoss for FY 2025 (value 607,000,000)."
+    },
+    {
+      "line": 36,
+      "value": "520000000 USD",
+      "supported": true,
+      "reason": "Prior operating income matches the XBRL fact for FY 2024 (value 520,000,000)."
+    },
+    {
+      "line": 37,
+      "value": "-527000000 USD",
+      "supported": true,
+      "reason": "Current net income matches the XBRL fact us‑gaap:NetIncomeLoss for FY 2025 (value –527,000,000)."
+    },
+    {
+      "line": 38,
+      "value": "116000000 USD",
+      "supported": true,
+      "reason": "Prior net income matches the XBRL fact for FY 2024 (value 116,000,000)."
+    },
+    {
+      "line": 39,
+      "value": "-3.77 USD/share",
+      "supported": true,
+      "reason": "Current diluted EPS matches the XBRL fact us‑gaap:EarningsPerShareDiluted for FY 2025 (value –3.77)."
+    },
+    {
+      "line": 40,
+      "value": "0.61 USD/share",
+      "supported": true,
+      "reason": "Prior diluted EPS matches the XBRL fact for FY 2024 (value 0.61)."
+    },
+    {
+      "line": 41,
+      "value": "2917000000 USD",
+      "supported": true,
+      "reason": "Current stockholders’ equity matches the XBRL fact us‑gaap:StockholdersEquity for FY 2025 (value 2,917,000,000)."
+    },
+    {
+      "line": 42,
+      "value": "3309000000 USD",
+      "supported": true,
+      "reason": "Prior stockholders’ equity matches the XBRL fact for FY 2024 (value 3,309,000,000)."
+    },
+    {
+      "line": 43,
+      "value": "3167000000 USD",
+      "supported": true,
+      "reason": "Current non‑current long‑term debt matches the XBRL fact us‑gaap:LongTermDebtNoncurrent for FY 2025 (value 3,167,000,000)."
+    },
+    {
+      "line": 44,
+      "value": "1983000000 USD",
+      "supported": true,
+      "reason": "Prior non‑current long‑term debt matches the XBRL fact for FY 2024 (value 1,983,000,000)."
+    },
+    {
+      "line": 45,
+      "value": "18000000 USD",
+      "supported": true,
+      "reason": "Current current long‑term debt matches the XBRL fact us‑gaap:LongTermDebtCurrent for FY 2025 (value 18,000,000)."
+    },
+    {
+      "line": 46,
+      "value": "6000000 USD",
+      "supported": true,
+      "reason": "Prior current long‑term debt matches the XBRL fact for FY 2024 (value 6,000,000)."
+    },
+    {
+      "line": 47,
+      "value": "-1137000000 USD",
+      "supported": true,
+      "reason": "Current cash from operations matches the XBRL fact us‑gaap:NetCashProvidedByUsedInOperatingActivities for FY 2025 (value –1,137,000,000)."
+    },
+    {
+      "line": 48,
+      "value": "444000000 USD",
+      "supported": true,
+      "reason": "Prior cash from operations matches the XBRL fact for FY 2024 (value 444,000,000)."
+    },
+    {
+      "line": 49,
+      "value": "116000000 USD",
+      "supported": true,
+      "reason": "Current additions to property & equipment matches the XBRL fact us‑gaap:PaymentsToAcquirePropertyPlantAndEquipment for FY 2025 (value 116,000,000)."
+    },
+    {
+      "line": 50,
+      "value": "80000000 USD",
+      "supported": true,
+      "reason": "Prior additions to property & equipment matches the XBRL fact for FY 2024 (value 80,000,000)."
+    },
+    {
+      "line": 51,
+      "value": "10.52 %",
+      "supported": true,
+      "reason": "Revenue‑growth percentage is correctly derived from the supported current and prior revenue figures (10.52 %)."
+    },
+    {
+      "line": 52,
+      "value": "8.12 %",
+      "supported": true,
+      "reason": "Operating‑margin percentage is correctly derived from the supported operating‑income and revenue figures (8.12 %)."
+    },
+    {
+      "line": 53,
+      "value": "-16.93 %",
+      "supported": true,
+      "reason": "Return on average equity is correctly derived from supported net‑income and equity figures (‑16.93 %)."
+    },
+    {
+      "line": 54,
+      "value": "1.0919 ratio",
+      "supported": true,
+      "reason": "Debt‑to‑equity ratio is correctly derived from supported debt and equity figures (1.0919)."
+    },
+    {
+      "line": 55,
+      "value": "-1253000000 USD",
+      "supported": true,
+      "reason": "Free cash flow is correctly derived from supported cash‑from‑operations and capital‑expenditure figures (‑1,253,000,000 USD)."
+    },
+    {
+      "line": 59,
+      "value": "727 million",
+      "supported": false,
+      "reason": "Press‑release revenue figure $727 million is not present in the saved XBRL facts; unsupported."
+    },
+    {
+      "line": 59,
+      "value": "3 %",
+      "supported": false,
+      "reason": "Press‑release growth percentages (3 % and 6 %) lack supporting XBRL data; unsupported."
+    },
+    {
+      "line": 59,
+      "value": "6 %",
+      "supported": false,
+      "reason": "Press‑release growth percentages (3 % and 6 %) lack supporting XBRL data; unsupported."
+    },
+    {
+      "line": 60,
+      "value": "0.14",
+      "supported": false,
+      "reason": "Press‑release GAAP diluted EPS $0.14 and 71 % decline are not found in saved XBRL facts; unsupported."
+    },
+    {
+      "line": 60,
+      "value": "71 %",
+      "supported": false,
+      "reason": "Press‑release GAAP diluted EPS decline 71 % is not supported by XBRL facts."
+    },
+    {
+      "line": 63,
+      "value": "1.1 billion",
+      "supported": false,
+      "reason": "Debt repayment figure $1.1 billion and remaining gross debt $2.1 billion appear only in EX‑99.1, not in XBRL facts; unsupported."
+    },
+    {
+      "line": 63,
+      "value": "2.1 billion",
+      "supported": false,
+      "reason": "Debt amount $2.1 billion at quarter‑end is not in XBRL facts; unsupported."
+    },
+    {
+      "line": 81,
+      "value": "8.12 %",
+      "supported": true,
+      "reason": "Operating‑margin 8.12 % repeated in the advisor’s decision table; inputs are supported, so claim is supported."
+    }
+  ]
+}

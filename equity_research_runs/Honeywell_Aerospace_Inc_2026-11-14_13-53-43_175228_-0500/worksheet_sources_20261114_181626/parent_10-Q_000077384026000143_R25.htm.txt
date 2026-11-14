@@ -1,0 +1,65 @@
+000001 | v3.26.3
+000002 | Other (Income) Expense
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | Other Income and Expenses [Abstract]
+000006 | Other (Income) Expense
+000007 | Other (Income) Expense
+000008 | Three Months Ended September 30, Nine Months Ended September 30,
+000009 | 2026 2025 2026 2025
+000010 | Interest income $ (50) $ (85) $ (207) $ (247)
+000011 | Pension income—non-service (103) (89) (299) (184)
+000012 | Other postretirement income—non-service (2) (3) (6) (11)
+000013 | Equity income of affiliated companies (3) (2) (15) (14)
+000014 | Gain on Resideo indemnification and reimbursement agreement termination — (802) — (802)
+000015 | (Gain) loss on sale of non-strategic businesses and assets (339) — (345) 30
+000016 | Foreign exchange loss (gain) 5 (7) 6 (13)
+000017 | Divestiture-related costs1
+000018 | 92 25 487 70
+000019 | Acquisition-related costs 33 13 41 26
+000020 | Debt restructuring costs — — 44 —
+000021 | Expense related to Russia-Ukraine conflict — — 8 —
+000022 | Trademark licensing income (36) — (36) —
+000023 | Other, net 14 (7) 21 21
+000024 | Total Other (income) expense $ (389) $ (957) $ (301) $ (1,124)
+000025 | 1
+000026 | Includes divestiture and separation costs.
+000027 | X
+000028 | - References
+000029 | No definition available.
+000030 | + Details
+000031 | Name:
+000032 | us-gaap_OtherIncomeAndExpensesAbstract
+000033 | Namespace Prefix:
+000034 | us-gaap_
+000035 | Data Type:
+000036 | xbrli:stringItemType
+000037 | Balance Type:
+000038 | na
+000039 | Period Type:
+000040 | duration
+000041 | X
+000042 | - Definition
+000043 | The entire disclosure for other income or other expense items (both operating and nonoperating). Sources of nonoperating income or nonoperating expense that may be disclosed, include amounts earned from dividends, interest on securities, profits (losses) on securities, net and miscellaneous other income or income deductions.
+000044 | + References
+000045 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000046 | -Topic 720
+000047 | -Name Accounting Standards Codification
+000048 | -Publisher FASB
+000049 | -URI https://asc.fasb.org/720/tableOfContent
+000050 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000051 | -Name Accounting Standards Codification
+000052 | -Topic 610
+000053 | -Publisher FASB
+000054 | -URI https://asc.fasb.org/610/tableOfContent
+000055 | + Details
+000056 | Name:
+000057 | us-gaap_OtherIncomeAndOtherExpenseDisclosureTextBlock
+000058 | Namespace Prefix:
+000059 | us-gaap_
+000060 | Data Type:
+000061 | dtr-types:textBlockItemType
+000062 | Balance Type:
+000063 | na
+000064 | Period Type:
+000065 | duration

@@ -1,0 +1,110 @@
+000001 | v3.10.0.1
+000002 | Accounts Notes and Other Receivables Net (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2018
+000005 | Dec. 31, 2017
+000006 | Accounts Receivable Net Current [Abstract]
+000007 | Accounts, notes and other receivables
+000008 | $ 798
+000009 | $ 792
+000010 | Less - Allowance for doubtful accounts
+000011 | (15)
+000012 | (13)
+000013 | Accounts notes and other receivables net
+000014 | $ 783
+000015 | $ 779
+000016 | X
+000017 | - Definition
+000018 | Amount, after allowance, receivable from customers, clients, or other third-parties, and receivables classified as other due within one year or the normal operating cycle, if longer.
+000019 | + References
+000020 | No definition available.
+000021 | + Details
+000022 | Name:
+000023 | us-gaap_AccountsAndOtherReceivablesNetCurrent
+000024 | Namespace Prefix:
+000025 | us-gaap_
+000026 | Data Type:
+000027 | xbrli:monetaryItemType
+000028 | Balance Type:
+000029 | debit
+000030 | Period Type:
+000031 | instant
+000032 | X
+000033 | - Definition
+000034 | Amounts due from customers or clients, within one year of the balance sheet date (or the normal operating cycle, whichever is longer) for goods or services (including trade receivables) that have been delivered or sold in the normal course of business.
+000035 | + References
+000036 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000037 | -Publisher FASB
+000038 | -Name Accounting Standards Codification
+000039 | -Topic 210
+000040 | -SubTopic 10
+000041 | -Section S99
+000042 | -Paragraph 1
+000043 | -Subparagraph (SX 210.5-02(3))
+000044 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000045 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000046 | -Publisher FASB
+000047 | -Name Accounting Standards Codification
+000048 | -Topic 944
+000049 | -SubTopic 210
+000050 | -Section S99
+000051 | -Paragraph 1
+000052 | -Subparagraph (SX 210.7-03(5))
+000053 | -URI http://asc.fasb.org/extlink&oid=6879938&loc=d3e572229-122910
+000054 | + Details
+000055 | Name:
+000056 | us-gaap_AccountsReceivableGrossCurrent
+000057 | Namespace Prefix:
+000058 | us-gaap_
+000059 | Data Type:
+000060 | xbrli:monetaryItemType
+000061 | Balance Type:
+000062 | debit
+000063 | Period Type:
+000064 | instant
+000065 | X
+000066 | - References
+000067 | No definition available.
+000068 | + Details
+000069 | Name:
+000070 | us-gaap_AccountsReceivableNetCurrentAbstract
+000071 | Namespace Prefix:
+000072 | us-gaap_
+000073 | Data Type:
+000074 | xbrli:stringItemType
+000075 | Balance Type:
+000076 | na
+000077 | Period Type:
+000078 | duration
+000079 | X
+000080 | - Definition
+000081 | A valuation allowance for trade and other receivables due to an Entity within one year (or the normal operating cycle, whichever is longer) that are expected to be uncollectible.
+000082 | + References
+000083 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000084 | -Publisher FASB
+000085 | -Name Accounting Standards Codification
+000086 | -Topic 310
+000087 | -SubTopic 10
+000088 | -Section 50
+000089 | -Paragraph 4
+000090 | -URI http://asc.fasb.org/extlink&oid=84173941&loc=d3e5074-111524
+000091 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000092 | -Publisher FASB
+000093 | -Name Accounting Standards Codification
+000094 | -Topic 210
+000095 | -SubTopic 10
+000096 | -Section S99
+000097 | -Paragraph 1
+000098 | -Subparagraph (SX 210.5-02.4)
+000099 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000100 | + Details
+000101 | Name:
+000102 | us-gaap_AllowanceForDoubtfulAccountsReceivableCurrent
+000103 | Namespace Prefix:
+000104 | us-gaap_
+000105 | Data Type:
+000106 | xbrli:monetaryItemType
+000107 | Balance Type:
+000108 | credit
+000109 | Period Type:
+000110 | instant

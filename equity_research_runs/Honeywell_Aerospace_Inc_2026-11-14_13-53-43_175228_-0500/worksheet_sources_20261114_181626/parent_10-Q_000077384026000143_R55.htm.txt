@@ -1,0 +1,325 @@
+000001 | v3.26.3
+000002 | Repositioning and Other Charges - Net of Repositioning and Other Charges (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Restructuring Cost and Reserve [Line Items]
+000011 | Total net repositioning charges
+000012 | $ 11
+000013 | $ 47
+000014 | $ 117
+000015 | $ 71
+000016 | Asbestos-related charges, net of insurance and reimbursements
+000017 | 0
+000018 | 169
+000019 | 2
+000020 | 210
+000021 | Probable and reasonably estimable environmental liabilities, net of reimbursements
+000022 | 6
+000023 | 5
+000024 | 14
+000025 | 5
+000026 | Gain on Resideo indemnification and reimbursement agreement termination
+000027 | 0
+000028 | (802)
+000029 | 0
+000030 | (802)
+000031 | Total net repositioning and other charges
+000032 | 17
+000033 | (581)
+000034 | 133
+000035 | (516)
+000036 | Severance
+000037 | Restructuring Cost and Reserve [Line Items]
+000038 | Total net repositioning charges
+000039 | 8
+000040 | 40
+000041 | 50
+000042 | 67
+000043 | Asset impairments
+000044 | Restructuring Cost and Reserve [Line Items]
+000045 | Total net repositioning charges
+000046 | 2
+000047 | 2
+000048 | 53
+000049 | 4
+000050 | Exit costs
+000051 | Restructuring Cost and Reserve [Line Items]
+000052 | Total net repositioning charges
+000053 | 6
+000054 | 16
+000055 | 29
+000056 | 42
+000057 | Reserve adjustments
+000058 | Restructuring Cost and Reserve [Line Items]
+000059 | Total net repositioning charges
+000060 | $ (5)
+000061 | $ (11)
+000062 | $ (15)
+000063 | $ (42)
+000064 | X
+000065 | - Definition
+000066 | Asbestos related litigation charges, net of insurance
+000067 | + References
+000068 | No definition available.
+000069 | + Details
+000070 | Name:
+000071 | hon_AsbestosRelatedLitigationChargesNetOfInsurance
+000072 | Namespace Prefix:
+000073 | hon_
+000074 | Data Type:
+000075 | xbrli:monetaryItemType
+000076 | Balance Type:
+000077 | debit
+000078 | Period Type:
+000079 | duration
+000080 | X
+000081 | - Definition
+000082 | Indemnification And Reimbursement Agreement, Gain (Loss) on Termination
+000083 | + References
+000084 | No definition available.
+000085 | + Details
+000086 | Name:
+000087 | hon_IndemnificationAndReimbursementAgreementGainLossOnTermination
+000088 | Namespace Prefix:
+000089 | hon_
+000090 | Data Type:
+000091 | xbrli:monetaryItemType
+000092 | Balance Type:
+000093 | credit
+000094 | Period Type:
+000095 | duration
+000096 | X
+000097 | - Definition
+000098 | Net total Increase or Decrease in the accrual for restructuring and other costs, including asbestos litigation charges - net of insurance and environmental remediation activities, during the reporting period.
+000099 | + References
+000100 | No definition available.
+000101 | + Details
+000102 | Name:
+000103 | hon_RestructuringReserveAndOtherChargesPeriodIncreaseDecrease
+000104 | Namespace Prefix:
+000105 | hon_
+000106 | Data Type:
+000107 | xbrli:monetaryItemType
+000108 | Balance Type:
+000109 | debit
+000110 | Period Type:
+000111 | duration
+000112 | X
+000113 | - Definition
+000114 | Amount, before recovery, of expense for known and estimated future costs arising from requirement to perform environmental remediation.
+000115 | + References
+000116 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000117 | -Topic 410
+000118 | -SubTopic 30
+000119 | -Name Accounting Standards Codification
+000120 | -Section 55
+000121 | -Paragraph 11
+000122 | -Publisher FASB
+000123 | -URI https://asc.fasb.org/1943274/2147481899/410-30-55-11
+000124 | Reference 2: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000125 | -Topic 410
+000126 | -SubTopic 30
+000127 | -Name Accounting Standards Codification
+000128 | -Section 45
+000129 | -Paragraph 4
+000130 | -Publisher FASB
+000131 | -URI https://asc.fasb.org/1943274/2147481960/410-30-45-4
+000132 | Reference 3: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000133 | -Topic 410
+000134 | -SubTopic 30
+000135 | -Name Accounting Standards Codification
+000136 | -Section 50
+000137 | -Paragraph 12
+000138 | -Subparagraph (a)
+000139 | -Publisher FASB
+000140 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-12
+000141 | + Details
+000142 | Name:
+000143 | us-gaap_EnvironmentalRemediationExpense
+000144 | Namespace Prefix:
+000145 | us-gaap_
+000146 | Data Type:
+000147 | xbrli:monetaryItemType
+000148 | Balance Type:
+000149 | debit
+000150 | Period Type:
+000151 | duration
+000152 | X
+000153 | - Definition
+000154 | Discloses the amount charged against the accrued restructuring reserves, or earnings if not previously accrued, during the period for the specified type of restructuring cost.
+000155 | + References
+000156 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000157 | -Topic 420
+000158 | -SubTopic 10
+000159 | -Name Accounting Standards Codification
+000160 | -Section 50
+000161 | -Paragraph 1
+000162 | -Subparagraph (b)(1)
+000163 | -Publisher FASB
+000164 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000165 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000166 | -Topic 420
+000167 | -SubTopic 10
+000168 | -Name Accounting Standards Codification
+000169 | -Section S99
+000170 | -Paragraph 2
+000171 | -Subparagraph (SAB Topic 5.P.4.d)
+000172 | -Publisher FASB
+000173 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000174 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000175 | -Topic 420
+000176 | -SubTopic 10
+000177 | -Name Accounting Standards Codification
+000178 | -Section S99
+000179 | -Paragraph 2
+000180 | -Subparagraph (SAB Topic 5.P.4.b.1)
+000181 | -Publisher FASB
+000182 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000183 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000184 | -Topic 420
+000185 | -SubTopic 10
+000186 | -Name Accounting Standards Codification
+000187 | -Section 50
+000188 | -Paragraph 1
+000189 | -Subparagraph (d)
+000190 | -Publisher FASB
+000191 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000192 | + Details
+000193 | Name:
+000194 | us-gaap_RestructuringAndRelatedCostIncurredCost
+000195 | Namespace Prefix:
+000196 | us-gaap_
+000197 | Data Type:
+000198 | xbrli:monetaryItemType
+000199 | Balance Type:
+000200 | debit
+000201 | Period Type:
+000202 | duration
+000203 | X
+000204 | - Definition
+000205 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000206 | + References
+000207 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000208 | -Topic 420
+000209 | -SubTopic 10
+000210 | -Name Accounting Standards Codification
+000211 | -Section 50
+000212 | -Paragraph 1
+000213 | -Subparagraph (b)(1)
+000214 | -Publisher FASB
+000215 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000216 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000217 | -Topic 420
+000218 | -SubTopic 10
+000219 | -Name Accounting Standards Codification
+000220 | -Section 50
+000221 | -Paragraph 1
+000222 | -Subparagraph (c)
+000223 | -Publisher FASB
+000224 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000225 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000226 | -Topic 420
+000227 | -SubTopic 10
+000228 | -Name Accounting Standards Codification
+000229 | -Section S99
+000230 | -Paragraph 2
+000231 | -Subparagraph (SAB Topic 5.P.4.c)
+000232 | -Publisher FASB
+000233 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000234 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000235 | -Topic 420
+000236 | -SubTopic 10
+000237 | -Name Accounting Standards Codification
+000238 | -Section S99
+000239 | -Paragraph 2
+000240 | -Subparagraph (SAB Topic 5.P.4.d)
+000241 | -Publisher FASB
+000242 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000243 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000244 | -Topic 420
+000245 | -SubTopic 10
+000246 | -Name Accounting Standards Codification
+000247 | -Section S99
+000248 | -Paragraph 2
+000249 | -Subparagraph (SAB Topic 5.P.4.b.1)
+000250 | -Publisher FASB
+000251 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000252 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000253 | -Topic 420
+000254 | -SubTopic 10
+000255 | -Name Accounting Standards Codification
+000256 | -Section S99
+000257 | -Paragraph 2
+000258 | -Subparagraph (SAB Topic 5.P.4.b.2)
+000259 | -Publisher FASB
+000260 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000261 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000262 | -Topic 420
+000263 | -SubTopic 10
+000264 | -Name Accounting Standards Codification
+000265 | -Section 50
+000266 | -Paragraph 1
+000267 | -Subparagraph (b)(2)
+000268 | -Publisher FASB
+000269 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000270 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000271 | -Topic 420
+000272 | -SubTopic 10
+000273 | -Name Accounting Standards Codification
+000274 | -Section 50
+000275 | -Paragraph 1
+000276 | -Subparagraph (d)
+000277 | -Publisher FASB
+000278 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000279 | + Details
+000280 | Name:
+000281 | us-gaap_RestructuringCostAndReserveLineItems
+000282 | Namespace Prefix:
+000283 | us-gaap_
+000284 | Data Type:
+000285 | xbrli:stringItemType
+000286 | Balance Type:
+000287 | na
+000288 | Period Type:
+000289 | duration
+000290 | X
+000291 | - Details
+000292 | Name:
+000293 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_EmployeeSeveranceMember
+000294 | Namespace Prefix:
+000295 | Data Type:
+000296 | na
+000297 | Balance Type:
+000298 | Period Type:
+000299 | X
+000300 | - Details
+000301 | Name:
+000302 | us-gaap_RestructuringCostAndReserveAxis=hon_TangibleAndIntangibleAssetImpairmentMember
+000303 | Namespace Prefix:
+000304 | Data Type:
+000305 | na
+000306 | Balance Type:
+000307 | Period Type:
+000308 | X
+000309 | - Details
+000310 | Name:
+000311 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_FacilityClosingMember
+000312 | Namespace Prefix:
+000313 | Data Type:
+000314 | na
+000315 | Balance Type:
+000316 | Period Type:
+000317 | X
+000318 | - Details
+000319 | Name:
+000320 | us-gaap_RestructuringCostAndReserveAxis=hon_RestructuringReserveAccrualAdjustmentsMember
+000321 | Namespace Prefix:
+000322 | Data Type:
+000323 | na
+000324 | Balance Type:
+000325 | Period Type:

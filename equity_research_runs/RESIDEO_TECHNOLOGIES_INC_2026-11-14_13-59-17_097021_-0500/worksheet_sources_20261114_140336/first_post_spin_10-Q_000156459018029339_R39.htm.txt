@@ -1,0 +1,242 @@
+000001 | v3.10.0.1
+000002 | Repositioning Charges - Summary of Status of Total Repositioning Reserves (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2018
+000007 | Jun. 30, 2018
+000008 | Mar. 31, 2018
+000009 | Sep. 30, 2017
+000010 | Sep. 30, 2018
+000011 | Sep. 30, 2017
+000012 | Restructuring Cost And Reserve [Line Items]
+000013 | Beginning Balance
+000014 | $ 20
+000015 | $ 22
+000016 | $ 22
+000017 | $ 22
+000018 | Charges
+000019 | 0
+000020 | 5
+000021 | $ 2
+000022 | 5
+000023 | $ 21
+000024 | Usage - cash
+000025 | (3)
+000026 | (2)
+000027 | (4)
+000028 | Usage - noncash
+000029 | (1)
+000030 | Ending Balance
+000031 | 17
+000032 | 20
+000033 | 22
+000034 | 17
+000035 | Severance costs
+000036 | Restructuring Cost And Reserve [Line Items]
+000037 | Beginning Balance
+000038 | 20
+000039 | 22
+000040 | 22
+000041 | 22
+000042 | Charges
+000043 | 4
+000044 | Usage - cash
+000045 | (3)
+000046 | (2)
+000047 | (4)
+000048 | Ending Balance
+000049 | $ 17
+000050 | $ 20
+000051 | 22
+000052 | $ 17
+000053 | Asset Impairments
+000054 | Restructuring Cost And Reserve [Line Items]
+000055 | Charges
+000056 | 1
+000057 | Usage - noncash
+000058 | $ (1)
+000059 | X
+000060 | - Definition
+000061 | Amount of cash payments made as the result of exit or disposal activities. Excludes payments associated with a discontinued operation or an asset retirement obligation.
+000062 | + References
+000063 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000064 | -Publisher FASB
+000065 | -Name Accounting Standards Codification
+000066 | -Topic 420
+000067 | -SubTopic 10
+000068 | -Section 50
+000069 | -Paragraph 1
+000070 | -Subparagraph (b)(2)
+000071 | -URI http://asc.fasb.org/extlink&oid=6394359&loc=d3e17939-110869
+000072 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000073 | -Publisher FASB
+000074 | -Name Accounting Standards Codification
+000075 | -Topic 230
+000076 | -SubTopic 10
+000077 | -Section 45
+000078 | -Paragraph 17
+000079 | -Subparagraph (f)
+000080 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3367-108585
+000081 | + Details
+000082 | Name:
+000083 | us-gaap_PaymentsForRestructuring
+000084 | Namespace Prefix:
+000085 | us-gaap_
+000086 | Data Type:
+000087 | xbrli:monetaryItemType
+000088 | Balance Type:
+000089 | credit
+000090 | Period Type:
+000091 | duration
+000092 | X
+000093 | - Definition
+000094 | Amount of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.
+000095 | + References
+000096 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000097 | -Publisher FASB
+000098 | -Name Accounting Standards Codification
+000099 | -Topic 420
+000100 | -SubTopic 10
+000101 | -Section S99
+000102 | -Paragraph 1
+000103 | -Subparagraph (SAB Topic 5.P.3)
+000104 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140864-122747
+000105 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000106 | -Publisher FASB
+000107 | -Name Accounting Standards Codification
+000108 | -Topic 420
+000109 | -SubTopic 10
+000110 | -Section 50
+000111 | -Paragraph 1
+000112 | -Subparagraph (b)
+000113 | -URI http://asc.fasb.org/extlink&oid=6394359&loc=d3e17939-110869
+000114 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000115 | -Publisher FASB
+000116 | -Name Accounting Standards Codification
+000117 | -Topic 230
+000118 | -SubTopic 10
+000119 | -Section 45
+000120 | -Paragraph 28
+000121 | -Subparagraph (b)
+000122 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000123 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000124 | -Publisher FASB
+000125 | -Name Accounting Standards Codification
+000126 | -Topic 420
+000127 | -SubTopic 10
+000128 | -Section S99
+000129 | -Paragraph 2
+000130 | -Subparagraph (SAB Topic 5.P.4(b))
+000131 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140904-122747
+000132 | + Details
+000133 | Name:
+000134 | us-gaap_RestructuringCharges
+000135 | Namespace Prefix:
+000136 | us-gaap_
+000137 | Data Type:
+000138 | xbrli:monetaryItemType
+000139 | Balance Type:
+000140 | debit
+000141 | Period Type:
+000142 | duration
+000143 | X
+000144 | - Definition
+000145 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000146 | + References
+000147 | No definition available.
+000148 | + Details
+000149 | Name:
+000150 | us-gaap_RestructuringCostAndReserveLineItems
+000151 | Namespace Prefix:
+000152 | us-gaap_
+000153 | Data Type:
+000154 | xbrli:stringItemType
+000155 | Balance Type:
+000156 | na
+000157 | Period Type:
+000158 | duration
+000159 | X
+000160 | - Definition
+000161 | Carrying amount (including both current and noncurrent portions of the accrual) as of the balance sheet date pertaining to a specified type of cost associated with exit from or disposal of business activities or restructuring pursuant to a duly authorized plan.
+000162 | + References
+000163 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000164 | -Publisher FASB
+000165 | -Name Accounting Standards Codification
+000166 | -Topic 420
+000167 | -SubTopic 10
+000168 | -Section 50
+000169 | -Paragraph 1
+000170 | -Subparagraph (b)(2)
+000171 | -URI http://asc.fasb.org/extlink&oid=6394359&loc=d3e17939-110869
+000172 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000173 | -Publisher FASB
+000174 | -Name Accounting Standards Codification
+000175 | -Topic 420
+000176 | -SubTopic 10
+000177 | -Section S99
+000178 | -Paragraph 2
+000179 | -Subparagraph (SAB TOPIC 5.P.4(b))
+000180 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140904-122747
+000181 | + Details
+000182 | Name:
+000183 | us-gaap_RestructuringReserve
+000184 | Namespace Prefix:
+000185 | us-gaap_
+000186 | Data Type:
+000187 | xbrli:monetaryItemType
+000188 | Balance Type:
+000189 | credit
+000190 | Period Type:
+000191 | instant
+000192 | X
+000193 | - Definition
+000194 | Amount of decrease in the reserve for full or partial settlement through consideration other than cash.
+000195 | + References
+000196 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000197 | -Publisher FASB
+000198 | -Name Accounting Standards Codification
+000199 | -Topic 420
+000200 | -SubTopic 10
+000201 | -Section S99
+000202 | -Paragraph 2
+000203 | -Subparagraph (SAB TOPIC 5.P.4(b)(2))
+000204 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140904-122747
+000205 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000206 | -Publisher FASB
+000207 | -Name Accounting Standards Codification
+000208 | -Topic 420
+000209 | -SubTopic 10
+000210 | -Section 50
+000211 | -Paragraph 1
+000212 | -Subparagraph (b)
+000213 | -URI http://asc.fasb.org/extlink&oid=6394359&loc=d3e17939-110869
+000214 | + Details
+000215 | Name:
+000216 | us-gaap_RestructuringReserveSettledWithoutCash2
+000217 | Namespace Prefix:
+000218 | us-gaap_
+000219 | Data Type:
+000220 | xbrli:monetaryItemType
+000221 | Balance Type:
+000222 | debit
+000223 | Period Type:
+000224 | duration
+000225 | X
+000226 | - Details
+000227 | Name:
+000228 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_EmployeeSeveranceMember
+000229 | Namespace Prefix:
+000230 | Data Type:
+000231 | na
+000232 | Balance Type:
+000233 | Period Type:
+000234 | X
+000235 | - Details
+000236 | Name:
+000237 | us-gaap_RestructuringCostAndReserveAxis=rezi_AssetImpairmentsMember
+000238 | Namespace Prefix:
+000239 | Data Type:
+000240 | na
+000241 | Balance Type:
+000242 | Period Type:

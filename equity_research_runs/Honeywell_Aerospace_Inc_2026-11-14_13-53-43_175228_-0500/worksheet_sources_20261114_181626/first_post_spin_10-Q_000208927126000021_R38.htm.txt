@@ -1,0 +1,125 @@
+000001 | v3.26.1
+000002 | Summary of Significant Accounting Policies (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 6 Months Ended
+000006 | Jun. 27, 2026
+000007 | Jun. 28, 2025
+000008 | Jun. 27, 2026
+000009 | Jun. 28, 2025
+000010 | Dec. 31, 2025
+000011 | Accounting Policies [Abstract]
+000012 | Trade accounts receivable, sold
+000013 | $ 151
+000014 | $ 0
+000015 | $ 344
+000016 | $ 0
+000017 | Accounts payable, supply chain financing programs
+000018 | $ 453
+000019 | $ 453
+000020 | $ 521
+000021 | X
+000022 | - References
+000023 | No definition available.
+000024 | + Details
+000025 | Name:
+000026 | us-gaap_AccountingPoliciesAbstract
+000027 | Namespace Prefix:
+000028 | us-gaap_
+000029 | Data Type:
+000030 | xbrli:stringItemType
+000031 | Balance Type:
+000032 | na
+000033 | Period Type:
+000034 | duration
+000035 | X
+000036 | - Definition
+000037 | Amount of decrease from sale of accounts receivable.
+000038 | + References
+000039 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000040 | -Topic 326
+000041 | -SubTopic 20
+000042 | -Name Accounting Standards Codification
+000043 | -Section 50
+000044 | -Paragraph 11
+000045 | -Subparagraph (i)
+000046 | -Publisher FASB
+000047 | -URI https://asc.fasb.org/1943274/2147479319/326-20-50-11
+000048 | + Details
+000049 | Name:
+000050 | us-gaap_AccountsReceivableSale
+000051 | Namespace Prefix:
+000052 | us-gaap_
+000053 | Data Type:
+000054 | xbrli:monetaryItemType
+000055 | Balance Type:
+000056 | credit
+000057 | Period Type:
+000058 | duration
+000059 | X
+000060 | - Definition
+000061 | Amount of obligation for supplier finance program.
+000062 | + References
+000063 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000064 | -Topic 405
+000065 | -SubTopic 50
+000066 | -Name Accounting Standards Codification
+000067 | -Section 55
+000068 | -Paragraph 5
+000069 | -Publisher FASB
+000070 | -URI https://asc.fasb.org/1943274/2147477128/405-50-55-5
+000071 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000072 | -Topic 405
+000073 | -SubTopic 50
+000074 | -Name Accounting Standards Codification
+000075 | -Section 50
+000076 | -Paragraph 3
+000077 | -Subparagraph (b)(1)
+000078 | -Publisher FASB
+000079 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000080 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000081 | -Topic 405
+000082 | -SubTopic 50
+000083 | -Name Accounting Standards Codification
+000084 | -Section 50
+000085 | -Paragraph 3
+000086 | -Subparagraph (b)
+000087 | -Publisher FASB
+000088 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000089 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000090 | -Topic 405
+000091 | -SubTopic 50
+000092 | -Name Accounting Standards Codification
+000093 | -Section 50
+000094 | -Paragraph 4
+000095 | -Publisher FASB
+000096 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-4
+000097 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000098 | -Topic 405
+000099 | -SubTopic 50
+000100 | -Name Accounting Standards Codification
+000101 | -Section 50
+000102 | -Paragraph 3
+000103 | -Subparagraph (b)(2)(i)
+000104 | -Publisher FASB
+000105 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000106 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000107 | -Topic 405
+000108 | -SubTopic 50
+000109 | -Name Accounting Standards Codification
+000110 | -Section 50
+000111 | -Paragraph 3
+000112 | -Subparagraph (b)(2)(iv)
+000113 | -Publisher FASB
+000114 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000115 | + Details
+000116 | Name:
+000117 | us-gaap_SupplierFinanceProgramObligation
+000118 | Namespace Prefix:
+000119 | us-gaap_
+000120 | Data Type:
+000121 | xbrli:monetaryItemType
+000122 | Balance Type:
+000123 | credit
+000124 | Period Type:
+000125 | instant

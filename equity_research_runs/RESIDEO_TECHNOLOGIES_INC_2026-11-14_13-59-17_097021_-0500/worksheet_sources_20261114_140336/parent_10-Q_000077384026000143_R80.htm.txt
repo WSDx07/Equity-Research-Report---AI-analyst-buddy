@@ -1,0 +1,340 @@
+000001 | v3.26.3
+000002 | Commitments and Contingencies - Narrative (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Jun. 29, 2026
+000007 | Sep. 30, 2026
+000008 | Sep. 30, 2025
+000009 | Sep. 30, 2026
+000010 | Sep. 30, 2025
+000011 | Loss Contingencies [Line Items]
+000012 | Decrease in environmental liabilities
+000013 | $ 828
+000014 | Resideo indemnification and reimbursement agreement termination payment
+000015 | $ 0
+000016 | $ 1,590
+000017 | Indemnification and reimbursement agreement, gain on termination
+000018 | $ 0
+000019 | $ 802
+000020 | $ 0
+000021 | $ 802
+000022 | Environmental Liabilities | Spinoff | Resideo
+000023 | Loss Contingencies [Line Items]
+000024 | Receivable as a percentage of environmental costs incurred
+000025 | 90.00%
+000026 | Indemnification and reimbursement agreement annual cap
+000027 | 140
+000028 | $ 140
+000029 | Indemnification and reimbursement agreement minimum amount (less than)
+000030 | 25
+000031 | 25
+000032 | Reimbursements from indemnification and reimbursement agreement
+000033 | $ 105
+000034 | Resideo indemnification and reimbursement agreement termination payment
+000035 | 1,590
+000036 | Indemnification and reimbursement agreement, quarterly reimbursement, amount
+000037 | 35
+000038 | Indemnification and reimbursement agreement, gain on termination
+000039 | $ 802
+000040 | Environmental Liabilities | Spinoff | Resideo Subsidiary
+000041 | Loss Contingencies [Line Items]
+000042 | Cash payments of annual environmental spending percentage
+000043 | 90.00%
+000044 | 90.00%
+000045 | X
+000046 | - Definition
+000047 | Annual cap of amount payable to Honeywell under the indemnification and reimbursement agreement.
+000048 | + References
+000049 | No definition available.
+000050 | + Details
+000051 | Name:
+000052 | hon_IndemnificationAndReimbursementAgreementAnnualCap
+000053 | Namespace Prefix:
+000054 | hon_
+000055 | Data Type:
+000056 | xbrli:monetaryItemType
+000057 | Balance Type:
+000058 | debit
+000059 | Period Type:
+000060 | instant
+000061 | X
+000062 | - Definition
+000063 | Indemnification And Reimbursement Agreement, Cash Payment Of Environmental Annual Spending, Percent
+000064 | + References
+000065 | No definition available.
+000066 | + Details
+000067 | Name:
+000068 | hon_IndemnificationAndReimbursementAgreementCashPaymentOfEnvironmentalAnnualSpendingPercent
+000069 | Namespace Prefix:
+000070 | hon_
+000071 | Data Type:
+000072 | dtr-types:percentItemType
+000073 | Balance Type:
+000074 | na
+000075 | Period Type:
+000076 | instant
+000077 | X
+000078 | - Definition
+000079 | Indemnification And Reimbursement Agreement, Gain (Loss) on Termination
+000080 | + References
+000081 | No definition available.
+000082 | + Details
+000083 | Name:
+000084 | hon_IndemnificationAndReimbursementAgreementGainLossOnTermination
+000085 | Namespace Prefix:
+000086 | hon_
+000087 | Data Type:
+000088 | xbrli:monetaryItemType
+000089 | Balance Type:
+000090 | credit
+000091 | Period Type:
+000092 | duration
+000093 | X
+000094 | - Definition
+000095 | The amounts payable to Honeywell under the indemnification and reimbursement agreement will continue until the earlier of December 31, 2043, or December 31 of the third consecutive year under with the annual payment obligation has been less than $25 million.
+000096 | + References
+000097 | No definition available.
+000098 | + Details
+000099 | Name:
+000100 | hon_IndemnificationAndReimbursementAgreementMinimumAmount
+000101 | Namespace Prefix:
+000102 | hon_
+000103 | Data Type:
+000104 | xbrli:monetaryItemType
+000105 | Balance Type:
+000106 | debit
+000107 | Period Type:
+000108 | instant
+000109 | X
+000110 | - Definition
+000111 | Indemnification And Reimbursement Agreement, Quarterly Reimbursement, Amount
+000112 | + References
+000113 | No definition available.
+000114 | + Details
+000115 | Name:
+000116 | hon_IndemnificationAndReimbursementAgreementQuarterlyReimbursementAmount
+000117 | Namespace Prefix:
+000118 | hon_
+000119 | Data Type:
+000120 | xbrli:monetaryItemType
+000121 | Balance Type:
+000122 | debit
+000123 | Period Type:
+000124 | duration
+000125 | X
+000126 | - Definition
+000127 | Proceeds From Indemnification And Reimbursement Agreement Termination
+000128 | + References
+000129 | No definition available.
+000130 | + Details
+000131 | Name:
+000132 | hon_ProceedsFromIndemnificationAndReimbursementAgreementTermination
+000133 | Namespace Prefix:
+000134 | hon_
+000135 | Data Type:
+000136 | xbrli:monetaryItemType
+000137 | Balance Type:
+000138 | debit
+000139 | Period Type:
+000140 | duration
+000141 | X
+000142 | - Definition
+000143 | Amounts received by Honeywell from the spinoff entity as defined in the indemnification and reimbursement agreement.
+000144 | + References
+000145 | No definition available.
+000146 | + Details
+000147 | Name:
+000148 | hon_ReimbursementsFromIndemnificationAndReimbursementAgreement
+000149 | Namespace Prefix:
+000150 | hon_
+000151 | Data Type:
+000152 | xbrli:monetaryItemType
+000153 | Balance Type:
+000154 | credit
+000155 | Period Type:
+000156 | duration
+000157 | X
+000158 | - Definition
+000159 | Reimbursements From Indemnification, Receivable As A Percentage Of Environmental Costs Incurred
+000160 | + References
+000161 | No definition available.
+000162 | + Details
+000163 | Name:
+000164 | hon_ReimbursementsFromIndemnificationReceivableAsAPercentageOfEnvironmentalCostsIncurred
+000165 | Namespace Prefix:
+000166 | hon_
+000167 | Data Type:
+000168 | dtr-types:percentItemType
+000169 | Balance Type:
+000170 | na
+000171 | Period Type:
+000172 | duration
+000173 | X
+000174 | - Definition
+000175 | Increase (decrease) in the accrual for environmental loss contingencies during the reporting period.
+000176 | + References
+000177 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000178 | -Topic 450
+000179 | -SubTopic 20
+000180 | -Name Accounting Standards Codification
+000181 | -Section S99
+000182 | -Paragraph 1
+000183 | -Subparagraph (SAB Topic 5.Y.Q1)
+000184 | -Publisher FASB
+000185 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000186 | + Details
+000187 | Name:
+000188 | us-gaap_AccrualForEnvironmentalLossContingenciesPeriodIncreaseDecrease
+000189 | Namespace Prefix:
+000190 | us-gaap_
+000191 | Data Type:
+000192 | xbrli:monetaryItemType
+000193 | Balance Type:
+000194 | na
+000195 | Period Type:
+000196 | duration
+000197 | X
+000198 | - Definition
+000199 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000200 | + References
+000201 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000202 | -Topic 450
+000203 | -SubTopic 20
+000204 | -Name Accounting Standards Codification
+000205 | -Section 50
+000206 | -Paragraph 9
+000207 | -Subparagraph (a)
+000208 | -Publisher FASB
+000209 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000210 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000211 | -Topic 450
+000212 | -SubTopic 20
+000213 | -Name Accounting Standards Codification
+000214 | -Section 50
+000215 | -Paragraph 4
+000216 | -Subparagraph (a)
+000217 | -Publisher FASB
+000218 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000219 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000220 | -Topic 405
+000221 | -SubTopic 30
+000222 | -Name Accounting Standards Codification
+000223 | -Section 50
+000224 | -Paragraph 1
+000225 | -Publisher FASB
+000226 | -URI https://asc.fasb.org/1943274/2147482645/405-30-50-1
+000227 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000228 | -Topic 944
+000229 | -SubTopic 40
+000230 | -Name Accounting Standards Codification
+000231 | -Section S99
+000232 | -Paragraph 1
+000233 | -Subparagraph (SAB Topic 5.W.Q2)
+000234 | -Publisher FASB
+000235 | -URI https://asc.fasb.org/1943274/2147479583/944-40-S99-1
+000236 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000237 | -Topic 275
+000238 | -SubTopic 10
+000239 | -Name Accounting Standards Codification
+000240 | -Section 50
+000241 | -Paragraph 9
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147482861/275-10-50-9
+000244 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000245 | -Topic 720
+000246 | -SubTopic 20
+000247 | -Name Accounting Standards Codification
+000248 | -Section 50
+000249 | -Paragraph 1
+000250 | -Publisher FASB
+000251 | -URI https://asc.fasb.org/1943274/2147483359/720-20-50-1
+000252 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000253 | -Topic 460
+000254 | -SubTopic 10
+000255 | -Name Accounting Standards Codification
+000256 | -Section 55
+000257 | -Paragraph 27
+000258 | -Publisher FASB
+000259 | -URI https://asc.fasb.org/1943274/2147482395/460-10-55-27
+000260 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000261 | -Topic 450
+000262 | -SubTopic 20
+000263 | -Name Accounting Standards Codification
+000264 | -Section 50
+000265 | -Paragraph 9
+000266 | -Subparagraph (b)
+000267 | -Publisher FASB
+000268 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000269 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000270 | -Topic 450
+000271 | -SubTopic 20
+000272 | -Name Accounting Standards Codification
+000273 | -Section 50
+000274 | -Paragraph 4
+000275 | -Subparagraph (b)
+000276 | -Publisher FASB
+000277 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000278 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000279 | -Topic 460
+000280 | -SubTopic 10
+000281 | -Name Accounting Standards Codification
+000282 | -Section 50
+000283 | -Paragraph 3
+000284 | -Publisher FASB
+000285 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-3
+000286 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000287 | -Topic 450
+000288 | -SubTopic 20
+000289 | -Name Accounting Standards Codification
+000290 | -Section 50
+000291 | -Paragraph 1
+000292 | -Publisher FASB
+000293 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000294 | + Details
+000295 | Name:
+000296 | us-gaap_LossContingenciesLineItems
+000297 | Namespace Prefix:
+000298 | us-gaap_
+000299 | Data Type:
+000300 | xbrli:stringItemType
+000301 | Balance Type:
+000302 | na
+000303 | Period Type:
+000304 | duration
+000305 | X
+000306 | - Details
+000307 | Name:
+000308 | us-gaap_LossContingenciesByNatureOfContingencyAxis=hon_EnvironmentalLiabilitiesMember
+000309 | Namespace Prefix:
+000310 | Data Type:
+000311 | na
+000312 | Balance Type:
+000313 | Period Type:
+000314 | X
+000315 | - Details
+000316 | Name:
+000317 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_SpinoffMember
+000318 | Namespace Prefix:
+000319 | Data Type:
+000320 | na
+000321 | Balance Type:
+000322 | Period Type:
+000323 | X
+000324 | - Details
+000325 | Name:
+000326 | srt_CounterpartyNameAxis=hon_ResideoMember
+000327 | Namespace Prefix:
+000328 | Data Type:
+000329 | na
+000330 | Balance Type:
+000331 | Period Type:
+000332 | X
+000333 | - Details
+000334 | Name:
+000335 | dei_LegalEntityAxis=hon_ResideoSubsidiaryMember
+000336 | Namespace Prefix:
+000337 | Data Type:
+000338 | na
+000339 | Balance Type:
+000340 | Period Type:

@@ -1,0 +1,137 @@
+000001 | v3.26.1
+000002 | Leases - Supplemental Balance Sheet Information (Details) - USD ($)
+000003 | $ in Millions
+000004 | Jun. 27, 2026
+000005 | Dec. 31, 2025
+000006 | Operating leases
+000007 | Other assets
+000008 | $ 278
+000009 | $ 254
+000010 | Accrued liabilities
+000011 | 37
+000012 | 35
+000013 | Other liabilities
+000014 | 259
+000015 | 236
+000016 | Total operating lease liabilities
+000017 | $ 296
+000018 | $ 271
+000019 | X
+000020 | - References
+000021 | No definition available.
+000022 | + Details
+000023 | Name:
+000024 | us-gaap_AssetsAndLiabilitiesLesseeAbstract
+000025 | Namespace Prefix:
+000026 | us-gaap_
+000027 | Data Type:
+000028 | xbrli:stringItemType
+000029 | Balance Type:
+000030 | na
+000031 | Period Type:
+000032 | duration
+000033 | X
+000034 | - Definition
+000035 | Present value of lessee's discounted obligation for lease payments from operating lease.
+000036 | + References
+000037 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000038 | -Topic 842
+000039 | -SubTopic 20
+000040 | -Name Accounting Standards Codification
+000041 | -Section 45
+000042 | -Paragraph 1
+000043 | -Subparagraph (b)
+000044 | -Publisher FASB
+000045 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000046 | + Details
+000047 | Name:
+000048 | us-gaap_OperatingLeaseLiability
+000049 | Namespace Prefix:
+000050 | us-gaap_
+000051 | Data Type:
+000052 | xbrli:monetaryItemType
+000053 | Balance Type:
+000054 | credit
+000055 | Period Type:
+000056 | instant
+000057 | X
+000058 | - Definition
+000059 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as current.
+000060 | + References
+000061 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000062 | -Topic 210
+000063 | -SubTopic 10
+000064 | -Name Accounting Standards Codification
+000065 | -Section 45
+000066 | -Paragraph 8
+000067 | -Subparagraph (c)
+000068 | -Publisher FASB
+000069 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-8
+000070 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000071 | -Topic 842
+000072 | -SubTopic 20
+000073 | -Name Accounting Standards Codification
+000074 | -Section 45
+000075 | -Paragraph 1
+000076 | -Subparagraph (b)
+000077 | -Publisher FASB
+000078 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000079 | + Details
+000080 | Name:
+000081 | us-gaap_OperatingLeaseLiabilityCurrent
+000082 | Namespace Prefix:
+000083 | us-gaap_
+000084 | Data Type:
+000085 | xbrli:monetaryItemType
+000086 | Balance Type:
+000087 | credit
+000088 | Period Type:
+000089 | instant
+000090 | X
+000091 | - Definition
+000092 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as noncurrent.
+000093 | + References
+000094 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000095 | -Topic 842
+000096 | -SubTopic 20
+000097 | -Name Accounting Standards Codification
+000098 | -Section 45
+000099 | -Paragraph 1
+000100 | -Subparagraph (b)
+000101 | -Publisher FASB
+000102 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000103 | + Details
+000104 | Name:
+000105 | us-gaap_OperatingLeaseLiabilityNoncurrent
+000106 | Namespace Prefix:
+000107 | us-gaap_
+000108 | Data Type:
+000109 | xbrli:monetaryItemType
+000110 | Balance Type:
+000111 | credit
+000112 | Period Type:
+000113 | instant
+000114 | X
+000115 | - Definition
+000116 | Amount of lessee's right to use underlying asset under operating lease.
+000117 | + References
+000118 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000119 | -Topic 842
+000120 | -SubTopic 20
+000121 | -Name Accounting Standards Codification
+000122 | -Section 45
+000123 | -Paragraph 1
+000124 | -Subparagraph (a)
+000125 | -Publisher FASB
+000126 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000127 | + Details
+000128 | Name:
+000129 | us-gaap_OperatingLeaseRightOfUseAsset
+000130 | Namespace Prefix:
+000131 | us-gaap_
+000132 | Data Type:
+000133 | xbrli:monetaryItemType
+000134 | Balance Type:
+000135 | debit
+000136 | Period Type:
+000137 | instant

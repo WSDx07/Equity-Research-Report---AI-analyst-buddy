@@ -1,0 +1,96 @@
+000001 | v3.26.1
+000002 | Segment Financial Data - Narrative (Details)
+000003 | 6 Months Ended
+000004 | Jun. 27, 2026
+000005 | segment
+000006 | Segment Reporting [Abstract]
+000007 | Number of reportable segments
+000008 | 3
+000009 | Number of operating segments
+000010 | 3
+000011 | X
+000012 | - Definition
+000013 | Number of operating segments. An operating segment is a component of an enterprise: (a) that engages in business activities from which it may earn revenues and incur expenses (including revenues and expenses relating to transactions with other components of the same enterprise), (b) whose operating results are regularly reviewed by the enterprise's chief operating decision maker to make decisions about resources to be allocated to the segment and assess its performance, and (c) for which discrete financial information is available. An operating segment may engage in business activities for which it has yet to earn revenues, for example, start-up operations may be operating segments before earning revenues.
+000014 | + References
+000015 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000016 | -Topic 280
+000017 | -SubTopic 10
+000018 | -Name Accounting Standards Codification
+000019 | -Section 55
+000020 | -Paragraph 49
+000021 | -Publisher FASB
+000022 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-49
+000023 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000024 | -Topic 280
+000025 | -SubTopic 10
+000026 | -Name Accounting Standards Codification
+000027 | -Section 50
+000028 | -Paragraph 18
+000029 | -Publisher FASB
+000030 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-18
+000031 | + Details
+000032 | Name:
+000033 | us-gaap_NumberOfOperatingSegments
+000034 | Namespace Prefix:
+000035 | us-gaap_
+000036 | Data Type:
+000037 | xbrli:integerItemType
+000038 | Balance Type:
+000039 | na
+000040 | Period Type:
+000041 | duration
+000042 | X
+000043 | - Definition
+000044 | Number of segments reported by the entity. A reportable segment is a component of an entity for which there is an accounting requirement to report separate financial information on that component in the entity's financial statements.
+000045 | + References
+000046 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000047 | -Topic 280
+000048 | -SubTopic 10
+000049 | -Name Accounting Standards Codification
+000050 | -Section 55
+000051 | -Paragraph 47
+000052 | -Subparagraph (a)
+000053 | -Publisher FASB
+000054 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-47
+000055 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000056 | -Topic 280
+000057 | -SubTopic 10
+000058 | -Name Accounting Standards Codification
+000059 | -Section 55
+000060 | -Paragraph 54
+000061 | -Subparagraph (e)
+000062 | -Publisher FASB
+000063 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-54
+000064 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000065 | -Topic 280
+000066 | -SubTopic 10
+000067 | -Name Accounting Standards Codification
+000068 | -Section 50
+000069 | -Paragraph 18
+000070 | -Publisher FASB
+000071 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-18
+000072 | + Details
+000073 | Name:
+000074 | us-gaap_NumberOfReportableSegments
+000075 | Namespace Prefix:
+000076 | us-gaap_
+000077 | Data Type:
+000078 | xbrli:integerItemType
+000079 | Balance Type:
+000080 | na
+000081 | Period Type:
+000082 | duration
+000083 | X
+000084 | - References
+000085 | No definition available.
+000086 | + Details
+000087 | Name:
+000088 | us-gaap_SegmentReportingAbstract
+000089 | Namespace Prefix:
+000090 | us-gaap_
+000091 | Data Type:
+000092 | xbrli:stringItemType
+000093 | Balance Type:
+000094 | na
+000095 | Period Type:
+000096 | duration

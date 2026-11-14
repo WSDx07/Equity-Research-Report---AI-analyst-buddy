@@ -1,0 +1,355 @@
+000001 | v3.26.3
+000002 | Derivative Instruments and Hedging Transactions - Notional and Fair Value of Outstanding Derivatives (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Derivative [Line Items]
+000007 | Notional
+000008 | $ 19,312
+000009 | $ 17,615
+000010 | Fair Value Asset
+000011 | 6
+000012 | 17
+000013 | Fair Value Liability
+000014 | (770)
+000015 | (902)
+000016 | Cross currency swap agreements
+000017 | Derivative [Line Items]
+000018 | Fair Value Liability
+000019 | (648)
+000020 | (801)
+000021 | Designated as Hedging Instrument
+000022 | Derivative [Line Items]
+000023 | Notional
+000024 | 8,444
+000025 | 10,560
+000026 | Fair Value Asset
+000027 | 1
+000028 | 14
+000029 | Fair Value Liability
+000030 | (764)
+000031 | (897)
+000032 | Designated as Hedging Instrument | Fair Value Hedging | Interest rate swap agreements
+000033 | Derivative [Line Items]
+000034 | Notional
+000035 | 2,071
+000036 | 4,068
+000037 | Fair Value Asset
+000038 | 0
+000039 | 14
+000040 | Fair Value Liability
+000041 | (111)
+000042 | (93)
+000043 | Designated as Hedging Instrument | Cash Flow Hedging | Foreign currency exchange contracts
+000044 | Derivative [Line Items]
+000045 | Notional
+000046 | 234
+000047 | 353
+000048 | Fair Value Asset
+000049 | 1
+000050 | 0
+000051 | Fair Value Liability
+000052 | (5)
+000053 | (3)
+000054 | Designated as Hedging Instrument | Net Investment Hedging | Cross currency swap agreements
+000055 | Derivative [Line Items]
+000056 | Notional
+000057 | 6,139
+000058 | 6,139
+000059 | Fair Value Asset
+000060 | 0
+000061 | 0
+000062 | Fair Value Liability
+000063 | (648)
+000064 | (801)
+000065 | Derivatives not designated as hedging instruments | Foreign currency exchange contracts
+000066 | Derivative [Line Items]
+000067 | Notional
+000068 | 10,868
+000069 | 7,055
+000070 | Fair Value Asset
+000071 | 5
+000072 | 3
+000073 | Fair Value Liability
+000074 | $ (6)
+000075 | $ (5)
+000076 | X
+000077 | - Definition
+000078 | Fair value, before effects of master netting arrangements, of a financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset. Includes assets elected not to be offset. Excludes assets not subject to a master netting arrangement.
+000079 | + References
+000080 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000081 | -Topic 210
+000082 | -SubTopic 20
+000083 | -Name Accounting Standards Codification
+000084 | -Section 55
+000085 | -Paragraph 22
+000086 | -Publisher FASB
+000087 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-22
+000088 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000089 | -Topic 815
+000090 | -SubTopic 10
+000091 | -Name Accounting Standards Codification
+000092 | -Section 50
+000093 | -Paragraph 7A
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-7A
+000096 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000097 | -Topic 210
+000098 | -SubTopic 20
+000099 | -Name Accounting Standards Codification
+000100 | -Section 55
+000101 | -Paragraph 21
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-21
+000104 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000105 | -Topic 210
+000106 | -SubTopic 20
+000107 | -Name Accounting Standards Codification
+000108 | -Section 55
+000109 | -Paragraph 20
+000110 | -Publisher FASB
+000111 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-20
+000112 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000113 | -Topic 210
+000114 | -SubTopic 20
+000115 | -Name Accounting Standards Codification
+000116 | -Section 55
+000117 | -Paragraph 15
+000118 | -Publisher FASB
+000119 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-15
+000120 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000121 | -Topic 210
+000122 | -SubTopic 20
+000123 | -Name Accounting Standards Codification
+000124 | -Section 50
+000125 | -Paragraph 3
+000126 | -Subparagraph (a)
+000127 | -Publisher FASB
+000128 | -URI https://asc.fasb.org/1943274/2147483466/210-20-50-3
+000129 | + Details
+000130 | Name:
+000131 | us-gaap_DerivativeFairValueOfDerivativeAsset
+000132 | Namespace Prefix:
+000133 | us-gaap_
+000134 | Data Type:
+000135 | xbrli:monetaryItemType
+000136 | Balance Type:
+000137 | debit
+000138 | Period Type:
+000139 | instant
+000140 | X
+000141 | - Definition
+000142 | Fair value, before effects of master netting arrangements, of a financial liability or contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset. Includes liabilities elected not to be offset. Excludes liabilities not subject to a master netting arrangement.
+000143 | + References
+000144 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000145 | -Topic 210
+000146 | -SubTopic 20
+000147 | -Name Accounting Standards Codification
+000148 | -Section 55
+000149 | -Paragraph 22
+000150 | -Publisher FASB
+000151 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-22
+000152 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000153 | -Topic 815
+000154 | -SubTopic 10
+000155 | -Name Accounting Standards Codification
+000156 | -Section 50
+000157 | -Paragraph 7A
+000158 | -Publisher FASB
+000159 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-7A
+000160 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000161 | -Topic 210
+000162 | -SubTopic 20
+000163 | -Name Accounting Standards Codification
+000164 | -Section 55
+000165 | -Paragraph 21
+000166 | -Publisher FASB
+000167 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-21
+000168 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000169 | -Topic 210
+000170 | -SubTopic 20
+000171 | -Name Accounting Standards Codification
+000172 | -Section 55
+000173 | -Paragraph 20
+000174 | -Publisher FASB
+000175 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-20
+000176 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000177 | -Topic 210
+000178 | -SubTopic 20
+000179 | -Name Accounting Standards Codification
+000180 | -Section 55
+000181 | -Paragraph 15
+000182 | -Publisher FASB
+000183 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-15
+000184 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000185 | -Topic 210
+000186 | -SubTopic 20
+000187 | -Name Accounting Standards Codification
+000188 | -Section 50
+000189 | -Paragraph 3
+000190 | -Subparagraph (a)
+000191 | -Publisher FASB
+000192 | -URI https://asc.fasb.org/1943274/2147483466/210-20-50-3
+000193 | + Details
+000194 | Name:
+000195 | us-gaap_DerivativeFairValueOfDerivativeLiability
+000196 | Namespace Prefix:
+000197 | us-gaap_
+000198 | Data Type:
+000199 | xbrli:monetaryItemType
+000200 | Balance Type:
+000201 | credit
+000202 | Period Type:
+000203 | instant
+000204 | X
+000205 | - Definition
+000206 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000207 | + References
+000208 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000209 | -Topic 815
+000210 | -SubTopic 10
+000211 | -Name Accounting Standards Codification
+000212 | -Section 50
+000213 | -Paragraph 5A
+000214 | -Publisher FASB
+000215 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-5A
+000216 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000217 | -Topic 505
+000218 | -SubTopic 10
+000219 | -Name Accounting Standards Codification
+000220 | -Section 50
+000221 | -Paragraph 18
+000222 | -Subparagraph (c)
+000223 | -Publisher FASB
+000224 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-18
+000225 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000226 | -Topic 815
+000227 | -SubTopic 20
+000228 | -Name Accounting Standards Codification
+000229 | -Section 25
+000230 | -Paragraph 6A
+000231 | -Publisher FASB
+000232 | -URI https://asc.fasb.org/1943274/2147480682/815-20-25-6A
+000233 | + Details
+000234 | Name:
+000235 | us-gaap_DerivativeLineItems
+000236 | Namespace Prefix:
+000237 | us-gaap_
+000238 | Data Type:
+000239 | xbrli:stringItemType
+000240 | Balance Type:
+000241 | na
+000242 | Period Type:
+000243 | duration
+000244 | X
+000245 | - Definition
+000246 | Nominal or face amount used to calculate payment on derivative.
+000247 | + References
+000248 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000249 | -Topic 815
+000250 | -SubTopic 10
+000251 | -Name Accounting Standards Codification
+000252 | -Section 50
+000253 | -Paragraph 1A
+000254 | -Subparagraph (d)
+000255 | -Publisher FASB
+000256 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-1A
+000257 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000258 | -Topic 815
+000259 | -SubTopic 10
+000260 | -Name Accounting Standards Codification
+000261 | -Section 55
+000262 | -Paragraph 181
+000263 | -Publisher FASB
+000264 | -URI https://asc.fasb.org/1943274/2147480401/815-10-55-181
+000265 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000266 | -Topic 815
+000267 | -SubTopic 10
+000268 | -Name Accounting Standards Codification
+000269 | -Section 50
+000270 | -Paragraph 1B
+000271 | -Publisher FASB
+000272 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-1B
+000273 | + Details
+000274 | Name:
+000275 | us-gaap_DerivativeNotionalAmount
+000276 | Namespace Prefix:
+000277 | us-gaap_
+000278 | Data Type:
+000279 | xbrli:monetaryItemType
+000280 | Balance Type:
+000281 | na
+000282 | Period Type:
+000283 | instant
+000284 | X
+000285 | - Details
+000286 | Name:
+000287 | us-gaap_DerivativeInstrumentRiskAxis=us-gaap_CurrencySwapMember
+000288 | Namespace Prefix:
+000289 | Data Type:
+000290 | na
+000291 | Balance Type:
+000292 | Period Type:
+000293 | X
+000294 | - Details
+000295 | Name:
+000296 | us-gaap_HedgingDesignationAxis=us-gaap_DesignatedAsHedgingInstrumentMember
+000297 | Namespace Prefix:
+000298 | Data Type:
+000299 | na
+000300 | Balance Type:
+000301 | Period Type:
+000302 | X
+000303 | - Details
+000304 | Name:
+000305 | us-gaap_DerivativeInstrumentsGainLossByHedgingRelationshipAxis=us-gaap_FairValueHedgingMember
+000306 | Namespace Prefix:
+000307 | Data Type:
+000308 | na
+000309 | Balance Type:
+000310 | Period Type:
+000311 | X
+000312 | - Details
+000313 | Name:
+000314 | us-gaap_DerivativeInstrumentRiskAxis=us-gaap_InterestRateSwapMember
+000315 | Namespace Prefix:
+000316 | Data Type:
+000317 | na
+000318 | Balance Type:
+000319 | Period Type:
+000320 | X
+000321 | - Details
+000322 | Name:
+000323 | us-gaap_DerivativeInstrumentsGainLossByHedgingRelationshipAxis=us-gaap_CashFlowHedgingMember
+000324 | Namespace Prefix:
+000325 | Data Type:
+000326 | na
+000327 | Balance Type:
+000328 | Period Type:
+000329 | X
+000330 | - Details
+000331 | Name:
+000332 | us-gaap_DerivativeInstrumentRiskAxis=us-gaap_ForeignExchangeContractMember
+000333 | Namespace Prefix:
+000334 | Data Type:
+000335 | na
+000336 | Balance Type:
+000337 | Period Type:
+000338 | X
+000339 | - Details
+000340 | Name:
+000341 | us-gaap_DerivativeInstrumentsGainLossByHedgingRelationshipAxis=us-gaap_NetInvestmentHedgingMember
+000342 | Namespace Prefix:
+000343 | Data Type:
+000344 | na
+000345 | Balance Type:
+000346 | Period Type:
+000347 | X
+000348 | - Details
+000349 | Name:
+000350 | us-gaap_HedgingDesignationAxis=us-gaap_NondesignatedMember
+000351 | Namespace Prefix:
+000352 | Data Type:
+000353 | na
+000354 | Balance Type:
+000355 | Period Type:

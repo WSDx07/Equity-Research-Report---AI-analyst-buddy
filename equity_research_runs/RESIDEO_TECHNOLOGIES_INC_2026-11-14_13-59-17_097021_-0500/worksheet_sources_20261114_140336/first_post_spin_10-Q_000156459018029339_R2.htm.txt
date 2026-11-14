@@ -1,0 +1,504 @@
+000001 | v3.10.0.1
+000002 | COMBINED INTERIM STATEMENT OF OPERATIONS (Unaudited) - USD ($)
+000003 | shares in Thousands, $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2018
+000007 | Sep. 30, 2017
+000008 | Sep. 30, 2018
+000009 | Sep. 30, 2017
+000010 | Income Statement [Abstract]
+000011 | Net sales
+000012 | $ 1,200
+000013 | $ 1,152
+000014 | $ 3,561
+000015 | $ 3,310
+000016 | Cost of goods sold
+000017 | 853
+000018 | 816
+000019 | 2,525
+000020 | 2,355
+000021 | Gross Profit
+000022 | 347
+000023 | 336
+000024 | 1,036
+000025 | 955
+000026 | Selling, general and administrative expenses
+000027 | 219
+000028 | 214
+000029 | 648
+000030 | 647
+000031 | Other expense
+000032 | 146
+000033 | 65
+000034 | 322
+000035 | 165
+000036 | Interest and other charges, net
+000037 | (1)
+000038 | (1)
+000039 | Operating and non-operating expenses, net
+000040 | 365
+000041 | 278
+000042 | 970
+000043 | 811
+000044 | Income (loss) before taxes
+000045 | (18)
+000046 | 58
+000047 | 66
+000048 | 144
+000049 | Tax expense (benefit)
+000050 | (329)
+000051 | 35
+000052 | (323)
+000053 | 89
+000054 | Net income
+000055 | $ 311
+000056 | $ 23
+000057 | $ 389
+000058 | $ 55
+000059 | Weighted Average Number of Common Shares Outstanding
+000060 | Basic and Diluted (in thousands)
+000061 | 122,967
+000062 | 122,967
+000063 | 122,967
+000064 | 122,967
+000065 | Per Share Amounts
+000066 | Basic and Diluted net income per share
+000067 | $ 2.53
+000068 | $ 0.19
+000069 | $ 3.16
+000070 | $ 0.45
+000071 | X
+000072 | - Definition
+000073 | Operating and non-operating expenses, net.
+000074 | + References
+000075 | No definition available.
+000076 | + Details
+000077 | Name:
+000078 | rezi_OperatingAndNonOperatingExpensesNet
+000079 | Namespace Prefix:
+000080 | rezi_
+000081 | Data Type:
+000082 | xbrli:monetaryItemType
+000083 | Balance Type:
+000084 | debit
+000085 | Period Type:
+000086 | duration
+000087 | X
+000088 | - Definition
+000089 | The aggregate costs related to goods produced and sold and services rendered by an entity during the reporting period. This excludes costs incurred during the reporting period related to financial services rendered and other revenue generating activities.
+000090 | + References
+000091 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000092 | -Publisher FASB
+000093 | -Name Accounting Standards Codification
+000094 | -Topic 220
+000095 | -SubTopic 10
+000096 | -Section S99
+000097 | -Paragraph 2
+000098 | -Subparagraph (SX 210.5-03.2(a),(d))
+000099 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000100 | + Details
+000101 | Name:
+000102 | us-gaap_CostOfGoodsAndServicesSold
+000103 | Namespace Prefix:
+000104 | us-gaap_
+000105 | Data Type:
+000106 | xbrli:monetaryItemType
+000107 | Balance Type:
+000108 | debit
+000109 | Period Type:
+000110 | duration
+000111 | X
+000112 | - Definition
+000113 | The amount of net income or loss for the period per each share in instances when basic and diluted earnings per share are the same amount and reported as a single line item on the face of the financial statements. Basic earnings per share is the amount of net income or loss for the period per each share of common stock or unit outstanding during the reporting period. Diluted earnings per share includes the amount of net income or loss for the period available to each share of common stock or common unit outstanding during the reporting period and to each share or unit that would have been outstanding assuming the issuance of common shares or units for all dilutive potential common shares or units outstanding during the reporting period.
+000114 | + References
+000115 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000116 | -Publisher FASB
+000117 | -Name Accounting Standards Codification
+000118 | -Topic 260
+000119 | -SubTopic 10
+000120 | -Section 45
+000121 | -Paragraph 7
+000122 | -URI http://asc.fasb.org/extlink&oid=109260490&loc=d3e1337-109256
+000123 | + Details
+000124 | Name:
+000125 | us-gaap_EarningsPerShareBasicAndDiluted
+000126 | Namespace Prefix:
+000127 | us-gaap_
+000128 | Data Type:
+000129 | num:perShareItemType
+000130 | Balance Type:
+000131 | na
+000132 | Period Type:
+000133 | duration
+000134 | X
+000135 | - References
+000136 | No definition available.
+000137 | + Details
+000138 | Name:
+000139 | us-gaap_EarningsPerShareBasicAndDilutedAbstract
+000140 | Namespace Prefix:
+000141 | us-gaap_
+000142 | Data Type:
+000143 | xbrli:stringItemType
+000144 | Balance Type:
+000145 | na
+000146 | Period Type:
+000147 | duration
+000148 | X
+000149 | - Definition
+000150 | Aggregate revenue less cost of goods and services sold or operating expenses directly attributable to the revenue generation activity.
+000151 | + References
+000152 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000153 | -Publisher FASB
+000154 | -Name Accounting Standards Codification
+000155 | -Topic 220
+000156 | -SubTopic 10
+000157 | -Section S99
+000158 | -Paragraph 2
+000159 | -Subparagraph (SX 210.5-03.1,2)
+000160 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000161 | + Details
+000162 | Name:
+000163 | us-gaap_GrossProfit
+000164 | Namespace Prefix:
+000165 | us-gaap_
+000166 | Data Type:
+000167 | xbrli:monetaryItemType
+000168 | Balance Type:
+000169 | credit
+000170 | Period Type:
+000171 | duration
+000172 | X
+000173 | - Definition
+000174 | Amount of income (loss) from continuing operations, including income (loss) from equity method investments, before deduction of income tax expense (benefit), and income (loss) attributable to noncontrolling interest.
+000175 | + References
+000176 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000177 | -Publisher FASB
+000178 | -Name Accounting Standards Codification
+000179 | -Topic 940
+000180 | -SubTopic 20
+000181 | -Section 25
+000182 | -Paragraph 1
+000183 | -URI http://asc.fasb.org/extlink&oid=68072869&loc=d3e41242-110953
+000184 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000185 | -Publisher FASB
+000186 | -Name Accounting Standards Codification
+000187 | -Topic 220
+000188 | -SubTopic 10
+000189 | -Section S99
+000190 | -Paragraph 2
+000191 | -Subparagraph (SX 210.5-03(10))
+000192 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000193 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000194 | -Publisher FASB
+000195 | -Name Accounting Standards Codification
+000196 | -Topic 944
+000197 | -SubTopic 220
+000198 | -Section S99
+000199 | -Paragraph 1
+000200 | -Subparagraph (SX 210.7-04(8))
+000201 | -URI http://asc.fasb.org/extlink&oid=114873790&loc=SL114874131-224263
+000202 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000203 | -Publisher FASB
+000204 | -Name Accounting Standards Codification
+000205 | -Topic 250
+000206 | -SubTopic 10
+000207 | -Section 50
+000208 | -Paragraph 11
+000209 | -URI http://asc.fasb.org/extlink&oid=109234566&loc=d3e22694-107794
+000210 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000211 | -Publisher FASB
+000212 | -Name Accounting Standards Codification
+000213 | -Topic 942
+000214 | -SubTopic 220
+000215 | -Section S99
+000216 | -Paragraph 1
+000217 | -Subparagraph (SX 210.9-04(15))
+000218 | -URI http://asc.fasb.org/extlink&oid=114873765&loc=SL114874048-224260
+000219 | + Details
+000220 | Name:
+000221 | us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+000222 | Namespace Prefix:
+000223 | us-gaap_
+000224 | Data Type:
+000225 | xbrli:monetaryItemType
+000226 | Balance Type:
+000227 | credit
+000228 | Period Type:
+000229 | duration
+000230 | X
+000231 | - References
+000232 | No definition available.
+000233 | + Details
+000234 | Name:
+000235 | us-gaap_IncomeStatementAbstract
+000236 | Namespace Prefix:
+000237 | us-gaap_
+000238 | Data Type:
+000239 | xbrli:stringItemType
+000240 | Balance Type:
+000241 | na
+000242 | Period Type:
+000243 | duration
+000244 | X
+000245 | - Definition
+000246 | Amount of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining to continuing operations.
+000247 | + References
+000248 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000249 | -Publisher FASB
+000250 | -Name Accounting Standards Codification
+000251 | -Topic 280
+000252 | -SubTopic 10
+000253 | -Section 50
+000254 | -Paragraph 22
+000255 | -Subparagraph (h)
+000256 | -URI http://asc.fasb.org/extlink&oid=115929826&loc=d3e8736-108599
+000257 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000258 | -Publisher FASB
+000259 | -Name Accounting Standards Codification
+000260 | -Topic 235
+000261 | -SubTopic 10
+000262 | -Section S99
+000263 | -Paragraph 1
+000264 | -Subparagraph (SX 210.4-08(h))
+000265 | -URI http://asc.fasb.org/extlink&oid=26873400&loc=d3e23780-122690
+000266 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000267 | -Publisher FASB
+000268 | -Name Accounting Standards Codification
+000269 | -Topic 740
+000270 | -SubTopic 20
+000271 | -Section 45
+000272 | -Paragraph 2
+000273 | -Subparagraph (a)
+000274 | -URI http://asc.fasb.org/extlink&oid=109238882&loc=d3e38679-109324
+000275 | + Details
+000276 | Name:
+000277 | us-gaap_IncomeTaxExpenseBenefit
+000278 | Namespace Prefix:
+000279 | us-gaap_
+000280 | Data Type:
+000281 | xbrli:monetaryItemType
+000282 | Balance Type:
+000283 | debit
+000284 | Period Type:
+000285 | duration
+000286 | X
+000287 | - Definition
+000288 | The net amount of nonoperating interest income (expense).
+000289 | + References
+000290 | No definition available.
+000291 | + Details
+000292 | Name:
+000293 | us-gaap_InterestIncomeExpenseNonoperatingNet
+000294 | Namespace Prefix:
+000295 | us-gaap_
+000296 | Data Type:
+000297 | xbrli:monetaryItemType
+000298 | Balance Type:
+000299 | credit
+000300 | Period Type:
+000301 | duration
+000302 | X
+000303 | - Definition
+000304 | The portion of profit or loss for the period, net of income taxes, which is attributable to the parent.
+000305 | + References
+000306 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000307 | -Publisher FASB
+000308 | -Name Accounting Standards Codification
+000309 | -Topic 220
+000310 | -SubTopic 10
+000311 | -Section 45
+000312 | -Paragraph 1A
+000313 | -Subparagraph (a)
+000314 | -URI http://asc.fasb.org/extlink&oid=114867106&loc=SL7669619-108580
+000315 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000316 | -Publisher FASB
+000317 | -Name Accounting Standards Codification
+000318 | -Topic 942
+000319 | -SubTopic 220
+000320 | -Section S99
+000321 | -Paragraph 1
+000322 | -Subparagraph (SX 210.9-04(22))
+000323 | -URI http://asc.fasb.org/extlink&oid=114873765&loc=SL114874048-224260
+000324 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000325 | -Publisher FASB
+000326 | -Name Accounting Standards Codification
+000327 | -Topic 220
+000328 | -SubTopic 10
+000329 | -Section 45
+000330 | -Paragraph 1B
+000331 | -Subparagraph (a)
+000332 | -URI http://asc.fasb.org/extlink&oid=114867106&loc=SL7669625-108580
+000333 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000334 | -Publisher FASB
+000335 | -Name Accounting Standards Codification
+000336 | -Topic 944
+000337 | -SubTopic 220
+000338 | -Section S99
+000339 | -Paragraph 1
+000340 | -Subparagraph (SX 210.7-04(18))
+000341 | -URI http://asc.fasb.org/extlink&oid=114873790&loc=SL114874131-224263
+000342 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000343 | -Publisher FASB
+000344 | -Name Accounting Standards Codification
+000345 | -Topic 220
+000346 | -SubTopic 10
+000347 | -Section S99
+000348 | -Paragraph 2
+000349 | -Subparagraph (SX 210.5-03(20))
+000350 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000351 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+000352 | -Publisher FASB
+000353 | -Name Accounting Standards Codification
+000354 | -Topic 230
+000355 | -SubTopic 10
+000356 | -Section 45
+000357 | -Paragraph 28
+000358 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000359 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000360 | -Publisher FASB
+000361 | -Name Accounting Standards Codification
+000362 | -Topic 260
+000363 | -SubTopic 10
+000364 | -Section 50
+000365 | -Paragraph 1
+000366 | -URI http://asc.fasb.org/extlink&oid=6371337&loc=d3e3550-109257
+000367 | + Details
+000368 | Name:
+000369 | us-gaap_NetIncomeLoss
+000370 | Namespace Prefix:
+000371 | us-gaap_
+000372 | Data Type:
+000373 | xbrli:monetaryItemType
+000374 | Balance Type:
+000375 | credit
+000376 | Period Type:
+000377 | duration
+000378 | X
+000379 | - Definition
+000380 | Amount of income (expense) related to nonoperating activities, classified as other.
+000381 | + References
+000382 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000383 | -Publisher FASB
+000384 | -Name Accounting Standards Codification
+000385 | -Topic 220
+000386 | -SubTopic 10
+000387 | -Section S99
+000388 | -Paragraph 2
+000389 | -Subparagraph (SX 210.5-03.9)
+000390 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000391 | + Details
+000392 | Name:
+000393 | us-gaap_OtherNonoperatingIncomeExpense
+000394 | Namespace Prefix:
+000395 | us-gaap_
+000396 | Data Type:
+000397 | xbrli:monetaryItemType
+000398 | Balance Type:
+000399 | credit
+000400 | Period Type:
+000401 | duration
+000402 | X
+000403 | - Definition
+000404 | Amount, excluding tax collected from customer, of revenue from satisfaction of performance obligation by transferring promised good or service to customer. Tax collected from customer is tax assessed by governmental authority that is both imposed on and concurrent with specific revenue-producing transaction, including, but not limited to, sales, use, value added and excise.
+000405 | + References
+000406 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000407 | -Publisher FASB
+000408 | -Name Accounting Standards Codification
+000409 | -Topic 606
+000410 | -SubTopic 10
+000411 | -Section 50
+000412 | -Paragraph 4
+000413 | -Subparagraph (a)
+000414 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130543-203045
+000415 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000416 | -Publisher FASB
+000417 | -Name Accounting Standards Codification
+000418 | -Topic 606
+000419 | -SubTopic 10
+000420 | -Section 50
+000421 | -Paragraph 1
+000422 | -Subparagraph (a)
+000423 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130539-203045
+000424 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000425 | -Publisher FASB
+000426 | -Name Accounting Standards Codification
+000427 | -Topic 606
+000428 | -SubTopic 10
+000429 | -Section 50
+000430 | -Paragraph 5
+000431 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130545-203045
+000432 | + Details
+000433 | Name:
+000434 | us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+000435 | Namespace Prefix:
+000436 | us-gaap_
+000437 | Data Type:
+000438 | xbrli:monetaryItemType
+000439 | Balance Type:
+000440 | credit
+000441 | Period Type:
+000442 | duration
+000443 | X
+000444 | - Definition
+000445 | The aggregate total costs related to selling a firm's product and services, as well as all other general and administrative expenses. Direct selling expenses (for example, credit, warranty, and advertising) are expenses that can be directly linked to the sale of specific products. Indirect selling expenses are expenses that cannot be directly linked to the sale of specific products, for example telephone expenses, Internet, and postal charges. General and administrative expenses include salaries of non-sales personnel, rent, utilities, communication, etc.
+000446 | + References
+000447 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000448 | -Publisher FASB
+000449 | -Name Accounting Standards Codification
+000450 | -Topic 330
+000451 | -SubTopic 10
+000452 | -Section 30
+000453 | -Paragraph 8
+000454 | -URI http://asc.fasb.org/extlink&oid=68048583&loc=d3e3636-108311
+000455 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000456 | -Publisher FASB
+000457 | -Name Accounting Standards Codification
+000458 | -Topic 220
+000459 | -SubTopic 10
+000460 | -Section S99
+000461 | -Paragraph 2
+000462 | -Subparagraph (SX 210.5-03.4)
+000463 | -URI http://asc.fasb.org/extlink&oid=115205541&loc=SL114868664-224227
+000464 | + Details
+000465 | Name:
+000466 | us-gaap_SellingGeneralAndAdministrativeExpense
+000467 | Namespace Prefix:
+000468 | us-gaap_
+000469 | Data Type:
+000470 | xbrli:monetaryItemType
+000471 | Balance Type:
+000472 | debit
+000473 | Period Type:
+000474 | duration
+000475 | X
+000476 | - Definition
+000477 | Average number of shares or units issued and outstanding that are used in calculating basic and diluted earnings per share (EPS).
+000478 | + References
+000479 | No definition available.
+000480 | + Details
+000481 | Name:
+000482 | us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted
+000483 | Namespace Prefix:
+000484 | us-gaap_
+000485 | Data Type:
+000486 | xbrli:sharesItemType
+000487 | Balance Type:
+000488 | na
+000489 | Period Type:
+000490 | duration
+000491 | X
+000492 | - References
+000493 | No definition available.
+000494 | + Details
+000495 | Name:
+000496 | us-gaap_WeightedAverageNumberOfSharesOutstandingAbstract
+000497 | Namespace Prefix:
+000498 | us-gaap_
+000499 | Data Type:
+000500 | xbrli:stringItemType
+000501 | Balance Type:
+000502 | na
+000503 | Period Type:
+000504 | duration

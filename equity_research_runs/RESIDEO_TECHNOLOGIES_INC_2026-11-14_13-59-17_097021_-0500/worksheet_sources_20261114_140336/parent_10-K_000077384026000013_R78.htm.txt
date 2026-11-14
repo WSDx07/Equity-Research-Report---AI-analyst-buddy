@@ -1,0 +1,402 @@
+000001 | v3.25.4
+000002 | REPOSITIONING AND OTHER (GAINS) CHARGES - Repositioning Reserves (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Restructuring Reserve [Roll Forward]
+000009 | Beginning balance
+000010 | $ 181
+000011 | $ 276
+000012 | $ 303
+000013 | Charges
+000014 | 210
+000015 | 221
+000016 | 335
+000017 | Usage—cash
+000018 | (153)
+000019 | (189)
+000020 | (280)
+000021 | Usage—noncash
+000022 | (10)
+000023 | (6)
+000024 | (36)
+000025 | Divestitures
+000026 | (9)
+000027 | Adjustments
+000028 | (56)
+000029 | (97)
+000030 | (56)
+000031 | Foreign currency translation
+000032 | 6
+000033 | (2)
+000034 | 19
+000035 | Reclassifications to Liabilities held for sale
+000036 | (6)
+000037 | (22)
+000038 | Ending balance
+000039 | 172
+000040 | 181
+000041 | 276
+000042 | Severance
+000043 | Restructuring Reserve [Roll Forward]
+000044 | Beginning balance
+000045 | 174
+000046 | 185
+000047 | 229
+000048 | Charges
+000049 | 138
+000050 | 136
+000051 | 162
+000052 | Usage—cash
+000053 | (90)
+000054 | (92)
+000055 | (170)
+000056 | Usage—noncash
+000057 | 0
+000058 | 0
+000059 | 0
+000060 | Divestitures
+000061 | 0
+000062 | Adjustments
+000063 | (52)
+000064 | (41)
+000065 | (42)
+000066 | Foreign currency translation
+000067 | 6
+000068 | 0
+000069 | 6
+000070 | Reclassifications to Liabilities held for sale
+000071 | (6)
+000072 | (14)
+000073 | Ending balance
+000074 | 170
+000075 | 174
+000076 | 185
+000077 | Asset impairments
+000078 | Restructuring Reserve [Roll Forward]
+000079 | Beginning balance
+000080 | 0
+000081 | 0
+000082 | 0
+000083 | Charges
+000084 | 11
+000085 | 22
+000086 | 41
+000087 | Usage—cash
+000088 | 0
+000089 | 0
+000090 | 0
+000091 | Usage—noncash
+000092 | (10)
+000093 | (6)
+000094 | (36)
+000095 | Divestitures
+000096 | (4)
+000097 | Adjustments
+000098 | (1)
+000099 | (16)
+000100 | (1)
+000101 | Foreign currency translation
+000102 | 0
+000103 | 0
+000104 | 0
+000105 | Reclassifications to Liabilities held for sale
+000106 | 0
+000107 | 0
+000108 | Ending balance
+000109 | 0
+000110 | 0
+000111 | 0
+000112 | Exit costs
+000113 | Restructuring Reserve [Roll Forward]
+000114 | Beginning balance
+000115 | 7
+000116 | 91
+000117 | 74
+000118 | Charges
+000119 | 61
+000120 | 63
+000121 | 132
+000122 | Usage—cash
+000123 | (63)
+000124 | (97)
+000125 | (110)
+000126 | Usage—noncash
+000127 | 0
+000128 | 0
+000129 | 0
+000130 | Divestitures
+000131 | (5)
+000132 | Adjustments
+000133 | (3)
+000134 | (40)
+000135 | (13)
+000136 | Foreign currency translation
+000137 | 0
+000138 | (2)
+000139 | 13
+000140 | Reclassifications to Liabilities held for sale
+000141 | 0
+000142 | (8)
+000143 | Ending balance
+000144 | $ 2
+000145 | $ 7
+000146 | $ 91
+000147 | X
+000148 | - Definition
+000149 | Restructuring Charges, Excluding Held-For-Sale
+000150 | + References
+000151 | No definition available.
+000152 | + Details
+000153 | Name:
+000154 | hon_RestructuringChargesExcludingHeldForSale
+000155 | Namespace Prefix:
+000156 | hon_
+000157 | Data Type:
+000158 | xbrli:monetaryItemType
+000159 | Balance Type:
+000160 | debit
+000161 | Period Type:
+000162 | duration
+000163 | X
+000164 | - Definition
+000165 | Amount of expense (reversal of expense) which increases (decreases) the restructuring reserve as a result of a divestiture.
+000166 | + References
+000167 | No definition available.
+000168 | + Details
+000169 | Name:
+000170 | hon_RestructuringReserveDivestitures
+000171 | Namespace Prefix:
+000172 | hon_
+000173 | Data Type:
+000174 | xbrli:monetaryItemType
+000175 | Balance Type:
+000176 | debit
+000177 | Period Type:
+000178 | duration
+000179 | X
+000180 | - Definition
+000181 | Restructuring Reserve, Reclassification to Held-for-Sale
+000182 | + References
+000183 | No definition available.
+000184 | + Details
+000185 | Name:
+000186 | hon_RestructuringReserveReclassificationToHeldForSale
+000187 | Namespace Prefix:
+000188 | hon_
+000189 | Data Type:
+000190 | xbrli:monetaryItemType
+000191 | Balance Type:
+000192 | credit
+000193 | Period Type:
+000194 | duration
+000195 | X
+000196 | - Definition
+000197 | Amount of cash payments made as the result of exit or disposal activities. Excludes payments associated with a discontinued operation or an asset retirement obligation.
+000198 | + References
+000199 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000200 | -Topic 420
+000201 | -SubTopic 10
+000202 | -Name Accounting Standards Codification
+000203 | -Section 50
+000204 | -Paragraph 1
+000205 | -Subparagraph (b)(2)
+000206 | -Publisher FASB
+000207 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000208 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000209 | -Topic 230
+000210 | -SubTopic 10
+000211 | -Name Accounting Standards Codification
+000212 | -Section 45
+000213 | -Paragraph 17
+000214 | -Subparagraph (f)
+000215 | -Publisher FASB
+000216 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-17
+000217 | + Details
+000218 | Name:
+000219 | us-gaap_PaymentsForRestructuring
+000220 | Namespace Prefix:
+000221 | us-gaap_
+000222 | Data Type:
+000223 | xbrli:monetaryItemType
+000224 | Balance Type:
+000225 | credit
+000226 | Period Type:
+000227 | duration
+000228 | X
+000229 | - Definition
+000230 | Carrying amount (including both current and noncurrent portions of the accrual) as of the balance sheet date pertaining to a specified type of cost associated with exit from or disposal of business activities or restructuring pursuant to a duly authorized plan.
+000231 | + References
+000232 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000233 | -Topic 420
+000234 | -SubTopic 10
+000235 | -Name Accounting Standards Codification
+000236 | -Section S99
+000237 | -Paragraph 2
+000238 | -Subparagraph (SAB Topic 5.P.4.b.2)
+000239 | -Publisher FASB
+000240 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000241 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000242 | -Topic 420
+000243 | -SubTopic 10
+000244 | -Name Accounting Standards Codification
+000245 | -Section 50
+000246 | -Paragraph 1
+000247 | -Subparagraph (b)(2)
+000248 | -Publisher FASB
+000249 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000250 | + Details
+000251 | Name:
+000252 | us-gaap_RestructuringReserve
+000253 | Namespace Prefix:
+000254 | us-gaap_
+000255 | Data Type:
+000256 | xbrli:monetaryItemType
+000257 | Balance Type:
+000258 | credit
+000259 | Period Type:
+000260 | instant
+000261 | X
+000262 | - Definition
+000263 | Amount of expense (reversal of expense) which increases (decreases) the restructuring reserve from an adjustment to a previously accrued restructuring liability.
+000264 | + References
+000265 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000266 | -Topic 420
+000267 | -SubTopic 10
+000268 | -Name Accounting Standards Codification
+000269 | -Section S99
+000270 | -Paragraph 2
+000271 | -Subparagraph (SAB Topic 5.P.4.b.2)
+000272 | -Publisher FASB
+000273 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000274 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000275 | -Topic 420
+000276 | -SubTopic 10
+000277 | -Name Accounting Standards Codification
+000278 | -Section 50
+000279 | -Paragraph 1
+000280 | -Subparagraph (b)(2)
+000281 | -Publisher FASB
+000282 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000283 | + Details
+000284 | Name:
+000285 | us-gaap_RestructuringReserveAccrualAdjustment1
+000286 | Namespace Prefix:
+000287 | us-gaap_
+000288 | Data Type:
+000289 | xbrli:monetaryItemType
+000290 | Balance Type:
+000291 | debit
+000292 | Period Type:
+000293 | duration
+000294 | X
+000295 | - Definition
+000296 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000297 | + References
+000298 | No definition available.
+000299 | + Details
+000300 | Name:
+000301 | us-gaap_RestructuringReserveRollForward
+000302 | Namespace Prefix:
+000303 | us-gaap_
+000304 | Data Type:
+000305 | xbrli:stringItemType
+000306 | Balance Type:
+000307 | na
+000308 | Period Type:
+000309 | duration
+000310 | X
+000311 | - Definition
+000312 | Amount of decrease in the reserve for full or partial settlement through consideration other than cash.
+000313 | + References
+000314 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000315 | -Topic 420
+000316 | -SubTopic 10
+000317 | -Name Accounting Standards Codification
+000318 | -Section S99
+000319 | -Paragraph 2
+000320 | -Subparagraph (SAB Topic 5.P.4.b.2)
+000321 | -Publisher FASB
+000322 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000323 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000324 | -Topic 420
+000325 | -SubTopic 10
+000326 | -Name Accounting Standards Codification
+000327 | -Section 50
+000328 | -Paragraph 1
+000329 | -Subparagraph (b)(2)
+000330 | -Publisher FASB
+000331 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000332 | + Details
+000333 | Name:
+000334 | us-gaap_RestructuringReserveSettledWithoutCash2
+000335 | Namespace Prefix:
+000336 | us-gaap_
+000337 | Data Type:
+000338 | xbrli:monetaryItemType
+000339 | Balance Type:
+000340 | debit
+000341 | Period Type:
+000342 | duration
+000343 | X
+000344 | - Definition
+000345 | Amount of foreign currency translation gain (loss) which decreases (increases) the restructuring reserve.
+000346 | + References
+000347 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000348 | -Topic 420
+000349 | -SubTopic 10
+000350 | -Name Accounting Standards Codification
+000351 | -Section S99
+000352 | -Paragraph 2
+000353 | -Subparagraph (SAB Topic 5.P.4.b.2)
+000354 | -Publisher FASB
+000355 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000356 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000357 | -Topic 420
+000358 | -SubTopic 10
+000359 | -Name Accounting Standards Codification
+000360 | -Section 50
+000361 | -Paragraph 1
+000362 | -Subparagraph (b)(2)
+000363 | -Publisher FASB
+000364 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000365 | + Details
+000366 | Name:
+000367 | us-gaap_RestructuringReserveTranslationAdjustment
+000368 | Namespace Prefix:
+000369 | us-gaap_
+000370 | Data Type:
+000371 | xbrli:monetaryItemType
+000372 | Balance Type:
+000373 | credit
+000374 | Period Type:
+000375 | duration
+000376 | X
+000377 | - Details
+000378 | Name:
+000379 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_EmployeeSeveranceMember
+000380 | Namespace Prefix:
+000381 | Data Type:
+000382 | na
+000383 | Balance Type:
+000384 | Period Type:
+000385 | X
+000386 | - Details
+000387 | Name:
+000388 | us-gaap_RestructuringCostAndReserveAxis=hon_TangibleAndIntangibleAssetImpairmentMember
+000389 | Namespace Prefix:
+000390 | Data Type:
+000391 | na
+000392 | Balance Type:
+000393 | Period Type:
+000394 | X
+000395 | - Details
+000396 | Name:
+000397 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_FacilityClosingMember
+000398 | Namespace Prefix:
+000399 | Data Type:
+000400 | na
+000401 | Balance Type:
+000402 | Period Type:

@@ -1,0 +1,128 @@
+000001 | v3.10.0.1
+000002 | Repositioning Charges - Additional Information (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2018
+000007 | Mar. 31, 2018
+000008 | Sep. 30, 2017
+000009 | Sep. 30, 2018
+000010 | Sep. 30, 2017
+000011 | Restructuring And Related Activities [Abstract]
+000012 | Total repositioning charges
+000013 | $ 0
+000014 | $ 5
+000015 | $ 2
+000016 | $ 5
+000017 | $ 21
+000018 | Total repositioning charges for severance costs and asset impairment costs
+000019 | $ 2
+000020 | $ 22
+000021 | Remaining exit and disposal costs relating to repositioning actions
+000022 | $ 9
+000023 | $ 9
+000024 | X
+000025 | - References
+000026 | No definition available.
+000027 | + Details
+000028 | Name:
+000029 | us-gaap_RestructuringAndRelatedActivitiesAbstract
+000030 | Namespace Prefix:
+000031 | us-gaap_
+000032 | Data Type:
+000033 | xbrli:stringItemType
+000034 | Balance Type:
+000035 | na
+000036 | Period Type:
+000037 | duration
+000038 | X
+000039 | - Definition
+000040 | Amount of expected cost remaining for the specified restructuring cost.
+000041 | + References
+000042 | No definition available.
+000043 | + Details
+000044 | Name:
+000045 | us-gaap_RestructuringAndRelatedCostExpectedCostRemaining1
+000046 | Namespace Prefix:
+000047 | us-gaap_
+000048 | Data Type:
+000049 | xbrli:monetaryItemType
+000050 | Balance Type:
+000051 | debit
+000052 | Period Type:
+000053 | instant
+000054 | X
+000055 | - Definition
+000056 | Amount of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.
+000057 | + References
+000058 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000059 | -Publisher FASB
+000060 | -Name Accounting Standards Codification
+000061 | -Topic 420
+000062 | -SubTopic 10
+000063 | -Section S99
+000064 | -Paragraph 1
+000065 | -Subparagraph (SAB Topic 5.P.3)
+000066 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140864-122747
+000067 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000068 | -Publisher FASB
+000069 | -Name Accounting Standards Codification
+000070 | -Topic 420
+000071 | -SubTopic 10
+000072 | -Section 50
+000073 | -Paragraph 1
+000074 | -Subparagraph (b)
+000075 | -URI http://asc.fasb.org/extlink&oid=6394359&loc=d3e17939-110869
+000076 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000077 | -Publisher FASB
+000078 | -Name Accounting Standards Codification
+000079 | -Topic 230
+000080 | -SubTopic 10
+000081 | -Section 45
+000082 | -Paragraph 28
+000083 | -Subparagraph (b)
+000084 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000085 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000086 | -Publisher FASB
+000087 | -Name Accounting Standards Codification
+000088 | -Topic 420
+000089 | -SubTopic 10
+000090 | -Section S99
+000091 | -Paragraph 2
+000092 | -Subparagraph (SAB Topic 5.P.4(b))
+000093 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140904-122747
+000094 | + Details
+000095 | Name:
+000096 | us-gaap_RestructuringCharges
+000097 | Namespace Prefix:
+000098 | us-gaap_
+000099 | Data Type:
+000100 | xbrli:monetaryItemType
+000101 | Balance Type:
+000102 | debit
+000103 | Period Type:
+000104 | duration
+000105 | X
+000106 | - Definition
+000107 | Amount, after cash payment, of expenses associated with exit or disposal activities pursuant to an authorized plan and expenses resulting from the write-down of assets. Excludes expenses related to a business combination, a discontinued operation or an asset retirement obligation.
+000108 | + References
+000109 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000110 | -Publisher FASB
+000111 | -Name Accounting Standards Codification
+000112 | -Topic 230
+000113 | -SubTopic 10
+000114 | -Section 45
+000115 | -Paragraph 28
+000116 | -Subparagraph (b)
+000117 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000118 | + Details
+000119 | Name:
+000120 | us-gaap_RestructuringCostsAndAssetImpairmentCharges
+000121 | Namespace Prefix:
+000122 | us-gaap_
+000123 | Data Type:
+000124 | xbrli:monetaryItemType
+000125 | Balance Type:
+000126 | debit
+000127 | Period Type:
+000128 | duration

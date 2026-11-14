@@ -1,0 +1,343 @@
+000001 | v3.26.1
+000002 | Accrued Liabilities (Details) - USD ($)
+000003 | $ in Millions
+000004 | Jun. 27, 2026
+000005 | Dec. 31, 2025
+000006 | Payables and Accruals [Abstract]
+000007 | Customer-related liabilities
+000008 | $ 315
+000009 | $ 712
+000010 | Real estate, VAT, and other tax liabilities
+000011 | 478
+000012 | 301
+000013 | Compensation, benefits, and other employee-related liabilities
+000014 | 349
+000015 | 302
+000016 | Supplier-related liabilities
+000017 | 260
+000018 | 250
+000019 | Accrued interest
+000020 | 218
+000021 | 0
+000022 | Environmental liabilities
+000023 | 149
+000024 | 174
+000025 | Warranty reserves
+000026 | 116
+000027 | 109
+000028 | Operating lease liabilities
+000029 | 37
+000030 | 35
+000031 | Other
+000032 | 141
+000033 | 222
+000034 | Total Accrued liabilities
+000035 | $ 2,063
+000036 | $ 2,105
+000037 | X
+000038 | - Definition
+000039 | Customer-Related Liabilities, Current
+000040 | + References
+000041 | No definition available.
+000042 | + Details
+000043 | Name:
+000044 | hona_CustomerRelatedLiabilitiesCurrent
+000045 | Namespace Prefix:
+000046 | hona_
+000047 | Data Type:
+000048 | xbrli:monetaryItemType
+000049 | Balance Type:
+000050 | credit
+000051 | Period Type:
+000052 | instant
+000053 | X
+000054 | - Definition
+000055 | Supplier-Related Liabilities, Current
+000056 | + References
+000057 | No definition available.
+000058 | + Details
+000059 | Name:
+000060 | hona_SupplierRelatedLiabilitiesCurrent
+000061 | Namespace Prefix:
+000062 | hona_
+000063 | Data Type:
+000064 | xbrli:monetaryItemType
+000065 | Balance Type:
+000066 | credit
+000067 | Period Type:
+000068 | instant
+000069 | X
+000070 | - Definition
+000071 | Carrying value of the obligation (known or estimated) arising from requirements to perform activities to remediate one or more sites, payable in twelve months or in the next operating cycle if longer.
+000072 | + References
+000073 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000074 | -Topic 450
+000075 | -SubTopic 20
+000076 | -Name Accounting Standards Codification
+000077 | -Section 50
+000078 | -Paragraph 1
+000079 | -Publisher FASB
+000080 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000081 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000082 | -Topic 210
+000083 | -SubTopic 10
+000084 | -Name Accounting Standards Codification
+000085 | -Section S99
+000086 | -Paragraph 1
+000087 | -Subparagraph (SX 210.5-02(20))
+000088 | -Publisher FASB
+000089 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000090 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000091 | -Topic 410
+000092 | -SubTopic 30
+000093 | -Name Accounting Standards Codification
+000094 | -Section 55
+000095 | -Paragraph 11
+000096 | -Publisher FASB
+000097 | -URI https://asc.fasb.org/1943274/2147481899/410-30-55-11
+000098 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000099 | -Topic 410
+000100 | -SubTopic 30
+000101 | -Name Accounting Standards Codification
+000102 | -Section 50
+000103 | -Paragraph 7
+000104 | -Publisher FASB
+000105 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-7
+000106 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000107 | -Topic 410
+000108 | -SubTopic 30
+000109 | -Name Accounting Standards Codification
+000110 | -Section 50
+000111 | -Paragraph 10
+000112 | -Subparagraph (d)(1)
+000113 | -Publisher FASB
+000114 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-10
+000115 | + Details
+000116 | Name:
+000117 | us-gaap_AccruedEnvironmentalLossContingenciesCurrent
+000118 | Namespace Prefix:
+000119 | us-gaap_
+000120 | Data Type:
+000121 | xbrli:monetaryItemType
+000122 | Balance Type:
+000123 | credit
+000124 | Period Type:
+000125 | instant
+000126 | X
+000127 | - Definition
+000128 | Carrying value as of the balance sheet date of obligations incurred and payable, pertaining to costs that are statutory in nature, are incurred on contractual obligations, or accumulate over time and for which invoices have not yet been received or will not be rendered. Examples include taxes, interest, rent and utilities. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000129 | + References
+000130 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000131 | -Topic 210
+000132 | -SubTopic 10
+000133 | -Name Accounting Standards Codification
+000134 | -Section S99
+000135 | -Paragraph 1
+000136 | -Subparagraph (SX 210.5-02(20))
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000139 | + Details
+000140 | Name:
+000141 | us-gaap_AccruedLiabilitiesCurrent
+000142 | Namespace Prefix:
+000143 | us-gaap_
+000144 | Data Type:
+000145 | xbrli:monetaryItemType
+000146 | Balance Type:
+000147 | credit
+000148 | Period Type:
+000149 | instant
+000150 | X
+000151 | - Definition
+000152 | Total of the carrying values as of the balance sheet date of obligations incurred through that date and payable for obligations related to services received from employees, such as accrued salaries and bonuses, payroll taxes and fringe benefits. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000153 | + References
+000154 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000155 | -Topic 210
+000156 | -SubTopic 10
+000157 | -Name Accounting Standards Codification
+000158 | -Section S99
+000159 | -Paragraph 1
+000160 | -Subparagraph (SX 210.5-02(20))
+000161 | -Publisher FASB
+000162 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000163 | + Details
+000164 | Name:
+000165 | us-gaap_EmployeeRelatedLiabilitiesCurrent
+000166 | Namespace Prefix:
+000167 | us-gaap_
+000168 | Data Type:
+000169 | xbrli:monetaryItemType
+000170 | Balance Type:
+000171 | credit
+000172 | Period Type:
+000173 | instant
+000174 | X
+000175 | - Definition
+000176 | Carrying value as of the balance sheet date of [accrued] interest payable on all forms of debt, including trade payables, that has been incurred and is unpaid. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000177 | + References
+000178 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000179 | -Topic 210
+000180 | -SubTopic 10
+000181 | -Name Accounting Standards Codification
+000182 | -Section S99
+000183 | -Paragraph 1
+000184 | -Subparagraph (SX 210.5-02(20))
+000185 | -Publisher FASB
+000186 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000187 | + Details
+000188 | Name:
+000189 | us-gaap_InterestPayableCurrent
+000190 | Namespace Prefix:
+000191 | us-gaap_
+000192 | Data Type:
+000193 | xbrli:monetaryItemType
+000194 | Balance Type:
+000195 | credit
+000196 | Period Type:
+000197 | instant
+000198 | X
+000199 | - Definition
+000200 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as current.
+000201 | + References
+000202 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000203 | -Topic 210
+000204 | -SubTopic 10
+000205 | -Name Accounting Standards Codification
+000206 | -Section 45
+000207 | -Paragraph 8
+000208 | -Subparagraph (c)
+000209 | -Publisher FASB
+000210 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-8
+000211 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000212 | -Topic 842
+000213 | -SubTopic 20
+000214 | -Name Accounting Standards Codification
+000215 | -Section 45
+000216 | -Paragraph 1
+000217 | -Subparagraph (b)
+000218 | -Publisher FASB
+000219 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000220 | + Details
+000221 | Name:
+000222 | us-gaap_OperatingLeaseLiabilityCurrent
+000223 | Namespace Prefix:
+000224 | us-gaap_
+000225 | Data Type:
+000226 | xbrli:monetaryItemType
+000227 | Balance Type:
+000228 | credit
+000229 | Period Type:
+000230 | instant
+000231 | X
+000232 | - Definition
+000233 | Amount of expenses incurred but not yet paid classified as other, due within one year or the normal operating cycle, if longer.
+000234 | + References
+000235 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000236 | -Topic 210
+000237 | -SubTopic 10
+000238 | -Name Accounting Standards Codification
+000239 | -Section S99
+000240 | -Paragraph 1
+000241 | -Subparagraph (SX 210.5-02(20))
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000244 | + Details
+000245 | Name:
+000246 | us-gaap_OtherAccruedLiabilitiesCurrent
+000247 | Namespace Prefix:
+000248 | us-gaap_
+000249 | Data Type:
+000250 | xbrli:monetaryItemType
+000251 | Balance Type:
+000252 | credit
+000253 | Period Type:
+000254 | instant
+000255 | X
+000256 | - References
+000257 | No definition available.
+000258 | + Details
+000259 | Name:
+000260 | us-gaap_PayablesAndAccrualsAbstract
+000261 | Namespace Prefix:
+000262 | us-gaap_
+000263 | Data Type:
+000264 | xbrli:stringItemType
+000265 | Balance Type:
+000266 | na
+000267 | Period Type:
+000268 | duration
+000269 | X
+000270 | - Definition
+000271 | Carrying value as of the balance sheet date of obligations incurred through that date and payable for estimated claims under standard and extended warranty protection rights granted to customers. For classified balance sheets, represents the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000272 | + References
+000273 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000274 | -Topic 460
+000275 | -SubTopic 10
+000276 | -Name Accounting Standards Codification
+000277 | -Section 50
+000278 | -Paragraph 8
+000279 | -Subparagraph (c)(5)
+000280 | -Publisher FASB
+000281 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000282 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000283 | -Topic 460
+000284 | -SubTopic 10
+000285 | -Name Accounting Standards Codification
+000286 | -Section 50
+000287 | -Paragraph 8
+000288 | -Subparagraph (c)(1)
+000289 | -Publisher FASB
+000290 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-8
+000291 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000292 | -Topic 210
+000293 | -SubTopic 10
+000294 | -Name Accounting Standards Codification
+000295 | -Section S99
+000296 | -Paragraph 1
+000297 | -Subparagraph (SX 210.5-02(20))
+000298 | -Publisher FASB
+000299 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000300 | + Details
+000301 | Name:
+000302 | us-gaap_ProductWarrantyAccrualClassifiedCurrent
+000303 | Namespace Prefix:
+000304 | us-gaap_
+000305 | Data Type:
+000306 | xbrli:monetaryItemType
+000307 | Balance Type:
+000308 | credit
+000309 | Period Type:
+000310 | instant
+000311 | X
+000312 | - Definition
+000313 | Carrying value as of the balance sheet date of obligations incurred and payable for statutory income, sales, use, payroll, excise, real, property and other taxes. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000314 | + References
+000315 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000316 | -Topic 210
+000317 | -SubTopic 10
+000318 | -Name Accounting Standards Codification
+000319 | -Section S99
+000320 | -Paragraph 1
+000321 | -Subparagraph (SX 210.5-02(20))
+000322 | -Publisher FASB
+000323 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000324 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000325 | -Topic 210
+000326 | -SubTopic 10
+000327 | -Name Accounting Standards Codification
+000328 | -Section 45
+000329 | -Paragraph 8
+000330 | -Subparagraph (c)
+000331 | -Publisher FASB
+000332 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-8
+000333 | + Details
+000334 | Name:
+000335 | us-gaap_TaxesPayableCurrent
+000336 | Namespace Prefix:
+000337 | us-gaap_
+000338 | Data Type:
+000339 | xbrli:monetaryItemType
+000340 | Balance Type:
+000341 | credit
+000342 | Period Type:
+000343 | instant

@@ -1,0 +1,142 @@
+000001 | v3.10.0.1
+000002 | Organization, Operations and Basis of Presentation - Additional Information (Details) - $ / shares
+000003 | 9 Months Ended
+000004 | Oct. 29, 2018
+000005 | Oct. 16, 2018
+000006 | Sep. 30, 2018
+000007 | Organization, Operations and Basis of Presentation [Line Items]
+000008 | Spin-off transaction record date
+000009 | Oct. 16, 2018
+000010 | Date of business spin-off
+000011 | Oct. 29, 2018
+000012 | Spin-off common stock, description
+000013 | On October 29, 2018, Honeywell’s shareholders of record as of October 16, 2018 (the “Record Date”) received one share of the Company’s common stock, par value $0.001 per share, for every six shares of Honeywell’s common stock, par value $1.00 per share, held as of the Record Date, and cash for any fractional shares of the Company’s common stock.
+000014 | Subsequent Event [Member]
+000015 | Organization, Operations and Basis of Presentation [Line Items]
+000016 | Spin-off transaction, common stock share conversion
+000017 | one share
+000018 | six shares
+000019 | Spin-off transaction, common stock conversion of par value per share
+000020 | $ 0.001
+000021 | $ 1.00
+000022 | X
+000023 | - Definition
+000024 | Date of business spin-off.
+000025 | + References
+000026 | No definition available.
+000027 | + Details
+000028 | Name:
+000029 | rezi_DateOfBusinessSpinOff
+000030 | Namespace Prefix:
+000031 | rezi_
+000032 | Data Type:
+000033 | xbrli:dateItemType
+000034 | Balance Type:
+000035 | na
+000036 | Period Type:
+000037 | duration
+000038 | X
+000039 | - Definition
+000040 | Organization, operations and basis of presentation.
+000041 | + References
+000042 | No definition available.
+000043 | + Details
+000044 | Name:
+000045 | rezi_OrganizationOperationsAndBasisOfPresentationLineItems
+000046 | Namespace Prefix:
+000047 | rezi_
+000048 | Data Type:
+000049 | xbrli:stringItemType
+000050 | Balance Type:
+000051 | na
+000052 | Period Type:
+000053 | duration
+000054 | X
+000055 | - Definition
+000056 | Spin-off stock description.
+000057 | + References
+000058 | No definition available.
+000059 | + Details
+000060 | Name:
+000061 | rezi_SpinOffStockDescription
+000062 | Namespace Prefix:
+000063 | rezi_
+000064 | Data Type:
+000065 | xbrli:stringItemType
+000066 | Balance Type:
+000067 | na
+000068 | Period Type:
+000069 | duration
+000070 | X
+000071 | - Definition
+000072 | Spin-off transaction record date.
+000073 | + References
+000074 | No definition available.
+000075 | + Details
+000076 | Name:
+000077 | rezi_SpinOffTransactionRecordDate
+000078 | Namespace Prefix:
+000079 | rezi_
+000080 | Data Type:
+000081 | xbrli:dateItemType
+000082 | Balance Type:
+000083 | na
+000084 | Period Type:
+000085 | duration
+000086 | X
+000087 | - Definition
+000088 | Description of basis for conversion of convertible common stock.
+000089 | + References
+000090 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000091 | -Publisher FASB
+000092 | -Name Accounting Standards Codification
+000093 | -Topic 210
+000094 | -SubTopic 10
+000095 | -Section S99
+000096 | -Paragraph 1
+000097 | -Subparagraph (SX 210.5-02(29))
+000098 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000099 | + Details
+000100 | Name:
+000101 | us-gaap_CommonStockConversionBasis
+000102 | Namespace Prefix:
+000103 | us-gaap_
+000104 | Data Type:
+000105 | xbrli:stringItemType
+000106 | Balance Type:
+000107 | na
+000108 | Period Type:
+000109 | duration
+000110 | X
+000111 | - Definition
+000112 | Face amount or stated value per share of common stock.
+000113 | + References
+000114 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000115 | -Publisher FASB
+000116 | -Name Accounting Standards Codification
+000117 | -Topic 210
+000118 | -SubTopic 10
+000119 | -Section S99
+000120 | -Paragraph 1
+000121 | -Subparagraph (SX 210.5-02(29))
+000122 | -URI http://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682
+000123 | + Details
+000124 | Name:
+000125 | us-gaap_CommonStockParOrStatedValuePerShare
+000126 | Namespace Prefix:
+000127 | us-gaap_
+000128 | Data Type:
+000129 | num:perShareItemType
+000130 | Balance Type:
+000131 | na
+000132 | Period Type:
+000133 | instant
+000134 | X
+000135 | - Details
+000136 | Name:
+000137 | us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember
+000138 | Namespace Prefix:
+000139 | Data Type:
+000140 | na
+000141 | Balance Type:
+000142 | Period Type:

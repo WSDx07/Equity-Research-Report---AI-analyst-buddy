@@ -1,0 +1,448 @@
+000001 | v3.26.1
+000002 | Subsequent Events (Details) - Subsequent Event
+000003 | $ in Thousands
+000004 | Jun. 29, 2026
+000005 | USD ($)
+000006 | payment
+000007 | shares
+000008 | Jul. 23, 2026
+000009 | USD ($)
+000010 | Subsequent Event [Line Items]
+000011 | Shares outstanding (in shares) | shares
+000012 | 316,939,750
+000013 | Shares issued (in shares) | shares
+000014 | 316,939,750
+000015 | Share repurchase program, authorized, amount
+000016 | $ 3,500,000
+000017 | Spinoff
+000018 | Subsequent Event [Line Items]
+000019 | Transition services agreement term (in years)
+000020 | 2 years
+000021 | Commercial Paper
+000022 | Subsequent Event [Line Items]
+000023 | Line of credit facility, maximum borrowing capacity
+000024 | $ 4,000,000
+000025 | Debt term (in days)
+000026 | 397 days
+000027 | Honeywell International Inc | Spinoff
+000028 | Subsequent Event [Line Items]
+000029 | Trademark license agreement, maximum aggregate milestone payments
+000030 | $ 1,125,000
+000031 | Trademark license agreement, maximum aggregate milestone payments, period
+000032 | 5 years
+000033 | Trademark license agreement, initial milestone payment
+000034 | $ 18,750
+000035 | Contract with customer payment terms
+000036 | 5 days
+000037 | Trademark license agreement, milestone payment, number of equal monthly installments | payment
+000038 | 59
+000039 | Trademark license agreement, milestone payment, equal monthly installments, amount
+000040 | $ 18,750
+000041 | X
+000042 | - Definition
+000043 | Trademark License Agreement, Initial Milestone Payment
+000044 | + References
+000045 | No definition available.
+000046 | + Details
+000047 | Name:
+000048 | hona_TrademarkLicenseAgreementInitialMilestonePayment
+000049 | Namespace Prefix:
+000050 | hona_
+000051 | Data Type:
+000052 | xbrli:monetaryItemType
+000053 | Balance Type:
+000054 | credit
+000055 | Period Type:
+000056 | instant
+000057 | X
+000058 | - Definition
+000059 | Trademark License Agreement, Initial Milestone Payment, Period
+000060 | + References
+000061 | No definition available.
+000062 | + Details
+000063 | Name:
+000064 | hona_TrademarkLicenseAgreementInitialMilestonePaymentPeriod
+000065 | Namespace Prefix:
+000066 | hona_
+000067 | Data Type:
+000068 | xbrli:durationItemType
+000069 | Balance Type:
+000070 | na
+000071 | Period Type:
+000072 | instant
+000073 | X
+000074 | - Definition
+000075 | Trademark License Agreement, Maximum Aggregate Milestone Payments
+000076 | + References
+000077 | No definition available.
+000078 | + Details
+000079 | Name:
+000080 | hona_TrademarkLicenseAgreementMaximumAggregateMilestonePayments
+000081 | Namespace Prefix:
+000082 | hona_
+000083 | Data Type:
+000084 | xbrli:monetaryItemType
+000085 | Balance Type:
+000086 | credit
+000087 | Period Type:
+000088 | instant
+000089 | X
+000090 | - Definition
+000091 | Trademark License Agreement, Maximum Aggregate Milestone Payments, Period
+000092 | + References
+000093 | No definition available.
+000094 | + Details
+000095 | Name:
+000096 | hona_TrademarkLicenseAgreementMaximumAggregateMilestonePaymentsPeriod
+000097 | Namespace Prefix:
+000098 | hona_
+000099 | Data Type:
+000100 | xbrli:durationItemType
+000101 | Balance Type:
+000102 | na
+000103 | Period Type:
+000104 | instant
+000105 | X
+000106 | - Definition
+000107 | Trademark License Agreement, Milestone Payment, Equal Monthly Installments, Amount
+000108 | + References
+000109 | No definition available.
+000110 | + Details
+000111 | Name:
+000112 | hona_TrademarkLicenseAgreementMilestonePaymentEqualMonthlyInstallmentsAmount
+000113 | Namespace Prefix:
+000114 | hona_
+000115 | Data Type:
+000116 | xbrli:monetaryItemType
+000117 | Balance Type:
+000118 | credit
+000119 | Period Type:
+000120 | instant
+000121 | X
+000122 | - Definition
+000123 | Trademark License Agreement, Milestone Payment, Number of Equal Monthly Installments
+000124 | + References
+000125 | No definition available.
+000126 | + Details
+000127 | Name:
+000128 | hona_TrademarkLicenseAgreementMilestonePaymentNumberOfEqualMonthlyInstallments
+000129 | Namespace Prefix:
+000130 | hona_
+000131 | Data Type:
+000132 | xbrli:integerItemType
+000133 | Balance Type:
+000134 | na
+000135 | Period Type:
+000136 | instant
+000137 | X
+000138 | - Definition
+000139 | Transition Services Agreement, Transitional Period
+000140 | + References
+000141 | No definition available.
+000142 | + Details
+000143 | Name:
+000144 | hona_TransitionServicesAgreementTransitionalPeriod
+000145 | Namespace Prefix:
+000146 | hona_
+000147 | Data Type:
+000148 | xbrli:durationItemType
+000149 | Balance Type:
+000150 | na
+000151 | Period Type:
+000152 | duration
+000153 | X
+000154 | - Definition
+000155 | Amount authorized for purchase of share under share repurchase plan. Includes, but is not limited to, repurchase of stock and unit of ownership.
+000156 | + References
+000157 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000158 | -Topic 505
+000159 | -SubTopic 30
+000160 | -Name Accounting Standards Codification
+000161 | -Section 50
+000162 | -Paragraph 4
+000163 | -Publisher FASB
+000164 | -URI https://asc.fasb.org/1943274/2147481520/505-30-50-4
+000165 | + Details
+000166 | Name:
+000167 | srt_StockRepurchaseProgramAuthorizedAmount1
+000168 | Namespace Prefix:
+000169 | srt_
+000170 | Data Type:
+000171 | xbrli:monetaryItemType
+000172 | Balance Type:
+000173 | credit
+000174 | Period Type:
+000175 | instant
+000176 | X
+000177 | - Definition
+000178 | Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued, repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners, and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+000179 | + References
+000180 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000181 | -Topic 505
+000182 | -SubTopic 10
+000183 | -Name Accounting Standards Codification
+000184 | -Section S45
+000185 | -Paragraph 3
+000186 | -Publisher FASB
+000187 | -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3
+000188 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000189 | -Topic 210
+000190 | -SubTopic 10
+000191 | -Name Accounting Standards Codification
+000192 | -Section S99
+000193 | -Paragraph 1
+000194 | -Subparagraph (SX 210.5-02(29))
+000195 | -Publisher FASB
+000196 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000197 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000198 | -Topic 942
+000199 | -SubTopic 210
+000200 | -Name Accounting Standards Codification
+000201 | -Section S45
+000202 | -Paragraph 1
+000203 | -Publisher FASB
+000204 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000205 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000206 | -Topic 942
+000207 | -SubTopic 210
+000208 | -Name Accounting Standards Codification
+000209 | -Section S50
+000210 | -Paragraph 1
+000211 | -Publisher FASB
+000212 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000213 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000214 | -Topic 942
+000215 | -SubTopic 210
+000216 | -Name Accounting Standards Codification
+000217 | -Section S99
+000218 | -Paragraph 1
+000219 | -Subparagraph (SX 210.9-03(20))
+000220 | -Publisher FASB
+000221 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000222 | + Details
+000223 | Name:
+000224 | us-gaap_CommonStockSharesIssued
+000225 | Namespace Prefix:
+000226 | us-gaap_
+000227 | Data Type:
+000228 | xbrli:sharesItemType
+000229 | Balance Type:
+000230 | na
+000231 | Period Type:
+000232 | instant
+000233 | X
+000234 | - Definition
+000235 | Number of shares of common stock outstanding. Common stock represent the ownership interest in a corporation.
+000236 | + References
+000237 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000238 | -Topic 505
+000239 | -SubTopic 10
+000240 | -Name Accounting Standards Codification
+000241 | -Section 50
+000242 | -Paragraph 2
+000243 | -Publisher FASB
+000244 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2
+000245 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000246 | -Topic 505
+000247 | -SubTopic 10
+000248 | -Name Accounting Standards Codification
+000249 | -Section S45
+000250 | -Paragraph 3
+000251 | -Publisher FASB
+000252 | -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3
+000253 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000254 | -Topic 210
+000255 | -SubTopic 10
+000256 | -Name Accounting Standards Codification
+000257 | -Section S99
+000258 | -Paragraph 1
+000259 | -Subparagraph (SX 210.5-02(29))
+000260 | -Publisher FASB
+000261 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000262 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000263 | -Topic 942
+000264 | -SubTopic 210
+000265 | -Name Accounting Standards Codification
+000266 | -Section S45
+000267 | -Paragraph 1
+000268 | -Publisher FASB
+000269 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000270 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000271 | -Topic 942
+000272 | -SubTopic 210
+000273 | -Name Accounting Standards Codification
+000274 | -Section S50
+000275 | -Paragraph 1
+000276 | -Publisher FASB
+000277 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000278 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000279 | -Topic 942
+000280 | -SubTopic 210
+000281 | -Name Accounting Standards Codification
+000282 | -Section S99
+000283 | -Paragraph 1
+000284 | -Subparagraph (SX 210.9-03(20))
+000285 | -Publisher FASB
+000286 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000287 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000288 | -Topic 946
+000289 | -SubTopic 210
+000290 | -Name Accounting Standards Codification
+000291 | -Section S99
+000292 | -Paragraph 2
+000293 | -Subparagraph (SX 210.6-05(4))
+000294 | -Publisher FASB
+000295 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2
+000296 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+000297 | -Topic 946
+000298 | -SubTopic 220
+000299 | -Name Accounting Standards Codification
+000300 | -Section S99
+000301 | -Paragraph 3
+000302 | -Subparagraph (SX 210.6-09(4)(b))
+000303 | -Publisher FASB
+000304 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000305 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000306 | -Topic 946
+000307 | -SubTopic 210
+000308 | -Name Accounting Standards Codification
+000309 | -Section S99
+000310 | -Paragraph 1
+000311 | -Subparagraph (SX 210.6-04(16)(a))
+000312 | -Publisher FASB
+000313 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000314 | Reference 10: http://www.xbrl.org/2009/role/commonPracticeRef
+000315 | -Topic 946
+000316 | -SubTopic 220
+000317 | -Name Accounting Standards Codification
+000318 | -Section S99
+000319 | -Paragraph 3
+000320 | -Subparagraph (SX 210.6-09(7))
+000321 | -Publisher FASB
+000322 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000323 | + Details
+000324 | Name:
+000325 | us-gaap_CommonStockSharesOutstanding
+000326 | Namespace Prefix:
+000327 | us-gaap_
+000328 | Data Type:
+000329 | xbrli:sharesItemType
+000330 | Balance Type:
+000331 | na
+000332 | Period Type:
+000333 | instant
+000334 | X
+000335 | - Definition
+000336 | Period between issuance and maturity of debt instrument, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000337 | + References
+000338 | No definition available.
+000339 | + Details
+000340 | Name:
+000341 | us-gaap_DebtInstrumentTerm
+000342 | Namespace Prefix:
+000343 | us-gaap_
+000344 | Data Type:
+000345 | xbrli:durationItemType
+000346 | Balance Type:
+000347 | na
+000348 | Period Type:
+000349 | duration
+000350 | X
+000351 | - Definition
+000352 | Maximum borrowing capacity under the credit facility without consideration of any current restrictions on the amount that could be borrowed or the amounts currently outstanding under the facility.
+000353 | + References
+000354 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000355 | -Topic 210
+000356 | -SubTopic 10
+000357 | -Name Accounting Standards Codification
+000358 | -Section S50
+000359 | -Paragraph 8
+000360 | -Publisher FASB
+000361 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-8
+000362 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000363 | -Topic 210
+000364 | -SubTopic 10
+000365 | -Name Accounting Standards Codification
+000366 | -Section S99
+000367 | -Paragraph 1
+000368 | -Subparagraph (SX 210.5-02(19)(b))
+000369 | -Publisher FASB
+000370 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000371 | + Details
+000372 | Name:
+000373 | us-gaap_LineOfCreditFacilityMaximumBorrowingCapacity
+000374 | Namespace Prefix:
+000375 | us-gaap_
+000376 | Data Type:
+000377 | xbrli:monetaryItemType
+000378 | Balance Type:
+000379 | credit
+000380 | Period Type:
+000381 | instant
+000382 | X
+000383 | - Definition
+000384 | Detail information of subsequent event by type. User is expected to use existing line items from elsewhere in the taxonomy as the primary line items for this disclosure, which is further associated with dimension and member elements pertaining to a subsequent event.
+000385 | + References
+000386 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000387 | -Topic 830
+000388 | -SubTopic 30
+000389 | -Name Accounting Standards Codification
+000390 | -Section 50
+000391 | -Paragraph 2
+000392 | -Publisher FASB
+000393 | -URI https://asc.fasb.org/1943274/2147481674/830-30-50-2
+000394 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000395 | -Topic 855
+000396 | -SubTopic 10
+000397 | -Name Accounting Standards Codification
+000398 | -Section 50
+000399 | -Paragraph 2
+000400 | -Publisher FASB
+000401 | -URI https://asc.fasb.org/1943274/2147483399/855-10-50-2
+000402 | + Details
+000403 | Name:
+000404 | us-gaap_SubsequentEventLineItems
+000405 | Namespace Prefix:
+000406 | us-gaap_
+000407 | Data Type:
+000408 | xbrli:stringItemType
+000409 | Balance Type:
+000410 | na
+000411 | Period Type:
+000412 | duration
+000413 | X
+000414 | - Details
+000415 | Name:
+000416 | us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember
+000417 | Namespace Prefix:
+000418 | Data Type:
+000419 | na
+000420 | Balance Type:
+000421 | Period Type:
+000422 | X
+000423 | - Details
+000424 | Name:
+000425 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_SpinoffMember
+000426 | Namespace Prefix:
+000427 | Data Type:
+000428 | na
+000429 | Balance Type:
+000430 | Period Type:
+000431 | X
+000432 | - Details
+000433 | Name:
+000434 | us-gaap_ShortTermDebtTypeAxis=us-gaap_CommercialPaperMember
+000435 | Namespace Prefix:
+000436 | Data Type:
+000437 | na
+000438 | Balance Type:
+000439 | Period Type:
+000440 | X
+000441 | - Details
+000442 | Name:
+000443 | srt_CounterpartyNameAxis=hona_HoneywellInternationalIncMember
+000444 | Namespace Prefix:
+000445 | Data Type:
+000446 | na
+000447 | Balance Type:
+000448 | Period Type:

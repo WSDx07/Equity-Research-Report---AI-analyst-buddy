@@ -72,9 +72,13 @@ class WorksheetWorkflowTests(unittest.TestCase):
         output = run_worksheet.run(self.args, prepare=prepare, judge=judge)
         result = output.read_text(encoding='utf-8')
         self.assertEqual(judge.call_count, 1)
-        self.assertIn('Owner cash flow: 90 USD = 100 + 20 - 30', result)
+        self.assertIn('Owner cash flow: 90 USD [calc id=owner_cash_flow]', result)
         self.assertIn('Parent: not applicable', result)
         self.assertIn('Median daily dollar volume: 20000000 USD', result)
+        self.assertEqual(worksheet_guard.validate_worksheet(output), [])
+        changed = output.with_name('altered.md')
+        changed.write_text(result.replace('After-tax earnings: 100 USD', 'After-tax earnings: 101 USD', 1), encoding='utf-8')
+        self.assertTrue(worksheet_guard.validate_worksheet(changed))
         payload = judge.call_args.args[3]
         self.assertNotIn('bars', json.dumps(payload))
         self.assertNotIn('volume', json.dumps(payload))
@@ -87,6 +91,13 @@ class WorksheetWorkflowTests(unittest.TestCase):
         self.assertIn('Dated market price: not computed', text)
         self.assertIn('View: not computed', text)
         self.assertIn('Conviction: not computed', text)
+
+    def test_unmarked_model_number_prevents_saved_worksheet(self):
+        with self.assertRaisesRegex(ValueError, 'Worksheet format check failed'):
+            run_worksheet.run(self.args, prepare=Mock(return_value=(self.root, self.manifest)),
+                              judge=Mock(return_value={'story': 'Unverified value 42.', 'change': 'Review the next filing.'}))
+        self.assertEqual(list(self.run_dir.glob('worksheet-*.md')), [])
+        self.assertEqual(list(self.run_dir.glob('worksheet-check-*.tmp')), [])
 
     def test_separate_live_company_never_reuses_target_reader(self):
         live_run = self.root / 'live'
@@ -293,6 +304,14 @@ class WorksheetWorkflowTests(unittest.TestCase):
         result = worksheet_evidence.read_financial_inputs(self.run_dir, {'as_of': '2025-02-01', 'concepts': {}})
         self.assertNotIn('diluted_shares', result)
         self.assertEqual(result['common_shares']['value'], '100')
+
+    def test_other_company_filing_in_run_does_not_replace_company_input(self):
+        foreign = self.run_dir / 'OTHER_10-K_000000000025000005.txt'
+        foreign.write_text('CONSOLIDATED STATEMENTS OF OPERATIONS\n(In millions)\n'
+                           'For the Year Ended December 31,\n2025\n2024\nNet income\n999\n100\n', encoding='utf-8')
+        facts = dict(self.facts, as_of='2026-02-01')
+        result = worksheet_evidence.read_financial_inputs(self.run_dir, facts)
+        self.assertEqual(result['after_tax_earnings']['value'], '100')
 
     def test_hook_finds_automatic_output_and_rejects_external_output(self):
         report = self.run_dir / 'worksheet.md'

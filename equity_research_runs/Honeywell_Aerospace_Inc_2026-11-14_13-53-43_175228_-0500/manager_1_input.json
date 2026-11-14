@@ -1,0 +1,407 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "Honeywell Aerospace Inc. is an independent global aerospace and defense company whose critical technologies are broadly deployed on the world’s leading commercial air transport, business aviation, defense and space platforms. These integrated solutions enable safer, more efficient, and more reliable missions. With a broad portfolio spanning avionics and navigation systems, engines and power systems, and control systems for aircraft, Honeywell Aerospace combines commitment and deep engineering expertise to drive innovation and long-term value for the aerospace industry. Our comprehensive portfolio of market leading systems and technologies are organized into three reportable segments: Electronic Solutions, Engines & Power Systems, and Control Systems.",
+          "document": "10-Q",
+          "line": 169,
+          "quote": "Honeywell Aerospace Inc. (“Honeywell Aerospace”, “Aerospace”, “we”, “us”, or “our”) is an independent global aerospace and defense company whose critical technologies are broadly deployed on the world’s leading commercial air transport, business aviation, defense and space platforms. These integrated solutions enable safer, more efficient, and more reliable missions. With a broad portfolio spanning avionics and navigation systems, engines and power systems, and control systems for aircraft, Honeywell Aerospace combines commitment and deep engineering expertise to drive innovation and long-term value for the aerospace industry. Our comprehensive portfolio of market leading systems and technologies are organized into three reportable segments: Electronic Solutions, Engines & Power Systems, and Control Systems."
+        },
+        {
+          "section": "Overview",
+          "claim": "We are a leading global tier‑1 aerospace and defense supplier of mission critical systems and technologies that enable the production, maintenance, and safe operation of aerospace and defense platforms. Our systems and technologies support original equipment manufacturer (“OEM”), government, defense prime contractors, and aircraft operator customers across the Commercial Air Transport, Business Aviation, and Defense and Space end markets. Our comprehensive portfolio of market leading systems and technologies are organized into the following segments: Electronic Solutions (“ES”), Engines & Power Systems (“E&PS”), and Control Systems (“CS”).",
+          "document": "10-Q",
+          "line": 879,
+          "quote": "We are a leading global tier-1 aerospace and defense supplier of mission critical systems and technologies that enable the production, maintenance, and safe operation of aerospace and defense platforms. Our systems and technologies support original equipment manufacturer (“OEM”), government, defense prime contractors, and aircraft operator customers across the Commercial Air Transport, Business Aviation, and Defense and Space end markets. Our comprehensive portfolio of market leading systems and technologies are organized into the following segments: Electronic Solutions (“ES”), Engines & Power Systems (“E&PS”), and Control Systems (“CS”)."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Demand for our solutions remains robust with 9% orders growth over the last 12 months.",
+          "document": "EX-99.1",
+          "line": 23,
+          "quote": "Demand for our solutions remains robust with 9% orders growth over the last 12 months,"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Year to date, the company has secured more than $20 billion in new wins (estimated lifetime value) supported by the following announcements:",
+          "document": "EX-99.1",
+          "line": 28,
+          "quote": "•Year to date, the company has secured more than $20 billion in new wins (estimated lifetime value) supported by the following announcements:"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The Separation and Distribution Agreement sets forth, among other things, the Company’s agreements with Honeywell regarding the principal actions to be taken in connection with the Spin‑off.",
+          "document": "10-Q",
+          "line": 395,
+          "quote": "•The Separation and Distribution Agreement sets forth, among other things, the Company’s agreements with Honeywell regarding the principal actions to be taken in connection with the Spin‑off."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The company announced a 300,000 square foot expansion of its Tempe, Arizona manufacturing facility, expected to open in late 2028. The new facility adds capacity, lean manufacturing, automation, and supply‑chain resilience to support current Control Systems production, recent wins, and next generation platforms.",
+          "document": "EX-99.1",
+          "line": 33,
+          "quote": "•The company announced a 300,000 square foot expansion of its Tempe, Arizona manufacturing facility, expected to open in late 2028. The new facility adds capacity, lean manufacturing, automation, and supply-chain resilience to support current Control Systems production, recent wins, and next generation platforms."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "These measures are intended to improve supply continuity and support customer commitments while maintaining product quality and reliability; however, supply constraints and associated cost pressures may persist.",
+          "document": "10-Q",
+          "line": 891,
+          "quote": "These measures are intended to improve supply continuity and support customer commitments while maintaining product quality and reliability; however, supply constraints and associated cost pressures may persist."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management recommends focusing on strengthening supply‑chain resilience and accelerating the Tempe facility expansion to capture additional demand, recognizing that supply constraints could otherwise limit output growth.",
+          "document": "10-Q",
+          "line": 891,
+          "quote": "These measures are intended to improve supply continuity and support customer commitments while maintaining product quality and reliability; however, supply constraints and associated cost pressures may persist."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management recommends allocating capital toward the Tempe expansion and continued supplier development programs to mitigate identified material shortages, as these actions are expected to sustain order growth and protect margins.",
+          "document": "10-Q",
+          "line": 891,
+          "quote": "These measures are intended to improve supply continuity and support customer commitments while maintaining product quality and reliability; however, supply constraints and associated cost pressures may persist."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "No disclosed quantitative market‑share data are provided, so competitor positioning cannot be directly verified.",
+          "document": "10-Q",
+          "line": -1,
+          "quote": ""
+        }
+      ],
+      "gaps": [
+        "The filing does not contain explicit market‑share percentages or a peer‑comparison table; competitive positioning relative to other tier‑1 suppliers is not quantified.",
+        "Forward‑looking guidance on organic sales growth beyond the stated 4‑5% range lacks detailed operational assumptions, so the magnitude of expected upside cannot be precisely evaluated.",
+        "The Impact of the trademark‑license payment ($1,125 million over five years) on long‑term profitability is described but not broken out in the MD&A; the effect on margins remains uncertain.",
+        "While the release cites a $20 billion pipeline, the breakdown by segment or timing of win realization is not detailed, limiting assessment of near‑term revenue impact.",
+        "The 10‑Q mentions the stock‑incentive plan but provides no projection of dilution or expense, leaving the potential effect on earnings per share unquantified.",
+        "The filing notes a $16 billion senior note issuance but does not disclose the covenant structure or refinancing risk, creating a gap in debt‑service analysis."
+      ],
+      "insight": ""
+    },
+    "financial": {
+      "observations": [
+        "Honeycomb Aerospace’s SEC filing indicates that no annual 10‑K facts are presently available; the only facts posted are quarterly and are explicitly noted as not being annualized, which limits any reliable year‑over‑year ratio analysis.",
+        "The XBRL data set for the company does not contain populated values for total revenue, operating income, net income, diluted EPS, equity, or debt, so those standard financial metrics cannot be verified from the structured filings.",
+        "The 10‑Q report for the quarter ended late September 2026 provides GAAP statements that show sales and net income for the three‑month and nine‑month periods, but without comparable annualized figures the usual profitability and margin calculations are constrained.",
+        "Management’s discussion highlights modest organic sales growth and a small increase in adjusted EBIT, while also noting ongoing supply‑chain constraints that are limiting output growth despite strong order backlogs.",
+        "The company announced a first quarterly cash dividend, which signals management’s confidence in cash‑flow generation and its commitment to returning capital to shareholders.",
+        "Non‑GAAP measures such as organic sales growth, adjusted EBIT, and free cash flow are defined within the release, but reconciliations to the most comparable GAAP numbers are not provided, limiting their interpretive value.",
+        "The filing notes that the company’s fiscal year runs on a calendar basis, with quarter‑end dates set on Saturdays to reduce operational disruption; the current quarter ended in late September 2026.",
+        "There are no peer facts supplied, so any comparative analysis against industry peers cannot be performed at this time."
+      ],
+      "gaps": [
+        "Missing annual financial facts preclude calculation of standard valuation multiples such as price‑to‑earnings, price‑to‑sales, or enterprise‑value‑to‑EBITDA.",
+        "Absence of peer data prevents benchmarking the company’s performance relative to competitors.",
+        "The lack of a documented market price, price date, and source means valuation ratios cannot be derived.",
+        "Non‑GAAP free‑cash‑flow guidance is presented without a quantitative reconciliation, so its precision cannot be assessed.",
+        "The XBRL dataset does not map the reported concepts to SEC tags, leaving the data non‑comparable.",
+        "No disclosed debt‑to‑equity or leverage ratios are available from the filed facts."
+      ],
+      "insight": ""
+    },
+    "advisor": {
+      "recommendation": "Insufficient evidence",
+      "thesis": "The filing provides extensive narrative on the company’s market positioning, supply‑chain initiatives and recent financing activity, but it lacks the quantitative financial inputs required for a rigorous valuation. Critical metrics such as revenue growth, operating margin, return on equity and leverage are not disclosed in a usable form, preventing an objective assessment of earnings durability or valuation relative to peers.",
+      "deciding_metric": "price_to_earnings",
+      "risks": [
+        "Supply‑chain constraints could limit production and pressure margins.",
+        "High levels of senior debt and associated interest obligations increase financial risk.",
+        "Ongoing trademark‑license payments add a recurring cost burden.",
+        "Litigation exposures and potential regulatory changes create uncertainty."
+      ],
+      "insight": "Insight:"
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 22,
+      "text": "PHOENIX, October 28, 2026 -- Honeywell Aerospace (Nasdaq: HONA) today announced results for the third quarter and declared its first quarterly dividend. The company also raised its full-year 2026 pro forma standalone adjusted earnings per share1 and second half 2026 free cash flow1 guidance ranges, maintained its full-year organic1 sales outlook, and narrowed its full-year pro forma standalone adjusted EBIT1 guidance range.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "HONA",
+        "name": "Honeywell Aerospace Inc.",
+        "cik": 2089271,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-14",
+      "retrieved_at": "2026-11-14T13:53:49.857394-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002089271.json",
+      "fiscal_year_end": null,
+      "prior_fiscal_year_end": null,
+      "preferred_10k_accession": null,
+      "limitation": "No annual 10-K facts established; quarterly facts are not annualized.",
+      "concepts": {
+        "total_revenue": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "operating_income": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "net_income": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "diluted_eps": {
+          "tag": null,
+          "unit": "USD/shares",
+          "current": null,
+          "prior": null
+        },
+        "stockholders_equity": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "long_term_debt_noncurrent": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "long_term_debt_current": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "cash_from_operations": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "additions_to_property_and_equipment": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": null,
+      "operating_margin_percent": null,
+      "return_on_average_equity_percent": null,
+      "debt_to_equity": null,
+      "free_cash_flow_usd": null,
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": null
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-14T13:53:50.544260-05:00",
+      "analysis_date": "2026-11-14",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD/shares",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD/shares",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 10 has an invalid or non-verbatim document line and quote.",
+        "No Insight line was supplied."
+      ],
+      "financial_issues": [
+        "No Insight line was supplied.",
+        "Financial observations contain digits."
+      ],
+      "advisor_issues": [
+        "Insight needs a filing, line number, and exact quote from that line.",
+        "Select one available calculator result as the deciding metric and explain why it drives the recommendation."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

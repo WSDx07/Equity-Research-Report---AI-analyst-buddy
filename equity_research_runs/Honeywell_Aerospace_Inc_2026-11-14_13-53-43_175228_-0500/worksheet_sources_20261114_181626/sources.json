@@ -1,0 +1,4202 @@
+{
+  "schema_version": 1,
+  "ticker": "HONA",
+  "company_name": "Honeywell Aerospace Inc.",
+  "cik": "0002089271",
+  "as_of": "2026-11-14",
+  "prepared_at": "2026-11-14T23:17:36.044699+00:00",
+  "saved_run": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\equity_research_runs\\Honeywell_Aerospace_Inc_2026-11-14_13-53-43_175228_-0500",
+  "facts_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\equity_research_runs\\Honeywell_Aerospace_Inc_2026-11-14_13-53-43_175228_-0500\\facts.json",
+  "filings_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\equity_research_runs\\Honeywell_Aerospace_Inc_2026-11-14_13-53-43_175228_-0500\\filings.json",
+  "registry_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\runs\\live\\group_spinoff_registry.json",
+  "registry_present": true,
+  "registry_facts": {
+    "parent": [
+      {
+        "value": "Honeywell International Inc.",
+        "filing": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/exhibit991-10x12ba2.htm",
+        "section": "Shareholder letter",
+        "filing_date": "2026-06-08",
+        "quote": "Honeywell distribution"
+      }
+    ],
+    "parent_cik": [
+      {
+        "value": "0000773840",
+        "filing": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625.htm",
+        "section": "Cover page",
+        "filing_date": "2026-06-29",
+        "quote": "Honeywell International Inc."
+      }
+    ],
+    "distribution_ratio": [
+      {
+        "value": "one share of Honeywell Aerospace for every two shares of Honeywell common stock",
+        "filing": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/exhibit991-10x12ba2.htm",
+        "section": "Shareholder letter",
+        "filing_date": "2026-06-08",
+        "quote": "one share of Honeywell Aerospace for every two shares of Honeywell common stock"
+      }
+    ],
+    "record_date": [
+      {
+        "value": "2026-06-15",
+        "filing": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/exhibit991-10x12ba2.htm",
+        "section": "Shareholder letter",
+        "filing_date": "2026-06-08",
+        "quote": "record date 2026-06-15"
+      }
+    ],
+    "distribution_date": [
+      {
+        "value": "2026-06-29",
+        "filing": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625.htm",
+        "section": "Item 2.01",
+        "filing_date": "2026-06-29",
+        "quote": "distribution completed 2026-06-29"
+      }
+    ]
+  },
+  "parent_cik": "0000773840",
+  "distribution_date": "2026-06-29",
+  "registration_accession": "000162828026041399",
+  "distribution_filing_documents": [
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "0000773840-26-000084-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/0000773840-26-000084-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_0000773840-26-000084-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "0000773840-26-000084-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/0000773840-26-000084-index.html",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_0000773840-26-000084-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "exhibit101-taxmattersagree.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/exhibit101-taxmattersagree.htm",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_exhibit101-taxmattersagree.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "exhibit102-trademarklicens.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/exhibit102-trademarklicens.htm",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_exhibit102-trademarklicens.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "exhibit21-separationanddis.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/exhibit21-separationanddis.htm",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_exhibit21-separationanddis.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "exhibit31-amendmenttocerti.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/exhibit31-amendmenttocerti.htm",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_exhibit31-amendmenttocerti.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "exhibit991-pressrelease629.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/exhibit991-pressrelease629.htm",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_exhibit991-pressrelease629.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "exhibit992-junexwintersupp.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/exhibit992-junexwintersupp.htm",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_exhibit992-junexwintersupp.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "exhibit993unauditedproform.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/exhibit993unauditedproform.htm",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_exhibit993unauditedproform.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "FilingSummary.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/FilingSummary.xml",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_FilingSummary.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "hon-20260625.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625.htm",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_hon-20260625.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "hon-20260625_def.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625_def.xml",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_hon-20260625_def.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "hon-20260625_htm.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625_htm.xml",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_hon-20260625_htm.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "hon-20260625_lab.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625_lab.xml",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_hon-20260625_lab.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "hon-20260625_pre.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625_pre.xml",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_hon-20260625_pre.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "distribution_8-K",
+      "accession": "000077384026000084",
+      "name": "R1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/R1.htm",
+      "path": "worksheet_sources_20261114_181626\\distribution_8-K_000077384026000084_R1.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/0000773840-26-000084.txt",
+      "error": "Unparsed embedded attachment: report.css"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/0000773840-26-000084.txt",
+      "error": "Unparsed embedded attachment: MetaLinks.json"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/0000773840-26-000084.txt",
+      "error": "Unparsed embedded attachment: 0000773840-26-000084-xbrl.zip"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/0000773840-26-000084.txt",
+      "error": "Unparsed embedded attachment: Show.js"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/0000773840-26-000084.txt",
+      "error": "Unparsed embedded attachment: hon-20260625.xsd"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/0000773840-26-000084.txt",
+      "error": "Unparsed embedded attachment: ht_logoxprimxrgbxred300xpo.jpg"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/0000773840-26-000084-xbrl.zip",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625.xsd",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/ht_logoxprimxrgbxred300xpo.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/MetaLinks.json",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/report.css",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "8-K",
+      "accession": "000077384026000084",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/Show.js",
+      "error": "Unsupported or invalid attachment name"
+    }
+  ],
+  "live_release": {
+    "run": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\runs\\live\\Sam_Sagard_HONA\\Sagard_SEC_evidence",
+    "ticker": "NOT LISTED",
+    "cik": "0002133018",
+    "form": "D",
+    "filing_date": "2026-11-10",
+    "accession": "000094562126001355",
+    "filing_time": {
+      "value": "2026-11-10T21:17:15+00:00",
+      "source": "SEC submissions acceptanceDateTime"
+    },
+    "documents": [
+      {
+        "form": "live_release_D",
+        "accession": "000094562126001355",
+        "name": "0000945621-26-001355-index-headers.html",
+        "url": "https://www.sec.gov/Archives/edgar/data/2133018/000094562126001355/0000945621-26-001355-index-headers.html",
+        "path": "worksheet_sources_20261114_181626\\live_release_D_000094562126001355_0000945621-26-001355-index-headers.html.txt",
+        "kind": "readable text",
+        "filing_date": "2026-11-10"
+      },
+      {
+        "form": "live_release_D",
+        "accession": "000094562126001355",
+        "name": "0000945621-26-001355-index.html",
+        "url": "https://www.sec.gov/Archives/edgar/data/2133018/000094562126001355/0000945621-26-001355-index.html",
+        "path": "worksheet_sources_20261114_181626\\live_release_D_000094562126001355_0000945621-26-001355-index.html.txt",
+        "kind": "readable text",
+        "filing_date": "2026-11-10"
+      },
+      {
+        "form": "live_release_D",
+        "accession": "000094562126001355",
+        "name": "primary_doc.xml",
+        "url": "https://www.sec.gov/Archives/edgar/data/2133018/000094562126001355/primary_doc.xml",
+        "path": "worksheet_sources_20261114_181626\\live_release_D_000094562126001355_primary_doc.xml.txt",
+        "kind": "readable text",
+        "filing_date": "2026-11-10"
+      }
+    ]
+  },
+  "live_run_source_files": [
+    "worksheet_sources_20261114_181626\\live_facts.json",
+    "worksheet_sources_20261114_181626\\live_filings.json"
+  ],
+  "run_filing_texts": [
+    "HONA_10-Q_0002089271-26-000032.txt",
+    "HONA_10-Q_0002089271-26-000032.txt"
+  ],
+  "first_company_filings_after_spin": [
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "0002089271-26-000021-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_0002089271-26-000021-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "0002089271-26-000021-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021-index.html",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_0002089271-26-000021-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "exhibit1018honeywellaerosp.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/exhibit1018honeywellaerosp.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_exhibit1018honeywellaerosp.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "exhibit1019honeywellaerosp.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/exhibit1019honeywellaerosp.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_exhibit1019honeywellaerosp.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "exhibit1020honeywellaerosp.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/exhibit1020honeywellaerosp.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_exhibit1020honeywellaerosp.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "exhibit1021honeywellaerosp.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/exhibit1021honeywellaerosp.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_exhibit1021honeywellaerosp.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "exhibit311-section302certi.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/exhibit311-section302certi.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_exhibit311-section302certi.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "exhibit312-section302certi.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/exhibit312-section302certi.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_exhibit312-section302certi.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "exhibit321-section906certi.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/exhibit321-section906certi.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_exhibit321-section906certi.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "exhibit322-section906certi.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/exhibit322-section906certi.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_exhibit322-section906certi.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "FilingSummary.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/FilingSummary.xml",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_FilingSummary.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "hona-20260627.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_hona-20260627.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "hona-20260627_cal.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_cal.xml",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_hona-20260627_cal.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "hona-20260627_def.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_def.xml",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_hona-20260627_def.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "hona-20260627_htm.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_htm.xml",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_hona-20260627_htm.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "hona-20260627_lab.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_lab.xml",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_hona-20260627_lab.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "hona-20260627_pre.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_pre.xml",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_hona-20260627_pre.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R1.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R1.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R10.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R10.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R10.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R11.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R11.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R11.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R12.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R12.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R12.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R13.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R13.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R13.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R14.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R14.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R14.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R15.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R15.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R15.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R16.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R16.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R16.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R17.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R17.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R17.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R18.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R18.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R18.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R19.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R19.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R19.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R2.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R2.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R2.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R20.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R20.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R20.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R21.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R21.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R21.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R22.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R22.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R22.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R23.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R23.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R23.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R24.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R24.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R24.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R25.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R25.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R25.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R26.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R26.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R26.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R27.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R27.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R27.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R28.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R28.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R28.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R29.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R29.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R29.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R3.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R3.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R3.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R30.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R30.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R30.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R31.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R31.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R31.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R32.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R32.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R32.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R33.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R33.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R33.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R34.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R34.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R34.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R35.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R35.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R35.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R36.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R36.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R36.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R37.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R37.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R37.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R38.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R38.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R38.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R39.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R39.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R39.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R4.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R4.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R4.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R40.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R40.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R40.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R41.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R41.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R41.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R42.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R42.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R42.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R43.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R43.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R43.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R44.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R44.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R44.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R45.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R45.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R45.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R46.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R46.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R46.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R47.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R47.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R47.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R48.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R48.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R48.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R49.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R49.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R49.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R5.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R5.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R5.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R50.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R50.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R50.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R51.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R51.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R51.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R52.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R52.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R52.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R53.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R53.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R53.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R54.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R54.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R54.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R55.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R55.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R55.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R56.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R56.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R56.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R57.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R57.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R57.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R58.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R58.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R58.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R59.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R59.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R59.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R6.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R6.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R6.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R60.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R60.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R60.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R61.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R61.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R61.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R62.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R62.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R62.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R63.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R63.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R63.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R7.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R7.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R7.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R8.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R8.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R8.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "first_post_spin_10-Q",
+      "accession": "000208927126000021",
+      "name": "R9.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/R9.htm",
+      "path": "worksheet_sources_20261114_181626\\first_post_spin_10-Q_000208927126000021_R9.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g13.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g21.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g8.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g14.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g12.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: report.css"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g6.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g18.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g20.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g7.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627.xsd"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g4.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g1.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g22.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g10.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g2.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g16.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g3.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g15.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g17.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g9.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: 0002089271-26-000021-xbrl.zip"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g5.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g23.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g24.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: MetaLinks.json"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g19.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: Show.js"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021.txt",
+      "error": "Unparsed embedded attachment: hona-20260627_g11.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/0002089271-26-000021-xbrl.zip",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627.xsd",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g1.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g10.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g11.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g12.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g13.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g14.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g15.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g16.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g17.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g18.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g19.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g2.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g20.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g21.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g22.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g23.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g24.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g3.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g4.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g5.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g6.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g7.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g8.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/hona-20260627_g9.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/MetaLinks.json",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/report.css",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000208927126000021",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000021/Show.js",
+      "error": "Unsupported or invalid attachment name"
+    }
+  ],
+  "parent_filings_after_spin": [
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "0000773840-26-000143-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_0000773840-26-000143-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "0000773840-26-000143-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143-index.html",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_0000773840-26-000143-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "exhibit10293026.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/exhibit10293026.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_exhibit10293026.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "exhibit31109302026.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/exhibit31109302026.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_exhibit31109302026.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "exhibit31209302026.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/exhibit31209302026.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_exhibit31209302026.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "exhibit32109302026.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/exhibit32109302026.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_exhibit32109302026.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "exhibit32209302026.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/exhibit32209302026.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_exhibit32209302026.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "exhibit9509302026.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/exhibit9509302026.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_exhibit9509302026.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "FilingSummary.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/FilingSummary.xml",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_FilingSummary.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "hon-20260930.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_hon-20260930.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "hon-20260930_cal.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_cal.xml",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_hon-20260930_cal.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "hon-20260930_def.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_def.xml",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_hon-20260930_def.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "hon-20260930_htm.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_htm.xml",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_hon-20260930_htm.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "hon-20260930_lab.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_lab.xml",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_hon-20260930_lab.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "hon-20260930_pre.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_pre.xml",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_hon-20260930_pre.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R1.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R1.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R10.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R10.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R10.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R11.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R11.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R11.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R12.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R12.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R12.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R13.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R13.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R13.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R14.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R14.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R14.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R15.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R15.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R15.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R16.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R16.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R16.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R17.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R17.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R17.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R18.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R18.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R18.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R19.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R19.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R19.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R2.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R2.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R2.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R20.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R20.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R20.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R21.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R21.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R21.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R22.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R22.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R22.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R23.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R23.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R23.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R24.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R24.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R24.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R25.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R25.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R25.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R26.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R26.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R26.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R27.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R27.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R27.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R28.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R28.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R28.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R29.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R29.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R29.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R3.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R3.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R3.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R30.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R30.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R30.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R31.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R31.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R31.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R32.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R32.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R32.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R33.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R33.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R33.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R34.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R34.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R34.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R35.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R35.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R35.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R36.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R36.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R36.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R37.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R37.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R37.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R38.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R38.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R38.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R39.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R39.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R39.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R4.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R4.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R4.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R40.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R40.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R40.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R41.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R41.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R41.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R42.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R42.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R42.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R43.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R43.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R43.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R44.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R44.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R44.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R45.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R45.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R45.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R46.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R46.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R46.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R47.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R47.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R47.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R48.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R48.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R48.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R49.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R49.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R49.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R5.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R5.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R5.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R50.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R50.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R50.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R51.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R51.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R51.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R52.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R52.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R52.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R53.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R53.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R53.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R54.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R54.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R54.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R55.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R55.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R55.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R56.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R56.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R56.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R57.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R57.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R57.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R58.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R58.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R58.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R59.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R59.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R59.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R6.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R6.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R6.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R60.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R60.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R60.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R61.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R61.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R61.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R62.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R62.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R62.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R63.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R63.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R63.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R64.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R64.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R64.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R65.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R65.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R65.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R66.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R66.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R66.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R67.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R67.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R67.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R68.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R68.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R68.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R69.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R69.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R69.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R7.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R7.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R7.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R70.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R70.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R70.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R71.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R71.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R71.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R72.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R72.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R72.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R73.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R73.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R73.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R74.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R74.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R74.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R75.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R75.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R75.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R76.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R76.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R76.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R77.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R77.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R77.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R78.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R78.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R78.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R79.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R79.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R79.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R8.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R8.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R8.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R80.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R80.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R80.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R81.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R81.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R81.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R82.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R82.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R82.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R83.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R83.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R83.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R84.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R84.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R84.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R85.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R85.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R85.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R86.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R86.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R86.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R87.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R87.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R87.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "parent_10-Q",
+      "accession": "000077384026000143",
+      "name": "R9.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/R9.htm",
+      "path": "worksheet_sources_20261114_181626\\parent_10-Q_000077384026000143_R9.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g21.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g29.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g32.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g27.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g5.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g8.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g31.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g23.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g18.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g14.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: report.css"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g11.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g20.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g9.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g16.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g25.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g28.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g10.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g12.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: honeywelltechnologieslogoa.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g35.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g1.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g33.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g26.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g24.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g15.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g3.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g7.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930.xsd"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g19.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g4.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g2.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g30.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g34.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g6.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: MetaLinks.json"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g22.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: 0000773840-26-000143-xbrl.zip"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g17.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: Show.js"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143.txt",
+      "error": "Unparsed embedded attachment: hon-20260930_g13.jpg"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/0000773840-26-000143-xbrl.zip",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930.xsd",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g1.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g10.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g11.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g12.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g13.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g14.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g15.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g16.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g17.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g18.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g19.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g2.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g20.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g21.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g22.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g23.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g24.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g25.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g26.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g27.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g28.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g29.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g3.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g30.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g31.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g32.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g33.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g34.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g35.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g4.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g5.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g6.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g7.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g8.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930_g9.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/honeywelltechnologieslogoa.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/MetaLinks.json",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/report.css",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-Q",
+      "accession": "000077384026000143",
+      "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/Show.js",
+      "error": "Unsupported or invalid attachment name"
+    }
+  ],
+  "saved_source_documents": [
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "name": "0001628280-26-041399-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\10-12B_A_000162828026041399_0001628280-26-041399-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-08"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "name": "0001628280-26-041399-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399-index.html",
+      "path": "worksheet_sources_20261114_181626\\10-12B_A_000162828026041399_0001628280-26-041399-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-08"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "name": "exhibit31-10x12ba2.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/exhibit31-10x12ba2.htm",
+      "path": "worksheet_sources_20261114_181626\\10-12B_A_000162828026041399_exhibit31-10x12ba2.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-08"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "name": "exhibit32-10x12ba2.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/exhibit32-10x12ba2.htm",
+      "path": "worksheet_sources_20261114_181626\\10-12B_A_000162828026041399_exhibit32-10x12ba2.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-08"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "name": "exhibit991-10x12ba2.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/exhibit991-10x12ba2.htm",
+      "path": "worksheet_sources_20261114_181626\\10-12B_A_000162828026041399_exhibit991-10x12ba2.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-08"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "name": "honeywellaerospace-10x12ba2.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/honeywellaerospace-10x12ba2.htm",
+      "path": "worksheet_sources_20261114_181626\\10-12B_A_000162828026041399_honeywellaerospace-10x12ba2.htm.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-08"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-79bce2b8c9cf45589c7.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-1855ed20cfa94a01a80.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-e2e4e52b1dcb45b3839.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: business4.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-f530463bd0b54a049b0.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: honeywellaerospacelogo.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: summary3.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-ce87c39d77194458bcf.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-7b38f814d01a4870b62.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-bc387aaa733a4e14898.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-723d78d5941445d8ab7.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: honeywelllogo.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: summary1.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-53b44a6301cc47d1b3c.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-8c467a3648bb4caa9f3.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: topright.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: summary4a.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-e6b5375c43094886a7b.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: summary2a.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-55e08f3a29a6446b89d.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: botleft.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-cbc5c9d401b24742aac.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: topleft.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-b83eddacaeb24afcaed.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: cdgraph1a.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-b29de3d6c8e145c2938.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: botright.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-aecb7ece7e2d419f855.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/0001628280-26-041399.txt",
+      "error": "Unparsed embedded attachment: chart-c878dd7c65bd4ba9aa7.jpg"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/botleft.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/botright.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/business4.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/cdgraph1a.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-1855ed20cfa94a01a80.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-53b44a6301cc47d1b3c.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-55e08f3a29a6446b89d.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-723d78d5941445d8ab7.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-79bce2b8c9cf45589c7.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-7b38f814d01a4870b62.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-8c467a3648bb4caa9f3.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-aecb7ece7e2d419f855.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-b29de3d6c8e145c2938.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-b83eddacaeb24afcaed.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-bc387aaa733a4e14898.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-c878dd7c65bd4ba9aa7.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-cbc5c9d401b24742aac.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-ce87c39d77194458bcf.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-e2e4e52b1dcb45b3839.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-e6b5375c43094886a7b.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/chart-f530463bd0b54a049b0.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/honeywellaerospacelogo.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/honeywelllogo.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/summary1.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/summary2a.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/summary3.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/summary4a.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/topleft.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "10-12B/A",
+      "accession": "000162828026041399",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/topright.jpg",
+      "error": "Unsupported or invalid attachment name"
+    },
+    {
+      "form": "live_release_D",
+      "accession": "000094562126001355",
+      "name": "0000945621-26-001355-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2133018/000094562126001355/0000945621-26-001355-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\live_release_D_000094562126001355_0000945621-26-001355-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-11-10"
+    },
+    {
+      "form": "live_release_D",
+      "accession": "000094562126001355",
+      "name": "0000945621-26-001355-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2133018/000094562126001355/0000945621-26-001355-index.html",
+      "path": "worksheet_sources_20261114_181626\\live_release_D_000094562126001355_0000945621-26-001355-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-11-10"
+    },
+    {
+      "form": "live_release_D",
+      "accession": "000094562126001355",
+      "name": "primary_doc.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2133018/000094562126001355/primary_doc.xml",
+      "path": "worksheet_sources_20261114_181626\\live_release_D_000094562126001355_primary_doc.xml.txt",
+      "kind": "readable text",
+      "filing_date": "2026-11-10"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026071032",
+      "name": "0001628280-26-071032-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026071032/0001628280-26-071032-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026071032_0001628280-26-071032-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-11-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026071032",
+      "name": "0001628280-26-071032-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026071032/0001628280-26-071032-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026071032_0001628280-26-071032-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-11-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026071032",
+      "name": "wk-form4_1793912869.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026071032/wk-form4_1793912869.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026071032_wk-form4_1793912869.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-11-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026060444",
+      "name": "0001628280-26-060444-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026060444/0001628280-26-060444-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026060444_0001628280-26-060444-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-09-03"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026060444",
+      "name": "0001628280-26-060444-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026060444/0001628280-26-060444-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026060444_0001628280-26-060444-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-09-03"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026060444",
+      "name": "wk-form4_1788466285.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026060444/wk-form4_1788466285.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026060444_wk-form4_1788466285.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-09-03"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026054956",
+      "name": "0001628280-26-054956-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026054956/0001628280-26-054956-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026054956_0001628280-26-054956-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-07"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026054956",
+      "name": "0001628280-26-054956-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026054956/0001628280-26-054956-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026054956_0001628280-26-054956-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-07"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026054956",
+      "name": "wk-form4_1786142087.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026054956/wk-form4_1786142087.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026054956_wk-form4_1786142087.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-07"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053731",
+      "name": "0001628280-26-053731-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053731/0001628280-26-053731-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053731_0001628280-26-053731-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053731",
+      "name": "0001628280-26-053731-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053731/0001628280-26-053731-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053731_0001628280-26-053731-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053731",
+      "name": "wk-form4_1785976707.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053731/wk-form4_1785976707.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053731_wk-form4_1785976707.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053727",
+      "name": "0001628280-26-053727-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053727/0001628280-26-053727-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053727_0001628280-26-053727-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053727",
+      "name": "0001628280-26-053727-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053727/0001628280-26-053727-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053727_0001628280-26-053727-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053727",
+      "name": "wk-form4_1785976657.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053727/wk-form4_1785976657.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053727_wk-form4_1785976657.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053725",
+      "name": "0001628280-26-053725-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053725/0001628280-26-053725-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053725_0001628280-26-053725-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053725",
+      "name": "0001628280-26-053725-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053725/0001628280-26-053725-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053725_0001628280-26-053725-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053725",
+      "name": "wk-form4_1785976633.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053725/wk-form4_1785976633.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053725_wk-form4_1785976633.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053723",
+      "name": "0001628280-26-053723-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053723/0001628280-26-053723-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053723_0001628280-26-053723-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053723",
+      "name": "0001628280-26-053723-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053723/0001628280-26-053723-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053723_0001628280-26-053723-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053723",
+      "name": "wk-form4_1785976582.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053723/wk-form4_1785976582.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053723_wk-form4_1785976582.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053694",
+      "name": "0001628280-26-053694-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053694/0001628280-26-053694-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053694_0001628280-26-053694-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053694",
+      "name": "0001628280-26-053694-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053694/0001628280-26-053694-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053694_0001628280-26-053694-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053694",
+      "name": "wk-form4_1785973118.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053694/wk-form4_1785973118.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053694_wk-form4_1785973118.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053688",
+      "name": "0001628280-26-053688-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053688/0001628280-26-053688-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053688_0001628280-26-053688-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053688",
+      "name": "0001628280-26-053688-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053688/0001628280-26-053688-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053688_0001628280-26-053688-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053688",
+      "name": "wk-form4_1785973028.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053688/wk-form4_1785973028.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053688_wk-form4_1785973028.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053685",
+      "name": "0001628280-26-053685-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053685/0001628280-26-053685-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053685_0001628280-26-053685-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053685",
+      "name": "0001628280-26-053685-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053685/0001628280-26-053685-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053685_0001628280-26-053685-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053685",
+      "name": "wk-form4_1785972974.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053685/wk-form4_1785972974.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053685_wk-form4_1785972974.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053683",
+      "name": "0001628280-26-053683-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053683/0001628280-26-053683-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053683_0001628280-26-053683-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053683",
+      "name": "0001628280-26-053683-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053683/0001628280-26-053683-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053683_0001628280-26-053683-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053683",
+      "name": "wk-form4_1785972946.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053683/wk-form4_1785972946.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053683_wk-form4_1785972946.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053682",
+      "name": "0001628280-26-053682-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053682/0001628280-26-053682-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053682_0001628280-26-053682-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053682",
+      "name": "0001628280-26-053682-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053682/0001628280-26-053682-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053682_0001628280-26-053682-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053682",
+      "name": "wk-form4_1785972926.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053682/wk-form4_1785972926.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053682_wk-form4_1785972926.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053679",
+      "name": "0001628280-26-053679-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053679/0001628280-26-053679-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053679_0001628280-26-053679-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053679",
+      "name": "0001628280-26-053679-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053679/0001628280-26-053679-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053679_0001628280-26-053679-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053679",
+      "name": "wk-form4_1785972878.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053679/wk-form4_1785972878.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053679_wk-form4_1785972878.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053674",
+      "name": "0001628280-26-053674-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053674/0001628280-26-053674-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053674_0001628280-26-053674-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053674",
+      "name": "0001628280-26-053674-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053674/0001628280-26-053674-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053674_0001628280-26-053674-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053674",
+      "name": "wk-form4_1785972736.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053674/wk-form4_1785972736.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053674_wk-form4_1785972736.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053672",
+      "name": "0001628280-26-053672-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053672/0001628280-26-053672-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053672_0001628280-26-053672-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053672",
+      "name": "0001628280-26-053672-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053672/0001628280-26-053672-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053672_0001628280-26-053672-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053672",
+      "name": "wk-form4_1785972698.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053672/wk-form4_1785972698.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053672_wk-form4_1785972698.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053670",
+      "name": "0001628280-26-053670-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053670/0001628280-26-053670-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053670_0001628280-26-053670-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053670",
+      "name": "0001628280-26-053670-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053670/0001628280-26-053670-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053670_0001628280-26-053670-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053670",
+      "name": "wk-form4_1785972595.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053670/wk-form4_1785972595.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053670_wk-form4_1785972595.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053667",
+      "name": "0001628280-26-053667-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053667/0001628280-26-053667-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053667_0001628280-26-053667-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053667",
+      "name": "0001628280-26-053667-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053667/0001628280-26-053667-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053667_0001628280-26-053667-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026053667",
+      "name": "wk-form4_1785972565.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026053667/wk-form4_1785972565.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026053667_wk-form4_1785972565.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-05"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026052841",
+      "name": "0001628280-26-052841-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026052841/0001628280-26-052841-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026052841_0001628280-26-052841-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-04"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026052841",
+      "name": "0001628280-26-052841-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026052841/0001628280-26-052841-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026052841_0001628280-26-052841-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-04"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026052841",
+      "name": "wk-form4_1785886436.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026052841/wk-form4_1785886436.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026052841_wk-form4_1785886436.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-04"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026052840",
+      "name": "0001628280-26-052840-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026052840/0001628280-26-052840-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026052840_0001628280-26-052840-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-04"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026052840",
+      "name": "0001628280-26-052840-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026052840/0001628280-26-052840-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026052840_0001628280-26-052840-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-04"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026052840",
+      "name": "wk-form4_1785886428.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026052840/wk-form4_1785886428.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026052840_wk-form4_1785886428.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-04"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026051843",
+      "name": "0001628280-26-051843-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026051843/0001628280-26-051843-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026051843_0001628280-26-051843-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-03"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026051843",
+      "name": "0001628280-26-051843-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026051843/0001628280-26-051843-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026051843_0001628280-26-051843-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-03"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026051843",
+      "name": "wk-form4_1785787912.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026051843/wk-form4_1785787912.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026051843_wk-form4_1785787912.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-03"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026051842",
+      "name": "0001628280-26-051842-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026051842/0001628280-26-051842-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026051842_0001628280-26-051842-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-03"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026051842",
+      "name": "0001628280-26-051842-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026051842/0001628280-26-051842-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026051842_0001628280-26-051842-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-08-03"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026051842",
+      "name": "wk-form4_1785787900.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026051842/wk-form4_1785787900.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026051842_wk-form4_1785787900.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-08-03"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026048903",
+      "name": "0001628280-26-048903-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026048903/0001628280-26-048903-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026048903_0001628280-26-048903-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-20"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026048903",
+      "name": "0001628280-26-048903-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026048903/0001628280-26-048903-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026048903_0001628280-26-048903-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-20"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026048903",
+      "name": "wk-form4_1784591238.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026048903/wk-form4_1784591238.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026048903_wk-form4_1784591238.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-20"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026048902",
+      "name": "0001628280-26-048902-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026048902/0001628280-26-048902-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026048902_0001628280-26-048902-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-20"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026048902",
+      "name": "0001628280-26-048902-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026048902/0001628280-26-048902-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026048902_0001628280-26-048902-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-20"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026048902",
+      "name": "wk-form4_1784591204.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026048902/wk-form4_1784591204.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026048902_wk-form4_1784591204.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-20"
+    },
+    {
+      "form": "Form4",
+      "accession": "000208927126000012",
+      "name": "0002089271-26-000012-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000012/0002089271-26-000012-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000208927126000012_0002089271-26-000012-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000208927126000012",
+      "name": "0002089271-26-000012-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000012/0002089271-26-000012-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000208927126000012_0002089271-26-000012-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000208927126000012",
+      "name": "wk-form4_1782951839.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000012/wk-form4_1782951839.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000208927126000012_wk-form4_1782951839.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046684",
+      "name": "0001628280-26-046684-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046684/0001628280-26-046684-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046684_0001628280-26-046684-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046684",
+      "name": "0001628280-26-046684-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046684/0001628280-26-046684-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046684_0001628280-26-046684-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046684",
+      "name": "wk-form4_1782952269.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046684/wk-form4_1782952269.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046684_wk-form4_1782952269.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046682",
+      "name": "0001628280-26-046682-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046682/0001628280-26-046682-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046682_0001628280-26-046682-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046682",
+      "name": "0001628280-26-046682-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046682/0001628280-26-046682-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046682_0001628280-26-046682-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046682",
+      "name": "wk-form4_1782952240.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046682/wk-form4_1782952240.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046682_wk-form4_1782952240.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046680",
+      "name": "0001628280-26-046680-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046680/0001628280-26-046680-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046680_0001628280-26-046680-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046680",
+      "name": "0001628280-26-046680-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046680/0001628280-26-046680-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046680_0001628280-26-046680-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046680",
+      "name": "wk-form4_1782952209.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046680/wk-form4_1782952209.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046680_wk-form4_1782952209.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046678",
+      "name": "0001628280-26-046678-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046678/0001628280-26-046678-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046678_0001628280-26-046678-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046678",
+      "name": "0001628280-26-046678-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046678/0001628280-26-046678-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046678_0001628280-26-046678-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046678",
+      "name": "wk-form4_1782952155.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046678/wk-form4_1782952155.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046678_wk-form4_1782952155.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046676",
+      "name": "0001628280-26-046676-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046676/0001628280-26-046676-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046676_0001628280-26-046676-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046676",
+      "name": "0001628280-26-046676-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046676/0001628280-26-046676-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046676_0001628280-26-046676-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046676",
+      "name": "wk-form4_1782952119.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046676/wk-form4_1782952119.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046676_wk-form4_1782952119.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046674",
+      "name": "0001628280-26-046674-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046674/0001628280-26-046674-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046674_0001628280-26-046674-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046674",
+      "name": "0001628280-26-046674-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046674/0001628280-26-046674-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046674_0001628280-26-046674-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046674",
+      "name": "wk-form4_1782952084.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046674/wk-form4_1782952084.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046674_wk-form4_1782952084.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046671",
+      "name": "0001628280-26-046671-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046671/0001628280-26-046671-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046671_0001628280-26-046671-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046671",
+      "name": "0001628280-26-046671-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046671/0001628280-26-046671-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046671_0001628280-26-046671-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000162828026046671",
+      "name": "wk-form4_1782952022.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026046671/wk-form4_1782952022.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000162828026046671_wk-form4_1782952022.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-07-01"
+    },
+    {
+      "form": "Form4",
+      "accession": "000208881026000003",
+      "name": "0002088810-26-000003-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208881026000003/0002088810-26-000003-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000208881026000003_0002088810-26-000003-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000208881026000003",
+      "name": "0002088810-26-000003-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208881026000003/0002088810-26-000003-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000208881026000003_0002088810-26-000003-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000208881026000003",
+      "name": "wk-form4_1782763765.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208881026000003/wk-form4_1782763765.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000208881026000003_wk-form4_1782763765.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000208770326000002",
+      "name": "0002087703-26-000002-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208770326000002/0002087703-26-000002-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000208770326000002_0002087703-26-000002-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000208770326000002",
+      "name": "0002087703-26-000002-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208770326000002/0002087703-26-000002-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000208770326000002_0002087703-26-000002-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000208770326000002",
+      "name": "wk-form4_1782763810.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000208770326000002/wk-form4_1782763810.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000208770326000002_wk-form4_1782763810.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000077384026000089",
+      "name": "0000773840-26-000089-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000077384026000089/0000773840-26-000089-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000077384026000089_0000773840-26-000089-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000077384026000089",
+      "name": "0000773840-26-000089-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000077384026000089/0000773840-26-000089-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000077384026000089_0000773840-26-000089-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000077384026000089",
+      "name": "wk-form4_1782764617.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000077384026000089/wk-form4_1782764617.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000077384026000089_wk-form4_1782764617.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000077384026000088",
+      "name": "0000773840-26-000088-index-headers.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000077384026000088/0000773840-26-000088-index-headers.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000077384026000088_0000773840-26-000088-index-headers.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000077384026000088",
+      "name": "0000773840-26-000088-index.html",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000077384026000088/0000773840-26-000088-index.html",
+      "path": "worksheet_sources_20261114_181626\\Form4_000077384026000088_0000773840-26-000088-index.html.txt",
+      "kind": "readable text",
+      "filing_date": "2026-06-29"
+    },
+    {
+      "form": "Form4",
+      "accession": "000077384026000088",
+      "name": "wk-form4_1782764080.xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/2089271/000077384026000088/wk-form4_1782764080.xml",
+      "path": "worksheet_sources_20261114_181626\\Form4_000077384026000088_wk-form4_1782764080.xml.txt",
+      "kind": "raw",
+      "filing_date": "2026-06-29"
+    }
+  ],
+  "form4_purchase_transactions": 0,
+  "form4_purchase_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\equity_research_runs\\Honeywell_Aerospace_Inc_2026-11-14_13-53-43_175228_-0500\\worksheet_sources_20261114_181626\\form4_purchases.json",
+  "form4_coverage": {
+    "filing_count_checked": 35,
+    "first_filing_date": "2026-06-29",
+    "last_filing_date": "2026-11-05",
+    "scope": "Form 4 filings in the saved run filing list, through the saved run analysis date"
+  },
+  "errors": [],
+  "limitations": [
+    "This command collects and saves sources only; it does not extract worksheet facts, calculate values, call a model, or create a report.",
+    "A missing or conflicting fact stays not known. Registry presence is distinct from an absent CIK entry.",
+    "The saved agent run may not include every filing. The worksheet must state the saved filing-list coverage."
+  ]
+}

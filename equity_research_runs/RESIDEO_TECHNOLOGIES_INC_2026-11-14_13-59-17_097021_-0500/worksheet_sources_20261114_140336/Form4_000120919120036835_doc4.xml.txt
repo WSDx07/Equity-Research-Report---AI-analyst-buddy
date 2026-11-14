@@ -1,0 +1,151 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0306</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2020-06-12</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001740332</issuerCik>
+000015 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000016 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001728934</rptOwnerCik>
+000022 |             <rptOwnerName>Kushner Brian</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>901 E 6TH STREET</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2></rptOwnerStreet2>
+000027 |             <rptOwnerCity>AUSTIN</rptOwnerCity>
+000028 |             <rptOwnerState>TX</rptOwnerState>
+000029 |             <rptOwnerZipCode>78702</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>1</isDirector>
+000034 |             <isOfficer>0</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |         </reportingOwnerRelationship>
+000038 |     </reportingOwner>
+000039 | 
+000040 |     <nonDerivativeTable>
+000041 |         <nonDerivativeTransaction>
+000042 |             <securityTitle>
+000043 |                 <value>Common Stock</value>
+000044 |             </securityTitle>
+000045 |             <transactionDate>
+000046 |                 <value>2020-06-12</value>
+000047 |             </transactionDate>
+000048 |             <deemedExecutionDate></deemedExecutionDate>
+000049 |             <transactionCoding>
+000050 |                 <transactionFormType>4</transactionFormType>
+000051 |                 <transactionCode>M</transactionCode>
+000052 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000053 |             </transactionCoding>
+000054 |             <transactionTimeliness>
+000055 |                 <value></value>
+000056 |             </transactionTimeliness>
+000057 |             <transactionAmounts>
+000058 |                 <transactionShares>
+000059 |                     <value>6704</value>
+000060 |                 </transactionShares>
+000061 |                 <transactionPricePerShare>
+000062 |                     <value>0.00</value>
+000063 |                 </transactionPricePerShare>
+000064 |                 <transactionAcquiredDisposedCode>
+000065 |                     <value>A</value>
+000066 |                 </transactionAcquiredDisposedCode>
+000067 |             </transactionAmounts>
+000068 |             <postTransactionAmounts>
+000069 |                 <sharesOwnedFollowingTransaction>
+000070 |                     <value>17404</value>
+000071 |                 </sharesOwnedFollowingTransaction>
+000072 |             </postTransactionAmounts>
+000073 |             <ownershipNature>
+000074 |                 <directOrIndirectOwnership>
+000075 |                     <value>D</value>
+000076 |                 </directOrIndirectOwnership>
+000077 |             </ownershipNature>
+000078 |         </nonDerivativeTransaction>
+000079 |     </nonDerivativeTable>
+000080 | 
+000081 |     <derivativeTable>
+000082 |         <derivativeTransaction>
+000083 |             <securityTitle>
+000084 |                 <value>Restricted Stock Units</value>
+000085 |             </securityTitle>
+000086 |             <conversionOrExercisePrice>
+000087 |                 <footnoteId id="F1"/>
+000088 |             </conversionOrExercisePrice>
+000089 |             <transactionDate>
+000090 |                 <value>2020-06-12</value>
+000091 |             </transactionDate>
+000092 |             <deemedExecutionDate></deemedExecutionDate>
+000093 |             <transactionCoding>
+000094 |                 <transactionFormType>4</transactionFormType>
+000095 |                 <transactionCode>M</transactionCode>
+000096 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000097 |             </transactionCoding>
+000098 |             <transactionTimeliness>
+000099 |                 <value></value>
+000100 |             </transactionTimeliness>
+000101 |             <transactionAmounts>
+000102 |                 <transactionShares>
+000103 |                     <value>6704</value>
+000104 |                 </transactionShares>
+000105 |                 <transactionPricePerShare>
+000106 |                     <value>0.00</value>
+000107 |                 </transactionPricePerShare>
+000108 |                 <transactionAcquiredDisposedCode>
+000109 |                     <value>D</value>
+000110 |                 </transactionAcquiredDisposedCode>
+000111 |             </transactionAmounts>
+000112 |             <exerciseDate>
+000113 |                 <value>2020-06-12</value>
+000114 |             </exerciseDate>
+000115 |             <expirationDate>
+000116 |                 <value>2020-06-12</value>
+000117 |             </expirationDate>
+000118 |             <underlyingSecurity>
+000119 |                 <underlyingSecurityTitle>
+000120 |                     <value>Common Stock</value>
+000121 |                 </underlyingSecurityTitle>
+000122 |                 <underlyingSecurityShares>
+000123 |                     <value>6704</value>
+000124 |                 </underlyingSecurityShares>
+000125 |             </underlyingSecurity>
+000126 |             <postTransactionAmounts>
+000127 |                 <sharesOwnedFollowingTransaction>
+000128 |                     <value>0</value>
+000129 |                 </sharesOwnedFollowingTransaction>
+000130 |             </postTransactionAmounts>
+000131 |             <ownershipNature>
+000132 |                 <directOrIndirectOwnership>
+000133 |                     <value>D</value>
+000134 |                 </directOrIndirectOwnership>
+000135 |             </ownershipNature>
+000136 |         </derivativeTransaction>
+000137 |     </derivativeTable>
+000138 | 
+000139 |     <footnotes>
+000140 |         <footnote id="F1">Instrument converts to common stock on a one-for-one basis.</footnote>
+000141 |     </footnotes>
+000142 | 
+000143 |     <remarks></remarks>
+000144 | 
+000145 |     <ownerSignature>
+000146 |         <signatureName>/s/ Jeannine J. Lane, as Attorney-in-Fact for Brian G. Kushner</signatureName>
+000147 |         <signatureDate>2020-06-15</signatureDate>
+000148 |     </ownerSignature>
+000149 | </ownershipDocument>
+000150 | </XML>
+000151 | 

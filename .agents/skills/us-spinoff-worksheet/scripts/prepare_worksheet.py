@@ -255,6 +255,18 @@ def accession_acceptance_time(client, cik, accession, filing_date):
     return None
 
 
+def choose_live_filing(rows, as_of, accession=None):
+    permitted = {'8-K', '8-K/A', '10-K', '10-Q', 'D', '3', '4'} if accession else {'8-K', '8-K/A'}
+    eligible = [row for row in rows if str(row.get('form', '')).upper() in permitted
+                and row.get('filingDate') and row['filingDate'] <= as_of]
+    if accession:
+        wanted = re.sub(r'\D', '', accession)
+        eligible = [row for row in eligible if re.sub(r'\D', '', str(row.get('accessionNumber', ''))) == wanted]
+    else:
+        eligible = [row for row in eligible if re.search(r'(?<!\d)2\.02(?!\d)', str(row.get('items', '')))]
+    return max(eligible, key=lambda row: (row['filingDate'], str(row.get('accessionNumber', '')))) if eligible else None
+
+
 def prepare(args):
     run = args.run.resolve()
     facts_path = run / 'facts.json'
@@ -330,16 +342,7 @@ def prepare(args):
                 shutil.copyfile(source, destination)
                 live_run_source_files.append(str(destination.relative_to(run)))
         live_rows = (live_filings.get('filings') or {}).get('filing_list') or []
-        eligible = [row for row in live_rows if str(row.get('form', '')).upper() in {'8-K', '8-K/A'}
-                    and row.get('filingDate') and row['filingDate'] <= live_as_of.isoformat()]
-        if args.release_accession:
-            wanted = re.sub(r'\D', '', args.release_accession)
-            eligible = [row for row in eligible if re.sub(r'\D', '', str(row.get('accessionNumber', ''))) == wanted]
-        else:
-            # A recent 8-K can cover an unrelated event. Only choose an
-            # earnings release automatically when its items identify one.
-            eligible = [row for row in eligible if re.search(r'(?<!\d)2\.02(?!\d)', str(row.get('items', '')))]
-        chosen = max(eligible, key=lambda row: (row['filingDate'], str(row.get('accessionNumber', '')))) if eligible else None
+        chosen = choose_live_filing(live_rows, live_as_of.isoformat(), args.release_accession)
         live_release.update({'ticker': live_ticker or None, 'cik': live_cik if live_cik.isdigit() else None})
         if chosen and live_cik.isdigit():
             accession = re.sub(r'\D', '', str(chosen.get('accessionNumber', '')))
@@ -357,7 +360,7 @@ def prepare(args):
                 errors.append({'stage': 'live release filing folder', 'accession': accession,
                                'error': type(exc).__name__})
         else:
-            errors.append({'stage': 'live release', 'error': 'No matching saved 8-K filing was found through the run analysis date'})
+            errors.append({'stage': 'live release', 'error': 'No matching supported filing was found through the run analysis date'})
     else:
         errors.append({'stage': 'live release', 'error': 'Live release run needs facts.json and filings.json'})
 

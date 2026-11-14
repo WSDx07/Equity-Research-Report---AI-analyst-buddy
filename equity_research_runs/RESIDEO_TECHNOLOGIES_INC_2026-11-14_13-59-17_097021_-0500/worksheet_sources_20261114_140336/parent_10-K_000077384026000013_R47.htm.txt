@@ -1,0 +1,181 @@
+000001 | v3.25.4
+000002 | LEASES (Tables)
+000003 | 12 Months Ended
+000004 | Dec. 31, 2025
+000005 | Leases [Abstract]
+000006 | Schedule of Leases
+000007 | Years Ended December 31,
+000008 | 2025 2024 2023
+000009 | Operating lease cost $ 235 $ 232 $ 217
+000010 | Variable lease cost 5 7 4
+000011 | Short-term lease cost 7 2 13
+000012 | Finance lease cost
+000013 | Amortization of right-of-use assets 51 74 54
+000014 | Interest on lease liability 3 5 3
+000015 | Total finance lease cost 54 79 57
+000016 | Total lease cost $ 301 $ 320 $ 291
+000017 | Supplemental cash flow information related to leases was as follows:
+000018 | Years Ended December 31,
+000019 | 2025 2024 2023
+000020 | Cash paid for amounts included in the measurement of lease liabilities
+000021 | Operating cash flows for operating leases $ 236 $ 227 $ 217
+000022 | Operating cash flows for finance leases 4 5 3
+000023 | Financing cash flows for finance leases 52 73 54
+000024 | Right-of-use assets obtained in exchange for lease obligations
+000025 | Operating leases $ 241 $ 211 $ 295
+000026 | Finance leases 20 79 40
+000027 | Schedule Of Supplemental Balance Sheet Information
+000028 | Supplemental balance sheet information related to leases was as follows:
+000029 | December 31,
+000030 | 2025 2024
+000031 | Operating leases
+000032 | Other assets1
+000033 | $ 876 $ 936
+000034 | Accrued liabilities $ 174 $ 176
+000035 | Other liabilities 809 863
+000036 | Total operating lease liabilities2
+000037 | $ 983 $ 1,039
+000038 | Finance leases
+000039 | Property, plant and equipment $ 171 $ 196
+000040 | Accumulated depreciation (110) (107)
+000041 | Property, plant and equipment—net $ 61 $ 89
+000042 | Current maturities of long-term debt $ 37 $ 47
+000043 | Long-term debt 27 46
+000044 | Total finance lease liabilities $ 64 $ 93
+000045 | Weighted average remaining lease term
+000046 | Operating leases 8 years 9 years
+000047 | Finance leases 2 years 2 years
+000048 | Weighted average discount rate
+000049 | Operating leases 4.3 % 3.4 %
+000050 | Finance leases 4.5 % 4.2 %
+000051 | 1
+000052 | As of December 31, 2025 2024, Other assets excludes $88 million and $16 million, respectively, of right-of-use assets related to operating leases that are included in Assets held for sale in the Consolidated Balance Sheet. Refer to Note 2 Acquisitions, Divestitures, and Discontinued Operations.
+000053 | 2
+000054 | As of December 31, 2025, Total operating lease liabilities excludes $13 million and $81 million of Accrued liabilities and Other liabilities, respectively, that are included in Liabilities held for sale in the Consolidated Balance Sheet. As of December 31, 2024, Total operating lease liabilities excludes $5 million and $11 million of Accrued liabilities and Other liabilities, respectively, that are included in Liabilities held for sale in the Consolidated Balance Sheet. Refer to Note 2 Acquisitions, Divestitures, and Discontinued Operations.
+000055 | Schedule Of Maturities of Lease Liabilities
+000056 | As of December 31, 2025, maturities of lease liabilities were as follows:
+000057 | Operating Leases
+000058 | Finance Leases
+000059 | 2026 $ 224 $ 39
+000060 | 2027 202 20
+000061 | 2028 178 6
+000062 | 2029 142 2
+000063 | 2030 106 —
+000064 | Thereafter 411 —
+000065 | Total lease payments 1,263 67
+000066 | Less: Interest 186 3
+000067 | Less: Lease liabilities held for sale 94 —
+000068 | Total maturities of lease liabilities $ 983 $ 64
+000069 | Schedule Of Finance Lease, Liability, Maturity
+000070 | As of December 31, 2025, maturities of lease liabilities were as follows:
+000071 | Operating Leases
+000072 | Finance Leases
+000073 | 2026 $ 224 $ 39
+000074 | 2027 202 20
+000075 | 2028 178 6
+000076 | 2029 142 2
+000077 | 2030 106 —
+000078 | Thereafter 411 —
+000079 | Total lease payments 1,263 67
+000080 | Less: Interest 186 3
+000081 | Less: Lease liabilities held for sale 94 —
+000082 | Total maturities of lease liabilities $ 983 $ 64
+000083 | X
+000084 | - Definition
+000085 | Assets and Liabilities, Lessee
+000086 | + References
+000087 | No definition available.
+000088 | + Details
+000089 | Name:
+000090 | hon_AssetsAndLiabilitiesLesseeTableTextBlock
+000091 | Namespace Prefix:
+000092 | hon_
+000093 | Data Type:
+000094 | dtr-types:textBlockItemType
+000095 | Balance Type:
+000096 | na
+000097 | Period Type:
+000098 | duration
+000099 | X
+000100 | - Definition
+000101 | Tabular disclosure of undiscounted cash flows of finance lease liability. Includes, but is not limited to, reconciliation of undiscounted cash flows to finance lease liability recognized in statement of financial position.
+000102 | + References
+000103 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000104 | -Topic 842
+000105 | -SubTopic 20
+000106 | -Name Accounting Standards Codification
+000107 | -Section 50
+000108 | -Paragraph 6
+000109 | -Publisher FASB
+000110 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000111 | + Details
+000112 | Name:
+000113 | us-gaap_FinanceLeaseLiabilityMaturityTableTextBlock
+000114 | Namespace Prefix:
+000115 | us-gaap_
+000116 | Data Type:
+000117 | dtr-types:textBlockItemType
+000118 | Balance Type:
+000119 | na
+000120 | Period Type:
+000121 | duration
+000122 | X
+000123 | - Definition
+000124 | Tabular disclosure of lessee's lease cost. Includes, but is not limited to, interest expense for finance lease, amortization of right-of-use asset for finance lease, operating lease cost, short-term lease cost, variable lease cost and sublease income.
+000125 | + References
+000126 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000127 | -Topic 842
+000128 | -SubTopic 20
+000129 | -Name Accounting Standards Codification
+000130 | -Section 50
+000131 | -Paragraph 4
+000132 | -Publisher FASB
+000133 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000134 | + Details
+000135 | Name:
+000136 | us-gaap_LeaseCostTableTextBlock
+000137 | Namespace Prefix:
+000138 | us-gaap_
+000139 | Data Type:
+000140 | dtr-types:textBlockItemType
+000141 | Balance Type:
+000142 | na
+000143 | Period Type:
+000144 | duration
+000145 | X
+000146 | - References
+000147 | No definition available.
+000148 | + Details
+000149 | Name:
+000150 | us-gaap_LeasesAbstract
+000151 | Namespace Prefix:
+000152 | us-gaap_
+000153 | Data Type:
+000154 | xbrli:stringItemType
+000155 | Balance Type:
+000156 | na
+000157 | Period Type:
+000158 | duration
+000159 | X
+000160 | - Definition
+000161 | Tabular disclosure of undiscounted cash flows of lessee's operating lease liability. Includes, but is not limited to, reconciliation of undiscounted cash flows to operating lease liability recognized in statement of financial position.
+000162 | + References
+000163 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000164 | -Topic 842
+000165 | -SubTopic 20
+000166 | -Name Accounting Standards Codification
+000167 | -Section 50
+000168 | -Paragraph 6
+000169 | -Publisher FASB
+000170 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000171 | + Details
+000172 | Name:
+000173 | us-gaap_LesseeOperatingLeaseLiabilityMaturityTableTextBlock
+000174 | Namespace Prefix:
+000175 | us-gaap_
+000176 | Data Type:
+000177 | dtr-types:textBlockItemType
+000178 | Balance Type:
+000179 | na
+000180 | Period Type:
+000181 | duration

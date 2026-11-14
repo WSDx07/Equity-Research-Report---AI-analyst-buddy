@@ -1,0 +1,210 @@
+000001 | v3.10.0.1
+000002 | Income Taxes - Additional Information (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Dec. 22, 2017
+000007 | Sep. 30, 2018
+000008 | Sep. 30, 2017
+000009 | Sep. 30, 2018
+000010 | Sep. 30, 2017
+000011 | Income Taxes [Line Items]
+000012 | U.S. federal statutory rate
+000013 | 21.00%
+000014 | 21.00%
+000015 | 35.00%
+000016 | 21.00%
+000017 | 35.00%
+000018 | Provisional tax adjustment related to deemed repatriation transitional tax
+000019 | $ 85
+000020 | Provisional tax adjustment related to taxes on undistributed earnings
+000021 | 177
+000022 | Decrease to the effective tax rate
+000023 | 397.00%
+000024 | US Tax Reform
+000025 | Income Taxes [Line Items]
+000026 | Reduction in tax expense
+000027 | 259
+000028 | $ 262
+000029 | Spin-Off
+000030 | Income Taxes [Line Items]
+000031 | Reduction in tax expense
+000032 | $ 79
+000033 | $ 97
+000034 | X
+000035 | - Definition
+000036 | Income tax reconciliation taxes on undistributed earnings.
+000037 | + References
+000038 | No definition available.
+000039 | + Details
+000040 | Name:
+000041 | rezi_IncomeTaxReconciliationTaxesOnUndistributedEarnings
+000042 | Namespace Prefix:
+000043 | rezi_
+000044 | Data Type:
+000045 | xbrli:monetaryItemType
+000046 | Balance Type:
+000047 | debit
+000048 | Period Type:
+000049 | duration
+000050 | X
+000051 | - Definition
+000052 | Income taxes.
+000053 | + References
+000054 | No definition available.
+000055 | + Details
+000056 | Name:
+000057 | rezi_IncomeTaxesLineItems
+000058 | Namespace Prefix:
+000059 | rezi_
+000060 | Data Type:
+000061 | xbrli:stringItemType
+000062 | Balance Type:
+000063 | na
+000064 | Period Type:
+000065 | duration
+000066 | X
+000067 | - Definition
+000068 | Reduction in income tax expense.
+000069 | + References
+000070 | No definition available.
+000071 | + Details
+000072 | Name:
+000073 | rezi_ReductionInIncomeTaxExpense
+000074 | Namespace Prefix:
+000075 | rezi_
+000076 | Data Type:
+000077 | xbrli:monetaryItemType
+000078 | Balance Type:
+000079 | credit
+000080 | Period Type:
+000081 | duration
+000082 | X
+000083 | - Definition
+000084 | Percentage of domestic federal statutory tax rate applicable to pretax income (loss).
+000085 | + References
+000086 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000087 | -Publisher FASB
+000088 | -Name Accounting Standards Codification
+000089 | -Topic 740
+000090 | -SubTopic 10
+000091 | -Section S99
+000092 | -Paragraph 1
+000093 | -Subparagraph (SAB TOPIC 6.I)
+000094 | -URI http://asc.fasb.org/extlink&oid=34349781&loc=d3e330036-122817
+000095 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000096 | -Publisher FASB
+000097 | -Name Accounting Standards Codification
+000098 | -Topic 740
+000099 | -SubTopic 10
+000100 | -Section 50
+000101 | -Paragraph 12
+000102 | -URI http://asc.fasb.org/extlink&oid=84230637&loc=d3e32687-109319
+000103 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000104 | -Publisher FASB
+000105 | -Name Accounting Standards Codification
+000106 | -Topic 740
+000107 | -SubTopic 10
+000108 | -Section 50
+000109 | -Paragraph 13
+000110 | -URI http://asc.fasb.org/extlink&oid=84230637&loc=d3e32698-109319
+000111 | + Details
+000112 | Name:
+000113 | us-gaap_EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate
+000114 | Namespace Prefix:
+000115 | us-gaap_
+000116 | Data Type:
+000117 | num:percentItemType
+000118 | Balance Type:
+000119 | na
+000120 | Period Type:
+000121 | duration
+000122 | X
+000123 | - Definition
+000124 | Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to changes in the income tax rates.
+000125 | + References
+000126 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000127 | -Publisher FASB
+000128 | -Name Accounting Standards Codification
+000129 | -Topic 740
+000130 | -SubTopic 10
+000131 | -Section S99
+000132 | -Paragraph 1
+000133 | -Subparagraph (SAB TOPIC 6.I)
+000134 | -URI http://asc.fasb.org/extlink&oid=34349781&loc=d3e330036-122817
+000135 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000136 | -Publisher FASB
+000137 | -Name Accounting Standards Codification
+000138 | -Topic 740
+000139 | -SubTopic 10
+000140 | -Section 50
+000141 | -Paragraph 13
+000142 | -URI http://asc.fasb.org/extlink&oid=84230637&loc=d3e32698-109319
+000143 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000144 | -Publisher FASB
+000145 | -Name Accounting Standards Codification
+000146 | -Topic 740
+000147 | -SubTopic 10
+000148 | -Section 50
+000149 | -Paragraph 12
+000150 | -URI http://asc.fasb.org/extlink&oid=84230637&loc=d3e32687-109319
+000151 | + Details
+000152 | Name:
+000153 | us-gaap_EffectiveIncomeTaxRateReconciliationChangeInEnactedTaxRate
+000154 | Namespace Prefix:
+000155 | us-gaap_
+000156 | Data Type:
+000157 | num:percentItemType
+000158 | Balance Type:
+000159 | na
+000160 | Period Type:
+000161 | duration
+000162 | X
+000163 | - Definition
+000164 | Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to repatriation of foreign earnings.
+000165 | + References
+000166 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000167 | -Publisher FASB
+000168 | -Name Accounting Standards Codification
+000169 | -Topic 740
+000170 | -SubTopic 10
+000171 | -Section 50
+000172 | -Paragraph 12
+000173 | -URI http://asc.fasb.org/extlink&oid=84230637&loc=d3e32687-109319
+000174 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000175 | -Publisher FASB
+000176 | -Name Accounting Standards Codification
+000177 | -Topic 740
+000178 | -SubTopic 10
+000179 | -Section 50
+000180 | -Paragraph 13
+000181 | -URI http://asc.fasb.org/extlink&oid=84230637&loc=d3e32698-109319
+000182 | + Details
+000183 | Name:
+000184 | us-gaap_IncomeTaxReconciliationRepatriationOfForeignEarnings
+000185 | Namespace Prefix:
+000186 | us-gaap_
+000187 | Data Type:
+000188 | xbrli:monetaryItemType
+000189 | Balance Type:
+000190 | debit
+000191 | Period Type:
+000192 | duration
+000193 | X
+000194 | - Details
+000195 | Name:
+000196 | us-gaap_IncomeTaxAuthorityAxis=rezi_USTaxReformMember
+000197 | Namespace Prefix:
+000198 | Data Type:
+000199 | na
+000200 | Balance Type:
+000201 | Period Type:
+000202 | X
+000203 | - Details
+000204 | Name:
+000205 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_SpinoffMember
+000206 | Namespace Prefix:
+000207 | Data Type:
+000208 | na
+000209 | Balance Type:
+000210 | Period Type:

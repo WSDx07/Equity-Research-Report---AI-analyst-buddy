@@ -1,0 +1,167 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0609</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2026-08-03</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0002089271</issuerCik>
+000015 |         <issuerName>Honeywell Aerospace Inc.</issuerName>
+000016 |         <issuerTradingSymbol>HONA</issuerTradingSymbol>
+000017 |         <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+000018 |     </issuer>
+000019 | 
+000020 |     <reportingOwner>
+000021 |         <reportingOwnerId>
+000022 |             <rptOwnerCik>0001986198</rptOwnerCik>
+000023 |             <rptOwnerName>Currier James E</rptOwnerName>
+000024 |         </reportingOwnerId>
+000025 |         <reportingOwnerAddress>
+000026 |             <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+000027 |             <rptOwnerStreet1>C/O HONEYWELL AEROSPACE INC.</rptOwnerStreet1>
+000028 |             <rptOwnerStreet2>1944 E SKY HARBOR CIRCLE N</rptOwnerStreet2>
+000029 |             <rptOwnerCity>PHOENIX</rptOwnerCity>
+000030 |             <rptOwnerState>AZ</rptOwnerState>
+000031 |             <rptOwnerZipCode>85034</rptOwnerZipCode>
+000032 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000033 |         </reportingOwnerAddress>
+000034 |         <reportingOwnerRelationship>
+000035 |             <isDirector>1</isDirector>
+000036 |             <isOfficer>1</isOfficer>
+000037 |             <isTenPercentOwner>0</isTenPercentOwner>
+000038 |             <isOther>0</isOther>
+000039 |             <officerTitle>President and CEO</officerTitle>
+000040 |         </reportingOwnerRelationship>
+000041 |     </reportingOwner>
+000042 | 
+000043 |     <aff10b5One>0</aff10b5One>
+000044 | 
+000045 |     <nonDerivativeTable></nonDerivativeTable>
+000046 | 
+000047 |     <derivativeTable>
+000048 |         <derivativeTransaction>
+000049 |             <securityTitle>
+000050 |                 <value>Employee Stock Options (right to buy)</value>
+000051 |             </securityTitle>
+000052 |             <conversionOrExercisePrice>
+000053 |                 <value>208.27</value>
+000054 |             </conversionOrExercisePrice>
+000055 |             <transactionDate>
+000056 |                 <value>2026-08-03</value>
+000057 |             </transactionDate>
+000058 |             <transactionCoding>
+000059 |                 <transactionFormType>4</transactionFormType>
+000060 |                 <transactionCode>A</transactionCode>
+000061 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000062 |             </transactionCoding>
+000063 |             <transactionAmounts>
+000064 |                 <transactionShares>
+000065 |                     <value>51808</value>
+000066 |                 </transactionShares>
+000067 |                 <transactionPricePerShare>
+000068 |                     <value>0</value>
+000069 |                 </transactionPricePerShare>
+000070 |                 <transactionAcquiredDisposedCode>
+000071 |                     <value>A</value>
+000072 |                 </transactionAcquiredDisposedCode>
+000073 |             </transactionAmounts>
+000074 |             <exerciseDate>
+000075 |                 <footnoteId id="F1"/>
+000076 |             </exerciseDate>
+000077 |             <expirationDate>
+000078 |                 <value>2036-08-02</value>
+000079 |             </expirationDate>
+000080 |             <underlyingSecurity>
+000081 |                 <underlyingSecurityTitle>
+000082 |                     <value>Common Stock</value>
+000083 |                 </underlyingSecurityTitle>
+000084 |                 <underlyingSecurityShares>
+000085 |                     <value>51808</value>
+000086 |                 </underlyingSecurityShares>
+000087 |             </underlyingSecurity>
+000088 |             <postTransactionAmounts>
+000089 |                 <sharesOwnedFollowingTransaction>
+000090 |                     <value>51808</value>
+000091 |                 </sharesOwnedFollowingTransaction>
+000092 |             </postTransactionAmounts>
+000093 |             <ownershipNature>
+000094 |                 <directOrIndirectOwnership>
+000095 |                     <value>D</value>
+000096 |                 </directOrIndirectOwnership>
+000097 |             </ownershipNature>
+000098 |         </derivativeTransaction>
+000099 |         <derivativeTransaction>
+000100 |             <securityTitle>
+000101 |                 <value>Restricted Stock Units</value>
+000102 |             </securityTitle>
+000103 |             <conversionOrExercisePrice>
+000104 |                 <value>0</value>
+000105 |                 <footnoteId id="F2"/>
+000106 |             </conversionOrExercisePrice>
+000107 |             <transactionDate>
+000108 |                 <value>2026-08-03</value>
+000109 |             </transactionDate>
+000110 |             <transactionCoding>
+000111 |                 <transactionFormType>4</transactionFormType>
+000112 |                 <transactionCode>A</transactionCode>
+000113 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000114 |             </transactionCoding>
+000115 |             <transactionAmounts>
+000116 |                 <transactionShares>
+000117 |                     <value>22032</value>
+000118 |                 </transactionShares>
+000119 |                 <transactionPricePerShare>
+000120 |                     <value>0</value>
+000121 |                 </transactionPricePerShare>
+000122 |                 <transactionAcquiredDisposedCode>
+000123 |                     <value>A</value>
+000124 |                 </transactionAcquiredDisposedCode>
+000125 |             </transactionAmounts>
+000126 |             <exerciseDate>
+000127 |                 <footnoteId id="F3"/>
+000128 |             </exerciseDate>
+000129 |             <expirationDate>
+000130 |                 <footnoteId id="F3"/>
+000131 |             </expirationDate>
+000132 |             <underlyingSecurity>
+000133 |                 <underlyingSecurityTitle>
+000134 |                     <value>Common Stock</value>
+000135 |                 </underlyingSecurityTitle>
+000136 |                 <underlyingSecurityShares>
+000137 |                     <value>22032</value>
+000138 |                 </underlyingSecurityShares>
+000139 |             </underlyingSecurity>
+000140 |             <postTransactionAmounts>
+000141 |                 <sharesOwnedFollowingTransaction>
+000142 |                     <value>22032</value>
+000143 |                 </sharesOwnedFollowingTransaction>
+000144 |             </postTransactionAmounts>
+000145 |             <ownershipNature>
+000146 |                 <directOrIndirectOwnership>
+000147 |                     <value>D</value>
+000148 |                 </directOrIndirectOwnership>
+000149 |             </ownershipNature>
+000150 |         </derivativeTransaction>
+000151 |     </derivativeTable>
+000152 | 
+000153 |     <footnotes>
+000154 |         <footnote id="F1">Represents an award of options that vest in accordance with the terms of the award.</footnote>
+000155 |         <footnote id="F2">Instrument converts to Issuer's Common Stock on a one-for-one basis.</footnote>
+000156 |         <footnote id="F3">Represents an award of restricted stock units that vest in accordance with the terms of the award.</footnote>
+000157 |     </footnotes>
+000158 | 
+000159 |     <remarks></remarks>
+000160 | 
+000161 |     <ownerSignature>
+000162 |         <signatureName>/s/ Jennifer Nelson for James Currier</signatureName>
+000163 |         <signatureDate>2026-08-05</signatureDate>
+000164 |     </ownerSignature>
+000165 | </ownershipDocument>
+000166 | </XML>
+000167 | 

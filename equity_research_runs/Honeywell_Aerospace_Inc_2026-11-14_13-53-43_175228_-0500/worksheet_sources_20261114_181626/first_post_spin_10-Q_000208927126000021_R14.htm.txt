@@ -1,0 +1,48 @@
+000001 | v3.26.1
+000002 | Inventories
+000003 | 6 Months Ended
+000004 | Jun. 27, 2026
+000005 | Inventory Disclosure [Abstract]
+000006 | Inventories
+000007 | Inventories
+000008 | June 27, 2026 December 31, 2025
+000009 | Raw materials
+000010 | $ 1,265 $ 1,092
+000011 | Finished products and work in process
+000012 | 3,201 3,219
+000013 | Total Inventories
+000014 | $ 4,466 $ 4,311
+000015 | X
+000016 | - References
+000017 | No definition available.
+000018 | + Details
+000019 | Name:
+000020 | us-gaap_InventoryDisclosureAbstract
+000021 | Namespace Prefix:
+000022 | us-gaap_
+000023 | Data Type:
+000024 | xbrli:stringItemType
+000025 | Balance Type:
+000026 | na
+000027 | Period Type:
+000028 | duration
+000029 | X
+000030 | - Definition
+000031 | The entire disclosure for inventory. Includes, but is not limited to, the basis of stating inventory, the method of determining inventory cost, the classes of inventory, and the nature of the cost elements included in inventory.
+000032 | + References
+000033 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000034 | -Topic 330
+000035 | -Name Accounting Standards Codification
+000036 | -Publisher FASB
+000037 | -URI https://asc.fasb.org/330/tableOfContent
+000038 | + Details
+000039 | Name:
+000040 | us-gaap_InventoryDisclosureTextBlock
+000041 | Namespace Prefix:
+000042 | us-gaap_
+000043 | Data Type:
+000044 | dtr-types:textBlockItemType
+000045 | Balance Type:
+000046 | na
+000047 | Period Type:
+000048 | duration

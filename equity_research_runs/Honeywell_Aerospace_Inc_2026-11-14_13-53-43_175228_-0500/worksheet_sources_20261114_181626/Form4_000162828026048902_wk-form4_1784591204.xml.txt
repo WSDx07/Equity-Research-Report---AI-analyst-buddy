@@ -1,0 +1,212 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0609</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2026-07-16</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0002089271</issuerCik>
+000015 |         <issuerName>Honeywell Aerospace Inc.</issuerName>
+000016 |         <issuerTradingSymbol>HONA</issuerTradingSymbol>
+000017 |         <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+000018 |     </issuer>
+000019 | 
+000020 |     <reportingOwner>
+000021 |         <reportingOwnerId>
+000022 |             <rptOwnerCik>0001986198</rptOwnerCik>
+000023 |             <rptOwnerName>Currier James E</rptOwnerName>
+000024 |         </reportingOwnerId>
+000025 |         <reportingOwnerAddress>
+000026 |             <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+000027 |             <rptOwnerStreet1>C/O HONEYWELL AEROSPACE INC.</rptOwnerStreet1>
+000028 |             <rptOwnerStreet2>1944 E SKY HARBOR CIRCLE N</rptOwnerStreet2>
+000029 |             <rptOwnerCity>PHOENIX</rptOwnerCity>
+000030 |             <rptOwnerState>AZ</rptOwnerState>
+000031 |             <rptOwnerZipCode>85034</rptOwnerZipCode>
+000032 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000033 |         </reportingOwnerAddress>
+000034 |         <reportingOwnerRelationship>
+000035 |             <isDirector>1</isDirector>
+000036 |             <isOfficer>1</isOfficer>
+000037 |             <isTenPercentOwner>0</isTenPercentOwner>
+000038 |             <isOther>0</isOther>
+000039 |             <officerTitle>President and CEO</officerTitle>
+000040 |         </reportingOwnerRelationship>
+000041 |     </reportingOwner>
+000042 | 
+000043 |     <aff10b5One>0</aff10b5One>
+000044 | 
+000045 |     <nonDerivativeTable>
+000046 |         <nonDerivativeTransaction>
+000047 |             <securityTitle>
+000048 |                 <value>Common Stock</value>
+000049 |             </securityTitle>
+000050 |             <transactionDate>
+000051 |                 <value>2026-07-16</value>
+000052 |             </transactionDate>
+000053 |             <transactionCoding>
+000054 |                 <transactionFormType>4</transactionFormType>
+000055 |                 <transactionCode>M</transactionCode>
+000056 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000057 |                 <footnoteId id="F1"/>
+000058 |             </transactionCoding>
+000059 |             <transactionAmounts>
+000060 |                 <transactionShares>
+000061 |                     <value>3253.2358</value>
+000062 |                 </transactionShares>
+000063 |                 <transactionPricePerShare>
+000064 |                     <footnoteId id="F2"/>
+000065 |                 </transactionPricePerShare>
+000066 |                 <transactionAcquiredDisposedCode>
+000067 |                     <value>A</value>
+000068 |                 </transactionAcquiredDisposedCode>
+000069 |             </transactionAmounts>
+000070 |             <postTransactionAmounts>
+000071 |                 <sharesOwnedFollowingTransaction>
+000072 |                     <value>5514.2358</value>
+000073 |                 </sharesOwnedFollowingTransaction>
+000074 |             </postTransactionAmounts>
+000075 |             <ownershipNature>
+000076 |                 <directOrIndirectOwnership>
+000077 |                     <value>D</value>
+000078 |                 </directOrIndirectOwnership>
+000079 |             </ownershipNature>
+000080 |         </nonDerivativeTransaction>
+000081 |         <nonDerivativeTransaction>
+000082 |             <securityTitle>
+000083 |                 <value>Common Stock</value>
+000084 |             </securityTitle>
+000085 |             <transactionDate>
+000086 |                 <value>2026-07-16</value>
+000087 |             </transactionDate>
+000088 |             <transactionCoding>
+000089 |                 <transactionFormType>4</transactionFormType>
+000090 |                 <transactionCode>F</transactionCode>
+000091 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000092 |             </transactionCoding>
+000093 |             <transactionAmounts>
+000094 |                 <transactionShares>
+000095 |                     <value>1362</value>
+000096 |                 </transactionShares>
+000097 |                 <transactionPricePerShare>
+000098 |                     <value>208.37</value>
+000099 |                 </transactionPricePerShare>
+000100 |                 <transactionAcquiredDisposedCode>
+000101 |                     <value>D</value>
+000102 |                 </transactionAcquiredDisposedCode>
+000103 |             </transactionAmounts>
+000104 |             <postTransactionAmounts>
+000105 |                 <sharesOwnedFollowingTransaction>
+000106 |                     <value>4152.2358</value>
+000107 |                 </sharesOwnedFollowingTransaction>
+000108 |             </postTransactionAmounts>
+000109 |             <ownershipNature>
+000110 |                 <directOrIndirectOwnership>
+000111 |                     <value>D</value>
+000112 |                 </directOrIndirectOwnership>
+000113 |             </ownershipNature>
+000114 |         </nonDerivativeTransaction>
+000115 |         <nonDerivativeHolding>
+000116 |             <securityTitle>
+000117 |                 <value>Common Stock</value>
+000118 |             </securityTitle>
+000119 |             <postTransactionAmounts>
+000120 |                 <sharesOwnedFollowingTransaction>
+000121 |                     <value>430</value>
+000122 |                     <footnoteId id="F3"/>
+000123 |                 </sharesOwnedFollowingTransaction>
+000124 |             </postTransactionAmounts>
+000125 |             <ownershipNature>
+000126 |                 <directOrIndirectOwnership>
+000127 |                     <value>I</value>
+000128 |                 </directOrIndirectOwnership>
+000129 |                 <natureOfOwnership>
+000130 |                     <value>Held in 401(k) plan</value>
+000131 |                 </natureOfOwnership>
+000132 |             </ownershipNature>
+000133 |         </nonDerivativeHolding>
+000134 |     </nonDerivativeTable>
+000135 | 
+000136 |     <derivativeTable>
+000137 |         <derivativeTransaction>
+000138 |             <securityTitle>
+000139 |                 <value>Restricted Stock Units</value>
+000140 |             </securityTitle>
+000141 |             <conversionOrExercisePrice>
+000142 |                 <footnoteId id="F2"/>
+000143 |             </conversionOrExercisePrice>
+000144 |             <transactionDate>
+000145 |                 <value>2026-07-16</value>
+000146 |             </transactionDate>
+000147 |             <transactionCoding>
+000148 |                 <transactionFormType>4</transactionFormType>
+000149 |                 <transactionCode>M</transactionCode>
+000150 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000151 |             </transactionCoding>
+000152 |             <transactionAmounts>
+000153 |                 <transactionShares>
+000154 |                     <value>3253.2358</value>
+000155 |                     <footnoteId id="F4"/>
+000156 |                 </transactionShares>
+000157 |                 <transactionPricePerShare>
+000158 |                     <value>0</value>
+000159 |                 </transactionPricePerShare>
+000160 |                 <transactionAcquiredDisposedCode>
+000161 |                     <value>D</value>
+000162 |                 </transactionAcquiredDisposedCode>
+000163 |             </transactionAmounts>
+000164 |             <exerciseDate>
+000165 |                 <footnoteId id="F5"/>
+000166 |             </exerciseDate>
+000167 |             <expirationDate>
+000168 |                 <footnoteId id="F5"/>
+000169 |             </expirationDate>
+000170 |             <underlyingSecurity>
+000171 |                 <underlyingSecurityTitle>
+000172 |                     <value>Common Stock</value>
+000173 |                 </underlyingSecurityTitle>
+000174 |                 <underlyingSecurityShares>
+000175 |                     <value>3253.2358</value>
+000176 |                     <footnoteId id="F4"/>
+000177 |                     <footnoteId id="F5"/>
+000178 |                 </underlyingSecurityShares>
+000179 |             </underlyingSecurity>
+000180 |             <postTransactionAmounts>
+000181 |                 <sharesOwnedFollowingTransaction>
+000182 |                     <value>3047.7642</value>
+000183 |                     <footnoteId id="F5"/>
+000184 |                     <footnoteId id="F6"/>
+000185 |                 </sharesOwnedFollowingTransaction>
+000186 |             </postTransactionAmounts>
+000187 |             <ownershipNature>
+000188 |                 <directOrIndirectOwnership>
+000189 |                     <value>D</value>
+000190 |                 </directOrIndirectOwnership>
+000191 |             </ownershipNature>
+000192 |         </derivativeTransaction>
+000193 |     </derivativeTable>
+000194 | 
+000195 |     <footnotes>
+000196 |         <footnote id="F1">Reflects settlement of performance stock units that were received by the reporting person when the reporting person was employed by Honeywell International Inc. (&quot;Honeywell&quot;) granted under the 2016 Stock Incentive Plan of Honeywell International Inc. and its Affiliates that vested upon the successful completion of the spin-off of Issuer from Honeywell on June 29, 2026 and were adjusted to reflect the spin-off and further adjusted to reflect the reverse stock split of Honeywell.</footnote>
+000197 |         <footnote id="F2">Instrument converts to Issuer's Common Stock on a one-for-one basis.</footnote>
+000198 |         <footnote id="F3">Common Stock held indirectly by the reporting person in the Honeywell Aerospace 401(k) Plan.</footnote>
+000199 |         <footnote id="F4">Includes the reinvestment of dividend equivalents into 103.2357 additional restricted stock units.</footnote>
+000200 |         <footnote id="F5">Performance stock units that were received by the reporting person when the reporting person was employed by Honeywell the balance of which will vest on June 29, 2027. The performance stock units are governed by the 2026 Stock Incentive Plan of Honeywell Aerospace Inc. and its Affiliates.</footnote>
+000201 |         <footnote id="F6">Excludes reinvestment of dividend equivalents during the vesting period.</footnote>
+000202 |     </footnotes>
+000203 | 
+000204 |     <remarks></remarks>
+000205 | 
+000206 |     <ownerSignature>
+000207 |         <signatureName>/s/ Jennifer Nelson for James E. Currier</signatureName>
+000208 |         <signatureDate>2026-07-20</signatureDate>
+000209 |     </ownerSignature>
+000210 | </ownershipDocument>
+000211 | </XML>
+000212 | 

@@ -1,0 +1,337 @@
+000001 | v3.25.4
+000002 | REVENUE RECOGNITION AND CONTRACTS WITH CUSTOMERS - Contract Balances (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Change in Contract Balances [Roll Forward]
+000008 | Contract assets - beginning balance
+000009 | $ 2,155
+000010 | $ 2,013
+000011 | Contract assets - ending balance
+000012 | 2,403
+000013 | 2,155
+000014 | Change in contract assets—increase (decrease)
+000015 | 248
+000016 | 142
+000017 | Contract liabilities - beginning balance
+000018 | (4,120)
+000019 | (4,214)
+000020 | Contract liabilities - ending balance
+000021 | (3,839)
+000022 | (4,120)
+000023 | Change in contract liabilities—decrease (increase)
+000024 | 281
+000025 | 94
+000026 | Net change
+000027 | 529
+000028 | 236
+000029 | Contract liability, revenue recognized
+000030 | 1,964
+000031 | 2,101
+000032 | Unbilled balances
+000033 | 2,424
+000034 | 2,102
+000035 | Disposal Group, Held-for-Sale, Not Discontinued Operations | Productivity Solutions and Services and Warehouse Workflow Solutions Businesses
+000036 | Change in Contract Balances [Roll Forward]
+000037 | Disposal group, including discontinued operation, contract assets
+000038 | 68
+000039 | Disposal group, including discontinued operation, contract liabilities
+000040 | $ 379
+000041 | Disposal Group, Held-for-Sale, Not Discontinued Operations | Personal Protective Equipment Business
+000042 | Change in Contract Balances [Roll Forward]
+000043 | Disposal group, including discontinued operation, contract assets
+000044 | 3
+000045 | Disposal group, including discontinued operation, contract liabilities
+000046 | $ 21
+000047 | X
+000048 | - Definition
+000049 | Change In Contract Balances
+000050 | + References
+000051 | No definition available.
+000052 | + Details
+000053 | Name:
+000054 | hon_ChangeInContractBalancesRollForward
+000055 | Namespace Prefix:
+000056 | hon_
+000057 | Data Type:
+000058 | xbrli:stringItemType
+000059 | Balance Type:
+000060 | na
+000061 | Period Type:
+000062 | duration
+000063 | X
+000064 | - Definition
+000065 | Amount of increase (decrease) in net contract assets and liabilities
+000066 | + References
+000067 | No definition available.
+000068 | + Details
+000069 | Name:
+000070 | hon_ContractWithCustomerAssetsAndLiabilitiesNetChange
+000071 | Namespace Prefix:
+000072 | hon_
+000073 | Data Type:
+000074 | xbrli:monetaryItemType
+000075 | Balance Type:
+000076 | credit
+000077 | Period Type:
+000078 | duration
+000079 | X
+000080 | - Definition
+000081 | Disposal Group, Including Discontinued Operation, Contract Assets
+000082 | + References
+000083 | No definition available.
+000084 | + Details
+000085 | Name:
+000086 | hon_DisposalGroupIncludingDiscontinuedOperationContractAssets
+000087 | Namespace Prefix:
+000088 | hon_
+000089 | Data Type:
+000090 | xbrli:monetaryItemType
+000091 | Balance Type:
+000092 | debit
+000093 | Period Type:
+000094 | instant
+000095 | X
+000096 | - Definition
+000097 | Disposal Group, Including Discontinued Operation, Contract Liabilities
+000098 | + References
+000099 | No definition available.
+000100 | + Details
+000101 | Name:
+000102 | hon_DisposalGroupIncludingDiscontinuedOperationContractLiabilities
+000103 | Namespace Prefix:
+000104 | hon_
+000105 | Data Type:
+000106 | xbrli:monetaryItemType
+000107 | Balance Type:
+000108 | debit
+000109 | Period Type:
+000110 | instant
+000111 | X
+000112 | - Definition
+000113 | Amount, after allowance for credit loss, of right to consideration in exchange for good or service transferred to customer when right is conditioned on something other than passage of time.
+000114 | + References
+000115 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000116 | -Topic 606
+000117 | -SubTopic 10
+000118 | -Name Accounting Standards Codification
+000119 | -Section 50
+000120 | -Paragraph 11
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000123 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000124 | -Topic 606
+000125 | -SubTopic 10
+000126 | -Name Accounting Standards Codification
+000127 | -Section 45
+000128 | -Paragraph 3
+000129 | -Publisher FASB
+000130 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-3
+000131 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000132 | -Topic 606
+000133 | -SubTopic 10
+000134 | -Name Accounting Standards Codification
+000135 | -Section 45
+000136 | -Paragraph 1
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000139 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000140 | -Topic 606
+000141 | -SubTopic 10
+000142 | -Name Accounting Standards Codification
+000143 | -Section 50
+000144 | -Paragraph 8
+000145 | -Subparagraph (a)
+000146 | -Publisher FASB
+000147 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000148 | + Details
+000149 | Name:
+000150 | us-gaap_ContractWithCustomerAssetNet
+000151 | Namespace Prefix:
+000152 | us-gaap_
+000153 | Data Type:
+000154 | xbrli:monetaryItemType
+000155 | Balance Type:
+000156 | debit
+000157 | Period Type:
+000158 | instant
+000159 | X
+000160 | - Definition
+000161 | Amount of obligation to transfer good or service to customer for which consideration has been received or is receivable.
+000162 | + References
+000163 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000164 | -Topic 606
+000165 | -SubTopic 10
+000166 | -Name Accounting Standards Codification
+000167 | -Section 50
+000168 | -Paragraph 11
+000169 | -Publisher FASB
+000170 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000171 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000172 | -Topic 606
+000173 | -SubTopic 10
+000174 | -Name Accounting Standards Codification
+000175 | -Section 45
+000176 | -Paragraph 1
+000177 | -Publisher FASB
+000178 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000179 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000180 | -Topic 606
+000181 | -SubTopic 10
+000182 | -Name Accounting Standards Codification
+000183 | -Section 50
+000184 | -Paragraph 8
+000185 | -Subparagraph (a)
+000186 | -Publisher FASB
+000187 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000188 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000189 | -Topic 606
+000190 | -SubTopic 10
+000191 | -Name Accounting Standards Codification
+000192 | -Section 45
+000193 | -Paragraph 2
+000194 | -Publisher FASB
+000195 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-2
+000196 | + Details
+000197 | Name:
+000198 | us-gaap_ContractWithCustomerLiability
+000199 | Namespace Prefix:
+000200 | us-gaap_
+000201 | Data Type:
+000202 | xbrli:monetaryItemType
+000203 | Balance Type:
+000204 | credit
+000205 | Period Type:
+000206 | instant
+000207 | X
+000208 | - Definition
+000209 | Amount of revenue recognized that was previously included in balance of obligation to transfer good or service to customer for which consideration from customer has been received or is due.
+000210 | + References
+000211 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000212 | -Topic 606
+000213 | -SubTopic 10
+000214 | -Name Accounting Standards Codification
+000215 | -Section 50
+000216 | -Paragraph 8
+000217 | -Subparagraph (b)
+000218 | -Publisher FASB
+000219 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000220 | + Details
+000221 | Name:
+000222 | us-gaap_ContractWithCustomerLiabilityRevenueRecognized
+000223 | Namespace Prefix:
+000224 | us-gaap_
+000225 | Data Type:
+000226 | xbrli:monetaryItemType
+000227 | Balance Type:
+000228 | credit
+000229 | Period Type:
+000230 | duration
+000231 | X
+000232 | - Definition
+000233 | Amount of increase (decrease) in right to consideration in exchange for good or service transferred to customer when right is conditioned on something other than passage of time.
+000234 | + References
+000235 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000236 | -Topic 230
+000237 | -SubTopic 10
+000238 | -Name Accounting Standards Codification
+000239 | -Section 45
+000240 | -Paragraph 28
+000241 | -Subparagraph (a)
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000244 | + Details
+000245 | Name:
+000246 | us-gaap_IncreaseDecreaseInContractWithCustomerAsset
+000247 | Namespace Prefix:
+000248 | us-gaap_
+000249 | Data Type:
+000250 | xbrli:monetaryItemType
+000251 | Balance Type:
+000252 | credit
+000253 | Period Type:
+000254 | duration
+000255 | X
+000256 | - Definition
+000257 | Amount of increase (decrease) in obligation to transfer good or service to customer for which consideration has been received or is receivable.
+000258 | + References
+000259 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000260 | -Topic 230
+000261 | -SubTopic 10
+000262 | -Name Accounting Standards Codification
+000263 | -Section 45
+000264 | -Paragraph 28
+000265 | -Subparagraph (a)
+000266 | -Publisher FASB
+000267 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000268 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000269 | -Topic 912
+000270 | -SubTopic 310
+000271 | -Name Accounting Standards Codification
+000272 | -Section 45
+000273 | -Paragraph 11
+000274 | -Subparagraph (b)
+000275 | -Publisher FASB
+000276 | -URI https://asc.fasb.org/1943274/2147478345/912-310-45-11
+000277 | + Details
+000278 | Name:
+000279 | us-gaap_IncreaseDecreaseInContractWithCustomerLiability
+000280 | Namespace Prefix:
+000281 | us-gaap_
+000282 | Data Type:
+000283 | xbrli:monetaryItemType
+000284 | Balance Type:
+000285 | debit
+000286 | Period Type:
+000287 | duration
+000288 | X
+000289 | - Definition
+000290 | Unbilled amounts due for services rendered or to be rendered, actions taken or to be taken, or a promise to refrain from taking certain actions in accordance with the terms of a legally binding agreement between the entity and, at a minimum, one other party. An example would be amounts associated with contracts or programs where the recognized revenue for performance thereunder exceeds the amounts billed under the terms thereof as of the date of the balance sheet.
+000291 | + References
+000292 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000293 | -Topic 912
+000294 | -SubTopic 310
+000295 | -Name Accounting Standards Codification
+000296 | -Section 45
+000297 | -Paragraph 2
+000298 | -Publisher FASB
+000299 | -URI https://asc.fasb.org/1943274/2147478345/912-310-45-2
+000300 | + Details
+000301 | Name:
+000302 | us-gaap_UnbilledContractsReceivable
+000303 | Namespace Prefix:
+000304 | us-gaap_
+000305 | Data Type:
+000306 | xbrli:monetaryItemType
+000307 | Balance Type:
+000308 | debit
+000309 | Period Type:
+000310 | instant
+000311 | X
+000312 | - Details
+000313 | Name:
+000314 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+000315 | Namespace Prefix:
+000316 | Data Type:
+000317 | na
+000318 | Balance Type:
+000319 | Period Type:
+000320 | X
+000321 | - Details
+000322 | Name:
+000323 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=hon_ProductivitySolutionsAndServicesAndWarehouseWorkflowSolutionsBusinessesMember
+000324 | Namespace Prefix:
+000325 | Data Type:
+000326 | na
+000327 | Balance Type:
+000328 | Period Type:
+000329 | X
+000330 | - Details
+000331 | Name:
+000332 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=hon_PersonalProtectiveEquipmentBusinessMember
+000333 | Namespace Prefix:
+000334 | Data Type:
+000335 | na
+000336 | Balance Type:
+000337 | Period Type:

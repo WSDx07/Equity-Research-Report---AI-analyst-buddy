@@ -1,0 +1,713 @@
+000001 | v3.25.4
+000002 | INCOME TAXES - Deferred Tax Assets (Liabilities) (Details) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Deferred tax assets
+000007 | Postretirement benefits other than pensions
+000008 | $ 45
+000009 | $ 50
+000010 | Asbestos and environmental
+000011 | 189
+000012 | 373
+000013 | Capitalized research and development
+000014 | 917
+000015 | 946
+000016 | Employee compensation and benefits
+000017 | 104
+000018 | 130
+000019 | Lease liabilities
+000020 | 212
+000021 | 228
+000022 | Other accruals and reserves
+000023 | 389
+000024 | 375
+000025 | Net operating losses
+000026 | 650
+000027 | 618
+000028 | Capital loss carryover and outside basis differences
+000029 | 544
+000030 | 467
+000031 | Tax credit carryforwards and other attributes
+000032 | 648
+000033 | 269
+000034 | Gross deferred tax assets
+000035 | 3,698
+000036 | 3,456
+000037 | Valuation allowance
+000038 | (1,374)
+000039 | (1,253)
+000040 | Total deferred tax assets
+000041 | 2,324
+000042 | 2,203
+000043 | Deferred tax liabilities
+000044 | Deferred revenue
+000045 | (175)
+000046 | (244)
+000047 | Pension
+000048 | (1,339)
+000049 | (1,481)
+000050 | Property, plant and equipment
+000051 | (351)
+000052 | (212)
+000053 | Right-of-use asset
+000054 | (198)
+000055 | (198)
+000056 | Intangibles
+000057 | (886)
+000058 | (654)
+000059 | Unremitted earnings of foreign subsidiaries
+000060 | (482)
+000061 | (488)
+000062 | Other asset basis differences
+000063 | (271)
+000064 | (272)
+000065 | Total deferred tax liabilities
+000066 | (3,702)
+000067 | (3,549)
+000068 | Net deferred tax liability
+000069 | (1,378)
+000070 | (1,346)
+000071 | Disposal Group, Held-for-Sale, Not Discontinued Operations | Productivity Solutions and Services and Warehouse Workflow Solutions Businesses
+000072 | Deferred tax liabilities
+000073 | Deferred tax asset, disposal group
+000074 | 136
+000075 | Deferred tax liability, disposal group
+000076 | $ 0
+000077 | Disposal Group, Held-for-Sale, Not Discontinued Operations | Personal Protective Equipment Business
+000078 | Deferred tax liabilities
+000079 | Deferred tax asset, disposal group
+000080 | 0
+000081 | Deferred tax liability, disposal group
+000082 | $ 124
+000083 | X
+000084 | - Definition
+000085 | Deferred Tax Asset, Capitalized Research And Development
+000086 | + References
+000087 | No definition available.
+000088 | + Details
+000089 | Name:
+000090 | hon_DeferredTaxAssetCapitalizedResearchAndDevelopment
+000091 | Namespace Prefix:
+000092 | hon_
+000093 | Data Type:
+000094 | xbrli:monetaryItemType
+000095 | Balance Type:
+000096 | debit
+000097 | Period Type:
+000098 | instant
+000099 | X
+000100 | - Definition
+000101 | The sum of the tax effects as of the balance sheet date of the amount of (a) excesses of tax deductions over gross income in a year which cannot be used on the tax returns in the current year but can be carried forward to reduce taxable income or income t
+000102 | + References
+000103 | No definition available.
+000104 | + Details
+000105 | Name:
+000106 | hon_DeferredTaxAssetsNetOperatingAndCapitalLossCarryforwards
+000107 | Namespace Prefix:
+000108 | hon_
+000109 | Data Type:
+000110 | xbrli:monetaryItemType
+000111 | Balance Type:
+000112 | debit
+000113 | Period Type:
+000114 | instant
+000115 | X
+000116 | - Definition
+000117 | Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences from asbestos and environmental matters.
+000118 | + References
+000119 | No definition available.
+000120 | + Details
+000121 | Name:
+000122 | hon_DeferredTaxAssetsTaxDeferredExpenseAsbestosAndEnvironmental
+000123 | Namespace Prefix:
+000124 | hon_
+000125 | Data Type:
+000126 | xbrli:monetaryItemType
+000127 | Balance Type:
+000128 | debit
+000129 | Period Type:
+000130 | instant
+000131 | X
+000132 | - Definition
+000133 | Amount of deferred tax liability attributable to taxable temporary differences from pension benefits.
+000134 | + References
+000135 | No definition available.
+000136 | + Details
+000137 | Name:
+000138 | hon_DeferredTaxLiabilitiesCompensationAndBenefitsPensions
+000139 | Namespace Prefix:
+000140 | hon_
+000141 | Data Type:
+000142 | xbrli:monetaryItemType
+000143 | Balance Type:
+000144 | credit
+000145 | Period Type:
+000146 | instant
+000147 | X
+000148 | - Definition
+000149 | Amount of deferred tax liability attributable to taxable temporary differences from other asset basis differences
+000150 | + References
+000151 | No definition available.
+000152 | + Details
+000153 | Name:
+000154 | hon_DeferredTaxLiabilitiesOtherAssetBasisDifferences
+000155 | Namespace Prefix:
+000156 | hon_
+000157 | Data Type:
+000158 | xbrli:monetaryItemType
+000159 | Balance Type:
+000160 | credit
+000161 | Period Type:
+000162 | instant
+000163 | X
+000164 | - Definition
+000165 | Amount of deferred tax liability attributable to taxable temporary differences.
+000166 | + References
+000167 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000168 | -Topic 210
+000169 | -SubTopic 10
+000170 | -Name Accounting Standards Codification
+000171 | -Section S99
+000172 | -Paragraph 1
+000173 | -Subparagraph (SX 210.5-02(26)(b))
+000174 | -Publisher FASB
+000175 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000176 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000177 | -Topic 740
+000178 | -SubTopic 10
+000179 | -Name Accounting Standards Codification
+000180 | -Section 50
+000181 | -Paragraph 2
+000182 | -Subparagraph (a)
+000183 | -Publisher FASB
+000184 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000185 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000186 | -Topic 210
+000187 | -SubTopic 10
+000188 | -Name Accounting Standards Codification
+000189 | -Section S99
+000190 | -Paragraph 1
+000191 | -Subparagraph (SX 210.5-02(26)(a))
+000192 | -Publisher FASB
+000193 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000194 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000195 | -Topic 942
+000196 | -SubTopic 210
+000197 | -Name Accounting Standards Codification
+000198 | -Section S99
+000199 | -Paragraph 1
+000200 | -Subparagraph (SX 210.9-03(15)(2))
+000201 | -Publisher FASB
+000202 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000203 | + Details
+000204 | Name:
+000205 | us-gaap_DeferredIncomeTaxLiabilities
+000206 | Namespace Prefix:
+000207 | us-gaap_
+000208 | Data Type:
+000209 | xbrli:monetaryItemType
+000210 | Balance Type:
+000211 | credit
+000212 | Period Type:
+000213 | instant
+000214 | X
+000215 | - Definition
+000216 | Amount before allocation of valuation allowances of deferred tax asset attributable to deductible capital loss carryforwards.
+000217 | + References
+000218 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000219 | -Topic 740
+000220 | -SubTopic 10
+000221 | -Name Accounting Standards Codification
+000222 | -Section 50
+000223 | -Paragraph 6
+000224 | -Publisher FASB
+000225 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000226 | + Details
+000227 | Name:
+000228 | us-gaap_DeferredTaxAssetsCapitalLossCarryforwards
+000229 | Namespace Prefix:
+000230 | us-gaap_
+000231 | Data Type:
+000232 | xbrli:monetaryItemType
+000233 | Balance Type:
+000234 | debit
+000235 | Period Type:
+000236 | instant
+000237 | X
+000238 | - Definition
+000239 | Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences and carryforwards.
+000240 | + References
+000241 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000242 | -Topic 740
+000243 | -SubTopic 10
+000244 | -Name Accounting Standards Codification
+000245 | -Section 50
+000246 | -Paragraph 2
+000247 | -Subparagraph (b)
+000248 | -Publisher FASB
+000249 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000250 | + Details
+000251 | Name:
+000252 | us-gaap_DeferredTaxAssetsGross
+000253 | Namespace Prefix:
+000254 | us-gaap_
+000255 | Data Type:
+000256 | xbrli:monetaryItemType
+000257 | Balance Type:
+000258 | debit
+000259 | Period Type:
+000260 | instant
+000261 | X
+000262 | - Definition
+000263 | Amount after allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences and carryforwards.
+000264 | + References
+000265 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000266 | -Topic 740
+000267 | -SubTopic 10
+000268 | -Name Accounting Standards Codification
+000269 | -Section 50
+000270 | -Paragraph 2
+000271 | -Publisher FASB
+000272 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000273 | + Details
+000274 | Name:
+000275 | us-gaap_DeferredTaxAssetsNet
+000276 | Namespace Prefix:
+000277 | us-gaap_
+000278 | Data Type:
+000279 | xbrli:monetaryItemType
+000280 | Balance Type:
+000281 | debit
+000282 | Period Type:
+000283 | instant
+000284 | X
+000285 | - References
+000286 | No definition available.
+000287 | + Details
+000288 | Name:
+000289 | us-gaap_DeferredTaxAssetsNetAbstract
+000290 | Namespace Prefix:
+000291 | us-gaap_
+000292 | Data Type:
+000293 | xbrli:stringItemType
+000294 | Balance Type:
+000295 | na
+000296 | Period Type:
+000297 | duration
+000298 | X
+000299 | - Definition
+000300 | Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences from property, plant, and equipment.
+000301 | + References
+000302 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000303 | -Topic 740
+000304 | -SubTopic 10
+000305 | -Name Accounting Standards Codification
+000306 | -Section 50
+000307 | -Paragraph 6
+000308 | -Publisher FASB
+000309 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000310 | + Details
+000311 | Name:
+000312 | us-gaap_DeferredTaxAssetsPropertyPlantAndEquipment
+000313 | Namespace Prefix:
+000314 | us-gaap_
+000315 | Data Type:
+000316 | xbrli:monetaryItemType
+000317 | Balance Type:
+000318 | debit
+000319 | Period Type:
+000320 | instant
+000321 | X
+000322 | - Definition
+000323 | Amount, before allocation of a valuation allowances, of deferred tax assets attributable to deductible tax credit carryforwards including, but not limited to, research, foreign, general business, alternative minimum tax, and other deductible tax credit carryforwards.
+000324 | + References
+000325 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000326 | -Topic 740
+000327 | -SubTopic 10
+000328 | -Name Accounting Standards Codification
+000329 | -Section 50
+000330 | -Paragraph 6
+000331 | -Publisher FASB
+000332 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000333 | + Details
+000334 | Name:
+000335 | us-gaap_DeferredTaxAssetsTaxCreditCarryforwards
+000336 | Namespace Prefix:
+000337 | us-gaap_
+000338 | Data Type:
+000339 | xbrli:monetaryItemType
+000340 | Balance Type:
+000341 | debit
+000342 | Period Type:
+000343 | instant
+000344 | X
+000345 | - Definition
+000346 | Amount, before allocation of valuation allowance, of deferred tax asset attributable to deductible temporary differences from compensation and benefits, classified as other.
+000347 | + References
+000348 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000349 | -Topic 740
+000350 | -SubTopic 10
+000351 | -Name Accounting Standards Codification
+000352 | -Section 50
+000353 | -Paragraph 6
+000354 | -Publisher FASB
+000355 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000356 | + Details
+000357 | Name:
+000358 | us-gaap_DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsOther
+000359 | Namespace Prefix:
+000360 | us-gaap_
+000361 | Data Type:
+000362 | xbrli:monetaryItemType
+000363 | Balance Type:
+000364 | debit
+000365 | Period Type:
+000366 | instant
+000367 | X
+000368 | - Definition
+000369 | Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences from postretirement benefits.
+000370 | + References
+000371 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000372 | -Topic 740
+000373 | -SubTopic 10
+000374 | -Name Accounting Standards Codification
+000375 | -Section 50
+000376 | -Paragraph 6
+000377 | -Publisher FASB
+000378 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000379 | + Details
+000380 | Name:
+000381 | us-gaap_DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsPostretirementBenefits
+000382 | Namespace Prefix:
+000383 | us-gaap_
+000384 | Data Type:
+000385 | xbrli:monetaryItemType
+000386 | Balance Type:
+000387 | debit
+000388 | Period Type:
+000389 | instant
+000390 | X
+000391 | - Definition
+000392 | Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences from reserves and accruals.
+000393 | + References
+000394 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000395 | -Topic 740
+000396 | -SubTopic 10
+000397 | -Name Accounting Standards Codification
+000398 | -Section 50
+000399 | -Paragraph 6
+000400 | -Publisher FASB
+000401 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000402 | + Details
+000403 | Name:
+000404 | us-gaap_DeferredTaxAssetsTaxDeferredExpenseReservesAndAccruals
+000405 | Namespace Prefix:
+000406 | us-gaap_
+000407 | Data Type:
+000408 | xbrli:monetaryItemType
+000409 | Balance Type:
+000410 | debit
+000411 | Period Type:
+000412 | instant
+000413 | X
+000414 | - Definition
+000415 | Amount of deferred tax assets for which it is more likely than not that a tax benefit will not be realized.
+000416 | + References
+000417 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000418 | -Topic 740
+000419 | -SubTopic 10
+000420 | -Name Accounting Standards Codification
+000421 | -Section 50
+000422 | -Paragraph 2
+000423 | -Subparagraph (c)
+000424 | -Publisher FASB
+000425 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000426 | + Details
+000427 | Name:
+000428 | us-gaap_DeferredTaxAssetsValuationAllowance
+000429 | Namespace Prefix:
+000430 | us-gaap_
+000431 | Data Type:
+000432 | xbrli:monetaryItemType
+000433 | Balance Type:
+000434 | credit
+000435 | Period Type:
+000436 | instant
+000437 | X
+000438 | - Definition
+000439 | Amount, after deferred tax asset, of deferred tax liability attributable to taxable differences without jurisdictional netting.
+000440 | + References
+000441 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000442 | -Topic 740
+000443 | -SubTopic 10
+000444 | -Name Accounting Standards Codification
+000445 | -Section 50
+000446 | -Paragraph 2
+000447 | -Publisher FASB
+000448 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000449 | + Details
+000450 | Name:
+000451 | us-gaap_DeferredTaxLiabilities
+000452 | Namespace Prefix:
+000453 | us-gaap_
+000454 | Data Type:
+000455 | xbrli:monetaryItemType
+000456 | Balance Type:
+000457 | credit
+000458 | Period Type:
+000459 | instant
+000460 | X
+000461 | - Definition
+000462 | Amount of deferred tax liability attributable to taxable temporary differences from intangible assets other than goodwill.
+000463 | + References
+000464 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000465 | -Topic 740
+000466 | -SubTopic 10
+000467 | -Name Accounting Standards Codification
+000468 | -Section 50
+000469 | -Paragraph 6
+000470 | -Publisher FASB
+000471 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000472 | + Details
+000473 | Name:
+000474 | us-gaap_DeferredTaxLiabilitiesGoodwillAndIntangibleAssetsIntangibleAssets
+000475 | Namespace Prefix:
+000476 | us-gaap_
+000477 | Data Type:
+000478 | xbrli:monetaryItemType
+000479 | Balance Type:
+000480 | credit
+000481 | Period Type:
+000482 | instant
+000483 | X
+000484 | - Definition
+000485 | Amount of deferred tax liability attributable to taxable temporary differences from leasing arrangements.
+000486 | + References
+000487 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000488 | -Topic 740
+000489 | -SubTopic 10
+000490 | -Name Accounting Standards Codification
+000491 | -Section 50
+000492 | -Paragraph 6
+000493 | -Publisher FASB
+000494 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000495 | + Details
+000496 | Name:
+000497 | us-gaap_DeferredTaxLiabilitiesLeasingArrangements
+000498 | Namespace Prefix:
+000499 | us-gaap_
+000500 | Data Type:
+000501 | xbrli:monetaryItemType
+000502 | Balance Type:
+000503 | credit
+000504 | Period Type:
+000505 | instant
+000506 | X
+000507 | - References
+000508 | No definition available.
+000509 | + Details
+000510 | Name:
+000511 | us-gaap_DeferredTaxLiabilitiesNetAbstract
+000512 | Namespace Prefix:
+000513 | us-gaap_
+000514 | Data Type:
+000515 | xbrli:stringItemType
+000516 | Balance Type:
+000517 | na
+000518 | Period Type:
+000519 | duration
+000520 | X
+000521 | - Definition
+000522 | Amount of deferred tax liability attributable to taxable temporary differences from property, plant, and equipment.
+000523 | + References
+000524 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000525 | -Topic 740
+000526 | -SubTopic 10
+000527 | -Name Accounting Standards Codification
+000528 | -Section 50
+000529 | -Paragraph 6
+000530 | -Publisher FASB
+000531 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000532 | + Details
+000533 | Name:
+000534 | us-gaap_DeferredTaxLiabilitiesPropertyPlantAndEquipment
+000535 | Namespace Prefix:
+000536 | us-gaap_
+000537 | Data Type:
+000538 | xbrli:monetaryItemType
+000539 | Balance Type:
+000540 | credit
+000541 | Period Type:
+000542 | instant
+000543 | X
+000544 | - Definition
+000545 | Amount of deferred tax liability attributable to taxable temporary differences from tax deferred revenue or income classified as other.
+000546 | + References
+000547 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000548 | -Topic 740
+000549 | -SubTopic 10
+000550 | -Name Accounting Standards Codification
+000551 | -Section 50
+000552 | -Paragraph 6
+000553 | -Publisher FASB
+000554 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000555 | + Details
+000556 | Name:
+000557 | us-gaap_DeferredTaxLiabilitiesTaxDeferredIncome
+000558 | Namespace Prefix:
+000559 | us-gaap_
+000560 | Data Type:
+000561 | xbrli:monetaryItemType
+000562 | Balance Type:
+000563 | credit
+000564 | Period Type:
+000565 | instant
+000566 | X
+000567 | - Definition
+000568 | Amount of deferred tax liability attributable to taxable temporary differences from undistributed earnings of subsidiary and other recognized entity not within country of domicile. Includes, but is not limited to, other basis differences.
+000569 | + References
+000570 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000571 | -Topic 740
+000572 | -SubTopic 10
+000573 | -Name Accounting Standards Codification
+000574 | -Section 50
+000575 | -Paragraph 6
+000576 | -Publisher FASB
+000577 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-6
+000578 | + Details
+000579 | Name:
+000580 | us-gaap_DeferredTaxLiabilitiesUndistributedForeignEarnings
+000581 | Namespace Prefix:
+000582 | us-gaap_
+000583 | Data Type:
+000584 | xbrli:monetaryItemType
+000585 | Balance Type:
+000586 | credit
+000587 | Period Type:
+000588 | instant
+000589 | X
+000590 | - Definition
+000591 | Amount classified as deferred tax assets attributable to disposal group held for sale or disposed of.
+000592 | + References
+000593 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000594 | -Name Accounting Standards Codification
+000595 | -Section 45
+000596 | -Paragraph 10
+000597 | -SubTopic 20
+000598 | -Topic 205
+000599 | -Publisher FASB
+000600 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+000601 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000602 | -Topic 205
+000603 | -SubTopic 20
+000604 | -Name Accounting Standards Codification
+000605 | -Section 50
+000606 | -Paragraph 5B
+000607 | -Subparagraph (e)
+000608 | -Publisher FASB
+000609 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000610 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000611 | -Topic 360
+000612 | -SubTopic 10
+000613 | -Name Accounting Standards Codification
+000614 | -Section 50
+000615 | -Paragraph 3
+000616 | -Subparagraph (e)
+000617 | -Publisher FASB
+000618 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000619 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000620 | -Topic 205
+000621 | -SubTopic 20
+000622 | -Name Accounting Standards Codification
+000623 | -Section 45
+000624 | -Paragraph 11
+000625 | -Publisher FASB
+000626 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000627 | + Details
+000628 | Name:
+000629 | us-gaap_DisposalGroupIncludingDiscontinuedOperationDeferredTaxAssets
+000630 | Namespace Prefix:
+000631 | us-gaap_
+000632 | Data Type:
+000633 | xbrli:monetaryItemType
+000634 | Balance Type:
+000635 | debit
+000636 | Period Type:
+000637 | instant
+000638 | X
+000639 | - Definition
+000640 | Amount classified as deferred tax liabilities attributable to disposal group held for sale or disposed of.
+000641 | + References
+000642 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000643 | -Name Accounting Standards Codification
+000644 | -Section 45
+000645 | -Paragraph 10
+000646 | -SubTopic 20
+000647 | -Topic 205
+000648 | -Publisher FASB
+000649 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+000650 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000651 | -Topic 205
+000652 | -SubTopic 20
+000653 | -Name Accounting Standards Codification
+000654 | -Section 50
+000655 | -Paragraph 5B
+000656 | -Subparagraph (e)
+000657 | -Publisher FASB
+000658 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000659 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000660 | -Topic 360
+000661 | -SubTopic 10
+000662 | -Name Accounting Standards Codification
+000663 | -Section 50
+000664 | -Paragraph 3
+000665 | -Subparagraph (e)
+000666 | -Publisher FASB
+000667 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000668 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000669 | -Topic 205
+000670 | -SubTopic 20
+000671 | -Name Accounting Standards Codification
+000672 | -Section 45
+000673 | -Paragraph 11
+000674 | -Publisher FASB
+000675 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000676 | + Details
+000677 | Name:
+000678 | us-gaap_DisposalGroupIncludingDiscontinuedOperationDeferredTaxLiabilities
+000679 | Namespace Prefix:
+000680 | us-gaap_
+000681 | Data Type:
+000682 | xbrli:monetaryItemType
+000683 | Balance Type:
+000684 | credit
+000685 | Period Type:
+000686 | instant
+000687 | X
+000688 | - Details
+000689 | Name:
+000690 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+000691 | Namespace Prefix:
+000692 | Data Type:
+000693 | na
+000694 | Balance Type:
+000695 | Period Type:
+000696 | X
+000697 | - Details
+000698 | Name:
+000699 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=hon_ProductivitySolutionsAndServicesAndWarehouseWorkflowSolutionsBusinessesMember
+000700 | Namespace Prefix:
+000701 | Data Type:
+000702 | na
+000703 | Balance Type:
+000704 | Period Type:
+000705 | X
+000706 | - Details
+000707 | Name:
+000708 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=hon_PersonalProtectiveEquipmentBusinessMember
+000709 | Namespace Prefix:
+000710 | Data Type:
+000711 | na
+000712 | Balance Type:
+000713 | Period Type:

@@ -1,0 +1,116 @@
+000001 | v3.10.0.1
+000002 | Repositioning Charges - Summary of Pretax Distribution of Total Net Repositioning Charges by Statement of Operations Classification (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2018
+000007 | Mar. 31, 2018
+000008 | Sep. 30, 2017
+000009 | Sep. 30, 2018
+000010 | Sep. 30, 2017
+000011 | Restructuring Cost And Reserve [Line Items]
+000012 | Total net repositioning charges
+000013 | $ 0
+000014 | $ 5
+000015 | $ 2
+000016 | $ 5
+000017 | $ 21
+000018 | Cost of Goods Sold
+000019 | Restructuring Cost And Reserve [Line Items]
+000020 | Total net repositioning charges
+000021 | 0
+000022 | 2
+000023 | 4
+000024 | 16
+000025 | Selling, General and Administrative Expenses
+000026 | Restructuring Cost And Reserve [Line Items]
+000027 | Total net repositioning charges
+000028 | $ 0
+000029 | $ 0
+000030 | $ 1
+000031 | $ 5
+000032 | X
+000033 | - Definition
+000034 | Amount of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.
+000035 | + References
+000036 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000037 | -Publisher FASB
+000038 | -Name Accounting Standards Codification
+000039 | -Topic 420
+000040 | -SubTopic 10
+000041 | -Section S99
+000042 | -Paragraph 1
+000043 | -Subparagraph (SAB Topic 5.P.3)
+000044 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140864-122747
+000045 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000046 | -Publisher FASB
+000047 | -Name Accounting Standards Codification
+000048 | -Topic 420
+000049 | -SubTopic 10
+000050 | -Section 50
+000051 | -Paragraph 1
+000052 | -Subparagraph (b)
+000053 | -URI http://asc.fasb.org/extlink&oid=6394359&loc=d3e17939-110869
+000054 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000055 | -Publisher FASB
+000056 | -Name Accounting Standards Codification
+000057 | -Topic 230
+000058 | -SubTopic 10
+000059 | -Section 45
+000060 | -Paragraph 28
+000061 | -Subparagraph (b)
+000062 | -URI http://asc.fasb.org/extlink&oid=109223946&loc=d3e3602-108585
+000063 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000064 | -Publisher FASB
+000065 | -Name Accounting Standards Codification
+000066 | -Topic 420
+000067 | -SubTopic 10
+000068 | -Section S99
+000069 | -Paragraph 2
+000070 | -Subparagraph (SAB Topic 5.P.4(b))
+000071 | -URI http://asc.fasb.org/extlink&oid=115931487&loc=d3e140904-122747
+000072 | + Details
+000073 | Name:
+000074 | us-gaap_RestructuringCharges
+000075 | Namespace Prefix:
+000076 | us-gaap_
+000077 | Data Type:
+000078 | xbrli:monetaryItemType
+000079 | Balance Type:
+000080 | debit
+000081 | Period Type:
+000082 | duration
+000083 | X
+000084 | - Definition
+000085 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000086 | + References
+000087 | No definition available.
+000088 | + Details
+000089 | Name:
+000090 | us-gaap_RestructuringCostAndReserveLineItems
+000091 | Namespace Prefix:
+000092 | us-gaap_
+000093 | Data Type:
+000094 | xbrli:stringItemType
+000095 | Balance Type:
+000096 | na
+000097 | Period Type:
+000098 | duration
+000099 | X
+000100 | - Details
+000101 | Name:
+000102 | us-gaap_IncomeStatementLocationAxis=us-gaap_CostOfSalesMember
+000103 | Namespace Prefix:
+000104 | Data Type:
+000105 | na
+000106 | Balance Type:
+000107 | Period Type:
+000108 | X
+000109 | - Details
+000110 | Name:
+000111 | us-gaap_IncomeStatementLocationAxis=us-gaap_SellingGeneralAndAdministrativeExpensesMember
+000112 | Namespace Prefix:
+000113 | Data Type:
+000114 | na
+000115 | Balance Type:
+000116 | Period Type:

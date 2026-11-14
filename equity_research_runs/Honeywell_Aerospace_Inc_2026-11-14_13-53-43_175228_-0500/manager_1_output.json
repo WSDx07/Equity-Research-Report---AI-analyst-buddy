@@ -1,0 +1,35 @@
+{
+  "research_issues": [
+    "Insight field is empty – cannot assess completeness or consistency of the Research section.",
+    "Claim 5 (Separation and Distribution Agreement) is flagged as having an invalid or non‑verbatim document line/quote.",
+    "Claim 10 (no disclosed quantitative market‑share data) uses line -1 and an empty quote, making verification impossible.",
+    "Several claims merely restate figures (e.g., 9 % orders growth, $20 bn new wins) without adding analysis beyond the quoted paragraph."
+  ],
+  "financial_issues": [
+    "Insight field is empty – no evaluative commentary provided for the Financial section.",
+    "Financial observations contain raw numeric statements (e.g., “$1,125 million over five years”) without supporting SEC‐tagged facts.",
+    "All required XBRL concepts (revenue, operating income, net income, EPS, debt, etc.) are unavailable, preventing any ratio or valuation calculation."
+  ],
+  "advisor_issues": [
+    "Insight field is empty – missing required filing, line number and exact quote.",
+    "No deciding metric was selected; the recommended metric (price_to_earnings) cannot be computed because earnings data are absent."
+  ],
+  "overall_issues": [
+    "The five mandated sections (Overview, Market Positioning and Growth Outlook, Valuation Insights, Future Developments and Strategic Recommendations, Investment Recommendation) each lack a completed Insight paragraph.",
+    "Valuation Insights section contains no claims or data, making any valuation analysis impossible.",
+    "Investment Recommendation section is entirely missing.",
+    "The release first paragraph cannot be confirmed as the true first paragraph due to lack of original HTML boundaries."
+  ],
+  "research_insight": {
+    "status": "fail",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "fail",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "fail",
+    "reason": ""
+  }
+}

@@ -1,0 +1,151 @@
+000001 | v3.25.4
+000002 | REPOSITIONING AND OTHER (GAINS) CHARGES - Pretax Distribution of Total Net Repositioning (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Restructuring Reserve Disclosures [Line Items]
+000009 | Total net repositioning and other (gains) charges
+000010 | $ (167)
+000011 | $ 239
+000012 | $ 844
+000013 | Cost of products and services sold
+000014 | Restructuring Reserve Disclosures [Line Items]
+000015 | Total net repositioning and other (gains) charges
+000016 | 513
+000017 | 109
+000018 | 680
+000019 | Selling, general and administrative expenses
+000020 | Restructuring Reserve Disclosures [Line Items]
+000021 | Total net repositioning and other (gains) charges
+000022 | 122
+000023 | 113
+000024 | 163
+000025 | Other (income) expense
+000026 | Restructuring Reserve Disclosures [Line Items]
+000027 | Total net repositioning and other (gains) charges
+000028 | $ (802)
+000029 | $ 17
+000030 | $ 1
+000031 | X
+000032 | - Definition
+000033 | Net total Increase or Decrease in the accrual for restructuring and other costs, including asbestos litigation charges - net of insurance and environmental remediation activities, during the reporting period.
+000034 | + References
+000035 | No definition available.
+000036 | + Details
+000037 | Name:
+000038 | hon_RestructuringReserveAndOtherChargesPeriodIncreaseDecrease
+000039 | Namespace Prefix:
+000040 | hon_
+000041 | Data Type:
+000042 | xbrli:monetaryItemType
+000043 | Balance Type:
+000044 | debit
+000045 | Period Type:
+000046 | duration
+000047 | X
+000048 | - Definition
+000049 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000050 | + References
+000051 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000052 | -Topic 420
+000053 | -SubTopic 10
+000054 | -Name Accounting Standards Codification
+000055 | -Section S99
+000056 | -Paragraph 2
+000057 | -Subparagraph (SAB Topic 5.P.4.d)
+000058 | -Publisher FASB
+000059 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000060 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000061 | -Topic 420
+000062 | -SubTopic 10
+000063 | -Name Accounting Standards Codification
+000064 | -Section S99
+000065 | -Paragraph 2
+000066 | -Subparagraph (SAB Topic 5.P.4.b.1)
+000067 | -Publisher FASB
+000068 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000069 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000070 | -Topic 420
+000071 | -SubTopic 10
+000072 | -Name Accounting Standards Codification
+000073 | -Section S99
+000074 | -Paragraph 2
+000075 | -Subparagraph (SAB Topic 5.P.4.b.2)
+000076 | -Publisher FASB
+000077 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000078 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000079 | -Topic 420
+000080 | -SubTopic 10
+000081 | -Name Accounting Standards Codification
+000082 | -Section 50
+000083 | -Paragraph 1
+000084 | -Subparagraph (c)
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000087 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000088 | -Topic 420
+000089 | -SubTopic 10
+000090 | -Name Accounting Standards Codification
+000091 | -Section 50
+000092 | -Paragraph 1
+000093 | -Subparagraph (b)(2)
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000096 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000097 | -Topic 420
+000098 | -SubTopic 10
+000099 | -Name Accounting Standards Codification
+000100 | -Section 50
+000101 | -Paragraph 1
+000102 | -Subparagraph (b)(1)
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000105 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000106 | -Topic 420
+000107 | -SubTopic 10
+000108 | -Name Accounting Standards Codification
+000109 | -Section 50
+000110 | -Paragraph 1
+000111 | -Subparagraph (d)
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000114 | + Details
+000115 | Name:
+000116 | us-gaap_RestructuringCostAndReserveLineItems
+000117 | Namespace Prefix:
+000118 | us-gaap_
+000119 | Data Type:
+000120 | xbrli:stringItemType
+000121 | Balance Type:
+000122 | na
+000123 | Period Type:
+000124 | duration
+000125 | X
+000126 | - Details
+000127 | Name:
+000128 | us-gaap_IncomeStatementLocationAxis=us-gaap_CostOfSalesMember
+000129 | Namespace Prefix:
+000130 | Data Type:
+000131 | na
+000132 | Balance Type:
+000133 | Period Type:
+000134 | X
+000135 | - Details
+000136 | Name:
+000137 | us-gaap_IncomeStatementLocationAxis=us-gaap_SellingGeneralAndAdministrativeExpensesMember
+000138 | Namespace Prefix:
+000139 | Data Type:
+000140 | na
+000141 | Balance Type:
+000142 | Period Type:
+000143 | X
+000144 | - Details
+000145 | Name:
+000146 | us-gaap_IncomeStatementLocationAxis=us-gaap_OtherNonoperatingIncomeExpenseMember
+000147 | Namespace Prefix:
+000148 | Data Type:
+000149 | na
+000150 | Balance Type:
+000151 | Period Type:

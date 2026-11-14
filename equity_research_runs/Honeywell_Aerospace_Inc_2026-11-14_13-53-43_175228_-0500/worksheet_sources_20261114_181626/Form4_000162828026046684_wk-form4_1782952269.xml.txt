@@ -1,0 +1,133 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0609</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2026-06-29</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0002089271</issuerCik>
+000015 |         <issuerName>Honeywell Aerospace Inc.</issuerName>
+000016 |         <issuerTradingSymbol>HONA</issuerTradingSymbol>
+000017 |         <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+000018 |     </issuer>
+000019 | 
+000020 |     <reportingOwner>
+000021 |         <reportingOwnerId>
+000022 |             <rptOwnerCik>0001428718</rptOwnerCik>
+000023 |             <rptOwnerName>Denton David M</rptOwnerName>
+000024 |         </reportingOwnerId>
+000025 |         <reportingOwnerAddress>
+000026 |             <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+000027 |             <rptOwnerStreet1>C/O HONEYWELL AEROSPACE INC.</rptOwnerStreet1>
+000028 |             <rptOwnerStreet2>1944 E SKY HARBOR CIRCLE N</rptOwnerStreet2>
+000029 |             <rptOwnerCity>PHOENIX</rptOwnerCity>
+000030 |             <rptOwnerState>AZ</rptOwnerState>
+000031 |             <rptOwnerZipCode>85034</rptOwnerZipCode>
+000032 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000033 |         </reportingOwnerAddress>
+000034 |         <reportingOwnerRelationship>
+000035 |             <isDirector>1</isDirector>
+000036 |             <isOfficer>0</isOfficer>
+000037 |             <isTenPercentOwner>0</isTenPercentOwner>
+000038 |             <isOther>0</isOther>
+000039 |         </reportingOwnerRelationship>
+000040 |     </reportingOwner>
+000041 | 
+000042 |     <aff10b5One>0</aff10b5One>
+000043 | 
+000044 |     <nonDerivativeTable>
+000045 |         <nonDerivativeHolding>
+000046 |             <securityTitle>
+000047 |                 <value>Common Stock</value>
+000048 |             </securityTitle>
+000049 |             <postTransactionAmounts>
+000050 |                 <sharesOwnedFollowingTransaction>
+000051 |                     <value>21</value>
+000052 |                     <footnoteId id="F1"/>
+000053 |                 </sharesOwnedFollowingTransaction>
+000054 |             </postTransactionAmounts>
+000055 |             <ownershipNature>
+000056 |                 <directOrIndirectOwnership>
+000057 |                     <value>D</value>
+000058 |                 </directOrIndirectOwnership>
+000059 |             </ownershipNature>
+000060 |         </nonDerivativeHolding>
+000061 |     </nonDerivativeTable>
+000062 | 
+000063 |     <derivativeTable>
+000064 |         <derivativeTransaction>
+000065 |             <securityTitle>
+000066 |                 <value>Deferred Compensation (Phantom Shares)</value>
+000067 |             </securityTitle>
+000068 |             <conversionOrExercisePrice>
+000069 |                 <footnoteId id="F2"/>
+000070 |             </conversionOrExercisePrice>
+000071 |             <transactionDate>
+000072 |                 <value>2026-06-29</value>
+000073 |             </transactionDate>
+000074 |             <transactionCoding>
+000075 |                 <transactionFormType>4</transactionFormType>
+000076 |                 <transactionCode>A</transactionCode>
+000077 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000078 |             </transactionCoding>
+000079 |             <transactionAmounts>
+000080 |                 <transactionShares>
+000081 |                     <value>135.1441</value>
+000082 |                 </transactionShares>
+000083 |                 <transactionPricePerShare>
+000084 |                     <value>226.24</value>
+000085 |                 </transactionPricePerShare>
+000086 |                 <transactionAcquiredDisposedCode>
+000087 |                     <value>A</value>
+000088 |                 </transactionAcquiredDisposedCode>
+000089 |             </transactionAmounts>
+000090 |             <exerciseDate>
+000091 |                 <footnoteId id="F3"/>
+000092 |             </exerciseDate>
+000093 |             <expirationDate>
+000094 |                 <footnoteId id="F3"/>
+000095 |             </expirationDate>
+000096 |             <underlyingSecurity>
+000097 |                 <underlyingSecurityTitle>
+000098 |                     <value>Common Stock</value>
+000099 |                 </underlyingSecurityTitle>
+000100 |                 <underlyingSecurityShares>
+000101 |                     <value>135.1441</value>
+000102 |                 </underlyingSecurityShares>
+000103 |             </underlyingSecurity>
+000104 |             <postTransactionAmounts>
+000105 |                 <sharesOwnedFollowingTransaction>
+000106 |                     <value>135.1441</value>
+000107 |                 </sharesOwnedFollowingTransaction>
+000108 |             </postTransactionAmounts>
+000109 |             <ownershipNature>
+000110 |                 <directOrIndirectOwnership>
+000111 |                     <value>D</value>
+000112 |                 </directOrIndirectOwnership>
+000113 |             </ownershipNature>
+000114 |         </derivativeTransaction>
+000115 |     </derivativeTable>
+000116 | 
+000117 |     <footnotes>
+000118 |         <footnote id="F1">On June 29, 2026, Honeywell International Inc. (&quot;Honeywell&quot;) distributed a pro rata dividend to Honeywell shareowners of one share of common stock, par value $0.01 per share (&quot;HONA Common
+000119 | Stock&quot;), of Honeywell Aerospace Inc., a Delaware corporation (&quot;HONA&quot;), for every two shares of Honeywell common stock, par value $1.00 per share, held by each holder of record as of the close of
+000120 | business on June 15, 2026, to effect the previously announced spin-off of HONA from Honeywell.</footnote>
+000121 |         <footnote id="F2">Deferred Compensation (Phantom Shares) are allocated based on the price of HONA Common Stock on the contribution date by dividing the dollar amount of the contribution by the price per share of HONA Common Stock. Common Stock prices are based on the mean of the highest and lowest sales price on the date of contribution. Phantom Shares are settled in cash based on the price of HONA Common Stock at settlement.</footnote>
+000122 |         <footnote id="F3">Phantom shares are accrued under the Deferred Compensation Plan for Non-Employee Directors and will be settled in cash based on elections by the Reporting Person as permitted under the Plan.</footnote>
+000123 |     </footnotes>
+000124 | 
+000125 |     <remarks></remarks>
+000126 | 
+000127 |     <ownerSignature>
+000128 |         <signatureName>/s/ Jennifer Nelson for David M. Denton</signatureName>
+000129 |         <signatureDate>2026-07-01</signatureDate>
+000130 |     </ownerSignature>
+000131 | </ownershipDocument>
+000132 | </XML>
+000133 | 

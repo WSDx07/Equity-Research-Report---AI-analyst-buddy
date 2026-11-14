@@ -1,0 +1,133 @@
+000001 | v3.10.0.1
+000002 | Revenue Recognition and Contracts with Customers - Schedule of Contract Assets and Liabilities Balances (Details) - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2018
+000006 | Jan. 01, 2018
+000007 | Contract assets and liabilities
+000008 | Contract assets
+000009 | $ 1
+000010 | $ 1
+000011 | Contract liabilities
+000012 | 2
+000013 | $ 3
+000014 | Change in contract liabilities - increase/(decrease)
+000015 | $ (1)
+000016 | X
+000017 | - References
+000018 | No definition available.
+000019 | + Details
+000020 | Name:
+000021 | us-gaap_ContractWithCustomerAssetAndLiabilityAbstract
+000022 | Namespace Prefix:
+000023 | us-gaap_
+000024 | Data Type:
+000025 | xbrli:stringItemType
+000026 | Balance Type:
+000027 | na
+000028 | Period Type:
+000029 | duration
+000030 | X
+000031 | - Definition
+000032 | Amount, after allowance for credit loss, of right to consideration in exchange for good or service transferred to customer when right is conditioned on something other than passage of time.
+000033 | + References
+000034 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000035 | -Publisher FASB
+000036 | -Name Accounting Standards Codification
+000037 | -Topic 606
+000038 | -SubTopic 10
+000039 | -Section 45
+000040 | -Paragraph 1
+000041 | -URI http://asc.fasb.org/extlink&oid=82913815&loc=SL49130531-203044
+000042 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000043 | -Publisher FASB
+000044 | -Name Accounting Standards Codification
+000045 | -Topic 606
+000046 | -SubTopic 10
+000047 | -Section 50
+000048 | -Paragraph 8
+000049 | -Subparagraph (a)
+000050 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130549-203045
+000051 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000052 | -Publisher FASB
+000053 | -Name Accounting Standards Codification
+000054 | -Topic 606
+000055 | -SubTopic 10
+000056 | -Section 45
+000057 | -Paragraph 3
+000058 | -URI http://asc.fasb.org/extlink&oid=82913815&loc=SL49130533-203044
+000059 | + Details
+000060 | Name:
+000061 | us-gaap_ContractWithCustomerAssetNet
+000062 | Namespace Prefix:
+000063 | us-gaap_
+000064 | Data Type:
+000065 | xbrli:monetaryItemType
+000066 | Balance Type:
+000067 | debit
+000068 | Period Type:
+000069 | instant
+000070 | X
+000071 | - Definition
+000072 | Amount of obligation to transfer good or service to customer for which consideration has been received or is receivable.
+000073 | + References
+000074 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000075 | -Publisher FASB
+000076 | -Name Accounting Standards Codification
+000077 | -Topic 606
+000078 | -SubTopic 10
+000079 | -Section 45
+000080 | -Paragraph 1
+000081 | -URI http://asc.fasb.org/extlink&oid=82913815&loc=SL49130531-203044
+000082 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000083 | -Publisher FASB
+000084 | -Name Accounting Standards Codification
+000085 | -Topic 606
+000086 | -SubTopic 10
+000087 | -Section 45
+000088 | -Paragraph 2
+000089 | -URI http://asc.fasb.org/extlink&oid=82913815&loc=SL49130532-203044
+000090 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000091 | -Publisher FASB
+000092 | -Name Accounting Standards Codification
+000093 | -Topic 606
+000094 | -SubTopic 10
+000095 | -Section 50
+000096 | -Paragraph 8
+000097 | -Subparagraph (a)
+000098 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130549-203045
+000099 | + Details
+000100 | Name:
+000101 | us-gaap_ContractWithCustomerLiability
+000102 | Namespace Prefix:
+000103 | us-gaap_
+000104 | Data Type:
+000105 | xbrli:monetaryItemType
+000106 | Balance Type:
+000107 | credit
+000108 | Period Type:
+000109 | instant
+000110 | X
+000111 | - Definition
+000112 | Amount of revenue recognized arising from contract liability from change in timeframe for performance obligation to be satisfied.
+000113 | + References
+000114 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000115 | -Publisher FASB
+000116 | -Name Accounting Standards Codification
+000117 | -Topic 606
+000118 | -SubTopic 10
+000119 | -Section 50
+000120 | -Paragraph 10
+000121 | -Subparagraph (e)
+000122 | -URI http://asc.fasb.org/extlink&oid=109196051&loc=SL49130551-203045
+000123 | + Details
+000124 | Name:
+000125 | us-gaap_ContractWithCustomerLiabilityChangeInTimeframePerformanceObligationSatisfiedRevenueRecognized
+000126 | Namespace Prefix:
+000127 | us-gaap_
+000128 | Data Type:
+000129 | xbrli:monetaryItemType
+000130 | Balance Type:
+000131 | credit
+000132 | Period Type:
+000133 | duration

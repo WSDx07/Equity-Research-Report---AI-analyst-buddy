@@ -1,0 +1,77 @@
+000001 | v3.26.1
+000002 | Leases (Tables)
+000003 | 6 Months Ended
+000004 | Jun. 27, 2026
+000005 | Leases [Abstract]
+000006 | Schedule of Supplemental Cash Flow Information
+000007 | Supplemental cash flow information related to leases was as follows:
+000008 | Six Months Ended
+000009 | June 27, 2026 June 28, 2025
+000010 | Right-of-use assets obtained in exchange for lease obligations
+000011 | Operating leases
+000012 | $ 49 $ 47
+000013 | Schedule of Supplemental Balance Sheet Information
+000014 | Supplemental balance sheet information related to leases was as follows:
+000015 | June 27, 2026 December 31, 2025
+000016 | Operating leases
+000017 | Other assets
+000018 | $ 278 $ 254
+000019 | Accrued liabilities
+000020 | 37 35
+000021 | Other liabilities
+000022 | 259 236
+000023 | Total operating lease liabilities
+000024 | $ 296 $ 271
+000025 | X
+000026 | - Definition
+000027 | Assets And Liabilities, Lessee
+000028 | + References
+000029 | No definition available.
+000030 | + Details
+000031 | Name:
+000032 | hona_AssetsAndLiabilitiesLesseeTableTextBlock
+000033 | Namespace Prefix:
+000034 | hona_
+000035 | Data Type:
+000036 | dtr-types:textBlockItemType
+000037 | Balance Type:
+000038 | na
+000039 | Period Type:
+000040 | duration
+000041 | X
+000042 | - Definition
+000043 | Tabular disclosure of lessee's lease cost. Includes, but is not limited to, interest expense for finance lease, amortization of right-of-use asset for finance lease, operating lease cost, short-term lease cost, variable lease cost and sublease income.
+000044 | + References
+000045 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000046 | -Topic 842
+000047 | -SubTopic 20
+000048 | -Name Accounting Standards Codification
+000049 | -Section 50
+000050 | -Paragraph 4
+000051 | -Publisher FASB
+000052 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000053 | + Details
+000054 | Name:
+000055 | us-gaap_LeaseCostTableTextBlock
+000056 | Namespace Prefix:
+000057 | us-gaap_
+000058 | Data Type:
+000059 | dtr-types:textBlockItemType
+000060 | Balance Type:
+000061 | na
+000062 | Period Type:
+000063 | duration
+000064 | X
+000065 | - References
+000066 | No definition available.
+000067 | + Details
+000068 | Name:
+000069 | us-gaap_LeasesAbstract
+000070 | Namespace Prefix:
+000071 | us-gaap_
+000072 | Data Type:
+000073 | xbrli:stringItemType
+000074 | Balance Type:
+000075 | na
+000076 | Period Type:
+000077 | duration

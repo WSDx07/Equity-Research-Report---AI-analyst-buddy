@@ -15,9 +15,9 @@ From the project root in PowerShell, substitute the saved run and reader-file pa
 .\.venv\Scripts\python.exe .\.agents\skills\us-spinoff-worksheet\scripts\run_worksheet.py --run "<worksheet-run-folder>" --live-run "<live-release-run-folder>" --registry ".\spinoff_runs\registry-2026-11-13_22-39-11_137090_-0500_ddc00b3d.json" --env ".\.env" --bars "<worksheet-bars.json>" --live-bars "<live-release-bars.json>"
 ```
 
-The saved runs need `facts.json`, `filings.json`, and the saved filing text. The `.env` needs `SEC_USER_AGENT` and `PURDUE_API_KEY`. Reader files must be output from the verified regular-way closes and volume reader and stay outside the repository. Use the same-company form without `--live-run` and `--live-bars` when the worksheet and release are for the same ticker. Omit a missing bars argument to produce `not computed` for the corresponding price and view. `--release-accession` selects an 8-K; otherwise the most recent saved 8-K with Item 2.02 is used. If its SEC acceptance time is unavailable, the pre-release price and view stay `not computed`.
+The saved runs need `facts.json`, `filings.json`, and the saved filing text. The `.env` needs `SEC_USER_AGENT` and `PURDUE_API_KEY`. Reader files stay outside the repository. The strict reader uses filing-based listing evidence and an independent exchange-price comparison. The separate `read_user_asserted_bars.py` uses `TR.CLOSEPRICE(Adjusted=0)` under the user's stated interpretation; it does not establish an independent exchange comparison. Preserve that limitation and the selected instrument's volume coverage in the output. Use the same-company form without `--live-run` and `--live-bars` when the worksheet and release are for the same ticker. Omit a missing bars argument to produce `not computed` for the corresponding price and view. `--release-accession` selects an 8-K; otherwise the most recent saved 8-K with Item 2.02 is used. If its SEC acceptance time is unavailable, the pre-release price and view stay `not computed`.
 
-The command saves an SEC source pack and a dated worksheet in the saved run, calculates in Python, and makes one Purdue model request for the qualitative judgment. Its filing-text extraction is conservative and supports limited statement and narrative formats. It identifies unsupported or ambiguous facts as not established, rather than claiming the filing does not contain them. It does not establish that all covenants or restrictions have been found. The staged numeric-claim hook uses a separate marked draft format; the automatic renderer's output has not been integrated with that guard.
+The command saves an SEC source pack and a dated worksheet in the saved run, calculates in Python, and makes one Purdue model request for the qualitative judgment. Its renderer emits marked numeric lines for the guard. Its filing-text extraction is conservative and supports limited statement and narrative formats. It identifies unsupported or ambiguous facts as not established, rather than claiming the filing does not contain them. It does not establish that all covenants or restrictions have been found. The guard and lifecycle hook remain incomplete: source columns, units, reporting tags, periods, semantic context, and spelled-out numbers are not all independently verified. The hook is configured and trusted; an actual PostToolUse event blocked a seeded error. A live Stop event with an erroneous worksheet has not been observed; a format pass is not proof of correctness.
 
 The sections below document the individual helper workflow and the marked-draft format. They are not additional model calls required by the automated command.
 
@@ -27,7 +27,7 @@ The sections below document the individual helper workflow and the marked-draft 
 - Use one saved agent-team run. It must contain `facts.json`, `filings.json`, and saved filing text. The ticker must match the run.
 - Use the seeker's registry file. A CIK entry in the registry means the company is registry-present, even when all facts in that entry are blank. Use `not known` for missing fields. Use `not applicable` only when the CIK entry is absent.
 - Read the user's `personas/investment_advisor.md`. Read it as qualitative guidance. The worksheet rules file controls the calculations and output.
-- Use the closes reader's dated close and share volume. Accept scoring inputs only from an official, unadjusted, regular-way primary listing. Never use when-issued observations.
+- Use the closes reader's dated close and share volume. The strict reader checks listing evidence and an independent exchange reference. If the user has authorized the separate user-asserted reader, disclose that its field interpretation and regular-way assumptions were not independently established. Never knowingly use when-issued observations.
 - Save source documents and the final dated worksheet beside the saved run. Keep raw licensed LSEG history outside Git and out of model context.
 
 ## Source collection
@@ -111,10 +111,11 @@ When the required close is unavailable, set the price, view, and conviction to `
 
 For the hook to verify numbers, use one numeric claim per line and add one marker at the end of each numeric line. Use these markers:
 
-- `[fact concept=net_income period=FY2026 tag=historical filing="10-K accession" section="Consolidated Statements of Operations" source_file="worksheet_sources_<stamp>/10-K_<accession>_<document>.txt" line=123]` for an exact numeric value in `facts.json` and, when a saved text line is available, its filing.
+- `[fact concept=net_income period=FY2026 tag=historical xbrl_tag=us-gaap:NetIncomeLoss filing="10-K accession" section="Consolidated Statements of Operations" source_file="worksheet_sources_<stamp>/10-K_<accession>_<document>.txt" line=123]` for an exact numeric value in `facts.json` and, when a saved text line is available, its filing. The saved entry must itself carry the matching `reporting_tag`, period, XBRL tag and accession. Existing saved runs may not contain a `reporting_tag`, so they fail this check rather than silently accepting one.
 - `[filing file=relative/path.txt line=123 section="Consolidated Statements of Operations" tag=historical period=FY2026]` for a number visible on that exact saved filing line.
 - `[rule id=low_discount_rate]` for a number set by the rules file.
 - `[price ticker=XYZ date=2026-11-12]` for a close in the reader file.
+- `[form4 file=relative/path.txt accession=123 date=2026-11-12 field=shares]` for a code-P purchase amount in the saved Form 4 XML. Use `field=price_per_share` for its price.
 - `[calc id=owner_cash_flow]`, `[calc id=low_equity_value]`, `[calc id=mid_equity_value]`, `[calc id=low_value_per_share]`, `[calc id=mid_value_per_share]`, `[calc id=margin_of_safety]`, `[calc id=daily_dollar_volume]`, or `[calc id=median_dollar_volume]` for a result that the hook recomputes from printed inputs.
 
 Print calculation inputs under these exact labels so the hook can recompute them: `After-tax earnings`, `Depreciation`, `Capital spending`, `Owner cash flow`, `Low case discount rate`, `Low case growth rate`, `Low case equity value`, `Mid case discount rate`, `Mid case growth rate`, `Mid case equity value`, `Diluted shares`, `Low case value per share`, `Dated market price`, and `Median daily dollar volume`.
@@ -141,18 +142,18 @@ Check a saved worksheet before you call it complete:
 python .\.agents\skills\us-spinoff-worksheet\scripts\worksheet_guard.py --worksheet "<worksheet.md>" --run "<run-folder>" --rules ".\lab07_worksheet_rules.md" --reader "<reader-bars.json>"
 ```
 
-The exact check command for a seeded copy is the same command with `--worksheet` set to the copy. Do not enable the lifecycle hook until you inspect its source and its staged `hooks.json`, then run the seeded-copy and clean-copy checks required by Lab 07.
+The exact check command for a seeded copy is the same command with `--worksheet` set to the copy. The configured hook was trusted and blocked a seeded error during a live PostToolUse event. A live Stop event with an erroneous worksheet remains unverified.
 
 ## Hit-rate table
 
-Keep live runs in `runs/live` and practice runs in another folder. Each saved `worksheet.json` must contain a `live_view` object with `ticker`, timezone-aware ISO `filing_time`, timezone-aware ISO `view_time`, `direction`, and `reader_file`. The table command reads saved runs only. It calculates reaction from the last close before filing to the first close after filing, marks a row `after` when the view time is later than the first post-filing close, and does not write to a view or timestamp:
+Keep live runs in `runs/live` and practice runs in `runs/practice`. Each run belongs in its own subfolder and must contain exactly one saved `worksheet.json` with a `live_view` object: `ticker`, timezone-aware ISO `filing_time`, timezone-aware ISO `view_time`, `direction`, and `reader_file`. A missing or ambiguous view is shown as not computed. The table reads the reader file each time, so it can calculate a reaction when that file has been updated; it does not fetch or refresh reader data itself. It calculates reaction from the last close before filing to the first available close after filing, marks a row `after` when the view time is later than the first post-filing close, and does not write to a view or timestamp. Incomplete reader coverage may prevent the first available close from being the actual first close; inspect the reader coverage. Preserve the user-asserted field limitation where applicable.
 
 ```powershell
-python .\.agents\skills\us-spinoff-worksheet\scripts\hit_rate_table.py --runs ".\runs\live"
+.\.venv\Scripts\python.exe .\.agents\skills\us-spinoff-worksheet\scripts\hit_rate_table.py --runs ".\runs\live"
 ```
 
 The denominator excludes rows marked `after`, views marked `not computed`, and rows with no reaction. The table reports short-term price reaction only. It does not score whether the value range was right.
 
 ## Execution limits
 
-`prepare_worksheet.py` collects sources only. Use `run_worksheet.py` for the automated workflow. Neither the conservative extractor nor a successful model response proves that every fact in a filing has been found. Review the saved sources and preserve gaps. The automatic worksheet and the staged hook need integration before the hook can validate that output.
+`prepare_worksheet.py` collects sources only. Use `run_worksheet.py` for the automated workflow. Neither the conservative extractor nor a successful model response proves that every fact in a filing has been found. Review the saved sources and preserve gaps. A clean guard result establishes only the checks it actually performs; it does not resolve the guard limitations above or prove that Codex has trusted and run the hook.

@@ -112,15 +112,19 @@ Keep .env private. The isolated LSEG Python environment is machine-specific; on 
 
 ## Lab 07 worksheet
 
-Lab 07 pre-work is in the repository. The worksheet skill is `.agents/skills/us-spinoff-worksheet/`; its `SKILL.md` gives the source-collection, LSEG reader, calculation, save, validation, and hit-rate-table commands. The input rules are in `lab07_worksheet_rules.md`, and the qualitative persona is `personas/investment_advisor.md`.
+Our team chose to own the spinoff factor check; the [initial protocol](docs/factor_check_protocol.md) and synthetic demonstration are in place, and the historical WRDS check remains to be built.
 
-The seeker close reader now also returns daily share volume. Its official reader requires listing evidence and an exchange spot check; its candidate reader is explicitly unverified. The worksheet skill's hook is staged in `.agents/skills/us-spinoff-worksheet/hooks/hooks.json` and is **not enabled**. Review the hook source and configuration, then complete the lab's seeded-copy and clean-copy checks before enabling it.
+The local Week 4 reports for Shlok (TTWO/VYLR), Sam (Sagard/HONA), and Ryan (LCID/REZI) are under `runs/live/`; the folders disclose missing figures and late filing windows. No commit or push was made. Lab 07 pre-work is in the repository. The worksheet skill is `.agents/skills/us-spinoff-worksheet/`; its `SKILL.md` gives the source-collection, LSEG reader, calculation, save, validation, and hit-rate-table commands. The input rules are in `lab07_worksheet_rules.md`, and the qualitative persona is `personas/investment_advisor.md`.
+
+The seeker close reader now also returns daily share volume. Its official reader requires listing evidence and an exchange spot check; its candidate reader is explicitly unverified. The worksheet hook definition is configured in `.codex/hooks.json` and has been trusted. A live PostToolUse check blocked an altered worksheet and allowed the corrected copy. A live Stop event with an erroneous worksheet has not been observed.
 
 The worksheet values owner cash flow as equity directly because the course formula starts with after-tax earnings. Do not call that result firm or enterprise value, or add cash and subtract debt from it. Report cash, debt, and liabilities as separate sourced facts. The rules file contains the formulas, thresholds, missing-data behavior, and conviction conditions.
 
 The Vylor team run and a dated worksheet now exist. The latest is [the Vylor worksheet](equity_research_runs/Vylor_Inc_2026-11-14_01-08-41_219149_-0500/worksheet-20261114-025135-330558.md). It includes pro forma financing assumptions and conditional separation obligations, but diluted share counts and several filing facts remain unestablished; affected per-share values and the Take-Two live view remain `not computed`. The Vylor research report's verifier recorded unresolved unsupported and incorrect claims, so review its sources before relying on it.
 
-LSEG bars were obtained with `TR.CLOSEPRICE(Adjusted=0)` under the user's stated interpretation of that field. The report discloses that an independent exchange-price comparison was not completed. The local files in `%TEMP%` are licensed reader data and are not included in the repository. Vylor volume is from the selected NYSE instrument, not necessarily consolidated market volume. The 28 worksheet tests passed.
+LSEG bars were obtained with `TR.CLOSEPRICE(Adjusted=0)` under the user's stated interpretation of that field. The report discloses that an independent exchange-price comparison was not completed. The local files in `%TEMP%` are licensed reader data and are not included in the repository. Vylor volume is from the selected NYSE instrument, not necessarily consolidated market volume.
+
+For the live hit-rate table, run `.\.venv\Scripts\python.exe .\.agents\skills\us-spinoff-worksheet\scripts\hit_rate_table.py --runs ".\runs\live"`. For practice, replace the folder with `.\runs\practice`. The command rereads available reader files but does not refresh them; keep one view record per run folder. The saved Take-Two release is a practice record marked `after`, with a view of `not computed`. No qualifying live report has been filed yet.
 
 Run the focused closes-reader tests from the repository root:
 
@@ -128,7 +132,7 @@ Run the focused closes-reader tests from the repository root:
 .\.venv\Scripts\python.exe -m unittest discover -s .\.agents\skills\us-spinoff-seeker\scripts -p "test_closes_reader.py"
 ```
 
-`run_worksheet.py` collects sources, extracts supported facts, calculates in code, makes one qualitative model request, and saves a dated worksheet. The extractor covers limited filing formats and records gaps. The staged hook can identify the runner's output, but it cannot yet validate the automatic renderer: the renderer must emit compatible numeric markers, then pass clean-copy and altered-copy checks. The hook is not enabled. The hit-rate table reads saved live views only; it does not validate investment performance. Vylor is the selected spinoff company, with the partner's agreement; Take-Two is the separate live-release company. The worksheet still needs to be placed on the project page beside the report.
+`run_worksheet.py` collects sources, extracts supported facts, calculates in code, makes one qualitative model request, and saves a dated worksheet. It now renders numeric markers and checks the rendered file before saving it. The extractor covers limited filing formats and records gaps; a guard pass is not proof that source context, reporting tags, units, or every spelled-out number are correct. The project page's saved-run selector opens a run's report and latest dated worksheet together. A separately reviewed Vylor worksheet corrects an unsupported model comparison and adds filing-backed financing facts; future generated worksheets only include facts the automatic reader establishes. The hook's live Stop behavior on an erroneous worksheet and its source-check limitations remain open. The hit-rate table reads saved live views only; it does not validate investment performance. Vylor is the selected spinoff company, with the partner's agreement; Take-Two is the separate live-release company.
 
 ## Tests
 

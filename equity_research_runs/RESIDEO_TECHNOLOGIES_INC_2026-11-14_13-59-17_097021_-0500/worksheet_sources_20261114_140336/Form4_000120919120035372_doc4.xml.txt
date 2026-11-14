@@ -1,0 +1,223 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0306</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2020-06-08</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001740332</issuerCik>
+000015 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000016 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001261083</rptOwnerCik>
+000022 |             <rptOwnerName>TRUNZO ANTHONY L</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>901 E 6TH STREET</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2></rptOwnerStreet2>
+000027 |             <rptOwnerCity>AUSTIN</rptOwnerCity>
+000028 |             <rptOwnerState>TX</rptOwnerState>
+000029 |             <rptOwnerZipCode>78702</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>0</isDirector>
+000034 |             <isOfficer>1</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |             <officerTitle>EVP, Chief Financial Officer</officerTitle>
+000038 |         </reportingOwnerRelationship>
+000039 |     </reportingOwner>
+000040 | 
+000041 |     <derivativeTable>
+000042 |         <derivativeTransaction>
+000043 |             <securityTitle>
+000044 |                 <value>Stock Option (right to buy)</value>
+000045 |             </securityTitle>
+000046 |             <conversionOrExercisePrice>
+000047 |                 <value>9.86</value>
+000048 |             </conversionOrExercisePrice>
+000049 |             <transactionDate>
+000050 |                 <value>2020-06-08</value>
+000051 |             </transactionDate>
+000052 |             <deemedExecutionDate></deemedExecutionDate>
+000053 |             <transactionCoding>
+000054 |                 <transactionFormType>4</transactionFormType>
+000055 |                 <transactionCode>A</transactionCode>
+000056 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000057 |             </transactionCoding>
+000058 |             <transactionTimeliness>
+000059 |                 <value></value>
+000060 |             </transactionTimeliness>
+000061 |             <transactionAmounts>
+000062 |                 <transactionShares>
+000063 |                     <value>111078</value>
+000064 |                 </transactionShares>
+000065 |                 <transactionPricePerShare>
+000066 |                     <value>0.00</value>
+000067 |                 </transactionPricePerShare>
+000068 |                 <transactionAcquiredDisposedCode>
+000069 |                     <value>A</value>
+000070 |                 </transactionAcquiredDisposedCode>
+000071 |             </transactionAmounts>
+000072 |             <exerciseDate>
+000073 |                 <footnoteId id="F1"/>
+000074 |             </exerciseDate>
+000075 |             <expirationDate>
+000076 |                 <value>2027-06-07</value>
+000077 |             </expirationDate>
+000078 |             <underlyingSecurity>
+000079 |                 <underlyingSecurityTitle>
+000080 |                     <value>Common Stock</value>
+000081 |                 </underlyingSecurityTitle>
+000082 |                 <underlyingSecurityShares>
+000083 |                     <value>111078</value>
+000084 |                 </underlyingSecurityShares>
+000085 |             </underlyingSecurity>
+000086 |             <postTransactionAmounts>
+000087 |                 <sharesOwnedFollowingTransaction>
+000088 |                     <value>111078</value>
+000089 |                 </sharesOwnedFollowingTransaction>
+000090 |             </postTransactionAmounts>
+000091 |             <ownershipNature>
+000092 |                 <directOrIndirectOwnership>
+000093 |                     <value>D</value>
+000094 |                 </directOrIndirectOwnership>
+000095 |             </ownershipNature>
+000096 |         </derivativeTransaction>
+000097 |         <derivativeTransaction>
+000098 |             <securityTitle>
+000099 |                 <value>Restricted Stock Units</value>
+000100 |             </securityTitle>
+000101 |             <conversionOrExercisePrice>
+000102 |                 <footnoteId id="F2"/>
+000103 |             </conversionOrExercisePrice>
+000104 |             <transactionDate>
+000105 |                 <value>2020-06-08</value>
+000106 |             </transactionDate>
+000107 |             <deemedExecutionDate></deemedExecutionDate>
+000108 |             <transactionCoding>
+000109 |                 <transactionFormType>4</transactionFormType>
+000110 |                 <transactionCode>A</transactionCode>
+000111 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000112 |             </transactionCoding>
+000113 |             <transactionTimeliness>
+000114 |                 <value></value>
+000115 |             </transactionTimeliness>
+000116 |             <transactionAmounts>
+000117 |                 <transactionShares>
+000118 |                     <value>24325</value>
+000119 |                 </transactionShares>
+000120 |                 <transactionPricePerShare>
+000121 |                     <value>0.00</value>
+000122 |                 </transactionPricePerShare>
+000123 |                 <transactionAcquiredDisposedCode>
+000124 |                     <value>A</value>
+000125 |                 </transactionAcquiredDisposedCode>
+000126 |             </transactionAmounts>
+000127 |             <exerciseDate>
+000128 |                 <footnoteId id="F2"/>
+000129 |             </exerciseDate>
+000130 |             <expirationDate>
+000131 |                 <footnoteId id="F2"/>
+000132 |             </expirationDate>
+000133 |             <underlyingSecurity>
+000134 |                 <underlyingSecurityTitle>
+000135 |                     <value>Common Stock</value>
+000136 |                 </underlyingSecurityTitle>
+000137 |                 <underlyingSecurityShares>
+000138 |                     <value>24325</value>
+000139 |                 </underlyingSecurityShares>
+000140 |             </underlyingSecurity>
+000141 |             <postTransactionAmounts>
+000142 |                 <sharesOwnedFollowingTransaction>
+000143 |                     <value>24325</value>
+000144 |                 </sharesOwnedFollowingTransaction>
+000145 |             </postTransactionAmounts>
+000146 |             <ownershipNature>
+000147 |                 <directOrIndirectOwnership>
+000148 |                     <value>D</value>
+000149 |                 </directOrIndirectOwnership>
+000150 |             </ownershipNature>
+000151 |         </derivativeTransaction>
+000152 |         <derivativeTransaction>
+000153 |             <securityTitle>
+000154 |                 <value>Restricted Stock Units</value>
+000155 |             </securityTitle>
+000156 |             <conversionOrExercisePrice>
+000157 |                 <footnoteId id="F3"/>
+000158 |             </conversionOrExercisePrice>
+000159 |             <transactionDate>
+000160 |                 <value>2020-06-08</value>
+000161 |             </transactionDate>
+000162 |             <deemedExecutionDate></deemedExecutionDate>
+000163 |             <transactionCoding>
+000164 |                 <transactionFormType>4</transactionFormType>
+000165 |                 <transactionCode>A</transactionCode>
+000166 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000167 |             </transactionCoding>
+000168 |             <transactionTimeliness>
+000169 |                 <value></value>
+000170 |             </transactionTimeliness>
+000171 |             <transactionAmounts>
+000172 |                 <transactionShares>
+000173 |                     <value>300000</value>
+000174 |                 </transactionShares>
+000175 |                 <transactionPricePerShare>
+000176 |                     <value>0.00</value>
+000177 |                 </transactionPricePerShare>
+000178 |                 <transactionAcquiredDisposedCode>
+000179 |                     <value>A</value>
+000180 |                 </transactionAcquiredDisposedCode>
+000181 |             </transactionAmounts>
+000182 |             <exerciseDate>
+000183 |                 <footnoteId id="F3"/>
+000184 |             </exerciseDate>
+000185 |             <expirationDate>
+000186 |                 <footnoteId id="F3"/>
+000187 |             </expirationDate>
+000188 |             <underlyingSecurity>
+000189 |                 <underlyingSecurityTitle>
+000190 |                     <value>Common Stock</value>
+000191 |                 </underlyingSecurityTitle>
+000192 |                 <underlyingSecurityShares>
+000193 |                     <value>300000</value>
+000194 |                 </underlyingSecurityShares>
+000195 |             </underlyingSecurity>
+000196 |             <postTransactionAmounts>
+000197 |                 <sharesOwnedFollowingTransaction>
+000198 |                     <value>300000</value>
+000199 |                 </sharesOwnedFollowingTransaction>
+000200 |             </postTransactionAmounts>
+000201 |             <ownershipNature>
+000202 |                 <directOrIndirectOwnership>
+000203 |                     <value>D</value>
+000204 |                 </directOrIndirectOwnership>
+000205 |             </ownershipNature>
+000206 |         </derivativeTransaction>
+000207 |     </derivativeTable>
+000208 | 
+000209 |     <footnotes>
+000210 |         <footnote id="F1">Grant of non-qualified stock options under the Amended and Restated 2018 Stock Incentive Plan of Resideo Technologies, Inc. and its Affiliates, and will vest in three equal installments on each of June 8, 2021, June 8, 2022 and June 8, 2023 subject to continued employment.</footnote>
+000211 |         <footnote id="F2">Restricted Stock Units were granted under the Amended and Restated 2018 Stock Incentive Plan of Resideo Technologies, Inc. and its Affiliates, and will vest in three equal installments on each of June 8, 2021, June 8, 2022 and June 8, 2023 subject to continued employment.</footnote>
+000212 |         <footnote id="F3">Restricted Stock Units were granted under the Amended and Restated 2018 Stock Incentive Plan of Resideo Technologies, Inc. and its Affiliates, and will vest in two equal installments on each of June 8, 2023 and June 8, 2024 subject to continued employment.</footnote>
+000213 |     </footnotes>
+000214 | 
+000215 |     <remarks></remarks>
+000216 | 
+000217 |     <ownerSignature>
+000218 |         <signatureName>/s/ Jeannine J. Lane, as Attorney-in-Fact for Anthony L. Trunzo</signatureName>
+000219 |         <signatureDate>2020-06-09</signatureDate>
+000220 |     </ownerSignature>
+000221 | </ownershipDocument>
+000222 | </XML>
+000223 | 

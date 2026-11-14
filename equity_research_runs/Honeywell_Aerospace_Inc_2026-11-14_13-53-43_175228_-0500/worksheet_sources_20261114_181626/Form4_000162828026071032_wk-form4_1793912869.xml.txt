@@ -1,0 +1,442 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0609</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2026-11-03</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0002089271</issuerCik>
+000015 |         <issuerName>Honeywell Aerospace Inc.</issuerName>
+000016 |         <issuerTradingSymbol>HONA</issuerTradingSymbol>
+000017 |         <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+000018 |     </issuer>
+000019 | 
+000020 |     <reportingOwner>
+000021 |         <reportingOwnerId>
+000022 |             <rptOwnerCik>0002140074</rptOwnerCik>
+000023 |             <rptOwnerName>Lautar William Michael</rptOwnerName>
+000024 |         </reportingOwnerId>
+000025 |         <reportingOwnerAddress>
+000026 |             <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+000027 |             <rptOwnerStreet1>C/O HONEYWELL AEROSPACE INC.</rptOwnerStreet1>
+000028 |             <rptOwnerStreet2>1944 E SKY HARBOR CIRCLE N</rptOwnerStreet2>
+000029 |             <rptOwnerCity>PHOENIX</rptOwnerCity>
+000030 |             <rptOwnerState>AZ</rptOwnerState>
+000031 |             <rptOwnerZipCode>85034</rptOwnerZipCode>
+000032 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000033 |         </reportingOwnerAddress>
+000034 |         <reportingOwnerRelationship>
+000035 |             <isDirector>0</isDirector>
+000036 |             <isOfficer>1</isOfficer>
+000037 |             <isTenPercentOwner>0</isTenPercentOwner>
+000038 |             <isOther>0</isOther>
+000039 |             <officerTitle>VP, Controller &amp; CAO</officerTitle>
+000040 |         </reportingOwnerRelationship>
+000041 |     </reportingOwner>
+000042 | 
+000043 |     <aff10b5One>0</aff10b5One>
+000044 | 
+000045 |     <nonDerivativeTable>
+000046 |         <nonDerivativeTransaction>
+000047 |             <securityTitle>
+000048 |                 <value>Common Stock</value>
+000049 |             </securityTitle>
+000050 |             <transactionDate>
+000051 |                 <value>2026-11-03</value>
+000052 |             </transactionDate>
+000053 |             <transactionCoding>
+000054 |                 <transactionFormType>4</transactionFormType>
+000055 |                 <transactionCode>M</transactionCode>
+000056 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000057 |             </transactionCoding>
+000058 |             <transactionAmounts>
+000059 |                 <transactionShares>
+000060 |                     <value>436.2272</value>
+000061 |                     <footnoteId id="F1"/>
+000062 |                 </transactionShares>
+000063 |                 <transactionPricePerShare>
+000064 |                     <value>0</value>
+000065 |                     <footnoteId id="F2"/>
+000066 |                 </transactionPricePerShare>
+000067 |                 <transactionAcquiredDisposedCode>
+000068 |                     <value>A</value>
+000069 |                 </transactionAcquiredDisposedCode>
+000070 |             </transactionAmounts>
+000071 |             <postTransactionAmounts>
+000072 |                 <sharesOwnedFollowingTransaction>
+000073 |                     <value>436.2272</value>
+000074 |                 </sharesOwnedFollowingTransaction>
+000075 |             </postTransactionAmounts>
+000076 |             <ownershipNature>
+000077 |                 <directOrIndirectOwnership>
+000078 |                     <value>D</value>
+000079 |                 </directOrIndirectOwnership>
+000080 |             </ownershipNature>
+000081 |         </nonDerivativeTransaction>
+000082 |         <nonDerivativeTransaction>
+000083 |             <securityTitle>
+000084 |                 <value>Common Stock</value>
+000085 |             </securityTitle>
+000086 |             <transactionDate>
+000087 |                 <value>2026-11-03</value>
+000088 |             </transactionDate>
+000089 |             <transactionCoding>
+000090 |                 <transactionFormType>4</transactionFormType>
+000091 |                 <transactionCode>F</transactionCode>
+000092 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000093 |             </transactionCoding>
+000094 |             <transactionAmounts>
+000095 |                 <transactionShares>
+000096 |                     <value>123</value>
+000097 |                 </transactionShares>
+000098 |                 <transactionPricePerShare>
+000099 |                     <value>157.50</value>
+000100 |                 </transactionPricePerShare>
+000101 |                 <transactionAcquiredDisposedCode>
+000102 |                     <value>D</value>
+000103 |                 </transactionAcquiredDisposedCode>
+000104 |             </transactionAmounts>
+000105 |             <postTransactionAmounts>
+000106 |                 <sharesOwnedFollowingTransaction>
+000107 |                     <value>313.2272</value>
+000108 |                 </sharesOwnedFollowingTransaction>
+000109 |             </postTransactionAmounts>
+000110 |             <ownershipNature>
+000111 |                 <directOrIndirectOwnership>
+000112 |                     <value>D</value>
+000113 |                 </directOrIndirectOwnership>
+000114 |             </ownershipNature>
+000115 |         </nonDerivativeTransaction>
+000116 |     </nonDerivativeTable>
+000117 | 
+000118 |     <derivativeTable>
+000119 |         <derivativeTransaction>
+000120 |             <securityTitle>
+000121 |                 <value>Restricted Stock Units</value>
+000122 |             </securityTitle>
+000123 |             <conversionOrExercisePrice>
+000124 |                 <value>0</value>
+000125 |                 <footnoteId id="F2"/>
+000126 |             </conversionOrExercisePrice>
+000127 |             <transactionDate>
+000128 |                 <value>2026-11-03</value>
+000129 |             </transactionDate>
+000130 |             <transactionCoding>
+000131 |                 <transactionFormType>4</transactionFormType>
+000132 |                 <transactionCode>M</transactionCode>
+000133 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000134 |             </transactionCoding>
+000135 |             <transactionAmounts>
+000136 |                 <transactionShares>
+000137 |                     <value>436.2272</value>
+000138 |                     <footnoteId id="F1"/>
+000139 |                 </transactionShares>
+000140 |                 <transactionPricePerShare>
+000141 |                     <value>0</value>
+000142 |                 </transactionPricePerShare>
+000143 |                 <transactionAcquiredDisposedCode>
+000144 |                     <value>D</value>
+000145 |                 </transactionAcquiredDisposedCode>
+000146 |             </transactionAmounts>
+000147 |             <exerciseDate>
+000148 |                 <footnoteId id="F3"/>
+000149 |                 <footnoteId id="F4"/>
+000150 |             </exerciseDate>
+000151 |             <expirationDate>
+000152 |                 <footnoteId id="F3"/>
+000153 |                 <footnoteId id="F4"/>
+000154 |             </expirationDate>
+000155 |             <underlyingSecurity>
+000156 |                 <underlyingSecurityTitle>
+000157 |                     <value>Common Stock</value>
+000158 |                 </underlyingSecurityTitle>
+000159 |                 <underlyingSecurityShares>
+000160 |                     <value>436.2272</value>
+000161 |                 </underlyingSecurityShares>
+000162 |             </underlyingSecurity>
+000163 |             <postTransactionAmounts>
+000164 |                 <sharesOwnedFollowingTransaction>
+000165 |                     <value>871</value>
+000166 |                     <footnoteId id="F5"/>
+000167 |                 </sharesOwnedFollowingTransaction>
+000168 |             </postTransactionAmounts>
+000169 |             <ownershipNature>
+000170 |                 <directOrIndirectOwnership>
+000171 |                     <value>D</value>
+000172 |                 </directOrIndirectOwnership>
+000173 |             </ownershipNature>
+000174 |         </derivativeTransaction>
+000175 |         <derivativeHolding>
+000176 |             <securityTitle>
+000177 |                 <value>Restricted Stock Units</value>
+000178 |             </securityTitle>
+000179 |             <conversionOrExercisePrice>
+000180 |                 <value>0</value>
+000181 |                 <footnoteId id="F2"/>
+000182 |             </conversionOrExercisePrice>
+000183 |             <exerciseDate>
+000184 |                 <footnoteId id="F4"/>
+000185 |                 <footnoteId id="F6"/>
+000186 |             </exerciseDate>
+000187 |             <expirationDate>
+000188 |                 <footnoteId id="F4"/>
+000189 |                 <footnoteId id="F6"/>
+000190 |             </expirationDate>
+000191 |             <underlyingSecurity>
+000192 |                 <underlyingSecurityTitle>
+000193 |                     <value>Common Stock</value>
+000194 |                 </underlyingSecurityTitle>
+000195 |                 <underlyingSecurityShares>
+000196 |                     <value>160</value>
+000197 |                 </underlyingSecurityShares>
+000198 |             </underlyingSecurity>
+000199 |             <postTransactionAmounts>
+000200 |                 <sharesOwnedFollowingTransaction>
+000201 |                     <value>160</value>
+000202 |                 </sharesOwnedFollowingTransaction>
+000203 |             </postTransactionAmounts>
+000204 |             <ownershipNature>
+000205 |                 <directOrIndirectOwnership>
+000206 |                     <value>D</value>
+000207 |                 </directOrIndirectOwnership>
+000208 |             </ownershipNature>
+000209 |         </derivativeHolding>
+000210 |         <derivativeHolding>
+000211 |             <securityTitle>
+000212 |                 <value>Restricted Stock Units</value>
+000213 |             </securityTitle>
+000214 |             <conversionOrExercisePrice>
+000215 |                 <value>0</value>
+000216 |                 <footnoteId id="F2"/>
+000217 |             </conversionOrExercisePrice>
+000218 |             <exerciseDate>
+000219 |                 <footnoteId id="F4"/>
+000220 |                 <footnoteId id="F7"/>
+000221 |             </exerciseDate>
+000222 |             <expirationDate>
+000223 |                 <footnoteId id="F4"/>
+000224 |                 <footnoteId id="F7"/>
+000225 |             </expirationDate>
+000226 |             <underlyingSecurity>
+000227 |                 <underlyingSecurityTitle>
+000228 |                     <value>Common Stock</value>
+000229 |                 </underlyingSecurityTitle>
+000230 |                 <underlyingSecurityShares>
+000231 |                     <value>334</value>
+000232 |                 </underlyingSecurityShares>
+000233 |             </underlyingSecurity>
+000234 |             <postTransactionAmounts>
+000235 |                 <sharesOwnedFollowingTransaction>
+000236 |                     <value>334</value>
+000237 |                     <footnoteId id="F5"/>
+000238 |                 </sharesOwnedFollowingTransaction>
+000239 |             </postTransactionAmounts>
+000240 |             <ownershipNature>
+000241 |                 <directOrIndirectOwnership>
+000242 |                     <value>D</value>
+000243 |                 </directOrIndirectOwnership>
+000244 |             </ownershipNature>
+000245 |         </derivativeHolding>
+000246 |         <derivativeHolding>
+000247 |             <securityTitle>
+000248 |                 <value>Restricted Stock Units</value>
+000249 |             </securityTitle>
+000250 |             <conversionOrExercisePrice>
+000251 |                 <value>0</value>
+000252 |                 <footnoteId id="F2"/>
+000253 |             </conversionOrExercisePrice>
+000254 |             <exerciseDate>
+000255 |                 <footnoteId id="F4"/>
+000256 |                 <footnoteId id="F8"/>
+000257 |             </exerciseDate>
+000258 |             <expirationDate>
+000259 |                 <footnoteId id="F4"/>
+000260 |                 <footnoteId id="F8"/>
+000261 |             </expirationDate>
+000262 |             <underlyingSecurity>
+000263 |                 <underlyingSecurityTitle>
+000264 |                     <value>Common Stock</value>
+000265 |                 </underlyingSecurityTitle>
+000266 |                 <underlyingSecurityShares>
+000267 |                     <value>194</value>
+000268 |                 </underlyingSecurityShares>
+000269 |             </underlyingSecurity>
+000270 |             <postTransactionAmounts>
+000271 |                 <sharesOwnedFollowingTransaction>
+000272 |                     <value>194</value>
+000273 |                     <footnoteId id="F5"/>
+000274 |                 </sharesOwnedFollowingTransaction>
+000275 |             </postTransactionAmounts>
+000276 |             <ownershipNature>
+000277 |                 <directOrIndirectOwnership>
+000278 |                     <value>D</value>
+000279 |                 </directOrIndirectOwnership>
+000280 |             </ownershipNature>
+000281 |         </derivativeHolding>
+000282 |         <derivativeHolding>
+000283 |             <securityTitle>
+000284 |                 <value>Restricted Stock Units</value>
+000285 |             </securityTitle>
+000286 |             <conversionOrExercisePrice>
+000287 |                 <value>0</value>
+000288 |                 <footnoteId id="F2"/>
+000289 |             </conversionOrExercisePrice>
+000290 |             <exerciseDate>
+000291 |                 <footnoteId id="F4"/>
+000292 |                 <footnoteId id="F9"/>
+000293 |             </exerciseDate>
+000294 |             <expirationDate>
+000295 |                 <footnoteId id="F4"/>
+000296 |                 <footnoteId id="F9"/>
+000297 |             </expirationDate>
+000298 |             <underlyingSecurity>
+000299 |                 <underlyingSecurityTitle>
+000300 |                     <value>Common Stock</value>
+000301 |                 </underlyingSecurityTitle>
+000302 |                 <underlyingSecurityShares>
+000303 |                     <value>429</value>
+000304 |                 </underlyingSecurityShares>
+000305 |             </underlyingSecurity>
+000306 |             <postTransactionAmounts>
+000307 |                 <sharesOwnedFollowingTransaction>
+000308 |                     <value>429</value>
+000309 |                     <footnoteId id="F5"/>
+000310 |                 </sharesOwnedFollowingTransaction>
+000311 |             </postTransactionAmounts>
+000312 |             <ownershipNature>
+000313 |                 <directOrIndirectOwnership>
+000314 |                     <value>D</value>
+000315 |                 </directOrIndirectOwnership>
+000316 |             </ownershipNature>
+000317 |         </derivativeHolding>
+000318 |         <derivativeHolding>
+000319 |             <securityTitle>
+000320 |                 <value>Employee Stock Options (right to buy)</value>
+000321 |             </securityTitle>
+000322 |             <conversionOrExercisePrice>
+000323 |                 <value>187.43</value>
+000324 |             </conversionOrExercisePrice>
+000325 |             <exerciseDate>
+000326 |                 <footnoteId id="F4"/>
+000327 |                 <footnoteId id="F10"/>
+000328 |             </exerciseDate>
+000329 |             <expirationDate>
+000330 |                 <value>2034-09-30</value>
+000331 |             </expirationDate>
+000332 |             <underlyingSecurity>
+000333 |                 <underlyingSecurityTitle>
+000334 |                     <value>Common Stock</value>
+000335 |                 </underlyingSecurityTitle>
+000336 |                 <underlyingSecurityShares>
+000337 |                     <value>775</value>
+000338 |                 </underlyingSecurityShares>
+000339 |             </underlyingSecurity>
+000340 |             <postTransactionAmounts>
+000341 |                 <sharesOwnedFollowingTransaction>
+000342 |                     <value>775</value>
+000343 |                 </sharesOwnedFollowingTransaction>
+000344 |             </postTransactionAmounts>
+000345 |             <ownershipNature>
+000346 |                 <directOrIndirectOwnership>
+000347 |                     <value>D</value>
+000348 |                 </directOrIndirectOwnership>
+000349 |             </ownershipNature>
+000350 |         </derivativeHolding>
+000351 |         <derivativeHolding>
+000352 |             <securityTitle>
+000353 |                 <value>Employee Stock Options (right to buy)</value>
+000354 |             </securityTitle>
+000355 |             <conversionOrExercisePrice>
+000356 |                 <value>193.90</value>
+000357 |             </conversionOrExercisePrice>
+000358 |             <exerciseDate>
+000359 |                 <footnoteId id="F4"/>
+000360 |                 <footnoteId id="F11"/>
+000361 |             </exerciseDate>
+000362 |             <expirationDate>
+000363 |                 <value>2035-03-02</value>
+000364 |             </expirationDate>
+000365 |             <underlyingSecurity>
+000366 |                 <underlyingSecurityTitle>
+000367 |                     <value>Common Stock</value>
+000368 |                 </underlyingSecurityTitle>
+000369 |                 <underlyingSecurityShares>
+000370 |                     <value>1216</value>
+000371 |                 </underlyingSecurityShares>
+000372 |             </underlyingSecurity>
+000373 |             <postTransactionAmounts>
+000374 |                 <sharesOwnedFollowingTransaction>
+000375 |                     <value>1216</value>
+000376 |                 </sharesOwnedFollowingTransaction>
+000377 |             </postTransactionAmounts>
+000378 |             <ownershipNature>
+000379 |                 <directOrIndirectOwnership>
+000380 |                     <value>D</value>
+000381 |                 </directOrIndirectOwnership>
+000382 |             </ownershipNature>
+000383 |         </derivativeHolding>
+000384 |         <derivativeHolding>
+000385 |             <securityTitle>
+000386 |                 <value>Employee Stock Options (right to buy)</value>
+000387 |             </securityTitle>
+000388 |             <conversionOrExercisePrice>
+000389 |                 <value>233.90</value>
+000390 |             </conversionOrExercisePrice>
+000391 |             <exerciseDate>
+000392 |                 <footnoteId id="F4"/>
+000393 |                 <footnoteId id="F12"/>
+000394 |             </exerciseDate>
+000395 |             <expirationDate>
+000396 |                 <value>2036-02-22</value>
+000397 |             </expirationDate>
+000398 |             <underlyingSecurity>
+000399 |                 <underlyingSecurityTitle>
+000400 |                     <value>Common Stock</value>
+000401 |                 </underlyingSecurityTitle>
+000402 |                 <underlyingSecurityShares>
+000403 |                     <value>2001</value>
+000404 |                 </underlyingSecurityShares>
+000405 |             </underlyingSecurity>
+000406 |             <postTransactionAmounts>
+000407 |                 <sharesOwnedFollowingTransaction>
+000408 |                     <value>2001</value>
+000409 |                 </sharesOwnedFollowingTransaction>
+000410 |             </postTransactionAmounts>
+000411 |             <ownershipNature>
+000412 |                 <directOrIndirectOwnership>
+000413 |                     <value>D</value>
+000414 |                 </directOrIndirectOwnership>
+000415 |             </ownershipNature>
+000416 |         </derivativeHolding>
+000417 |     </derivativeTable>
+000418 | 
+000419 |     <footnotes>
+000420 |         <footnote id="F1">Includes the reinvestment of dividend equivalents into 7.227183 additional restricted stock units.</footnote>
+000421 |         <footnote id="F2">Each restricted stock unit represents a contingent right to receive one share of the Issuer's Common Stock.</footnote>
+000422 |         <footnote id="F3">33% of the restricted stock units vested on November 3, 2026, 33% of the restricted stock units will vest on November 3, 2027, and 34% of the restricted stock units will vest on November 3, 2028.</footnote>
+000423 |         <footnote id="F4">Represents an equity award originally granted by Honeywell International Inc. (&quot;HON&quot;) that was adjusted or converted into an equity award of the Issuer in connection with the spin-off of the Issuer from HON, pursuant to the Employee Matters Agreement, dated June 29, 2026, between the Issuer and HON.</footnote>
+000424 |         <footnote id="F5">The number of restricted stock units reported as beneficially owned excludes additional restricted stock units resulting from the reinvestment of dividend equivalents during the vesting period.</footnote>
+000425 |         <footnote id="F6">The restricted stock units will vest on March 1, 2027.</footnote>
+000426 |         <footnote id="F7">The restricted stock units will vest on March 3, 2028.</footnote>
+000427 |         <footnote id="F8">The restricted stock units will vest on October 1, 2027.</footnote>
+000428 |         <footnote id="F9">33% of the restricted stock units will vest on February 23, 2027, 33% of the restricted stock units will vest on February 23, 2028, and 34% of the restricted stock units will vest on February 23, 2029.</footnote>
+000429 |         <footnote id="F10">34% of the stock options vested on October 1, 2026, 33% of the stock options will vest on October 1, 2027, and 33% of the stock options will vest on October 1, 2028.</footnote>
+000430 |         <footnote id="F11">33% of the stock options will vest on March 3, 2027, 34% of the stock options will vest on March 3, 2028, and 33% of the stock options will vest on March 3, 2029.</footnote>
+000431 |         <footnote id="F12">The stock options will vest on February 23, 2029.</footnote>
+000432 |     </footnotes>
+000433 | 
+000434 |     <remarks></remarks>
+000435 | 
+000436 |     <ownerSignature>
+000437 |         <signatureName>/s/ Jennifer Nelson for William Michael Lautar</signatureName>
+000438 |         <signatureDate>2026-11-05</signatureDate>
+000439 |     </ownerSignature>
+000440 | </ownershipDocument>
+000441 | </XML>
+000442 | 

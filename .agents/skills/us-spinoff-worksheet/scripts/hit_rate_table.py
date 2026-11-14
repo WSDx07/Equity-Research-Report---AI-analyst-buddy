@@ -33,6 +33,8 @@ def load_bars(path, ticker):
             rows = list(csv.DictReader(stream))
     else:
         data = json.loads(path.read_text(encoding='utf-8'))
+        if isinstance(data, dict) and data.get('ticker') and str(data['ticker']).strip().upper() != ticker.upper():
+            raise ValueError('Reader file ticker does not match the saved view')
         rows = data.get('bars', data.get('data', [])) if isinstance(data, dict) else data
     if not isinstance(rows, list):
         raise ValueError('Reader file must contain a bar list')
@@ -63,6 +65,17 @@ def calculate_reaction(view, worksheet_path):
     ticker = str(view.get('ticker') or '').strip().upper()
     if not ticker:
         raise ValueError('A live release ticker is required')
+    if ticker in {'NOT LISTED', 'NOT TRADED'}:
+        return {
+            'ticker': ticker,
+            'filing_time': filing.isoformat(),
+            'view_time': view_time.isoformat(),
+            'direction': view.get('direction') or 'not computed',
+            'reaction_percent': None,
+            'agreement': 'not computed',
+            'first_close_after_filing': None,
+            'reason': 'The issuer has no exchange ticker; a price reaction is not available.'
+        }
     bars_ref = view.get('reader_file')
     if not bars_ref:
         raise ValueError('A reader_file is required')
@@ -110,23 +123,66 @@ def calculate_reaction(view, worksheet_path):
 
 def worksheet_views(root):
     root = Path(root)
-    paths = sorted(root.rglob('worksheet.json')) if root.is_dir() else [root]
+    boundary = root.resolve() if root.is_dir() else root.resolve().parent
+    def with_member(path, row):
+        candidate = path if path.is_dir() else path.parent
+        while candidate.resolve().is_relative_to(boundary):
+            info_path = candidate / 'run_info.json'
+            if info_path.is_file():
+                try:
+                    info = json.loads(info_path.read_text(encoding='utf-8'))
+                    if isinstance(info, dict):
+                        row['member'] = info.get('member') or 'not known'
+                        row['spinoff'] = info.get('spinoff_ticker') or info.get('spinoff_company') or 'not known'
+                        if row.get('ticker') in {'unknown', candidate.name}:
+                            row['ticker'] = info.get('live_ticker') or ('not listed' if info.get('live_cik') else 'not known')
+                except (OSError, ValueError):
+                    row['reason'] = (row.get('reason', '') + ' Run label could not be read.').strip()
+                break
+            if candidate.resolve() == boundary:
+                break
+            candidate = candidate.parent
+        return path, row
+    if root.is_dir() and (root / 'worksheet.json').is_file():
+        paths = [root / 'worksheet.json']
+    elif root.is_dir():
+        paths = []
+        for child in sorted(root.iterdir()):
+            if child.is_dir():
+                found = sorted(child.rglob('worksheet.json'))
+                if len(found) != 1:
+                    reason = 'No worksheet.json in run' if not found else 'Multiple worksheet.json files in run; select one view explicitly'
+                    yield with_member(child, {'ticker': child.name, 'agreement': 'not computed',
+                                              'direction': 'not computed', 'reason': reason})
+                else:
+                    paths.append(found[0])
+            elif child.name == 'worksheet.json':
+                paths.append(child)
+    else:
+        paths = [root]
     for path in paths:
+        view = {}
         try:
             data = json.loads(path.read_text(encoding='utf-8'))
+            if not isinstance(data, dict):
+                raise ValueError('worksheet.json must contain an object')
             view = data.get('live_view')
             if not isinstance(view, dict):
-                yield path, {'ticker': data.get('ticker', 'unknown'), 'agreement': 'not computed',
-                             'direction': 'not computed', 'reason': 'live_view is missing'}
+                yield with_member(path, {'ticker': data.get('ticker', 'unknown'), 'agreement': 'not computed',
+                                         'direction': 'not computed', 'reason': 'live_view is missing'})
                 continue
-            yield path, calculate_reaction(view, path)
+            yield with_member(path, calculate_reaction(view, path))
         except (OSError, ValueError, json.JSONDecodeError) as exc:
-            yield path, {'ticker': 'unknown', 'agreement': 'not computed', 'direction': 'not computed',
-                         'reason': f'{type(exc).__name__}: {exc}'}
+            view = view if isinstance(view, dict) else {}
+            yield with_member(path, {'ticker': view.get('ticker') or 'unknown',
+                         'filing_time': view.get('filing_time') or 'not known',
+                         'view_time': view.get('view_time') or 'not known',
+                         'agreement': 'not computed', 'direction': view.get('direction') or 'not computed',
+                         'reason': f'{type(exc).__name__}: {exc}'})
 
 
 def print_table(rows):
-    headers = ('Ticker', 'Filing time', 'View time', 'Direction', 'Reaction', 'Agreement')
+    headers = ('Member', 'Ticker', 'Spinoff', 'Filing time', 'View time', 'Direction', 'Reaction', 'Agreement', 'Note')
     print(' | '.join(headers))
     print(' | '.join('---' for _ in headers))
     scored = [row for _, row in rows if row.get('reaction_percent') is not None and row.get('agreement') in {'agree', 'disagree'}]
@@ -134,8 +190,8 @@ def print_table(rows):
     for _, row in rows:
         reaction = f"{Decimal(row['reaction_percent']):.2f}%" if row.get('reaction_percent') is not None else 'not computed'
         print(' | '.join(str(value or '') for value in (
-            row.get('ticker', 'unknown'), row.get('filing_time', 'not known'), row.get('view_time', 'not known'),
-            row.get('direction', 'not computed'), reaction, row.get('agreement', 'not computed'))))
+            row.get('member', 'not known'), row.get('ticker', 'unknown'), row.get('spinoff', 'not known'), row.get('filing_time', 'not known'), row.get('view_time', 'not known'),
+            row.get('direction', 'not computed'), reaction, row.get('agreement', 'not computed'), row.get('reason', ''))))
     print(f'Agreements: {agreements}/{len(scored)} runs with a reaction; excluded after rows and views not computed.')
 
 

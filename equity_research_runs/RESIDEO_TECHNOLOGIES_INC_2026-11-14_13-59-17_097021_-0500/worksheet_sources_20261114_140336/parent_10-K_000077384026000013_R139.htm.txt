@@ -1,0 +1,380 @@
+000001 | v3.25.4
+000002 | PENSION AND OTHER POSTRETIREMENT BENEFITS - Changes in Level 3 Fair Value (Details) - Level 3 - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Direct private investments | U.S. Plans
+000008 | Defined Benefit Plan, Change in Fair Value of Plan Assets [Roll Forward]
+000009 | Fair value of plan assets at beginning of year
+000010 | $ 1,337
+000011 | $ 1,293
+000012 | Relating to assets still held at year-end
+000013 | 41
+000014 | 16
+000015 | Relating to assets sold during the year
+000016 | 2
+000017 | 61
+000018 | Purchases
+000019 | 296
+000020 | 101
+000021 | Sales and settlements
+000022 | (198)
+000023 | (134)
+000024 | Fair value of plan assets at end of year
+000025 | 1,478
+000026 | 1,337
+000027 | Real estate properties | U.S. Plans
+000028 | Defined Benefit Plan, Change in Fair Value of Plan Assets [Roll Forward]
+000029 | Fair value of plan assets at beginning of year
+000030 | 972
+000031 | 977
+000032 | Relating to assets still held at year-end
+000033 | 7
+000034 | (14)
+000035 | Relating to assets sold during the year
+000036 | 6
+000037 | 0
+000038 | Purchases
+000039 | 46
+000040 | 10
+000041 | Sales and settlements
+000042 | (30)
+000043 | (1)
+000044 | Fair value of plan assets at end of year
+000045 | 1,001
+000046 | 972
+000047 | Private funds | Non-U.S. Plans
+000048 | Defined Benefit Plan, Change in Fair Value of Plan Assets [Roll Forward]
+000049 | Fair value of plan assets at beginning of year
+000050 | 78
+000051 | 74
+000052 | Relating to assets still held at year-end
+000053 | 8
+000054 | 7
+000055 | Relating to assets sold during the year
+000056 | 0
+000057 | (7)
+000058 | Purchases
+000059 | 84
+000060 | 19
+000061 | Sales and settlements
+000062 | (16)
+000063 | (15)
+000064 | Fair value of plan assets at end of year
+000065 | 154
+000066 | 78
+000067 | Real estate funds | Non-U.S. Plans
+000068 | Defined Benefit Plan, Change in Fair Value of Plan Assets [Roll Forward]
+000069 | Fair value of plan assets at beginning of year
+000070 | 2
+000071 | 16
+000072 | Relating to assets still held at year-end
+000073 | 0
+000074 | 0
+000075 | Relating to assets sold during the year
+000076 | 0
+000077 | 0
+000078 | Purchases
+000079 | 0
+000080 | 0
+000081 | Sales and settlements
+000082 | (2)
+000083 | (14)
+000084 | Fair value of plan assets at end of year
+000085 | 0
+000086 | 2
+000087 | Insurance buy-in contracts | Non-U.S. Plans
+000088 | Defined Benefit Plan, Change in Fair Value of Plan Assets [Roll Forward]
+000089 | Fair value of plan assets at beginning of year
+000090 | 1,390
+000091 | 1,605
+000092 | Relating to assets still held at year-end
+000093 | 20
+000094 | (215)
+000095 | Relating to assets sold during the year
+000096 | 0
+000097 | 0
+000098 | Purchases
+000099 | 566
+000100 | 0
+000101 | Sales and settlements
+000102 | 0
+000103 | 0
+000104 | Fair value of plan assets at end of year
+000105 | $ 1,976
+000106 | $ 1,390
+000107 | X
+000108 | - Definition
+000109 | Realized gains/(losses)of defined benefit pension plan
+000110 | + References
+000111 | No definition available.
+000112 | + Details
+000113 | Name:
+000114 | hon_DefinedBenefitPensionPlanRealizedGainsLossesDuringPeriod
+000115 | Namespace Prefix:
+000116 | hon_
+000117 | Data Type:
+000118 | xbrli:monetaryItemType
+000119 | Balance Type:
+000120 | debit
+000121 | Period Type:
+000122 | duration
+000123 | X
+000124 | - Definition
+000125 | Purchases of plan assets that occurred during the period
+000126 | + References
+000127 | No definition available.
+000128 | + Details
+000129 | Name:
+000130 | hon_DefinedBenefitPlanPurchases
+000131 | Namespace Prefix:
+000132 | hon_
+000133 | Data Type:
+000134 | xbrli:monetaryItemType
+000135 | Balance Type:
+000136 | debit
+000137 | Period Type:
+000138 | duration
+000139 | X
+000140 | - Definition
+000141 | Sales and settlements of plan assets that occurred during the period
+000142 | + References
+000143 | No definition available.
+000144 | + Details
+000145 | Name:
+000146 | hon_DefinedBenefitPlanSalesAndSettlements
+000147 | Namespace Prefix:
+000148 | hon_
+000149 | Data Type:
+000150 | xbrli:monetaryItemType
+000151 | Balance Type:
+000152 | credit
+000153 | Period Type:
+000154 | duration
+000155 | X
+000156 | - Definition
+000157 | Unrealized gains/(losses) relating to defined benefit pension plan assets still held at the reporting date
+000158 | + References
+000159 | No definition available.
+000160 | + Details
+000161 | Name:
+000162 | hon_FairValueMeasurementWithUnobservableInputsReconciliationRecurringBasisAssetUnrealizedGainLossRelatingToAssetsStillHeld
+000163 | Namespace Prefix:
+000164 | hon_
+000165 | Data Type:
+000166 | xbrli:monetaryItemType
+000167 | Balance Type:
+000168 | debit
+000169 | Period Type:
+000170 | instant
+000171 | X
+000172 | - Definition
+000173 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000174 | + References
+000175 | No definition available.
+000176 | + Details
+000177 | Name:
+000178 | us-gaap_DefinedBenefitPlanChangeInFairValueOfPlanAssetsRollForward
+000179 | Namespace Prefix:
+000180 | us-gaap_
+000181 | Data Type:
+000182 | xbrli:stringItemType
+000183 | Balance Type:
+000184 | na
+000185 | Period Type:
+000186 | duration
+000187 | X
+000188 | - Definition
+000189 | Amount of asset segregated and restricted to provide benefit under defined benefit plan. Asset includes, but is not limited to, stock, bond, other investment, earning from investment, and contribution by employer and employee.
+000190 | + References
+000191 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000192 | -Topic 715
+000193 | -SubTopic 20
+000194 | -Name Accounting Standards Codification
+000195 | -Section 50
+000196 | -Paragraph 5
+000197 | -Subparagraph (c)(ii)
+000198 | -Publisher FASB
+000199 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000200 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000201 | -Topic 715
+000202 | -SubTopic 20
+000203 | -Name Accounting Standards Codification
+000204 | -Section 50
+000205 | -Paragraph 5
+000206 | -Subparagraph (a)
+000207 | -Publisher FASB
+000208 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000209 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000210 | -Topic 715
+000211 | -SubTopic 20
+000212 | -Name Accounting Standards Codification
+000213 | -Section 50
+000214 | -Paragraph 5
+000215 | -Subparagraph (c)(iv)(01)
+000216 | -Publisher FASB
+000217 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000218 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000219 | -Topic 715
+000220 | -SubTopic 20
+000221 | -Name Accounting Standards Codification
+000222 | -Section 50
+000223 | -Paragraph 5
+000224 | -Subparagraph (c)(iv)(01)
+000225 | -Publisher FASB
+000226 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000227 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000228 | -Topic 715
+000229 | -SubTopic 20
+000230 | -Name Accounting Standards Codification
+000231 | -Section 50
+000232 | -Paragraph 5
+000233 | -Subparagraph (c)(ii)
+000234 | -Publisher FASB
+000235 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+000236 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000237 | -Topic 715
+000238 | -SubTopic 20
+000239 | -Name Accounting Standards Codification
+000240 | -Section 55
+000241 | -Paragraph 17
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17
+000244 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000245 | -Topic 715
+000246 | -SubTopic 20
+000247 | -Name Accounting Standards Codification
+000248 | -Section 50
+000249 | -Paragraph 1
+000250 | -Subparagraph (d)(iv)(02)
+000251 | -Publisher FASB
+000252 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000253 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000254 | -Topic 715
+000255 | -SubTopic 20
+000256 | -Name Accounting Standards Codification
+000257 | -Section 50
+000258 | -Paragraph 1
+000259 | -Subparagraph (d)(ii)
+000260 | -Publisher FASB
+000261 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000262 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000263 | -Topic 715
+000264 | -SubTopic 20
+000265 | -Name Accounting Standards Codification
+000266 | -Section 50
+000267 | -Paragraph 1
+000268 | -Subparagraph (d)(iv)(01)
+000269 | -Publisher FASB
+000270 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000271 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000272 | -Topic 715
+000273 | -SubTopic 20
+000274 | -Name Accounting Standards Codification
+000275 | -Section 50
+000276 | -Paragraph 1
+000277 | -Subparagraph (b)
+000278 | -Publisher FASB
+000279 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000280 | Reference 11: http://www.xbrl.org/2003/role/exampleRef
+000281 | -Topic 715
+000282 | -SubTopic 20
+000283 | -Name Accounting Standards Codification
+000284 | -Section 50
+000285 | -Paragraph 1
+000286 | -Subparagraph (d)(ii)
+000287 | -Publisher FASB
+000288 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000289 | Reference 12: http://www.xbrl.org/2003/role/exampleRef
+000290 | -Topic 715
+000291 | -SubTopic 20
+000292 | -Name Accounting Standards Codification
+000293 | -Section 50
+000294 | -Paragraph 1
+000295 | -Subparagraph (d)(iv)(01)
+000296 | -Publisher FASB
+000297 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000298 | + Details
+000299 | Name:
+000300 | us-gaap_DefinedBenefitPlanFairValueOfPlanAssets
+000301 | Namespace Prefix:
+000302 | us-gaap_
+000303 | Data Type:
+000304 | xbrli:monetaryItemType
+000305 | Balance Type:
+000306 | debit
+000307 | Period Type:
+000308 | instant
+000309 | X
+000310 | - Details
+000311 | Name:
+000312 | us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis=hon_DirectPrivateInvestmentsMember
+000313 | Namespace Prefix:
+000314 | Data Type:
+000315 | na
+000316 | Balance Type:
+000317 | Period Type:
+000318 | X
+000319 | - Details
+000320 | Name:
+000321 | us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel3Member
+000322 | Namespace Prefix:
+000323 | Data Type:
+000324 | na
+000325 | Balance Type:
+000326 | Period Type:
+000327 | X
+000328 | - Details
+000329 | Name:
+000330 | us-gaap_RetirementPlanSponsorLocationAxis=country_US
+000331 | Namespace Prefix:
+000332 | Data Type:
+000333 | na
+000334 | Balance Type:
+000335 | Period Type:
+000336 | X
+000337 | - Details
+000338 | Name:
+000339 | us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis=hon_RealEstatePropertiesMember
+000340 | Namespace Prefix:
+000341 | Data Type:
+000342 | na
+000343 | Balance Type:
+000344 | Period Type:
+000345 | X
+000346 | - Details
+000347 | Name:
+000348 | us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis=us-gaap_PrivateEquityFundsMember
+000349 | Namespace Prefix:
+000350 | Data Type:
+000351 | na
+000352 | Balance Type:
+000353 | Period Type:
+000354 | X
+000355 | - Details
+000356 | Name:
+000357 | us-gaap_RetirementPlanSponsorLocationAxis=us-gaap_ForeignPlanMember
+000358 | Namespace Prefix:
+000359 | Data Type:
+000360 | na
+000361 | Balance Type:
+000362 | Period Type:
+000363 | X
+000364 | - Details
+000365 | Name:
+000366 | us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis=hon_RealEstateFundsGlobalMember
+000367 | Namespace Prefix:
+000368 | Data Type:
+000369 | na
+000370 | Balance Type:
+000371 | Period Type:
+000372 | X
+000373 | - Details
+000374 | Name:
+000375 | us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis=hon_FixedIncomeInvestmentInsuranceBuyInContractsMember
+000376 | Namespace Prefix:
+000377 | Data Type:
+000378 | na
+000379 | Balance Type:
+000380 | Period Type:

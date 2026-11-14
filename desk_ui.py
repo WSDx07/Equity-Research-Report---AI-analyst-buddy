@@ -13,7 +13,7 @@ from decimal import Decimal, InvalidOperation
 from datetime import date
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import unquote, urlsplit
 
 from markdown_it import MarkdownIt
 
@@ -29,6 +29,35 @@ NODES = re.compile(r"^(?:Step \d+ started|Research Analyst|Financial Analyst|Inv
 renderer = MarkdownIt("commonmark", {"html": False}).enable("table")
 jobs: dict[str, dict] = {}
 lock = threading.Lock()
+
+
+def saved_worksheets() -> list[dict]:
+    """List saved run folders that contain both a report and a worksheet."""
+    result = []
+    if not RUNS.is_dir():
+        return result
+    for run in sorted(RUNS.iterdir(), reverse=True):
+        if not run.is_dir() or not run.resolve().is_relative_to(RUNS):
+            continue
+        report = run / "verified_report.md"
+        worksheets = sorted(run.glob("worksheet-*.md"), reverse=True)
+        if report.is_file() and report.resolve().is_relative_to(run.resolve()) and worksheets:
+            worksheet = next((p for p in worksheets if p.is_file() and p.resolve().is_relative_to(run.resolve())), None)
+            if worksheet:
+                result.append({"id": run.name, "worksheet": worksheet.name})
+    return result
+
+
+def saved_worksheet(run_id: str) -> dict:
+    matches = [row for row in saved_worksheets() if row['id'] == run_id]
+    if not matches:
+        raise ValueError('Saved worksheet run not found.')
+    run = RUNS / run_id
+    report = run / 'verified_report.md'
+    worksheet = run / matches[0]['worksheet']
+    return {'report_html': renderer.render(report.read_text(encoding='utf-8')),
+            'worksheet_html': renderer.render(worksheet.read_text(encoding='utf-8')),
+            'report_path': str(report), 'worksheet_path': str(worksheet)}
 
 
 def validate_spinoff(payload: dict) -> str:
@@ -168,6 +197,14 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header("Cache-Control", "no-store")
             self.end_headers()
             self.wfile.write(data)
+        elif path == "/api/saved-worksheets":
+            self.send_json(200, {"runs": saved_worksheets()})
+        elif path.startswith("/api/saved-worksheets/"):
+            run_id = unquote(path.removeprefix("/api/saved-worksheets/"))
+            try:
+                self.send_json(200, saved_worksheet(run_id))
+            except (ValueError, OSError, UnicodeError):
+                self.send_json(404, {"error": "Saved worksheet run not found."})
         elif path.startswith("/api/jobs/"):
             job_id = path.removeprefix("/api/jobs/")
             with lock:

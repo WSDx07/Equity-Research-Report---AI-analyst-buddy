@@ -1,0 +1,337 @@
+000001 | v3.25.4
+000002 | REPOSITIONING AND OTHER (GAINS) CHARGES - Narrative (Details)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | USD ($)
+000007 | position
+000008 | Dec. 31, 2024
+000009 | USD ($)
+000010 | position
+000011 | Dec. 31, 2023
+000012 | USD ($)
+000013 | position
+000014 | Net Repositioning And Other Charges [Line Items]
+000015 | Restructuring Charges, Statement of Income or Comprehensive Income [Extensible Enumeration]
+000016 | Other Nonoperating Income (Expense)
+000017 | Other Nonoperating Income (Expense)
+000018 | Other Nonoperating Income (Expense)
+000019 | Restructuring charges
+000020 | $ 210
+000021 | $ 221
+000022 | $ 335
+000023 | Restructuring and related cost, incurred cost (returned to income)
+000024 | $ 153
+000025 | $ 124
+000026 | $ 279
+000027 | Number of employees severed | position
+000028 | 3,425
+000029 | 3,486
+000030 | 5,854
+000031 | Severance
+000032 | Net Repositioning And Other Charges [Line Items]
+000033 | Restructuring and related cost, incurred cost (returned to income)
+000034 | $ 138
+000035 | $ 136
+000036 | $ 162
+000037 | Asset impairments
+000038 | Net Repositioning And Other Charges [Line Items]
+000039 | Restructuring and related cost, incurred cost (returned to income)
+000040 | 11
+000041 | 22
+000042 | 41
+000043 | Exit costs
+000044 | Net Repositioning And Other Charges [Line Items]
+000045 | Restructuring charges
+000046 | 132
+000047 | Restructuring and related cost, incurred cost (returned to income)
+000048 | 61
+000049 | 63
+000050 | 132
+000051 | Restructuring and related cost, cost incurred to date
+000052 | 60
+000053 | 57
+000054 | 53
+000055 | Reserve adjustments
+000056 | Net Repositioning And Other Charges [Line Items]
+000057 | Restructuring and related cost, incurred cost (returned to income)
+000058 | $ (57)
+000059 | $ (97)
+000060 | $ (56)
+000061 | X
+000062 | - References
+000063 | No definition available.
+000064 | + Details
+000065 | Name:
+000066 | hon_NetRepositioningAndOtherChargesLineItems
+000067 | Namespace Prefix:
+000068 | hon_
+000069 | Data Type:
+000070 | xbrli:stringItemType
+000071 | Balance Type:
+000072 | na
+000073 | Period Type:
+000074 | duration
+000075 | X
+000076 | - Definition
+000077 | Amount of costs incurred to date for the specified restructuring cost.
+000078 | + References
+000079 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000080 | -Topic 420
+000081 | -SubTopic 10
+000082 | -Name Accounting Standards Codification
+000083 | -Section S99
+000084 | -Paragraph 2
+000085 | -Subparagraph (SAB Topic 5.P.4.d)
+000086 | -Publisher FASB
+000087 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000088 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000089 | -Topic 420
+000090 | -SubTopic 10
+000091 | -Name Accounting Standards Codification
+000092 | -Section S99
+000093 | -Paragraph 2
+000094 | -Subparagraph (SAB Topic 5.P.4.b.1)
+000095 | -Publisher FASB
+000096 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000097 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000098 | -Topic 420
+000099 | -SubTopic 10
+000100 | -Name Accounting Standards Codification
+000101 | -Section 50
+000102 | -Paragraph 1
+000103 | -Subparagraph (b)(1)
+000104 | -Publisher FASB
+000105 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000106 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000107 | -Topic 420
+000108 | -SubTopic 10
+000109 | -Name Accounting Standards Codification
+000110 | -Section 50
+000111 | -Paragraph 1
+000112 | -Subparagraph (d)
+000113 | -Publisher FASB
+000114 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000115 | + Details
+000116 | Name:
+000117 | us-gaap_RestructuringAndRelatedCostCostIncurredToDate1
+000118 | Namespace Prefix:
+000119 | us-gaap_
+000120 | Data Type:
+000121 | xbrli:monetaryItemType
+000122 | Balance Type:
+000123 | debit
+000124 | Period Type:
+000125 | instant
+000126 | X
+000127 | - Definition
+000128 | Discloses the amount charged against the accrued restructuring reserves, or earnings if not previously accrued, during the period for the specified type of restructuring cost.
+000129 | + References
+000130 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000131 | -Topic 420
+000132 | -SubTopic 10
+000133 | -Name Accounting Standards Codification
+000134 | -Section S99
+000135 | -Paragraph 2
+000136 | -Subparagraph (SAB Topic 5.P.4.d)
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000139 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000140 | -Topic 420
+000141 | -SubTopic 10
+000142 | -Name Accounting Standards Codification
+000143 | -Section S99
+000144 | -Paragraph 2
+000145 | -Subparagraph (SAB Topic 5.P.4.b.1)
+000146 | -Publisher FASB
+000147 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000148 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000149 | -Topic 420
+000150 | -SubTopic 10
+000151 | -Name Accounting Standards Codification
+000152 | -Section 50
+000153 | -Paragraph 1
+000154 | -Subparagraph (b)(1)
+000155 | -Publisher FASB
+000156 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000157 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000158 | -Topic 420
+000159 | -SubTopic 10
+000160 | -Name Accounting Standards Codification
+000161 | -Section 50
+000162 | -Paragraph 1
+000163 | -Subparagraph (d)
+000164 | -Publisher FASB
+000165 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000166 | + Details
+000167 | Name:
+000168 | us-gaap_RestructuringAndRelatedCostIncurredCost
+000169 | Namespace Prefix:
+000170 | us-gaap_
+000171 | Data Type:
+000172 | xbrli:monetaryItemType
+000173 | Balance Type:
+000174 | debit
+000175 | Period Type:
+000176 | duration
+000177 | X
+000178 | - Definition
+000179 | The number of positions eliminated during the period as a result of restructuring activities.
+000180 | + References
+000181 | No definition available.
+000182 | + Details
+000183 | Name:
+000184 | us-gaap_RestructuringAndRelatedCostNumberOfPositionsEliminated
+000185 | Namespace Prefix:
+000186 | us-gaap_
+000187 | Data Type:
+000188 | xbrli:integerItemType
+000189 | Balance Type:
+000190 | na
+000191 | Period Type:
+000192 | duration
+000193 | X
+000194 | - Definition
+000195 | Amount of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.
+000196 | + References
+000197 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000198 | -Name Accounting Standards Codification
+000199 | -Section 45
+000200 | -Paragraph 28
+000201 | -Subparagraph (b)
+000202 | -SubTopic 10
+000203 | -Topic 230
+000204 | -Publisher FASB
+000205 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000206 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000207 | -Topic 220
+000208 | -SubTopic 40
+000209 | -Name Accounting Standards Codification
+000210 | -Section 55
+000211 | -Paragraph 18
+000212 | -Publisher FASB
+000213 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-18
+000214 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000215 | -Topic 420
+000216 | -SubTopic 10
+000217 | -Name Accounting Standards Codification
+000218 | -Section S99
+000219 | -Paragraph 2
+000220 | -Subparagraph (SAB Topic 5.P.4.b.1)
+000221 | -Publisher FASB
+000222 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000223 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000224 | -Topic 420
+000225 | -SubTopic 10
+000226 | -Name Accounting Standards Codification
+000227 | -Section 45
+000228 | -Paragraph 3
+000229 | -Publisher FASB
+000230 | -URI https://asc.fasb.org/1943274/2147482047/420-10-45-3
+000231 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000232 | -Topic 420
+000233 | -SubTopic 10
+000234 | -Name Accounting Standards Codification
+000235 | -Section S99
+000236 | -Paragraph 1
+000237 | -Subparagraph (SAB Topic 5.P.3)
+000238 | -Publisher FASB
+000239 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-1
+000240 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000241 | -Topic 220
+000242 | -SubTopic 40
+000243 | -Name Accounting Standards Codification
+000244 | -Section 50
+000245 | -Paragraph 21
+000246 | -Subparagraph (e)
+000247 | -Publisher FASB
+000248 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-21
+000249 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000250 | -Topic 220
+000251 | -SubTopic 40
+000252 | -Name Accounting Standards Codification
+000253 | -Section 50
+000254 | -Paragraph 6
+000255 | -Subparagraph (b)
+000256 | -Publisher FASB
+000257 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-6
+000258 | + Details
+000259 | Name:
+000260 | us-gaap_RestructuringCharges
+000261 | Namespace Prefix:
+000262 | us-gaap_
+000263 | Data Type:
+000264 | xbrli:monetaryItemType
+000265 | Balance Type:
+000266 | debit
+000267 | Period Type:
+000268 | duration
+000269 | X
+000270 | - Definition
+000271 | Indicates line item in statement of income or comprehensive income that includes restructuring charges.
+000272 | + References
+000273 | Reference 1: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000274 | -Topic 420
+000275 | -SubTopic 10
+000276 | -Name Accounting Standards Codification
+000277 | -Section S99
+000278 | -Paragraph 2
+000279 | -Subparagraph (SAB Topic 5.P.4.c)
+000280 | -Publisher FASB
+000281 | -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+000282 | Reference 2: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000283 | -Topic 420
+000284 | -SubTopic 10
+000285 | -Name Accounting Standards Codification
+000286 | -Section 50
+000287 | -Paragraph 1
+000288 | -Subparagraph (c)
+000289 | -Publisher FASB
+000290 | -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+000291 | + Details
+000292 | Name:
+000293 | us-gaap_RestructuringIncurredCostStatementOfIncomeOrComprehensiveIncomeExtensibleEnumeration
+000294 | Namespace Prefix:
+000295 | us-gaap_
+000296 | Data Type:
+000297 | enum2:enumerationSetItemType
+000298 | Balance Type:
+000299 | na
+000300 | Period Type:
+000301 | duration
+000302 | X
+000303 | - Details
+000304 | Name:
+000305 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_EmployeeSeveranceMember
+000306 | Namespace Prefix:
+000307 | Data Type:
+000308 | na
+000309 | Balance Type:
+000310 | Period Type:
+000311 | X
+000312 | - Details
+000313 | Name:
+000314 | us-gaap_RestructuringCostAndReserveAxis=hon_TangibleAndIntangibleAssetImpairmentMember
+000315 | Namespace Prefix:
+000316 | Data Type:
+000317 | na
+000318 | Balance Type:
+000319 | Period Type:
+000320 | X
+000321 | - Details
+000322 | Name:
+000323 | us-gaap_RestructuringCostAndReserveAxis=us-gaap_FacilityClosingMember
+000324 | Namespace Prefix:
+000325 | Data Type:
+000326 | na
+000327 | Balance Type:
+000328 | Period Type:
+000329 | X
+000330 | - Details
+000331 | Name:
+000332 | us-gaap_RestructuringCostAndReserveAxis=hon_RestructuringReserveAccrualAdjustmentsMember
+000333 | Namespace Prefix:
+000334 | Data Type:
+000335 | na
+000336 | Balance Type:
+000337 | Period Type:

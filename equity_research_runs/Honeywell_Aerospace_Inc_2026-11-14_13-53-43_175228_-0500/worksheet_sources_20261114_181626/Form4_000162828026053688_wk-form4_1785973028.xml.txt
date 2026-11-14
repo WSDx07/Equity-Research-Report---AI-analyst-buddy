@@ -1,0 +1,114 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0609</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2026-08-03</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0002089271</issuerCik>
+000015 |         <issuerName>Honeywell Aerospace Inc.</issuerName>
+000016 |         <issuerTradingSymbol>HONA</issuerTradingSymbol>
+000017 |         <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+000018 |     </issuer>
+000019 | 
+000020 |     <reportingOwner>
+000021 |         <reportingOwnerId>
+000022 |             <rptOwnerCik>0001492362</rptOwnerCik>
+000023 |             <rptOwnerName>Reuss Mark L</rptOwnerName>
+000024 |         </reportingOwnerId>
+000025 |         <reportingOwnerAddress>
+000026 |             <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+000027 |             <rptOwnerStreet1>C/O HONEYWELL AEROSPACE INC.</rptOwnerStreet1>
+000028 |             <rptOwnerStreet2>1944 E SKY HARBOR CIRCLE N</rptOwnerStreet2>
+000029 |             <rptOwnerCity>PHOENIX</rptOwnerCity>
+000030 |             <rptOwnerState>AZ</rptOwnerState>
+000031 |             <rptOwnerZipCode>85034</rptOwnerZipCode>
+000032 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000033 |         </reportingOwnerAddress>
+000034 |         <reportingOwnerRelationship>
+000035 |             <isDirector>1</isDirector>
+000036 |             <isOfficer>0</isOfficer>
+000037 |             <isTenPercentOwner>0</isTenPercentOwner>
+000038 |             <isOther>0</isOther>
+000039 |         </reportingOwnerRelationship>
+000040 |     </reportingOwner>
+000041 | 
+000042 |     <aff10b5One>0</aff10b5One>
+000043 | 
+000044 |     <nonDerivativeTable></nonDerivativeTable>
+000045 | 
+000046 |     <derivativeTable>
+000047 |         <derivativeTransaction>
+000048 |             <securityTitle>
+000049 |                 <value>Restricted Stock Units</value>
+000050 |             </securityTitle>
+000051 |             <conversionOrExercisePrice>
+000052 |                 <value>0</value>
+000053 |                 <footnoteId id="F1"/>
+000054 |             </conversionOrExercisePrice>
+000055 |             <transactionDate>
+000056 |                 <value>2026-08-03</value>
+000057 |             </transactionDate>
+000058 |             <transactionCoding>
+000059 |                 <transactionFormType>4</transactionFormType>
+000060 |                 <transactionCode>A</transactionCode>
+000061 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000062 |             </transactionCoding>
+000063 |             <transactionAmounts>
+000064 |                 <transactionShares>
+000065 |                     <value>572</value>
+000066 |                 </transactionShares>
+000067 |                 <transactionPricePerShare>
+000068 |                     <value>0</value>
+000069 |                 </transactionPricePerShare>
+000070 |                 <transactionAcquiredDisposedCode>
+000071 |                     <value>A</value>
+000072 |                 </transactionAcquiredDisposedCode>
+000073 |             </transactionAmounts>
+000074 |             <exerciseDate>
+000075 |                 <footnoteId id="F2"/>
+000076 |             </exerciseDate>
+000077 |             <expirationDate>
+000078 |                 <footnoteId id="F2"/>
+000079 |             </expirationDate>
+000080 |             <underlyingSecurity>
+000081 |                 <underlyingSecurityTitle>
+000082 |                     <value>Common Stock</value>
+000083 |                 </underlyingSecurityTitle>
+000084 |                 <underlyingSecurityShares>
+000085 |                     <value>572</value>
+000086 |                 </underlyingSecurityShares>
+000087 |             </underlyingSecurity>
+000088 |             <postTransactionAmounts>
+000089 |                 <sharesOwnedFollowingTransaction>
+000090 |                     <value>572</value>
+000091 |                 </sharesOwnedFollowingTransaction>
+000092 |             </postTransactionAmounts>
+000093 |             <ownershipNature>
+000094 |                 <directOrIndirectOwnership>
+000095 |                     <value>D</value>
+000096 |                 </directOrIndirectOwnership>
+000097 |             </ownershipNature>
+000098 |         </derivativeTransaction>
+000099 |     </derivativeTable>
+000100 | 
+000101 |     <footnotes>
+000102 |         <footnote id="F1">Instrument converts to Issuer's Common Stock on a one-for-one basis.</footnote>
+000103 |         <footnote id="F2">The Restricted Stock Units shall vest on April 15, 2027.</footnote>
+000104 |     </footnotes>
+000105 | 
+000106 |     <remarks></remarks>
+000107 | 
+000108 |     <ownerSignature>
+000109 |         <signatureName>/s/ Jennifer Nelson for Mark L. Reuss</signatureName>
+000110 |         <signatureDate>2026-08-05</signatureDate>
+000111 |     </ownerSignature>
+000112 | </ownershipDocument>
+000113 | </XML>
+000114 | 

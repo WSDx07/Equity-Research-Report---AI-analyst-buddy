@@ -1,0 +1,98 @@
+Filings read: Form 10 accession 000119312526396054; statement accessions 000119312526396054, 000212862626000012; live release accession 000162828026072175
+
+# Worksheet: VYLR | analysis date 2026-11-14
+
+Reviewed copy: source additions and correction to the original judgment. The numeric hook has not validated this worksheet; the saved research report has unresolved verifier marks.
+
+## Spinoff facts
+- Parent: Corteva, Inc. | https://www.sec.gov/Archives/edgar/data/2128626/000119312526396054/ck0002128626-ex99_1.htm | Shareholder letter
+- Distribution ratio: one share of Vylor common stock on the date of the distribution for every share of Corteva common stock | https://www.sec.gov/Archives/edgar/data/2128626/000119312526396054/ck0002128626-ex99_1.htm | Shareholder letter
+- Record date: 2026-09-24 | https://www.sec.gov/Archives/edgar/data/2128626/000119312526396054/ck0002128626-ex99_1.htm | Shareholder letter
+- Distribution date: 2026-10-01 | https://www.sec.gov/Archives/edgar/data/2128626/000119312526417083/d332956d8k.htm | Introductory Note (incorporated into Item 2.01)
+- Completed distribution date: 2026-10-01 | https://www.sec.gov/Archives/edgar/data/2128626/000119312526417083/d332956d8k.htm | Introductory Note (incorporated into Item 2.01)
+- Dated market price: 72.54 USD per share on 2026-11-13 | C:\Users\Shlok Bairagi\AppData\Local\Temp\vylr-bars.json | LSEG TR.CLOSEPRICE(Adjusted=0), TR.Volume; field interpretation supplied by user; independent exchange comparison not completed
+
+## Judgment
+Editorial review of the original model judgment: The saved model response suggested that the low-case value exceeded the price. That comparison is not established because diluted shares outstanding are not known. The historical cash-flow calculation is a possible starting point, but it does not establish that the shares are cheap. Separation financing and conditional tax obligations add uncertainty.
+Evidence in the next filing that would change the view: A disclosed diluted share count suitable for the worksheet rule, the amount of any tax indemnity, and updated debt balances and covenant compliance would allow a better assessment.
+
+## Owner cash flow and value range
+Filing statements report these amounts in USD millions; each amount below is multiplied by 1,000,000 to show whole USD. Historical figures precede the separation. The Form 10 information statement and financial statements are at https://www.sec.gov/Archives/edgar/data/2128626/000119312526396054/ck0002128626-ex99_1.htm.
+- After-tax earnings: 575000000 USD | historical | FY2025 ended 2025-12-31 | filing 000119312526396054 | Combined Statements of Operations | line 19762 | saved file VYLR_Form 10_0001193125-26-396054.txt
+- Depreciation: 806000000 USD | historical | FY2025 ended 2025-12-31 | filing 000119312526396054 | Combined Statements of Cash Flows | line 19990 | saved file VYLR_Form 10_0001193125-26-396054.txt
+- Capital spending: 346000000 USD | historical | FY2025 ended 2025-12-31 | filing 000119312526396054 | Combined Statements of Cash Flows | line 20063 | saved file VYLR_Form 10_0001193125-26-396054.txt
+- Diluted shares outstanding: not known (a point-in-time diluted count was not established in the reviewed filings). The 10-Q management discussion table labeled diluted shares is a Corteva earnings-per-share reconciliation and its figures are period averages; it is not a Vylor point-in-time diluted share count. Source: https://www.sec.gov/Archives/edgar/data/2128626/000212862626000012/vylr-20260930.htm | Management?s Discussion and Analysis, reconciliation of Corteva earnings per share.
+- Common shares outstanding (cover page): 667303030 shares | reported after the spin | cover-page share count reported 2026-11-12 | filing 000212862626000012 | Cover page: Common Stock, Shares Outstanding | line 44 | saved file worksheet_sources_20261114_012611\first_post_spin_10-Q_000212862626000012_R1.htm.txt
+- Owner cash flow: 1035000000 USD = 575000000 + 806000000 - 346000000.
+- Low case equity value: 1035000000 x (1 + 0.0) / (0.1 - 0.0) = 10350000000 USD.
+- Low case value per share: 10350000000 / not computed shares = not computed USD per share.
+- Mid case equity value: 1035000000 x (1 + 0.02) / (0.09 - 0.02) = 15081428571.42857142857142857 USD.
+- Mid case value per share: 15081428571.42857142857142857 / not computed shares = not computed USD per share.
+- Price against low case: 72.54 USD on 2026-11-13 versus not computed USD per share.
+
+## Debt and parent
+- Assumed debt: 5558000000.000 USD | assumed principal debt, net of applicable issuance costs | pro forma | filing date 2026-09-21; assumed transaction | filing https://www.sec.gov/Archives/edgar/data/2128626/000119312526396054/ck0002128626-ex99_1.htm | UNAUDITED PRO FORMA CONSOLIDATED FINANCIAL STATEMENTS | line 1011 | saved file worksheet_sources_20261114_025032\10-12B_A_000119312526396054_ck0002128626-ex99_1.htm.txt
+- Expected cash distribution: 3499000000.000 USD | expected cash distribution to New Corteva | pro forma | filing date 2026-09-21; assumed transaction | filing https://www.sec.gov/Archives/edgar/data/2128626/000119312526396054/ck0002128626-ex99_1.htm | UNAUDITED PRO FORMA CONSOLIDATED FINANCIAL STATEMENTS | line 1011 | saved file worksheet_sources_20261114_025032\10-12B_A_000119312526396054_ck0002128626-ex99_1.htm.txt
+- Five-year credit agreement covenant: total indebtedness divided by total capitalization must not exceed 0.60 for Vylor and its consolidated subsidiaries | reported after the spin | Form 10-Q filed 2026-11-12, Management?s Discussion and Analysis, Vylor Credit Facilities | https://www.sec.gov/Archives/edgar/data/2128626/000212862626000012/vylr-20260930.htm | saved filing line 2465.
+- Other debt covenant terms and compliance: not known (not fully reviewed).
+- Five-year credit facility borrowing: 1578000000 USD on 2026-10-01 | reported after the spin | Form 8-K filed 2026-10-07, Introductory Note | https://www.sec.gov/Archives/edgar/data/2128626/000119312526417083/d332956d8k.htm | saved source line 60.
+- 364-day credit facility borrowing: 1500000000 USD on 2026-10-01 | reported after the spin | Form 8-K filed 2026-10-07, Introductory Note | https://www.sec.gov/Archives/edgar/data/2128626/000119312526417083/d332956d8k.htm | saved source line 60.
+- Use of those borrowing proceeds: 3078000000 USD used to repay the PHI bilateral facility on 2026-10-01 | reported after the spin | Form 8-K filed 2026-10-07, Introductory Note | https://www.sec.gov/Archives/edgar/data/2128626/000119312526417083/d332956d8k.htm | saved source line 60.
+- Cash distribution to former parent subsidiary EIDP: approximately 761000000 USD, subject to adjustment, in the separation | reported after the spin | Form 8-K filed 2026-10-07, Introductory Note | https://www.sec.gov/Archives/edgar/data/2128626/000119312526417083/d332956d8k.htm | saved source line 54. This is distinct from the earlier pro forma expected distribution.
+- Parent liabilities: conditional tax indemnity; amount not stated (contingent obligation) | pro forma | filing date 2026-09-21; agreement expected | filing https://www.sec.gov/Archives/edgar/data/2128626/000119312526396054/ck0002128626-ex99_1.htm | Risk Factors — tax-free treatment of the spin-off | line 657 | saved file worksheet_sources_20261114_025032\10-12B_A_000119312526396054_ck0002128626-ex99_1.htm.txt
+- Parent restrictions: conditional restrictions on certain transactions for two years following distribution (restriction) | pro forma | filing date 2026-09-21; agreement expected | filing https://www.sec.gov/Archives/edgar/data/2128626/000119312526396054/ck0002128626-ex99_1.htm | Risk Factors — tax-free treatment of the spin-off | line 659 | saved file worksheet_sources_20261114_025032\10-12B_A_000119312526396054_ck0002128626-ex99_1.htm.txt
+- Parent after the spin: not known (not established by the automatic reader).
+
+## Insider purchases
+- Insider purchases: not known (no code P transaction established within the saved filing-list coverage).
+- Filing-list coverage: 2026-10-05 to 2026-10-26.
+
+## Liquidity
+- Median daily dollar volume: 70529182.89 USD | 20 completed observations | C:\Users\Shlok Bairagi\AppData\Local\Temp\vylr-bars.json | LSEG TR.CLOSEPRICE(Adjusted=0), TR.Volume; field interpretation supplied by user; independent exchange comparison not completed.
+- Client purchase: 1000000 USD | liquidity support: True.
+- Daily dollar volume: 74109045.33 USD on 2026-10-19.
+- Daily dollar volume: 54927065.44 USD on 2026-10-20.
+- Daily dollar volume: 74112204.60 USD on 2026-10-21.
+- Daily dollar volume: 55951597.52 USD on 2026-10-22.
+- Daily dollar volume: 60385975.48 USD on 2026-10-23.
+- Daily dollar volume: 91348951.18 USD on 2026-10-26.
+- Daily dollar volume: 56734423.32 USD on 2026-10-27.
+- Daily dollar volume: 33691718.40 USD on 2026-10-28.
+- Daily dollar volume: 44170179.80 USD on 2026-10-29.
+- Daily dollar volume: 69933838.8 USD on 2026-10-30.
+- Daily dollar volume: 54322299.62 USD on 2026-11-02.
+- Daily dollar volume: 50878866.90 USD on 2026-11-03.
+- Daily dollar volume: 151391786.25 USD on 2026-11-04.
+- Daily dollar volume: 126126175.56 USD on 2026-11-05.
+- Daily dollar volume: 73504896.36 USD on 2026-11-06.
+- Daily dollar volume: 94377123.95 USD on 2026-11-09.
+- Daily dollar volume: 73510460.54 USD on 2026-11-10.
+- Daily dollar volume: 62498443.0 USD on 2026-11-11.
+- Daily dollar volume: 78616162.92 USD on 2026-11-12.
+- Daily dollar volume: 71124526.98 USD on 2026-11-13.
+
+## Live release view
+- Company: TTWO | saved run analysis date 2026-11-14 | financial filings through 2026-11-08 | filing 000162828026072175 | acceptance 2026-11-09T21:10:58+00:00.
+- Release revenue: not known (not established by the automatic reader).
+- Price: 207.4 USD per share on 2026-11-09 | C:\Users\Shlok Bairagi\AppData\Local\Temp\ttwo-bars.json | LSEG TR.CLOSEPRICE(Adjusted=0), TR.Volume; field interpretation supplied by user; independent exchange comparison not completed.
+- Live after-tax earnings: -298200000 USD | historical | FY2026 ended 2026-03-31 | filing 000162828026037434 | CONSOLIDATED STATEMENTS OF OPERATIONS | line 1201 | saved file TTWO_10-K_0001628280-26-037434.txt
+- Live depreciation: 166400000 USD | historical | FY2026 ended 2026-03-31 | filing 000162828026037434 | CONSOLIDATED STATEMENTS OF CASH FLOWS | line 1231 | saved file TTWO_10-K_0001628280-26-037434.txt
+- Live capital spending: 162800000 USD | historical | FY2026 ended 2026-03-31 | filing 000162828026037434 | CONSOLIDATED STATEMENTS OF CASH FLOWS | line 1247 | saved file TTWO_10-K_0001628280-26-037434.txt
+- Live diluted shares outstanding: not known (a point-in-time diluted count was not established in the reviewed pre-release filings).
+- Live common shares outstanding: 186980443 shares as of 2026-07-27, net of treasury stock | historical | Form 10-Q filed 2026-08-07, cover page | https://www.sec.gov/Archives/edgar/data/946581/000162828026054870/ttwo-20260630.htm. This is not a diluted share count.
+- Take-Two FY2026 diluted EPS share count excludes potentially dilutive securities because of the net loss; the shares figure is a period average, not a point-in-time diluted count | historical | Form 10-K filed 2026-05-22, Note 12, Loss per Share | https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/ttwo-20260331.htm.
+- Live owner cash flow: -294600000 USD = -298200000 + 166400000 - 162800000.
+- Low case: not computed USD per share | owner cash flow x (1 + 0.0) / (0.1 - 0.0) / diluted shares.
+- View: not computed | deciding margin of safety: not computed | (low-case value - dated price) / dated price x 100.
+- Conviction: low | price at or below low-case threshold: unknown; purchase size within liquidity limit: unknown; no material debt, covenant, parent-liability, or restriction gaps: fail.
+
+## Not known
+- Use of proceeds for the pro forma assumed indebtedness is not fully established.
+- diluted_shares is not known
+- Other debt covenant terms and compliance remain not known.
+- Amount of conditional tax indemnity remains not known.
+- Full scope of parent restrictions remains not known.
+- Only 2 eligible pre-release reader bars are available for the live liquidity calculation; 20 are required. Field interpretation is user supplied, without independent exchange comparison.
+- Parent after the spin: automatic reader did not establish the fact
+- Insider purchases: no code P transaction established within the saved filing-list coverage
+- Release revenue: automatic reader did not establish a sourced amount

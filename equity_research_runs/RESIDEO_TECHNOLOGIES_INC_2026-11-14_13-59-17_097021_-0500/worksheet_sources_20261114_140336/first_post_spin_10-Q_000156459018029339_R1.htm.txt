@@ -1,0 +1,281 @@
+000001 | v3.10.0.1
+000002 | Document And Entity Information - shares
+000003 | 9 Months Ended
+000004 | Sep. 30, 2018
+000005 | Nov. 13, 2018
+000006 | Document And Entity Information [Abstract]
+000007 | Document Type
+000008 | 10-Q
+000009 | Document Period End Date
+000010 | Sep. 30, 2018
+000011 | Document Fiscal Year Focus
+000012 | 2018
+000013 | Document Fiscal Period Focus
+000014 | Q3
+000015 | Amendment Flag
+000016 | false
+000017 | Trading Symbol
+000018 | REZI
+000019 | Entity Registrant Name
+000020 | Resideo Technologies, Inc.
+000021 | Entity Central Index Key
+000022 | 0001740332
+000023 | Current Fiscal Year End Date
+000024 | --12-31
+000025 | Entity Filer Category
+000026 | Non-accelerated Filer
+000027 | Entity Common Stock, Shares Outstanding
+000028 | 122,966,558
+000029 | Entity Small Business
+000030 | false
+000031 | Entity Emerging Growth Company
+000032 | false
+000033 | X
+000034 | - Definition
+000035 | If the value is true, then the document is an amendment to previously-filed/accepted document.
+000036 | + References
+000037 | No definition available.
+000038 | + Details
+000039 | Name:
+000040 | dei_AmendmentFlag
+000041 | Namespace Prefix:
+000042 | dei_
+000043 | Data Type:
+000044 | xbrli:booleanItemType
+000045 | Balance Type:
+000046 | na
+000047 | Period Type:
+000048 | duration
+000049 | X
+000050 | - Definition
+000051 | End date of current fiscal year in the format --MM-DD.
+000052 | + References
+000053 | No definition available.
+000054 | + Details
+000055 | Name:
+000056 | dei_CurrentFiscalYearEndDate
+000057 | Namespace Prefix:
+000058 | dei_
+000059 | Data Type:
+000060 | xbrli:gMonthDayItemType
+000061 | Balance Type:
+000062 | na
+000063 | Period Type:
+000064 | duration
+000065 | X
+000066 | - Definition
+000067 | This is focus fiscal period of the document report. For a first quarter 2006 quarterly report, which may also provide financial information from prior periods, the first fiscal quarter should be given as the fiscal period focus. Values: FY, Q1, Q2, Q3, Q4, H1, H2, M9, T1, T2, T3, M8, CY.
+000068 | + References
+000069 | No definition available.
+000070 | + Details
+000071 | Name:
+000072 | dei_DocumentFiscalPeriodFocus
+000073 | Namespace Prefix:
+000074 | dei_
+000075 | Data Type:
+000076 | dei:fiscalPeriodItemType
+000077 | Balance Type:
+000078 | na
+000079 | Period Type:
+000080 | duration
+000081 | X
+000082 | - Definition
+000083 | This is focus fiscal year of the document report in CCYY format. For a 2006 annual report, which may also provide financial information from prior periods, fiscal 2006 should be given as the fiscal year focus. Example: 2006.
+000084 | + References
+000085 | No definition available.
+000086 | + Details
+000087 | Name:
+000088 | dei_DocumentFiscalYearFocus
+000089 | Namespace Prefix:
+000090 | dei_
+000091 | Data Type:
+000092 | xbrli:gYearItemType
+000093 | Balance Type:
+000094 | na
+000095 | Period Type:
+000096 | duration
+000097 | X
+000098 | - Definition
+000099 | The end date of the period reflected on the cover page if a periodic report. For all other reports and registration statements containing historical data, it is the date up through which that historical data is presented. If there is no historical data in the report, use the filing date. The format of the date is CCYY-MM-DD.
+000100 | + References
+000101 | No definition available.
+000102 | + Details
+000103 | Name:
+000104 | dei_DocumentPeriodEndDate
+000105 | Namespace Prefix:
+000106 | dei_
+000107 | Data Type:
+000108 | xbrli:dateItemType
+000109 | Balance Type:
+000110 | na
+000111 | Period Type:
+000112 | duration
+000113 | X
+000114 | - Definition
+000115 | The type of document being provided (such as 10-K, 10-Q, 485BPOS, etc). The document type is limited to the same value as the supporting SEC submission type, or the word 'Other'.
+000116 | + References
+000117 | No definition available.
+000118 | + Details
+000119 | Name:
+000120 | dei_DocumentType
+000121 | Namespace Prefix:
+000122 | dei_
+000123 | Data Type:
+000124 | dei:submissionTypeItemType
+000125 | Balance Type:
+000126 | na
+000127 | Period Type:
+000128 | duration
+000129 | X
+000130 | - Definition
+000131 | A unique 10-digit SEC-issued value to identify entities that have filed disclosures with the SEC. It is commonly abbreviated as CIK.
+000132 | + References
+000133 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000134 | -Publisher SEC
+000135 | -Name Regulation 12B
+000136 | -Number 240
+000137 | -Section 12
+000138 | -Subsection b-2
+000139 | + Details
+000140 | Name:
+000141 | dei_EntityCentralIndexKey
+000142 | Namespace Prefix:
+000143 | dei_
+000144 | Data Type:
+000145 | dei:centralIndexKeyItemType
+000146 | Balance Type:
+000147 | na
+000148 | Period Type:
+000149 | duration
+000150 | X
+000151 | - Definition
+000152 | Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests, if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member], Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings, Instrument.
+000153 | + References
+000154 | No definition available.
+000155 | + Details
+000156 | Name:
+000157 | dei_EntityCommonStockSharesOutstanding
+000158 | Namespace Prefix:
+000159 | dei_
+000160 | Data Type:
+000161 | xbrli:sharesItemType
+000162 | Balance Type:
+000163 | na
+000164 | Period Type:
+000165 | instant
+000166 | X
+000167 | - Definition
+000168 | Indicate if registrant meets the emerging growth company criteria.
+000169 | + References
+000170 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000171 | -Publisher SEC
+000172 | -Name Regulation 12B
+000173 | -Number 240
+000174 | -Section 12
+000175 | -Subsection b-2
+000176 | + Details
+000177 | Name:
+000178 | dei_EntityEmergingGrowthCompany
+000179 | Namespace Prefix:
+000180 | dei_
+000181 | Data Type:
+000182 | xbrli:booleanItemType
+000183 | Balance Type:
+000184 | na
+000185 | Period Type:
+000186 | duration
+000187 | X
+000188 | - Definition
+000189 | Indicate whether the registrant is one of the following: (1) Large Accelerated Filer, (2) Accelerated Filer, (3) Non-accelerated Filer, (4) Smaller Reporting Company (Non-accelerated), (5) Smaller Reporting Accelerated Filer or (6) Smaller Reporting Company and Large Accelerated Filer. Definitions of these categories are stated in Rule 12b-2 of the Exchange Act. This information should be based on the registrant's current or most recent filing containing the related disclosure.
+000190 | + References
+000191 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000192 | -Publisher SEC
+000193 | -Name Regulation 12B
+000194 | -Number 240
+000195 | -Section 12
+000196 | -Subsection b-2
+000197 | + Details
+000198 | Name:
+000199 | dei_EntityFilerCategory
+000200 | Namespace Prefix:
+000201 | dei_
+000202 | Data Type:
+000203 | dei:filerCategoryItemType
+000204 | Balance Type:
+000205 | na
+000206 | Period Type:
+000207 | duration
+000208 | X
+000209 | - Definition
+000210 | The exact name of the entity filing the report as specified in its charter, which is required by forms filed with the SEC.
+000211 | + References
+000212 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000213 | -Publisher SEC
+000214 | -Name Regulation 12B
+000215 | -Number 240
+000216 | -Section 12
+000217 | -Subsection b-2
+000218 | + Details
+000219 | Name:
+000220 | dei_EntityRegistrantName
+000221 | Namespace Prefix:
+000222 | dei_
+000223 | Data Type:
+000224 | xbrli:normalizedStringItemType
+000225 | Balance Type:
+000226 | na
+000227 | Period Type:
+000228 | duration
+000229 | X
+000230 | - Definition
+000231 | Indicates that the company is a smaller reporting company with both a public float and revenues of less than $75 million.
+000232 | + References
+000233 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000234 | -Publisher SEC
+000235 | -Name Regulation 12B
+000236 | -Number 240
+000237 | -Section 12
+000238 | -Subsection b-2
+000239 | + Details
+000240 | Name:
+000241 | dei_EntitySmallBusiness
+000242 | Namespace Prefix:
+000243 | dei_
+000244 | Data Type:
+000245 | xbrli:booleanItemType
+000246 | Balance Type:
+000247 | na
+000248 | Period Type:
+000249 | duration
+000250 | X
+000251 | - Definition
+000252 | Trading symbol of an instrument as listed on an exchange.
+000253 | + References
+000254 | No definition available.
+000255 | + Details
+000256 | Name:
+000257 | dei_TradingSymbol
+000258 | Namespace Prefix:
+000259 | dei_
+000260 | Data Type:
+000261 | xbrli:normalizedStringItemType
+000262 | Balance Type:
+000263 | na
+000264 | Period Type:
+000265 | duration
+000266 | X
+000267 | - Definition
+000268 | Document and Entity Information.
+000269 | + References
+000270 | No definition available.
+000271 | + Details
+000272 | Name:
+000273 | rezi_DocumentAndEntityInformationAbstract
+000274 | Namespace Prefix:
+000275 | rezi_
+000276 | Data Type:
+000277 | xbrli:stringItemType
+000278 | Balance Type:
+000279 | na
+000280 | Period Type:
+000281 | duration

@@ -1,0 +1,901 @@
+000001 | v3.26.1
+000002 | Debt and Credit Agreements - Narrative (Details)
+000003 | $ in Millions
+000004 | 6 Months Ended
+000005 | Mar. 16, 2026
+000006 | USD ($)
+000007 | series
+000008 | Mar. 06, 2026
+000009 | USD ($)
+000010 | Jun. 27, 2026
+000011 | USD ($)
+000012 | Jun. 28, 2025
+000013 | USD ($)
+000014 | Debt Instrument [Line Items]
+000015 | Debt instrument, number of series of debt issued | series
+000016 | 9
+000017 | Proceeds from issuance of long-term debt
+000018 | $ 15,843
+000019 | $ 0
+000020 | Long-term debt
+000021 | 15,900
+000022 | Senior notes
+000023 | $ 16,006
+000024 | Senior Notes
+000025 | Debt Instrument [Line Items]
+000026 | Aggregate principal amount
+000027 | $ 16,000
+000028 | Proceeds from issuance of long-term debt
+000029 | 9,100
+000030 | Senior Notes Due 2046, 2056, and 2066 | Senior Notes
+000031 | Debt Instrument [Line Items]
+000032 | Aggregate principal amount
+000033 | $ 6,000
+000034 | 364-Day Credit Agreement | Line of Credit | Revolving Credit Facility
+000035 | Debt Instrument [Line Items]
+000036 | Short-term debt, borrowing capacity
+000037 | $ 1,000
+000038 | Debt term (in days)
+000039 | 364 days
+000040 | Five-Year Credit Agreement | Line of Credit | Revolving Credit Facility
+000041 | Debt Instrument [Line Items]
+000042 | Debt term (in days)
+000043 | 5 years
+000044 | Line of credit facility, maximum borrowing capacity
+000045 | $ 3,000
+000046 | Revolving Credit Facilities | Base Rate | Revolving Credit Facility
+000047 | Debt Instrument [Line Items]
+000048 | Debt instrument, basis spread on variable rate
+000049 | 1.00%
+000050 | Revolving Credit Facilities | SOFR Floor | Revolving Credit Facility
+000051 | Debt Instrument [Line Items]
+000052 | Debt instrument, basis spread on variable rate
+000053 | 0.00%
+000054 | Revolving Credit Facilities | Minimum | Secured Overnight Financing Rate (SOFR) | Revolving Credit Facility
+000055 | Debt Instrument [Line Items]
+000056 | Debt instrument, basis spread on variable rate
+000057 | 0.75%
+000058 | Revolving Credit Facilities | Maximum | Secured Overnight Financing Rate (SOFR) | Revolving Credit Facility
+000059 | Debt Instrument [Line Items]
+000060 | Debt instrument, basis spread on variable rate
+000061 | 1.25%
+000062 | X
+000063 | - Definition
+000064 | Debt Instrument, Number Of Series Of Debt Issued
+000065 | + References
+000066 | No definition available.
+000067 | + Details
+000068 | Name:
+000069 | hona_DebtInstrumentNumberOfSeriesOfDebtIssued
+000070 | Namespace Prefix:
+000071 | hona_
+000072 | Data Type:
+000073 | xbrli:integerItemType
+000074 | Balance Type:
+000075 | na
+000076 | Period Type:
+000077 | instant
+000078 | X
+000079 | - Definition
+000080 | Short Term Debt, Maximum Borrowing Capacity
+000081 | + References
+000082 | No definition available.
+000083 | + Details
+000084 | Name:
+000085 | hona_ShortTermDebtMaximumBorrowingCapacity
+000086 | Namespace Prefix:
+000087 | hona_
+000088 | Data Type:
+000089 | xbrli:monetaryItemType
+000090 | Balance Type:
+000091 | credit
+000092 | Period Type:
+000093 | instant
+000094 | X
+000095 | - Definition
+000096 | Percentage points added to the reference rate to compute the variable rate on the debt instrument.
+000097 | + References
+000098 | No definition available.
+000099 | + Details
+000100 | Name:
+000101 | us-gaap_DebtInstrumentBasisSpreadOnVariableRate1
+000102 | Namespace Prefix:
+000103 | us-gaap_
+000104 | Data Type:
+000105 | dtr-types:percentItemType
+000106 | Balance Type:
+000107 | na
+000108 | Period Type:
+000109 | duration
+000110 | X
+000111 | - Definition
+000112 | Amount, before unamortized (discount) premium and debt issuance costs, of long-term debt. Includes, but is not limited to, notes payable, bonds payable, commercial loans, mortgage loans, convertible debt, subordinated debt and other types of debt.
+000113 | + References
+000114 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000115 | -Topic 942
+000116 | -SubTopic 210
+000117 | -Name Accounting Standards Codification
+000118 | -Section S45
+000119 | -Paragraph 1
+000120 | -Publisher FASB
+000121 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000122 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000123 | -Topic 942
+000124 | -SubTopic 210
+000125 | -Name Accounting Standards Codification
+000126 | -Section S50
+000127 | -Paragraph 1
+000128 | -Publisher FASB
+000129 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000130 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000131 | -Topic 942
+000132 | -SubTopic 210
+000133 | -Name Accounting Standards Codification
+000134 | -Section S99
+000135 | -Paragraph 1
+000136 | -Subparagraph (SX 210.9-03(16))
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000139 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000140 | -Topic 470
+000141 | -SubTopic 20
+000142 | -Name Accounting Standards Codification
+000143 | -Section 50
+000144 | -Paragraph 4
+000145 | -Subparagraph (b)(1)
+000146 | -Publisher FASB
+000147 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-4
+000148 | + Details
+000149 | Name:
+000150 | us-gaap_DebtInstrumentCarryingAmount
+000151 | Namespace Prefix:
+000152 | us-gaap_
+000153 | Data Type:
+000154 | xbrli:monetaryItemType
+000155 | Balance Type:
+000156 | credit
+000157 | Period Type:
+000158 | instant
+000159 | X
+000160 | - Definition
+000161 | Face (par) amount of debt instrument at time of issuance.
+000162 | + References
+000163 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000164 | -Topic 835
+000165 | -SubTopic 30
+000166 | -Name Accounting Standards Codification
+000167 | -Section 55
+000168 | -Paragraph 8
+000169 | -Publisher FASB
+000170 | -URI https://asc.fasb.org/1943274/2147482949/835-30-55-8
+000171 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000172 | -Topic 470
+000173 | -SubTopic 20
+000174 | -Name Accounting Standards Codification
+000175 | -Section 50
+000176 | -Paragraph 1B
+000177 | -Subparagraph (a)
+000178 | -Publisher FASB
+000179 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000180 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000181 | -Topic 470
+000182 | -SubTopic 20
+000183 | -Name Accounting Standards Codification
+000184 | -Section 55
+000185 | -Paragraph 69B
+000186 | -Publisher FASB
+000187 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69B
+000188 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000189 | -Topic 470
+000190 | -SubTopic 20
+000191 | -Name Accounting Standards Codification
+000192 | -Section 55
+000193 | -Paragraph 69C
+000194 | -Publisher FASB
+000195 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69C
+000196 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000197 | -Topic 835
+000198 | -SubTopic 30
+000199 | -Name Accounting Standards Codification
+000200 | -Section 50
+000201 | -Paragraph 1
+000202 | -Publisher FASB
+000203 | -URI https://asc.fasb.org/1943274/2147482900/835-30-50-1
+000204 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000205 | -Topic 835
+000206 | -SubTopic 30
+000207 | -Name Accounting Standards Codification
+000208 | -Section 45
+000209 | -Paragraph 2
+000210 | -Publisher FASB
+000211 | -URI https://asc.fasb.org/1943274/2147482925/835-30-45-2
+000212 | + Details
+000213 | Name:
+000214 | us-gaap_DebtInstrumentFaceAmount
+000215 | Namespace Prefix:
+000216 | us-gaap_
+000217 | Data Type:
+000218 | xbrli:monetaryItemType
+000219 | Balance Type:
+000220 | credit
+000221 | Period Type:
+000222 | instant
+000223 | X
+000224 | - Definition
+000225 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000226 | + References
+000227 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000228 | -Topic 942
+000229 | -SubTopic 235
+000230 | -Name Accounting Standards Codification
+000231 | -Section S99
+000232 | -Paragraph 2
+000233 | -Subparagraph (SX 210.9-06)
+000234 | -Publisher FASB
+000235 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-2
+000236 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000237 | -Topic 505
+000238 | -SubTopic 10
+000239 | -Name Accounting Standards Codification
+000240 | -Section 50
+000241 | -Paragraph 3
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-3
+000244 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000245 | -Topic 942
+000246 | -SubTopic 210
+000247 | -Name Accounting Standards Codification
+000248 | -Section S45
+000249 | -Paragraph 1
+000250 | -Publisher FASB
+000251 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000252 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000253 | -Topic 942
+000254 | -SubTopic 210
+000255 | -Name Accounting Standards Codification
+000256 | -Section S50
+000257 | -Paragraph 1
+000258 | -Publisher FASB
+000259 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000260 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000261 | -Topic 942
+000262 | -SubTopic 210
+000263 | -Name Accounting Standards Codification
+000264 | -Section S99
+000265 | -Paragraph 1
+000266 | -Subparagraph (SX 210.9-03(16))
+000267 | -Publisher FASB
+000268 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000269 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000270 | -Topic 210
+000271 | -SubTopic 10
+000272 | -Name Accounting Standards Codification
+000273 | -Section S99
+000274 | -Paragraph 1
+000275 | -Subparagraph (SX 210.5-02(22)(b))
+000276 | -Publisher FASB
+000277 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000278 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000279 | -Topic 210
+000280 | -SubTopic 10
+000281 | -Name Accounting Standards Codification
+000282 | -Section S99
+000283 | -Paragraph 1
+000284 | -Subparagraph (SX 210.5-02(22)(a)(4))
+000285 | -Publisher FASB
+000286 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000287 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000288 | -Topic 210
+000289 | -SubTopic 10
+000290 | -Name Accounting Standards Codification
+000291 | -Section S99
+000292 | -Paragraph 1
+000293 | -Subparagraph (SX 210.5-02(22)(a)(3))
+000294 | -Publisher FASB
+000295 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000296 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000297 | -Topic 210
+000298 | -SubTopic 10
+000299 | -Name Accounting Standards Codification
+000300 | -Section S99
+000301 | -Paragraph 1
+000302 | -Subparagraph (SX 210.5-02(22)(a)(1))
+000303 | -Publisher FASB
+000304 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000305 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000306 | -Topic 210
+000307 | -SubTopic 10
+000308 | -Name Accounting Standards Codification
+000309 | -Section S50
+000310 | -Paragraph 9
+000311 | -Publisher FASB
+000312 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-9
+000313 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000314 | -Topic 210
+000315 | -SubTopic 10
+000316 | -Name Accounting Standards Codification
+000317 | -Section S99
+000318 | -Paragraph 1
+000319 | -Subparagraph (SX 210.5-02(22)(a)(5))
+000320 | -Publisher FASB
+000321 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000322 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000323 | -Topic 210
+000324 | -SubTopic 10
+000325 | -Name Accounting Standards Codification
+000326 | -Section S99
+000327 | -Paragraph 1
+000328 | -Subparagraph (SX 210.5-02(22)(a)(2))
+000329 | -Publisher FASB
+000330 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000331 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000332 | -Topic 815
+000333 | -SubTopic 10
+000334 | -Name Accounting Standards Codification
+000335 | -Section 50
+000336 | -Paragraph 8A
+000337 | -Publisher FASB
+000338 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-8A
+000339 | Reference 14: http://www.xbrl.org/2009/role/commonPracticeRef
+000340 | -Topic 235
+000341 | -SubTopic 10
+000342 | -Name Accounting Standards Codification
+000343 | -Section S50
+000344 | -Paragraph 1
+000345 | -Publisher FASB
+000346 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000347 | Reference 15: http://www.xbrl.org/2009/role/commonPracticeRef
+000348 | -Topic 235
+000349 | -SubTopic 10
+000350 | -Name Accounting Standards Codification
+000351 | -Section S50
+000352 | -Paragraph 4
+000353 | -Publisher FASB
+000354 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-4
+000355 | Reference 16: http://www.xbrl.org/2009/role/commonPracticeRef
+000356 | -Topic 235
+000357 | -SubTopic 10
+000358 | -Name Accounting Standards Codification
+000359 | -Section S99
+000360 | -Paragraph 3
+000361 | -Subparagraph (SX 210.12-04(a))
+000362 | -Publisher FASB
+000363 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000364 | Reference 17: http://www.xbrl.org/2009/role/commonPracticeRef
+000365 | -Topic 235
+000366 | -SubTopic 10
+000367 | -Name Accounting Standards Codification
+000368 | -Section S99
+000369 | -Paragraph 1
+000370 | -Subparagraph (SX 210.4-08(f))
+000371 | -Publisher FASB
+000372 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000373 | Reference 18: http://www.xbrl.org/2003/role/exampleRef
+000374 | -Topic 835
+000375 | -SubTopic 30
+000376 | -Name Accounting Standards Codification
+000377 | -Section 55
+000378 | -Paragraph 8
+000379 | -Publisher FASB
+000380 | -URI https://asc.fasb.org/1943274/2147482949/835-30-55-8
+000381 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+000382 | -Topic 470
+000383 | -SubTopic 20
+000384 | -Name Accounting Standards Codification
+000385 | -Section 50
+000386 | -Paragraph 1B
+000387 | -Subparagraph (a)
+000388 | -Publisher FASB
+000389 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000390 | Reference 20: http://www.xbrl.org/2003/role/exampleRef
+000391 | -Topic 470
+000392 | -SubTopic 20
+000393 | -Name Accounting Standards Codification
+000394 | -Section 55
+000395 | -Paragraph 69B
+000396 | -Publisher FASB
+000397 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69B
+000398 | Reference 21: http://www.xbrl.org/2003/role/exampleRef
+000399 | -Topic 470
+000400 | -SubTopic 20
+000401 | -Name Accounting Standards Codification
+000402 | -Section 55
+000403 | -Paragraph 69C
+000404 | -Publisher FASB
+000405 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69C
+000406 | Reference 22: http://www.xbrl.org/2003/role/exampleRef
+000407 | -Topic 470
+000408 | -SubTopic 20
+000409 | -Name Accounting Standards Codification
+000410 | -Section 55
+000411 | -Paragraph 69E
+000412 | -Publisher FASB
+000413 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69E
+000414 | Reference 23: http://www.xbrl.org/2003/role/exampleRef
+000415 | -Topic 470
+000416 | -SubTopic 20
+000417 | -Name Accounting Standards Codification
+000418 | -Section 55
+000419 | -Paragraph 69F
+000420 | -Publisher FASB
+000421 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69F
+000422 | Reference 24: http://www.xbrl.org/2003/role/disclosureRef
+000423 | -Topic 470
+000424 | -SubTopic 20
+000425 | -Name Accounting Standards Codification
+000426 | -Section 50
+000427 | -Paragraph 1B
+000428 | -Subparagraph (b)
+000429 | -Publisher FASB
+000430 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000431 | Reference 25: http://www.xbrl.org/2003/role/disclosureRef
+000432 | -Topic 470
+000433 | -SubTopic 20
+000434 | -Name Accounting Standards Codification
+000435 | -Section 50
+000436 | -Paragraph 1B
+000437 | -Subparagraph (c)
+000438 | -Publisher FASB
+000439 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000440 | Reference 26: http://www.xbrl.org/2003/role/exampleRef
+000441 | -Topic 470
+000442 | -SubTopic 20
+000443 | -Name Accounting Standards Codification
+000444 | -Section 50
+000445 | -Paragraph 1B
+000446 | -Subparagraph (d)
+000447 | -Publisher FASB
+000448 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000449 | Reference 27: http://www.xbrl.org/2003/role/disclosureRef
+000450 | -Topic 470
+000451 | -SubTopic 20
+000452 | -Name Accounting Standards Codification
+000453 | -Section 50
+000454 | -Paragraph 1B
+000455 | -Subparagraph (e)
+000456 | -Publisher FASB
+000457 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000458 | Reference 28: http://www.xbrl.org/2003/role/disclosureRef
+000459 | -Topic 470
+000460 | -SubTopic 20
+000461 | -Name Accounting Standards Codification
+000462 | -Section 50
+000463 | -Paragraph 1B
+000464 | -Subparagraph (f)
+000465 | -Publisher FASB
+000466 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000467 | Reference 29: http://www.xbrl.org/2003/role/disclosureRef
+000468 | -Topic 470
+000469 | -SubTopic 20
+000470 | -Name Accounting Standards Codification
+000471 | -Section 50
+000472 | -Paragraph 1B
+000473 | -Subparagraph (h)
+000474 | -Publisher FASB
+000475 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000476 | Reference 30: http://www.xbrl.org/2003/role/disclosureRef
+000477 | -Topic 470
+000478 | -SubTopic 20
+000479 | -Name Accounting Standards Codification
+000480 | -Section 50
+000481 | -Paragraph 1D
+000482 | -Subparagraph (a)
+000483 | -Publisher FASB
+000484 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1D
+000485 | Reference 31: http://www.xbrl.org/2003/role/disclosureRef
+000486 | -Topic 470
+000487 | -SubTopic 20
+000488 | -Name Accounting Standards Codification
+000489 | -Section 50
+000490 | -Paragraph 1D
+000491 | -Subparagraph (b)
+000492 | -Publisher FASB
+000493 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1D
+000494 | Reference 32: http://www.xbrl.org/2003/role/disclosureRef
+000495 | -Topic 470
+000496 | -SubTopic 20
+000497 | -Name Accounting Standards Codification
+000498 | -Section 50
+000499 | -Paragraph 1D
+000500 | -Subparagraph (c)
+000501 | -Publisher FASB
+000502 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1D
+000503 | Reference 33: http://www.xbrl.org/2003/role/disclosureRef
+000504 | -Topic 470
+000505 | -SubTopic 20
+000506 | -Name Accounting Standards Codification
+000507 | -Section 50
+000508 | -Paragraph 1E
+000509 | -Subparagraph (a)
+000510 | -Publisher FASB
+000511 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1E
+000512 | Reference 34: http://www.xbrl.org/2003/role/disclosureRef
+000513 | -Topic 470
+000514 | -SubTopic 20
+000515 | -Name Accounting Standards Codification
+000516 | -Section 50
+000517 | -Paragraph 1E
+000518 | -Subparagraph (c)
+000519 | -Publisher FASB
+000520 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1E
+000521 | Reference 35: http://www.xbrl.org/2003/role/disclosureRef
+000522 | -Topic 470
+000523 | -SubTopic 20
+000524 | -Name Accounting Standards Codification
+000525 | -Section 50
+000526 | -Paragraph 1E
+000527 | -Subparagraph (d)
+000528 | -Publisher FASB
+000529 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1E
+000530 | Reference 36: http://www.xbrl.org/2003/role/disclosureRef
+000531 | -Topic 470
+000532 | -SubTopic 20
+000533 | -Name Accounting Standards Codification
+000534 | -Section 50
+000535 | -Paragraph 1F
+000536 | -Subparagraph (a)
+000537 | -Publisher FASB
+000538 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1F
+000539 | Reference 37: http://www.xbrl.org/2003/role/disclosureRef
+000540 | -Topic 470
+000541 | -SubTopic 20
+000542 | -Name Accounting Standards Codification
+000543 | -Section 50
+000544 | -Paragraph 1F
+000545 | -Subparagraph (b)
+000546 | -Publisher FASB
+000547 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1F
+000548 | Reference 38: http://www.xbrl.org/2003/role/disclosureRef
+000549 | -Topic 470
+000550 | -SubTopic 20
+000551 | -Name Accounting Standards Codification
+000552 | -Section 50
+000553 | -Paragraph 1F
+000554 | -Subparagraph (b)(1)
+000555 | -Publisher FASB
+000556 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1F
+000557 | Reference 39: http://www.xbrl.org/2003/role/disclosureRef
+000558 | -Topic 470
+000559 | -SubTopic 20
+000560 | -Name Accounting Standards Codification
+000561 | -Section 50
+000562 | -Paragraph 1F
+000563 | -Subparagraph (b)(2)
+000564 | -Publisher FASB
+000565 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1F
+000566 | Reference 40: http://www.xbrl.org/2003/role/disclosureRef
+000567 | -Topic 470
+000568 | -SubTopic 20
+000569 | -Name Accounting Standards Codification
+000570 | -Section 50
+000571 | -Paragraph 1I
+000572 | -Subparagraph (c)
+000573 | -Publisher FASB
+000574 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1I
+000575 | Reference 41: http://www.xbrl.org/2009/role/commonPracticeRef
+000576 | -Topic 835
+000577 | -SubTopic 30
+000578 | -Name Accounting Standards Codification
+000579 | -Section 45
+000580 | -Paragraph 2
+000581 | -Publisher FASB
+000582 | -URI https://asc.fasb.org/1943274/2147482925/835-30-45-2
+000583 | Reference 42: http://www.xbrl.org/2009/role/commonPracticeRef
+000584 | -Topic 835
+000585 | -SubTopic 30
+000586 | -Name Accounting Standards Codification
+000587 | -Section 50
+000588 | -Paragraph 1
+000589 | -Publisher FASB
+000590 | -URI https://asc.fasb.org/1943274/2147482900/835-30-50-1
+000591 | + Details
+000592 | Name:
+000593 | us-gaap_DebtInstrumentLineItems
+000594 | Namespace Prefix:
+000595 | us-gaap_
+000596 | Data Type:
+000597 | xbrli:stringItemType
+000598 | Balance Type:
+000599 | na
+000600 | Period Type:
+000601 | duration
+000602 | X
+000603 | - Definition
+000604 | Period between issuance and maturity of debt instrument, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000605 | + References
+000606 | No definition available.
+000607 | + Details
+000608 | Name:
+000609 | us-gaap_DebtInstrumentTerm
+000610 | Namespace Prefix:
+000611 | us-gaap_
+000612 | Data Type:
+000613 | xbrli:durationItemType
+000614 | Balance Type:
+000615 | na
+000616 | Period Type:
+000617 | duration
+000618 | X
+000619 | - Definition
+000620 | Maximum borrowing capacity under the credit facility without consideration of any current restrictions on the amount that could be borrowed or the amounts currently outstanding under the facility.
+000621 | + References
+000622 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000623 | -Topic 210
+000624 | -SubTopic 10
+000625 | -Name Accounting Standards Codification
+000626 | -Section S50
+000627 | -Paragraph 8
+000628 | -Publisher FASB
+000629 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-8
+000630 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000631 | -Topic 210
+000632 | -SubTopic 10
+000633 | -Name Accounting Standards Codification
+000634 | -Section S99
+000635 | -Paragraph 1
+000636 | -Subparagraph (SX 210.5-02(19)(b))
+000637 | -Publisher FASB
+000638 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000639 | + Details
+000640 | Name:
+000641 | us-gaap_LineOfCreditFacilityMaximumBorrowingCapacity
+000642 | Namespace Prefix:
+000643 | us-gaap_
+000644 | Data Type:
+000645 | xbrli:monetaryItemType
+000646 | Balance Type:
+000647 | credit
+000648 | Period Type:
+000649 | instant
+000650 | X
+000651 | - Definition
+000652 | The fair value amount of long-term debt whether such amount is presented as a separate caption or as a parenthetical disclosure. Additionally, this element may be used in connection with the fair value disclosures required in the footnote disclosures to the financial statements. The element may be used in both the balance sheet and disclosure in the same submission.
+000653 | + References
+000654 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000655 | -Topic 820
+000656 | -SubTopic 10
+000657 | -Name Accounting Standards Codification
+000658 | -Section 50
+000659 | -Paragraph 2
+000660 | -Subparagraph (a)
+000661 | -Publisher FASB
+000662 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000663 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000664 | -Topic 825
+000665 | -SubTopic 10
+000666 | -Name Accounting Standards Codification
+000667 | -Section 50
+000668 | -Paragraph 10
+000669 | -Publisher FASB
+000670 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-10
+000671 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000672 | -Topic 825
+000673 | -SubTopic 10
+000674 | -Name Accounting Standards Codification
+000675 | -Section 55
+000676 | -Paragraph 10
+000677 | -Publisher FASB
+000678 | -URI https://asc.fasb.org/1943274/2147482881/825-10-55-10
+000679 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000680 | -Topic 825
+000681 | -SubTopic 10
+000682 | -Name Accounting Standards Codification
+000683 | -Section 55
+000684 | -Paragraph 12
+000685 | -Publisher FASB
+000686 | -URI https://asc.fasb.org/1943274/2147482881/825-10-55-12
+000687 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000688 | -Topic 825
+000689 | -SubTopic 10
+000690 | -Name Accounting Standards Codification
+000691 | -Section 50
+000692 | -Paragraph 11
+000693 | -Subparagraph (a)
+000694 | -Publisher FASB
+000695 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-11
+000696 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000697 | -Topic 825
+000698 | -SubTopic 10
+000699 | -Name Accounting Standards Codification
+000700 | -Section 50
+000701 | -Paragraph 11
+000702 | -Subparagraph (b)
+000703 | -Publisher FASB
+000704 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-11
+000705 | Reference 7: http://www.xbrl.org/2009/role/commonPracticeRef
+000706 | -Topic 820
+000707 | -SubTopic 10
+000708 | -Name Accounting Standards Codification
+000709 | -Section 50
+000710 | -Paragraph 2
+000711 | -Subparagraph (bbb)(2)(i)
+000712 | -Publisher FASB
+000713 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000714 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+000715 | -Topic 820
+000716 | -SubTopic 10
+000717 | -Name Accounting Standards Codification
+000718 | -Section 50
+000719 | -Paragraph 2
+000720 | -Subparagraph (bbb)(2)
+000721 | -Publisher FASB
+000722 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000723 | Reference 9: http://www.xbrl.org/2009/role/commonPracticeRef
+000724 | -Topic 820
+000725 | -SubTopic 10
+000726 | -Name Accounting Standards Codification
+000727 | -Section 50
+000728 | -Paragraph 2
+000729 | -Subparagraph (bbb)(1)
+000730 | -Publisher FASB
+000731 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000732 | Reference 10: http://www.xbrl.org/2009/role/commonPracticeRef
+000733 | -Topic 825
+000734 | -SubTopic 10
+000735 | -Name Accounting Standards Codification
+000736 | -Section 50
+000737 | -Paragraph 28
+000738 | -Subparagraph (c)(1)
+000739 | -Publisher FASB
+000740 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+000741 | + Details
+000742 | Name:
+000743 | us-gaap_LongTermDebtFairValue
+000744 | Namespace Prefix:
+000745 | us-gaap_
+000746 | Data Type:
+000747 | xbrli:monetaryItemType
+000748 | Balance Type:
+000749 | credit
+000750 | Period Type:
+000751 | instant
+000752 | X
+000753 | - Definition
+000754 | The cash inflow from a debt initially having maturity due after one year or beyond the operating cycle, if longer.
+000755 | + References
+000756 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000757 | -Topic 946
+000758 | -SubTopic 10
+000759 | -Name Accounting Standards Codification
+000760 | -Section S99
+000761 | -Paragraph 3
+000762 | -Subparagraph (SX 210.6-03(i)(1))
+000763 | -Publisher FASB
+000764 | -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3
+000765 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000766 | -Name Accounting Standards Codification
+000767 | -Topic 230
+000768 | -SubTopic 10
+000769 | -Section 45
+000770 | -Paragraph 14
+000771 | -Subparagraph (b)
+000772 | -Publisher FASB
+000773 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-14
+000774 | + Details
+000775 | Name:
+000776 | us-gaap_ProceedsFromIssuanceOfLongTermDebt
+000777 | Namespace Prefix:
+000778 | us-gaap_
+000779 | Data Type:
+000780 | xbrli:monetaryItemType
+000781 | Balance Type:
+000782 | debit
+000783 | Period Type:
+000784 | duration
+000785 | X
+000786 | - Details
+000787 | Name:
+000788 | us-gaap_LongtermDebtTypeAxis=us-gaap_SeniorNotesMember
+000789 | Namespace Prefix:
+000790 | Data Type:
+000791 | na
+000792 | Balance Type:
+000793 | Period Type:
+000794 | X
+000795 | - Details
+000796 | Name:
+000797 | us-gaap_DebtInstrumentAxis=hona_SeniorNotesDue20462056And2066Member
+000798 | Namespace Prefix:
+000799 | Data Type:
+000800 | na
+000801 | Balance Type:
+000802 | Period Type:
+000803 | X
+000804 | - Details
+000805 | Name:
+000806 | us-gaap_DebtInstrumentAxis=hona_ThreeHundredSixtyFourDayCreditAgreementMember
+000807 | Namespace Prefix:
+000808 | Data Type:
+000809 | na
+000810 | Balance Type:
+000811 | Period Type:
+000812 | X
+000813 | - Details
+000814 | Name:
+000815 | us-gaap_ShortTermDebtTypeAxis=us-gaap_LineOfCreditMember
+000816 | Namespace Prefix:
+000817 | Data Type:
+000818 | na
+000819 | Balance Type:
+000820 | Period Type:
+000821 | X
+000822 | - Details
+000823 | Name:
+000824 | us-gaap_CreditFacilityAxis=us-gaap_RevolvingCreditFacilityMember
+000825 | Namespace Prefix:
+000826 | Data Type:
+000827 | na
+000828 | Balance Type:
+000829 | Period Type:
+000830 | X
+000831 | - Details
+000832 | Name:
+000833 | us-gaap_DebtInstrumentAxis=hona_FiveYearCreditAgreementMember
+000834 | Namespace Prefix:
+000835 | Data Type:
+000836 | na
+000837 | Balance Type:
+000838 | Period Type:
+000839 | X
+000840 | - Details
+000841 | Name:
+000842 | us-gaap_LongtermDebtTypeAxis=us-gaap_LineOfCreditMember
+000843 | Namespace Prefix:
+000844 | Data Type:
+000845 | na
+000846 | Balance Type:
+000847 | Period Type:
+000848 | X
+000849 | - Details
+000850 | Name:
+000851 | us-gaap_DebtInstrumentAxis=hona_RevolvingCreditFacilitiesMember
+000852 | Namespace Prefix:
+000853 | Data Type:
+000854 | na
+000855 | Balance Type:
+000856 | Period Type:
+000857 | X
+000858 | - Details
+000859 | Name:
+000860 | us-gaap_VariableRateAxis=us-gaap_BaseRateMember
+000861 | Namespace Prefix:
+000862 | Data Type:
+000863 | na
+000864 | Balance Type:
+000865 | Period Type:
+000866 | X
+000867 | - Details
+000868 | Name:
+000869 | us-gaap_VariableRateAxis=hona_SecuredOvernightFinancingRateSOFRFloorMember
+000870 | Namespace Prefix:
+000871 | Data Type:
+000872 | na
+000873 | Balance Type:
+000874 | Period Type:
+000875 | X
+000876 | - Details
+000877 | Name:
+000878 | srt_RangeAxis=srt_MinimumMember
+000879 | Namespace Prefix:
+000880 | Data Type:
+000881 | na
+000882 | Balance Type:
+000883 | Period Type:
+000884 | X
+000885 | - Details
+000886 | Name:
+000887 | us-gaap_VariableRateAxis=us-gaap_SecuredOvernightFinancingRateSofrMember
+000888 | Namespace Prefix:
+000889 | Data Type:
+000890 | na
+000891 | Balance Type:
+000892 | Period Type:
+000893 | X
+000894 | - Details
+000895 | Name:
+000896 | srt_RangeAxis=srt_MaximumMember
+000897 | Namespace Prefix:
+000898 | Data Type:
+000899 | na
+000900 | Balance Type:
+000901 | Period Type:

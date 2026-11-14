@@ -1,0 +1,190 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0508</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2025-12-10</periodOfReport>
+000010 | 
+000011 |     <issuer>
+000012 |         <issuerCik>0001740332</issuerCik>
+000013 |         <issuerName>RESIDEO TECHNOLOGIES, INC.</issuerName>
+000014 |         <issuerTradingSymbol>REZI</issuerTradingSymbol>
+000015 |     </issuer>
+000016 | 
+000017 |     <reportingOwner>
+000018 |         <reportingOwnerId>
+000019 |             <rptOwnerCik>0001753285</rptOwnerCik>
+000020 |             <rptOwnerName>Lane Jeannine J</rptOwnerName>
+000021 |         </reportingOwnerId>
+000022 |         <reportingOwnerAddress>
+000023 |             <rptOwnerStreet1>16100 N 71ST STREET</rptOwnerStreet1>
+000024 |             <rptOwnerStreet2>SUITE 550</rptOwnerStreet2>
+000025 |             <rptOwnerCity>SCOTTSDALE</rptOwnerCity>
+000026 |             <rptOwnerState>AZ</rptOwnerState>
+000027 |             <rptOwnerZipCode>85254</rptOwnerZipCode>
+000028 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000029 |         </reportingOwnerAddress>
+000030 |         <reportingOwnerRelationship>
+000031 |             <isDirector>false</isDirector>
+000032 |             <isOfficer>true</isOfficer>
+000033 |             <isTenPercentOwner>false</isTenPercentOwner>
+000034 |             <isOther>false</isOther>
+000035 |             <officerTitle>EVP, GC and Corp Sec</officerTitle>
+000036 |             <otherText></otherText>
+000037 |         </reportingOwnerRelationship>
+000038 |     </reportingOwner>
+000039 | 
+000040 |     <aff10b5One>0</aff10b5One>
+000041 | 
+000042 |     <nonDerivativeTable>
+000043 |         <nonDerivativeTransaction>
+000044 |             <securityTitle>
+000045 |                 <value>Common Stock</value>
+000046 |             </securityTitle>
+000047 |             <transactionDate>
+000048 |                 <value>2025-12-10</value>
+000049 |             </transactionDate>
+000050 |             <transactionCoding>
+000051 |                 <transactionFormType>4</transactionFormType>
+000052 |                 <transactionCode>M</transactionCode>
+000053 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000054 |             </transactionCoding>
+000055 |             <transactionAmounts>
+000056 |                 <transactionShares>
+000057 |                     <value>76109</value>
+000058 |                 </transactionShares>
+000059 |                 <transactionPricePerShare>
+000060 |                     <value>10.27</value>
+000061 |                 </transactionPricePerShare>
+000062 |                 <transactionAcquiredDisposedCode>
+000063 |                     <value>A</value>
+000064 |                 </transactionAcquiredDisposedCode>
+000065 |             </transactionAmounts>
+000066 |             <postTransactionAmounts>
+000067 |                 <sharesOwnedFollowingTransaction>
+000068 |                     <value>231667</value>
+000069 |                     <footnoteId id="F1"/>
+000070 |                 </sharesOwnedFollowingTransaction>
+000071 |             </postTransactionAmounts>
+000072 |             <ownershipNature>
+000073 |                 <directOrIndirectOwnership>
+000074 |                     <value>D</value>
+000075 |                 </directOrIndirectOwnership>
+000076 |                 <natureOfOwnership>
+000077 |                     <value></value>
+000078 |                 </natureOfOwnership>
+000079 |             </ownershipNature>
+000080 |         </nonDerivativeTransaction>
+000081 |         <nonDerivativeTransaction>
+000082 |             <securityTitle>
+000083 |                 <value>Common Stock</value>
+000084 |             </securityTitle>
+000085 |             <transactionDate>
+000086 |                 <value>2025-12-10</value>
+000087 |             </transactionDate>
+000088 |             <transactionCoding>
+000089 |                 <transactionFormType>4</transactionFormType>
+000090 |                 <transactionCode>F</transactionCode>
+000091 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000092 |             </transactionCoding>
+000093 |             <transactionAmounts>
+000094 |                 <transactionShares>
+000095 |                     <value>49678</value>
+000096 |                     <footnoteId id="F2"/>
+000097 |                 </transactionShares>
+000098 |                 <transactionPricePerShare>
+000099 |                     <value>35.35</value>
+000100 |                 </transactionPricePerShare>
+000101 |                 <transactionAcquiredDisposedCode>
+000102 |                     <value>D</value>
+000103 |                 </transactionAcquiredDisposedCode>
+000104 |             </transactionAmounts>
+000105 |             <postTransactionAmounts>
+000106 |                 <sharesOwnedFollowingTransaction>
+000107 |                     <value>181989</value>
+000108 |                 </sharesOwnedFollowingTransaction>
+000109 |             </postTransactionAmounts>
+000110 |             <ownershipNature>
+000111 |                 <directOrIndirectOwnership>
+000112 |                     <value>D</value>
+000113 |                 </directOrIndirectOwnership>
+000114 |                 <natureOfOwnership>
+000115 |                     <value></value>
+000116 |                 </natureOfOwnership>
+000117 |             </ownershipNature>
+000118 |         </nonDerivativeTransaction>
+000119 |     </nonDerivativeTable>
+000120 | 
+000121 |     <derivativeTable>
+000122 |         <derivativeTransaction>
+000123 |             <securityTitle>
+000124 |                 <value>Stock Option (right to buy)</value>
+000125 |             </securityTitle>
+000126 |             <conversionOrExercisePrice>
+000127 |                 <value>10.27</value>
+000128 |             </conversionOrExercisePrice>
+000129 |             <transactionDate>
+000130 |                 <value>2025-12-10</value>
+000131 |             </transactionDate>
+000132 |             <transactionCoding>
+000133 |                 <transactionFormType>4</transactionFormType>
+000134 |                 <transactionCode>M</transactionCode>
+000135 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000136 |             </transactionCoding>
+000137 |             <transactionAmounts>
+000138 |                 <transactionShares>
+000139 |                     <value>76109</value>
+000140 |                 </transactionShares>
+000141 |                 <transactionPricePerShare>
+000142 |                     <value>0</value>
+000143 |                 </transactionPricePerShare>
+000144 |                 <transactionAcquiredDisposedCode>
+000145 |                     <value>D</value>
+000146 |                 </transactionAcquiredDisposedCode>
+000147 |             </transactionAmounts>
+000148 |             <exerciseDate>
+000149 |                 <footnoteId id="F3"/>
+000150 |             </exerciseDate>
+000151 |             <expirationDate>
+000152 |                 <value>2027-02-19</value>
+000153 |             </expirationDate>
+000154 |             <underlyingSecurity>
+000155 |                 <underlyingSecurityTitle>
+000156 |                     <value>Common Stock</value>
+000157 |                 </underlyingSecurityTitle>
+000158 |                 <underlyingSecurityShares>
+000159 |                     <value>76109</value>
+000160 |                 </underlyingSecurityShares>
+000161 |             </underlyingSecurity>
+000162 |             <postTransactionAmounts>
+000163 |                 <sharesOwnedFollowingTransaction>
+000164 |                     <value>0</value>
+000165 |                 </sharesOwnedFollowingTransaction>
+000166 |             </postTransactionAmounts>
+000167 |             <ownershipNature>
+000168 |                 <directOrIndirectOwnership>
+000169 |                     <value>D</value>
+000170 |                 </directOrIndirectOwnership>
+000171 |                 <natureOfOwnership>
+000172 |                     <value></value>
+000173 |                 </natureOfOwnership>
+000174 |             </ownershipNature>
+000175 |         </derivativeTransaction>
+000176 |     </derivativeTable>
+000177 | 
+000178 |     <footnotes>
+000179 |         <footnote id="F1">Includes 422 shares acquired pursuant to the Issuer's employee stock purchase plan.</footnote>
+000180 |         <footnote id="F2">Consists of shares withheld by the issuer to satisfy the reporting person's exercise price and tax withholding obligation upon the exercise of stock options.</footnote>
+000181 |         <footnote id="F3">Fully vested.</footnote>
+000182 |     </footnotes>
+000183 | 
+000184 |     <ownerSignature>
+000185 |         <signatureName>/s/ Jeannine J. Lane</signatureName>
+000186 |         <signatureDate>2025-12-12</signatureDate>
+000187 |     </ownerSignature>
+000188 | </ownershipDocument>
+000189 | </XML>
+000190 | 

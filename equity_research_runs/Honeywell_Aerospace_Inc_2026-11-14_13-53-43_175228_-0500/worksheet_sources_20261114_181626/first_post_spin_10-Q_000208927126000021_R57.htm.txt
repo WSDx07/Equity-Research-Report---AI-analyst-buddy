@@ -1,0 +1,178 @@
+000001 | v3.26.1
+000002 | Commitments and Contingencies - Schedule Of Accrual For Environmental Loss Contingencies Roll Forward (Details)
+000003 | $ in Millions
+000004 | 6 Months Ended
+000005 | Jun. 27, 2026
+000006 | USD ($)
+000007 | Accrual for Environmental Loss Contingencies [Roll Forward]
+000008 | Beginning of period
+000009 | $ 823
+000010 | Environmental liability payments, net
+000011 | (37)
+000012 | End of period
+000013 | 828
+000014 | Location, Statement of Income, Balance [Axis]: us-gaap:CostOfGoodsAndServicesSold
+000015 | Accrual for Environmental Loss Contingencies [Roll Forward]
+000016 | Changes to accruals for environmental matters deemed probably and reasonably estimable
+000017 | 5
+000018 | Location, Statement of Income, Balance [Axis]: us-gaap:OtherNonoperatingIncomeExpense
+000019 | Accrual for Environmental Loss Contingencies [Roll Forward]
+000020 | Changes to accruals for environmental matters deemed probably and reasonably estimable
+000021 | $ 37
+000022 | X
+000023 | - Definition
+000024 | Total costs accrued as of the balance sheet date for environmental loss contingencies.
+000025 | + References
+000026 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000027 | -Topic 450
+000028 | -SubTopic 20
+000029 | -Name Accounting Standards Codification
+000030 | -Section 50
+000031 | -Paragraph 1
+000032 | -Publisher FASB
+000033 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000034 | Reference 2: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000035 | -Topic 410
+000036 | -SubTopic 30
+000037 | -Name Accounting Standards Codification
+000038 | -Section 50
+000039 | -Paragraph 10
+000040 | -Subparagraph (d)(1)
+000041 | -Publisher FASB
+000042 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-10
+000043 | Reference 3: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000044 | -Topic 410
+000045 | -SubTopic 30
+000046 | -Name Accounting Standards Codification
+000047 | -Section 50
+000048 | -Paragraph 10
+000049 | -Subparagraph (d)(3)
+000050 | -Publisher FASB
+000051 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-10
+000052 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000053 | -Topic 410
+000054 | -SubTopic 30
+000055 | -Name Accounting Standards Codification
+000056 | -Section 55
+000057 | -Paragraph 16
+000058 | -Publisher FASB
+000059 | -URI https://asc.fasb.org/1943274/2147481899/410-30-55-16
+000060 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000061 | -Topic 450
+000062 | -SubTopic 20
+000063 | -Name Accounting Standards Codification
+000064 | -Section S99
+000065 | -Paragraph 1
+000066 | -Subparagraph (SAB Topic 5.Y.Q1)
+000067 | -Publisher FASB
+000068 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000069 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000070 | -Topic 410
+000071 | -SubTopic 30
+000072 | -Name Accounting Standards Codification
+000073 | -Section 50
+000074 | -Paragraph 7
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147481931/410-30-50-7
+000077 | + Details
+000078 | Name:
+000079 | us-gaap_AccrualForEnvironmentalLossContingencies
+000080 | Namespace Prefix:
+000081 | us-gaap_
+000082 | Data Type:
+000083 | xbrli:monetaryItemType
+000084 | Balance Type:
+000085 | credit
+000086 | Period Type:
+000087 | instant
+000088 | X
+000089 | - Definition
+000090 | Amount of expense for newly incurred environmental loss contingencies. Includes, but is not limited to, remediation expense and interest accretion.
+000091 | + References
+000092 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000093 | -Topic 450
+000094 | -SubTopic 20
+000095 | -Name Accounting Standards Codification
+000096 | -Section S99
+000097 | -Paragraph 1
+000098 | -Subparagraph (SAB Topic 5.Y.Q1)
+000099 | -Publisher FASB
+000100 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000101 | + Details
+000102 | Name:
+000103 | us-gaap_AccrualForEnvironmentalLossContingenciesChargesToExpenseForNewLosses
+000104 | Namespace Prefix:
+000105 | us-gaap_
+000106 | Data Type:
+000107 | xbrli:monetaryItemType
+000108 | Balance Type:
+000109 | debit
+000110 | Period Type:
+000111 | duration
+000112 | X
+000113 | - Definition
+000114 | Amount of cash outflow to settle environmental loss contingencies.
+000115 | + References
+000116 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000117 | -Topic 230
+000118 | -SubTopic 10
+000119 | -Name Accounting Standards Codification
+000120 | -Section 45
+000121 | -Paragraph 17
+000122 | -Subparagraph (f)
+000123 | -Publisher FASB
+000124 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-17
+000125 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000126 | -Topic 450
+000127 | -SubTopic 20
+000128 | -Name Accounting Standards Codification
+000129 | -Section S99
+000130 | -Paragraph 1
+000131 | -Subparagraph (SAB Topic 5.Y.Q1)
+000132 | -Publisher FASB
+000133 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000134 | + Details
+000135 | Name:
+000136 | us-gaap_AccrualForEnvironmentalLossContingenciesPayments1
+000137 | Namespace Prefix:
+000138 | us-gaap_
+000139 | Data Type:
+000140 | xbrli:monetaryItemType
+000141 | Balance Type:
+000142 | credit
+000143 | Period Type:
+000144 | duration
+000145 | X
+000146 | - Definition
+000147 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000148 | + References
+000149 | No definition available.
+000150 | + Details
+000151 | Name:
+000152 | us-gaap_AccrualForEnvironmentalLossContingenciesRollForward
+000153 | Namespace Prefix:
+000154 | us-gaap_
+000155 | Data Type:
+000156 | xbrli:stringItemType
+000157 | Balance Type:
+000158 | na
+000159 | Period Type:
+000160 | duration
+000161 | X
+000162 | - Details
+000163 | Name:
+000164 | us-gaap_StatementOfIncomeLocationBalanceAxis=us-gaap_CostOfGoodsAndServicesSold
+000165 | Namespace Prefix:
+000166 | Data Type:
+000167 | na
+000168 | Balance Type:
+000169 | Period Type:
+000170 | X
+000171 | - Details
+000172 | Name:
+000173 | us-gaap_StatementOfIncomeLocationBalanceAxis=us-gaap_OtherNonoperatingIncomeExpense
+000174 | Namespace Prefix:
+000175 | Data Type:
+000176 | na
+000177 | Balance Type:
+000178 | Period Type:

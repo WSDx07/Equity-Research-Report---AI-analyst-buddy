@@ -1,0 +1,3282 @@
+000001 | v3.25.4
+000002 | CONSOLIDATED BALANCE SHEET - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Current assets
+000007 | Cash and cash equivalents
+000008 | $ 12,487
+000009 | $ 9,906
+000010 | Short-term investments
+000011 | 443
+000012 | 386
+000013 | Accounts receivable, less allowances of $202 and $307, respectively
+000014 | 7,621
+000015 | 7,247
+000016 | Inventories
+000017 | 6,162
+000018 | 5,884
+000019 | Assets held for sale
+000020 | 2,492
+000021 | 1,365
+000022 | Other current assets
+000023 | 1,182
+000024 | 1,259
+000025 | Current assets of discontinued operations
+000026 | 0
+000027 | 1,861
+000028 | Total current assets
+000029 | 30,387
+000030 | 27,908
+000031 | Investments and long-term receivables
+000032 | 1,404
+000033 | 1,230
+000034 | Property, plant and equipment—net
+000035 | 4,629
+000036 | 4,457
+000037 | Goodwill
+000038 | 21,079
+000039 | 21,019
+000040 | Other intangible assets—net
+000041 | 6,736
+000042 | 6,621
+000043 | Deferred income taxes
+000044 | 199
+000045 | 235
+000046 | Other assets
+000047 | 9,247
+000048 | 10,556
+000049 | Assets of discontinued operations
+000050 | 0
+000051 | 3,170
+000052 | Total assets
+000053 | 73,681
+000054 | 75,196
+000055 | Current liabilities
+000056 | Accounts payable
+000057 | 6,315
+000058 | 6,109
+000059 | Commercial paper and other short-term borrowings
+000060 | 5,893
+000061 | 4,273
+000062 | Current maturities of long-term debt
+000063 | 1,546
+000064 | 1,325
+000065 | Accrued liabilities
+000066 | 8,462
+000067 | 8,055
+000068 | Total current liabilities
+000069 | 23,414
+000070 | 21,256
+000071 | Long-term debt
+000072 | 27,141
+000073 | 25,440
+000074 | Deferred income taxes
+000075 | 1,577
+000076 | 1,581
+000077 | Postretirement benefit obligations other than pensions
+000078 | 111
+000079 | 112
+000080 | Asbestos-related liabilities
+000081 | 0
+000082 | 1,325
+000083 | Other liabilities
+000084 | 6,408
+000085 | 5,581
+000086 | Liabilities of discontinued operations
+000087 | 0
+000088 | 740
+000089 | Redeemable noncontrolling interest
+000090 | 0
+000091 | 7
+000092 | SHAREOWNERS’ EQUITY
+000093 | Capital—common stock issued
+000094 | 958
+000095 | 958
+000096 | Capital - additional paid in capital
+000097 | 10,157
+000098 | 9,695
+000099 | Common stock held in treasury, at cost
+000100 | (43,029)
+000101 | (39,378)
+000102 | Accumulated other comprehensive loss
+000103 | (5,146)
+000104 | (3,491)
+000105 | Retained earnings
+000106 | 50,964
+000107 | 50,835
+000108 | Total Honeywell shareowners’ equity
+000109 | 13,904
+000110 | 18,619
+000111 | Noncontrolling interest
+000112 | 1,126
+000113 | 535
+000114 | Total shareowners’ equity
+000115 | 15,030
+000116 | 19,154
+000117 | Total liabilities, redeemable noncontrolling interest and shareowners’ equity
+000118 | 73,681
+000119 | 75,196
+000120 | Discontinued Operations
+000121 | Current liabilities
+000122 | Current liabilities of discontinued operations/Liabilities held for sale
+000123 | 0
+000124 | 1,086
+000125 | Disposal Group, Held-for-Sale, Not Discontinued Operations
+000126 | Current liabilities
+000127 | Current liabilities of discontinued operations/Liabilities held for sale
+000128 | $ 1,198
+000129 | $ 408
+000130 | X
+000131 | - Definition
+000132 | Carrying value as of the balance sheet date of liabilities incurred (and for which invoices have typically been received) and payable to vendors for goods and services received that are used in an entity's business. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000133 | + References
+000134 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000135 | -Topic 210
+000136 | -SubTopic 10
+000137 | -Name Accounting Standards Codification
+000138 | -Section S99
+000139 | -Paragraph 1
+000140 | -Subparagraph (SX 210.5-02(19)(a))
+000141 | -Publisher FASB
+000142 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000143 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000144 | -Topic 852
+000145 | -SubTopic 10
+000146 | -Name Accounting Standards Codification
+000147 | -Section 55
+000148 | -Paragraph 10
+000149 | -Publisher FASB
+000150 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000151 | + Details
+000152 | Name:
+000153 | us-gaap_AccountsPayableCurrent
+000154 | Namespace Prefix:
+000155 | us-gaap_
+000156 | Data Type:
+000157 | xbrli:monetaryItemType
+000158 | Balance Type:
+000159 | credit
+000160 | Period Type:
+000161 | instant
+000162 | X
+000163 | - Definition
+000164 | Amount, after allowance for credit loss, of right to consideration from customer for product sold and service rendered in normal course of business, classified as current.
+000165 | + References
+000166 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000167 | -Topic 310
+000168 | -SubTopic 10
+000169 | -Name Accounting Standards Codification
+000170 | -Section 45
+000171 | -Paragraph 2
+000172 | -Publisher FASB
+000173 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-2
+000174 | + Details
+000175 | Name:
+000176 | us-gaap_AccountsReceivableNetCurrent
+000177 | Namespace Prefix:
+000178 | us-gaap_
+000179 | Data Type:
+000180 | xbrli:monetaryItemType
+000181 | Balance Type:
+000182 | debit
+000183 | Period Type:
+000184 | instant
+000185 | X
+000186 | - Definition
+000187 | Carrying value as of the balance sheet date of obligations incurred and payable, pertaining to costs that are statutory in nature, are incurred on contractual obligations, or accumulate over time and for which invoices have not yet been received or will not be rendered. Examples include taxes, interest, rent and utilities. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000188 | + References
+000189 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000190 | -Topic 210
+000191 | -SubTopic 10
+000192 | -Name Accounting Standards Codification
+000193 | -Section S99
+000194 | -Paragraph 1
+000195 | -Subparagraph (SX 210.5-02(20))
+000196 | -Publisher FASB
+000197 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000198 | + Details
+000199 | Name:
+000200 | us-gaap_AccruedLiabilitiesCurrent
+000201 | Namespace Prefix:
+000202 | us-gaap_
+000203 | Data Type:
+000204 | xbrli:monetaryItemType
+000205 | Balance Type:
+000206 | credit
+000207 | Period Type:
+000208 | instant
+000209 | X
+000210 | - Definition
+000211 | Amount, after tax, of accumulated increase (decrease) in equity from transaction and other event and circumstance from nonowner source.
+000212 | + References
+000213 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000214 | -Name Accounting Standards Codification
+000215 | -Topic 220
+000216 | -SubTopic 10
+000217 | -Section 45
+000218 | -Paragraph 14A
+000219 | -Publisher FASB
+000220 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-14A
+000221 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000222 | -Topic 220
+000223 | -SubTopic 10
+000224 | -Name Accounting Standards Codification
+000225 | -Section 45
+000226 | -Paragraph 11
+000227 | -Publisher FASB
+000228 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-11
+000229 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000230 | -Topic 815
+000231 | -SubTopic 30
+000232 | -Name Accounting Standards Codification
+000233 | -Section 50
+000234 | -Paragraph 2
+000235 | -Subparagraph (a)
+000236 | -Publisher FASB
+000237 | -URI https://asc.fasb.org/1943274/2147480870/815-30-50-2
+000238 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000239 | -Topic 944
+000240 | -SubTopic 40
+000241 | -Name Accounting Standards Codification
+000242 | -Section 65
+000243 | -Paragraph 2
+000244 | -Subparagraph (g)(2)(ii)
+000245 | -Publisher FASB
+000246 | -URI https://asc.fasb.org/1943274/2147480016/944-40-65-2
+000247 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000248 | -Topic 944
+000249 | -SubTopic 40
+000250 | -Name Accounting Standards Codification
+000251 | -Section 65
+000252 | -Paragraph 2
+000253 | -Subparagraph (h)(2)
+000254 | -Publisher FASB
+000255 | -URI https://asc.fasb.org/1943274/2147480016/944-40-65-2
+000256 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000257 | -Topic 210
+000258 | -SubTopic 10
+000259 | -Name Accounting Standards Codification
+000260 | -Section S99
+000261 | -Paragraph 1
+000262 | -Subparagraph (SX 210.5-02(30)(a)(4))
+000263 | -Publisher FASB
+000264 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000265 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000266 | -Topic 944
+000267 | -SubTopic 210
+000268 | -Name Accounting Standards Codification
+000269 | -Section S99
+000270 | -Paragraph 1
+000271 | -Subparagraph (SX 210.7-03(a)(23)(a)(3))
+000272 | -Publisher FASB
+000273 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000274 | Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef
+000275 | -Name Accounting Standards Codification
+000276 | -Topic 220
+000277 | -SubTopic 10
+000278 | -Section 45
+000279 | -Paragraph 14
+000280 | -Publisher FASB
+000281 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-14
+000282 | + Details
+000283 | Name:
+000284 | us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax
+000285 | Namespace Prefix:
+000286 | us-gaap_
+000287 | Data Type:
+000288 | xbrli:monetaryItemType
+000289 | Balance Type:
+000290 | credit
+000291 | Period Type:
+000292 | instant
+000293 | X
+000294 | - Definition
+000295 | Value received from shareholders in common stock-related transactions that are in excess of par value or stated value and amounts received from other stock-related transactions. Includes only common stock transactions (excludes preferred stock transactions). May be called contributed capital, capital in excess of par, capital surplus, or paid-in capital.
+000296 | + References
+000297 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000298 | -Topic 210
+000299 | -SubTopic 10
+000300 | -Name Accounting Standards Codification
+000301 | -Section S99
+000302 | -Paragraph 1
+000303 | -Subparagraph (SX 210.5-02(30)(a)(1))
+000304 | -Publisher FASB
+000305 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000306 | + Details
+000307 | Name:
+000308 | us-gaap_AdditionalPaidInCapitalCommonStock
+000309 | Namespace Prefix:
+000310 | us-gaap_
+000311 | Data Type:
+000312 | xbrli:monetaryItemType
+000313 | Balance Type:
+000314 | credit
+000315 | Period Type:
+000316 | instant
+000317 | X
+000318 | - Definition
+000319 | Amount of asset recognized for present right to economic benefit.
+000320 | + References
+000321 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000322 | -Topic 942
+000323 | -SubTopic 235
+000324 | -Name Accounting Standards Codification
+000325 | -Section S99
+000326 | -Paragraph 1
+000327 | -Subparagraph (SX 210.9-05(b)(1))
+000328 | -Publisher FASB
+000329 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-1
+000330 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000331 | -Topic 942
+000332 | -SubTopic 235
+000333 | -Name Accounting Standards Codification
+000334 | -Section S50
+000335 | -Paragraph 1
+000336 | -Publisher FASB
+000337 | -URI https://asc.fasb.org/1943274/2147478671/942-235-S50-1
+000338 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000339 | -Topic 235
+000340 | -SubTopic 10
+000341 | -Name Accounting Standards Codification
+000342 | -Section S50
+000343 | -Paragraph 1
+000344 | -Publisher FASB
+000345 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000346 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000347 | -Topic 235
+000348 | -SubTopic 10
+000349 | -Name Accounting Standards Codification
+000350 | -Section S99
+000351 | -Paragraph 1
+000352 | -Subparagraph (SX 210.4-08(g)(1)(i))
+000353 | -Publisher FASB
+000354 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000355 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000356 | -Topic 825
+000357 | -SubTopic 10
+000358 | -Name Accounting Standards Codification
+000359 | -Section 50
+000360 | -Paragraph 28
+000361 | -Subparagraph (f)
+000362 | -Publisher FASB
+000363 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+000364 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000365 | -Topic 480
+000366 | -SubTopic 10
+000367 | -Name Accounting Standards Codification
+000368 | -Section 55
+000369 | -Paragraph 64
+000370 | -Publisher FASB
+000371 | -URI https://asc.fasb.org/1943274/2147481620/480-10-55-64
+000372 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000373 | -Topic 944
+000374 | -SubTopic 605
+000375 | -Name Accounting Standards Codification
+000376 | -Section 55
+000377 | -Paragraph 14
+000378 | -Publisher FASB
+000379 | -URI https://asc.fasb.org/1943274/2147477548/944-605-55-14
+000380 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+000381 | -Topic 944
+000382 | -SubTopic 605
+000383 | -Name Accounting Standards Codification
+000384 | -Section 55
+000385 | -Paragraph 11
+000386 | -Publisher FASB
+000387 | -URI https://asc.fasb.org/1943274/2147477548/944-605-55-11
+000388 | Reference 9: http://www.xbrl.org/2003/role/exampleRef
+000389 | -Topic 280
+000390 | -SubTopic 10
+000391 | -Name Accounting Standards Codification
+000392 | -Section 55
+000393 | -Paragraph 48
+000394 | -Publisher FASB
+000395 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-48
+000396 | Reference 10: http://www.xbrl.org/2003/role/exampleRef
+000397 | -Topic 280
+000398 | -SubTopic 10
+000399 | -Name Accounting Standards Codification
+000400 | -Section 55
+000401 | -Paragraph 49
+000402 | -Publisher FASB
+000403 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-49
+000404 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000405 | -Topic 270
+000406 | -SubTopic 10
+000407 | -Name Accounting Standards Codification
+000408 | -Section 50
+000409 | -Paragraph 1
+000410 | -Subparagraph (i)
+000411 | -Publisher FASB
+000412 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000413 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000414 | -Topic 280
+000415 | -SubTopic 10
+000416 | -Name Accounting Standards Codification
+000417 | -Section 50
+000418 | -Paragraph 32
+000419 | -Subparagraph (ee)
+000420 | -Publisher FASB
+000421 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000422 | Reference 13: http://fasb.org/us-gaap/role/ref/otherTransitionRef
+000423 | -Topic 280
+000424 | -SubTopic 10
+000425 | -Name Accounting Standards Codification
+000426 | -Section 50
+000427 | -Paragraph 32
+000428 | -Subparagraph (d)
+000429 | -Publisher FASB
+000430 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000431 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000432 | -Topic 280
+000433 | -SubTopic 10
+000434 | -Name Accounting Standards Codification
+000435 | -Section 50
+000436 | -Paragraph 22
+000437 | -Publisher FASB
+000438 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000439 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000440 | -Topic 810
+000441 | -SubTopic 10
+000442 | -Name Accounting Standards Codification
+000443 | -Section 50
+000444 | -Paragraph 3
+000445 | -Subparagraph (bb)
+000446 | -Publisher FASB
+000447 | -URI https://asc.fasb.org/1943274/2147481203/810-10-50-3
+000448 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000449 | -Topic 810
+000450 | -SubTopic 10
+000451 | -Name Accounting Standards Codification
+000452 | -Section 45
+000453 | -Paragraph 25
+000454 | -Subparagraph (a)
+000455 | -Publisher FASB
+000456 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-25
+000457 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000458 | -Topic 235
+000459 | -SubTopic 10
+000460 | -Name Accounting Standards Codification
+000461 | -Section S99
+000462 | -Paragraph 1
+000463 | -Subparagraph (SX 210.4-08(g)(1)(ii))
+000464 | -Publisher FASB
+000465 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000466 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+000467 | -Topic 323
+000468 | -SubTopic 10
+000469 | -Name Accounting Standards Codification
+000470 | -Section 50
+000471 | -Paragraph 3
+000472 | -Subparagraph (c)
+000473 | -Publisher FASB
+000474 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+000475 | Reference 19: http://www.xbrl.org/2003/role/exampleRef
+000476 | -Topic 852
+000477 | -SubTopic 10
+000478 | -Name Accounting Standards Codification
+000479 | -Section 55
+000480 | -Paragraph 10
+000481 | -Publisher FASB
+000482 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000483 | Reference 20: http://www.xbrl.org/2003/role/exampleRef
+000484 | -Topic 946
+000485 | -SubTopic 830
+000486 | -Name Accounting Standards Codification
+000487 | -Section 55
+000488 | -Paragraph 12
+000489 | -Publisher FASB
+000490 | -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12
+000491 | Reference 21: http://www.xbrl.org/2003/role/disclosureRef
+000492 | -Topic 944
+000493 | -SubTopic 210
+000494 | -Name Accounting Standards Codification
+000495 | -Section S99
+000496 | -Paragraph 1
+000497 | -Subparagraph (SX 210.7-03(a)(12))
+000498 | -Publisher FASB
+000499 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000500 | Reference 22: http://www.xbrl.org/2003/role/disclosureRef
+000501 | -Topic 946
+000502 | -SubTopic 210
+000503 | -Name Accounting Standards Codification
+000504 | -Section S99
+000505 | -Paragraph 1
+000506 | -Subparagraph (SX 210.6-04(8))
+000507 | -Publisher FASB
+000508 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000509 | Reference 23: http://www.xbrl.org/2003/role/disclosureRef
+000510 | -Topic 210
+000511 | -SubTopic 10
+000512 | -Name Accounting Standards Codification
+000513 | -Section S99
+000514 | -Paragraph 1
+000515 | -Subparagraph (SX 210.5-02(18))
+000516 | -Publisher FASB
+000517 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000518 | Reference 24: http://www.xbrl.org/2003/role/disclosureRef
+000519 | -Topic 470
+000520 | -SubTopic 10
+000521 | -Name Accounting Standards Codification
+000522 | -Section S99
+000523 | -Paragraph 1A
+000524 | -Subparagraph (SX 210.13-01(a)(4)(i))
+000525 | -Publisher FASB
+000526 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000527 | Reference 25: http://www.xbrl.org/2009/role/commonPracticeRef
+000528 | -Topic 470
+000529 | -SubTopic 10
+000530 | -Name Accounting Standards Codification
+000531 | -Section S99
+000532 | -Paragraph 1A
+000533 | -Subparagraph (SX 210.13-01(a)(4)(ii))
+000534 | -Publisher FASB
+000535 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000536 | Reference 26: http://www.xbrl.org/2009/role/commonPracticeRef
+000537 | -Topic 470
+000538 | -SubTopic 10
+000539 | -Name Accounting Standards Codification
+000540 | -Section S99
+000541 | -Paragraph 1A
+000542 | -Subparagraph (SX 210.13-01(a)(4)(iii))
+000543 | -Publisher FASB
+000544 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000545 | Reference 27: http://www.xbrl.org/2003/role/disclosureRef
+000546 | -Topic 470
+000547 | -SubTopic 10
+000548 | -Name Accounting Standards Codification
+000549 | -Section S99
+000550 | -Paragraph 1A
+000551 | -Subparagraph (SX 210.13-01(a)(4)(iii)(A))
+000552 | -Publisher FASB
+000553 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000554 | Reference 28: http://www.xbrl.org/2003/role/disclosureRef
+000555 | -Topic 470
+000556 | -SubTopic 10
+000557 | -Name Accounting Standards Codification
+000558 | -Section S99
+000559 | -Paragraph 1A
+000560 | -Subparagraph (SX 210.13-01(a)(4)(iv))
+000561 | -Publisher FASB
+000562 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000563 | Reference 29: http://www.xbrl.org/2003/role/disclosureRef
+000564 | -Topic 470
+000565 | -SubTopic 10
+000566 | -Name Accounting Standards Codification
+000567 | -Section S99
+000568 | -Paragraph 1A
+000569 | -Subparagraph (SX 210.13-01(a)(5))
+000570 | -Publisher FASB
+000571 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000572 | Reference 30: http://www.xbrl.org/2003/role/disclosureRef
+000573 | -Topic 470
+000574 | -SubTopic 10
+000575 | -Name Accounting Standards Codification
+000576 | -Section S99
+000577 | -Paragraph 1B
+000578 | -Subparagraph (SX 210.13-02(a)(4)(i))
+000579 | -Publisher FASB
+000580 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000581 | Reference 31: http://www.xbrl.org/2003/role/disclosureRef
+000582 | -Topic 470
+000583 | -SubTopic 10
+000584 | -Name Accounting Standards Codification
+000585 | -Section S99
+000586 | -Paragraph 1B
+000587 | -Subparagraph (SX 210.13-02(a)(4)(iii)(A))
+000588 | -Publisher FASB
+000589 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000590 | Reference 32: http://www.xbrl.org/2003/role/disclosureRef
+000591 | -Topic 470
+000592 | -SubTopic 10
+000593 | -Name Accounting Standards Codification
+000594 | -Section S99
+000595 | -Paragraph 1B
+000596 | -Subparagraph (SX 210.13-02(a)(4)(iii)(B))
+000597 | -Publisher FASB
+000598 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000599 | Reference 33: http://www.xbrl.org/2003/role/disclosureRef
+000600 | -Topic 470
+000601 | -SubTopic 10
+000602 | -Name Accounting Standards Codification
+000603 | -Section S99
+000604 | -Paragraph 1B
+000605 | -Subparagraph (SX 210.13-02(a)(4)(iv))
+000606 | -Publisher FASB
+000607 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000608 | Reference 34: http://www.xbrl.org/2003/role/disclosureRef
+000609 | -Topic 470
+000610 | -SubTopic 10
+000611 | -Name Accounting Standards Codification
+000612 | -Section S99
+000613 | -Paragraph 1B
+000614 | -Subparagraph (SX 210.13-02(a)(5))
+000615 | -Publisher FASB
+000616 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000617 | Reference 35: http://www.xbrl.org/2009/role/commonPracticeRef
+000618 | -Topic 852
+000619 | -SubTopic 10
+000620 | -Name Accounting Standards Codification
+000621 | -Section 50
+000622 | -Paragraph 7
+000623 | -Subparagraph (a)
+000624 | -Publisher FASB
+000625 | -URI https://asc.fasb.org/1943274/2147481404/852-10-50-7
+000626 | Reference 36: http://www.xbrl.org/2003/role/disclosureRef
+000627 | -Topic 280
+000628 | -SubTopic 10
+000629 | -Name Accounting Standards Codification
+000630 | -Section 50
+000631 | -Paragraph 30
+000632 | -Subparagraph (c)
+000633 | -Publisher FASB
+000634 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-30
+000635 | Reference 37: http://fasb.org/us-gaap/role/ref/legacyRef
+000636 | -Topic 942
+000637 | -SubTopic 210
+000638 | -Name Accounting Standards Codification
+000639 | -Section S99
+000640 | -Paragraph 1
+000641 | -Subparagraph (SX 210.9-03(11))
+000642 | -Publisher FASB
+000643 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000644 | + Details
+000645 | Name:
+000646 | us-gaap_Assets
+000647 | Namespace Prefix:
+000648 | us-gaap_
+000649 | Data Type:
+000650 | xbrli:monetaryItemType
+000651 | Balance Type:
+000652 | debit
+000653 | Period Type:
+000654 | instant
+000655 | X
+000656 | - Definition
+000657 | Amount of asset recognized for present right to economic benefit, classified as current.
+000658 | + References
+000659 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000660 | -Topic 235
+000661 | -SubTopic 10
+000662 | -Name Accounting Standards Codification
+000663 | -Section S50
+000664 | -Paragraph 1
+000665 | -Publisher FASB
+000666 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000667 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000668 | -Topic 235
+000669 | -SubTopic 10
+000670 | -Name Accounting Standards Codification
+000671 | -Section S99
+000672 | -Paragraph 1
+000673 | -Subparagraph (SX 210.4-08(g)(1)(i))
+000674 | -Publisher FASB
+000675 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000676 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000677 | -Topic 825
+000678 | -SubTopic 10
+000679 | -Name Accounting Standards Codification
+000680 | -Section 50
+000681 | -Paragraph 28
+000682 | -Subparagraph (f)
+000683 | -Publisher FASB
+000684 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+000685 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000686 | -Topic 810
+000687 | -SubTopic 10
+000688 | -Name Accounting Standards Codification
+000689 | -Section 50
+000690 | -Paragraph 3
+000691 | -Subparagraph (bb)
+000692 | -Publisher FASB
+000693 | -URI https://asc.fasb.org/1943274/2147481203/810-10-50-3
+000694 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000695 | -Topic 810
+000696 | -SubTopic 10
+000697 | -Name Accounting Standards Codification
+000698 | -Section 45
+000699 | -Paragraph 25
+000700 | -Subparagraph (a)
+000701 | -Publisher FASB
+000702 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-25
+000703 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000704 | -Topic 235
+000705 | -SubTopic 10
+000706 | -Name Accounting Standards Codification
+000707 | -Section S99
+000708 | -Paragraph 1
+000709 | -Subparagraph (SX 210.4-08(g)(1)(ii))
+000710 | -Publisher FASB
+000711 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000712 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000713 | -Topic 323
+000714 | -SubTopic 10
+000715 | -Name Accounting Standards Codification
+000716 | -Section 50
+000717 | -Paragraph 3
+000718 | -Subparagraph (c)
+000719 | -Publisher FASB
+000720 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+000721 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+000722 | -Topic 852
+000723 | -SubTopic 10
+000724 | -Name Accounting Standards Codification
+000725 | -Section 55
+000726 | -Paragraph 10
+000727 | -Publisher FASB
+000728 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000729 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000730 | -Topic 210
+000731 | -SubTopic 10
+000732 | -Name Accounting Standards Codification
+000733 | -Section 45
+000734 | -Paragraph 1
+000735 | -Publisher FASB
+000736 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-1
+000737 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000738 | -Topic 210
+000739 | -SubTopic 10
+000740 | -Name Accounting Standards Codification
+000741 | -Section S99
+000742 | -Paragraph 1
+000743 | -Subparagraph (SX 210.5-02(9))
+000744 | -Publisher FASB
+000745 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000746 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000747 | -Topic 470
+000748 | -SubTopic 10
+000749 | -Name Accounting Standards Codification
+000750 | -Section S99
+000751 | -Paragraph 1A
+000752 | -Subparagraph (SX 210.13-01(a)(4)(i))
+000753 | -Publisher FASB
+000754 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000755 | Reference 12: http://www.xbrl.org/2009/role/commonPracticeRef
+000756 | -Topic 470
+000757 | -SubTopic 10
+000758 | -Name Accounting Standards Codification
+000759 | -Section S99
+000760 | -Paragraph 1A
+000761 | -Subparagraph (SX 210.13-01(a)(4)(ii))
+000762 | -Publisher FASB
+000763 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000764 | Reference 13: http://www.xbrl.org/2009/role/commonPracticeRef
+000765 | -Topic 470
+000766 | -SubTopic 10
+000767 | -Name Accounting Standards Codification
+000768 | -Section S99
+000769 | -Paragraph 1A
+000770 | -Subparagraph (SX 210.13-01(a)(4)(iii))
+000771 | -Publisher FASB
+000772 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000773 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000774 | -Topic 470
+000775 | -SubTopic 10
+000776 | -Name Accounting Standards Codification
+000777 | -Section S99
+000778 | -Paragraph 1A
+000779 | -Subparagraph (SX 210.13-01(a)(4)(iii)(A))
+000780 | -Publisher FASB
+000781 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000782 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000783 | -Topic 470
+000784 | -SubTopic 10
+000785 | -Name Accounting Standards Codification
+000786 | -Section S99
+000787 | -Paragraph 1A
+000788 | -Subparagraph (SX 210.13-01(a)(4)(iv))
+000789 | -Publisher FASB
+000790 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000791 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000792 | -Topic 470
+000793 | -SubTopic 10
+000794 | -Name Accounting Standards Codification
+000795 | -Section S99
+000796 | -Paragraph 1A
+000797 | -Subparagraph (SX 210.13-01(a)(5))
+000798 | -Publisher FASB
+000799 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+000800 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000801 | -Topic 470
+000802 | -SubTopic 10
+000803 | -Name Accounting Standards Codification
+000804 | -Section S99
+000805 | -Paragraph 1B
+000806 | -Subparagraph (SX 210.13-02(a)(4)(i))
+000807 | -Publisher FASB
+000808 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000809 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+000810 | -Topic 470
+000811 | -SubTopic 10
+000812 | -Name Accounting Standards Codification
+000813 | -Section S99
+000814 | -Paragraph 1B
+000815 | -Subparagraph (SX 210.13-02(a)(4)(iii)(A))
+000816 | -Publisher FASB
+000817 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000818 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+000819 | -Topic 470
+000820 | -SubTopic 10
+000821 | -Name Accounting Standards Codification
+000822 | -Section S99
+000823 | -Paragraph 1B
+000824 | -Subparagraph (SX 210.13-02(a)(4)(iii)(B))
+000825 | -Publisher FASB
+000826 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000827 | Reference 20: http://www.xbrl.org/2003/role/disclosureRef
+000828 | -Topic 470
+000829 | -SubTopic 10
+000830 | -Name Accounting Standards Codification
+000831 | -Section S99
+000832 | -Paragraph 1B
+000833 | -Subparagraph (SX 210.13-02(a)(4)(iv))
+000834 | -Publisher FASB
+000835 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000836 | Reference 21: http://www.xbrl.org/2003/role/disclosureRef
+000837 | -Topic 470
+000838 | -SubTopic 10
+000839 | -Name Accounting Standards Codification
+000840 | -Section S99
+000841 | -Paragraph 1B
+000842 | -Subparagraph (SX 210.13-02(a)(5))
+000843 | -Publisher FASB
+000844 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+000845 | Reference 22: http://www.xbrl.org/2009/role/commonPracticeRef
+000846 | -Topic 852
+000847 | -SubTopic 10
+000848 | -Name Accounting Standards Codification
+000849 | -Section 50
+000850 | -Paragraph 7
+000851 | -Subparagraph (a)
+000852 | -Publisher FASB
+000853 | -URI https://asc.fasb.org/1943274/2147481404/852-10-50-7
+000854 | + Details
+000855 | Name:
+000856 | us-gaap_AssetsCurrent
+000857 | Namespace Prefix:
+000858 | us-gaap_
+000859 | Data Type:
+000860 | xbrli:monetaryItemType
+000861 | Balance Type:
+000862 | debit
+000863 | Period Type:
+000864 | instant
+000865 | X
+000866 | - References
+000867 | No definition available.
+000868 | + Details
+000869 | Name:
+000870 | us-gaap_AssetsCurrentAbstract
+000871 | Namespace Prefix:
+000872 | us-gaap_
+000873 | Data Type:
+000874 | xbrli:stringItemType
+000875 | Balance Type:
+000876 | na
+000877 | Period Type:
+000878 | duration
+000879 | X
+000880 | - Definition
+000881 | Amount of assets held-for-sale that are not part of a disposal group, expected to be sold within a year or the normal operating cycle, if longer.
+000882 | + References
+000883 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000884 | -Topic 852
+000885 | -SubTopic 10
+000886 | -Name Accounting Standards Codification
+000887 | -Section 55
+000888 | -Paragraph 10
+000889 | -Publisher FASB
+000890 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000891 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000892 | -Topic 360
+000893 | -SubTopic 10
+000894 | -Name Accounting Standards Codification
+000895 | -Section 15
+000896 | -Paragraph 4
+000897 | -Subparagraph (b)(2)
+000898 | -Publisher FASB
+000899 | -URI https://asc.fasb.org/1943274/2147482309/360-10-15-4
+000900 | + Details
+000901 | Name:
+000902 | us-gaap_AssetsHeldForSaleNotPartOfDisposalGroupCurrent
+000903 | Namespace Prefix:
+000904 | us-gaap_
+000905 | Data Type:
+000906 | xbrli:monetaryItemType
+000907 | Balance Type:
+000908 | debit
+000909 | Period Type:
+000910 | instant
+000911 | X
+000912 | - Definition
+000913 | Amount classified as assets attributable to disposal group held for sale or disposed of, expected to be disposed of within one year or the normal operating cycle, if longer.
+000914 | + References
+000915 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000916 | -Name Accounting Standards Codification
+000917 | -Section 45
+000918 | -Paragraph 10
+000919 | -SubTopic 20
+000920 | -Topic 205
+000921 | -Publisher FASB
+000922 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+000923 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000924 | -Topic 205
+000925 | -SubTopic 20
+000926 | -Name Accounting Standards Codification
+000927 | -Section 50
+000928 | -Paragraph 7
+000929 | -Publisher FASB
+000930 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7
+000931 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000932 | -Topic 205
+000933 | -SubTopic 20
+000934 | -Name Accounting Standards Codification
+000935 | -Section 50
+000936 | -Paragraph 5C
+000937 | -Subparagraph (a)(2)
+000938 | -Publisher FASB
+000939 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000940 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000941 | -Topic 360
+000942 | -SubTopic 10
+000943 | -Name Accounting Standards Codification
+000944 | -Section 45
+000945 | -Paragraph 9
+000946 | -Publisher FASB
+000947 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-9
+000948 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000949 | -Topic 205
+000950 | -SubTopic 20
+000951 | -Name Accounting Standards Codification
+000952 | -Section 50
+000953 | -Paragraph 5B
+000954 | -Subparagraph (e)
+000955 | -Publisher FASB
+000956 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000957 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+000958 | -Topic 360
+000959 | -SubTopic 10
+000960 | -Name Accounting Standards Codification
+000961 | -Section 50
+000962 | -Paragraph 3
+000963 | -Subparagraph (e)
+000964 | -Publisher FASB
+000965 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000966 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000967 | -Topic 205
+000968 | -SubTopic 20
+000969 | -Name Accounting Standards Codification
+000970 | -Section 45
+000971 | -Paragraph 11
+000972 | -Publisher FASB
+000973 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000974 | + Details
+000975 | Name:
+000976 | us-gaap_AssetsOfDisposalGroupIncludingDiscontinuedOperationCurrent
+000977 | Namespace Prefix:
+000978 | us-gaap_
+000979 | Data Type:
+000980 | xbrli:monetaryItemType
+000981 | Balance Type:
+000982 | debit
+000983 | Period Type:
+000984 | instant
+000985 | X
+000986 | - Definition
+000987 | Amount of cash and cash equivalent. Cash includes, but is not limited to, currency on hand, demand deposit with financial institution, and account with general characteristic of demand deposit. Cash equivalent includes, but is not limited to, short-term, highly liquid investment that is both readily convertible to known amount of cash and so near maturity that it presents insignificant risk of change in value because of change in interest rate.
+000988 | + References
+000989 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000990 | -Topic 210
+000991 | -SubTopic 10
+000992 | -Name Accounting Standards Codification
+000993 | -Section S99
+000994 | -Paragraph 1
+000995 | -Subparagraph (SX 210.5-02(1))
+000996 | -Publisher FASB
+000997 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000998 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000999 | -Topic 210
+001000 | -SubTopic 10
+001001 | -Name Accounting Standards Codification
+001002 | -Section 45
+001003 | -Paragraph 1
+001004 | -Subparagraph (a)
+001005 | -Publisher FASB
+001006 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-1
+001007 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+001008 | -Name Accounting Standards Codification
+001009 | -Topic 230
+001010 | -SubTopic 10
+001011 | -Section 45
+001012 | -Paragraph 4
+001013 | -Publisher FASB
+001014 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-4
+001015 | + Details
+001016 | Name:
+001017 | us-gaap_CashAndCashEquivalentsAtCarryingValue
+001018 | Namespace Prefix:
+001019 | us-gaap_
+001020 | Data Type:
+001021 | xbrli:monetaryItemType
+001022 | Balance Type:
+001023 | debit
+001024 | Period Type:
+001025 | instant
+001026 | X
+001027 | - Definition
+001028 | Value of common shares held by shareholders. Excludes common shares repurchased and held as treasury shares.
+001029 | + References
+001030 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+001031 | -Topic 210
+001032 | -SubTopic 10
+001033 | -Name Accounting Standards Codification
+001034 | -Section S99
+001035 | -Paragraph 1
+001036 | -Subparagraph (SX 210.5-02(29))
+001037 | -Publisher FASB
+001038 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+001039 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+001040 | -Topic 946
+001041 | -SubTopic 210
+001042 | -Name Accounting Standards Codification
+001043 | -Section S99
+001044 | -Paragraph 1
+001045 | -Subparagraph (SX 210.6-04(16)(a))
+001046 | -Publisher FASB
+001047 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+001048 | + Details
+001049 | Name:
+001050 | us-gaap_CommonStockValueOutstanding
+001051 | Namespace Prefix:
+001052 | us-gaap_
+001053 | Data Type:
+001054 | xbrli:monetaryItemType
+001055 | Balance Type:
+001056 | credit
+001057 | Period Type:
+001058 | instant
+001059 | X
+001060 | - Definition
+001061 | Amount, after allocation of valuation allowances and deferred tax liability, of deferred tax asset attributable to deductible differences and carryforwards, with jurisdictional netting.
+001062 | + References
+001063 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+001064 | -Topic 740
+001065 | -SubTopic 10
+001066 | -Name Accounting Standards Codification
+001067 | -Section 45
+001068 | -Paragraph 4
+001069 | -Publisher FASB
+001070 | -URI https://asc.fasb.org/1943274/2147482525/740-10-45-4
+001071 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+001072 | -Topic 740
+001073 | -SubTopic 10
+001074 | -Name Accounting Standards Codification
+001075 | -Section 45
+001076 | -Paragraph 6
+001077 | -Publisher FASB
+001078 | -URI https://asc.fasb.org/1943274/2147482525/740-10-45-6
+001079 | + Details
+001080 | Name:
+001081 | us-gaap_DeferredIncomeTaxAssetsNet
+001082 | Namespace Prefix:
+001083 | us-gaap_
+001084 | Data Type:
+001085 | xbrli:monetaryItemType
+001086 | Balance Type:
+001087 | debit
+001088 | Period Type:
+001089 | instant
+001090 | X
+001091 | - Definition
+001092 | Amount, after deferred tax asset, of deferred tax liability attributable to taxable differences with jurisdictional netting.
+001093 | + References
+001094 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+001095 | -Topic 944
+001096 | -SubTopic 210
+001097 | -Name Accounting Standards Codification
+001098 | -Section S99
+001099 | -Paragraph 1
+001100 | -Subparagraph (SX 210.7-03(a)(15)(b)(2))
+001101 | -Publisher FASB
+001102 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+001103 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+001104 | -Topic 740
+001105 | -SubTopic 10
+001106 | -Name Accounting Standards Codification
+001107 | -Section 45
+001108 | -Paragraph 4
+001109 | -Publisher FASB
+001110 | -URI https://asc.fasb.org/1943274/2147482525/740-10-45-4
+001111 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+001112 | -Topic 740
+001113 | -SubTopic 10
+001114 | -Name Accounting Standards Codification
+001115 | -Section 45
+001116 | -Paragraph 6
+001117 | -Publisher FASB
+001118 | -URI https://asc.fasb.org/1943274/2147482525/740-10-45-6
+001119 | + Details
+001120 | Name:
+001121 | us-gaap_DeferredIncomeTaxLiabilitiesNet
+001122 | Namespace Prefix:
+001123 | us-gaap_
+001124 | Data Type:
+001125 | xbrli:monetaryItemType
+001126 | Balance Type:
+001127 | credit
+001128 | Period Type:
+001129 | instant
+001130 | X
+001131 | - Definition
+001132 | Amount classified as assets attributable to disposal group held for sale or disposed of, expected to be disposed of after one year or the normal operating cycle, if longer.
+001133 | + References
+001134 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+001135 | -Name Accounting Standards Codification
+001136 | -Section 45
+001137 | -Paragraph 10
+001138 | -SubTopic 20
+001139 | -Topic 205
+001140 | -Publisher FASB
+001141 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+001142 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+001143 | -Name Accounting Standards Codification
+001144 | -Section 45
+001145 | -Paragraph 11
+001146 | -SubTopic 10
+001147 | -Topic 360
+001148 | -Publisher FASB
+001149 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-11
+001150 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+001151 | -Topic 205
+001152 | -SubTopic 20
+001153 | -Name Accounting Standards Codification
+001154 | -Section 50
+001155 | -Paragraph 7
+001156 | -Publisher FASB
+001157 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7
+001158 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+001159 | -Topic 205
+001160 | -SubTopic 20
+001161 | -Name Accounting Standards Codification
+001162 | -Section 50
+001163 | -Paragraph 5C
+001164 | -Subparagraph (a)(2)
+001165 | -Publisher FASB
+001166 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+001167 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+001168 | -Topic 205
+001169 | -SubTopic 20
+001170 | -Name Accounting Standards Codification
+001171 | -Section 50
+001172 | -Paragraph 5B
+001173 | -Subparagraph (e)
+001174 | -Publisher FASB
+001175 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+001176 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+001177 | -Topic 360
+001178 | -SubTopic 10
+001179 | -Name Accounting Standards Codification
+001180 | -Section 50
+001181 | -Paragraph 3
+001182 | -Subparagraph (e)
+001183 | -Publisher FASB
+001184 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+001185 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+001186 | -Topic 205
+001187 | -SubTopic 20
+001188 | -Name Accounting Standards Codification
+001189 | -Section 45
+001190 | -Paragraph 11
+001191 | -Publisher FASB
+001192 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+001193 | + Details
+001194 | Name:
+001195 | us-gaap_DisposalGroupIncludingDiscontinuedOperationAssetsNoncurrent
+001196 | Namespace Prefix:
+001197 | us-gaap_
+001198 | Data Type:
+001199 | xbrli:monetaryItemType
+001200 | Balance Type:
+001201 | debit
+001202 | Period Type:
+001203 | instant
+001204 | X
+001205 | - Definition
+001206 | Amount, after accumulated impairment loss, of asset representing future economic benefit arising from other asset acquired in business combination or from joint venture formation or both, that is not individually identified and separately recognized.
+001207 | + References
+001208 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+001209 | -Topic 350
+001210 | -SubTopic 20
+001211 | -Name Accounting Standards Codification
+001212 | -Section 55
+001213 | -Paragraph 24
+001214 | -Publisher FASB
+001215 | -URI https://asc.fasb.org/1943274/2147482548/350-20-55-24
+001216 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+001217 | -Topic 805
+001218 | -SubTopic 10
+001219 | -Name Accounting Standards Codification
+001220 | -Section 50
+001221 | -Paragraph 8
+001222 | -Publisher FASB
+001223 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-8
+001224 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+001225 | -Topic 805
+001226 | -SubTopic 10
+001227 | -Name Accounting Standards Codification
+001228 | -Section 55
+001229 | -Paragraph 41
+001230 | -Publisher FASB
+001231 | -URI https://asc.fasb.org/1943274/2147479303/805-10-55-41
+001232 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+001233 | -Topic 805
+001234 | -SubTopic 740
+001235 | -Name Accounting Standards Codification
+001236 | -Section 55
+001237 | -Paragraph 13
+001238 | -Publisher FASB
+001239 | -URI https://asc.fasb.org/1943274/2147478064/805-740-55-13
+001240 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+001241 | -Topic 805
+001242 | -SubTopic 10
+001243 | -Name Accounting Standards Codification
+001244 | -Section 55
+001245 | -Paragraph 39
+001246 | -Publisher FASB
+001247 | -URI https://asc.fasb.org/1943274/2147479303/805-10-55-39
+001248 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+001249 | -Topic 280
+001250 | -SubTopic 10
+001251 | -Name Accounting Standards Codification
+001252 | -Section 55
+001253 | -Paragraph 49
+001254 | -Publisher FASB
+001255 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-49
+001256 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+001257 | -Topic 820
+001258 | -SubTopic 10
+001259 | -Name Accounting Standards Codification
+001260 | -Section 55
+001261 | -Paragraph 100
+001262 | -Subparagraph (d)
+001263 | -Publisher FASB
+001264 | -URI https://asc.fasb.org/1943274/2147482078/820-10-55-100
+001265 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+001266 | -Topic 852
+001267 | -SubTopic 10
+001268 | -Name Accounting Standards Codification
+001269 | -Section 55
+001270 | -Paragraph 10
+001271 | -Publisher FASB
+001272 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+001273 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+001274 | -Topic 210
+001275 | -SubTopic 10
+001276 | -Name Accounting Standards Codification
+001277 | -Section S99
+001278 | -Paragraph 1
+001279 | -Subparagraph (SX 210.5-02(15))
+001280 | -Publisher FASB
+001281 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+001282 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+001283 | -Topic 350
+001284 | -SubTopic 20
+001285 | -Name Accounting Standards Codification
+001286 | -Section 45
+001287 | -Paragraph 1
+001288 | -Publisher FASB
+001289 | -URI https://asc.fasb.org/1943274/2147482598/350-20-45-1
+001290 | Reference 11: http://www.xbrl.org/2009/role/commonPracticeRef
+001291 | -Topic 350
+001292 | -SubTopic 20
+001293 | -Name Accounting Standards Codification
+001294 | -Section 50
+001295 | -Paragraph 1
+001296 | -Subparagraph (a)
+001297 | -Publisher FASB
+001298 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-1
+001299 | Reference 12: http://www.xbrl.org/2009/role/commonPracticeRef
+001300 | -Topic 350
+001301 | -SubTopic 20
+001302 | -Name Accounting Standards Codification
+001303 | -Section 50
+001304 | -Paragraph 1
+001305 | -Subparagraph (h)
+001306 | -Publisher FASB
+001307 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-1
+001308 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+001309 | -Topic 942
+001310 | -SubTopic 210
+001311 | -Name Accounting Standards Codification
+001312 | -Section S99
+001313 | -Paragraph 1
+001314 | -Subparagraph (SX 210.9-03(10)(1))
+001315 | -Publisher FASB
+001316 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+001317 | Reference 14: http://www.xbrl.org/2009/role/commonPracticeRef
+001318 | -Topic 805
+001319 | -SubTopic 30
+001320 | -Name Accounting Standards Codification
+001321 | -Section 50
+001322 | -Paragraph 4
+001323 | -Subparagraph (b)
+001324 | -Publisher FASB
+001325 | -URI https://asc.fasb.org/1943274/2147479581/805-30-50-4
+001326 | + Details
+001327 | Name:
+001328 | us-gaap_Goodwill
+001329 | Namespace Prefix:
+001330 | us-gaap_
+001331 | Data Type:
+001332 | xbrli:monetaryItemType
+001333 | Balance Type:
+001334 | debit
+001335 | Period Type:
+001336 | instant
+001337 | X
+001338 | - Definition
+001339 | Sum of the carrying amounts of all intangible assets, excluding goodwill, as of the balance sheet date, net of accumulated amortization and impairment charges.
+001340 | + References
+001341 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+001342 | -Topic 350
+001343 | -SubTopic 30
+001344 | -Name Accounting Standards Codification
+001345 | -Section 50
+001346 | -Paragraph 2
+001347 | -Subparagraph (a)(1)
+001348 | -Publisher FASB
+001349 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+001350 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+001351 | -Topic 350
+001352 | -SubTopic 30
+001353 | -Name Accounting Standards Codification
+001354 | -Section 50
+001355 | -Paragraph 2
+001356 | -Subparagraph (b)
+001357 | -Publisher FASB
+001358 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+001359 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+001360 | -Topic 350
+001361 | -SubTopic 30
+001362 | -Name Accounting Standards Codification
+001363 | -Section 45
+001364 | -Paragraph 1
+001365 | -Publisher FASB
+001366 | -URI https://asc.fasb.org/1943274/2147482686/350-30-45-1
+001367 | + Details
+001368 | Name:
+001369 | us-gaap_IntangibleAssetsNetExcludingGoodwill
+001370 | Namespace Prefix:
+001371 | us-gaap_
+001372 | Data Type:
+001373 | xbrli:monetaryItemType
+001374 | Balance Type:
+001375 | debit
+001376 | Period Type:
+001377 | instant
+001378 | X
+001379 | - Definition
+001380 | Amount after valuation and LIFO reserves of inventory expected to be sold, or consumed within one year or operating cycle, if longer.
+001381 | + References
+001382 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+001383 | -Topic 852
+001384 | -SubTopic 10
+001385 | -Name Accounting Standards Codification
+001386 | -Section 55
+001387 | -Paragraph 10
+001388 | -Publisher FASB
+001389 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+001390 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+001391 | -Topic 210
+001392 | -SubTopic 10
+001393 | -Name Accounting Standards Codification
+001394 | -Section 45
+001395 | -Paragraph 1
+001396 | -Subparagraph (b)
+001397 | -Publisher FASB
+001398 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-1
+001399 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+001400 | -Topic 210
+001401 | -SubTopic 10
+001402 | -Name Accounting Standards Codification
+001403 | -Section S99
+001404 | -Paragraph 1
+001405 | -Subparagraph (SX 210.5-02(6))
+001406 | -Publisher FASB
+001407 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+001408 | + Details
+001409 | Name:
+001410 | us-gaap_InventoryNet
+001411 | Namespace Prefix:
+001412 | us-gaap_
+001413 | Data Type:
+001414 | xbrli:monetaryItemType
+001415 | Balance Type:
+001416 | debit
+001417 | Period Type:
+001418 | instant
+001419 | X
+001420 | - Definition
+001421 | Amount of liabilities and equity items, including the portion of equity attributable to noncontrolling interests, if any.
+001422 | + References
+001423 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+001424 | -Topic 235
+001425 | -SubTopic 10
+001426 | -Name Accounting Standards Codification
+001427 | -Section S50
+001428 | -Paragraph 1
+001429 | -Publisher FASB
+001430 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+001431 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+001432 | -Topic 825
+001433 | -SubTopic 10
+001434 | -Name Accounting Standards Codification
+001435 | -Section 50
+001436 | -Paragraph 28
+001437 | -Subparagraph (f)
+001438 | -Publisher FASB
+001439 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+001440 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+001441 | -Topic 944
+001442 | -SubTopic 605
+001443 | -Name Accounting Standards Codification
+001444 | -Section 55
+001445 | -Paragraph 14
+001446 | -Publisher FASB
+001447 | -URI https://asc.fasb.org/1943274/2147477548/944-605-55-14
+001448 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+001449 | -Topic 944
+001450 | -SubTopic 605
+001451 | -Name Accounting Standards Codification
+001452 | -Section 55
+001453 | -Paragraph 11
+001454 | -Publisher FASB
+001455 | -URI https://asc.fasb.org/1943274/2147477548/944-605-55-11
+001456 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+001457 | -Topic 852
+001458 | -SubTopic 10
+001459 | -Name Accounting Standards Codification
+001460 | -Section 55
+001461 | -Paragraph 10
+001462 | -Publisher FASB
+001463 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+001464 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+001465 | -Topic 944
+001466 | -SubTopic 210
+001467 | -Name Accounting Standards Codification
+001468 | -Section S99
+001469 | -Paragraph 1
+001470 | -Subparagraph (SX 210.7-03(a)(25))
+001471 | -Publisher FASB
+001472 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+001473 | Reference 7: http://www.xbrl.org/2009/role/commonPracticeRef
+001474 | -Topic 235
+001475 | -SubTopic 10
+001476 | -Name Accounting Standards Codification
+001477 | -Section S99
+001478 | -Paragraph 1
+001479 | -Subparagraph (SX 210.4-08(g)(1)(ii))
+001480 | -Publisher FASB
+001481 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+001482 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+001483 | -Topic 323
+001484 | -SubTopic 10
+001485 | -Name Accounting Standards Codification
+001486 | -Section 50
+001487 | -Paragraph 3
+001488 | -Subparagraph (c)
+001489 | -Publisher FASB
+001490 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+001491 | Reference 9: http://fasb.org/us-gaap/role/ref/legacyRef
+001492 | -Topic 942
+001493 | -SubTopic 210
+001494 | -Name Accounting Standards Codification
+001495 | -Section S99
+001496 | -Paragraph 1
+001497 | -Subparagraph (SX 210.9-03(23))
+001498 | -Publisher FASB
+001499 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+001500 | Reference 10: http://fasb.org/us-gaap/role/ref/legacyRef
+001501 | -Topic 210
+001502 | -SubTopic 10
+001503 | -Name Accounting Standards Codification
+001504 | -Section S99
+001505 | -Paragraph 1
+001506 | -Subparagraph (SX 210.5-02(32))
+001507 | -Publisher FASB
+001508 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+001509 | + Details
+001510 | Name:
+001511 | us-gaap_LiabilitiesAndStockholdersEquity
+001512 | Namespace Prefix:
+001513 | us-gaap_
+001514 | Data Type:
+001515 | xbrli:monetaryItemType
+001516 | Balance Type:
+001517 | credit
+001518 | Period Type:
+001519 | instant
+001520 | X
+001521 | - Definition
+001522 | Total obligations incurred as part of normal operations that are expected to be paid during the following twelve months or within one business cycle, if longer.
+001523 | + References
+001524 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+001525 | -Topic 235
+001526 | -SubTopic 10
+001527 | -Name Accounting Standards Codification
+001528 | -Section S50
+001529 | -Paragraph 1
+001530 | -Publisher FASB
+001531 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+001532 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+001533 | -Topic 235
+001534 | -SubTopic 10
+001535 | -Name Accounting Standards Codification
+001536 | -Section S99
+001537 | -Paragraph 1
+001538 | -Subparagraph (SX 210.4-08(g)(1)(i))
+001539 | -Publisher FASB
+001540 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+001541 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+001542 | -Topic 825
+001543 | -SubTopic 10
+001544 | -Name Accounting Standards Codification
+001545 | -Section 50
+001546 | -Paragraph 28
+001547 | -Subparagraph (f)
+001548 | -Publisher FASB
+001549 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+001550 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+001551 | -Topic 210
+001552 | -SubTopic 10
+001553 | -Name Accounting Standards Codification
+001554 | -Section S99
+001555 | -Paragraph 1
+001556 | -Subparagraph (SX 210.5-02(21))
+001557 | -Publisher FASB
+001558 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+001559 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+001560 | -Topic 810
+001561 | -SubTopic 10
+001562 | -Name Accounting Standards Codification
+001563 | -Section 50
+001564 | -Paragraph 3
+001565 | -Subparagraph (c)
+001566 | -Publisher FASB
+001567 | -URI https://asc.fasb.org/1943274/2147481203/810-10-50-3
+001568 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+001569 | -Topic 810
+001570 | -SubTopic 10
+001571 | -Name Accounting Standards Codification
+001572 | -Section 45
+001573 | -Paragraph 25
+001574 | -Subparagraph (b)
+001575 | -Publisher FASB
+001576 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-25
+001577 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+001578 | -Topic 810
+001579 | -SubTopic 10
+001580 | -Name Accounting Standards Codification
+001581 | -Section 50
+001582 | -Paragraph 3
+001583 | -Subparagraph (bb)
+001584 | -Publisher FASB
+001585 | -URI https://asc.fasb.org/1943274/2147481203/810-10-50-3
+001586 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+001587 | -Topic 235
+001588 | -SubTopic 10
+001589 | -Name Accounting Standards Codification
+001590 | -Section S99
+001591 | -Paragraph 1
+001592 | -Subparagraph (SX 210.4-08(g)(1)(ii))
+001593 | -Publisher FASB
+001594 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+001595 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+001596 | -Topic 323
+001597 | -SubTopic 10
+001598 | -Name Accounting Standards Codification
+001599 | -Section 50
+001600 | -Paragraph 3
+001601 | -Subparagraph (c)
+001602 | -Publisher FASB
+001603 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+001604 | Reference 10: http://www.xbrl.org/2003/role/exampleRef
+001605 | -Topic 852
+001606 | -SubTopic 10
+001607 | -Name Accounting Standards Codification
+001608 | -Section 55
+001609 | -Paragraph 10
+001610 | -Publisher FASB
+001611 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+001612 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+001613 | -Topic 210
+001614 | -SubTopic 10
+001615 | -Name Accounting Standards Codification
+001616 | -Section 45
+001617 | -Paragraph 5
+001618 | -Publisher FASB
+001619 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-5
+001620 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+001621 | -Topic 470
+001622 | -SubTopic 10
+001623 | -Name Accounting Standards Codification
+001624 | -Section S99
+001625 | -Paragraph 1A
+001626 | -Subparagraph (SX 210.13-01(a)(4)(i))
+001627 | -Publisher FASB
+001628 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+001629 | Reference 13: http://www.xbrl.org/2009/role/commonPracticeRef
+001630 | -Topic 470
+001631 | -SubTopic 10
+001632 | -Name Accounting Standards Codification
+001633 | -Section S99
+001634 | -Paragraph 1A
+001635 | -Subparagraph (SX 210.13-01(a)(4)(ii))
+001636 | -Publisher FASB
+001637 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+001638 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+001639 | -Topic 470
+001640 | -SubTopic 10
+001641 | -Name Accounting Standards Codification
+001642 | -Section S99
+001643 | -Paragraph 1A
+001644 | -Subparagraph (SX 210.13-01(a)(4)(iii)(A))
+001645 | -Publisher FASB
+001646 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+001647 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+001648 | -Topic 470
+001649 | -SubTopic 10
+001650 | -Name Accounting Standards Codification
+001651 | -Section S99
+001652 | -Paragraph 1A
+001653 | -Subparagraph (SX 210.13-01(a)(4)(iv))
+001654 | -Publisher FASB
+001655 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+001656 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+001657 | -Topic 470
+001658 | -SubTopic 10
+001659 | -Name Accounting Standards Codification
+001660 | -Section S99
+001661 | -Paragraph 1A
+001662 | -Subparagraph (SX 210.13-01(a)(5))
+001663 | -Publisher FASB
+001664 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+001665 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+001666 | -Topic 470
+001667 | -SubTopic 10
+001668 | -Name Accounting Standards Codification
+001669 | -Section S99
+001670 | -Paragraph 1B
+001671 | -Subparagraph (SX 210.13-02(a)(4)(i))
+001672 | -Publisher FASB
+001673 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+001674 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+001675 | -Topic 470
+001676 | -SubTopic 10
+001677 | -Name Accounting Standards Codification
+001678 | -Section S99
+001679 | -Paragraph 1B
+001680 | -Subparagraph (SX 210.13-02(a)(4)(iii)(A))
+001681 | -Publisher FASB
+001682 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+001683 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+001684 | -Topic 470
+001685 | -SubTopic 10
+001686 | -Name Accounting Standards Codification
+001687 | -Section S99
+001688 | -Paragraph 1B
+001689 | -Subparagraph (SX 210.13-02(a)(4)(iii)(B))
+001690 | -Publisher FASB
+001691 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+001692 | Reference 20: http://www.xbrl.org/2003/role/disclosureRef
+001693 | -Topic 470
+001694 | -SubTopic 10
+001695 | -Name Accounting Standards Codification
+001696 | -Section S99
+001697 | -Paragraph 1B
+001698 | -Subparagraph (SX 210.13-02(a)(4)(iv))
+001699 | -Publisher FASB
+001700 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+001701 | Reference 21: http://www.xbrl.org/2003/role/disclosureRef
+001702 | -Topic 470
+001703 | -SubTopic 10
+001704 | -Name Accounting Standards Codification
+001705 | -Section S99
+001706 | -Paragraph 1B
+001707 | -Subparagraph (SX 210.13-02(a)(5))
+001708 | -Publisher FASB
+001709 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+001710 | Reference 22: http://www.xbrl.org/2009/role/commonPracticeRef
+001711 | -Topic 852
+001712 | -SubTopic 10
+001713 | -Name Accounting Standards Codification
+001714 | -Section 50
+001715 | -Paragraph 7
+001716 | -Subparagraph (a)
+001717 | -Publisher FASB
+001718 | -URI https://asc.fasb.org/1943274/2147481404/852-10-50-7
+001719 | Reference 23: http://www.xbrl.org/2009/role/commonPracticeRef
+001720 | -Topic 852
+001721 | -SubTopic 10
+001722 | -Name Accounting Standards Codification
+001723 | -Section 50
+001724 | -Paragraph 7
+001725 | -Subparagraph (b)
+001726 | -Publisher FASB
+001727 | -URI https://asc.fasb.org/1943274/2147481404/852-10-50-7
+001728 | + Details
+001729 | Name:
+001730 | us-gaap_LiabilitiesCurrent
+001731 | Namespace Prefix:
+001732 | us-gaap_
+001733 | Data Type:
+001734 | xbrli:monetaryItemType
+001735 | Balance Type:
+001736 | credit
+001737 | Period Type:
+001738 | instant
+001739 | X
+001740 | - References
+001741 | No definition available.
+001742 | + Details
+001743 | Name:
+001744 | us-gaap_LiabilitiesCurrentAbstract
+001745 | Namespace Prefix:
+001746 | us-gaap_
+001747 | Data Type:
+001748 | xbrli:stringItemType
+001749 | Balance Type:
+001750 | na
+001751 | Period Type:
+001752 | duration
+001753 | X
+001754 | - Definition
+001755 | Amount classified as liabilities attributable to disposal group held for sale or disposed of, expected to be disposed of within one year or the normal operating cycle, if longer.
+001756 | + References
+001757 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+001758 | -Name Accounting Standards Codification
+001759 | -Section 45
+001760 | -Paragraph 10
+001761 | -SubTopic 20
+001762 | -Topic 205
+001763 | -Publisher FASB
+001764 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+001765 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+001766 | -Topic 205
+001767 | -SubTopic 20
+001768 | -Name Accounting Standards Codification
+001769 | -Section 50
+001770 | -Paragraph 7
+001771 | -Publisher FASB
+001772 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7
+001773 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+001774 | -Topic 205
+001775 | -SubTopic 20
+001776 | -Name Accounting Standards Codification
+001777 | -Section 50
+001778 | -Paragraph 5C
+001779 | -Subparagraph (a)(2)
+001780 | -Publisher FASB
+001781 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+001782 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+001783 | -Topic 360
+001784 | -SubTopic 10
+001785 | -Name Accounting Standards Codification
+001786 | -Section 45
+001787 | -Paragraph 9
+001788 | -Publisher FASB
+001789 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-9
+001790 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+001791 | -Topic 205
+001792 | -SubTopic 20
+001793 | -Name Accounting Standards Codification
+001794 | -Section 50
+001795 | -Paragraph 5B
+001796 | -Subparagraph (e)
+001797 | -Publisher FASB
+001798 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+001799 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+001800 | -Topic 360
+001801 | -SubTopic 10
+001802 | -Name Accounting Standards Codification
+001803 | -Section 50
+001804 | -Paragraph 3
+001805 | -Subparagraph (e)
+001806 | -Publisher FASB
+001807 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+001808 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+001809 | -Topic 205
+001810 | -SubTopic 20
+001811 | -Name Accounting Standards Codification
+001812 | -Section 45
+001813 | -Paragraph 11
+001814 | -Publisher FASB
+001815 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+001816 | + Details
+001817 | Name:
+001818 | us-gaap_LiabilitiesOfDisposalGroupIncludingDiscontinuedOperationCurrent
+001819 | Namespace Prefix:
+001820 | us-gaap_
+001821 | Data Type:
+001822 | xbrli:monetaryItemType
+001823 | Balance Type:
+001824 | credit
+001825 | Period Type:
+001826 | instant
+001827 | X
+001828 | - Definition
+001829 | Amount classified as liabilities attributable to disposal group held for sale or disposed of, expected to be disposed of beyond one year or the normal operating cycle, if longer.
+001830 | + References
+001831 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+001832 | -Name Accounting Standards Codification
+001833 | -Section 45
+001834 | -Paragraph 10
+001835 | -SubTopic 20
+001836 | -Topic 205
+001837 | -Publisher FASB
+001838 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+001839 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+001840 | -Name Accounting Standards Codification
+001841 | -Section 45
+001842 | -Paragraph 11
+001843 | -SubTopic 10
+001844 | -Topic 360
+001845 | -Publisher FASB
+001846 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-11
+001847 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+001848 | -Topic 205
+001849 | -SubTopic 20
+001850 | -Name Accounting Standards Codification
+001851 | -Section 50
+001852 | -Paragraph 7
+001853 | -Publisher FASB
+001854 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7
+001855 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+001856 | -Topic 205
+001857 | -SubTopic 20
+001858 | -Name Accounting Standards Codification
+001859 | -Section 50
+001860 | -Paragraph 5C
+001861 | -Subparagraph (a)(2)
+001862 | -Publisher FASB
+001863 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+001864 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+001865 | -Topic 205
+001866 | -SubTopic 20
+001867 | -Name Accounting Standards Codification
+001868 | -Section 50
+001869 | -Paragraph 5B
+001870 | -Subparagraph (e)
+001871 | -Publisher FASB
+001872 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+001873 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+001874 | -Topic 360
+001875 | -SubTopic 10
+001876 | -Name Accounting Standards Codification
+001877 | -Section 50
+001878 | -Paragraph 3
+001879 | -Subparagraph (e)
+001880 | -Publisher FASB
+001881 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+001882 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+001883 | -Topic 205
+001884 | -SubTopic 20
+001885 | -Name Accounting Standards Codification
+001886 | -Section 45
+001887 | -Paragraph 11
+001888 | -Publisher FASB
+001889 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+001890 | + Details
+001891 | Name:
+001892 | us-gaap_LiabilitiesOfDisposalGroupIncludingDiscontinuedOperationNoncurrent
+001893 | Namespace Prefix:
+001894 | us-gaap_
+001895 | Data Type:
+001896 | xbrli:monetaryItemType
+001897 | Balance Type:
+001898 | credit
+001899 | Period Type:
+001900 | instant
+001901 | X
+001902 | - Definition
+001903 | Amount of long-term debt and lease obligation, classified as noncurrent.
+001904 | + References
+001905 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+001906 | -Name Accounting Standards Codification
+001907 | -Section S99
+001908 | -Paragraph 1
+001909 | -Subparagraph (SX 210.5-02(22))
+001910 | -SubTopic 10
+001911 | -Topic 210
+001912 | -Publisher FASB
+001913 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+001914 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+001915 | -Topic 944
+001916 | -SubTopic 210
+001917 | -Name Accounting Standards Codification
+001918 | -Section S99
+001919 | -Paragraph 1
+001920 | -Subparagraph (SX 210.7-03(a)(16)(a)(2))
+001921 | -Publisher FASB
+001922 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+001923 | + Details
+001924 | Name:
+001925 | us-gaap_LongTermDebtAndCapitalLeaseObligations
+001926 | Namespace Prefix:
+001927 | us-gaap_
+001928 | Data Type:
+001929 | xbrli:monetaryItemType
+001930 | Balance Type:
+001931 | credit
+001932 | Period Type:
+001933 | instant
+001934 | X
+001935 | - Definition
+001936 | Amount of long-term debt and lease obligation, classified as current.
+001937 | + References
+001938 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+001939 | -Topic 210
+001940 | -SubTopic 10
+001941 | -Name Accounting Standards Codification
+001942 | -Section S99
+001943 | -Paragraph 1
+001944 | -Subparagraph (SX 210.5-02(20))
+001945 | -Publisher FASB
+001946 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+001947 | + Details
+001948 | Name:
+001949 | us-gaap_LongTermDebtAndCapitalLeaseObligationsCurrent
+001950 | Namespace Prefix:
+001951 | us-gaap_
+001952 | Data Type:
+001953 | xbrli:monetaryItemType
+001954 | Balance Type:
+001955 | credit
+001956 | Period Type:
+001957 | instant
+001958 | X
+001959 | - Definition
+001960 | The total amount of investments that are intended to be held for an extended period of time (longer than one operating cycle) and amount due to the Entity from outside sources, including trade accounts receivable, notes and loans receivable, as well as any other types of receivables, net of allowances established for the purpose of reducing such investments and receivables to an amount that approximates their net realizable value.
+001961 | + References
+001962 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+001963 | -Topic 210
+001964 | -SubTopic 10
+001965 | -Name Accounting Standards Codification
+001966 | -Section S99
+001967 | -Paragraph 1
+001968 | -Subparagraph (SX 210.5-02(18))
+001969 | -Publisher FASB
+001970 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+001971 | + Details
+001972 | Name:
+001973 | us-gaap_LongTermInvestmentsAndReceivablesNet
+001974 | Namespace Prefix:
+001975 | us-gaap_
+001976 | Data Type:
+001977 | xbrli:monetaryItemType
+001978 | Balance Type:
+001979 | debit
+001980 | Period Type:
+001981 | instant
+001982 | X
+001983 | - Definition
+001984 | Amount of loss contingency liability expected to be resolved after one year or beyond the normal operating cycle, if longer.
+001985 | + References
+001986 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+001987 | -Topic 450
+001988 | -SubTopic 20
+001989 | -Name Accounting Standards Codification
+001990 | -Section 50
+001991 | -Paragraph 1
+001992 | -Publisher FASB
+001993 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+001994 | + Details
+001995 | Name:
+001996 | us-gaap_LossContingencyAccrualCarryingValueNoncurrent
+001997 | Namespace Prefix:
+001998 | us-gaap_
+001999 | Data Type:
+002000 | xbrli:monetaryItemType
+002001 | Balance Type:
+002002 | credit
+002003 | Period Type:
+002004 | instant
+002005 | X
+002006 | - Definition
+002007 | Amount of equity (deficit) attributable to noncontrolling interest. Excludes temporary equity.
+002008 | + References
+002009 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+002010 | -Topic 235
+002011 | -SubTopic 10
+002012 | -Name Accounting Standards Codification
+002013 | -Section S50
+002014 | -Paragraph 1
+002015 | -Publisher FASB
+002016 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+002017 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+002018 | -Topic 235
+002019 | -SubTopic 10
+002020 | -Name Accounting Standards Codification
+002021 | -Section S99
+002022 | -Paragraph 1
+002023 | -Subparagraph (SX 210.4-08(g)(1)(i))
+002024 | -Publisher FASB
+002025 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+002026 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+002027 | -Topic 825
+002028 | -SubTopic 10
+002029 | -Name Accounting Standards Codification
+002030 | -Section 50
+002031 | -Paragraph 28
+002032 | -Subparagraph (f)
+002033 | -Publisher FASB
+002034 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+002035 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+002036 | -Topic 210
+002037 | -SubTopic 10
+002038 | -Name Accounting Standards Codification
+002039 | -Section S99
+002040 | -Paragraph 1
+002041 | -Subparagraph (SX 210.5-02(31))
+002042 | -Publisher FASB
+002043 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002044 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+002045 | -Topic 235
+002046 | -SubTopic 10
+002047 | -Name Accounting Standards Codification
+002048 | -Section S99
+002049 | -Paragraph 1
+002050 | -Subparagraph (SX 210.4-08(g)(1)(ii))
+002051 | -Publisher FASB
+002052 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+002053 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+002054 | -Topic 323
+002055 | -SubTopic 10
+002056 | -Name Accounting Standards Codification
+002057 | -Section 50
+002058 | -Paragraph 3
+002059 | -Subparagraph (c)
+002060 | -Publisher FASB
+002061 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+002062 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+002063 | -Topic 944
+002064 | -SubTopic 210
+002065 | -Name Accounting Standards Codification
+002066 | -Section S99
+002067 | -Paragraph 1
+002068 | -Subparagraph (SX 210.7-03(a)(24))
+002069 | -Publisher FASB
+002070 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+002071 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+002072 | -Topic 946
+002073 | -SubTopic 210
+002074 | -Name Accounting Standards Codification
+002075 | -Section S99
+002076 | -Paragraph 1
+002077 | -Subparagraph (SX 210.6-04(19))
+002078 | -Publisher FASB
+002079 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+002080 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+002081 | -Topic 470
+002082 | -SubTopic 10
+002083 | -Name Accounting Standards Codification
+002084 | -Section S99
+002085 | -Paragraph 1A
+002086 | -Subparagraph (SX 210.13-01(a)(4)(i))
+002087 | -Publisher FASB
+002088 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+002089 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+002090 | -Topic 470
+002091 | -SubTopic 10
+002092 | -Name Accounting Standards Codification
+002093 | -Section S99
+002094 | -Paragraph 1A
+002095 | -Subparagraph (SX 210.13-01(a)(4)(iv))
+002096 | -Publisher FASB
+002097 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+002098 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+002099 | -Topic 470
+002100 | -SubTopic 10
+002101 | -Name Accounting Standards Codification
+002102 | -Section S99
+002103 | -Paragraph 1A
+002104 | -Subparagraph (SX 210.13-01(a)(5))
+002105 | -Publisher FASB
+002106 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1A
+002107 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+002108 | -Topic 470
+002109 | -SubTopic 10
+002110 | -Name Accounting Standards Codification
+002111 | -Section S99
+002112 | -Paragraph 1B
+002113 | -Subparagraph (SX 210.13-02(a)(4)(i))
+002114 | -Publisher FASB
+002115 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+002116 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+002117 | -Topic 470
+002118 | -SubTopic 10
+002119 | -Name Accounting Standards Codification
+002120 | -Section S99
+002121 | -Paragraph 1B
+002122 | -Subparagraph (SX 210.13-02(a)(4)(iv))
+002123 | -Publisher FASB
+002124 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+002125 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+002126 | -Topic 470
+002127 | -SubTopic 10
+002128 | -Name Accounting Standards Codification
+002129 | -Section S99
+002130 | -Paragraph 1B
+002131 | -Subparagraph (SX 210.13-02(a)(5))
+002132 | -Publisher FASB
+002133 | -URI https://asc.fasb.org/1943274/2147480097/470-10-S99-1B
+002134 | Reference 15: http://fasb.org/us-gaap/role/ref/legacyRef
+002135 | -Topic 942
+002136 | -SubTopic 210
+002137 | -Name Accounting Standards Codification
+002138 | -Section S99
+002139 | -Paragraph 1
+002140 | -Subparagraph (SX 210.9-03(22))
+002141 | -Publisher FASB
+002142 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+002143 | + Details
+002144 | Name:
+002145 | us-gaap_MinorityInterest
+002146 | Namespace Prefix:
+002147 | us-gaap_
+002148 | Data Type:
+002149 | xbrli:monetaryItemType
+002150 | Balance Type:
+002151 | credit
+002152 | Period Type:
+002153 | instant
+002154 | X
+002155 | - Definition
+002156 | Amount of current assets classified as other.
+002157 | + References
+002158 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+002159 | -Topic 852
+002160 | -SubTopic 10
+002161 | -Name Accounting Standards Codification
+002162 | -Section 55
+002163 | -Paragraph 10
+002164 | -Publisher FASB
+002165 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+002166 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+002167 | -Topic 210
+002168 | -SubTopic 10
+002169 | -Name Accounting Standards Codification
+002170 | -Section S99
+002171 | -Paragraph 1
+002172 | -Subparagraph (SX 210.5-02(8))
+002173 | -Publisher FASB
+002174 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002175 | + Details
+002176 | Name:
+002177 | us-gaap_OtherAssetsCurrent
+002178 | Namespace Prefix:
+002179 | us-gaap_
+002180 | Data Type:
+002181 | xbrli:monetaryItemType
+002182 | Balance Type:
+002183 | debit
+002184 | Period Type:
+002185 | instant
+002186 | X
+002187 | - Definition
+002188 | Amount of noncurrent assets classified as other.
+002189 | + References
+002190 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+002191 | -Topic 210
+002192 | -SubTopic 10
+002193 | -Name Accounting Standards Codification
+002194 | -Section S99
+002195 | -Paragraph 1
+002196 | -Subparagraph (SX 210.5-02(17))
+002197 | -Publisher FASB
+002198 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002199 | + Details
+002200 | Name:
+002201 | us-gaap_OtherAssetsNoncurrent
+002202 | Namespace Prefix:
+002203 | us-gaap_
+002204 | Data Type:
+002205 | xbrli:monetaryItemType
+002206 | Balance Type:
+002207 | debit
+002208 | Period Type:
+002209 | instant
+002210 | X
+002211 | - Definition
+002212 | Amount of liabilities classified as other, due after one year or the normal operating cycle, if longer.
+002213 | + References
+002214 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+002215 | -Topic 210
+002216 | -SubTopic 10
+002217 | -Name Accounting Standards Codification
+002218 | -Section S99
+002219 | -Paragraph 1
+002220 | -Subparagraph (SX 210.5-02(24))
+002221 | -Publisher FASB
+002222 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002223 | + Details
+002224 | Name:
+002225 | us-gaap_OtherLiabilitiesNoncurrent
+002226 | Namespace Prefix:
+002227 | us-gaap_
+002228 | Data Type:
+002229 | xbrli:monetaryItemType
+002230 | Balance Type:
+002231 | credit
+002232 | Period Type:
+002233 | instant
+002234 | X
+002235 | - Definition
+002236 | Amount of liability, recognized in statement of financial position, for defined benefit other postretirement plan, classified as noncurrent. Excludes pension plan.
+002237 | + References
+002238 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+002239 | -Topic 715
+002240 | -SubTopic 20
+002241 | -Name Accounting Standards Codification
+002242 | -Section 45
+002243 | -Paragraph 3
+002244 | -Publisher FASB
+002245 | -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3
+002246 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+002247 | -Topic 210
+002248 | -SubTopic 10
+002249 | -Name Accounting Standards Codification
+002250 | -Section S99
+002251 | -Paragraph 1
+002252 | -Subparagraph (SX 210.5-02(24))
+002253 | -Publisher FASB
+002254 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002255 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+002256 | -Name Accounting Standards Codification
+002257 | -Topic 715
+002258 | -SubTopic 20
+002259 | -Section 45
+002260 | -Paragraph 2
+002261 | -Publisher FASB
+002262 | -URI https://asc.fasb.org/1943274/2147480535/715-20-45-2
+002263 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+002264 | -Name Accounting Standards Codification
+002265 | -Topic 715
+002266 | -SubTopic 20
+002267 | -Section 50
+002268 | -Paragraph 1
+002269 | -Subparagraph (c)
+002270 | -Publisher FASB
+002271 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+002272 | + Details
+002273 | Name:
+002274 | us-gaap_OtherPostretirementDefinedBenefitPlanLiabilitiesNoncurrent
+002275 | Namespace Prefix:
+002276 | us-gaap_
+002277 | Data Type:
+002278 | xbrli:monetaryItemType
+002279 | Balance Type:
+002280 | credit
+002281 | Period Type:
+002282 | instant
+002283 | X
+002284 | - Definition
+002285 | Amount, after accumulated depreciation and amortization, of property, plant, and equipment and finance lease right-of-use asset.
+002286 | + References
+002287 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+002288 | -Topic 360
+002289 | -SubTopic 10
+002290 | -Name Accounting Standards Codification
+002291 | -Section 50
+002292 | -Paragraph 1
+002293 | -Publisher FASB
+002294 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-1
+002295 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+002296 | -Name Accounting Standards Codification
+002297 | -Section 50
+002298 | -Paragraph 4
+002299 | -Subparagraph (a)
+002300 | -SubTopic 20
+002301 | -Topic 842
+002302 | -Publisher FASB
+002303 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+002304 | + Details
+002305 | Name:
+002306 | us-gaap_PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization
+002307 | Namespace Prefix:
+002308 | us-gaap_
+002309 | Data Type:
+002310 | xbrli:monetaryItemType
+002311 | Balance Type:
+002312 | debit
+002313 | Period Type:
+002314 | instant
+002315 | X
+002316 | - Definition
+002317 | As of the reporting date, the carrying amount of noncontrolling interests which are redeemable by the (parent) entity (1) at a fixed or determinable price on a fixed or determinable date, (2) at the option of the holder of the noncontrolling interest, or (3) upon occurrence of an event that is not solely within the control of the (parent) entity. The noncontrolling interest holder's ownership (or holders' ownership) may be in the form of common shares (regardless of class), limited partnership units (regardless of class), non-preferential membership interests, or any other form of common equity regardless of investee entity legal form.
+002318 | + References
+002319 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+002320 | -Topic 480
+002321 | -SubTopic 10
+002322 | -Name Accounting Standards Codification
+002323 | -Section S50
+002324 | -Paragraph 3
+002325 | -Publisher FASB
+002326 | -URI https://asc.fasb.org/1943274/2147479857/480-10-S50-3
+002327 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+002328 | -Topic 480
+002329 | -SubTopic 10
+002330 | -Name Accounting Standards Codification
+002331 | -Section S45
+002332 | -Paragraph 3
+002333 | -Publisher FASB
+002334 | -URI https://asc.fasb.org/1943274/2147479887/480-10-S45-3
+002335 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+002336 | -Topic 480
+002337 | -SubTopic 10
+002338 | -Name Accounting Standards Codification
+002339 | -Section S99
+002340 | -Paragraph 3A
+002341 | -Subparagraph (24)
+002342 | -Publisher FASB
+002343 | -URI https://asc.fasb.org/1943274/2147480244/480-10-S99-3A
+002344 | + Details
+002345 | Name:
+002346 | us-gaap_RedeemableNoncontrollingInterestEquityCommonCarryingAmount
+002347 | Namespace Prefix:
+002348 | us-gaap_
+002349 | Data Type:
+002350 | xbrli:monetaryItemType
+002351 | Balance Type:
+002352 | credit
+002353 | Period Type:
+002354 | instant
+002355 | X
+002356 | - Definition
+002357 | Amount of accumulated undistributed earnings (deficit).
+002358 | + References
+002359 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+002360 | -Topic 210
+002361 | -SubTopic 10
+002362 | -Name Accounting Standards Codification
+002363 | -Section S99
+002364 | -Paragraph 1
+002365 | -Subparagraph (SX 210.5-02(30)(a)(3))
+002366 | -Publisher FASB
+002367 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002368 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+002369 | -Topic 852
+002370 | -SubTopic 10
+002371 | -Name Accounting Standards Codification
+002372 | -Section 55
+002373 | -Paragraph 10
+002374 | -Publisher FASB
+002375 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+002376 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+002377 | -Topic 944
+002378 | -SubTopic 40
+002379 | -Name Accounting Standards Codification
+002380 | -Section 65
+002381 | -Paragraph 2
+002382 | -Subparagraph (g)(2)(i)
+002383 | -Publisher FASB
+002384 | -URI https://asc.fasb.org/1943274/2147480016/944-40-65-2
+002385 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+002386 | -Topic 944
+002387 | -SubTopic 40
+002388 | -Name Accounting Standards Codification
+002389 | -Section 65
+002390 | -Paragraph 2
+002391 | -Subparagraph (h)(2)
+002392 | -Publisher FASB
+002393 | -URI https://asc.fasb.org/1943274/2147480016/944-40-65-2
+002394 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+002395 | -Topic 946
+002396 | -SubTopic 20
+002397 | -Name Accounting Standards Codification
+002398 | -Section 50
+002399 | -Paragraph 11
+002400 | -Publisher FASB
+002401 | -URI https://asc.fasb.org/1943274/2147480990/946-20-50-11
+002402 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+002403 | -Topic 944
+002404 | -SubTopic 210
+002405 | -Name Accounting Standards Codification
+002406 | -Section S99
+002407 | -Paragraph 1
+002408 | -Subparagraph (SX 210.7-03(a)(23)(a)(4))
+002409 | -Publisher FASB
+002410 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+002411 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+002412 | -Topic 946
+002413 | -SubTopic 210
+002414 | -Name Accounting Standards Codification
+002415 | -Section S99
+002416 | -Paragraph 1
+002417 | -Subparagraph (SX 210.6-04(17))
+002418 | -Publisher FASB
+002419 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+002420 | Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef
+002421 | -Topic 505
+002422 | -SubTopic 10
+002423 | -Name Accounting Standards Codification
+002424 | -Section S99
+002425 | -Paragraph 1
+002426 | -Subparagraph (SX 210.3-04)
+002427 | -Publisher FASB
+002428 | -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1
+002429 | + Details
+002430 | Name:
+002431 | us-gaap_RetainedEarningsAccumulatedDeficit
+002432 | Namespace Prefix:
+002433 | us-gaap_
+002434 | Data Type:
+002435 | xbrli:monetaryItemType
+002436 | Balance Type:
+002437 | credit
+002438 | Period Type:
+002439 | instant
+002440 | X
+002441 | - Definition
+002442 | Reflects the total carrying amount as of the balance sheet date of debt having initial terms less than one year or the normal operating cycle, if longer.
+002443 | + References
+002444 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+002445 | -Topic 210
+002446 | -SubTopic 10
+002447 | -Name Accounting Standards Codification
+002448 | -Section S99
+002449 | -Paragraph 1
+002450 | -Subparagraph (SX 210.5-02(19)(a))
+002451 | -Publisher FASB
+002452 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002453 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+002454 | -Topic 942
+002455 | -SubTopic 210
+002456 | -Name Accounting Standards Codification
+002457 | -Section S99
+002458 | -Paragraph 1
+002459 | -Subparagraph (SX 210.9-03(13))
+002460 | -Publisher FASB
+002461 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+002462 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+002463 | -Topic 852
+002464 | -SubTopic 10
+002465 | -Name Accounting Standards Codification
+002466 | -Section 55
+002467 | -Paragraph 10
+002468 | -Publisher FASB
+002469 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+002470 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+002471 | -Topic 944
+002472 | -SubTopic 210
+002473 | -Name Accounting Standards Codification
+002474 | -Section S99
+002475 | -Paragraph 1
+002476 | -Subparagraph (SX 210.7-03(a)(16)(a)(1))
+002477 | -Publisher FASB
+002478 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+002479 | + Details
+002480 | Name:
+002481 | us-gaap_ShortTermBorrowings
+002482 | Namespace Prefix:
+002483 | us-gaap_
+002484 | Data Type:
+002485 | xbrli:monetaryItemType
+002486 | Balance Type:
+002487 | credit
+002488 | Period Type:
+002489 | instant
+002490 | X
+002491 | - Definition
+002492 | Amount of investments including trading securities, available-for-sale securities, held-to-maturity securities, and short-term investments classified as other and current.
+002493 | + References
+002494 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+002495 | -Topic 942
+002496 | -SubTopic 210
+002497 | -Name Accounting Standards Codification
+002498 | -Section S99
+002499 | -Paragraph 1
+002500 | -Subparagraph (SX 210.9-03(4))
+002501 | -Publisher FASB
+002502 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+002503 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+002504 | -Topic 942
+002505 | -SubTopic 210
+002506 | -Name Accounting Standards Codification
+002507 | -Section S99
+002508 | -Paragraph 1
+002509 | -Subparagraph (SX 210.9-03(5))
+002510 | -Publisher FASB
+002511 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+002512 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+002513 | -Topic 210
+002514 | -SubTopic 10
+002515 | -Name Accounting Standards Codification
+002516 | -Section S99
+002517 | -Paragraph 1
+002518 | -Subparagraph (SX 210.5-02(8))
+002519 | -Publisher FASB
+002520 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002521 | + Details
+002522 | Name:
+002523 | us-gaap_ShortTermInvestments
+002524 | Namespace Prefix:
+002525 | us-gaap_
+002526 | Data Type:
+002527 | xbrli:monetaryItemType
+002528 | Balance Type:
+002529 | debit
+002530 | Period Type:
+002531 | instant
+002532 | X
+002533 | - Definition
+002534 | Amount of equity (deficit) attributable to parent. Excludes temporary equity and equity attributable to noncontrolling interest.
+002535 | + References
+002536 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+002537 | -Topic 235
+002538 | -SubTopic 10
+002539 | -Name Accounting Standards Codification
+002540 | -Section S50
+002541 | -Paragraph 1
+002542 | -Publisher FASB
+002543 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+002544 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+002545 | -Topic 235
+002546 | -SubTopic 10
+002547 | -Name Accounting Standards Codification
+002548 | -Section S99
+002549 | -Paragraph 1
+002550 | -Subparagraph (SX 210.4-08(g)(1)(i))
+002551 | -Publisher FASB
+002552 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+002553 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+002554 | -Topic 825
+002555 | -SubTopic 10
+002556 | -Name Accounting Standards Codification
+002557 | -Section 50
+002558 | -Paragraph 28
+002559 | -Subparagraph (f)
+002560 | -Publisher FASB
+002561 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+002562 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+002563 | -Topic 210
+002564 | -SubTopic 10
+002565 | -Name Accounting Standards Codification
+002566 | -Section S99
+002567 | -Paragraph 1
+002568 | -Subparagraph (SX 210.5-02(29))
+002569 | -Publisher FASB
+002570 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002571 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+002572 | -Topic 210
+002573 | -SubTopic 10
+002574 | -Name Accounting Standards Codification
+002575 | -Section S99
+002576 | -Paragraph 1
+002577 | -Subparagraph (SX 210.5-02(30))
+002578 | -Publisher FASB
+002579 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002580 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+002581 | -Topic 210
+002582 | -SubTopic 10
+002583 | -Name Accounting Standards Codification
+002584 | -Section S99
+002585 | -Paragraph 1
+002586 | -Subparagraph (SX 210.5-02(31))
+002587 | -Publisher FASB
+002588 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+002589 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+002590 | -Topic 852
+002591 | -SubTopic 10
+002592 | -Name Accounting Standards Codification
+002593 | -Section 55
+002594 | -Paragraph 10
+002595 | -Publisher FASB
+002596 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+002597 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+002598 | -Topic 946
+002599 | -SubTopic 830
+002600 | -Name Accounting Standards Codification
+002601 | -Section 55
+002602 | -Paragraph 12
+002603 | -Publisher FASB
+002604 | -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12
+002605 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+002606 | -Topic 946
+002607 | -SubTopic 210
+002608 | -Name Accounting Standards Codification
+002609 | -Section S99
+002610 | -Paragraph 1
+002611 | -Subparagraph (SX 210.6-04(19))
+002612 | -Publisher FASB
+002613 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+002614 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+002615 | -Topic 946
+002616 | -SubTopic 210
+002617 | -Name Accounting Standards Codification
+002618 | -Section S99
+002619 | -Paragraph 2
+002620 | -Subparagraph (SX 210.6-05(4))
+002621 | -Publisher FASB
+002622 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2
+002623 | Reference 11: http://www.xbrl.org/2009/role/commonPracticeRef
+002624 | -Topic 946
+002625 | -SubTopic 220
+002626 | -Name Accounting Standards Codification
+002627 | -Section S99
+002628 | -Paragraph 3
+002629 | -Subparagraph (SX 210.6-09(4)(b))
+002630 | -Publisher FASB
+002631 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+002632 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+002633 | -Topic 946
+002634 | -SubTopic 220
+002635 | -Name Accounting Standards Codification
+002636 | -Section S99
+002637 | -Paragraph 3
+002638 | -Subparagraph (SX 210.6-09(6))
+002639 | -Publisher FASB
+002640 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+002641 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+002642 | -Topic 946
+002643 | -SubTopic 220
+002644 | -Name Accounting Standards Codification
+002645 | -Section S99
+002646 | -Paragraph 3
+002647 | -Subparagraph (SX 210.6-09(7))
+002648 | -Publisher FASB
+002649 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+002650 | Reference 14: http://www.xbrl.org/2009/role/commonPracticeRef
+002651 | -Topic 235
+002652 | -SubTopic 10
+002653 | -Name Accounting Standards Codification
+002654 | -Section S99
+002655 | -Paragraph 1
+002656 | -Subparagraph (SX 210.4-08(g)(1)(ii))
+002657 | -Publisher FASB
+002658 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+002659 | Reference 15: http://www.xbrl.org/2009/role/commonPracticeRef
+002660 | -Topic 323
+002661 | -SubTopic 10
+002662 | -Name Accounting Standards Codification
+002663 | -Section 50
+002664 | -Paragraph 3
+002665 | -Subparagraph (c)
+002666 | -Publisher FASB
+002667 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+002668 | Reference 16: http://fasb.org/us-gaap/role/ref/legacyRef
+002669 | -Topic 310
+002670 | -SubTopic 10
+002671 | -Name Accounting Standards Codification
+002672 | -Section S99
+002673 | -Paragraph 2
+002674 | -Subparagraph (SAB Topic 4.E)
+002675 | -Publisher FASB
+002676 | -URI https://asc.fasb.org/1943274/2147480418/310-10-S99-2
+002677 | + Details
+002678 | Name:
+002679 | us-gaap_StockholdersEquity
+002680 | Namespace Prefix:
+002681 | us-gaap_
+002682 | Data Type:
+002683 | xbrli:monetaryItemType
+002684 | Balance Type:
+002685 | credit
+002686 | Period Type:
+002687 | instant
+002688 | X
+002689 | - References
+002690 | No definition available.
+002691 | + Details
+002692 | Name:
+002693 | us-gaap_StockholdersEquityAbstract
+002694 | Namespace Prefix:
+002695 | us-gaap_
+002696 | Data Type:
+002697 | xbrli:stringItemType
+002698 | Balance Type:
+002699 | na
+002700 | Period Type:
+002701 | duration
+002702 | X
+002703 | - Definition
+002704 | Amount of equity (deficit) attributable to parent and noncontrolling interest. Excludes temporary equity.
+002705 | + References
+002706 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+002707 | -Topic 235
+002708 | -SubTopic 10
+002709 | -Name Accounting Standards Codification
+002710 | -Section S50
+002711 | -Paragraph 1
+002712 | -Publisher FASB
+002713 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+002714 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+002715 | -Topic 235
+002716 | -SubTopic 10
+002717 | -Name Accounting Standards Codification
+002718 | -Section S99
+002719 | -Paragraph 1
+002720 | -Subparagraph (SX 210.4-08(g)(1)(i))
+002721 | -Publisher FASB
+002722 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+002723 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+002724 | -Topic 825
+002725 | -SubTopic 10
+002726 | -Name Accounting Standards Codification
+002727 | -Section 50
+002728 | -Paragraph 28
+002729 | -Subparagraph (f)
+002730 | -Publisher FASB
+002731 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+002732 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+002733 | -Topic 105
+002734 | -SubTopic 10
+002735 | -Name Accounting Standards Codification
+002736 | -Section 65
+002737 | -Paragraph 9
+002738 | -Subparagraph (e)
+002739 | -Publisher FASB
+002740 | -URI https://asc.fasb.org/1943274/2147479343/105-10-65-9
+002741 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+002742 | -Topic 105
+002743 | -SubTopic 10
+002744 | -Name Accounting Standards Codification
+002745 | -Section 65
+002746 | -Paragraph 9
+002747 | -Subparagraph (d)(2)
+002748 | -Publisher FASB
+002749 | -URI https://asc.fasb.org/1943274/2147479343/105-10-65-9
+002750 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+002751 | -Topic 718
+002752 | -SubTopic 10
+002753 | -Name Accounting Standards Codification
+002754 | -Section 65
+002755 | -Paragraph 17
+002756 | -Subparagraph (d)(1)
+002757 | -Publisher FASB
+002758 | -URI https://asc.fasb.org/1943274/2147480336/718-10-65-17
+002759 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+002760 | -Topic 944
+002761 | -SubTopic 605
+002762 | -Name Accounting Standards Codification
+002763 | -Section 55
+002764 | -Paragraph 14
+002765 | -Publisher FASB
+002766 | -URI https://asc.fasb.org/1943274/2147477548/944-605-55-14
+002767 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+002768 | -Topic 944
+002769 | -SubTopic 605
+002770 | -Name Accounting Standards Codification
+002771 | -Section 55
+002772 | -Paragraph 11
+002773 | -Publisher FASB
+002774 | -URI https://asc.fasb.org/1943274/2147477548/944-605-55-11
+002775 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+002776 | -Topic 250
+002777 | -SubTopic 10
+002778 | -Name Accounting Standards Codification
+002779 | -Section 50
+002780 | -Paragraph 6
+002781 | -Publisher FASB
+002782 | -URI https://asc.fasb.org/1943274/2147483443/250-10-50-6
+002783 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+002784 | -Topic 805
+002785 | -SubTopic 60
+002786 | -Name Accounting Standards Codification
+002787 | -Section 65
+002788 | -Paragraph 1
+002789 | -Subparagraph (g)
+002790 | -Publisher FASB
+002791 | -URI https://asc.fasb.org/1943274/2147476176/805-60-65-1
+002792 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+002793 | -Topic 805
+002794 | -SubTopic 60
+002795 | -Name Accounting Standards Codification
+002796 | -Section 65
+002797 | -Paragraph 1
+002798 | -Subparagraph (d)(1)
+002799 | -Publisher FASB
+002800 | -URI https://asc.fasb.org/1943274/2147476176/805-60-65-1
+002801 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+002802 | -Topic 740
+002803 | -SubTopic 323
+002804 | -Name Accounting Standards Codification
+002805 | -Section 65
+002806 | -Paragraph 2
+002807 | -Subparagraph (e)
+002808 | -Publisher FASB
+002809 | -URI https://asc.fasb.org/1943274/2147478666/740-323-65-2
+002810 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+002811 | -Topic 740
+002812 | -SubTopic 323
+002813 | -Name Accounting Standards Codification
+002814 | -Section 65
+002815 | -Paragraph 2
+002816 | -Subparagraph (g)(4)
+002817 | -Publisher FASB
+002818 | -URI https://asc.fasb.org/1943274/2147478666/740-323-65-2
+002819 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+002820 | -Topic 740
+002821 | -SubTopic 323
+002822 | -Name Accounting Standards Codification
+002823 | -Section 65
+002824 | -Paragraph 2
+002825 | -Subparagraph (d)(2)
+002826 | -Publisher FASB
+002827 | -URI https://asc.fasb.org/1943274/2147478666/740-323-65-2
+002828 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+002829 | -Topic 740
+002830 | -SubTopic 323
+002831 | -Name Accounting Standards Codification
+002832 | -Section 65
+002833 | -Paragraph 2
+002834 | -Subparagraph (d)(1)
+002835 | -Publisher FASB
+002836 | -URI https://asc.fasb.org/1943274/2147478666/740-323-65-2
+002837 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+002838 | -Topic 848
+002839 | -SubTopic 10
+002840 | -Name Accounting Standards Codification
+002841 | -Section 65
+002842 | -Paragraph 2
+002843 | -Subparagraph (a)(3)(iii)(03)
+002844 | -Publisher FASB
+002845 | -URI https://asc.fasb.org/1943274/2147483550/848-10-65-2
+002846 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+002847 | -Topic 842
+002848 | -SubTopic 10
+002849 | -Name Accounting Standards Codification
+002850 | -Section 65
+002851 | -Paragraph 8
+002852 | -Subparagraph (c)(3)
+002853 | -Publisher FASB
+002854 | -URI https://asc.fasb.org/1943274/2147479832/842-10-65-8
+002855 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+002856 | -Topic 250
+002857 | -SubTopic 10
+002858 | -Name Accounting Standards Codification
+002859 | -Section 45
+002860 | -Paragraph 24
+002861 | -Publisher FASB
+002862 | -URI https://asc.fasb.org/1943274/2147483421/250-10-45-24
+002863 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+002864 | -Topic 250
+002865 | -SubTopic 10
+002866 | -Name Accounting Standards Codification
+002867 | -Section 45
+002868 | -Paragraph 23
+002869 | -Subparagraph (b)
+002870 | -Publisher FASB
+002871 | -URI https://asc.fasb.org/1943274/2147483421/250-10-45-23
+002872 | Reference 20: http://www.xbrl.org/2003/role/disclosureRef
+002873 | -Topic 250
+002874 | -SubTopic 10
+002875 | -Name Accounting Standards Codification
+002876 | -Section 45
+002877 | -Paragraph 5
+002878 | -Subparagraph (b)
+002879 | -Publisher FASB
+002880 | -URI https://asc.fasb.org/1943274/2147483421/250-10-45-5
+002881 | Reference 21: http://www.xbrl.org/2003/role/disclosureRef
+002882 | -Topic 326
+002883 | -SubTopic 10
+002884 | -Name Accounting Standards Codification
+002885 | -Section 65
+002886 | -Paragraph 5
+002887 | -Subparagraph (c)(2)
+002888 | -Publisher FASB
+002889 | -URI https://asc.fasb.org/1943274/2147479654/326-10-65-5
+002890 | Reference 22: http://www.xbrl.org/2003/role/disclosureRef
+002891 | -Topic 815
+002892 | -SubTopic 20
+002893 | -Name Accounting Standards Codification
+002894 | -Section 65
+002895 | -Paragraph 6
+002896 | -Subparagraph (e)
+002897 | -Publisher FASB
+002898 | -URI https://asc.fasb.org/1943274/2147480528/815-20-65-6
+002899 | Reference 23: http://www.xbrl.org/2003/role/disclosureRef
+002900 | -Topic 815
+002901 | -SubTopic 20
+002902 | -Name Accounting Standards Codification
+002903 | -Section 65
+002904 | -Paragraph 6
+002905 | -Subparagraph (h)(1)
+002906 | -Publisher FASB
+002907 | -URI https://asc.fasb.org/1943274/2147480528/815-20-65-6
+002908 | Reference 24: http://www.xbrl.org/2003/role/disclosureRef
+002909 | -Topic 815
+002910 | -SubTopic 20
+002911 | -Name Accounting Standards Codification
+002912 | -Section 65
+002913 | -Paragraph 6
+002914 | -Subparagraph (h)(1)(i)
+002915 | -Publisher FASB
+002916 | -URI https://asc.fasb.org/1943274/2147480528/815-20-65-6
+002917 | Reference 25: http://www.xbrl.org/2003/role/disclosureRef
+002918 | -Topic 815
+002919 | -SubTopic 20
+002920 | -Name Accounting Standards Codification
+002921 | -Section 65
+002922 | -Paragraph 6
+002923 | -Subparagraph (h)(1)(iii)
+002924 | -Publisher FASB
+002925 | -URI https://asc.fasb.org/1943274/2147480528/815-20-65-6
+002926 | Reference 26: http://www.xbrl.org/2003/role/disclosureRef
+002927 | -Topic 815
+002928 | -SubTopic 20
+002929 | -Name Accounting Standards Codification
+002930 | -Section 65
+002931 | -Paragraph 6
+002932 | -Subparagraph (h)(1)(iv)
+002933 | -Publisher FASB
+002934 | -URI https://asc.fasb.org/1943274/2147480528/815-20-65-6
+002935 | Reference 27: http://www.xbrl.org/2003/role/disclosureRef
+002936 | -Topic 815
+002937 | -SubTopic 20
+002938 | -Name Accounting Standards Codification
+002939 | -Section 65
+002940 | -Paragraph 6
+002941 | -Subparagraph (i)(3)
+002942 | -Publisher FASB
+002943 | -URI https://asc.fasb.org/1943274/2147480528/815-20-65-6
+002944 | Reference 28: http://www.xbrl.org/2003/role/disclosureRef
+002945 | -Topic 105
+002946 | -SubTopic 10
+002947 | -Name Accounting Standards Codification
+002948 | -Section 65
+002949 | -Paragraph 6
+002950 | -Subparagraph (c)
+002951 | -Publisher FASB
+002952 | -URI https://asc.fasb.org/1943274/2147479343/105-10-65-6
+002953 | Reference 29: http://www.xbrl.org/2003/role/disclosureRef
+002954 | -Topic 105
+002955 | -SubTopic 10
+002956 | -Name Accounting Standards Codification
+002957 | -Section 65
+002958 | -Paragraph 6
+002959 | -Subparagraph (d)
+002960 | -Publisher FASB
+002961 | -URI https://asc.fasb.org/1943274/2147479343/105-10-65-6
+002962 | Reference 30: http://www.xbrl.org/2003/role/disclosureRef
+002963 | -Topic 944
+002964 | -SubTopic 40
+002965 | -Name Accounting Standards Codification
+002966 | -Section 65
+002967 | -Paragraph 2
+002968 | -Subparagraph (f)(1)
+002969 | -Publisher FASB
+002970 | -URI https://asc.fasb.org/1943274/2147480016/944-40-65-2
+002971 | Reference 31: http://www.xbrl.org/2003/role/disclosureRef
+002972 | -Topic 944
+002973 | -SubTopic 40
+002974 | -Name Accounting Standards Codification
+002975 | -Section 65
+002976 | -Paragraph 2
+002977 | -Subparagraph (f)(2)
+002978 | -Publisher FASB
+002979 | -URI https://asc.fasb.org/1943274/2147480016/944-40-65-2
+002980 | Reference 32: http://www.xbrl.org/2003/role/disclosureRef
+002981 | -Topic 740
+002982 | -SubTopic 10
+002983 | -Name Accounting Standards Codification
+002984 | -Section 65
+002985 | -Paragraph 8
+002986 | -Subparagraph (d)(2)
+002987 | -Publisher FASB
+002988 | -URI https://asc.fasb.org/1943274/2147482615/740-10-65-8
+002989 | Reference 33: http://www.xbrl.org/2003/role/disclosureRef
+002990 | -Topic 740
+002991 | -SubTopic 10
+002992 | -Name Accounting Standards Codification
+002993 | -Section 65
+002994 | -Paragraph 8
+002995 | -Subparagraph (d)(3)
+002996 | -Publisher FASB
+002997 | -URI https://asc.fasb.org/1943274/2147482615/740-10-65-8
+002998 | Reference 34: http://www.xbrl.org/2003/role/disclosureRef
+002999 | -Topic 326
+003000 | -SubTopic 10
+003001 | -Name Accounting Standards Codification
+003002 | -Section 65
+003003 | -Paragraph 4
+003004 | -Subparagraph (d)
+003005 | -Publisher FASB
+003006 | -URI https://asc.fasb.org/1943274/2147479654/326-10-65-4
+003007 | Reference 35: http://www.xbrl.org/2003/role/disclosureRef
+003008 | -Topic 250
+003009 | -SubTopic 10
+003010 | -Name Accounting Standards Codification
+003011 | -Section 50
+003012 | -Paragraph 1
+003013 | -Subparagraph (b)(3)
+003014 | -Publisher FASB
+003015 | -URI https://asc.fasb.org/1943274/2147483443/250-10-50-1
+003016 | Reference 36: http://www.xbrl.org/2003/role/disclosureRef
+003017 | -Topic 815
+003018 | -SubTopic 40
+003019 | -Name Accounting Standards Codification
+003020 | -Section 65
+003021 | -Paragraph 1
+003022 | -Subparagraph (e)(3)
+003023 | -Publisher FASB
+003024 | -URI https://asc.fasb.org/1943274/2147480175/815-40-65-1
+003025 | Reference 37: http://www.xbrl.org/2003/role/disclosureRef
+003026 | -Topic 250
+003027 | -SubTopic 10
+003028 | -Name Accounting Standards Codification
+003029 | -Section 50
+003030 | -Paragraph 7
+003031 | -Subparagraph (b)
+003032 | -Publisher FASB
+003033 | -URI https://asc.fasb.org/1943274/2147483443/250-10-50-7
+003034 | Reference 38: http://www.xbrl.org/2003/role/disclosureRef
+003035 | -Topic 220
+003036 | -SubTopic 10
+003037 | -Name Accounting Standards Codification
+003038 | -Section 50
+003039 | -Paragraph 5
+003040 | -Publisher FASB
+003041 | -URI https://asc.fasb.org/1943274/2147482765/220-10-50-5
+003042 | Reference 39: http://www.xbrl.org/2003/role/disclosureRef
+003043 | -Topic 830
+003044 | -SubTopic 30
+003045 | -Name Accounting Standards Codification
+003046 | -Section 50
+003047 | -Paragraph 1
+003048 | -Publisher FASB
+003049 | -URI https://asc.fasb.org/1943274/2147481674/830-30-50-1
+003050 | Reference 40: http://www.xbrl.org/2003/role/disclosureRef
+003051 | -Topic 830
+003052 | -SubTopic 30
+003053 | -Name Accounting Standards Codification
+003054 | -Section 45
+003055 | -Paragraph 17
+003056 | -Publisher FASB
+003057 | -URI https://asc.fasb.org/1943274/2147481694/830-30-45-17
+003058 | Reference 41: http://www.xbrl.org/2003/role/disclosureRef
+003059 | -Topic 830
+003060 | -SubTopic 30
+003061 | -Name Accounting Standards Codification
+003062 | -Section 45
+003063 | -Paragraph 20
+003064 | -Subparagraph (a)
+003065 | -Publisher FASB
+003066 | -URI https://asc.fasb.org/1943274/2147481694/830-30-45-20
+003067 | Reference 42: http://www.xbrl.org/2003/role/exampleRef
+003068 | -Topic 946
+003069 | -SubTopic 830
+003070 | -Name Accounting Standards Codification
+003071 | -Section 55
+003072 | -Paragraph 11
+003073 | -Publisher FASB
+003074 | -URI https://asc.fasb.org/1943274/2147479168/946-830-55-11
+003075 | Reference 43: http://www.xbrl.org/2003/role/disclosureRef
+003076 | -Topic 946
+003077 | -SubTopic 205
+003078 | -Name Accounting Standards Codification
+003079 | -Section 45
+003080 | -Paragraph 3
+003081 | -Publisher FASB
+003082 | -URI https://asc.fasb.org/1943274/2147478009/946-205-45-3
+003083 | Reference 44: http://www.xbrl.org/2003/role/disclosureRef
+003084 | -Topic 946
+003085 | -SubTopic 505
+003086 | -Name Accounting Standards Codification
+003087 | -Section 50
+003088 | -Paragraph 3
+003089 | -Publisher FASB
+003090 | -URI https://asc.fasb.org/1943274/2147478448/946-505-50-3
+003091 | Reference 45: http://www.xbrl.org/2003/role/disclosureRef
+003092 | -Topic 946
+003093 | -SubTopic 210
+003094 | -Name Accounting Standards Codification
+003095 | -Section S99
+003096 | -Paragraph 1
+003097 | -Subparagraph (SX 210.6-04(19))
+003098 | -Publisher FASB
+003099 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+003100 | Reference 46: http://www.xbrl.org/2003/role/disclosureRef
+003101 | -Topic 946
+003102 | -SubTopic 210
+003103 | -Name Accounting Standards Codification
+003104 | -Section S99
+003105 | -Paragraph 2
+003106 | -Subparagraph (SX 210.6-05(4))
+003107 | -Publisher FASB
+003108 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2
+003109 | Reference 47: http://www.xbrl.org/2009/role/commonPracticeRef
+003110 | -Topic 946
+003111 | -SubTopic 220
+003112 | -Name Accounting Standards Codification
+003113 | -Section S99
+003114 | -Paragraph 3
+003115 | -Subparagraph (SX 210.6-09(4)(b))
+003116 | -Publisher FASB
+003117 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+003118 | Reference 48: http://www.xbrl.org/2003/role/disclosureRef
+003119 | -Topic 946
+003120 | -SubTopic 220
+003121 | -Name Accounting Standards Codification
+003122 | -Section S99
+003123 | -Paragraph 3
+003124 | -Subparagraph (SX 210.6-09(6))
+003125 | -Publisher FASB
+003126 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+003127 | Reference 49: http://www.xbrl.org/2003/role/disclosureRef
+003128 | -Topic 946
+003129 | -SubTopic 220
+003130 | -Name Accounting Standards Codification
+003131 | -Section S99
+003132 | -Paragraph 3
+003133 | -Subparagraph (SX 210.6-09(7))
+003134 | -Publisher FASB
+003135 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+003136 | Reference 50: http://www.xbrl.org/2003/role/disclosureRef
+003137 | -Topic 505
+003138 | -SubTopic 10
+003139 | -Name Accounting Standards Codification
+003140 | -Section S99
+003141 | -Paragraph 1
+003142 | -Subparagraph (SX 210.3-04)
+003143 | -Publisher FASB
+003144 | -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1
+003145 | Reference 51: http://www.xbrl.org/2009/role/commonPracticeRef
+003146 | -Topic 235
+003147 | -SubTopic 10
+003148 | -Name Accounting Standards Codification
+003149 | -Section S99
+003150 | -Paragraph 1
+003151 | -Subparagraph (SX 210.4-08(g)(1)(ii))
+003152 | -Publisher FASB
+003153 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+003154 | Reference 52: http://www.xbrl.org/2009/role/commonPracticeRef
+003155 | -Topic 323
+003156 | -SubTopic 10
+003157 | -Name Accounting Standards Codification
+003158 | -Section 50
+003159 | -Paragraph 3
+003160 | -Subparagraph (c)
+003161 | -Publisher FASB
+003162 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+003163 | Reference 53: http://fasb.org/us-gaap/role/ref/legacyRef
+003164 | -Name Accounting Standards Codification
+003165 | -Topic 810
+003166 | -SubTopic 10
+003167 | -Section 45
+003168 | -Paragraph 15
+003169 | -Publisher FASB
+003170 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-15
+003171 | Reference 54: http://fasb.org/us-gaap/role/ref/legacyRef
+003172 | -Name Accounting Standards Codification
+003173 | -Topic 810
+003174 | -SubTopic 10
+003175 | -Section 45
+003176 | -Paragraph 16
+003177 | -Publisher FASB
+003178 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-16
+003179 | Reference 55: http://fasb.org/us-gaap/role/ref/legacyRef
+003180 | -Name Accounting Standards Codification
+003181 | -Topic 810
+003182 | -SubTopic 10
+003183 | -Section 55
+003184 | -Paragraph 4I
+003185 | -Publisher FASB
+003186 | -URI https://asc.fasb.org/1943274/2147481175/810-10-55-4I
+003187 | Reference 56: http://www.xbrl.org/2003/role/disclosureRef
+003188 | -Topic 350
+003189 | -SubTopic 60
+003190 | -Name Accounting Standards Codification
+003191 | -Section 65
+003192 | -Paragraph 1
+003193 | -Subparagraph (b)
+003194 | -Publisher FASB
+003195 | -URI https://asc.fasb.org/1943274/2147476166/350-60-65-1
+003196 | Reference 57: http://www.xbrl.org/2003/role/disclosureRef
+003197 | -Topic 470
+003198 | -SubTopic 20
+003199 | -Name Accounting Standards Codification
+003200 | -Section 65
+003201 | -Paragraph 4
+003202 | -Subparagraph (f)(3)
+003203 | -Publisher FASB
+003204 | -URI https://asc.fasb.org/1943274/2147481538/470-20-65-4
+003205 | + Details
+003206 | Name:
+003207 | us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest
+003208 | Namespace Prefix:
+003209 | us-gaap_
+003210 | Data Type:
+003211 | xbrli:monetaryItemType
+003212 | Balance Type:
+003213 | credit
+003214 | Period Type:
+003215 | instant
+003216 | X
+003217 | - Definition
+003218 | The amount allocated to treasury stock. Treasury stock is common and preferred shares of an entity that were issued, repurchased by the entity, and are held in its treasury.
+003219 | + References
+003220 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+003221 | -Topic 210
+003222 | -SubTopic 10
+003223 | -Name Accounting Standards Codification
+003224 | -Section S99
+003225 | -Paragraph 1
+003226 | -Subparagraph (SX 210.5-02(29))
+003227 | -Publisher FASB
+003228 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+003229 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+003230 | -Topic 210
+003231 | -SubTopic 10
+003232 | -Name Accounting Standards Codification
+003233 | -Section S99
+003234 | -Paragraph 1
+003235 | -Subparagraph (SX 210.5-02(30))
+003236 | -Publisher FASB
+003237 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+003238 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+003239 | -Name Accounting Standards Codification
+003240 | -Topic 505
+003241 | -SubTopic 30
+003242 | -Section 50
+003243 | -Paragraph 4
+003244 | -Publisher FASB
+003245 | -URI https://asc.fasb.org/1943274/2147481520/505-30-50-4
+003246 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+003247 | -Name Accounting Standards Codification
+003248 | -Topic 505
+003249 | -SubTopic 30
+003250 | -Section 45
+003251 | -Paragraph 1
+003252 | -Publisher FASB
+003253 | -URI https://asc.fasb.org/1943274/2147481549/505-30-45-1
+003254 | + Details
+003255 | Name:
+003256 | us-gaap_TreasuryStockValue
+003257 | Namespace Prefix:
+003258 | us-gaap_
+003259 | Data Type:
+003260 | xbrli:monetaryItemType
+003261 | Balance Type:
+003262 | debit
+003263 | Period Type:
+003264 | instant
+003265 | X
+003266 | - Details
+003267 | Name:
+003268 | us-gaap_DisposalGroupClassificationAxis=us-gaap_SegmentDiscontinuedOperationsMember
+003269 | Namespace Prefix:
+003270 | Data Type:
+003271 | na
+003272 | Balance Type:
+003273 | Period Type:
+003274 | X
+003275 | - Details
+003276 | Name:
+003277 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+003278 | Namespace Prefix:
+003279 | Data Type:
+003280 | na
+003281 | Balance Type:
+003282 | Period Type:

@@ -1,0 +1,182 @@
+000001 | v3.10.0.1
+000002 | Related Party Transactions with Honeywell - Summary of Components of Net Transfers to and from Honeywell (Details) - Honeywell - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2018
+000007 | Sep. 30, 2017
+000008 | Sep. 30, 2018
+000009 | Sep. 30, 2017
+000010 | Related Party Transaction [Line Items]
+000011 | General financing activities
+000012 | $ (200)
+000013 | $ (199)
+000014 | $ (618)
+000015 | $ (465)
+000016 | Unbilled corporate allocations
+000017 | 66
+000018 | 74
+000019 | 203
+000020 | 211
+000021 | Sales to Honeywell
+000022 | (4)
+000023 | (2)
+000024 | (11)
+000025 | (9)
+000026 | Purchases from Honeywell
+000027 | 27
+000028 | 45
+000029 | 119
+000030 | 127
+000031 | Stock compensation expense and other compensation awards
+000032 | 7
+000033 | 4
+000034 | 14
+000035 | 12
+000036 | Unbilled pension expense
+000037 | 3
+000038 | 4
+000039 | 10
+000040 | 12
+000041 | Net increase (decrease) in invested equity
+000042 | $ (101)
+000043 | $ (74)
+000044 | $ (283)
+000045 | $ (112)
+000046 | X
+000047 | - Definition
+000048 | General financing activities.
+000049 | + References
+000050 | No definition available.
+000051 | + Details
+000052 | Name:
+000053 | rezi_GeneralFinancingActivities
+000054 | Namespace Prefix:
+000055 | rezi_
+000056 | Data Type:
+000057 | xbrli:monetaryItemType
+000058 | Balance Type:
+000059 | debit
+000060 | Period Type:
+000061 | duration
+000062 | X
+000063 | - Definition
+000064 | Net increase decrease in invested equity.
+000065 | + References
+000066 | No definition available.
+000067 | + Details
+000068 | Name:
+000069 | rezi_NetIncreaseDecreaseInInvestedEquity
+000070 | Namespace Prefix:
+000071 | rezi_
+000072 | Data Type:
+000073 | xbrli:monetaryItemType
+000074 | Balance Type:
+000075 | credit
+000076 | Period Type:
+000077 | duration
+000078 | X
+000079 | - Definition
+000080 | Related party transaction purchases invested equity from related party.
+000081 | + References
+000082 | No definition available.
+000083 | + Details
+000084 | Name:
+000085 | rezi_RelatedPartyTransactionPurchasesInvestedEquityFromRelatedParty
+000086 | Namespace Prefix:
+000087 | rezi_
+000088 | Data Type:
+000089 | xbrli:monetaryItemType
+000090 | Balance Type:
+000091 | credit
+000092 | Period Type:
+000093 | duration
+000094 | X
+000095 | - Definition
+000096 | Related party transaction sales to related party.
+000097 | + References
+000098 | No definition available.
+000099 | + Details
+000100 | Name:
+000101 | rezi_RelatedPartyTransactionSalesToRelatedParty
+000102 | Namespace Prefix:
+000103 | rezi_
+000104 | Data Type:
+000105 | xbrli:monetaryItemType
+000106 | Balance Type:
+000107 | debit
+000108 | Period Type:
+000109 | duration
+000110 | X
+000111 | - Definition
+000112 | Stock compensation expense and other compensation awards.
+000113 | + References
+000114 | No definition available.
+000115 | + Details
+000116 | Name:
+000117 | rezi_StockCompensationExpenseAndOtherCompensationAwards
+000118 | Namespace Prefix:
+000119 | rezi_
+000120 | Data Type:
+000121 | xbrli:monetaryItemType
+000122 | Balance Type:
+000123 | credit
+000124 | Period Type:
+000125 | duration
+000126 | X
+000127 | - Definition
+000128 | General corporate expenses incurred by the parent company that were allocated to the company.
+000129 | + References
+000130 | No definition available.
+000131 | + Details
+000132 | Name:
+000133 | rezi_UnbilledCorporateAllocations
+000134 | Namespace Prefix:
+000135 | rezi_
+000136 | Data Type:
+000137 | xbrli:monetaryItemType
+000138 | Balance Type:
+000139 | credit
+000140 | Period Type:
+000141 | duration
+000142 | X
+000143 | - Definition
+000144 | Unbilled pension expense.
+000145 | + References
+000146 | No definition available.
+000147 | + Details
+000148 | Name:
+000149 | rezi_UnbilledPensionExpense
+000150 | Namespace Prefix:
+000151 | rezi_
+000152 | Data Type:
+000153 | xbrli:monetaryItemType
+000154 | Balance Type:
+000155 | credit
+000156 | Period Type:
+000157 | duration
+000158 | X
+000159 | - Definition
+000160 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000161 | + References
+000162 | No definition available.
+000163 | + Details
+000164 | Name:
+000165 | us-gaap_RelatedPartyTransactionLineItems
+000166 | Namespace Prefix:
+000167 | us-gaap_
+000168 | Data Type:
+000169 | xbrli:stringItemType
+000170 | Balance Type:
+000171 | na
+000172 | Period Type:
+000173 | duration
+000174 | X
+000175 | - Details
+000176 | Name:
+000177 | us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=rezi_HoneywellMember
+000178 | Namespace Prefix:
+000179 | Data Type:
+000180 | na
+000181 | Balance Type:
+000182 | Period Type:
