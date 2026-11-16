@@ -12,4 +12,4 @@ Folders in `runs/live` are team-selected live-record locations; their presence d
 | Sam | Sagard Private Income Fund Inc. (not listed) | Honeywell Aerospace (HONA) | Form D worksheet saved; no exchange price or reaction. |
 | Ryan | Lucid Group (LCID) | Resideo (REZI) | Form 4 worksheet saved; no post-filing close or computed view. |
 
-All three worksheets passed the direct numeric guard. The hit-rate table reports one price reaction, marked `after`, and 0/0 agreements. These are local files only. No Git commit or push was made, so this folder does not establish the course's commit timestamp or 24-hour rule.
+All three worksheets passed the direct numeric guard. The hit-rate table reports one price reaction, marked `after`, and 0/0 agreements. 
