@@ -132,9 +132,29 @@ def sec_row(cik, accession, form, filing_date):
             'path': f'edgar/data/{int(cik)}/{compact[:10]}-{compact[10:12]}-{compact[12:]}.txt'}
 
 
-def get_form_folder(client, row, target, *, expected_form=None):
+def get_form_folder(client, row, target, *, expected_form=None, saved_run=None):
     records = []
     accession = row['path'].rsplit('/', 1)[-1].removesuffix('.txt').replace('-', '')
+    # Reuse a filing already downloaded by the agent team. Preserve its text
+    # inside the worksheet source pack so later steps never fetch it again.
+    if saved_run:
+        form = str(row.get('form', '')).upper().replace('/', '_')
+        for candidate in Path(saved_run).glob('*.txt'):
+            name = candidate.name
+            if accession not in re.sub(r'\D', '', name):
+                continue
+            if form not in name.upper().replace('/', '_'):
+                continue
+            output_name = f'saved_{accession}_{safe_component(name)}'
+            destination = target / output_name
+            if not destination.exists():
+                body = candidate.read_text(encoding='utf-8', errors='replace')
+                destination.write_text(numbered(body), encoding='utf-8')
+            records.append({'form': expected_form or row['form'], 'accession': accession,
+                            'name': name, 'url': 'saved agent-team filing',
+                            'path': str(destination.relative_to(target.parent)), 'kind': 'reused saved filing'})
+        if records:
+            return records
     docs = seeker.read_filing_folder(client, row)
     for index, doc in enumerate(docs, 1):
         if not isinstance(doc.get('text'), str):
@@ -312,7 +332,7 @@ def prepare(args):
                               str((row or {}).get('form', '10')),
                               str((row or {}).get('filingDate') or as_of.isoformat()))
             try:
-                saved.extend(get_form_folder(client, row, output, expected_form=str(row.get('form', 'Form 10'))))
+                saved.extend(get_form_folder(client, row, output, expected_form=str(row.get('form', 'Form 10')), saved_run=run))
             except Exception as exc:
                 errors.append({'stage': 'Form 10 folder', 'accession': registration_accession,
                                'error': type(exc).__name__})
@@ -354,7 +374,7 @@ def prepare(args):
                 errors.append({'stage': 'live release acceptance time', 'accession': accession,
                                'error': 'SEC submissions data did not provide the accepted timestamp'})
             try:
-                live_release['documents'] = get_form_folder(client, release_row, output, expected_form='live_release_' + str(chosen['form']))
+                live_release['documents'] = get_form_folder(client, release_row, output, expected_form='live_release_' + str(chosen['form']), saved_run=live_run)
                 saved.extend(live_release['documents'])
             except Exception as exc:
                 errors.append({'stage': 'live release filing folder', 'accession': accession,
@@ -372,7 +392,7 @@ def prepare(args):
             try:
                 event_row = sec_row(source_cik, accession, '8-K', filed or as_of.isoformat())
                 distribution_filing_documents.extend(
-                    get_form_folder(client, event_row, output, expected_form='distribution_8-K'))
+                    get_form_folder(client, event_row, output, expected_form='distribution_8-K', saved_run=run))
             except Exception as exc:
                 errors.append({'stage': 'distribution filing folder', 'accession': accession,
                                'error': type(exc).__name__})
@@ -387,7 +407,7 @@ def prepare(args):
                 for row in own_rows:
                     if row['date'] == first_day:
                         try:
-                            company_first_post_spin.extend(get_form_folder(client, row, output, expected_form='first_post_spin_' + row['form']))
+                            company_first_post_spin.extend(get_form_folder(client, row, output, expected_form='first_post_spin_' + row['form'], saved_run=run))
                         except Exception as exc:
                             errors.append({'stage': 'first company filing after spin', 'form': row['form'], 'error': type(exc).__name__})
         except Exception as exc:
@@ -415,6 +435,10 @@ def prepare(args):
                   and row.get('filingDate') and row['filingDate'] <= as_of.isoformat()]
     if present and distribution_date:
         form4_rows = [row for row in form4_rows if row['filingDate'] >= distribution_date]
+    else:
+        # Do not fetch the company's full Form 4 history when registry presence
+        # or a post-spin start date has not been established.
+        form4_rows = []
     for row in form4_rows:
         accession = re.sub(r'\D', '', str(row.get('accessionNumber', '')))
         if not accession:

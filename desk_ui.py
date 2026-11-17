@@ -18,7 +18,7 @@ from urllib.parse import unquote, urlsplit
 from markdown_it import MarkdownIt
 
 ROOT = Path(__file__).resolve().parent
-RUNS = (ROOT / "equity_research_runs").resolve()
+RUNS = (ROOT / "one_desk_runs").resolve()
 SPINOFF_RUNS = (ROOT / "spinoff_runs").resolve()
 SPINOFF_SCRIPT = ROOT / ".agents" / "skills" / "us-spinoff-seeker" / "scripts" / "seeker.py"
 LSEG_PYTHON = Path.home() / ".codex" / "venvs" / "us-spinoff-lseg" / "Scripts" / "python.exe"
@@ -32,19 +32,23 @@ lock = threading.Lock()
 
 
 def saved_worksheets() -> list[dict]:
-    """List saved run folders that contain both a report and a worksheet."""
+    """List saved joined-desk runs that contain a report and worksheet."""
     result = []
     if not RUNS.is_dir():
         return result
     for run in sorted(RUNS.iterdir(), reverse=True):
         if not run.is_dir() or not run.resolve().is_relative_to(RUNS):
             continue
-        report = run / "verified_report.md"
-        worksheets = sorted(run.glob("worksheet-*.md"), reverse=True)
-        if report.is_file() and report.resolve().is_relative_to(run.resolve()) and worksheets:
-            worksheet = next((p for p in worksheets if p.is_file() and p.resolve().is_relative_to(run.resolve())), None)
-            if worksheet:
-                result.append({"id": run.name, "worksheet": worksheet.name})
+        report = run / "final_report.md"
+        metadata = run / "run.json"
+        if report.is_file() and metadata.is_file() and report.resolve().is_relative_to(run.resolve()):
+            try:
+                record = json.loads(metadata.read_text(encoding="utf-8"))
+                worksheet = Path(record["worksheet"]).resolve()
+            except (OSError, ValueError, KeyError):
+                continue
+            if worksheet.is_file() and worksheet.is_relative_to(run.resolve()):
+                result.append({"id": run.name, "worksheet": str(worksheet.relative_to(run.resolve()))})
     return result
 
 
@@ -53,9 +57,12 @@ def saved_worksheet(run_id: str) -> dict:
     if not matches:
         raise ValueError('Saved worksheet run not found.')
     run = RUNS / run_id
-    report = run / 'verified_report.md'
+    report = run / 'final_report.md'
     worksheet = run / matches[0]['worksheet']
-    return {'report_html': renderer.render(report.read_text(encoding='utf-8')),
+    report_text = report.read_text(encoding='utf-8')
+    marker = "## Worksheet view\n\n"
+    team_report = report_text.split(marker, 1)[0] if marker in report_text else report_text
+    return {'report_html': renderer.render(team_report),
             'worksheet_html': renderer.render(worksheet.read_text(encoding='utf-8')),
             'report_path': str(report), 'worksheet_path': str(worksheet)}
 
@@ -119,7 +126,7 @@ def validate(payload: dict) -> tuple[str, list[str], str | None]:
     if not isinstance(payload, dict):
         raise ValueError("Enter a ticker.")
     ticker = str(payload.get("ticker", "")).strip().upper()
-    if not TICKER.fullmatch(ticker):
+    if ticker.casefold() != "screen" and not TICKER.fullmatch(ticker):
         raise ValueError("Enter a valid ticker using letters, numbers, dots or hyphens.")
     raw_peers = str(payload.get("peers", "")).upper().strip()
     peers = [p for p in re.split(r"[\s,]+", raw_peers) if p]
@@ -137,11 +144,7 @@ def validate(payload: dict) -> tuple[str, list[str], str | None]:
 
 
 def execute(job_id: str, ticker: str, peers: list[str], price: str | None) -> None:
-    command = [sys.executable, "-u", str(ROOT / "desk_flow.py"), ticker]
-    if peers:
-        command.extend(["--peers", *peers])
-    if price:
-        command.extend(["--price", price])
+    command = [sys.executable, "-u", str(ROOT / "one_desk.py"), ticker]
     env = os.environ.copy()
     env["PYTHONUTF8"] = "1"
     env["PYTHONUNBUFFERED"] = "1"
@@ -159,15 +162,15 @@ def execute(job_id: str, ticker: str, peers: list[str], price: str | None) -> No
             if NODES.match(clean):
                 with lock:
                     jobs[job_id]["events"].append(clean)
-            if clean.startswith("Verified report:"):
-                report_path = clean.removeprefix("Verified report:").strip()
+            if clean.startswith("Final report:"):
+                report_path = clean.removeprefix("Final report:").strip()
         code = process.wait()
         if code != 0:
             raise RuntimeError("The desk stopped before the report was ready. " + " ".join(last_lines[-4:])[:800])
         if not report_path or report_path == "None":
             raise RuntimeError("The desk did not return a verified report. " + " ".join(last_lines[-4:])[:800])
         path = Path(report_path).resolve()
-        if not path.is_relative_to(RUNS) or path.name != "verified_report.md" or not path.is_file():
+        if not path.is_relative_to(RUNS) or path.name != "final_report.md" or not path.is_file():
             raise RuntimeError("The reported output file is missing or outside the run folder.")
         report = path.read_text(encoding="utf-8")
         with lock:
@@ -214,7 +217,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_error(404)
 
     def do_POST(self):
-        if self.path not in {"/api/jobs", "/api/spinoff-jobs"}:
+        if self.path != "/api/jobs":
             self.send_error(404)
             return
         origin = self.headers.get("Origin", "")
@@ -230,12 +233,8 @@ class Handler(BaseHTTPRequestHandler):
             if size <= 0 or size > 4096:
                 raise ValueError("Invalid request size.")
             payload = json.loads(self.rfile.read(size))
-            if self.path == "/api/spinoff-jobs":
-                args = (validate_spinoff(payload),)
-                executor = execute_spinoff
-            else:
-                args = validate(payload)
-                executor = execute
+            args = validate(payload)
+            executor = execute
         except (ValueError, UnicodeError, json.JSONDecodeError) as exc:
             self.send_json(400, {"error": str(exc)})
             return

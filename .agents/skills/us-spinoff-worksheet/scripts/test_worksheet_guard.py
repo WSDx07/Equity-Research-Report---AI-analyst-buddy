@@ -67,6 +67,20 @@ class WorksheetGuardTests(unittest.TestCase):
             worksheet_guard.hook_main()
         self.assertEqual(json.loads(output.getvalue()), {})
 
+    def test_hook_recognizes_only_python_execution_of_writer_scripts(self):
+        self.assertTrue(worksheet_guard._python_script_invocation(
+            r"& '.\.venv\Scripts\python.exe' '.agents\skills\us-spinoff-worksheet\scripts\run_worksheet.py' --run sample",
+            'run_worksheet.py'))
+        self.assertTrue(worksheet_guard._python_script_invocation(
+            r"python .agents/skills/us-spinoff-worksheet/scripts/save_worksheet.py --output sample.md",
+            'save_worksheet.py'))
+        self.assertFalse(worksheet_guard._python_script_invocation(
+            r"Get-Content -LiteralPath '.agents\skills\us-spinoff-worksheet\scripts\run_worksheet.py'",
+            'run_worksheet.py'))
+        self.assertFalse(worksheet_guard._python_script_invocation(
+            r"Select-String -Path run_worksheet.py -Pattern main",
+            'run_worksheet.py'))
+
     def test_cash_flow_uses_printed_millions_and_capex_magnitude(self):
         with tempfile.TemporaryDirectory() as folder:
             run = Path(folder)

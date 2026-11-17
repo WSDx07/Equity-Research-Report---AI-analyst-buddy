@@ -24,9 +24,31 @@ Start the browser interface:
 .\.venv\Scripts\python.exe desk_ui.py
 ```
 
-Open <http://127.0.0.1:8765/> if it does not open automatically. Enter a ticker and, if wanted, peer tickers and a price. Keep the terminal open while the desk runs; press Ctrl+C to stop the server.
+Open <http://127.0.0.1:8765/> if it does not open automatically. Enter a ticker or `screen`. Keep the terminal open while the desk runs; press Ctrl+C to stop the server.
 
-Or run it from the command line:
+The joined desk runs these parts in code order: seeker when you enter `screen`, ticker pick, agent team, worksheet skill, and output hook. It saves them under one folder in `one_desk_runs/<TICKER>_<start-time>/`. The screen uses the latest report produced by that seeker run. It starts with the configured window unless you set `--screen-start`.
+
+```powershell
+.\.venv\Scripts\python.exe one_desk.py YOUR_TICKER
+.\.venv\Scripts\python.exe one_desk.py screen
+.\.venv\Scripts\python.exe one_desk.py --replay ".\one_desk_runs\YOUR_TICKER_<timestamp>"
+```
+
+Replace `YOUR_TICKER` with a ticker and replace the replay path with a saved run folder. Replay checks the saved outputs, prints the saved final report, and does not fetch filings. The first report line lists the filings read. Each part prints its elapsed seconds. If a ticker is absent from the selected seeker registry, its spinoff sections say `not applicable`; the team and worksheet continue. A failed part stops the command and keeps its run folder. Worksheet source collection reuses matching filing text already saved by the team.
+
+The integrated command completed a live COST run on November 16, 2026, and offline replay passed. The saved run is `one_desk_runs/COST_2026-11-16_16-49-00_960078_-0500/`. COST was absent from the seeker registry, so the spinoff worksheet path correctly reported `not applicable` and checked zero Form 4 filings. The team, worksheet, and hook took 183.16, 4.19, and 0.10 seconds. The final report lists the 10-K, 10-Q, and 8-K it read on its first line. The hook passed, and the Lab 05 page loaded the saved run's report and worksheet.
+
+The pipeline completed, but the report needs review before use: its verifier output has 14 unsupported marks and 23 correct marks. Worksheet market prices and reader data were unavailable, so related comparisons are `not computed`. Replay the saved run with the command above; replay does not fetch filings.
+
+A VYLR ticker run also completed in `one_desk_runs/VYLR_2026-11-16_16-56-52_060202_-0500/`. The final report's first line lists the 10-Q, 8-K, and Form 10 accessions. The worksheet reused the saved 8-K. VYLR was absent from the selected seeker registry, so spinoff fields were `not applicable`, while the team and worksheet continued. The saved team report is included unchanged; it does not contain numeric counterparts for the worksheet's historical amounts. Two worksheet inputs were checked against the Form 10: USD 575 million net income at line 19762 and USD 806 million depreciation at line 19990. These are historical Seed Business combined-statement figures, not post-spin standalone results.
+
+Offline replay of VYLR passed with Python socket connections and DNS lookups blocked, and printed the same saved report. A copied report with one amount increased by 1 was refused by the hook at line 19; its dependent calculation also failed at line 23. The original report was unchanged. The copy is in the run folder's `hook_seeded_copy/` subfolder.
+
+Screen progress streams to the terminal. The seeker retries truncated SEC responses up to three total attempts and prints a retry notice. If all attempts fail, it stops and keeps the run folder. A complete seeker scan reached registrant 170 of 170, but produced no ranked name, so that historical desk run stopped at ticker pick. Vylor was in-window but unranked because the seeker lacked size and insider inputs. The share reader now uses the latest company-facts share count both measured and filed on or before the close. The insider reader now parses a sourced group-ownership table and calculates a percentage from its reported share count and denominator. On the saved Vylor data, that gives 667,303,030 shares as of November 5, filed November 12; USD 71.80 close on November 16; estimated market cap USD 47,912,357,554; and expected insider ownership of about 0.1385% from 924,111 / 667,196,000. The insider figure is a pre-spin expectation dated August 31, not verified current ownership. All 136 seeker tests passed. The full 170-registrant screen has not been rerun after these ranking fixes; run `one_desk.py screen` to produce a new report and pick.
+
+If the seeker completes and its ranked section says `None established.`, the desk now completes the empty-screen run instead of failing in ticker pick. Pick, agent team, and worksheet are marked `not applicable` because no ticker exists for the team or worksheet. The desk saves the seeker report, filing list, final report, and run metadata, and applies the hook to the seeker output and final report. Replay validates and prints this saved result without fetching. The empty-screen branch has not yet been run end to end.
+
+The older team-only command remains available for a stand-alone run:
 
 ```powershell
 .\.venv\Scripts\python.exe desk_flow.py MSFT --peers AAPL GOOGL --price 400
@@ -96,7 +118,7 @@ The seeker skill is included in .agents/skills/us-spinoff-seeker/, so GitHub rec
 
 The report identifies its index date, search limits, missing sources, and unranked names. The search starts with the year before the requested start date. The SEC filing extractors cover limited formats, so the report is a screen and can miss filings or facts. The LSEG close path uses the user's stated `TR.CLOSEPRICE(Adjusted=0)` and primary RIC assumptions; the report discloses the remaining limits. Missing active factors leave a company unranked. The report ends with `screens, not recommendations`.
 
-Run the seeker from the page with a distribution start date. To run it from PowerShell:
+Run the standalone seeker from PowerShell with a distribution start date. The joined desk's `screen` option runs it with the configured window. To run the seeker by itself:
 
 ```powershell
 & "$env:USERPROFILE\.codex\venvs\us-spinoff-lseg\Scripts\python.exe" .\.agents\skills\us-spinoff-seeker\scripts\seeker.py --start 2025-11-13 --config .\spinoff_factors.json --env .\.env --output .\spinoff_runs
@@ -147,6 +169,7 @@ Run the local test suite from the repository folder:
 | Path | Contents |
 | --- | --- |
 | `desk_ui.py`, `desk_ui/` | Main browser interface and page |
+| `one_desk.py` | Joined desk command, fixed pipeline, saved-run replay, and hook checks |
 | `desk_flow.py` | Main command-line workflow |
 | `equity_research_data_desk.py` | SEC data collection; also supports individual steps from the command line |
 | `research_analyst.py` | Separate research agent for supplied source text |
@@ -156,6 +179,7 @@ Run the local test suite from the repository folder:
 | `tests/` | Local tests |
 | `docs/` | Guides, prior reports, and reference material |
 | `equity_research_runs/` | Saved desk runs |
+| `one_desk_runs/` | Saved joined-desk runs, seeker inputs, team run, worksheet, and final report |
 | `verifier_trials/` | Saved verifier trials |
 
 New generated runs and trials are ignored by Git; files already tracked remain tracked. The desk is a prototype: its verifier does not check every possible numerical claim, and its model only sees selected filing excerpts. Review the report and its sources independently. A recommendation is not evidence of future investment performance.

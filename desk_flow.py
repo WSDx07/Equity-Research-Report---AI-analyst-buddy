@@ -81,6 +81,7 @@ class DeskState(BaseModel):
     ticker: str = ""
     peers: list[str] = Field(default_factory=list)
     price: str | None = None
+    run_dir: str = ""
     folder: str = ""
     research: dict = Field(default_factory=dict)
     financial: dict = Field(default_factory=dict)
@@ -121,7 +122,8 @@ class EquityDeskFlow(Flow[DeskState]):
     @start()
     def steps(self):
         print("Steps", flush=True)
-        self.desk = Desk(self.state.ticker, self.state.peers, Decimal(self.state.price) if self.state.price else None, 1)
+        self.desk = Desk(self.state.ticker, self.state.peers, Decimal(self.state.price) if self.state.price else None, 1,
+                         run_dir=Path(self.state.run_dir) if self.state.run_dir else None)
         for index in range(1, 8):
             print(f"Step {index} started", flush=True)
             self.desk.step = index
@@ -318,10 +320,11 @@ def main():
     parser.add_argument("--peers", nargs="*", default=[])
     parser.add_argument("--price", type=Decimal)
     parser.add_argument("--verify-only", type=Path, help="Verify an existing saved run")
+    parser.add_argument("--run-dir", type=Path, help="Write this run into a caller-selected folder")
     args = parser.parse_args()
     if args.verify_only:
-        if args.ticker or args.peers or args.price is not None:
-            parser.error("--verify-only cannot be combined with a ticker, --peers, or --price")
+        if args.ticker or args.peers or args.price is not None or args.run_dir:
+            parser.error("--verify-only cannot be combined with a ticker, --peers, --price, or --run-dir")
         settings = dotenv_values(ROOT / ".env")
         client, model = purdue_client(settings)
         run = args.verify_only.resolve()
@@ -332,7 +335,9 @@ def main():
         if not args.ticker:
             parser.error("ticker is required unless --verify-only is used")
         flow = EquityDeskFlow()
-        path = flow.kickoff(inputs={"ticker": args.ticker.upper(), "peers": args.peers, "price": str(args.price) if args.price is not None else None})
+        flow.kickoff(inputs={"ticker": args.ticker.upper(), "peers": args.peers, "price": str(args.price) if args.price is not None else None,
+                             "run_dir": str(args.run_dir.resolve()) if args.run_dir else ""})
+        path = Path(flow.state.folder) / "verified_report.md"
     print(f"Verified report: {path}", flush=True)
 
 

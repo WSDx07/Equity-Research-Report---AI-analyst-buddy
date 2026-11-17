@@ -1,5 +1,5 @@
 ﻿from __future__ import annotations
-import argparse, copy, gzip, hashlib, json, math, os, re, tempfile, time, urllib.request, uuid
+import argparse, copy, gzip, hashlib, http.client, json, math, os, re, tempfile, time, urllib.request, uuid
 from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
@@ -18,19 +18,33 @@ class NoAutomaticRedirects(urllib.request.HTTPRedirectHandler):
 
 class SecClient:
     requests_per_second = 5
+    incomplete_read_attempts = 3
     def __init__(self, user_agent):
         if not user_agent.strip(): raise ValueError('SEC_USER_AGENT is required in .env')
         self.headers={'User-Agent':user_agent, 'Accept-Encoding':'identity'}
         self.last=0.0
         self.opener=urllib.request.build_opener(NoAutomaticRedirects())
+        self.filing_reads={}
     def get(self,url):
         if not re.match(r'^https://(?:www\.sec\.gov|data\.sec\.gov)/',url): raise ValueError('SEC hosts only')
-        wait=1/self.requests_per_second-(time.monotonic()-self.last)
-        if wait>0: time.sleep(wait)
-        self.last=time.monotonic()
-        with self.opener.open(urllib.request.Request(url,headers=self.headers),timeout=30) as response:
-            charset=response.headers.get_content_charset()
-            return decode_sec_text(response.read(),charset)
+        for attempt in range(1,self.incomplete_read_attempts+1):
+            wait=1/self.requests_per_second-(time.monotonic()-self.last)
+            if wait>0: time.sleep(wait)
+            self.last=time.monotonic()
+            try:
+                with self.opener.open(urllib.request.Request(url,headers=self.headers),timeout=30) as response:
+                    charset=response.headers.get_content_charset()
+                    content=decode_sec_text(response.read(),charset)
+                break
+            except http.client.IncompleteRead:
+                if attempt>=self.incomplete_read_attempts: raise
+                print(f'SEC response was truncated; retry {attempt}/{self.incomplete_read_attempts-1}: {url}',flush=True)
+                time.sleep(attempt)
+        match=re.search(r'/Archives/edgar/data/\d+/(\d{10}-\d{2}-\d{6}|\d{18,20})(?:/|\.txt(?:\?|$)|$)',url)
+        if match:
+            accession=re.sub(r'\D','',match.group(1))
+            self.filing_reads.setdefault(accession,set()).add(url)
+        return content
 
 class CachedIndexClient:
     """Reuse recent SEC index responses; filing documents are always fetched live."""
@@ -743,7 +757,7 @@ def rank(records,factors):
     return sorted(good,key=lambda r:(-r['total'],r['name'])),bad
 
 def extract_insider_statements(text,filing,filing_date):
-    """Read explicit, dated director-and-officer group ownership statements."""
+    """Read dated group ownership statements and sourced ownership-table rows."""
     if not filing: return []
     try: filed=date.fromisoformat(filing_date)
     except (TypeError,ValueError): return []
@@ -762,6 +776,42 @@ def extract_insider_statements(text,filing,filing_date):
         if day>filed or not number.is_finite() or not 0<=number<=100: continue
         facts.append({'value':str(number),'as_of':day.isoformat(),'filing_date':filing_date,
                       'filing':filing,'section':'Security ownership of certain beneficial owners and management','quote':match.group(0)})
+    lines=text.splitlines()
+    heading=next((i for i,line in enumerate(lines) if re.search(r'^\s*Security Ownership of Directors and Executive Officers\s*$',line,re.I)),None)
+    group=next((i for i,line in enumerate(lines) if re.search(r'^\s*Directors and executive officers as a group\s*\(\d+ persons\)\s*$',line,re.I)),None)
+    denominator_match=re.search(r'Immediately following the distribution,\s+we\s+(?:estimate|expect)\s+that\s+(?:approximately\s+)?([\d,]+)\s+of our shares of common stock will be issued and outstanding',normalized,re.I)
+    date_match=re.search(r'beneficial ownership of [^.;\n]{1,160}\bcommon stock on\s+([A-Za-z]+\s+\d{1,2},\s+\d{4})',normalized,re.I)
+    if heading is not None and group is not None and group>heading and denominator_match and date_match:
+        cells=[]
+        for line in lines[group+1:]:
+            cell=line.strip()
+            if not cell: continue
+            if re.fullmatch(r'(?:[\d,]+(?:\.\d+)?%?|[*]|[—–-])',cell):
+                cells.append(cell)
+                if len(cells)==5: break
+            elif cells:
+                break
+        if len(cells)==5 and cells[3].replace(',','').isdigit():
+            denominator=Decimal(denominator_match.group(1).replace(',',''))
+            group_shares=Decimal(cells[3].replace(',',''))
+            percent_cell=cells[4]
+            section_start=normalized.casefold().find('security ownership of directors and executive officers')
+            table_text=normalized[section_start:] if section_start>=0 else ''
+            if denominator>0 and group_shares>=0:
+                if percent_cell=='*' and re.search(r'\*\s*less than one percent of the total number of shares',table_text,re.I):
+                    number=group_shares/denominator*Decimal(100)
+                elif re.fullmatch(r'[\d,]+(?:\.\d+)?%?',percent_cell):
+                    number=Decimal(percent_cell.replace(',','').rstrip('%'))
+                else:
+                    number=None
+                try: day=datetime.strptime(date_match.group(1),'%B %d, %Y').date()
+                except ValueError: day=None
+                if number is not None and day is not None and day<=filed and number.is_finite() and 0<=number<=100:
+                    quote=(f"Directors and executive officers as a group: {cells[3]} expected issuer shares; "
+                           f"{denominator_match.group(1)} expected shares outstanding; {percent_cell} in the filing's percent column.")
+                    facts.append({'value':str(number),'as_of':day.isoformat(),'filing_date':filing_date,
+                                  'filing':filing,'section':'Expected post-spin beneficial ownership; group row; percent calculated from disclosed shares',
+                                  'quote':quote,'calculation':f"{cells[3]} / {denominator_match.group(1)} x 100"})
     return facts
 
 def select_insider_statement(entries,price_date):
@@ -777,6 +827,8 @@ def select_insider_statement(entries,price_date):
     if not eligible: return None
     latest=max(item[0] for item in eligible)
     observations=[item for item in eligible if item[0]==latest]
+    latest_filed=max(item[1] for item in observations)
+    observations=[item for item in observations if item[1]==latest_filed]
     if len({item[2] for item in observations})!=1: return None
     return max(observations,key=lambda item:item[1])[3]
 
@@ -785,7 +837,7 @@ def fetch_companyfacts(client,cik):
     return json.loads(client.get('https://data.sec.gov/api/xbrl/companyfacts/CIK'+str(cik).zfill(10)+'.json'))
 
 def shares_from_companyfacts(document,cik,price_date):
-    """Use only a nonconflicting share count reported for the exact price date."""
+    """Use the latest nonconflicting share count public by the price date."""
     if not str(cik).isdigit() or len(str(cik))>10: raise ValueError('Invalid CIK')
     target=date.fromisoformat(price_date)
     try:
@@ -797,16 +849,20 @@ def shares_from_companyfacts(document,cik,price_date):
     valid=[]
     for row in observations:
         try:
-            if row.get('end')!=price_date or date.fromisoformat(row['filed'])>target: continue
-            if date.fromisoformat(row['filed'])<target or row.get('form') not in {'10-K','10-K/A','10-Q','10-Q/A','8-K','8-K/A','10-12B','10-12B/A','10-12G','10-12G/A'}: continue
+            as_of=date.fromisoformat(row['end']); filed=date.fromisoformat(row['filed'])
+            if as_of>target or filed>target or row.get('form') not in {'10-K','10-K/A','10-Q','10-Q/A','8-K','8-K/A','10-12B','10-12B/A','10-12G','10-12G/A'}: continue
             if not re.fullmatch(r'\d{10}-\d{2}-\d{6}',row['accn']) or isinstance(row['val'],bool): continue
             number=Decimal(str(row['val']))
             if not number.is_finite() or number<=0 or number!=number.to_integral_value(): continue
-            valid.append((number,row))
+            valid.append((as_of,filed,number,row))
         except (KeyError,TypeError,ValueError,InvalidOperation): continue
-    if not valid or len({number for number,row in valid})!=1: return None
-    number,row=valid[-1]
-    return {'value':int(number),'as_of':price_date,'filing_date':row['filed'],
+    if not valid: return None
+    latest_as_of=max(item[0] for item in valid)
+    latest_filed=max(item[1] for item in valid if item[0]==latest_as_of)
+    latest=[item for item in valid if item[0]==latest_as_of and item[1]==latest_filed]
+    if len({number for _,_,number,_ in latest})!=1: return None
+    as_of,filed,number,row=latest[-1]
+    return {'value':int(number),'as_of':as_of.isoformat(),'filing_date':filed.isoformat(),
             'filing':f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{row['accn']}.txt",
             'section':'XBRL dei:EntityCommonStockSharesOutstanding (shares)'}
 
@@ -948,14 +1004,15 @@ def factor_inputs(distribution,first,last,shares,insiders):
             return day,number
         except (KeyError,ValueError,InvalidOperation,TypeError): return None
     share_value=sourced(shares)
-    if last_value and share_value and share_value[0]==last_value[0] and share_value[1]>0:
+    if last_value and share_value and share_value[0]<=last_value[0] and share_value[1]>0:
         capitalization=share_value[1]*last_value[1]
         factors['size']=float(capitalization)
-        explanations['size']=f"{share_value[1]} shares × USD {last_value[1]} per share on {last_value[0]} = USD {capitalization}; shares: {shares['filing']} ({shares['section']})."
+        explanations['size']=f"{share_value[1]} shares as of {share_value[0]} × USD {last_value[1]} per share on {last_value[0]} = USD {capitalization}; shares: {shares['filing']} ({shares['section']})."
     insider_value=sourced(insiders)
     if last_value and insider_value and insider_value[0]<=last_value[0] and 0<=insider_value[1]<=100:
         factors['insiders']=float(insider_value[1])
-        explanations['insiders']=f"{insider_value[1]}% as of {insider_value[0]}; {insiders['filing']} ({insiders['section']})."
+        calculation=f"; calculation: {insiders['calculation']}" if insiders.get('calculation') else ''
+        explanations['insiders']=f"{insider_value[1]}% as of {insider_value[0]}; {insiders['filing']} ({insiders['section']}){calculation}."
     return factors,explanations
 
 def enrich_factor_inputs(record,snapshot,today):
@@ -1139,7 +1196,7 @@ def report(run_date,price_date,index_date,ranked,watch,dropped,limitations,compa
     lines=[f'Run date: {run_date} | Price date: {price_date or "unavailable"} | Index date: {index_date or "unavailable"}', '', '# Spinoff screen', '', '## In window, ranked']
     if not ranked: lines.append('None established.')
     for i,r in enumerate(ranked,1):
-        lines.append(f"{i}. {r['name']} | parent: {r.get('parent') or 'unavailable'} | distribution: {r.get('distribution_date') or 'unavailable'} | window ends: {r.get('window_ends') or 'unavailable'} | {r['total']:.2f} points: " + ', '.join(f'{k}: {v:.2f}' for k,v in r['points'].items()))
+        lines.append(f"{i}. {r['name']} | CIK: {r.get('cik') or 'unavailable'} | parent: {r.get('parent') or 'unavailable'} | distribution: {r.get('distribution_date') or 'unavailable'} | window ends: {r.get('window_ends') or 'unavailable'} | {r['total']:.2f} points: " + ', '.join(f'{k}: {v:.2f}' for k,v in r['points'].items()))
         for label,key in (('parent source','parent_evidence'),('distribution source','distribution_evidence')):
             evidence=r.get(key)
             if isinstance(evidence,dict) and evidence.get('filing') and evidence.get('section'):
@@ -1218,10 +1275,14 @@ def main():
                 if getattr(exc,'code',None) in (403,429): raise
                 price_issue='LSEG prices unavailable ('+type(exc).__name__+'); affected names remain unranked.'
         registry_path=new_registry_path(args.output)
-        result=run_screen(client,Registry(registry_path,autosave=False),args.start.isoformat(),today,config,first_year,**options)
+        registry=Registry(registry_path,autosave=False)
+        result=run_screen(client,registry,args.start.isoformat(),today,config,first_year,**options)
     finally:
         if workspace is not None: workspace.close_session()
     summarized_gaps,source_gaps=summarize_document_gaps(result['limitations'])
+    if not registry_path.is_file():
+        registry_path.parent.mkdir(parents=True,exist_ok=True)
+        registry_path.write_text(json.dumps(registry.data,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     gap_file=save_source_gaps(args.output,source_gaps) if source_gaps else None
     limitations=[f'Registration indexes before {first_year} were not searched.' + (' PARTIAL diagnostic.' if args.partial else ''),
                  'The filing reader recognizes only a narrow set of explicit labels and may miss spinoffs and facts.',
@@ -1233,6 +1294,9 @@ def main():
     limitations.append('Fact registry: '+registry_path.name)
     text=report(today,result.get('price_date'),result['index_date'],result['ranked'],result['watch'],result['dropped'],limitations,comparison=result.get('comparison'))
     path=save_report(args.output,text)
+    filing_reads={'filings':[{'accession':accession,'urls':sorted(urls)}
+                             for accession,urls in sorted(client.client.filing_reads.items())]}
+    (args.output/'filing_reads.json').write_text(json.dumps(filing_reads,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     print('Screen report: '+str(path.resolve()),flush=True)
     print('Fact registry: '+str(registry_path.resolve()),flush=True)
 

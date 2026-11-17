@@ -1,9 +1,50 @@
-import sys, unittest, tempfile, json
+import sys, unittest, tempfile, json, http.client
 from pathlib import Path
 from datetime import date
 from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import seeker
+
+class SecClientRetry(unittest.TestCase):
+    def test_incomplete_response_is_retried_before_returning_filing_text(self):
+        class Headers:
+            def get_content_charset(self): return 'utf-8'
+        class Response:
+            headers=Headers()
+            def __init__(self,fail): self.fail=fail
+            def __enter__(self): return self
+            def __exit__(self,*args): return False
+            def read(self):
+                if self.fail: raise http.client.IncompleteRead(b'partial')
+                return b'complete filing'
+        class Opener:
+            def __init__(self): self.calls=0
+            def open(self,*args,**kwargs):
+                self.calls+=1
+                return Response(self.calls==1)
+        client=seeker.SecClient('test contact')
+        client.opener=Opener()
+        with patch.object(seeker.time,'sleep'), patch('builtins.print'):
+            self.assertEqual(client.get('https://www.sec.gov/Archives/edgar/data/1/0000000001-24-000001/doc.txt'),'complete filing')
+        self.assertEqual(client.opener.calls,2)
+        self.assertEqual(len(client.filing_reads),1)
+
+    def test_incomplete_response_still_fails_after_bounded_retries(self):
+        class Headers:
+            def get_content_charset(self): return 'utf-8'
+        class Response:
+            headers=Headers()
+            def __enter__(self): return self
+            def __exit__(self,*args): return False
+            def read(self): raise http.client.IncompleteRead(b'partial')
+        class Opener:
+            def __init__(self): self.calls=0
+            def open(self,*args,**kwargs): self.calls+=1; return Response()
+        client=seeker.SecClient('test contact')
+        client.opener=Opener()
+        with patch.object(seeker.time,'sleep'), patch('builtins.print'), self.assertRaises(http.client.IncompleteRead):
+            client.get('https://www.sec.gov/Archives/edgar/data/1/0000000001-24-000001/doc.txt')
+        self.assertEqual(client.opener.calls,3)
 
 class Rules(unittest.TestCase):
     def test_regular_listing_verification_reads_issuer_filing_and_rejects_ambiguity(self):
@@ -598,18 +639,19 @@ class ScreenPreparationTests(unittest.TestCase):
         self.assertEqual(client.urls,['https://data.sec.gov/api/xbrl/companyfacts/CIK0000000123.json'])
         with self.assertRaises(ValueError): seeker.fetch_companyfacts(client,'123/other')
 
-    def test_shares_require_exact_price_day_sourced_filing_and_no_conflict(self):
-        good={'end':'2024-01-10','filed':'2024-01-10','form':'10-Q','accn':'0000000123-24-000001','val':100}
+    def test_shares_use_latest_point_in_time_observation_and_no_conflict(self):
+        older={'end':'2024-01-05','filed':'2024-01-08','form':'10-Q','accn':'0000000123-24-000001','val':90}
+        good={'end':'2024-01-09','filed':'2024-01-10','form':'10-Q','accn':'0000000123-24-000002','val':100}
         def document(values): return {'cik':123,'facts':{'dei':{'EntityCommonStockSharesOutstanding':{'units':{'shares':values}}}}}
-        fact=seeker.shares_from_companyfacts(document([good]),'123','2024-01-10')
+        fact=seeker.shares_from_companyfacts(document([older,good]),'123','2024-01-10')
         self.assertEqual(fact['value'],100)
-        self.assertEqual(fact['as_of'],'2024-01-10')
+        self.assertEqual(fact['as_of'],'2024-01-09')
         self.assertEqual(fact['filing_date'],'2024-01-10')
         self.assertIn('dei:EntityCommonStockSharesOutstanding',fact['section'])
-        self.assertIn('0000000123-24-000001.txt',fact['filing'])
-        self.assertIsNone(seeker.shares_from_companyfacts(document([dict(good,end='2024-01-09')]),'123','2024-01-10'))
+        self.assertIn('0000000123-24-000002.txt',fact['filing'])
+        self.assertIsNone(seeker.shares_from_companyfacts(document([dict(good,end='2024-01-11')]),'123','2024-01-10'))
         self.assertIsNone(seeker.shares_from_companyfacts(document([dict(good,filed='2024-01-11')]),'123','2024-01-10'))
-        self.assertIsNone(seeker.shares_from_companyfacts(document([good,dict(good,val=101)]),'123','2024-01-10'))
+        self.assertIsNone(seeker.shares_from_companyfacts(document([good,dict(good,val=101,accn='0000000123-24-000003')]),'123','2024-01-10'))
         self.assertIsNone(seeker.shares_from_companyfacts(document([dict(good,val=True)]),'123','2024-01-10'))
         self.assertIsNone(seeker.shares_from_companyfacts(document([good]),'999','2024-01-10'))
 
@@ -626,17 +668,45 @@ class ScreenPreparationTests(unittest.TestCase):
         self.assertEqual(seeker.extract_insider_statements(text.replace('6.5%','less than 1%'),'f','2024-01-08'),[])
         self.assertEqual(seeker.extract_insider_statements(text,'f','2024-01-04'),[])
 
+    def test_expected_group_ownership_table_yields_sourced_percentage(self):
+        text='''Security ownership of certain beneficial owners and management
+Except as noted below, we based the share amounts on each person's beneficial ownership of Parent common stock on August 31, 2026.
+Immediately following the distribution, we estimate that 667,196,000 of our shares of common stock will be issued and outstanding.
+Security Ownership of Directors and Executive Officers
+Name and Address of Beneficial Owner
+Number of Shares of Corteva Common Stock
+Right to Acquire Beneficial Ownership
+Corteva Beneficial Ownership Total
+Number of Shares of Newco Common Stock
+Percent of Newco Shares Outstanding
+Directors and executive officers as a group (12 persons)
+399,455
+524,656
+924,111
+924,111
+*
+* Less than one percent of the total number of shares of Newco common stock expected to be issued and outstanding.
+'''
+        facts=seeker.extract_insider_statements(text,'https://www.sec.gov/Archives/filing.htm','2026-09-21')
+        self.assertEqual(len(facts),1)
+        self.assertEqual(facts[0]['as_of'],'2026-08-31')
+        self.assertAlmostEqual(float(facts[0]['value']),924111/667196000*100)
+        self.assertIn('expected',facts[0]['section'].lower())
+        self.assertEqual(seeker.extract_insider_statements(text.replace('667,196,000','1,000'),'f','2026-09-21'),[])
+
     def test_latest_insider_statement_is_dated_and_conflicts_stay_unavailable(self):
         a={'value':'6.5','as_of':'2024-01-05','filing_date':'2024-01-08','filing':'f','section':'Ownership'}
         b=dict(a,value='7',filing='g')
         self.assertEqual(seeker.select_insider_statement([a],'2024-01-10')['value'],'6.5')
         self.assertIsNone(seeker.select_insider_statement([a,b],'2024-01-10'))
         self.assertIsNone(seeker.select_insider_statement([dict(a,filing_date='2024-01-11')],'2024-01-10'))
+        amended=dict(a,value='7',filing_date='2024-01-09',filing='amended')
+        self.assertEqual(seeker.select_insider_statement([a,amended],'2024-01-10')['value'],'7')
 
     def test_factor_inputs_use_sourced_shares_and_dated_regular_closes(self):
         first={'date':'2024-01-02','close':'10','when_issued':False,'source':'price export','basis':'official_unadjusted','verified_first':True}
         last={'date':'2024-01-10','close':'8','when_issued':False,'source':'price export','basis':'official_unadjusted'}
-        shares={'value':'100','filing':'filing','section':'Shares','as_of':'2024-01-10','filing_date':'2024-01-10'}
+        shares={'value':'100','filing':'filing','section':'Shares','as_of':'2024-01-09','filing_date':'2024-01-10'}
         insiders={'value':'5','filing':'filing','section':'Ownership','as_of':'2024-01-05','filing_date':'2024-01-05'}
         factors,formulas=seeker.factor_inputs('2024-01-01',first,last,shares,insiders)
         self.assertEqual(factors,{'size':800.0,'weakness':20.0,'insiders':5.0})
@@ -655,12 +725,13 @@ class ScreenPreparationTests(unittest.TestCase):
         factors,_=seeker.factor_inputs('2024-01-01',first,last,None,None)
         self.assertEqual(factors,{})
 
-    def test_stale_share_count_does_not_become_current_market_cap(self):
+    def test_latest_pre_price_share_count_can_support_dated_market_cap(self):
         first={'date':'2024-01-02','close':'10','when_issued':False,'source':'p','basis':'official_unadjusted','verified_first':True}
         last={'date':'2024-01-10','close':'8','when_issued':False,'source':'p','basis':'official_unadjusted'}
         shares={'value':'100','filing':'f','section':'s','as_of':'2024-01-05','filing_date':'2024-01-05'}
-        factors,_=seeker.factor_inputs('2024-01-01',first,last,shares,None)
-        self.assertNotIn('size',factors)
+        factors,explanations=seeker.factor_inputs('2024-01-01',first,last,shares,None)
+        self.assertEqual(factors['size'],800)
+        self.assertIn('2024-01-05',explanations['size'])
         first['date']='2024-01-02'; first['when_issued']=True
         factors,_=seeker.factor_inputs('2024-01-01',first,last,None,None)
         self.assertEqual(factors,{})
@@ -674,6 +745,11 @@ class ScreenPreparationTests(unittest.TestCase):
             argv=['seeker.py','--start','2024-01-01','--config',str(config),'--env',str(env),'--output',d]
             with patch.object(sys,'argv',argv), patch.object(seeker,'run_screen',return_value=result): seeker.main()
             self.assertEqual(len(list(root.glob('spinoff-screen-*.md'))),1)
+            registries=list(root.glob('registry-*.json'))
+            self.assertEqual(len(registries),1)
+            self.assertEqual(json.loads(registries[0].read_text(encoding='utf-8')), {})
+            reads=json.loads((root/'filing_reads.json').read_text(encoding='utf-8'))
+            self.assertEqual(reads, {'filings': []})
 
     def test_lseg_live_provider_uses_first_close_strictly_after_distribution(self):
         class Frame:

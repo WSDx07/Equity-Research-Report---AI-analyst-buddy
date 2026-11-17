@@ -1,3 +1,37 @@
+# Latest continuation — November 16, 2026: Lab 08 joined desk
+
+The user asked to check the Lab 08 One Desk contract and update this handoff and `README.md`. The joined command is implemented in `one_desk.py`; the Lab 05 page now submits ticker or `screen` to it. The fixed order is seeker for `screen`, pick, agent team, worksheet, then hook. A ticker run uses the latest saved seeker registry. If its CIK is absent, the worksheet marks spinoff items `not applicable` and continues.
+
+Runs are saved under `one_desk_runs/<TICKER>_<start-time>/`, with seeker files, team files, worksheet sources and output, final report, and `run.json`. The seeker saves `filing_reads.json`; the final report's first line combines those accessions with source filings in the team facts, team filing text, worksheet manifest, and seeker registry. The worksheet source collector reuses matching team filing text for Form 10, release, distribution, and first post-spin sources. It still fetches other required spinoff documents that the team did not save. No role currently consumes seeker or worksheet output, so the skill-output handoff rule does not apply to a role in this pipeline.
+
+The hook checks the seeker report when present, validates the saved worksheet, and checks that the final report contains the verified team report and the exact worksheet text. Replay reruns these checks against saved files, prints the saved final report, and makes no filing requests. The worksheet hook false trigger was fixed: source inspection and `--help` no longer count as running the worksheet script.
+
+Commands from the project root:
+
+```powershell
+.\.venv\Scripts\python.exe one_desk.py YOUR_TICKER
+.\.venv\Scripts\python.exe one_desk.py screen
+.\.venv\Scripts\python.exe one_desk.py --replay ".\one_desk_runs\YOUR_TICKER_<timestamp>"
+```
+
+End-to-end check completed on November 16, 2026, with `COST`. The run exited 0 and saved to `one_desk_runs/COST_2026-11-16_16-49-00_960078_-0500/`. Ticker-mode seeker and spinoff worksheet sections were `not applicable` because COST was absent from the registry; the worksheet manifest recorded `registry_present=false`, zero Form 4 filings checked, and no collection errors. The team, worksheet, and hook completed in 183.16, 4.19, and 0.10 seconds. The final report's first line lists all three filings read: 10-K accession `000090983226000093`, 10-Q `000090983226000051`, and 8-K `000090983226000084`. The hook passed.
+
+Offline replay of that saved run exited 0, printed the saved report, and passed the hook without fetching filings. The Lab 05 page returned HTTP 200; its saved-run list found this run and loaded the report and worksheet. This confirms the integrated COST path and replay. It does not establish clean research conclusions: `verifier_output.json` records 14 unsupported marks and 23 correct marks, and worksheet market prices and reader data were unavailable, so related comparisons remain `not computed`. Review the report before relying on it.
+
+An earlier COST attempt exposed a bug that caused Form 4 collection for an unregistered ticker. The collector now skips Form 4 collection unless registry presence and a distribution date are established. The two interrupted attempt folders were retained, as required by the run-folder contract; use the completed run above for replay.
+
+The VYLR known-answer run completed in `one_desk_runs/VYLR_2026-11-16_16-56-52_060202_-0500/`. Its final report starts with the 10-Q accession `000212862626000012`, 8-K `000212862626000009`, and Form 10 `000119312526396054`. `sources.json` records the live-release 8-K as a reused saved filing. The worksheet manifest records `registry_present=false`; spinoff fields were `not applicable`, while the team and worksheet completed. Timings: pick 0.00s, team 252.09s, worksheet 4.85s, hook 0.25s. The team verified report is included in the final report; it has no numeric counterpart for the worksheet's FY2025 amounts, so direct numeric equality between those sections was not established. Two worksheet inputs were checked against the saved Form 10: USD 575 million net income at line 19762 and USD 806 million depreciation at line 19990. These are historical Seed Business combined statements, not post-spin standalone results.
+
+The VYLR replay passed with Python socket connects and DNS lookups blocked; it printed the identical saved report. A separate copied report with after-tax earnings changed from 575 to 576 USD millions was refused at worksheet line 19 (Form 10 line 19762); the dependent owner-cash-flow calculation was also refused at line 23. The original report remains unchanged. The saved copy is under `hook_seeded_copy/` in the VYLR run folder.
+
+The latest complete seeker scan ended at registrant 170 of 170 after 4,791.98 seconds, but produced no ranked name; the desk then stopped in `pick`. The report identifies Vylor as in-window but unranked for missing `size` and `insiders`. Root cause: the XBRL share reader required a share count filed and measured on the exact close date, and the insider reader only accepted one narrow sentence format. Vylor's 10-Q reports 667,303,030 shares as of November 5, filed November 12; the screen's close was November 16. Its Form 10 has a directors-and-executives group row with 924,111 expected shares against 667,196,000 expected shares outstanding, as of August 31. The code now selects the latest share count both measured and filed on or before the close, and parses this sourced ownership table. From the saved November 16 close of USD 71.80, the market cap input is USD 47,912,357,554; the expected ownership calculation is 924,111 / 667,196,000 × 100 = about 0.1385%. The latter is an expected pre-spin figure, not verified current post-spin ownership. All 136 seeker tests passed after the change. The 170-registrant screen has not yet been rerun, so do not claim the new report or pick succeeded.
+
+The earlier transient SEC `IncompleteRead` is also addressed: `one_desk.py` streams subprocess output, and the seeker retries an incomplete SEC response up to three total attempts. If all attempts fail, the command stops and preserves the run folder. Two focused synthetic retry tests passed.
+
+## November 16, 2026 — empty-screen handling
+
+`one_desk.py` now treats an explicit empty ranked section (`None established.`) as a normal outcome. It marks pick, agent team, and worksheet `not applicable` because there is no ticker to pass to the ticker-based team and worksheet. It saves `pick.json`, a final report whose first line lists the filings read and whose body includes the exact seeker report, and `run.json`; the hook checks the seeker output and final report. Offline replay has a dedicated path for this saved result. Other pick errors still fail and preserve the run folder. `one_desk.py` passed `py_compile`; this empty-screen branch has not yet been run end to end.
+
 # Latest continuation ? November 14, 2026: three local weekly reports completed
 
 The user asked for local files and folders only. No commit or push was made. The reporting week is November 9?15, 2026. Each member folder under `runs/live/` has a `report.md`, `run_info.json`, saved team output or fund evidence, verifier output where available, and a worksheet plus its `worksheet.json` index.
@@ -445,3 +479,22 @@ That command is explicitly partial and incomplete. Omitting `--partial` intentio
 3. Improve filing discovery, extraction, amendments, exclusions, parent 8-K matching, factual provenance, and stage evidence using tests first. Avoid treating absence or an unreadable document as proof. Verify representative real filings and report any gaps, including older registration coverage.
 4. Connect sourced factors and the verified closes reader to the screening workflow. Ensure a verified first close, date for every displayed price, no invented facts, and an explicit unranked reason. Verify that changing one weight to zero on frozen inputs leaves other points unchanged.
 5. Run a complete, dated screen and save its report only after the above checks pass. Connect the page to that completed workflow, remove its development notice only then, and test the browser flow end to end.
+# Latest continuation — November 16, 2026: Lab 08 joined desk
+
+The user asked to check the Lab 08 One Desk contract and update this handoff and `README.md`. The joined command is implemented in `one_desk.py`; the Lab 05 page now submits ticker or `screen` to it. The fixed order is seeker for `screen`, pick, agent team, worksheet, then hook. A ticker run uses the latest saved seeker registry. If its CIK is absent, the worksheet marks spinoff items `not applicable` and continues.
+
+Runs are saved under `one_desk_runs/<TICKER>_<start-time>/`, with seeker files, team files, worksheet sources and output, final report, and `run.json`. The seeker now saves `filing_reads.json`; the final report's first line combines those accessions with filings saved by the team and worksheet. The worksheet source collector reuses matching team filing text for the Form 10, release, distribution, and first post-spin sources. It still fetches other required spinoff documents that the team did not save. The role workflow does not consume seeker or worksheet output, so the skill-output handoff rule does not apply to a role in this current order.
+
+The hook checks the seeker report when present, validates the saved worksheet, and checks that the final report contains the verified team report and the exact worksheet text. Replay reruns these checks against saved files, prints the saved final report, and makes no filing requests. A worksheet hook false trigger was fixed: source inspection and `--help` no longer count as running the worksheet script. The seeker now logs every successfully fetched SEC filing accession in `filing_reads.json`, including filings not represented in its fact registry. Empty screens still save an empty registry file.
+
+Commands from the project root:
+
+```powershell
+.\.venv\Scripts\python.exe one_desk.py YOUR_TICKER
+.\.venv\Scripts\python.exe one_desk.py screen
+.\.venv\Scripts\python.exe one_desk.py --replay ".\one_desk_runs\YOUR_TICKER_<timestamp>"
+```
+
+Python compilation passed, all 133 seeker tests passed, and the worksheet guard's 10 focused tests passed. Both command help screens were checked. The empty-registry and empty-filing-log output are covered by the seeker CLI test. No full live run has been executed. The seeker, team, and worksheet make network or model calls, so a full run is still needed to confirm the integrated path, filing-read manifest, generated first line, and page behavior with live data. Do not report end-to-end completion until that run succeeds.
+
+# Latest continuation — November 14, 2026: three local weekly reports completed

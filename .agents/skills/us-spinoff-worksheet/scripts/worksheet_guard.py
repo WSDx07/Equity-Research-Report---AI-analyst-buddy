@@ -454,6 +454,22 @@ def _tool_command(event):
     return value if isinstance(value, str) else ''
 
 
+def _python_script_invocation(command, script_name):
+    """Match execution of a writer script, not a command that only reads its path."""
+    try:
+        tokens = shlex.split(command, posix=False)
+    except ValueError:
+        return False
+    normalized = [token.strip('"\'') for token in tokens]
+    interpreters = {'python', 'python.exe', 'python3', 'python3.exe', 'py', 'py.exe'}
+    for index, token in enumerate(normalized):
+        if Path(token).name.casefold() != script_name.casefold():
+            continue
+        if any(Path(previous).name.casefold() in interpreters for previous in normalized[:index]):
+            return True
+    return False
+
+
 def _automatic_worksheet(event, run):
     """Read the exact saved worksheet path from a completed runner's output."""
     response = event.get('tool_response')
@@ -484,11 +500,25 @@ def hook_main():
     state_path = Path(tempfile.gettempdir()) / f'lab07_worksheet_hook_{state_key}.json'
     if event_name == 'PostToolUse':
         command = _tool_command(event)
-        automatic = 'run_worksheet.py' in command.casefold()
-        if not automatic and 'save_worksheet.py' not in command.casefold():
+        try:
+            command_tokens = shlex.split(command, posix=False)
+        except ValueError:
+            command_tokens = []
+        if any(token.strip('"\'') in {'-h', '--help'} for token in command_tokens):
+            try:
+                stale = json.loads(state_path.read_text(encoding='utf-8'))
+                if (stale.get('session_id') == session and stale.get('turn_id') == turn
+                        and stale.get('error') == 'Worksheet runner did not identify exactly one output and run folder'):
+                    state_path.unlink(missing_ok=True)
+            except (OSError, json.JSONDecodeError):
+                pass
+            return 0
+        automatic = _python_script_invocation(command, 'run_worksheet.py')
+        writer = _python_script_invocation(command, 'save_worksheet.py')
+        if not automatic and not writer:
             return 0
         args = {}
-        tokens = shlex.split(command, posix=False)
+        tokens = command_tokens
         for name in ('--output', '--run', '--rules', '--reader', '--bars'):
             if name in tokens:
                 i = tokens.index(name)

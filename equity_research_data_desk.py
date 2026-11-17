@@ -111,7 +111,7 @@ class SecClient:
 
 
 class Desk:
-    def __init__(self, ticker: str, peers: list[str], price: Decimal | None, step: int | None, price_date: str | None = None, price_source: str | None = None) -> None:
+    def __init__(self, ticker: str, peers: list[str], price: Decimal | None, step: int | None, price_date: str | None = None, price_source: str | None = None, run_dir: Path | None = None) -> None:
         self.client = SecClient()
         self.ticker = ticker.upper()
         self.peers = [ticker.upper() for group in peers for ticker in re.split(r"[,\s]+", group.strip()) if ticker]
@@ -123,7 +123,7 @@ class Desk:
         self.company: dict | None = None
         self.filings: dict | None = None
         self.facts: dict | None = None
-        self.run_dir: Path | None = None
+        self.run_dir: Path | None = Path(run_dir).resolve() if run_dir else None
         self.downloads: dict[str, str] = {}
         self.filing_text: dict[str, str] = {}
 
@@ -152,6 +152,8 @@ class Desk:
             stamp = self.started.strftime("%Y-%m-%d_%H-%M-%S_%f_%z")
             self.run_dir = RUNS / f"{slug(company['name'])}_{stamp}"
             self.run_dir.mkdir(parents=True, exist_ok=False)
+        else:
+            self.run_dir.mkdir(parents=True, exist_ok=True)
         return self.run_dir
 
     def submissions(self, cik: int) -> dict:
