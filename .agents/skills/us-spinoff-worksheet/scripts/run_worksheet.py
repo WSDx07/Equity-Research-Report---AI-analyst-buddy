@@ -364,7 +364,7 @@ def main():
     parser.add_argument('--run', type=Path, required=True)
     parser.add_argument('--registry', type=Path, required=True)
     parser.add_argument('--env', type=Path, default=ROOT / '.env')
-    parser.add_argument('--rules', type=Path, default=ROOT / 'lab07_worksheet_rules.md')
+    parser.add_argument('--rules', type=Path, default=ROOT / 'docs' / 'lab07_worksheet_rules.md')
     parser.add_argument('--persona', type=Path, default=ROOT / 'personas' / 'investment_advisor.md')
     parser.add_argument('--bars', type=Path, help='Verified reader bars for the worksheet ticker')
     parser.add_argument('--live-run', type=Path, help='Saved team run for a separate live-release company')

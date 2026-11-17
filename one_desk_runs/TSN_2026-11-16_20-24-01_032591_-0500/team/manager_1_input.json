@@ -1,0 +1,754 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "Overview",
+          "document": "10-K",
+          "line": 130,
+          "quote": "Tyson Foods, Inc. and its subsidiaries (collectively, the “Company,” “we,” “us,” “our,” “Tyson”) (NYSE: TSN) is a world‑class food company and recognized leader in protein."
+        },
+        {
+          "section": "Overview",
+          "claim": "The business is organized into four protein segments—Beef, Pork, Chicken, and Prepared Foods—plus an International segment that sells in roughly 140 countries.",
+          "document": "10-K",
+          "line": 143,
+          "quote": "Beef includes our operations related to processing live fed cattle and fabricating dressed beef carcasses into primal and sub‑primal cuts and case‑ready products."
+        },
+        {
+          "section": "Overview",
+          "claim": "Chicken operations are fully vertically integrated from breeding stock to processing and distribution.",
+          "document": "10-K",
+          "line": 132,
+          "quote": "We operate a fully vertically integrated chicken production process."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Tyson’s flagship brands (Tyson®, Jimmy Dean®, Hillshire Farm®, Ball Park®, Wright®, State Fair®, aidells®, ibp®) are leveraged through a national distribution network to serve grocery, food‑service, and military customers.",
+          "document": "10-K",
+          "line": 134,
+          "quote": "Our products are marketed and sold primarily by our sales staff to grocery retailers, grocery wholesalers, meat distributors, warehouse club stores, military commissaries, industrial food processing companies, chain restaurants or their distributors, live markets, international export companies and domestic distributors who serve restaurants, foodservice operations such as plant and school cafeterias, convenience stores, hospitals and other vendors."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Walmart accounted for about 19 % of consolidated sales in fiscal 2026, making it Tyson’s largest single customer.",
+          "document": "10-K",
+          "line": 169,
+          "quote": "Walmart Inc. accounted for approximately 19.0% of our fiscal 2026 consolidated sales."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management expects fiscal 2027 sales to decline 3.5 %‑5.5 % versus fiscal 2026, primarily due to lower Beef volumes from network restructuring and tight cattle supplies.",
+          "document": "EX-99.1",
+          "line": 128,
+          "quote": "We expect sales to decrease 3.5% to 5.5% in fiscal 2027 as compared to fiscal 2026, primarily due to lower Beef segment volumes resulting from our network restructuring and tight cattle supplies."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management forecasts adjusted operating income of $1.7 bn‑$2.15 bn for fiscal 2027.",
+          "document": "EX-99.1",
+          "line": 126,
+          "quote": "We anticipate total company adjusted operating income of $1.7 billion to $2.15 billion for fiscal 2027."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Tyson is pursuing growth through its subsidiary Tyson New Ventures, LLC, which invests in innovative protein, animal‑welfare, water‑management, packaging and land‑stewardship technologies.",
+          "document": "10-K",
+          "line": 135,
+          "quote": "Tyson New Ventures, LLC is used to broaden our exposure to innovative forms of protein and opportunities to improve animal welfare, water management, packaging and land stewardship to complement the Company’s continuing investments in innovation."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The company is implementing a multi‑year network optimization plan that will generate restructuring charges; if the plan does not deliver anticipated savings, earnings could be negatively impacted.",
+          "document": "10-K",
+          "line": 234,
+          "quote": "The success of our network optimization plan, or any other financial or operational optimization plans, will depend in part on our ability to successfully implement them in an efficient and effective manner."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Risk factors identify commodity price volatility, disease outbreaks, and competitive pricing pressure as material threats to margin performance.",
+          "document": "10-K",
+          "line": 219,
+          "quote": "Fluctuations in commodity prices and in the availability of raw materials, especially feed grains, live cattle, live swine and other inputs, could negatively impact our earnings."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management’s strategic focus is “to deliver margins in the core protein business by driving efficiencies and valuing‑up offerings, grow our branded portfolio, and scale in international markets.”",
+          "document": "10-K",
+          "line": 470,
+          "quote": "Our strategy is to deliver margins in the core protein business by driving efficiencies and valuing‑up offerings to better serve consumers; grow our branded portfolio by innovating across new occasions, categories and channels; and scale in international markets by delivering profitable value‑added food offerings in high‑growth categories."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Judgment: Given the reliance on a few large customers and exposure to commodity price swings, a prudent strategic recommendation would be to accelerate diversification of both customer base (e.g., alternative retail channels) and protein sources (e.g., plant‑based or alternative proteins) to mitigate revenue volatility.",
+          "document": "10-K",
+          "line": 245,
+          "quote": "The loss of a significant customer or a material reduction in sales to, or adverse change to trade terms with, a significant customer could materially and adversely affect our product sales, financial condition and results of operations."
+        }
+      ],
+      "gaps": [
+        "No explicit evidence was found in the supplied filing excerpts describing upcoming capital expenditures for new processing facilities; the 10‑K only notes ongoing construction projects (line 367) without quantifying future spend.",
+        "The 10‑K excerpt does not quantify expected cost‑savings from AI adoption; forward‑looking statements (lines 258‑259) acknowledge uncertainty but provide no concrete figure."
+      ],
+      "insight": "Insight: Tyson operates a fully vertically integrated chicken production process — 10-K line 132: We operate a fully vertically integrated chicken production process."
+    },
+    "financial": {
+      "observations": [
+        "The filing covers the fiscal year that ended in early October 2026, with the 10‑K providing the full‑year GAAP results and accompanying non‑GAAP reconciliations.",
+        "Key financial concepts such as operating margin, return on equity and free cash flow are defined in the filing, but the market price of the shares and its date are not disclosed, so a valuation multiple cannot be calculated.",
+        "Debt figures for long‑term borrowings are absent from the reported facts, which prevents any assessment of leverage ratios such as debt‑to‑equity.",
+        "The company reports both GAAP and adjusted (non‑GAAP) measures; the adjusted figures exclude the effect of an extra week in the fiscal calendar and certain legal contingency accruals, as explained in the reconciliation tables.",
+        "Segment reporting was restated this year: the International segment has been elevated to a reportable segment and prior period amounts have been recast to reflect this new presentation, improving comparability across periods.",
+        "A concentration of sales to a single large retailer is highlighted, indicating a material customer risk should that relationship change.",
+        "Legal contingency accruals and restructuring charges materially affect operating income, and the company’s discussion notes that these items are non‑recurring and therefore excluded from the adjusted operating income metric.",
+        "The non‑GAAP free cash flow definition is cash provided by operating activities less payments for property, plant and equipment; the filing shows a positive result for the current fiscal year.",
+        "Because peer financial data are not provided, no peer‑company comparison can be performed at this time."
+      ],
+      "gaps": [
+        "Missing market price and price date preclude any price‑to‑earnings or similar valuation analysis.",
+        "Absence of long‑term debt information limits the ability to evaluate leverage or debt service capacity.",
+        "No peer‑company financial metrics are supplied, so benchmarking against competitors cannot be conducted."
+      ],
+      "insight": "Insight: Tyson Foods now reports International as a distinct reportable segment, with prior periods recast to reflect this change — 10-K line 137: \"We operate in five reportable segments: Beef, Pork, Chicken, Prepared Foods and International. ... Effective in the first quarter of fiscal 2026, International was identified as a reportable segment.\""
+    },
+    "advisor": {
+      "recommendation": "Hold",
+      "thesis": "Tyson Foods shows modest revenue expansion but its operating margin remains thin, signalling limited profitability momentum. The company’s reliance on a few large customers and exposure to volatile commodity costs add downside pressure, while its dividend and cash‑generating capacity provide a floor of support. Given these mixed signals, a neutral stance is appropriate.",
+      "deciding_metric": "operating_margin_percent",
+      "risks": [
+        "Commodity price volatility, especially feed grain and livestock costs, could erode margins.",
+        "Concentration of sales to a single large retailer creates material customer‑risk.",
+        "Execution of the multi‑year network optimization plan may fall short of expected savings, impacting earnings.",
+        "Disease outbreaks in livestock could disrupt supply and demand."
+      ],
+      "insight": "Insight: Tyson operates a fully vertically integrated chicken production process — 10‑K line 132: \"We operate a fully vertically integrated chicken production process.\""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 10,
+      "text": "Springdale, Arkansas – November 16, 2026 – Tyson Foods, Inc. (NYSE: TSN), one of the world’s largest food companies and a recognized leader in protein with leading brands including Tyson, Jimmy Dean, Hillshire Farm, Ball Park, Wright, State Fair, aidells and ibp reported the following results:",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "TSN",
+        "name": "TYSON FOODS, INC.",
+        "cik": 100493,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-16",
+      "retrieved_at": "2026-11-16T20:24:16.855642-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000100493.json",
+      "fiscal_year_end": "2026-10-03",
+      "prior_fiscal_year_end": "2025-09-27",
+      "preferred_10k_accession": "0000100493-26-000079",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:Revenues",
+          "unit": "USD",
+          "current": {
+            "val": 56419000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 54441000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 1100000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1098000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 453000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 474000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 1.28,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1.33,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 17614000000,
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 18085000000,
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "long_term_debt_current": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 2433000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2155000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": {
+            "val": 770000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 978000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "3.633291085762568652302492607",
+      "operating_margin_percent": "1.949697796841489569116786898",
+      "return_on_average_equity_percent": "2.537886215300148463542396146",
+      "debt_to_equity": null,
+      "free_cash_flow_usd": "1663000000",
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": null
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-16T20:24:17.814339-05:00",
+      "analysis_date": "2026-11-16",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 56419000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "TSN",
+            "report_period": "2026-10-03",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-16",
+            "accession_number": "0000100493-26-000079",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000100493/000010049326000079/tsn-20261003.htm",
+            "value": "56419000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 54441000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1100000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "TSN",
+            "report_period": "2026-10-03",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-16",
+            "accession_number": "0000100493-26-000079",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000100493/000010049326000079/tsn-20261003.htm",
+            "value": "1100000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1098000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 453000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "TSN",
+            "report_period": "2026-10-03",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-16",
+            "accession_number": "0000100493-26-000079",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000100493/000010049326000079/tsn-20261003.htm",
+            "value": "453000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 474000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 1.28,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "TSN",
+            "report_period": "2026-10-03",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-16",
+            "accession_number": "0000100493-26-000079",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000100493/000010049326000079/tsn-20261003.htm",
+            "value": "1.28"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 1.33,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 17614000000,
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "TSN",
+            "report_period": "2026-10-03",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-16",
+            "accession_number": "0000100493-26-000079",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000100493/000010049326000079/tsn-20261003.htm",
+            "value": "17614000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 18085000000,
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2433000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "TSN",
+            "report_period": "2026-10-03",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-16",
+            "accession_number": "0000100493-26-000079",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0000100493/000010049326000079/tsn-20261003.htm",
+            "value": "2433000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2155000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 770000000,
+            "start": "2025-09-28",
+            "end": "2026-10-03",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 978000000,
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accn": "0000100493-26-000079",
+            "filed": "2026-11-16",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 1 has an invalid or non-verbatim document line and quote.",
+        "Claim 2 has an invalid or non-verbatim document line and quote.",
+        "Claim 5 includes a number that is not present in its quoted line.",
+        "Claim 8 has an invalid or non-verbatim document line and quote.",
+        "Claim 11 has an invalid or non-verbatim document line and quote.",
+        "Claim 12 has an invalid or non-verbatim document line and quote."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line.",
+        "Financial observations contain digits."
+      ],
+      "advisor_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

@@ -6,12 +6,16 @@ Runs are saved under `one_desk_runs/<TICKER>_<start-time>/`, with seeker files, 
 
 The hook checks the seeker report when present, validates the saved worksheet, and checks that the final report contains the verified team report and the exact worksheet text. Replay reruns these checks against saved files, prints the saved final report, and makes no filing requests. The worksheet hook false trigger was fixed: source inspection and `--help` no longer count as running the worksheet script.
 
+For Lab 08 proof, `scripts/replay_offline.py RUN_FOLDER` runs the replay with socket connections and DNS lookups blocked. The November 16 VYLR run at `one_desk_runs/VYLR_2026-11-16_20-17-13_428177_-0500/` replayed successfully; `replay-offline-proof.json` records the saved report hash, exact-output match, and zero network attempts. To run the hook on an edited copy, save it inside its run folder and use `one_desk.py --check-copy PATH`. The hook now validates the worksheet section in a copy before checking exact equality, so it can name the changed amount's final-report line, source filing, and section. The VYLR seeded copy changed 575 to 576 and was refused at line 116; `seeded-copy-hook-output.txt` contains the refusal.
+
 Commands from the project root:
 
 ```powershell
 .\.venv\Scripts\python.exe one_desk.py YOUR_TICKER
 .\.venv\Scripts\python.exe one_desk.py screen
 .\.venv\Scripts\python.exe one_desk.py --replay ".\one_desk_runs\YOUR_TICKER_<timestamp>"
+.\.venv\Scripts\python.exe one_desk.py --check-copy ".\one_desk_runs\YOUR_TICKER_<timestamp>\seeded-copy-final-report.md"
+.\.venv\Scripts\python.exe one_desk.py --finish-empty-screen ".\one_desk_runs\SCREEN_<timestamp>"
 ```
 
 End-to-end check completed on November 16, 2026, with `COST`. The run exited 0 and saved to `one_desk_runs/COST_2026-11-16_16-49-00_960078_-0500/`. Ticker-mode seeker and spinoff worksheet sections were `not applicable` because COST was absent from the registry; the worksheet manifest recorded `registry_present=false`, zero Form 4 filings checked, and no collection errors. The team, worksheet, and hook completed in 183.16, 4.19, and 0.10 seconds. The final report's first line lists all three filings read: 10-K accession `000090983226000093`, 10-Q `000090983226000051`, and 8-K `000090983226000084`. The hook passed.
@@ -24,13 +28,13 @@ The VYLR known-answer run completed in `one_desk_runs/VYLR_2026-11-16_16-56-52_0
 
 The VYLR replay passed with Python socket connects and DNS lookups blocked; it printed the identical saved report. A separate copied report with after-tax earnings changed from 575 to 576 USD millions was refused at worksheet line 19 (Form 10 line 19762); the dependent owner-cash-flow calculation was also refused at line 23. The original report remains unchanged. The saved copy is under `hook_seeded_copy/` in the VYLR run folder.
 
-The latest complete seeker scan ended at registrant 170 of 170 after 4,791.98 seconds, but produced no ranked name; the desk then stopped in `pick`. The report identifies Vylor as in-window but unranked for missing `size` and `insiders`. Root cause: the XBRL share reader required a share count filed and measured on the exact close date, and the insider reader only accepted one narrow sentence format. Vylor's 10-Q reports 667,303,030 shares as of November 5, filed November 12; the screen's close was November 16. Its Form 10 has a directors-and-executives group row with 924,111 expected shares against 667,196,000 expected shares outstanding, as of August 31. The code now selects the latest share count both measured and filed on or before the close, and parses this sourced ownership table. From the saved November 16 close of USD 71.80, the market cap input is USD 47,912,357,554; the expected ownership calculation is 924,111 / 667,196,000 × 100 = about 0.1385%. The latter is an expected pre-spin figure, not verified current post-spin ownership. All 136 seeker tests passed after the change. The 170-registrant screen has not yet been rerun, so do not claim the new report or pick succeeded.
+The latest complete seeker scan inspected registrant 170 of 170 in 2,375.44 seconds and produced no ranked name. Vylor remained in-window but unranked because the screen had no size or insider inputs. Its report, registry, and filing-read log are under `one_desk_runs/SCREEN_2026-11-16_20-16-45_506614_-0500/seeker/`. All 136 seeker tests had passed after the share-count and insider-reader changes.
 
 The earlier transient SEC `IncompleteRead` is also addressed: `one_desk.py` streams subprocess output, and the seeker retries an incomplete SEC response up to three total attempts. If all attempts fail, the command stops and preserves the run folder. Two focused synthetic retry tests passed.
 
 ## November 16, 2026 — empty-screen handling
 
-`one_desk.py` now treats an explicit empty ranked section (`None established.`) as a normal outcome. It marks pick, agent team, and worksheet `not applicable` because there is no ticker to pass to the ticker-based team and worksheet. It saves `pick.json`, a final report whose first line lists the filings read and whose body includes the exact seeker report, and `run.json`; the hook checks the seeker output and final report. Offline replay has a dedicated path for this saved result. Other pick errors still fail and preserve the run folder. `one_desk.py` passed `py_compile`; this empty-screen branch has not yet been run end to end.
+`one_desk.py` treats an explicit empty ranked section (`None established.`) as a normal outcome. The first full screen reached this branch, marked pick, team, and worksheet not applicable, then failed during finalization with `TypeError: unsupported operand type(s) for /: 'NoneType' and 'str'`. The seeker report, registry, and filing-read log were preserved. The finalization code is now a reusable local-only function. Run `one_desk.py --finish-empty-screen RUN_FOLDER` to complete a saved empty screen without rerunning the seeker. It creates `pick.json`, the final report, and successful `run.json`; its hook checks the exact seeker report and filing list. The saved run `one_desk_runs/SCREEN_2026-11-16_20-16-45_506614_-0500/` has now completed this path, and offline replay passed with zero network attempts. Future failures save a traceback and name the failing hook part.
 
 # Latest continuation ? November 14, 2026: three local weekly reports completed
 
@@ -148,7 +152,7 @@ The report says registration indexes before 2024 were not searched and the filin
 
 # Continuation - November 14, 2026: Lab 07 pre-work is ready; actual lab not started
 
-The user asked to complete the preparation work only, not perform Lab 07. The pre-work is now represented in the repository by `.agents/skills/us-spinoff-worksheet/`, `lab07_worksheet_rules.md`, and `personas/investment_advisor.md`.
+The user asked to complete the preparation work only, not perform Lab 07. The pre-work is now represented in the repository by `.agents/skills/us-spinoff-worksheet/`, `docs/lab07_worksheet_rules.md`, and `personas/investment_advisor.md`.
 
 The seeker closes reader in `.agents/skills/us-spinoff-seeker/scripts/closes_reader.py` now returns daily close and share volume from export, candidate, and official Workspace reader paths. Candidate data is labeled unverified. The official reader requires filing-based listing evidence and an exchange spot check; do not treat a candidate-bars response as verified official close history. The reader's focused synthetic suite passed **24 tests**. Python syntax checks passed for the new worksheet scripts, and the staged hook JSON parsed successfully. A live LSEG candidate-bars query returned two rows for a generic instrument, which confirms field delivery only; it does not validate a real spinoff's official primary-listing series.
 

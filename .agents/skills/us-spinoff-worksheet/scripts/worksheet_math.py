@@ -256,7 +256,7 @@ def calculate(inputs, rules):
 def main():
     parser = argparse.ArgumentParser(description='Calculate Lab 07 worksheet values from sourced inputs')
     parser.add_argument('--inputs', type=Path, required=True, help='JSON evidence inputs; no estimates')
-    parser.add_argument('--rules', type=Path, required=True, help='lab07_worksheet_rules.md')
+    parser.add_argument('--rules', type=Path, required=True, help='docs/lab07_worksheet_rules.md')
     parser.add_argument('--output', type=Path, required=True, help='Output calculations JSON path')
     args = parser.parse_args()
     inputs = json.loads(args.inputs.read_text(encoding='utf-8'))

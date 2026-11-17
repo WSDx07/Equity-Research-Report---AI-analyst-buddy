@@ -23,7 +23,7 @@ The sections below document the individual helper workflow and the marked-draft 
 
 ## Scope and inputs
 
-- Read `lab07_worksheet_rules.md` before extracting or calculating a fact. Treat it as the source for client size, periods, units, valuation rates, liquidity lookback, conviction, and missing-data rules.
+- Read `docs/lab07_worksheet_rules.md` before extracting or calculating a fact. Treat it as the source for client size, periods, units, valuation rates, liquidity lookback, conviction, and missing-data rules.
 - Use one saved agent-team run. It must contain `facts.json`, `filings.json`, and saved filing text. The ticker must match the run.
 - Use the seeker's registry file. A CIK entry in the registry means the company is registry-present, even when all facts in that entry are blank. Use `not known` for missing fields. Use `not applicable` only when the CIK entry is absent.
 - Read the user's `personas/investment_advisor.md`. Read it as qualitative guidance. The worksheet rules file controls the calculations and output.
@@ -75,7 +75,7 @@ Prepare an input JSON object using the schema in `references/input-schema.md`. E
 Run the deterministic calculator. It does not call a model:
 
 ```powershell
-python .\.agents\skills\us-spinoff-worksheet\scripts\worksheet_math.py --inputs "<run-folder>\worksheet_inputs.json" --rules ".\lab07_worksheet_rules.md" --output "<run-folder>\worksheet_calculations.json"
+python .\.agents\skills\us-spinoff-worksheet\scripts\worksheet_math.py --inputs "<run-folder>\worksheet_inputs.json" --rules ".\docs\lab07_worksheet_rules.md" --output "<run-folder>\worksheet_calculations.json"
 ```
 
 Show the printed inputs and formulas for owner cash flow, low and mid equity value, both per-share values, margin of safety, each daily dollar volume, and the 20-day median. The course formula is after-tax earnings + depreciation - capital spending. Capitalize owner cash flow directly as equity value under the rule file. Do not add cash or subtract debt a second time. If a required amount, diluted share count, dated close, or volume is missing, print `not computed` for the affected result and name the gap.
@@ -93,7 +93,7 @@ Do not include a raw price or volume series, reader data, or unsourced claims in
 
 ## Required worksheet output
 
-Write the worksheet in the order from `lab07_worksheet_rules.md`:
+Write the worksheet in the order from `docs/lab07_worksheet_rules.md`:
 
 Start the first line with the filings read. Include the live-release filing on that line.
 
@@ -133,13 +133,13 @@ Print exactly the configured 20 daily dollar volumes in ascending date order. Ma
 Save the draft and the live-view JSON beside the run. Use `save_worksheet.py`; it records the reader, rules, and run paths in the worksheet itself and writes `worksheet.json` for the read-only hit-rate table:
 
 ```powershell
-python .\.agents\skills\us-spinoff-worksheet\scripts\save_worksheet.py --draft "<run-folder>\worksheet_draft.md" --run "<run-folder>" --rules ".\lab07_worksheet_rules.md" --reader "<target-bars.json>" --live-reader "<release-bars.json>" --live-view "<run-folder>\live_view.json" --output "<run-folder>\worksheet-YYYYMMDD-HHMMSS.md"
+python .\.agents\skills\us-spinoff-worksheet\scripts\save_worksheet.py --draft "<run-folder>\worksheet_draft.md" --run "<run-folder>" --rules ".\docs\lab07_worksheet_rules.md" --reader "<target-bars.json>" --live-reader "<release-bars.json>" --live-view "<run-folder>\live_view.json" --output "<run-folder>\worksheet-YYYYMMDD-HHMMSS.md"
 ```
 
 Check a saved worksheet before you call it complete:
 
 ```powershell
-python .\.agents\skills\us-spinoff-worksheet\scripts\worksheet_guard.py --worksheet "<worksheet.md>" --run "<run-folder>" --rules ".\lab07_worksheet_rules.md" --reader "<reader-bars.json>"
+python .\.agents\skills\us-spinoff-worksheet\scripts\worksheet_guard.py --worksheet "<worksheet.md>" --run "<run-folder>" --rules ".\docs\lab07_worksheet_rules.md" --reader "<reader-bars.json>"
 ```
 
 The exact check command for a seeded copy is the same command with `--worksheet` set to the copy. The configured hook was trusted and blocked a seeded error during a live PostToolUse event. A live Stop event with an erroneous worksheet remains unverified.

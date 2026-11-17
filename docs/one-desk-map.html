@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lab 08 One Desk flowchart with process calls and file handoffs.">
+  <title>One Desk Map - FIN 67110 Lab 08</title>
+  <style>
+    :root { --bg:#fff; --fg:#14181d; --muted:#5a6572; --rule:#dfe3e8; --accent:#0b5fa5; --code-bg:#f4f6f8; --panel:#f8fafc; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0f1419; --fg:#e9ecf0; --muted:#9aa4b2; --rule:#2a323c; --accent:#6fb3f2; --code-bg:#182029; --panel:#141c24; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+    main { max-width:48rem; margin:0 auto; padding:2.25rem 1.25rem 4.5rem; }
+    h1 { font-size:1.9rem; line-height:1.2; margin:0 0 .7rem; letter-spacing:-.01em; }
+    h2 { font-size:1.35rem; line-height:1.25; margin:2.2rem 0 .7rem; }
+    h3 { font-size:1.05rem; margin:1.5rem 0 .45rem; }
+    p,li { margin:.65rem 0; }
+    code,pre { font-family:ui-monospace,Consolas,"Courier New",monospace; }
+    code { font-size:.88em; background:var(--code-bg); padding:.08em .28em; border-radius:4px; overflow-wrap:anywhere; }
+    .lead { color:var(--muted); margin:.2rem 0 1.25rem; }
+    .legend { display:flex; flex-wrap:wrap; gap:8px 24px; margin:1rem 0; padding:.85rem 1rem; border:1px solid var(--rule); border-radius:8px; background:var(--panel); font-size:.91rem; }
+    .key { display:inline-flex; align-items:center; gap:8px; }
+    .line { display:inline-block; width:38px; border-top:2px solid var(--accent); }
+    .line.call { border-top-style:dashed; border-color:#98651f; }
+    pre.mermaid { margin:1rem 0 1.4rem; padding:.65rem 0; background:none; border:0; text-align:center; font:inherit; overflow-x:auto; }
+    .mermaid svg { max-width:100%; height:auto; }
+    .box { margin:1rem 0; padding:1rem 1.1rem; border:1px solid var(--rule); border-radius:8px; background:var(--panel); }
+    .box h2 { margin:.1rem 0 .55rem; }
+    .files { display:grid; grid-template-columns:minmax(0,1fr) 32px minmax(0,1.2fr); gap:7px 9px; align-items:center; margin-top:.8rem; font-size:.91rem; }
+    .files code { padding:.22rem .35rem; }
+    .arrow { color:var(--accent); text-align:center; font-size:1.2rem; font-weight:700; }
+    .call-list { margin:.5rem 0 0; padding-left:1.25rem; }
+    .call-list li { padding-left:.1rem; }
+    pre.command { margin:.6rem 0; padding:.8rem 1rem; overflow-x:auto; border:1px solid var(--rule); border-radius:8px; background:var(--code-bg); font:13px/1.55 ui-monospace,Consolas,"Courier New",monospace; white-space:pre-wrap; overflow-wrap:anywhere; }
+    .small { color:var(--muted); font-size:.9rem; }
+    .foot { margin-top:2rem; color:var(--muted); font-size:.83rem; }
+    @media(max-width:520px) { body { font-size:16px; } main { padding:1.4rem 1rem 3rem; } .files { grid-template-columns:1fr; gap:1px; } .arrow { text-align:left; transform:rotate(90deg); transform-origin:left center; height:20px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>One Desk: the flow and its files</h1>
+  <p class="lead">The code fixes the order. The flowchart uses dashed arrows for calls and solid arrows for saved files.</p>
+  <div class="legend" aria-label="Diagram legend">
+    <span class="key"><span class="line call" aria-hidden="true"></span>Process or function call</span>
+    <span class="key"><span class="line" aria-hidden="true"></span>File written or read</span>
+  </div>
+
+  <pre class="mermaid" aria-label="One Desk process and file flow">
+flowchart TD
+  subgraph BUILD["WHAT ONE DESK RUNS"]
+    direction TB
+    IN["Input: ticker or screen"]
+    SEEK["Seeker<br/>screen input only"]
+    PICK["Pick<br/>entered ticker or ranked top"]
+    TEAM["Agent team<br/>fixed run on selected ticker"]
+    WORK["Worksheet<br/>reads team's saved run"]
+    ASSEMBLE["Assemble final report"]
+    FINAL["final_report.md<br/>verified report + worksheet view<br/>first line lists filings read"]
+    IN -. "screen: call seeker" .-> SEEK
+    SEEK -- "ranked report + registry file" --> PICK
+    IN -. "ticker: skip seeker" .-> PICK
+    PICK -. "start team for selected ticker" .-> TEAM
+    TEAM -- "saved run, facts and filing text" --> WORK
+    SEEK -- "registry file" --> WORK
+    TEAM -- "verified_report.md" --> ASSEMBLE
+    WORK -- "worksheet Markdown" --> ASSEMBLE
+    SEEK -- "filing_reads.json" --> ASSEMBLE
+    ASSEMBLE --> FINAL
+  end
+  subgraph CHECK["HOW THE RESULT IS CHECKED"]
+    direction TB
+    HOOK["Hook checks saved outputs"]
+    PAGE["Lab 05 page displays final report"]
+    RUN["Timestamped run folder<br/>part outputs + run.json"]
+    REPLAY["Replay command<br/>reads saved files only"]
+    FINAL -- "final_report.md" --> HOOK
+    WORK -- "worksheet output" --> HOOK
+    HOOK --> PAGE
+    RUN -- "saved files" --> REPLAY
+    REPLAY -. "re-run hook; no fetch" .-> HOOK
+  end
+  PAGE -. "starts one_desk.py" .-> IN
+  CFG["Shared inputs<br/>spinoff_factors.json<br/>docs/lab07_worksheet_rules.md<br/>.env"] -. "read by fixed code" .-> IN
+  classDef control fill:#fff,stroke:#98651f,stroke-width:1.5px,color:#14181d;
+  classDef files fill:#f1f7fb,stroke:#0b5fa5,stroke-width:1.5px,color:#14181d;
+  classDef parts fill:#f8fafc,stroke:#667783,stroke-width:1.5px,color:#14181d;
+  class IN,CFG,PAGE control;
+  class SEEK,PICK,TEAM,WORK,ASSEMBLE,HOOK,REPLAY parts;
+  class FINAL,RUN files;
+  </pre>
+
+  <section class="box">
+    <h2>File arrows, by name</h2>
+    <p>These are the file handoffs in the diagram. The worksheet reads the team's saved files and reuses matching filing text.</p>
+    <div class="files">
+      <code>seeker/spinoff-screen-*.md</code><span class="arrow" aria-hidden="true">→</span><span>Pick reads the ranked report.</span>
+      <code>seeker/registry-*.json</code><span class="arrow" aria-hidden="true">→</span><span>Pick and worksheet use the registry.</span>
+      <code>seeker/filing_reads.json</code><span class="arrow" aria-hidden="true">→</span><span>Final report lists the filings on line one.</span>
+      <code>team/facts.json</code><span class="arrow" aria-hidden="true">→</span><span>Worksheet reads the saved team run.</span>
+      <code>team/*_10-K_*.txt, *_10-Q_*.txt, *_8-K_*.txt, Form 10 files</code><span class="arrow" aria-hidden="true">→</span><span>Worksheet source collector reuses matching saved filings.</span>
+      <code>team/verified_report.md</code><span class="arrow" aria-hidden="true">→</span><span>Final report builder includes the team's verified report.</span>
+      <code>team/worksheet-*.md</code><span class="arrow" aria-hidden="true">→</span><span>Final report builder adds the worksheet view.</span>
+      <code>team/worksheet-*.md</code><span class="arrow" aria-hidden="true">→</span><span>Hook checks the worksheet output.</span>
+      <code>final_report.md</code><span class="arrow" aria-hidden="true">→</span><span>Hook validates it; page displays it.</span>
+      <code>run.json</code><span class="arrow" aria-hidden="true">→</span><span>Replay reads the saved report and paths.</span>
+    </div>
+  </section>
+
+  <section class="box">
+    <h2>Two input paths</h2>
+    <h3>Ticker</h3>
+    <p>One Desk skips the seeker, selects the entered ticker, then calls the agent team and worksheet. If the ticker is absent from the registry, the worksheet marks spinoff-specific fields <strong>not applicable</strong> and continues.</p>
+    <h3>Screen</h3>
+    <p>One Desk runs the seeker, reads its ranked report, then passes the top ticker to the agent team and worksheet.</p>
+    <h3>Empty screen</h3>
+    <p>If the report says <code>None established.</code>, pick, agent team, and worksheet are marked <strong>not applicable</strong> because no ticker is available. One Desk saves the report and filing list, runs the empty-screen hook, and records the run in <code>run.json</code>.</p>
+  </section>
+
+  <section class="box">
+    <h2>Commands</h2>
+    <pre class="command">.\.venv\Scripts\python.exe one_desk.py VYLR
+.\.venv\Scripts\python.exe one_desk.py screen
+.\.venv\Scripts\python.exe one_desk.py --replay ".\one_desk_runs\VYLR_TIMESTAMP"</pre>
+    <p class="small">Replay checks saved files and runs the hook. It does not fetch filings. Each part records its elapsed seconds in the terminal and in <code>run.json</code>.</p>
+  </section>
+
+  <p class="foot">This chart follows the course project page's Mermaid flowchart format. Rules now live at <code>docs/lab07_worksheet_rules.md</code>. The worksheet guard also accepts older saved worksheets with metadata that names the previous root path.</p>
+</main>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, flowchart: { useMaxWidth: false }, theme: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'neutral' });
+</script>
+</body>
+</html>

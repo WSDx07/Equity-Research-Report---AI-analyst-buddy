@@ -1,4 +1,5 @@
 import json
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -52,6 +53,53 @@ class EmptyScreenTest(unittest.TestCase):
             with patch.object(one_desk, "RUNS", runs):
                 replayed = one_desk.replay(run_dir)
             self.assertEqual(replayed.read_text(encoding="utf-8"), report_text)
+
+    def test_changed_amount_in_final_report_copy_is_refused_by_report_line(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            team = Path(tmp) / "team"
+            team.mkdir()
+            worksheet = team / "worksheet.md"
+            worksheet.write_text(
+                '- After-tax earnings: 575 USD millions [filing file="VYLR_Form 10.txt" line=12 '
+                'section="Combined Statements of Operations" tag=historical period=FY2025 source_run=target]\n',
+                encoding="utf-8",
+            )
+            verified = team / "verified_report.md"
+            verified.write_text("Verified team report.\n", encoding="utf-8")
+            report = team / "seeded-copy-final-report.md"
+            report.write_text(
+                "Filings read: Form 10\n\n# Verified agent-team report\n\n"
+                "Verified team report.\n\n## Worksheet view\n\n"
+                '- After-tax earnings: 576 USD millions [filing file="VYLR_Form 10.txt" line=12 '
+                'section="Combined Statements of Operations" tag=historical period=FY2025 source_run=target]\n',
+                encoding="utf-8",
+            )
+            sys_path = str(one_desk.GUARD_DIR)
+            if sys_path not in sys.path:
+                sys.path.insert(0, sys_path)
+            import worksheet_guard
+
+            calls = 0
+
+            def validate(path, **kwargs):
+                nonlocal calls
+                calls += 1
+                if calls == 1:
+                    return []
+                return [
+                    'line 1: filing line 12 does not contain 576 | '
+                    '- After-tax earnings: 576 USD millions [filing file="VYLR_Form 10.txt" '
+                    'line=12 section="Combined Statements of Operations"]'
+                ]
+
+            with patch.object(worksheet_guard, "validate_worksheet", side_effect=validate):
+                with self.assertRaises(one_desk.RefusalError) as caught:
+                    one_desk.worksheet_hook(report, worksheet, verified, team, Path("rules.md"))
+
+            self.assertEqual(
+                str(caught.exception),
+                "refused: line 9, 576 is not in VYLR_Form 10.txt, Combined Statements of Operations",
+            )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,172 @@
+{
+  "marks": [
+    {
+      "line": 7,
+      "value": "124,000",
+      "supported": false,
+      "reason": "The company facts JSON does not contain any employee count or a related XBRL fact for the fiscal period; therefore the claim of ~124,000 team members cannot be verified."
+    },
+    {
+      "line": 16,
+      "value": "19.0%",
+      "supported": false,
+      "reason": "No fact for the proportion of sales attributable to Walmart (or any other customer) is present in the saved facts; the claim cannot be matched to a cited filing period."
+    },
+    {
+      "line": 16,
+      "value": "10%",
+      "supported": false,
+      "reason": "The filing excerpts and saved facts do not provide a figure for the next‑largest customer share; the claim lacks supporting evidence."
+    },
+    {
+      "line": 17,
+      "value": "140",
+      "supported": false,
+      "reason": "The number of countries/regions sold to is not represented in any XBRL fact; therefore the claim cannot be corroborated."
+    },
+    {
+      "line": 19,
+      "value": "$4.1 billion",
+      "supported": false,
+      "reason": "Liquidity totals are not present in the provided facts; the $4.1 B figure cannot be confirmed against a cited filing."
+    },
+    {
+      "line": 19,
+      "value": "$1.0 billion",
+      "supported": false,
+      "reason": "The minimum liquidity target is not recorded in any supplied fact; no source can be matched to the $1.0 B figure."
+    },
+    {
+      "line": 52,
+      "value": "3.63 %",
+      "supported": true,
+      "reason": "Revenue current (56,419,000,000) and prior (54,441,000,000) are present in the company facts; the computed growth ((56,419‑54,441)/54,441)×100 equals 3.63 %."
+    },
+    {
+      "line": 53,
+      "value": "1.95 %",
+      "supported": true,
+      "reason": "Operating income (1,100,000,000) and total revenue (56,419,000,000) are in the facts; 1.1 B ÷ 56.419 B = 0.0195 → 1.95 %."
+    },
+    {
+      "line": 54,
+      "value": "2.54 %",
+      "supported": true,
+      "reason": "Net income (453,000,000) and stockholders’ equity current (17,614,000,000) and prior (18,085,000,000) are in the facts; average equity = (17.614 B+18.085 B)/2 = 17.8495 B; 0.453 B ÷ 17.8495 B = 0.0254 → 2.54 %."
+    },
+    {
+      "line": 55,
+      "value": "1,663,000,000 USD",
+      "supported": true,
+      "reason": "Cash from operations (2,433,000,000) minus property‑and‑equipment additions (770,000,000) from the facts equals 1,663,000,000 USD."
+    },
+    {
+      "line": 38,
+      "value": "56419000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact total_revenue.current.val."
+    },
+    {
+      "line": 39,
+      "value": "54441000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact total_revenue.prior.val."
+    },
+    {
+      "line": 40,
+      "value": "1100000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact operating_income.current.val."
+    },
+    {
+      "line": 41,
+      "value": "1098000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact operating_income.prior.val."
+    },
+    {
+      "line": 42,
+      "value": "453000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact net_income.current.val."
+    },
+    {
+      "line": 43,
+      "value": "474000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact net_income.prior.val."
+    },
+    {
+      "line": 44,
+      "value": "1.28 USD/share",
+      "supported": true,
+      "reason": "Matches the company fact diluted_eps.current.val."
+    },
+    {
+      "line": 45,
+      "value": "1.33 USD/share",
+      "supported": true,
+      "reason": "Matches the company fact diluted_eps.prior.val."
+    },
+    {
+      "line": 46,
+      "value": "17614000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact stockholders_equity.current.val."
+    },
+    {
+      "line": 47,
+      "value": "18085000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact stockholders_equity.prior.val."
+    },
+    {
+      "line": 48,
+      "value": "2433000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact cash_from_operations.current.val."
+    },
+    {
+      "line": 49,
+      "value": "2155000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact cash_from_operations.prior.val."
+    },
+    {
+      "line": 50,
+      "value": "770000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact additions_to_property_and_equipment.current.val."
+    },
+    {
+      "line": 51,
+      "value": "978000000 USD",
+      "supported": true,
+      "reason": "Matches the company fact additions_to_property_and_equipment.prior.val."
+    },
+    {
+      "line": 52,
+      "value": "3.63 %",
+      "supported": true,
+      "reason": "Derived from the revenue figures; computation is correct per the facts."
+    },
+    {
+      "line": 53,
+      "value": "1.95 %",
+      "supported": true,
+      "reason": "Derived from operating income and revenue; matches the facts."
+    },
+    {
+      "line": 54,
+      "value": "2.54 %",
+      "supported": true,
+      "reason": "Derived from net income and average equity; matches the facts."
+    },
+    {
+      "line": 55,
+      "value": "1663000000 USD",
+      "supported": true,
+      "reason": "Derived from cash from operations minus property/equipment additions; matches the facts."
+    }
+  ]
+}

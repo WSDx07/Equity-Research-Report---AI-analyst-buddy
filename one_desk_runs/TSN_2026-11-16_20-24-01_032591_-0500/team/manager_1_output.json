@@ -1,0 +1,33 @@
+{
+  "research_issues": [
+    "Claim 1: Invalid or non‑verbatim document line and quote – the quoted line does not match the source.",
+    "Claim 2: Invalid or non‑verbatim document line and quote – discrepancy between quoted text and filing.",
+    "Claim 5: Includes a number (19 %) that is not present in the quoted line; citation is inaccurate.",
+    "Claim 8: Invalid or non‑verbatim document line and quote – source reference mismatched.",
+    "Claim 11: Invalid or non‑verbatim document line and quote – citation error.",
+    "Claim 12: Invalid or non‑verbatim document line and quote – source does not contain the quoted material."
+  ],
+  "financial_issues": [
+    "Financial observations contain raw numeric values; narrative observations should be expressed without embedding exact digits to avoid redundancy with the data tables.",
+    "Insight citation is present, but the automatic check flagged a missing filing/line – verified and corrected."
+  ],
+  "advisor_issues": [],
+  "overall_issues": [
+    "Valuation Insights section is absent – required analysis of valuation multiples, implied price targets, and sensitivity is missing.",
+    "Capital‑expenditure outlook is not quantified; the filing only mentions ongoing projects (line 367) without a forward‑looking spend figure.",
+    "Long‑term debt data are unavailable, preventing calculation of leverage ratios (debt‑to‑equity, interest coverage).",
+    "Peer‑company financial metrics are not supplied, so benchmarking and relative valuation cannot be performed."
+  ],
+  "research_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "pass",
+    "reason": "Insight includes a precise filing reference (10‑K line 137) and direct quote; it adds new information not duplicated in the press‑release first paragraph."
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

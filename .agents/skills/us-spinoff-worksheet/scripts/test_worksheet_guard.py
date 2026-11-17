@@ -10,7 +10,7 @@ import worksheet_guard
 
 
 ROOT = Path(__file__).resolve().parents[4]
-RULES = ROOT / 'lab07_worksheet_rules.md'
+RULES = ROOT / 'docs' / 'lab07_worksheet_rules.md'
 
 
 class WorksheetGuardTests(unittest.TestCase):

@@ -9,6 +9,7 @@ import shutil
 import subprocess
 import sys
 import time
+import traceback
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
@@ -23,6 +24,10 @@ STAMP = "%Y-%m-%d_%H-%M-%S_%f_%z"
 
 
 class PartFailure(RuntimeError):
+    pass
+
+
+class RefusalError(ValueError):
     pass
 
 
@@ -151,8 +156,9 @@ def worksheet_hook(report: Path, worksheet: Path, verified: Path, team: Path, ru
     worksheet_text = worksheet.read_text(encoding="utf-8")
     verified_text = verified.read_text(encoding="utf-8")
     marker = "## Worksheet view\n\n"
-    if marker not in report_text or report_text.split(marker, 1)[1] != worksheet_text:
-        raise ValueError("Final report does not contain the exact saved worksheet output")
+    if marker not in report_text:
+        raise ValueError("Final report does not contain the worksheet view")
+    worksheet_view = report_text.split(marker, 1)[1]
     if verified_text not in report_text:
         raise ValueError("Final report does not contain the team's verified report")
     if not report_text.startswith("Filings read: "):
@@ -167,11 +173,29 @@ def worksheet_hook(report: Path, worksheet: Path, verified: Path, team: Path, ru
     # The final-report hook checks the copied worksheet section with the same
     # guard used for the standalone skill output.
     with (team / "final_report_worksheet_check.md").open("w", encoding="utf-8", newline="\n") as stream:
-        stream.write(report_text.split(marker, 1)[1])
+        stream.write(worksheet_view)
     try:
         issues = worksheet_guard.validate_worksheet(team / "final_report_worksheet_check.md", run=team, rules_path=rules)
     finally:
         (team / "final_report_worksheet_check.md").unlink(missing_ok=True)
+    if worksheet_view != worksheet_text:
+        if issues:
+            issue = issues[0]
+            local_line_match = re.match(r"line\s+(\d+):", issue)
+            local_line = int(local_line_match.group(1)) if local_line_match else 1
+            lines = worksheet_view.splitlines()
+            line_text = lines[local_line - 1] if 0 < local_line <= len(lines) else ""
+            marker_match = worksheet_guard.MARKER.search(line_text)
+            fields = worksheet_guard.parse_marker(marker_match.group(2)) if marker_match else {}
+            amount_values = worksheet_guard.visible_numbers(line_text)
+            amount = amount_values[0] if amount_values else "amount"
+            filing = fields.get("file") or fields.get("source_file") or fields.get("filing") or "saved worksheet"
+            filing = Path(filing).name
+            section = fields.get("section") or "worksheet view"
+            body_start = report_text.index(marker) + len(marker)
+            report_line = report_text[:body_start].count("\n") + local_line
+            raise RefusalError(f"refused: line {report_line}, {amount} is not in {filing}, {section}")
+        raise RefusalError("refused: final report worksheet view differs from the saved worksheet output")
     if issues:
         raise ValueError("Final report hook: " + "; ".join(issues[:8]))
 
@@ -189,6 +213,78 @@ def empty_screen_hook(report: Path, seeker_report: Path, filings_read: list[str]
     for stage in ("Pick", "Agent team", "Worksheet"):
         if f"## {stage}\n\nNot applicable" not in report_text:
             raise ValueError(f"Empty-screen report does not mark {stage} as not applicable")
+
+
+def finish_empty_screen_run(run_dir: Path, metadata: dict | None = None) -> Path:
+    """Finish a saved empty screen from local files, without calling the seeker."""
+    run_dir = run_dir.resolve()
+    if not run_dir.is_dir() or not run_dir.is_relative_to(RUNS.resolve()):
+        raise ValueError("Empty-screen run must be inside one_desk_runs")
+    run_json = run_dir / "run.json"
+    if metadata is None:
+        metadata = json.loads(run_json.read_text(encoding="utf-8"))
+    if metadata.get("input", "").casefold() != "screen":
+        raise ValueError("Saved run input is not screen")
+    seek_dir = run_dir / "seeker"
+    report = latest_report(seek_dir)
+    registries = sorted(seek_dir.glob("registry-*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+    registry = registries[0] if registries else None
+    filing_log = seek_dir / "filing_reads.json"
+    if report is None or registry is None or not filing_log.is_file():
+        raise ValueError("Saved screen needs its seeker report, registry, and filing_reads.json")
+    if pick_screen_ticker(report, seek_dir) is not None:
+        raise ValueError("Saved screen has a ranked ticker; it cannot use the empty-screen completion path")
+    json.loads(filing_log.read_text(encoding="utf-8"))
+
+    parts = metadata.setdefault("parts", [])
+    for name in ("pick", "agent team", "worksheet"):
+        part = next((row for row in parts if row.get("part") == name), None)
+        if part is None:
+            part = {"part": name, "seconds": 0.0}
+            parts.append(part)
+        part["status"] = "not applicable"
+    (run_dir / "pick.json").write_text(json.dumps({
+        "status": "not applicable",
+        "reason": "The seeker's report has no ranked top name.",
+    }, indent=2) + "\n", encoding="utf-8")
+
+    filings_read = filing_names(run_dir, run_dir, None, registry, filing_log)
+    final_report = run_dir / "final_report.md"
+    final_text = (
+        "Filings read: " + (", ".join(filings_read) if filings_read else "none identified") +
+        "\n\n# One Desk report\n\n"
+        "The seeker completed, but its report has no ranked top name. "
+        "No ticker was available for the ticker-dependent stages.\n\n"
+        "## Pick\n\nNot applicable. The screen has no ranked top name.\n\n"
+        "## Agent team\n\nNot applicable. No ticker was selected.\n\n"
+        "## Worksheet\n\nNot applicable. No agent-team run exists without a selected ticker.\n\n"
+        "## Seeker report\n\n" + report.read_text(encoding="utf-8")
+    )
+    final_report.write_text(final_text, encoding="utf-8")
+
+    started = time.perf_counter()
+    empty_screen_hook(final_report, report, filings_read)
+    elapsed = time.perf_counter() - started
+    hook_part = next((row for row in parts if row.get("part") == "hook"), None)
+    if hook_part is None:
+        parts.append({"part": "hook", "seconds": round(elapsed, 2)})
+    else:
+        hook_part["seconds"] = round(elapsed, 2)
+    metadata.update(
+        ticker=None,
+        empty_screen=True,
+        report=str(final_report.resolve()),
+        seeker_report=str(report.resolve()),
+        filings_read=filings_read,
+        run_dir=str(run_dir),
+    )
+    for key in ("error", "failed_part", "failed_part_seconds", "traceback"):
+        metadata.pop(key, None)
+    run_json.write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
+    print("Hook: passed on saved seeker output and final report", flush=True)
+    print(f"Final report: {final_report.resolve()}", flush=True)
+    print(f"Part hook: {elapsed:.2f} seconds", flush=True)
+    return final_report
 
 
 def run_command(label: str, command: list[str], *, cwd: Path = ROOT, env: dict | None = None, announce: bool = True) -> tuple[str, float]:
@@ -284,10 +380,6 @@ def run(ticker_arg: str, screen_start: str | None) -> Path:
                 raise PartFailure(f"pick: {type(exc).__name__}: {exc}") from exc
             if picked is None:
                 metadata["parts"].append({"part": "pick", "seconds": round(elapsed, 2), "status": "not applicable"})
-                (run_dir / "pick.json").write_text(json.dumps({
-                    "status": "not applicable",
-                    "reason": "The seeker's report has no ranked top name.",
-                }, indent=2) + "\n", encoding="utf-8")
                 print("Part pick: not applicable (screen has no ranked name)", flush=True)
                 print(f"Part pick: {elapsed:.2f} seconds", flush=True)
 
@@ -296,44 +388,15 @@ def run(ticker_arg: str, screen_start: str | None) -> Path:
                     metadata["parts"].append({"part": label, "seconds": skipped, "status": "not applicable"})
                     print(f"Part {label}: not applicable (no ticker was selected)", flush=True)
                     print(f"Part {label}: {skipped:.2f} seconds", flush=True)
-
-                filing_list = filing_names(run_dir, run_dir, None, registry, seeker_read_log)
-                report_path = run_dir / "final_report.md"
-                final_text = (
-                    "Filings read: " + (", ".join(filing_list) if filing_list else "none identified") +
-                    "\n\n# One Desk report\n\n"
-                    "The seeker completed, but its report has no ranked top name. "
-                    "No ticker was available for the ticker-dependent stages.\n\n"
-                    "## Pick\n\nNot applicable. The screen has no ranked top name.\n\n"
-                    "## Agent team\n\nNot applicable. No ticker was selected.\n\n"
-                    "## Worksheet\n\nNot applicable. No agent-team run exists without a selected ticker.\n\n"
-                    "## Seeker report\n\n" + report.read_text(encoding="utf-8")
-                )
-                report_path.write_text(final_text, encoding="utf-8")
-
-                current_part = "hook"
-                hook_started = time.perf_counter()
-                part_started = hook_started
                 try:
-                    empty_screen_hook(report_path, report, filing_list)
+                    current_part = "hook"
+                    part_started = time.perf_counter()
+                    report_path = finish_empty_screen_run(run_dir, metadata)
                 except Exception as exc:
-                    elapsed = time.perf_counter() - hook_started
-                    print(f"FAILED part hook: {type(exc).__name__}: {exc}", flush=True)
-                    print(f"Part hook: {elapsed:.2f} seconds", flush=True)
+                    elapsed = time.perf_counter() - part_started
+                    print(f"FAILED part {current_part}: {type(exc).__name__}: {exc}", flush=True)
+                    print(f"Part {current_part}: {elapsed:.2f} seconds", flush=True)
                     raise
-                elapsed = time.perf_counter() - hook_started
-                metadata["parts"].append({"part": "hook", "seconds": round(elapsed, 2)})
-                metadata.update(
-                    ticker=None,
-                    empty_screen=True,
-                    report=str(report_path.resolve()),
-                    seeker_report=str(report.resolve()),
-                    filings_read=filing_list,
-                )
-                (run_dir / "run.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
-                print("Hook: passed on saved seeker output and final report", flush=True)
-                print(f"Final report: {report_path.resolve()}", flush=True)
-                print(f"Part hook: {elapsed:.2f} seconds", flush=True)
                 return report_path
             metadata["parts"].append({"part": "pick", "seconds": round(elapsed, 2), "ticker": picked})
             final_dir = RUNS / f"{picked}_{stamp}"
@@ -382,7 +445,7 @@ def run(ticker_arg: str, screen_start: str | None) -> Path:
         part_started = time.perf_counter()
         worksheet_out, elapsed = run_command("worksheet", [sys.executable, "-u", str(WORKSHEET), "--run", str(team),
             "--registry", str(registry), "--env", str(ROOT / ".env"),
-            "--rules", str(ROOT / "lab07_worksheet_rules.md")])
+            "--rules", str(ROOT / "docs" / "lab07_worksheet_rules.md")])
         metadata["parts"].append({"part": "worksheet", "seconds": round(elapsed, 2)})
         worksheet_matches = re.findall(r"^Worksheet:\s*(.+?)\s*$", worksheet_out, re.M)
         if len(worksheet_matches) != 1:
@@ -407,7 +470,7 @@ def run(ticker_arg: str, screen_start: str | None) -> Path:
         hook_started = time.perf_counter()
         part_started = hook_started
         try:
-            worksheet_hook(report_path, worksheet, verified, team, ROOT / "lab07_worksheet_rules.md", seeker_report)
+                    worksheet_hook(report_path, worksheet, verified, team, ROOT / "docs" / "lab07_worksheet_rules.md", seeker_report)
         except Exception as exc:
             elapsed = time.perf_counter() - hook_started
             print(f"FAILED part hook: {type(exc).__name__}: {exc}", flush=True)
@@ -426,6 +489,7 @@ def run(ticker_arg: str, screen_start: str | None) -> Path:
         metadata["error"] = f"{type(exc).__name__}: {exc}"
         metadata["failed_part"] = current_part
         metadata["failed_part_seconds"] = round(time.perf_counter() - part_started, 2)
+        metadata["traceback"] = traceback.format_exc()
         metadata["run_dir"] = str(run_dir.resolve())
         (run_dir / "run.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
         if not isinstance(exc, PartFailure):
@@ -473,7 +537,7 @@ def replay(run_dir: Path) -> Path:
         raise ValueError("Saved seeker report is missing or outside the replay folder")
     started = time.perf_counter()
     try:
-        worksheet_hook(report, worksheet, verified, team, ROOT / "lab07_worksheet_rules.md", seeker_report)
+        worksheet_hook(report, worksheet, verified, team, ROOT / "docs" / "lab07_worksheet_rules.md", seeker_report)
     except Exception as exc:
         elapsed = time.perf_counter() - started
         print(f"FAILED part hook: {type(exc).__name__}: {exc}", flush=True)
@@ -487,23 +551,63 @@ def replay(run_dir: Path) -> Path:
     return report
 
 
+def check_report_copy(report_copy: Path) -> None:
+    report_copy = report_copy.resolve()
+    run_dir = report_copy.parent
+    if not run_dir.is_dir() or not run_dir.is_relative_to(RUNS.resolve()):
+        raise ValueError("Report copy must be inside a saved one_desk_runs folder")
+    metadata = json.loads((run_dir / "run.json").read_text(encoding="utf-8"))
+    original = Path(metadata.get("report", "")).resolve()
+    if report_copy == original:
+        raise ValueError("--check-copy requires a separate copy of final_report.md")
+    if not report_copy.is_file():
+        raise ValueError("Report copy does not exist")
+    if metadata.get("empty_screen"):
+        seeker_report = Path(metadata["seeker_report"]).resolve()
+        if not seeker_report.is_file() or not seeker_report.is_relative_to(run_dir):
+            raise ValueError("Saved seeker report is missing or outside the run folder")
+        empty_screen_hook(report_copy, seeker_report, metadata.get("filings_read", []))
+        return
+    worksheet = Path(metadata["worksheet"]).resolve()
+    verified = Path(metadata["verified_report"]).resolve()
+    for label, path in (("worksheet", worksheet), ("verified report", verified)):
+        if not path.is_file() or not path.is_relative_to(run_dir):
+            raise ValueError(f"Saved {label} is missing or outside the run folder")
+    seeker_report = Path(metadata["seeker_report"]).resolve() if metadata.get("seeker_report") else None
+    worksheet_hook(report_copy, worksheet, verified, verified.parent, ROOT / "docs" / "lab07_worksheet_rules.md", seeker_report)
+    print("Hook: passed on report copy")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("ticker", nargs="?", help="Ticker or screen")
     parser.add_argument("--screen-start", help="Start date for the screen; defaults to the configured window")
     parser.add_argument("--replay", type=Path, help="Replay hook checks for a saved run without fetching")
+    parser.add_argument("--check-copy", type=Path, help="Run the hook on a copied final report inside its saved run folder")
+    parser.add_argument("--finish-empty-screen", type=Path, help="Finish a saved empty screen from its local seeker files")
     args = parser.parse_args()
     try:
-        if args.replay:
-            if args.ticker or args.screen_start:
+        if args.check_copy:
+            if args.ticker or args.screen_start or args.replay or args.finish_empty_screen:
+                parser.error("--check-copy cannot be combined with run options")
+            check_report_copy(args.check_copy)
+        elif args.replay:
+            if args.ticker or args.screen_start or args.finish_empty_screen:
                 parser.error("--replay cannot be combined with run options")
             replay(args.replay)
+        elif args.finish_empty_screen:
+            if args.ticker or args.screen_start:
+                parser.error("--finish-empty-screen cannot be combined with run options")
+            finish_empty_screen_run(args.finish_empty_screen)
         else:
             if not args.ticker:
                 parser.error("ticker or screen is required unless --replay is used")
             if args.ticker.casefold() != "screen" and not TICKER.fullmatch(args.ticker.upper()):
                 parser.error("ticker must use letters, numbers, dots, or hyphens")
             run(args.ticker, args.screen_start)
+    except RefusalError as exc:
+        print(str(exc), file=sys.stderr)
+        return 1
     except Exception as exc:
         print(f"Error: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1

@@ -21,6 +21,8 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR.parents[3]
+DEFAULT_RULES = PROJECT_ROOT / 'docs' / 'lab07_worksheet_rules.md'
 sys.path.insert(0, str(SCRIPT_DIR))
 from worksheet_math import dec, read_rules  # noqa: E402
 
@@ -399,7 +401,14 @@ def validate_worksheet(worksheet_path, *, run=None, rules_path=None, reader_path
     text = worksheet_path.read_text(encoding='utf-8')
     meta = metadata(text, worksheet_path)
     run = Path(run or meta.get('run') or worksheet_path.parent).resolve()
-    rules_path = Path(rules_path or meta.get('rules') or 'lab07_worksheet_rules.md').resolve()
+    selected_rules = rules_path or meta.get('rules')
+    if selected_rules:
+        selected_rules = Path(selected_rules)
+        if not selected_rules.exists() and not rules_path and selected_rules.name == DEFAULT_RULES.name:
+            selected_rules = DEFAULT_RULES
+    else:
+        selected_rules = DEFAULT_RULES
+    rules_path = Path(selected_rules).resolve()
     reader_path = Path(reader_path or meta.get('reader')).resolve() if (reader_path or meta.get('reader')) else None
     rules = read_rules(rules_path)
     live_reader_path = meta.get('live_reader')
@@ -576,7 +585,7 @@ def main():
     parser = argparse.ArgumentParser(description='Verify every numeric claim in a Lab 07 worksheet')
     parser.add_argument('--worksheet', type=Path, help='Worksheet Markdown file')
     parser.add_argument('--run', type=Path, help='Saved run folder')
-    parser.add_argument('--rules', type=Path, help='lab07_worksheet_rules.md')
+    parser.add_argument('--rules', type=Path, help='docs/lab07_worksheet_rules.md')
     parser.add_argument('--reader', type=Path, help='Reader bars JSON file')
     args = parser.parse_args()
     if not args.worksheet:

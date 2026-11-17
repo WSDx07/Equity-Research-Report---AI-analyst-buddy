@@ -60,7 +60,7 @@ class WorksheetWorkflowTests(unittest.TestCase):
                          'live_release': {'ticker': 'XYZ', 'accession': '123',
                                           'filing_time': {'value': '2025-01-31T22:00:00+00:00'}}}
         self.args = SimpleNamespace(run=self.run_dir, registry=self.registry, env=self.env,
-                                    rules=run_worksheet.ROOT / 'lab07_worksheet_rules.md', persona=self.persona,
+                                    rules=run_worksheet.ROOT / 'docs' / 'lab07_worksheet_rules.md', persona=self.persona,
                                     bars=self.bars, live_run=None, live_bars=None, release_accession=None)
 
     def tearDown(self):
