@@ -53,12 +53,14 @@ class FlowTest(unittest.TestCase):
             folder = Path(tmp)
             calls = []
             class Desk:
-                def __init__(self, *args):
+                def __init__(self, *args, run_dir=None):
+                    self.run_dir = Path(run_dir) if run_dir else folder
+                    self.run_dir.mkdir(parents=True, exist_ok=True)
                     self.step = 1
                     self.ticker = "TEST"
                     self.filing_text = {"10-K": "Statement.", "EX-99.1": "City, January 1, 2026 - Issuer announced earnings.\nRelease."}
                     self.downloads = {"EX-99.1": "https://example.test"}
-                def folder(self): return folder
+                def folder(self): return self.run_dir
                 def run(self):
                     calls.append(f"step{self.step}")
                     if self.step == 5:

@@ -1,0 +1,241 @@
+000001 | v3.26.3
+000002 | Accounts and Notes Receivable (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Dec. 31, 2024
+000008 | Accounts and Notes Receivable [Abstract]
+000009 | Accounts Receivable - trade
+000010 | [1]
+000011 | $ 4,797
+000012 | $ 4,881
+000013 | $ 5,050
+000014 | Notes receivable - trade
+000015 | [1],[2]
+000016 | 1,392
+000017 | 153
+000018 | 1,378
+000019 | Other
+000020 | [3]
+000021 | 1,302
+000022 | 1,337
+000023 | 1,356
+000024 | Accounts and notes receivable - net
+000025 | 7,491
+000026 | 6,371
+000027 | 7,784
+000028 | Accounts Receivable, Allowance for Credit Loss, Current
+000029 | $ 292
+000030 | 241
+000031 | 220
+000032 | $ 179
+000033 | Other Receivable, Total Current Assets, Percentage
+000034 | 5.00%
+000035 | Amounts due from nonconsolidated affiliates
+000036 | $ 113
+000037 | $ 117
+000038 | $ 108
+000039 | [1]
+000040 | Accounts and notes receivable – trade are net of allowances of $292 million, $241 million and $220 million at September 30, 2026, December 31, 2025 and September 30, 2025, respectively.
+000041 | [2]
+000042 | Notes receivable – trade primarily consists of receivables for deferred payment loan programs for the sale of seed and crop protection products to customers. These loans have terms of one year or less and are primarily concentrated in North America. The company maintains a rigid approval process for extending credit to customers in order to manage overall risk and exposure associated with credit losses. As of September 30, 2026, December 31, 2025 and September 30, 2025, there were no significant impairments related to current loan agreements.
+000043 | [3]
+000044 | Other includes receivables in relation to indemnification assets, royalties, value added tax, general sales tax and other taxes. No individual group represents more than 5 percent of total current assets. In addition, Other includes amounts due from nonconsolidated affiliates of $113 million, $117 million and $108 million as of September 30, 2026, December 31, 2025 and September 30, 2025, respectively.
+000045 | X
+000046 | - Definition
+000047 | Accounts and Notes Receivable [Abstract]
+000048 | + References
+000049 | No definition available.
+000050 | + Details
+000051 | Name:
+000052 | ctva_AccountsandNotesReceivableAbstract
+000053 | Namespace Prefix:
+000054 | ctva_
+000055 | Data Type:
+000056 | xbrli:stringItemType
+000057 | Balance Type:
+000058 | na
+000059 | Period Type:
+000060 | duration
+000061 | X
+000062 | - Definition
+000063 | Other Receivable, Total Current Assets, Percentage
+000064 | + References
+000065 | No definition available.
+000066 | + Details
+000067 | Name:
+000068 | ctva_OtherReceivableTotalCurrentAssetsPercentage
+000069 | Namespace Prefix:
+000070 | ctva_
+000071 | Data Type:
+000072 | dtr-types:percentItemType
+000073 | Balance Type:
+000074 | na
+000075 | Period Type:
+000076 | instant
+000077 | X
+000078 | - Definition
+000079 | Amount, after allowance for credit loss, of right to consideration from customer for product sold and service rendered in normal course of business, classified as current.
+000080 | + References
+000081 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000082 | -Topic 310
+000083 | -SubTopic 10
+000084 | -Name Accounting Standards Codification
+000085 | -Section 45
+000086 | -Paragraph 2
+000087 | -Publisher FASB
+000088 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-2
+000089 | + Details
+000090 | Name:
+000091 | us-gaap_AccountsReceivableNetCurrent
+000092 | Namespace Prefix:
+000093 | us-gaap_
+000094 | Data Type:
+000095 | xbrli:monetaryItemType
+000096 | Balance Type:
+000097 | debit
+000098 | Period Type:
+000099 | instant
+000100 | X
+000101 | - Definition
+000102 | Amount of allowance for credit loss on accounts receivable, classified as current.
+000103 | + References
+000104 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000105 | -Topic 210
+000106 | -SubTopic 10
+000107 | -Name Accounting Standards Codification
+000108 | -Section S99
+000109 | -Paragraph 1
+000110 | -Subparagraph (SX 210.5-02(4))
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000113 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000114 | -Topic 326
+000115 | -SubTopic 20
+000116 | -Name Accounting Standards Codification
+000117 | -Section 45
+000118 | -Paragraph 1
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147479344/326-20-45-1
+000121 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000122 | -Topic 310
+000123 | -SubTopic 10
+000124 | -Name Accounting Standards Codification
+000125 | -Section 50
+000126 | -Paragraph 4
+000127 | -Publisher FASB
+000128 | -URI https://asc.fasb.org/1943274/2147481962/310-10-50-4
+000129 | + Details
+000130 | Name:
+000131 | us-gaap_AllowanceForDoubtfulAccountsReceivableCurrent
+000132 | Namespace Prefix:
+000133 | us-gaap_
+000134 | Data Type:
+000135 | xbrli:monetaryItemType
+000136 | Balance Type:
+000137 | credit
+000138 | Period Type:
+000139 | instant
+000140 | X
+000141 | - Definition
+000142 | Carrying amounts due as of the balance sheet date of the sum of amounts receivable other than from customers.
+000143 | + References
+000144 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000145 | -Topic 210
+000146 | -SubTopic 10
+000147 | -Name Accounting Standards Codification
+000148 | -Section S99
+000149 | -Paragraph 1
+000150 | -Subparagraph (SX 210.5-02(3)(a)(4))
+000151 | -Publisher FASB
+000152 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000153 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000154 | -Topic 210
+000155 | -SubTopic 10
+000156 | -Name Accounting Standards Codification
+000157 | -Section S50
+000158 | -Paragraph 2
+000159 | -Publisher FASB
+000160 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-2
+000161 | + Details
+000162 | Name:
+000163 | us-gaap_NontradeReceivables
+000164 | Namespace Prefix:
+000165 | us-gaap_
+000166 | Data Type:
+000167 | xbrli:monetaryItemType
+000168 | Balance Type:
+000169 | debit
+000170 | Period Type:
+000171 | instant
+000172 | X
+000173 | - Definition
+000174 | Amortized cost, after allowance for credit loss, of financing receivable classified as current. Excludes net investment in lease.
+000175 | + References
+000176 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000177 | -Topic 310
+000178 | -SubTopic 10
+000179 | -Name Accounting Standards Codification
+000180 | -Section 45
+000181 | -Paragraph 2
+000182 | -Publisher FASB
+000183 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-2
+000184 | + Details
+000185 | Name:
+000186 | us-gaap_NotesAndLoansReceivableNetCurrent
+000187 | Namespace Prefix:
+000188 | us-gaap_
+000189 | Data Type:
+000190 | xbrli:monetaryItemType
+000191 | Balance Type:
+000192 | debit
+000193 | Period Type:
+000194 | instant
+000195 | X
+000196 | - Definition
+000197 | Amount, after allowance, of receivables classified as other, due within one year or the operating cycle, if longer.
+000198 | + References
+000199 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000200 | -Topic 210
+000201 | -SubTopic 10
+000202 | -Name Accounting Standards Codification
+000203 | -Section 45
+000204 | -Paragraph 1
+000205 | -Subparagraph (d)
+000206 | -Publisher FASB
+000207 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-1
+000208 | + Details
+000209 | Name:
+000210 | us-gaap_OtherReceivablesNetCurrent
+000211 | Namespace Prefix:
+000212 | us-gaap_
+000213 | Data Type:
+000214 | xbrli:monetaryItemType
+000215 | Balance Type:
+000216 | debit
+000217 | Period Type:
+000218 | instant
+000219 | X
+000220 | - Definition
+000221 | The total amount due to the entity within one year of the balance sheet date (or one operating cycle, if longer) from outside sources, including trade accounts receivable, notes and loans receivable, as well as any other types of receivables, net of allowances established for the purpose of reducing such receivables to an amount that approximates their net realizable value.
+000222 | + References
+000223 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000224 | -Topic 852
+000225 | -SubTopic 10
+000226 | -Name Accounting Standards Codification
+000227 | -Section 55
+000228 | -Paragraph 10
+000229 | -Publisher FASB
+000230 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000231 | + Details
+000232 | Name:
+000233 | us-gaap_ReceivablesNetCurrent
+000234 | Namespace Prefix:
+000235 | us-gaap_
+000236 | Data Type:
+000237 | xbrli:monetaryItemType
+000238 | Balance Type:
+000239 | debit
+000240 | Period Type:
+000241 | instant

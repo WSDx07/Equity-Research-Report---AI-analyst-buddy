@@ -16,10 +16,13 @@ class DeskUiTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             runs = Path(tmp).resolve()
             run = runs / 'sample_run'
-            run.mkdir()
-            (run / 'verified_report.md').write_text('# Report\n<script>bad</script>', encoding='utf-8')
-            (run / 'worksheet-20260101.md').write_text('# Old worksheet', encoding='utf-8')
-            (run / 'worksheet-20260102.md').write_text('# Current worksheet', encoding='utf-8')
+            team = run / 'team'
+            team.mkdir(parents=True)
+            report = run / 'final_report.md'
+            report.write_text('# Report\n\n## Worksheet view\n\n# Current worksheet\n', encoding='utf-8')
+            worksheet = team / 'worksheet-20260102.md'
+            worksheet.write_text('# Current worksheet', encoding='utf-8')
+            (run / 'run.json').write_text(json.dumps({'worksheet': str(worksheet)}), encoding='utf-8')
             with patch.object(desk_ui, 'RUNS', runs):
                 self.assertEqual(desk_ui.saved_worksheets()[0]['id'], 'sample_run')
                 result = desk_ui.saved_worksheet('sample_run')
@@ -76,23 +79,26 @@ class DeskUiTest(unittest.TestCase):
             self.assertIn('screens, not recommendations',result['report_html'])
             self.assertIn('2025-01-01',popen.call_args.args[0])
 
-    def test_spinoff_job_accepts_date_and_rejects_cross_origin(self):
+    def test_screen_job_uses_joined_desk_and_rejects_cross_origin(self):
         server=desk_ui.ThreadingHTTPServer(('127.0.0.1',0),desk_ui.Handler)
         thread=threading.Thread(target=server.serve_forever,daemon=True); thread.start()
         url=f'http://127.0.0.1:{server.server_port}'
         called=threading.Event()
-        def fake_execute(job_id,start):
-            with desk_ui.lock: desk_ui.jobs[job_id].update(status='complete',events=[start],report_html='done',report_path='saved')
+        received=[]
+        def fake_execute(job_id,ticker,peers,price):
+            received.append((ticker,peers,price))
+            with desk_ui.lock: desk_ui.jobs[job_id].update(status='complete',events=[ticker],report_html='done',report_path='saved')
             called.set()
         try:
-            with patch.object(desk_ui,'execute_spinoff',fake_execute):
-                req=Request(url+'/api/spinoff-jobs',data=json.dumps({'start_date':'2025-01-01'}).encode(),headers={'Content-Type':'application/json','Origin':url})
+            with patch.object(desk_ui,'execute',fake_execute):
+                req=Request(url+'/api/jobs',data=json.dumps({'ticker':'screen'}).encode(),headers={'Content-Type':'application/json','Origin':url})
                 job_id=json.loads(urlopen(req,timeout=5).read())['job_id']
                 self.assertTrue(called.wait(5))
                 result=json.loads(urlopen(url+'/api/jobs/'+job_id,timeout=5).read())
-                self.assertEqual(result['events'],['2025-01-01'])
+                self.assertEqual(result['events'],['SCREEN'])
+                self.assertEqual(received,[('SCREEN',[],None)])
                 desk_ui.jobs.pop(job_id)
-            req=Request(url+'/api/spinoff-jobs',data=b'{}',headers={'Content-Type':'application/json','Origin':'http://evil.invalid'})
+            req=Request(url+'/api/jobs',data=json.dumps({'ticker':'screen'}).encode(),headers={'Content-Type':'application/json','Origin':'http://evil.invalid'})
             with self.assertRaises(HTTPError) as err: urlopen(req,timeout=5)
             self.assertEqual(err.exception.code,403)
         finally:
@@ -107,11 +113,11 @@ class DeskUiTest(unittest.TestCase):
     def test_execute_displays_only_a_real_verified_report(self):
         with tempfile.TemporaryDirectory() as tmp:
             runs = Path(tmp).resolve()
-            report = runs / "run" / "verified_report.md"
+            report = runs / "run" / "final_report.md"
             report.parent.mkdir()
-            report.write_text("Filings: source\n\n| Number | Mark |\n|---|---|\n| 1 | correct |\n\n<script>alert(1)</script>\n", encoding="utf-8")
+            report.write_text("Filings read: source\n\n| Number | Mark |\n|---|---|\n| 1 | correct |\n\n<script>alert(1)</script>\n", encoding="utf-8")
             class Process:
-                stdout = iter(["Step 1 started\n", "Research Analyst\n", f"Verified report: {report}\n"])
+                stdout = iter(["Step 1 started\n", "Research Analyst\n", f"Final report: {report}\n"])
                 def wait(self): return 0
             desk_ui.jobs["test"] = {"status":"running", "events":[]}
             with patch.object(desk_ui, "RUNS", runs), patch.object(desk_ui.subprocess, "Popen", return_value=Process()) as popen:
@@ -121,7 +127,8 @@ class DeskUiTest(unittest.TestCase):
             self.assertEqual(job["events"], ["Step 1 started", "Research Analyst"])
             self.assertIn("<table>", job["report_html"])
             self.assertNotIn("<script>", job["report_html"])
-            self.assertEqual(popen.call_args.args[0][-5:], ["ABC", "--peers", "DEF", "--price", "10"])
+            self.assertEqual(popen.call_args.args[0][-1], "ABC")
+            self.assertEqual(popen.call_args.args[0][-2], str(desk_ui.ROOT / "one_desk.py"))
 
     def test_failed_run_does_not_display_old_report(self):
         class Process:

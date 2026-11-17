@@ -1,0 +1,181 @@
+000001 | v3.26.3
+000002 | Income Taxes
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | Entity Information [Line Items]
+000006 | Income Tax Disclosure [Text Block]
+000007 | INCOME TAXES
+000008 | The effective tax rate for the three and nine months ended September 30, 2026 was 10.5 percent and 25.3 percent, respectively, and 16.8 percent and 21.5 percent for the three and nine months ended September 30, 2025, respectively.
+000009 | During the three and nine months ended September 30, 2026, the company recognized a $45 million charge related to various transactions executed to facilitate the Vylor Separation. During the three and nine months ended September 30, 2026, the company also recognized a $6 million charge and a $55 million benefit, respectively, of net tax impacts for income taxes on continuing operations associated with changes in deferred taxes and accruals for certain prior year tax positions in various jurisdictions as well as from stock-based compensation. During the nine months ended September 30, 2026, the company recognized a $50 million charge associated with the Discretionary Pension Contribution, as discussed in Note 14 - Pension Plans and Other Post Employment Benefits, to the interim Consolidated Financial Statements. During the nine months ended September 30, 2026, the company recognized a $31 million tax benefit related to intellectual property realignment.
+000010 | During the three and nine months ended September 30, 2025, the company recognized $2 million and $37 million, respectively, of net tax benefits for income taxes on continuing operations associated with changes in deferred taxes and accruals for certain prior year tax positions in various jurisdictions as well as from stock-based compensation. During the nine months ended September 30, 2025, the company recognized a $55 million deferred tax benefit associated with a change in a legal entity’s U.S. tax characterization.
+000011 | X
+000012 | - Definition
+000013 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000014 | + References
+000015 | No definition available.
+000016 | + Details
+000017 | Name:
+000018 | dei_EntityInformationLineItems
+000019 | Namespace Prefix:
+000020 | dei_
+000021 | Data Type:
+000022 | xbrli:stringItemType
+000023 | Balance Type:
+000024 | na
+000025 | Period Type:
+000026 | duration
+000027 | X
+000028 | - Definition
+000029 | The entire disclosure for income tax.
+000030 | + References
+000031 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000032 | -Topic 942
+000033 | -SubTopic 740
+000034 | -Name Accounting Standards Codification
+000035 | -Section 50
+000036 | -Paragraph 1
+000037 | -Subparagraph (a)
+000038 | -Publisher FASB
+000039 | -URI https://asc.fasb.org/1943274/2147477617/942-740-50-1
+000040 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000041 | -Topic 235
+000042 | -SubTopic 10
+000043 | -Name Accounting Standards Codification
+000044 | -Section S50
+000045 | -Paragraph 1
+000046 | -Publisher FASB
+000047 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000048 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000049 | -Topic 944
+000050 | -SubTopic 740
+000051 | -Name Accounting Standards Codification
+000052 | -Section 50
+000053 | -Paragraph 1
+000054 | -Subparagraph (a)
+000055 | -Publisher FASB
+000056 | -URI https://asc.fasb.org/1943274/2147478822/944-740-50-1
+000057 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000058 | -Topic 740
+000059 | -SubTopic 10
+000060 | -Name Accounting Standards Codification
+000061 | -Section 50
+000062 | -Paragraph 12
+000063 | -Publisher FASB
+000064 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000065 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000066 | -Topic 740
+000067 | -SubTopic 10
+000068 | -Name Accounting Standards Codification
+000069 | -Section 55
+000070 | -Paragraph 231
+000071 | -Publisher FASB
+000072 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000073 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000074 | -Topic 740
+000075 | -SubTopic 10
+000076 | -Name Accounting Standards Codification
+000077 | -Section 50
+000078 | -Paragraph 12C
+000079 | -Publisher FASB
+000080 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12C
+000081 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000082 | -Topic 740
+000083 | -SubTopic 10
+000084 | -Name Accounting Standards Codification
+000085 | -Section 50
+000086 | -Paragraph 12B
+000087 | -Publisher FASB
+000088 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12B
+000089 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000090 | -Topic 740
+000091 | -SubTopic 270
+000092 | -Name Accounting Standards Codification
+000093 | -Section 50
+000094 | -Paragraph 1
+000095 | -Publisher FASB
+000096 | -URI https://asc.fasb.org/1943274/2147477891/740-270-50-1
+000097 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000098 | -Topic 740
+000099 | -SubTopic 10
+000100 | -Name Accounting Standards Codification
+000101 | -Section S99
+000102 | -Paragraph 1
+000103 | -Subparagraph (SAB Topic 6.I.5.Q1)
+000104 | -Publisher FASB
+000105 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-1
+000106 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000107 | -Topic 946
+000108 | -SubTopic 20
+000109 | -Name Accounting Standards Codification
+000110 | -Section 50
+000111 | -Paragraph 13
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147480990/946-20-50-13
+000114 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000115 | -Topic 235
+000116 | -SubTopic 10
+000117 | -Name Accounting Standards Codification
+000118 | -Section S99
+000119 | -Paragraph 1
+000120 | -Subparagraph (SX 210.4-08(h)(2))
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000123 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000124 | -Topic 740
+000125 | -Name Accounting Standards Codification
+000126 | -Publisher FASB
+000127 | -URI https://asc.fasb.org/740/tableOfContent
+000128 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000129 | -Topic 740
+000130 | -SubTopic 10
+000131 | -Name Accounting Standards Codification
+000132 | -Section 50
+000133 | -Paragraph 14
+000134 | -Publisher FASB
+000135 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-14
+000136 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000137 | -Topic 740
+000138 | -SubTopic 10
+000139 | -Name Accounting Standards Codification
+000140 | -Section 50
+000141 | -Paragraph 21
+000142 | -Publisher FASB
+000143 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-21
+000144 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000145 | -Topic 740
+000146 | -SubTopic 10
+000147 | -Name Accounting Standards Codification
+000148 | -Section 50
+000149 | -Paragraph 17
+000150 | -Subparagraph (b)
+000151 | -Publisher FASB
+000152 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-17
+000153 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000154 | -Topic 740
+000155 | -SubTopic 10
+000156 | -Name Accounting Standards Codification
+000157 | -Section S99
+000158 | -Paragraph 2
+000159 | -Subparagraph (SAB Topic 11.C)
+000160 | -Publisher FASB
+000161 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-2
+000162 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000163 | -Topic 740
+000164 | -SubTopic 30
+000165 | -Name Accounting Standards Codification
+000166 | -Section 50
+000167 | -Paragraph 2
+000168 | -Subparagraph (a)
+000169 | -Publisher FASB
+000170 | -URI https://asc.fasb.org/1943274/2147482603/740-30-50-2
+000171 | + Details
+000172 | Name:
+000173 | us-gaap_IncomeTaxDisclosureTextBlock
+000174 | Namespace Prefix:
+000175 | us-gaap_
+000176 | Data Type:
+000177 | dtr-types:textBlockItemType
+000178 | Balance Type:
+000179 | na
+000180 | Period Type:
+000181 | duration

@@ -41,9 +41,9 @@ def latest_report(folder: Path) -> Path | None:
 
 def pick_screen_ticker(report: Path, cache_folder: Path) -> str | None:
     text = report.read_text(encoding="utf-8")
-    match = re.search(r"^## In window, ranked\s*\n\s*1\. ([^|\n]+)\s*\|", text, re.M)
+    match = re.search(r"^## In window, ranked[ \t]*\n[ \t]*1\. ([^|\n]+)\s*\|", text, re.M)
     if not match:
-        section = re.search(r"^## In window, ranked\s*\n(.*?)(?=^## |\Z)", text, re.M | re.S)
+        section = re.search(r"^## In window, ranked[ \t]*\n(.*?)(?=^## |\Z)", text, re.M | re.S)
         if section and section.group(1).strip().rstrip(".").strip() == "None established":
             return None
         raise ValueError("The seeker's latest report has no ranked top name and does not state that the screen is empty")
@@ -297,7 +297,7 @@ def run(ticker_arg: str, screen_start: str | None) -> Path:
                     print(f"Part {label}: not applicable (no ticker was selected)", flush=True)
                     print(f"Part {label}: {skipped:.2f} seconds", flush=True)
 
-                filing_list = filing_names(run_dir, None, None, registry, seeker_read_log)
+                filing_list = filing_names(run_dir, run_dir, None, registry, seeker_read_log)
                 report_path = run_dir / "final_report.md"
                 final_text = (
                     "Filings read: " + (", ".join(filing_list) if filing_list else "none identified") +

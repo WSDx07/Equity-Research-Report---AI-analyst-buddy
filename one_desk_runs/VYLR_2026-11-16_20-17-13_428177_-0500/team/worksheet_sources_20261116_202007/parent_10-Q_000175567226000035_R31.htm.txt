@@ -1,0 +1,159 @@
+000001 | v3.26.3
+000002 | Revenue (Tables)
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | Contract with Customer, Contract Asset, Contract Liability, and Receivable [Abstract]
+000006 | Contract Balances
+000007 | Contract Balances September 30, 2026 December 31, 2025 September 30, 2025
+000008 | (In millions)
+000009 | Contract assets - current 1
+000010 | $ 36 $ 34 $ 33
+000011 | Contract assets - noncurrent 2
+000012 | $ 90 $ 83 $ 81
+000013 | Deferred revenue - current $ 440 $ 3,579 $ 483
+000014 | Deferred revenue - noncurrent 3
+000015 | $ 121 $ 125 $ 123
+000016 | 1.Included in other current assets in the interim Consolidated Balance Sheets.
+000017 | 2.Included in other assets in the interim Consolidated Balance Sheets.
+000018 | 3.Included in other noncurrent obligations in the interim Consolidated Balance Sheets.
+000019 | Disaggregation of Revenue [Table]
+000020 | Disaggregation of Revenue by Product Line
+000021 | Three Months Ended
+000022 | September 30, Nine Months Ended
+000023 | September 30,
+000024 | (In millions) 2026 2025 2026 2025
+000025 | Corn $ 607 $ 586 $ 5,848 $ 5,616
+000026 | Soybean 99 152 1,723 1,714
+000027 | Other oilseeds 149 141 622 550
+000028 | Other 50 38 267 281
+000029 | Seed 905 917 8,460 8,161
+000030 | Herbicides 731 813 2,690 2,668
+000031 | Insecticides 396 409 1,172 1,181
+000032 | Fungicides 171 222 768 868
+000033 | Biologicals 115 147 271 328
+000034 | Other 140 110 381 285
+000035 | Crop Protection 1,553 1,701 5,282 5,330
+000036 | Total $ 2,458 $ 2,618 $ 13,742 $ 13,491
+000037 | Disaggregation of Revenue by Geography
+000038 | Seed Three Months Ended
+000039 | September 30, Nine Months Ended
+000040 | September 30,
+000041 | (In millions) 2026 2025 2026 2025
+000042 | North America 1
+000043 | $ 192 $ 175 $ 5,917 $ 5,726
+000044 | EMEA 2
+000045 | 268 262 1,468 1,370
+000046 | Latin America 387 391 771 730
+000047 | Asia Pacific 58 89 304 335
+000048 | Total $ 905 $ 917 $ 8,460 $ 8,161
+000049 | Crop Protection Three Months Ended
+000050 | September 30, Nine Months Ended
+000051 | September 30,
+000052 | (In millions) 2026 2025 2026 2025
+000053 | North America 1
+000054 | $ 572 $ 532 $ 1,834 $ 1,820
+000055 | EMEA 2
+000056 | 220 200 1,405 1,316
+000057 | Latin America 555 770 1,356 1,545
+000058 | Asia Pacific 206 199 687 649
+000059 | Total $ 1,553 $ 1,701 $ 5,282 $ 5,330
+000060 | 1.Represents U.S. and Canada.
+000061 | 2.Europe, Middle East and Africa (“EMEA”).
+000062 | X
+000063 | - References
+000064 | No definition available.
+000065 | + Details
+000066 | Name:
+000067 | us-gaap_ContractWithCustomerAssetAndLiabilityAbstract
+000068 | Namespace Prefix:
+000069 | us-gaap_
+000070 | Data Type:
+000071 | xbrli:stringItemType
+000072 | Balance Type:
+000073 | na
+000074 | Period Type:
+000075 | duration
+000076 | X
+000077 | - Definition
+000078 | Tabular disclosure of receivable, contract asset, and contract liability from contract with customer. Includes, but is not limited to, change in contract asset and contract liability.
+000079 | + References
+000080 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000081 | -Topic 606
+000082 | -SubTopic 10
+000083 | -Name Accounting Standards Codification
+000084 | -Section 50
+000085 | -Paragraph 10
+000086 | -Publisher FASB
+000087 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-10
+000088 | + Details
+000089 | Name:
+000090 | us-gaap_ContractWithCustomerAssetAndLiabilityTableTextBlock
+000091 | Namespace Prefix:
+000092 | us-gaap_
+000093 | Data Type:
+000094 | dtr-types:textBlockItemType
+000095 | Balance Type:
+000096 | na
+000097 | Period Type:
+000098 | duration
+000099 | X
+000100 | - References
+000101 | No definition available.
+000102 | + Details
+000103 | Name:
+000104 | us-gaap_DisaggregationOfRevenueAbstract
+000105 | Namespace Prefix:
+000106 | us-gaap_
+000107 | Data Type:
+000108 | xbrli:stringItemType
+000109 | Balance Type:
+000110 | na
+000111 | Period Type:
+000112 | duration
+000113 | X
+000114 | - Definition
+000115 | Tabular disclosure of disaggregation of revenue into categories depicting how nature, amount, timing, and uncertainty of revenue and cash flows are affected by economic factor.
+000116 | + References
+000117 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000118 | -Topic 606
+000119 | -SubTopic 10
+000120 | -Name Accounting Standards Codification
+000121 | -Section 50
+000122 | -Paragraph 5
+000123 | -Publisher FASB
+000124 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-5
+000125 | + Details
+000126 | Name:
+000127 | us-gaap_DisaggregationOfRevenueTableTextBlock
+000128 | Namespace Prefix:
+000129 | us-gaap_
+000130 | Data Type:
+000131 | dtr-types:textBlockItemType
+000132 | Balance Type:
+000133 | na
+000134 | Period Type:
+000135 | duration
+000136 | X
+000137 | - Definition
+000138 | Tabular disclosure of revenue attributed to country of domicile and foreign country from which revenue is derived if it is not provided as part of reportable segment information. Includes, but is not limited to, subtotal of geographical information about group of countries.
+000139 | + References
+000140 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000141 | -Topic 280
+000142 | -SubTopic 10
+000143 | -Name Accounting Standards Codification
+000144 | -Section 50
+000145 | -Paragraph 41
+000146 | -Subparagraph (a)
+000147 | -Publisher FASB
+000148 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-41
+000149 | + Details
+000150 | Name:
+000151 | us-gaap_RevenueFromExternalCustomersByGeographicAreasTableTextBlock
+000152 | Namespace Prefix:
+000153 | us-gaap_
+000154 | Data Type:
+000155 | dtr-types:textBlockItemType
+000156 | Balance Type:
+000157 | na
+000158 | Period Type:
+000159 | duration

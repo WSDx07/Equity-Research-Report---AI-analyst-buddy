@@ -1,0 +1,275 @@
+000001 | v3.26.3
+000002 | EIDP - Related Party Transactions - Indemnifications (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Related Party Transaction [Line Items]
+000008 | Accrued and other current liabilities
+000009 | $ 2,445
+000010 | $ 3,099
+000011 | $ 2,661
+000012 | EIDP
+000013 | Related Party Transaction [Line Items]
+000014 | Accrued and other current liabilities
+000015 | 2,449
+000016 | 3,223
+000017 | 3,014
+000018 | EIDP | Corteva | Location, Statement of Financial Position, Balance [Axis]: us-gaap:AccruedLiabilitiesCurrent
+000019 | Related Party Transaction [Line Items]
+000020 | Accrued and other current liabilities
+000021 | 22
+000022 | 27
+000023 | 17
+000024 | EIDP | Corteva | Location, Statement of Financial Position, Balance [Axis]: us-gaap:OtherLiabilitiesNoncurrent
+000025 | Related Party Transaction [Line Items]
+000026 | Accounts Payable and Accrued Liabilities, Noncurrent
+000027 | $ 105
+000028 | $ 154
+000029 | $ 145
+000030 | X
+000031 | - Definition
+000032 | Sum of the carrying values as of the balance sheet date of obligations incurred through that date and due after one year (or beyond the operating cycle if longer), including liabilities for compensation costs, fringe benefits other than pension and postretirement obligations, rent, contractual rights and obligations, and statutory obligations.
+000033 | + References
+000034 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000035 | -Topic 210
+000036 | -SubTopic 10
+000037 | -Name Accounting Standards Codification
+000038 | -Section S99
+000039 | -Paragraph 1
+000040 | -Subparagraph (SX 210.5-02(24))
+000041 | -Publisher FASB
+000042 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000043 | + Details
+000044 | Name:
+000045 | us-gaap_AccountsPayableAndAccruedLiabilitiesNoncurrent
+000046 | Namespace Prefix:
+000047 | us-gaap_
+000048 | Data Type:
+000049 | xbrli:monetaryItemType
+000050 | Balance Type:
+000051 | credit
+000052 | Period Type:
+000053 | instant
+000054 | X
+000055 | - Definition
+000056 | Carrying value as of the balance sheet date of obligations incurred and payable, pertaining to costs that are statutory in nature, are incurred on contractual obligations, or accumulate over time and for which invoices have not yet been received or will not be rendered. Examples include taxes, interest, rent and utilities. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000057 | + References
+000058 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000059 | -Topic 210
+000060 | -SubTopic 10
+000061 | -Name Accounting Standards Codification
+000062 | -Section S99
+000063 | -Paragraph 1
+000064 | -Subparagraph (SX 210.5-02(20))
+000065 | -Publisher FASB
+000066 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000067 | + Details
+000068 | Name:
+000069 | us-gaap_AccruedLiabilitiesCurrent
+000070 | Namespace Prefix:
+000071 | us-gaap_
+000072 | Data Type:
+000073 | xbrli:monetaryItemType
+000074 | Balance Type:
+000075 | credit
+000076 | Period Type:
+000077 | instant
+000078 | X
+000079 | - Definition
+000080 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000081 | + References
+000082 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000083 | -Topic 942
+000084 | -SubTopic 210
+000085 | -Name Accounting Standards Codification
+000086 | -Section S45
+000087 | -Paragraph 1
+000088 | -Publisher FASB
+000089 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000090 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000091 | -Topic 942
+000092 | -SubTopic 210
+000093 | -Name Accounting Standards Codification
+000094 | -Section S50
+000095 | -Paragraph 1
+000096 | -Publisher FASB
+000097 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000098 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000099 | -Topic 942
+000100 | -SubTopic 210
+000101 | -Name Accounting Standards Codification
+000102 | -Section S99
+000103 | -Paragraph 1
+000104 | -Subparagraph (SX 210.9-03(7)(e)(1)(i))
+000105 | -Publisher FASB
+000106 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000107 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000108 | -Topic 946
+000109 | -SubTopic 220
+000110 | -Name Accounting Standards Codification
+000111 | -Section S99
+000112 | -Paragraph 1
+000113 | -Subparagraph (SX 210.6-07(2)(g)(3))
+000114 | -Publisher FASB
+000115 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000116 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000117 | -Topic 942
+000118 | -SubTopic 210
+000119 | -Name Accounting Standards Codification
+000120 | -Section S99
+000121 | -Paragraph 1
+000122 | -Subparagraph (SX 210.9-03(16))
+000123 | -Publisher FASB
+000124 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000125 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000126 | -Topic 942
+000127 | -SubTopic 210
+000128 | -Name Accounting Standards Codification
+000129 | -Section S99
+000130 | -Paragraph 1
+000131 | -Subparagraph (SX 210.9-03(15)(4))
+000132 | -Publisher FASB
+000133 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000134 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000135 | -Topic 942
+000136 | -SubTopic 210
+000137 | -Name Accounting Standards Codification
+000138 | -Section S99
+000139 | -Paragraph 1
+000140 | -Subparagraph (SX 210.9-03(15)(3))
+000141 | -Publisher FASB
+000142 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000143 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+000144 | -Topic 970
+000145 | -SubTopic 810
+000146 | -Name Accounting Standards Codification
+000147 | -Section 45
+000148 | -Paragraph 1
+000149 | -Publisher FASB
+000150 | -URI https://asc.fasb.org/1943274/2147477383/970-810-45-1
+000151 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000152 | -Topic 850
+000153 | -SubTopic 10
+000154 | -Name Accounting Standards Codification
+000155 | -Section 50
+000156 | -Paragraph 1
+000157 | -Subparagraph (d)
+000158 | -Publisher FASB
+000159 | -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1
+000160 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000161 | -Topic 850
+000162 | -SubTopic 10
+000163 | -Name Accounting Standards Codification
+000164 | -Section 50
+000165 | -Paragraph 1
+000166 | -Subparagraph (c)
+000167 | -Publisher FASB
+000168 | -URI https://asc.fasb.org/1943274/2147483326/850-10-50-1
+000169 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000170 | -Topic 850
+000171 | -SubTopic 10
+000172 | -Name Accounting Standards Codification
+000173 | -Section 50
+000174 | -Paragraph 3
+000175 | -Publisher FASB
+000176 | -URI https://asc.fasb.org/1943274/2147483326/850-10-50-3
+000177 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000178 | -Topic 235
+000179 | -SubTopic 10
+000180 | -Name Accounting Standards Codification
+000181 | -Section S50
+000182 | -Paragraph 1
+000183 | -Publisher FASB
+000184 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000185 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000186 | -Topic 235
+000187 | -SubTopic 10
+000188 | -Name Accounting Standards Codification
+000189 | -Section S99
+000190 | -Paragraph 1
+000191 | -Subparagraph (SX 210.4-08(k)(2))
+000192 | -Publisher FASB
+000193 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000194 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000195 | -Topic 235
+000196 | -SubTopic 10
+000197 | -Name Accounting Standards Codification
+000198 | -Section S99
+000199 | -Paragraph 1
+000200 | -Subparagraph (SX 210.4-08(k)(1))
+000201 | -Publisher FASB
+000202 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000203 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000204 | -Topic 310
+000205 | -SubTopic 10
+000206 | -Name Accounting Standards Codification
+000207 | -Section 45
+000208 | -Paragraph 13
+000209 | -Publisher FASB
+000210 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-13
+000211 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000212 | -Topic 946
+000213 | -SubTopic 220
+000214 | -Name Accounting Standards Codification
+000215 | -Section S99
+000216 | -Paragraph 1
+000217 | -Subparagraph (SX 210.6-07(2)(c)(2)(i))
+000218 | -Publisher FASB
+000219 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000220 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000221 | -Topic 946
+000222 | -SubTopic 220
+000223 | -Name Accounting Standards Codification
+000224 | -Section S99
+000225 | -Paragraph 1
+000226 | -Subparagraph (SX 210.6-07(2)(c)(2)(ii))
+000227 | -Publisher FASB
+000228 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000229 | + Details
+000230 | Name:
+000231 | us-gaap_RelatedPartyTransactionLineItems
+000232 | Namespace Prefix:
+000233 | us-gaap_
+000234 | Data Type:
+000235 | xbrli:stringItemType
+000236 | Balance Type:
+000237 | na
+000238 | Period Type:
+000239 | duration
+000240 | X
+000241 | - Details
+000242 | Name:
+000243 | dei_LegalEntityAxis=ctva_EIDPMember
+000244 | Namespace Prefix:
+000245 | Data Type:
+000246 | na
+000247 | Balance Type:
+000248 | Period Type:
+000249 | X
+000250 | - Details
+000251 | Name:
+000252 | us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=ctva_CortevaMember
+000253 | Namespace Prefix:
+000254 | Data Type:
+000255 | na
+000256 | Balance Type:
+000257 | Period Type:
+000258 | X
+000259 | - Details
+000260 | Name:
+000261 | us-gaap_StatementOfFinancialPositionLocationBalanceAxis=us-gaap_AccruedLiabilitiesCurrent
+000262 | Namespace Prefix:
+000263 | Data Type:
+000264 | na
+000265 | Balance Type:
+000266 | Period Type:
+000267 | X
+000268 | - Details
+000269 | Name:
+000270 | us-gaap_StatementOfFinancialPositionLocationBalanceAxis=us-gaap_OtherLiabilitiesNoncurrent
+000271 | Namespace Prefix:
+000272 | Data Type:
+000273 | na
+000274 | Balance Type:
+000275 | Period Type:

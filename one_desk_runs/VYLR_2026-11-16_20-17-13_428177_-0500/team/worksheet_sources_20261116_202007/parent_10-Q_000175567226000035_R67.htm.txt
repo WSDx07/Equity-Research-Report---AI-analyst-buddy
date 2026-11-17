@@ -1,0 +1,238 @@
+000001 | v3.26.3
+000002 | Short-Term Borrowings, Long-Term Debt and Available Credit Facilities Short-Term Borrowings (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Short-term Debt [Line Items]
+000008 | Long-term Debt Payable within one year
+000009 | $ 0
+000010 | $ 782
+000011 | $ 788
+000012 | Short-term borrowings
+000013 | 3,988
+000014 | 894
+000015 | 2,685
+000016 | Commercial Paper
+000017 | Short-term Debt [Line Items]
+000018 | Short-term borrowings
+000019 | 183
+000020 | 0
+000021 | 1,772
+000022 | 364-day Revolving Credit Facility
+000023 | Short-term Debt [Line Items]
+000024 | Short-term borrowings
+000025 | 600
+000026 | 0
+000027 | 0
+000028 | PHI Bilateral Facility
+000029 | Short-term Debt [Line Items]
+000030 | Short-term borrowings
+000031 | 3,078
+000032 | 0
+000033 | 0
+000034 | Other loans - various currencies
+000035 | Short-term Debt [Line Items]
+000036 | Short-term borrowings
+000037 | $ 127
+000038 | $ 112
+000039 | $ 125
+000040 | X
+000041 | - Definition
+000042 | Amount of debt and lease obligation, classified as current.
+000043 | + References
+000044 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000045 | -Topic 210
+000046 | -SubTopic 10
+000047 | -Name Accounting Standards Codification
+000048 | -Section S99
+000049 | -Paragraph 1
+000050 | -Subparagraph (SX 210.5-02(20))
+000051 | -Publisher FASB
+000052 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000053 | + Details
+000054 | Name:
+000055 | us-gaap_DebtCurrent
+000056 | Namespace Prefix:
+000057 | us-gaap_
+000058 | Data Type:
+000059 | xbrli:monetaryItemType
+000060 | Balance Type:
+000061 | credit
+000062 | Period Type:
+000063 | instant
+000064 | X
+000065 | - Definition
+000066 | Amount, after deduction of unamortized premium (discount) and debt issuance cost, of long-term debt classified as current. Excludes lease obligation.
+000067 | + References
+000068 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000069 | -Topic 210
+000070 | -SubTopic 10
+000071 | -Name Accounting Standards Codification
+000072 | -Section S99
+000073 | -Paragraph 1
+000074 | -Subparagraph (SX 210.5-02(20))
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000077 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000078 | -Topic 210
+000079 | -SubTopic 10
+000080 | -Name Accounting Standards Codification
+000081 | -Section 45
+000082 | -Paragraph 9
+000083 | -Subparagraph (b)
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-9
+000086 | + Details
+000087 | Name:
+000088 | us-gaap_LongTermDebtCurrent
+000089 | Namespace Prefix:
+000090 | us-gaap_
+000091 | Data Type:
+000092 | xbrli:monetaryItemType
+000093 | Balance Type:
+000094 | credit
+000095 | Period Type:
+000096 | instant
+000097 | X
+000098 | - Definition
+000099 | Reflects the total carrying amount as of the balance sheet date of debt having initial terms less than one year or the normal operating cycle, if longer.
+000100 | + References
+000101 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000102 | -Topic 942
+000103 | -SubTopic 210
+000104 | -Name Accounting Standards Codification
+000105 | -Section S45
+000106 | -Paragraph 1
+000107 | -Publisher FASB
+000108 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000109 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000110 | -Topic 942
+000111 | -SubTopic 210
+000112 | -Name Accounting Standards Codification
+000113 | -Section S50
+000114 | -Paragraph 1
+000115 | -Publisher FASB
+000116 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000117 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000118 | -Topic 942
+000119 | -SubTopic 210
+000120 | -Name Accounting Standards Codification
+000121 | -Section S99
+000122 | -Paragraph 1
+000123 | -Subparagraph (SX 210.9-03(13))
+000124 | -Publisher FASB
+000125 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000126 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000127 | -Topic 210
+000128 | -SubTopic 10
+000129 | -Name Accounting Standards Codification
+000130 | -Section S99
+000131 | -Paragraph 1
+000132 | -Subparagraph (SX 210.5-02(19))
+000133 | -Publisher FASB
+000134 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000135 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000136 | -Topic 210
+000137 | -SubTopic 10
+000138 | -Name Accounting Standards Codification
+000139 | -Section S50
+000140 | -Paragraph 8
+000141 | -Publisher FASB
+000142 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-8
+000143 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000144 | -Topic 852
+000145 | -SubTopic 10
+000146 | -Name Accounting Standards Codification
+000147 | -Section 55
+000148 | -Paragraph 10
+000149 | -Publisher FASB
+000150 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000151 | Reference 7: http://www.xbrl.org/2009/role/commonPracticeRef
+000152 | -Topic 944
+000153 | -SubTopic 210
+000154 | -Name Accounting Standards Codification
+000155 | -Section S99
+000156 | -Paragraph 1
+000157 | -Subparagraph (SX 210.7-03(a)(16)(a)(1))
+000158 | -Publisher FASB
+000159 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000160 | + Details
+000161 | Name:
+000162 | us-gaap_ShortTermBorrowings
+000163 | Namespace Prefix:
+000164 | us-gaap_
+000165 | Data Type:
+000166 | xbrli:monetaryItemType
+000167 | Balance Type:
+000168 | credit
+000169 | Period Type:
+000170 | instant
+000171 | X
+000172 | - Definition
+000173 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000174 | + References
+000175 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000176 | -Topic 210
+000177 | -SubTopic 10
+000178 | -Name Accounting Standards Codification
+000179 | -Section S50
+000180 | -Paragraph 8
+000181 | -Publisher FASB
+000182 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-8
+000183 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000184 | -Topic 210
+000185 | -SubTopic 10
+000186 | -Name Accounting Standards Codification
+000187 | -Section S99
+000188 | -Paragraph 1
+000189 | -Subparagraph (SX 210.5-02(19)(b))
+000190 | -Publisher FASB
+000191 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000192 | + Details
+000193 | Name:
+000194 | us-gaap_ShortTermDebtLineItems
+000195 | Namespace Prefix:
+000196 | us-gaap_
+000197 | Data Type:
+000198 | xbrli:stringItemType
+000199 | Balance Type:
+000200 | na
+000201 | Period Type:
+000202 | duration
+000203 | X
+000204 | - Details
+000205 | Name:
+000206 | us-gaap_ShortTermDebtTypeAxis=us-gaap_CommercialPaperMember
+000207 | Namespace Prefix:
+000208 | Data Type:
+000209 | na
+000210 | Balance Type:
+000211 | Period Type:
+000212 | X
+000213 | - Details
+000214 | Name:
+000215 | us-gaap_ShortTermDebtTypeAxis=ctva_A364DayRevolvingCreditFacilityMember
+000216 | Namespace Prefix:
+000217 | Data Type:
+000218 | na
+000219 | Balance Type:
+000220 | Period Type:
+000221 | X
+000222 | - Details
+000223 | Name:
+000224 | us-gaap_ShortTermDebtTypeAxis=ctva_BilateralFacilityMember
+000225 | Namespace Prefix:
+000226 | Data Type:
+000227 | na
+000228 | Balance Type:
+000229 | Period Type:
+000230 | X
+000231 | - Details
+000232 | Name:
+000233 | us-gaap_ShortTermDebtTypeAxis=ctva_OtherloansvariouscurrenciesMember
+000234 | Namespace Prefix:
+000235 | Data Type:
+000236 | na
+000237 | Balance Type:
+000238 | Period Type:

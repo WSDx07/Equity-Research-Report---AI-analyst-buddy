@@ -1,0 +1,91 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0609</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2026-10-01</periodOfReport>
+000010 | 
+000011 |     <issuer>
+000012 |         <issuerCik>0002128626</issuerCik>
+000013 |         <issuerName>Vylor Inc.</issuerName>
+000014 |         <issuerTradingSymbol>VYLR</issuerTradingSymbol>
+000015 |         <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+000016 |     </issuer>
+000017 | 
+000018 |     <reportingOwner>
+000019 |         <reportingOwnerId>
+000020 |             <rptOwnerCik>0001608867</rptOwnerCik>
+000021 |             <rptOwnerName>Lutz Marcos M</rptOwnerName>
+000022 |         </reportingOwnerId>
+000023 |         <reportingOwnerAddress>
+000024 |             <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+000025 |             <rptOwnerStreet1>1000 N WEST STREET</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2>SUITE 900</rptOwnerStreet2>
+000027 |             <rptOwnerCity>WILMINGTON</rptOwnerCity>
+000028 |             <rptOwnerState>DE</rptOwnerState>
+000029 |             <rptOwnerZipCode>19801</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>1</isDirector>
+000034 |         </reportingOwnerRelationship>
+000035 |     </reportingOwner>
+000036 | 
+000037 |     <aff10b5One>0</aff10b5One>
+000038 | 
+000039 |     <nonDerivativeTable>
+000040 |         <nonDerivativeTransaction>
+000041 |             <securityTitle>
+000042 |                 <value>Common</value>
+000043 |             </securityTitle>
+000044 |             <transactionDate>
+000045 |                 <value>2026-10-01</value>
+000046 |             </transactionDate>
+000047 |             <transactionCoding>
+000048 |                 <transactionFormType>4</transactionFormType>
+000049 |                 <transactionCode>J</transactionCode>
+000050 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000051 |             </transactionCoding>
+000052 |             <transactionAmounts>
+000053 |                 <transactionShares>
+000054 |                     <value>63141.9202</value>
+000055 |                     <footnoteId id="F1"/>
+000056 |                 </transactionShares>
+000057 |                 <transactionPricePerShare>
+000058 |                     <value>0.0000</value>
+000059 |                 </transactionPricePerShare>
+000060 |                 <transactionAcquiredDisposedCode>
+000061 |                     <value>A</value>
+000062 |                 </transactionAcquiredDisposedCode>
+000063 |             </transactionAmounts>
+000064 |             <postTransactionAmounts>
+000065 |                 <sharesOwnedFollowingTransaction>
+000066 |                     <value>63141.9202</value>
+000067 |                 </sharesOwnedFollowingTransaction>
+000068 |             </postTransactionAmounts>
+000069 |             <ownershipNature>
+000070 |                 <directOrIndirectOwnership>
+000071 |                     <value>D</value>
+000072 |                 </directOrIndirectOwnership>
+000073 |             </ownershipNature>
+000074 |         </nonDerivativeTransaction>
+000075 |     </nonDerivativeTable>
+000076 | 
+000077 |     <derivativeTable></derivativeTable>
+000078 | 
+000079 |     <footnotes>
+000080 |         <footnote id="F1">On October 1, 2026, the Reporting Person received a dividend of one (1) share of Vylor Inc. (&quot;Vylor&quot;) common stock for every one (1) share of Corteva Inc. (&quot;Corteva&quot;) common stock held by the Reporting Person, and
+000081 | the Reporting Person's equity awards denominated in Corteva common stock were adjusted, in part, into equity awards denominated in Vylor common stock, in connection with the spin-off of Vylor from Corteva, as
+000082 | described in Vylor's Registration Statement on Form 10 filed with the SEC on September 21, 2026.  This amount includes the Vylor common stock received in connection with the spin-off in an exempt transaction pursuant to Rule 16b-3, including restricted stock units and dividend equivalent units.</footnote>
+000083 |     </footnotes>
+000084 | 
+000085 |     <ownerSignature>
+000086 |         <signatureName>Andrea I. Rennig, by power-of-attorney</signatureName>
+000087 |         <signatureDate>2026-10-05</signatureDate>
+000088 |     </ownerSignature>
+000089 | </ownershipDocument>
+000090 | </XML>
+000091 | 

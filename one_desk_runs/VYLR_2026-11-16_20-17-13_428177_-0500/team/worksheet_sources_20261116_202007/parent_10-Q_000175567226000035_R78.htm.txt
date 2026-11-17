@@ -1,0 +1,351 @@
+000001 | v3.26.3
+000002 | Stockholders' Equity Common Stock (Details) - USD ($)
+000003 | $ / shares in Units, $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Mar. 31, 2026
+000008 | Sep. 30, 2025
+000009 | Mar. 31, 2025
+000010 | Mar. 31, 2024
+000011 | Sep. 30, 2026
+000012 | Sep. 30, 2025
+000013 | Dec. 31, 2025
+000014 | Nov. 19, 2024
+000015 | Sep. 13, 2022
+000016 | Jun. 01, 2019
+000017 | Equity, Class of Treasury Stock [Line Items]
+000018 | Common Stock, Par Value
+000019 | $ 0.01
+000020 | $ 0.01
+000021 | $ 0.01
+000022 | $ 0.01
+000023 | $ 0.01
+000024 | Repurchase of Common Stock
+000025 | $ 500
+000026 | $ 770
+000027 | 2024 Stock Repurchase Program
+000028 | Equity, Class of Treasury Stock [Line Items]
+000029 | Share Repurchase Program, Authorized, Amount
+000030 | $ 3,000
+000031 | Stock Repurchased and Retired During Period, Shares
+000032 | 0
+000033 | 3,401,000
+000034 | 6,285,000
+000035 | 3,681,000
+000036 | Repurchase of Common Stock
+000037 | $ 0
+000038 | $ 250
+000039 | $ 500
+000040 | $ 270
+000041 | 2022 Stock Repurchase Program
+000042 | Equity, Class of Treasury Stock [Line Items]
+000043 | Share Repurchase Program, Authorized, Amount
+000044 | $ 2,000
+000045 | Stock Repurchased and Retired During Period, Shares
+000046 | 7,815,000
+000047 | 17,909,000
+000048 | 10,026,000
+000049 | Repurchase of Common Stock
+000050 | $ 500
+000051 | $ 1,000
+000052 | $ 500
+000053 | 2022 Stock Repurchase Program | Share Repurchase from Pension Plan [Member] | Pension Plan
+000054 | Equity, Class of Treasury Stock [Line Items]
+000055 | Repurchase of Common Stock
+000056 | $ 145
+000057 | $ 125
+000058 | Corteva
+000059 | Equity, Class of Treasury Stock [Line Items]
+000060 | Common Stock, Par Value
+000061 | $ 0.01
+000062 | $ 0.01
+000063 | $ 0.01
+000064 | X
+000065 | - Definition
+000066 | Amount authorized for purchase of share under share repurchase plan. Includes, but is not limited to, repurchase of stock and unit of ownership.
+000067 | + References
+000068 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000069 | -Topic 505
+000070 | -SubTopic 30
+000071 | -Name Accounting Standards Codification
+000072 | -Section 50
+000073 | -Paragraph 4
+000074 | -Publisher FASB
+000075 | -URI https://asc.fasb.org/1943274/2147481520/505-30-50-4
+000076 | + Details
+000077 | Name:
+000078 | srt_StockRepurchaseProgramAuthorizedAmount1
+000079 | Namespace Prefix:
+000080 | srt_
+000081 | Data Type:
+000082 | xbrli:monetaryItemType
+000083 | Balance Type:
+000084 | credit
+000085 | Period Type:
+000086 | instant
+000087 | X
+000088 | - Definition
+000089 | Face amount or stated value per share of common stock.
+000090 | + References
+000091 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000092 | -Topic 505
+000093 | -SubTopic 10
+000094 | -Name Accounting Standards Codification
+000095 | -Section S45
+000096 | -Paragraph 3
+000097 | -Publisher FASB
+000098 | -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3
+000099 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000100 | -Topic 942
+000101 | -SubTopic 210
+000102 | -Name Accounting Standards Codification
+000103 | -Section S45
+000104 | -Paragraph 1
+000105 | -Publisher FASB
+000106 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000107 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000108 | -Topic 942
+000109 | -SubTopic 210
+000110 | -Name Accounting Standards Codification
+000111 | -Section S50
+000112 | -Paragraph 1
+000113 | -Publisher FASB
+000114 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000115 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000116 | -Topic 942
+000117 | -SubTopic 210
+000118 | -Name Accounting Standards Codification
+000119 | -Section S99
+000120 | -Paragraph 1
+000121 | -Subparagraph (SX 210.9-03(20))
+000122 | -Publisher FASB
+000123 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000124 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000125 | -Topic 210
+000126 | -SubTopic 10
+000127 | -Name Accounting Standards Codification
+000128 | -Section S99
+000129 | -Paragraph 1
+000130 | -Subparagraph (SX 210.5-02(29))
+000131 | -Publisher FASB
+000132 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000133 | + Details
+000134 | Name:
+000135 | us-gaap_CommonStockParOrStatedValuePerShare
+000136 | Namespace Prefix:
+000137 | us-gaap_
+000138 | Data Type:
+000139 | dtr-types:perShareItemType
+000140 | Balance Type:
+000141 | na
+000142 | Period Type:
+000143 | instant
+000144 | X
+000145 | - Definition
+000146 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000147 | + References
+000148 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000149 | -Topic 505
+000150 | -SubTopic 30
+000151 | -Name Accounting Standards Codification
+000152 | -Section 50
+000153 | -Paragraph 4
+000154 | -Publisher FASB
+000155 | -URI https://asc.fasb.org/1943274/2147481520/505-30-50-4
+000156 | + Details
+000157 | Name:
+000158 | us-gaap_EquityClassOfTreasuryStockLineItems
+000159 | Namespace Prefix:
+000160 | us-gaap_
+000161 | Data Type:
+000162 | xbrli:stringItemType
+000163 | Balance Type:
+000164 | na
+000165 | Period Type:
+000166 | duration
+000167 | X
+000168 | - Definition
+000169 | The cash outflow to reacquire common stock during the period.
+000170 | + References
+000171 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000172 | -Topic 230
+000173 | -SubTopic 10
+000174 | -Name Accounting Standards Codification
+000175 | -Section 45
+000176 | -Paragraph 15
+000177 | -Subparagraph (a)
+000178 | -Publisher FASB
+000179 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-15
+000180 | + Details
+000181 | Name:
+000182 | us-gaap_PaymentsForRepurchaseOfCommonStock
+000183 | Namespace Prefix:
+000184 | us-gaap_
+000185 | Data Type:
+000186 | xbrli:monetaryItemType
+000187 | Balance Type:
+000188 | credit
+000189 | Period Type:
+000190 | duration
+000191 | X
+000192 | - Definition
+000193 | Number of shares that have been repurchased and retired during the period.
+000194 | + References
+000195 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000196 | -Topic 505
+000197 | -SubTopic 10
+000198 | -Name Accounting Standards Codification
+000199 | -Section 50
+000200 | -Paragraph 2
+000201 | -Publisher FASB
+000202 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2
+000203 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000204 | -Topic 505
+000205 | -SubTopic 10
+000206 | -Name Accounting Standards Codification
+000207 | -Section S99
+000208 | -Paragraph 1
+000209 | -Subparagraph (SX 210.3-04)
+000210 | -Publisher FASB
+000211 | -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1
+000212 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000213 | -Topic 505
+000214 | -SubTopic 10
+000215 | -Name Accounting Standards Codification
+000216 | -Section S50
+000217 | -Paragraph 1
+000218 | -Publisher FASB
+000219 | -URI https://asc.fasb.org/1943274/2147480070/505-10-S50-1
+000220 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000221 | -Topic 505
+000222 | -SubTopic 10
+000223 | -Name Accounting Standards Codification
+000224 | -Section S45
+000225 | -Paragraph 3
+000226 | -Publisher FASB
+000227 | -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3
+000228 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000229 | -Topic 505
+000230 | -SubTopic 10
+000231 | -Name Accounting Standards Codification
+000232 | -Section S45
+000233 | -Paragraph 2
+000234 | -Publisher FASB
+000235 | -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-2
+000236 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000237 | -Topic 210
+000238 | -SubTopic 10
+000239 | -Name Accounting Standards Codification
+000240 | -Section S99
+000241 | -Paragraph 1
+000242 | -Subparagraph (SX 210.5-02(28))
+000243 | -Publisher FASB
+000244 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000245 | Reference 7: http://www.xbrl.org/2009/role/commonPracticeRef
+000246 | -Topic 942
+000247 | -SubTopic 210
+000248 | -Name Accounting Standards Codification
+000249 | -Section S45
+000250 | -Paragraph 1
+000251 | -Publisher FASB
+000252 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000253 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+000254 | -Topic 942
+000255 | -SubTopic 210
+000256 | -Name Accounting Standards Codification
+000257 | -Section S50
+000258 | -Paragraph 1
+000259 | -Publisher FASB
+000260 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000261 | Reference 9: http://www.xbrl.org/2009/role/commonPracticeRef
+000262 | -Topic 942
+000263 | -SubTopic 210
+000264 | -Name Accounting Standards Codification
+000265 | -Section S99
+000266 | -Paragraph 1
+000267 | -Subparagraph (SX 210.9-03(20))
+000268 | -Publisher FASB
+000269 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000270 | Reference 10: http://www.xbrl.org/2009/role/commonPracticeRef
+000271 | -Topic 942
+000272 | -SubTopic 210
+000273 | -Name Accounting Standards Codification
+000274 | -Section S99
+000275 | -Paragraph 1
+000276 | -Subparagraph (SX 210.9-03(19))
+000277 | -Publisher FASB
+000278 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000279 | Reference 11: http://www.xbrl.org/2009/role/commonPracticeRef
+000280 | -Topic 210
+000281 | -SubTopic 10
+000282 | -Name Accounting Standards Codification
+000283 | -Section S99
+000284 | -Paragraph 1
+000285 | -Subparagraph (SX 210.5-02(29))
+000286 | -Publisher FASB
+000287 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000288 | Reference 12: http://www.xbrl.org/2009/role/commonPracticeRef
+000289 | -Topic 210
+000290 | -SubTopic 10
+000291 | -Name Accounting Standards Codification
+000292 | -Section S50
+000293 | -Paragraph 11
+000294 | -Publisher FASB
+000295 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-11
+000296 | + Details
+000297 | Name:
+000298 | us-gaap_StockRepurchasedAndRetiredDuringPeriodShares
+000299 | Namespace Prefix:
+000300 | us-gaap_
+000301 | Data Type:
+000302 | xbrli:sharesItemType
+000303 | Balance Type:
+000304 | na
+000305 | Period Type:
+000306 | duration
+000307 | X
+000308 | - Details
+000309 | Name:
+000310 | srt_ShareRepurchaseProgramAxis=ctva_A2024StockRepurchaseProgramMember
+000311 | Namespace Prefix:
+000312 | Data Type:
+000313 | na
+000314 | Balance Type:
+000315 | Period Type:
+000316 | X
+000317 | - Details
+000318 | Name:
+000319 | srt_ShareRepurchaseProgramAxis=ctva_A2022StockRepurchaseProgramMember
+000320 | Namespace Prefix:
+000321 | Data Type:
+000322 | na
+000323 | Balance Type:
+000324 | Period Type:
+000325 | X
+000326 | - Details
+000327 | Name:
+000328 | us-gaap_RetirementPlanNameAxis=ctva_ShareRepurchaseFromPensionPlanMember
+000329 | Namespace Prefix:
+000330 | Data Type:
+000331 | na
+000332 | Balance Type:
+000333 | Period Type:
+000334 | X
+000335 | - Details
+000336 | Name:
+000337 | us-gaap_RetirementPlanTypeAxis=us-gaap_PensionPlansDefinedBenefitMember
+000338 | Namespace Prefix:
+000339 | Data Type:
+000340 | na
+000341 | Balance Type:
+000342 | Period Type:
+000343 | X
+000344 | - Details
+000345 | Name:
+000346 | ctva_CompanyAxis=ctva_CortevaMember
+000347 | Namespace Prefix:
+000348 | Data Type:
+000349 | na
+000350 | Balance Type:
+000351 | Period Type:

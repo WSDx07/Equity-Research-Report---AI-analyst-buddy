@@ -1,0 +1,154 @@
+000001 | v3.26.3
+000002 | Commitments and Contingent Liabilities - Supplier Finance (Details) - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2026
+000006 | Sep. 30, 2025
+000007 | Commitments and Contingencies Disclosure [Abstract]
+000008 | Supplier Finance Program, Obligation, Current
+000009 | $ 140
+000010 | $ 160
+000011 | Supplier Finance Program, Obligation [Roll Forward]
+000012 | Supplier Finance Program, Obligation, Current
+000013 | 121
+000014 | Invoices confirmed during the year (Supplier Finance Program, Obligation, Addition)
+000015 | 470
+000016 | Confirmed invoices paid during the year (Supplier Finance Program, Obligation, Settlement)
+000017 | (451)
+000018 | Supplier Finance Program, Obligation, Current
+000019 | $ 140
+000020 | X
+000021 | - References
+000022 | No definition available.
+000023 | + Details
+000024 | Name:
+000025 | us-gaap_CommitmentsAndContingenciesDisclosureAbstract
+000026 | Namespace Prefix:
+000027 | us-gaap_
+000028 | Data Type:
+000029 | xbrli:stringItemType
+000030 | Balance Type:
+000031 | na
+000032 | Period Type:
+000033 | duration
+000034 | X
+000035 | - Definition
+000036 | Amount of obligation for supplier finance program, classified as current.
+000037 | + References
+000038 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000039 | -Topic 405
+000040 | -SubTopic 50
+000041 | -Name Accounting Standards Codification
+000042 | -Section 50
+000043 | -Paragraph 3
+000044 | -Subparagraph (b)(1)
+000045 | -Publisher FASB
+000046 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000047 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000048 | -Topic 405
+000049 | -SubTopic 50
+000050 | -Name Accounting Standards Codification
+000051 | -Section 50
+000052 | -Paragraph 3
+000053 | -Subparagraph (b)
+000054 | -Publisher FASB
+000055 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000056 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000057 | -Topic 405
+000058 | -SubTopic 50
+000059 | -Name Accounting Standards Codification
+000060 | -Section 50
+000061 | -Paragraph 4
+000062 | -Publisher FASB
+000063 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-4
+000064 | + Details
+000065 | Name:
+000066 | us-gaap_SupplierFinanceProgramObligationCurrent
+000067 | Namespace Prefix:
+000068 | us-gaap_
+000069 | Data Type:
+000070 | xbrli:monetaryItemType
+000071 | Balance Type:
+000072 | credit
+000073 | Period Type:
+000074 | instant
+000075 | X
+000076 | - Definition
+000077 | Amount of decrease in obligation for supplier finance program from settlement.
+000078 | + References
+000079 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000080 | -Topic 405
+000081 | -SubTopic 50
+000082 | -Name Accounting Standards Codification
+000083 | -Section 55
+000084 | -Paragraph 5
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147477128/405-50-55-5
+000087 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000088 | -Topic 405
+000089 | -SubTopic 50
+000090 | -Name Accounting Standards Codification
+000091 | -Section 50
+000092 | -Paragraph 3
+000093 | -Subparagraph (b)(2)(iii)
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000096 | + Details
+000097 | Name:
+000098 | us-gaap_SupplierFinanceProgramObligationDecreaseSettlement
+000099 | Namespace Prefix:
+000100 | us-gaap_
+000101 | Data Type:
+000102 | xbrli:monetaryItemType
+000103 | Balance Type:
+000104 | debit
+000105 | Period Type:
+000106 | duration
+000107 | X
+000108 | - Definition
+000109 | Amount of increase in obligation for supplier finance program.
+000110 | + References
+000111 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000112 | -Topic 405
+000113 | -SubTopic 50
+000114 | -Name Accounting Standards Codification
+000115 | -Section 55
+000116 | -Paragraph 5
+000117 | -Publisher FASB
+000118 | -URI https://asc.fasb.org/1943274/2147477128/405-50-55-5
+000119 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000120 | -Topic 405
+000121 | -SubTopic 50
+000122 | -Name Accounting Standards Codification
+000123 | -Section 50
+000124 | -Paragraph 3
+000125 | -Subparagraph (b)(2)(ii)
+000126 | -Publisher FASB
+000127 | -URI https://asc.fasb.org/1943274/2147479468/405-50-50-3
+000128 | + Details
+000129 | Name:
+000130 | us-gaap_SupplierFinanceProgramObligationIncrease
+000131 | Namespace Prefix:
+000132 | us-gaap_
+000133 | Data Type:
+000134 | xbrli:monetaryItemType
+000135 | Balance Type:
+000136 | credit
+000137 | Period Type:
+000138 | duration
+000139 | X
+000140 | - Definition
+000141 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000142 | + References
+000143 | No definition available.
+000144 | + Details
+000145 | Name:
+000146 | us-gaap_SupplierFinanceProgramObligationRollForward
+000147 | Namespace Prefix:
+000148 | us-gaap_
+000149 | Data Type:
+000150 | xbrli:stringItemType
+000151 | Balance Type:
+000152 | na
+000153 | Period Type:
+000154 | duration

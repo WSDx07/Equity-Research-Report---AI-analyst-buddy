@@ -1,0 +1,267 @@
+000001 | v3.26.3
+000002 | Revenue Contract Balances (Details) - USD ($)
+000003 | $ in Millions
+000004 | 9 Months Ended
+000005 | Sep. 30, 2026
+000006 | Sep. 30, 2025
+000007 | Dec. 31, 2025
+000008 | Contract with Customer, Contract Asset, Contract Liability, and Receivable [Abstract]
+000009 | Contract assets - current
+000010 | [1]
+000011 | $ 36
+000012 | $ 33
+000013 | $ 34
+000014 | Contract assets - noncurrent
+000015 | [2]
+000016 | 90
+000017 | 81
+000018 | 83
+000019 | Deferred revenue - current
+000020 | 440
+000021 | 483
+000022 | 3,579
+000023 | Deferred revenue - noncurrent
+000024 | [3]
+000025 | 121
+000026 | 123
+000027 | $ 125
+000028 | Deferred revenue recognized during the period
+000029 | $ 3,463
+000030 | $ 3,202
+000031 | [1]
+000032 | Included in other current assets in the interim Consolidated Balance Sheets.
+000033 | [2]
+000034 | Included in other assets in the interim Consolidated Balance Sheets.
+000035 | [3]
+000036 | Included in other noncurrent obligations in the interim Consolidated Balance Sheets.
+000037 | X
+000038 | - References
+000039 | No definition available.
+000040 | + Details
+000041 | Name:
+000042 | us-gaap_ContractWithCustomerAssetAndLiabilityAbstract
+000043 | Namespace Prefix:
+000044 | us-gaap_
+000045 | Data Type:
+000046 | xbrli:stringItemType
+000047 | Balance Type:
+000048 | na
+000049 | Period Type:
+000050 | duration
+000051 | X
+000052 | - Definition
+000053 | Amount, after allowance for credit loss, of right to consideration in exchange for good or service transferred to customer when right is conditioned on something other than passage of time, classified as current.
+000054 | + References
+000055 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000056 | -Topic 606
+000057 | -SubTopic 10
+000058 | -Name Accounting Standards Codification
+000059 | -Section 50
+000060 | -Paragraph 11
+000061 | -Publisher FASB
+000062 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000063 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000064 | -Topic 606
+000065 | -SubTopic 10
+000066 | -Name Accounting Standards Codification
+000067 | -Section 45
+000068 | -Paragraph 3
+000069 | -Publisher FASB
+000070 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-3
+000071 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000072 | -Topic 606
+000073 | -SubTopic 10
+000074 | -Name Accounting Standards Codification
+000075 | -Section 45
+000076 | -Paragraph 1
+000077 | -Publisher FASB
+000078 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000079 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000080 | -Topic 606
+000081 | -SubTopic 10
+000082 | -Name Accounting Standards Codification
+000083 | -Section 50
+000084 | -Paragraph 8
+000085 | -Subparagraph (a)
+000086 | -Publisher FASB
+000087 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000088 | + Details
+000089 | Name:
+000090 | us-gaap_ContractWithCustomerAssetNetCurrent
+000091 | Namespace Prefix:
+000092 | us-gaap_
+000093 | Data Type:
+000094 | xbrli:monetaryItemType
+000095 | Balance Type:
+000096 | debit
+000097 | Period Type:
+000098 | instant
+000099 | X
+000100 | - Definition
+000101 | Amount, after allowance for credit loss, of right to consideration in exchange for good or service transferred to customer when right is conditioned on something other than passage of time, classified as noncurrent.
+000102 | + References
+000103 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000104 | -Topic 606
+000105 | -SubTopic 10
+000106 | -Name Accounting Standards Codification
+000107 | -Section 50
+000108 | -Paragraph 11
+000109 | -Publisher FASB
+000110 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000111 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000112 | -Topic 606
+000113 | -SubTopic 10
+000114 | -Name Accounting Standards Codification
+000115 | -Section 45
+000116 | -Paragraph 3
+000117 | -Publisher FASB
+000118 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-3
+000119 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000120 | -Topic 606
+000121 | -SubTopic 10
+000122 | -Name Accounting Standards Codification
+000123 | -Section 45
+000124 | -Paragraph 1
+000125 | -Publisher FASB
+000126 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000127 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000128 | -Topic 606
+000129 | -SubTopic 10
+000130 | -Name Accounting Standards Codification
+000131 | -Section 50
+000132 | -Paragraph 8
+000133 | -Subparagraph (a)
+000134 | -Publisher FASB
+000135 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000136 | + Details
+000137 | Name:
+000138 | us-gaap_ContractWithCustomerAssetNetNoncurrent
+000139 | Namespace Prefix:
+000140 | us-gaap_
+000141 | Data Type:
+000142 | xbrli:monetaryItemType
+000143 | Balance Type:
+000144 | debit
+000145 | Period Type:
+000146 | instant
+000147 | X
+000148 | - Definition
+000149 | Amount of obligation to transfer good or service to customer for which consideration has been received or is receivable, classified as current.
+000150 | + References
+000151 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000152 | -Topic 210
+000153 | -SubTopic 10
+000154 | -Name Accounting Standards Codification
+000155 | -Section 45
+000156 | -Paragraph 8
+000157 | -Subparagraph (b)
+000158 | -Publisher FASB
+000159 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-8
+000160 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000161 | -Topic 606
+000162 | -SubTopic 10
+000163 | -Name Accounting Standards Codification
+000164 | -Section 50
+000165 | -Paragraph 11
+000166 | -Publisher FASB
+000167 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000168 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000169 | -Topic 606
+000170 | -SubTopic 10
+000171 | -Name Accounting Standards Codification
+000172 | -Section 45
+000173 | -Paragraph 1
+000174 | -Publisher FASB
+000175 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000176 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000177 | -Topic 606
+000178 | -SubTopic 10
+000179 | -Name Accounting Standards Codification
+000180 | -Section 50
+000181 | -Paragraph 8
+000182 | -Subparagraph (a)
+000183 | -Publisher FASB
+000184 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000185 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000186 | -Topic 606
+000187 | -SubTopic 10
+000188 | -Name Accounting Standards Codification
+000189 | -Section 45
+000190 | -Paragraph 2
+000191 | -Publisher FASB
+000192 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-2
+000193 | + Details
+000194 | Name:
+000195 | us-gaap_ContractWithCustomerLiabilityCurrent
+000196 | Namespace Prefix:
+000197 | us-gaap_
+000198 | Data Type:
+000199 | xbrli:monetaryItemType
+000200 | Balance Type:
+000201 | credit
+000202 | Period Type:
+000203 | instant
+000204 | X
+000205 | - Definition
+000206 | Amount of obligation to transfer good or service to customer for which consideration has been received or is receivable, classified as noncurrent.
+000207 | + References
+000208 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000209 | -Topic 606
+000210 | -SubTopic 10
+000211 | -Name Accounting Standards Codification
+000212 | -Section 50
+000213 | -Paragraph 11
+000214 | -Publisher FASB
+000215 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-11
+000216 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000217 | -Topic 606
+000218 | -SubTopic 10
+000219 | -Name Accounting Standards Codification
+000220 | -Section 45
+000221 | -Paragraph 1
+000222 | -Publisher FASB
+000223 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-1
+000224 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000225 | -Topic 606
+000226 | -SubTopic 10
+000227 | -Name Accounting Standards Codification
+000228 | -Section 50
+000229 | -Paragraph 8
+000230 | -Subparagraph (a)
+000231 | -Publisher FASB
+000232 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000233 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000234 | -Topic 606
+000235 | -SubTopic 10
+000236 | -Name Accounting Standards Codification
+000237 | -Section 45
+000238 | -Paragraph 2
+000239 | -Publisher FASB
+000240 | -URI https://asc.fasb.org/1943274/2147479837/606-10-45-2
+000241 | + Details
+000242 | Name:
+000243 | us-gaap_ContractWithCustomerLiabilityNoncurrent
+000244 | Namespace Prefix:
+000245 | us-gaap_
+000246 | Data Type:
+000247 | xbrli:monetaryItemType
+000248 | Balance Type:
+000249 | credit
+000250 | Period Type:
+000251 | instant
+000252 | X
+000253 | - Definition
+000254 | Amount of revenue recognized that was previously reported as deferred or unearned revenue.
+000255 | + References
+000256 | No definition available.
+000257 | + Details
+000258 | Name:
+000259 | us-gaap_DeferredRevenueRevenueRecognized1
+000260 | Namespace Prefix:
+000261 | us-gaap_
+000262 | Data Type:
+000263 | xbrli:monetaryItemType
+000264 | Balance Type:
+000265 | credit
+000266 | Period Type:
+000267 | duration

@@ -1,0 +1,116 @@
+000001 | v3.26.3
+000002 | EID - Basis of Presentation (Notes)
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | EIDP
+000006 | Entity Information [Line Items]
+000007 | Organization, Consolidation and Presentation of Financial Statements Disclosure [Text Block]
+000008 | BASIS OF PRESENTATION
+000009 | Corteva, Inc. owns 100 percent of the outstanding common stock of EIDP. EIDP is a subsidiary of Corteva, Inc. and continues to be a reporting company, subject to the requirements of the Exchange Act. The primary differences between Corteva, Inc. and EIDP are outlined below:
+000010 | •Preferred Stock - EIDP has preferred stock outstanding to third parties which is accounted for as a non-controlling interest at the Corteva, Inc. level. Each share of EIDP Preferred Stock - $4.50 Series and EIDP Preferred Stock - $3.50 Series issued and outstanding at the effective date of the Corteva Distribution remains issued and outstanding as to EIDP and was unaffected by the Corteva Distribution.
+000011 | •Physical Cash Pooling Arrangement - A physical cash pooling arrangement exists to which EIDP is a party, along with Corteva and certain consolidated subsidiaries, as more fully described in EIDP Note 2 - Related Party Transactions, to the EIDP interim Consolidated Financial Statements.
+000012 | •Dividends - The Board of Directors of EIDP authorizes and declares a quarterly dividend to Corteva, Inc., from which the proceeds are intended to be used to fund Corteva, Inc. share repurchases and common stock dividends generally during the subsequent quarter.
+000013 | •Capital Structure - At September 30, 2026, Corteva, Inc.’s capital structure consists of 667,304,000 issued shares of common stock, par value $0.01 per share.
+000014 | The accompanying footnotes relate to EIDP only, and not to Corteva, Inc., and are presented to show differences between EIDP and Corteva, Inc.
+000015 | For the footnotes listed below, refer to the following footnotes of the Corteva interim Consolidated Financial Statements:
+000016 | •Note 1 - Summary of Significant Accounting Policies
+000017 | •Note 2 - Recent Accounting Guidance
+000018 | •Note 3 - Revenue
+000019 | •Note 4 - Restructuring and Asset Related Charges - Net
+000020 | •Note 5 - Supplementary Information
+000021 | •Note 6 - Income Taxes
+000022 | •Note 7 - Earnings Per Share of Common Stock - Not applicable for EIDP
+000023 | •Note 8 - Accounts and Notes Receivable - Net
+000024 | •Note 9 - Inventories
+000025 | •Note 10 - Other Intangible Assets
+000026 | •Note 11 - Short-Term Borrowings, Long-Term Debt and Available Credit Facilities
+000027 | •Note 12 - Commitments and Contingent Liabilities
+000028 | •Note 13 - Stockholders’ Equity
+000029 | •Note 14 - Pension Plans and Other Post Employment Benefits
+000030 | •Note 15 - Financial Instruments
+000031 | •Note 16 - Fair Value Measurements
+000032 | •Note 17 - Segment Information
+000033 | •Note 18 - Subsequent Events
+000034 | X
+000035 | - Definition
+000036 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000037 | + References
+000038 | No definition available.
+000039 | + Details
+000040 | Name:
+000041 | dei_EntityInformationLineItems
+000042 | Namespace Prefix:
+000043 | dei_
+000044 | Data Type:
+000045 | xbrli:stringItemType
+000046 | Balance Type:
+000047 | na
+000048 | Period Type:
+000049 | duration
+000050 | X
+000051 | - Definition
+000052 | The entire disclosure for organization, consolidation and basis of presentation of financial statements disclosure.
+000053 | + References
+000054 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000055 | -Topic 205
+000056 | -SubTopic 10
+000057 | -Name Accounting Standards Codification
+000058 | -Section S99
+000059 | -Paragraph 3
+000060 | -Subparagraph (SX 210.4-03(c))
+000061 | -Publisher FASB
+000062 | -URI https://asc.fasb.org/1943274/2147480922/205-10-S99-3
+000063 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000064 | -Topic 946
+000065 | -SubTopic 10
+000066 | -Name Accounting Standards Codification
+000067 | -Section 50
+000068 | -Paragraph 1
+000069 | -Publisher FASB
+000070 | -URI https://asc.fasb.org/1943274/2147480424/946-10-50-1
+000071 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000072 | -Topic 946
+000073 | -SubTopic 10
+000074 | -Name Accounting Standards Codification
+000075 | -Section 50
+000076 | -Paragraph 2
+000077 | -Publisher FASB
+000078 | -URI https://asc.fasb.org/1943274/2147480424/946-10-50-2
+000079 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000080 | -Topic 810
+000081 | -Name Accounting Standards Codification
+000082 | -Publisher FASB
+000083 | -URI https://asc.fasb.org/810/tableOfContent
+000084 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000085 | -Topic 205
+000086 | -SubTopic 10
+000087 | -Name Accounting Standards Codification
+000088 | -Section S45
+000089 | -Paragraph 5
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147481034/205-10-S45-5
+000092 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000093 | -Topic 205
+000094 | -Name Accounting Standards Codification
+000095 | -Publisher FASB
+000096 | -URI https://asc.fasb.org/205/tableOfContent
+000097 | + Details
+000098 | Name:
+000099 | us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock
+000100 | Namespace Prefix:
+000101 | us-gaap_
+000102 | Data Type:
+000103 | dtr-types:textBlockItemType
+000104 | Balance Type:
+000105 | na
+000106 | Period Type:
+000107 | duration
+000108 | X
+000109 | - Details
+000110 | Name:
+000111 | dei_LegalEntityAxis=ctva_EIDPMember
+000112 | Namespace Prefix:
+000113 | Data Type:
+000114 | na
+000115 | Balance Type:
+000116 | Period Type:

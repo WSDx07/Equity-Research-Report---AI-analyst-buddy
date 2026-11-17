@@ -1,0 +1,448 @@
+000001 | v3.26.3
+000002 | Supplementary Information Other Income (Expense) - Net (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Organization, Consolidation and Presentation of Financial Statements [Abstract]
+000011 | Interest income
+000012 | $ 30
+000013 | $ 29
+000014 | $ 91
+000015 | $ 92
+000016 | Equity in earnings (losses) of affiliates - net
+000017 | 0
+000018 | (1)
+000019 | 7
+000020 | 9
+000021 | Net gain (loss) on sales of businesses and other assets
+000022 | 4
+000023 | 0
+000024 | (3)
+000025 | 17
+000026 | Net exchange gains (losses)
+000027 | (65)
+000028 | (45)
+000029 | (207)
+000030 | (97)
+000031 | Non-operating pension and other post employment benefit credits (costs)
+000032 | [1]
+000033 | 6
+000034 | (6)
+000035 | 20
+000036 | (18)
+000037 | Miscellaneous income and expenses, net
+000038 | [2]
+000039 | (9)
+000040 | 0
+000041 | (174)
+000042 | 92
+000043 | Other income (expense) - net
+000044 | $ (34)
+000045 | $ (23)
+000046 | $ (266)
+000047 | $ 95
+000048 | [1]
+000049 | Includes non-service related components of net periodic benefit credits (costs), comprised of interest cost, expected return on plan assets, amortization of unrecognized gain (loss), amortization of prior service benefit and settlement gain (loss).
+000050 | [2]
+000051 | The nine months ended September 30, 2026 includes estimated settlements associated with various lawsuits filed as described in the section entitled “Federal Trade Commission Investigation” within Note 12 - Commitments and Contingent Liabilities, to the interim Consolidated Financial Statements. The nine months ended September 30, 2025 includes the receipt of insurance proceeds and other items.
+000052 | X
+000053 | - Definition
+000054 | Miscellaneous income and expenses, net
+000055 | + References
+000056 | No definition available.
+000057 | + Details
+000058 | Name:
+000059 | ctva_MiscellaneousIncomeAndExpensesNet
+000060 | Namespace Prefix:
+000061 | ctva_
+000062 | Data Type:
+000063 | xbrli:monetaryItemType
+000064 | Balance Type:
+000065 | credit
+000066 | Period Type:
+000067 | duration
+000068 | X
+000069 | - Definition
+000070 | Amount, before tax, of realized and unrealized gain (loss) from foreign currency transaction.
+000071 | + References
+000072 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000073 | -Topic 946
+000074 | -SubTopic 220
+000075 | -Name Accounting Standards Codification
+000076 | -Section S99
+000077 | -Paragraph 1
+000078 | -Subparagraph (SX 210.6-07(7))
+000079 | -Publisher FASB
+000080 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000081 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000082 | -Topic 830
+000083 | -SubTopic 20
+000084 | -Name Accounting Standards Codification
+000085 | -Section 35
+000086 | -Paragraph 1
+000087 | -Publisher FASB
+000088 | -URI https://asc.fasb.org/1943274/2147482014/830-20-35-1
+000089 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000090 | -Topic 830
+000091 | -SubTopic 20
+000092 | -Name Accounting Standards Codification
+000093 | -Section 45
+000094 | -Paragraph 1
+000095 | -Publisher FASB
+000096 | -URI https://asc.fasb.org/1943274/2147481956/830-20-45-1
+000097 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000098 | -Topic 830
+000099 | -SubTopic 20
+000100 | -Name Accounting Standards Codification
+000101 | -Section 50
+000102 | -Paragraph 1
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147481926/830-20-50-1
+000105 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000106 | -Topic 830
+000107 | -SubTopic 10
+000108 | -Name Accounting Standards Codification
+000109 | -Section 45
+000110 | -Paragraph 17
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147481839/830-10-45-17
+000113 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000114 | -Topic 220
+000115 | -SubTopic 40
+000116 | -Name Accounting Standards Codification
+000117 | -Section 50
+000118 | -Paragraph 22
+000119 | -Subparagraph (o)
+000120 | -Publisher FASB
+000121 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-22
+000122 | + Details
+000123 | Name:
+000124 | us-gaap_ForeignCurrencyTransactionGainLossBeforeTax
+000125 | Namespace Prefix:
+000126 | us-gaap_
+000127 | Data Type:
+000128 | xbrli:monetaryItemType
+000129 | Balance Type:
+000130 | credit
+000131 | Period Type:
+000132 | duration
+000133 | X
+000134 | - Definition
+000135 | Amount of gain (loss) on sale or disposal of other assets.
+000136 | + References
+000137 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000138 | -Topic 230
+000139 | -SubTopic 10
+000140 | -Name Accounting Standards Codification
+000141 | -Section 45
+000142 | -Paragraph 28
+000143 | -Subparagraph (b)
+000144 | -Publisher FASB
+000145 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000146 | + Details
+000147 | Name:
+000148 | us-gaap_GainLossOnSaleOfOtherAssets
+000149 | Namespace Prefix:
+000150 | us-gaap_
+000151 | Data Type:
+000152 | xbrli:monetaryItemType
+000153 | Balance Type:
+000154 | credit
+000155 | Period Type:
+000156 | duration
+000157 | X
+000158 | - Definition
+000159 | Amount of income (loss) for proportionate share of equity method investee's income (loss).
+000160 | + References
+000161 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000162 | -Name Accounting Standards Codification
+000163 | -Section 45
+000164 | -Paragraph 28
+000165 | -Subparagraph (b)
+000166 | -SubTopic 10
+000167 | -Topic 230
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000170 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000171 | -Topic 280
+000172 | -SubTopic 10
+000173 | -Name Accounting Standards Codification
+000174 | -Section 50
+000175 | -Paragraph 32
+000176 | -Subparagraph (ee)
+000177 | -Publisher FASB
+000178 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-32
+000179 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000180 | -Topic 280
+000181 | -SubTopic 10
+000182 | -Name Accounting Standards Codification
+000183 | -Section 50
+000184 | -Paragraph 22
+000185 | -Subparagraph (g)
+000186 | -Publisher FASB
+000187 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000188 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000189 | -Topic 270
+000190 | -SubTopic 10
+000191 | -Name Accounting Standards Codification
+000192 | -Section 50
+000193 | -Paragraph 1
+000194 | -Subparagraph (i)
+000195 | -Publisher FASB
+000196 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-1
+000197 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000198 | -Topic 944
+000199 | -SubTopic 220
+000200 | -Name Accounting Standards Codification
+000201 | -Section S99
+000202 | -Paragraph 1
+000203 | -Subparagraph (SX 210.7-04(10))
+000204 | -Publisher FASB
+000205 | -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1
+000206 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000207 | -Topic 323
+000208 | -SubTopic 10
+000209 | -Name Accounting Standards Codification
+000210 | -Section 45
+000211 | -Paragraph 1
+000212 | -Publisher FASB
+000213 | -URI https://asc.fasb.org/1943274/2147481664/323-10-45-1
+000214 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000215 | -Topic 220
+000216 | -SubTopic 10
+000217 | -Name Accounting Standards Codification
+000218 | -Section S99
+000219 | -Paragraph 2
+000220 | -Subparagraph (SX 210.5-03(12))
+000221 | -Publisher FASB
+000222 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000223 | Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef
+000224 | -Topic 942
+000225 | -SubTopic 220
+000226 | -Name Accounting Standards Codification
+000227 | -Section S99
+000228 | -Paragraph 1
+000229 | -Subparagraph (SX 210.9-04(13)(f))
+000230 | -Publisher FASB
+000231 | -URI https://asc.fasb.org/1943274/2147478524/942-220-S99-1
+000232 | + Details
+000233 | Name:
+000234 | us-gaap_IncomeLossFromEquityMethodInvestments
+000235 | Namespace Prefix:
+000236 | us-gaap_
+000237 | Data Type:
+000238 | xbrli:monetaryItemType
+000239 | Balance Type:
+000240 | credit
+000241 | Period Type:
+000242 | duration
+000243 | X
+000244 | - Definition
+000245 | Amount of operating interest income, including, but not limited to, amortization and accretion of premiums and discounts on securities.
+000246 | + References
+000247 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000248 | -Topic 280
+000249 | -SubTopic 10
+000250 | -Name Accounting Standards Codification
+000251 | -Section 50
+000252 | -Paragraph 22
+000253 | -Subparagraph (c)
+000254 | -Publisher FASB
+000255 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-22
+000256 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000257 | -Topic 946
+000258 | -SubTopic 830
+000259 | -Name Accounting Standards Codification
+000260 | -Section 55
+000261 | -Paragraph 10
+000262 | -Publisher FASB
+000263 | -URI https://asc.fasb.org/1943274/2147479168/946-830-55-10
+000264 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000265 | -Topic 942
+000266 | -SubTopic 310
+000267 | -Name Accounting Standards Codification
+000268 | -Section S50
+000269 | -Paragraph 4
+000270 | -Publisher FASB
+000271 | -URI https://asc.fasb.org/1943274/2147479255/942-310-S50-4
+000272 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000273 | -Topic 942
+000274 | -SubTopic 310
+000275 | -Name Accounting Standards Codification
+000276 | -Section S99
+000277 | -Paragraph 2
+000278 | -Subparagraph (SAB Topic 11.H.2.Q1)
+000279 | -Publisher FASB
+000280 | -URI https://asc.fasb.org/1943274/2147478116/942-310-S99-2
+000281 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000282 | -Topic 220
+000283 | -SubTopic 10
+000284 | -Name Accounting Standards Codification
+000285 | -Section S99
+000286 | -Paragraph 2
+000287 | -Subparagraph (SX 210.5-03(1)(e))
+000288 | -Publisher FASB
+000289 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000290 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000291 | -Topic 280
+000292 | -SubTopic 10
+000293 | -Name Accounting Standards Codification
+000294 | -Section 55
+000295 | -Paragraph 48
+000296 | -Publisher FASB
+000297 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-48
+000298 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000299 | -Topic 946
+000300 | -SubTopic 320
+000301 | -Name Accounting Standards Codification
+000302 | -Section S99
+000303 | -Paragraph 6
+000304 | -Subparagraph (SX 210.12-14(Column E)(1))
+000305 | -Publisher FASB
+000306 | -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6
+000307 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000308 | -Topic 946
+000309 | -SubTopic 320
+000310 | -Name Accounting Standards Codification
+000311 | -Section S99
+000312 | -Paragraph 6
+000313 | -Subparagraph (SX 210.12-14(Column E)(Footnote 4))
+000314 | -Publisher FASB
+000315 | -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6
+000316 | Reference 9: http://www.xbrl.org/2003/role/exampleRef
+000317 | -Topic 946
+000318 | -SubTopic 830
+000319 | -Name Accounting Standards Codification
+000320 | -Section 45
+000321 | -Paragraph 39
+000322 | -Publisher FASB
+000323 | -URI https://asc.fasb.org/1943274/2147477346/946-830-45-39
+000324 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000325 | -Topic 946
+000326 | -SubTopic 220
+000327 | -Name Accounting Standards Codification
+000328 | -Section S99
+000329 | -Paragraph 1
+000330 | -Subparagraph (SX 210.6-07(1)(b))
+000331 | -Publisher FASB
+000332 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000333 | Reference 11: http://www.xbrl.org/2009/role/commonPracticeRef
+000334 | -Topic 946
+000335 | -SubTopic 320
+000336 | -Name Accounting Standards Codification
+000337 | -Section S99
+000338 | -Paragraph 6
+000339 | -Subparagraph (SX 210.12-14(Column E)(Footnote 6)(a))
+000340 | -Publisher FASB
+000341 | -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-6
+000342 | + Details
+000343 | Name:
+000344 | us-gaap_InterestIncomeOperating
+000345 | Namespace Prefix:
+000346 | us-gaap_
+000347 | Data Type:
+000348 | xbrli:monetaryItemType
+000349 | Balance Type:
+000350 | credit
+000351 | Period Type:
+000352 | duration
+000353 | X
+000354 | - Definition
+000355 | Amount of expense (reversal of expense) for net periodic benefit cost components, excluding service cost component, of defined benefit plan. Amount includes, but is not limited to, interest cost, expected (return) loss on plan asset, amortization of prior service cost (credit), amortization of (gain) loss, amortization of transition (asset) obligation, settlement (gain) loss, curtailment (gain) loss and certain termination benefits.
+000356 | + References
+000357 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000358 | -Topic 715
+000359 | -SubTopic 20
+000360 | -Name Accounting Standards Codification
+000361 | -Section 45
+000362 | -Paragraph 3A
+000363 | -Subparagraph (b)
+000364 | -Publisher FASB
+000365 | -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A
+000366 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000367 | -Topic 220
+000368 | -SubTopic 40
+000369 | -Name Accounting Standards Codification
+000370 | -Section 50
+000371 | -Paragraph 21
+000372 | -Subparagraph (f)
+000373 | -Publisher FASB
+000374 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-21
+000375 | + Details
+000376 | Name:
+000377 | us-gaap_NetPeriodicDefinedBenefitsExpenseReversalOfExpenseExcludingServiceCostComponent
+000378 | Namespace Prefix:
+000379 | us-gaap_
+000380 | Data Type:
+000381 | xbrli:monetaryItemType
+000382 | Balance Type:
+000383 | debit
+000384 | Period Type:
+000385 | duration
+000386 | X
+000387 | - Definition
+000388 | The aggregate amount of income or expense from ancillary business-related activities (that is to say, excluding major activities considered part of the normal operations of the business).
+000389 | + References
+000390 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000391 | -Topic 205
+000392 | -SubTopic 20
+000393 | -Name Accounting Standards Codification
+000394 | -Section 50
+000395 | -Paragraph 7
+000396 | -Publisher FASB
+000397 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7
+000398 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000399 | -Topic 323
+000400 | -SubTopic 10
+000401 | -Name Accounting Standards Codification
+000402 | -Section 50
+000403 | -Paragraph 3
+000404 | -Subparagraph (c)
+000405 | -Publisher FASB
+000406 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+000407 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000408 | -Topic 205
+000409 | -SubTopic 20
+000410 | -Name Accounting Standards Codification
+000411 | -Section 50
+000412 | -Paragraph 5A
+000413 | -Publisher FASB
+000414 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5A
+000415 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000416 | -Topic 220
+000417 | -SubTopic 10
+000418 | -Name Accounting Standards Codification
+000419 | -Section S99
+000420 | -Paragraph 2
+000421 | -Subparagraph (SX 210.5-03(7))
+000422 | -Publisher FASB
+000423 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000424 | + Details
+000425 | Name:
+000426 | us-gaap_NonoperatingIncomeExpense
+000427 | Namespace Prefix:
+000428 | us-gaap_
+000429 | Data Type:
+000430 | xbrli:monetaryItemType
+000431 | Balance Type:
+000432 | credit
+000433 | Period Type:
+000434 | duration
+000435 | X
+000436 | - References
+000437 | No definition available.
+000438 | + Details
+000439 | Name:
+000440 | us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract
+000441 | Namespace Prefix:
+000442 | us-gaap_
+000443 | Data Type:
+000444 | xbrli:stringItemType
+000445 | Balance Type:
+000446 | na
+000447 | Period Type:
+000448 | duration

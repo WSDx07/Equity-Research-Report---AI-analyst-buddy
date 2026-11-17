@@ -1,0 +1,175 @@
+000001 | v3.26.3
+000002 | Commitments and Contingent Liabilities Guarantee Narrative (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Sep. 30, 2025
+000007 | Guarantor Obligations [Line Items]
+000008 | Guarantee Obligations
+000009 | $ 120
+000010 | $ 71
+000011 | $ 71
+000012 | Factoring Agreement
+000013 | Guarantor Obligations [Line Items]
+000014 | Guarantee Obligations
+000015 | 4
+000016 | 5
+000017 | 4
+000018 | Agreements with lenders to provide financing for select customers
+000019 | Guarantor Obligations [Line Items]
+000020 | Accounts Receivable, after Allowance for Credit Loss
+000021 | $ 603
+000022 | $ 234
+000023 | $ 603
+000024 | X
+000025 | - Definition
+000026 | Amount, after allowance for credit loss, of right to consideration from customer for product sold and service rendered in normal course of business.
+000027 | + References
+000028 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000029 | -Topic 946
+000030 | -SubTopic 310
+000031 | -Name Accounting Standards Codification
+000032 | -Section 45
+000033 | -Paragraph 1
+000034 | -Subparagraph (d)
+000035 | -Publisher FASB
+000036 | -URI https://asc.fasb.org/1943274/2147477802/946-310-45-1
+000037 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000038 | -Topic 944
+000039 | -SubTopic 210
+000040 | -Name Accounting Standards Codification
+000041 | -Section S99
+000042 | -Paragraph 1
+000043 | -Subparagraph (SX 210.7-03(a)(5))
+000044 | -Publisher FASB
+000045 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000046 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000047 | -Topic 946
+000048 | -SubTopic 210
+000049 | -Name Accounting Standards Codification
+000050 | -Section S99
+000051 | -Paragraph 1
+000052 | -Subparagraph (SX 210.6-04(5)(b))
+000053 | -Publisher FASB
+000054 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000055 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000056 | -Topic 954
+000057 | -SubTopic 310
+000058 | -Name Accounting Standards Codification
+000059 | -Section 45
+000060 | -Paragraph 1
+000061 | -Publisher FASB
+000062 | -URI https://asc.fasb.org/1943274/2147479196/954-310-45-1
+000063 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000064 | -Topic 944
+000065 | -SubTopic 210
+000066 | -Name Accounting Standards Codification
+000067 | -Section S99
+000068 | -Paragraph 1
+000069 | -Subparagraph (SX 210.7-03(a)(3))
+000070 | -Publisher FASB
+000071 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000072 | + Details
+000073 | Name:
+000074 | us-gaap_AccountsReceivableNet
+000075 | Namespace Prefix:
+000076 | us-gaap_
+000077 | Data Type:
+000078 | xbrli:monetaryItemType
+000079 | Balance Type:
+000080 | debit
+000081 | Period Type:
+000082 | instant
+000083 | X
+000084 | - Definition
+000085 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000086 | + References
+000087 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000088 | -Topic 460
+000089 | -SubTopic 10
+000090 | -Name Accounting Standards Codification
+000091 | -Section 50
+000092 | -Paragraph 4
+000093 | -Subparagraph (a)(1)
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-4
+000096 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000097 | -Topic 460
+000098 | -SubTopic 10
+000099 | -Name Accounting Standards Codification
+000100 | -Section 50
+000101 | -Paragraph 4
+000102 | -Subparagraph (f)
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-4
+000105 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000106 | -Topic 460
+000107 | -SubTopic 10
+000108 | -Name Accounting Standards Codification
+000109 | -Section 50
+000110 | -Paragraph 4
+000111 | -Subparagraph (b)(1)
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-4
+000114 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000115 | -Topic 460
+000116 | -SubTopic 10
+000117 | -Name Accounting Standards Codification
+000118 | -Section 50
+000119 | -Paragraph 4
+000120 | -Subparagraph (c)
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-4
+000123 | + Details
+000124 | Name:
+000125 | us-gaap_GuaranteeObligationsLineItems
+000126 | Namespace Prefix:
+000127 | us-gaap_
+000128 | Data Type:
+000129 | xbrli:stringItemType
+000130 | Balance Type:
+000131 | na
+000132 | Period Type:
+000133 | duration
+000134 | X
+000135 | - Definition
+000136 | Maximum potential amount of future payments (undiscounted) the guarantor could be required to make under the guarantee or each group of similar guarantees before reduction for potential recoveries under recourse or collateralization provisions.
+000137 | + References
+000138 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000139 | -Topic 460
+000140 | -SubTopic 10
+000141 | -Name Accounting Standards Codification
+000142 | -Section 50
+000143 | -Paragraph 4
+000144 | -Subparagraph (b)(1)
+000145 | -Publisher FASB
+000146 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-4
+000147 | + Details
+000148 | Name:
+000149 | us-gaap_GuaranteeObligationsMaximumExposure
+000150 | Namespace Prefix:
+000151 | us-gaap_
+000152 | Data Type:
+000153 | xbrli:monetaryItemType
+000154 | Balance Type:
+000155 | credit
+000156 | Period Type:
+000157 | instant
+000158 | X
+000159 | - Details
+000160 | Name:
+000161 | us-gaap_GuaranteeObligationsByNatureAxis=ctva_FactoringAgreementMember
+000162 | Namespace Prefix:
+000163 | Data Type:
+000164 | na
+000165 | Balance Type:
+000166 | Period Type:
+000167 | X
+000168 | - Details
+000169 | Name:
+000170 | us-gaap_GuaranteeObligationsByNatureAxis=ctva_AgreementswithlenderstoprovidefinancingforselectcustomersMember
+000171 | Namespace Prefix:
+000172 | Data Type:
+000173 | na
+000174 | Balance Type:
+000175 | Period Type:

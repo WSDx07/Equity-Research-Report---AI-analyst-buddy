@@ -1,0 +1,215 @@
+000001 | v3.26.3
+000002 | Supplementary Information Foreign Currency Exchange Gain (Loss) (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Foreign Currency Exchange Gain (Loss) [Line Items]
+000011 | Pre-tax exchange (losses) gains - net
+000012 | $ (65)
+000013 | $ (45)
+000014 | $ (207)
+000015 | $ (97)
+000016 | Foreign Currency Transaction (Loss) Gain Tax (Expense) Benefit
+000017 | 14
+000018 | (5)
+000019 | 36
+000020 | (19)
+000021 | Foreign Currency Transaction (Loss) Gain After Tax
+000022 | (51)
+000023 | (50)
+000024 | (171)
+000025 | (116)
+000026 | Subsidiary Monetary Position
+000027 | Foreign Currency Exchange Gain (Loss) [Line Items]
+000028 | Pre-tax exchange (losses) gains - net
+000029 | (19)
+000030 | 28
+000031 | 70
+000032 | (173)
+000033 | Foreign Currency Transaction (Loss) Gain Tax (Expense) Benefit
+000034 | 3
+000035 | (23)
+000036 | (28)
+000037 | (10)
+000038 | Foreign Currency Transaction (Loss) Gain After Tax
+000039 | (16)
+000040 | 5
+000041 | 42
+000042 | (183)
+000043 | Hedging Program
+000044 | Foreign Currency Exchange Gain (Loss) [Line Items]
+000045 | Pre-tax exchange (losses) gains - net
+000046 | (46)
+000047 | (73)
+000048 | (277)
+000049 | 76
+000050 | Foreign Currency Transaction (Loss) Gain Tax (Expense) Benefit
+000051 | 11
+000052 | 18
+000053 | 64
+000054 | (9)
+000055 | Foreign Currency Transaction (Loss) Gain After Tax
+000056 | $ (35)
+000057 | $ (55)
+000058 | $ (213)
+000059 | $ 67
+000060 | X
+000061 | - Definition
+000062 | [Line Items] for Foreign Currency Exchange Gain (Loss) [Table]
+000063 | + References
+000064 | No definition available.
+000065 | + Details
+000066 | Name:
+000067 | ctva_ForeignCurrencyExchangeGainLossLineItems
+000068 | Namespace Prefix:
+000069 | ctva_
+000070 | Data Type:
+000071 | xbrli:stringItemType
+000072 | Balance Type:
+000073 | na
+000074 | Period Type:
+000075 | duration
+000076 | X
+000077 | - Definition
+000078 | Foreign Currency Transaction Gain (Loss) Tax
+000079 | + References
+000080 | No definition available.
+000081 | + Details
+000082 | Name:
+000083 | ctva_ForeignCurrencyTransactionGainLossTax
+000084 | Namespace Prefix:
+000085 | ctva_
+000086 | Data Type:
+000087 | xbrli:monetaryItemType
+000088 | Balance Type:
+000089 | credit
+000090 | Period Type:
+000091 | duration
+000092 | X
+000093 | - Definition
+000094 | Amount, after tax, of realized and unrealized gain (loss) from foreign currency transaction.
+000095 | + References
+000096 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000097 | -Topic 946
+000098 | -SubTopic 205
+000099 | -Name Accounting Standards Codification
+000100 | -Section 45
+000101 | -Paragraph 3
+000102 | -Subparagraph (a)
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147478009/946-205-45-3
+000105 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000106 | -Topic 946
+000107 | -SubTopic 220
+000108 | -Name Accounting Standards Codification
+000109 | -Section S99
+000110 | -Paragraph 3
+000111 | -Subparagraph (SX 210.6-09(1))
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000114 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000115 | -Topic 946
+000116 | -SubTopic 830
+000117 | -Name Accounting Standards Codification
+000118 | -Section 45
+000119 | -Paragraph 38
+000120 | -Publisher FASB
+000121 | -URI https://asc.fasb.org/1943274/2147477346/946-830-45-38
+000122 | + Details
+000123 | Name:
+000124 | us-gaap_ForeignCurrencyTransactionGainLossAfterTax
+000125 | Namespace Prefix:
+000126 | us-gaap_
+000127 | Data Type:
+000128 | xbrli:monetaryItemType
+000129 | Balance Type:
+000130 | credit
+000131 | Period Type:
+000132 | duration
+000133 | X
+000134 | - Definition
+000135 | Amount, before tax, of realized and unrealized gain (loss) from foreign currency transaction.
+000136 | + References
+000137 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000138 | -Topic 946
+000139 | -SubTopic 220
+000140 | -Name Accounting Standards Codification
+000141 | -Section S99
+000142 | -Paragraph 1
+000143 | -Subparagraph (SX 210.6-07(7))
+000144 | -Publisher FASB
+000145 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000146 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000147 | -Topic 830
+000148 | -SubTopic 20
+000149 | -Name Accounting Standards Codification
+000150 | -Section 35
+000151 | -Paragraph 1
+000152 | -Publisher FASB
+000153 | -URI https://asc.fasb.org/1943274/2147482014/830-20-35-1
+000154 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000155 | -Topic 830
+000156 | -SubTopic 20
+000157 | -Name Accounting Standards Codification
+000158 | -Section 45
+000159 | -Paragraph 1
+000160 | -Publisher FASB
+000161 | -URI https://asc.fasb.org/1943274/2147481956/830-20-45-1
+000162 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000163 | -Topic 830
+000164 | -SubTopic 20
+000165 | -Name Accounting Standards Codification
+000166 | -Section 50
+000167 | -Paragraph 1
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147481926/830-20-50-1
+000170 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000171 | -Topic 830
+000172 | -SubTopic 10
+000173 | -Name Accounting Standards Codification
+000174 | -Section 45
+000175 | -Paragraph 17
+000176 | -Publisher FASB
+000177 | -URI https://asc.fasb.org/1943274/2147481839/830-10-45-17
+000178 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000179 | -Topic 220
+000180 | -SubTopic 40
+000181 | -Name Accounting Standards Codification
+000182 | -Section 50
+000183 | -Paragraph 22
+000184 | -Subparagraph (o)
+000185 | -Publisher FASB
+000186 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-22
+000187 | + Details
+000188 | Name:
+000189 | us-gaap_ForeignCurrencyTransactionGainLossBeforeTax
+000190 | Namespace Prefix:
+000191 | us-gaap_
+000192 | Data Type:
+000193 | xbrli:monetaryItemType
+000194 | Balance Type:
+000195 | credit
+000196 | Period Type:
+000197 | duration
+000198 | X
+000199 | - Details
+000200 | Name:
+000201 | ctva_ForeignCurrencyTransactionTypeAxis=srt_SubsidiariesMember
+000202 | Namespace Prefix:
+000203 | Data Type:
+000204 | na
+000205 | Balance Type:
+000206 | Period Type:
+000207 | X
+000208 | - Details
+000209 | Name:
+000210 | ctva_ForeignCurrencyTransactionTypeAxis=ctva_HedgingProgramMember
+000211 | Namespace Prefix:
+000212 | Data Type:
+000213 | na
+000214 | Balance Type:
+000215 | Period Type:

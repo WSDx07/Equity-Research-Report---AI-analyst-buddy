@@ -1,0 +1,257 @@
+000001 | v3.26.3
+000002 | EIDP - Basis of Presentation Narrative (Details) - $ / shares
+000003 | 3 Months Ended
+000004 | 9 Months Ended
+000005 | Sep. 30, 2026
+000006 | Jun. 30, 2026
+000007 | Mar. 31, 2026
+000008 | Sep. 30, 2025
+000009 | Jun. 30, 2025
+000010 | Mar. 31, 2025
+000011 | Sep. 30, 2026
+000012 | Sep. 30, 2025
+000013 | Dec. 31, 2025
+000014 | Jun. 01, 2019
+000015 | Common Stock, Par Value
+000016 | $ 0.01
+000017 | $ 0.01
+000018 | $ 0.01
+000019 | $ 0.01
+000020 | $ 0.01
+000021 | EIDP
+000022 | Common Stock, Shares, Issued
+000023 | 200
+000024 | 200
+000025 | 200
+000026 | 200
+000027 | 200
+000028 | Common Stock, Par Value
+000029 | $ 0.30
+000030 | $ 0.30
+000031 | $ 0.30
+000032 | $ 0.30
+000033 | $ 0.30
+000034 | EIDP | $4.50 Series Preferred Stock
+000035 | Preferred Stock, Dividend Rate, Per-Dollar-Amount
+000036 | 4.50
+000037 | $ 4.50
+000038 | $ 4.50
+000039 | 4.50
+000040 | $ 4.50
+000041 | $ 4.50
+000042 | 4.50
+000043 | 4.50
+000044 | EIDP | $3.50 Series Preferred Stock
+000045 | Preferred Stock, Dividend Rate, Per-Dollar-Amount
+000046 | $ 3.50
+000047 | $ 3.50
+000048 | $ 3.50
+000049 | $ 3.50
+000050 | $ 3.50
+000051 | $ 3.50
+000052 | $ 3.50
+000053 | $ 3.50
+000054 | Corteva
+000055 | Common Stock, Shares, Issued
+000056 | 667,304,000
+000057 | 676,755,000
+000058 | 667,304,000
+000059 | 676,755,000
+000060 | 672,163,000
+000061 | Common Stock, Par Value
+000062 | $ 0.01
+000063 | $ 0.01
+000064 | $ 0.01
+000065 | Corteva | EIDP
+000066 | Ownership of outstanding common shares in EIDP
+000067 | 100.00%
+000068 | X
+000069 | - Definition
+000070 | Ownership of outstanding common shares in EIDP
+000071 | + References
+000072 | No definition available.
+000073 | + Details
+000074 | Name:
+000075 | ctva_OwnershipOfOutstandingCommonSharesInEIDP
+000076 | Namespace Prefix:
+000077 | ctva_
+000078 | Data Type:
+000079 | dtr-types:percentItemType
+000080 | Balance Type:
+000081 | na
+000082 | Period Type:
+000083 | duration
+000084 | X
+000085 | - Definition
+000086 | Face amount or stated value per share of common stock.
+000087 | + References
+000088 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000089 | -Topic 505
+000090 | -SubTopic 10
+000091 | -Name Accounting Standards Codification
+000092 | -Section S45
+000093 | -Paragraph 3
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3
+000096 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000097 | -Topic 942
+000098 | -SubTopic 210
+000099 | -Name Accounting Standards Codification
+000100 | -Section S45
+000101 | -Paragraph 1
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000104 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000105 | -Topic 942
+000106 | -SubTopic 210
+000107 | -Name Accounting Standards Codification
+000108 | -Section S50
+000109 | -Paragraph 1
+000110 | -Publisher FASB
+000111 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000112 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000113 | -Topic 942
+000114 | -SubTopic 210
+000115 | -Name Accounting Standards Codification
+000116 | -Section S99
+000117 | -Paragraph 1
+000118 | -Subparagraph (SX 210.9-03(20))
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000121 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000122 | -Topic 210
+000123 | -SubTopic 10
+000124 | -Name Accounting Standards Codification
+000125 | -Section S99
+000126 | -Paragraph 1
+000127 | -Subparagraph (SX 210.5-02(29))
+000128 | -Publisher FASB
+000129 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000130 | + Details
+000131 | Name:
+000132 | us-gaap_CommonStockParOrStatedValuePerShare
+000133 | Namespace Prefix:
+000134 | us-gaap_
+000135 | Data Type:
+000136 | dtr-types:perShareItemType
+000137 | Balance Type:
+000138 | na
+000139 | Period Type:
+000140 | instant
+000141 | X
+000142 | - Definition
+000143 | Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued, repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners, and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+000144 | + References
+000145 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000146 | -Topic 505
+000147 | -SubTopic 10
+000148 | -Name Accounting Standards Codification
+000149 | -Section S45
+000150 | -Paragraph 3
+000151 | -Publisher FASB
+000152 | -URI https://asc.fasb.org/1943274/2147480100/505-10-S45-3
+000153 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000154 | -Topic 210
+000155 | -SubTopic 10
+000156 | -Name Accounting Standards Codification
+000157 | -Section S99
+000158 | -Paragraph 1
+000159 | -Subparagraph (SX 210.5-02(29))
+000160 | -Publisher FASB
+000161 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000162 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000163 | -Topic 942
+000164 | -SubTopic 210
+000165 | -Name Accounting Standards Codification
+000166 | -Section S45
+000167 | -Paragraph 1
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000170 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000171 | -Topic 942
+000172 | -SubTopic 210
+000173 | -Name Accounting Standards Codification
+000174 | -Section S50
+000175 | -Paragraph 1
+000176 | -Publisher FASB
+000177 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000178 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000179 | -Topic 942
+000180 | -SubTopic 210
+000181 | -Name Accounting Standards Codification
+000182 | -Section S99
+000183 | -Paragraph 1
+000184 | -Subparagraph (SX 210.9-03(20))
+000185 | -Publisher FASB
+000186 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000187 | + Details
+000188 | Name:
+000189 | us-gaap_CommonStockSharesIssued
+000190 | Namespace Prefix:
+000191 | us-gaap_
+000192 | Data Type:
+000193 | xbrli:sharesItemType
+000194 | Balance Type:
+000195 | na
+000196 | Period Type:
+000197 | instant
+000198 | X
+000199 | - Definition
+000200 | The amount per share used to calculated dividend payments on preferred stock.
+000201 | + References
+000202 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000203 | -Topic 505
+000204 | -SubTopic 10
+000205 | -Name Accounting Standards Codification
+000206 | -Section 50
+000207 | -Paragraph 13
+000208 | -Subparagraph (b)
+000209 | -Publisher FASB
+000210 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-13
+000211 | + Details
+000212 | Name:
+000213 | us-gaap_PreferredStockDividendRatePerDollarAmount
+000214 | Namespace Prefix:
+000215 | us-gaap_
+000216 | Data Type:
+000217 | dtr-types:perShareItemType
+000218 | Balance Type:
+000219 | na
+000220 | Period Type:
+000221 | duration
+000222 | X
+000223 | - Details
+000224 | Name:
+000225 | dei_LegalEntityAxis=ctva_EIDPMember
+000226 | Namespace Prefix:
+000227 | Data Type:
+000228 | na
+000229 | Balance Type:
+000230 | Period Type:
+000231 | X
+000232 | - Details
+000233 | Name:
+000234 | us-gaap_StatementClassOfStockAxis=ctva_A4.50SeriesPreferredStockMember
+000235 | Namespace Prefix:
+000236 | Data Type:
+000237 | na
+000238 | Balance Type:
+000239 | Period Type:
+000240 | X
+000241 | - Details
+000242 | Name:
+000243 | us-gaap_StatementClassOfStockAxis=ctva_A3.50SeriesPreferredStockMember
+000244 | Namespace Prefix:
+000245 | Data Type:
+000246 | na
+000247 | Balance Type:
+000248 | Period Type:
+000249 | X
+000250 | - Details
+000251 | Name:
+000252 | ctva_CompanyAxis=ctva_CortevaMember
+000253 | Namespace Prefix:
+000254 | Data Type:
+000255 | na
+000256 | Balance Type:
+000257 | Period Type:

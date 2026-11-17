@@ -1,0 +1,44 @@
+{
+  "research_issues": [
+    "Claim 1 – the quoted line from the 10‑Q (line 153) is not verbatim; the provided quote does not match the document.",
+    "Claim 5 – the quoted line does not contain the “5 %” figure reported for Rest‑of‑World price/mix; the number is not present in the source quote.",
+    "Claim 6 – invalid or non‑verbatim document line and quote (EX‑99.1 line 8).",
+    "Claim 8 – invalid or non‑verbatim document line and quote (10‑Q line 2151).",
+    "Claim 9 – invalid or non‑verbatim document line and quote (EX‑99.1 line 10).",
+    "Claim 10 – invalid or non‑verbatim document line and quote (10‑Q line 2150).",
+    "Claim 11 – invalid or non‑verbatim document line and quote (EX‑99.1 line 10).",
+    "Claim 12 – invalid or non‑verbatim document line and quote (EX‑99.1 line 10).",
+    "Missing any claim or supporting evidence for the “Valuation Insights” section – the section is empty.",
+    "Missing any claim or supporting evidence for the “Investment Recommendation” section – the section is empty.",
+    "Research Insight – the supplied insight only restates the $3 billion share‑repurchase figure already disclosed in the release’s first paragraph and provides no additional metric, period or context."
+  ],
+  "financial_issues": [
+    "Financial Insight – the insight merely repeats the $3 billion share‑repurchase programme and $0.13 per‑share dividend already stated in the release first paragraph; it does not add a new metric, period or interpretation.",
+    "Financial Insight – automatic check flagged that the insight is missing a filing, line number, and exact quote (although a line number is present, the check still registers a deficiency).",
+    "Financial observations contain raw digits (e.g., “$3 billion”), which the automatic validator marks as an issue despite being factual."
+  ],
+  "advisor_issues": [
+    "Advisor Insight – no insight line or source reference was supplied; the required “insight” field is empty.",
+    "Advisor Insight – the advisor did not select a calculator result as the deciding metric nor explain why that metric drives the recommendation.",
+    "Advisor recommendation relies on qualitative statements only; without quantitative valuation inputs (price‑to‑earnings, cash‑flow, etc.) the recommendation cannot be substantiated."
+  ],
+  "overall_issues": [
+    "The research package does not contain a completed “Valuation Insights” section; without GAAP earnings, share price, or peer benchmarks a valuation multiple cannot be calculated.",
+    "The “Investment Recommendation” section is absent, leaving the report without a clear buy/hold/sell conclusion.",
+    "Key financial facts (total revenue, operating income, net income, EPS, debt, cash‑flow) are unavailable in the XBRL facts, preventing any quantitative ratio calculations.",
+    "Missing share‑price information and earnings per share prevents computation of a price‑to‑earnings multiple, which the advisor listed as the deciding metric.",
+    "Several claims have invalid or non‑verbatim source references, undermining the credibility of the research narrative."
+  ],
+  "research_insight": {
+    "status": "fail",
+    "reason": "Insight only repeats the $3 billion share‑repurchase amount already disclosed in the release first paragraph; it provides no new metric, period, or analytical context."
+  },
+  "financial_insight": {
+    "status": "fail",
+    "reason": "Insight merely restates the $3 billion share‑repurchase programme and $0.13 dividend already in the release first paragraph; no additional analysis or distinct metric is offered."
+  },
+  "advisor_insight": {
+    "status": "fail",
+    "reason": "No insight line or source was supplied, and the advisor did not select a calculator result as the deciding metric nor justify its use."
+  }
+}

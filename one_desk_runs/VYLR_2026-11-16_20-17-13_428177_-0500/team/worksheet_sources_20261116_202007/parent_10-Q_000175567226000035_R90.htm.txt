@@ -1,0 +1,454 @@
+000001 | v3.26.3
+000002 | Financial Instruments Effect of Derivative Instruments in Income (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Derivative Instruments, Gain (Loss) [Line Items]
+000011 | Gain (Loss) on Derivative Instruments, Net, Pre-tax
+000012 | $ (77)
+000013 | $ (108)
+000014 | $ (343)
+000015 | $ (87)
+000016 | Designated as Hedging Instrument
+000017 | Derivative Instruments, Gain (Loss) [Line Items]
+000018 | Gain (Loss) on Hedging Activity
+000019 | [1]
+000020 | 23
+000021 | (2)
+000022 | (26)
+000023 | (70)
+000024 | Not Designated as Hedging Instrument
+000025 | Derivative Instruments, Gain (Loss) [Line Items]
+000026 | Derivative Instruments Not Designated as Hedging Instruments, Gain (Loss), Net
+000027 | (54)
+000028 | (106)
+000029 | (317)
+000030 | (17)
+000031 | Not Designated as Hedging Instrument | Foreign Currency Contract | Location, Statement of Income, Balance [Axis]: us-gaap:CostOfGoodsAndServicesSold
+000032 | Derivative Instruments, Gain (Loss) [Line Items]
+000033 | Derivative Instruments Not Designated as Hedging Instruments, Gain (Loss), Net
+000034 | [2]
+000035 | (7)
+000036 | (33)
+000037 | (47)
+000038 | (102)
+000039 | Not Designated as Hedging Instrument | Foreign Currency Contract | Location, Statement of Income, Balance [Axis]: us-gaap:NonoperatingIncomeExpense
+000040 | Derivative Instruments, Gain (Loss) [Line Items]
+000041 | Derivative Instruments Not Designated as Hedging Instruments, Gain (Loss), Net
+000042 | [3]
+000043 | (46)
+000044 | (73)
+000045 | (277)
+000046 | 76
+000047 | Not Designated as Hedging Instrument | Commodity Contract | Location, Statement of Income, Balance [Axis]: us-gaap:CostOfGoodsAndServicesSold
+000048 | Derivative Instruments, Gain (Loss) [Line Items]
+000049 | Derivative Instruments Not Designated as Hedging Instruments, Gain (Loss), Net
+000050 | [2],[4]
+000051 | (1)
+000052 | 7
+000053 | 9
+000054 | Not Designated as Hedging Instrument | Commodity Contract | Location, Statement of Income, Balance [Axis]: us-gaap:NonoperatingIncomeExpense
+000055 | Derivative Instruments, Gain (Loss) [Line Items]
+000056 | Derivative Instruments Not Designated as Hedging Instruments, Gain (Loss), Net
+000057 | [3]
+000058 | 0
+000059 | 0
+000060 | 0
+000061 | 0
+000062 | Cash Flow Hedging [Member] | Designated as Hedging Instrument | Foreign Currency Contract
+000063 | Derivative Instruments, Gain (Loss) [Line Items]
+000064 | Gain (Loss) on Hedging Activity
+000065 | [1],[2]
+000066 | (21)
+000067 | 0
+000068 | (24)
+000069 | 6
+000070 | Cash Flow Hedging [Member] | Designated as Hedging Instrument | Commodity Contract
+000071 | Derivative Instruments, Gain (Loss) [Line Items]
+000072 | Gain (Loss) on Hedging Activity
+000073 | [1],[2]
+000074 | $ (2)
+000075 | $ (2)
+000076 | $ (2)
+000077 | $ (76)
+000078 | [1]
+000079 | For cash flow hedges, this represents the portion of the gain (loss) reclassified from accumulated OCI into income during the period.
+000080 | [2]
+000081 | Recorded in cost of goods sold in the interim Consolidated Statements of Operations.
+000082 | [3]
+000083 | Recognized in other income (expense) - net in the interim Consolidated Statements of Operations. Note that net gain (loss) from foreign currency contracts was partially offset by the related gain (loss) on the foreign currency-denominated monetary assets and liabilities of the company’s operations. See Note 5 - Supplementary Information, to the interim Consolidated Financial Statements, for additional information.
+000084 | [4]
+000085 | The net gain (loss) relating to commodity contracts that are not designated as hedging instruments that were recorded in cost of goods sold, in the interim Consolidated Statements of Operations, are mostly offset by the related net gain (loss) on third-party grower contracts denominated as liabilities.
+000086 | X
+000087 | - Definition
+000088 | Amount of increase (decrease) in the fair value of derivatives recognized in the income statement.
+000089 | + References
+000090 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000091 | -Topic 815
+000092 | -SubTopic 10
+000093 | -Name Accounting Standards Codification
+000094 | -Section 50
+000095 | -Paragraph 4A
+000096 | -Subparagraph (b)(1)
+000097 | -Publisher FASB
+000098 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4A
+000099 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000100 | -Topic 825
+000101 | -SubTopic 10
+000102 | -Name Accounting Standards Codification
+000103 | -Section 55
+000104 | -Paragraph 10
+000105 | -Publisher FASB
+000106 | -URI https://asc.fasb.org/1943274/2147482881/825-10-55-10
+000107 | + Details
+000108 | Name:
+000109 | us-gaap_DerivativeGainLossOnDerivativeNet
+000110 | Namespace Prefix:
+000111 | us-gaap_
+000112 | Data Type:
+000113 | xbrli:monetaryItemType
+000114 | Balance Type:
+000115 | credit
+000116 | Period Type:
+000117 | duration
+000118 | X
+000119 | - Definition
+000120 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000121 | + References
+000122 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000123 | -Topic 815
+000124 | -SubTopic 10
+000125 | -Name Accounting Standards Codification
+000126 | -Section 55
+000127 | -Paragraph 182
+000128 | -Publisher FASB
+000129 | -URI https://asc.fasb.org/1943274/2147480401/815-10-55-182
+000130 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000131 | -Topic 815
+000132 | -SubTopic 10
+000133 | -Name Accounting Standards Codification
+000134 | -Section 50
+000135 | -Paragraph 4A
+000136 | -Subparagraph (b)(1)
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4A
+000139 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000140 | -Topic 815
+000141 | -SubTopic 10
+000142 | -Name Accounting Standards Codification
+000143 | -Section 50
+000144 | -Paragraph 4C
+000145 | -Subparagraph (a)
+000146 | -Publisher FASB
+000147 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4C
+000148 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000149 | -Topic 815
+000150 | -SubTopic 10
+000151 | -Name Accounting Standards Codification
+000152 | -Section 50
+000153 | -Paragraph 4D
+000154 | -Subparagraph (b)
+000155 | -Publisher FASB
+000156 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4D
+000157 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000158 | -Topic 815
+000159 | -SubTopic 10
+000160 | -Name Accounting Standards Codification
+000161 | -Section 50
+000162 | -Paragraph 4D
+000163 | -Subparagraph (a)(5)
+000164 | -Publisher FASB
+000165 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4D
+000166 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000167 | -Topic 815
+000168 | -SubTopic 10
+000169 | -Name Accounting Standards Codification
+000170 | -Section 50
+000171 | -Paragraph 4D
+000172 | -Subparagraph (a)(4)
+000173 | -Publisher FASB
+000174 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4D
+000175 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000176 | -Topic 815
+000177 | -SubTopic 10
+000178 | -Name Accounting Standards Codification
+000179 | -Section 50
+000180 | -Paragraph 4D
+000181 | -Subparagraph (a)(3)
+000182 | -Publisher FASB
+000183 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4D
+000184 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000185 | -Topic 815
+000186 | -SubTopic 10
+000187 | -Name Accounting Standards Codification
+000188 | -Section 50
+000189 | -Paragraph 4D
+000190 | -Subparagraph (a)(2)
+000191 | -Publisher FASB
+000192 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4D
+000193 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000194 | -Topic 815
+000195 | -SubTopic 10
+000196 | -Name Accounting Standards Codification
+000197 | -Section 50
+000198 | -Paragraph 4D
+000199 | -Subparagraph (a)(6)
+000200 | -Publisher FASB
+000201 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4D
+000202 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000203 | -Topic 815
+000204 | -SubTopic 10
+000205 | -Name Accounting Standards Codification
+000206 | -Section 50
+000207 | -Paragraph 4D
+000208 | -Subparagraph (a)(1)
+000209 | -Publisher FASB
+000210 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4D
+000211 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000212 | -Topic 815
+000213 | -SubTopic 10
+000214 | -Name Accounting Standards Codification
+000215 | -Section 50
+000216 | -Paragraph 4A
+000217 | -Subparagraph (b)(2)
+000218 | -Publisher FASB
+000219 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4A
+000220 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000221 | -Topic 815
+000222 | -SubTopic 10
+000223 | -Name Accounting Standards Codification
+000224 | -Section 50
+000225 | -Paragraph 4C
+000226 | -Subparagraph (b)
+000227 | -Publisher FASB
+000228 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4C
+000229 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000230 | -Topic 815
+000231 | -SubTopic 10
+000232 | -Name Accounting Standards Codification
+000233 | -Section 50
+000234 | -Paragraph 4CCC
+000235 | -Subparagraph (c)
+000236 | -Publisher FASB
+000237 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4CCC
+000238 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000239 | -Topic 815
+000240 | -SubTopic 10
+000241 | -Name Accounting Standards Codification
+000242 | -Section 50
+000243 | -Paragraph 4CCC
+000244 | -Subparagraph (b)
+000245 | -Publisher FASB
+000246 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4CCC
+000247 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000248 | -Topic 815
+000249 | -SubTopic 10
+000250 | -Name Accounting Standards Codification
+000251 | -Section 50
+000252 | -Paragraph 4CCC
+000253 | -Subparagraph (a)
+000254 | -Publisher FASB
+000255 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4CCC
+000256 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000257 | -Topic 815
+000258 | -SubTopic 10
+000259 | -Name Accounting Standards Codification
+000260 | -Section 50
+000261 | -Paragraph 4CC
+000262 | -Publisher FASB
+000263 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4CC
+000264 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000265 | -Topic 815
+000266 | -SubTopic 10
+000267 | -Name Accounting Standards Codification
+000268 | -Section 50
+000269 | -Paragraph 4C
+000270 | -Subparagraph (g)
+000271 | -Publisher FASB
+000272 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4C
+000273 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+000274 | -Topic 815
+000275 | -SubTopic 10
+000276 | -Name Accounting Standards Codification
+000277 | -Section 50
+000278 | -Paragraph 4C
+000279 | -Subparagraph (f)
+000280 | -Publisher FASB
+000281 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4C
+000282 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+000283 | -Topic 815
+000284 | -SubTopic 10
+000285 | -Name Accounting Standards Codification
+000286 | -Section 50
+000287 | -Paragraph 4C
+000288 | -Subparagraph (d)
+000289 | -Publisher FASB
+000290 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4C
+000291 | Reference 20: http://www.xbrl.org/2003/role/disclosureRef
+000292 | -Topic 815
+000293 | -SubTopic 10
+000294 | -Name Accounting Standards Codification
+000295 | -Section 50
+000296 | -Paragraph 4C
+000297 | -Subparagraph (c)
+000298 | -Publisher FASB
+000299 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4C
+000300 | Reference 21: http://www.xbrl.org/2003/role/disclosureRef
+000301 | -Topic 815
+000302 | -SubTopic 10
+000303 | -Name Accounting Standards Codification
+000304 | -Section 50
+000305 | -Paragraph 4C
+000306 | -Subparagraph (bb)
+000307 | -Publisher FASB
+000308 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4C
+000309 | Reference 22: http://www.xbrl.org/2003/role/disclosureRef
+000310 | -Topic 815
+000311 | -SubTopic 10
+000312 | -Name Accounting Standards Codification
+000313 | -Section 50
+000314 | -Paragraph 4E
+000315 | -Publisher FASB
+000316 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4E
+000317 | + Details
+000318 | Name:
+000319 | us-gaap_DerivativeInstrumentsGainLossLineItems
+000320 | Namespace Prefix:
+000321 | us-gaap_
+000322 | Data Type:
+000323 | xbrli:stringItemType
+000324 | Balance Type:
+000325 | na
+000326 | Period Type:
+000327 | duration
+000328 | X
+000329 | - Definition
+000330 | Amount of realized and unrealized gain (loss) of derivative instruments not designated or qualifying as hedging instruments.
+000331 | + References
+000332 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000333 | -Topic 815
+000334 | -SubTopic 10
+000335 | -Name Accounting Standards Codification
+000336 | -Section 55
+000337 | -Paragraph 182
+000338 | -Publisher FASB
+000339 | -URI https://asc.fasb.org/1943274/2147480401/815-10-55-182
+000340 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000341 | -Topic 815
+000342 | -SubTopic 10
+000343 | -Name Accounting Standards Codification
+000344 | -Section 50
+000345 | -Paragraph 4CC
+000346 | -Publisher FASB
+000347 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4CC
+000348 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000349 | -Topic 220
+000350 | -SubTopic 40
+000351 | -Name Accounting Standards Codification
+000352 | -Section 50
+000353 | -Paragraph 21
+000354 | -Subparagraph (i)
+000355 | -Publisher FASB
+000356 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-21
+000357 | + Details
+000358 | Name:
+000359 | us-gaap_DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet
+000360 | Namespace Prefix:
+000361 | us-gaap_
+000362 | Data Type:
+000363 | xbrli:monetaryItemType
+000364 | Balance Type:
+000365 | credit
+000366 | Period Type:
+000367 | duration
+000368 | X
+000369 | - Definition
+000370 | Aggregate net gain (loss) on all derivative instruments recognized in earnings during the period, before tax effects.
+000371 | + References
+000372 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000373 | -Topic 815
+000374 | -SubTopic 10
+000375 | -Name Accounting Standards Codification
+000376 | -Section 50
+000377 | -Paragraph 4A
+000378 | -Subparagraph (b)(1)
+000379 | -Publisher FASB
+000380 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4A
+000381 | + Details
+000382 | Name:
+000383 | us-gaap_GainLossOnDerivativeInstrumentsNetPretax
+000384 | Namespace Prefix:
+000385 | us-gaap_
+000386 | Data Type:
+000387 | xbrli:monetaryItemType
+000388 | Balance Type:
+000389 | credit
+000390 | Period Type:
+000391 | duration
+000392 | X
+000393 | - Details
+000394 | Name:
+000395 | us-gaap_HedgingDesignationAxis=us-gaap_DesignatedAsHedgingInstrumentMember
+000396 | Namespace Prefix:
+000397 | Data Type:
+000398 | na
+000399 | Balance Type:
+000400 | Period Type:
+000401 | X
+000402 | - Details
+000403 | Name:
+000404 | us-gaap_HedgingDesignationAxis=us-gaap_NondesignatedMember
+000405 | Namespace Prefix:
+000406 | Data Type:
+000407 | na
+000408 | Balance Type:
+000409 | Period Type:
+000410 | X
+000411 | - Details
+000412 | Name:
+000413 | us-gaap_DerivativeInstrumentRiskAxis=us-gaap_ForeignExchangeContractMember
+000414 | Namespace Prefix:
+000415 | Data Type:
+000416 | na
+000417 | Balance Type:
+000418 | Period Type:
+000419 | X
+000420 | - Details
+000421 | Name:
+000422 | us-gaap_StatementOfIncomeLocationBalanceAxis=us-gaap_CostOfGoodsAndServicesSold
+000423 | Namespace Prefix:
+000424 | Data Type:
+000425 | na
+000426 | Balance Type:
+000427 | Period Type:
+000428 | X
+000429 | - Details
+000430 | Name:
+000431 | us-gaap_StatementOfIncomeLocationBalanceAxis=us-gaap_NonoperatingIncomeExpense
+000432 | Namespace Prefix:
+000433 | Data Type:
+000434 | na
+000435 | Balance Type:
+000436 | Period Type:
+000437 | X
+000438 | - Details
+000439 | Name:
+000440 | us-gaap_DerivativeInstrumentRiskAxis=us-gaap_CommodityContractMember
+000441 | Namespace Prefix:
+000442 | Data Type:
+000443 | na
+000444 | Balance Type:
+000445 | Period Type:
+000446 | X
+000447 | - Details
+000448 | Name:
+000449 | us-gaap_DerivativeInstrumentsGainLossByHedgingRelationshipAxis=us-gaap_CashFlowHedgingMember
+000450 | Namespace Prefix:
+000451 | Data Type:
+000452 | na
+000453 | Balance Type:
+000454 | Period Type:
