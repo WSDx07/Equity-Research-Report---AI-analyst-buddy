@@ -1030,9 +1030,17 @@ def enrich_factor_inputs(record,snapshot,today):
     shares=snapshot.get('shares') if at_or_before(snapshot.get('shares'),'as_of') else None
     insider_entries=list(record.get('insider_evidence') or [])
     if isinstance(snapshot.get('insiders'),dict): insider_entries.append(snapshot['insiders'])
-    insiders=select_insider_statement(insider_entries,last['date']) if last else None
+    insiders=select_insider_statement(insider_entries,last['date'] if last else today.isoformat())
     distribution=value(record,'distribution_date')
     factors,explanations=factor_inputs(distribution,first,last,shares,insiders)
+    if not last and insiders:
+        try:
+            ownership=Decimal(str(insiders['value']))
+            if ownership.is_finite() and 0<=ownership<=100:
+                factors['insiders']=float(ownership)
+                explanations['insiders']=f"{ownership}% as of {insiders['as_of']}; {insiders['filing']} ({insiders['section']})."
+        except (KeyError,ValueError,InvalidOperation,TypeError):
+            pass
     result['factors']=factors
     result['factor_explanations']=explanations
     try:
@@ -1103,7 +1111,10 @@ def summarize_document_gaps(gaps):
         match=pattern.match(str(gap))
         if not match:
             order.append(('plain',gap)); continue
-        kind,folder,reason=match.groups(); key=(kind,folder,reason)
+        kind,folder,reason=match.groups()
+        if reason.startswith('Unparsed embedded attachment: '):
+            reason='Unparsed embedded attachment'
+        key=(kind,folder,reason)
         if key not in groups:
             groups[key]=[]; order.append(('group',key))
         groups[key].append(gap); details.append(gap)
@@ -1181,6 +1192,8 @@ def run_screen(client,registry,start,today,config,first_year,max_candidates=None
                     if getattr(exc,'code',None) in (403,429): raise
                     record=enrich_factor_inputs(record,{},today)
                     limitations.append(f"{record['name']}: factor data unavailable ({type(exc).__name__})")
+            elif record.get('insider_evidence') and stage(record,today,config['window_days'])=='in its window':
+                record=enrich_factor_inputs(record,{},today)
             confirmed.append(record)
     ranked,watch,unranked=prepare_screen(confirmed,start,today,config['window_days'],config['factors'])
     for r in unranked:

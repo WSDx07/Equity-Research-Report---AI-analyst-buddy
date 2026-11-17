@@ -881,6 +881,15 @@ Directors and executive officers as a group (12 persons)
         self.assertIsNone(output['price_date'])
         self.assertTrue(any('unranked' in x for x in output['limitations']))
 
+    def test_insider_filing_evidence_survives_missing_price(self):
+        record={'name':'Fictional','distribution_date':seeker.fact('2024-01-01','f','Distribution'),
+                'insider_evidence':[{'value':'6.5','as_of':'2024-01-05','filing_date':'2024-01-08','filing':'https://example.test/form10','section':'Ownership'}]}
+        result=seeker.enrich_factor_inputs(record,{},date(2024,1,10))
+        self.assertEqual(result['factors'].get('insiders'),6.5)
+        self.assertNotIn('size',result['factors'])
+        self.assertNotIn('weakness',result['factors'])
+        self.assertIn('Ownership',result['factor_explanations']['insiders'])
+
     def test_verified_workspace_provider_feeds_dated_prices_into_scoring(self):
         config={'window_days':90,'factors':[{'name':'weakness','weight':25,'direction':'higher','threshold':15}]}
         rows=[{'form':'10-12B','cik':'1','date':'2024-01-01','name':'Fictional','path':'1'}]
@@ -1060,6 +1069,14 @@ Directors and executive officers as a group (12 persons)
             saved=json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(saved['gaps'],details)
             self.assertNotEqual(path,seeker.save_source_gaps(Path(d),details))
+
+    def test_embedded_attachment_names_do_not_prevent_gap_summary(self):
+        folder='https://www.sec.gov/Archives/edgar/data/123/456/'
+        gaps=[f'Could not read document {folder}submission.txt: Unparsed embedded attachment: image{i}.jpg' for i in range(6)]
+        summary,details=seeker.summarize_document_gaps(gaps)
+        self.assertEqual(len(summary),1)
+        self.assertIn('6 documents',summary[0])
+        self.assertEqual(details,gaps)
 
     def test_output_names_are_unique_when_clock_does_not_advance(self):
         with tempfile.TemporaryDirectory() as d, patch.object(seeker,'datetime') as clock:
