@@ -1,0 +1,105 @@
+{
+  "form": "10-K",
+  "ticker": "GEV",
+  "accession": "0001996810-26-000015",
+  "filing_date": "2026-01-29",
+  "source_file": "GEV_10-K_0001996810-26-000015.txt",
+  "manual_reviewed_sections": [
+    {
+      "section": "Organization",
+      "lines": [
+        3641,
+        3642,
+        3643,
+        3644,
+        3645
+      ],
+      "facts": [
+        "parent",
+        "record_date",
+        "distribution_date",
+        "independent_company_status"
+      ]
+    },
+    {
+      "section": "Consolidated and Combined Statements of Earnings",
+      "lines": [
+        2945,
+        2963
+      ],
+      "facts": [
+        "after_tax_earnings",
+        "diluted_weighted_average_shares"
+      ]
+    },
+    {
+      "section": "Consolidated and Combined Statements of Cash Flows",
+      "lines": [
+        3086,
+        3090,
+        3143
+      ],
+      "facts": [
+        "ppe_depreciation",
+        "intangible_amortization",
+        "capital_spending"
+      ]
+    },
+    {
+      "section": "Liquidity and Capital Resources",
+      "lines": [
+        2184,
+        2219,
+        2220,
+        2221,
+        2222,
+        2223,
+        2224,
+        2225,
+        2226,
+        2227,
+        2228,
+        2229
+      ],
+      "facts": [
+        "current_debt",
+        "parent_credit_support",
+        "parent_support_restrictions"
+      ]
+    },
+    {
+      "section": "Guarantees",
+      "lines": [
+        6812,
+        6813,
+        6814,
+        6817
+      ],
+      "facts": [
+        "indemnification_commitments",
+        "recorded_liability",
+        "restricted_cash_legacy_ge_matters",
+        "ge_agreement_indemnifications"
+      ]
+    },
+    {
+      "section": "Credit Facilities",
+      "lines": [
+        6851,
+        6857
+      ],
+      "facts": [
+        "revolver_borrowings",
+        "credit_covenants"
+      ]
+    }
+  ],
+  "still_missing": [
+    "original Form 10 and Information Statement",
+    "distribution ratio",
+    "debt raised at the spin",
+    "detailed use of transferred cash",
+    "Form 4 coverage window and insider purchase activity"
+  ],
+  "note": "Manual source review supplements automatic extraction. It does not establish that the 10-K contains the missing spin-off terms."
+}

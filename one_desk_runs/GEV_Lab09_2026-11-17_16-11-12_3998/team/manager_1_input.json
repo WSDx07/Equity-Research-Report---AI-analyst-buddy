@@ -1,0 +1,842 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "The company designs, manufactures, delivers and services products that generate, transfer, orchestrate, convert and store electricity.",
+          "document": "10-K",
+          "line": 298,
+          "quote": "products and services that generate, transfer, orchestrate, convert, and store electricity. We design, manufacture, deliver, and service"
+        },
+        {
+          "section": "Overview",
+          "claim": "Innovation is described as a key strength that enables the firm to meet customer needs.",
+          "document": "10-K",
+          "line": 302,
+          "quote": "We have a strong history of innovation, which is a key strength enabling us to meet our customers’"
+        },
+        {
+          "section": "Overview",
+          "claim": "The installed base supplies roughly a quarter of global electricity generation.",
+          "document": "10-K",
+          "line": 305,
+          "quote": "Our installed base generates approximately 25% of the world’s electricity."
+        },
+        {
+          "section": "Overview",
+          "claim": "GE Vernova positions itself as an industry leader driving the energy transition and expects demand for its offerings to grow significantly.",
+          "document": "10-K",
+          "line": 313,
+          "quote": "GE Vernova is positioned as an industry leader to fulfill the growing demand for electrical power, while driving the energy transition forward."
+        },
+        {
+          "section": "Overview",
+          "claim": "The firm’s focus is on providing reliable, affordable and sustainable electricity.",
+          "document": "10-K",
+          "line": 314,
+          "quote": "Our focus is on supplying our customers with products and services necessary to deliver reliable, affordable, and sustainable electricity."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management says its broad portfolio of advanced technologies differentiates it from competitors.",
+          "document": "10-K",
+          "line": 355,
+          "quote": "We believe GE Vernova's businesses' ability to supply the electric power industry with a broad array of advanced technologies for an intelligent, sustainable power system that help customers accelerate the energy transition is a key differentiator among various competitors."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The company competes on product performance, quality, branding, service and price across geographies.",
+          "document": "10-K",
+          "line": 362,
+          "quote": "We compete based on product performance, quality, branding, service, and/or price across the industries and geographies served."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Key competitors in the Power segment include Siemens Energy, Mitsubishi Power, Westinghouse, Framatome and Rolls‑Royce.",
+          "document": "10-K",
+          "line": 364,
+          "quote": "Key Power segment competitors include Siemens Energy, Mitsubishi Power, Westinghouse, Framatome, and Rolls-Royce."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Key competitors in the Wind segment include Vestas, Siemens‑Gamesa, Nordex, Envision and Goldwind.",
+          "document": "10-K",
+          "line": 365,
+          "quote": "Key Wind segment competitors include Vestas, Siemens-Gamesa, Nordex, Envision, and Goldwind."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Key competitors in the Electrification segment include Hitachi Energy, Siemens Energy, Siemens, Schneider Electric, Mitsubishi Electric.",
+          "document": "10-K",
+          "line": 366,
+          "quote": "Key Electrification segment competitors include Hitachi Energy, Siemens Energy, Siemens, Schneider Electric, Mitsubishi Electric, and"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management expects significant growth in demand for its power‑related offerings.",
+          "document": "10-K",
+          "line": 315,
+          "quote": "We expect significant growth in demand for the offerings we provide to the electric power industry."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Robust demand for large‑scale transmission equipment to interconnect renewables is noted.",
+          "document": "10-K",
+          "line": 445,
+          "quote": "We continue to experience robust demand for our systems, equipment, and services. Demand remains strong for large scale transmission‑related equipment to interconnect renewables and move bulk power."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Third‑quarter orders rose ninety‑six percent organically, driven by Power equipment and services strength.",
+          "document": "EX-99.1",
+          "line": 12,
+          "quote": "Orders of $29B, +96% organically led by equipment at Power and continued services strength"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Backlog expanded by twenty‑billion dollars sequentially, reaching one‑hundred ninety‑seven‑billion dollars.",
+          "document": "EX-99.1",
+          "line": 13,
+          "quote": "Backlog1 growth of $20B sequentially from equipment and services, reaching $197B in total"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Gas Power equipment backlog and slot reservations grew to at least one‑hundred thirty gigawatts by year‑end.",
+          "document": "EX-99.1",
+          "line": 15,
+          "quote": "Gas Power equipment backlog and slot reservation agreements grew from 116 to 122 GW; now anticipate reaching at least 130 GW by year-end 2026"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Revenue increased twenty‑seven percent, with organic growth of eighteen percent, led by Power and Electrification.",
+          "document": "EX-99.1",
+          "line": 16,
+          "quote": "Revenue of $12.6B, +27%, +18% organically* led by Power and Electrification"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management announced an uplift to the 2026 financial guidance.",
+          "document": "EX-99.1",
+          "line": 26,
+          "quote": "We are raising our 2026 financial guidance"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The firm committed to invest six‑billion dollars in capital expenditures through 2028, with $0.6 billion already deployed.",
+          "document": "EX-99.1",
+          "line": 66,
+          "quote": "Invested $0.6 billion in capital expenditures, including to increase production in Power and Electrification, as part of its commitment to invest $6 billion in capex from 2025 through 2028"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Research and development spending of $0.4 billion was made, supporting a five‑billion‑dollar R&D program through 2028.",
+          "document": "EX-99.1",
+          "line": 68,
+          "quote": "Funded $0.4 billion in research and development (R&D) spending, to advance breakthrough energy transition technologies, as part of its commitment to invest $5 billion in R&D from 2025 through 2028"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "A binding agreement to acquire Trench Group for nine‑billion dollars was signed, with expected close in late 2027.",
+          "document": "EX-99.1",
+          "line": 71,
+          "quote": "GE Vernova announced it has signed an agreement to acquire Trench Group, a global leader in high‑voltage grid equipment, for $9.0 billion USD equivalent"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The transaction is subject to customary regulatory approvals and expected to close in late 2027.",
+          "document": "EX-99.1",
+          "line": 73,
+          "quote": "the deal will create scale across GE Vernova’s Electrification product lines, expanding its capabilities to better serve customers, with close expected in late 2027, subject to customary regulatory approvals"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Board authorization for share repurchases was raised to twenty‑billion dollars, with ten‑point‑one billion remaining.",
+          "document": "EX-99.1",
+          "line": 21,
+          "quote": "Board of Directors increased the share repurchase authorization to $20 billion, from the prior authorization of $10 billion, with $10.1 billion remaining"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "A retirement‑benefit obligations transfer to an insurer was executed, costing roughly $350 million in the quarter.",
+          "document": "EX-99.1",
+          "line": 64,
+          "quote": "Entered into agreements to transfer a portion of its retiree benefit obligations to an insurer, which will assume full legal and administrative responsibility, resulting in approximately $350 million paid in the quarter"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Risk disclosures cite quality issues, supply‑chain disruptions, intense competition and grid‑connectivity challenges as material uncertainties.",
+          "document": "10-K",
+          "line": 257,
+          "quote": "Quality issues or safety failures among our products, solutions, or services;"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Supply‑chain risk is highlighted, including potential logistics disruptions affecting production and delivery.",
+          "document": "10-K",
+          "line": 720,
+          "quote": "significant supply chain and logistics challenges, and manufacturing disruptions that affect revenues, profitability, cash flow, and on‑time fulfillment"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management warns that failure to achieve anticipated cost savings could hinder long‑term financial goals.",
+          "document": "10-K",
+          "line": 760,
+          "quote": "We may fail to achieve anticipated cost savings. Achieving our long‑term financial and cash flow goals depends on our ability to"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Judgment: Continue emphasizing workhorse product development and grid‑solution expansion to leverage the documented demand for transmission equipment and the backlog growth.",
+          "document": "10-K",
+          "line": 416,
+          "quote": "Our workhorse products account for approximately 75% of our equipment RPO at December 31, 2025"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Judgment: Monitor integration risk of the Trench Group acquisition, as forward‑looking statements note possible delays, regulatory hurdles and retention challenges.",
+          "document": "EX-99.1",
+          "line": 1015,
+          "quote": "performance and continued expansion of the Trench Group business; demand for GE Vernova's and Trench Group's products and services, the loss of, or reduced orders from, key customers; retention of key suppliers and employees; changes in tariffs, changes in currency exchange rates; difficulties in integrating Trench Group or realizing the"
+        }
+      ],
+      "gaps": [
+        "No explicit quantitative data on future margin expansion beyond management guidance were found in the 10‑K.",
+        "The 10‑K does not provide a detailed timeline for the retiree‑benefit transfer beyond the quarter‑level cost; longer‑term impact is unquantified."
+      ],
+      "insight": ""
+    },
+    "financial": {
+      "observations": [
+        "The SEC filing provides audited annual totals for revenue, operating income, net income, diluted EPS and shareholders’ equity for the most recent fiscal year, defined as the twelve‑month period ending on December 31 of the reported year. The same concepts are presented for the prior fiscal year, but the prior‑year figures cannot be directly compared in the cross‑check because the source does not supply a uniquely identifiable filing for that period.",
+        "Cash‑flow information is limited to net cash provided by operating activities for the most recent fiscal year; there is no disclosed detail on investing or financing cash flows, nor on capital expenditures, which constrains any free‑cash‑flow analysis.",
+        "The filing does not contain a disclosed long‑term debt balance; the corresponding SEC concepts are missing, preventing calculation of leverage ratios such as debt‑to‑equity.",
+        "No market price, price date, or price source is supplied in the provided data set, and therefore a price‑earnings multiple cannot be computed or discussed. The valuation section remains undefined until such market data become available.",
+        "Peer information is absent; the peer facts structure is empty, so any relative performance or multiple comparison to competitors cannot be performed.",
+        "The quarterly press release supplies third‑quarter 2026 operating highlights, including order growth, backlog expansion, revenue growth and margin expansion, but the release does not provide a share price or earnings‑per‑share figure that could be tied to a valuation multiple.",
+        "The release’s first paragraph merely states that the company reported its third‑quarter results; the additional insight drawn from the filing must go beyond this opening statement.",
+        "Several non‑GAAP measures are presented in the press release, but their definitions differ from the GAAP figures in the 10‑K, and the filing notes that reconciliations for those non‑GAAP metrics are unavailable, limiting comparability."
+      ],
+      "gaps": [
+        "Missing price data prevents any valuation multiple discussion.",
+        "Absent peer data precludes benchmarking against industry competitors.",
+        "Long‑term debt facts are not reported, limiting leverage assessment.",
+        "The filing does not include detailed segment cash‑flow or capital‑expenditure figures needed for free‑cash‑flow analysis."
+      ],
+      "insight": "Insight: GE Vernova raised its 2026 revenue guidance — EX-99.1 line 82: \"GE Vernova is raising its 2026 financial guidance and now expects revenue of $46.5-$47.5 billion, up from $45.5-$46.5 billion.\""
+    },
+    "advisor": {
+      "recommendation": "Buy",
+      "thesis": "The firm presents a compelling case as a leader in the energy transition, leveraging a broad portfolio of advanced technologies and a strong history of innovation. Robust demand for large‑scale transmission equipment, combined with a sizable increase in order flow and a growing backlog, underpins a favorable growth outlook. High returns on equity signal that the business generates strong profitability relative to its capital base, reinforcing the investment case. Nonetheless, execution risks tied to product quality, supply chain stability, and the integration of a major acquisition temper the optimism and warrant close monitoring.",
+      "deciding_metric": "return_on_average_equity_percent",
+      "risks": [
+        "Potential quality or safety failures that could trigger costly remediation and reputational harm.",
+        "Supply‑chain disruptions that may delay production or increase costs.",
+        "Integration risk associated with the upcoming acquisition of a high‑voltage grid equipment provider.",
+        "Uncertainty around achieving forecasted cost savings and margin improvement."
+      ],
+      "insight": "Insight: Backlog expanded by twenty‑billion dollars sequentially, reaching one‑hundred ninety‑seven‑billion dollars — EX-99.1 line 13: \"Backlog1 growth of $20B sequentially from equipment and services, reaching $197B in total\""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 23,
+      "text": "electrify to thrive and decarbonize, today reported financial results for the third quarter ending September 30, 2026.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "GEV",
+        "name": "GE Vernova Inc.",
+        "cik": 1996810,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-17",
+      "retrieved_at": "2026-11-17T16:11:43.408452-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001996810.json",
+      "fiscal_year_end": "2025-12-31",
+      "prior_fiscal_year_end": "2024-12-31",
+      "preferred_10k_accession": "0001996810-26-000015",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "current": {
+            "val": 38068000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 34935000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 1388000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 471000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 4884000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1552000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 17.69,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 5.58,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 11178000000,
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 9546000000,
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "long_term_debt_current": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 4987000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2583000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "8.968083583798482896808358380",
+      "operating_margin_percent": "3.646106966481033939266575602",
+      "return_on_average_equity_percent": "47.13375796178343949044585987",
+      "debt_to_equity": null,
+      "free_cash_flow_usd": null,
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": null
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-17T16:11:44.451645-05:00",
+      "analysis_date": "2026-11-17",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 38068000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "GEV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-01-29",
+            "accession_number": "0001996810-26-000015",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/0001996810-26-000015-index.htm",
+            "value": "38068000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 34935000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1388000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "GEV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-01-29",
+            "accession_number": "0001996810-26-000015",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/0001996810-26-000015-index.htm",
+            "value": "1388000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 471000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 4884000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "GEV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-01-29",
+            "accession_number": "0001996810-26-000015",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/0001996810-26-000015-index.htm",
+            "value": "4884000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1552000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 17.69,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "GEV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-01-29",
+            "accession_number": "0001996810-26-000015",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/0001996810-26-000015-index.htm",
+            "value": "17.69"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 5.58,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 11178000000,
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "GEV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-01-29",
+            "accession_number": "0001996810-26-000015",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/0001996810-26-000015-index.htm",
+            "value": "11178000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 9546000000,
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 4987000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "GEV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-01-29",
+            "accession_number": "0001996810-26-000015",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/0001996810-26-000015-index.htm",
+            "value": "4987000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2583000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001996810-26-000015",
+            "filed": "2026-01-29",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 4 has an invalid or non-verbatim document line and quote.",
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 6 has an invalid or non-verbatim document line and quote.",
+        "Claim 7 has an invalid or non-verbatim document line and quote.",
+        "Claim 12 has an invalid or non-verbatim document line and quote.",
+        "Claim 15 has an invalid or non-verbatim document line and quote.",
+        "Claim 17 has an invalid or non-verbatim document line and quote.",
+        "Claim 18 has an invalid or non-verbatim document line and quote.",
+        "Claim 19 has an invalid or non-verbatim document line and quote.",
+        "Claim 20 has an invalid or non-verbatim document line and quote.",
+        "Claim 21 has an invalid or non-verbatim document line and quote.",
+        "Claim 22 has an invalid or non-verbatim document line and quote.",
+        "Claim 23 has an invalid or non-verbatim document line and quote.",
+        "Claim 25 has an invalid or non-verbatim document line and quote.",
+        "Claim 26 has an invalid or non-verbatim document line and quote.",
+        "Claim 27 has an invalid or non-verbatim document line and quote.",
+        "Claim 28 has an invalid or non-verbatim document line and quote.",
+        "No Insight line was supplied."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line.",
+        "Financial observations contain digits."
+      ],
+      "advisor_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

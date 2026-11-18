@@ -1,0 +1,82 @@
+Filings read: Form 10 accession not read; live release accession 000104581026000088
+
+# Worksheet: NVDA | analysis date 2026-11-17
+
+## Spinoff facts
+- Parent: not applicable
+- Distribution ratio: not applicable
+- Record date: not applicable
+- Distribution date: not applicable
+- Dated market price: not computed (reader price not available).
+- Reader interpretation: see reader metadata; user-asserted fields do not have an independent exchange comparison.
+
+## Judgment
+The current filing lacks the financial inputs needed to evaluate the spinoff’s valuation, so we cannot conclude that it is cheap or priced appropriately.
+Evidence in the next filing that would change the view: If the next filing provides after‑tax earnings, depreciation, capital spending, diluted share count, or a computed low‑case per‑share value, we could perform the required comparison and reassess the valuation.
+
+## Owner cash flow and value range
+Owner cash flow is after-tax earnings plus depreciation minus capital spending. Source amounts use the filing units and the calculation converts them to whole USD.
+- After-tax earnings: not known (not established by the automatic reader).
+- Depreciation: not known (not established by the automatic reader).
+- Capital spending: not known (not established by the automatic reader).
+- Diluted shares: not known (not established by the automatic reader).
+- Owner cash flow: not computed.
+- Low case discount rate: 0.1 [rule id=low_discount_rate]
+- Low case growth rate: 0.0 [rule id=low_growth_rate]
+- Mid case discount rate: 0.09 [rule id=mid_discount_rate]
+- Mid case growth rate: 0.02 [rule id=mid_growth_rate]
+- Low case equity value: not computed.
+- Low case value per share: not computed.
+- Mid case equity value: not computed.
+- Mid case value per share: not computed.
+- Price against low case: not computed.
+
+## Debt and parent
+- Debt raised: not known.
+- Cash use: not known.
+- Parent liabilities: not applicable.
+- Parent restrictions: not applicable.
+- Debt covenants: not known (automatic reader coverage is limited).
+- Parent after the spin: not applicable.
+
+## Insider purchases
+- Insider purchases: not known (no code P purchase established in the saved filing coverage).
+- Filing-list coverage: not known to not known.
+
+## Liquidity
+- Client purchase: 1000000 USD [rule id=purchase_size_usd]
+- Median daily dollar volume: not known (insufficient reader data).
+
+## Live release view
+- Company: NVDA | release accession 000104581026000088 | acceptance 2026-11-17T21:20:51+00:00.
+- Release revenue: not known (not established by the automatic reader).
+- Live dated market price: not computed (reader price not available).
+- Live After-tax earnings: not known (not established by the automatic reader).
+- Live Depreciation: not known (not established by the automatic reader).
+- Live Capital spending: not known (not established by the automatic reader).
+- Live Diluted shares: not known (not established by the automatic reader).
+- Live Owner cash flow: not computed.
+- Live Low case equity value: not computed.
+- Live Low case value per share: not computed.
+- Live Mid case equity value: not computed.
+- Live Mid case value per share: not computed.
+- Live margin of safety: not computed.
+- View: not computed.
+- Conviction: not computed | market price is not available from the closes reader.
+
+## Not known
+- after_tax_earnings is not known; depreciation is not known; capital_spending is not known
+- diluted_shares is not known
+- market price is not available from the closes reader
+- debt covenants
+- Target liquidity lookback required: 20 trading days [rule id=lookback_days]
+- Live liquidity lookback required: 20 trading days [rule id=lookback_days]
+- Automatic filing extraction may miss debt, restrictions, parent facts, insider purchases, or release facts.
+
+<!-- lab07-worksheet-source
+run="C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\NVDA_2026-11-17_17-58-48_452442_-0500\\team"
+live_run="C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\NVDA_2026-11-17_17-58-48_452442_-0500\\team"
+rules="C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\docs\\lab07_worksheet_rules.md"
+reader=
+live_reader=
+-->

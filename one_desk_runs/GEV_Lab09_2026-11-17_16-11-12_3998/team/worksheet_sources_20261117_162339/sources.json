@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "ticker": "GEV",
+  "company_name": "GE Vernova Inc.",
+  "cik": "0001996810",
+  "as_of": "2026-11-17",
+  "prepared_at": "2026-11-17T21:23:40.220835+00:00",
+  "saved_run": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\GEV_Lab09_2026-11-17_16-11-12_3998\\team",
+  "facts_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\GEV_Lab09_2026-11-17_16-11-12_3998\\team\\facts.json",
+  "filings_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\GEV_Lab09_2026-11-17_16-11-12_3998\\team\\filings.json",
+  "registry_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\spinoff_runs\\registry-2026-11-13_22-39-11_137090_-0500_ddc00b3d.json",
+  "registry_present": true,
+  "registry_facts": {
+    "parent": [],
+    "parent_cik": [],
+    "distribution_ratio": [],
+    "record_date": [],
+    "distribution_date": []
+  },
+  "parent_cik": null,
+  "distribution_date": null,
+  "registration_accession": null,
+  "distribution_filing_documents": [],
+  "live_release": {
+    "run": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\TSN_2026-11-16_20-24-01_032591_-0500\\team",
+    "ticker": "TSN",
+    "cik": "0000100493",
+    "form": "8-K",
+    "filing_date": "2026-11-16",
+    "accession": "000010049326000077",
+    "filing_time": {
+      "value": "2026-11-16T12:41:53+00:00",
+      "source": "SEC submissions acceptanceDateTime"
+    },
+    "documents": [
+      {
+        "form": "live_release_8-K",
+        "accession": "000010049326000077",
+        "name": "TSN_8-K_0000100493-26-000077.txt",
+        "url": "saved agent-team filing",
+        "path": "worksheet_sources_20261117_162339\\saved_000010049326000077_TSN_8-K_0000100493-26-000077.txt",
+        "kind": "reused saved filing"
+      }
+    ]
+  },
+  "live_run_source_files": [
+    "worksheet_sources_20261117_162339\\live_facts.json",
+    "worksheet_sources_20261117_162339\\live_filings.json",
+    "worksheet_sources_20261117_162339\\live_calculations.json",
+    "worksheet_sources_20261117_162339\\live_TSN_10-K_0000100493-26-000079.txt",
+    "worksheet_sources_20261117_162339\\live_TSN_10-Q_0000100493-26-000058.txt",
+    "worksheet_sources_20261117_162339\\live_TSN_8-K_0000100493-26-000077.txt",
+    "worksheet_sources_20261117_162339\\live_TSN_EX-99.1_0000100493-26-000077.txt"
+  ],
+  "run_filing_texts": [
+    "GEV_10-K_0001996810-26-000015.txt",
+    "GEV_10-K_0001996810-26-000015.txt",
+    "GEV_10-Q_0001996810-26-000163.txt",
+    "GEV_10-Q_0001996810-26-000163.txt"
+  ],
+  "first_company_filings_after_spin": [],
+  "parent_filings_after_spin": [],
+  "saved_source_documents": [
+    {
+      "form": "live_release_8-K",
+      "accession": "000010049326000077",
+      "name": "TSN_8-K_0000100493-26-000077.txt",
+      "url": "saved agent-team filing",
+      "path": "worksheet_sources_20261117_162339\\saved_000010049326000077_TSN_8-K_0000100493-26-000077.txt",
+      "kind": "reused saved filing"
+    }
+  ],
+  "form4_purchase_transactions": 0,
+  "form4_purchase_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\GEV_Lab09_2026-11-17_16-11-12_3998\\team\\worksheet_sources_20261117_162339\\form4_purchases.json",
+  "form4_coverage": {
+    "filing_count_checked": 0,
+    "first_filing_date": null,
+    "last_filing_date": null,
+    "scope": "Form 4 filings in the saved run filing list, through the saved run analysis date"
+  },
+  "errors": [
+    {
+      "stage": "Form 10",
+      "error": "No Form 10 accession was established in the registry or saved filing list"
+    }
+  ],
+  "limitations": [
+    "This command collects and saves sources only; it does not extract worksheet facts, calculate values, call a model, or create a report.",
+    "A missing or conflicting fact stays not known. Registry presence is distinct from an absent CIK entry.",
+    "The saved agent run may not include every filing. The worksheet must state the saved filing-list coverage."
+  ]
+}

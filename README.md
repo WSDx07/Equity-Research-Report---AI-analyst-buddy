@@ -2,6 +2,16 @@
 
 A Python prototype that gathers SEC filing data, calculates financial facts, and runs an equity research workflow. Research, financial, advisory, and manager roles contribute to a report that is then checked by a verifier. A local browser interface and a command-line interface are available.
 
+## Team ownership and join
+
+**We own:** the spinoff factor check. **Our join:** `one_desk.py` runs the seeker for `screen` input, then pick, the agent team, worksheet, and hook; ticker input goes through pick, team, worksheet, and hook using the latest saved seeker registry when available. The worksheet is a pipeline step after the team report, not a tool called by an analyst role.
+
+## Lab 09 - Prove It Together status (November 17, 2026)
+
+The Checkpoint 3 draft is `docs/checkpoint3_draft.md`. Its member roles are proposed assignments for review, and `Team 3` is a working label; confirm the Brightspace team name and member responsibilities before submission. The AI-partner NVDA and HD run folders are under `one_desk_runs/`; both have reports and offline replay proofs, and the NVDA run has the completed three-column comparison. A second automated Manager semantic review was not rerun for either partner report; the saved source review is manual.
+
+The current TSN/GEV record is `runs/live/Week 11-16to11-22/Shlok_TSN_GEV/report.md`. TSN's view is computed, but it was recorded 32.94 hours after filing and after the first post-filing close, so it is outside the 24-hour window. The GEV worksheet now cites its original Form 10 and Information Statement for the 1:4 distribution ratio; it is not a response to GEV's latest earnings release. The Lab 09 files remain local and uncommitted; no Brightspace upload is recorded here.
+
 ## Setup
 
 You need Python 3.12, network access, a Purdue GenAI Studio API key, and an SEC user agent that identifies you and includes contact information. Model and data requests may incur charges.
@@ -156,7 +166,7 @@ The Vylor team run and a dated worksheet now exist. The latest is [the Vylor wor
 
 LSEG bars were obtained with `TR.CLOSEPRICE(Adjusted=0)` under the user's stated interpretation of that field. The report discloses that an independent exchange-price comparison was not completed. The local files in `%TEMP%` are licensed reader data and are not included in the repository. Vylor volume is from the selected NYSE instrument, not necessarily consolidated market volume.
 
-For the live hit-rate table, run `.\.venv\Scripts\python.exe .\.agents\skills\us-spinoff-worksheet\scripts\hit_rate_table.py --runs ".\runs\live"`. For practice, replace the folder with `.\runs\practice`. The command rereads available reader files but does not refresh them; keep one view record per run folder. The saved Take-Two release is a practice record marked `after`, with a view of `not computed`. No qualifying live report has been filed yet.
+For the live hit-rate table, run `.\.venv\Scripts\python.exe .\.agents\skills\us-spinoff-worksheet\scripts\hit_rate_table.py --runs ".\runs\live"`. For practice, replace the folder with `.\runs\practice`. The command rereads available reader files but does not refresh them; keep one view record per run folder. The saved Take-Two release is a practice record marked `after`, with a view of `not computed`. The Week 11-16to11-22 folder now contains a TSN view, but it was recorded 32.94 hours after filing and after the first post-filing close, so it is not a qualifying 24-hour event-window observation.
 
 Run the focused closes-reader tests from the repository root:
 

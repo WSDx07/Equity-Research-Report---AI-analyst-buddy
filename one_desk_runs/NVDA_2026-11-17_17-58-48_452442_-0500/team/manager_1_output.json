@@ -1,0 +1,37 @@
+{
+  "research_issues": [
+    "Claim 3 has an invalid or non‑verbatim document line and quote.",
+    "Claim 4 has an invalid or non‑verbatim document line and quote.",
+    "Claim 5 has an invalid or non‑verbatim document line and quote.",
+    "Claim 7 includes a number that is not present in its quoted line.",
+    "Claim 8 has an invalid or non‑verbatim document line and quote.",
+    "Claim 11 has an invalid or non‑verbatim document line and quote.",
+    "Claim 14 has an invalid or non‑verbatim document line and quote.",
+    "Insight needs a filing, line number, and exact quote from that line."
+  ],
+  "financial_issues": [
+    "Insight needs a filing, line number, and exact quote from that line."
+  ],
+  "advisor_issues": [
+    "Insight needs a filing, line number, and exact quote from that line."
+  ],
+  "overall_issues": [
+    "All five required sections (Overview, Market Positioning and Growth Outlook, Valuation Insights, Future Developments and Strategic Recommendations, Investment Recommendation) are absent or incomplete – no narrative content was supplied for any section.",
+    "Research insight is not properly sourced (missing filing, line number, exact quote).",
+    "Financial insight is not properly sourced (missing filing, line number, exact quote).",
+    "Advisor insight is not properly sourced (missing filing, line number, exact quote).",
+    "Multiple claim verifications fail due to non‑verbatim quotations or missing line references."
+  ],
+  "research_insight": {
+    "status": "fail",
+    "reason": "Insight lacks required citation (filing, line number, exact quote) and therefore cannot be validated."
+  },
+  "financial_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

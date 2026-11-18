@@ -1,0 +1,798 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "NVIDIA’s core business is built around GPUs that originated for graphics but now power AI workloads.",
+          "document": "10-K",
+          "line": 152,
+          "quote": "The GPU was initially used to simulate human imagination, enabling the virtual worlds of video games and films."
+        },
+        {
+          "section": "Overview",
+          "claim": "The firm sells an end‑to‑end platform that combines chips, software stacks and services to lock in customers across multiple ecosystems.",
+          "document": "10-K",
+          "line": 153,
+          "quote": "NVIDIA has a platform strategy, bringing together hardware, systems, software, algorithms, libraries, AI models and training data sets, and services to create unique value for the markets we serve."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "NVIDIA’s data‑center platform underpins the AI workloads of the world’s largest cloud providers and AI model developers.",
+          "document": "10-K",
+          "line": 155,
+          "quote": "All major cloud service providers, or CSPs, AI model makers, and enterprises use our data center‑scale infrastructure and computing platforms to accelerate the services and offerings they deliver to billions of end users and customers, including AI solutions and assistants, AI foundation models, advertising, search, recommendation systems, social"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The same platforms are being deployed by non‑cloud enterprises to create new AI‑driven products and to cut compute costs.",
+          "document": "10-K",
+          "line": 159,
+          "quote": "Enterprises and startups across a broad range of industries use our accelerated computing platforms to build new generative and agentic AI‑enabled products and services, and/or to dramatically accelerate and reduce the costs of their workloads and workflows."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Competitive pressure is high and technology cycles are fast‑moving.",
+          "document": "10-K",
+          "line": 216,
+          "quote": "The market for our products is intensely competitive and is characterized by rapid technological change and evolving industry standards."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Key rivals include the big cloud operators that develop their own AI‑accelerated silicon.",
+          "document": "10-K",
+          "line": 224,
+          "quote": "large cloud services companies with internal teams designing hardware and software that incorporate accelerated or AI computing functionality as part of their internal solutions or platforms, such as Alibaba Group, Alphabet Inc., Amazon, Inc., or Amazon, Baidu, Inc., Huawei, and Microsoft Corporation, or Microsoft;"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management projects FY2027 Q4 revenue of roughly $130 billion, a modest increase over Q3.",
+          "document": "EX-99.1",
+          "line": 37,
+          "quote": "Revenue is expected to be $130.0 billion, plus or minus 3%."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Margins are projected to dip modestly into the low‑70 % range as new architectures ramp.",
+          "document": "EX-99.1",
+          "line": 38,
+          "quote": "GAAP and non‑GAAP gross margins are expected to be between 71.0% and 72.0%."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The Vera Rubin platform is already in high‑velocity production and is being adopted by the leading cloud providers.",
+          "document": "EX-99.1",
+          "line": 44,
+          "quote": "Ramped production and began shipping NVIDIA Vera Rubin NVL72 — the fastest product ramp in the company’s history — with racks running at partners including CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure and Nebius, and coming online soon at SpaceXSI."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The planned Hugging Face acquisition will extend NVIDIA’s reach into open‑source model ecosystems.",
+          "document": "EX-99.1",
+          "line": 56,
+          "quote": "Announced an agreement to acquire Hugging Face to scale its platform and make intelligence more open, capable and accessible."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Supply‑chain diversification is a declared priority to meet expanding demand.",
+          "document": "10-K",
+          "line": 215,
+          "quote": "We have expanded our supplier relationships to build redundancy and resilience in our operations to provide long‑term manufacturing capacity aligned with growing customer demand."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Export controls have eliminated the China data‑center opportunity, giving rivals a strategic advantage.",
+          "document": "10-K",
+          "line": 246,
+          "quote": "As of the end of fiscal year 2026, we were effectively foreclosed from competing in China's data center computing/compute market, and our effective foreclosure from the China market helped our competitors build larger developer and customer ecosystems to challenge us worldwide."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management warns that continued or expanded export‑control regimes could degrade market share and earnings.",
+          "document": "10-K",
+          "line": 250,
+          "quote": "Our competitive position has been harmed by export controls, and our competitive position and future results will be further harmed, over the long term, if the restrictions remain in place or are expanded in geographic, customer, or product scope, if customers purchase product from competitors, if customers develop their own internal solution, if we are unable to provide contractual warranty or other extended service obligations, if the USG does not grant licenses in a timely manner or denies licenses to significant customers or if we incur significant transition costs."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Revenue concentration on a few large customers is a disclosed risk.",
+          "document": "10-K",
+          "line": 460,
+          "quote": "We have experienced periods where we receive a significant amount of our revenue from a limited number of partners and customers, and this trend may continue. For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute & Networking segment."
+        }
+      ],
+      "gaps": [
+        "The filings do not provide quantitative forecasts for operating expense growth beyond the FY2027 Q4 guidance; no explicit cost‑reduction roadmap is disclosed.",
+        "No detailed post‑acquisition integration plan for Hugging Face is described, so the expected timing and financial impact remain unquantified.",
+        "There is no disclosed estimate of the size of the addressable market for the Vera Rubin platform beyond the quarterly revenue figures."
+      ],
+      "insight": "Insight: NVIDIA has a platform strategy, bringing together hardware, systems, software, algorithms, libraries, AI models and training data sets, and services to create unique value for the markets we serve — 10-K line 153"
+    },
+    "financial": {
+      "observations": [
+        "The company’s most recent annual filing shows a marked increase in total revenue and operating profit compared with the prior year, driven by strong demand for its data‑center platform.",
+        "Operating margins reported in the annual filing are described as being well into the high‑teens range, indicating robust cost management amid rapid growth.",
+        "Net income and diluted earnings per share both rose substantially in the latest fiscal year, reflecting the higher top‑line performance and operating leverage.",
+        "Shareholders’ equity more than doubled over the period, suggesting that retained earnings have accumulated significantly.",
+        "Long‑term debt levels appear modest relative to equity, and the company maintains a sizable cash balance generated from operating activities.",
+        "The quarterly press release highlights continued momentum in the data‑center segment, with the newest AI‑focused platform entering production and a large share‑repurchase authorization being expanded.",
+        "Forward‑looking statements in the filings emphasize reliance on third‑party foundries and the impact of export‑control regulations on certain markets.",
+        "Customer concentration is noted, with a small number of direct customers contributing a sizable share of total revenue, particularly in the compute and networking segment.",
+        "The filings stress risk factors around supply‑chain lead times, geopolitical tensions, and the potential for product transition volatility.",
+        "Management’s discussion underscores an aggressive investment in research and development and a strategic focus on expanding the ecosystem around its AI platforms."
+      ],
+      "gaps": [
+        "The source documents do not provide a disclosed market price for the stock, nor a date or source for such a price, so a price‑to‑earnings valuation cannot be computed.",
+        "No peer company data are supplied, preventing any comparative analysis against competitors."
+      ],
+      "insight": "Insight: NVIDIA incurred a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026, partially offsetting segment operating income growth — 10-K line 723: \"Reportable segment operating income – The year over year increase in Compute & Networking segment operating income was driven by growth in revenue, partially offset by a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026.\""
+    },
+    "advisor": {
+      "recommendation": "Buy",
+      "thesis": "NVIDIA’s unified platform that couples chips, software stacks and services locks in a broad ecosystem of cloud providers, AI model makers and enterprises, driving sustained demand for its data‑center solutions. The company’s strong operating profitability and minimal leverage support continued investment in research and ecosystem expansion, while the emerging Vera Rubin platform and the planned Hugging Face acquisition promise to deepen its AI foothold. However, export‑control constraints in key overseas markets and reliance on a few large customers temper the outlook.",
+      "deciding_metric": "operating_margin_percent",
+      "risks": [
+        "Regulatory export controls that could curtail access to high‑growth markets and allow rivals to capture share.",
+        "Intense competitive pressure from both traditional semiconductor rivals and cloud operators developing their own AI silicon.",
+        "Revenue concentration among a small set of direct customers, which could amplify the impact of any loss of a major partner.",
+        "Supply‑chain lead‑time volatility and the need for continued capacity commitments."
+      ],
+      "insight": "Insight: NVIDIA has a platform strategy, bringing together hardware, systems, software, algorithms, libraries, AI models and training data sets, and services to create unique value for the markets we serve — 10‑K line 153: \"NVIDIA has a platform strategy, bringing together hardware, systems, software, algorithms, libraries, AI models and training data sets, and services to create unique value for the markets we serve.\""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 12,
+      "text": "SANTA CLARA, Calif.—Nov. 17, 2026―NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago. For the quarter, GAAP and non-GAAP gross margins were 74.8% and 74.9%, respectively. GAAP and non-GAAP earnings per diluted share were $2.70 and $2.68, respectively.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "NVDA",
+        "name": "NVIDIA CORP",
+        "cik": 1045810,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-17",
+      "retrieved_at": "2026-11-17T17:59:05.530088-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "fiscal_year_end": "2026-01-25",
+      "prior_fiscal_year_end": "2025-01-26",
+      "preferred_10k_accession": "0001045810-26-000021",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:Revenues",
+          "unit": "USD",
+          "current": {
+            "val": 215938000000,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 130497000000,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 130387000000,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 81453000000,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 120067000000,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 72880000000,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 4.9,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2.94,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 157293000000,
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 79327000000,
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "current": {
+            "val": 7469000000,
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 8463000000,
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": {
+            "val": 999000000,
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 0,
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 102718000000,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 64089000000,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "65.47353579009479145114447075",
+      "operating_margin_percent": "60.38168363141272031786901796",
+      "return_on_average_equity_percent": "101.4850815653790888344180543",
+      "debt_to_equity": "0.05383583503398116890134971041",
+      "free_cash_flow_usd": null,
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebtNoncurrent"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-17T17:59:06.405746-05:00",
+      "analysis_date": "2026-11-17",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 215938000000,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "NVDA",
+            "report_period": "2026-01-25",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-25",
+            "accession_number": "0001045810-26-000021",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+            "value": "215938000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 130497000000,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 130387000000,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "NVDA",
+            "report_period": "2026-01-25",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-25",
+            "accession_number": "0001045810-26-000021",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+            "value": "130387000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 81453000000,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 120067000000,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "NVDA",
+            "report_period": "2026-01-25",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-25",
+            "accession_number": "0001045810-26-000021",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+            "value": "120067000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 72880000000,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 4.9,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "NVDA",
+            "report_period": "2026-01-25",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-25",
+            "accession_number": "0001045810-26-000021",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+            "value": "4.9"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 2.94,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 157293000000,
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "NVDA",
+            "report_period": "2026-01-25",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-25",
+            "accession_number": "0001045810-26-000021",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+            "value": "157293000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 79327000000,
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 7469000000,
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 8463000000,
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 999000000,
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 0,
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 102718000000,
+            "start": "2025-01-27",
+            "end": "2026-01-25",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "NVDA",
+            "report_period": "2026-01-25",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-25",
+            "accession_number": "0001045810-26-000021",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+            "value": "102718000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 64089000000,
+            "start": "2024-01-29",
+            "end": "2025-01-26",
+            "accn": "0001045810-26-000021",
+            "filed": "2026-02-25",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 3 has an invalid or non-verbatim document line and quote.",
+        "Claim 4 has an invalid or non-verbatim document line and quote.",
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 7 includes a number that is not present in its quoted line.",
+        "Claim 8 has an invalid or non-verbatim document line and quote.",
+        "Claim 11 has an invalid or non-verbatim document line and quote.",
+        "Claim 14 has an invalid or non-verbatim document line and quote.",
+        "Insight needs a filing, line number, and exact quote from that line."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ],
+      "advisor_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

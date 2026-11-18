@@ -1,0 +1,775 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "The Home Depot describes itself as the world’s largest home improvement retailer offering a wide assortment of products and services both in stores and online.",
+          "document": "10-K",
+          "line": 187,
+          "quote": "The Home Depot, Inc. is the world’s largest home improvement retailer based on net sales for fiscal 2025. We offer our customers a wide assortment of home improvement products, building materials, lawn and garden products, décor products, and facilities MRO products, in stores and online."
+        },
+        {
+          "section": "Overview",
+          "claim": "As of fiscal 2025 the company operated 2,359 stores in the United States, Canada and Mexico.",
+          "document": "10-K",
+          "line": 187,
+          "quote": "As of the end of fiscal 2025, we operated 2,359 stores located throughout the U.S. (including the Commonwealth of Puerto Rico and the territories of the U.S. Virgin Islands and Guam), Canada, and Mexico."
+        },
+        {
+          "section": "Overview",
+          "claim": "The business serves two primary customer groups – DIY/DIFM consumers and professional (Pros) customers.",
+          "document": "10-K",
+          "line": 209,
+          "quote": "We serve two primary customer groups — consumers (including both DIY and DIFM customers) and Pros — and have developed varying approaches to meet their diverse needs."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management cites distinct competitive advantages such as brand, customer service, scale, real‑estate footprint and digital integration to drive faster‑than‑market growth.",
+          "document": "10-K",
+          "line": 193,
+          "quote": "The Home Depot is focused on leveraging its distinct competitive advantages – our brand, excellent customer service, product authority in home improvement, knowledgeable associates and culture, scale, premier real estate portfolio, digital and interconnected experience, supply chain network, and our deep relationships with Pros – to take advantage of the significant growth opportunities in the highly fragmented markets in which we operate."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management expects the 2026 strategy to enable growth faster than the overall market.",
+          "document": "10-K",
+          "line": 197,
+          "quote": "We believe that this strategy will help us grow faster than the market and deliver value to our shareholders."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The company invested $3.7 billion in capital expenditures in fiscal 2025 to support store expansion, digital experience and professional‑customer initiatives.",
+          "document": "10-K",
+          "line": 206,
+          "quote": "In fiscal 2025, we invested $3.7 billion in capital expenditures across initiatives supporting our strategy of driving our core and culture, including building new stores and maintaining existing stores, delivering a frictionless, interconnected experience, and winning with Pros."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Fiscal 2026 guidance projects total sales growth of roughly 4.5 % and the opening of approximately 15 new stores.",
+          "document": "EX-99.1",
+          "line": 18,
+          "quote": "•Total sales growth of approximately 4.5%"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Fiscal 2026 guidance also forecasts a gross margin near 33.0 % and an operating margin near 12.4 %. ",
+          "document": "EX-99.1",
+          "line": 21,
+          "quote": "•Gross margin of approximately 33.0%"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The company plans to add roughly 80 new stores by fiscal 2027, with 12 opened in fiscal 2025 and an ongoing target of 15‑20 per year thereafter.",
+          "document": "10-K",
+          "line": 249,
+          "quote": "In fiscal 2023, we initiated a plan to open approximately 80 new stores over a five-year period to address those opportunities, and in fiscal 2025, we opened 12 new stores. We expect to complete this goal of approximately 80 new stores in fiscal 2027, after which point we plan to open approximately 15 to 20 new stores per year."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The firm continues to invest in AI‑driven tools such as Magic ApronTM, Blueprint Takeoffs Tool and Material List Builder to improve search, recommendations and project‑planning capabilities.",
+          "document": "10-K",
+          "line": 246,
+          "quote": "We are leveraging AI tools to improve our search, recommendations, and chat features, and offering new AI-powered customer-facing tools such as Magic ApronTM, which supports customers and associates with online product and project inquiries, and our AI-powered Blueprint Takeoffs Tool and Material List Builder, which generate project-specific materials lists and quotes."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management highlights ongoing risk from intense competition across brick‑and‑mortar, multichannel and online retailers.",
+          "document": "10-K",
+          "line": 235,
+          "quote": "Our industry is highly competitive, highly fragmented, and evolving. As a result, we face competition for customers for our products and services from a variety of retailers (including those operating reseller marketplaces), suppliers, service providers, distributors and manufacturers that sell products directly to their respective customer bases."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Supply‑chain disruptions—such as pandemics, weather events, trade disputes, labor shortages—are identified as material risks that could affect product availability and profitability.",
+          "document": "10-K",
+          "line": 348,
+          "quote": "Disruptions in our supply chain and other factors affecting the availability and distribution of our merchandise could adversely impact our business, financial results, and reputation."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Technology‑infrastructure failures—including cyber‑attacks and system outages—are cited as operational risks with potential to impair sales and brand reputation.",
+          "document": "10-K",
+          "line": 339,
+          "quote": "A failure of one or more key elements of our technology infrastructure, including associated systems or processes, could adversely affect our business, financial results, and reputation."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Judgment: Continue allocating capital to digital‑experience initiatives and AI tools to sustain differentiated customer service, as management explicitly links these investments to market‑share growth.",
+          "document": "10-K",
+          "line": 245,
+          "quote": "Our investments in a truly interconnected experience are focused on bringing together the power of our physical presence and the frictionless interaction of our digital capabilities."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Judgment: Accelerate the integration of recent SRS and GMS acquisitions to broaden the professional‑customer product portfolio, given the stated intent to become a leading multi‑category distributor (line 188‑190).",
+          "document": "10-K",
+          "line": 188,
+          "quote": "In fiscal 2024, we acquired SRS, a leading residential specialty trade distribution company... In fiscal 2025, SRS completed the acquisition of GMS, a leading distributor of specialty building products..."
+        }
+      ],
+      "gaps": [
+        "There is no explicit quantitative forecast of comparable‑sales growth beyond the 1.4 % guidance in the earnings release; the filing does not provide a detailed breakdown of expected regional sales trends.",
+        "The 10‑K does not contain a specific timeline for the rollout of new AI‑driven tools beyond the current mention of existing tools; future rollout milestones are not disclosed."
+      ],
+      "insight": "Insight: The Home Depot is deploying AI-powered tools like Magic ApronTM to enhance the customer experience — EX-99.1 line 246"
+    },
+    "financial": {
+      "observations": [
+        "The company filed its annual report as a large accelerated filer, providing a comprehensive set of GAAP financial statements for the fiscal year that ended in early February. The filing includes detailed disclosures of revenue, operating income, net income, diluted earnings per share, stockholders’ equity, long‑term debt, and cash flow from operations.",
+        "Management discusses performance using both GAAP and non‑GAAP measures, defining adjusted operating income, adjusted operating margin and adjusted diluted earnings per share, and explains the treatment of acquired intangible amortization.",
+        "Acquisitions of specialty trade distributors are highlighted as contributors to intangible asset amortization and as factors influencing gross margin trends, while also noting offsetting benefits from supply‑chain efficiencies.",
+        "The quarter release presented third‑quarter results, noting a rise in sales and earnings compared with the prior year quarter, and provided updates to full‑year guidance on total sales growth, comparable sales growth, new store openings, gross margin, operating margin, effective tax rate, net interest expense, EPS growth, and capital spending as a proportion of sales.",
+        "Guidance references comparable sales growth that excludes certain business segments, indicating a clear definition for the metric used in performance tracking.",
+        "Risk factors and forward‑looking statements are extensively disclosed, covering a broad range of operational, competitive, technological, regulatory, and macro‑economic uncertainties that could affect future results.",
+        "The balance sheet shows a marked increase in stockholders’ equity, while long‑term debt remains a material liability; however, current‑portion debt and capital expenditure line items are not presented in the extracted data.",
+        "Peer data is not supplied, so direct comparative analysis with industry peers cannot be performed at this time.",
+        "No market price, price date, or source for the company’s share price is provided, which precludes any calculation of valuation multiples such as price‑to‑earnings."
+      ],
+      "gaps": [
+        "Missing share price information prevents valuation analysis.",
+        "Absence of peer financial facts limits peer‑company benchmarking.",
+        "Current‑portion long‑term debt and additions to property and equipment are not disclosed in the available facts."
+      ],
+      "insight": "Insight: The 10‑K reports net sales of $164.7 billion for fiscal 2025, highlighting the company's large revenue base — 10‑K line 567: \"We reported net sales of $164.7 billion in fiscal 2025. Net earnings were $14.2 billion, or $14.23 per diluted share.\""
+    },
+    "advisor": {
+      "recommendation": "Buy",
+      "thesis": "The company’s unparalleled brand, expansive store network and focus on both DIY and professional customers underpin a durable competitive edge. Management stresses reinvestment in stores, digital platforms and AI‑driven tools to capture growth faster than the market, while a solid double‑digit operating margin supplies cash for dividend hikes and share repurchases. Together these elements point to sustained earnings momentum and shareholder value creation.",
+      "deciding_metric": "operating_margin_percent",
+      "risks": [
+        "Intense competition from brick‑and‑mortar, multichannel and online rivals could pressure pricing and market share.",
+        "Supply‑chain disruptions, including weather events and labor shortages, may affect product availability and margins.",
+        "Technology‑infrastructure failures or cyber‑attacks could impair the interconnected experience and harm reputation.",
+        "Execution risk around integrating recent acquisitions and expanding the store footprint could limit anticipated synergies.",
+        "Macro‑economic headwinds, such as housing market softness or credit constraints, could dampen consumer spending.",
+        "Regulatory and labor cost pressures may increase operating expenses."
+      ],
+      "insight": "Insight: The Home Depot invested $3.7 billion in capital expenditures in fiscal 2025 to support store expansion, digital experience and professional‑customer initiatives — 10‑K line 206: \"In fiscal 2025, we invested $3.7 billion in capital expenditures across initiatives supporting our strategy of driving our core and culture...\""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 35,
+      "text": "These statements are not guarantees of future performance and are subject to future events, risks and uncertainties – many of which are beyond our control, dependent on the actions of third parties, or currently unknown to us – as well as potentially inaccurate assumptions that could cause actual results to differ materially from our historical experience and our expectations and projections. These risks and uncertainties include, but are not limited to, those described in Part I, Item 1A. \"Risk Factors,\" and elsewhere in our Annual Report on Form 10-K for our fiscal year ended February 1, 2026 and also as described from time to time in reports subsequently filed with the Securities and Exchange Commission. There also may be other factors that we cannot anticipate or that are not described herein, generally because we do not currently perceive them to be material. Such factors could cause results to differ materially from our expectations. Forward-looking statements speak only as of the date they are made, and we do not undertake to update these statements other than as required by law. You are advised, however, to review any further disclosures we make on related subjects in our filings with the Securities and Exchange Commission and in our other public statements.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "HD",
+        "name": "HOME DEPOT, INC.",
+        "cik": 354950,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-17",
+      "retrieved_at": "2026-11-17T18:02:59.060145-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000354950.json",
+      "fiscal_year_end": "2026-02-01",
+      "prior_fiscal_year_end": "2025-02-02",
+      "preferred_10k_accession": "0001628280-26-019436",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "current": {
+            "val": 164683000000,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 159514000000,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 20890000000,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 21526000000,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 14156000000,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 14806000000,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 14.23,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 14.91,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 12813000000,
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 6640000000,
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebt",
+          "unit": "USD",
+          "current": {
+            "val": 49397000000,
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 51365000000,
+            "end": "2025-02-02",
+            "accn": "0000354950-25-000085",
+            "filed": "2025-03-21",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 16325000000,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 19810000000,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "3.240467921310982108153516306",
+      "operating_margin_percent": "12.68497659139073249819349903",
+      "return_on_average_equity_percent": "145.5405335937901609006322932",
+      "debt_to_equity": null,
+      "free_cash_flow_usd": null,
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebt"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-17T18:03:00.077999-05:00",
+      "analysis_date": "2026-11-17",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 164683000000,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "HD",
+            "report_period": "2026-02-01",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-03-18",
+            "accession_number": "0001628280-26-019436",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.htm",
+            "value": "164683000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 159514000000,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 20890000000,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "HD",
+            "report_period": "2026-02-01",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-03-18",
+            "accession_number": "0001628280-26-019436",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.htm",
+            "value": "20890000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 21526000000,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 14156000000,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "HD",
+            "report_period": "2026-02-01",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-03-18",
+            "accession_number": "0001628280-26-019436",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.htm",
+            "value": "14156000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 14806000000,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 14.23,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "HD",
+            "report_period": "2026-02-01",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-03-18",
+            "accession_number": "0001628280-26-019436",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.htm",
+            "value": "14.23"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 14.91,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 12813000000,
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "HD",
+            "report_period": "2026-02-01",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-03-18",
+            "accession_number": "0001628280-26-019436",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.htm",
+            "value": "12813000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 6640000000,
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebt",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 49397000000,
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebt",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 51365000000,
+            "end": "2025-02-02",
+            "accn": "0000354950-25-000085",
+            "filed": "2025-03-21",
+            "form": "10-K",
+            "fy": 2024,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 16325000000,
+            "start": "2025-02-03",
+            "end": "2026-02-01",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "HD",
+            "report_period": "2026-02-01",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-03-18",
+            "accession_number": "0001628280-26-019436",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.htm",
+            "value": "16325000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 19810000000,
+            "start": "2024-01-29",
+            "end": "2025-02-02",
+            "accn": "0001628280-26-019436",
+            "filed": "2026-03-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 3 has an invalid or non-verbatim document line and quote.",
+        "Claim 5 includes a number that is not present in its quoted line.",
+        "Claim 6 has an invalid or non-verbatim document line and quote.",
+        "Claim 7 includes a number that is not present in its quoted line.",
+        "Claim 8 includes a number that is not present in its quoted line.",
+        "Claim 10 has an invalid or non-verbatim document line and quote.",
+        "Claim 11 has an invalid or non-verbatim document line and quote.",
+        "Claim 15 has an invalid or non-verbatim document line and quote.",
+        "Insight needs a filing, line number, and exact quote from that line."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ],
+      "advisor_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

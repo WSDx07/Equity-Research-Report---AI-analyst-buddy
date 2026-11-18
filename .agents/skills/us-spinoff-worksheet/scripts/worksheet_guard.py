@@ -174,6 +174,15 @@ def label_number(text, label):
 
 def expected_calculation(text, line_text, calc_id, rules, reader_path, live_reader_path, fields):
     key = calc_id.casefold()
+    if key in {'depreciation_and_amortization', 'live_depreciation_and_amortization'}:
+        prefix = 'Live ' if key.startswith('live_') else ''
+        try:
+            ppe = label_number(text, prefix + 'Depreciation and amortization excluding intangible amortization component')
+        except ValueError:
+            # Keep accepting older worksheets that use the original short label.
+            ppe = label_number(text, prefix + 'PPE depreciation component')
+        intangible = label_number(text, prefix + 'Intangible amortization component')
+        return [ppe + intangible]
     if key in {'owner_cash_flow', 'live_owner_cash_flow'}:
         prefix = 'Live ' if key.startswith('live_') else ''
         earnings = label_number(text, prefix + 'After-tax earnings')
@@ -232,11 +241,23 @@ def expected_calculation(text, line_text, calc_id, rules, reader_path, live_read
             raise ValueError(f'Reader dollar volume does not match close x volume on {match.group(1)}')
         return [expected]
     if key == 'median_dollar_volume':
-        printed = [(match.group(1), number_value(match.group(2))) for match in re.finditer(
-            r'^\s*(?:[-*]\s*)?Liquidity bar:\s*(\d{4}-\d{2}-\d{2})\s*\|\s*dollar_volume=([^\s\[]+)', text, re.I | re.M)]
+        printed = []
+        for match in re.finditer(
+                r'^\s*(?:[-*]\s*)?Liquidity bar:\s*(\d{4}-\d{2}-\d{2})\s*\|\s*dollar_volume=([^\s\[]+).*$',
+                text, re.I | re.M):
+            marker = MARKER.search(match.group(0))
+            if not marker:
+                continue
+            try:
+                bar_fields = parse_marker(marker.group(2))
+            except ValueError:
+                continue
+            if (bar_fields.get('ticker', '').upper() == str(fields.get('ticker', '')).upper()
+                    and bar_fields.get('reader', 'target') == fields.get('reader', 'target')):
+                printed.append((match.group(1), number_value(match.group(2))))
         required = int(rules['lookback_days'])
         if len(printed) != required:
-            raise ValueError(f'Printed liquidity bars must contain exactly {required} observations')
+            raise ValueError(f'Printed liquidity bars for {fields.get("ticker", "target")} must contain exactly {required} observations')
         days = [row[0] for row in printed]
         if len(set(days)) != required or days != sorted(days):
             raise ValueError('Printed liquidity bars must use unique dates in ascending order')
@@ -320,6 +341,11 @@ def validate_marker(kind, fields, claimed, *, line, line_text, text, run, rules,
             supported = line_numbers(source, int(source_line))
             if fields.get('sign') == 'magnitude':
                 supported = [abs(value) for value in supported]
+            if fields.get('scale'):
+                scale = dec(fields['scale'], 'filing source scale')
+                if scale <= 0:
+                    raise ValueError('Filing source scale must be positive')
+                supported = [value * scale for value in supported]
             word = fields.get('number_word')
             if word:
                 word_values = {'one': Decimal(1), 'two': Decimal(2)}

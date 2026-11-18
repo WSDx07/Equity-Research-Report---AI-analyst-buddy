@@ -1,0 +1,50 @@
+{
+  "research_issues": [
+    "Claim 4 has an invalid or non-verbatim document line and quote.",
+    "Claim 5 has an invalid or non-verbatim document line and quote.",
+    "Claim 6 has an invalid or non-verbatim document line and quote.",
+    "Claim 7 has an invalid or non-verbatim document line and quote.",
+    "Claim 12 has an invalid or non-verbatim document line and quote.",
+    "Claim 15 has an invalid or non-verbatim document line and quote.",
+    "Claim 16 has an invalid or non-verbatim document line and quote.",
+    "Claim 17 has an invalid or non-verbatim document line and quote.",
+    "Claim 18 has an invalid or non-verbatim document line and quote.",
+    "Claim 19 has an invalid or non-verbatim document line and quote.",
+    "Claim 20 has an invalid or non-verbatim document line and quote.",
+    "Claim 21 has an invalid or non-verbatim document line and quote.",
+    "Claim 22 has an invalid or non-verbatim document line and quote.",
+    "Claim 23 has an invalid or non-verbatim document line and quote.",
+    "Claim 25 has an invalid or non-verbatim document line and quote.",
+    "Claim 26 has an invalid or non-verbatim document line and quote.",
+    "Claim 27 has an invalid or non-verbatim document line and quote.",
+    "Claim 28 has an invalid or non-verbatim document line and quote.",
+    "No Insight line was supplied."
+  ],
+  "financial_issues": [
+    "Insight needs a filing, line number, and exact quote from that line.",
+    "Financial observations contain digits."
+  ],
+  "advisor_issues": [
+    "Insight needs a filing, line number, and exact quote from that line."
+  ],
+  "overall_issues": [
+    "Research gap: No explicit quantitative data on future margin expansion beyond management guidance were found in the 10‑K.",
+    "Research gap: The 10‑K does not provide a detailed timeline for the retiree‑benefit transfer beyond the quarter‑level cost; longer‑term impact is unquantified.",
+    "Financial gap: Missing price data prevents any valuation multiple discussion.",
+    "Financial gap: Absent peer data precludes benchmarking against industry competitors.",
+    "Financial gap: Long‑term debt facts are not reported, limiting leverage assessment.",
+    "Financial gap: The filing does not include detailed segment cash‑flow or capital‑expenditure figures needed for free‑cash‑flow analysis."
+  ],
+  "research_insight": {
+    "status": "fail",
+    "reason": "No Insight provided for the Research role."
+  },
+  "financial_insight": {
+    "status": "unassessed",
+    "reason": "The Insight could not be verified against the release's first paragraph, which lacks supporting revenue guidance information."
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": "The Insight could not be verified against the release's first paragraph, which does not mention backlog figures."
+  }
+}

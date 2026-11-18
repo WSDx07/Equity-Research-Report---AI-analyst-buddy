@@ -1,0 +1,194 @@
+{
+  "company": {
+    "ticker": "TSN",
+    "name": "TYSON FOODS, INC.",
+    "cik": 100493,
+    "source": "https://www.sec.gov/files/company_tickers.json"
+  },
+  "as_of": "2026-11-16",
+  "retrieved_at": "2026-11-16T20:24:16.855642-05:00",
+  "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000100493.json",
+  "fiscal_year_end": "2026-10-03",
+  "prior_fiscal_year_end": "2025-09-27",
+  "preferred_10k_accession": "0000100493-26-000079",
+  "concepts": {
+    "total_revenue": {
+      "tag": "us-gaap:Revenues",
+      "unit": "USD",
+      "current": {
+        "val": 56419000000,
+        "start": "2025-09-28",
+        "end": "2026-10-03",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 54441000000,
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "operating_income": {
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "val": 1100000000,
+        "start": "2025-09-28",
+        "end": "2026-10-03",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 1098000000,
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "net_income": {
+      "tag": "us-gaap:NetIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "val": 453000000,
+        "start": "2025-09-28",
+        "end": "2026-10-03",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 474000000,
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "diluted_eps": {
+      "tag": "us-gaap:EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "current": {
+        "val": 1.28,
+        "start": "2025-09-28",
+        "end": "2026-10-03",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 1.33,
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "stockholders_equity": {
+      "tag": "us-gaap:StockholdersEquity",
+      "unit": "USD",
+      "current": {
+        "val": 17614000000,
+        "end": "2026-10-03",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 18085000000,
+        "end": "2025-09-27",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "long_term_debt_noncurrent": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "long_term_debt_current": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "cash_from_operations": {
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "current": {
+        "val": 2433000000,
+        "start": "2025-09-28",
+        "end": "2026-10-03",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 2155000000,
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "additions_to_property_and_equipment": {
+      "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "unit": "USD",
+      "current": {
+        "val": 770000000,
+        "start": "2025-09-28",
+        "end": "2026-10-03",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 978000000,
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accn": "0000100493-26-000079",
+        "filed": "2026-11-16",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    }
+  }
+}

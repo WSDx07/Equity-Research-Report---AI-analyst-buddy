@@ -1,3 +1,28 @@
+# Current continuation - November 17, 2026: Lab 09
+
+This is the newest status. Older sections below describe earlier work and should not override these Lab 09 facts.
+
+## Current artifacts and status
+
+- README.md now has the Lab 09 status and documents the existing pipeline join: seeker for screen input, then pick, agent team, worksheet, and hook. Ticker input skips a new seeker screen and uses the latest saved registry when available.
+- docs/checkpoint3_draft.md was updated. It uses "Team 3" as a working label and has draft role/task assignments for review: Shlok - One Desk integration and live runs; Sam - spinoff factor check; Ryan - worksheet and validation. The assignments are proposed, not verified accounts of completed work. The internal "Items to complete" block was removed. The NVDA acceptance time was corrected to 2026-11-17 21:20:51 UTC, which is 4:20:51 p.m. ET. The exact Brightspace team label and member responsibilities still need team confirmation.
+- The AI partner's NVDA and HD runs are in one_desk_runs/NVDA_2026-11-17_17-58-48_452442_-0500/ and one_desk_runs/HD_2026-11-17_18-02-41_505834_-0500/. Each has a final report with a computed view and spinoff fields marked not applicable. Both offline replay proofs have exit code 0, report hashes that match the current final reports, and network access blocked.
+- The NVDA comparison table is one_desk_runs/NVDA_2026-11-17_17-58-48_452442_-0500/team/lab09_three_column_comparison.md. It has 11 core claims, the view, and the deciding number; difference marks and filing references are included.
+- The current TSN/GEV report is runs/live/Week 11-16to11-22/Shlok_TSN_GEV/report.md. TSN's FY2026 inputs are USD 453 million after-tax earnings, USD 1,398 million depreciation and amortization, USD 770 million capital spending, and 354 million diluted weighted-average shares. The course owner-cash-flow calculation is USD 1,081 million; low-case value is about USD 30.54 per share and mid-case value about USD 44.50, versus the saved USD 58.82 November 13 close. The resulting view is less than price, with a margin of safety of about -48.08%. The worksheet and source review hold the filing line references and formulas.
+- TSN's release was accepted November 16, 2026 at 07:41:53 ET. The view was recorded November 17 at 16:38:18 ET, 32.94 hours later and after the first post-filing close of USD 63.95 on November 16. It is outside the 24-hour window and must not be represented as a timely event-window result.
+- Price-source limit: the TSN pre-release close uses the saved LSEG reader under the user's stated interpretation of the field; an independent exchange comparison was not completed.
+- The GEV original Form 10 and final Information Statement are saved in the live run sources. The Information Statement establishes one GEV share for every four GE shares, a March 19, 2024 record date, and an April 2, 2024 distribution date. The GEV worksheet uses older filing evidence; it is not a response view to the October 2026 GEV earnings release.
+- The worksheet guard passed. The TSN source review documents dispositions for the prior 2 wrong and 13 unsupported claims. The old verifier output remains historical; no automatic verifier rerun was made. The NVDA and HD reports also disclose that a second automated Manager semantic review was not rerun; their source reviews are manual.
+
+## Still open for Lab 09
+
+- Confirm the exact Brightspace team name and review the draft Shlok, Sam, and Ryan assignments. Revise them to match actual ownership before submission.
+- Complete the paired walkthrough: point from the README join sentence to its diagram arrow, and have the partner open one core claim from each partner report at its filing line.
+- Write the one-line gap check: what the worksheet adds to the final report and what the team report would contain without it.
+- Complete the three Learn on your own questions and the reflection (the surprising table row, your role, and the least-understood desk part). If not already done, take one gap-list item into a second AI chat; the lab says this chat is not collected.
+- The current-week files have no commit time. A commit now would document the TSN work but cannot make the 32.94-hour-late view timely. No Brightspace upload is recorded in the repository; submit one final Markdown page per team after review.
+- Before Session 10, finish the Week 6 page list (about 60 minutes). Next week, another team runs this desk from the README and this team runs theirs.
+
 # Latest continuation — November 16, 2026: Lab 08 joined desk
 
 The user asked to check the Lab 08 One Desk contract and update this handoff and `README.md`. The joined command is implemented in `one_desk.py`; the Lab 05 page now submits ticker or `screen` to it. The fixed order is seeker for `screen`, pick, agent team, worksheet, then hook. A ticker run uses the latest saved seeker registry. If its CIK is absent, the worksheet marks spinoff items `not applicable` and continues.

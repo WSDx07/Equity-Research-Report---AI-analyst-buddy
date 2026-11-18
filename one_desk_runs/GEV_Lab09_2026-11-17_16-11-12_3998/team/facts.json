@@ -1,0 +1,176 @@
+{
+  "company": {
+    "ticker": "GEV",
+    "name": "GE Vernova Inc.",
+    "cik": 1996810,
+    "source": "https://www.sec.gov/files/company_tickers.json"
+  },
+  "as_of": "2026-11-17",
+  "retrieved_at": "2026-11-17T16:11:43.408452-05:00",
+  "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001996810.json",
+  "fiscal_year_end": "2025-12-31",
+  "prior_fiscal_year_end": "2024-12-31",
+  "preferred_10k_accession": "0001996810-26-000015",
+  "concepts": {
+    "total_revenue": {
+      "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "unit": "USD",
+      "current": {
+        "val": 38068000000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 34935000000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "operating_income": {
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "val": 1388000000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 471000000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "net_income": {
+      "tag": "us-gaap:NetIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "val": 4884000000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 1552000000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "diluted_eps": {
+      "tag": "us-gaap:EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "current": {
+        "val": 17.69,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 5.58,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "stockholders_equity": {
+      "tag": "us-gaap:StockholdersEquity",
+      "unit": "USD",
+      "current": {
+        "val": 11178000000,
+        "end": "2025-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 9546000000,
+        "end": "2024-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "long_term_debt_noncurrent": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "long_term_debt_current": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    },
+    "cash_from_operations": {
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "current": {
+        "val": 4987000000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 2583000000,
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "accn": "0001996810-26-000015",
+        "filed": "2026-01-29",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    },
+    "additions_to_property_and_equipment": {
+      "tag": null,
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    }
+  }
+}

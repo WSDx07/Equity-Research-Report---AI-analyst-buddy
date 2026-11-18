@@ -1,0 +1,43 @@
+{
+  "research_issues": [
+    "Claim 3 (customer‑group description) has an invalid or non‑verbatim document line and quote.",
+    "Claim 5 (2026 strategy growth faster than market) includes a number not present in its quoted line.",
+    "Claim 6 (capital‑expenditure amount) has an invalid or non‑verbatim document line and quote.",
+    "Claim 7 (Fiscal 2026 total‑sales growth ~4.5 %) includes a number not present in its quoted line.",
+    "Claim 8 (Fiscal 2026 gross‑margin ~33 % and operating‑margin ~12.4 %) includes numbers not present in its quoted line.",
+    "Claim 10 (AI‑driven tools) has an invalid or non‑verbatim document line and quote.",
+    "Claim 11 (competition risk) has an invalid or non‑verbatim document line and quote.",
+    "Claim 15 (judgment on SRS/GMS acquisition) has an invalid or non‑verbatim document line and quote.",
+    "Research Insight on AI‑tools lacks a filing reference, line number, and exact quoted text.",
+    "Valuation Insights section is empty – no claims or supporting data supplied."
+  ],
+  "financial_issues": [
+    "Financial Insight on net sales ($164.7 bn) lacks a filing reference, line number, and exact quoted text.",
+    "Missing share‑price data prevents calculation of price‑to‑earnings and other valuation multiples.",
+    "Absent peer‑company financial facts block comparative analysis.",
+    "Current‑portion long‑term debt is unavailable, so debt‑to‑equity ratio cannot be computed.",
+    "Additions to property and equipment are not present, hindering free‑cash‑flow estimation."
+  ],
+  "advisor_issues": [
+    "Advisor Insight on $3.7 bn capital expenditures lacks a filing reference, line number, and exact quoted text."
+  ],
+  "overall_issues": [
+    "Valuation Insights section contains no explicit claims or data – completeness gap.",
+    "Share‑price information is missing, preventing any price‑based valuation multiples.",
+    "Peer‑company financial data are not provided, limiting benchmarking.",
+    "Current‑portion of long‑term debt and additions to property‑and‑equipment are absent from the extracted facts, restricting debt‑to‑equity and free‑cash‑flow calculations.",
+    "Release first‑paragraph lacks verification of original HTML paragraph boundaries."
+  ],
+  "research_insight": {
+    "status": "fail",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "fail",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "fail",
+    "reason": ""
+  }
+}
