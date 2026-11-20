@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "ticker": "WMT",
+  "company_name": "Walmart Inc.",
+  "cik": "0000104169",
+  "as_of": "2026-11-19",
+  "prepared_at": "2026-11-20T02:15:05.039453+00:00",
+  "saved_run": "C:\\Users\\samue\\Downloads\\Team3\\one_desk_runs\\WMT_2026-11-19_21-11-20_008030_-0500\\team",
+  "facts_file": "C:\\Users\\samue\\Downloads\\Team3\\one_desk_runs\\WMT_2026-11-19_21-11-20_008030_-0500\\team\\facts.json",
+  "filings_file": "C:\\Users\\samue\\Downloads\\Team3\\one_desk_runs\\WMT_2026-11-19_21-11-20_008030_-0500\\team\\filings.json",
+  "registry_file": "C:\\Users\\samue\\Downloads\\Team3\\one_desk_runs\\WMT_2026-11-19_21-11-20_008030_-0500\\seeker\\registry-2026-11-13_22-39-11_137090_-0500_ddc00b3d.json",
+  "registry_present": false,
+  "registry_facts": {},
+  "parent_cik": null,
+  "distribution_date": null,
+  "registration_accession": null,
+  "distribution_filing_documents": [],
+  "live_release": {
+    "run": "C:\\Users\\samue\\Downloads\\Team3\\one_desk_runs\\WMT_2026-11-19_21-11-20_008030_-0500\\team",
+    "ticker": "WMT",
+    "cik": "0000104169",
+    "form": "8-K",
+    "filing_date": "2026-11-19",
+    "accession": "000010416926000168",
+    "filing_time": {
+      "value": "2026-11-19T11:58:52+00:00",
+      "source": "SEC submissions acceptanceDateTime"
+    },
+    "documents": [
+      {
+        "form": "live_release_8-K",
+        "accession": "000010416926000168",
+        "name": "WMT_8-K_0000104169-26-000168.txt",
+        "url": "saved agent-team filing",
+        "path": "worksheet_sources_20261119_211504\\saved_000010416926000168_WMT_8-K_0000104169-26-000168.txt",
+        "kind": "reused saved filing"
+      }
+    ]
+  },
+  "live_run_source_files": [],
+  "run_filing_texts": [
+    "WMT_10-K_0000104169-26-000055.txt",
+    "WMT_10-K_0000104169-26-000055.txt",
+    "WMT_10-Q_0000104169-26-000154.txt",
+    "WMT_10-Q_0000104169-26-000154.txt"
+  ],
+  "first_company_filings_after_spin": [],
+  "parent_filings_after_spin": [],
+  "saved_source_documents": [
+    {
+      "form": "live_release_8-K",
+      "accession": "000010416926000168",
+      "name": "WMT_8-K_0000104169-26-000168.txt",
+      "url": "saved agent-team filing",
+      "path": "worksheet_sources_20261119_211504\\saved_000010416926000168_WMT_8-K_0000104169-26-000168.txt",
+      "kind": "reused saved filing"
+    }
+  ],
+  "form4_purchase_transactions": 0,
+  "form4_purchase_file": "C:\\Users\\samue\\Downloads\\Team3\\one_desk_runs\\WMT_2026-11-19_21-11-20_008030_-0500\\team\\worksheet_sources_20261119_211504\\form4_purchases.json",
+  "form4_coverage": {
+    "filing_count_checked": 0,
+    "first_filing_date": null,
+    "last_filing_date": null,
+    "scope": "Form 4 filings in the saved run filing list, through the saved run analysis date"
+  },
+  "errors": [],
+  "limitations": [
+    "This command collects and saves sources only; it does not extract worksheet facts, calculate values, call a model, or create a report.",
+    "A missing or conflicting fact stays not known. Registry presence is distinct from an absent CIK entry.",
+    "The saved agent run may not include every filing. The worksheet must state the saved filing-list coverage."
+  ]
+}
