@@ -55,6 +55,21 @@ The team owns the spinoff factor check. The initial protocol is in the [factor-c
 
 See [`runs/live/`](../runs/live/) for the prior week and current week records.
 
+### Summary: every report, against the 24-hour window
+
+The window is 24 hours from the EDGAR "Accepted" time. Commit time is the first commit in this repository that holds the run. The NVDA and HD commit was pushed 10 seconds after it was made (GitHub push log).
+
+| Ticker | Release | Filing time (Eastern) | Commit time (Eastern) | Inside the window |
+| --- | --- | --- | --- | --- |
+| TTWO | Earnings 8-K | Nov. 9, 2026, 4:10:58 p.m. | Nov. 14, 2026, 2:56:50 a.m. (`080ebba`) | No |
+| Sagard (unlisted) | Form D | Nov. 10, 2026, 4:17:15 p.m. | Nov. 14, 2026, 6:53:22 p.m. (`41611e7`) | No |
+| LCID | Form 4 | Nov. 13, 2026, 4:10:11 p.m. | Nov. 14, 2026, 6:53:22 p.m. (`41611e7`) | No (26.7 hours) |
+| TSN | Earnings 8-K 0000100493-26-000077 | Nov. 16, 2026, 7:41:53 a.m. | Nov. 17, 2026, 9:05:49 p.m. (`da44970`) | No (37.4 hours) |
+| **NVDA** | Earnings 8-K 0001045810-26-000088 | Nov. 17, 2026, 4:20:51 p.m. | Nov. 17, 2026, 9:05:49 p.m. (`da44970`) | **Yes (4.7 hours)** |
+| **HD** | Earnings 8-K 0000354950-26-000184 | Nov. 17, 2026, 6:18:03 a.m. | Nov. 17, 2026, 9:05:49 p.m. (`da44970`) | **Yes (14.8 hours)** |
+
+NVDA and HD are the partner picks for Lab 09 (table below); their runs are in `one_desk_runs/`.
+
 ### Nov. 9–15 prior week
 
 
