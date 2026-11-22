@@ -1,0 +1,190 @@
+{
+  "marks": [
+    {
+      "line": 9,
+      "value": "Line 9 – $76.7 billion",
+      "supported": false,
+      "reason": "The saved XBRL facts contain no R&D‑related concept with a value of $76.7 billion for the relevant fiscal period; therefore the claim is not supported."
+    },
+    {
+      "line": 13,
+      "value": "Line 13 – $115.8 billion",
+      "supported": false,
+      "reason": "The claim refers to Q3 FY2027 revenue; the available XBRL facts only cover the FY2026 annual total‑revenue figure ($215.938 billion). No fact for the quarter‑ended period is saved, so the claim is unsupported."
+    },
+    {
+      "line": 13,
+      "value": "Line 13 – 103 %",
+      "supported": false,
+      "reason": "The 103 % year‑over‑year growth is derived from the Q3 FY2027 quarter revenue, for which no supporting fact exists in the saved data."
+    },
+    {
+      "line": 14,
+      "value": "Line 14 – $107.6 billion",
+      "supported": false,
+      "reason": "The claim is for Data‑Center revenue in Q3 FY2027; the saved facts only contain annual totals, not the quarter‑specific Data‑Center figure, so the claim is unsupported."
+    },
+    {
+      "line": 14,
+      "value": "Line 14 – 110 %",
+      "supported": false,
+      "reason": "The 110 % growth figure is tied to the same quarterly Data‑Center revenue claim, which lacks a supporting fact."
+    },
+    {
+      "line": 15,
+      "value": "Line 15 – $8.2 billion",
+      "supported": false,
+      "reason": "Edge‑Computing revenue for Q3 FY2027 is not present in the saved XBRL facts; therefore unsupported."
+    },
+    {
+      "line": 15,
+      "value": "Line 15 – 42 %",
+      "supported": false,
+      "reason": "Growth percentage is based on the unsupported Edge‑Computing revenue figure; no supporting fact exists."
+    },
+    {
+      "line": 16,
+      "value": "Line 16 – $130.0 billion",
+      "supported": false,
+      "reason": "The projection for Q4 FY2027 revenue is forward‑looking and not present in any saved filing fact; unsupported."
+    },
+    {
+      "line": 16,
+      "value": "Line 16 – 3 %",
+      "supported": false,
+      "reason": "The “±3 %” guidance is a qualitative range without a matching factual filing; unsupported."
+    },
+    {
+      "line": 55,
+      "value": "Line 55 – $2.70",
+      "supported": false,
+      "reason": "GAAP diluted EPS of $2.70 is reported for Q3 FY2027; the saved facts only contain the FY2026 diluted EPS of $4.90, so no supporting fact exists."
+    },
+    {
+      "line": 55,
+      "value": "Line 55 – $2.68",
+      "supported": false,
+      "reason": "Non‑GAAP diluted EPS of $2.68 is also a Q3 FY2027 figure with no corresponding XBRL fact in the saved data."
+    },
+    {
+      "line": 33,
+      "value": "Line 33 – 215938000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:Revenues (current period) reports exactly 215,938,000,000 USD for FY2026; definition, period and tag match."
+    },
+    {
+      "line": 34,
+      "value": "Line 34 – 130497000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:Revenues (prior period) reports exactly 130,497,000,000 USD for FY2025; definition, period and tag match."
+    },
+    {
+      "line": 35,
+      "value": "Line 35 – 130387000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:OperatingIncomeLoss (current period) reports exactly 130,387,000,000 USD for FY2026; definition, period and tag match."
+    },
+    {
+      "line": 36,
+      "value": "Line 36 – 81453000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:OperatingIncomeLoss (prior period) reports exactly 81,453,000,000 USD for FY2025; definition, period and tag match."
+    },
+    {
+      "line": 37,
+      "value": "Line 37 – 120067000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:NetIncomeLoss (current period) reports exactly 120,067,000,000 USD for FY2026; definition, period and tag match."
+    },
+    {
+      "line": 38,
+      "value": "Line 38 – 72880000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:NetIncomeLoss (prior period) reports exactly 72,880,000,000 USD for FY2025; definition, period and tag match."
+    },
+    {
+      "line": 39,
+      "value": "Line 39 – 4.90 USD/share",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:EarningsPerShareDiluted (current period) reports 4.9 USD/shares; the report formats it as 4.90 USD/share, which is equivalent."
+    },
+    {
+      "line": 40,
+      "value": "Line 40 – 2.94 USD/share",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:EarningsPerShareDiluted (prior period) reports exactly 2.94 USD/shares; definition, period and tag match."
+    },
+    {
+      "line": 41,
+      "value": "Line 41 – 157293000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:StockholdersEquity (current period) reports exactly 157,293,000,000 USD for FY2026; definition, period and tag match."
+    },
+    {
+      "line": 42,
+      "value": "Line 42 – 79327000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:StockholdersEquity (prior period) reports exactly 79,327,000,000 USD for FY2025; definition, period and tag match."
+    },
+    {
+      "line": 43,
+      "value": "Line 43 – 7469000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:LongTermDebtNoncurrent (current period) reports exactly 7,469,000,000 USD for FY2026; definition, period and tag match."
+    },
+    {
+      "line": 44,
+      "value": "Line 44 – 8463000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:LongTermDebtNoncurrent (prior period) reports exactly 8,463,000,000 USD for FY2025; definition, period and tag match."
+    },
+    {
+      "line": 45,
+      "value": "Line 45 – 999000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:LongTermDebtCurrent (current period) reports exactly 999,000,000 USD for FY2026; definition, period and tag match."
+    },
+    {
+      "line": 46,
+      "value": "Line 46 – 0 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:LongTermDebtCurrent (prior period) reports exactly 0 USD for FY2025; definition, period and tag match."
+    },
+    {
+      "line": 47,
+      "value": "Line 47 – 102718000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:NetCashProvidedByUsedInOperatingActivities (current period) reports exactly 102,718,000,000 USD for FY2026; definition, period and tag match."
+    },
+    {
+      "line": 48,
+      "value": "Line 48 – 64089000000 USD",
+      "supported": true,
+      "reason": "XBRL fact us‑gaap:NetCashProvidedByUsedInOperatingActivities (prior period) reports exactly 64,089,000,000 USD for FY2025; definition, period and tag match."
+    },
+    {
+      "line": 49,
+      "value": "Line 49 – 65.47 %",
+      "supported": true,
+      "reason": "Revenue‑growth percent is calculated from the two supported total‑revenue facts (current 215.938 bn, prior 130.497 bn); the resulting 65.47 % matches the reported value and the inputs are correctly cited."
+    },
+    {
+      "line": 50,
+      "value": "Line 50 – 60.38 %",
+      "supported": true,
+      "reason": "Operating‑margin percent is derived from the supported operating‑income (130.387 bn) and total‑revenue (215.938 bn) facts; the computed 60.38 % matches the reported result."
+    },
+    {
+      "line": 51,
+      "value": "Line 51 – 101.49 %",
+      "supported": true,
+      "reason": "Return‑on‑average‑equity percent uses the supported net‑income (120.067 bn) and the average of the two equity figures (157.293 bn and 79.327 bn); the calculation yields 101.49 %, matching the report."
+    },
+    {
+      "line": 52,
+      "value": "Line 52 – 0.0538 ratio",
+      "supported": true,
+      "reason": "Debt‑to‑equity ratio uses supported non‑current (7.469 bn) and current (0.999 bn) debt totals and the supported equity (157.293 bn); the resulting ratio 0.0538 matches the reported value."
+    }
+  ]
+}
