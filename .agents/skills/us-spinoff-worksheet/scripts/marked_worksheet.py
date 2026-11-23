@@ -10,6 +10,10 @@ import worksheet_guard
 import prepare_worksheet
 
 
+# A statement prints its scale as "(in thousands)", "amounts in millions", or a bare "(thousands)".
+STATEMENT_UNIT = re.compile(r'(?:\b(?:in|amounts? in)\s+|\(\s*)(thousands|millions|billions)\b', re.I)
+
+
 def _q(value):
     return json.dumps(str(value), ensure_ascii=False)
 
@@ -30,7 +34,7 @@ def _source_amount(item, run, *, allow_magnitude=False):
             if abs(n * factor) != abs(wanted):
                 continue
             if factor != 1:
-                statement_unit = re.findall(r'\b(?:in|amounts? in)\s+(thousands|millions|billions)\b', nearby, re.I)
+                statement_unit = STATEMENT_UNIT.findall(nearby)
                 inline_unit = bool(re.search(re.escape(str(abs(n))) + r'\s+' + unit.rstrip('s') + r's?\b', line, re.I))
                 if not inline_unit and (not statement_unit or statement_unit[-1].casefold() != unit):
                     continue
@@ -40,7 +44,7 @@ def _source_amount(item, run, *, allow_magnitude=False):
                 continue
             candidates.append((n, factor, unit))
     if wanted == 0 and len(candidates) > 1:
-        units = re.findall(r'\b(?:in|amounts? in)\s+(thousands|millions|billions)\b', nearby, re.I)
+        units = STATEMENT_UNIT.findall(nearby)
         preferred = units[-1].casefold() if units else ''
         candidates = [candidate for candidate in candidates if candidate[2] == preferred]
     if len(candidates) != 1:
