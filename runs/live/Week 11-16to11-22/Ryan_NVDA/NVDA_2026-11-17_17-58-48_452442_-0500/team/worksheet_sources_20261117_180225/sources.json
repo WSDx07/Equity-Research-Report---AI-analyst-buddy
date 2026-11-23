@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "ticker": "NVDA",
+  "company_name": "NVIDIA CORP",
+  "cik": "0001045810",
+  "as_of": "2026-11-17",
+  "prepared_at": "2026-11-17T23:02:25.551336+00:00",
+  "saved_run": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\NVDA_2026-11-17_17-58-48_452442_-0500\\team",
+  "facts_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\NVDA_2026-11-17_17-58-48_452442_-0500\\team\\facts.json",
+  "filings_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\NVDA_2026-11-17_17-58-48_452442_-0500\\team\\filings.json",
+  "registry_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\NVDA_2026-11-17_17-58-48_452442_-0500\\seeker\\registry-2026-11-16_20-16-50_178773_-0500_2c71aff8.json",
+  "registry_present": false,
+  "registry_facts": {},
+  "parent_cik": null,
+  "distribution_date": null,
+  "registration_accession": null,
+  "distribution_filing_documents": [],
+  "live_release": {
+    "run": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\NVDA_2026-11-17_17-58-48_452442_-0500\\team",
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "form": "8-K",
+    "filing_date": "2026-11-17",
+    "accession": "000104581026000088",
+    "filing_time": {
+      "value": "2026-11-17T21:20:51+00:00",
+      "source": "SEC submissions acceptanceDateTime"
+    },
+    "documents": [
+      {
+        "form": "live_release_8-K",
+        "accession": "000104581026000088",
+        "name": "NVDA_8-K_0001045810-26-000088.txt",
+        "url": "saved agent-team filing",
+        "path": "worksheet_sources_20261117_180225\\saved_000104581026000088_NVDA_8-K_0001045810-26-000088.txt",
+        "kind": "reused saved filing"
+      }
+    ]
+  },
+  "live_run_source_files": [],
+  "run_filing_texts": [
+    "NVDA_10-K_0001045810-26-000021.txt",
+    "NVDA_10-K_0001045810-26-000021.txt",
+    "NVDA_10-Q_0001045810-26-000075.txt",
+    "NVDA_10-Q_0001045810-26-000075.txt"
+  ],
+  "first_company_filings_after_spin": [],
+  "parent_filings_after_spin": [],
+  "saved_source_documents": [
+    {
+      "form": "live_release_8-K",
+      "accession": "000104581026000088",
+      "name": "NVDA_8-K_0001045810-26-000088.txt",
+      "url": "saved agent-team filing",
+      "path": "worksheet_sources_20261117_180225\\saved_000104581026000088_NVDA_8-K_0001045810-26-000088.txt",
+      "kind": "reused saved filing"
+    }
+  ],
+  "form4_purchase_transactions": 0,
+  "form4_purchase_file": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\NVDA_2026-11-17_17-58-48_452442_-0500\\team\\worksheet_sources_20261117_180225\\form4_purchases.json",
+  "form4_coverage": {
+    "filing_count_checked": 0,
+    "first_filing_date": null,
+    "last_filing_date": null,
+    "scope": "Form 4 filings in the saved run filing list, through the saved run analysis date"
+  },
+  "errors": [],
+  "limitations": [
+    "This command collects and saves sources only; it does not extract worksheet facts, calculate values, call a model, or create a report.",
+    "A missing or conflicting fact stays not known. Registry presence is distinct from an absent CIK entry.",
+    "The saved agent run may not include every filing. The worksheet must state the saved filing-list coverage."
+  ]
+}

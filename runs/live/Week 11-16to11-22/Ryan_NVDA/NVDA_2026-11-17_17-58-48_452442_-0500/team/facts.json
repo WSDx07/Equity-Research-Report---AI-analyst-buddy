@@ -1,0 +1,208 @@
+{
+  "company": {
+    "ticker": "NVDA",
+    "name": "NVIDIA CORP",
+    "cik": 1045810,
+    "source": "https://www.sec.gov/files/company_tickers.json"
+  },
+  "as_of": "2026-11-17",
+  "retrieved_at": "2026-11-17T17:59:05.530088-05:00",
+  "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+  "fiscal_year_end": "2026-01-25",
+  "prior_fiscal_year_end": "2025-01-26",
+  "preferred_10k_accession": "0001045810-26-000021",
+  "concepts": {
+    "total_revenue": {
+      "tag": "us-gaap:Revenues",
+      "unit": "USD",
+      "current": {
+        "val": 215938000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 130497000000,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "operating_income": {
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "val": 130387000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 81453000000,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "net_income": {
+      "tag": "us-gaap:NetIncomeLoss",
+      "unit": "USD",
+      "current": {
+        "val": 120067000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 72880000000,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "diluted_eps": {
+      "tag": "us-gaap:EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "current": {
+        "val": 4.9,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 2.94,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "stockholders_equity": {
+      "tag": "us-gaap:StockholdersEquity",
+      "unit": "USD",
+      "current": {
+        "val": 157293000000,
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 79327000000,
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "long_term_debt_noncurrent": {
+      "tag": "us-gaap:LongTermDebtNoncurrent",
+      "unit": "USD",
+      "current": {
+        "val": 7469000000,
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 8463000000,
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "long_term_debt_current": {
+      "tag": "us-gaap:LongTermDebtCurrent",
+      "unit": "USD",
+      "current": {
+        "val": 999000000,
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 0,
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "cash_from_operations": {
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "current": {
+        "val": 102718000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "prior": {
+        "val": 64089000000,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "additions_to_property_and_equipment": {
+      "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "unit": "USD",
+      "current": null,
+      "prior": null
+    }
+  }
+}

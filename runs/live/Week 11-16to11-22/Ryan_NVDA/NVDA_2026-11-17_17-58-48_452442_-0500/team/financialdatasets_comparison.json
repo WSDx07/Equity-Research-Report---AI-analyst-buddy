@@ -1,0 +1,399 @@
+{
+  "source": "https://api.financialdatasets.ai/financials/",
+  "retrieved_at": "2026-11-17T17:59:06.405746-05:00",
+  "analysis_date": "2026-11-17",
+  "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+  "rows": [
+    {
+      "concept": "total_revenue",
+      "period_label": "current",
+      "sec_tag": "us-gaap:Revenues",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 215938000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "revenue",
+      "provider_fact": {
+        "ticker": "NVDA",
+        "report_period": "2026-01-25",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-25",
+        "accession_number": "0001045810-26-000021",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+        "value": "215938000000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "total_revenue",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:Revenues",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 130497000000,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "revenue"
+    },
+    {
+      "concept": "operating_income",
+      "period_label": "current",
+      "sec_tag": "us-gaap:OperatingIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 130387000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "operating_income",
+      "provider_fact": {
+        "ticker": "NVDA",
+        "report_period": "2026-01-25",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-25",
+        "accession_number": "0001045810-26-000021",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+        "value": "130387000000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "operating_income",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:OperatingIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 81453000000,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "operating_income"
+    },
+    {
+      "concept": "net_income",
+      "period_label": "current",
+      "sec_tag": "us-gaap:NetIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 120067000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "net_income",
+      "provider_fact": {
+        "ticker": "NVDA",
+        "report_period": "2026-01-25",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-25",
+        "accession_number": "0001045810-26-000021",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+        "value": "120067000000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "net_income",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:NetIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 72880000000,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "net_income"
+    },
+    {
+      "concept": "diluted_eps",
+      "period_label": "current",
+      "sec_tag": "us-gaap:EarningsPerShareDiluted",
+      "sec_unit": "USD/shares",
+      "sec_fact": {
+        "val": 4.9,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "earnings_per_share_diluted",
+      "provider_fact": {
+        "ticker": "NVDA",
+        "report_period": "2026-01-25",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-25",
+        "accession_number": "0001045810-26-000021",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+        "value": "4.9"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "diluted_eps",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:EarningsPerShareDiluted",
+      "sec_unit": "USD/shares",
+      "sec_fact": {
+        "val": 2.94,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "earnings_per_share_diluted"
+    },
+    {
+      "concept": "stockholders_equity",
+      "period_label": "current",
+      "sec_tag": "us-gaap:StockholdersEquity",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 157293000000,
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "balance_sheets",
+      "provider_field": "shareholders_equity",
+      "provider_fact": {
+        "ticker": "NVDA",
+        "report_period": "2026-01-25",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-25",
+        "accession_number": "0001045810-26-000021",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+        "value": "157293000000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "stockholders_equity",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:StockholdersEquity",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 79327000000,
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "balance_sheets",
+      "provider_field": "shareholders_equity"
+    },
+    {
+      "concept": "long_term_debt_noncurrent",
+      "period_label": "current",
+      "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 7469000000,
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "long_term_debt_noncurrent",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 8463000000,
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "long_term_debt_current",
+      "period_label": "current",
+      "sec_tag": "us-gaap:LongTermDebtCurrent",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 999000000,
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "long_term_debt_current",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:LongTermDebtCurrent",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 0,
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "cash_from_operations",
+      "period_label": "current",
+      "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 102718000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "cash_flow_statements",
+      "provider_field": "net_cash_flow_from_operations",
+      "provider_fact": {
+        "ticker": "NVDA",
+        "report_period": "2026-01-25",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-02-25",
+        "accession_number": "0001045810-26-000021",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+        "value": "102718000000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "cash_from_operations",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 64089000000,
+        "start": "2024-01-29",
+        "end": "2025-01-26",
+        "accn": "0001045810-26-000021",
+        "filed": "2026-02-25",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "cash_flow_statements",
+      "provider_field": "net_cash_flow_from_operations"
+    },
+    {
+      "concept": "additions_to_property_and_equipment",
+      "period_label": "current",
+      "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "additions_to_property_and_equipment",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    }
+  ],
+  "status": "completed"
+}
