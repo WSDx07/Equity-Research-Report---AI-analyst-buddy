@@ -17,7 +17,7 @@ import tempfile
 from datetime import date, datetime
 from datetime import time as clock_time
 from decimal import Decimal, InvalidOperation
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 from zoneinfo import ZoneInfo
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -498,9 +498,10 @@ def _python_script_invocation(command, script_name):
     normalized = [token.strip('"\'') for token in tokens]
     interpreters = {'python', 'python.exe', 'python3', 'python3.exe', 'py', 'py.exe'}
     for index, token in enumerate(normalized):
-        if Path(token).name.casefold() != script_name.casefold():
+        # PureWindowsPath splits on both / and \, so Windows-style paths in a command also match on macOS and Linux.
+        if PureWindowsPath(token).name.casefold() != script_name.casefold():
             continue
-        if any(Path(previous).name.casefold() in interpreters for previous in normalized[:index]):
+        if any(PureWindowsPath(previous).name.casefold() in interpreters for previous in normalized[:index]):
             return True
     return False
 
