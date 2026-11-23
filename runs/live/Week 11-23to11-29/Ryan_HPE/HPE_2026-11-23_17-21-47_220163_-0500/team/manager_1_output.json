@@ -1,0 +1,45 @@
+{
+  "research_issues": [
+    "Claim 5 has an invalid or non‑verbatim document line and quote.",
+    "Claim 6 includes a number that is not present in its quoted line.",
+    "Claim 8 includes a number that is not present in its quoted line.",
+    "Claim 10 has an invalid or non‑verbatim document line and quote.",
+    "Claim 11 has an invalid or non‑verbatim document line and quote.",
+    "Claim 12 has an invalid or non‑verbatim document line and quote.",
+    "Missing explicit content for the ‘Valuation Insights’ section.",
+    "Missing explicit content for the ‘Investment Recommendation’ section."
+  ],
+  "financial_issues": [
+    "Insight needs a filing, line number, and exact quote from that line.",
+    "Financial observations contain digits (numeric values) that are not presented as part of a narrative insight.",
+    "Missing share‑price information prevents any price‑to‑earnings or valuation multiple calculation.",
+    "Absence of comparable peer data blocks benchmarking.",
+    "Long‑term debt tags lack reliable mapping; leverage ratios cannot be computed.",
+    "Additions‑to‑property‑and‑equipment fact is unavailable; free‑cash‑flow cannot be derived."
+  ],
+  "advisor_issues": [
+    "No Insight line was supplied.",
+    "Missing explicit content for the ‘Valuation Insights’ and ‘Investment Recommendation’ sections."
+  ],
+  "overall_issues": [
+    "Research section incomplete – two required sections (Valuation Insights, Investment Recommendation) are absent.",
+    "Financial section incomplete – lacks valuation metrics and peer benchmarks.",
+    "Advisor section incomplete – Insight missing and required sections absent.",
+    "Advisor insight status: fail – reason: Insight missing.",
+    "Research insight status: pass – reason: Provides correct filing reference (10‑K line 177) and quote; does not merely restate the release paragraph.",
+    "Financial insight status: pass – reason: Provides correct filing reference (10‑K line 826) and quote; does not merely restate the release paragraph.",
+    "Advisor insight status: fail – reason: Insight not provided."
+  ],
+  "research_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

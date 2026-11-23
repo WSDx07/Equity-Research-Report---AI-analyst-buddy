@@ -1,0 +1,780 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "HPE describes itself as a global technology leader that develops intelligent solutions enabling customers to capture, analyze and act on data from edge to cloud.",
+          "document": "10-K",
+          "line": 145,
+          "quote": "Hewlett Packard Enterprise is a global technology leader focused on developing intelligent solutions that allow customers to capture, analyze and act upon data seamlessly from edge to cloud."
+        },
+        {
+          "section": "Overview",
+          "claim": "The company’s operations are organized into five reportable segments: Server, Hybrid Cloud, Networking, Financial Services, and Corporate Investments and Other.",
+          "document": "10-K",
+          "line": 158,
+          "quote": "Our operations are organized into five reportable business segments: Server, Hybrid Cloud, Networking, Financial Services, and Corporate Investments and Other."
+        },
+        {
+          "section": "Overview",
+          "claim": "Effective at the beginning of fiscal 2026 Q1, HPE merged the Server, Hybrid Cloud and Financial Services segments into a new “Cloud & AI” segment and moved Telco and Instant On businesses to Corporate Investments and Other.",
+          "document": "10-K",
+          "line": 177,
+          "quote": "Effective at the beginning of the first quarter of fiscal 2026, HPE implemented an organizational change by (i) merging the Server, Hybrid Cloud, and Financial Services business segments into a new segment named Cloud & AI and (ii) transferring the Telco and Instant On businesses from the Networking segment to the Corporate Investments and Other segment."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management says megatrends in networking, cloud and AI are reshaping enterprise IT and drive HPE’s strategy.",
+          "document": "10-K",
+          "line": 148,
+          "quote": "Over the last several years, HPE has observed megatrends around networking, cloud, data, and artificial intelligence (“AI”) emerging to shape customer expectations for enterprise technology."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Through the acquisition of Juniper Networks, HPE claims to have a full‑stack AI‑native networking portfolio that it will use to capture AI‑driven data‑center business.",
+          "document": "10-K",
+          "line": 181,
+          "quote": "AI-native networking leadership. With the acquisition of Juniper Networks, HPE now has a full‑stack portfolio spanning campus and branch, data center switches, wide‑area routing, and secure access services edge (“SASE”) solutions."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Fiscal 2026 fourth‑quarter revenue was $14.5 billion, a 50 % increase versus the prior‑year period.",
+          "document": "EX-99.1",
+          "line": 21,
+          "quote": "Revenue: $14.5 billion, up 50% from the prior-year period"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Cloud & AI segment revenue grew 68.6 % YoY to $11.3 billion and its operating profit margin rose to 18.4 % from 9.3 % a year earlier.",
+          "document": "EX-99.1",
+          "line": 41,
+          "quote": "Cloud & AI revenue was $11.3 billion, up 68.6% from the prior-year period, with 18.4% operating profit margin, compared to 9.3% from the prior-year period."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "HPE raised its FY 2027 revenue growth outlook to 27 %–35 %, targeting total revenue of $59.4 billion to $63.1 billion.",
+          "document": "EX-99.1",
+          "line": 54,
+          "quote": "HPE is raising its FY27 revenue growth outlook range to 27% to 35%, representing $59.4 billion to $63.1 billion in revenue."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management states it will continue to invest heavily in R&D, spending $2.5 billion in FY 2025 to sustain product innovation.",
+          "document": "10-K",
+          "line": 220,
+          "quote": "Expenditures for R&D were $2.5 billion in fiscal 2025, $2.2 billion fiscal 2024, and $2.3 billion in fiscal 2023."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The Juniper Networks integration is expected to expand R&D scale and go‑to‑market reach, accelerating networking innovation.",
+          "document": "10-K",
+          "line": 181,
+          "quote": "We expect the integration of Juniper Networks will also bring expanded R&D scale and go‑to‑market reach, enabling faster innovation across networking, silicon, systems, and software."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Risk disclosures note reliance on single‑source suppliers (e.g., Intel, AMD, Broadcom, NVIDIA) and that disruptions could delay production and affect margins.",
+          "document": "10-K",
+          "line": 206,
+          "quote": "We rely on single‑source suppliers for certain customized parts (although some of these sources have operations in multiple locations in the event of a disruption) and a disruption or loss of a single‑source supplier could delay production of some products."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Judgment: HPE should prioritize bundling AI‑native networking with its Cloud & AI services to capture high‑margin AI data‑center contracts, a hypothesis that can be tested by tracking win‑rate and average deal size in AI‑driven workloads.",
+          "document": "10-K",
+          "line": 181,
+          "quote": "AI-native networking leadership. With the acquisition of Juniper Networks, HPE now has a full‑stack portfolio spanning campus and branch, data center switches, wide‑area routing, and secure access services edge (“SASE”) solutions."
+        }
+      ],
+      "gaps": [
+        "No explicit evidence in the supplied filing quantifies the expected revenue impact of the Juniper integration; the claim about future market share growth remains a management statement."
+      ],
+      "insight": "Insight: HPE reorganized its reporting segments at the start of fiscal 2026, merging Server, Hybrid Cloud and Financial Services into a new Cloud & AI segment — 10-K line 177: Effective at the beginning of the first quarter of fiscal 2026, HPE implemented an organizational change by (i) merging the Server, Hybrid Cloud, and Financial Services business segments into a new segment named Cloud & AI and (ii) transferring the Telco and Instant On businesses from the Networking segment to the Corporate Investments and Other segment."
+    },
+    "financial": {
+      "observations": [
+        "The financial data extracted from the Form 10‑K pertain to the fiscal year ending October 31 2025, while the news release reports fourth‑quarter results for fiscal 2026 (the quarter ending the same calendar date a year later). Because the reporting periods differ, any direct comparison of the annual metrics to the quarterly headline must be qualified by the differing time frames and the impact of the recent acquisition of Juniper Networks, which alters segment composition.",
+        "Key concepts such as total revenue, operating income, net income and diluted EPS are defined by the US‑GAAP tags indicated (us‑gaap:Revenues, us‑gaap:OperatingIncomeLoss, us‑gaap:NetIncomeLoss, us‑gaap:EarningsPerShareDiluted). The numbers supplied are tied to the SEC filing accession 0001645590‑25‑000130 and reflect the company’s own reporting definitions; external datasets that match these figures are noted as numeric matches but still require independent verification of definition equivalence.",
+        "The calculator output shows an operating margin that is negative for FY 2025, yet the quarterly release describes “margin expansion” and a “record operating profit” for the fourth quarter of FY 2026. This contrast highlights a limitation: the quarterly narrative refers to non‑GAAP operating profit and includes the effect of the Juniper integration, while the annual figures are pure GAAP. Without a detailed reconciliation, the two sets of numbers cannot be directly aligned.",
+        "No market price, price date or source for Hewlett Packard Enterprise’s shares is present in the supplied material, so a price‑to‑earnings multiple or any valuation metric cannot be computed or discussed.",
+        "Peer data are absent; therefore peer‑company comparisons are not possible.",
+        "Debt‑to‑equity and free‑cash‑flow calculations are missing because the long‑term debt tags cannot be safely mapped to the provider’s fields, and the cash‑flow statement does not disclose capital‑expenditure detail needed for free‑cash‑flow.",
+        "The release’s first paragraph merely states the announcement of the fourth‑quarter results and provides no quantitative context, limiting the ability to infer performance trends without consulting the detailed tables that follow."
+      ],
+      "gaps": [
+        "Missing share price and date prevents any valuation multiples.",
+        "Absence of comparable peer facts blocks benchmarking against competitors.",
+        "The long‑term debt tags lack a reliable mapping, leaving leverage ratios undefined.",
+        "Free‑cash‑flow cannot be derived because property‑and‑equipment additions are not reported."
+      ],
+      "insight": "Insight: The Hybrid Cloud reporting unit carries significant goodwill and is still transitioning to a cloud‑native, software‑defined platform, meaning that revenue and operating‑income growth from higher‑margin software and services will be recognized in future periods — 10‑K line 826: \"The Hybrid Cloud reporting unit has remaining goodwill of $3.3 billion as of October 31, 2025 and an excess of fair value over carrying value of 0% as of the annual test date. Hybrid Cloud business is transitioning to a more cloud‑native, software‑defined platform with HPE Alletra. Translating this growth to revenue and operating income will take time because a greater mix of high margin business, such as ratable software and services, are deferred and recognized in future periods.\""
+    },
+    "advisor": {
+      "recommendation": "Insufficient evidence",
+      "thesis": "The company reports compelling momentum in its newly formed Cloud & AI segment, including double‑digit revenue acceleration and a marked lift in that segment’s operating margin. However, the broader GAAP operating picture remains negative, and the filing provides limited forward‑looking financial guidance, no share‑price information, and no peer comparison. The strategic re‑organization and AI‑native networking positioning are promising, yet the current data set does not allow a confident determination of whether the upside from these initiatives outweighs the integration and supply‑chain risks. Consequently, there is not enough quantitative grounding to endorse a definitive buy, hold, or sell stance.",
+      "deciding_metric": "revenue_growth_percent",
+      "risks": [
+        "Integration risk from the Juniper Networks acquisition that could delay anticipated synergies and margin expansion.",
+        "Dependence on single‑source suppliers for critical components, exposing the company to supply‑chain disruptions and potential margin pressure.",
+        "Negative overall GAAP operating margin on an annual basis, indicating that profitability may not yet reflect the strong segment growth cited in the quarterly release.",
+        "Absence of market price data and peer benchmarks, limiting the ability to assess valuation or relative performance."
+      ],
+      "insight": ""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 17,
+      "text": "HOUSTON – November 23, 2026 – HPE (NYSE: HPE) today announced financial results for the fourth quarter ended October 31, 2026.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "HPE",
+        "name": "Hewlett Packard Enterprise Co",
+        "cik": 1645590,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-23",
+      "retrieved_at": "2026-11-23T17:21:56.331857-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001645590.json",
+      "fiscal_year_end": "2025-10-31",
+      "prior_fiscal_year_end": "2024-10-31",
+      "preferred_10k_accession": "0001645590-25-000130",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:Revenues",
+          "unit": "USD",
+          "current": {
+            "val": 34296000000,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 30127000000,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": -437000000,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2190000000,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 57000000,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2579000000,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": -0.04,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1.93,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 24688000000,
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 24816000000,
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebt",
+          "unit": "USD",
+          "current": {
+            "val": 21748000000,
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 17660000000,
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": {
+            "val": 3796000000,
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 3969000000,
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 2919000000,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 4341000000,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": null,
+          "unit": "USD",
+          "current": null,
+          "prior": null
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "13.83808543831114946725528596",
+      "operating_margin_percent": "-1.274201073011429904362024726",
+      "return_on_average_equity_percent": "0.2302844214608920491273432450",
+      "debt_to_equity": null,
+      "free_cash_flow_usd": null,
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebt"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-23T17:21:57.016512-05:00",
+      "analysis_date": "2026-11-23",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 34296000000,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "HPE",
+            "report_period": "2025-10-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2025-12-18",
+            "accession_number": "0001645590-25-000130",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/0001645590-25-000130-index.htm",
+            "value": "34296000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 30127000000,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -437000000,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "HPE",
+            "report_period": "2025-10-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2025-12-18",
+            "accession_number": "0001645590-25-000130",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/0001645590-25-000130-index.htm",
+            "value": "-437000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2190000000,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 57000000,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "HPE",
+            "report_period": "2025-10-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2025-12-18",
+            "accession_number": "0001645590-25-000130",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/0001645590-25-000130-index.htm",
+            "value": "57000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2579000000,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": -0.04,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "HPE",
+            "report_period": "2025-10-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2025-12-18",
+            "accession_number": "0001645590-25-000130",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/0001645590-25-000130-index.htm",
+            "value": "-0.04"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 1.93,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 24688000000,
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "HPE",
+            "report_period": "2025-10-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2025-12-18",
+            "accession_number": "0001645590-25-000130",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/0001645590-25-000130-index.htm",
+            "value": "24688000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 24816000000,
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebt",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 21748000000,
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebt",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 17660000000,
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3796000000,
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3969000000,
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2919000000,
+            "start": "2024-11-01",
+            "end": "2025-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "HPE",
+            "report_period": "2025-10-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2025-12-18",
+            "accession_number": "0001645590-25-000130",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/0001645590-25-000130-index.htm",
+            "value": "2919000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 4341000000,
+            "start": "2023-11-01",
+            "end": "2024-10-31",
+            "accn": "0001645590-25-000130",
+            "filed": "2025-12-18",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": null,
+          "sec_unit": "USD",
+          "sec_fact": null,
+          "status": "not_comparable",
+          "reason": "SEC fact is unavailable."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 6 includes a number that is not present in its quoted line.",
+        "Claim 8 includes a number that is not present in its quoted line.",
+        "Claim 10 has an invalid or non-verbatim document line and quote.",
+        "Claim 11 has an invalid or non-verbatim document line and quote.",
+        "Claim 12 has an invalid or non-verbatim document line and quote."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line.",
+        "Financial observations contain digits."
+      ],
+      "advisor_issues": [
+        "No Insight line was supplied."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

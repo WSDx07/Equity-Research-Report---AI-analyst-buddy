@@ -1,0 +1,124 @@
+{
+  "marks": [
+    {
+      "line": 34,
+      "value": "34296000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:Revenues for FY2025 (2024‑11‑01 to 2025‑10‑31) has value 34296000000 USD, matching the reported number."
+    },
+    {
+      "line": 35,
+      "value": "30127000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:Revenues for FY2024 (2023‑11‑01 to 2024‑10‑31) has value 30127000000 USD, matching the reported number."
+    },
+    {
+      "line": 36,
+      "value": "-437000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:OperatingIncomeLoss for FY2025 (2024‑11‑01 to 2025‑10‑31) has value -437000000 USD, matching the reported number."
+    },
+    {
+      "line": 37,
+      "value": "2190000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:OperatingIncomeLoss for FY2024 (2023‑11‑01 to 2024‑10‑31) has value 2190000000 USD, matching the reported number."
+    },
+    {
+      "line": 38,
+      "value": "57000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:NetIncomeLoss for FY2025 (2024‑11‑01 to 2025‑10‑31) has value 57000000 USD, matching the reported number."
+    },
+    {
+      "line": 39,
+      "value": "2579000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:NetIncomeLoss for FY2024 (2023‑11‑01 to 2024‑10‑31) has value 2579000000 USD, matching the reported number."
+    },
+    {
+      "line": 40,
+      "value": "-0.04 USD/share",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:EarningsPerShareDiluted for FY2025 (2024‑11‑01 to 2025‑10‑31) has value -0.04 USD per share, matching the reported number."
+    },
+    {
+      "line": 41,
+      "value": "1.93 USD/share",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:EarningsPerShareDiluted for FY2024 (2023‑11‑01 to 2024‑10‑31) has value 1.93 USD per share, matching the reported number."
+    },
+    {
+      "line": 42,
+      "value": "24688000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:StockholdersEquity for FY2025 (as of 2025‑10‑31) has value 24688000000 USD, matching the reported number."
+    },
+    {
+      "line": 43,
+      "value": "24816000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:StockholdersEquity for FY2024 (as of 2024‑10‑31) has value 24816000000 USD, matching the reported number."
+    },
+    {
+      "line": 44,
+      "value": "21748000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:LongTermDebt for FY2025 (as of 2025‑10‑31) has value 21748000000 USD, matching the reported number."
+    },
+    {
+      "line": 45,
+      "value": "17660000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:LongTermDebt for FY2024 (as of 2024‑10‑31) has value 17660000000 USD, matching the reported number."
+    },
+    {
+      "line": 46,
+      "value": "3796000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:LongTermDebtCurrent for FY2025 (as of 2025‑10‑31) has value 3796000000 USD, matching the reported number."
+    },
+    {
+      "line": 47,
+      "value": "3969000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:LongTermDebtCurrent for FY2024 (as of 2024‑10‑31) has value 3969000000 USD, matching the reported number."
+    },
+    {
+      "line": 48,
+      "value": "2919000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:NetCashProvidedByUsedInOperatingActivities for FY2025 (2024‑11‑01 to 2025‑10‑31) has value 2919000000 USD, matching the reported number."
+    },
+    {
+      "line": 49,
+      "value": "4341000000 USD",
+      "supported": true,
+      "reason": "Saved XBRL fact us-gaap:NetCashProvidedByUsedInOperatingActivities for FY2024 (2023‑11‑01 to 2024‑10‑31) has value 4341000000 USD, matching the reported number."
+    },
+    {
+      "line": 50,
+      "value": "13.84 %",
+      "supported": true,
+      "reason": "Calculated revenue growth as (34,296,000,000 – 30,127,000,000) / 30,127,000,000 = 0.1384 = 13.84 %; inputs are the supported revenue facts from lines 34‑35."
+    },
+    {
+      "line": 51,
+      "value": "-1.27 %",
+      "supported": true,
+      "reason": "Calculated operating margin as –437,000,000 / 34,296,000,000 = ‑0.01274 = ‑1.27 %; inputs are the supported operating‑income and revenue facts from lines 36 and 34."
+    },
+    {
+      "line": 52,
+      "value": "0.23 %",
+      "supported": true,
+      "reason": "Average equity = (24,688,000,000 + 24,816,000,000) / 2 = 24,752,000,000. Return = 57,000,000 / 24,752,000,000 = 0.00230 = 0.23 %; inputs are the supported net‑income fact (line 38) and equity facts (lines 42‑43)."
+    },
+    {
+      "line": 76,
+      "value": "-1.27 %",
+      "supported": true,
+      "reason": "Same calculation as line 51; uses the same supported operating‑income and revenue facts, therefore the result is correctly reported."
+    }
+  ]
+}

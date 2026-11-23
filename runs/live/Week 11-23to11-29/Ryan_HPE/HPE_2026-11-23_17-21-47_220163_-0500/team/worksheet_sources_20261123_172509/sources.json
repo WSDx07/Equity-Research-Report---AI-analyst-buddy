@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "ticker": "HPE",
+  "company_name": "Hewlett Packard Enterprise Co",
+  "cik": "0001645590",
+  "as_of": "2026-11-23",
+  "prepared_at": "2026-11-23T22:25:09.533997+00:00",
+  "saved_run": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/HPE_2026-11-23_17-21-47_220163_-0500/team",
+  "facts_file": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/HPE_2026-11-23_17-21-47_220163_-0500/team/facts.json",
+  "filings_file": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/HPE_2026-11-23_17-21-47_220163_-0500/team/filings.json",
+  "registry_file": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/HPE_2026-11-23_17-21-47_220163_-0500/seeker/registry-2026-11-13_22-39-11_137090_-0500_ddc00b3d.json",
+  "registry_present": false,
+  "registry_facts": {},
+  "parent_cik": null,
+  "distribution_date": null,
+  "registration_accession": null,
+  "distribution_filing_documents": [],
+  "live_release": {
+    "run": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/HPE_2026-11-23_17-21-47_220163_-0500/team",
+    "ticker": "HPE",
+    "cik": "0001645590",
+    "form": "8-K",
+    "filing_date": "2026-11-23",
+    "accession": "000164559026000097",
+    "filing_time": {
+      "value": "2026-11-23T21:12:08+00:00",
+      "source": "SEC submissions acceptanceDateTime"
+    },
+    "documents": [
+      {
+        "form": "live_release_8-K",
+        "accession": "000164559026000097",
+        "name": "HPE_8-K_0001645590-26-000097.txt",
+        "url": "saved agent-team filing",
+        "path": "worksheet_sources_20261123_172509/saved_000164559026000097_HPE_8-K_0001645590-26-000097.txt",
+        "kind": "reused saved filing"
+      }
+    ]
+  },
+  "live_run_source_files": [],
+  "run_filing_texts": [
+    "HPE_10-K_0001645590-25-000130.txt",
+    "HPE_10-K_0001645590-25-000130.txt",
+    "HPE_10-Q_0001645590-26-000080.txt",
+    "HPE_10-Q_0001645590-26-000080.txt"
+  ],
+  "first_company_filings_after_spin": [],
+  "parent_filings_after_spin": [],
+  "saved_source_documents": [
+    {
+      "form": "live_release_8-K",
+      "accession": "000164559026000097",
+      "name": "HPE_8-K_0001645590-26-000097.txt",
+      "url": "saved agent-team filing",
+      "path": "worksheet_sources_20261123_172509/saved_000164559026000097_HPE_8-K_0001645590-26-000097.txt",
+      "kind": "reused saved filing"
+    }
+  ],
+  "form4_purchase_transactions": 0,
+  "form4_purchase_file": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/HPE_2026-11-23_17-21-47_220163_-0500/team/worksheet_sources_20261123_172509/form4_purchases.json",
+  "form4_coverage": {
+    "filing_count_checked": 0,
+    "first_filing_date": null,
+    "last_filing_date": null,
+    "scope": "Form 4 filings in the saved run filing list, through the saved run analysis date"
+  },
+  "errors": [],
+  "limitations": [
+    "This command collects and saves sources only; it does not extract worksheet facts, calculate values, call a model, or create a report.",
+    "A missing or conflicting fact stays not known. Registry presence is distinct from an absent CIK entry.",
+    "The saved agent run may not include every filing. The worksheet must state the saved filing-list coverage."
+  ]
+}
