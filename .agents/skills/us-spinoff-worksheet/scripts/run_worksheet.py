@@ -287,6 +287,8 @@ def run(args, prepare=prepare_worksheet.prepare, judge=model_judgment):
     target['parent_after_spin'] = worksheet_evidence.extract_parent_after_spin(
         args.run, manifest, prepare_worksheet.registry_value(target['registry'], 'distribution_date'),
         target['as_of']) if target['present'] else None
+    # An input the worksheet cannot print with its source scale is dropped before any calculation uses it.
+    marked_worksheet.drop_unprintable_inputs(target)
     calculated = worksheet_math.calculate(target['inputs'], rules)
     release = manifest.get('live_release') or {}
     raw_time = (release.get('filing_time') or {}).get('value')
@@ -299,6 +301,7 @@ def run(args, prepare=prepare_worksheet.prepare, judge=model_judgment):
     # Without an acceptance time there is no defensible pre-release close.
     live = snapshot(live_run, registry, args.live_bars or (args.bars if not args.live_run else None), cutoff=cutoff if cutoff else False)
     live['release_facts'] = worksheet_evidence.extract_release_facts(args.run, release)
+    marked_worksheet.drop_unprintable_inputs(live)
     live_calculated = worksheet_math.calculate(live['inputs'], rules)
     filing_inputs = {key: value for key, value in target['inputs']['inputs'].items() if key != 'market_price'}
     live_filing_inputs = {key: value for key, value in live['inputs']['inputs'].items() if key != 'market_price'}

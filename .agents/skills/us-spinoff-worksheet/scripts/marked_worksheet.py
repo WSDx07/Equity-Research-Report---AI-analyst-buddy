@@ -52,13 +52,40 @@ def _source_amount(item, run, *, allow_magnitude=False):
     return candidates[0]
 
 
+UNPRINTABLE = 'not known (the printed amount and scale were not established on the cited filing line).'
+
+
+def drop_unprintable_inputs(bundle):
+    """Remove filing inputs whose printed amount and scale cannot be shown, before any calculation uses them.
+
+    A dropped input is listed in material_unknowns, so the worksheet says what is missing and the desk still finishes.
+    """
+    inputs = bundle['inputs']['inputs']
+    dropped = []
+    for key, item in list(inputs.items()):
+        if key == 'market_price' or not isinstance(item, dict) or not item.get('source_file'):
+            continue
+        try:
+            _source_amount(item, bundle['run'], allow_magnitude=key == 'capital_spending')
+        except (ValueError, KeyError, TypeError):
+            inputs.pop(key)
+            dropped.append(key)
+    if dropped:
+        bundle['inputs'].setdefault('material_unknowns', []).extend(
+            f'{key.replace("_", " ")} (printed amount and scale not established)' for key in dropped)
+    return dropped
+
+
 def _filing(label, item, run, source_run='target'):
     if not item:
         return f'- {label}: not known (not established by the automatic reader).'
     for field in ('value', 'unit', 'tag', 'period', 'filing', 'section', 'source_file', 'line'):
         if item.get(field) in (None, ''):
             raise ValueError(f'{label} is missing source field {field}')
-    raw, _, scale = _source_amount(item, run, allow_magnitude=label.casefold().endswith('capital spending'))
+    try:
+        raw, _, scale = _source_amount(item, run, allow_magnitude=label.casefold().endswith('capital spending'))
+    except ValueError:
+        return f'- {label}: {UNPRINTABLE}'
     wanted = Decimal(str(item['value']))
     sign = ' sign=magnitude' if raw < 0 and wanted >= 0 else ''
     shown = abs(raw) if sign else raw
