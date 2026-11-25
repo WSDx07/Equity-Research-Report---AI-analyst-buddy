@@ -341,7 +341,8 @@ def run(ticker_arg: str, screen_start: str | None) -> Path:
             seek_dir.mkdir()
             config = json.loads((ROOT / "spinoff_factors.json").read_text(encoding="utf-8"))
             start_date = date.fromisoformat(screen_start) if screen_start else date.today() - timedelta(days=int(config["window_days"]))
-            python = Path.home() / ".codex" / "venvs" / "us-spinoff-lseg" / "Scripts" / "python.exe"
+            venv = Path.home() / ".codex" / "venvs" / "us-spinoff-lseg"
+            python = next((p for p in (venv / "Scripts" / "python.exe", venv / "bin" / "python") if p.is_file()), venv / "missing")
             seeker_python = str(python) if python.is_file() else sys.executable
             seek_output, elapsed = run_command("seeker", [seeker_python, "-u", str(SEEKER), "--start", start_date.isoformat(),
                 "--config", str(ROOT / "spinoff_factors.json"), "--env", str(ROOT / ".env"), "--output", str(seek_dir)], announce=False)

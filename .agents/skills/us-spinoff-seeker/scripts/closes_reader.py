@@ -6,6 +6,7 @@ Raw data should remain outside the repository and language-model inputs.
 from __future__ import annotations
 
 import csv
+import ssl
 import hashlib
 import json
 from datetime import date, datetime, time, timedelta
@@ -15,6 +16,15 @@ from zoneinfo import ZoneInfo
 from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 
+
+def _https_context():
+    # python.org Python on macOS has no CA certificates for urllib; use certifi's bundle when it is installed.
+    try:
+        import certifi
+    except ImportError:
+        return ssl.create_default_context()
+    return ssl.create_default_context(cafile=certifi.where())
+
 EASTERN = ZoneInfo('America/New_York')
 
 
@@ -23,7 +33,7 @@ def financial_datasets_prices(key, ticker, start, end, fetch=None):
     if not key or not ticker: raise ValueError('API key and ticker are required')
     if date.fromisoformat(end) < date.fromisoformat(start): raise ValueError('Invalid date range')
     def default_fetch(url,headers):
-        with urlopen(Request(url,headers=headers),timeout=30) as response:
+        with urlopen(Request(url,headers=headers),timeout=30,context=_https_context()) as response:
             return json.load(response)
     fetch=fetch or default_fetch
     query=urlencode({'ticker':ticker,'interval':'day','start_date':start,'end_date':end})

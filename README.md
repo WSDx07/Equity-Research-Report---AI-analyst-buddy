@@ -16,13 +16,25 @@ The current TSN/GEV record is `runs/live/Week 11-16to11-22/Shlok_TSN_GEV/report.
 
 You need Python 3.12, network access, a Purdue GenAI Studio API key, and an SEC user agent that identifies you and includes contact information. Model and data requests may incur charges.
 
-From the repository folder in PowerShell:
+From the repository folder in PowerShell (Windows):
 
 ```powershell
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 Copy-Item .env.example .env
 ```
+
+From the repository folder in Terminal (macOS or Linux):
+
+```bash
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+cp .env.example .env
+```
+
+On macOS and Linux, every command below that starts with `.\.venv\Scripts\python.exe` runs as `.venv/bin/python` instead, and paths use `/` in place of `\`. Example: `.venv/bin/python one_desk.py YOUR_TICKER`. If `python3.12` is not found, install Python 3.12 from python.org or Homebrew first.
+
+LSEG is optional. Without LSEG Workspace and the `lseg-data` library, the desk still runs end to end: the agent team, worksheet, and hook finish, and price-based worksheet comparisons say `not computed`. Leave `LSEG_APP_KEY` empty in `.env` in that case.
 
 Open `.env` in a text editor. Set `PURDUE_API_KEY` and replace `SEC_USER_AGENT` with your name and email address. Optionally set `PURDUE_MODEL` and `FINDATA_API_KEY`; without the latter, the Financial Datasets cross-check is recorded as unavailable. Keep `.env` private. The desk reads its settings from this file.
 
@@ -32,6 +44,10 @@ Start the browser interface:
 
 ```powershell
 .\.venv\Scripts\python.exe desk_ui.py
+```
+
+```bash
+.venv/bin/python desk_ui.py
 ```
 
 Open <http://127.0.0.1:8765/> if it does not open automatically. Enter a ticker or `screen`. Keep the terminal open while the desk runs; press Ctrl+C to stop the server.

@@ -1,5 +1,5 @@
 ﻿from __future__ import annotations
-import argparse, copy, gzip, hashlib, http.client, json, math, os, re, tempfile, time, urllib.request, uuid
+import argparse, copy, gzip, hashlib, http.client, json, math, os, re, ssl, tempfile, time, urllib.request, uuid
 from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
@@ -12,6 +12,14 @@ def decode_sec_text(data,charset=None):
     try: return data.decode('utf-8')
     except UnicodeDecodeError: return data.decode('cp1252')
 
+def https_context():
+    # python.org Python on macOS has no CA certificates for urllib; use certifi's bundle when it is installed.
+    try:
+        import certifi
+    except ImportError:
+        return ssl.create_default_context()
+    return ssl.create_default_context(cafile=certifi.where())
+
 class NoAutomaticRedirects(urllib.request.HTTPRedirectHandler):
     def redirect_request(self,req,fp,code,msg,headers,newurl):
         return None
@@ -23,7 +31,7 @@ class SecClient:
         if not user_agent.strip(): raise ValueError('SEC_USER_AGENT is required in .env')
         self.headers={'User-Agent':user_agent, 'Accept-Encoding':'identity'}
         self.last=0.0
-        self.opener=urllib.request.build_opener(NoAutomaticRedirects())
+        self.opener=urllib.request.build_opener(NoAutomaticRedirects(), urllib.request.HTTPSHandler(context=https_context()))
         self.filing_reads={}
     def get(self,url):
         if not re.match(r'^https://(?:www\.sec\.gov|data\.sec\.gov)/',url): raise ValueError('SEC hosts only')

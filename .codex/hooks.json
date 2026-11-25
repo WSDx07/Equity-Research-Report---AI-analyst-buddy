@@ -1,5 +1,5 @@
 {
-  "description": "Staged Lab 07 worksheet number check. Review this file and the hook source before copying it into .codex/hooks.json.",
+  "description": "Lab 07 worksheet number check. The command runs `python`, so start Codex with the .venv active (macOS/Linux: source .venv/bin/activate; Windows: .\\.venv\\Scripts\\Activate.ps1).",
   "hooks": {
     "PostToolUse": [
       {
