@@ -10,7 +10,7 @@
   "view_direction": "less than price",
   "first_post_filing_close_date": "2026-11-24",
   "view_after_first_close": true,
-  "commit_time": null,
+  "commit_time": "2026-11-24T20:21:02-05:00",
   "worksheet": "worksheet.md",
   "worksheet_guard_passed": true,
   "live_run": "one_desk_runs/DLTR_2026-11-24_19-42-18_082054_-0500/team",
@@ -30,5 +30,7 @@
   "live_owner_cash_flow_usd": "1299000000",
   "spinoff_low_case_value_per_share_usd": "21.48711943793911007025761124",
   "spinoff_owner_cash_flow_usd": "367000000",
-  "worksheet_source_review": "Financial inputs manually checked against saved SEC 10-K and 10-Q statement lines"
+  "worksheet_source_review": "Financial inputs manually checked against saved SEC 10-K and 10-Q statement lines",
+  "commit_hash": "dedc2a924d48526c788fad27f3c4914c0fd8fda6",
+  "commit_time_source": "git commit metadata"
 }

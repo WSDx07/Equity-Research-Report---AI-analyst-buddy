@@ -20,5 +20,5 @@ This folder contains the weekly DLTR live-release record and SOLV spinoff worksh
 - Worksheet numeric source and calculation guard: passed.
 - DLTR view: less than price under the Lab 07 low-case rule.
 - DLTR timing: recorded within 24 hours of filing, but after the first post-filing close.
-- Commit time: not recorded; the work is not committed.
+- The original run artifacts were committed as dedc2a9 at 8:21:02 p.m. ET. The follow-up metadata and Checkpoint 3 edits are pending.
 - Saved desk verifier results still contain unsupported claims that need review.

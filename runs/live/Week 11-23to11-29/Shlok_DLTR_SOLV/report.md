@@ -10,8 +10,8 @@ Selected companies: Dollar Tree (DLTR), live release; Solventum (SOLV), spinoff 
 
 | Report | Filing time (Eastern) | View time (Eastern) | Inside 24-hour window? | Before first post-filing close? | Commit time |
 |---|---|---|---|---|---|
-| DLTR earnings 8-K | Nov. 24, 2026, 6:30:42 a.m. | Nov. 24, 2026, 8:14:45 p.m. | Yes; 13 hours, 44 minutes, 3 seconds after filing. | No. It was recorded after the Nov. 24 close. | Not committed; no commit time recorded. |
-| SOLV spinoff worksheet | SOLV Form 10-K filed Feb. 27, 2026; Q3 Form 10-Q filed Nov. 5, 2026. | Nov. 24, 2026, 8:14:45 p.m. | Not a response to a SOLV release this week. | Not applicable. | Not committed; no commit time recorded. |
+| DLTR earnings 8-K | Nov. 24, 2026, 6:30:42 a.m. | Nov. 24, 2026, 8:14:45 p.m. | Yes; 13 hours, 44 minutes, 3 seconds after filing. | No. It was recorded after the Nov. 24 close. | Commit dedc2a9, Nov. 24, 2026, 8:21:02 p.m. ET. |
+| SOLV spinoff worksheet | SOLV Form 10-K filed Feb. 27, 2026; Q3 Form 10-Q filed Nov. 5, 2026. | Nov. 24, 2026, 8:14:45 p.m. | Not a response to a SOLV release this week. | Not applicable. | Commit dedc2a9, Nov. 24, 2026, 8:21:02 p.m. ET. |
 
 DLTR reported Q3 total revenue of $5,078.4 million and diluted EPS of $1.24. The release says EPS included a $0.42 cost from tariff reinvestments. These are reported figures from the [DLTR earnings release, Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/935703/000093570326000136/).
 
@@ -29,7 +29,7 @@ The SOLV worksheet uses the latest trailing twelve months available in the saved
 - [DLTR team report](team-report.md). Its saved verifier output marked 23 claims correct and 7 unsupported.
 - [DLTR full desk run](../../../../one_desk_runs/DLTR_2026-11-24_19-42-18_082054_-0500/final_report.md) and [SOLV full desk run](../../../../one_desk_runs/SOLV_2026-11-24_19-42-18_082054_-0500/final_report.md). The SOLV desk run's registry did not contain SOLV, so its own spinoff fields say not applicable. The weekly worksheet uses the separately saved week-level registry and cited SEC filings.
 - The SOLV team verifier marked 24 claims correct and 14 unsupported. Those counts apply to the saved team report, not to the manually sourced weekly worksheet. They remain review flags, not proof that the claims are wrong or right.
-- [Run metadata](run_info.json) records filing and view times, the post-close status, and the missing commit time.
+- [Run metadata](run_info.json) records filing and view times, the post-close status, and the commit time.
 - The source pack manifest and accession-level retrieval gaps are in [sources.json](../../../../one_desk_runs/SOLV_2026-11-24_19-42-18_082054_-0500/team/worksheet_sources_20261124_194449/sources.json). The worksheet's metadata points to the saved runs and reader exports.
 
 ## Remaining source gaps
