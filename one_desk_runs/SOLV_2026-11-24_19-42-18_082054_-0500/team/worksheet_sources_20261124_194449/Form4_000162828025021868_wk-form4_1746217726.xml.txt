@@ -1,0 +1,111 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0508</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2025-04-30</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001964738</issuerCik>
+000015 |         <issuerName>Solventum Corp</issuerName>
+000016 |         <issuerTradingSymbol>SOLV</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001222831</rptOwnerCik>
+000022 |             <rptOwnerName>EISENBERG GLENN A</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>2510  CONWAY AVE.</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2>3M CENTER BLDG. 275-6W</rptOwnerStreet2>
+000027 |             <rptOwnerCity>MAPLEWOOD</rptOwnerCity>
+000028 |             <rptOwnerState>MN</rptOwnerState>
+000029 |             <rptOwnerZipCode>55144</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>1</isDirector>
+000034 |             <isOfficer>0</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |         </reportingOwnerRelationship>
+000038 |     </reportingOwner>
+000039 | 
+000040 |     <aff10b5One>0</aff10b5One>
+000041 | 
+000042 |     <nonDerivativeTable></nonDerivativeTable>
+000043 | 
+000044 |     <derivativeTable>
+000045 |         <derivativeTransaction>
+000046 |             <securityTitle>
+000047 |                 <value>Restricted Stock Units</value>
+000048 |             </securityTitle>
+000049 |             <conversionOrExercisePrice>
+000050 |                 <footnoteId id="F1"/>
+000051 |             </conversionOrExercisePrice>
+000052 |             <transactionDate>
+000053 |                 <value>2025-04-30</value>
+000054 |             </transactionDate>
+000055 |             <transactionCoding>
+000056 |                 <transactionFormType>4</transactionFormType>
+000057 |                 <transactionCode>A</transactionCode>
+000058 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000059 |             </transactionCoding>
+000060 |             <transactionAmounts>
+000061 |                 <transactionShares>
+000062 |                     <value>3403</value>
+000063 |                 </transactionShares>
+000064 |                 <transactionPricePerShare>
+000065 |                     <value>0</value>
+000066 |                 </transactionPricePerShare>
+000067 |                 <transactionAcquiredDisposedCode>
+000068 |                     <value>A</value>
+000069 |                 </transactionAcquiredDisposedCode>
+000070 |             </transactionAmounts>
+000071 |             <exerciseDate>
+000072 |                 <footnoteId id="F2"/>
+000073 |             </exerciseDate>
+000074 |             <expirationDate>
+000075 |                 <value>2035-04-30</value>
+000076 |             </expirationDate>
+000077 |             <underlyingSecurity>
+000078 |                 <underlyingSecurityTitle>
+000079 |                     <value>Common Stock</value>
+000080 |                 </underlyingSecurityTitle>
+000081 |                 <underlyingSecurityShares>
+000082 |                     <value>3403</value>
+000083 |                 </underlyingSecurityShares>
+000084 |             </underlyingSecurity>
+000085 |             <postTransactionAmounts>
+000086 |                 <sharesOwnedFollowingTransaction>
+000087 |                     <value>3403</value>
+000088 |                 </sharesOwnedFollowingTransaction>
+000089 |             </postTransactionAmounts>
+000090 |             <ownershipNature>
+000091 |                 <directOrIndirectOwnership>
+000092 |                     <value>D</value>
+000093 |                 </directOrIndirectOwnership>
+000094 |             </ownershipNature>
+000095 |         </derivativeTransaction>
+000096 |     </derivativeTable>
+000097 | 
+000098 |     <footnotes>
+000099 |         <footnote id="F1">Each Restricted Stock Unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the issuer's Class A Common Stock upon settlement.</footnote>
+000100 |         <footnote id="F2">The RSUs shall fully vest on April 30, 2026, subject to continued service through the vesting date.</footnote>
+000101 |     </footnotes>
+000102 | 
+000103 |     <remarks></remarks>
+000104 | 
+000105 |     <ownerSignature>
+000106 |         <signatureName>/s/Breanna L. Wise, attorney-in-fact for Glenn A. Eisenberg</signatureName>
+000107 |         <signatureDate>2025-05-02</signatureDate>
+000108 |     </ownerSignature>
+000109 | </ownershipDocument>
+000110 | </XML>
+000111 | 

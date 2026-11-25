@@ -1,0 +1,348 @@
+000001 | v3.24.1.1.u2
+000002 | Long-Term Debt and Short-Term Borrowings - Schedule of Maturities of Long-Term Debt (Details)
+000003 | $ in Millions
+000004 | Mar. 31, 2024
+000005 | USD ($)
+000006 | Debt Disclosure [Abstract]
+000007 | Remainder of 2024
+000008 | $ 0
+000009 | 2025
+000010 | 500
+000011 | 2026
+000012 | 0
+000013 | 2027
+000014 | 1,980
+000015 | 2028
+000016 | 0
+000017 | 2029
+000018 | 1,500
+000019 | After 2029
+000020 | 4,400
+000021 | Total long-term debt
+000022 | $ 8,380
+000023 | X
+000024 | - References
+000025 | No definition available.
+000026 | + Details
+000027 | Name:
+000028 | us-gaap_DebtDisclosureAbstract
+000029 | Namespace Prefix:
+000030 | us-gaap_
+000031 | Data Type:
+000032 | xbrli:stringItemType
+000033 | Balance Type:
+000034 | na
+000035 | Period Type:
+000036 | duration
+000037 | X
+000038 | - Definition
+000039 | Amount, before unamortized (discount) premium and debt issuance costs, of long-term debt. Includes, but is not limited to, notes payable, bonds payable, commercial loans, mortgage loans, convertible debt, subordinated debt and other types of debt.
+000040 | + References
+000041 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000042 | -Name Accounting Standards Codification
+000043 | -Section S99
+000044 | -Paragraph 1
+000045 | -Subparagraph (SX 210.5-02(22))
+000046 | -SubTopic 10
+000047 | -Topic 210
+000048 | -Publisher FASB
+000049 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000050 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000051 | -Topic 942
+000052 | -SubTopic 210
+000053 | -Name Accounting Standards Codification
+000054 | -Section S99
+000055 | -Paragraph 1
+000056 | -Subparagraph (SX 210.9-03(16))
+000057 | -Publisher FASB
+000058 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000059 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000060 | -Topic 470
+000061 | -SubTopic 20
+000062 | -Name Accounting Standards Codification
+000063 | -Section 50
+000064 | -Paragraph 4
+000065 | -Subparagraph (b)(1)
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-4
+000068 | + Details
+000069 | Name:
+000070 | us-gaap_DebtInstrumentCarryingAmount
+000071 | Namespace Prefix:
+000072 | us-gaap_
+000073 | Data Type:
+000074 | xbrli:monetaryItemType
+000075 | Balance Type:
+000076 | credit
+000077 | Period Type:
+000078 | instant
+000079 | X
+000080 | - Definition
+000081 | Amount of long-term debt payable, sinking fund requirement, and other securities issued that are redeemable by holder at fixed or determinable price and date, maturing after fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000082 | + References
+000083 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000084 | -Topic 235
+000085 | -SubTopic 10
+000086 | -Name Accounting Standards Codification
+000087 | -Section S99
+000088 | -Paragraph 3
+000089 | -Subparagraph (SX 210.12-04(a))
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000092 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000093 | -Name Accounting Standards Codification
+000094 | -Section 50
+000095 | -Paragraph 1
+000096 | -SubTopic 10
+000097 | -Topic 470
+000098 | -Publisher FASB
+000099 | -URI https://asc.fasb.org/1943274/2147481544/470-10-50-1
+000100 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000101 | -Topic 470
+000102 | -SubTopic 20
+000103 | -Name Accounting Standards Codification
+000104 | -Section 50
+000105 | -Paragraph 1E
+000106 | -Subparagraph (d)
+000107 | -Publisher FASB
+000108 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1E
+000109 | + Details
+000110 | Name:
+000111 | us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive
+000112 | Namespace Prefix:
+000113 | us-gaap_
+000114 | Data Type:
+000115 | xbrli:monetaryItemType
+000116 | Balance Type:
+000117 | credit
+000118 | Period Type:
+000119 | instant
+000120 | X
+000121 | - Definition
+000122 | Amount of long-term debt payable, sinking fund requirement, and other securities issued that are redeemable by holder at fixed or determinable price and date, maturing in next fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000123 | + References
+000124 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000125 | -Topic 235
+000126 | -SubTopic 10
+000127 | -Name Accounting Standards Codification
+000128 | -Section S99
+000129 | -Paragraph 3
+000130 | -Subparagraph (SX 210.12-04(a))
+000131 | -Publisher FASB
+000132 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000133 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000134 | -Topic 470
+000135 | -SubTopic 20
+000136 | -Name Accounting Standards Codification
+000137 | -Section 50
+000138 | -Paragraph 1E
+000139 | -Subparagraph (d)
+000140 | -Publisher FASB
+000141 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1E
+000142 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000143 | -Name Accounting Standards Codification
+000144 | -Section 50
+000145 | -Paragraph 1
+000146 | -SubTopic 10
+000147 | -Topic 470
+000148 | -Publisher FASB
+000149 | -URI https://asc.fasb.org/1943274/2147481544/470-10-50-1
+000150 | + Details
+000151 | Name:
+000152 | us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths
+000153 | Namespace Prefix:
+000154 | us-gaap_
+000155 | Data Type:
+000156 | xbrli:monetaryItemType
+000157 | Balance Type:
+000158 | credit
+000159 | Period Type:
+000160 | instant
+000161 | X
+000162 | - Definition
+000163 | Amount of long-term debt payable, sinking fund requirement, and other securities issued that are redeemable by holder at fixed or determinable price and date, maturing in fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000164 | + References
+000165 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000166 | -Topic 235
+000167 | -SubTopic 10
+000168 | -Name Accounting Standards Codification
+000169 | -Section S99
+000170 | -Paragraph 3
+000171 | -Subparagraph (SX 210.12-04(a))
+000172 | -Publisher FASB
+000173 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000174 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000175 | -Topic 470
+000176 | -SubTopic 20
+000177 | -Name Accounting Standards Codification
+000178 | -Section 50
+000179 | -Paragraph 1E
+000180 | -Subparagraph (d)
+000181 | -Publisher FASB
+000182 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1E
+000183 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000184 | -Name Accounting Standards Codification
+000185 | -Section 50
+000186 | -Paragraph 1
+000187 | -SubTopic 10
+000188 | -Topic 470
+000189 | -Publisher FASB
+000190 | -URI https://asc.fasb.org/1943274/2147481544/470-10-50-1
+000191 | + Details
+000192 | Name:
+000193 | us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive
+000194 | Namespace Prefix:
+000195 | us-gaap_
+000196 | Data Type:
+000197 | xbrli:monetaryItemType
+000198 | Balance Type:
+000199 | credit
+000200 | Period Type:
+000201 | instant
+000202 | X
+000203 | - Definition
+000204 | Amount of long-term debt payable, sinking fund requirement, and other securities issued that are redeemable by holder at fixed or determinable price and date, maturing in fourth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000205 | + References
+000206 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000207 | -Topic 235
+000208 | -SubTopic 10
+000209 | -Name Accounting Standards Codification
+000210 | -Section S99
+000211 | -Paragraph 3
+000212 | -Subparagraph (SX 210.12-04(a))
+000213 | -Publisher FASB
+000214 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000215 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000216 | -Topic 470
+000217 | -SubTopic 20
+000218 | -Name Accounting Standards Codification
+000219 | -Section 50
+000220 | -Paragraph 1E
+000221 | -Subparagraph (d)
+000222 | -Publisher FASB
+000223 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1E
+000224 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000225 | -Name Accounting Standards Codification
+000226 | -Section 50
+000227 | -Paragraph 1
+000228 | -SubTopic 10
+000229 | -Topic 470
+000230 | -Publisher FASB
+000231 | -URI https://asc.fasb.org/1943274/2147481544/470-10-50-1
+000232 | + Details
+000233 | Name:
+000234 | us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour
+000235 | Namespace Prefix:
+000236 | us-gaap_
+000237 | Data Type:
+000238 | xbrli:monetaryItemType
+000239 | Balance Type:
+000240 | credit
+000241 | Period Type:
+000242 | instant
+000243 | X
+000244 | - Definition
+000245 | Amount of long-term debt payable, sinking fund requirement, and other securities issued that are redeemable by holder at fixed or determinable price and date, maturing in third fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000246 | + References
+000247 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000248 | -Topic 235
+000249 | -SubTopic 10
+000250 | -Name Accounting Standards Codification
+000251 | -Section S99
+000252 | -Paragraph 3
+000253 | -Subparagraph (SX 210.12-04(a))
+000254 | -Publisher FASB
+000255 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000256 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000257 | -Topic 470
+000258 | -SubTopic 20
+000259 | -Name Accounting Standards Codification
+000260 | -Section 50
+000261 | -Paragraph 1E
+000262 | -Subparagraph (d)
+000263 | -Publisher FASB
+000264 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1E
+000265 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000266 | -Name Accounting Standards Codification
+000267 | -Section 50
+000268 | -Paragraph 1
+000269 | -SubTopic 10
+000270 | -Topic 470
+000271 | -Publisher FASB
+000272 | -URI https://asc.fasb.org/1943274/2147481544/470-10-50-1
+000273 | + Details
+000274 | Name:
+000275 | us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree
+000276 | Namespace Prefix:
+000277 | us-gaap_
+000278 | Data Type:
+000279 | xbrli:monetaryItemType
+000280 | Balance Type:
+000281 | credit
+000282 | Period Type:
+000283 | instant
+000284 | X
+000285 | - Definition
+000286 | Amount of long-term debt payable, sinking fund requirement, and other securities issued that are redeemable by holder at fixed or determinable price and date, maturing in second fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000287 | + References
+000288 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000289 | -Topic 235
+000290 | -SubTopic 10
+000291 | -Name Accounting Standards Codification
+000292 | -Section S99
+000293 | -Paragraph 3
+000294 | -Subparagraph (SX 210.12-04(a))
+000295 | -Publisher FASB
+000296 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000297 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000298 | -Topic 470
+000299 | -SubTopic 20
+000300 | -Name Accounting Standards Codification
+000301 | -Section 50
+000302 | -Paragraph 1E
+000303 | -Subparagraph (d)
+000304 | -Publisher FASB
+000305 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1E
+000306 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000307 | -Name Accounting Standards Codification
+000308 | -Section 50
+000309 | -Paragraph 1
+000310 | -SubTopic 10
+000311 | -Topic 470
+000312 | -Publisher FASB
+000313 | -URI https://asc.fasb.org/1943274/2147481544/470-10-50-1
+000314 | + Details
+000315 | Name:
+000316 | us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo
+000317 | Namespace Prefix:
+000318 | us-gaap_
+000319 | Data Type:
+000320 | xbrli:monetaryItemType
+000321 | Balance Type:
+000322 | credit
+000323 | Period Type:
+000324 | instant
+000325 | X
+000326 | - Definition
+000327 | Amount of long-term debt payable, sinking fund requirement, and other securities issued that are redeemable by holder at fixed or determinable price and date, maturing in remainder of current fiscal year.
+000328 | + References
+000329 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000330 | -Topic 235
+000331 | -SubTopic 10
+000332 | -Name Accounting Standards Codification
+000333 | -Section S99
+000334 | -Paragraph 3
+000335 | -Subparagraph (SX 210.12-04(a))
+000336 | -Publisher FASB
+000337 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000338 | + Details
+000339 | Name:
+000340 | us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalRemainderOfFiscalYear
+000341 | Namespace Prefix:
+000342 | us-gaap_
+000343 | Data Type:
+000344 | xbrli:monetaryItemType
+000345 | Balance Type:
+000346 | credit
+000347 | Period Type:
+000348 | instant

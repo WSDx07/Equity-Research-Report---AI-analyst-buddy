@@ -1,0 +1,384 @@
+000001 | v3.24.1.1.u2
+000002 | Pension and Postretirement Benefit Plans - Components of Net Periodic Cost Recognized in Other Comprehensive Income (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | Mar. 31, 2024
+000006 | Mar. 31, 2023
+000007 | Postretirement Benefits
+000008 | Operating expense
+000009 | Service cost
+000010 | $ 0
+000011 | $ 0
+000012 | Non-operating expense
+000013 | Interest cost
+000014 | 0
+000015 | 0
+000016 | Expected return on plan assets
+000017 | 0
+000018 | 0
+000019 | Total non-operating expense (benefit)
+000020 | 0
+000021 | 0
+000022 | Total net periodic benefit cost (benefit)
+000023 | 0
+000024 | 0
+000025 | United States | Qualified and Non-qualified Pension Benefits
+000026 | Operating expense
+000027 | Service cost
+000028 | 0
+000029 | 0
+000030 | Non-operating expense
+000031 | Interest cost
+000032 | 0
+000033 | 0
+000034 | Expected return on plan assets
+000035 | 0
+000036 | 0
+000037 | Total non-operating expense (benefit)
+000038 | 0
+000039 | 0
+000040 | Total net periodic benefit cost (benefit)
+000041 | 0
+000042 | 0
+000043 | International | Qualified and Non-qualified Pension Benefits
+000044 | Operating expense
+000045 | Service cost
+000046 | 4
+000047 | 0
+000048 | Non-operating expense
+000049 | Interest cost
+000050 | 5
+000051 | 0
+000052 | Expected return on plan assets
+000053 | (5)
+000054 | 0
+000055 | Total non-operating expense (benefit)
+000056 | 0
+000057 | 0
+000058 | Total net periodic benefit cost (benefit)
+000059 | $ 4
+000060 | $ 0
+000061 | X
+000062 | - Definition
+000063 | Net Periodic Benefit Cost (Benefit), Non-Operating Expense
+000064 | + References
+000065 | No definition available.
+000066 | + Details
+000067 | Name:
+000068 | solv_NetPeriodicBenefitCostBenefitNonOperatingExpenseAbstract
+000069 | Namespace Prefix:
+000070 | solv_
+000071 | Data Type:
+000072 | xbrli:stringItemType
+000073 | Balance Type:
+000074 | na
+000075 | Period Type:
+000076 | duration
+000077 | X
+000078 | - Definition
+000079 | Net Periodic Benefit Cost (Benefit), Operating Expense
+000080 | + References
+000081 | No definition available.
+000082 | + Details
+000083 | Name:
+000084 | solv_NetPeriodicBenefitCostBenefitOperatingExpenseAbstract
+000085 | Namespace Prefix:
+000086 | solv_
+000087 | Data Type:
+000088 | xbrli:stringItemType
+000089 | Balance Type:
+000090 | na
+000091 | Period Type:
+000092 | duration
+000093 | X
+000094 | - Definition
+000095 | Amount of expected return (loss) recognized in net periodic benefit (cost) credit, calculated based on expected long-term rate of return and market-related value of plan assets of defined benefit plan.
+000096 | + References
+000097 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000098 | -Topic 715
+000099 | -SubTopic 20
+000100 | -Name Accounting Standards Codification
+000101 | -Section 55
+000102 | -Paragraph 17
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17
+000105 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000106 | -Topic 715
+000107 | -SubTopic 20
+000108 | -Name Accounting Standards Codification
+000109 | -Section 45
+000110 | -Paragraph 3A
+000111 | -Subparagraph (b)
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A
+000114 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000115 | -Topic 715
+000116 | -SubTopic 20
+000117 | -Name Accounting Standards Codification
+000118 | -Section 55
+000119 | -Paragraph 18
+000120 | -Publisher FASB
+000121 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18
+000122 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000123 | -Topic 715
+000124 | -SubTopic 20
+000125 | -Name Accounting Standards Codification
+000126 | -Section 50
+000127 | -Paragraph 1
+000128 | -Subparagraph (h)(3)
+000129 | -Publisher FASB
+000130 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000131 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000132 | -Topic 715
+000133 | -SubTopic 20
+000134 | -Name Accounting Standards Codification
+000135 | -Section 50
+000136 | -Paragraph 6
+000137 | -Subparagraph (a)(3)
+000138 | -Publisher FASB
+000139 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6
+000140 | + Details
+000141 | Name:
+000142 | us-gaap_DefinedBenefitPlanExpectedReturnOnPlanAssets
+000143 | Namespace Prefix:
+000144 | us-gaap_
+000145 | Data Type:
+000146 | xbrli:monetaryItemType
+000147 | Balance Type:
+000148 | credit
+000149 | Period Type:
+000150 | duration
+000151 | X
+000152 | - Definition
+000153 | Amount of cost recognized for passage of time related to defined benefit plan.
+000154 | + References
+000155 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000156 | -Topic 715
+000157 | -SubTopic 20
+000158 | -Name Accounting Standards Codification
+000159 | -Section 55
+000160 | -Paragraph 17
+000161 | -Publisher FASB
+000162 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17
+000163 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000164 | -Topic 715
+000165 | -SubTopic 20
+000166 | -Name Accounting Standards Codification
+000167 | -Section 45
+000168 | -Paragraph 3A
+000169 | -Subparagraph (b)
+000170 | -Publisher FASB
+000171 | -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A
+000172 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000173 | -Topic 715
+000174 | -SubTopic 20
+000175 | -Name Accounting Standards Codification
+000176 | -Section 55
+000177 | -Paragraph 18
+000178 | -Publisher FASB
+000179 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18
+000180 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000181 | -Topic 715
+000182 | -SubTopic 20
+000183 | -Name Accounting Standards Codification
+000184 | -Section 50
+000185 | -Paragraph 1
+000186 | -Subparagraph (a)(2)
+000187 | -Publisher FASB
+000188 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000189 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000190 | -Topic 715
+000191 | -SubTopic 20
+000192 | -Name Accounting Standards Codification
+000193 | -Section 50
+000194 | -Paragraph 1
+000195 | -Subparagraph (h)(2)
+000196 | -Publisher FASB
+000197 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000198 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000199 | -Topic 715
+000200 | -SubTopic 20
+000201 | -Name Accounting Standards Codification
+000202 | -Section 50
+000203 | -Paragraph 6
+000204 | -Subparagraph (a)(2)
+000205 | -Publisher FASB
+000206 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6
+000207 | + Details
+000208 | Name:
+000209 | us-gaap_DefinedBenefitPlanInterestCost
+000210 | Namespace Prefix:
+000211 | us-gaap_
+000212 | Data Type:
+000213 | xbrli:monetaryItemType
+000214 | Balance Type:
+000215 | debit
+000216 | Period Type:
+000217 | duration
+000218 | X
+000219 | - Definition
+000220 | Amount of net periodic benefit cost (credit) for defined benefit plan.
+000221 | + References
+000222 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000223 | -Topic 715
+000224 | -SubTopic 20
+000225 | -Name Accounting Standards Codification
+000226 | -Section 55
+000227 | -Paragraph 17
+000228 | -Publisher FASB
+000229 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17
+000230 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000231 | -Topic 715
+000232 | -SubTopic 20
+000233 | -Name Accounting Standards Codification
+000234 | -Section 55
+000235 | -Paragraph 18
+000236 | -Publisher FASB
+000237 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18
+000238 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000239 | -Topic 715
+000240 | -SubTopic 20
+000241 | -Name Accounting Standards Codification
+000242 | -Section 50
+000243 | -Paragraph 1
+000244 | -Subparagraph (h)
+000245 | -Publisher FASB
+000246 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000247 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000248 | -Topic 715
+000249 | -SubTopic 20
+000250 | -Name Accounting Standards Codification
+000251 | -Section 50
+000252 | -Paragraph 6
+000253 | -Subparagraph (a)
+000254 | -Publisher FASB
+000255 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6
+000256 | + Details
+000257 | Name:
+000258 | us-gaap_DefinedBenefitPlanNetPeriodicBenefitCost
+000259 | Namespace Prefix:
+000260 | us-gaap_
+000261 | Data Type:
+000262 | xbrli:monetaryItemType
+000263 | Balance Type:
+000264 | debit
+000265 | Period Type:
+000266 | duration
+000267 | X
+000268 | - Definition
+000269 | Amount of cost for actuarial present value of benefits attributed to service rendered by employee for defined benefit plan.
+000270 | + References
+000271 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000272 | -Topic 715
+000273 | -SubTopic 20
+000274 | -Name Accounting Standards Codification
+000275 | -Section 55
+000276 | -Paragraph 17
+000277 | -Publisher FASB
+000278 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17
+000279 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000280 | -Topic 715
+000281 | -SubTopic 20
+000282 | -Name Accounting Standards Codification
+000283 | -Section 55
+000284 | -Paragraph 18
+000285 | -Publisher FASB
+000286 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18
+000287 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000288 | -Topic 715
+000289 | -SubTopic 20
+000290 | -Name Accounting Standards Codification
+000291 | -Section 50
+000292 | -Paragraph 1
+000293 | -Subparagraph (a)(1)
+000294 | -Publisher FASB
+000295 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000296 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000297 | -Topic 715
+000298 | -SubTopic 20
+000299 | -Name Accounting Standards Codification
+000300 | -Section 50
+000301 | -Paragraph 1
+000302 | -Subparagraph (h)(1)
+000303 | -Publisher FASB
+000304 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000305 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000306 | -Topic 715
+000307 | -SubTopic 20
+000308 | -Name Accounting Standards Codification
+000309 | -Section 50
+000310 | -Paragraph 6
+000311 | -Subparagraph (a)(1)
+000312 | -Publisher FASB
+000313 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6
+000314 | + Details
+000315 | Name:
+000316 | us-gaap_DefinedBenefitPlanServiceCost
+000317 | Namespace Prefix:
+000318 | us-gaap_
+000319 | Data Type:
+000320 | xbrli:monetaryItemType
+000321 | Balance Type:
+000322 | debit
+000323 | Period Type:
+000324 | duration
+000325 | X
+000326 | - Definition
+000327 | Amount of expense (reversal of expense) for net periodic benefit cost components, excluding service cost component, of defined benefit plan. Amount includes, but is not limited to, interest cost, expected (return) loss on plan asset, amortization of prior service cost (credit), amortization of (gain) loss, amortization of transition (asset) obligation, settlement (gain) loss, curtailment (gain) loss and certain termination benefits.
+000328 | + References
+000329 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000330 | -Topic 715
+000331 | -SubTopic 20
+000332 | -Name Accounting Standards Codification
+000333 | -Section 45
+000334 | -Paragraph 3A
+000335 | -Subparagraph (b)
+000336 | -Publisher FASB
+000337 | -URI https://asc.fasb.org/1943274/2147480535/715-20-45-3A
+000338 | + Details
+000339 | Name:
+000340 | us-gaap_NetPeriodicDefinedBenefitsExpenseReversalOfExpenseExcludingServiceCostComponent
+000341 | Namespace Prefix:
+000342 | us-gaap_
+000343 | Data Type:
+000344 | xbrli:monetaryItemType
+000345 | Balance Type:
+000346 | debit
+000347 | Period Type:
+000348 | duration
+000349 | X
+000350 | - Details
+000351 | Name:
+000352 | us-gaap_RetirementPlanTypeAxis=us-gaap_OtherPostretirementBenefitPlansDefinedBenefitMember
+000353 | Namespace Prefix:
+000354 | Data Type:
+000355 | na
+000356 | Balance Type:
+000357 | Period Type:
+000358 | X
+000359 | - Details
+000360 | Name:
+000361 | us-gaap_RetirementPlanSponsorLocationAxis=country_US
+000362 | Namespace Prefix:
+000363 | Data Type:
+000364 | na
+000365 | Balance Type:
+000366 | Period Type:
+000367 | X
+000368 | - Details
+000369 | Name:
+000370 | us-gaap_RetirementPlanTypeAxis=us-gaap_PensionPlansDefinedBenefitMember
+000371 | Namespace Prefix:
+000372 | Data Type:
+000373 | na
+000374 | Balance Type:
+000375 | Period Type:
+000376 | X
+000377 | - Details
+000378 | Name:
+000379 | us-gaap_RetirementPlanSponsorLocationAxis=us-gaap_ForeignPlanMember
+000380 | Namespace Prefix:
+000381 | Data Type:
+000382 | na
+000383 | Balance Type:
+000384 | Period Type:

@@ -1,0 +1,281 @@
+000001 | v3.26.3
+000002 | Commitments and Contingencies - Combat Arms Earplugs Litigation (Details) - CAE Settlement - Settled Litigation - USD ($)
+000003 | $ in Billions
+000004 | 1 Months Ended
+000005 | 3 Months Ended
+000006 | Aug. 31, 2023
+000007 | Sep. 30, 2023
+000008 | Sep. 30, 2026
+000009 | Dec. 31, 2025
+000010 | Mar. 31, 2024
+000011 | Product Liability Litigation
+000012 | Settlement amount paid
+000013 | $ 6.0
+000014 | Participating claimants in settlement (as a percentage)
+000015 | 99.00%
+000016 | Participation threshold (as a percent)
+000017 | 98.00%
+000018 | Pre-tax charge on product liability
+000019 | $ 4.2
+000020 | Accrual, net
+000021 | $ 1.1
+000022 | $ 5.3
+000023 | Estimated discount interest rate (as a percent)
+000024 | 5.60%
+000025 | Loss contingency accrual
+000026 | $ 1.1
+000027 | $ 2.4
+000028 | Balance Sheet Location [Axis]: us-gaap:OtherLiabilitiesCurrent
+000029 | Product Liability Litigation
+000030 | Loss contingency accrual
+000031 | 0.6
+000032 | 1.4
+000033 | Balance Sheet Location [Axis]: us-gaap:OtherLiabilitiesNoncurrent
+000034 | Product Liability Litigation
+000035 | Loss contingency accrual
+000036 | $ 0.5
+000037 | $ 1.0
+000038 | X
+000039 | - Definition
+000040 | Claimants Participating Percentage In Settlement
+000041 | + References
+000042 | No definition available.
+000043 | + Details
+000044 | Name:
+000045 | mmm_ClaimantsParticipatingPercentageInSettlement
+000046 | Namespace Prefix:
+000047 | mmm_
+000048 | Data Type:
+000049 | dtr-types:percentItemType
+000050 | Balance Type:
+000051 | na
+000052 | Period Type:
+000053 | instant
+000054 | X
+000055 | - Definition
+000056 | Litigation Settlement, Participation Threshold, Percentage
+000057 | + References
+000058 | No definition available.
+000059 | + Details
+000060 | Name:
+000061 | mmm_LitigationSettlementParticipationThresholdPercentage
+000062 | Namespace Prefix:
+000063 | mmm_
+000064 | Data Type:
+000065 | dtr-types:percentItemType
+000066 | Balance Type:
+000067 | na
+000068 | Period Type:
+000069 | instant
+000070 | X
+000071 | - Definition
+000072 | Amount awarded to other party in judgment or settlement of litigation.
+000073 | + References
+000074 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000075 | -Topic 450
+000076 | -SubTopic 20
+000077 | -Name Accounting Standards Codification
+000078 | -Section 50
+000079 | -Paragraph 1
+000080 | -Publisher FASB
+000081 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000082 | + Details
+000083 | Name:
+000084 | us-gaap_LitigationSettlementAmountAwardedToOtherParty
+000085 | Namespace Prefix:
+000086 | us-gaap_
+000087 | Data Type:
+000088 | xbrli:monetaryItemType
+000089 | Balance Type:
+000090 | credit
+000091 | Period Type:
+000092 | duration
+000093 | X
+000094 | - Definition
+000095 | Amount of loss contingency liability.
+000096 | + References
+000097 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000098 | -Topic 450
+000099 | -SubTopic 20
+000100 | -Name Accounting Standards Codification
+000101 | -Section 50
+000102 | -Paragraph 1
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000105 | Reference 2: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000106 | -Topic 450
+000107 | -SubTopic 20
+000108 | -Name Accounting Standards Codification
+000109 | -Section 50
+000110 | -Paragraph 10
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-10
+000113 | + Details
+000114 | Name:
+000115 | us-gaap_LossContingencyAccrualAtCarryingValue
+000116 | Namespace Prefix:
+000117 | us-gaap_
+000118 | Data Type:
+000119 | xbrli:monetaryItemType
+000120 | Balance Type:
+000121 | credit
+000122 | Period Type:
+000123 | instant
+000124 | X
+000125 | - Definition
+000126 | Present value of the estimated aggregate accrual for damages arising from third-party use of the entity's product(s) or process(es) as of the balance sheet date (if the accrual qualifies for discounting).
+000127 | + References
+000128 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000129 | -Topic 450
+000130 | -SubTopic 20
+000131 | -Name Accounting Standards Codification
+000132 | -Section 50
+000133 | -Paragraph 1
+000134 | -Publisher FASB
+000135 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000136 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000137 | -Topic 450
+000138 | -SubTopic 20
+000139 | -Name Accounting Standards Codification
+000140 | -Section S99
+000141 | -Paragraph 1
+000142 | -Subparagraph (SAB Topic 5.Y.Q1)
+000143 | -Publisher FASB
+000144 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000145 | + Details
+000146 | Name:
+000147 | us-gaap_LossContingencyAccrualProductLiabilityNet
+000148 | Namespace Prefix:
+000149 | us-gaap_
+000150 | Data Type:
+000151 | xbrli:monetaryItemType
+000152 | Balance Type:
+000153 | credit
+000154 | Period Type:
+000155 | instant
+000156 | X
+000157 | - Definition
+000158 | The amount of loss reported during the period pertaining to product liability.
+000159 | + References
+000160 | No definition available.
+000161 | + Details
+000162 | Name:
+000163 | us-gaap_ProductLiabilityAccrualPeriodExpense
+000164 | Namespace Prefix:
+000165 | us-gaap_
+000166 | Data Type:
+000167 | xbrli:monetaryItemType
+000168 | Balance Type:
+000169 | debit
+000170 | Period Type:
+000171 | duration
+000172 | X
+000173 | - Definition
+000174 | Rate applied to the undiscounted amount of estimated damages for product liability to arrive at the present value recorded as of the balance sheet date.
+000175 | + References
+000176 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000177 | -Topic 450
+000178 | -SubTopic 20
+000179 | -Name Accounting Standards Codification
+000180 | -Section S99
+000181 | -Paragraph 1
+000182 | -Subparagraph (SAB Topic 5.Y.Q1)
+000183 | -Publisher FASB
+000184 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000185 | + Details
+000186 | Name:
+000187 | us-gaap_ProductLiabilityContingencyAccrualDiscountRate
+000188 | Namespace Prefix:
+000189 | us-gaap_
+000190 | Data Type:
+000191 | dtr-types:percentItemType
+000192 | Balance Type:
+000193 | na
+000194 | Period Type:
+000195 | instant
+000196 | X
+000197 | - Definition
+000198 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000199 | + References
+000200 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000201 | -Topic 450
+000202 | -SubTopic 20
+000203 | -Name Accounting Standards Codification
+000204 | -Section 50
+000205 | -Paragraph 1
+000206 | -Publisher FASB
+000207 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000208 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000209 | -Topic 450
+000210 | -SubTopic 20
+000211 | -Name Accounting Standards Codification
+000212 | -Section 50
+000213 | -Paragraph 9
+000214 | -Subparagraph (b)
+000215 | -Publisher FASB
+000216 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000217 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000218 | -Topic 450
+000219 | -SubTopic 20
+000220 | -Name Accounting Standards Codification
+000221 | -Section 50
+000222 | -Paragraph 4
+000223 | -Subparagraph (b)
+000224 | -Publisher FASB
+000225 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000226 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000227 | -Topic 450
+000228 | -SubTopic 20
+000229 | -Name Accounting Standards Codification
+000230 | -Section S99
+000231 | -Paragraph 1
+000232 | -Subparagraph (SAB Topic 5.Y.Q2)
+000233 | -Publisher FASB
+000234 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000235 | + Details
+000236 | Name:
+000237 | us-gaap_ProductLiabilityContingencyLineItems
+000238 | Namespace Prefix:
+000239 | us-gaap_
+000240 | Data Type:
+000241 | xbrli:stringItemType
+000242 | Balance Type:
+000243 | na
+000244 | Period Type:
+000245 | duration
+000246 | X
+000247 | - Details
+000248 | Name:
+000249 | srt_LitigationCaseAxis=mmm_CAESettlementMember
+000250 | Namespace Prefix:
+000251 | Data Type:
+000252 | na
+000253 | Balance Type:
+000254 | Period Type:
+000255 | X
+000256 | - Details
+000257 | Name:
+000258 | us-gaap_LitigationStatusAxis=us-gaap_SettledLitigationMember
+000259 | Namespace Prefix:
+000260 | Data Type:
+000261 | na
+000262 | Balance Type:
+000263 | Period Type:
+000264 | X
+000265 | - Details
+000266 | Name:
+000267 | us-gaap_StatementOfFinancialPositionLocationBalanceAxis=us-gaap_OtherLiabilitiesCurrent
+000268 | Namespace Prefix:
+000269 | Data Type:
+000270 | na
+000271 | Balance Type:
+000272 | Period Type:
+000273 | X
+000274 | - Details
+000275 | Name:
+000276 | us-gaap_StatementOfFinancialPositionLocationBalanceAxis=us-gaap_OtherLiabilitiesNoncurrent
+000277 | Namespace Prefix:
+000278 | Data Type:
+000279 | na
+000280 | Balance Type:
+000281 | Period Type:

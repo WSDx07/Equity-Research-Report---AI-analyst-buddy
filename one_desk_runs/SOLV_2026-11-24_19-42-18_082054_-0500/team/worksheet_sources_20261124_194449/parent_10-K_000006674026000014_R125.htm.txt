@@ -1,0 +1,178 @@
+000001 | v3.25.4
+000002 | Stock-Based Compensation - Schedule of Stock-Based Compensation Expense (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Amounts recognized in the financial statements
+000009 | Stock-based compensation expenses
+000010 | $ 225
+000011 | $ 268
+000012 | $ 241
+000013 | Income tax benefits
+000014 | (41)
+000015 | (31)
+000016 | (41)
+000017 | Stock-based compensation expenses (benefits), net of tax
+000018 | 184
+000019 | 237
+000020 | 200
+000021 | Cost of sales
+000022 | Amounts recognized in the financial statements
+000023 | Stock-based compensation expenses
+000024 | 32
+000025 | 39
+000026 | 38
+000027 | Selling, general and administrative expenses
+000028 | Amounts recognized in the financial statements
+000029 | Stock-based compensation expenses
+000030 | 158
+000031 | 185
+000032 | 165
+000033 | Research, development and related expenses
+000034 | Amounts recognized in the financial statements
+000035 | Stock-based compensation expenses
+000036 | $ 35
+000037 | $ 44
+000038 | $ 38
+000039 | X
+000040 | - Definition
+000041 | Amount of expense for award under share-based payment arrangement. Excludes amount capitalized.
+000042 | + References
+000043 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000044 | -Topic 718
+000045 | -SubTopic 10
+000046 | -Name Accounting Standards Codification
+000047 | -Section S45
+000048 | -Paragraph 1
+000049 | -Publisher FASB
+000050 | -URI https://asc.fasb.org/1943274/2147479983/718-10-S45-1
+000051 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000052 | -Topic 718
+000053 | -SubTopic 10
+000054 | -Name Accounting Standards Codification
+000055 | -Section S99
+000056 | -Paragraph 1
+000057 | -Subparagraph (SAB Topic 14.F)
+000058 | -Publisher FASB
+000059 | -URI https://asc.fasb.org/1943274/2147479830/718-10-S99-1
+000060 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000061 | -Topic 718
+000062 | -SubTopic 10
+000063 | -Name Accounting Standards Codification
+000064 | -Section 50
+000065 | -Paragraph 2
+000066 | -Subparagraph (h)(1)(i)
+000067 | -Publisher FASB
+000068 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000069 | + Details
+000070 | Name:
+000071 | us-gaap_AllocatedShareBasedCompensationExpense
+000072 | Namespace Prefix:
+000073 | us-gaap_
+000074 | Data Type:
+000075 | xbrli:monetaryItemType
+000076 | Balance Type:
+000077 | debit
+000078 | Period Type:
+000079 | duration
+000080 | X
+000081 | - Definition
+000082 | Amount, after tax, of expense for award under share-based payment arrangement.
+000083 | + References
+000084 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000085 | -Topic 718
+000086 | -SubTopic 10
+000087 | -Name Accounting Standards Codification
+000088 | -Section 50
+000089 | -Paragraph 2
+000090 | -Subparagraph (h)(1)(i)
+000091 | -Publisher FASB
+000092 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000093 | + Details
+000094 | Name:
+000095 | us-gaap_AllocatedShareBasedCompensationExpenseNetOfTax
+000096 | Namespace Prefix:
+000097 | us-gaap_
+000098 | Data Type:
+000099 | xbrli:monetaryItemType
+000100 | Balance Type:
+000101 | debit
+000102 | Period Type:
+000103 | duration
+000104 | X
+000105 | - Definition
+000106 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000107 | + References
+000108 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000109 | -Topic 718
+000110 | -SubTopic 10
+000111 | -Name Accounting Standards Codification
+000112 | -Section 50
+000113 | -Paragraph 2
+000114 | -Subparagraph (h)(1)
+000115 | -Publisher FASB
+000116 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000117 | + Details
+000118 | Name:
+000119 | us-gaap_EmployeeServiceShareBasedCompensationAllocationOfRecognizedPeriodCostsLineItems
+000120 | Namespace Prefix:
+000121 | us-gaap_
+000122 | Data Type:
+000123 | xbrli:stringItemType
+000124 | Balance Type:
+000125 | na
+000126 | Period Type:
+000127 | duration
+000128 | X
+000129 | - Definition
+000130 | Amount of tax benefit for recognition of expense of award under share-based payment arrangement.
+000131 | + References
+000132 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000133 | -Topic 718
+000134 | -SubTopic 10
+000135 | -Name Accounting Standards Codification
+000136 | -Section 50
+000137 | -Paragraph 2
+000138 | -Subparagraph (h)(1)(i)
+000139 | -Publisher FASB
+000140 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000141 | + Details
+000142 | Name:
+000143 | us-gaap_EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense
+000144 | Namespace Prefix:
+000145 | us-gaap_
+000146 | Data Type:
+000147 | xbrli:monetaryItemType
+000148 | Balance Type:
+000149 | credit
+000150 | Period Type:
+000151 | duration
+000152 | X
+000153 | - Details
+000154 | Name:
+000155 | us-gaap_IncomeStatementLocationAxis=us-gaap_CostOfSalesMember
+000156 | Namespace Prefix:
+000157 | Data Type:
+000158 | na
+000159 | Balance Type:
+000160 | Period Type:
+000161 | X
+000162 | - Details
+000163 | Name:
+000164 | us-gaap_IncomeStatementLocationAxis=us-gaap_SellingGeneralAndAdministrativeExpensesMember
+000165 | Namespace Prefix:
+000166 | Data Type:
+000167 | na
+000168 | Balance Type:
+000169 | Period Type:
+000170 | X
+000171 | - Details
+000172 | Name:
+000173 | us-gaap_IncomeStatementLocationAxis=mmm_ResearchDevelopmentAndRelatedExpensesMember
+000174 | Namespace Prefix:
+000175 | Data Type:
+000176 | na
+000177 | Balance Type:
+000178 | Period Type:

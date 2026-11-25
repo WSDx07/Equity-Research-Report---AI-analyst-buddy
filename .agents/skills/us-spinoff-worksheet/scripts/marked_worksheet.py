@@ -268,7 +268,10 @@ def render(bundle, calculations, manifest, purchases, judgment, live, live_calc,
                 lines.append(f"- Live eligible bars: {len(live['inputs']['bars'])} [calc id=eligible_live_bars ticker={live['ticker']} cutoff={cutoff} as_of={live['as_of']}]")
             lines.append(f"- {name} liquidity lookback required: {rules['lookback_days']} trading days [rule id=lookback_days]")
     for error in manifest.get('errors', []):
-        lines.append('- Source gap: ' + str(error.get('stage', 'unknown')) + ' | ' + str(error.get('error', 'not known')))
+        detail = str(error.get('error', 'not known'))
+        if detail.startswith('Unparsed embedded attachment:'):
+            detail = 'Unparsed embedded attachment; filename in sources.json'
+        lines.append('- Source gap: ' + str(error.get('stage', 'unknown')) + ' | ' + detail)
     lines += ['- Automatic filing extraction may miss debt, restrictions, parent facts, insider purchases, or release facts.',
               '', '<!-- lab07-worksheet-source',
               'run=' + _q(run), 'live_run=' + _q(Path(live['run']).resolve()),

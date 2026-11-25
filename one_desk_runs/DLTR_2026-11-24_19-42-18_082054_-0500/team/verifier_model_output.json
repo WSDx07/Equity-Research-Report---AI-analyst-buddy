@@ -1,0 +1,202 @@
+{
+  "marks": [
+    {
+      "line": 8,
+      "value": "$793 million",
+      "supported": false,
+      "reason": "No XBRL fact in the saved company facts matches a cash‑proceeds amount of $793 M for the period of the Family Dollar sale."
+    },
+    {
+      "line": 8,
+      "value": "$680 million",
+      "supported": false,
+      "reason": "The saved facts contain no item for net proceeds of $680 M; therefore the claim cannot be corroborated."
+    },
+    {
+      "line": 8,
+      "value": "$113 million",
+      "supported": false,
+      "reason": "No XBRL fact corresponds to the $113 M figure cited for cash‑monetized reduction of net working capital."
+    },
+    {
+      "line": 13,
+      "value": "$1.25",
+      "supported": false,
+      "reason": "The filing excerpts and saved facts do not provide a tag for the company’s price‑point; the claim is not supported."
+    },
+    {
+      "line": 13,
+      "value": "8,400",
+      "supported": false,
+      "reason": "The number of stores (8,400) is not present in any saved XBRL fact for the cited period; therefore unsupported."
+    },
+    {
+      "line": 14,
+      "value": "84",
+      "supported": false,
+      "reason": "The EX‑99.1 excerpt mentions 84 new stores, but no corresponding fact is saved; cannot verify the claim."
+    },
+    {
+      "line": 56,
+      "value": "6.9 %",
+      "supported": false,
+      "reason": "The percent increase is taken from the press‑release excerpt; no matching fact exists in the XBRL data."
+    },
+    {
+      "line": 56,
+      "value": "$5.1 billion",
+      "supported": false,
+      "reason": "The total‑revenue figure of $5.1 B is from the press release and is not reflected in the saved us‑gaap:Revenues fact (which shows $19.4 B)."
+    },
+    {
+      "line": 57,
+      "value": "$1.24",
+      "supported": false,
+      "reason": "Diluted EPS of $1.24 appears only in the press‑release; the saved diluted EPS fact for the fiscal year is $6.22."
+    },
+    {
+      "line": 57,
+      "value": "$0.42",
+      "supported": false,
+      "reason": "No XBRL fact records a $0.42 cost item; the claim cannot be corroborated."
+    },
+    {
+      "line": 65,
+      "value": "16",
+      "supported": false,
+      "reason": "The number of distribution centers is mentioned in the 10‑K text but no corresponding fact is present in the saved data."
+    },
+    {
+      "line": 65,
+      "value": "700",
+      "supported": false,
+      "reason": "The estimate of “approximately 700 stores” served by the new hub is not reflected in any saved fact."
+    },
+    {
+      "line": 76,
+      "value": "33.17 %",
+      "supported": true,
+      "reason": "The Return on average equity result matches the calculation using net_income_current (1,282,500,000) and stockholders_equity_current (3,754,900,000) and stockholders_equity_prior (3,977,400,000) from the saved facts."
+    },
+    {
+      "line": 34,
+      "value": "19411800000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:Revenues fact for the current fiscal year."
+    },
+    {
+      "line": 35,
+      "value": "17578500000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:Revenues fact for the prior fiscal year."
+    },
+    {
+      "line": 36,
+      "value": "1653100000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:OperatingIncomeLoss fact for the current fiscal year."
+    },
+    {
+      "line": 37,
+      "value": "1462000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:OperatingIncomeLoss fact for the prior fiscal year."
+    },
+    {
+      "line": 38,
+      "value": "1282500000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:NetIncomeLoss fact for the current fiscal year."
+    },
+    {
+      "line": 39,
+      "value": "-3030100000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:NetIncomeLoss fact for the prior fiscal year."
+    },
+    {
+      "line": 40,
+      "value": "6.22 USD/share",
+      "supported": true,
+      "reason": "Matches the us‑gaap:EarningsPerShareDiluted fact for the current fiscal year."
+    },
+    {
+      "line": 41,
+      "value": "-14.03 USD/share",
+      "supported": true,
+      "reason": "Matches the us‑gaap:EarningsPerShareDiluted fact for the prior fiscal year."
+    },
+    {
+      "line": 42,
+      "value": "3754900000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:StockholdersEquity fact for the current fiscal year."
+    },
+    {
+      "line": 43,
+      "value": "3977400000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:StockholdersEquity fact for the prior fiscal year."
+    },
+    {
+      "line": 44,
+      "value": "2431700000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:LongTermDebtNoncurrent fact for the current fiscal year."
+    },
+    {
+      "line": 45,
+      "value": "2431200000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:LongTermDebtNoncurrent fact for the prior fiscal year."
+    },
+    {
+      "line": 46,
+      "value": "0 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:LongTermDebtCurrent fact for the current fiscal year."
+    },
+    {
+      "line": 47,
+      "value": "1000000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:LongTermDebtCurrent fact for the prior fiscal year."
+    },
+    {
+      "line": 48,
+      "value": "2190700000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations fact for the current fiscal year."
+    },
+    {
+      "line": 49,
+      "value": "2193300000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations fact for the prior fiscal year."
+    },
+    {
+      "line": 50,
+      "value": "10.43 %",
+      "supported": true,
+      "reason": "Revenue growth percent is correctly derived from the current and prior revenue facts."
+    },
+    {
+      "line": 51,
+      "value": "8.52 %",
+      "supported": true,
+      "reason": "Operating margin percent is correctly derived from operating_income_current and total_revenue_current facts."
+    },
+    {
+      "line": 52,
+      "value": "33.17 %",
+      "supported": true,
+      "reason": "Return on average equity percent matches the calculation using net_income_current and average equity from the two equity facts."
+    },
+    {
+      "line": 53,
+      "value": "0.6476 ratio",
+      "supported": true,
+      "reason": "Debt‑to‑equity ratio matches (non‑current debt + current debt) / equity using the saved debt and equity facts."
+    }
+  ]
+}

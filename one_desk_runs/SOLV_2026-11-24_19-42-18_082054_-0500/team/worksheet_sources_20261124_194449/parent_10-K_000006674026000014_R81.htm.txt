@@ -1,0 +1,367 @@
+000001 | v3.25.4
+000002 | Income Taxes - Schedule of Reconciliation of the Beginning and Ending Amount of Gross (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Income Tax Disclosure [Abstract]
+000009 | Gross UTB Balance, beginning balance
+000010 | $ 574
+000011 | $ 590
+000012 | $ 632
+000013 | Additions based on tax positions related to the current year
+000014 | 46
+000015 | 13
+000016 | 11
+000017 | Additions for tax positions of prior years
+000018 | 64
+000019 | 57
+000020 | 63
+000021 | Reductions for tax positions of prior years
+000022 | (87)
+000023 | (16)
+000024 | (42)
+000025 | Settlements
+000026 | (45)
+000027 | (17)
+000028 | (33)
+000029 | Reductions due to lapse of applicable statute of limitations
+000030 | (49)
+000031 | (36)
+000032 | (42)
+000033 | Foreign currency translation
+000034 | 13
+000035 | 1
+000036 | Foreign currency translation
+000037 | (17)
+000038 | Gross UTB Balance, ending balance
+000039 | 516
+000040 | 574
+000041 | 590
+000042 | Gross interest and penalties (benefits) recognized in the consolidated statement of income (loss)
+000043 | 6
+000044 | 25
+000045 | 83
+000046 | Gross accrued interest and penalties in the consolidated balance sheet at end of period
+000047 | $ 195
+000048 | $ 207
+000049 | $ 183
+000050 | X
+000051 | - References
+000052 | No definition available.
+000053 | + Details
+000054 | Name:
+000055 | us-gaap_IncomeTaxDisclosureAbstract
+000056 | Namespace Prefix:
+000057 | us-gaap_
+000058 | Data Type:
+000059 | xbrli:stringItemType
+000060 | Balance Type:
+000061 | na
+000062 | Period Type:
+000063 | duration
+000064 | X
+000065 | - Definition
+000066 | Amount of unrecognized tax benefits.
+000067 | + References
+000068 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000069 | -Topic 740
+000070 | -SubTopic 10
+000071 | -Name Accounting Standards Codification
+000072 | -Section 55
+000073 | -Paragraph 217
+000074 | -Publisher FASB
+000075 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-217
+000076 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000077 | -Topic 740
+000078 | -SubTopic 10
+000079 | -Name Accounting Standards Codification
+000080 | -Section 50
+000081 | -Paragraph 15A
+000082 | -Subparagraph (a)
+000083 | -Publisher FASB
+000084 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000085 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000086 | -Topic 740
+000087 | -SubTopic 10
+000088 | -Name Accounting Standards Codification
+000089 | -Section 45
+000090 | -Paragraph 10B
+000091 | -Publisher FASB
+000092 | -URI https://asc.fasb.org/1943274/2147482525/740-10-45-10B
+000093 | + Details
+000094 | Name:
+000095 | us-gaap_UnrecognizedTaxBenefits
+000096 | Namespace Prefix:
+000097 | us-gaap_
+000098 | Data Type:
+000099 | xbrli:monetaryItemType
+000100 | Balance Type:
+000101 | credit
+000102 | Period Type:
+000103 | instant
+000104 | X
+000105 | - Definition
+000106 | Amount of decrease in unrecognized tax benefits resulting from foreign currency translation.
+000107 | + References
+000108 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000109 | -Topic 740
+000110 | -SubTopic 10
+000111 | -Name Accounting Standards Codification
+000112 | -Section 50
+000113 | -Paragraph 15A
+000114 | -Subparagraph (a)
+000115 | -Publisher FASB
+000116 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000117 | + Details
+000118 | Name:
+000119 | us-gaap_UnrecognizedTaxBenefitsDecreasesResultingFromForeignCurrencyTranslation
+000120 | Namespace Prefix:
+000121 | us-gaap_
+000122 | Data Type:
+000123 | xbrli:monetaryItemType
+000124 | Balance Type:
+000125 | debit
+000126 | Period Type:
+000127 | duration
+000128 | X
+000129 | - Definition
+000130 | Amount of decrease in unrecognized tax benefits resulting from tax positions taken in prior period tax returns.
+000131 | + References
+000132 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000133 | -Topic 740
+000134 | -SubTopic 10
+000135 | -Name Accounting Standards Codification
+000136 | -Section 55
+000137 | -Paragraph 217
+000138 | -Publisher FASB
+000139 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-217
+000140 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000141 | -Topic 740
+000142 | -SubTopic 10
+000143 | -Name Accounting Standards Codification
+000144 | -Section 50
+000145 | -Paragraph 15A
+000146 | -Subparagraph (a)(1)
+000147 | -Publisher FASB
+000148 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000149 | + Details
+000150 | Name:
+000151 | us-gaap_UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions
+000152 | Namespace Prefix:
+000153 | us-gaap_
+000154 | Data Type:
+000155 | xbrli:monetaryItemType
+000156 | Balance Type:
+000157 | debit
+000158 | Period Type:
+000159 | duration
+000160 | X
+000161 | - Definition
+000162 | Amount of decrease in unrecognized tax benefits resulting from settlements with taxing authorities.
+000163 | + References
+000164 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000165 | -Topic 740
+000166 | -SubTopic 10
+000167 | -Name Accounting Standards Codification
+000168 | -Section 55
+000169 | -Paragraph 217
+000170 | -Publisher FASB
+000171 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-217
+000172 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000173 | -Topic 740
+000174 | -SubTopic 10
+000175 | -Name Accounting Standards Codification
+000176 | -Section 50
+000177 | -Paragraph 15A
+000178 | -Subparagraph (a)(3)
+000179 | -Publisher FASB
+000180 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000181 | + Details
+000182 | Name:
+000183 | us-gaap_UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities
+000184 | Namespace Prefix:
+000185 | us-gaap_
+000186 | Data Type:
+000187 | xbrli:monetaryItemType
+000188 | Balance Type:
+000189 | debit
+000190 | Period Type:
+000191 | duration
+000192 | X
+000193 | - Definition
+000194 | Amount accrued for interest on an underpayment of income taxes and penalties related to a tax position claimed or expected to be claimed in the tax return.
+000195 | + References
+000196 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000197 | -Topic 740
+000198 | -SubTopic 10
+000199 | -Name Accounting Standards Codification
+000200 | -Section 55
+000201 | -Paragraph 217
+000202 | -Publisher FASB
+000203 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-217
+000204 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000205 | -Topic 740
+000206 | -SubTopic 10
+000207 | -Name Accounting Standards Codification
+000208 | -Section 50
+000209 | -Paragraph 15
+000210 | -Subparagraph (c)
+000211 | -Publisher FASB
+000212 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15
+000213 | + Details
+000214 | Name:
+000215 | us-gaap_UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestAccrued
+000216 | Namespace Prefix:
+000217 | us-gaap_
+000218 | Data Type:
+000219 | xbrli:monetaryItemType
+000220 | Balance Type:
+000221 | credit
+000222 | Period Type:
+000223 | instant
+000224 | X
+000225 | - Definition
+000226 | Amount of expense for interest on an underpayment of income taxes and penalties related to a tax position claimed or expected to be claimed in the tax return.
+000227 | + References
+000228 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000229 | -Topic 740
+000230 | -SubTopic 10
+000231 | -Name Accounting Standards Codification
+000232 | -Section 55
+000233 | -Paragraph 217
+000234 | -Publisher FASB
+000235 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-217
+000236 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000237 | -Topic 740
+000238 | -SubTopic 10
+000239 | -Name Accounting Standards Codification
+000240 | -Section 50
+000241 | -Paragraph 15
+000242 | -Subparagraph (c)
+000243 | -Publisher FASB
+000244 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15
+000245 | + Details
+000246 | Name:
+000247 | us-gaap_UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense
+000248 | Namespace Prefix:
+000249 | us-gaap_
+000250 | Data Type:
+000251 | xbrli:monetaryItemType
+000252 | Balance Type:
+000253 | debit
+000254 | Period Type:
+000255 | duration
+000256 | X
+000257 | - Definition
+000258 | Amount of increase in unrecognized tax benefits resulting from tax positions that have been or will be taken in current period tax return.
+000259 | + References
+000260 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000261 | -Topic 740
+000262 | -SubTopic 10
+000263 | -Name Accounting Standards Codification
+000264 | -Section 55
+000265 | -Paragraph 217
+000266 | -Publisher FASB
+000267 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-217
+000268 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000269 | -Topic 740
+000270 | -SubTopic 10
+000271 | -Name Accounting Standards Codification
+000272 | -Section 50
+000273 | -Paragraph 15A
+000274 | -Subparagraph (a)(2)
+000275 | -Publisher FASB
+000276 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000277 | + Details
+000278 | Name:
+000279 | us-gaap_UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions
+000280 | Namespace Prefix:
+000281 | us-gaap_
+000282 | Data Type:
+000283 | xbrli:monetaryItemType
+000284 | Balance Type:
+000285 | credit
+000286 | Period Type:
+000287 | duration
+000288 | X
+000289 | - Definition
+000290 | Amount of increase in unrecognized tax benefits resulting from foreign currency translation.
+000291 | + References
+000292 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000293 | -Topic 740
+000294 | -SubTopic 10
+000295 | -Name Accounting Standards Codification
+000296 | -Section 50
+000297 | -Paragraph 15A
+000298 | -Subparagraph (a)
+000299 | -Publisher FASB
+000300 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000301 | + Details
+000302 | Name:
+000303 | us-gaap_UnrecognizedTaxBenefitsIncreasesResultingFromForeignCurrencyTranslation
+000304 | Namespace Prefix:
+000305 | us-gaap_
+000306 | Data Type:
+000307 | xbrli:monetaryItemType
+000308 | Balance Type:
+000309 | credit
+000310 | Period Type:
+000311 | duration
+000312 | X
+000313 | - Definition
+000314 | Amount of increase in unrecognized tax benefits resulting from tax positions taken in prior period tax returns.
+000315 | + References
+000316 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000317 | -Topic 740
+000318 | -SubTopic 10
+000319 | -Name Accounting Standards Codification
+000320 | -Section 55
+000321 | -Paragraph 217
+000322 | -Publisher FASB
+000323 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-217
+000324 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000325 | -Topic 740
+000326 | -SubTopic 10
+000327 | -Name Accounting Standards Codification
+000328 | -Section 50
+000329 | -Paragraph 15A
+000330 | -Subparagraph (a)(1)
+000331 | -Publisher FASB
+000332 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000333 | + Details
+000334 | Name:
+000335 | us-gaap_UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions
+000336 | Namespace Prefix:
+000337 | us-gaap_
+000338 | Data Type:
+000339 | xbrli:monetaryItemType
+000340 | Balance Type:
+000341 | credit
+000342 | Period Type:
+000343 | duration
+000344 | X
+000345 | - Definition
+000346 | Amount of decrease in unrecognized tax benefits resulting from lapses of applicable statutes of limitations.
+000347 | + References
+000348 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000349 | -Topic 740
+000350 | -SubTopic 10
+000351 | -Name Accounting Standards Codification
+000352 | -Section 50
+000353 | -Paragraph 15A
+000354 | -Subparagraph (a)(4)
+000355 | -Publisher FASB
+000356 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000357 | + Details
+000358 | Name:
+000359 | us-gaap_UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations
+000360 | Namespace Prefix:
+000361 | us-gaap_
+000362 | Data Type:
+000363 | xbrli:monetaryItemType
+000364 | Balance Type:
+000365 | debit
+000366 | Period Type:
+000367 | duration

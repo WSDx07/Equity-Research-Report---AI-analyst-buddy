@@ -1,0 +1,436 @@
+000001 | v3.25.4
+000002 | Stock-Based Compensation - Narrative (Details)
+000003 | shares in Millions
+000004 | 1 Months Ended
+000005 | 12 Months Ended
+000006 | May 31, 2021
+000007 | shares
+000008 | Dec. 31, 2025
+000009 | age
+000010 | party
+000011 | shares
+000012 | Share-based Compensation Arrangement by Share-based Payment Award Activity
+000013 | Number of participants with outstanding options, restricted stock, or restricted stock units | party
+000014 | 6,400
+000015 | Retirement age eligibility for employees | age
+000016 | 55
+000017 | Retirement eligibility for employees, minimum years of service required (in years)
+000018 | 10 years
+000019 | Percent of stock-based compensation related to retiree-eligible population (as a percent)
+000020 | 31.00%
+000021 | Long Term Incentive Plan
+000022 | Share-based Compensation Arrangement by Share-based Payment Award Activity
+000023 | Number of shares authorized (in shares)
+000024 | 27
+000025 | Number of shares available for grant (in shares)
+000026 | 21
+000027 | X
+000028 | - Definition
+000029 | The number of participants with outstanding options, restricted stock, or restricted stock units.
+000030 | + References
+000031 | No definition available.
+000032 | + Details
+000033 | Name:
+000034 | mmm_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOptionsRestrictedStockAndRestrictedStockUnitsNumberOfParticipants
+000035 | Namespace Prefix:
+000036 | mmm_
+000037 | Data Type:
+000038 | xbrli:integerItemType
+000039 | Balance Type:
+000040 | na
+000041 | Period Type:
+000042 | instant
+000043 | X
+000044 | - Definition
+000045 | Percent of stock-based compensation related to retiree-eligible population.
+000046 | + References
+000047 | No definition available.
+000048 | + Details
+000049 | Name:
+000050 | mmm_ShareBasedCompensationArrangementByShareBasedPaymentAwardExpensePortionAttributableToRetireeEligiblePopulationPercent
+000051 | Namespace Prefix:
+000052 | mmm_
+000053 | Data Type:
+000054 | dtr-types:percentItemType
+000055 | Balance Type:
+000056 | na
+000057 | Period Type:
+000058 | duration
+000059 | X
+000060 | - Definition
+000061 | The age at which employees of the entity are eligible for retirement, which combined with reaching years of service triggers expense recognition of share based compensation expense, in years.
+000062 | + References
+000063 | No definition available.
+000064 | + Details
+000065 | Name:
+000066 | mmm_ShareBasedCompensationArrangementByShareBasedPaymentAwardExpenseRecognitionEligibleForRetirementAge
+000067 | Namespace Prefix:
+000068 | mmm_
+000069 | Data Type:
+000070 | xbrli:integerItemType
+000071 | Balance Type:
+000072 | na
+000073 | Period Type:
+000074 | duration
+000075 | X
+000076 | - Definition
+000077 | Estimated period over which an employee is required to provide service in exchange for the equity-based payment award, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents the reported fact of one year, five months, and thirteen days.
+000078 | + References
+000079 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000080 | -Topic 718
+000081 | -SubTopic 10
+000082 | -Name Accounting Standards Codification
+000083 | -Section 50
+000084 | -Paragraph 2
+000085 | -Subparagraph (a)(1)
+000086 | -Publisher FASB
+000087 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000088 | + Details
+000089 | Name:
+000090 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriod1
+000091 | Namespace Prefix:
+000092 | us-gaap_
+000093 | Data Type:
+000094 | xbrli:durationItemType
+000095 | Balance Type:
+000096 | na
+000097 | Period Type:
+000098 | duration
+000099 | X
+000100 | - Definition
+000101 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000102 | + References
+000103 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000104 | -Topic 718
+000105 | -SubTopic 10
+000106 | -Name Accounting Standards Codification
+000107 | -Section 50
+000108 | -Paragraph 2
+000109 | -Subparagraph (f)(2)
+000110 | -Publisher FASB
+000111 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000112 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000113 | -Topic 718
+000114 | -SubTopic 10
+000115 | -Name Accounting Standards Codification
+000116 | -Section 50
+000117 | -Paragraph 2
+000118 | -Subparagraph (f)(2)(v)
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000121 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000122 | -Topic 718
+000123 | -SubTopic 10
+000124 | -Name Accounting Standards Codification
+000125 | -Section 50
+000126 | -Paragraph 2
+000127 | -Subparagraph (f)(2)(i)
+000128 | -Publisher FASB
+000129 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000130 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000131 | -Topic 718
+000132 | -SubTopic 10
+000133 | -Name Accounting Standards Codification
+000134 | -Section 50
+000135 | -Paragraph 2
+000136 | -Subparagraph (f)(2)(iii)
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000139 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000140 | -Topic 718
+000141 | -SubTopic 10
+000142 | -Name Accounting Standards Codification
+000143 | -Section 50
+000144 | -Paragraph 2
+000145 | -Subparagraph (f)(2)(iv)
+000146 | -Publisher FASB
+000147 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000148 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000149 | -Topic 718
+000150 | -SubTopic 10
+000151 | -Name Accounting Standards Codification
+000152 | -Section 50
+000153 | -Paragraph 2
+000154 | -Subparagraph (f)(2)(ii)
+000155 | -Publisher FASB
+000156 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000157 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000158 | -Topic 718
+000159 | -SubTopic 10
+000160 | -Name Accounting Standards Codification
+000161 | -Section 50
+000162 | -Paragraph 2
+000163 | -Subparagraph (l)
+000164 | -Publisher FASB
+000165 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000166 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000167 | -Topic 718
+000168 | -SubTopic 10
+000169 | -Name Accounting Standards Codification
+000170 | -Section 50
+000171 | -Paragraph 2
+000172 | -Subparagraph (a)(1)
+000173 | -Publisher FASB
+000174 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000175 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000176 | -Topic 718
+000177 | -SubTopic 10
+000178 | -Name Accounting Standards Codification
+000179 | -Section 50
+000180 | -Paragraph 2
+000181 | -Subparagraph (d)(1)
+000182 | -Publisher FASB
+000183 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000184 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000185 | -Topic 718
+000186 | -SubTopic 10
+000187 | -Name Accounting Standards Codification
+000188 | -Section 35
+000189 | -Paragraph 1D
+000190 | -Publisher FASB
+000191 | -URI https://asc.fasb.org/1943274/2147480483/718-10-35-1D
+000192 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000193 | -Topic 718
+000194 | -SubTopic 10
+000195 | -Name Accounting Standards Codification
+000196 | -Section 35
+000197 | -Paragraph 3
+000198 | -Publisher FASB
+000199 | -URI https://asc.fasb.org/1943274/2147480483/718-10-35-3
+000200 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000201 | -Topic 718
+000202 | -SubTopic 10
+000203 | -Name Accounting Standards Codification
+000204 | -Section 50
+000205 | -Paragraph 2
+000206 | -Subparagraph (a)(2)
+000207 | -Publisher FASB
+000208 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000209 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000210 | -Topic 718
+000211 | -SubTopic 10
+000212 | -Name Accounting Standards Codification
+000213 | -Section 50
+000214 | -Paragraph 2
+000215 | -Subparagraph (a)(3)
+000216 | -Publisher FASB
+000217 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000218 | Reference 14: http://www.xbrl.org/2003/role/disclosureRef
+000219 | -Topic 718
+000220 | -SubTopic 10
+000221 | -Name Accounting Standards Codification
+000222 | -Section 50
+000223 | -Paragraph 2
+000224 | -Subparagraph (c)(1)(i)
+000225 | -Publisher FASB
+000226 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000227 | Reference 15: http://www.xbrl.org/2003/role/disclosureRef
+000228 | -Topic 718
+000229 | -SubTopic 10
+000230 | -Name Accounting Standards Codification
+000231 | -Section 50
+000232 | -Paragraph 2
+000233 | -Subparagraph (c)(1)(ii)
+000234 | -Publisher FASB
+000235 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000236 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000237 | -Topic 718
+000238 | -SubTopic 10
+000239 | -Name Accounting Standards Codification
+000240 | -Section 50
+000241 | -Paragraph 2
+000242 | -Subparagraph (c)(1)(iii)
+000243 | -Publisher FASB
+000244 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000245 | Reference 17: http://www.xbrl.org/2003/role/disclosureRef
+000246 | -Topic 718
+000247 | -SubTopic 10
+000248 | -Name Accounting Standards Codification
+000249 | -Section 50
+000250 | -Paragraph 2
+000251 | -Subparagraph (c)(1)(iv)
+000252 | -Publisher FASB
+000253 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000254 | Reference 18: http://www.xbrl.org/2003/role/disclosureRef
+000255 | -Topic 718
+000256 | -SubTopic 10
+000257 | -Name Accounting Standards Codification
+000258 | -Section 50
+000259 | -Paragraph 2
+000260 | -Subparagraph (c)(1)(iv)(01)
+000261 | -Publisher FASB
+000262 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000263 | Reference 19: http://www.xbrl.org/2003/role/disclosureRef
+000264 | -Topic 718
+000265 | -SubTopic 10
+000266 | -Name Accounting Standards Codification
+000267 | -Section 50
+000268 | -Paragraph 2
+000269 | -Subparagraph (c)(1)(iv)(02)
+000270 | -Publisher FASB
+000271 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000272 | Reference 20: http://www.xbrl.org/2003/role/disclosureRef
+000273 | -Topic 718
+000274 | -SubTopic 10
+000275 | -Name Accounting Standards Codification
+000276 | -Section 50
+000277 | -Paragraph 2
+000278 | -Subparagraph (c)(1)(iv)(03)
+000279 | -Publisher FASB
+000280 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000281 | Reference 21: http://www.xbrl.org/2003/role/disclosureRef
+000282 | -Topic 718
+000283 | -SubTopic 10
+000284 | -Name Accounting Standards Codification
+000285 | -Section 50
+000286 | -Paragraph 2
+000287 | -Subparagraph (c)(1)(iv)(04)
+000288 | -Publisher FASB
+000289 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000290 | Reference 22: http://www.xbrl.org/2003/role/disclosureRef
+000291 | -Topic 718
+000292 | -SubTopic 10
+000293 | -Name Accounting Standards Codification
+000294 | -Section 50
+000295 | -Paragraph 2
+000296 | -Subparagraph (c)(2)(i)
+000297 | -Publisher FASB
+000298 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000299 | Reference 23: http://www.xbrl.org/2003/role/disclosureRef
+000300 | -Topic 718
+000301 | -SubTopic 10
+000302 | -Name Accounting Standards Codification
+000303 | -Section 50
+000304 | -Paragraph 2
+000305 | -Subparagraph (c)(2)(ii)
+000306 | -Publisher FASB
+000307 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000308 | Reference 24: http://www.xbrl.org/2003/role/disclosureRef
+000309 | -Topic 718
+000310 | -SubTopic 10
+000311 | -Name Accounting Standards Codification
+000312 | -Section 50
+000313 | -Paragraph 2
+000314 | -Subparagraph (c)(2)(iii)
+000315 | -Publisher FASB
+000316 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000317 | Reference 25: http://www.xbrl.org/2003/role/disclosureRef
+000318 | -Topic 718
+000319 | -SubTopic 10
+000320 | -Name Accounting Standards Codification
+000321 | -Section 50
+000322 | -Paragraph 2
+000323 | -Subparagraph (c)(2)(iii)(01)
+000324 | -Publisher FASB
+000325 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000326 | Reference 26: http://www.xbrl.org/2003/role/disclosureRef
+000327 | -Topic 718
+000328 | -SubTopic 10
+000329 | -Name Accounting Standards Codification
+000330 | -Section 50
+000331 | -Paragraph 2
+000332 | -Subparagraph (c)(2)(iii)(02)
+000333 | -Publisher FASB
+000334 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000335 | Reference 27: http://www.xbrl.org/2003/role/disclosureRef
+000336 | -Topic 718
+000337 | -SubTopic 10
+000338 | -Name Accounting Standards Codification
+000339 | -Section 50
+000340 | -Paragraph 2
+000341 | -Subparagraph (c)(2)(iii)(03)
+000342 | -Publisher FASB
+000343 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000344 | Reference 28: http://www.xbrl.org/2003/role/disclosureRef
+000345 | -Topic 718
+000346 | -SubTopic 10
+000347 | -Name Accounting Standards Codification
+000348 | -Section 50
+000349 | -Paragraph 2
+000350 | -Subparagraph (d)(2)
+000351 | -Publisher FASB
+000352 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000353 | Reference 29: http://www.xbrl.org/2003/role/disclosureRef
+000354 | -Topic 718
+000355 | -SubTopic 10
+000356 | -Name Accounting Standards Codification
+000357 | -Section 50
+000358 | -Paragraph 2
+000359 | -Subparagraph (e)(1)
+000360 | -Publisher FASB
+000361 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000362 | Reference 30: http://www.xbrl.org/2003/role/disclosureRef
+000363 | -Topic 718
+000364 | -SubTopic 10
+000365 | -Name Accounting Standards Codification
+000366 | -Section 50
+000367 | -Paragraph 2
+000368 | -Subparagraph (e)(2)
+000369 | -Publisher FASB
+000370 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000371 | + Details
+000372 | Name:
+000373 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems
+000374 | Namespace Prefix:
+000375 | us-gaap_
+000376 | Data Type:
+000377 | xbrli:stringItemType
+000378 | Balance Type:
+000379 | na
+000380 | Period Type:
+000381 | duration
+000382 | X
+000383 | - Definition
+000384 | Number of additional shares authorized for issuance under share-based payment arrangement.
+000385 | + References
+000386 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000387 | -Topic 718
+000388 | -SubTopic 10
+000389 | -Name Accounting Standards Codification
+000390 | -Section 50
+000391 | -Paragraph 4
+000392 | -Publisher FASB
+000393 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-4
+000394 | + Details
+000395 | Name:
+000396 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfAdditionalSharesAuthorized
+000397 | Namespace Prefix:
+000398 | us-gaap_
+000399 | Data Type:
+000400 | xbrli:sharesItemType
+000401 | Balance Type:
+000402 | na
+000403 | Period Type:
+000404 | duration
+000405 | X
+000406 | - Definition
+000407 | The difference between the maximum number of shares (or other type of equity) authorized for issuance under the plan (including the effects of amendments and adjustments), and the sum of: 1) the number of shares (or other type of equity) already issued upon exercise of options or other equity-based awards under the plan; and 2) shares (or other type of equity) reserved for issuance on granting of outstanding awards, net of cancellations and forfeitures, if applicable.
+000408 | + References
+000409 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000410 | -Name Accounting Standards Codification
+000411 | -Topic 718
+000412 | -SubTopic 10
+000413 | -Section 50
+000414 | -Paragraph 2
+000415 | -Publisher FASB
+000416 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000417 | + Details
+000418 | Name:
+000419 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant
+000420 | Namespace Prefix:
+000421 | us-gaap_
+000422 | Data Type:
+000423 | xbrli:sharesItemType
+000424 | Balance Type:
+000425 | na
+000426 | Period Type:
+000427 | instant
+000428 | X
+000429 | - Details
+000430 | Name:
+000431 | us-gaap_PlanNameAxis=mmm_LongTermIncentivePlanMember
+000432 | Namespace Prefix:
+000433 | Data Type:
+000434 | na
+000435 | Balance Type:
+000436 | Period Type:

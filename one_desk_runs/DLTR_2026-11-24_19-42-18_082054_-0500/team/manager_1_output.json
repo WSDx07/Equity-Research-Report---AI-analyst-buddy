@@ -1,0 +1,37 @@
+{
+  "research_issues": [
+    "Claim 11: document line and quote not verbatim – cannot verify.",
+    "Claim 12: document line and quote not verbatim – cannot verify.",
+    "Claim 13: document line and quote not verbatim – cannot verify.",
+    "Claim 14: includes a number not present in the quoted line – mismatch."
+  ],
+  "financial_issues": [
+    "Advisor insight missing filing reference, line number and exact quote (required for verification).",
+    "Research insight missing filing reference, line number and exact quote (required for verification).",
+    "Financial insight missing filing reference, line number and exact quote (required for verification).",
+    "Financial observations contain raw digits instead of abstracted statements, violating the formatting rule."
+  ],
+  "advisor_issues": [
+    "Insight statement does not include a filing, line number and exact quoted text – cannot be cross‑checked against the release.",
+    "The insight merely restates a percentage increase without any supporting context from the first paragraph of the earnings release."
+  ],
+  "overall_issues": [
+    "Research automatic checks flagged four claims as invalid or non‑verbatim (claims 11‑14).",
+    "The filing provides no quantitative competitive‑market‑share data versus peers – a material gap for the Market Positioning section.",
+    "Specific timelines for the store‑renovation program are absent – a gap for the Future Developments section.",
+    "Valuation section lacks a stock price and peer financials, preventing P/E and relative‑valuation calculations.",
+    "Free‑cash‑flow data is missing, limiting cash‑generation analysis."
+  ],
+  "research_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

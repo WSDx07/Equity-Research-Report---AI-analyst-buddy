@@ -1,0 +1,102 @@
+000001 | v3.25.4
+000002 | Earnings (Loss) Per Share (Tables)
+000003 | 12 Months Ended
+000004 | Dec. 31, 2025
+000005 | Earnings Per Share [Abstract]
+000006 | Schedule of Computations for Basic and Diluted Earnings Per Share
+000007 | The computations for basic and diluted earnings per share follow:
+000008 | (Amounts in millions, except per share amounts) 2025 2024 2023
+000009 | Numerator:
+000010 | Net income (loss) from continuing operations attributable to 3M
+000011 | $ 3,250 $ 4,009 $ (8,402)
+000012 | Net income from discontinued operations, net of taxes
+000013 | — 164 1,407
+000014 | Net income (loss) attributable to 3M
+000015 | $ 3,250 $ 4,173 $ (6,995)
+000016 | Denominator:
+000017 | Weighted average 3M common shares outstanding – basic
+000018 | 537.4 550.8 553.9
+000019 | Dilution associated with stock-based compensation plans 3.9 1.6 —
+000020 | Weighted average 3M common shares outstanding – diluted
+000021 | 541.3 552.4 553.9
+000022 | Earnings (loss) per share attributable to 3M common shareholders:
+000023 | Earnings (loss) per share from continuing operations — basic
+000024 | $ 6.05 $ 7.28 $ (15.17)
+000025 | Earnings per share from discontinued operations — basic
+000026 | — 0.30 2.54
+000027 | Earnings (loss) per share — basic
+000028 | $ 6.05 $ 7.58 $ (12.63)
+000029 | Earnings (loss) per share from continuing operations — diluted
+000030 | $ 6.00 $ 7.26 $ (15.17)
+000031 | Earnings per share from discontinued operations — diluted
+000032 | — 0.29 2.54
+000033 | Earnings (loss) per share — diluted
+000034 | $ 6.00 $ 7.55 $ (12.63)
+000035 | Schedule of Antidilutive Securities Excluded from Computation of Earnings Per Share
+000036 | The difference in the weighted average 3M shares outstanding for calculating basic and diluted earnings per share attributable to 3M common shareholders is the result of the dilution associated with the Company’s stock-based compensation plans. Certain awards outstanding below under these stock-based compensation plans were not included in the computation of diluted earnings per share attributable to 3M common shareholders because they would have had an anti-dilutive effect. In periods of net losses, these anti-dilutive effects include all weighted average awards outstanding and weighted average shares outstanding is the same for the calculations of both basic and diluted loss per share.
+000037 | (Millions)
+000038 | 2025 2024 2023
+000039 | Weighted average number of antidilutive shares
+000040 | 12.7 30.8 36.1
+000041 | X
+000042 | - References
+000043 | No definition available.
+000044 | + Details
+000045 | Name:
+000046 | us-gaap_EarningsPerShareAbstract
+000047 | Namespace Prefix:
+000048 | us-gaap_
+000049 | Data Type:
+000050 | xbrli:stringItemType
+000051 | Balance Type:
+000052 | na
+000053 | Period Type:
+000054 | duration
+000055 | X
+000056 | - Definition
+000057 | Tabular disclosure of securities (including those issuable pursuant to contingent stock agreements) that could potentially dilute basic earnings per share (EPS) in the future that were not included in the computation of diluted EPS because to do so would increase EPS amounts or decrease loss per share amounts for the period presented, by antidilutive securities.
+000058 | + References
+000059 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000060 | -Name Accounting Standards Codification
+000061 | -Topic 260
+000062 | -SubTopic 10
+000063 | -Section 50
+000064 | -Paragraph 1
+000065 | -Subparagraph (c)
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000068 | + Details
+000069 | Name:
+000070 | us-gaap_ScheduleOfAntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareTextBlock
+000071 | Namespace Prefix:
+000072 | us-gaap_
+000073 | Data Type:
+000074 | dtr-types:textBlockItemType
+000075 | Balance Type:
+000076 | na
+000077 | Period Type:
+000078 | duration
+000079 | X
+000080 | - Definition
+000081 | Tabular disclosure of an entity's basic and diluted earnings per share calculations, including a reconciliation of numerators and denominators of the basic and diluted per-share computations for income from continuing operations.
+000082 | + References
+000083 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000084 | -Topic 260
+000085 | -SubTopic 10
+000086 | -Name Accounting Standards Codification
+000087 | -Section 50
+000088 | -Paragraph 1
+000089 | -Subparagraph (a)
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000092 | + Details
+000093 | Name:
+000094 | us-gaap_ScheduleOfEarningsPerShareBasicAndDilutedTableTextBlock
+000095 | Namespace Prefix:
+000096 | us-gaap_
+000097 | Data Type:
+000098 | dtr-types:textBlockItemType
+000099 | Balance Type:
+000100 | na
+000101 | Period Type:
+000102 | duration

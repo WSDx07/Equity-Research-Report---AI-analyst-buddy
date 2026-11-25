@@ -1,0 +1,120 @@
+000001 | v3.25.4
+000002 | Fair Value Measurements - Narrative (Details) - USD ($)
+000003 | 12 Months Ended
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Assets and Liabilities Measured on Recurring Basis
+000007 | Long-lived asset impairment charges
+000008 | $ 51,000,000
+000009 | Fair value on a nonrecurring basis
+000010 | Assets and Liabilities Measured on Recurring Basis
+000011 | Long-lived asset impairment charges
+000012 | $ 0
+000013 | $ 0
+000014 | X
+000015 | - Definition
+000016 | Amount of write-down of assets recognized in the income statement. Includes, but is not limited to, losses from tangible assets, intangible assets and goodwill.
+000017 | + References
+000018 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000019 | -Name Accounting Standards Codification
+000020 | -Section 45
+000021 | -Paragraph 28
+000022 | -Subparagraph (b)
+000023 | -SubTopic 10
+000024 | -Topic 230
+000025 | -Publisher FASB
+000026 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000027 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000028 | -Topic 942
+000029 | -SubTopic 10
+000030 | -Name Accounting Standards Codification
+000031 | -Section S50
+000032 | -Paragraph 1
+000033 | -Publisher FASB
+000034 | -URI https://asc.fasb.org/1943274/2147480095/942-10-S50-1
+000035 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000036 | -Topic 942
+000037 | -SubTopic 10
+000038 | -Name Accounting Standards Codification
+000039 | -Section S99
+000040 | -Paragraph 6
+000041 | -Publisher FASB
+000042 | -URI https://asc.fasb.org/1943274/2147480035/942-10-S99-6
+000043 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000044 | -Name Accounting Standards Codification
+000045 | -Topic 360
+000046 | -SubTopic 10
+000047 | -Section 45
+000048 | -Paragraph 4
+000049 | -Publisher FASB
+000050 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-4
+000051 | + Details
+000052 | Name:
+000053 | us-gaap_AssetImpairmentCharges
+000054 | Namespace Prefix:
+000055 | us-gaap_
+000056 | Data Type:
+000057 | xbrli:monetaryItemType
+000058 | Balance Type:
+000059 | debit
+000060 | Period Type:
+000061 | duration
+000062 | X
+000063 | - Definition
+000064 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000065 | + References
+000066 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000067 | -Topic 820
+000068 | -SubTopic 10
+000069 | -Name Accounting Standards Codification
+000070 | -Section 55
+000071 | -Paragraph 100
+000072 | -Publisher FASB
+000073 | -URI https://asc.fasb.org/1943274/2147482078/820-10-55-100
+000074 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000075 | -Topic 820
+000076 | -SubTopic 10
+000077 | -Name Accounting Standards Codification
+000078 | -Section 50
+000079 | -Paragraph 2
+000080 | -Subparagraph (b)
+000081 | -Publisher FASB
+000082 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000083 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000084 | -Topic 820
+000085 | -SubTopic 10
+000086 | -Name Accounting Standards Codification
+000087 | -Section 50
+000088 | -Paragraph 2
+000089 | -Subparagraph (a)
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000092 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000093 | -Topic 820
+000094 | -SubTopic 10
+000095 | -Name Accounting Standards Codification
+000096 | -Section 50
+000097 | -Paragraph 3
+000098 | -Subparagraph (a)
+000099 | -Publisher FASB
+000100 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-3
+000101 | + Details
+000102 | Name:
+000103 | us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems
+000104 | Namespace Prefix:
+000105 | us-gaap_
+000106 | Data Type:
+000107 | xbrli:stringItemType
+000108 | Balance Type:
+000109 | na
+000110 | Period Type:
+000111 | duration
+000112 | X
+000113 | - Details
+000114 | Name:
+000115 | us-gaap_FairValueByMeasurementFrequencyAxis=us-gaap_FairValueMeasurementsNonrecurringMember
+000116 | Namespace Prefix:
+000117 | Data Type:
+000118 | na
+000119 | Balance Type:
+000120 | Period Type:

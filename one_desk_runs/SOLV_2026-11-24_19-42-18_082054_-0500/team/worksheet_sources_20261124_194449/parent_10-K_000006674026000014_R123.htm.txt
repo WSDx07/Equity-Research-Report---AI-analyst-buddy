@@ -1,0 +1,475 @@
+000001 | v3.25.4
+000002 | Leases - Schedule of Maturities of lease liabilities (Details) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Lessee, Operating Lease, Liability, to be Paid, Fiscal Year Maturity [Abstract]
+000007 | 2026
+000008 | $ 181
+000009 | 2027
+000010 | 125
+000011 | 2028
+000012 | 83
+000013 | 2029
+000014 | 53
+000015 | 2030
+000016 | 39
+000017 | After 2030
+000018 | 82
+000019 | Total expected lease payments
+000020 | 563
+000021 | Less: Amounts representing interest
+000022 | (33)
+000023 | Present value of future minimum lease payments
+000024 | 530
+000025 | Less: Current obligations
+000026 | 167
+000027 | $ 163
+000028 | Operating lease liabilities
+000029 | $ 363
+000030 | $ 405
+000031 | X
+000032 | - Definition
+000033 | Amount of lessee's undiscounted obligation for lease payment for operating lease.
+000034 | + References
+000035 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000036 | -Topic 942
+000037 | -SubTopic 235
+000038 | -Name Accounting Standards Codification
+000039 | -Section S99
+000040 | -Paragraph 2
+000041 | -Publisher FASB
+000042 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-2
+000043 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000044 | -Topic 235
+000045 | -SubTopic 10
+000046 | -Name Accounting Standards Codification
+000047 | -Section S50
+000048 | -Paragraph 4
+000049 | -Publisher FASB
+000050 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-4
+000051 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000052 | -Topic 235
+000053 | -SubTopic 10
+000054 | -Name Accounting Standards Codification
+000055 | -Section S99
+000056 | -Paragraph 3
+000057 | -Subparagraph (SX 210.12-04(a))
+000058 | -Publisher FASB
+000059 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000060 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000061 | -Topic 842
+000062 | -SubTopic 20
+000063 | -Name Accounting Standards Codification
+000064 | -Section 50
+000065 | -Paragraph 6
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000068 | + Details
+000069 | Name:
+000070 | us-gaap_LesseeOperatingLeaseLiabilityPaymentsDue
+000071 | Namespace Prefix:
+000072 | us-gaap_
+000073 | Data Type:
+000074 | xbrli:monetaryItemType
+000075 | Balance Type:
+000076 | credit
+000077 | Period Type:
+000078 | instant
+000079 | X
+000080 | - Definition
+000081 | Amount of lessee's undiscounted obligation for lease payment for operating lease due after fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000082 | + References
+000083 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000084 | -Topic 942
+000085 | -SubTopic 235
+000086 | -Name Accounting Standards Codification
+000087 | -Section S99
+000088 | -Paragraph 2
+000089 | -Publisher FASB
+000090 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-2
+000091 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000092 | -Topic 235
+000093 | -SubTopic 10
+000094 | -Name Accounting Standards Codification
+000095 | -Section S50
+000096 | -Paragraph 4
+000097 | -Publisher FASB
+000098 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-4
+000099 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000100 | -Topic 235
+000101 | -SubTopic 10
+000102 | -Name Accounting Standards Codification
+000103 | -Section S99
+000104 | -Paragraph 3
+000105 | -Subparagraph (SX 210.12-04(a))
+000106 | -Publisher FASB
+000107 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000108 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000109 | -Topic 842
+000110 | -SubTopic 20
+000111 | -Name Accounting Standards Codification
+000112 | -Section 50
+000113 | -Paragraph 6
+000114 | -Publisher FASB
+000115 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000116 | + Details
+000117 | Name:
+000118 | us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive
+000119 | Namespace Prefix:
+000120 | us-gaap_
+000121 | Data Type:
+000122 | xbrli:monetaryItemType
+000123 | Balance Type:
+000124 | credit
+000125 | Period Type:
+000126 | instant
+000127 | X
+000128 | - Definition
+000129 | Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in next fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000130 | + References
+000131 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000132 | -Topic 942
+000133 | -SubTopic 235
+000134 | -Name Accounting Standards Codification
+000135 | -Section S99
+000136 | -Paragraph 2
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-2
+000139 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000140 | -Topic 235
+000141 | -SubTopic 10
+000142 | -Name Accounting Standards Codification
+000143 | -Section S50
+000144 | -Paragraph 4
+000145 | -Publisher FASB
+000146 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-4
+000147 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000148 | -Topic 235
+000149 | -SubTopic 10
+000150 | -Name Accounting Standards Codification
+000151 | -Section S99
+000152 | -Paragraph 3
+000153 | -Subparagraph (SX 210.12-04(a))
+000154 | -Publisher FASB
+000155 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000156 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000157 | -Topic 842
+000158 | -SubTopic 20
+000159 | -Name Accounting Standards Codification
+000160 | -Section 50
+000161 | -Paragraph 6
+000162 | -Publisher FASB
+000163 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000164 | + Details
+000165 | Name:
+000166 | us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths
+000167 | Namespace Prefix:
+000168 | us-gaap_
+000169 | Data Type:
+000170 | xbrli:monetaryItemType
+000171 | Balance Type:
+000172 | credit
+000173 | Period Type:
+000174 | instant
+000175 | X
+000176 | - Definition
+000177 | Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000178 | + References
+000179 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000180 | -Topic 942
+000181 | -SubTopic 235
+000182 | -Name Accounting Standards Codification
+000183 | -Section S99
+000184 | -Paragraph 2
+000185 | -Publisher FASB
+000186 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-2
+000187 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000188 | -Topic 235
+000189 | -SubTopic 10
+000190 | -Name Accounting Standards Codification
+000191 | -Section S50
+000192 | -Paragraph 4
+000193 | -Publisher FASB
+000194 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-4
+000195 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000196 | -Topic 235
+000197 | -SubTopic 10
+000198 | -Name Accounting Standards Codification
+000199 | -Section S99
+000200 | -Paragraph 3
+000201 | -Subparagraph (SX 210.12-04(a))
+000202 | -Publisher FASB
+000203 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000204 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000205 | -Topic 842
+000206 | -SubTopic 20
+000207 | -Name Accounting Standards Codification
+000208 | -Section 50
+000209 | -Paragraph 6
+000210 | -Publisher FASB
+000211 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000212 | + Details
+000213 | Name:
+000214 | us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueYearFive
+000215 | Namespace Prefix:
+000216 | us-gaap_
+000217 | Data Type:
+000218 | xbrli:monetaryItemType
+000219 | Balance Type:
+000220 | credit
+000221 | Period Type:
+000222 | instant
+000223 | X
+000224 | - Definition
+000225 | Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in fourth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000226 | + References
+000227 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000228 | -Topic 942
+000229 | -SubTopic 235
+000230 | -Name Accounting Standards Codification
+000231 | -Section S99
+000232 | -Paragraph 2
+000233 | -Publisher FASB
+000234 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-2
+000235 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000236 | -Topic 235
+000237 | -SubTopic 10
+000238 | -Name Accounting Standards Codification
+000239 | -Section S50
+000240 | -Paragraph 4
+000241 | -Publisher FASB
+000242 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-4
+000243 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000244 | -Topic 235
+000245 | -SubTopic 10
+000246 | -Name Accounting Standards Codification
+000247 | -Section S99
+000248 | -Paragraph 3
+000249 | -Subparagraph (SX 210.12-04(a))
+000250 | -Publisher FASB
+000251 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000252 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000253 | -Topic 842
+000254 | -SubTopic 20
+000255 | -Name Accounting Standards Codification
+000256 | -Section 50
+000257 | -Paragraph 6
+000258 | -Publisher FASB
+000259 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000260 | + Details
+000261 | Name:
+000262 | us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueYearFour
+000263 | Namespace Prefix:
+000264 | us-gaap_
+000265 | Data Type:
+000266 | xbrli:monetaryItemType
+000267 | Balance Type:
+000268 | credit
+000269 | Period Type:
+000270 | instant
+000271 | X
+000272 | - Definition
+000273 | Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in third fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000274 | + References
+000275 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000276 | -Topic 942
+000277 | -SubTopic 235
+000278 | -Name Accounting Standards Codification
+000279 | -Section S99
+000280 | -Paragraph 2
+000281 | -Publisher FASB
+000282 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-2
+000283 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000284 | -Topic 235
+000285 | -SubTopic 10
+000286 | -Name Accounting Standards Codification
+000287 | -Section S50
+000288 | -Paragraph 4
+000289 | -Publisher FASB
+000290 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-4
+000291 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000292 | -Topic 235
+000293 | -SubTopic 10
+000294 | -Name Accounting Standards Codification
+000295 | -Section S99
+000296 | -Paragraph 3
+000297 | -Subparagraph (SX 210.12-04(a))
+000298 | -Publisher FASB
+000299 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000300 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000301 | -Topic 842
+000302 | -SubTopic 20
+000303 | -Name Accounting Standards Codification
+000304 | -Section 50
+000305 | -Paragraph 6
+000306 | -Publisher FASB
+000307 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000308 | + Details
+000309 | Name:
+000310 | us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueYearThree
+000311 | Namespace Prefix:
+000312 | us-gaap_
+000313 | Data Type:
+000314 | xbrli:monetaryItemType
+000315 | Balance Type:
+000316 | credit
+000317 | Period Type:
+000318 | instant
+000319 | X
+000320 | - Definition
+000321 | Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in second fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000322 | + References
+000323 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000324 | -Topic 942
+000325 | -SubTopic 235
+000326 | -Name Accounting Standards Codification
+000327 | -Section S99
+000328 | -Paragraph 2
+000329 | -Publisher FASB
+000330 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-2
+000331 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000332 | -Topic 235
+000333 | -SubTopic 10
+000334 | -Name Accounting Standards Codification
+000335 | -Section S50
+000336 | -Paragraph 4
+000337 | -Publisher FASB
+000338 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-4
+000339 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000340 | -Topic 235
+000341 | -SubTopic 10
+000342 | -Name Accounting Standards Codification
+000343 | -Section S99
+000344 | -Paragraph 3
+000345 | -Subparagraph (SX 210.12-04(a))
+000346 | -Publisher FASB
+000347 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000348 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000349 | -Topic 842
+000350 | -SubTopic 20
+000351 | -Name Accounting Standards Codification
+000352 | -Section 50
+000353 | -Paragraph 6
+000354 | -Publisher FASB
+000355 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000356 | + Details
+000357 | Name:
+000358 | us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueYearTwo
+000359 | Namespace Prefix:
+000360 | us-gaap_
+000361 | Data Type:
+000362 | xbrli:monetaryItemType
+000363 | Balance Type:
+000364 | credit
+000365 | Period Type:
+000366 | instant
+000367 | X
+000368 | - Definition
+000369 | Amount of lessee's undiscounted obligation for lease payments in excess of discounted obligation for lease payments for operating lease.
+000370 | + References
+000371 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000372 | -Topic 842
+000373 | -SubTopic 20
+000374 | -Name Accounting Standards Codification
+000375 | -Section 50
+000376 | -Paragraph 6
+000377 | -Publisher FASB
+000378 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000379 | + Details
+000380 | Name:
+000381 | us-gaap_LesseeOperatingLeaseLiabilityUndiscountedExcessAmount
+000382 | Namespace Prefix:
+000383 | us-gaap_
+000384 | Data Type:
+000385 | xbrli:monetaryItemType
+000386 | Balance Type:
+000387 | credit
+000388 | Period Type:
+000389 | instant
+000390 | X
+000391 | - References
+000392 | No definition available.
+000393 | + Details
+000394 | Name:
+000395 | us-gaap_OperatingLeaseLiabilitiesPaymentsDueAbstract
+000396 | Namespace Prefix:
+000397 | us-gaap_
+000398 | Data Type:
+000399 | xbrli:stringItemType
+000400 | Balance Type:
+000401 | na
+000402 | Period Type:
+000403 | duration
+000404 | X
+000405 | - Definition
+000406 | Present value of lessee's discounted obligation for lease payments from operating lease.
+000407 | + References
+000408 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000409 | -Topic 842
+000410 | -SubTopic 20
+000411 | -Name Accounting Standards Codification
+000412 | -Section 45
+000413 | -Paragraph 1
+000414 | -Subparagraph (b)
+000415 | -Publisher FASB
+000416 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000417 | + Details
+000418 | Name:
+000419 | us-gaap_OperatingLeaseLiability
+000420 | Namespace Prefix:
+000421 | us-gaap_
+000422 | Data Type:
+000423 | xbrli:monetaryItemType
+000424 | Balance Type:
+000425 | credit
+000426 | Period Type:
+000427 | instant
+000428 | X
+000429 | - Definition
+000430 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as current.
+000431 | + References
+000432 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000433 | -Topic 842
+000434 | -SubTopic 20
+000435 | -Name Accounting Standards Codification
+000436 | -Section 45
+000437 | -Paragraph 1
+000438 | -Subparagraph (b)
+000439 | -Publisher FASB
+000440 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000441 | + Details
+000442 | Name:
+000443 | us-gaap_OperatingLeaseLiabilityCurrent
+000444 | Namespace Prefix:
+000445 | us-gaap_
+000446 | Data Type:
+000447 | xbrli:monetaryItemType
+000448 | Balance Type:
+000449 | credit
+000450 | Period Type:
+000451 | instant
+000452 | X
+000453 | - Definition
+000454 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as noncurrent.
+000455 | + References
+000456 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000457 | -Topic 842
+000458 | -SubTopic 20
+000459 | -Name Accounting Standards Codification
+000460 | -Section 45
+000461 | -Paragraph 1
+000462 | -Subparagraph (b)
+000463 | -Publisher FASB
+000464 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000465 | + Details
+000466 | Name:
+000467 | us-gaap_OperatingLeaseLiabilityNoncurrent
+000468 | Namespace Prefix:
+000469 | us-gaap_
+000470 | Data Type:
+000471 | xbrli:monetaryItemType
+000472 | Balance Type:
+000473 | credit
+000474 | Period Type:
+000475 | instant

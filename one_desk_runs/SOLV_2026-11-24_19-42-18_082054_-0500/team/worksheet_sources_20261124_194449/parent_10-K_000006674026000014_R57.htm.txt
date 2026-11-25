@@ -1,0 +1,269 @@
+000001 | v3.25.4
+000002 | Discontinued Operations - Narrative (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Apr. 01, 2024
+000006 | Dec. 31, 2025
+000007 | Dec. 31, 2024
+000008 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000009 | Transition service and distribution agreement term
+000010 | 2 years
+000011 | Transition contract manufacturing agreement term
+000012 | 3 years
+000013 | Supply agreement by which each company having intial term
+000014 | 3 years
+000015 | Gross fees, net of assigned costs
+000016 | $ 700
+000017 | $ 600
+000018 | Minimum
+000019 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000020 | Supply agreement by which each company extends for particular products
+000021 | 10 years
+000022 | Maximum
+000023 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000024 | Supply agreement by which each company extends for particular products
+000025 | 12 years
+000026 | Discontinued Operations, Disposed of by Means Other than Sale, Spinoff
+000027 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000028 | Other income
+000029 | 150
+000030 | 50
+000031 | Amounts due from solventum
+000032 | 400
+000033 | 400
+000034 | Amounts due to solventum
+000035 | $ 100
+000036 | $ 200
+000037 | Discontinued Operations, Disposed of by Means Other than Sale, Spinoff | Health Care Segment
+000038 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000039 | Ownership interest of outstanding shares ( as a percent)
+000040 | 80.10%
+000041 | X
+000042 | - Definition
+000043 | Discontinued Operation, Equity Method Investment, Ownership Interest Distributed, Percent
+000044 | + References
+000045 | No definition available.
+000046 | + Details
+000047 | Name:
+000048 | mmm_DiscontinuedOperationEquityMethodInvestmentOwnershipInterestDistributedPercent
+000049 | Namespace Prefix:
+000050 | mmm_
+000051 | Data Type:
+000052 | dtr-types:percentItemType
+000053 | Balance Type:
+000054 | na
+000055 | Period Type:
+000056 | instant
+000057 | X
+000058 | - Definition
+000059 | Disposal Group, Including Discontinued Operation Gross Fees Net Of Assigned Costs
+000060 | + References
+000061 | No definition available.
+000062 | + Details
+000063 | Name:
+000064 | mmm_DisposalGroupIncludingDiscontinuedOperationGrossFeesNetOfAssignedCosts
+000065 | Namespace Prefix:
+000066 | mmm_
+000067 | Data Type:
+000068 | xbrli:monetaryItemType
+000069 | Balance Type:
+000070 | debit
+000071 | Period Type:
+000072 | duration
+000073 | X
+000074 | - Definition
+000075 | Supply Agreement By Which Each Company Extends For Particular Products
+000076 | + References
+000077 | No definition available.
+000078 | + Details
+000079 | Name:
+000080 | mmm_SupplyAgreementByWhichEachCompanyExtendsForParticularProducts
+000081 | Namespace Prefix:
+000082 | mmm_
+000083 | Data Type:
+000084 | xbrli:durationItemType
+000085 | Balance Type:
+000086 | na
+000087 | Period Type:
+000088 | duration
+000089 | X
+000090 | - Definition
+000091 | Supply Agreement By Which Each Company Having Intial Term
+000092 | + References
+000093 | No definition available.
+000094 | + Details
+000095 | Name:
+000096 | mmm_SupplyAgreementByWhichEachCompanyHavingIntialTerm
+000097 | Namespace Prefix:
+000098 | mmm_
+000099 | Data Type:
+000100 | xbrli:durationItemType
+000101 | Balance Type:
+000102 | na
+000103 | Period Type:
+000104 | duration
+000105 | X
+000106 | - Definition
+000107 | Transition Contract Manufacturing Agreement Term
+000108 | + References
+000109 | No definition available.
+000110 | + Details
+000111 | Name:
+000112 | mmm_TransitionContractManufacturingAgreementTerm
+000113 | Namespace Prefix:
+000114 | mmm_
+000115 | Data Type:
+000116 | xbrli:durationItemType
+000117 | Balance Type:
+000118 | na
+000119 | Period Type:
+000120 | duration
+000121 | X
+000122 | - Definition
+000123 | Transition Service And Distribution Agreement Term
+000124 | + References
+000125 | No definition available.
+000126 | + Details
+000127 | Name:
+000128 | mmm_TransitionServiceAndDistributionAgreementTerm
+000129 | Namespace Prefix:
+000130 | mmm_
+000131 | Data Type:
+000132 | xbrli:durationItemType
+000133 | Balance Type:
+000134 | na
+000135 | Period Type:
+000136 | duration
+000137 | X
+000138 | - Definition
+000139 | Amount of obligations incurred classified as other, payable within one year or the normal operating cycle, if longer.
+000140 | + References
+000141 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000142 | -Topic 210
+000143 | -SubTopic 10
+000144 | -Name Accounting Standards Codification
+000145 | -Section S99
+000146 | -Paragraph 1
+000147 | -Subparagraph (SX 210.5-02(19)(a))
+000148 | -Publisher FASB
+000149 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000150 | + Details
+000151 | Name:
+000152 | us-gaap_AccountsPayableOtherCurrent
+000153 | Namespace Prefix:
+000154 | us-gaap_
+000155 | Data Type:
+000156 | xbrli:monetaryItemType
+000157 | Balance Type:
+000158 | credit
+000159 | Period Type:
+000160 | instant
+000161 | X
+000162 | - Definition
+000163 | Amount of other income attributable to disposal group, including, but not limited to, discontinued operation.
+000164 | + References
+000165 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000166 | -Topic 205
+000167 | -SubTopic 20
+000168 | -Name Accounting Standards Codification
+000169 | -Section 50
+000170 | -Paragraph 5B
+000171 | -Subparagraph (b)
+000172 | -Publisher FASB
+000173 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000174 | + Details
+000175 | Name:
+000176 | us-gaap_DisposalGroupIncludingDiscontinuedOperationOtherIncome
+000177 | Namespace Prefix:
+000178 | us-gaap_
+000179 | Data Type:
+000180 | xbrli:monetaryItemType
+000181 | Balance Type:
+000182 | credit
+000183 | Period Type:
+000184 | duration
+000185 | X
+000186 | - Definition
+000187 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000188 | + References
+000189 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000190 | -Topic 360
+000191 | -SubTopic 10
+000192 | -Name Accounting Standards Codification
+000193 | -Section 50
+000194 | -Paragraph 3A
+000195 | -Subparagraph (b)(2)
+000196 | -Publisher FASB
+000197 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3A
+000198 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000199 | -Topic 360
+000200 | -SubTopic 10
+000201 | -Name Accounting Standards Codification
+000202 | -Section 50
+000203 | -Paragraph 3A
+000204 | -Subparagraph (b)(1)
+000205 | -Publisher FASB
+000206 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3A
+000207 | + Details
+000208 | Name:
+000209 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsLineItems
+000210 | Namespace Prefix:
+000211 | us-gaap_
+000212 | Data Type:
+000213 | xbrli:stringItemType
+000214 | Balance Type:
+000215 | na
+000216 | Period Type:
+000217 | duration
+000218 | X
+000219 | - Definition
+000220 | Amount, after allowance, of receivables classified as other, due within one year or the operating cycle, if longer.
+000221 | + References
+000222 | No definition available.
+000223 | + Details
+000224 | Name:
+000225 | us-gaap_OtherReceivablesNetCurrent
+000226 | Namespace Prefix:
+000227 | us-gaap_
+000228 | Data Type:
+000229 | xbrli:monetaryItemType
+000230 | Balance Type:
+000231 | debit
+000232 | Period Type:
+000233 | instant
+000234 | X
+000235 | - Details
+000236 | Name:
+000237 | srt_RangeAxis=srt_MinimumMember
+000238 | Namespace Prefix:
+000239 | Data Type:
+000240 | na
+000241 | Balance Type:
+000242 | Period Type:
+000243 | X
+000244 | - Details
+000245 | Name:
+000246 | srt_RangeAxis=srt_MaximumMember
+000247 | Namespace Prefix:
+000248 | Data Type:
+000249 | na
+000250 | Balance Type:
+000251 | Period Type:
+000252 | X
+000253 | - Details
+000254 | Name:
+000255 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DiscontinuedOperationsDisposedOfByMeansOtherThanSaleSpinoffMember
+000256 | Namespace Prefix:
+000257 | Data Type:
+000258 | na
+000259 | Balance Type:
+000260 | Period Type:
+000261 | X
+000262 | - Details
+000263 | Name:
+000264 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=mmm_HealthCareSegmentMember
+000265 | Namespace Prefix:
+000266 | Data Type:
+000267 | na
+000268 | Balance Type:
+000269 | Period Type:

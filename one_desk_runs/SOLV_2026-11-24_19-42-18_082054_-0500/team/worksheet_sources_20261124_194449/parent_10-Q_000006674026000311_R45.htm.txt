@@ -1,0 +1,371 @@
+000001 | v3.26.3
+000002 | Goodwill and Intangible Assets - Schedule of Amortization Expense (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | 9 Months Ended
+000006 | Sep. 30, 2026
+000007 | Sep. 30, 2025
+000008 | Sep. 30, 2026
+000009 | Sep. 30, 2025
+000010 | Intangible Asset, Goodwill and Other [Abstract]
+000011 | Amortization expense
+000012 | $ 41
+000013 | $ 26
+000014 | $ 90
+000015 | $ 78
+000016 | Expected amortization expense for acquired intangible assets recorded as of balance sheet date
+000017 | Remainder of 2026
+000018 | 40
+000019 | 40
+000020 | 2027
+000021 | 142
+000022 | 142
+000023 | 2028
+000024 | 117
+000025 | 117
+000026 | 2029
+000027 | 115
+000028 | 115
+000029 | 2030
+000030 | 115
+000031 | 115
+000032 | 2031
+000033 | 114
+000034 | 114
+000035 | After 2031
+000036 | $ 830
+000037 | $ 830
+000038 | X
+000039 | - Definition
+000040 | Amount of amortization expense for finite-lived intangible asset. Excludes goodwill and capitalized cost for software to be sold, leased, or marketed.
+000041 | + References
+000042 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000043 | -Name Accounting Standards Codification
+000044 | -Section 45
+000045 | -Paragraph 28
+000046 | -Subparagraph (b)
+000047 | -SubTopic 10
+000048 | -Topic 230
+000049 | -Publisher FASB
+000050 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000051 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000052 | -Topic 350
+000053 | -SubTopic 40
+000054 | -Name Accounting Standards Codification
+000055 | -Section 50
+000056 | -Paragraph 1
+000057 | -Publisher FASB
+000058 | -URI https://asc.fasb.org/1943274/2147482558/350-40-50-1
+000059 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000060 | -Topic 350
+000061 | -SubTopic 30
+000062 | -Name Accounting Standards Codification
+000063 | -Section 50
+000064 | -Paragraph 2
+000065 | -Subparagraph (a)(2)
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000068 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000069 | -Topic 220
+000070 | -SubTopic 40
+000071 | -Name Accounting Standards Codification
+000072 | -Section 55
+000073 | -Paragraph 11
+000074 | -Publisher FASB
+000075 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-11
+000076 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000077 | -Topic 220
+000078 | -SubTopic 40
+000079 | -Name Accounting Standards Codification
+000080 | -Section 55
+000081 | -Paragraph 18
+000082 | -Publisher FASB
+000083 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-18
+000084 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000085 | -Topic 220
+000086 | -SubTopic 40
+000087 | -Name Accounting Standards Codification
+000088 | -Section 55
+000089 | -Paragraph 24
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147476153/220-40-55-24
+000092 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000093 | -Topic 220
+000094 | -SubTopic 40
+000095 | -Name Accounting Standards Codification
+000096 | -Section 50
+000097 | -Paragraph 12
+000098 | -Publisher FASB
+000099 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-12
+000100 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+000101 | -Name Accounting Standards Codification
+000102 | -Section 55
+000103 | -Paragraph 40
+000104 | -SubTopic 30
+000105 | -Topic 350
+000106 | -Publisher FASB
+000107 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000108 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000109 | -Topic 350
+000110 | -SubTopic 30
+000111 | -Name Accounting Standards Codification
+000112 | -Section 45
+000113 | -Paragraph 2
+000114 | -Publisher FASB
+000115 | -URI https://asc.fasb.org/1943274/2147482686/350-30-45-2
+000116 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000117 | -Topic 220
+000118 | -SubTopic 40
+000119 | -Name Accounting Standards Codification
+000120 | -Section 50
+000121 | -Paragraph 6
+000122 | -Subparagraph (d)
+000123 | -Publisher FASB
+000124 | -URI https://asc.fasb.org/1943274/2147476148/220-40-50-6
+000125 | + Details
+000126 | Name:
+000127 | us-gaap_AmortizationOfIntangibleAssets
+000128 | Namespace Prefix:
+000129 | us-gaap_
+000130 | Data Type:
+000131 | xbrli:monetaryItemType
+000132 | Balance Type:
+000133 | debit
+000134 | Period Type:
+000135 | duration
+000136 | X
+000137 | - Definition
+000138 | Amount of amortization expense for finite-lived intangible asset expected to be recognized after fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach). Excludes goodwill and capitalized cost for software to be sold, leased, or marketed.
+000139 | + References
+000140 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000141 | -Topic 350
+000142 | -SubTopic 30
+000143 | -Name Accounting Standards Codification
+000144 | -Section 50
+000145 | -Paragraph 2
+000146 | -Subparagraph (a)(3)
+000147 | -Publisher FASB
+000148 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000149 | + Details
+000150 | Name:
+000151 | us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseAfterYearFive
+000152 | Namespace Prefix:
+000153 | us-gaap_
+000154 | Data Type:
+000155 | xbrli:monetaryItemType
+000156 | Balance Type:
+000157 | debit
+000158 | Period Type:
+000159 | instant
+000160 | X
+000161 | - Definition
+000162 | Amount of amortization expense for finite-lived intangible asset expected to be recognized in next fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach). Excludes goodwill and capitalized cost for software to be sold, leased, or marketed.
+000163 | + References
+000164 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000165 | -Topic 350
+000166 | -SubTopic 30
+000167 | -Name Accounting Standards Codification
+000168 | -Section 50
+000169 | -Paragraph 2
+000170 | -Subparagraph (a)(3)
+000171 | -Publisher FASB
+000172 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000173 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000174 | -Name Accounting Standards Codification
+000175 | -Section 55
+000176 | -Paragraph 40
+000177 | -SubTopic 30
+000178 | -Topic 350
+000179 | -Publisher FASB
+000180 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000181 | + Details
+000182 | Name:
+000183 | us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseNextTwelveMonths
+000184 | Namespace Prefix:
+000185 | us-gaap_
+000186 | Data Type:
+000187 | xbrli:monetaryItemType
+000188 | Balance Type:
+000189 | debit
+000190 | Period Type:
+000191 | instant
+000192 | X
+000193 | - Definition
+000194 | Amount of amortization expense for finite-lived intangible asset expected to be recognized in remainder of current fiscal year. Excludes goodwill and capitalized cost for software to be sold, leased, or marketed.
+000195 | + References
+000196 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000197 | -Topic 350
+000198 | -SubTopic 30
+000199 | -Name Accounting Standards Codification
+000200 | -Section 50
+000201 | -Paragraph 2
+000202 | -Subparagraph (a)(3)
+000203 | -Publisher FASB
+000204 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000205 | + Details
+000206 | Name:
+000207 | us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseRemainderOfFiscalYear
+000208 | Namespace Prefix:
+000209 | us-gaap_
+000210 | Data Type:
+000211 | xbrli:monetaryItemType
+000212 | Balance Type:
+000213 | debit
+000214 | Period Type:
+000215 | instant
+000216 | X
+000217 | - Definition
+000218 | Amount of amortization expense for finite-lived intangible asset expected to be recognized in fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach). Excludes goodwill and capitalized cost for software to be sold, leased, or marketed.
+000219 | + References
+000220 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000221 | -Topic 350
+000222 | -SubTopic 30
+000223 | -Name Accounting Standards Codification
+000224 | -Section 50
+000225 | -Paragraph 2
+000226 | -Subparagraph (a)(3)
+000227 | -Publisher FASB
+000228 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000229 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000230 | -Name Accounting Standards Codification
+000231 | -Section 55
+000232 | -Paragraph 40
+000233 | -SubTopic 30
+000234 | -Topic 350
+000235 | -Publisher FASB
+000236 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000237 | + Details
+000238 | Name:
+000239 | us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseYearFive
+000240 | Namespace Prefix:
+000241 | us-gaap_
+000242 | Data Type:
+000243 | xbrli:monetaryItemType
+000244 | Balance Type:
+000245 | debit
+000246 | Period Type:
+000247 | instant
+000248 | X
+000249 | - Definition
+000250 | Amount of amortization expense for finite-lived intangible asset expected to be recognized in fourth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach). Excludes goodwill and capitalized cost for software to be sold, leased, or marketed.
+000251 | + References
+000252 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000253 | -Topic 350
+000254 | -SubTopic 30
+000255 | -Name Accounting Standards Codification
+000256 | -Section 50
+000257 | -Paragraph 2
+000258 | -Subparagraph (a)(3)
+000259 | -Publisher FASB
+000260 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000261 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000262 | -Name Accounting Standards Codification
+000263 | -Section 55
+000264 | -Paragraph 40
+000265 | -SubTopic 30
+000266 | -Topic 350
+000267 | -Publisher FASB
+000268 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000269 | + Details
+000270 | Name:
+000271 | us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseYearFour
+000272 | Namespace Prefix:
+000273 | us-gaap_
+000274 | Data Type:
+000275 | xbrli:monetaryItemType
+000276 | Balance Type:
+000277 | debit
+000278 | Period Type:
+000279 | instant
+000280 | X
+000281 | - Definition
+000282 | Amount of amortization expense for finite-lived intangible asset expected to be recognized in third fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach). Excludes goodwill and capitalized cost for software to be sold, leased, or marketed.
+000283 | + References
+000284 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000285 | -Topic 350
+000286 | -SubTopic 30
+000287 | -Name Accounting Standards Codification
+000288 | -Section 50
+000289 | -Paragraph 2
+000290 | -Subparagraph (a)(3)
+000291 | -Publisher FASB
+000292 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000293 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000294 | -Name Accounting Standards Codification
+000295 | -Section 55
+000296 | -Paragraph 40
+000297 | -SubTopic 30
+000298 | -Topic 350
+000299 | -Publisher FASB
+000300 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000301 | + Details
+000302 | Name:
+000303 | us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseYearThree
+000304 | Namespace Prefix:
+000305 | us-gaap_
+000306 | Data Type:
+000307 | xbrli:monetaryItemType
+000308 | Balance Type:
+000309 | debit
+000310 | Period Type:
+000311 | instant
+000312 | X
+000313 | - Definition
+000314 | Amount of amortization expense for finite-lived intangible asset expected to be recognized in second fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach). Excludes goodwill and capitalized cost for software to be sold, leased, or marketed.
+000315 | + References
+000316 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000317 | -Topic 350
+000318 | -SubTopic 30
+000319 | -Name Accounting Standards Codification
+000320 | -Section 50
+000321 | -Paragraph 2
+000322 | -Subparagraph (a)(3)
+000323 | -Publisher FASB
+000324 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000325 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000326 | -Name Accounting Standards Codification
+000327 | -Section 55
+000328 | -Paragraph 40
+000329 | -SubTopic 30
+000330 | -Topic 350
+000331 | -Publisher FASB
+000332 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000333 | + Details
+000334 | Name:
+000335 | us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseYearTwo
+000336 | Namespace Prefix:
+000337 | us-gaap_
+000338 | Data Type:
+000339 | xbrli:monetaryItemType
+000340 | Balance Type:
+000341 | debit
+000342 | Period Type:
+000343 | instant
+000344 | X
+000345 | - References
+000346 | No definition available.
+000347 | + Details
+000348 | Name:
+000349 | us-gaap_FiniteLivedIntangibleAssetsFutureAmortizationExpenseAbstract
+000350 | Namespace Prefix:
+000351 | us-gaap_
+000352 | Data Type:
+000353 | xbrli:stringItemType
+000354 | Balance Type:
+000355 | na
+000356 | Period Type:
+000357 | duration
+000358 | X
+000359 | - References
+000360 | No definition available.
+000361 | + Details
+000362 | Name:
+000363 | us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract
+000364 | Namespace Prefix:
+000365 | us-gaap_
+000366 | Data Type:
+000367 | xbrli:stringItemType
+000368 | Balance Type:
+000369 | na
+000370 | Period Type:
+000371 | duration

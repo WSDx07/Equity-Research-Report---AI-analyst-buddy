@@ -1,0 +1,150 @@
+000001 | v3.26.3
+000002 | Derivatives - Schedule of Location, Fair Value, and Gross Notional Amounts of Derivative Instruments (Details) - Foreign currency forward/option contracts and cross-currency swaps - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Derivatives designated as hedging instruments
+000007 | Location and Fair Value Amount of Derivative Instruments
+000008 | Derivative, notional amount
+000009 | $ 15,740
+000010 | $ 10,036
+000011 | Derivatives not designated as hedging instruments
+000012 | Location and Fair Value Amount of Derivative Instruments
+000013 | Derivative, notional amount
+000014 | $ 2,518
+000015 | $ 2,188
+000016 | X
+000017 | - Definition
+000018 | Nominal or face amount used to calculate payment on derivative.
+000019 | + References
+000020 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000021 | -Topic 815
+000022 | -SubTopic 10
+000023 | -Name Accounting Standards Codification
+000024 | -Section 50
+000025 | -Paragraph 1A
+000026 | -Subparagraph (d)
+000027 | -Publisher FASB
+000028 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-1A
+000029 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000030 | -Topic 815
+000031 | -SubTopic 10
+000032 | -Name Accounting Standards Codification
+000033 | -Section 55
+000034 | -Paragraph 181
+000035 | -Publisher FASB
+000036 | -URI https://asc.fasb.org/1943274/2147480401/815-10-55-181
+000037 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000038 | -Topic 815
+000039 | -SubTopic 10
+000040 | -Name Accounting Standards Codification
+000041 | -Section 50
+000042 | -Paragraph 1B
+000043 | -Publisher FASB
+000044 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-1B
+000045 | + Details
+000046 | Name:
+000047 | us-gaap_DerivativeNotionalAmount
+000048 | Namespace Prefix:
+000049 | us-gaap_
+000050 | Data Type:
+000051 | xbrli:monetaryItemType
+000052 | Balance Type:
+000053 | na
+000054 | Period Type:
+000055 | instant
+000056 | X
+000057 | - Definition
+000058 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000059 | + References
+000060 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000061 | -Topic 815
+000062 | -SubTopic 10
+000063 | -Name Accounting Standards Codification
+000064 | -Section 55
+000065 | -Paragraph 182
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147480401/815-10-55-182
+000068 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000069 | -Topic 815
+000070 | -SubTopic 10
+000071 | -Name Accounting Standards Codification
+000072 | -Section 50
+000073 | -Paragraph 4A
+000074 | -Subparagraph (a)
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4A
+000077 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000078 | -Topic 815
+000079 | -SubTopic 10
+000080 | -Name Accounting Standards Codification
+000081 | -Section 50
+000082 | -Paragraph 4B
+000083 | -Subparagraph (a)
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000086 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000087 | -Topic 815
+000088 | -SubTopic 10
+000089 | -Name Accounting Standards Codification
+000090 | -Section 50
+000091 | -Paragraph 4B
+000092 | -Subparagraph (c)(1)
+000093 | -Publisher FASB
+000094 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000095 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000096 | -Topic 815
+000097 | -SubTopic 10
+000098 | -Name Accounting Standards Codification
+000099 | -Section 50
+000100 | -Paragraph 4B
+000101 | -Subparagraph (c)(2)
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000104 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000105 | -Topic 815
+000106 | -SubTopic 10
+000107 | -Name Accounting Standards Codification
+000108 | -Section 50
+000109 | -Paragraph 4B
+000110 | -Subparagraph (d)
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000113 | + Details
+000114 | Name:
+000115 | us-gaap_DerivativesFairValueLineItems
+000116 | Namespace Prefix:
+000117 | us-gaap_
+000118 | Data Type:
+000119 | xbrli:stringItemType
+000120 | Balance Type:
+000121 | na
+000122 | Period Type:
+000123 | duration
+000124 | X
+000125 | - Details
+000126 | Name:
+000127 | us-gaap_HedgingDesignationAxis=us-gaap_DesignatedAsHedgingInstrumentMember
+000128 | Namespace Prefix:
+000129 | Data Type:
+000130 | na
+000131 | Balance Type:
+000132 | Period Type:
+000133 | X
+000134 | - Details
+000135 | Name:
+000136 | us-gaap_DerivativeInstrumentRiskAxis=us-gaap_ForeignExchangeContractMember
+000137 | Namespace Prefix:
+000138 | Data Type:
+000139 | na
+000140 | Balance Type:
+000141 | Period Type:
+000142 | X
+000143 | - Details
+000144 | Name:
+000145 | us-gaap_HedgingDesignationAxis=us-gaap_NondesignatedMember
+000146 | Namespace Prefix:
+000147 | Data Type:
+000148 | na
+000149 | Balance Type:
+000150 | Period Type:

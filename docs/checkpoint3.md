@@ -89,3 +89,6 @@ The partner selected NVIDIA and The Home Depot. NVIDIA is in the [Week 4 startin
 - **Sam — WMT:** Walmart's worksheet view was not computed. The run began on November 19, and the available record does not establish the external commit time.
 - **Ryan / partner test — NVDA:** The reviewed NVIDIA report has a “less than price” view. Its original partner-run report was committed about 4.7 hours after filing;
 - **Partner test — HD:** The reviewed Home Depot report has a “less than price” view. Its original partner-run report was committed about 14.8 hours after filing.
+#### Nov. 23–29, 2026
+
+- **Shlok — DLTR / SOLV:** Dollar Tree's earnings 8-K was accepted November 24 at 6:30:42 a.m. Eastern. The worksheet record was saved at 7:52:14 p.m. the same day, after the first post-filing close. Its DLTR view remains not computed because the automatic reader did not establish the necessary valuation inputs. Solventum is the spinoff worksheet company; its 3M parent and distribution terms are sourced. The report remains local and uncommitted. See the [weekly report](../runs/live/Week%2011-23to11-29/Shlok_DLTR_SOLV/report.md) and [worksheet](../runs/live/Week%2011-23to11-29/Shlok_DLTR_SOLV/worksheet.md).

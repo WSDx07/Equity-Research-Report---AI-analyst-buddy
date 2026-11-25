@@ -1,0 +1,198 @@
+000001 | v3.25.4
+000002 | Derivatives - Schedule of Cumulative Basis Adjustment for Fair Value Hedges (Details) - Fair Value Hedge - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Location and Fair Value Amount of Derivative Instruments
+000007 | Carrying value of the hedged (and formerly hedged) liabilities
+000008 | $ 959
+000009 | $ 924
+000010 | Hedged Liability, Statement of Financial Position [Extensible Enumeration]
+000011 | Long-term debt
+000012 | Long-term debt
+000013 | Long-Term Debt | Derivatives designated as hedging instruments
+000014 | Location and Fair Value Amount of Derivative Instruments
+000015 | Cumulative amount of fair value hedging adjustment included in carrying value of hedged liabilities for
+000016 | $ 0
+000017 | $ (81)
+000018 | Long-Term Debt | Derivatives not designated as hedging instruments
+000019 | Location and Fair Value Amount of Derivative Instruments
+000020 | Cumulative amount of fair value hedging adjustment included in carrying value of hedged liabilities for
+000021 | $ (44)
+000022 | $ 2
+000023 | X
+000024 | - Definition
+000025 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000026 | + References
+000027 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000028 | -Topic 815
+000029 | -SubTopic 10
+000030 | -Name Accounting Standards Codification
+000031 | -Section 55
+000032 | -Paragraph 182
+000033 | -Publisher FASB
+000034 | -URI https://asc.fasb.org/1943274/2147480401/815-10-55-182
+000035 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000036 | -Topic 815
+000037 | -SubTopic 10
+000038 | -Name Accounting Standards Codification
+000039 | -Section 50
+000040 | -Paragraph 4B
+000041 | -Subparagraph (d)
+000042 | -Publisher FASB
+000043 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000044 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000045 | -Topic 815
+000046 | -SubTopic 10
+000047 | -Name Accounting Standards Codification
+000048 | -Section 50
+000049 | -Paragraph 4B
+000050 | -Subparagraph (c)(2)
+000051 | -Publisher FASB
+000052 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000053 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000054 | -Topic 815
+000055 | -SubTopic 10
+000056 | -Name Accounting Standards Codification
+000057 | -Section 50
+000058 | -Paragraph 4B
+000059 | -Subparagraph (c)(1)
+000060 | -Publisher FASB
+000061 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000062 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000063 | -Topic 815
+000064 | -SubTopic 10
+000065 | -Name Accounting Standards Codification
+000066 | -Section 50
+000067 | -Paragraph 4B
+000068 | -Subparagraph (a)
+000069 | -Publisher FASB
+000070 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000071 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000072 | -Topic 815
+000073 | -SubTopic 10
+000074 | -Name Accounting Standards Codification
+000075 | -Section 50
+000076 | -Paragraph 4A
+000077 | -Subparagraph (a)
+000078 | -Publisher FASB
+000079 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4A
+000080 | + Details
+000081 | Name:
+000082 | us-gaap_DerivativesFairValueLineItems
+000083 | Namespace Prefix:
+000084 | us-gaap_
+000085 | Data Type:
+000086 | xbrli:stringItemType
+000087 | Balance Type:
+000088 | na
+000089 | Period Type:
+000090 | duration
+000091 | X
+000092 | - Definition
+000093 | Amount of liability hedged in fair value hedging relationship.
+000094 | + References
+000095 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000096 | -Topic 815
+000097 | -SubTopic 10
+000098 | -Name Accounting Standards Codification
+000099 | -Section 50
+000100 | -Paragraph 4EE
+000101 | -Subparagraph (a)
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4EE
+000104 | + Details
+000105 | Name:
+000106 | us-gaap_HedgedLiabilityFairValueHedge
+000107 | Namespace Prefix:
+000108 | us-gaap_
+000109 | Data Type:
+000110 | xbrli:monetaryItemType
+000111 | Balance Type:
+000112 | credit
+000113 | Period Type:
+000114 | instant
+000115 | X
+000116 | - Definition
+000117 | Amount of cumulative increase (decrease) in fair value of hedged liability in fair value hedge, attributable to hedged risk. Excludes cumulative basis adjustment related to foreign exchange risk.
+000118 | + References
+000119 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000120 | -Topic 815
+000121 | -SubTopic 10
+000122 | -Name Accounting Standards Codification
+000123 | -Section 50
+000124 | -Paragraph 4EE
+000125 | -Subparagraph (b)
+000126 | -Publisher FASB
+000127 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4EE
+000128 | + Details
+000129 | Name:
+000130 | us-gaap_HedgedLiabilityFairValueHedgeCumulativeIncreaseDecrease
+000131 | Namespace Prefix:
+000132 | us-gaap_
+000133 | Data Type:
+000134 | xbrli:monetaryItemType
+000135 | Balance Type:
+000136 | credit
+000137 | Period Type:
+000138 | instant
+000139 | X
+000140 | - Definition
+000141 | Indicates line item in statement of financial position that includes hedged liability.
+000142 | + References
+000143 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000144 | -Topic 815
+000145 | -SubTopic 10
+000146 | -Name Accounting Standards Codification
+000147 | -Section 50
+000148 | -Paragraph 4EE
+000149 | -Subparagraph (c)
+000150 | -Publisher FASB
+000151 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4EE
+000152 | + Details
+000153 | Name:
+000154 | us-gaap_HedgedLiabilityStatementOfFinancialPositionExtensibleEnumeration
+000155 | Namespace Prefix:
+000156 | us-gaap_
+000157 | Data Type:
+000158 | enum2:enumerationSetItemType
+000159 | Balance Type:
+000160 | na
+000161 | Period Type:
+000162 | instant
+000163 | X
+000164 | - Details
+000165 | Name:
+000166 | us-gaap_DerivativeInstrumentsGainLossByHedgingRelationshipAxis=us-gaap_FairValueHedgingMember
+000167 | Namespace Prefix:
+000168 | Data Type:
+000169 | na
+000170 | Balance Type:
+000171 | Period Type:
+000172 | X
+000173 | - Details
+000174 | Name:
+000175 | us-gaap_BalanceSheetLocationAxis=us-gaap_LongTermDebtMember
+000176 | Namespace Prefix:
+000177 | Data Type:
+000178 | na
+000179 | Balance Type:
+000180 | Period Type:
+000181 | X
+000182 | - Details
+000183 | Name:
+000184 | us-gaap_HedgingDesignationAxis=us-gaap_DesignatedAsHedgingInstrumentMember
+000185 | Namespace Prefix:
+000186 | Data Type:
+000187 | na
+000188 | Balance Type:
+000189 | Period Type:
+000190 | X
+000191 | - Details
+000192 | Name:
+000193 | us-gaap_HedgingDesignationAxis=us-gaap_NondesignatedMember
+000194 | Namespace Prefix:
+000195 | Data Type:
+000196 | na
+000197 | Balance Type:
+000198 | Period Type:

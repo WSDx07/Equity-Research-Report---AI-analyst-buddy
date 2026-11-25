@@ -1,0 +1,431 @@
+000001 | v3.24.1.1.u2
+000002 | Commitment and Contingencies (Details)
+000003 | 1 Months Ended
+000004 | 3 Months Ended
+000005 | 12 Months Ended
+000006 | Oct. 31, 2022
+000007 | case
+000008 | Sep. 30, 2022
+000009 | case
+000010 | Jan. 31, 2022
+000011 | case
+000012 | Mar. 31, 2024
+000013 | USD ($)
+000014 | lawsuit
+000015 | operatingSegment
+000016 | classAction
+000017 | case
+000018 | Mar. 31, 2023
+000019 | USD ($)
+000020 | Dec. 31, 2023
+000021 | USD ($)
+000022 | case
+000023 | Dec. 31, 2019
+000024 | case
+000025 | Dec. 31, 2008
+000026 | employee
+000027 | quiTamAction
+000028 | Loss Contingencies [Line Items]
+000029 | Loss contingency accrual | $
+000030 | $ 23,000,000
+000031 | $ 23,000,000
+000032 | Legal charges in period | $
+000033 | $ 0
+000034 | $ (1,000,000)
+000035 | 3M
+000036 | Loss Contingencies [Line Items]
+000037 | Total lawsuits to date | lawsuit
+000038 | 6,600
+000039 | Number of putative class actions | classAction
+000040 | 1
+000041 | Number of cases selected for bellwether process
+000042 | 34
+000043 | Number of cases dismissed
+000044 | 61
+000045 | 3M | Blair Hugger Patient Warming Systems Litigation
+000046 | Loss Contingencies [Line Items]
+000047 | Number of pending/ongoing cases
+000048 | 6
+000049 | Number of cases settled
+000050 | 1
+000051 | 1
+000052 | 3
+000053 | Number of cases removed to federal court
+000054 | 2
+000055 | 3M | Federal False Claims Act/Qui Tam Litigation
+000056 | Loss Contingencies [Line Items]
+000057 | Number of pending/ongoing cases | quiTamAction
+000058 | 2
+000059 | Number of cases dismissed
+000060 | 1
+000061 | Number of employees who filed qui tam actions | employee
+000062 | 2
+000063 | ALABAMA | 3M | Blair Hugger Patient Warming Systems Litigation
+000064 | Loss Contingencies [Line Items]
+000065 | Number of pending/ongoing cases | operatingSegment
+000066 | 1
+000067 | MISSOURI | 3M | Blair Hugger Patient Warming Systems Litigation
+000068 | Loss Contingencies [Line Items]
+000069 | Number of pending/ongoing cases
+000070 | 2
+000071 | X
+000072 | - Definition
+000073 | Loss Contingency, Claims Removed To Federal Court, Number
+000074 | + References
+000075 | No definition available.
+000076 | + Details
+000077 | Name:
+000078 | solv_LossContingencyClaimsRemovedToFederalCourtNumber
+000079 | Namespace Prefix:
+000080 | solv_
+000081 | Data Type:
+000082 | xbrli:integerItemType
+000083 | Balance Type:
+000084 | na
+000085 | Period Type:
+000086 | instant
+000087 | X
+000088 | - Definition
+000089 | Loss Contingency, Claims Selected For Bellwether Process, Number
+000090 | + References
+000091 | No definition available.
+000092 | + Details
+000093 | Name:
+000094 | solv_LossContingencyClaimsSelectedForBellwetherProcessNumber
+000095 | Namespace Prefix:
+000096 | solv_
+000097 | Data Type:
+000098 | xbrli:integerItemType
+000099 | Balance Type:
+000100 | na
+000101 | Period Type:
+000102 | instant
+000103 | X
+000104 | - Definition
+000105 | Loss Contingency, Employees Who Filed Claims, Number
+000106 | + References
+000107 | No definition available.
+000108 | + Details
+000109 | Name:
+000110 | solv_LossContingencyEmployeesWhoFiledClaimsNumber
+000111 | Namespace Prefix:
+000112 | solv_
+000113 | Data Type:
+000114 | xbrli:integerItemType
+000115 | Balance Type:
+000116 | na
+000117 | Period Type:
+000118 | instant
+000119 | X
+000120 | - Definition
+000121 | Loss Contingency, Putative Class Action, Number
+000122 | + References
+000123 | No definition available.
+000124 | + Details
+000125 | Name:
+000126 | solv_LossContingencyPutativeClassActionNumber
+000127 | Namespace Prefix:
+000128 | solv_
+000129 | Data Type:
+000130 | xbrli:integerItemType
+000131 | Balance Type:
+000132 | na
+000133 | Period Type:
+000134 | instant
+000135 | X
+000136 | - Definition
+000137 | Loss Contingency, Total Claims To Date, Number
+000138 | + References
+000139 | No definition available.
+000140 | + Details
+000141 | Name:
+000142 | solv_LossContingencyTotalClaimsToDateNumber
+000143 | Namespace Prefix:
+000144 | solv_
+000145 | Data Type:
+000146 | xbrli:integerItemType
+000147 | Balance Type:
+000148 | na
+000149 | Period Type:
+000150 | instant
+000151 | X
+000152 | - Definition
+000153 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000154 | + References
+000155 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000156 | -Topic 450
+000157 | -SubTopic 20
+000158 | -Name Accounting Standards Codification
+000159 | -Section 50
+000160 | -Paragraph 4
+000161 | -Subparagraph (a)
+000162 | -Publisher FASB
+000163 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000164 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000165 | -Topic 450
+000166 | -SubTopic 20
+000167 | -Name Accounting Standards Codification
+000168 | -Section 50
+000169 | -Paragraph 9
+000170 | -Subparagraph (a)
+000171 | -Publisher FASB
+000172 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000173 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000174 | -Topic 720
+000175 | -SubTopic 20
+000176 | -Name Accounting Standards Codification
+000177 | -Section 50
+000178 | -Paragraph 1
+000179 | -Publisher FASB
+000180 | -URI https://asc.fasb.org/1943274/2147483359/720-20-50-1
+000181 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000182 | -Topic 460
+000183 | -SubTopic 10
+000184 | -Name Accounting Standards Codification
+000185 | -Section 55
+000186 | -Paragraph 27
+000187 | -Publisher FASB
+000188 | -URI https://asc.fasb.org/1943274/2147482395/460-10-55-27
+000189 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000190 | -Topic 450
+000191 | -SubTopic 20
+000192 | -Name Accounting Standards Codification
+000193 | -Section 50
+000194 | -Paragraph 9
+000195 | -Subparagraph (b)
+000196 | -Publisher FASB
+000197 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000198 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000199 | -Topic 450
+000200 | -SubTopic 20
+000201 | -Name Accounting Standards Codification
+000202 | -Section 50
+000203 | -Paragraph 4
+000204 | -Subparagraph (b)
+000205 | -Publisher FASB
+000206 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000207 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000208 | -Topic 460
+000209 | -SubTopic 10
+000210 | -Name Accounting Standards Codification
+000211 | -Section 50
+000212 | -Paragraph 3
+000213 | -Publisher FASB
+000214 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-3
+000215 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000216 | -Topic 450
+000217 | -SubTopic 20
+000218 | -Name Accounting Standards Codification
+000219 | -Section 50
+000220 | -Paragraph 1
+000221 | -Publisher FASB
+000222 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000223 | + Details
+000224 | Name:
+000225 | us-gaap_LossContingenciesLineItems
+000226 | Namespace Prefix:
+000227 | us-gaap_
+000228 | Data Type:
+000229 | xbrli:stringItemType
+000230 | Balance Type:
+000231 | na
+000232 | Period Type:
+000233 | duration
+000234 | X
+000235 | - Definition
+000236 | Amount of loss contingency liability.
+000237 | + References
+000238 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000239 | -Topic 450
+000240 | -SubTopic 20
+000241 | -Name Accounting Standards Codification
+000242 | -Section 50
+000243 | -Paragraph 1
+000244 | -Publisher FASB
+000245 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000246 | Reference 2: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000247 | -Topic 450
+000248 | -SubTopic 20
+000249 | -Name Accounting Standards Codification
+000250 | -Section 50
+000251 | -Paragraph 10
+000252 | -Publisher FASB
+000253 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-10
+000254 | + Details
+000255 | Name:
+000256 | us-gaap_LossContingencyAccrualAtCarryingValue
+000257 | Namespace Prefix:
+000258 | us-gaap_
+000259 | Data Type:
+000260 | xbrli:monetaryItemType
+000261 | Balance Type:
+000262 | credit
+000263 | Period Type:
+000264 | instant
+000265 | X
+000266 | - Definition
+000267 | Number of claims dismissed.
+000268 | + References
+000269 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000270 | -Topic 450
+000271 | -SubTopic 20
+000272 | -Name Accounting Standards Codification
+000273 | -Section 50
+000274 | -Paragraph 4
+000275 | -Subparagraph (a)
+000276 | -Publisher FASB
+000277 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000278 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000279 | -Topic 450
+000280 | -SubTopic 20
+000281 | -Name Accounting Standards Codification
+000282 | -Section 50
+000283 | -Paragraph 9
+000284 | -Subparagraph (a)
+000285 | -Publisher FASB
+000286 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000287 | + Details
+000288 | Name:
+000289 | us-gaap_LossContingencyClaimsDismissedNumber
+000290 | Namespace Prefix:
+000291 | us-gaap_
+000292 | Data Type:
+000293 | xbrli:integerItemType
+000294 | Balance Type:
+000295 | na
+000296 | Period Type:
+000297 | duration
+000298 | X
+000299 | - Definition
+000300 | Number of claims settled.
+000301 | + References
+000302 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000303 | -Topic 450
+000304 | -SubTopic 20
+000305 | -Name Accounting Standards Codification
+000306 | -Section 50
+000307 | -Paragraph 4
+000308 | -Subparagraph (a)
+000309 | -Publisher FASB
+000310 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000311 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000312 | -Topic 450
+000313 | -SubTopic 20
+000314 | -Name Accounting Standards Codification
+000315 | -Section 50
+000316 | -Paragraph 9
+000317 | -Subparagraph (a)
+000318 | -Publisher FASB
+000319 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000320 | + Details
+000321 | Name:
+000322 | us-gaap_LossContingencyClaimsSettledNumber
+000323 | Namespace Prefix:
+000324 | us-gaap_
+000325 | Data Type:
+000326 | xbrli:integerItemType
+000327 | Balance Type:
+000328 | na
+000329 | Period Type:
+000330 | duration
+000331 | X
+000332 | - Definition
+000333 | The amount of loss pertaining to the specified contingency that was charged against earnings in the period, including the effects of revisions in previously reported estimates.
+000334 | + References
+000335 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000336 | -Topic 450
+000337 | -SubTopic 20
+000338 | -Name Accounting Standards Codification
+000339 | -Section 50
+000340 | -Paragraph 1
+000341 | -Publisher FASB
+000342 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000343 | + Details
+000344 | Name:
+000345 | us-gaap_LossContingencyLossInPeriod
+000346 | Namespace Prefix:
+000347 | us-gaap_
+000348 | Data Type:
+000349 | xbrli:monetaryItemType
+000350 | Balance Type:
+000351 | debit
+000352 | Period Type:
+000353 | duration
+000354 | X
+000355 | - Definition
+000356 | Number of pending claims pertaining to a loss contingency.
+000357 | + References
+000358 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000359 | -Topic 450
+000360 | -SubTopic 20
+000361 | -Name Accounting Standards Codification
+000362 | -Section 50
+000363 | -Paragraph 4
+000364 | -Subparagraph (a)
+000365 | -Publisher FASB
+000366 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000367 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000368 | -Topic 450
+000369 | -SubTopic 20
+000370 | -Name Accounting Standards Codification
+000371 | -Section 50
+000372 | -Paragraph 9
+000373 | -Subparagraph (a)
+000374 | -Publisher FASB
+000375 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000376 | + Details
+000377 | Name:
+000378 | us-gaap_LossContingencyPendingClaimsNumber
+000379 | Namespace Prefix:
+000380 | us-gaap_
+000381 | Data Type:
+000382 | xbrli:integerItemType
+000383 | Balance Type:
+000384 | na
+000385 | Period Type:
+000386 | instant
+000387 | X
+000388 | - Details
+000389 | Name:
+000390 | dei_LegalEntityAxis=solv_A3MMember
+000391 | Namespace Prefix:
+000392 | Data Type:
+000393 | na
+000394 | Balance Type:
+000395 | Period Type:
+000396 | X
+000397 | - Details
+000398 | Name:
+000399 | srt_LitigationCaseAxis=solv_BlairHuggerPatientWarmingSystemsLitigationMember
+000400 | Namespace Prefix:
+000401 | Data Type:
+000402 | na
+000403 | Balance Type:
+000404 | Period Type:
+000405 | X
+000406 | - Details
+000407 | Name:
+000408 | srt_LitigationCaseAxis=solv_FederalFalseClaimsActQuiTamLitigationMember
+000409 | Namespace Prefix:
+000410 | Data Type:
+000411 | na
+000412 | Balance Type:
+000413 | Period Type:
+000414 | X
+000415 | - Details
+000416 | Name:
+000417 | srt_StatementGeographicalAxis=stpr_AL
+000418 | Namespace Prefix:
+000419 | Data Type:
+000420 | na
+000421 | Balance Type:
+000422 | Period Type:
+000423 | X
+000424 | - Details
+000425 | Name:
+000426 | srt_StatementGeographicalAxis=stpr_MO
+000427 | Namespace Prefix:
+000428 | Data Type:
+000429 | na
+000430 | Balance Type:
+000431 | Period Type:

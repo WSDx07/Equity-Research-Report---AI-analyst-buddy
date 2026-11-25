@@ -1,0 +1,232 @@
+{
+  "marks": [
+    {
+      "line": 8,
+      "value": "$793 million",
+      "supported": true,
+      "reason": "10‑K line 183 (excerpt) states “Total cash generated from the sale approximated $793.0 million”."
+    },
+    {
+      "line": 8,
+      "value": "$680 million",
+      "supported": true,
+      "reason": "10‑K line 183 (excerpt) states “approximately $680.0 million of net proceeds”."
+    },
+    {
+      "line": 8,
+      "value": "$113 million",
+      "supported": true,
+      "reason": "10‑K line 183 (excerpt) states “approximately $113.0 million monetized”."
+    },
+    {
+      "line": 13,
+      "value": "$1.25",
+      "supported": true,
+      "reason": "10‑K line 203 (excerpt) contains “In addition to our $1.25 price point”."
+    },
+    {
+      "line": 13,
+      "value": "8,400",
+      "supported": true,
+      "reason": "10‑K line 203 (excerpt) contains “more than 8,400 Dollar Tree stores”."
+    },
+    {
+      "line": 14,
+      "value": "84",
+      "supported": true,
+      "reason": "EX‑99.1 line 23 (excerpt) states “Opened 84 new Dollar Tree stores during the quarter”."
+    },
+    {
+      "line": 34,
+      "value": "19411800000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:Revenues (current) in the supplied facts JSON."
+    },
+    {
+      "line": 35,
+      "value": "17578500000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:Revenues (prior) in the supplied facts JSON."
+    },
+    {
+      "line": 36,
+      "value": "1653100000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:OperatingIncomeLoss (current)."
+    },
+    {
+      "line": 37,
+      "value": "1462000000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:OperatingIncomeLoss (prior)."
+    },
+    {
+      "line": 38,
+      "value": "1282500000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:NetIncomeLoss (current)."
+    },
+    {
+      "line": 39,
+      "value": "-3030100000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:NetIncomeLoss (prior)."
+    },
+    {
+      "line": 40,
+      "value": "6.22 USD/share",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:EarningsPerShareDiluted (current)."
+    },
+    {
+      "line": 41,
+      "value": "-14.03 USD/share",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:EarningsPerShareDiluted (prior)."
+    },
+    {
+      "line": 42,
+      "value": "3754900000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:StockholdersEquity (current)."
+    },
+    {
+      "line": 43,
+      "value": "3977400000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:StockholdersEquity (prior)."
+    },
+    {
+      "line": 44,
+      "value": "2431700000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:LongTermDebtNoncurrent (current)."
+    },
+    {
+      "line": 45,
+      "value": "2431200000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:LongTermDebtNoncurrent (prior)."
+    },
+    {
+      "line": 46,
+      "value": "0 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:LongTermDebtCurrent (current)."
+    },
+    {
+      "line": 47,
+      "value": "1000000000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:LongTermDebtCurrent (prior)."
+    },
+    {
+      "line": 48,
+      "value": "2190700000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations (current)."
+    },
+    {
+      "line": 49,
+      "value": "2193300000 USD",
+      "supported": true,
+      "reason": "Matches company XBRL fact us‑gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations (prior)."
+    },
+    {
+      "line": 50,
+      "value": "10.43 %",
+      "supported": true,
+      "reason": "Calculated from the supported revenue figures (see lines 34‑35)."
+    },
+    {
+      "line": 51,
+      "value": "8.52 %",
+      "supported": true,
+      "reason": "Calculated from the supported operating‑income and revenue figures (lines 36‑34)."
+    },
+    {
+      "line": 52,
+      "value": "33.17 %",
+      "supported": true,
+      "reason": "Calculated from net‑income and equity values (lines 38, 42‑43)."
+    },
+    {
+      "line": 53,
+      "value": "0.6476 ratio",
+      "supported": true,
+      "reason": "Calculated from debt and equity values (lines 44‑46‑42)."
+    },
+    {
+      "line": 57,
+      "value": "6.9 %",
+      "supported": true,
+      "reason": "EX‑99.1 line 10 (excerpt) reads “Total revenue increased 6.9%…”."
+    },
+    {
+      "line": 57,
+      "value": "$5.1 billion",
+      "supported": true,
+      "reason": "EX‑99.1 line 10 (excerpt) reads “…to $5.1 billion”."
+    },
+    {
+      "line": 58,
+      "value": "$1.24",
+      "supported": true,
+      "reason": "EX‑99.1 line 13 (excerpt) reads “Diluted EPS of $1.24…”."
+    },
+    {
+      "line": 58,
+      "value": "$0.42",
+      "supported": true,
+      "reason": "EX‑99.1 line 13 (excerpt) reads “…including $0.42 of cost…”."
+    },
+    {
+      "line": 66,
+      "value": "16",
+      "supported": true,
+      "reason": "10‑K line 215 (excerpt) states “We currently operate 16 distribution centers”."
+    },
+    {
+      "line": 67,
+      "value": "700",
+      "supported": true,
+      "reason": "10‑K line 216 (excerpt) states “capacity to serve approximately 700 stores”."
+    },
+    {
+      "line": 78,
+      "value": "33.17 %",
+      "supported": true,
+      "reason": "Same metric as line 52; inputs are unchanged and therefore supported."
+    },
+    {
+      "line": 27,
+      "value": "$205 million",
+      "supported": true,
+      "reason": "EX‑99.1 line 17 (excerpt) reads “Returned $205 million to shareholders…”."
+    },
+    {
+      "line": 27,
+      "value": "$375 million",
+      "supported": true,
+      "reason": "EX‑99.1 line 27 (excerpt) reads “Generated $375 million of net cash provided by operating activities…”."
+    },
+    {
+      "line": 18,
+      "value": "$8.05 to $8.25",
+      "supported": true,
+      "reason": "EX‑99.1 line 18 (excerpt) reads “Increasing fiscal 2026 adjusted EPS outlook to a range of $8.05 to $8.25…”."
+    },
+    {
+      "line": 19,
+      "value": "$2.46 to $2.66",
+      "supported": true,
+      "reason": "EX‑99.1 line 19 (excerpt) reads “…adjusted EPS of $2.46 to $2.66…”."
+    },
+    {
+      "line": 19,
+      "value": "3% to 4%",
+      "supported": true,
+      "reason": "EX‑99.1 line 19 (excerpt) reads “Q4 fiscal 2026 outlook of 3% to 4% comparable store net sales growth…”."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+000001 | v3.25.4
+000002 | Income Taxes - Narrative (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | Jun. 30, 2024
+000006 | Dec. 31, 2025
+000007 | Dec. 31, 2024
+000008 | Apr. 01, 2024
+000009 | Tax Credit Carryforward [Line Items]
+000010 | Tax Cuts and Jobs Act of 2017 transition tax in current accrued income taxes payable
+000011 | $ 211
+000012 | Unrecognized tax benefits that would impact effective tax rate
+000013 | $ 652
+000014 | Undistributed earnings not permanently reinvested
+000015 | $ 100
+000016 | Discontinued Operations, Disposed of by Means Other than Sale, Spinoff | Health Care Segment
+000017 | Tax Credit Carryforward [Line Items]
+000018 | Ownership interest of outstanding shares ( as a percent)
+000019 | 80.10%
+000020 | X
+000021 | - Definition
+000022 | Discontinued Operation, Equity Method Investment, Ownership Interest Distributed, Percent
+000023 | + References
+000024 | No definition available.
+000025 | + Details
+000026 | Name:
+000027 | mmm_DiscontinuedOperationEquityMethodInvestmentOwnershipInterestDistributedPercent
+000028 | Namespace Prefix:
+000029 | mmm_
+000030 | Data Type:
+000031 | dtr-types:percentItemType
+000032 | Balance Type:
+000033 | na
+000034 | Period Type:
+000035 | instant
+000036 | X
+000037 | - Definition
+000038 | Carrying amount specific to the Tax Cuts and Jobs act of 2017 as of the balance sheet date of the unpaid sum of the known and estimated amounts payable to satisfy all currently due domestic and foreign income tax obligations.
+000039 | + References
+000040 | No definition available.
+000041 | + Details
+000042 | Name:
+000043 | mmm_TaxCutsAndJobsActOf2017AccruedIncomeTaxesCurrent
+000044 | Namespace Prefix:
+000045 | mmm_
+000046 | Data Type:
+000047 | xbrli:monetaryItemType
+000048 | Balance Type:
+000049 | credit
+000050 | Period Type:
+000051 | instant
+000052 | X
+000053 | - Definition
+000054 | Undistributed Earnings Not Permanently Reinvested
+000055 | + References
+000056 | No definition available.
+000057 | + Details
+000058 | Name:
+000059 | mmm_UndistributedEarningsNotPermanentlyReinvested
+000060 | Namespace Prefix:
+000061 | mmm_
+000062 | Data Type:
+000063 | xbrli:monetaryItemType
+000064 | Balance Type:
+000065 | debit
+000066 | Period Type:
+000067 | duration
+000068 | X
+000069 | - Definition
+000070 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000071 | + References
+000072 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000073 | -Topic 740
+000074 | -SubTopic 10
+000075 | -Name Accounting Standards Codification
+000076 | -Section 50
+000077 | -Paragraph 3
+000078 | -Subparagraph (a)
+000079 | -Publisher FASB
+000080 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-3
+000081 | + Details
+000082 | Name:
+000083 | us-gaap_TaxCreditCarryforwardLineItems
+000084 | Namespace Prefix:
+000085 | us-gaap_
+000086 | Data Type:
+000087 | xbrli:stringItemType
+000088 | Balance Type:
+000089 | na
+000090 | Period Type:
+000091 | duration
+000092 | X
+000093 | - Definition
+000094 | The total amount of unrecognized tax benefits that, if recognized, would affect the effective tax rate.
+000095 | + References
+000096 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000097 | -Topic 740
+000098 | -SubTopic 10
+000099 | -Name Accounting Standards Codification
+000100 | -Section 55
+000101 | -Paragraph 217
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-217
+000104 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000105 | -Topic 740
+000106 | -SubTopic 10
+000107 | -Name Accounting Standards Codification
+000108 | -Section 50
+000109 | -Paragraph 15A
+000110 | -Subparagraph (b)
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-15A
+000113 | + Details
+000114 | Name:
+000115 | us-gaap_UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate
+000116 | Namespace Prefix:
+000117 | us-gaap_
+000118 | Data Type:
+000119 | xbrli:monetaryItemType
+000120 | Balance Type:
+000121 | credit
+000122 | Period Type:
+000123 | instant
+000124 | X
+000125 | - Details
+000126 | Name:
+000127 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DiscontinuedOperationsDisposedOfByMeansOtherThanSaleSpinoffMember
+000128 | Namespace Prefix:
+000129 | Data Type:
+000130 | na
+000131 | Balance Type:
+000132 | Period Type:
+000133 | X
+000134 | - Details
+000135 | Name:
+000136 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis=mmm_HealthCareSegmentMember
+000137 | Namespace Prefix:
+000138 | Data Type:
+000139 | na
+000140 | Balance Type:
+000141 | Period Type:

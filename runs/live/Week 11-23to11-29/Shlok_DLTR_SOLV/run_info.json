@@ -1,0 +1,34 @@
+{
+  "member": "Shlok",
+  "reporting_week_start": "2026-11-23",
+  "reporting_week_end": "2026-11-29",
+  "live_ticker": "DLTR",
+  "spinoff_ticker": "SOLV",
+  "live_release_accession": "0000935703-26-000136",
+  "live_filing_time": "2026-11-24T06:30:42-05:00",
+  "live_view_time": "2026-11-24T20:14:45-05:00",
+  "view_direction": "less than price",
+  "first_post_filing_close_date": "2026-11-24",
+  "view_after_first_close": true,
+  "commit_time": null,
+  "worksheet": "worksheet.md",
+  "worksheet_guard_passed": true,
+  "live_run": "one_desk_runs/DLTR_2026-11-24_19-42-18_082054_-0500/team",
+  "spinoff_run": "one_desk_runs/SOLV_2026-11-24_19-42-18_082054_-0500/team",
+  "source_pack": "one_desk_runs/SOLV_2026-11-24_19-42-18_082054_-0500/team/worksheet_sources_20261124_194449",
+  "dltr_verifier": {
+    "unsupported": 7,
+    "correct": 23
+  },
+  "solv_verifier": {
+    "unsupported": 14,
+    "correct": 24
+  },
+  "reader_interpretation": "LSEG user-asserted; independent exchange check not completed",
+  "view_margin_of_safety_percent": "-50.22065394502275517758848767",
+  "live_low_case_value_per_share_usd": "69.24307036247334754797441365",
+  "live_owner_cash_flow_usd": "1299000000",
+  "spinoff_low_case_value_per_share_usd": "21.48711943793911007025761124",
+  "spinoff_owner_cash_flow_usd": "367000000",
+  "worksheet_source_review": "Financial inputs manually checked against saved SEC 10-K and 10-Q statement lines"
+}

@@ -1,0 +1,181 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0508</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2025-05-13</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001964738</issuerCik>
+000015 |         <issuerName>Solventum Corp</issuerName>
+000016 |         <issuerTradingSymbol>SOLV</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001937481</rptOwnerCik>
+000022 |             <rptOwnerName>Gomez Tammy L</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>2510 CONWAY AVENUE</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2>3M CENTER BLDG. 275-6W</rptOwnerStreet2>
+000027 |             <rptOwnerCity>MAPLEWOOD</rptOwnerCity>
+000028 |             <rptOwnerState>MN</rptOwnerState>
+000029 |             <rptOwnerZipCode>55144</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>0</isDirector>
+000034 |             <isOfficer>1</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |             <officerTitle>Chief Human Resources Officer</officerTitle>
+000038 |         </reportingOwnerRelationship>
+000039 |     </reportingOwner>
+000040 | 
+000041 |     <aff10b5One>0</aff10b5One>
+000042 | 
+000043 |     <nonDerivativeTable>
+000044 |         <nonDerivativeTransaction>
+000045 |             <securityTitle>
+000046 |                 <value>Common Stock</value>
+000047 |             </securityTitle>
+000048 |             <transactionDate>
+000049 |                 <value>2025-05-13</value>
+000050 |             </transactionDate>
+000051 |             <transactionCoding>
+000052 |                 <transactionFormType>4</transactionFormType>
+000053 |                 <transactionCode>M</transactionCode>
+000054 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000055 |             </transactionCoding>
+000056 |             <transactionAmounts>
+000057 |                 <transactionShares>
+000058 |                     <value>3959</value>
+000059 |                 </transactionShares>
+000060 |                 <transactionPricePerShare>
+000061 |                     <value>0</value>
+000062 |                 </transactionPricePerShare>
+000063 |                 <transactionAcquiredDisposedCode>
+000064 |                     <value>A</value>
+000065 |                 </transactionAcquiredDisposedCode>
+000066 |             </transactionAmounts>
+000067 |             <postTransactionAmounts>
+000068 |                 <sharesOwnedFollowingTransaction>
+000069 |                     <value>6953</value>
+000070 |                 </sharesOwnedFollowingTransaction>
+000071 |             </postTransactionAmounts>
+000072 |             <ownershipNature>
+000073 |                 <directOrIndirectOwnership>
+000074 |                     <value>D</value>
+000075 |                 </directOrIndirectOwnership>
+000076 |             </ownershipNature>
+000077 |         </nonDerivativeTransaction>
+000078 |         <nonDerivativeTransaction>
+000079 |             <securityTitle>
+000080 |                 <value>Common Stock</value>
+000081 |             </securityTitle>
+000082 |             <transactionDate>
+000083 |                 <value>2025-05-13</value>
+000084 |             </transactionDate>
+000085 |             <transactionCoding>
+000086 |                 <transactionFormType>4</transactionFormType>
+000087 |                 <transactionCode>F</transactionCode>
+000088 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000089 |             </transactionCoding>
+000090 |             <transactionAmounts>
+000091 |                 <transactionShares>
+000092 |                     <value>1298</value>
+000093 |                 </transactionShares>
+000094 |                 <transactionPricePerShare>
+000095 |                     <value>73.52</value>
+000096 |                 </transactionPricePerShare>
+000097 |                 <transactionAcquiredDisposedCode>
+000098 |                     <value>D</value>
+000099 |                 </transactionAcquiredDisposedCode>
+000100 |             </transactionAmounts>
+000101 |             <postTransactionAmounts>
+000102 |                 <sharesOwnedFollowingTransaction>
+000103 |                     <value>5655</value>
+000104 |                 </sharesOwnedFollowingTransaction>
+000105 |             </postTransactionAmounts>
+000106 |             <ownershipNature>
+000107 |                 <directOrIndirectOwnership>
+000108 |                     <value>D</value>
+000109 |                 </directOrIndirectOwnership>
+000110 |             </ownershipNature>
+000111 |         </nonDerivativeTransaction>
+000112 |     </nonDerivativeTable>
+000113 | 
+000114 |     <derivativeTable>
+000115 |         <derivativeTransaction>
+000116 |             <securityTitle>
+000117 |                 <value>Restricted Stock Units</value>
+000118 |             </securityTitle>
+000119 |             <conversionOrExercisePrice>
+000120 |                 <footnoteId id="F1"/>
+000121 |             </conversionOrExercisePrice>
+000122 |             <transactionDate>
+000123 |                 <value>2025-05-13</value>
+000124 |             </transactionDate>
+000125 |             <transactionCoding>
+000126 |                 <transactionFormType>4</transactionFormType>
+000127 |                 <transactionCode>M</transactionCode>
+000128 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000129 |             </transactionCoding>
+000130 |             <transactionAmounts>
+000131 |                 <transactionShares>
+000132 |                     <value>3959</value>
+000133 |                 </transactionShares>
+000134 |                 <transactionPricePerShare>
+000135 |                     <value>0</value>
+000136 |                 </transactionPricePerShare>
+000137 |                 <transactionAcquiredDisposedCode>
+000138 |                     <value>D</value>
+000139 |                 </transactionAcquiredDisposedCode>
+000140 |             </transactionAmounts>
+000141 |             <exerciseDate>
+000142 |                 <footnoteId id="F2"/>
+000143 |             </exerciseDate>
+000144 |             <expirationDate>
+000145 |                 <value>2034-05-13</value>
+000146 |             </expirationDate>
+000147 |             <underlyingSecurity>
+000148 |                 <underlyingSecurityTitle>
+000149 |                     <value>Common Stock</value>
+000150 |                 </underlyingSecurityTitle>
+000151 |                 <underlyingSecurityShares>
+000152 |                     <value>3959</value>
+000153 |                 </underlyingSecurityShares>
+000154 |             </underlyingSecurity>
+000155 |             <postTransactionAmounts>
+000156 |                 <sharesOwnedFollowingTransaction>
+000157 |                     <value>7920</value>
+000158 |                 </sharesOwnedFollowingTransaction>
+000159 |             </postTransactionAmounts>
+000160 |             <ownershipNature>
+000161 |                 <directOrIndirectOwnership>
+000162 |                     <value>D</value>
+000163 |                 </directOrIndirectOwnership>
+000164 |             </ownershipNature>
+000165 |         </derivativeTransaction>
+000166 |     </derivativeTable>
+000167 | 
+000168 |     <footnotes>
+000169 |         <footnote id="F1">Each Restricted Stock Unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the issuer's Class A Common Stock upon settlement.</footnote>
+000170 |         <footnote id="F2">The RSUs shall fully vest in three tranches, with one-third vesting on each of May 13, 2025; May 13, 2026; and May 13, 2027, subject to continued service through the vesting date.</footnote>
+000171 |     </footnotes>
+000172 | 
+000173 |     <remarks></remarks>
+000174 | 
+000175 |     <ownerSignature>
+000176 |         <signatureName>/s/Breanna L. Wise, attorney-in-fact for Tammy L. Gomez</signatureName>
+000177 |         <signatureDate>2025-05-15</signatureDate>
+000178 |     </ownerSignature>
+000179 | </ownershipDocument>
+000180 | </XML>
+000181 | 

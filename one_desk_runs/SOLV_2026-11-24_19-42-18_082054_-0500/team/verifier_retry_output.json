@@ -1,0 +1,190 @@
+{
+  "marks": [
+    {
+      "line": 12,
+      "value": "57.9 %",
+      "supported": false,
+      "reason": "The report cites MedSurg representing 57.9 % of 2025 revenue, but no XBRL fact or filing excerpt provides a percentage of segment sales for 2025, so the claim is not supported."
+    },
+    {
+      "line": 13,
+      "value": "2.5 % to 3.0 %",
+      "supported": false,
+      "reason": "This is a management projection of organic sales growth; the filing contains no factual data for that range, therefore it cannot be verified."
+    },
+    {
+      "line": 14,
+      "value": "$7.20 to $7.30",
+      "supported": false,
+      "reason": "Adjusted full‑year EPS outlook is forward‑looking guidance and is not found in the XBRL facts that cover actual EPS values."
+    },
+    {
+      "line": 33,
+      "value": "8325000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:Revenues fact for FY 2025 (value 8,325,000,000 USD)."
+    },
+    {
+      "line": 34,
+      "value": "8254000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:Revenues fact for FY 2024 (value 8,254,000,000 USD)."
+    },
+    {
+      "line": 35,
+      "value": "2181000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:OperatingIncomeLoss fact for FY 2025 (value 2,181,000,000 USD)."
+    },
+    {
+      "line": 36,
+      "value": "1036000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:OperatingIncomeLoss fact for FY 2024 (value 1,036,000,000 USD)."
+    },
+    {
+      "line": 37,
+      "value": "1556000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:NetIncomeLoss fact for FY 2025 (value 1,556,000,000 USD)."
+    },
+    {
+      "line": 38,
+      "value": "479000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:NetIncomeLoss fact for FY 2024 (value 479,000,000 USD)."
+    },
+    {
+      "line": 39,
+      "value": "8.88 USD/share",
+      "supported": true,
+      "reason": "Matches the us‑gaap:EarningsPerShareDiluted fact for FY 2025 (value 8.88 USD per share)."
+    },
+    {
+      "line": 40,
+      "value": "2.76 USD/share",
+      "supported": true,
+      "reason": "Matches the us‑gaap:EarningsPerShareDiluted fact for FY 2024 (value 2.76 USD per share)."
+    },
+    {
+      "line": 41,
+      "value": "5049000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:StockholdersEquity fact for FY 2025 (value 5,049,000,000 USD)."
+    },
+    {
+      "line": 42,
+      "value": "2959000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:StockholdersEquity fact for FY 2024 (value 2,959,000,000 USD)."
+    },
+    {
+      "line": 43,
+      "value": "5035000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:LongTermDebtNoncurrent fact for FY 2025 (value 5,035,000,000 USD)."
+    },
+    {
+      "line": 44,
+      "value": "7810000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:LongTermDebtNoncurrent fact for FY 2024 (value 7,810,000,000 USD)."
+    },
+    {
+      "line": 45,
+      "value": "0 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:LongTermDebtCurrent fact for FY 2025 (value 0 USD)."
+    },
+    {
+      "line": 46,
+      "value": "200000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:LongTermDebtCurrent fact for FY 2024 (value 200,000,000 USD)."
+    },
+    {
+      "line": 47,
+      "value": "369000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:NetCashProvidedByUsedInOperatingActivities fact for FY 2025 (value 369,000,000 USD)."
+    },
+    {
+      "line": 48,
+      "value": "1185000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:NetCashProvidedByUsedInOperatingActivities fact for FY 2024 (value 1,185,000,000 USD)."
+    },
+    {
+      "line": 49,
+      "value": "379000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:PaymentsToAcquirePropertyPlantAndEquipment fact for FY 2025 (value 379,000,000 USD)."
+    },
+    {
+      "line": 50,
+      "value": "380000000 USD",
+      "supported": true,
+      "reason": "Matches the us‑gaap:PaymentsToAcquirePropertyPlantAndEquipment fact for FY 2024 (value 380,000,000 USD)."
+    },
+    {
+      "line": 51,
+      "value": "0.86 %",
+      "supported": true,
+      "reason": "Calculated as ((8,325,000,000‑8,254,000,000)/8,254,000,000)×100 = 0.86 %; inputs are the revenue facts above, so the claim is supported."
+    },
+    {
+      "line": 52,
+      "value": "26.20 %",
+      "supported": true,
+      "reason": "Operating margin = 2,181,000,000 / 8,325,000,000 = 0.2620 → 26.20 %; inputs are the operating‑income and revenue facts, therefore supported."
+    },
+    {
+      "line": 53,
+      "value": "38.86 %",
+      "supported": true,
+      "reason": "Return on average equity = 1,556,000,000 / ((5,049,000,000+2,959,000,000)/2) = 0.3886 → 38.86 %; inputs are net‑income and equity facts, so supported."
+    },
+    {
+      "line": 54,
+      "value": "0.9972 ratio",
+      "supported": true,
+      "reason": "Debt‑to‑equity = (5,035,000,000+0) / 5,049,000,000 = 0.9972; inputs are debt‑noncurrent, debt‑current and equity facts, thus supported."
+    },
+    {
+      "line": 55,
+      "value": "-10000000 USD",
+      "supported": true,
+      "reason": "Free cash flow = 369,000,000 – 379,000,000 = –10,000,000 USD; inputs are cash‑from‑operations and capex facts, so the claim is supported."
+    },
+    {
+      "line": 59,
+      "value": "$(0.07)",
+      "supported": false,
+      "reason": "GAAP diluted EPS of –0.07 is reported in the press release (EX‑99.1) but no XBRL fact for quarterly GAAP EPS is supplied, so the claim cannot be verified."
+    },
+    {
+      "line": 59,
+      "value": "$1.45",
+      "supported": false,
+      "reason": "Adjusted diluted EPS of 1.45 is quoted from the press release; there is no corresponding XBRL fact, so unsupported."
+    },
+    {
+      "line": 59,
+      "value": "3.6 % decrease",
+      "supported": false,
+      "reason": "The 3.6 % change is a derived figure in the press release; no source fact provides this percentage, thus unsupported."
+    },
+    {
+      "line": 66,
+      "value": "90 %",
+      "supported": false,
+      "reason": "The report states that ~90 % of 3M transition service agreements were exited; no filing excerpt or fact quantifies this percentage, so it is unsupported."
+    },
+    {
+      "line": 83,
+      "value": "26.20 %",
+      "supported": true,
+      "reason": "Duplicate operating‑margin row; same calculation and inputs as line 52, therefore supported."
+    }
+  ]
+}

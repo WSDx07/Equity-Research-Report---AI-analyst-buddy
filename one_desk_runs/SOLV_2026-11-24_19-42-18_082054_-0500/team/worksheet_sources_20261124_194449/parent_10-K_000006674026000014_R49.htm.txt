@@ -1,0 +1,126 @@
+000001 | v3.25.4
+000002 | Leases (Tables)
+000003 | 12 Months Ended
+000004 | Dec. 31, 2025
+000005 | Leases [Abstract]
+000006 | Schedule of Components of Lease Expense, Supplemental Cash Flow and Other Information Related to Leases
+000007 | The following table summarizes the components of operating lease cost:
+000008 | (Millions) 2025 2024 2023
+000009 | Operating lease cost $ 203 $ 210 $ 259
+000010 | Variable lease cost 105 114 103
+000011 | Total operating lease cost $ 308 $ 324 $ 362
+000012 | Supplemental cash flow information related to operating lease is as follows:
+000013 | (Millions) 2025 2024 2023
+000014 | Cash paid for amounts included in the measurement of lease liabilities
+000015 | $ 200 $ 212 $ 260
+000016 | Right of use assets obtained in exchange for operating lease liabilities
+000017 | 144 196 262
+000018 | Schedule of Supplemental Balance Sheet Information
+000019 | Supplemental balance sheet, lease term and discount rate information related to operating leases is as follows:
+000020 | (Millions unless noted)
+000021 | Location on face of balance sheet
+000022 | December 31, 2025 December 31, 2024
+000023 | Right of use assets
+000024 | Other assets
+000025 | $ 516 $ 565
+000026 | Current liability
+000027 | Other current liabilities
+000028 | 167 163
+000029 | Noncurrent liability
+000030 | Other liabilities
+000031 | 363 405
+000032 | Weighted average remaining lease term (in years)
+000033 | 4.9 5.3
+000034 | Weighted average discount rate
+000035 | 3.5 % 3.5 %
+000036 | Schedule of Maturities of Operating Lease Liabilities
+000037 | Maturities of operating leases as of December 31, 2025 are as follows:
+000038 | (Millions)
+000039 | 2026 $ 181
+000040 | 2027 125
+000041 | 2028 83
+000042 | 2029 53
+000043 | 2030 39
+000044 | After 2030
+000045 | 82
+000046 | Total expected lease payments 563
+000047 | Less: Amounts representing interest (33)
+000048 | Present value of future minimum lease payments 530
+000049 | Less: Current obligations 167
+000050 | Long-term obligations $ 363
+000051 | X
+000052 | - Definition
+000053 | Assets And Liabilities, Lessee
+000054 | + References
+000055 | No definition available.
+000056 | + Details
+000057 | Name:
+000058 | mmm_AssetsAndLiabilitiesLesseeTableTextBlock
+000059 | Namespace Prefix:
+000060 | mmm_
+000061 | Data Type:
+000062 | dtr-types:textBlockItemType
+000063 | Balance Type:
+000064 | na
+000065 | Period Type:
+000066 | duration
+000067 | X
+000068 | - Definition
+000069 | Tabular disclosure of lessee's lease cost. Includes, but is not limited to, interest expense for finance lease, amortization of right-of-use asset for finance lease, operating lease cost, short-term lease cost, variable lease cost and sublease income.
+000070 | + References
+000071 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000072 | -Topic 842
+000073 | -SubTopic 20
+000074 | -Name Accounting Standards Codification
+000075 | -Section 50
+000076 | -Paragraph 4
+000077 | -Publisher FASB
+000078 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000079 | + Details
+000080 | Name:
+000081 | us-gaap_LeaseCostTableTextBlock
+000082 | Namespace Prefix:
+000083 | us-gaap_
+000084 | Data Type:
+000085 | dtr-types:textBlockItemType
+000086 | Balance Type:
+000087 | na
+000088 | Period Type:
+000089 | duration
+000090 | X
+000091 | - References
+000092 | No definition available.
+000093 | + Details
+000094 | Name:
+000095 | us-gaap_LeasesAbstract
+000096 | Namespace Prefix:
+000097 | us-gaap_
+000098 | Data Type:
+000099 | xbrli:stringItemType
+000100 | Balance Type:
+000101 | na
+000102 | Period Type:
+000103 | duration
+000104 | X
+000105 | - Definition
+000106 | Tabular disclosure of undiscounted cash flows of lessee's operating lease liability. Includes, but is not limited to, reconciliation of undiscounted cash flows to operating lease liability recognized in statement of financial position.
+000107 | + References
+000108 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000109 | -Topic 842
+000110 | -SubTopic 20
+000111 | -Name Accounting Standards Codification
+000112 | -Section 50
+000113 | -Paragraph 6
+000114 | -Publisher FASB
+000115 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-6
+000116 | + Details
+000117 | Name:
+000118 | us-gaap_LesseeOperatingLeaseLiabilityMaturityTableTextBlock
+000119 | Namespace Prefix:
+000120 | us-gaap_
+000121 | Data Type:
+000122 | dtr-types:textBlockItemType
+000123 | Balance Type:
+000124 | na
+000125 | Period Type:
+000126 | duration

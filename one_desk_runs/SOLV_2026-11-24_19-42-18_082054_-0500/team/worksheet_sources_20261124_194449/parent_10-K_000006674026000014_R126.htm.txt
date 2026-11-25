@@ -1,0 +1,940 @@
+000001 | v3.25.4
+000002 | Stock-Based Compensation - Stock Option Program (Details) - USD ($)
+000003 | $ / shares in Units, shares in Thousands, $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Outstanding [Roll Forward]
+000009 | Beginning balance (in shares)
+000010 | 32,523
+000011 | Expired (in shares)
+000012 | (91)
+000013 | Granted (in shares)
+000014 | 723
+000015 | Exercised (in shares)
+000016 | (10,871)
+000017 | Forfeited (in shares)
+000018 | (41)
+000019 | Ending balance (in shares)
+000020 | 22,243
+000021 | 32,523
+000022 | Options exercisable (in shares)
+000023 | 20,716
+000024 | Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Outstanding, Weighted Average Exercise Price [Abstract]
+000025 | Beginning balance (in dollars per share)
+000026 | $ 150.50
+000027 | Expired (in dollars per share)
+000028 | 167.20
+000029 | Granted (in dollars per share)
+000030 | 148.87
+000031 | Exercised (in dollars per share)
+000032 | 139.29
+000033 | Forfeited (in dollars per share)
+000034 | 143.52
+000035 | Ending balance (in dollars per share)
+000036 | 155.87
+000037 | $ 150.50
+000038 | Options exercisable (in dollars per share)
+000039 | $ 158.35
+000040 | Weighted average remaining contractual life for options outstanding (in months)
+000041 | 45 months
+000042 | Weighted average remaining contractual life for options exercisable (in months)
+000043 | 41 months
+000044 | Aggregate intrinsic value for options outstanding
+000045 | $ 284
+000046 | Aggregate intrinsic value for options exercisable
+000047 | $ 227
+000048 | Stock Options
+000049 | Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Additional Disclosures [Abstract]
+000050 | Expiration of annual grants (in years)
+000051 | 10 years
+000052 | Compensation expense yet to be recognized
+000053 | $ 14
+000054 | Expense recognition period (in months and years)
+000055 | 23 months
+000056 | Cash received from options exercised
+000057 | $ 1,514
+000058 | $ 26
+000059 | $ 147
+000060 | Intrinsic value of options exercised
+000061 | 163
+000062 | 3
+000063 | 29
+000064 | Tax benefit realized related to options exercised
+000065 | $ 35
+000066 | $ 1
+000067 | $ 6
+000068 | Share- based compensation assumptions
+000069 | Exercise price (in dollars per share)
+000070 | $ 148.87
+000071 | $ 97.15
+000072 | $ 116.90
+000073 | Risk-free interest rate (as a percent)
+000074 | 4.50%
+000075 | 4.40%
+000076 | 3.80%
+000077 | Dividend yield (as a percent)
+000078 | 3.90%
+000079 | 3.80%
+000080 | 3.30%
+000081 | Expected volatility (as a percent)
+000082 | 26.10%
+000083 | 24.60%
+000084 | 22.80%
+000085 | Expected life (months)
+000086 | 91 months
+000087 | 95 months
+000088 | 84 months
+000089 | Black-Scholes fair value (in dollars per share)
+000090 | $ 33.04
+000091 | $ 20.53
+000092 | $ 22.22
+000093 | Stock Options | Minimum
+000094 | Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Additional Disclosures [Abstract]
+000095 | Vesting or performance period (in years)
+000096 | 1 year
+000097 | Stock Options | Maximum
+000098 | Share-Based Compensation Arrangement by Share-Based Payment Award, Options, Additional Disclosures [Abstract]
+000099 | Vesting or performance period (in years)
+000100 | 3 years
+000101 | X
+000102 | - Definition
+000103 | Amount of cost not yet recognized for nonvested award under share-based payment arrangement.
+000104 | + References
+000105 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000106 | -Topic 718
+000107 | -SubTopic 10
+000108 | -Name Accounting Standards Codification
+000109 | -Section 50
+000110 | -Paragraph 2
+000111 | -Subparagraph (i)
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000114 | + Details
+000115 | Name:
+000116 | us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized
+000117 | Namespace Prefix:
+000118 | us-gaap_
+000119 | Data Type:
+000120 | xbrli:monetaryItemType
+000121 | Balance Type:
+000122 | debit
+000123 | Period Type:
+000124 | instant
+000125 | X
+000126 | - Definition
+000127 | Weighted-average period over which cost not yet recognized is expected to be recognized for award under share-based payment arrangement, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000128 | + References
+000129 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000130 | -Topic 718
+000131 | -SubTopic 10
+000132 | -Name Accounting Standards Codification
+000133 | -Section 50
+000134 | -Paragraph 2
+000135 | -Subparagraph (i)
+000136 | -Publisher FASB
+000137 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000138 | + Details
+000139 | Name:
+000140 | us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1
+000141 | Namespace Prefix:
+000142 | us-gaap_
+000143 | Data Type:
+000144 | xbrli:durationItemType
+000145 | Balance Type:
+000146 | na
+000147 | Period Type:
+000148 | duration
+000149 | X
+000150 | - Definition
+000151 | Amount of tax benefit from exercise of option under share-based payment arrangement.
+000152 | + References
+000153 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000154 | -Name Accounting Standards Codification
+000155 | -Section 50
+000156 | -Paragraph 2A
+000157 | -Subparagraph (a)
+000158 | -SubTopic 10
+000159 | -Topic 718
+000160 | -Publisher FASB
+000161 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2A
+000162 | + Details
+000163 | Name:
+000164 | us-gaap_EmployeeServiceShareBasedCompensationTaxBenefitFromExerciseOfStockOptions
+000165 | Namespace Prefix:
+000166 | us-gaap_
+000167 | Data Type:
+000168 | xbrli:monetaryItemType
+000169 | Balance Type:
+000170 | credit
+000171 | Period Type:
+000172 | duration
+000173 | X
+000174 | - Definition
+000175 | Amount of cash inflow from exercise of option under share-based payment arrangement.
+000176 | + References
+000177 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000178 | -Name Accounting Standards Codification
+000179 | -Section 45
+000180 | -Paragraph 14
+000181 | -Subparagraph (a)
+000182 | -SubTopic 10
+000183 | -Topic 230
+000184 | -Publisher FASB
+000185 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-14
+000186 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000187 | -Name Accounting Standards Codification
+000188 | -Section 50
+000189 | -Paragraph 2A
+000190 | -Subparagraph (a)
+000191 | -SubTopic 10
+000192 | -Topic 718
+000193 | -Publisher FASB
+000194 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2A
+000195 | + Details
+000196 | Name:
+000197 | us-gaap_ProceedsFromStockOptionsExercised
+000198 | Namespace Prefix:
+000199 | us-gaap_
+000200 | Data Type:
+000201 | xbrli:monetaryItemType
+000202 | Balance Type:
+000203 | debit
+000204 | Period Type:
+000205 | duration
+000206 | X
+000207 | - References
+000208 | No definition available.
+000209 | + Details
+000210 | Name:
+000211 | us-gaap_ShareBasedCompensationAbstract
+000212 | Namespace Prefix:
+000213 | us-gaap_
+000214 | Data Type:
+000215 | xbrli:stringItemType
+000216 | Balance Type:
+000217 | na
+000218 | Period Type:
+000219 | duration
+000220 | X
+000221 | - Definition
+000222 | Period over which grantee's right to exercise award under share-based payment arrangement is no longer contingent on satisfaction of service or performance condition, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days. Includes, but is not limited to, combination of market, performance or service condition.
+000223 | + References
+000224 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000225 | -Topic 718
+000226 | -SubTopic 10
+000227 | -Name Accounting Standards Codification
+000228 | -Section 50
+000229 | -Paragraph 2
+000230 | -Subparagraph (a)(1)
+000231 | -Publisher FASB
+000232 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000233 | + Details
+000234 | Name:
+000235 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardVestingPeriod1
+000236 | Namespace Prefix:
+000237 | us-gaap_
+000238 | Data Type:
+000239 | xbrli:durationItemType
+000240 | Balance Type:
+000241 | na
+000242 | Period Type:
+000243 | duration
+000244 | X
+000245 | - Definition
+000246 | Agreed-upon price for the exchange of the underlying asset relating to the share-based payment award.
+000247 | + References
+000248 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000249 | -Topic 718
+000250 | -SubTopic 10
+000251 | -Name Accounting Standards Codification
+000252 | -Section 50
+000253 | -Paragraph 2
+000254 | -Subparagraph (f)(2)
+000255 | -Publisher FASB
+000256 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000257 | + Details
+000258 | Name:
+000259 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExercisePrice
+000260 | Namespace Prefix:
+000261 | us-gaap_
+000262 | Data Type:
+000263 | dtr-types:perShareItemType
+000264 | Balance Type:
+000265 | na
+000266 | Period Type:
+000267 | instant
+000268 | X
+000269 | - Definition
+000270 | The estimated dividend rate (a percentage of the share price) to be paid (expected dividends) to holders of the underlying shares over the option's term.
+000271 | + References
+000272 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000273 | -Topic 718
+000274 | -SubTopic 10
+000275 | -Name Accounting Standards Codification
+000276 | -Section 50
+000277 | -Paragraph 2
+000278 | -Subparagraph (f)(2)(iii)
+000279 | -Publisher FASB
+000280 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000281 | + Details
+000282 | Name:
+000283 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedDividendRate
+000284 | Namespace Prefix:
+000285 | us-gaap_
+000286 | Data Type:
+000287 | dtr-types:percentItemType
+000288 | Balance Type:
+000289 | na
+000290 | Period Type:
+000291 | duration
+000292 | X
+000293 | - Definition
+000294 | The estimated measure of the percentage by which a share price is expected to fluctuate during a period. Volatility also may be defined as a probability-weighted measure of the dispersion of returns about the mean. The volatility of a share price is the standard deviation of the continuously compounded rates of return on the share over a specified period. That is the same as the standard deviation of the differences in the natural logarithms of the stock prices plus dividends, if any, over the period.
+000295 | + References
+000296 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000297 | -Topic 718
+000298 | -SubTopic 10
+000299 | -Name Accounting Standards Codification
+000300 | -Section 50
+000301 | -Paragraph 2
+000302 | -Subparagraph (f)(2)(ii)
+000303 | -Publisher FASB
+000304 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000305 | + Details
+000306 | Name:
+000307 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRate
+000308 | Namespace Prefix:
+000309 | us-gaap_
+000310 | Data Type:
+000311 | dtr-types:percentItemType
+000312 | Balance Type:
+000313 | na
+000314 | Period Type:
+000315 | duration
+000316 | X
+000317 | - Definition
+000318 | The risk-free interest rate assumption that is used in valuing an option on its own shares.
+000319 | + References
+000320 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000321 | -Topic 718
+000322 | -SubTopic 10
+000323 | -Name Accounting Standards Codification
+000324 | -Section 50
+000325 | -Paragraph 2
+000326 | -Subparagraph (f)(2)(iv)
+000327 | -Publisher FASB
+000328 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000329 | + Details
+000330 | Name:
+000331 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRate
+000332 | Namespace Prefix:
+000333 | us-gaap_
+000334 | Data Type:
+000335 | dtr-types:percentItemType
+000336 | Balance Type:
+000337 | na
+000338 | Period Type:
+000339 | duration
+000340 | X
+000341 | - References
+000342 | No definition available.
+000343 | + Details
+000344 | Name:
+000345 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsAdditionalDisclosuresAbstract
+000346 | Namespace Prefix:
+000347 | us-gaap_
+000348 | Data Type:
+000349 | xbrli:stringItemType
+000350 | Balance Type:
+000351 | na
+000352 | Period Type:
+000353 | duration
+000354 | X
+000355 | - Definition
+000356 | The number of shares into which fully or partially vested stock options outstanding as of the balance sheet date can be currently converted under the option plan.
+000357 | + References
+000358 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000359 | -Topic 718
+000360 | -SubTopic 10
+000361 | -Name Accounting Standards Codification
+000362 | -Section 50
+000363 | -Paragraph 2
+000364 | -Subparagraph (c)(1)(iii)
+000365 | -Publisher FASB
+000366 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000367 | + Details
+000368 | Name:
+000369 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber
+000370 | Namespace Prefix:
+000371 | us-gaap_
+000372 | Data Type:
+000373 | xbrli:sharesItemType
+000374 | Balance Type:
+000375 | na
+000376 | Period Type:
+000377 | instant
+000378 | X
+000379 | - Definition
+000380 | The weighted-average price as of the balance sheet date at which grantees can acquire the shares reserved for issuance on vested portions of options outstanding and currently exercisable under the stock option plan.
+000381 | + References
+000382 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000383 | -Topic 718
+000384 | -SubTopic 10
+000385 | -Name Accounting Standards Codification
+000386 | -Section 50
+000387 | -Paragraph 2
+000388 | -Subparagraph (c)(1)(iii)
+000389 | -Publisher FASB
+000390 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000391 | + Details
+000392 | Name:
+000393 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice
+000394 | Namespace Prefix:
+000395 | us-gaap_
+000396 | Data Type:
+000397 | dtr-types:perShareItemType
+000398 | Balance Type:
+000399 | na
+000400 | Period Type:
+000401 | instant
+000402 | X
+000403 | - Definition
+000404 | Amount of accumulated difference between fair value of underlying shares on dates of exercise and exercise price on options exercised (or share units converted) into shares.
+000405 | + References
+000406 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000407 | -Topic 718
+000408 | -SubTopic 10
+000409 | -Name Accounting Standards Codification
+000410 | -Section 50
+000411 | -Paragraph 2
+000412 | -Subparagraph (d)(2)
+000413 | -Publisher FASB
+000414 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000415 | + Details
+000416 | Name:
+000417 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue
+000418 | Namespace Prefix:
+000419 | us-gaap_
+000420 | Data Type:
+000421 | xbrli:monetaryItemType
+000422 | Balance Type:
+000423 | debit
+000424 | Period Type:
+000425 | duration
+000426 | X
+000427 | - Definition
+000428 | Number of options or other stock instruments for which the right to exercise has lapsed under the terms of the plan agreements.
+000429 | + References
+000430 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000431 | -Topic 718
+000432 | -SubTopic 10
+000433 | -Name Accounting Standards Codification
+000434 | -Section 50
+000435 | -Paragraph 2
+000436 | -Subparagraph (c)(1)(iv)(04)
+000437 | -Publisher FASB
+000438 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000439 | + Details
+000440 | Name:
+000441 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExpirationsInPeriod
+000442 | Namespace Prefix:
+000443 | us-gaap_
+000444 | Data Type:
+000445 | xbrli:sharesItemType
+000446 | Balance Type:
+000447 | na
+000448 | Period Type:
+000449 | duration
+000450 | X
+000451 | - Definition
+000452 | The number of shares under options that were cancelled during the reporting period as a result of occurrence of a terminating event specified in contractual agreements pertaining to the stock option plan.
+000453 | + References
+000454 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000455 | -Topic 718
+000456 | -SubTopic 10
+000457 | -Name Accounting Standards Codification
+000458 | -Section 50
+000459 | -Paragraph 2
+000460 | -Subparagraph (c)(1)(iv)(03)
+000461 | -Publisher FASB
+000462 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000463 | + Details
+000464 | Name:
+000465 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresInPeriod
+000466 | Namespace Prefix:
+000467 | us-gaap_
+000468 | Data Type:
+000469 | xbrli:sharesItemType
+000470 | Balance Type:
+000471 | na
+000472 | Period Type:
+000473 | duration
+000474 | X
+000475 | - Definition
+000476 | Net number of share options (or share units) granted during the period.
+000477 | + References
+000478 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000479 | -Topic 718
+000480 | -SubTopic 10
+000481 | -Name Accounting Standards Codification
+000482 | -Section 50
+000483 | -Paragraph 2
+000484 | -Subparagraph (c)(1)(iv)(01)
+000485 | -Publisher FASB
+000486 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000487 | + Details
+000488 | Name:
+000489 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriod
+000490 | Namespace Prefix:
+000491 | us-gaap_
+000492 | Data Type:
+000493 | xbrli:sharesItemType
+000494 | Balance Type:
+000495 | na
+000496 | Period Type:
+000497 | duration
+000498 | X
+000499 | - Definition
+000500 | The weighted average grant-date fair value of options granted during the reporting period as calculated by applying the disclosed option pricing methodology.
+000501 | + References
+000502 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000503 | -Topic 718
+000504 | -SubTopic 10
+000505 | -Name Accounting Standards Codification
+000506 | -Section 50
+000507 | -Paragraph 2
+000508 | -Subparagraph (d)(1)
+000509 | -Publisher FASB
+000510 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000511 | + Details
+000512 | Name:
+000513 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue
+000514 | Namespace Prefix:
+000515 | us-gaap_
+000516 | Data Type:
+000517 | dtr-types:perShareItemType
+000518 | Balance Type:
+000519 | na
+000520 | Period Type:
+000521 | duration
+000522 | X
+000523 | - Definition
+000524 | Amount by which the current fair value of the underlying stock exceeds the exercise price of options outstanding.
+000525 | + References
+000526 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000527 | -Name Accounting Standards Codification
+000528 | -Topic 718
+000529 | -SubTopic 10
+000530 | -Section 50
+000531 | -Paragraph 2
+000532 | -Publisher FASB
+000533 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000534 | + Details
+000535 | Name:
+000536 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingIntrinsicValue
+000537 | Namespace Prefix:
+000538 | us-gaap_
+000539 | Data Type:
+000540 | xbrli:monetaryItemType
+000541 | Balance Type:
+000542 | debit
+000543 | Period Type:
+000544 | instant
+000545 | X
+000546 | - Definition
+000547 | Number of options outstanding, including both vested and non-vested options.
+000548 | + References
+000549 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000550 | -Topic 718
+000551 | -SubTopic 10
+000552 | -Name Accounting Standards Codification
+000553 | -Section 50
+000554 | -Paragraph 2
+000555 | -Subparagraph (c)(1)(i)
+000556 | -Publisher FASB
+000557 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000558 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000559 | -Topic 718
+000560 | -SubTopic 10
+000561 | -Name Accounting Standards Codification
+000562 | -Section 50
+000563 | -Paragraph 2
+000564 | -Subparagraph (c)(1)(ii)
+000565 | -Publisher FASB
+000566 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000567 | + Details
+000568 | Name:
+000569 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber
+000570 | Namespace Prefix:
+000571 | us-gaap_
+000572 | Data Type:
+000573 | xbrli:sharesItemType
+000574 | Balance Type:
+000575 | na
+000576 | Period Type:
+000577 | instant
+000578 | X
+000579 | - Definition
+000580 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000581 | + References
+000582 | No definition available.
+000583 | + Details
+000584 | Name:
+000585 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingRollForward
+000586 | Namespace Prefix:
+000587 | us-gaap_
+000588 | Data Type:
+000589 | xbrli:stringItemType
+000590 | Balance Type:
+000591 | na
+000592 | Period Type:
+000593 | duration
+000594 | X
+000595 | - Definition
+000596 | Weighted average price at which grantees can acquire the shares reserved for issuance under the stock option plan.
+000597 | + References
+000598 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000599 | -Topic 718
+000600 | -SubTopic 10
+000601 | -Name Accounting Standards Codification
+000602 | -Section 50
+000603 | -Paragraph 2
+000604 | -Subparagraph (c)(1)(i)
+000605 | -Publisher FASB
+000606 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000607 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000608 | -Topic 718
+000609 | -SubTopic 10
+000610 | -Name Accounting Standards Codification
+000611 | -Section 50
+000612 | -Paragraph 2
+000613 | -Subparagraph (c)(1)(ii)
+000614 | -Publisher FASB
+000615 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000616 | + Details
+000617 | Name:
+000618 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice
+000619 | Namespace Prefix:
+000620 | us-gaap_
+000621 | Data Type:
+000622 | dtr-types:perShareItemType
+000623 | Balance Type:
+000624 | na
+000625 | Period Type:
+000626 | instant
+000627 | X
+000628 | - References
+000629 | No definition available.
+000630 | + Details
+000631 | Name:
+000632 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePriceRollforward
+000633 | Namespace Prefix:
+000634 | us-gaap_
+000635 | Data Type:
+000636 | xbrli:stringItemType
+000637 | Balance Type:
+000638 | na
+000639 | Period Type:
+000640 | duration
+000641 | X
+000642 | - Definition
+000643 | Weighted average price at which option holders acquired shares when converting their stock options into shares.
+000644 | + References
+000645 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000646 | -Topic 718
+000647 | -SubTopic 10
+000648 | -Name Accounting Standards Codification
+000649 | -Section 50
+000650 | -Paragraph 2
+000651 | -Subparagraph (c)(1)(iv)(02)
+000652 | -Publisher FASB
+000653 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000654 | + Details
+000655 | Name:
+000656 | us-gaap_ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsExercisesInPeriodWeightedAverageExercisePrice
+000657 | Namespace Prefix:
+000658 | us-gaap_
+000659 | Data Type:
+000660 | dtr-types:perShareItemType
+000661 | Balance Type:
+000662 | na
+000663 | Period Type:
+000664 | duration
+000665 | X
+000666 | - Definition
+000667 | Weighted average price at which grantees could have acquired the underlying shares with respect to stock options of the plan that expired.
+000668 | + References
+000669 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000670 | -Topic 718
+000671 | -SubTopic 10
+000672 | -Name Accounting Standards Codification
+000673 | -Section 50
+000674 | -Paragraph 2
+000675 | -Subparagraph (c)(1)(iv)(04)
+000676 | -Publisher FASB
+000677 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000678 | + Details
+000679 | Name:
+000680 | us-gaap_ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsExpirationsInPeriodWeightedAverageExercisePrice
+000681 | Namespace Prefix:
+000682 | us-gaap_
+000683 | Data Type:
+000684 | dtr-types:perShareItemType
+000685 | Balance Type:
+000686 | na
+000687 | Period Type:
+000688 | duration
+000689 | X
+000690 | - Definition
+000691 | Weighted average price at which grantees could have acquired the underlying shares with respect to stock options that were terminated.
+000692 | + References
+000693 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000694 | -Topic 718
+000695 | -SubTopic 10
+000696 | -Name Accounting Standards Codification
+000697 | -Section 50
+000698 | -Paragraph 2
+000699 | -Subparagraph (c)(1)(iv)(03)
+000700 | -Publisher FASB
+000701 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000702 | + Details
+000703 | Name:
+000704 | us-gaap_ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsForfeituresInPeriodWeightedAverageExercisePrice
+000705 | Namespace Prefix:
+000706 | us-gaap_
+000707 | Data Type:
+000708 | dtr-types:perShareItemType
+000709 | Balance Type:
+000710 | na
+000711 | Period Type:
+000712 | duration
+000713 | X
+000714 | - Definition
+000715 | Weighted average per share amount at which grantees can acquire shares of common stock by exercise of options.
+000716 | + References
+000717 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000718 | -Topic 718
+000719 | -SubTopic 10
+000720 | -Name Accounting Standards Codification
+000721 | -Section 50
+000722 | -Paragraph 2
+000723 | -Subparagraph (c)(1)(iv)(01)
+000724 | -Publisher FASB
+000725 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000726 | + Details
+000727 | Name:
+000728 | us-gaap_ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageExercisePrice
+000729 | Namespace Prefix:
+000730 | us-gaap_
+000731 | Data Type:
+000732 | dtr-types:perShareItemType
+000733 | Balance Type:
+000734 | na
+000735 | Period Type:
+000736 | duration
+000737 | X
+000738 | - Definition
+000739 | Period from grant date that an equity-based award expires, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents the reported fact of one year, five months, and thirteen days.
+000740 | + References
+000741 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000742 | -Topic 718
+000743 | -SubTopic 10
+000744 | -Name Accounting Standards Codification
+000745 | -Section 50
+000746 | -Paragraph 2
+000747 | -Subparagraph (a)(2)
+000748 | -Publisher FASB
+000749 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000750 | + Details
+000751 | Name:
+000752 | us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardExpirationPeriod
+000753 | Namespace Prefix:
+000754 | us-gaap_
+000755 | Data Type:
+000756 | xbrli:durationItemType
+000757 | Balance Type:
+000758 | na
+000759 | Period Type:
+000760 | duration
+000761 | X
+000762 | - Definition
+000763 | Expected term of award under share-based payment arrangement, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000764 | + References
+000765 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000766 | -Topic 718
+000767 | -SubTopic 10
+000768 | -Name Accounting Standards Codification
+000769 | -Section 50
+000770 | -Paragraph 2
+000771 | -Subparagraph (f)(2)(i)
+000772 | -Publisher FASB
+000773 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000774 | + Details
+000775 | Name:
+000776 | us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1
+000777 | Namespace Prefix:
+000778 | us-gaap_
+000779 | Data Type:
+000780 | xbrli:durationItemType
+000781 | Balance Type:
+000782 | na
+000783 | Period Type:
+000784 | duration
+000785 | X
+000786 | - Definition
+000787 | Amount of difference between fair value of the underlying shares reserved for issuance and exercise price of vested portions of options outstanding and currently exercisable.
+000788 | + References
+000789 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000790 | -Name Accounting Standards Codification
+000791 | -Topic 718
+000792 | -SubTopic 10
+000793 | -Section 50
+000794 | -Paragraph 2
+000795 | -Publisher FASB
+000796 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000797 | + Details
+000798 | Name:
+000799 | us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableIntrinsicValue1
+000800 | Namespace Prefix:
+000801 | us-gaap_
+000802 | Data Type:
+000803 | xbrli:monetaryItemType
+000804 | Balance Type:
+000805 | debit
+000806 | Period Type:
+000807 | instant
+000808 | X
+000809 | - Definition
+000810 | Weighted average remaining contractual term for vested portions of options outstanding and currently exercisable or convertible, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents the reported fact of one year, five months, and thirteen days.
+000811 | + References
+000812 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000813 | -Name Accounting Standards Codification
+000814 | -Topic 718
+000815 | -SubTopic 10
+000816 | -Section 50
+000817 | -Paragraph 2
+000818 | -Publisher FASB
+000819 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000820 | + Details
+000821 | Name:
+000822 | us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1
+000823 | Namespace Prefix:
+000824 | us-gaap_
+000825 | Data Type:
+000826 | xbrli:durationItemType
+000827 | Balance Type:
+000828 | na
+000829 | Period Type:
+000830 | duration
+000831 | X
+000832 | - Definition
+000833 | Weighted average remaining contractual term for option awards outstanding, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents the reported fact of one year, five months, and thirteen days.
+000834 | + References
+000835 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000836 | -Topic 718
+000837 | -SubTopic 10
+000838 | -Subparagraph (e)(1)
+000839 | -Name Accounting Standards Codification
+000840 | -Paragraph 2
+000841 | -Section 50
+000842 | -Publisher FASB
+000843 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000844 | + Details
+000845 | Name:
+000846 | us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2
+000847 | Namespace Prefix:
+000848 | us-gaap_
+000849 | Data Type:
+000850 | xbrli:durationItemType
+000851 | Balance Type:
+000852 | na
+000853 | Period Type:
+000854 | duration
+000855 | X
+000856 | - Definition
+000857 | Number of share options (or share units) exercised during the current period.
+000858 | + References
+000859 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000860 | -Name Accounting Standards Codification
+000861 | -Section 50
+000862 | -Paragraph 2
+000863 | -SubTopic 10
+000864 | -Topic 505
+000865 | -Publisher FASB
+000866 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2
+000867 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000868 | -Topic 210
+000869 | -SubTopic 10
+000870 | -Name Accounting Standards Codification
+000871 | -Section S99
+000872 | -Paragraph 1
+000873 | -Subparagraph (SX 210.5-02(28))
+000874 | -Publisher FASB
+000875 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000876 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000877 | -Topic 210
+000878 | -SubTopic 10
+000879 | -Name Accounting Standards Codification
+000880 | -Section S99
+000881 | -Paragraph 1
+000882 | -Subparagraph (SX 210.5-02(29))
+000883 | -Publisher FASB
+000884 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000885 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000886 | -Topic 718
+000887 | -SubTopic 10
+000888 | -Name Accounting Standards Codification
+000889 | -Section 50
+000890 | -Paragraph 2
+000891 | -Subparagraph (c)(1)(iv)(02)
+000892 | -Publisher FASB
+000893 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000894 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000895 | -Topic 505
+000896 | -SubTopic 10
+000897 | -Name Accounting Standards Codification
+000898 | -Section S99
+000899 | -Paragraph 1
+000900 | -Subparagraph (SX 210.3-04)
+000901 | -Publisher FASB
+000902 | -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1
+000903 | + Details
+000904 | Name:
+000905 | us-gaap_StockIssuedDuringPeriodSharesStockOptionsExercised
+000906 | Namespace Prefix:
+000907 | us-gaap_
+000908 | Data Type:
+000909 | xbrli:sharesItemType
+000910 | Balance Type:
+000911 | na
+000912 | Period Type:
+000913 | duration
+000914 | X
+000915 | - Details
+000916 | Name:
+000917 | us-gaap_AwardTypeAxis=us-gaap_EmployeeStockOptionMember
+000918 | Namespace Prefix:
+000919 | Data Type:
+000920 | na
+000921 | Balance Type:
+000922 | Period Type:
+000923 | X
+000924 | - Details
+000925 | Name:
+000926 | srt_RangeAxis=srt_MinimumMember
+000927 | Namespace Prefix:
+000928 | Data Type:
+000929 | na
+000930 | Balance Type:
+000931 | Period Type:
+000932 | X
+000933 | - Details
+000934 | Name:
+000935 | srt_RangeAxis=srt_MaximumMember
+000936 | Namespace Prefix:
+000937 | Data Type:
+000938 | na
+000939 | Balance Type:
+000940 | Period Type:

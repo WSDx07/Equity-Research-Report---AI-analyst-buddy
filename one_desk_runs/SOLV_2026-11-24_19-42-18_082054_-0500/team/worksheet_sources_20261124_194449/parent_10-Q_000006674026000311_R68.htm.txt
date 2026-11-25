@@ -1,0 +1,184 @@
+000001 | v3.26.3
+000002 | Derivatives - Schedule of Offsetting Assets (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Offsetting
+000007 | Gross amount of derivative assets presented in the consolidated balance sheet
+000008 | $ 183
+000009 | $ 192
+000010 | Gross amount of eligible offsetting recognized derivative liabilities
+000011 | 157
+000012 | 175
+000013 | Net amount of derivative assets
+000014 | $ 26
+000015 | $ 17
+000016 | X
+000017 | - Definition
+000018 | Fair value of liability associated with financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset.
+000019 | + References
+000020 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000021 | -Topic 815
+000022 | -SubTopic 10
+000023 | -Name Accounting Standards Codification
+000024 | -Section 50
+000025 | -Paragraph 7A
+000026 | -Publisher FASB
+000027 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-7A
+000028 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000029 | -Topic 210
+000030 | -SubTopic 20
+000031 | -Name Accounting Standards Codification
+000032 | -Section 50
+000033 | -Paragraph 3
+000034 | -Subparagraph (b)
+000035 | -Publisher FASB
+000036 | -URI https://asc.fasb.org/1943274/2147483466/210-20-50-3
+000037 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000038 | -Topic 946
+000039 | -SubTopic 320
+000040 | -Name Accounting Standards Codification
+000041 | -Section S99
+000042 | -Paragraph 5C
+000043 | -Subparagraph (SX 210.12-13C(Column F))
+000044 | -Publisher FASB
+000045 | -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-5C
+000046 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000047 | -Topic 946
+000048 | -SubTopic 320
+000049 | -Name Accounting Standards Codification
+000050 | -Section S99
+000051 | -Paragraph 5B
+000052 | -Subparagraph (SX 210.12-13B(Column E))
+000053 | -Publisher FASB
+000054 | -URI https://asc.fasb.org/1943274/2147477271/946-320-S99-5B
+000055 | + Details
+000056 | Name:
+000057 | us-gaap_DerivativeAssetFairValueGrossLiability
+000058 | Namespace Prefix:
+000059 | us-gaap_
+000060 | Data Type:
+000061 | xbrli:monetaryItemType
+000062 | Balance Type:
+000063 | credit
+000064 | Period Type:
+000065 | instant
+000066 | X
+000067 | - Definition
+000068 | Fair value, before effects of master netting arrangements, of a financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset. Includes assets elected not to be offset. Excludes assets not subject to a master netting arrangement.
+000069 | + References
+000070 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000071 | -Topic 210
+000072 | -SubTopic 20
+000073 | -Name Accounting Standards Codification
+000074 | -Section 55
+000075 | -Paragraph 22
+000076 | -Publisher FASB
+000077 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-22
+000078 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000079 | -Topic 815
+000080 | -SubTopic 10
+000081 | -Name Accounting Standards Codification
+000082 | -Section 50
+000083 | -Paragraph 7A
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-7A
+000086 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000087 | -Topic 210
+000088 | -SubTopic 20
+000089 | -Name Accounting Standards Codification
+000090 | -Section 55
+000091 | -Paragraph 21
+000092 | -Publisher FASB
+000093 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-21
+000094 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000095 | -Topic 210
+000096 | -SubTopic 20
+000097 | -Name Accounting Standards Codification
+000098 | -Section 55
+000099 | -Paragraph 20
+000100 | -Publisher FASB
+000101 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-20
+000102 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000103 | -Topic 210
+000104 | -SubTopic 20
+000105 | -Name Accounting Standards Codification
+000106 | -Section 55
+000107 | -Paragraph 15
+000108 | -Publisher FASB
+000109 | -URI https://asc.fasb.org/1943274/2147483444/210-20-55-15
+000110 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000111 | -Topic 210
+000112 | -SubTopic 20
+000113 | -Name Accounting Standards Codification
+000114 | -Section 50
+000115 | -Paragraph 3
+000116 | -Subparagraph (a)
+000117 | -Publisher FASB
+000118 | -URI https://asc.fasb.org/1943274/2147483466/210-20-50-3
+000119 | + Details
+000120 | Name:
+000121 | us-gaap_DerivativeFairValueOfDerivativeAsset
+000122 | Namespace Prefix:
+000123 | us-gaap_
+000124 | Data Type:
+000125 | xbrli:monetaryItemType
+000126 | Balance Type:
+000127 | debit
+000128 | Period Type:
+000129 | instant
+000130 | X
+000131 | - Definition
+000132 | Fair value, after offset of derivative liability, of financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset, before offset against an obligation to return collateral under a master netting arrangement. Includes assets elected not to be offset. Excludes assets not subject to a master netting arrangement.
+000133 | + References
+000134 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000135 | -Topic 815
+000136 | -SubTopic 10
+000137 | -Name Accounting Standards Codification
+000138 | -Section 50
+000139 | -Paragraph 7A
+000140 | -Publisher FASB
+000141 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-7A
+000142 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000143 | -Topic 210
+000144 | -SubTopic 20
+000145 | -Name Accounting Standards Codification
+000146 | -Section 50
+000147 | -Paragraph 3
+000148 | -Subparagraph (c)
+000149 | -Publisher FASB
+000150 | -URI https://asc.fasb.org/1943274/2147483466/210-20-50-3
+000151 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000152 | -Topic 815
+000153 | -SubTopic 10
+000154 | -Name Accounting Standards Codification
+000155 | -Section 50
+000156 | -Paragraph 8
+000157 | -Subparagraph (c)
+000158 | -Publisher FASB
+000159 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-8
+000160 | + Details
+000161 | Name:
+000162 | us-gaap_DerivativeFairValueOfDerivativeAssetAmountNotOffsetAgainstCollateral
+000163 | Namespace Prefix:
+000164 | us-gaap_
+000165 | Data Type:
+000166 | xbrli:monetaryItemType
+000167 | Balance Type:
+000168 | debit
+000169 | Period Type:
+000170 | instant
+000171 | X
+000172 | - References
+000173 | No definition available.
+000174 | + Details
+000175 | Name:
+000176 | us-gaap_OffsettingAbstract
+000177 | Namespace Prefix:
+000178 | us-gaap_
+000179 | Data Type:
+000180 | xbrli:stringItemType
+000181 | Balance Type:
+000182 | na
+000183 | Period Type:
+000184 | duration

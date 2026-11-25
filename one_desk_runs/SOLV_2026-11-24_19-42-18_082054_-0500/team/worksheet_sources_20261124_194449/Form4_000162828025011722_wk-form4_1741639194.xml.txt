@@ -1,0 +1,112 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0508</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2025-03-06</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001964738</issuerCik>
+000015 |         <issuerName>Solventum Corp</issuerName>
+000016 |         <issuerTradingSymbol>SOLV</issuerTradingSymbol>
+000017 |     </issuer>
+000018 | 
+000019 |     <reportingOwner>
+000020 |         <reportingOwnerId>
+000021 |             <rptOwnerCik>0001524349</rptOwnerCik>
+000022 |             <rptOwnerName>Hanson Bryan C</rptOwnerName>
+000023 |         </reportingOwnerId>
+000024 |         <reportingOwnerAddress>
+000025 |             <rptOwnerStreet1>2510 CONWAY AVE.</rptOwnerStreet1>
+000026 |             <rptOwnerStreet2>3M CENTER BLDG. 275-6W</rptOwnerStreet2>
+000027 |             <rptOwnerCity>MAPLEWOOD</rptOwnerCity>
+000028 |             <rptOwnerState>MN</rptOwnerState>
+000029 |             <rptOwnerZipCode>55144</rptOwnerZipCode>
+000030 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000031 |         </reportingOwnerAddress>
+000032 |         <reportingOwnerRelationship>
+000033 |             <isDirector>1</isDirector>
+000034 |             <isOfficer>1</isOfficer>
+000035 |             <isTenPercentOwner>0</isTenPercentOwner>
+000036 |             <isOther>0</isOther>
+000037 |             <officerTitle>Chief Executive Officer</officerTitle>
+000038 |         </reportingOwnerRelationship>
+000039 |     </reportingOwner>
+000040 | 
+000041 |     <aff10b5One>0</aff10b5One>
+000042 | 
+000043 |     <nonDerivativeTable></nonDerivativeTable>
+000044 | 
+000045 |     <derivativeTable>
+000046 |         <derivativeTransaction>
+000047 |             <securityTitle>
+000048 |                 <value>Restricted Stock Units</value>
+000049 |             </securityTitle>
+000050 |             <conversionOrExercisePrice>
+000051 |                 <footnoteId id="F1"/>
+000052 |             </conversionOrExercisePrice>
+000053 |             <transactionDate>
+000054 |                 <value>2025-03-06</value>
+000055 |             </transactionDate>
+000056 |             <transactionCoding>
+000057 |                 <transactionFormType>4</transactionFormType>
+000058 |                 <transactionCode>A</transactionCode>
+000059 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000060 |             </transactionCoding>
+000061 |             <transactionAmounts>
+000062 |                 <transactionShares>
+000063 |                     <value>95723</value>
+000064 |                 </transactionShares>
+000065 |                 <transactionPricePerShare>
+000066 |                     <value>0</value>
+000067 |                 </transactionPricePerShare>
+000068 |                 <transactionAcquiredDisposedCode>
+000069 |                     <value>A</value>
+000070 |                 </transactionAcquiredDisposedCode>
+000071 |             </transactionAmounts>
+000072 |             <exerciseDate>
+000073 |                 <footnoteId id="F2"/>
+000074 |             </exerciseDate>
+000075 |             <expirationDate>
+000076 |                 <value>2035-03-06</value>
+000077 |             </expirationDate>
+000078 |             <underlyingSecurity>
+000079 |                 <underlyingSecurityTitle>
+000080 |                     <value>Common Stock</value>
+000081 |                 </underlyingSecurityTitle>
+000082 |                 <underlyingSecurityShares>
+000083 |                     <value>95723</value>
+000084 |                 </underlyingSecurityShares>
+000085 |             </underlyingSecurity>
+000086 |             <postTransactionAmounts>
+000087 |                 <sharesOwnedFollowingTransaction>
+000088 |                     <value>95723</value>
+000089 |                 </sharesOwnedFollowingTransaction>
+000090 |             </postTransactionAmounts>
+000091 |             <ownershipNature>
+000092 |                 <directOrIndirectOwnership>
+000093 |                     <value>D</value>
+000094 |                 </directOrIndirectOwnership>
+000095 |             </ownershipNature>
+000096 |         </derivativeTransaction>
+000097 |     </derivativeTable>
+000098 | 
+000099 |     <footnotes>
+000100 |         <footnote id="F1">Each Restricted Stock unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the issuer's Class A Common Stock upon settlement.</footnote>
+000101 |         <footnote id="F2">The RSUs shall fully vest in three tranches, with one-third vesting on each of the first, second and third anniversaries of the grant date, subject to continued service through the vesting date.</footnote>
+000102 |     </footnotes>
+000103 | 
+000104 |     <remarks></remarks>
+000105 | 
+000106 |     <ownerSignature>
+000107 |         <signatureName>/s/Breanna L. Wise, attorney-in-fact for Bryan C. Hanson</signatureName>
+000108 |         <signatureDate>2025-03-10</signatureDate>
+000109 |     </ownerSignature>
+000110 | </ownershipDocument>
+000111 | </XML>
+000112 | 

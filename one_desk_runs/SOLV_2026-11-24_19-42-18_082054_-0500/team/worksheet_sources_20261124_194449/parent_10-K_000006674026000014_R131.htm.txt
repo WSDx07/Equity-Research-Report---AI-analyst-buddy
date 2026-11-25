@@ -1,0 +1,127 @@
+000001 | v3.25.4
+000002 | Business Segments and Geographic Information - Schedule of Geographical Information (Details) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Business Segment Information
+000007 | Property, plant and equipment - net
+000008 | $ 7,101
+000009 | $ 7,388
+000010 | Americas
+000011 | Business Segment Information
+000012 | Property, plant and equipment - net
+000013 | 5,123
+000014 | 5,284
+000015 | Asia Pacific
+000016 | Business Segment Information
+000017 | Property, plant and equipment - net
+000018 | 1,010
+000019 | 1,053
+000020 | Europe, Middle East and Africa
+000021 | Business Segment Information
+000022 | Property, plant and equipment - net
+000023 | 968
+000024 | 1,051
+000025 | United States
+000026 | Business Segment Information
+000027 | Property, plant and equipment - net
+000028 | 4,769
+000029 | 4,966
+000030 | China/Hong Kong
+000031 | Business Segment Information
+000032 | Property, plant and equipment - net
+000033 | $ 392
+000034 | $ 407
+000035 | X
+000036 | - Definition
+000037 | Amount, after accumulated depreciation and amortization, of property, plant, and equipment and finance lease right-of-use asset.
+000038 | + References
+000039 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000040 | -Topic 360
+000041 | -SubTopic 10
+000042 | -Name Accounting Standards Codification
+000043 | -Section 50
+000044 | -Paragraph 1
+000045 | -Publisher FASB
+000046 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-1
+000047 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000048 | -Name Accounting Standards Codification
+000049 | -Section 50
+000050 | -Paragraph 4
+000051 | -Subparagraph (a)
+000052 | -SubTopic 20
+000053 | -Topic 842
+000054 | -Publisher FASB
+000055 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000056 | + Details
+000057 | Name:
+000058 | us-gaap_PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization
+000059 | Namespace Prefix:
+000060 | us-gaap_
+000061 | Data Type:
+000062 | xbrli:monetaryItemType
+000063 | Balance Type:
+000064 | debit
+000065 | Period Type:
+000066 | instant
+000067 | X
+000068 | - Definition
+000069 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000070 | + References
+000071 | No definition available.
+000072 | + Details
+000073 | Name:
+000074 | us-gaap_SegmentReportingInformationLineItems
+000075 | Namespace Prefix:
+000076 | us-gaap_
+000077 | Data Type:
+000078 | xbrli:stringItemType
+000079 | Balance Type:
+000080 | na
+000081 | Period Type:
+000082 | duration
+000083 | X
+000084 | - Details
+000085 | Name:
+000086 | srt_StatementGeographicalAxis=srt_AmericasMember
+000087 | Namespace Prefix:
+000088 | Data Type:
+000089 | na
+000090 | Balance Type:
+000091 | Period Type:
+000092 | X
+000093 | - Details
+000094 | Name:
+000095 | srt_StatementGeographicalAxis=srt_AsiaPacificMember
+000096 | Namespace Prefix:
+000097 | Data Type:
+000098 | na
+000099 | Balance Type:
+000100 | Period Type:
+000101 | X
+000102 | - Details
+000103 | Name:
+000104 | srt_StatementGeographicalAxis=us-gaap_EMEAMember
+000105 | Namespace Prefix:
+000106 | Data Type:
+000107 | na
+000108 | Balance Type:
+000109 | Period Type:
+000110 | X
+000111 | - Details
+000112 | Name:
+000113 | srt_StatementGeographicalAxis=country_US
+000114 | Namespace Prefix:
+000115 | Data Type:
+000116 | na
+000117 | Balance Type:
+000118 | Period Type:
+000119 | X
+000120 | - Details
+000121 | Name:
+000122 | srt_StatementGeographicalAxis=mmm_ChinaAndHongKongMember
+000123 | Namespace Prefix:
+000124 | Data Type:
+000125 | na
+000126 | Balance Type:
+000127 | Period Type:

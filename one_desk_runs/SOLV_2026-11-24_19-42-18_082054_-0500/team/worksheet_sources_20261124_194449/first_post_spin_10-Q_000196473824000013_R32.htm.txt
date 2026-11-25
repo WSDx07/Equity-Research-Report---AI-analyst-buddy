@@ -1,0 +1,324 @@
+000001 | v3.24.1.1.u2
+000002 | Significant Accounting Policies (Details)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | Apr. 01, 2024
+000006 | USD ($)
+000007 | shares
+000008 | Mar. 07, 2024
+000009 | USD ($)
+000010 | Mar. 31, 2024
+000011 | operatingSegment
+000012 | Feb. 29, 2024
+000013 | USD ($)
+000014 | Feb. 27, 2024
+000015 | USD ($)
+000016 | Organization and Description of Business [Line Items]
+000017 | Number of operating segments | operatingSegment
+000018 | 4
+000019 | Senior Notes
+000020 | Organization and Description of Business [Line Items]
+000021 | Debt instrument, face amount
+000022 | $ 6,900
+000023 | $ 6,900
+000024 | Line of Credit | Credit Facilities | Unsecured Debt
+000025 | Organization and Description of Business [Line Items]
+000026 | Proceeds from long-term lines of credit
+000027 | $ 1,480
+000028 | Subsequent Event
+000029 | Organization and Description of Business [Line Items]
+000030 | Spinoff transaction, percent of shares outstanding distributed
+000031 | 80.10%
+000032 | Stock issued during period (in shares) | shares
+000033 | 172,709,505
+000034 | Retained cash target
+000035 | $ 600
+000036 | X
+000037 | - Definition
+000038 | Organization and Description of Business [Line Items]
+000039 | + References
+000040 | No definition available.
+000041 | + Details
+000042 | Name:
+000043 | solv_OrganizationAndDescriptionOfBusinessLineItems
+000044 | Namespace Prefix:
+000045 | solv_
+000046 | Data Type:
+000047 | xbrli:stringItemType
+000048 | Balance Type:
+000049 | na
+000050 | Period Type:
+000051 | duration
+000052 | X
+000053 | - Definition
+000054 | Stockholders' Equity Note, Spinoff Transaction, Percent Of Shares Outstanding Distributed
+000055 | + References
+000056 | No definition available.
+000057 | + Details
+000058 | Name:
+000059 | solv_StockholdersEquityNoteSpinoffTransactionPercentOfSharesOutstandingDistributed
+000060 | Namespace Prefix:
+000061 | solv_
+000062 | Data Type:
+000063 | dtr-types:percentItemType
+000064 | Balance Type:
+000065 | na
+000066 | Period Type:
+000067 | instant
+000068 | X
+000069 | - Definition
+000070 | Stockholders' Equity Note, Spinoff Transaction, Retained Cash Target
+000071 | + References
+000072 | No definition available.
+000073 | + Details
+000074 | Name:
+000075 | solv_StockholdersEquityNoteSpinoffTransactionRetainedCashTarget
+000076 | Namespace Prefix:
+000077 | solv_
+000078 | Data Type:
+000079 | xbrli:monetaryItemType
+000080 | Balance Type:
+000081 | debit
+000082 | Period Type:
+000083 | instant
+000084 | X
+000085 | - Definition
+000086 | Face (par) amount of debt instrument at time of issuance.
+000087 | + References
+000088 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000089 | -Topic 835
+000090 | -SubTopic 30
+000091 | -Name Accounting Standards Codification
+000092 | -Section 55
+000093 | -Paragraph 8
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147482949/835-30-55-8
+000096 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000097 | -Topic 470
+000098 | -SubTopic 20
+000099 | -Name Accounting Standards Codification
+000100 | -Section 50
+000101 | -Paragraph 1B
+000102 | -Subparagraph (a)
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000105 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000106 | -Topic 470
+000107 | -SubTopic 20
+000108 | -Name Accounting Standards Codification
+000109 | -Section 55
+000110 | -Paragraph 69B
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69B
+000113 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000114 | -Topic 470
+000115 | -SubTopic 20
+000116 | -Name Accounting Standards Codification
+000117 | -Section 55
+000118 | -Paragraph 69C
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69C
+000121 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000122 | -Topic 835
+000123 | -SubTopic 30
+000124 | -Name Accounting Standards Codification
+000125 | -Section 50
+000126 | -Paragraph 1
+000127 | -Publisher FASB
+000128 | -URI https://asc.fasb.org/1943274/2147482900/835-30-50-1
+000129 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000130 | -Topic 835
+000131 | -SubTopic 30
+000132 | -Name Accounting Standards Codification
+000133 | -Section 45
+000134 | -Paragraph 2
+000135 | -Publisher FASB
+000136 | -URI https://asc.fasb.org/1943274/2147482925/835-30-45-2
+000137 | + Details
+000138 | Name:
+000139 | us-gaap_DebtInstrumentFaceAmount
+000140 | Namespace Prefix:
+000141 | us-gaap_
+000142 | Data Type:
+000143 | xbrli:monetaryItemType
+000144 | Balance Type:
+000145 | credit
+000146 | Period Type:
+000147 | instant
+000148 | X
+000149 | - Definition
+000150 | Number of operating segments. An operating segment is a component of an enterprise: (a) that engages in business activities from which it may earn revenues and incur expenses (including revenues and expenses relating to transactions with other components of the same enterprise), (b) whose operating results are regularly reviewed by the enterprise's chief operating decision maker to make decisions about resources to be allocated to the segment and assess its performance, and (c) for which discrete financial information is available. An operating segment may engage in business activities for which it has yet to earn revenues, for example, start-up operations may be operating segments before earning revenues.
+000151 | + References
+000152 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000153 | -Topic 280
+000154 | -SubTopic 10
+000155 | -Name Accounting Standards Codification
+000156 | -Section 55
+000157 | -Paragraph 49
+000158 | -Publisher FASB
+000159 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-49
+000160 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000161 | -Topic 280
+000162 | -SubTopic 10
+000163 | -Name Accounting Standards Codification
+000164 | -Section 50
+000165 | -Paragraph 18
+000166 | -Publisher FASB
+000167 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-18
+000168 | + Details
+000169 | Name:
+000170 | us-gaap_NumberOfOperatingSegments
+000171 | Namespace Prefix:
+000172 | us-gaap_
+000173 | Data Type:
+000174 | xbrli:integerItemType
+000175 | Balance Type:
+000176 | na
+000177 | Period Type:
+000178 | duration
+000179 | X
+000180 | - Definition
+000181 | The cash inflow from a contractual arrangement with the lender, including letter of credit, standby letter of credit and revolving credit arrangements, under which borrowings can be made up to a specific amount at any point in time with maturities due beyond one year or the operating cycle, if longer.
+000182 | + References
+000183 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000184 | -Name Accounting Standards Codification
+000185 | -Topic 230
+000186 | -SubTopic 10
+000187 | -Section 45
+000188 | -Paragraph 14
+000189 | -Subparagraph (b)
+000190 | -Publisher FASB
+000191 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-14
+000192 | + Details
+000193 | Name:
+000194 | us-gaap_ProceedsFromLongTermLinesOfCredit
+000195 | Namespace Prefix:
+000196 | us-gaap_
+000197 | Data Type:
+000198 | xbrli:monetaryItemType
+000199 | Balance Type:
+000200 | debit
+000201 | Period Type:
+000202 | duration
+000203 | X
+000204 | - Definition
+000205 | Number of new stock issued during the period.
+000206 | + References
+000207 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000208 | -Name Accounting Standards Codification
+000209 | -Section 50
+000210 | -Paragraph 2
+000211 | -SubTopic 10
+000212 | -Topic 505
+000213 | -Publisher FASB
+000214 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2
+000215 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000216 | -Topic 210
+000217 | -SubTopic 10
+000218 | -Name Accounting Standards Codification
+000219 | -Section S99
+000220 | -Paragraph 1
+000221 | -Subparagraph (SX 210.5-02(28))
+000222 | -Publisher FASB
+000223 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000224 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000225 | -Topic 210
+000226 | -SubTopic 10
+000227 | -Name Accounting Standards Codification
+000228 | -Section S99
+000229 | -Paragraph 1
+000230 | -Subparagraph (SX 210.5-02(29))
+000231 | -Publisher FASB
+000232 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000233 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000234 | -Topic 946
+000235 | -SubTopic 505
+000236 | -Name Accounting Standards Codification
+000237 | -Section 50
+000238 | -Paragraph 2
+000239 | -Subparagraph (a)
+000240 | -Publisher FASB
+000241 | -URI https://asc.fasb.org/1943274/2147478448/946-505-50-2
+000242 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000243 | -Topic 946
+000244 | -SubTopic 220
+000245 | -Name Accounting Standards Codification
+000246 | -Section S99
+000247 | -Paragraph 3
+000248 | -Subparagraph (SX 210.6-09(4)(b))
+000249 | -Publisher FASB
+000250 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000251 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000252 | -Topic 946
+000253 | -SubTopic 10
+000254 | -Name Accounting Standards Codification
+000255 | -Section S99
+000256 | -Paragraph 3
+000257 | -Subparagraph (SX 210.6-03(i)(1))
+000258 | -Publisher FASB
+000259 | -URI https://asc.fasb.org/1943274/2147479886/946-10-S99-3
+000260 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000261 | -Topic 505
+000262 | -SubTopic 10
+000263 | -Name Accounting Standards Codification
+000264 | -Section S99
+000265 | -Paragraph 1
+000266 | -Subparagraph (SX 210.3-04)
+000267 | -Publisher FASB
+000268 | -URI https://asc.fasb.org/1943274/2147480008/505-10-S99-1
+000269 | + Details
+000270 | Name:
+000271 | us-gaap_StockIssuedDuringPeriodSharesNewIssues
+000272 | Namespace Prefix:
+000273 | us-gaap_
+000274 | Data Type:
+000275 | xbrli:sharesItemType
+000276 | Balance Type:
+000277 | na
+000278 | Period Type:
+000279 | duration
+000280 | X
+000281 | - Details
+000282 | Name:
+000283 | us-gaap_LongtermDebtTypeAxis=us-gaap_SeniorNotesMember
+000284 | Namespace Prefix:
+000285 | Data Type:
+000286 | na
+000287 | Balance Type:
+000288 | Period Type:
+000289 | X
+000290 | - Details
+000291 | Name:
+000292 | us-gaap_LongtermDebtTypeAxis=us-gaap_LineOfCreditMember
+000293 | Namespace Prefix:
+000294 | Data Type:
+000295 | na
+000296 | Balance Type:
+000297 | Period Type:
+000298 | X
+000299 | - Details
+000300 | Name:
+000301 | us-gaap_DebtInstrumentAxis=solv_CreditFacilitiesMember
+000302 | Namespace Prefix:
+000303 | Data Type:
+000304 | na
+000305 | Balance Type:
+000306 | Period Type:
+000307 | X
+000308 | - Details
+000309 | Name:
+000310 | us-gaap_CreditFacilityAxis=us-gaap_UnsecuredDebtMember
+000311 | Namespace Prefix:
+000312 | Data Type:
+000313 | na
+000314 | Balance Type:
+000315 | Period Type:
+000316 | X
+000317 | - Details
+000318 | Name:
+000319 | us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember
+000320 | Namespace Prefix:
+000321 | Data Type:
+000322 | na
+000323 | Balance Type:
+000324 | Period Type:

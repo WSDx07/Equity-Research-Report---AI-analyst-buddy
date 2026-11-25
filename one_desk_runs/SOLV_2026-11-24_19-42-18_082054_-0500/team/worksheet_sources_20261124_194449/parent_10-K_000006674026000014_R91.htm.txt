@@ -1,0 +1,120 @@
+000001 | v3.25.4
+000002 | Long-Term Debt and Short-Term Borrowings - Schedule of Short-Term Borrowings and Current Portion of Long-Term Debt (Details) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Short-Term Borrowings and Current Portion of Long-Term Debt
+000007 | Current portion of long-term debt
+000008 | $ 1,670
+000009 | $ 1,919
+000010 | Current portion of long-term debt
+000011 | Short-Term Borrowings and Current Portion of Long-Term Debt
+000012 | Effective interest rate
+000013 | 2.16%
+000014 | Current portion of long-term debt
+000015 | $ 1,670
+000016 | $ 1,919
+000017 | X
+000018 | - Definition
+000019 | Effective interest rate for the funds borrowed under the debt agreement considering interest compounding and original issue discount or premium.
+000020 | + References
+000021 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000022 | -Topic 835
+000023 | -SubTopic 30
+000024 | -Name Accounting Standards Codification
+000025 | -Section 55
+000026 | -Paragraph 8
+000027 | -Publisher FASB
+000028 | -URI https://asc.fasb.org/1943274/2147482949/835-30-55-8
+000029 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000030 | -Topic 210
+000031 | -SubTopic 10
+000032 | -Name Accounting Standards Codification
+000033 | -Section S99
+000034 | -Paragraph 1
+000035 | -Subparagraph (SX 210.5-02(22)(a)(1))
+000036 | -Publisher FASB
+000037 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000038 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000039 | -Topic 835
+000040 | -SubTopic 30
+000041 | -Name Accounting Standards Codification
+000042 | -Section 50
+000043 | -Paragraph 1
+000044 | -Publisher FASB
+000045 | -URI https://asc.fasb.org/1943274/2147482900/835-30-50-1
+000046 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000047 | -Topic 835
+000048 | -SubTopic 30
+000049 | -Name Accounting Standards Codification
+000050 | -Section 45
+000051 | -Paragraph 2
+000052 | -Publisher FASB
+000053 | -URI https://asc.fasb.org/1943274/2147482925/835-30-45-2
+000054 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000055 | -Topic 470
+000056 | -SubTopic 20
+000057 | -Name Accounting Standards Codification
+000058 | -Section 50
+000059 | -Paragraph 6
+000060 | -Subparagraph (a)
+000061 | -Publisher FASB
+000062 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-6
+000063 | + Details
+000064 | Name:
+000065 | us-gaap_DebtInstrumentInterestRateEffectivePercentage
+000066 | Namespace Prefix:
+000067 | us-gaap_
+000068 | Data Type:
+000069 | dtr-types:percentItemType
+000070 | Balance Type:
+000071 | na
+000072 | Period Type:
+000073 | instant
+000074 | X
+000075 | - Definition
+000076 | Amount, after deduction of unamortized premium (discount) and debt issuance cost, of long-term debt classified as current. Excludes lease obligation.
+000077 | + References
+000078 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000079 | -Topic 210
+000080 | -SubTopic 10
+000081 | -Name Accounting Standards Codification
+000082 | -Section S99
+000083 | -Paragraph 1
+000084 | -Subparagraph (SX 210.5-02(20))
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000087 | + Details
+000088 | Name:
+000089 | us-gaap_LongTermDebtCurrent
+000090 | Namespace Prefix:
+000091 | us-gaap_
+000092 | Data Type:
+000093 | xbrli:monetaryItemType
+000094 | Balance Type:
+000095 | credit
+000096 | Period Type:
+000097 | instant
+000098 | X
+000099 | - References
+000100 | No definition available.
+000101 | + Details
+000102 | Name:
+000103 | us-gaap_ShortTermBorrowingsAbstract
+000104 | Namespace Prefix:
+000105 | us-gaap_
+000106 | Data Type:
+000107 | xbrli:stringItemType
+000108 | Balance Type:
+000109 | na
+000110 | Period Type:
+000111 | duration
+000112 | X
+000113 | - Details
+000114 | Name:
+000115 | us-gaap_ShortTermDebtTypeAxis=mmm_CurrentPortionOfLongTermDebtMember
+000116 | Namespace Prefix:
+000117 | Data Type:
+000118 | na
+000119 | Balance Type:
+000120 | Period Type:

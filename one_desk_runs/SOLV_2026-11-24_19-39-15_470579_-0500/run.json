@@ -1,0 +1,16 @@
+{
+  "started_at": "2026-11-24T19:39:15.470579-05:00",
+  "input": "SOLV",
+  "parts": [
+    {
+      "part": "pick",
+      "seconds": 0.0,
+      "ticker": "SOLV"
+    }
+  ],
+  "run_dir": "C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk_runs\\SOLV_2026-11-24_19-39-15_470579_-0500",
+  "error": "PartFailure: agent team: UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-29: character maps to <undefined>",
+  "failed_part": "agent team",
+  "failed_part_seconds": 54.61,
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk.py\", line 308, in run_command\n    print(line, end=\"\", flush=True)\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 0-29: character maps to <undefined>\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk.py\", line 434, in run\n    team_output, elapsed = run_command(\"agent team\", team_args, env=env)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Shlok Bairagi\\Desktop\\Fin Master AI\\FIN 671\\one_desk.py\", line 322, in run_command\n    raise PartFailure(f\"{label}: {type(exc).__name__}: {exc}\") from exc\nPartFailure: agent team: UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-29: character maps to <undefined>\n"
+}

@@ -1,0 +1,673 @@
+000001 | v3.26.3
+000002 | Acquisitions, Redeemable Noncontrolling Interest and Divestitures - Schedule of Purchase Price Allocations Related to the Acquisition and Finite-Lived Asset Weighted Average Lives (Details) - USD ($)
+000003 | $ in Millions
+000004 | 1 Months Ended
+000005 | 9 Months Ended
+000006 | Jul. 31, 2026
+000007 | Sep. 30, 2026
+000008 | Sep. 30, 2025
+000009 | Dec. 31, 2025
+000010 | Dec. 31, 2024
+000011 | Business Combination, Separately Recognized Transaction [Line Items]
+000012 | Goodwill
+000013 | $ 7,344
+000014 | $ 6,419
+000015 | $ 6,281
+000016 | Supplemental information:
+000017 | Cash paid, net of cash acquired
+000018 | $ 1,910
+000019 | $ 0
+000020 | Madison Fire & Rescue
+000021 | Business Combination, Separately Recognized Transaction [Line Items]
+000022 | Current and other assets
+000023 | $ 145
+000024 | Property, plant, and equipment
+000025 | 115
+000026 | Goodwill
+000027 | 982
+000028 | Accounts payable and other liabilities
+000029 | (91)
+000030 | Deferred taxes and accrued income taxes
+000031 | (278)
+000032 | Net assets acquired
+000033 | 1,910
+000034 | Supplemental information:
+000035 | Cash paid
+000036 | 1,957
+000037 | Less: cash acquired
+000038 | (47)
+000039 | Cash paid, net of cash acquired
+000040 | 1,910
+000041 | Madison Fire & Rescue | Customer related
+000042 | Business Combination, Separately Recognized Transaction [Line Items]
+000043 | Finite-lived intangible assets:
+000044 | $ 716
+000045 | Supplemental information:
+000046 | Finite-lived intangible asset weighted average lives (years)
+000047 | 19 years
+000048 | Madison Fire & Rescue | Patents and technology
+000049 | Business Combination, Separately Recognized Transaction [Line Items]
+000050 | Finite-lived intangible assets:
+000051 | $ 88
+000052 | Supplemental information:
+000053 | Finite-lived intangible asset weighted average lives (years)
+000054 | 10 years
+000055 | Madison Fire & Rescue | Definite-lived tradenames
+000056 | Business Combination, Separately Recognized Transaction [Line Items]
+000057 | Finite-lived intangible assets:
+000058 | $ 233
+000059 | Supplemental information:
+000060 | Finite-lived intangible asset weighted average lives (years)
+000061 | 23 years
+000062 | X
+000063 | - Definition
+000064 | Business Combination, Recognized Asset Acquired, Other Current And Noncurrent
+000065 | + References
+000066 | No definition available.
+000067 | + Details
+000068 | Name:
+000069 | mmm_BusinessCombinationRecognizedAssetAcquiredOtherCurrentAndNoncurrent
+000070 | Namespace Prefix:
+000071 | mmm_
+000072 | Data Type:
+000073 | xbrli:monetaryItemType
+000074 | Balance Type:
+000075 | debit
+000076 | Period Type:
+000077 | instant
+000078 | X
+000079 | - Definition
+000080 | Business Combination, Recognized Liability Assumed, Accounts Payable And Other Liabilities
+000081 | + References
+000082 | No definition available.
+000083 | + Details
+000084 | Name:
+000085 | mmm_BusinessCombinationRecognizedLiabilityAssumedAccountsPayableAndOtherLiabilities
+000086 | Namespace Prefix:
+000087 | mmm_
+000088 | Data Type:
+000089 | xbrli:monetaryItemType
+000090 | Balance Type:
+000091 | credit
+000092 | Period Type:
+000093 | instant
+000094 | X
+000095 | - Definition
+000096 | Business Combination, Recognized Liability Assumed, Deferred Tax Asset/(Liability) And Accrued Income Taxes
+000097 | + References
+000098 | No definition available.
+000099 | + Details
+000100 | Name:
+000101 | mmm_BusinessCombinationRecognizedLiabilityAssumedDeferredTaxAssetLiabilityAndAccruedIncomeTaxes
+000102 | Namespace Prefix:
+000103 | mmm_
+000104 | Data Type:
+000105 | xbrli:monetaryItemType
+000106 | Balance Type:
+000107 | credit
+000108 | Period Type:
+000109 | instant
+000110 | X
+000111 | - Definition
+000112 | Weighted-average period of amortization for finite-lived intangible asset acquired in business combination, asset acquisition, and from joint venture formation, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days. Excludes goodwill and capitalized cost for software to be sold, leased, or marketed.
+000113 | + References
+000114 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000115 | -Topic 985
+000116 | -SubTopic 20
+000117 | -Name Accounting Standards Codification
+000118 | -Section 50
+000119 | -Paragraph 2
+000120 | -Publisher FASB
+000121 | -URI https://asc.fasb.org/1943274/2147481283/985-20-50-2
+000122 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000123 | -Topic 350
+000124 | -SubTopic 30
+000125 | -Name Accounting Standards Codification
+000126 | -Section 50
+000127 | -Paragraph 1
+000128 | -Subparagraph (a)(3)
+000129 | -Publisher FASB
+000130 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-1
+000131 | + Details
+000132 | Name:
+000133 | us-gaap_AcquiredFiniteLivedIntangibleAssetsWeightedAverageUsefulLife
+000134 | Namespace Prefix:
+000135 | us-gaap_
+000136 | Data Type:
+000137 | xbrli:durationItemType
+000138 | Balance Type:
+000139 | na
+000140 | Period Type:
+000141 | duration
+000142 | X
+000143 | - References
+000144 | No definition available.
+000145 | + Details
+000146 | Name:
+000147 | us-gaap_BusinessCombinationConsiderationTransferredAbstract
+000148 | Namespace Prefix:
+000149 | us-gaap_
+000150 | Data Type:
+000151 | xbrli:stringItemType
+000152 | Balance Type:
+000153 | na
+000154 | Period Type:
+000155 | duration
+000156 | X
+000157 | - Definition
+000158 | Amount of identifiable intangible asset acquired in business combination and recognized at acquisition date. Excludes goodwill and financial asset.
+000159 | + References
+000160 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000161 | -Topic 805
+000162 | -SubTopic 10
+000163 | -Name Accounting Standards Codification
+000164 | -Section 55
+000165 | -Paragraph 41
+000166 | -Publisher FASB
+000167 | -URI https://asc.fasb.org/1943274/2147479303/805-10-55-41
+000168 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000169 | -Topic 805
+000170 | -SubTopic 10
+000171 | -Name Accounting Standards Codification
+000172 | -Section 50
+000173 | -Paragraph 8
+000174 | -Publisher FASB
+000175 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-8
+000176 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000177 | -Topic 805
+000178 | -SubTopic 10
+000179 | -Name Accounting Standards Codification
+000180 | -Section 55
+000181 | -Paragraph 45
+000182 | -Publisher FASB
+000183 | -URI https://asc.fasb.org/1943274/2147479303/805-10-55-45
+000184 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000185 | -Topic 805
+000186 | -SubTopic 20
+000187 | -Name Accounting Standards Codification
+000188 | -Section 50
+000189 | -Paragraph 2
+000190 | -Publisher FASB
+000191 | -URI https://asc.fasb.org/1943274/2147479907/805-20-50-2
+000192 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000193 | -Topic 805
+000194 | -SubTopic 20
+000195 | -Name Accounting Standards Codification
+000196 | -Section 50
+000197 | -Paragraph 1
+000198 | -Subparagraph (c)
+000199 | -Publisher FASB
+000200 | -URI https://asc.fasb.org/1943274/2147479907/805-20-50-1
+000201 | + Details
+000202 | Name:
+000203 | us-gaap_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedIntangibleAssetsOtherThanGoodwill
+000204 | Namespace Prefix:
+000205 | us-gaap_
+000206 | Data Type:
+000207 | xbrli:monetaryItemType
+000208 | Balance Type:
+000209 | debit
+000210 | Period Type:
+000211 | instant
+000212 | X
+000213 | - Definition
+000214 | Amount of property, plant, and equipment acquired in business combination and recognized at acquisition date.
+000215 | + References
+000216 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000217 | -Topic 805
+000218 | -SubTopic 10
+000219 | -Name Accounting Standards Codification
+000220 | -Section 55
+000221 | -Paragraph 41
+000222 | -Publisher FASB
+000223 | -URI https://asc.fasb.org/1943274/2147479303/805-10-55-41
+000224 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000225 | -Topic 805
+000226 | -SubTopic 10
+000227 | -Name Accounting Standards Codification
+000228 | -Section 50
+000229 | -Paragraph 8
+000230 | -Publisher FASB
+000231 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-8
+000232 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000233 | -Topic 805
+000234 | -SubTopic 20
+000235 | -Name Accounting Standards Codification
+000236 | -Section 50
+000237 | -Paragraph 2
+000238 | -Publisher FASB
+000239 | -URI https://asc.fasb.org/1943274/2147479907/805-20-50-2
+000240 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000241 | -Topic 805
+000242 | -SubTopic 20
+000243 | -Name Accounting Standards Codification
+000244 | -Section 50
+000245 | -Paragraph 1
+000246 | -Subparagraph (c)
+000247 | -Publisher FASB
+000248 | -URI https://asc.fasb.org/1943274/2147479907/805-20-50-1
+000249 | + Details
+000250 | Name:
+000251 | us-gaap_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedPropertyPlantAndEquipment
+000252 | Namespace Prefix:
+000253 | us-gaap_
+000254 | Data Type:
+000255 | xbrli:monetaryItemType
+000256 | Balance Type:
+000257 | debit
+000258 | Period Type:
+000259 | instant
+000260 | X
+000261 | - Definition
+000262 | Amount of asset acquired in excess of (less than) liability assumed plus goodwill in business combination and recognized at acquisition date.
+000263 | + References
+000264 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000265 | -Topic 805
+000266 | -SubTopic 20
+000267 | -Name Accounting Standards Codification
+000268 | -Section 50
+000269 | -Paragraph 2
+000270 | -Publisher FASB
+000271 | -URI https://asc.fasb.org/1943274/2147479907/805-20-50-2
+000272 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000273 | -Topic 805
+000274 | -SubTopic 20
+000275 | -Name Accounting Standards Codification
+000276 | -Section 50
+000277 | -Paragraph 1
+000278 | -Subparagraph (c)
+000279 | -Publisher FASB
+000280 | -URI https://asc.fasb.org/1943274/2147479907/805-20-50-1
+000281 | + Details
+000282 | Name:
+000283 | us-gaap_BusinessCombinationRecognizedIdentifiableAssetsAcquiredGoodwillAndLiabilitiesAssumedNet
+000284 | Namespace Prefix:
+000285 | us-gaap_
+000286 | Data Type:
+000287 | xbrli:monetaryItemType
+000288 | Balance Type:
+000289 | debit
+000290 | Period Type:
+000291 | instant
+000292 | X
+000293 | - Definition
+000294 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000295 | + References
+000296 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000297 | -Topic 805
+000298 | -SubTopic 10
+000299 | -Name Accounting Standards Codification
+000300 | -Section 55
+000301 | -Paragraph 41
+000302 | -Publisher FASB
+000303 | -URI https://asc.fasb.org/1943274/2147479303/805-10-55-41
+000304 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000305 | -Topic 805
+000306 | -SubTopic 10
+000307 | -Name Accounting Standards Codification
+000308 | -Section 50
+000309 | -Paragraph 8
+000310 | -Publisher FASB
+000311 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-8
+000312 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000313 | -Topic 805
+000314 | -SubTopic 10
+000315 | -Name Accounting Standards Codification
+000316 | -Section 50
+000317 | -Paragraph 3
+000318 | -Publisher FASB
+000319 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-3
+000320 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000321 | -Topic 805
+000322 | -SubTopic 10
+000323 | -Name Accounting Standards Codification
+000324 | -Section 50
+000325 | -Paragraph 2
+000326 | -Subparagraph (f)
+000327 | -Publisher FASB
+000328 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-2
+000329 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000330 | -Topic 805
+000331 | -SubTopic 10
+000332 | -Name Accounting Standards Codification
+000333 | -Section 50
+000334 | -Paragraph 2
+000335 | -Subparagraph (e)(4)
+000336 | -Publisher FASB
+000337 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-2
+000338 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000339 | -Topic 805
+000340 | -SubTopic 10
+000341 | -Name Accounting Standards Codification
+000342 | -Section 50
+000343 | -Paragraph 2
+000344 | -Subparagraph (e)(3)
+000345 | -Publisher FASB
+000346 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-2
+000347 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000348 | -Topic 805
+000349 | -SubTopic 10
+000350 | -Name Accounting Standards Codification
+000351 | -Section 50
+000352 | -Paragraph 2
+000353 | -Subparagraph (e)(2)
+000354 | -Publisher FASB
+000355 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-2
+000356 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000357 | -Topic 805
+000358 | -SubTopic 10
+000359 | -Name Accounting Standards Codification
+000360 | -Section 50
+000361 | -Paragraph 2
+000362 | -Subparagraph (e)(1)
+000363 | -Publisher FASB
+000364 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-2
+000365 | + Details
+000366 | Name:
+000367 | us-gaap_BusinessCombinationSeparatelyRecognizedTransactionsLineItems
+000368 | Namespace Prefix:
+000369 | us-gaap_
+000370 | Data Type:
+000371 | xbrli:stringItemType
+000372 | Balance Type:
+000373 | na
+000374 | Period Type:
+000375 | duration
+000376 | X
+000377 | - Definition
+000378 | The cash inflow associated with the acquisition of business during the period (for example, cash that was held by the acquired business).
+000379 | + References
+000380 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000381 | -Name Accounting Standards Codification
+000382 | -Topic 230
+000383 | -SubTopic 10
+000384 | -Section 45
+000385 | -Paragraph 12
+000386 | -Subparagraph (b)
+000387 | -Publisher FASB
+000388 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-12
+000389 | + Details
+000390 | Name:
+000391 | us-gaap_CashAcquiredFromAcquisition
+000392 | Namespace Prefix:
+000393 | us-gaap_
+000394 | Data Type:
+000395 | xbrli:monetaryItemType
+000396 | Balance Type:
+000397 | debit
+000398 | Period Type:
+000399 | duration
+000400 | X
+000401 | - Definition
+000402 | Amount, after accumulated impairment loss, of asset representing future economic benefit arising from other asset acquired in business combination or from joint venture formation or both, that is not individually identified and separately recognized.
+000403 | + References
+000404 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000405 | -Topic 942
+000406 | -SubTopic 210
+000407 | -Name Accounting Standards Codification
+000408 | -Section S45
+000409 | -Paragraph 1
+000410 | -Publisher FASB
+000411 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000412 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000413 | -Topic 942
+000414 | -SubTopic 210
+000415 | -Name Accounting Standards Codification
+000416 | -Section S50
+000417 | -Paragraph 1
+000418 | -Publisher FASB
+000419 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000420 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000421 | -Topic 805
+000422 | -SubTopic 10
+000423 | -Name Accounting Standards Codification
+000424 | -Section 55
+000425 | -Paragraph 41
+000426 | -Publisher FASB
+000427 | -URI https://asc.fasb.org/1943274/2147479303/805-10-55-41
+000428 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000429 | -Topic 805
+000430 | -SubTopic 10
+000431 | -Name Accounting Standards Codification
+000432 | -Section 50
+000433 | -Paragraph 8
+000434 | -Publisher FASB
+000435 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-8
+000436 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000437 | -Topic 210
+000438 | -SubTopic 10
+000439 | -Name Accounting Standards Codification
+000440 | -Section S50
+000441 | -Paragraph 6
+000442 | -Publisher FASB
+000443 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-6
+000444 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000445 | -Topic 210
+000446 | -SubTopic 10
+000447 | -Name Accounting Standards Codification
+000448 | -Section S99
+000449 | -Paragraph 1
+000450 | -Subparagraph (SX 210.5-02(15))
+000451 | -Publisher FASB
+000452 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000453 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000454 | -Topic 350
+000455 | -SubTopic 20
+000456 | -Name Accounting Standards Codification
+000457 | -Section 55
+000458 | -Paragraph 24
+000459 | -Publisher FASB
+000460 | -URI https://asc.fasb.org/1943274/2147482548/350-20-55-24
+000461 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+000462 | -Topic 805
+000463 | -SubTopic 740
+000464 | -Name Accounting Standards Codification
+000465 | -Section 55
+000466 | -Paragraph 13
+000467 | -Publisher FASB
+000468 | -URI https://asc.fasb.org/1943274/2147478064/805-740-55-13
+000469 | Reference 9: http://www.xbrl.org/2003/role/exampleRef
+000470 | -Topic 805
+000471 | -SubTopic 10
+000472 | -Name Accounting Standards Codification
+000473 | -Section 55
+000474 | -Paragraph 39
+000475 | -Publisher FASB
+000476 | -URI https://asc.fasb.org/1943274/2147479303/805-10-55-39
+000477 | Reference 10: http://www.xbrl.org/2003/role/exampleRef
+000478 | -Topic 280
+000479 | -SubTopic 10
+000480 | -Name Accounting Standards Codification
+000481 | -Section 55
+000482 | -Paragraph 49
+000483 | -Publisher FASB
+000484 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-49
+000485 | Reference 11: http://www.xbrl.org/2003/role/exampleRef
+000486 | -Topic 820
+000487 | -SubTopic 10
+000488 | -Name Accounting Standards Codification
+000489 | -Section 55
+000490 | -Paragraph 100
+000491 | -Subparagraph (d)
+000492 | -Publisher FASB
+000493 | -URI https://asc.fasb.org/1943274/2147482078/820-10-55-100
+000494 | Reference 12: http://www.xbrl.org/2003/role/exampleRef
+000495 | -Topic 852
+000496 | -SubTopic 10
+000497 | -Name Accounting Standards Codification
+000498 | -Section 55
+000499 | -Paragraph 10
+000500 | -Publisher FASB
+000501 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000502 | Reference 13: http://www.xbrl.org/2003/role/disclosureRef
+000503 | -Topic 350
+000504 | -SubTopic 20
+000505 | -Name Accounting Standards Codification
+000506 | -Section 45
+000507 | -Paragraph 1
+000508 | -Publisher FASB
+000509 | -URI https://asc.fasb.org/1943274/2147482598/350-20-45-1
+000510 | Reference 14: http://www.xbrl.org/2009/role/commonPracticeRef
+000511 | -Topic 350
+000512 | -SubTopic 20
+000513 | -Name Accounting Standards Codification
+000514 | -Section 50
+000515 | -Paragraph 1
+000516 | -Subparagraph (a)
+000517 | -Publisher FASB
+000518 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-1
+000519 | Reference 15: http://www.xbrl.org/2009/role/commonPracticeRef
+000520 | -Topic 350
+000521 | -SubTopic 20
+000522 | -Name Accounting Standards Codification
+000523 | -Section 50
+000524 | -Paragraph 1
+000525 | -Subparagraph (h)
+000526 | -Publisher FASB
+000527 | -URI https://asc.fasb.org/1943274/2147482573/350-20-50-1
+000528 | Reference 16: http://www.xbrl.org/2003/role/disclosureRef
+000529 | -Topic 942
+000530 | -SubTopic 210
+000531 | -Name Accounting Standards Codification
+000532 | -Section S99
+000533 | -Paragraph 1
+000534 | -Subparagraph (SX 210.9-03(10)(1))
+000535 | -Publisher FASB
+000536 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000537 | Reference 17: http://www.xbrl.org/2009/role/commonPracticeRef
+000538 | -Topic 805
+000539 | -SubTopic 30
+000540 | -Name Accounting Standards Codification
+000541 | -Section 50
+000542 | -Paragraph 4
+000543 | -Subparagraph (b)
+000544 | -Publisher FASB
+000545 | -URI https://asc.fasb.org/1943274/2147479581/805-30-50-4
+000546 | + Details
+000547 | Name:
+000548 | us-gaap_Goodwill
+000549 | Namespace Prefix:
+000550 | us-gaap_
+000551 | Data Type:
+000552 | xbrli:monetaryItemType
+000553 | Balance Type:
+000554 | debit
+000555 | Period Type:
+000556 | instant
+000557 | X
+000558 | - Definition
+000559 | The cash outflow associated with the acquisition of business during the period. The cash portion only of the acquisition price.
+000560 | + References
+000561 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000562 | -Topic 805
+000563 | -SubTopic 10
+000564 | -Name Accounting Standards Codification
+000565 | -Section 55
+000566 | -Paragraph 41
+000567 | -Publisher FASB
+000568 | -URI https://asc.fasb.org/1943274/2147479303/805-10-55-41
+000569 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000570 | -Topic 805
+000571 | -SubTopic 10
+000572 | -Name Accounting Standards Codification
+000573 | -Section 50
+000574 | -Paragraph 8
+000575 | -Publisher FASB
+000576 | -URI https://asc.fasb.org/1943274/2147479328/805-10-50-8
+000577 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000578 | -Topic 805
+000579 | -SubTopic 30
+000580 | -Name Accounting Standards Codification
+000581 | -Section 50
+000582 | -Paragraph 2
+000583 | -Publisher FASB
+000584 | -URI https://asc.fasb.org/1943274/2147479581/805-30-50-2
+000585 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000586 | -Topic 805
+000587 | -SubTopic 30
+000588 | -Name Accounting Standards Codification
+000589 | -Section 50
+000590 | -Paragraph 1
+000591 | -Subparagraph (b)(1)
+000592 | -Publisher FASB
+000593 | -URI https://asc.fasb.org/1943274/2147479581/805-30-50-1
+000594 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000595 | -Name Accounting Standards Codification
+000596 | -Topic 230
+000597 | -SubTopic 10
+000598 | -Section 45
+000599 | -Paragraph 13
+000600 | -Subparagraph (b)
+000601 | -Publisher FASB
+000602 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-13
+000603 | + Details
+000604 | Name:
+000605 | us-gaap_PaymentsToAcquireBusinessesGross
+000606 | Namespace Prefix:
+000607 | us-gaap_
+000608 | Data Type:
+000609 | xbrli:monetaryItemType
+000610 | Balance Type:
+000611 | credit
+000612 | Period Type:
+000613 | duration
+000614 | X
+000615 | - Definition
+000616 | The cash outflow associated with the acquisition of a business, net of the cash acquired from the purchase.
+000617 | + References
+000618 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000619 | -Name Accounting Standards Codification
+000620 | -Topic 230
+000621 | -SubTopic 10
+000622 | -Section 45
+000623 | -Paragraph 13
+000624 | -Subparagraph (b)
+000625 | -Publisher FASB
+000626 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-13
+000627 | + Details
+000628 | Name:
+000629 | us-gaap_PaymentsToAcquireBusinessesNetOfCashAcquired
+000630 | Namespace Prefix:
+000631 | us-gaap_
+000632 | Data Type:
+000633 | xbrli:monetaryItemType
+000634 | Balance Type:
+000635 | credit
+000636 | Period Type:
+000637 | duration
+000638 | X
+000639 | - Details
+000640 | Name:
+000641 | us-gaap_BusinessAcquisitionAxis=mmm_MadisonFireRescueMember
+000642 | Namespace Prefix:
+000643 | Data Type:
+000644 | na
+000645 | Balance Type:
+000646 | Period Type:
+000647 | X
+000648 | - Details
+000649 | Name:
+000650 | us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis=us-gaap_CustomerRelatedIntangibleAssetsMember
+000651 | Namespace Prefix:
+000652 | Data Type:
+000653 | na
+000654 | Balance Type:
+000655 | Period Type:
+000656 | X
+000657 | - Details
+000658 | Name:
+000659 | us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis=us-gaap_PatentedTechnologyMember
+000660 | Namespace Prefix:
+000661 | Data Type:
+000662 | na
+000663 | Balance Type:
+000664 | Period Type:
+000665 | X
+000666 | - Details
+000667 | Name:
+000668 | us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis=us-gaap_TrademarksAndTradeNamesMember
+000669 | Namespace Prefix:
+000670 | Data Type:
+000671 | na
+000672 | Balance Type:
+000673 | Period Type:

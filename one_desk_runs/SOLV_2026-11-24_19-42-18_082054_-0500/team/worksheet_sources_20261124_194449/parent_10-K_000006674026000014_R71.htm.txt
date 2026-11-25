@@ -1,0 +1,116 @@
+000001 | v3.25.4
+000002 | Supplemental Equity and Comprehensive Income Information - Narrative (Details) - $ / shares
+000003 | Dec. 31, 2025
+000004 | Dec. 31, 2024
+000005 | Stockholders' Equity Note [Abstract]
+000006 | Common stock, par value (in dollars per share)
+000007 | $ 0.01
+000008 | $ 0.01
+000009 | Common stock, authorized (in shares)
+000010 | 3,000,000,000
+000011 | Preferred stock, authorized (in shares)
+000012 | 10,000,000
+000013 | X
+000014 | - Definition
+000015 | Face amount or stated value per share of common stock.
+000016 | + References
+000017 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000018 | -Topic 210
+000019 | -SubTopic 10
+000020 | -Name Accounting Standards Codification
+000021 | -Section S99
+000022 | -Paragraph 1
+000023 | -Subparagraph (SX 210.5-02(29))
+000024 | -Publisher FASB
+000025 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000026 | + Details
+000027 | Name:
+000028 | us-gaap_CommonStockParOrStatedValuePerShare
+000029 | Namespace Prefix:
+000030 | us-gaap_
+000031 | Data Type:
+000032 | dtr-types:perShareItemType
+000033 | Balance Type:
+000034 | na
+000035 | Period Type:
+000036 | instant
+000037 | X
+000038 | - Definition
+000039 | The maximum number of common shares permitted to be issued by an entity's charter and bylaws.
+000040 | + References
+000041 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000042 | -Topic 210
+000043 | -SubTopic 10
+000044 | -Name Accounting Standards Codification
+000045 | -Section S99
+000046 | -Paragraph 1
+000047 | -Subparagraph (SX 210.5-02(29))
+000048 | -Publisher FASB
+000049 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000050 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000051 | -Topic 946
+000052 | -SubTopic 210
+000053 | -Name Accounting Standards Codification
+000054 | -Section S99
+000055 | -Paragraph 1
+000056 | -Subparagraph (SX 210.6-04(16)(a))
+000057 | -Publisher FASB
+000058 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000059 | + Details
+000060 | Name:
+000061 | us-gaap_CommonStockSharesAuthorized
+000062 | Namespace Prefix:
+000063 | us-gaap_
+000064 | Data Type:
+000065 | xbrli:sharesItemType
+000066 | Balance Type:
+000067 | na
+000068 | Period Type:
+000069 | instant
+000070 | X
+000071 | - Definition
+000072 | The maximum number of nonredeemable preferred shares (or preferred stock redeemable solely at the option of the issuer) permitted to be issued by an entity's charter and bylaws.
+000073 | + References
+000074 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000075 | -Topic 210
+000076 | -SubTopic 10
+000077 | -Name Accounting Standards Codification
+000078 | -Section S99
+000079 | -Paragraph 1
+000080 | -Subparagraph (SX 210.5-02(28))
+000081 | -Publisher FASB
+000082 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000083 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000084 | -Topic 946
+000085 | -SubTopic 210
+000086 | -Name Accounting Standards Codification
+000087 | -Section S99
+000088 | -Paragraph 1
+000089 | -Subparagraph (SX 210.6-04(16)(a))
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000092 | + Details
+000093 | Name:
+000094 | us-gaap_PreferredStockSharesAuthorized
+000095 | Namespace Prefix:
+000096 | us-gaap_
+000097 | Data Type:
+000098 | xbrli:sharesItemType
+000099 | Balance Type:
+000100 | na
+000101 | Period Type:
+000102 | instant
+000103 | X
+000104 | - References
+000105 | No definition available.
+000106 | + Details
+000107 | Name:
+000108 | us-gaap_StockholdersEquityNoteAbstract
+000109 | Namespace Prefix:
+000110 | us-gaap_
+000111 | Data Type:
+000112 | xbrli:stringItemType
+000113 | Balance Type:
+000114 | na
+000115 | Period Type:
+000116 | duration

@@ -1,0 +1,128 @@
+000001 | v3.24.1.1.u2
+000002 | Other Current Liabilities (Details) - USD ($)
+000003 | $ in Millions
+000004 | Mar. 31, 2024
+000005 | Dec. 31, 2023
+000006 | Other Liabilities Disclosure [Abstract]
+000007 | Accrued compensation
+000008 | $ 153
+000009 | $ 209
+000010 | Accrued rebates
+000011 | 170
+000012 | 206
+000013 | Other
+000014 | 378
+000015 | 262
+000016 | Other current liabilities
+000017 | $ 701
+000018 | $ 677
+000019 | X
+000020 | - Definition
+000021 | Accrued Rebates, Current
+000022 | + References
+000023 | No definition available.
+000024 | + Details
+000025 | Name:
+000026 | solv_AccruedRebatesCurrent
+000027 | Namespace Prefix:
+000028 | solv_
+000029 | Data Type:
+000030 | xbrli:monetaryItemType
+000031 | Balance Type:
+000032 | credit
+000033 | Period Type:
+000034 | instant
+000035 | X
+000036 | - Definition
+000037 | Total of the carrying values as of the balance sheet date of obligations incurred through that date and payable for obligations related to services received from employees, such as accrued salaries and bonuses, payroll taxes and fringe benefits. Used to reflect the current portion of the liabilities (due within one year or within the normal operating cycle if longer).
+000038 | + References
+000039 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000040 | -Topic 210
+000041 | -SubTopic 10
+000042 | -Name Accounting Standards Codification
+000043 | -Section S99
+000044 | -Paragraph 1
+000045 | -Subparagraph (SX 210.5-02(20))
+000046 | -Publisher FASB
+000047 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000048 | + Details
+000049 | Name:
+000050 | us-gaap_EmployeeRelatedLiabilitiesCurrent
+000051 | Namespace Prefix:
+000052 | us-gaap_
+000053 | Data Type:
+000054 | xbrli:monetaryItemType
+000055 | Balance Type:
+000056 | credit
+000057 | Period Type:
+000058 | instant
+000059 | X
+000060 | - Definition
+000061 | Amount of expenses incurred but not yet paid classified as other, due within one year or the normal operating cycle, if longer.
+000062 | + References
+000063 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000064 | -Topic 210
+000065 | -SubTopic 10
+000066 | -Name Accounting Standards Codification
+000067 | -Section S99
+000068 | -Paragraph 1
+000069 | -Subparagraph (SX 210.5-02(20))
+000070 | -Publisher FASB
+000071 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000072 | + Details
+000073 | Name:
+000074 | us-gaap_OtherAccruedLiabilitiesCurrent
+000075 | Namespace Prefix:
+000076 | us-gaap_
+000077 | Data Type:
+000078 | xbrli:monetaryItemType
+000079 | Balance Type:
+000080 | credit
+000081 | Period Type:
+000082 | instant
+000083 | X
+000084 | - Definition
+000085 | Amount of liabilities classified as other, due within one year or the normal operating cycle, if longer.
+000086 | + References
+000087 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000088 | -Topic 210
+000089 | -SubTopic 10
+000090 | -Name Accounting Standards Codification
+000091 | -Section S99
+000092 | -Paragraph 1
+000093 | -Subparagraph (SX 210.5-02(20))
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000096 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000097 | -Topic 852
+000098 | -SubTopic 10
+000099 | -Name Accounting Standards Codification
+000100 | -Section 55
+000101 | -Paragraph 10
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000104 | + Details
+000105 | Name:
+000106 | us-gaap_OtherLiabilitiesCurrent
+000107 | Namespace Prefix:
+000108 | us-gaap_
+000109 | Data Type:
+000110 | xbrli:monetaryItemType
+000111 | Balance Type:
+000112 | credit
+000113 | Period Type:
+000114 | instant
+000115 | X
+000116 | - References
+000117 | No definition available.
+000118 | + Details
+000119 | Name:
+000120 | us-gaap_OtherLiabilitiesDisclosureAbstract
+000121 | Namespace Prefix:
+000122 | us-gaap_
+000123 | Data Type:
+000124 | xbrli:stringItemType
+000125 | Balance Type:
+000126 | na
+000127 | Period Type:
+000128 | duration

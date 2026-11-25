@@ -1,0 +1,119 @@
+000001 | v3.25.4
+000002 | Audit Information
+000003 | 12 Months Ended
+000004 | Dec. 31, 2025
+000005 | Audit Information [Abstract]
+000006 | Auditor Firm ID
+000007 | 238
+000008 | Auditor Name
+000009 | PricewaterhouseCoopers LLP
+000010 | Auditor Location
+000011 | Minneapolis, Minnesota
+000012 | X
+000013 | - Definition
+000014 | PCAOB issued Audit Firm Identifier
+000015 | + References
+000016 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000017 | -Publisher SEC
+000018 | -Name Form 10-K
+000019 | -Number 249
+000020 | -Section 310
+000021 | Reference 2: http://www.xbrl.org/2003/role/presentationRef
+000022 | -Publisher SEC
+000023 | -Name Form 20-F
+000024 | -Number 249
+000025 | -Section 220
+000026 | -Subsection f
+000027 | Reference 3: http://www.xbrl.org/2003/role/presentationRef
+000028 | -Publisher SEC
+000029 | -Name Form 40-F
+000030 | -Number 249
+000031 | -Section 240
+000032 | -Subsection f
+000033 | + Details
+000034 | Name:
+000035 | dei_AuditorFirmId
+000036 | Namespace Prefix:
+000037 | dei_
+000038 | Data Type:
+000039 | dei:nonemptySequenceNumberItemType
+000040 | Balance Type:
+000041 | na
+000042 | Period Type:
+000043 | duration
+000044 | X
+000045 | - References
+000046 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000047 | -Publisher SEC
+000048 | -Name Form 10-K
+000049 | -Number 249
+000050 | -Section 310
+000051 | Reference 2: http://www.xbrl.org/2003/role/presentationRef
+000052 | -Publisher SEC
+000053 | -Name Form 20-F
+000054 | -Number 249
+000055 | -Section 220
+000056 | -Subsection f
+000057 | Reference 3: http://www.xbrl.org/2003/role/presentationRef
+000058 | -Publisher SEC
+000059 | -Name Form 40-F
+000060 | -Number 249
+000061 | -Section 240
+000062 | -Subsection f
+000063 | + Details
+000064 | Name:
+000065 | dei_AuditorLocation
+000066 | Namespace Prefix:
+000067 | dei_
+000068 | Data Type:
+000069 | dei:internationalNameItemType
+000070 | Balance Type:
+000071 | na
+000072 | Period Type:
+000073 | duration
+000074 | X
+000075 | - References
+000076 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000077 | -Publisher SEC
+000078 | -Name Form 10-K
+000079 | -Number 249
+000080 | -Section 310
+000081 | Reference 2: http://www.xbrl.org/2003/role/presentationRef
+000082 | -Publisher SEC
+000083 | -Name Form 20-F
+000084 | -Number 249
+000085 | -Section 220
+000086 | -Subsection f
+000087 | Reference 3: http://www.xbrl.org/2003/role/presentationRef
+000088 | -Publisher SEC
+000089 | -Name Form 40-F
+000090 | -Number 249
+000091 | -Section 240
+000092 | -Subsection f
+000093 | + Details
+000094 | Name:
+000095 | dei_AuditorName
+000096 | Namespace Prefix:
+000097 | dei_
+000098 | Data Type:
+000099 | dei:internationalNameItemType
+000100 | Balance Type:
+000101 | na
+000102 | Period Type:
+000103 | duration
+000104 | X
+000105 | - Definition
+000106 | Audit Information
+000107 | + References
+000108 | No definition available.
+000109 | + Details
+000110 | Name:
+000111 | mmm_AuditInformationAbstract
+000112 | Namespace Prefix:
+000113 | mmm_
+000114 | Data Type:
+000115 | xbrli:stringItemType
+000116 | Balance Type:
+000117 | na
+000118 | Period Type:
+000119 | duration

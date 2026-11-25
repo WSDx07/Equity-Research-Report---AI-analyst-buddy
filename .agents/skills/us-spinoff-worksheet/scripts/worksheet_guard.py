@@ -57,6 +57,12 @@ def parse_marker(text):
 
 def visible_numbers(line):
     text = MARKER.sub('', line)
+    # Legal names in registry entries can begin with a number (for example,
+    # a digit followed by a letter). Treat the parent name as an identifier.
+    if re.match(r'^\s*-\s*Parent:\s*', text, re.I):
+        text = re.sub(r'(?<=Parent: )\d+[A-Za-z][A-Za-z0-9]*\b', 'COMPANY', text)
+    if re.match(r'^\s*-\s*Distribution ratio:', text, re.I):
+        text = re.sub(r'\b\d+[A-Za-z][A-Za-z0-9]*\s+common\s+stock\b', 'COMPANY common stock', text)
     text = re.sub(r'<!--.*?-->', '', text)
     # Link destinations are identifiers; visible link labels can contain claims.
     text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
@@ -169,11 +175,31 @@ def label_number(text, label):
         if re.search(r'\bUSD\s+' + unit + r'\b', match.group(1), re.I):
             number *= Decimal(factor)
             break
+    if re.search(r'\bshares\s+millions\b', match.group(1), re.I):
+        number *= Decimal('1000000')
     return number
 
 
 def expected_calculation(text, line_text, calc_id, rules, reader_path, live_reader_path, fields):
     key = calc_id.casefold()
+    ttm_inputs = {
+        'ttm_after_tax_earnings': 'After-tax earnings',
+        'ttm_depreciation': 'Depreciation',
+        'ttm_capital_spending': 'Capital spending',
+    }
+    if key.startswith('live_') and key.removeprefix('live_') in ttm_inputs:
+        prefix = 'Live '
+        stem = ttm_inputs[key.removeprefix('live_')]
+        fy = label_number(text, prefix + stem + ' FY base')
+        current_ytd = label_number(text, prefix + stem + ' current YTD')
+        prior_ytd = label_number(text, prefix + stem + ' prior YTD')
+        return [fy + current_ytd - prior_ytd]
+    if key in ttm_inputs:
+        stem = ttm_inputs[key]
+        fy = label_number(text, stem + ' FY base')
+        current_ytd = label_number(text, stem + ' current YTD')
+        prior_ytd = label_number(text, stem + ' prior YTD')
+        return [fy + current_ytd - prior_ytd]
     if key in {'depreciation_and_amortization', 'live_depreciation_and_amortization'}:
         prefix = 'Live ' if key.startswith('live_') else ''
         try:

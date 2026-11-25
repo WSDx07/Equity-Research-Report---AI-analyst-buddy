@@ -1,0 +1,87 @@
+000001 | v3.24.1.1.u2
+000002 | Long-Term Debt and Short-Term Borrowings (Tables)
+000003 | 3 Months Ended
+000004 | Mar. 31, 2024
+000005 | Debt Disclosure [Abstract]
+000006 | Schedule of Debt
+000007 | Carrying value includes the impact of debt issuance costs. Long-term debt and short-term borrowings as of March 31, 2024 consisted of the following:
+000008 | (Millions) Currency/ Fixed vs. Floating Effective Interest Rate Final Maturity Date Carrying Value
+000009 | Description March 31, 2024
+000010 | $500 million eighteen month senior term loan credit facility
+000011 | USD Floating 6.79 % 2025 $ 499
+000012 | $1 billion three year senior term loan credit facility
+000013 | USD Floating 6.79 2027 979
+000014 | $1 billion 5.45 percent three year senior notes
+000015 | USD Fixed 5.62 2027 993
+000016 | $1.5 billion 5.40 percent five year senior notes
+000017 | USD Fixed 5.58 2029 1,485
+000018 | $1 billion 5.45 percent seven year senior notes
+000019 | USD Fixed 5.60 2031 989
+000020 | $1.65 billion 5.60 percent ten year senior notes
+000021 | USD Fixed 5.70 2034 1,635
+000022 | $1.25 billion 5.90 percent thirty year senior notes
+000023 | USD Fixed 5.99 2054 1,231
+000024 | $500 million 6.00 percent forty year senior notes
+000025 | USD Fixed 6.09 2064 492
+000026 | Other borrowings —
+000027 | Total long-term debt 8,303
+000028 | Less: current portion of long-term debt —
+000029 | Long-term debt (excluding current portion) $ 8,303
+000030 | Schedule of Maturities of Long-Term Debt
+000031 | The contractual maturities of long-term debt for the periods subsequent to March 31, 2024 are as follows (in millions):
+000032 | Remainder of
+000033 | 2024 2025 2026 2027 2028 2029 After 2029 Total
+000034 | $ — $ 500 $ — $ 1,980 $ — $ 1,500 $ 4,400 $ 8,380
+000035 | X
+000036 | - References
+000037 | No definition available.
+000038 | + Details
+000039 | Name:
+000040 | us-gaap_DebtDisclosureAbstract
+000041 | Namespace Prefix:
+000042 | us-gaap_
+000043 | Data Type:
+000044 | xbrli:stringItemType
+000045 | Balance Type:
+000046 | na
+000047 | Period Type:
+000048 | duration
+000049 | X
+000050 | - Definition
+000051 | Tabular disclosure of information pertaining to short-term and long-debt instruments or arrangements, including but not limited to identification of terms, features, collateral requirements and other information necessary to a fair presentation.
+000052 | + References
+000053 | No definition available.
+000054 | + Details
+000055 | Name:
+000056 | us-gaap_ScheduleOfDebtTableTextBlock
+000057 | Namespace Prefix:
+000058 | us-gaap_
+000059 | Data Type:
+000060 | dtr-types:textBlockItemType
+000061 | Balance Type:
+000062 | na
+000063 | Period Type:
+000064 | duration
+000065 | X
+000066 | - Definition
+000067 | Tabular disclosure of maturity and sinking fund requirement for long-term debt.
+000068 | + References
+000069 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000070 | -Name Accounting Standards Codification
+000071 | -Section 50
+000072 | -Paragraph 1
+000073 | -SubTopic 10
+000074 | -Topic 470
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147481544/470-10-50-1
+000077 | + Details
+000078 | Name:
+000079 | us-gaap_ScheduleOfMaturitiesOfLongTermDebtTableTextBlock
+000080 | Namespace Prefix:
+000081 | us-gaap_
+000082 | Data Type:
+000083 | dtr-types:textBlockItemType
+000084 | Balance Type:
+000085 | na
+000086 | Period Type:
+000087 | duration

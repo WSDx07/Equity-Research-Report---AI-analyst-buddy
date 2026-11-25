@@ -1,0 +1,365 @@
+000001 | v3.24.1.1.u2
+000002 | Goodwill and Intangible Assets - Finite-Lived and Indefinite-Lived intangible Assets (Details) - USD ($)
+000003 | $ in Millions
+000004 | Mar. 31, 2024
+000005 | Dec. 31, 2023
+000006 | Finite-Lived Intangible Assets [Line Items]
+000007 | Total gross carrying amount
+000008 | $ 5,328
+000009 | $ 5,336
+000010 | Total accumulated amortization
+000011 | (2,543)
+000012 | (2,459)
+000013 | Total finite-lived intangible assets — net
+000014 | 2,785
+000015 | 2,877
+000016 | Indefinite lived intangible assets
+000017 | 25
+000018 | 25
+000019 | Intangible assets — net
+000020 | 2,810
+000021 | 2,902
+000022 | Customer related intangible assets
+000023 | Finite-Lived Intangible Assets [Line Items]
+000024 | Total gross carrying amount
+000025 | 2,728
+000026 | 2,734
+000027 | Total accumulated amortization
+000028 | (1,112)
+000029 | (1,081)
+000030 | Patents and other technology-based intangible assets
+000031 | Finite-Lived Intangible Assets [Line Items]
+000032 | Total gross carrying amount
+000033 | 1,896
+000034 | 1,897
+000035 | Total accumulated amortization
+000036 | (1,098)
+000037 | (1,055)
+000038 | Tradenames and other amortizable intangible assets
+000039 | Finite-Lived Intangible Assets [Line Items]
+000040 | Total gross carrying amount
+000041 | 704
+000042 | 705
+000043 | Total accumulated amortization
+000044 | $ (333)
+000045 | $ (323)
+000046 | X
+000047 | - Definition
+000048 | Accumulated amount of amortization of assets, excluding financial assets and goodwill, lacking physical substance with a finite life.
+000049 | + References
+000050 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000051 | -Topic 350
+000052 | -SubTopic 30
+000053 | -Name Accounting Standards Codification
+000054 | -Section 55
+000055 | -Paragraph 40
+000056 | -Publisher FASB
+000057 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000058 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000059 | -Topic 350
+000060 | -SubTopic 10
+000061 | -Name Accounting Standards Codification
+000062 | -Section S45
+000063 | -Paragraph 1
+000064 | -Publisher FASB
+000065 | -URI https://asc.fasb.org/1943274/2147480265/350-10-S45-1
+000066 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000067 | -Topic 350
+000068 | -SubTopic 30
+000069 | -Name Accounting Standards Codification
+000070 | -Section 50
+000071 | -Paragraph 2
+000072 | -Subparagraph (a)(1)
+000073 | -Publisher FASB
+000074 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000075 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000076 | -Topic 210
+000077 | -SubTopic 10
+000078 | -Name Accounting Standards Codification
+000079 | -Section S99
+000080 | -Paragraph 1
+000081 | -Subparagraph (SX 210.5-02(16))
+000082 | -Publisher FASB
+000083 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000084 | + Details
+000085 | Name:
+000086 | us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization
+000087 | Namespace Prefix:
+000088 | us-gaap_
+000089 | Data Type:
+000090 | xbrli:monetaryItemType
+000091 | Balance Type:
+000092 | credit
+000093 | Period Type:
+000094 | instant
+000095 | X
+000096 | - Definition
+000097 | Amount before amortization of assets, excluding financial assets and goodwill, lacking physical substance with a finite life.
+000098 | + References
+000099 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000100 | -Topic 350
+000101 | -SubTopic 30
+000102 | -Name Accounting Standards Codification
+000103 | -Section 55
+000104 | -Paragraph 40
+000105 | -Publisher FASB
+000106 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000107 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000108 | -Topic 350
+000109 | -SubTopic 10
+000110 | -Name Accounting Standards Codification
+000111 | -Section S45
+000112 | -Paragraph 1
+000113 | -Publisher FASB
+000114 | -URI https://asc.fasb.org/1943274/2147480265/350-10-S45-1
+000115 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000116 | -Topic 350
+000117 | -SubTopic 30
+000118 | -Name Accounting Standards Codification
+000119 | -Section 50
+000120 | -Paragraph 2
+000121 | -Subparagraph (a)(1)
+000122 | -Publisher FASB
+000123 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000124 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000125 | -Topic 928
+000126 | -SubTopic 340
+000127 | -Name Accounting Standards Codification
+000128 | -Section 50
+000129 | -Paragraph 1
+000130 | -Publisher FASB
+000131 | -URI https://asc.fasb.org/1943274/2147478859/928-340-50-1
+000132 | + Details
+000133 | Name:
+000134 | us-gaap_FiniteLivedIntangibleAssetsGross
+000135 | Namespace Prefix:
+000136 | us-gaap_
+000137 | Data Type:
+000138 | xbrli:monetaryItemType
+000139 | Balance Type:
+000140 | debit
+000141 | Period Type:
+000142 | instant
+000143 | X
+000144 | - Definition
+000145 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000146 | + References
+000147 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000148 | -Topic 350
+000149 | -SubTopic 30
+000150 | -Name Accounting Standards Codification
+000151 | -Section 55
+000152 | -Paragraph 40
+000153 | -Publisher FASB
+000154 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000155 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000156 | -Topic 350
+000157 | -SubTopic 30
+000158 | -Name Accounting Standards Codification
+000159 | -Section 50
+000160 | -Paragraph 2
+000161 | -Subparagraph (d)(2)
+000162 | -Publisher FASB
+000163 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000164 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000165 | -Topic 350
+000166 | -SubTopic 30
+000167 | -Name Accounting Standards Codification
+000168 | -Section 50
+000169 | -Paragraph 2
+000170 | -Subparagraph (d)(1)
+000171 | -Publisher FASB
+000172 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000173 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000174 | -Topic 350
+000175 | -SubTopic 30
+000176 | -Name Accounting Standards Codification
+000177 | -Section 45
+000178 | -Paragraph 1
+000179 | -Publisher FASB
+000180 | -URI https://asc.fasb.org/1943274/2147482686/350-30-45-1
+000181 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000182 | -Topic 350
+000183 | -SubTopic 30
+000184 | -Name Accounting Standards Codification
+000185 | -Section 50
+000186 | -Paragraph 2
+000187 | -Subparagraph (a)(1)
+000188 | -Publisher FASB
+000189 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000190 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000191 | -Topic 350
+000192 | -SubTopic 30
+000193 | -Name Accounting Standards Codification
+000194 | -Section 50
+000195 | -Paragraph 3
+000196 | -Subparagraph (d)
+000197 | -Publisher FASB
+000198 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-3
+000199 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000200 | -Topic 985
+000201 | -SubTopic 20
+000202 | -Name Accounting Standards Codification
+000203 | -Section 50
+000204 | -Paragraph 2
+000205 | -Publisher FASB
+000206 | -URI https://asc.fasb.org/1943274/2147481283/985-20-50-2
+000207 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000208 | -Topic 926
+000209 | -SubTopic 20
+000210 | -Name Accounting Standards Codification
+000211 | -Section 50
+000212 | -Paragraph 5
+000213 | -Publisher FASB
+000214 | -URI https://asc.fasb.org/1943274/2147483154/926-20-50-5
+000215 | + Details
+000216 | Name:
+000217 | us-gaap_FiniteLivedIntangibleAssetsLineItems
+000218 | Namespace Prefix:
+000219 | us-gaap_
+000220 | Data Type:
+000221 | xbrli:stringItemType
+000222 | Balance Type:
+000223 | na
+000224 | Period Type:
+000225 | duration
+000226 | X
+000227 | - Definition
+000228 | Amount after amortization of assets, excluding financial assets and goodwill, lacking physical substance with a finite life.
+000229 | + References
+000230 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000231 | -Topic 350
+000232 | -SubTopic 30
+000233 | -Name Accounting Standards Codification
+000234 | -Section 50
+000235 | -Paragraph 2
+000236 | -Subparagraph (a)(1)
+000237 | -Publisher FASB
+000238 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000239 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000240 | -Topic 926
+000241 | -SubTopic 20
+000242 | -Name Accounting Standards Codification
+000243 | -Section 50
+000244 | -Paragraph 5
+000245 | -Publisher FASB
+000246 | -URI https://asc.fasb.org/1943274/2147483154/926-20-50-5
+000247 | + Details
+000248 | Name:
+000249 | us-gaap_FiniteLivedIntangibleAssetsNet
+000250 | Namespace Prefix:
+000251 | us-gaap_
+000252 | Data Type:
+000253 | xbrli:monetaryItemType
+000254 | Balance Type:
+000255 | debit
+000256 | Period Type:
+000257 | instant
+000258 | X
+000259 | - Definition
+000260 | Amount of assets, excluding financial assets and goodwill, lacking physical substance and having a projected indefinite period of benefit.
+000261 | + References
+000262 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000263 | -Topic 350
+000264 | -SubTopic 30
+000265 | -Name Accounting Standards Codification
+000266 | -Section 55
+000267 | -Paragraph 40
+000268 | -Publisher FASB
+000269 | -URI https://asc.fasb.org/1943274/2147482640/350-30-55-40
+000270 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000271 | -Topic 350
+000272 | -SubTopic 10
+000273 | -Name Accounting Standards Codification
+000274 | -Section S45
+000275 | -Paragraph 1
+000276 | -Publisher FASB
+000277 | -URI https://asc.fasb.org/1943274/2147480265/350-10-S45-1
+000278 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000279 | -Topic 350
+000280 | -SubTopic 30
+000281 | -Name Accounting Standards Codification
+000282 | -Section 50
+000283 | -Paragraph 2
+000284 | -Subparagraph (b)
+000285 | -Publisher FASB
+000286 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000287 | + Details
+000288 | Name:
+000289 | us-gaap_IndefiniteLivedIntangibleAssetsExcludingGoodwill
+000290 | Namespace Prefix:
+000291 | us-gaap_
+000292 | Data Type:
+000293 | xbrli:monetaryItemType
+000294 | Balance Type:
+000295 | debit
+000296 | Period Type:
+000297 | instant
+000298 | X
+000299 | - Definition
+000300 | Sum of the carrying amounts of all intangible assets, excluding goodwill, as of the balance sheet date, net of accumulated amortization and impairment charges.
+000301 | + References
+000302 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000303 | -Topic 350
+000304 | -SubTopic 30
+000305 | -Name Accounting Standards Codification
+000306 | -Section 50
+000307 | -Paragraph 2
+000308 | -Subparagraph (a)(1)
+000309 | -Publisher FASB
+000310 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000311 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000312 | -Topic 350
+000313 | -SubTopic 30
+000314 | -Name Accounting Standards Codification
+000315 | -Section 50
+000316 | -Paragraph 2
+000317 | -Subparagraph (b)
+000318 | -Publisher FASB
+000319 | -URI https://asc.fasb.org/1943274/2147482665/350-30-50-2
+000320 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000321 | -Topic 350
+000322 | -SubTopic 30
+000323 | -Name Accounting Standards Codification
+000324 | -Section 45
+000325 | -Paragraph 1
+000326 | -Publisher FASB
+000327 | -URI https://asc.fasb.org/1943274/2147482686/350-30-45-1
+000328 | + Details
+000329 | Name:
+000330 | us-gaap_IntangibleAssetsNetExcludingGoodwill
+000331 | Namespace Prefix:
+000332 | us-gaap_
+000333 | Data Type:
+000334 | xbrli:monetaryItemType
+000335 | Balance Type:
+000336 | debit
+000337 | Period Type:
+000338 | instant
+000339 | X
+000340 | - Details
+000341 | Name:
+000342 | us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis=us-gaap_CustomerRelatedIntangibleAssetsMember
+000343 | Namespace Prefix:
+000344 | Data Type:
+000345 | na
+000346 | Balance Type:
+000347 | Period Type:
+000348 | X
+000349 | - Details
+000350 | Name:
+000351 | us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis=us-gaap_IntellectualPropertyMember
+000352 | Namespace Prefix:
+000353 | Data Type:
+000354 | na
+000355 | Balance Type:
+000356 | Period Type:
+000357 | X
+000358 | - Details
+000359 | Name:
+000360 | us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis=us-gaap_TradeNamesMember
+000361 | Namespace Prefix:
+000362 | Data Type:
+000363 | na
+000364 | Balance Type:
+000365 | Period Type:

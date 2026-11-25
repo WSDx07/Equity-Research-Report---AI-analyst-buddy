@@ -1,0 +1,553 @@
+000001 | v3.24.1
+000002 | Cover Page
+000003 | Apr. 01, 2024
+000004 | Document Information [Line Items]
+000005 | Document Type
+000006 | 8-K
+000007 | Document Period End Date
+000008 | Apr. 01, 2024
+000009 | Entity Registrant Name
+000010 | 3M COMPANY
+000011 | Entity Incorporation, State or Country Code
+000012 | DE
+000013 | Entity File Number
+000014 | 1-3285
+000015 | Entity Tax Identification Number
+000016 | 41-0417775
+000017 | Entity Address, Address Line One
+000018 | 3M Center
+000019 | Entity Address, City or Town
+000020 | St. Paul
+000021 | Entity Address, State or Province
+000022 | MN
+000023 | Entity Address, Postal Zip Code
+000024 | 55144-1000
+000025 | City Area Code
+000026 | 651
+000027 | Local Phone Number
+000028 | 733-1110
+000029 | Written Communications
+000030 | false
+000031 | Soliciting Material
+000032 | false
+000033 | Pre-commencement Tender Offer
+000034 | false
+000035 | Pre-commencement Issuer Tender Offer
+000036 | false
+000037 | Entity Emerging Growth Company
+000038 | false
+000039 | Amendment Flag
+000040 | false
+000041 | Entity Central Index Key
+000042 | 0000066740
+000043 | Common Stock, Par Value $.01 Per Share | New York Stock Exchange
+000044 | Document Information [Line Items]
+000045 | Title of 12(b) Security
+000046 | Common Stock, Par Value $.01 Per Share
+000047 | Trading Symbol
+000048 | MMM
+000049 | Security Exchange Name
+000050 | NYSE
+000051 | Common Stock, Par Value $.01 Per Share | Chicago Stock Exchange, Inc.
+000052 | Document Information [Line Items]
+000053 | Title of 12(b) Security
+000054 | Common Stock, Par Value $.01 Per Share
+000055 | Trading Symbol
+000056 | MMM
+000057 | Security Exchange Name
+000058 | CHX
+000059 | 1.500% Notes due 2026 | New York Stock Exchange
+000060 | Document Information [Line Items]
+000061 | Title of 12(b) Security
+000062 | 1.500% Notes due 2026
+000063 | Trading Symbol
+000064 | MMM26
+000065 | Security Exchange Name
+000066 | NYSE
+000067 | 1.750% Notes due 2030 | New York Stock Exchange
+000068 | Document Information [Line Items]
+000069 | Title of 12(b) Security
+000070 | 1.750% Notes due 2030
+000071 | Trading Symbol
+000072 | MMM30
+000073 | Security Exchange Name
+000074 | NYSE
+000075 | 1.500% Notes due 2031 | New York Stock Exchange
+000076 | Document Information [Line Items]
+000077 | Title of 12(b) Security
+000078 | 1.500% Notes due 2031
+000079 | Trading Symbol
+000080 | MMM31
+000081 | Security Exchange Name
+000082 | NYSE
+000083 | X
+000084 | - Definition
+000085 | Boolean flag that is true when the XBRL content amends previously-filed or accepted submission.
+000086 | + References
+000087 | No definition available.
+000088 | + Details
+000089 | Name:
+000090 | dei_AmendmentFlag
+000091 | Namespace Prefix:
+000092 | dei_
+000093 | Data Type:
+000094 | xbrli:booleanItemType
+000095 | Balance Type:
+000096 | na
+000097 | Period Type:
+000098 | duration
+000099 | X
+000100 | - Definition
+000101 | Area code of city
+000102 | + References
+000103 | No definition available.
+000104 | + Details
+000105 | Name:
+000106 | dei_CityAreaCode
+000107 | Namespace Prefix:
+000108 | dei_
+000109 | Data Type:
+000110 | xbrli:normalizedStringItemType
+000111 | Balance Type:
+000112 | na
+000113 | Period Type:
+000114 | duration
+000115 | X
+000116 | - Definition
+000117 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000118 | + References
+000119 | No definition available.
+000120 | + Details
+000121 | Name:
+000122 | dei_DocumentInformationLineItems
+000123 | Namespace Prefix:
+000124 | dei_
+000125 | Data Type:
+000126 | xbrli:stringItemType
+000127 | Balance Type:
+000128 | na
+000129 | Period Type:
+000130 | duration
+000131 | X
+000132 | - Definition
+000133 | For the EDGAR submission types of Form 8-K: the date of the report, the date of the earliest event reported; for the EDGAR submission types of Form N-1A: the filing date; for all other submission types: the end of the reporting or transition period. The format of the date is YYYY-MM-DD.
+000134 | + References
+000135 | No definition available.
+000136 | + Details
+000137 | Name:
+000138 | dei_DocumentPeriodEndDate
+000139 | Namespace Prefix:
+000140 | dei_
+000141 | Data Type:
+000142 | xbrli:dateItemType
+000143 | Balance Type:
+000144 | na
+000145 | Period Type:
+000146 | duration
+000147 | X
+000148 | - Definition
+000149 | The type of document being provided (such as 10-K, 10-Q, 485BPOS, etc). The document type is limited to the same value as the supporting SEC submission type, or the word 'Other'.
+000150 | + References
+000151 | No definition available.
+000152 | + Details
+000153 | Name:
+000154 | dei_DocumentType
+000155 | Namespace Prefix:
+000156 | dei_
+000157 | Data Type:
+000158 | dei:submissionTypeItemType
+000159 | Balance Type:
+000160 | na
+000161 | Period Type:
+000162 | duration
+000163 | X
+000164 | - Definition
+000165 | Address Line 1 such as Attn, Building Name, Street Name
+000166 | + References
+000167 | No definition available.
+000168 | + Details
+000169 | Name:
+000170 | dei_EntityAddressAddressLine1
+000171 | Namespace Prefix:
+000172 | dei_
+000173 | Data Type:
+000174 | xbrli:normalizedStringItemType
+000175 | Balance Type:
+000176 | na
+000177 | Period Type:
+000178 | duration
+000179 | X
+000180 | - Definition
+000181 | Name of the City or Town
+000182 | + References
+000183 | No definition available.
+000184 | + Details
+000185 | Name:
+000186 | dei_EntityAddressCityOrTown
+000187 | Namespace Prefix:
+000188 | dei_
+000189 | Data Type:
+000190 | xbrli:normalizedStringItemType
+000191 | Balance Type:
+000192 | na
+000193 | Period Type:
+000194 | duration
+000195 | X
+000196 | - Definition
+000197 | Code for the postal or zip code
+000198 | + References
+000199 | No definition available.
+000200 | + Details
+000201 | Name:
+000202 | dei_EntityAddressPostalZipCode
+000203 | Namespace Prefix:
+000204 | dei_
+000205 | Data Type:
+000206 | xbrli:normalizedStringItemType
+000207 | Balance Type:
+000208 | na
+000209 | Period Type:
+000210 | duration
+000211 | X
+000212 | - Definition
+000213 | Name of the state or province.
+000214 | + References
+000215 | No definition available.
+000216 | + Details
+000217 | Name:
+000218 | dei_EntityAddressStateOrProvince
+000219 | Namespace Prefix:
+000220 | dei_
+000221 | Data Type:
+000222 | dei:stateOrProvinceItemType
+000223 | Balance Type:
+000224 | na
+000225 | Period Type:
+000226 | duration
+000227 | X
+000228 | - Definition
+000229 | A unique 10-digit SEC-issued value to identify entities that have filed disclosures with the SEC. It is commonly abbreviated as CIK.
+000230 | + References
+000231 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000232 | -Publisher SEC
+000233 | -Name Exchange Act
+000234 | -Number 240
+000235 | -Section 12
+000236 | -Subsection b-2
+000237 | + Details
+000238 | Name:
+000239 | dei_EntityCentralIndexKey
+000240 | Namespace Prefix:
+000241 | dei_
+000242 | Data Type:
+000243 | dei:centralIndexKeyItemType
+000244 | Balance Type:
+000245 | na
+000246 | Period Type:
+000247 | duration
+000248 | X
+000249 | - Definition
+000250 | Indicate if registrant meets the emerging growth company criteria.
+000251 | + References
+000252 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000253 | -Publisher SEC
+000254 | -Name Exchange Act
+000255 | -Number 240
+000256 | -Section 12
+000257 | -Subsection b-2
+000258 | + Details
+000259 | Name:
+000260 | dei_EntityEmergingGrowthCompany
+000261 | Namespace Prefix:
+000262 | dei_
+000263 | Data Type:
+000264 | xbrli:booleanItemType
+000265 | Balance Type:
+000266 | na
+000267 | Period Type:
+000268 | duration
+000269 | X
+000270 | - Definition
+000271 | Commission file number. The field allows up to 17 characters. The prefix may contain 1-3 digits, the sequence number may contain 1-8 digits, the optional suffix may contain 1-4 characters, and the fields are separated with a hyphen.
+000272 | + References
+000273 | No definition available.
+000274 | + Details
+000275 | Name:
+000276 | dei_EntityFileNumber
+000277 | Namespace Prefix:
+000278 | dei_
+000279 | Data Type:
+000280 | dei:fileNumberItemType
+000281 | Balance Type:
+000282 | na
+000283 | Period Type:
+000284 | duration
+000285 | X
+000286 | - Definition
+000287 | Two-character EDGAR code representing the state or country of incorporation.
+000288 | + References
+000289 | No definition available.
+000290 | + Details
+000291 | Name:
+000292 | dei_EntityIncorporationStateCountryCode
+000293 | Namespace Prefix:
+000294 | dei_
+000295 | Data Type:
+000296 | dei:edgarStateCountryItemType
+000297 | Balance Type:
+000298 | na
+000299 | Period Type:
+000300 | duration
+000301 | X
+000302 | - Definition
+000303 | The exact name of the entity filing the report as specified in its charter, which is required by forms filed with the SEC.
+000304 | + References
+000305 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000306 | -Publisher SEC
+000307 | -Name Exchange Act
+000308 | -Number 240
+000309 | -Section 12
+000310 | -Subsection b-2
+000311 | + Details
+000312 | Name:
+000313 | dei_EntityRegistrantName
+000314 | Namespace Prefix:
+000315 | dei_
+000316 | Data Type:
+000317 | xbrli:normalizedStringItemType
+000318 | Balance Type:
+000319 | na
+000320 | Period Type:
+000321 | duration
+000322 | X
+000323 | - Definition
+000324 | The Tax Identification Number (TIN), also known as an Employer Identification Number (EIN), is a unique 9-digit value assigned by the IRS.
+000325 | + References
+000326 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000327 | -Publisher SEC
+000328 | -Name Exchange Act
+000329 | -Number 240
+000330 | -Section 12
+000331 | -Subsection b-2
+000332 | + Details
+000333 | Name:
+000334 | dei_EntityTaxIdentificationNumber
+000335 | Namespace Prefix:
+000336 | dei_
+000337 | Data Type:
+000338 | dei:employerIdItemType
+000339 | Balance Type:
+000340 | na
+000341 | Period Type:
+000342 | duration
+000343 | X
+000344 | - Definition
+000345 | Local phone number for entity.
+000346 | + References
+000347 | No definition available.
+000348 | + Details
+000349 | Name:
+000350 | dei_LocalPhoneNumber
+000351 | Namespace Prefix:
+000352 | dei_
+000353 | Data Type:
+000354 | xbrli:normalizedStringItemType
+000355 | Balance Type:
+000356 | na
+000357 | Period Type:
+000358 | duration
+000359 | X
+000360 | - Definition
+000361 | Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act.
+000362 | + References
+000363 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000364 | -Publisher SEC
+000365 | -Name Exchange Act
+000366 | -Number 240
+000367 | -Section 13e
+000368 | -Subsection 4c
+000369 | + Details
+000370 | Name:
+000371 | dei_PreCommencementIssuerTenderOffer
+000372 | Namespace Prefix:
+000373 | dei_
+000374 | Data Type:
+000375 | xbrli:booleanItemType
+000376 | Balance Type:
+000377 | na
+000378 | Period Type:
+000379 | duration
+000380 | X
+000381 | - Definition
+000382 | Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act.
+000383 | + References
+000384 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000385 | -Publisher SEC
+000386 | -Name Exchange Act
+000387 | -Number 240
+000388 | -Section 14d
+000389 | -Subsection 2b
+000390 | + Details
+000391 | Name:
+000392 | dei_PreCommencementTenderOffer
+000393 | Namespace Prefix:
+000394 | dei_
+000395 | Data Type:
+000396 | xbrli:booleanItemType
+000397 | Balance Type:
+000398 | na
+000399 | Period Type:
+000400 | duration
+000401 | X
+000402 | - Definition
+000403 | Title of a 12(b) registered security.
+000404 | + References
+000405 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000406 | -Publisher SEC
+000407 | -Name Exchange Act
+000408 | -Number 240
+000409 | -Section 12
+000410 | -Subsection b
+000411 | + Details
+000412 | Name:
+000413 | dei_Security12bTitle
+000414 | Namespace Prefix:
+000415 | dei_
+000416 | Data Type:
+000417 | dei:securityTitleItemType
+000418 | Balance Type:
+000419 | na
+000420 | Period Type:
+000421 | duration
+000422 | X
+000423 | - Definition
+000424 | Name of the Exchange on which a security is registered.
+000425 | + References
+000426 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000427 | -Publisher SEC
+000428 | -Name Exchange Act
+000429 | -Number 240
+000430 | -Section 12
+000431 | -Subsection d1-1
+000432 | + Details
+000433 | Name:
+000434 | dei_SecurityExchangeName
+000435 | Namespace Prefix:
+000436 | dei_
+000437 | Data Type:
+000438 | dei:edgarExchangeCodeItemType
+000439 | Balance Type:
+000440 | na
+000441 | Period Type:
+000442 | duration
+000443 | X
+000444 | - Definition
+000445 | Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as soliciting material pursuant to Rule 14a-12 under the Exchange Act.
+000446 | + References
+000447 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000448 | -Publisher SEC
+000449 | -Name Exchange Act
+000450 | -Section 14a
+000451 | -Number 240
+000452 | -Subsection 12
+000453 | + Details
+000454 | Name:
+000455 | dei_SolicitingMaterial
+000456 | Namespace Prefix:
+000457 | dei_
+000458 | Data Type:
+000459 | xbrli:booleanItemType
+000460 | Balance Type:
+000461 | na
+000462 | Period Type:
+000463 | duration
+000464 | X
+000465 | - Definition
+000466 | Trading symbol of an instrument as listed on an exchange.
+000467 | + References
+000468 | No definition available.
+000469 | + Details
+000470 | Name:
+000471 | dei_TradingSymbol
+000472 | Namespace Prefix:
+000473 | dei_
+000474 | Data Type:
+000475 | dei:tradingSymbolItemType
+000476 | Balance Type:
+000477 | na
+000478 | Period Type:
+000479 | duration
+000480 | X
+000481 | - Definition
+000482 | Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as written communications pursuant to Rule 425 under the Securities Act.
+000483 | + References
+000484 | Reference 1: http://www.xbrl.org/2003/role/presentationRef
+000485 | -Publisher SEC
+000486 | -Name Securities Act
+000487 | -Number 230
+000488 | -Section 425
+000489 | + Details
+000490 | Name:
+000491 | dei_WrittenCommunications
+000492 | Namespace Prefix:
+000493 | dei_
+000494 | Data Type:
+000495 | xbrli:booleanItemType
+000496 | Balance Type:
+000497 | na
+000498 | Period Type:
+000499 | duration
+000500 | X
+000501 | - Details
+000502 | Name:
+000503 | us-gaap_StatementClassOfStockAxis=us-gaap_CommonStockMember
+000504 | Namespace Prefix:
+000505 | Data Type:
+000506 | na
+000507 | Balance Type:
+000508 | Period Type:
+000509 | X
+000510 | - Details
+000511 | Name:
+000512 | dei_EntityListingsExchangeAxis=exch_XNYS
+000513 | Namespace Prefix:
+000514 | Data Type:
+000515 | na
+000516 | Balance Type:
+000517 | Period Type:
+000518 | X
+000519 | - Details
+000520 | Name:
+000521 | dei_EntityListingsExchangeAxis=exch_XCHI
+000522 | Namespace Prefix:
+000523 | Data Type:
+000524 | na
+000525 | Balance Type:
+000526 | Period Type:
+000527 | X
+000528 | - Details
+000529 | Name:
+000530 | us-gaap_StatementClassOfStockAxis=mmm_Notes1500PercentDue2026Member
+000531 | Namespace Prefix:
+000532 | Data Type:
+000533 | na
+000534 | Balance Type:
+000535 | Period Type:
+000536 | X
+000537 | - Details
+000538 | Name:
+000539 | us-gaap_StatementClassOfStockAxis=mmm_Notes1750PercentDue2030Member
+000540 | Namespace Prefix:
+000541 | Data Type:
+000542 | na
+000543 | Balance Type:
+000544 | Period Type:
+000545 | X
+000546 | - Details
+000547 | Name:
+000548 | us-gaap_StatementClassOfStockAxis=mmm_Notes1.500PercentDue2031Member
+000549 | Namespace Prefix:
+000550 | Data Type:
+000551 | na
+000552 | Balance Type:
+000553 | Period Type:

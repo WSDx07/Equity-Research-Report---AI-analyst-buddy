@@ -1,0 +1,95 @@
+000001 | v3.26.3
+000002 | Earnings Per Share (Tables)
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | Earnings Per Share [Abstract]
+000006 | Schedule of Computations for Basic and Diluted Earnings Per Share
+000007 | The computations for basic and diluted earnings per share follow:
+000008 | Three months ended
+000009 | September 30, Nine months ended
+000010 | September 30,
+000011 | (Amounts in millions, except per share amounts) 2026 2025 2026 2025
+000012 | Numerator:
+000013 | Net income attributable to 3M common shareholders $ 1,373 $ 834 $ 2,959 $ 2,673
+000014 | Denominator:
+000015 | Weighted average 3M common shares outstanding – basic
+000016 | 518.8 534.1 522.5 538.4
+000017 | Dilution associated with stock-based compensation plans 3.8 4.0 3.4 3.7
+000018 | Weighted average 3M common shares outstanding – diluted
+000019 | 522.6 538.1 525.9 542.1
+000020 | Earnings per share attributable to 3M common shareholders:
+000021 | Earnings per share — basic
+000022 | $ 2.65 $ 1.56 $ 5.66 $ 4.97
+000023 | Earnings per share — diluted
+000024 | $ 2.63 $ 1.55 $ 5.63 $ 4.93
+000025 | Schedule of Antidilutive Securities Excluded from Computation of Earnings Per Share
+000026 | The difference in the weighted average 3M shares outstanding for calculating basic and diluted earnings per share attributable to 3M common shareholders is the result of the dilution associated with the Company’s stock-based compensation plans. Certain awards outstanding under these stock-based compensation plans were not included in the computation of diluted earnings per share attributable to 3M common shareholders because they would have had an anti-dilutive effect.
+000027 | Three months ended
+000028 | September 30, Nine months ended
+000029 | September 30,
+000030 | (Millions)
+000031 | 2026 2025 2026 2025
+000032 | Weighted average number of antidilutive shares
+000033 | 6.9 11.5 9.0 14.7
+000034 | X
+000035 | - References
+000036 | No definition available.
+000037 | + Details
+000038 | Name:
+000039 | us-gaap_EarningsPerShareAbstract
+000040 | Namespace Prefix:
+000041 | us-gaap_
+000042 | Data Type:
+000043 | xbrli:stringItemType
+000044 | Balance Type:
+000045 | na
+000046 | Period Type:
+000047 | duration
+000048 | X
+000049 | - Definition
+000050 | Tabular disclosure of securities (including those issuable pursuant to contingent stock agreements) that could potentially dilute basic earnings per share (EPS) in the future that were not included in the computation of diluted EPS because to do so would increase EPS amounts or decrease loss per share amounts for the period presented, by antidilutive securities.
+000051 | + References
+000052 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000053 | -Topic 260
+000054 | -SubTopic 10
+000055 | -Name Accounting Standards Codification
+000056 | -Section 50
+000057 | -Paragraph 1
+000058 | -Subparagraph (c)
+000059 | -Publisher FASB
+000060 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000061 | + Details
+000062 | Name:
+000063 | us-gaap_ScheduleOfAntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareTextBlock
+000064 | Namespace Prefix:
+000065 | us-gaap_
+000066 | Data Type:
+000067 | dtr-types:textBlockItemType
+000068 | Balance Type:
+000069 | na
+000070 | Period Type:
+000071 | duration
+000072 | X
+000073 | - Definition
+000074 | Tabular disclosure of an entity's basic and diluted earnings per share calculations, including a reconciliation of numerators and denominators of the basic and diluted per-share computations for income from continuing operations.
+000075 | + References
+000076 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000077 | -Topic 260
+000078 | -SubTopic 10
+000079 | -Name Accounting Standards Codification
+000080 | -Section 50
+000081 | -Paragraph 1
+000082 | -Subparagraph (a)
+000083 | -Publisher FASB
+000084 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000085 | + Details
+000086 | Name:
+000087 | us-gaap_ScheduleOfEarningsPerShareBasicAndDilutedTableTextBlock
+000088 | Namespace Prefix:
+000089 | us-gaap_
+000090 | Data Type:
+000091 | dtr-types:textBlockItemType
+000092 | Balance Type:
+000093 | na
+000094 | Period Type:
+000095 | duration

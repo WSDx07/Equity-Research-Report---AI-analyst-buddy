@@ -1,0 +1,93 @@
+000001 | v3.24.1.1.u2
+000002 | Pension and Postretirement Benefit Plans - Weighted Average Assumptions (Details)
+000003 | Mar. 31, 2024
+000004 | Qualified and Non-qualified Pension Benefits
+000005 | Defined Benefit Plan, Weighted Average Assumptions Used in Calculating Benefit Obligation [Abstract]
+000006 | Discount rate
+000007 | 5.23%
+000008 | Compensation rate increase
+000009 | 3.77%
+000010 | Postretirement Benefits
+000011 | Defined Benefit Plan, Weighted Average Assumptions Used in Calculating Benefit Obligation [Abstract]
+000012 | Discount rate
+000013 | 5.20%
+000014 | X
+000015 | - Definition
+000016 | Weighted average rate for present value of future retirement benefits cash flows, used to determine benefit obligation of defined benefit plan.
+000017 | + References
+000018 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000019 | -Topic 715
+000020 | -SubTopic 20
+000021 | -Name Accounting Standards Codification
+000022 | -Section 50
+000023 | -Paragraph 1
+000024 | -Subparagraph (k)(1)
+000025 | -Publisher FASB
+000026 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000027 | + Details
+000028 | Name:
+000029 | us-gaap_DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate
+000030 | Namespace Prefix:
+000031 | us-gaap_
+000032 | Data Type:
+000033 | dtr-types:percentItemType
+000034 | Balance Type:
+000035 | na
+000036 | Period Type:
+000037 | instant
+000038 | X
+000039 | - Definition
+000040 | Weighted average rate increase of compensation, used to determine benefit obligation of defined benefit plan. Plan includes, but is not limited to, pay-related defined benefit plan.
+000041 | + References
+000042 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000043 | -Topic 715
+000044 | -SubTopic 20
+000045 | -Name Accounting Standards Codification
+000046 | -Section 50
+000047 | -Paragraph 1
+000048 | -Subparagraph (k)(2)
+000049 | -Publisher FASB
+000050 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000051 | + Details
+000052 | Name:
+000053 | us-gaap_DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationRateOfCompensationIncrease
+000054 | Namespace Prefix:
+000055 | us-gaap_
+000056 | Data Type:
+000057 | dtr-types:percentItemType
+000058 | Balance Type:
+000059 | na
+000060 | Period Type:
+000061 | instant
+000062 | X
+000063 | - References
+000064 | No definition available.
+000065 | + Details
+000066 | Name:
+000067 | us-gaap_DefinedBenefitPlanWeightedAverageAssumptionsUsedInCalculatingBenefitObligationAbstract
+000068 | Namespace Prefix:
+000069 | us-gaap_
+000070 | Data Type:
+000071 | xbrli:stringItemType
+000072 | Balance Type:
+000073 | na
+000074 | Period Type:
+000075 | duration
+000076 | X
+000077 | - Details
+000078 | Name:
+000079 | us-gaap_RetirementPlanTypeAxis=us-gaap_PensionPlansDefinedBenefitMember
+000080 | Namespace Prefix:
+000081 | Data Type:
+000082 | na
+000083 | Balance Type:
+000084 | Period Type:
+000085 | X
+000086 | - Details
+000087 | Name:
+000088 | us-gaap_RetirementPlanTypeAxis=us-gaap_OtherPostretirementBenefitPlansDefinedBenefitMember
+000089 | Namespace Prefix:
+000090 | Data Type:
+000091 | na
+000092 | Balance Type:
+000093 | Period Type:

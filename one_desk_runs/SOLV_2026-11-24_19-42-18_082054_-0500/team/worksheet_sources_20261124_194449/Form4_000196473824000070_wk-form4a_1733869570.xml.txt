@@ -1,0 +1,188 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0508</schemaVersion>
+000006 | 
+000007 |     <documentType>4/A</documentType>
+000008 | 
+000009 |     <periodOfReport>2024-12-01</periodOfReport>
+000010 | 
+000011 |     <dateOfOriginalSubmission>2024-12-03</dateOfOriginalSubmission>
+000012 | 
+000013 |     <notSubjectToSection16>0</notSubjectToSection16>
+000014 | 
+000015 |     <issuer>
+000016 |         <issuerCik>0001964738</issuerCik>
+000017 |         <issuerName>Solventum Corp</issuerName>
+000018 |         <issuerTradingSymbol>SOLV</issuerTradingSymbol>
+000019 |     </issuer>
+000020 | 
+000021 |     <reportingOwner>
+000022 |         <reportingOwnerId>
+000023 |             <rptOwnerCik>0001964738</rptOwnerCik>
+000024 |             <rptOwnerName>Solventum Corp</rptOwnerName>
+000025 |         </reportingOwnerId>
+000026 |         <reportingOwnerAddress>
+000027 |             <rptOwnerStreet1>3M CENTER, BUILDING 275-6W</rptOwnerStreet1>
+000028 |             <rptOwnerStreet2>2510 CONWAY AVENUE EAST</rptOwnerStreet2>
+000029 |             <rptOwnerCity>MAPLEWOOD</rptOwnerCity>
+000030 |             <rptOwnerState>MN</rptOwnerState>
+000031 |             <rptOwnerZipCode>55144</rptOwnerZipCode>
+000032 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000033 |         </reportingOwnerAddress>
+000034 |         <reportingOwnerRelationship>
+000035 |             <isDirector>0</isDirector>
+000036 |             <isOfficer>1</isOfficer>
+000037 |             <isTenPercentOwner>0</isTenPercentOwner>
+000038 |             <isOther>0</isOther>
+000039 |             <officerTitle>Chief Legal Affairs Officer</officerTitle>
+000040 |         </reportingOwnerRelationship>
+000041 |     </reportingOwner>
+000042 | 
+000043 |     <aff10b5One>0</aff10b5One>
+000044 | 
+000045 |     <nonDerivativeTable>
+000046 |         <nonDerivativeTransaction>
+000047 |             <securityTitle>
+000048 |                 <value>Common Stock</value>
+000049 |             </securityTitle>
+000050 |             <transactionDate>
+000051 |                 <value>2024-12-01</value>
+000052 |             </transactionDate>
+000053 |             <transactionCoding>
+000054 |                 <transactionFormType>4</transactionFormType>
+000055 |                 <transactionCode>M</transactionCode>
+000056 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000057 |                 <footnoteId id="F1"/>
+000058 |             </transactionCoding>
+000059 |             <transactionAmounts>
+000060 |                 <transactionShares>
+000061 |                     <value>3812</value>
+000062 |                 </transactionShares>
+000063 |                 <transactionPricePerShare>
+000064 |                     <value>0</value>
+000065 |                 </transactionPricePerShare>
+000066 |                 <transactionAcquiredDisposedCode>
+000067 |                     <value>A</value>
+000068 |                 </transactionAcquiredDisposedCode>
+000069 |             </transactionAmounts>
+000070 |             <postTransactionAmounts>
+000071 |                 <sharesOwnedFollowingTransaction>
+000072 |                     <value>3812</value>
+000073 |                 </sharesOwnedFollowingTransaction>
+000074 |             </postTransactionAmounts>
+000075 |             <ownershipNature>
+000076 |                 <directOrIndirectOwnership>
+000077 |                     <value>D</value>
+000078 |                 </directOrIndirectOwnership>
+000079 |             </ownershipNature>
+000080 |         </nonDerivativeTransaction>
+000081 |         <nonDerivativeTransaction>
+000082 |             <securityTitle>
+000083 |                 <value>Common Stock</value>
+000084 |             </securityTitle>
+000085 |             <transactionDate>
+000086 |                 <value>2024-12-01</value>
+000087 |             </transactionDate>
+000088 |             <transactionCoding>
+000089 |                 <transactionFormType>4</transactionFormType>
+000090 |                 <transactionCode>F</transactionCode>
+000091 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000092 |             </transactionCoding>
+000093 |             <transactionAmounts>
+000094 |                 <transactionShares>
+000095 |                     <value>1243</value>
+000096 |                 </transactionShares>
+000097 |                 <transactionPricePerShare>
+000098 |                     <value>71.51</value>
+000099 |                 </transactionPricePerShare>
+000100 |                 <transactionAcquiredDisposedCode>
+000101 |                     <value>D</value>
+000102 |                 </transactionAcquiredDisposedCode>
+000103 |             </transactionAmounts>
+000104 |             <postTransactionAmounts>
+000105 |                 <sharesOwnedFollowingTransaction>
+000106 |                     <value>2569</value>
+000107 |                 </sharesOwnedFollowingTransaction>
+000108 |             </postTransactionAmounts>
+000109 |             <ownershipNature>
+000110 |                 <directOrIndirectOwnership>
+000111 |                     <value>D</value>
+000112 |                 </directOrIndirectOwnership>
+000113 |             </ownershipNature>
+000114 |         </nonDerivativeTransaction>
+000115 |     </nonDerivativeTable>
+000116 | 
+000117 |     <derivativeTable>
+000118 |         <derivativeTransaction>
+000119 |             <securityTitle>
+000120 |                 <value>Restricted Stock Units</value>
+000121 |             </securityTitle>
+000122 |             <conversionOrExercisePrice>
+000123 |                 <footnoteId id="F2"/>
+000124 |             </conversionOrExercisePrice>
+000125 |             <transactionDate>
+000126 |                 <value>2024-12-01</value>
+000127 |             </transactionDate>
+000128 |             <transactionCoding>
+000129 |                 <transactionFormType>4</transactionFormType>
+000130 |                 <transactionCode>M</transactionCode>
+000131 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000132 |             </transactionCoding>
+000133 |             <transactionAmounts>
+000134 |                 <transactionShares>
+000135 |                     <value>3812</value>
+000136 |                 </transactionShares>
+000137 |                 <transactionPricePerShare>
+000138 |                     <value>0</value>
+000139 |                 </transactionPricePerShare>
+000140 |                 <transactionAcquiredDisposedCode>
+000141 |                     <value>D</value>
+000142 |                 </transactionAcquiredDisposedCode>
+000143 |             </transactionAmounts>
+000144 |             <exerciseDate>
+000145 |                 <footnoteId id="F3"/>
+000146 |             </exerciseDate>
+000147 |             <expirationDate>
+000148 |                 <value>2034-12-01</value>
+000149 |             </expirationDate>
+000150 |             <underlyingSecurity>
+000151 |                 <underlyingSecurityTitle>
+000152 |                     <value>Common Stock</value>
+000153 |                 </underlyingSecurityTitle>
+000154 |                 <underlyingSecurityShares>
+000155 |                     <value>3812</value>
+000156 |                 </underlyingSecurityShares>
+000157 |             </underlyingSecurity>
+000158 |             <postTransactionAmounts>
+000159 |                 <sharesOwnedFollowingTransaction>
+000160 |                     <value>3812</value>
+000161 |                 </sharesOwnedFollowingTransaction>
+000162 |             </postTransactionAmounts>
+000163 |             <ownershipNature>
+000164 |                 <directOrIndirectOwnership>
+000165 |                     <value>D</value>
+000166 |                 </directOrIndirectOwnership>
+000167 |             </ownershipNature>
+000168 |         </derivativeTransaction>
+000169 |     </derivativeTable>
+000170 | 
+000171 |     <footnotes>
+000172 |         <footnote id="F1">Reflects vesting of Solventum RSUs received upon conversion of previously granted 3M RSUs. Each 3M RSU converted into the number of Solventum RSUs equal to the number of 3M Shares
+000173 | subject to such 3M RSU Award immediately prior to the Effective Time of the separation, multiplied by the SpinCo Ratio as set forth in the Employee Matters Agreement entered into in connection with
+000174 | the separation.</footnote>
+000175 |         <footnote id="F2">Each Restricted Stock unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the issuer's Class A Common Stock upon settlement.</footnote>
+000176 |         <footnote id="F3">The RSUs shall fully vest in two tranches, with one-half vesting on each of the first and second anniversaries of the grant date, subject to continued service through the vesting date.</footnote>
+000177 |     </footnotes>
+000178 | 
+000179 |     <remarks>A Form 4 was filed in error on December 3, 2024, which included &quot;Solventum Corp&quot; as the Reporting Person, and this filing should be disregarded. This transaction was effected by Ms. Kirberger and a
+000180 | corresponding Form 4 was filed on December 3, 2024.</remarks>
+000181 | 
+000182 |     <ownerSignature>
+000183 |         <signatureName>/s/Marcela Kirberger, Chief Legal Affairs Officer</signatureName>
+000184 |         <signatureDate>2024-12-10</signatureDate>
+000185 |     </ownerSignature>
+000186 | </ownershipDocument>
+000187 | </XML>
+000188 | 

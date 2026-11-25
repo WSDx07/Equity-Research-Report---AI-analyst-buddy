@@ -1,0 +1,182 @@
+000001 | v3.25.4
+000002 | Stock-Based Compensation - General Employees Stock Purchase Plan (Details) - USD ($)
+000003 | $ / shares in Units, $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Amounts recognized in the financial statements
+000009 | GESPP options compensation expense (in dollars per share)
+000010 | $ 225
+000011 | $ 268
+000012 | $ 241
+000013 | Employee Stock
+000014 | Amounts recognized in the financial statements
+000015 | Number of shares authorized (in shares)
+000016 | 60,000,000
+000017 | Option price, percentage of market value at date of grant (as a percent)
+000018 | 85.00%
+000019 | Weighted average fair value per option granted (in dollars per share)
+000020 | $ 22.44
+000021 | $ 16.76
+000022 | $ 15.77
+000023 | GESPP options compensation expense (in dollars per share)
+000024 | $ 14
+000025 | $ 12
+000026 | $ 21
+000027 | Option price, discount from market value at date of grant (as a percent)
+000028 | 15.00%
+000029 | X
+000030 | - Definition
+000031 | The discount from the market value used to calculate the price at which employee stock purchase plan participants are entitled to purchase stock under the plan.
+000032 | + References
+000033 | No definition available.
+000034 | + Details
+000035 | Name:
+000036 | mmm_ShareBasedCompensationArrangementByShareBasedPaymentAwardEmployeeStockPurchasePlanMarketDiscount
+000037 | Namespace Prefix:
+000038 | mmm_
+000039 | Data Type:
+000040 | dtr-types:percentItemType
+000041 | Balance Type:
+000042 | na
+000043 | Period Type:
+000044 | duration
+000045 | X
+000046 | - Definition
+000047 | The percentage of the market value at which employee stock purchase plan participants are entitled to purchase stock under the plan.
+000048 | + References
+000049 | No definition available.
+000050 | + Details
+000051 | Name:
+000052 | mmm_ShareBasedCompensationArrangementByShareBasedPaymentAwardEmployeeStockPurchasePlanMarketGrantPricePercentage
+000053 | Namespace Prefix:
+000054 | mmm_
+000055 | Data Type:
+000056 | dtr-types:percentItemType
+000057 | Balance Type:
+000058 | na
+000059 | Period Type:
+000060 | duration
+000061 | X
+000062 | - Definition
+000063 | Amount of expense for award under share-based payment arrangement. Excludes amount capitalized.
+000064 | + References
+000065 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000066 | -Topic 718
+000067 | -SubTopic 10
+000068 | -Name Accounting Standards Codification
+000069 | -Section S45
+000070 | -Paragraph 1
+000071 | -Publisher FASB
+000072 | -URI https://asc.fasb.org/1943274/2147479983/718-10-S45-1
+000073 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000074 | -Topic 718
+000075 | -SubTopic 10
+000076 | -Name Accounting Standards Codification
+000077 | -Section S99
+000078 | -Paragraph 1
+000079 | -Subparagraph (SAB Topic 14.F)
+000080 | -Publisher FASB
+000081 | -URI https://asc.fasb.org/1943274/2147479830/718-10-S99-1
+000082 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000083 | -Topic 718
+000084 | -SubTopic 10
+000085 | -Name Accounting Standards Codification
+000086 | -Section 50
+000087 | -Paragraph 2
+000088 | -Subparagraph (h)(1)(i)
+000089 | -Publisher FASB
+000090 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000091 | + Details
+000092 | Name:
+000093 | us-gaap_AllocatedShareBasedCompensationExpense
+000094 | Namespace Prefix:
+000095 | us-gaap_
+000096 | Data Type:
+000097 | xbrli:monetaryItemType
+000098 | Balance Type:
+000099 | debit
+000100 | Period Type:
+000101 | duration
+000102 | X
+000103 | - Definition
+000104 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000105 | + References
+000106 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000107 | -Topic 718
+000108 | -SubTopic 10
+000109 | -Name Accounting Standards Codification
+000110 | -Section 50
+000111 | -Paragraph 2
+000112 | -Subparagraph (h)(1)
+000113 | -Publisher FASB
+000114 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000115 | + Details
+000116 | Name:
+000117 | us-gaap_EmployeeServiceShareBasedCompensationAllocationOfRecognizedPeriodCostsLineItems
+000118 | Namespace Prefix:
+000119 | us-gaap_
+000120 | Data Type:
+000121 | xbrli:stringItemType
+000122 | Balance Type:
+000123 | na
+000124 | Period Type:
+000125 | duration
+000126 | X
+000127 | - Definition
+000128 | Number of shares authorized for issuance under share-based payment arrangement.
+000129 | + References
+000130 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000131 | -Topic 718
+000132 | -SubTopic 10
+000133 | -Name Accounting Standards Codification
+000134 | -Section 50
+000135 | -Paragraph 2
+000136 | -Subparagraph (a)(3)
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000139 | + Details
+000140 | Name:
+000141 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized
+000142 | Namespace Prefix:
+000143 | us-gaap_
+000144 | Data Type:
+000145 | xbrli:sharesItemType
+000146 | Balance Type:
+000147 | na
+000148 | Period Type:
+000149 | instant
+000150 | X
+000151 | - Definition
+000152 | The weighted average grant-date fair value of options granted during the reporting period as calculated by applying the disclosed option pricing methodology.
+000153 | + References
+000154 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000155 | -Topic 718
+000156 | -SubTopic 10
+000157 | -Name Accounting Standards Codification
+000158 | -Section 50
+000159 | -Paragraph 2
+000160 | -Subparagraph (d)(1)
+000161 | -Publisher FASB
+000162 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000163 | + Details
+000164 | Name:
+000165 | us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue
+000166 | Namespace Prefix:
+000167 | us-gaap_
+000168 | Data Type:
+000169 | dtr-types:perShareItemType
+000170 | Balance Type:
+000171 | na
+000172 | Period Type:
+000173 | duration
+000174 | X
+000175 | - Details
+000176 | Name:
+000177 | us-gaap_AwardTypeAxis=us-gaap_EmployeeStockMember
+000178 | Namespace Prefix:
+000179 | Data Type:
+000180 | na
+000181 | Balance Type:
+000182 | Period Type:

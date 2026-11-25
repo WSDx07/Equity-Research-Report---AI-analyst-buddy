@@ -1,0 +1,100 @@
+000001 | v3.26.3
+000002 | Income Taxes (Tables)
+000003 | 9 Months Ended
+000004 | Sep. 30, 2026
+000005 | Income Tax Disclosure [Abstract]
+000006 | Schedule of Effective Income Tax Rate
+000007 | 3M estimates that year-on-year foreign currency transaction effects impacted pre-tax income (loss) approximately as follows. These estimates include transaction gains and losses, including derivative instruments designed to reduce foreign currency exchange rate risks.
+000008 | Three months ended
+000009 | September 30, Nine months ended
+000010 | September 30,
+000011 | (Millions) 2026 2025 2026 2025
+000012 | Year-on-year change in pre-tax income (loss) from foreign currency transactions $ 10 $ (30) $ (29) $ (55)
+000013 | The effective tax rates were as follows:
+000014 | Three months ended
+000015 | September 30, Nine months ended
+000016 | September 30,
+000017 | (Percent of pre-tax income) 2026 2025 2026 2025
+000018 | Effective tax rate 15.7 % 26.8 % 18.1 % 23.7 %
+000019 | Schedule of Net Deferred Tax Assets
+000020 | Net deferred tax assets (net of valuation allowance and deferred tax liabilities) are included as components of other assets and other liabilities within the Consolidated Balance Sheet. This net balance was comprised of the following:
+000021 | (Millions) September 30, 2026 December 31, 2025
+000022 | Deferred tax asset (net of valuation allowance) $ 3,534 $ 3,826
+000023 | Deferred tax liability 743 418
+000024 | Net deferred tax assets $ 2,791 $ 3,408
+000025 | X
+000026 | - References
+000027 | No definition available.
+000028 | + Details
+000029 | Name:
+000030 | us-gaap_IncomeTaxDisclosureAbstract
+000031 | Namespace Prefix:
+000032 | us-gaap_
+000033 | Data Type:
+000034 | xbrli:stringItemType
+000035 | Balance Type:
+000036 | na
+000037 | Period Type:
+000038 | duration
+000039 | X
+000040 | - Definition
+000041 | Tabular disclosure of the components of net deferred tax asset or liability recognized in an entity's statement of financial position, including the following: the total of all deferred tax liabilities, the total of all deferred tax assets, the total valuation allowance recognized for deferred tax assets.
+000042 | + References
+000043 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000044 | -Topic 740
+000045 | -SubTopic 10
+000046 | -Name Accounting Standards Codification
+000047 | -Section 50
+000048 | -Paragraph 2
+000049 | -Publisher FASB
+000050 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000051 | + Details
+000052 | Name:
+000053 | us-gaap_ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock
+000054 | Namespace Prefix:
+000055 | us-gaap_
+000056 | Data Type:
+000057 | dtr-types:textBlockItemType
+000058 | Balance Type:
+000059 | na
+000060 | Period Type:
+000061 | duration
+000062 | X
+000063 | - Definition
+000064 | Tabular disclosure of the reconciliation using percentage or dollar amounts of the reported amount of income tax expense attributable to continuing operations for the year to the amount of income tax expense that would result from applying domestic federal statutory tax rates to pretax income from continuing operations.
+000065 | + References
+000066 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000067 | -Topic 740
+000068 | -SubTopic 10
+000069 | -Name Accounting Standards Codification
+000070 | -Section 55
+000071 | -Paragraph 231
+000072 | -Publisher FASB
+000073 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000074 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000075 | -Topic 740
+000076 | -SubTopic 10
+000077 | -Name Accounting Standards Codification
+000078 | -Section 50
+000079 | -Paragraph 12A
+000080 | -Publisher FASB
+000081 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12A
+000082 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000083 | -Topic 740
+000084 | -SubTopic 10
+000085 | -Name Accounting Standards Codification
+000086 | -Section 50
+000087 | -Paragraph 12
+000088 | -Publisher FASB
+000089 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000090 | + Details
+000091 | Name:
+000092 | us-gaap_ScheduleOfEffectiveIncomeTaxRateReconciliationTableTextBlock
+000093 | Namespace Prefix:
+000094 | us-gaap_
+000095 | Data Type:
+000096 | dtr-types:textBlockItemType
+000097 | Balance Type:
+000098 | na
+000099 | Period Type:
+000100 | duration

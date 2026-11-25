@@ -1,0 +1,338 @@
+000001 | v3.25.4
+000002 | Long-Term Debt and Short-Term Borrowings - Schedule of Long-Term Debt (Details)
+000003 | € in Millions, $ in Millions
+000004 | Dec. 31, 2025
+000005 | USD ($)
+000006 | Dec. 31, 2025
+000007 | EUR (€)
+000008 | Dec. 31, 2024
+000009 | USD ($)
+000010 | Dec. 31, 2024
+000011 | EUR (€)
+000012 | Long-Term Debt
+000013 | Total
+000014 | $ 12,602
+000015 | $ 13,044
+000016 | Less: current portion of long-term debt
+000017 | 1,670
+000018 | 1,919
+000019 | Long-term debt (excluding current portion)
+000020 | 10,932
+000021 | 11,125
+000022 | USD Denominated Fixed-Rate Debt, 2025 - 2050
+000023 | Long-Term Debt
+000024 | Principal amount
+000025 | $ 10,500
+000026 | $ 10,400
+000027 | Weighted-average interest rate
+000028 | 3.76%
+000029 | 3.76%
+000030 | 3.33%
+000031 | 3.33%
+000032 | Total
+000033 | $ 10,355
+000034 | $ 10,317
+000035 | USD Denominated Floating-Rate Debt, 2027 - 2044
+000036 | Long-Term Debt
+000037 | Principal amount
+000038 | $ 200
+000039 | $ 1,014
+000040 | Weighted-average interest rate
+000041 | 3.77%
+000042 | 3.77%
+000043 | 6.94%
+000044 | 6.94%
+000045 | Total
+000046 | $ 199
+000047 | $ 915
+000048 | EUR Denominated Fixed-Rate Debt, 2026 - 2031
+000049 | Long-Term Debt
+000050 | Principal amount | €
+000051 | € 1,751
+000052 | € 1,751
+000053 | Weighted-average interest rate
+000054 | 1.73%
+000055 | 1.73%
+000056 | 1.60%
+000057 | 1.60%
+000058 | Total
+000059 | $ 2,048
+000060 | $ 1,812
+000061 | X
+000062 | - Definition
+000063 | Face (par) amount of debt instrument at time of issuance.
+000064 | + References
+000065 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000066 | -Topic 835
+000067 | -SubTopic 30
+000068 | -Name Accounting Standards Codification
+000069 | -Section 55
+000070 | -Paragraph 8
+000071 | -Publisher FASB
+000072 | -URI https://asc.fasb.org/1943274/2147482949/835-30-55-8
+000073 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000074 | -Topic 470
+000075 | -SubTopic 20
+000076 | -Name Accounting Standards Codification
+000077 | -Section 50
+000078 | -Paragraph 1B
+000079 | -Subparagraph (a)
+000080 | -Publisher FASB
+000081 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1B
+000082 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000083 | -Topic 470
+000084 | -SubTopic 20
+000085 | -Name Accounting Standards Codification
+000086 | -Section 55
+000087 | -Paragraph 69B
+000088 | -Publisher FASB
+000089 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69B
+000090 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000091 | -Topic 470
+000092 | -SubTopic 20
+000093 | -Name Accounting Standards Codification
+000094 | -Section 55
+000095 | -Paragraph 69C
+000096 | -Publisher FASB
+000097 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69C
+000098 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000099 | -Topic 835
+000100 | -SubTopic 30
+000101 | -Name Accounting Standards Codification
+000102 | -Section 50
+000103 | -Paragraph 1
+000104 | -Publisher FASB
+000105 | -URI https://asc.fasb.org/1943274/2147482900/835-30-50-1
+000106 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000107 | -Topic 835
+000108 | -SubTopic 30
+000109 | -Name Accounting Standards Codification
+000110 | -Section 45
+000111 | -Paragraph 2
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147482925/835-30-45-2
+000114 | + Details
+000115 | Name:
+000116 | us-gaap_DebtInstrumentFaceAmount
+000117 | Namespace Prefix:
+000118 | us-gaap_
+000119 | Data Type:
+000120 | xbrli:monetaryItemType
+000121 | Balance Type:
+000122 | credit
+000123 | Period Type:
+000124 | instant
+000125 | X
+000126 | - Definition
+000127 | Amount, after deduction of unamortized premium (discount) and debt issuance cost, of long-term debt. Excludes lease obligation.
+000128 | + References
+000129 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000130 | -Name Accounting Standards Codification
+000131 | -Section S99
+000132 | -Paragraph 1
+000133 | -Subparagraph (SX 210.5-02(22))
+000134 | -SubTopic 10
+000135 | -Topic 210
+000136 | -Publisher FASB
+000137 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000138 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000139 | -Topic 942
+000140 | -SubTopic 235
+000141 | -Name Accounting Standards Codification
+000142 | -Section S99
+000143 | -Paragraph 2
+000144 | -Publisher FASB
+000145 | -URI https://asc.fasb.org/1943274/2147477314/942-235-S99-2
+000146 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000147 | -Topic 235
+000148 | -SubTopic 10
+000149 | -Name Accounting Standards Codification
+000150 | -Section S50
+000151 | -Paragraph 4
+000152 | -Publisher FASB
+000153 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-4
+000154 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000155 | -Topic 235
+000156 | -SubTopic 10
+000157 | -Name Accounting Standards Codification
+000158 | -Section S99
+000159 | -Paragraph 3
+000160 | -Subparagraph (SX 210.12-04(a))
+000161 | -Publisher FASB
+000162 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-3
+000163 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000164 | -Topic 835
+000165 | -SubTopic 30
+000166 | -Name Accounting Standards Codification
+000167 | -Section 55
+000168 | -Paragraph 8
+000169 | -Publisher FASB
+000170 | -URI https://asc.fasb.org/1943274/2147482949/835-30-55-8
+000171 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+000172 | -Topic 942
+000173 | -SubTopic 210
+000174 | -Name Accounting Standards Codification
+000175 | -Section S99
+000176 | -Paragraph 1
+000177 | -Subparagraph (SX 210.9-03(16))
+000178 | -Publisher FASB
+000179 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000180 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000181 | -Topic 470
+000182 | -SubTopic 20
+000183 | -Name Accounting Standards Codification
+000184 | -Section 55
+000185 | -Paragraph 69B
+000186 | -Publisher FASB
+000187 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69B
+000188 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+000189 | -Topic 470
+000190 | -SubTopic 20
+000191 | -Name Accounting Standards Codification
+000192 | -Section 55
+000193 | -Paragraph 69C
+000194 | -Publisher FASB
+000195 | -URI https://asc.fasb.org/1943274/2147481568/470-20-55-69C
+000196 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000197 | -Topic 470
+000198 | -SubTopic 20
+000199 | -Name Accounting Standards Codification
+000200 | -Section 50
+000201 | -Paragraph 1D
+000202 | -Subparagraph (b)
+000203 | -Publisher FASB
+000204 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-1D
+000205 | Reference 10: http://www.xbrl.org/2009/role/commonPracticeRef
+000206 | -Topic 944
+000207 | -SubTopic 210
+000208 | -Name Accounting Standards Codification
+000209 | -Section S99
+000210 | -Paragraph 1
+000211 | -Subparagraph (SX 210.7-03(a)(16)(a)(2))
+000212 | -Publisher FASB
+000213 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000214 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000215 | -Topic 470
+000216 | -SubTopic 20
+000217 | -Name Accounting Standards Codification
+000218 | -Section 50
+000219 | -Paragraph 4
+000220 | -Subparagraph (b)(3)
+000221 | -Publisher FASB
+000222 | -URI https://asc.fasb.org/1943274/2147481139/470-20-50-4
+000223 | + Details
+000224 | Name:
+000225 | us-gaap_LongTermDebt
+000226 | Namespace Prefix:
+000227 | us-gaap_
+000228 | Data Type:
+000229 | xbrli:monetaryItemType
+000230 | Balance Type:
+000231 | credit
+000232 | Period Type:
+000233 | instant
+000234 | X
+000235 | - Definition
+000236 | Amount, after deduction of unamortized premium (discount) and debt issuance cost, of long-term debt classified as current. Excludes lease obligation.
+000237 | + References
+000238 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000239 | -Topic 210
+000240 | -SubTopic 10
+000241 | -Name Accounting Standards Codification
+000242 | -Section S99
+000243 | -Paragraph 1
+000244 | -Subparagraph (SX 210.5-02(20))
+000245 | -Publisher FASB
+000246 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000247 | + Details
+000248 | Name:
+000249 | us-gaap_LongTermDebtCurrent
+000250 | Namespace Prefix:
+000251 | us-gaap_
+000252 | Data Type:
+000253 | xbrli:monetaryItemType
+000254 | Balance Type:
+000255 | credit
+000256 | Period Type:
+000257 | instant
+000258 | X
+000259 | - Definition
+000260 | Amount, after deduction of unamortized premium (discount) and debt issuance cost, of long-term debt classified as noncurrent. Excludes lease obligation.
+000261 | + References
+000262 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000263 | -Topic 210
+000264 | -SubTopic 10
+000265 | -Name Accounting Standards Codification
+000266 | -Section S99
+000267 | -Paragraph 1
+000268 | -Subparagraph (SX 210.5-02(22))
+000269 | -Publisher FASB
+000270 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000271 | + Details
+000272 | Name:
+000273 | us-gaap_LongTermDebtNoncurrent
+000274 | Namespace Prefix:
+000275 | us-gaap_
+000276 | Data Type:
+000277 | xbrli:monetaryItemType
+000278 | Balance Type:
+000279 | credit
+000280 | Period Type:
+000281 | instant
+000282 | X
+000283 | - References
+000284 | No definition available.
+000285 | + Details
+000286 | Name:
+000287 | us-gaap_LongtermDebtCurrentAndNoncurrentAbstract
+000288 | Namespace Prefix:
+000289 | us-gaap_
+000290 | Data Type:
+000291 | xbrli:stringItemType
+000292 | Balance Type:
+000293 | na
+000294 | Period Type:
+000295 | duration
+000296 | X
+000297 | - Definition
+000298 | Weighted average interest rate of long-term debt outstanding calculated at point in time.
+000299 | + References
+000300 | No definition available.
+000301 | + Details
+000302 | Name:
+000303 | us-gaap_LongtermDebtWeightedAverageInterestRate
+000304 | Namespace Prefix:
+000305 | us-gaap_
+000306 | Data Type:
+000307 | dtr-types:percentItemType
+000308 | Balance Type:
+000309 | na
+000310 | Period Type:
+000311 | instant
+000312 | X
+000313 | - Details
+000314 | Name:
+000315 | us-gaap_DebtInstrumentAxis=mmm_USDDenominatedFixedRateDebt20252050Member
+000316 | Namespace Prefix:
+000317 | Data Type:
+000318 | na
+000319 | Balance Type:
+000320 | Period Type:
+000321 | X
+000322 | - Details
+000323 | Name:
+000324 | us-gaap_DebtInstrumentAxis=mmm_USDDenominatedFloatingRateDebt20272044Member
+000325 | Namespace Prefix:
+000326 | Data Type:
+000327 | na
+000328 | Balance Type:
+000329 | Period Type:
+000330 | X
+000331 | - Details
+000332 | Name:
+000333 | us-gaap_DebtInstrumentAxis=mmm_EURDenominatedFixedRateDebt20262031Member
+000334 | Namespace Prefix:
+000335 | Data Type:
+000336 | na
+000337 | Balance Type:
+000338 | Period Type:

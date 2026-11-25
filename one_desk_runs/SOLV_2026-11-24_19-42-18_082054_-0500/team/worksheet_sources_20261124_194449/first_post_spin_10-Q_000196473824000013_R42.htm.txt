@@ -1,0 +1,54 @@
+000001 | v3.24.1.1.u2
+000002 | Income Taxes (Details)
+000003 | 3 Months Ended
+000004 | Mar. 31, 2024
+000005 | Mar. 31, 2023
+000006 | Income Tax Disclosure [Abstract]
+000007 | Effective income tax rate reconciliation, percent
+000008 | 28.00%
+000009 | 19.30%
+000010 | X
+000011 | - Definition
+000012 | Percentage of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining to continuing operations.
+000013 | + References
+000014 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000015 | -Topic 740
+000016 | -SubTopic 10
+000017 | -Name Accounting Standards Codification
+000018 | -Section 50
+000019 | -Paragraph 12
+000020 | -Publisher FASB
+000021 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000022 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000023 | -Topic 740
+000024 | -SubTopic 10
+000025 | -Name Accounting Standards Codification
+000026 | -Section 55
+000027 | -Paragraph 231
+000028 | -Publisher FASB
+000029 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000030 | + Details
+000031 | Name:
+000032 | us-gaap_EffectiveIncomeTaxRateContinuingOperations
+000033 | Namespace Prefix:
+000034 | us-gaap_
+000035 | Data Type:
+000036 | dtr-types:percentItemType
+000037 | Balance Type:
+000038 | na
+000039 | Period Type:
+000040 | duration
+000041 | X
+000042 | - References
+000043 | No definition available.
+000044 | + Details
+000045 | Name:
+000046 | us-gaap_IncomeTaxDisclosureAbstract
+000047 | Namespace Prefix:
+000048 | us-gaap_
+000049 | Data Type:
+000050 | xbrli:stringItemType
+000051 | Balance Type:
+000052 | na
+000053 | Period Type:
+000054 | duration

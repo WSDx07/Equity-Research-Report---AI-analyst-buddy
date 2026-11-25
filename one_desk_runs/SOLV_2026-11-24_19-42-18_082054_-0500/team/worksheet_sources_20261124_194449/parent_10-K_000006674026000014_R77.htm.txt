@@ -1,0 +1,250 @@
+000001 | v3.25.4
+000002 | Income Taxes - Schedule of Cash Income Tax Payments (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Effective Income Tax Rate Reconciliation [Line Items]
+000009 | Federal
+000010 | $ 211
+000011 | State
+000012 | 28
+000013 | International
+000014 | 561
+000015 | Total
+000016 | 800
+000017 | 852
+000018 | 1,384
+000019 | China
+000020 | Effective Income Tax Rate Reconciliation [Line Items]
+000021 | International
+000022 | 134
+000023 | India
+000024 | Effective Income Tax Rate Reconciliation [Line Items]
+000025 | International
+000026 | 44
+000027 | Korea
+000028 | Effective Income Tax Rate Reconciliation [Line Items]
+000029 | International
+000030 | 44
+000031 | Other international
+000032 | Effective Income Tax Rate Reconciliation [Line Items]
+000033 | International
+000034 | $ 339
+000035 | X
+000036 | - Definition
+000037 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000038 | + References
+000039 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000040 | -Topic 740
+000041 | -SubTopic 10
+000042 | -Name Accounting Standards Codification
+000043 | -Section 50
+000044 | -Paragraph 12
+000045 | -Publisher FASB
+000046 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000047 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000048 | -Topic 740
+000049 | -SubTopic 10
+000050 | -Name Accounting Standards Codification
+000051 | -Section 55
+000052 | -Paragraph 231
+000053 | -Publisher FASB
+000054 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000055 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000056 | -Topic 740
+000057 | -SubTopic 10
+000058 | -Name Accounting Standards Codification
+000059 | -Section 50
+000060 | -Paragraph 12
+000061 | -Subparagraph (b)(2)
+000062 | -Publisher FASB
+000063 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000064 | + Details
+000065 | Name:
+000066 | us-gaap_EffectiveIncomeTaxRateReconciliationLineItems
+000067 | Namespace Prefix:
+000068 | us-gaap_
+000069 | Data Type:
+000070 | xbrli:stringItemType
+000071 | Balance Type:
+000072 | na
+000073 | Period Type:
+000074 | duration
+000075 | X
+000076 | - Definition
+000077 | Amount, after income tax refund received, of cash paid to federal (national) tax jurisdiction for tax on income.
+000078 | + References
+000079 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000080 | -Topic 230
+000081 | -SubTopic 10
+000082 | -Name Accounting Standards Codification
+000083 | -Section 50
+000084 | -Paragraph 2A
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-2A
+000087 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000088 | -Topic 740
+000089 | -SubTopic 10
+000090 | -Name Accounting Standards Codification
+000091 | -Section 50
+000092 | -Paragraph 22
+000093 | -Publisher FASB
+000094 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-22
+000095 | + Details
+000096 | Name:
+000097 | us-gaap_IncomeTaxPaidFederalAfterRefundReceived
+000098 | Namespace Prefix:
+000099 | us-gaap_
+000100 | Data Type:
+000101 | xbrli:monetaryItemType
+000102 | Balance Type:
+000103 | credit
+000104 | Period Type:
+000105 | duration
+000106 | X
+000107 | - Definition
+000108 | Amount, after income tax refund received, of cash paid to foreign tax jurisdiction for tax on income.
+000109 | + References
+000110 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000111 | -Topic 230
+000112 | -SubTopic 10
+000113 | -Name Accounting Standards Codification
+000114 | -Section 50
+000115 | -Paragraph 2A
+000116 | -Publisher FASB
+000117 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-2A
+000118 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000119 | -Topic 740
+000120 | -SubTopic 10
+000121 | -Name Accounting Standards Codification
+000122 | -Section 50
+000123 | -Paragraph 22
+000124 | -Publisher FASB
+000125 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-22
+000126 | + Details
+000127 | Name:
+000128 | us-gaap_IncomeTaxPaidForeignAfterRefundReceived
+000129 | Namespace Prefix:
+000130 | us-gaap_
+000131 | Data Type:
+000132 | xbrli:monetaryItemType
+000133 | Balance Type:
+000134 | credit
+000135 | Period Type:
+000136 | duration
+000137 | X
+000138 | - Definition
+000139 | Amount, after income tax refund received, of cash paid to state and local tax jurisdictions for tax on income.
+000140 | + References
+000141 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000142 | -Topic 230
+000143 | -SubTopic 10
+000144 | -Name Accounting Standards Codification
+000145 | -Section 50
+000146 | -Paragraph 2A
+000147 | -Publisher FASB
+000148 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-2A
+000149 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000150 | -Topic 740
+000151 | -SubTopic 10
+000152 | -Name Accounting Standards Codification
+000153 | -Section 50
+000154 | -Paragraph 22
+000155 | -Publisher FASB
+000156 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-22
+000157 | + Details
+000158 | Name:
+000159 | us-gaap_IncomeTaxPaidStateAndLocalAfterRefundReceived
+000160 | Namespace Prefix:
+000161 | us-gaap_
+000162 | Data Type:
+000163 | xbrli:monetaryItemType
+000164 | Balance Type:
+000165 | credit
+000166 | Period Type:
+000167 | duration
+000168 | X
+000169 | - Definition
+000170 | Amount, after refund, of cash paid to foreign, federal, state, and local jurisdictions as income tax.
+000171 | + References
+000172 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000173 | -Topic 230
+000174 | -SubTopic 10
+000175 | -Name Accounting Standards Codification
+000176 | -Section 50
+000177 | -Paragraph 2A
+000178 | -Publisher FASB
+000179 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-2A
+000180 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000181 | -Topic 740
+000182 | -SubTopic 10
+000183 | -Name Accounting Standards Codification
+000184 | -Section 50
+000185 | -Paragraph 23
+000186 | -Publisher FASB
+000187 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-23
+000188 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000189 | -Topic 740
+000190 | -SubTopic 10
+000191 | -Name Accounting Standards Codification
+000192 | -Section 50
+000193 | -Paragraph 22
+000194 | -Publisher FASB
+000195 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-22
+000196 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000197 | -Name Accounting Standards Codification
+000198 | -Topic 230
+000199 | -SubTopic 10
+000200 | -Section 50
+000201 | -Paragraph 2
+000202 | -Publisher FASB
+000203 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-2
+000204 | + Details
+000205 | Name:
+000206 | us-gaap_IncomeTaxesPaidNet
+000207 | Namespace Prefix:
+000208 | us-gaap_
+000209 | Data Type:
+000210 | xbrli:monetaryItemType
+000211 | Balance Type:
+000212 | credit
+000213 | Period Type:
+000214 | duration
+000215 | X
+000216 | - Details
+000217 | Name:
+000218 | us-gaap_IncomeTaxAuthorityAxis=country_CN
+000219 | Namespace Prefix:
+000220 | Data Type:
+000221 | na
+000222 | Balance Type:
+000223 | Period Type:
+000224 | X
+000225 | - Details
+000226 | Name:
+000227 | us-gaap_IncomeTaxAuthorityAxis=country_IN
+000228 | Namespace Prefix:
+000229 | Data Type:
+000230 | na
+000231 | Balance Type:
+000232 | Period Type:
+000233 | X
+000234 | - Details
+000235 | Name:
+000236 | us-gaap_IncomeTaxAuthorityAxis=country_KR
+000237 | Namespace Prefix:
+000238 | Data Type:
+000239 | na
+000240 | Balance Type:
+000241 | Period Type:
+000242 | X
+000243 | - Details
+000244 | Name:
+000245 | us-gaap_IncomeTaxAuthorityAxis=us-gaap_ForeignTaxJurisdictionOtherMember
+000246 | Namespace Prefix:
+000247 | Data Type:
+000248 | na
+000249 | Balance Type:
+000250 | Period Type:

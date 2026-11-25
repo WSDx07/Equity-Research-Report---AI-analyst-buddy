@@ -1,0 +1,86 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0508</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2024-04-01</periodOfReport>
+000010 | 
+000011 |     <issuer>
+000012 |         <issuerCik>0001964738</issuerCik>
+000013 |         <issuerName>Solventum Corp</issuerName>
+000014 |         <issuerTradingSymbol>SOLV</issuerTradingSymbol>
+000015 |     </issuer>
+000016 | 
+000017 |     <reportingOwner>
+000018 |         <reportingOwnerId>
+000019 |             <rptOwnerCik>0000066740</rptOwnerCik>
+000020 |             <rptOwnerName>3M CO</rptOwnerName>
+000021 |         </reportingOwnerId>
+000022 |         <reportingOwnerAddress>
+000023 |             <rptOwnerStreet1>3M CENTER</rptOwnerStreet1>
+000024 |             <rptOwnerStreet2></rptOwnerStreet2>
+000025 |             <rptOwnerCity>ST. PAUL</rptOwnerCity>
+000026 |             <rptOwnerState>MN</rptOwnerState>
+000027 |             <rptOwnerZipCode>55144</rptOwnerZipCode>
+000028 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000029 |         </reportingOwnerAddress>
+000030 |         <reportingOwnerRelationship>
+000031 |             <isTenPercentOwner>1</isTenPercentOwner>
+000032 |         </reportingOwnerRelationship>
+000033 |     </reportingOwner>
+000034 | 
+000035 |     <aff10b5One>0</aff10b5One>
+000036 | 
+000037 |     <nonDerivativeTable>
+000038 |         <nonDerivativeTransaction>
+000039 |             <securityTitle>
+000040 |                 <value>Common Stock</value>
+000041 |             </securityTitle>
+000042 |             <transactionDate>
+000043 |                 <value>2024-04-01</value>
+000044 |             </transactionDate>
+000045 |             <transactionCoding>
+000046 |                 <transactionFormType>4</transactionFormType>
+000047 |                 <transactionCode>J</transactionCode>
+000048 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000049 |                 <footnoteId id="F1"/>
+000050 |             </transactionCoding>
+000051 |             <transactionTimeliness></transactionTimeliness>
+000052 |             <transactionAmounts>
+000053 |                 <transactionShares>
+000054 |                     <value>138340315</value>
+000055 |                 </transactionShares>
+000056 |                 <transactionPricePerShare>
+000057 |                     <value>0</value>
+000058 |                 </transactionPricePerShare>
+000059 |                 <transactionAcquiredDisposedCode>
+000060 |                     <value>D</value>
+000061 |                 </transactionAcquiredDisposedCode>
+000062 |             </transactionAmounts>
+000063 |             <postTransactionAmounts>
+000064 |                 <sharesOwnedFollowingTransaction>
+000065 |                     <value>34369190</value>
+000066 |                 </sharesOwnedFollowingTransaction>
+000067 |             </postTransactionAmounts>
+000068 |             <ownershipNature>
+000069 |                 <directOrIndirectOwnership>
+000070 |                     <value>D</value>
+000071 |                 </directOrIndirectOwnership>
+000072 |             </ownershipNature>
+000073 |         </nonDerivativeTransaction>
+000074 |     </nonDerivativeTable>
+000075 | 
+000076 |     <footnotes>
+000077 |         <footnote id="F1">On April 1, 2024, prior to the opening of trading for the day, 3M Company (&quot;3M&quot;) distributed approximately 80.1% of the issued and outstanding shares of common stock of Solventum Corporation to the holders of 3M common stock at the close of business on March 18, 2024 in a pro rata dividend.</footnote>
+000078 |     </footnotes>
+000079 | 
+000080 |     <ownerSignature>
+000081 |         <signatureName>Michael M. Dai, Secretary</signatureName>
+000082 |         <signatureDate>2024-04-03</signatureDate>
+000083 |     </ownerSignature>
+000084 | </ownershipDocument>
+000085 | </XML>
+000086 | 

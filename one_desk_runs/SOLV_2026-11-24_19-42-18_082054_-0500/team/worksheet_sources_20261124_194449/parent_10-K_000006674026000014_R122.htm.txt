@@ -1,0 +1,95 @@
+000001 | v3.25.4
+000002 | Leases - Schedule of Supplemental cash flow and other information (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Leases [Abstract]
+000009 | Cash paid for amounts included in the measurement of lease liabilities
+000010 | $ 200
+000011 | $ 212
+000012 | $ 260
+000013 | Right of use assets obtained in exchange for operating lease liabilities
+000014 | $ 144
+000015 | $ 196
+000016 | $ 262
+000017 | X
+000018 | - References
+000019 | No definition available.
+000020 | + Details
+000021 | Name:
+000022 | us-gaap_LeasesAbstract
+000023 | Namespace Prefix:
+000024 | us-gaap_
+000025 | Data Type:
+000026 | xbrli:stringItemType
+000027 | Balance Type:
+000028 | na
+000029 | Period Type:
+000030 | duration
+000031 | X
+000032 | - Definition
+000033 | Amount of cash outflow from operating lease, excluding payments to bring another asset to condition and location necessary for its intended use.
+000034 | + References
+000035 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000036 | -Topic 842
+000037 | -SubTopic 20
+000038 | -Name Accounting Standards Codification
+000039 | -Section 45
+000040 | -Paragraph 5
+000041 | -Subparagraph (c)
+000042 | -Publisher FASB
+000043 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-5
+000044 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000045 | -Topic 842
+000046 | -SubTopic 20
+000047 | -Name Accounting Standards Codification
+000048 | -Section 50
+000049 | -Paragraph 4
+000050 | -Subparagraph (g)(1)
+000051 | -Publisher FASB
+000052 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000053 | + Details
+000054 | Name:
+000055 | us-gaap_OperatingLeasePayments
+000056 | Namespace Prefix:
+000057 | us-gaap_
+000058 | Data Type:
+000059 | xbrli:monetaryItemType
+000060 | Balance Type:
+000061 | credit
+000062 | Period Type:
+000063 | duration
+000064 | X
+000065 | - Definition
+000066 | Amount of increase in right-of-use asset obtained in exchange for operating lease liability.
+000067 | + References
+000068 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000069 | -Topic 842
+000070 | -SubTopic 20
+000071 | -Name Accounting Standards Codification
+000072 | -Section 55
+000073 | -Paragraph 53
+000074 | -Publisher FASB
+000075 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000076 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000077 | -Topic 842
+000078 | -SubTopic 20
+000079 | -Name Accounting Standards Codification
+000080 | -Section 50
+000081 | -Paragraph 4
+000082 | -Subparagraph (g)(2)
+000083 | -Publisher FASB
+000084 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000085 | + Details
+000086 | Name:
+000087 | us-gaap_RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability
+000088 | Namespace Prefix:
+000089 | us-gaap_
+000090 | Data Type:
+000091 | xbrli:monetaryItemType
+000092 | Balance Type:
+000093 | debit
+000094 | Period Type:
+000095 | duration

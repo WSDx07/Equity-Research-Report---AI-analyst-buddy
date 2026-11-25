@@ -1,0 +1,384 @@
+{
+  "source": "https://api.financialdatasets.ai/financials/",
+  "retrieved_at": "2026-11-24T19:42:37.224217-05:00",
+  "analysis_date": "2026-11-24",
+  "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+  "rows": [
+    {
+      "concept": "total_revenue",
+      "period_label": "current",
+      "sec_tag": "us-gaap:Revenues",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 19411800000,
+        "start": "2025-02-02",
+        "end": "2026-01-31",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "revenue",
+      "provider_fact": {
+        "ticker": "DLTR",
+        "report_period": "2026-01-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-03-16",
+        "accession_number": "0000935703-26-000025",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000025/0000935703-26-000025-index.htm",
+        "value": "19411800000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "total_revenue",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:Revenues",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 17578500000,
+        "start": "2024-02-04",
+        "end": "2025-02-01",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "revenue"
+    },
+    {
+      "concept": "operating_income",
+      "period_label": "current",
+      "sec_tag": "us-gaap:OperatingIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 1653100000,
+        "start": "2025-02-02",
+        "end": "2026-01-31",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "operating_income",
+      "provider_fact": {
+        "ticker": "DLTR",
+        "report_period": "2026-01-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-03-16",
+        "accession_number": "0000935703-26-000025",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000025/0000935703-26-000025-index.htm",
+        "value": "1653100000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "operating_income",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:OperatingIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 1462000000,
+        "start": "2024-02-04",
+        "end": "2025-02-01",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "operating_income"
+    },
+    {
+      "concept": "net_income",
+      "period_label": "current",
+      "sec_tag": "us-gaap:NetIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 1282500000,
+        "start": "2025-02-02",
+        "end": "2026-01-31",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "net_income",
+      "provider_fact": {
+        "ticker": "DLTR",
+        "report_period": "2026-01-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-03-16",
+        "accession_number": "0000935703-26-000025",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000025/0000935703-26-000025-index.htm",
+        "value": "1282500000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "net_income",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:NetIncomeLoss",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": -3030100000,
+        "start": "2024-02-04",
+        "end": "2025-02-01",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "net_income"
+    },
+    {
+      "concept": "diluted_eps",
+      "period_label": "current",
+      "sec_tag": "us-gaap:EarningsPerShareDiluted",
+      "sec_unit": "USD/shares",
+      "sec_fact": {
+        "val": 6.22,
+        "start": "2025-02-02",
+        "end": "2026-01-31",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "income_statements",
+      "provider_field": "earnings_per_share_diluted",
+      "provider_fact": {
+        "ticker": "DLTR",
+        "report_period": "2026-01-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-03-16",
+        "accession_number": "0000935703-26-000025",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000025/0000935703-26-000025-index.htm",
+        "value": "6.22"
+      },
+      "difference_provider_minus_sec": "0.00"
+    },
+    {
+      "concept": "diluted_eps",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:EarningsPerShareDiluted",
+      "sec_unit": "USD/shares",
+      "sec_fact": {
+        "val": -14.03,
+        "start": "2024-02-04",
+        "end": "2025-02-01",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "income_statements",
+      "provider_field": "earnings_per_share_diluted"
+    },
+    {
+      "concept": "stockholders_equity",
+      "period_label": "current",
+      "sec_tag": "us-gaap:StockholdersEquity",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 3754900000,
+        "end": "2026-01-31",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "numeric_match",
+      "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+      "provider_statement": "balance_sheets",
+      "provider_field": "shareholders_equity",
+      "provider_fact": {
+        "ticker": "DLTR",
+        "report_period": "2026-01-31",
+        "period": "annual",
+        "currency": "USD",
+        "filing_date": "2026-03-16",
+        "accession_number": "0000935703-26-000025",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000025/0000935703-26-000025-index.htm",
+        "value": "3754900000.0"
+      },
+      "difference_provider_minus_sec": "0.0"
+    },
+    {
+      "concept": "stockholders_equity",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:StockholdersEquity",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 3977400000,
+        "end": "2025-02-01",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+      "provider_statement": "balance_sheets",
+      "provider_field": "shareholders_equity"
+    },
+    {
+      "concept": "long_term_debt_noncurrent",
+      "period_label": "current",
+      "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 2431700000,
+        "end": "2026-01-31",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "long_term_debt_noncurrent",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 2431200000,
+        "end": "2025-02-01",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "long_term_debt_current",
+      "period_label": "current",
+      "sec_tag": "us-gaap:LongTermDebtCurrent",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 0,
+        "end": "2026-01-31",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "long_term_debt_current",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:LongTermDebtCurrent",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 1000000000,
+        "end": "2025-02-01",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "cash_from_operations",
+      "period_label": "current",
+      "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 2190700000,
+        "start": "2025-02-02",
+        "end": "2026-01-31",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "cash_from_operations",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+      "sec_unit": "USD",
+      "sec_fact": {
+        "val": 2193300000,
+        "start": "2024-02-04",
+        "end": "2025-02-01",
+        "accn": "0000935703-26-000025",
+        "filed": "2026-03-16",
+        "form": "10-K",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      "status": "not_comparable",
+      "reason": "No safe mapping for this SEC tag and provider field."
+    },
+    {
+      "concept": "additions_to_property_and_equipment",
+      "period_label": "current",
+      "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    },
+    {
+      "concept": "additions_to_property_and_equipment",
+      "period_label": "prior",
+      "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "sec_unit": "USD",
+      "sec_fact": null,
+      "status": "not_comparable",
+      "reason": "SEC fact is unavailable."
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,840 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "Solventum is a global healthcare company that develops, manufactures and commercializes solutions that combine material science, data science and digital capabilities to serve the full patient journey.",
+          "document": "10-K",
+          "line": 236,
+          "quote": "Solventum Corporation (\"Solventum,\" \"we,\" \"our,\" \"us,\" or the \"Company\"), is a leading global healthcare company developing, manufacturing, and commercializing a broad portfolio of solutions that leverages deep material science, data science, and digital capabilities to address critical customer and patient needs."
+        },
+        {
+          "section": "Overview",
+          "claim": "The company organizes its operations into three reportable segments: MedSurg, Dental Solutions and Health Information Systems.",
+          "document": "10-K",
+          "line": 240,
+          "quote": "We are organized into three reportable operating business segments that are aligned with the markets we serve."
+        },
+        {
+          "section": "Overview",
+          "claim": "Strong customer relationships and a well‑known brand portfolio are cited as core competitive strengths.",
+          "document": "10-K",
+          "line": 238,
+          "quote": "Our business possesses strong customer relationships, a broad, wide-ranging, and well‑known portfolio of brands, differentiated technology, and manufacturing expertise."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "MedSurg contributed the majority of 2025 sales, reflecting its central role in the company’s revenue mix.",
+          "document": "10-K",
+          "line": 241,
+          "quote": "MedSurg (57.9% of 2025 total sales) is a provider of solutions including negative pressure wound therapy, advanced wound dressings, advanced skin care, synthetic tissue matrices, I.V. site management, sterilization assurance, temperature management, surgical supplies, medical tapes and wraps, stethoscopes, medical electrodes, and medical technologies Original Equipment Manufacturer (\"OEM\")."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Management expects organic sales growth for the full year to be near the high end of the 2.5%‑3.0% range.",
+          "document": "EX-99.1",
+          "line": 78,
+          "quote": "Increased organic sales growth range toward the high end of +2.5% to +3.0% (toward the high end of +3.5% to +4.0% excluding ~100 bps of SKU exit impact)"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The company raised its adjusted earnings‑per‑share guidance to a range of $7.20‑$7.30 for FY 2026.",
+          "document": "EX-99.1",
+          "line": 82,
+          "quote": "Increased adjusted EPS range to $7.20 to $7.30; from prior range of $7.10 to $7.20"
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Competitive pressures are highlighted across all segments, including emerging AI‑enabled rivals in health‑information‑systems.",
+          "document": "10-K",
+          "line": 260,
+          "quote": "Principal competitors include Optum, Microsoft (Nuance), Epic, Oracle (Cerner), Waystar, Athena, and a host of start-up technologies actively working to disrupt the areas of revenue cycle management and clinician productivity."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Solventum has completed roughly ninety percent of its transition services with its former parent 3M and finished the planned ERP system cutover.",
+          "document": "EX-99.1",
+          "line": 18,
+          "quote": "•Have exited ~90% of 3M transition service agreements; ERP system cutovers complete"
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The company is pursuing a multiyear restructuring program called “Transform for the Future” to lower costs and improve operating efficiency.",
+          "document": "10-K",
+          "line": 518,
+          "quote": "Solventum has initiated a multiyear restructuring program, 'Transform for the Future', which is designed to further enable its long‑term growth strategy and ensure it's best positioned to compete‑to‑win in a rapidly changing healthcare environment."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Recent acquisitions include Acera Surgical, and a divestiture of the Purification & Filtration business, indicating an ongoing portfolio reshaping.",
+          "document": "10-K",
+          "line": 246,
+          "quote": "In 2025, the Company acquired Acera Surgical (\"Acera\"), a privately held bioscience company. Also in 2025, the Company sold its Purification and Filtration business to Thermo Fisher Scientific Inc."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management flags AI deployment as both a growth opportunity and a source of cost and execution risk.",
+          "document": "10-K",
+          "line": 482,
+          "quote": "Solventum has begun to deploy AI in its products and services, including as part of its research and development efforts, and Solventum expects to continue to explore additional uses as AI continues to develop."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The firm’s debt load of approximately $5 billion could constrain future capital raising and increase financing costs.",
+          "document": "10-K",
+          "line": 431,
+          "quote": "as of December 31, 2025, Solventum had approximately $5 billion of outstanding indebtedness."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Risk factors note that post‑spin‑off reliance on 3M for raw material supply could impair operations if 3M fails to meet requirements.",
+          "document": "10-K",
+          "line": 213,
+          "quote": "3M is the sole source of supply for raw materials used in certain of our products and our business will be harmed if 3M does not satisfy our requirements."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management emphasizes that failure to achieve anticipated spin‑off benefits would adversely affect competitive positioning.",
+          "document": "10-K",
+          "line": 424,
+          "quote": "Solventum may not achieve these and other anticipated benefits for a variety of reasons... it could have a material adverse effect on its competitive position, business, financial condition, results of operations and cash flows."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Judgment: Prioritize completion of the remaining transition services with 3M and accelerate adoption of AI‑enabled functionality in Health Information Systems to mitigate competitive risk.",
+          "document": "10-K",
+          "line": 482,
+          "quote": "Solventum has begun to deploy AI in its products and services, including as part of its research and development efforts, and Solventum expects to continue to explore additional uses as AI continues to develop."
+        }
+      ],
+      "gaps": [
+        "The 10‑K does not provide a quantified forecast of market share trends beyond the qualitative statements in the risk factors.",
+        "The filing does not disclose specific timelines for the rollout of new AI‑enabled products beyond the general intent to continue development."
+      ],
+      "insight": ""
+    },
+    "financial": {
+      "observations": [
+        "The annual filing supplies the company’s total revenue, operating income, net income and diluted earnings per share for the most recent fiscal year, yet it does not include a detailed reconciliation of the non‑GAAP measures referenced elsewhere, limiting the ability to assess adjustments.",
+        "Operating cash flow and capital expenditures are reported for the year, but the free‑cash‑flow calculation in the filing shows a negative result without an explanatory note, creating uncertainty about liquidity trends.",
+        "Long‑term debt is disclosed only for the non‑current portion, and the current portion is listed as zero, but the filing does not explain the absence of a short‑term debt schedule, which restricts analysis of maturity risk.",
+        "The quarterly press release provides a narrative on sales performance, segment highlights and updated guidance, yet it does not present the underlying GAAP numbers for the quarter, so the guidance cannot be directly tied to the reported figures.",
+        "Guidance on organic sales growth and adjusted EPS is stated, but the document does not define the methodology for calculating the organic component, nor does it specify the fiscal period to which the guidance applies, limiting forward‑looking comparability.",
+        "No market price, price date or source are supplied, so a price‑to‑earnings multiple cannot be derived, and any valuation discussion would be speculative.",
+        "Peer data are absent, therefore relative performance cannot be benchmarked against comparable companies.",
+        "All extracted data originate from SEC filings and a press release; as such, they should be treated as unverified until corroborated with audited statements or independent sources."
+      ],
+      "gaps": [
+        "Missing price information precludes any valuation multiple calculation.",
+        "Absence of peer financials prevents comparative ratio analysis.",
+        "Lack of a clear definition for the organic sales metric limits the interpretation of the guidance range."
+      ],
+      "insight": "Insight: Solventum raised its full‑year adjusted earnings per share outlook to a higher range — EX-99.1 line 12: \"Increases full-year adjusted EPS guidance to $7.20 to $7.30\""
+    },
+    "advisor": {
+      "recommendation": "Hold",
+      "thesis": "Solventum is a globally diversified healthcare company with strong brand relationships and a three‑segment operating model that generates solid operating profitability. Management is pursuing a multiyear restructuring initiative and expanding AI capabilities, while also navigating the integration of recent acquisitions. The company’s operating margin metric signals resilient core earnings, yet the sizable indebtedness and negative free‑cash‑flow generation introduce headwinds that temper enthusiasm for a more aggressive stance.",
+      "deciding_metric": "operating_margin_percent",
+      "risks": [
+        "Leverage remains elevated, with debt levels that could constrain future financing and increase interest costs.",
+        "Free‑cash‑flow is currently negative, raising concerns about liquidity and the ability to fund growth initiatives.",
+        "Competitive pressures, especially from AI‑enabled entrants in the health‑information‑systems space, could erode market share.",
+        "Continued reliance on a single supplier for key raw materials creates supply‑chain vulnerability.",
+        "Execution risk surrounding AI deployment and the transformation program could lead to higher than anticipated costs or delayed benefits."
+      ],
+      "insight": "Insight: Solventum raised its full‑year adjusted EPS outlook to a higher range — EX-99.1 line 82: \"Increased adjusted EPS range to $7.20 to $7.30; from prior range of $7.10 to $7.20\""
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 13,
+      "text": "EAGAN, Minn., November 5, 2026 – Solventum (NYSE: SOLV) today reported financial results for the third quarter ended September 30, 2026.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "SOLV",
+        "name": "Solventum Corp",
+        "cik": 1964738,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-24",
+      "retrieved_at": "2026-11-24T19:42:37.655520-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001964738.json",
+      "fiscal_year_end": "2025-12-31",
+      "prior_fiscal_year_end": "2024-12-31",
+      "preferred_10k_accession": "0001964738-26-000007",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:Revenues",
+          "unit": "USD",
+          "current": {
+            "val": 8325000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 8254000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 2181000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1036000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 1556000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 479000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 8.88,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2.76,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 5049000000,
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2959000000,
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "current": {
+            "val": 5035000000,
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 7810000000,
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": {
+            "val": 0,
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 200000000,
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 369000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1185000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": {
+            "val": 379000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 380000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          }
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "0.8601889992730797189241579840",
+      "operating_margin_percent": "26.19819819819819819819819820",
+      "return_on_average_equity_percent": "38.86113886113886113886113886",
+      "debt_to_equity": "0.9972271736977619330560507031",
+      "free_cash_flow_usd": "-10000000",
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebtNoncurrent"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-24T19:42:38.920008-05:00",
+      "analysis_date": "2026-11-24",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 8325000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "SOLV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-27",
+            "accession_number": "0001964738-26-000007",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/0001964738-26-000007-index.htm",
+            "value": "8325000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 8254000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2181000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "SOLV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-27",
+            "accession_number": "0001964738-26-000007",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/0001964738-26-000007-index.htm",
+            "value": "2181000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1036000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1556000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "SOLV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-27",
+            "accession_number": "0001964738-26-000007",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/0001964738-26-000007-index.htm",
+            "value": "1556000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 479000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 8.88,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "SOLV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-27",
+            "accession_number": "0001964738-26-000007",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/0001964738-26-000007-index.htm",
+            "value": "8.88"
+          },
+          "difference_provider_minus_sec": "0.00"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 2.76,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 5049000000,
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "SOLV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-27",
+            "accession_number": "0001964738-26-000007",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/0001964738-26-000007-index.htm",
+            "value": "5049000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2959000000,
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 5035000000,
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 7810000000,
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 0,
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 200000000,
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 369000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "SOLV",
+            "report_period": "2025-12-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-02-27",
+            "accession_number": "0001964738-26-000007",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000007/0001964738-26-000007-index.htm",
+            "value": "369000000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1185000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 379000000,
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 380000000,
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "accn": "0001964738-26-000007",
+            "filed": "2026-02-27",
+            "form": "10-K",
+            "fy": 2025,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 3 has an invalid or non-verbatim document line and quote.",
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 6 has an invalid or non-verbatim document line and quote.",
+        "Claim 9 has an invalid or non-verbatim document line and quote.",
+        "Claim 10 has an invalid or non-verbatim document line and quote.",
+        "Claim 14 has an invalid or non-verbatim document line and quote.",
+        "Claim 15 includes a number that is not present in its quoted line.",
+        "No Insight line was supplied."
+      ],
+      "financial_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ],
+      "advisor_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}

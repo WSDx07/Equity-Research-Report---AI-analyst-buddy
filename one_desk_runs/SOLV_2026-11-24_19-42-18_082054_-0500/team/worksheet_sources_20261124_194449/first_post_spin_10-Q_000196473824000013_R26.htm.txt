@@ -1,0 +1,127 @@
+000001 | v3.24.1.1.u2
+000002 | Equity and Comprehensive Income Information (Tables)
+000003 | 3 Months Ended
+000004 | Mar. 31, 2024
+000005 | Equity [Abstract]
+000006 | Schedule of Stockholders Equity
+000007 | The table below presents the combined changes in equity for the three months ended March 31, 2024 and 2023:
+000008 | Three Months Ended March 31, 2024 and March 31, 2023
+000009 | (Millions) Net Parent Investment Accumulated Other Comprehensive Income (Loss) Total
+000010 | Balance at December 31, 2023 $ 12,003 $ (337) $ 11,666
+000011 | Net income 237 — 237
+000012 | Other comprehensive income (loss), net of tax
+000013 | Cumulative translation adjustment — (86) (86)
+000014 | Defined benefit pension adjustment — — —
+000015 | Total other comprehensive income (loss), net of tax — (86) (86)
+000016 | Net transfers to 3M (7,431) (535) (7,966)
+000017 | Balance at March 31, 2024 $ 4,809 $ (958) $ 3,851
+000018 | Balance at December 31, 2022 $ 12,239 $ (497) $ 11,742
+000019 | Net income 293 — 293
+000020 | Other comprehensive income (loss), net of tax
+000021 | Cumulative translation adjustment — 68 68
+000022 | Defined benefit pension adjustment — — —
+000023 | Total other comprehensive income (loss), net of tax — 68 68
+000024 | Net transfers to 3M (433) — (433)
+000025 | Balance at March 31, 2023 $ 12,099 $ (429) $ 11,670
+000026 | Schedule of Accumulated Other Comprehensive Income (Loss)
+000027 | The table below presents the changes in accumulated other comprehensive income (loss) attributable to Solventum ("AOCI"), including the reclassifications out of AOCI by component:
+000028 | Three months ended March 31, 2024
+000029 | (Millions) Cumulative Translation Adjustment Defined Benefit Pension Plans Adjustment Total Accumulated Other Comprehensive Income (Loss)
+000030 | Balance at December 31, 2023, net of tax: $ (347) $ 10 $ (337)
+000031 | Other comprehensive income (loss), before tax:
+000032 | Amounts before reclassifications (98) — (98)
+000033 | Amounts reclassified out 12 — 12
+000034 | Total other comprehensive income (loss), before tax (86) — (86)
+000035 | Tax effect — — —
+000036 | Total other comprehensive income (loss), net of tax (86) — (86)
+000037 | Transfers from 3M, net of tax — (535) (535)
+000038 | Balance at March 31, 2024, net of tax:
+000039 | $ (433) $ (525) $ (958)
+000040 | Three months ended March 31, 2023
+000041 | (Millions) Cumulative Translation Adjustment Defined Benefit Pension Plans Adjustment Total Accumulated Other Comprehensive Income (Loss)
+000042 | Balance at December 31, 2022, net of tax: $ (504) $ 7 $ (497)
+000043 | Other comprehensive income (loss), before tax:
+000044 | Amounts before reclassifications 68 — 68
+000045 | Amounts reclassified out — — —
+000046 | Total other comprehensive income (loss), before tax 68 — 68
+000047 | Tax effect — — —
+000048 | Total other comprehensive income (loss), net of tax 68 — 68
+000049 | Transfers from 3M, net of tax — — —
+000050 | Balance at March 31, 2023, net of tax:
+000051 | $ (436) $ 7 $ (429)
+000052 | X
+000053 | - References
+000054 | No definition available.
+000055 | + Details
+000056 | Name:
+000057 | us-gaap_EquityAbstract
+000058 | Namespace Prefix:
+000059 | us-gaap_
+000060 | Data Type:
+000061 | xbrli:stringItemType
+000062 | Balance Type:
+000063 | na
+000064 | Period Type:
+000065 | duration
+000066 | X
+000067 | - Definition
+000068 | Tabular disclosure of the components of accumulated other comprehensive income (loss).
+000069 | + References
+000070 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000071 | -Name Accounting Standards Codification
+000072 | -Topic 220
+000073 | -SubTopic 10
+000074 | -Section 45
+000075 | -Paragraph 14A
+000076 | -Publisher FASB
+000077 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-14A
+000078 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000079 | -Topic 830
+000080 | -SubTopic 30
+000081 | -Name Accounting Standards Codification
+000082 | -Section 50
+000083 | -Paragraph 1
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147481674/830-30-50-1
+000086 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000087 | -Topic 830
+000088 | -SubTopic 30
+000089 | -Name Accounting Standards Codification
+000090 | -Section 45
+000091 | -Paragraph 20
+000092 | -Publisher FASB
+000093 | -URI https://asc.fasb.org/1943274/2147481694/830-30-45-20
+000094 | + Details
+000095 | Name:
+000096 | us-gaap_ScheduleOfAccumulatedOtherComprehensiveIncomeLossTableTextBlock
+000097 | Namespace Prefix:
+000098 | us-gaap_
+000099 | Data Type:
+000100 | dtr-types:textBlockItemType
+000101 | Balance Type:
+000102 | na
+000103 | Period Type:
+000104 | duration
+000105 | X
+000106 | - Definition
+000107 | Tabular disclosure of changes in the separate accounts comprising stockholders' equity (in addition to retained earnings) and of the changes in the number of shares of equity securities during at least the most recent annual fiscal period and any subsequent interim period presented is required to make the financial statements sufficiently informative if both financial position and results of operations are presented.
+000108 | + References
+000109 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000110 | -Name Accounting Standards Codification
+000111 | -Section 50
+000112 | -Paragraph 2
+000113 | -SubTopic 10
+000114 | -Topic 505
+000115 | -Publisher FASB
+000116 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2
+000117 | + Details
+000118 | Name:
+000119 | us-gaap_ScheduleOfStockholdersEquityTableTextBlock
+000120 | Namespace Prefix:
+000121 | us-gaap_
+000122 | Data Type:
+000123 | dtr-types:textBlockItemType
+000124 | Balance Type:
+000125 | na
+000126 | Period Type:
+000127 | duration

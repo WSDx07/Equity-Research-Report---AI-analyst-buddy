@@ -1,0 +1,484 @@
+000001 | v3.24.1.1.u2
+000002 | Equity and Comprehensive Income Information - Changes in Accumulated Other Compressive Income (Loss) by Component (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | Mar. 31, 2024
+000006 | Mar. 31, 2023
+000007 | AOCI Attributable to Parent, Net of Tax [Roll Forward]
+000008 | Beginning balance
+000009 | $ 11,666
+000010 | $ 11,742
+000011 | Amounts before reclassifications
+000012 | (98)
+000013 | 68
+000014 | Amounts reclassified out
+000015 | 12
+000016 | 0
+000017 | Total other comprehensive income (loss), before tax
+000018 | (86)
+000019 | 68
+000020 | Tax effect
+000021 | 0
+000022 | 0
+000023 | Total other comprehensive income (loss), net of tax
+000024 | (86)
+000025 | 68
+000026 | Transfers from 3M, net of tax
+000027 | (535)
+000028 | 0
+000029 | Ending balance
+000030 | 3,851
+000031 | 11,670
+000032 | Accumulated Other Comprehensive Income (Loss)
+000033 | AOCI Attributable to Parent, Net of Tax [Roll Forward]
+000034 | Beginning balance
+000035 | (337)
+000036 | (497)
+000037 | Total other comprehensive income (loss), net of tax
+000038 | (86)
+000039 | 68
+000040 | Ending balance
+000041 | (958)
+000042 | (429)
+000043 | Cumulative Translation Adjustment
+000044 | AOCI Attributable to Parent, Net of Tax [Roll Forward]
+000045 | Beginning balance
+000046 | (347)
+000047 | (504)
+000048 | Amounts before reclassifications
+000049 | (98)
+000050 | 68
+000051 | Amounts reclassified out
+000052 | 12
+000053 | 0
+000054 | Total other comprehensive income (loss), before tax
+000055 | (86)
+000056 | 68
+000057 | Tax effect
+000058 | 0
+000059 | 0
+000060 | Total other comprehensive income (loss), net of tax
+000061 | (86)
+000062 | 68
+000063 | Transfers from 3M, net of tax
+000064 | 0
+000065 | 0
+000066 | Ending balance
+000067 | (433)
+000068 | (436)
+000069 | Defined Benefit Pension Plans Adjustment
+000070 | AOCI Attributable to Parent, Net of Tax [Roll Forward]
+000071 | Beginning balance
+000072 | 10
+000073 | 7
+000074 | Amounts before reclassifications
+000075 | 0
+000076 | 0
+000077 | Amounts reclassified out
+000078 | 0
+000079 | 0
+000080 | Total other comprehensive income (loss), before tax
+000081 | 0
+000082 | 0
+000083 | Tax effect
+000084 | 0
+000085 | 0
+000086 | Total other comprehensive income (loss), net of tax
+000087 | 0
+000088 | 0
+000089 | Transfers from 3M, net of tax
+000090 | (535)
+000091 | 0
+000092 | Ending balance
+000093 | $ (525)
+000094 | $ 7
+000095 | X
+000096 | - Definition
+000097 | Transfers From Parent, Net Of Tax
+000098 | + References
+000099 | No definition available.
+000100 | + Details
+000101 | Name:
+000102 | solv_TransfersFromParentNetOfTax
+000103 | Namespace Prefix:
+000104 | solv_
+000105 | Data Type:
+000106 | xbrli:monetaryItemType
+000107 | Balance Type:
+000108 | credit
+000109 | Period Type:
+000110 | duration
+000111 | X
+000112 | - Definition
+000113 | A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+000114 | + References
+000115 | No definition available.
+000116 | + Details
+000117 | Name:
+000118 | us-gaap_AOCIAttributableToParentNetOfTaxRollForward
+000119 | Namespace Prefix:
+000120 | us-gaap_
+000121 | Data Type:
+000122 | xbrli:stringItemType
+000123 | Balance Type:
+000124 | na
+000125 | Period Type:
+000126 | duration
+000127 | X
+000128 | - Definition
+000129 | Amount before tax and reclassification adjustments of other comprehensive income (loss) attributable to parent.
+000130 | + References
+000131 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000132 | -Name Accounting Standards Codification
+000133 | -Topic 220
+000134 | -SubTopic 10
+000135 | -Section 45
+000136 | -Paragraph 14A
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-14A
+000139 | + Details
+000140 | Name:
+000141 | us-gaap_OciBeforeReclassificationsBeforeTaxAttributableToParent
+000142 | Namespace Prefix:
+000143 | us-gaap_
+000144 | Data Type:
+000145 | xbrli:monetaryItemType
+000146 | Balance Type:
+000147 | credit
+000148 | Period Type:
+000149 | duration
+000150 | X
+000151 | - Definition
+000152 | Amount before tax of other comprehensive income (loss) attributable to parent entity.
+000153 | + References
+000154 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000155 | -Topic 810
+000156 | -SubTopic 10
+000157 | -Name Accounting Standards Codification
+000158 | -Section 45
+000159 | -Paragraph 19
+000160 | -Publisher FASB
+000161 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-19
+000162 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000163 | -Name Accounting Standards Codification
+000164 | -Section 45
+000165 | -Paragraph 20
+000166 | -SubTopic 10
+000167 | -Topic 810
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-20
+000170 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000171 | -Name Accounting Standards Codification
+000172 | -Section 50
+000173 | -Paragraph 1A
+000174 | -Subparagraph (c)(3)
+000175 | -SubTopic 10
+000176 | -Topic 810
+000177 | -Publisher FASB
+000178 | -URI https://asc.fasb.org/1943274/2147481203/810-10-50-1A
+000179 | + Details
+000180 | Name:
+000181 | us-gaap_OtherComprehensiveIncomeLossBeforeTaxPortionAttributableToParent
+000182 | Namespace Prefix:
+000183 | us-gaap_
+000184 | Data Type:
+000185 | xbrli:monetaryItemType
+000186 | Balance Type:
+000187 | credit
+000188 | Period Type:
+000189 | duration
+000190 | X
+000191 | - Definition
+000192 | Amount after tax of other comprehensive income (loss) attributable to parent entity.
+000193 | + References
+000194 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000195 | -Topic 810
+000196 | -SubTopic 10
+000197 | -Name Accounting Standards Codification
+000198 | -Section 45
+000199 | -Paragraph 19
+000200 | -Publisher FASB
+000201 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-19
+000202 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000203 | -Name Accounting Standards Codification
+000204 | -Section 45
+000205 | -Paragraph 20
+000206 | -SubTopic 10
+000207 | -Topic 810
+000208 | -Publisher FASB
+000209 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-20
+000210 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000211 | -Name Accounting Standards Codification
+000212 | -Section 50
+000213 | -Paragraph 1A
+000214 | -Subparagraph (c)(3)
+000215 | -SubTopic 10
+000216 | -Topic 810
+000217 | -Publisher FASB
+000218 | -URI https://asc.fasb.org/1943274/2147481203/810-10-50-1A
+000219 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000220 | -Topic 250
+000221 | -SubTopic 10
+000222 | -Name Accounting Standards Codification
+000223 | -Section 50
+000224 | -Paragraph 6
+000225 | -Publisher FASB
+000226 | -URI https://asc.fasb.org/1943274/2147483443/250-10-50-6
+000227 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000228 | -Topic 220
+000229 | -SubTopic 10
+000230 | -Name Accounting Standards Codification
+000231 | -Section 45
+000232 | -Paragraph 1B
+000233 | -Subparagraph (b)
+000234 | -Publisher FASB
+000235 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-1B
+000236 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000237 | -Topic 220
+000238 | -SubTopic 10
+000239 | -Name Accounting Standards Codification
+000240 | -Section 45
+000241 | -Paragraph 1A
+000242 | -Subparagraph (b)
+000243 | -Publisher FASB
+000244 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-1A
+000245 | + Details
+000246 | Name:
+000247 | us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent
+000248 | Namespace Prefix:
+000249 | us-gaap_
+000250 | Data Type:
+000251 | xbrli:monetaryItemType
+000252 | Balance Type:
+000253 | credit
+000254 | Period Type:
+000255 | duration
+000256 | X
+000257 | - Definition
+000258 | Amount of tax expense (benefit) allocated to other comprehensive income (loss) attributable to parent entity.
+000259 | + References
+000260 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000261 | -Topic 810
+000262 | -SubTopic 10
+000263 | -Name Accounting Standards Codification
+000264 | -Section 45
+000265 | -Paragraph 19
+000266 | -Publisher FASB
+000267 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-19
+000268 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000269 | -Name Accounting Standards Codification
+000270 | -Section 45
+000271 | -Paragraph 20
+000272 | -SubTopic 10
+000273 | -Topic 810
+000274 | -Publisher FASB
+000275 | -URI https://asc.fasb.org/1943274/2147481231/810-10-45-20
+000276 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000277 | -Name Accounting Standards Codification
+000278 | -Section 50
+000279 | -Paragraph 1A
+000280 | -Subparagraph (c)(3)
+000281 | -SubTopic 10
+000282 | -Topic 810
+000283 | -Publisher FASB
+000284 | -URI https://asc.fasb.org/1943274/2147481203/810-10-50-1A
+000285 | + Details
+000286 | Name:
+000287 | us-gaap_OtherComprehensiveIncomeLossTaxPortionAttributableToParent1
+000288 | Namespace Prefix:
+000289 | us-gaap_
+000290 | Data Type:
+000291 | xbrli:monetaryItemType
+000292 | Balance Type:
+000293 | debit
+000294 | Period Type:
+000295 | duration
+000296 | X
+000297 | - Definition
+000298 | Amount before tax of reclassification adjustments of other comprehensive income (loss) attributable to parent.
+000299 | + References
+000300 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000301 | -Name Accounting Standards Codification
+000302 | -Topic 220
+000303 | -SubTopic 10
+000304 | -Section 45
+000305 | -Paragraph 14A
+000306 | -Publisher FASB
+000307 | -URI https://asc.fasb.org/1943274/2147482790/220-10-45-14A
+000308 | + Details
+000309 | Name:
+000310 | us-gaap_ReclassificationFromAociCurrentPeriodBeforeTaxAttributableToParent
+000311 | Namespace Prefix:
+000312 | us-gaap_
+000313 | Data Type:
+000314 | xbrli:monetaryItemType
+000315 | Balance Type:
+000316 | debit
+000317 | Period Type:
+000318 | duration
+000319 | X
+000320 | - Definition
+000321 | Amount of equity (deficit) attributable to parent. Excludes temporary equity and equity attributable to noncontrolling interest.
+000322 | + References
+000323 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000324 | -Topic 210
+000325 | -SubTopic 10
+000326 | -Name Accounting Standards Codification
+000327 | -Section S99
+000328 | -Paragraph 1
+000329 | -Subparagraph (SX 210.5-02(29))
+000330 | -Publisher FASB
+000331 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000332 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000333 | -Topic 210
+000334 | -SubTopic 10
+000335 | -Name Accounting Standards Codification
+000336 | -Section S99
+000337 | -Paragraph 1
+000338 | -Subparagraph (SX 210.5-02(30))
+000339 | -Publisher FASB
+000340 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000341 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000342 | -Topic 210
+000343 | -SubTopic 10
+000344 | -Name Accounting Standards Codification
+000345 | -Section S99
+000346 | -Paragraph 1
+000347 | -Subparagraph (SX 210.5-02(31))
+000348 | -Publisher FASB
+000349 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000350 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000351 | -Topic 852
+000352 | -SubTopic 10
+000353 | -Name Accounting Standards Codification
+000354 | -Section 55
+000355 | -Paragraph 10
+000356 | -Publisher FASB
+000357 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000358 | Reference 5: http://www.xbrl.org/2003/role/exampleRef
+000359 | -Topic 946
+000360 | -SubTopic 830
+000361 | -Name Accounting Standards Codification
+000362 | -Section 55
+000363 | -Paragraph 12
+000364 | -Publisher FASB
+000365 | -URI https://asc.fasb.org/1943274/2147479168/946-830-55-12
+000366 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000367 | -Topic 946
+000368 | -SubTopic 210
+000369 | -Name Accounting Standards Codification
+000370 | -Section S99
+000371 | -Paragraph 1
+000372 | -Subparagraph (SX 210.6-04(19))
+000373 | -Publisher FASB
+000374 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000375 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000376 | -Topic 946
+000377 | -SubTopic 210
+000378 | -Name Accounting Standards Codification
+000379 | -Section S99
+000380 | -Paragraph 2
+000381 | -Subparagraph (SX 210.6-05(4))
+000382 | -Publisher FASB
+000383 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2
+000384 | Reference 8: http://www.xbrl.org/2009/role/commonPracticeRef
+000385 | -Topic 946
+000386 | -SubTopic 220
+000387 | -Name Accounting Standards Codification
+000388 | -Section S99
+000389 | -Paragraph 3
+000390 | -Subparagraph (SX 210.6-09(4)(b))
+000391 | -Publisher FASB
+000392 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000393 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000394 | -Topic 946
+000395 | -SubTopic 220
+000396 | -Name Accounting Standards Codification
+000397 | -Section S99
+000398 | -Paragraph 3
+000399 | -Subparagraph (SX 210.6-09(6))
+000400 | -Publisher FASB
+000401 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000402 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000403 | -Topic 946
+000404 | -SubTopic 220
+000405 | -Name Accounting Standards Codification
+000406 | -Section S99
+000407 | -Paragraph 3
+000408 | -Subparagraph (SX 210.6-09(7))
+000409 | -Publisher FASB
+000410 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000411 | Reference 11: http://www.xbrl.org/2009/role/commonPracticeRef
+000412 | -Topic 235
+000413 | -SubTopic 10
+000414 | -Name Accounting Standards Codification
+000415 | -Section S99
+000416 | -Paragraph 1
+000417 | -Subparagraph (SX 210.4-08(g)(1)(ii))
+000418 | -Publisher FASB
+000419 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000420 | Reference 12: http://www.xbrl.org/2009/role/commonPracticeRef
+000421 | -Topic 323
+000422 | -SubTopic 10
+000423 | -Name Accounting Standards Codification
+000424 | -Section 50
+000425 | -Paragraph 3
+000426 | -Subparagraph (c)
+000427 | -Publisher FASB
+000428 | -URI https://asc.fasb.org/1943274/2147481687/323-10-50-3
+000429 | Reference 13: http://www.xbrl.org/2009/role/commonPracticeRef
+000430 | -Topic 825
+000431 | -SubTopic 10
+000432 | -Name Accounting Standards Codification
+000433 | -Section 50
+000434 | -Paragraph 28
+000435 | -Subparagraph (f)
+000436 | -Publisher FASB
+000437 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-28
+000438 | Reference 14: http://fasb.org/us-gaap/role/ref/legacyRef
+000439 | -Topic 310
+000440 | -SubTopic 10
+000441 | -Name Accounting Standards Codification
+000442 | -Section S99
+000443 | -Paragraph 2
+000444 | -Subparagraph (SAB Topic 4.E)
+000445 | -Publisher FASB
+000446 | -URI https://asc.fasb.org/1943274/2147480418/310-10-S99-2
+000447 | + Details
+000448 | Name:
+000449 | us-gaap_StockholdersEquity
+000450 | Namespace Prefix:
+000451 | us-gaap_
+000452 | Data Type:
+000453 | xbrli:monetaryItemType
+000454 | Balance Type:
+000455 | credit
+000456 | Period Type:
+000457 | instant
+000458 | X
+000459 | - Details
+000460 | Name:
+000461 | us-gaap_StatementEquityComponentsAxis=us-gaap_AccumulatedOtherComprehensiveIncomeMember
+000462 | Namespace Prefix:
+000463 | Data Type:
+000464 | na
+000465 | Balance Type:
+000466 | Period Type:
+000467 | X
+000468 | - Details
+000469 | Name:
+000470 | us-gaap_StatementEquityComponentsAxis=us-gaap_AccumulatedTranslationAdjustmentMember
+000471 | Namespace Prefix:
+000472 | Data Type:
+000473 | na
+000474 | Balance Type:
+000475 | Period Type:
+000476 | X
+000477 | - Details
+000478 | Name:
+000479 | us-gaap_StatementEquityComponentsAxis=us-gaap_AccumulatedDefinedBenefitPlansAdjustmentMember
+000480 | Namespace Prefix:
+000481 | Data Type:
+000482 | na
+000483 | Balance Type:
+000484 | Period Type:

@@ -1,0 +1,251 @@
+000001 | v3.25.4
+000002 | Leases - Schedule of Supplemental balance sheet information (Details) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Operating Lease, Assets And Liabilities, Lessee [Abstract]
+000007 | Right of use assets
+000008 | $ 516
+000009 | $ 565
+000010 | Current liability
+000011 | 167
+000012 | 163
+000013 | Noncurrent liability
+000014 | $ 363
+000015 | $ 405
+000016 | Weighted average remaining lease term (in years)
+000017 | 4 years 10 months 24 days
+000018 | 5 years 3 months 18 days
+000019 | Weighted average discount rate
+000020 | 3.50%
+000021 | 3.50%
+000022 | Operating Lease, Right-of-Use Asset, Statement of Financial Position [Extensible Enumeration]
+000023 | Other Assets
+000024 | Other Assets
+000025 | Operating Lease, Liability, Current, Statement of Financial Position [Extensible Enumeration]
+000026 | Other current liabilities
+000027 | Other current liabilities
+000028 | Operating Lease, Liability, Noncurrent, Statement of Financial Position [Extensible Enumeration]
+000029 | Other liabilities
+000030 | Other liabilities
+000031 | X
+000032 | - Definition
+000033 | Operating Lease, Assets And Liabilities, Lessee
+000034 | + References
+000035 | No definition available.
+000036 | + Details
+000037 | Name:
+000038 | mmm_OperatingLeaseAssetsAndLiabilitiesLesseeAbstract
+000039 | Namespace Prefix:
+000040 | mmm_
+000041 | Data Type:
+000042 | xbrli:stringItemType
+000043 | Balance Type:
+000044 | na
+000045 | Period Type:
+000046 | duration
+000047 | X
+000048 | - Definition
+000049 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as current.
+000050 | + References
+000051 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000052 | -Topic 842
+000053 | -SubTopic 20
+000054 | -Name Accounting Standards Codification
+000055 | -Section 45
+000056 | -Paragraph 1
+000057 | -Subparagraph (b)
+000058 | -Publisher FASB
+000059 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000060 | + Details
+000061 | Name:
+000062 | us-gaap_OperatingLeaseLiabilityCurrent
+000063 | Namespace Prefix:
+000064 | us-gaap_
+000065 | Data Type:
+000066 | xbrli:monetaryItemType
+000067 | Balance Type:
+000068 | credit
+000069 | Period Type:
+000070 | instant
+000071 | X
+000072 | - Definition
+000073 | Indicates line item in statement of financial position that includes current operating lease liability.
+000074 | + References
+000075 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000076 | -Topic 842
+000077 | -SubTopic 20
+000078 | -Name Accounting Standards Codification
+000079 | -Section 45
+000080 | -Paragraph 2
+000081 | -Publisher FASB
+000082 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-2
+000083 | + Details
+000084 | Name:
+000085 | us-gaap_OperatingLeaseLiabilityCurrentStatementOfFinancialPositionExtensibleList
+000086 | Namespace Prefix:
+000087 | us-gaap_
+000088 | Data Type:
+000089 | enum2:enumerationSetItemType
+000090 | Balance Type:
+000091 | na
+000092 | Period Type:
+000093 | instant
+000094 | X
+000095 | - Definition
+000096 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as noncurrent.
+000097 | + References
+000098 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000099 | -Topic 842
+000100 | -SubTopic 20
+000101 | -Name Accounting Standards Codification
+000102 | -Section 45
+000103 | -Paragraph 1
+000104 | -Subparagraph (b)
+000105 | -Publisher FASB
+000106 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000107 | + Details
+000108 | Name:
+000109 | us-gaap_OperatingLeaseLiabilityNoncurrent
+000110 | Namespace Prefix:
+000111 | us-gaap_
+000112 | Data Type:
+000113 | xbrli:monetaryItemType
+000114 | Balance Type:
+000115 | credit
+000116 | Period Type:
+000117 | instant
+000118 | X
+000119 | - Definition
+000120 | Indicates line item in statement of financial position that includes noncurrent operating lease liability.
+000121 | + References
+000122 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000123 | -Topic 842
+000124 | -SubTopic 20
+000125 | -Name Accounting Standards Codification
+000126 | -Section 45
+000127 | -Paragraph 2
+000128 | -Publisher FASB
+000129 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-2
+000130 | + Details
+000131 | Name:
+000132 | us-gaap_OperatingLeaseLiabilityNoncurrentStatementOfFinancialPositionExtensibleList
+000133 | Namespace Prefix:
+000134 | us-gaap_
+000135 | Data Type:
+000136 | enum2:enumerationSetItemType
+000137 | Balance Type:
+000138 | na
+000139 | Period Type:
+000140 | instant
+000141 | X
+000142 | - Definition
+000143 | Amount of lessee's right to use underlying asset under operating lease.
+000144 | + References
+000145 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000146 | -Topic 842
+000147 | -SubTopic 20
+000148 | -Name Accounting Standards Codification
+000149 | -Section 45
+000150 | -Paragraph 1
+000151 | -Subparagraph (a)
+000152 | -Publisher FASB
+000153 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000154 | + Details
+000155 | Name:
+000156 | us-gaap_OperatingLeaseRightOfUseAsset
+000157 | Namespace Prefix:
+000158 | us-gaap_
+000159 | Data Type:
+000160 | xbrli:monetaryItemType
+000161 | Balance Type:
+000162 | debit
+000163 | Period Type:
+000164 | instant
+000165 | X
+000166 | - Definition
+000167 | Indicates line item in statement of financial position that includes operating lease right-of-use asset.
+000168 | + References
+000169 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000170 | -Topic 842
+000171 | -SubTopic 20
+000172 | -Name Accounting Standards Codification
+000173 | -Section 45
+000174 | -Paragraph 2
+000175 | -Publisher FASB
+000176 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-2
+000177 | + Details
+000178 | Name:
+000179 | us-gaap_OperatingLeaseRightOfUseAssetStatementOfFinancialPositionExtensibleList
+000180 | Namespace Prefix:
+000181 | us-gaap_
+000182 | Data Type:
+000183 | enum2:enumerationSetItemType
+000184 | Balance Type:
+000185 | na
+000186 | Period Type:
+000187 | instant
+000188 | X
+000189 | - Definition
+000190 | Weighted average discount rate for operating lease calculated at point in time.
+000191 | + References
+000192 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000193 | -Topic 842
+000194 | -SubTopic 20
+000195 | -Name Accounting Standards Codification
+000196 | -Section 55
+000197 | -Paragraph 53
+000198 | -Publisher FASB
+000199 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000200 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000201 | -Topic 842
+000202 | -SubTopic 20
+000203 | -Name Accounting Standards Codification
+000204 | -Section 50
+000205 | -Paragraph 4
+000206 | -Subparagraph (g)(4)
+000207 | -Publisher FASB
+000208 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000209 | + Details
+000210 | Name:
+000211 | us-gaap_OperatingLeaseWeightedAverageDiscountRatePercent
+000212 | Namespace Prefix:
+000213 | us-gaap_
+000214 | Data Type:
+000215 | dtr-types:percentItemType
+000216 | Balance Type:
+000217 | na
+000218 | Period Type:
+000219 | instant
+000220 | X
+000221 | - Definition
+000222 | Weighted average remaining lease term for operating lease, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents reported fact of one year, five months, and thirteen days.
+000223 | + References
+000224 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000225 | -Topic 842
+000226 | -SubTopic 20
+000227 | -Name Accounting Standards Codification
+000228 | -Section 55
+000229 | -Paragraph 53
+000230 | -Publisher FASB
+000231 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000232 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000233 | -Topic 842
+000234 | -SubTopic 20
+000235 | -Name Accounting Standards Codification
+000236 | -Section 50
+000237 | -Paragraph 4
+000238 | -Subparagraph (g)(3)
+000239 | -Publisher FASB
+000240 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000241 | + Details
+000242 | Name:
+000243 | us-gaap_OperatingLeaseWeightedAverageRemainingLeaseTerm1
+000244 | Namespace Prefix:
+000245 | us-gaap_
+000246 | Data Type:
+000247 | xbrli:durationItemType
+000248 | Balance Type:
+000249 | na
+000250 | Period Type:
+000251 | instant

@@ -1,0 +1,443 @@
+000001 | v3.25.4
+000002 | Discontinued Operations - Schedule of Income from Discontinued Operations (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2024
+000006 | Dec. 31, 2023
+000007 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000008 | Cost of sales
+000009 | $ 3,494
+000010 | Other operating expenses
+000011 | 3,016
+000012 | Discontinued Operations, Disposed of by Sale
+000013 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000014 | Net sales
+000015 | $ 1,987
+000016 | 8,071
+000017 | Cost of sales
+000018 | 844
+000019 | Other operating expenses
+000020 | 837
+000021 | Other expense (income), net
+000022 | 44
+000023 | (22)
+000024 | Income from discontinued operations before income taxes
+000025 | 262
+000026 | 1,583
+000027 | Provision for income taxes
+000028 | 98
+000029 | 176
+000030 | Net income from discontinued operations, net of taxes
+000031 | $ 164
+000032 | $ 1,407
+000033 | X
+000034 | - Definition
+000035 | Disposal Group, Including Discontinued Operation, Nonoperating Income (Expense)
+000036 | + References
+000037 | No definition available.
+000038 | + Details
+000039 | Name:
+000040 | mmm_DisposalGroupIncludingDiscontinuedOperationNonoperatingIncomeExpense
+000041 | Namespace Prefix:
+000042 | mmm_
+000043 | Data Type:
+000044 | xbrli:monetaryItemType
+000045 | Balance Type:
+000046 | credit
+000047 | Period Type:
+000048 | duration
+000049 | X
+000050 | - Definition
+000051 | Amount before tax of income (loss) from a discontinued operation. Includes, but is not limited to, the income (loss) from operations during the phase-out period, gain (loss) on disposal, gain (loss) for reversal of write-down (write-down) to fair value, less cost to sell, and adjustments to a prior period gain (loss) on disposal.
+000052 | + References
+000053 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000054 | -Topic 944
+000055 | -SubTopic 220
+000056 | -Name Accounting Standards Codification
+000057 | -Section S99
+000058 | -Paragraph 1
+000059 | -Subparagraph (SX 210.7-04(12))
+000060 | -Publisher FASB
+000061 | -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1
+000062 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000063 | -Topic 205
+000064 | -SubTopic 20
+000065 | -Name Accounting Standards Codification
+000066 | -Section 45
+000067 | -Paragraph 3A
+000068 | -Publisher FASB
+000069 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-3A
+000070 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000071 | -Topic 205
+000072 | -SubTopic 20
+000073 | -Name Accounting Standards Codification
+000074 | -Section 50
+000075 | -Paragraph 5B
+000076 | -Subparagraph (a)
+000077 | -Publisher FASB
+000078 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000079 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000080 | -Topic 205
+000081 | -SubTopic 20
+000082 | -Name Accounting Standards Codification
+000083 | -Section 45
+000084 | -Paragraph 3B
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-3B
+000087 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000088 | -Topic 205
+000089 | -SubTopic 20
+000090 | -Name Accounting Standards Codification
+000091 | -Section 45
+000092 | -Paragraph 4
+000093 | -Publisher FASB
+000094 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-4
+000095 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+000096 | -Topic 205
+000097 | -SubTopic 20
+000098 | -Name Accounting Standards Codification
+000099 | -Section 50
+000100 | -Paragraph 1
+000101 | -Subparagraph (b)
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-1
+000104 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000105 | -Topic 205
+000106 | -SubTopic 20
+000107 | -Name Accounting Standards Codification
+000108 | -Section 45
+000109 | -Paragraph 3
+000110 | -Publisher FASB
+000111 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-3
+000112 | Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef
+000113 | -Topic 220
+000114 | -SubTopic 10
+000115 | -Name Accounting Standards Codification
+000116 | -Section S99
+000117 | -Paragraph 2
+000118 | -Subparagraph (SX 210.5-03(14))
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000121 | + Details
+000122 | Name:
+000123 | us-gaap_DiscontinuedOperationIncomeLossFromDiscontinuedOperationBeforeIncomeTax
+000124 | Namespace Prefix:
+000125 | us-gaap_
+000126 | Data Type:
+000127 | xbrli:monetaryItemType
+000128 | Balance Type:
+000129 | credit
+000130 | Period Type:
+000131 | duration
+000132 | X
+000133 | - Definition
+000134 | Amount of tax expense (benefit) related to a discontinued operation. Includes, but is not limited to, tax expense (benefit) related to income (loss) from operations during the phase-out period, tax expense (benefit) related to gain (loss) on disposal, tax expense (benefit) related to gain (loss) for reversal of write-down (write-down) to fair value, less cost to sell, and tax expense (benefit) related to adjustments of a prior period gain (loss) on disposal.
+000135 | + References
+000136 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000137 | -Topic 740
+000138 | -SubTopic 10
+000139 | -Name Accounting Standards Codification
+000140 | -Section S99
+000141 | -Paragraph 1
+000142 | -Subparagraph (SAB Topic 6.I.7)
+000143 | -Publisher FASB
+000144 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-1
+000145 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000146 | -Topic 740
+000147 | -SubTopic 10
+000148 | -Name Accounting Standards Codification
+000149 | -Section 50
+000150 | -Paragraph 10
+000151 | -Publisher FASB
+000152 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-10
+000153 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000154 | -Topic 740
+000155 | -SubTopic 20
+000156 | -Name Accounting Standards Codification
+000157 | -Section 45
+000158 | -Paragraph 2
+000159 | -Subparagraph (b)
+000160 | -Publisher FASB
+000161 | -URI https://asc.fasb.org/1943274/2147482659/740-20-45-2
+000162 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000163 | -Topic 205
+000164 | -SubTopic 20
+000165 | -Name Accounting Standards Codification
+000166 | -Section 45
+000167 | -Paragraph 3A
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-3A
+000170 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000171 | -Topic 205
+000172 | -SubTopic 20
+000173 | -Name Accounting Standards Codification
+000174 | -Section 50
+000175 | -Paragraph 5B
+000176 | -Subparagraph (a)
+000177 | -Publisher FASB
+000178 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000179 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+000180 | -Topic 205
+000181 | -SubTopic 20
+000182 | -Name Accounting Standards Codification
+000183 | -Section 50
+000184 | -Paragraph 5C
+000185 | -Subparagraph (b)(2)
+000186 | -Publisher FASB
+000187 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000188 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000189 | -Topic 205
+000190 | -SubTopic 20
+000191 | -Name Accounting Standards Codification
+000192 | -Section 45
+000193 | -Paragraph 3B
+000194 | -Publisher FASB
+000195 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-3B
+000196 | Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef
+000197 | -Topic 205
+000198 | -SubTopic 20
+000199 | -Name Accounting Standards Codification
+000200 | -Section 45
+000201 | -Paragraph 4
+000202 | -Publisher FASB
+000203 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-4
+000204 | Reference 9: http://fasb.org/us-gaap/role/ref/legacyRef
+000205 | -Topic 205
+000206 | -SubTopic 20
+000207 | -Name Accounting Standards Codification
+000208 | -Section 50
+000209 | -Paragraph 1
+000210 | -Subparagraph (b)
+000211 | -Publisher FASB
+000212 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-1
+000213 | + Details
+000214 | Name:
+000215 | us-gaap_DiscontinuedOperationTaxEffectOfDiscontinuedOperation
+000216 | Namespace Prefix:
+000217 | us-gaap_
+000218 | Data Type:
+000219 | xbrli:monetaryItemType
+000220 | Balance Type:
+000221 | debit
+000222 | Period Type:
+000223 | duration
+000224 | X
+000225 | - Definition
+000226 | Amount of costs of goods sold attributable to disposal group, including, but not limited to, discontinued operation.
+000227 | + References
+000228 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000229 | -Topic 205
+000230 | -SubTopic 20
+000231 | -Name Accounting Standards Codification
+000232 | -Section 50
+000233 | -Paragraph 7
+000234 | -Publisher FASB
+000235 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7
+000236 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000237 | -Topic 205
+000238 | -SubTopic 20
+000239 | -Name Accounting Standards Codification
+000240 | -Section 50
+000241 | -Paragraph 5B
+000242 | -Subparagraph (b)
+000243 | -Publisher FASB
+000244 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000245 | + Details
+000246 | Name:
+000247 | us-gaap_DisposalGroupIncludingDiscontinuedOperationCostsOfGoodsSold
+000248 | Namespace Prefix:
+000249 | us-gaap_
+000250 | Data Type:
+000251 | xbrli:monetaryItemType
+000252 | Balance Type:
+000253 | debit
+000254 | Period Type:
+000255 | duration
+000256 | X
+000257 | - Definition
+000258 | Amount of operating expense attributable to disposal group, including, but not limited to, discontinued operation.
+000259 | + References
+000260 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000261 | -Topic 205
+000262 | -SubTopic 20
+000263 | -Name Accounting Standards Codification
+000264 | -Section 50
+000265 | -Paragraph 5B
+000266 | -Subparagraph (b)
+000267 | -Publisher FASB
+000268 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000269 | + Details
+000270 | Name:
+000271 | us-gaap_DisposalGroupIncludingDiscontinuedOperationOperatingExpense
+000272 | Namespace Prefix:
+000273 | us-gaap_
+000274 | Data Type:
+000275 | xbrli:monetaryItemType
+000276 | Balance Type:
+000277 | debit
+000278 | Period Type:
+000279 | duration
+000280 | X
+000281 | - Definition
+000282 | Amount of revenue attributable to disposal group, including, but not limited to, discontinued operation.
+000283 | + References
+000284 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000285 | -Topic 205
+000286 | -SubTopic 20
+000287 | -Name Accounting Standards Codification
+000288 | -Section 50
+000289 | -Paragraph 7
+000290 | -Publisher FASB
+000291 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7
+000292 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000293 | -Topic 205
+000294 | -SubTopic 20
+000295 | -Name Accounting Standards Codification
+000296 | -Section 50
+000297 | -Paragraph 5B
+000298 | -Subparagraph (b)
+000299 | -Publisher FASB
+000300 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000301 | + Details
+000302 | Name:
+000303 | us-gaap_DisposalGroupIncludingDiscontinuedOperationRevenue
+000304 | Namespace Prefix:
+000305 | us-gaap_
+000306 | Data Type:
+000307 | xbrli:monetaryItemType
+000308 | Balance Type:
+000309 | credit
+000310 | Period Type:
+000311 | duration
+000312 | X
+000313 | - Definition
+000314 | Amount after tax of income (loss) from a discontinued operation including the portion attributable to the noncontrolling interest. Includes, but is not limited to, the income (loss) from operations during the phase-out period, gain (loss) on disposal, gain (loss) for reversal of write-down (write-down) to fair value, less cost to sell, and adjustments to a prior period gain (loss) on disposal.
+000315 | + References
+000316 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000317 | -Topic 944
+000318 | -SubTopic 220
+000319 | -Name Accounting Standards Codification
+000320 | -Section S99
+000321 | -Paragraph 1
+000322 | -Subparagraph (SX 210.7-04(12))
+000323 | -Publisher FASB
+000324 | -URI https://asc.fasb.org/1943274/2147477250/944-220-S99-1
+000325 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000326 | -Topic 740
+000327 | -SubTopic 270
+000328 | -Name Accounting Standards Codification
+000329 | -Section 45
+000330 | -Paragraph 3
+000331 | -Publisher FASB
+000332 | -URI https://asc.fasb.org/1943274/2147477349/740-270-45-3
+000333 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000334 | -Topic 205
+000335 | -SubTopic 20
+000336 | -Name Accounting Standards Codification
+000337 | -Section 50
+000338 | -Paragraph 7
+000339 | -Publisher FASB
+000340 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-7
+000341 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000342 | -Topic 205
+000343 | -SubTopic 20
+000344 | -Name Accounting Standards Codification
+000345 | -Section 45
+000346 | -Paragraph 3A
+000347 | -Publisher FASB
+000348 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-3A
+000349 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000350 | -Topic 205
+000351 | -SubTopic 20
+000352 | -Name Accounting Standards Codification
+000353 | -Section 50
+000354 | -Paragraph 5C
+000355 | -Subparagraph (b)(2)
+000356 | -Publisher FASB
+000357 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000358 | Reference 6: http://fasb.org/us-gaap/role/ref/legacyRef
+000359 | -Topic 205
+000360 | -SubTopic 20
+000361 | -Name Accounting Standards Codification
+000362 | -Section 45
+000363 | -Paragraph 3B
+000364 | -Publisher FASB
+000365 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-3B
+000366 | Reference 7: http://fasb.org/us-gaap/role/ref/legacyRef
+000367 | -Topic 205
+000368 | -SubTopic 20
+000369 | -Name Accounting Standards Codification
+000370 | -Section 45
+000371 | -Paragraph 4
+000372 | -Publisher FASB
+000373 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-4
+000374 | Reference 8: http://fasb.org/us-gaap/role/ref/legacyRef
+000375 | -Topic 205
+000376 | -SubTopic 20
+000377 | -Name Accounting Standards Codification
+000378 | -Section 50
+000379 | -Paragraph 1
+000380 | -Subparagraph (b)
+000381 | -Publisher FASB
+000382 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-1
+000383 | Reference 9: http://fasb.org/us-gaap/role/ref/legacyRef
+000384 | -Topic 205
+000385 | -SubTopic 20
+000386 | -Name Accounting Standards Codification
+000387 | -Section 45
+000388 | -Paragraph 3
+000389 | -Publisher FASB
+000390 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-3
+000391 | + Details
+000392 | Name:
+000393 | us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTax
+000394 | Namespace Prefix:
+000395 | us-gaap_
+000396 | Data Type:
+000397 | xbrli:monetaryItemType
+000398 | Balance Type:
+000399 | credit
+000400 | Period Type:
+000401 | duration
+000402 | X
+000403 | - Definition
+000404 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000405 | + References
+000406 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000407 | -Topic 360
+000408 | -SubTopic 10
+000409 | -Name Accounting Standards Codification
+000410 | -Section 50
+000411 | -Paragraph 3A
+000412 | -Subparagraph (b)(2)
+000413 | -Publisher FASB
+000414 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3A
+000415 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000416 | -Topic 360
+000417 | -SubTopic 10
+000418 | -Name Accounting Standards Codification
+000419 | -Section 50
+000420 | -Paragraph 3A
+000421 | -Subparagraph (b)(1)
+000422 | -Publisher FASB
+000423 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3A
+000424 | + Details
+000425 | Name:
+000426 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsLineItems
+000427 | Namespace Prefix:
+000428 | us-gaap_
+000429 | Data Type:
+000430 | xbrli:stringItemType
+000431 | Balance Type:
+000432 | na
+000433 | Period Type:
+000434 | duration
+000435 | X
+000436 | - Details
+000437 | Name:
+000438 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DiscontinuedOperationsDisposedOfBySaleMember
+000439 | Namespace Prefix:
+000440 | Data Type:
+000441 | na
+000442 | Balance Type:
+000443 | Period Type:

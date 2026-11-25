@@ -1,0 +1,208 @@
+000001 | v3.24.1.1.u2
+000002 | Pension and Postretirement Benefit Plans - Narrative (Details)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | Mar. 31, 2024
+000006 | USD ($)
+000007 | plan
+000008 | country
+000009 | Defined Benefit Plan Disclosure [Line Items]
+000010 | Contributions by employer for defined benefit plans
+000011 | $ 1
+000012 | International
+000013 | Defined Benefit Plan Disclosure [Line Items]
+000014 | Number of plans transferred from parent | plan
+000015 | 7
+000016 | Transferred plans, number of countries included in coverage | country
+000017 | 4
+000018 | Minimum
+000019 | Defined Benefit Plan Disclosure [Line Items]
+000020 | Expected future employer contributions for defined benefit plans
+000021 | $ 10
+000022 | Maximum
+000023 | Defined Benefit Plan Disclosure [Line Items]
+000024 | Expected future employer contributions for defined benefit plans
+000025 | $ 15
+000026 | X
+000027 | - Definition
+000028 | Defined Benefit Plan, Number Of Plans Transferred From Parent
+000029 | + References
+000030 | No definition available.
+000031 | + Details
+000032 | Name:
+000033 | solv_DefinedBenefitPlanNumberOfPlansTransferredFromParent
+000034 | Namespace Prefix:
+000035 | solv_
+000036 | Data Type:
+000037 | xbrli:integerItemType
+000038 | Balance Type:
+000039 | na
+000040 | Period Type:
+000041 | instant
+000042 | X
+000043 | - Definition
+000044 | Defined Benefit Plan, Transferred Plans, Number Of Countries Included In Coverage
+000045 | + References
+000046 | No definition available.
+000047 | + Details
+000048 | Name:
+000049 | solv_DefinedBenefitPlanTransferredPlansNumberOfCountriesIncludedInCoverage
+000050 | Namespace Prefix:
+000051 | solv_
+000052 | Data Type:
+000053 | xbrli:integerItemType
+000054 | Balance Type:
+000055 | na
+000056 | Period Type:
+000057 | instant
+000058 | X
+000059 | - Definition
+000060 | Amount of contribution received by defined benefit plan from employer which increases plan assets.
+000061 | + References
+000062 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000063 | -Topic 715
+000064 | -SubTopic 20
+000065 | -Name Accounting Standards Codification
+000066 | -Section 55
+000067 | -Paragraph 17
+000068 | -Publisher FASB
+000069 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17
+000070 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000071 | -Topic 715
+000072 | -SubTopic 20
+000073 | -Name Accounting Standards Codification
+000074 | -Section 50
+000075 | -Paragraph 1
+000076 | -Subparagraph (d)(iv)(01)
+000077 | -Publisher FASB
+000078 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000079 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000080 | -Topic 715
+000081 | -SubTopic 20
+000082 | -Name Accounting Standards Codification
+000083 | -Section 55
+000084 | -Paragraph 18
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18
+000087 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000088 | -Topic 715
+000089 | -SubTopic 20
+000090 | -Name Accounting Standards Codification
+000091 | -Section 50
+000092 | -Paragraph 6
+000093 | -Subparagraph (b)
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6
+000096 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000097 | -Topic 715
+000098 | -SubTopic 20
+000099 | -Name Accounting Standards Codification
+000100 | -Section 50
+000101 | -Paragraph 1
+000102 | -Subparagraph (b)(3)
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000105 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000106 | -Topic 715
+000107 | -SubTopic 20
+000108 | -Name Accounting Standards Codification
+000109 | -Section 50
+000110 | -Paragraph 1
+000111 | -Subparagraph (d)(ii)
+000112 | -Publisher FASB
+000113 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000114 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000115 | -Topic 715
+000116 | -SubTopic 20
+000117 | -Name Accounting Standards Codification
+000118 | -Section 50
+000119 | -Paragraph 1
+000120 | -Subparagraph (d)(iv)(01)
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000123 | + Details
+000124 | Name:
+000125 | us-gaap_DefinedBenefitPlanContributionsByEmployer
+000126 | Namespace Prefix:
+000127 | us-gaap_
+000128 | Data Type:
+000129 | xbrli:monetaryItemType
+000130 | Balance Type:
+000131 | debit
+000132 | Period Type:
+000133 | duration
+000134 | X
+000135 | - Definition
+000136 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000137 | + References
+000138 | No definition available.
+000139 | + Details
+000140 | Name:
+000141 | us-gaap_DefinedBenefitPlanDisclosureLineItems
+000142 | Namespace Prefix:
+000143 | us-gaap_
+000144 | Data Type:
+000145 | xbrli:stringItemType
+000146 | Balance Type:
+000147 | na
+000148 | Period Type:
+000149 | duration
+000150 | X
+000151 | - Definition
+000152 | Amount of contributions received and expected to be received by defined benefit plan from employer in current fiscal year.
+000153 | + References
+000154 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000155 | -Topic 715
+000156 | -SubTopic 20
+000157 | -Name Accounting Standards Codification
+000158 | -Section 55
+000159 | -Paragraph 18
+000160 | -Publisher FASB
+000161 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-18
+000162 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000163 | -Topic 715
+000164 | -SubTopic 20
+000165 | -Name Accounting Standards Codification
+000166 | -Section 50
+000167 | -Paragraph 6
+000168 | -Subparagraph (b)
+000169 | -Publisher FASB
+000170 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-6
+000171 | + Details
+000172 | Name:
+000173 | us-gaap_DefinedBenefitPlanExpectedFutureEmployerContributionsCurrentFiscalYear
+000174 | Namespace Prefix:
+000175 | us-gaap_
+000176 | Data Type:
+000177 | xbrli:monetaryItemType
+000178 | Balance Type:
+000179 | debit
+000180 | Period Type:
+000181 | instant
+000182 | X
+000183 | - Details
+000184 | Name:
+000185 | us-gaap_RetirementPlanSponsorLocationAxis=us-gaap_ForeignPlanMember
+000186 | Namespace Prefix:
+000187 | Data Type:
+000188 | na
+000189 | Balance Type:
+000190 | Period Type:
+000191 | X
+000192 | - Details
+000193 | Name:
+000194 | srt_RangeAxis=srt_MinimumMember
+000195 | Namespace Prefix:
+000196 | Data Type:
+000197 | na
+000198 | Balance Type:
+000199 | Period Type:
+000200 | X
+000201 | - Details
+000202 | Name:
+000203 | srt_RangeAxis=srt_MaximumMember
+000204 | Namespace Prefix:
+000205 | Data Type:
+000206 | na
+000207 | Balance Type:
+000208 | Period Type:

@@ -1,0 +1,361 @@
+000001 | v3.26.3
+000002 | Commitments and Contingencies - Respirator (Details)
+000003 | respirator in Millions
+000004 | 1 Months Ended
+000005 | 9 Months Ended
+000006 | 12 Months Ended
+000007 | Oct. 31, 2019
+000008 | USD ($)
+000009 | respirator
+000010 | Sep. 30, 2026
+000011 | USD ($)
+000012 | plaintiff
+000013 | case
+000014 | decade
+000015 | Dec. 31, 2025
+000016 | USD ($)
+000017 | plaintiff
+000018 | Dec. 31, 2003
+000019 | party
+000020 | Respirator Mask/Asbestos Litigation
+000021 | Loss contingencies
+000022 | Total number of named claimants | plaintiff
+000023 | 4,200
+000024 | 3,700
+000025 | Number of decades involved in claims | decade
+000026 | 2
+000027 | Number of total claims the Company prevailed after being taken to trial | case
+000028 | 19
+000029 | Number of cases tried | case
+000030 | 20
+000031 | Loss contingency accrual
+000032 | $ 439,000,000
+000033 | $ 473,000,000
+000034 | Respirator Mask/Asbestos Litigation - State of West Virginia
+000035 | Loss contingencies
+000036 | Number of additional defendants | party
+000037 | 2
+000038 | Amount of punitive damages awarded
+000039 | $ 5,000
+000040 | Number of respirators sold | respirator
+000041 | 5
+000042 | Loss contingency accrual
+000043 | 0
+000044 | Respirator Mask/Asbestos Litigation - Aearo Technologies
+000045 | Loss contingencies
+000046 | Loss contingency accrual
+000047 | 56,000,000
+000048 | $ 59,000,000
+000049 | Quarterly fee paid to Cabot to retain responsibility and liability for products
+000050 | $ 100,000
+000051 | X
+000052 | - Definition
+000053 | The amount of punitive damages awarded.
+000054 | + References
+000055 | No definition available.
+000056 | + Details
+000057 | Name:
+000058 | mmm_LitigationSettlementExpensePunitive
+000059 | Namespace Prefix:
+000060 | mmm_
+000061 | Data Type:
+000062 | xbrli:monetaryItemType
+000063 | Balance Type:
+000064 | debit
+000065 | Period Type:
+000066 | duration
+000067 | X
+000068 | - Definition
+000069 | The number of claims that the Company prevailed after being taken to trial.
+000070 | + References
+000071 | No definition available.
+000072 | + Details
+000073 | Name:
+000074 | mmm_LossContingencyClaimsPrevailedAfterTakenToTrialNumber
+000075 | Namespace Prefix:
+000076 | mmm_
+000077 | Data Type:
+000078 | xbrli:integerItemType
+000079 | Balance Type:
+000080 | na
+000081 | Period Type:
+000082 | duration
+000083 | X
+000084 | - Definition
+000085 | Loss Contingency, Number Of Cases Tried
+000086 | + References
+000087 | No definition available.
+000088 | + Details
+000089 | Name:
+000090 | mmm_LossContingencyNumberOfCasesTried
+000091 | Namespace Prefix:
+000092 | mmm_
+000093 | Data Type:
+000094 | xbrli:integerItemType
+000095 | Balance Type:
+000096 | na
+000097 | Period Type:
+000098 | duration
+000099 | X
+000100 | - Definition
+000101 | Loss Contingency, Number Of Decades Involved In Claims
+000102 | + References
+000103 | No definition available.
+000104 | + Details
+000105 | Name:
+000106 | mmm_LossContingencyNumberOfDecadesInvolvedInClaims
+000107 | Namespace Prefix:
+000108 | mmm_
+000109 | Data Type:
+000110 | xbrli:integerItemType
+000111 | Balance Type:
+000112 | na
+000113 | Period Type:
+000114 | duration
+000115 | X
+000116 | - Definition
+000117 | Loss Contingency, Number Of Parties Jointly And Severally Liable In Litigation
+000118 | + References
+000119 | No definition available.
+000120 | + Details
+000121 | Name:
+000122 | mmm_LossContingencyNumberOfPartiesJointlyAndSeverallyLiableInLitigation
+000123 | Namespace Prefix:
+000124 | mmm_
+000125 | Data Type:
+000126 | xbrli:integerItemType
+000127 | Balance Type:
+000128 | na
+000129 | Period Type:
+000130 | instant
+000131 | X
+000132 | - Definition
+000133 | Loss Contingency, Number Of Respirators Sold
+000134 | + References
+000135 | No definition available.
+000136 | + Details
+000137 | Name:
+000138 | mmm_LossContingencyNumberOfRespiratorsSold
+000139 | Namespace Prefix:
+000140 | mmm_
+000141 | Data Type:
+000142 | xbrli:integerItemType
+000143 | Balance Type:
+000144 | na
+000145 | Period Type:
+000146 | duration
+000147 | X
+000148 | - Definition
+000149 | The quarterly fee paid to a co-defendant to retain responsibility, and liability for and indemnify the entity's subsidiary against product liability claims for respirators manufactured prior to July 11, 1995.
+000150 | + References
+000151 | No definition available.
+000152 | + Details
+000153 | Name:
+000154 | mmm_QuarterlyFeePaidToCoDefendantForRetentionOfLiability
+000155 | Namespace Prefix:
+000156 | mmm_
+000157 | Data Type:
+000158 | xbrli:monetaryItemType
+000159 | Balance Type:
+000160 | debit
+000161 | Period Type:
+000162 | duration
+000163 | X
+000164 | - Definition
+000165 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000166 | + References
+000167 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000168 | -Topic 450
+000169 | -SubTopic 20
+000170 | -Name Accounting Standards Codification
+000171 | -Section 50
+000172 | -Paragraph 9
+000173 | -Subparagraph (a)
+000174 | -Publisher FASB
+000175 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000176 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000177 | -Topic 450
+000178 | -SubTopic 20
+000179 | -Name Accounting Standards Codification
+000180 | -Section 50
+000181 | -Paragraph 4
+000182 | -Subparagraph (a)
+000183 | -Publisher FASB
+000184 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000185 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000186 | -Topic 405
+000187 | -SubTopic 30
+000188 | -Name Accounting Standards Codification
+000189 | -Section 50
+000190 | -Paragraph 1
+000191 | -Publisher FASB
+000192 | -URI https://asc.fasb.org/1943274/2147482645/405-30-50-1
+000193 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000194 | -Topic 944
+000195 | -SubTopic 40
+000196 | -Name Accounting Standards Codification
+000197 | -Section S99
+000198 | -Paragraph 1
+000199 | -Subparagraph (SAB Topic 5.W.Q2)
+000200 | -Publisher FASB
+000201 | -URI https://asc.fasb.org/1943274/2147479583/944-40-S99-1
+000202 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000203 | -Topic 275
+000204 | -SubTopic 10
+000205 | -Name Accounting Standards Codification
+000206 | -Section 50
+000207 | -Paragraph 9
+000208 | -Publisher FASB
+000209 | -URI https://asc.fasb.org/1943274/2147482861/275-10-50-9
+000210 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000211 | -Topic 720
+000212 | -SubTopic 20
+000213 | -Name Accounting Standards Codification
+000214 | -Section 50
+000215 | -Paragraph 1
+000216 | -Publisher FASB
+000217 | -URI https://asc.fasb.org/1943274/2147483359/720-20-50-1
+000218 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000219 | -Topic 460
+000220 | -SubTopic 10
+000221 | -Name Accounting Standards Codification
+000222 | -Section 55
+000223 | -Paragraph 27
+000224 | -Publisher FASB
+000225 | -URI https://asc.fasb.org/1943274/2147482395/460-10-55-27
+000226 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000227 | -Topic 450
+000228 | -SubTopic 20
+000229 | -Name Accounting Standards Codification
+000230 | -Section 50
+000231 | -Paragraph 9
+000232 | -Subparagraph (b)
+000233 | -Publisher FASB
+000234 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000235 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000236 | -Topic 450
+000237 | -SubTopic 20
+000238 | -Name Accounting Standards Codification
+000239 | -Section 50
+000240 | -Paragraph 4
+000241 | -Subparagraph (b)
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000244 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000245 | -Topic 460
+000246 | -SubTopic 10
+000247 | -Name Accounting Standards Codification
+000248 | -Section 50
+000249 | -Paragraph 3
+000250 | -Publisher FASB
+000251 | -URI https://asc.fasb.org/1943274/2147482425/460-10-50-3
+000252 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000253 | -Topic 450
+000254 | -SubTopic 20
+000255 | -Name Accounting Standards Codification
+000256 | -Section 50
+000257 | -Paragraph 1
+000258 | -Publisher FASB
+000259 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000260 | + Details
+000261 | Name:
+000262 | us-gaap_LossContingenciesLineItems
+000263 | Namespace Prefix:
+000264 | us-gaap_
+000265 | Data Type:
+000266 | xbrli:stringItemType
+000267 | Balance Type:
+000268 | na
+000269 | Period Type:
+000270 | duration
+000271 | X
+000272 | - Definition
+000273 | Amount of loss contingency liability.
+000274 | + References
+000275 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000276 | -Topic 450
+000277 | -SubTopic 20
+000278 | -Name Accounting Standards Codification
+000279 | -Section 50
+000280 | -Paragraph 1
+000281 | -Publisher FASB
+000282 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000283 | Reference 2: http://www.xbrl.org/2003/role/recommendedDisclosureRef
+000284 | -Topic 450
+000285 | -SubTopic 20
+000286 | -Name Accounting Standards Codification
+000287 | -Section 50
+000288 | -Paragraph 10
+000289 | -Publisher FASB
+000290 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-10
+000291 | + Details
+000292 | Name:
+000293 | us-gaap_LossContingencyAccrualAtCarryingValue
+000294 | Namespace Prefix:
+000295 | us-gaap_
+000296 | Data Type:
+000297 | xbrli:monetaryItemType
+000298 | Balance Type:
+000299 | credit
+000300 | Period Type:
+000301 | instant
+000302 | X
+000303 | - Definition
+000304 | Number of plaintiffs that have filed claims pertaining to a loss contingency.
+000305 | + References
+000306 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000307 | -Topic 450
+000308 | -SubTopic 20
+000309 | -Name Accounting Standards Codification
+000310 | -Section 50
+000311 | -Paragraph 9
+000312 | -Subparagraph (a)
+000313 | -Publisher FASB
+000314 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000315 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000316 | -Topic 450
+000317 | -SubTopic 20
+000318 | -Name Accounting Standards Codification
+000319 | -Section 50
+000320 | -Paragraph 4
+000321 | -Subparagraph (a)
+000322 | -Publisher FASB
+000323 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000324 | + Details
+000325 | Name:
+000326 | us-gaap_LossContingencyNumberOfPlaintiffs
+000327 | Namespace Prefix:
+000328 | us-gaap_
+000329 | Data Type:
+000330 | xbrli:integerItemType
+000331 | Balance Type:
+000332 | na
+000333 | Period Type:
+000334 | duration
+000335 | X
+000336 | - Details
+000337 | Name:
+000338 | us-gaap_LossContingenciesByNatureOfContingencyAxis=mmm_RespiratorMaskAsbestosLitigationMember
+000339 | Namespace Prefix:
+000340 | Data Type:
+000341 | na
+000342 | Balance Type:
+000343 | Period Type:
+000344 | X
+000345 | - Details
+000346 | Name:
+000347 | us-gaap_LossContingenciesByNatureOfContingencyAxis=mmm_RespiratorMaskAsbestosLitigationWestVirginiaMember
+000348 | Namespace Prefix:
+000349 | Data Type:
+000350 | na
+000351 | Balance Type:
+000352 | Period Type:
+000353 | X
+000354 | - Details
+000355 | Name:
+000356 | us-gaap_LossContingenciesByNatureOfContingencyAxis=mmm_RespiratorMaskAsbestosLitigationAearoMember
+000357 | Namespace Prefix:
+000358 | Data Type:
+000359 | na
+000360 | Balance Type:
+000361 | Period Type:

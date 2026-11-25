@@ -1,0 +1,104 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0508</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2024-05-13</periodOfReport>
+000010 | 
+000011 |     <issuer>
+000012 |         <issuerCik>0001964738</issuerCik>
+000013 |         <issuerName>Solventum Corp</issuerName>
+000014 |         <issuerTradingSymbol>SOLV</issuerTradingSymbol>
+000015 |     </issuer>
+000016 | 
+000017 |     <reportingOwner>
+000018 |         <reportingOwnerId>
+000019 |             <rptOwnerCik>0002015857</rptOwnerCik>
+000020 |             <rptOwnerName>Barry Chris</rptOwnerName>
+000021 |         </reportingOwnerId>
+000022 |         <reportingOwnerAddress>
+000023 |             <rptOwnerStreet1>2510 CONWAY AVE,</rptOwnerStreet1>
+000024 |             <rptOwnerStreet2>3M CENTER BLDG. 275-6W</rptOwnerStreet2>
+000025 |             <rptOwnerCity>MAPLEWOOD</rptOwnerCity>
+000026 |             <rptOwnerState>MN</rptOwnerState>
+000027 |             <rptOwnerZipCode>55144</rptOwnerZipCode>
+000028 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000029 |         </reportingOwnerAddress>
+000030 |         <reportingOwnerRelationship>
+000031 |             <isOfficer>1</isOfficer>
+000032 |             <officerTitle>Executive Vice President</officerTitle>
+000033 |         </reportingOwnerRelationship>
+000034 |     </reportingOwner>
+000035 | 
+000036 |     <aff10b5One>0</aff10b5One>
+000037 | 
+000038 |     <derivativeTable>
+000039 |         <derivativeTransaction>
+000040 |             <securityTitle>
+000041 |                 <value>Restricted Stock Units</value>
+000042 |             </securityTitle>
+000043 |             <conversionOrExercisePrice>
+000044 |                 <footnoteId id="F1"/>
+000045 |             </conversionOrExercisePrice>
+000046 |             <transactionDate>
+000047 |                 <value>2024-05-13</value>
+000048 |             </transactionDate>
+000049 |             <transactionCoding>
+000050 |                 <transactionFormType>4</transactionFormType>
+000051 |                 <transactionCode>A</transactionCode>
+000052 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000053 |             </transactionCoding>
+000054 |             <transactionTimeliness></transactionTimeliness>
+000055 |             <transactionAmounts>
+000056 |                 <transactionShares>
+000057 |                     <value>23757</value>
+000058 |                 </transactionShares>
+000059 |                 <transactionPricePerShare>
+000060 |                     <value>0</value>
+000061 |                 </transactionPricePerShare>
+000062 |                 <transactionAcquiredDisposedCode>
+000063 |                     <value>A</value>
+000064 |                 </transactionAcquiredDisposedCode>
+000065 |             </transactionAmounts>
+000066 |             <exerciseDate>
+000067 |                 <footnoteId id="F2"/>
+000068 |             </exerciseDate>
+000069 |             <expirationDate>
+000070 |                 <value>2034-05-13</value>
+000071 |             </expirationDate>
+000072 |             <underlyingSecurity>
+000073 |                 <underlyingSecurityTitle>
+000074 |                     <value>Common Stock</value>
+000075 |                 </underlyingSecurityTitle>
+000076 |                 <underlyingSecurityShares>
+000077 |                     <value>23757</value>
+000078 |                 </underlyingSecurityShares>
+000079 |             </underlyingSecurity>
+000080 |             <postTransactionAmounts>
+000081 |                 <sharesOwnedFollowingTransaction>
+000082 |                     <value>23757</value>
+000083 |                 </sharesOwnedFollowingTransaction>
+000084 |             </postTransactionAmounts>
+000085 |             <ownershipNature>
+000086 |                 <directOrIndirectOwnership>
+000087 |                     <value>D</value>
+000088 |                 </directOrIndirectOwnership>
+000089 |             </ownershipNature>
+000090 |         </derivativeTransaction>
+000091 |     </derivativeTable>
+000092 | 
+000093 |     <footnotes>
+000094 |         <footnote id="F1">Each Restricted Stock unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the issuer's Class A Common Stock upon settlement.</footnote>
+000095 |         <footnote id="F2">The RSUs shall fully vest in three tranches, with one-third vesting on each of May 13, 2025; May 13, 2026; and May 13, 2027, subject to continued service through the vesting date.</footnote>
+000096 |     </footnotes>
+000097 | 
+000098 |     <ownerSignature>
+000099 |         <signatureName>/s/ Breanna L. Wise, attorney-in-fact for Chris Barry</signatureName>
+000100 |         <signatureDate>2024-05-15</signatureDate>
+000101 |     </ownerSignature>
+000102 | </ownershipDocument>
+000103 | </XML>
+000104 | 

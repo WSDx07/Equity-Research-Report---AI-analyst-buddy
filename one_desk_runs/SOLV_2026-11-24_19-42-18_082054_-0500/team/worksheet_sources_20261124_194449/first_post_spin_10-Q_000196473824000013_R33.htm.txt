@@ -1,0 +1,179 @@
+000001 | v3.24.1.1.u2
+000002 | Revenue Recognition (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | Mar. 31, 2024
+000006 | Mar. 31, 2023
+000007 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]
+000008 | Operating lease, lease income
+000009 | $ 146
+000010 | $ 145
+000011 | Contract with customer, liability, revenue recognized
+000012 | $ 240
+000013 | $ 205
+000014 | One Customer | Accounts Receivable | Customer Concentration Risk
+000015 | Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]
+000016 | Concentration risk, percentage
+000017 | 10.00%
+000018 | X
+000019 | - Definition
+000020 | For an entity that discloses a concentration risk in relation to quantitative amount, which serves as the "benchmark" (or denominator) in the equation, this concept represents the concentration percentage derived from the division.
+000021 | + References
+000022 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000023 | -Topic 280
+000024 | -SubTopic 10
+000025 | -Name Accounting Standards Codification
+000026 | -Section 50
+000027 | -Paragraph 42
+000028 | -Publisher FASB
+000029 | -URI https://asc.fasb.org/1943274/2147482810/280-10-50-42
+000030 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000031 | -Name Accounting Standards Codification
+000032 | -Topic 825
+000033 | -SubTopic 10
+000034 | -Section 50
+000035 | -Paragraph 21
+000036 | -Subparagraph (a)
+000037 | -Publisher FASB
+000038 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-21
+000039 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000040 | -Name Accounting Standards Codification
+000041 | -Topic 825
+000042 | -SubTopic 10
+000043 | -Section 50
+000044 | -Paragraph 20
+000045 | -Publisher FASB
+000046 | -URI https://asc.fasb.org/1943274/2147482907/825-10-50-20
+000047 | Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+000048 | -Name Accounting Standards Codification
+000049 | -Topic 275
+000050 | -SubTopic 10
+000051 | -Section 50
+000052 | -Paragraph 18
+000053 | -Publisher FASB
+000054 | -URI https://asc.fasb.org/1943274/2147482861/275-10-50-18
+000055 | Reference 5: http://fasb.org/us-gaap/role/ref/legacyRef
+000056 | -Name Accounting Standards Codification
+000057 | -Topic 275
+000058 | -SubTopic 10
+000059 | -Section 50
+000060 | -Paragraph 20
+000061 | -Publisher FASB
+000062 | -URI https://asc.fasb.org/1943274/2147482861/275-10-50-20
+000063 | + Details
+000064 | Name:
+000065 | us-gaap_ConcentrationRiskPercentage1
+000066 | Namespace Prefix:
+000067 | us-gaap_
+000068 | Data Type:
+000069 | dtr-types:percentItemType
+000070 | Balance Type:
+000071 | na
+000072 | Period Type:
+000073 | duration
+000074 | X
+000075 | - Definition
+000076 | Amount of revenue recognized that was previously included in balance of obligation to transfer good or service to customer for which consideration from customer has been received or is due.
+000077 | + References
+000078 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000079 | -Topic 606
+000080 | -SubTopic 10
+000081 | -Name Accounting Standards Codification
+000082 | -Section 50
+000083 | -Paragraph 8
+000084 | -Subparagraph (b)
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147479806/606-10-50-8
+000087 | + Details
+000088 | Name:
+000089 | us-gaap_ContractWithCustomerLiabilityRevenueRecognized
+000090 | Namespace Prefix:
+000091 | us-gaap_
+000092 | Data Type:
+000093 | xbrli:monetaryItemType
+000094 | Balance Type:
+000095 | credit
+000096 | Period Type:
+000097 | duration
+000098 | X
+000099 | - Definition
+000100 | Amount of operating lease income from lease payments and variable lease payments paid and payable to lessor. Includes, but is not limited to, variable lease payments not included in measurement of lease receivable.
+000101 | + References
+000102 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000103 | -Topic 842
+000104 | -SubTopic 30
+000105 | -Name Accounting Standards Codification
+000106 | -Section 50
+000107 | -Paragraph 5
+000108 | -Publisher FASB
+000109 | -URI https://asc.fasb.org/1943274/2147479773/842-30-50-5
+000110 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000111 | -Topic 270
+000112 | -SubTopic 10
+000113 | -Name Accounting Standards Codification
+000114 | -Section 50
+000115 | -Paragraph 6A
+000116 | -Publisher FASB
+000117 | -URI https://asc.fasb.org/1943274/2147482964/270-10-50-6A
+000118 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000119 | -Topic 842
+000120 | -SubTopic 30
+000121 | -Name Accounting Standards Codification
+000122 | -Section 45
+000123 | -Paragraph 3
+000124 | -Publisher FASB
+000125 | -URI https://asc.fasb.org/1943274/2147479016/842-30-45-3
+000126 | + Details
+000127 | Name:
+000128 | us-gaap_OperatingLeaseLeaseIncome
+000129 | Namespace Prefix:
+000130 | us-gaap_
+000131 | Data Type:
+000132 | xbrli:monetaryItemType
+000133 | Balance Type:
+000134 | credit
+000135 | Period Type:
+000136 | duration
+000137 | X
+000138 | - Definition
+000139 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000140 | + References
+000141 | No definition available.
+000142 | + Details
+000143 | Name:
+000144 | us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionLineItems
+000145 | Namespace Prefix:
+000146 | us-gaap_
+000147 | Data Type:
+000148 | xbrli:stringItemType
+000149 | Balance Type:
+000150 | na
+000151 | Period Type:
+000152 | duration
+000153 | X
+000154 | - Details
+000155 | Name:
+000156 | srt_MajorCustomersAxis=solv_OneCustomerMember
+000157 | Namespace Prefix:
+000158 | Data Type:
+000159 | na
+000160 | Balance Type:
+000161 | Period Type:
+000162 | X
+000163 | - Details
+000164 | Name:
+000165 | us-gaap_ConcentrationRiskByBenchmarkAxis=us-gaap_AccountsReceivableMember
+000166 | Namespace Prefix:
+000167 | Data Type:
+000168 | na
+000169 | Balance Type:
+000170 | Period Type:
+000171 | X
+000172 | - Details
+000173 | Name:
+000174 | us-gaap_ConcentrationRiskByTypeAxis=us-gaap_CustomerConcentrationRiskMember
+000175 | Namespace Prefix:
+000176 | Data Type:
+000177 | na
+000178 | Balance Type:
+000179 | Period Type:

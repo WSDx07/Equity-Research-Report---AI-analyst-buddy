@@ -1,0 +1,99 @@
+000001 | v3.25.4
+000002 | Earnings (Loss) Per Share
+000003 | 12 Months Ended
+000004 | Dec. 31, 2025
+000005 | Earnings Per Share [Abstract]
+000006 | Earnings (Loss) Per Share
+000007 | Note 10. Earnings (Loss) Per Share
+000008 | The computations for basic and diluted earnings per share follow:
+000009 | (Amounts in millions, except per share amounts) 2025 2024 2023
+000010 | Numerator:
+000011 | Net income (loss) from continuing operations attributable to 3M
+000012 | $ 3,250 $ 4,009 $ (8,402)
+000013 | Net income from discontinued operations, net of taxes
+000014 | — 164 1,407
+000015 | Net income (loss) attributable to 3M
+000016 | $ 3,250 $ 4,173 $ (6,995)
+000017 | Denominator:
+000018 | Weighted average 3M common shares outstanding – basic
+000019 | 537.4 550.8 553.9
+000020 | Dilution associated with stock-based compensation plans 3.9 1.6 —
+000021 | Weighted average 3M common shares outstanding – diluted
+000022 | 541.3 552.4 553.9
+000023 | Earnings (loss) per share attributable to 3M common shareholders:
+000024 | Earnings (loss) per share from continuing operations — basic
+000025 | $ 6.05 $ 7.28 $ (15.17)
+000026 | Earnings per share from discontinued operations — basic
+000027 | — 0.30 2.54
+000028 | Earnings (loss) per share — basic
+000029 | $ 6.05 $ 7.58 $ (12.63)
+000030 | Earnings (loss) per share from continuing operations — diluted
+000031 | $ 6.00 $ 7.26 $ (15.17)
+000032 | Earnings per share from discontinued operations — diluted
+000033 | — 0.29 2.54
+000034 | Earnings (loss) per share — diluted
+000035 | $ 6.00 $ 7.55 $ (12.63)
+000036 | The difference in the weighted average 3M shares outstanding for calculating basic and diluted earnings per share attributable to 3M common shareholders is the result of the dilution associated with the Company’s stock-based compensation plans. Certain awards outstanding below under these stock-based compensation plans were not included in the computation of diluted earnings per share attributable to 3M common shareholders because they would have had an anti-dilutive effect. In periods of net losses, these anti-dilutive effects include all weighted average awards outstanding and weighted average shares outstanding is the same for the calculations of both basic and diluted loss per share.
+000037 | (Millions)
+000038 | 2025 2024 2023
+000039 | Weighted average number of antidilutive shares
+000040 | 12.7 30.8 36.1
+000041 | X
+000042 | - References
+000043 | No definition available.
+000044 | + Details
+000045 | Name:
+000046 | us-gaap_EarningsPerShareAbstract
+000047 | Namespace Prefix:
+000048 | us-gaap_
+000049 | Data Type:
+000050 | xbrli:stringItemType
+000051 | Balance Type:
+000052 | na
+000053 | Period Type:
+000054 | duration
+000055 | X
+000056 | - Definition
+000057 | The entire disclosure for earnings per share.
+000058 | + References
+000059 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000060 | -Topic 260
+000061 | -SubTopic 10
+000062 | -Name Accounting Standards Codification
+000063 | -Section 50
+000064 | -Paragraph 1
+000065 | -Subparagraph (c)
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-1
+000068 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000069 | -Topic 260
+000070 | -Name Accounting Standards Codification
+000071 | -Publisher FASB
+000072 | -URI https://asc.fasb.org/260/tableOfContent
+000073 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000074 | -Topic 260
+000075 | -SubTopic 10
+000076 | -Name Accounting Standards Codification
+000077 | -Section 50
+000078 | -Paragraph 2
+000079 | -Publisher FASB
+000080 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-2
+000081 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000082 | -Topic 260
+000083 | -SubTopic 10
+000084 | -Name Accounting Standards Codification
+000085 | -Section 50
+000086 | -Paragraph 3
+000087 | -Publisher FASB
+000088 | -URI https://asc.fasb.org/1943274/2147482662/260-10-50-3
+000089 | + Details
+000090 | Name:
+000091 | us-gaap_EarningsPerShareTextBlock
+000092 | Namespace Prefix:
+000093 | us-gaap_
+000094 | Data Type:
+000095 | dtr-types:textBlockItemType
+000096 | Balance Type:
+000097 | na
+000098 | Period Type:
+000099 | duration

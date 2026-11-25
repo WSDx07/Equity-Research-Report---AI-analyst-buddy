@@ -1,0 +1,133 @@
+000001 | v3.26.3
+000002 | Commitments and Contingencies - Watson Grinding and Other Matters (Details)
+000003 | 1 Months Ended
+000004 | 9 Months Ended
+000005 | Nov. 30, 2023
+000006 | citation
+000007 | Sep. 30, 2026
+000008 | plaintiff
+000009 | Watson Grinding
+000010 | Product Liability Litigation
+000011 | Total number of named claimants | plaintiff
+000012 | 1,900
+000013 | Occupational Safety And Health Administration (“OSHA”)
+000014 | Product Liability Litigation
+000015 | Number of citations issued | citation
+000016 | 2
+000017 | X
+000018 | - Definition
+000019 | Loss Contingency, Number Of Citations Issued
+000020 | + References
+000021 | No definition available.
+000022 | + Details
+000023 | Name:
+000024 | mmm_LossContingencyNumberOfCitationsIssued
+000025 | Namespace Prefix:
+000026 | mmm_
+000027 | Data Type:
+000028 | xbrli:integerItemType
+000029 | Balance Type:
+000030 | na
+000031 | Period Type:
+000032 | duration
+000033 | X
+000034 | - Definition
+000035 | Number of plaintiffs that have filed claims pertaining to a loss contingency.
+000036 | + References
+000037 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000038 | -Topic 450
+000039 | -SubTopic 20
+000040 | -Name Accounting Standards Codification
+000041 | -Section 50
+000042 | -Paragraph 9
+000043 | -Subparagraph (a)
+000044 | -Publisher FASB
+000045 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000046 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000047 | -Topic 450
+000048 | -SubTopic 20
+000049 | -Name Accounting Standards Codification
+000050 | -Section 50
+000051 | -Paragraph 4
+000052 | -Subparagraph (a)
+000053 | -Publisher FASB
+000054 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000055 | + Details
+000056 | Name:
+000057 | us-gaap_LossContingencyNumberOfPlaintiffs
+000058 | Namespace Prefix:
+000059 | us-gaap_
+000060 | Data Type:
+000061 | xbrli:integerItemType
+000062 | Balance Type:
+000063 | na
+000064 | Period Type:
+000065 | duration
+000066 | X
+000067 | - Definition
+000068 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000069 | + References
+000070 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000071 | -Topic 450
+000072 | -SubTopic 20
+000073 | -Name Accounting Standards Codification
+000074 | -Section 50
+000075 | -Paragraph 1
+000076 | -Publisher FASB
+000077 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000078 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000079 | -Topic 450
+000080 | -SubTopic 20
+000081 | -Name Accounting Standards Codification
+000082 | -Section 50
+000083 | -Paragraph 9
+000084 | -Subparagraph (b)
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000087 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000088 | -Topic 450
+000089 | -SubTopic 20
+000090 | -Name Accounting Standards Codification
+000091 | -Section 50
+000092 | -Paragraph 4
+000093 | -Subparagraph (b)
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000096 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000097 | -Topic 450
+000098 | -SubTopic 20
+000099 | -Name Accounting Standards Codification
+000100 | -Section S99
+000101 | -Paragraph 1
+000102 | -Subparagraph (SAB Topic 5.Y.Q2)
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000105 | + Details
+000106 | Name:
+000107 | us-gaap_ProductLiabilityContingencyLineItems
+000108 | Namespace Prefix:
+000109 | us-gaap_
+000110 | Data Type:
+000111 | xbrli:stringItemType
+000112 | Balance Type:
+000113 | na
+000114 | Period Type:
+000115 | duration
+000116 | X
+000117 | - Details
+000118 | Name:
+000119 | srt_LitigationCaseAxis=mmm_WatsonGrindingMember
+000120 | Namespace Prefix:
+000121 | Data Type:
+000122 | na
+000123 | Balance Type:
+000124 | Period Type:
+000125 | X
+000126 | - Details
+000127 | Name:
+000128 | srt_LitigationCaseAxis=mmm_OccupationalSafetyAndHealthAdministrationOSHAMember
+000129 | Namespace Prefix:
+000130 | Data Type:
+000131 | na
+000132 | Balance Type:
+000133 | Period Type:

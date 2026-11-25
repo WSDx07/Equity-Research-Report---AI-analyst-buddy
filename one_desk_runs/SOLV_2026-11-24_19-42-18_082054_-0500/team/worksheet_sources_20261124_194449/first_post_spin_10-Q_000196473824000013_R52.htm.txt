@@ -1,0 +1,227 @@
+000001 | v3.24.1.1.u2
+000002 | Pension and Postretirement Benefit Plans - Estimated Pension and Postretirement Benefit Payments (Details)
+000003 | $ in Millions
+000004 | Mar. 31, 2024
+000005 | USD ($)
+000006 | Qualified and Non-qualified Pension Benefits | United States
+000007 | Defined Benefit Plan Disclosure [Line Items]
+000008 | 2024 Remaining Benefit Payments
+000009 | $ 142
+000010 | 2025 Benefit Payments
+000011 | 147
+000012 | 2026 Benefit Payments
+000013 | 147
+000014 | 2027 Benefit Payments
+000015 | 147
+000016 | 2028 Benefit Payments
+000017 | 147
+000018 | Next five years
+000019 | 709
+000020 | Qualified and Non-qualified Pension Benefits | International
+000021 | Defined Benefit Plan Disclosure [Line Items]
+000022 | 2024 Remaining Benefit Payments
+000023 | 2
+000024 | 2025 Benefit Payments
+000025 | 3
+000026 | 2026 Benefit Payments
+000027 | 3
+000028 | 2027 Benefit Payments
+000029 | 4
+000030 | 2028 Benefit Payments
+000031 | 4
+000032 | Next five years
+000033 | 23
+000034 | Postretirement Benefits
+000035 | Defined Benefit Plan Disclosure [Line Items]
+000036 | 2024 Remaining Benefit Payments
+000037 | 18
+000038 | 2025 Benefit Payments
+000039 | 19
+000040 | 2026 Benefit Payments
+000041 | 20
+000042 | 2027 Benefit Payments
+000043 | 20
+000044 | 2028 Benefit Payments
+000045 | 21
+000046 | Next five years
+000047 | $ 98
+000048 | X
+000049 | - Definition
+000050 | Defined Benefit Plan, Expected Future Benefit Payment, after Year Four for Next Five Years
+000051 | + References
+000052 | No definition available.
+000053 | + Details
+000054 | Name:
+000055 | solv_DefinedBenefitPlanExpectedFutureBenefitPaymentAfterYearFourForNextFiveYears
+000056 | Namespace Prefix:
+000057 | solv_
+000058 | Data Type:
+000059 | xbrli:monetaryItemType
+000060 | Balance Type:
+000061 | credit
+000062 | Period Type:
+000063 | instant
+000064 | X
+000065 | - Definition
+000066 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000067 | + References
+000068 | No definition available.
+000069 | + Details
+000070 | Name:
+000071 | us-gaap_DefinedBenefitPlanDisclosureLineItems
+000072 | Namespace Prefix:
+000073 | us-gaap_
+000074 | Data Type:
+000075 | xbrli:stringItemType
+000076 | Balance Type:
+000077 | na
+000078 | Period Type:
+000079 | duration
+000080 | X
+000081 | - Definition
+000082 | Amount of benefit for defined benefit plan expected to be paid in next fiscal year following current fiscal year.
+000083 | + References
+000084 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000085 | -Topic 715
+000086 | -SubTopic 20
+000087 | -Name Accounting Standards Codification
+000088 | -Section 50
+000089 | -Paragraph 1
+000090 | -Subparagraph (f)
+000091 | -Publisher FASB
+000092 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000093 | + Details
+000094 | Name:
+000095 | us-gaap_DefinedBenefitPlanExpectedFutureBenefitPaymentsNextTwelveMonths
+000096 | Namespace Prefix:
+000097 | us-gaap_
+000098 | Data Type:
+000099 | xbrli:monetaryItemType
+000100 | Balance Type:
+000101 | credit
+000102 | Period Type:
+000103 | instant
+000104 | X
+000105 | - Definition
+000106 | Amount of benefit for defined benefit plan expected to be paid in remainder of current fiscal year.
+000107 | + References
+000108 | No definition available.
+000109 | + Details
+000110 | Name:
+000111 | us-gaap_DefinedBenefitPlanExpectedFutureBenefitPaymentsRemainderOfFiscalYear
+000112 | Namespace Prefix:
+000113 | us-gaap_
+000114 | Data Type:
+000115 | xbrli:monetaryItemType
+000116 | Balance Type:
+000117 | credit
+000118 | Period Type:
+000119 | instant
+000120 | X
+000121 | - Definition
+000122 | Amount of benefit for defined benefit plan expected to be paid in fourth fiscal year following current fiscal year.
+000123 | + References
+000124 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000125 | -Topic 715
+000126 | -SubTopic 20
+000127 | -Name Accounting Standards Codification
+000128 | -Section 50
+000129 | -Paragraph 1
+000130 | -Subparagraph (f)
+000131 | -Publisher FASB
+000132 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000133 | + Details
+000134 | Name:
+000135 | us-gaap_DefinedBenefitPlanExpectedFutureBenefitPaymentsYearFour
+000136 | Namespace Prefix:
+000137 | us-gaap_
+000138 | Data Type:
+000139 | xbrli:monetaryItemType
+000140 | Balance Type:
+000141 | credit
+000142 | Period Type:
+000143 | instant
+000144 | X
+000145 | - Definition
+000146 | Amount of benefit for defined benefit plan expected to be paid in third fiscal year following current fiscal year.
+000147 | + References
+000148 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000149 | -Topic 715
+000150 | -SubTopic 20
+000151 | -Name Accounting Standards Codification
+000152 | -Section 50
+000153 | -Paragraph 1
+000154 | -Subparagraph (f)
+000155 | -Publisher FASB
+000156 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000157 | + Details
+000158 | Name:
+000159 | us-gaap_DefinedBenefitPlanExpectedFutureBenefitPaymentsYearThree
+000160 | Namespace Prefix:
+000161 | us-gaap_
+000162 | Data Type:
+000163 | xbrli:monetaryItemType
+000164 | Balance Type:
+000165 | credit
+000166 | Period Type:
+000167 | instant
+000168 | X
+000169 | - Definition
+000170 | Amount of benefit for defined benefit plan expected to be paid in second fiscal year following current fiscal year.
+000171 | + References
+000172 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000173 | -Topic 715
+000174 | -SubTopic 20
+000175 | -Name Accounting Standards Codification
+000176 | -Section 50
+000177 | -Paragraph 1
+000178 | -Subparagraph (f)
+000179 | -Publisher FASB
+000180 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000181 | + Details
+000182 | Name:
+000183 | us-gaap_DefinedBenefitPlanExpectedFutureBenefitPaymentsYearTwo
+000184 | Namespace Prefix:
+000185 | us-gaap_
+000186 | Data Type:
+000187 | xbrli:monetaryItemType
+000188 | Balance Type:
+000189 | credit
+000190 | Period Type:
+000191 | instant
+000192 | X
+000193 | - Details
+000194 | Name:
+000195 | us-gaap_RetirementPlanTypeAxis=us-gaap_PensionPlansDefinedBenefitMember
+000196 | Namespace Prefix:
+000197 | Data Type:
+000198 | na
+000199 | Balance Type:
+000200 | Period Type:
+000201 | X
+000202 | - Details
+000203 | Name:
+000204 | us-gaap_RetirementPlanSponsorLocationAxis=country_US
+000205 | Namespace Prefix:
+000206 | Data Type:
+000207 | na
+000208 | Balance Type:
+000209 | Period Type:
+000210 | X
+000211 | - Details
+000212 | Name:
+000213 | us-gaap_RetirementPlanSponsorLocationAxis=us-gaap_ForeignPlanMember
+000214 | Namespace Prefix:
+000215 | Data Type:
+000216 | na
+000217 | Balance Type:
+000218 | Period Type:
+000219 | X
+000220 | - Details
+000221 | Name:
+000222 | us-gaap_RetirementPlanTypeAxis=us-gaap_OtherPostretirementBenefitPlansDefinedBenefitMember
+000223 | Namespace Prefix:
+000224 | Data Type:
+000225 | na
+000226 | Balance Type:
+000227 | Period Type:

@@ -1,0 +1,135 @@
+000001 | v3.25.4
+000002 | Income Taxes - Schedule of Tax Effected Operating Loss, Capital Loss, and Tax Credit Carryovers (Details)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | USD ($)
+000007 | Federal jurisdiction
+000008 | Tax effected operating loss, capital loss, and tax credit carryovers
+000009 | Tax effected operating loss, capital loss, and tax credit carryovers
+000010 | $ 290
+000011 | Federal jurisdiction | Minimum
+000012 | Tax effected operating loss, capital loss, and tax credit carryovers
+000013 | Tax effected operating loss, capital loss, and tax credit carryovers, expiration date (in years)
+000014 | 4 years
+000015 | Federal jurisdiction | Maximum
+000016 | Tax effected operating loss, capital loss, and tax credit carryovers
+000017 | Tax effected operating loss, capital loss, and tax credit carryovers, expiration date (in years)
+000018 | 20 years
+000019 | State jurisdiction
+000020 | Tax effected operating loss, capital loss, and tax credit carryovers
+000021 | Tax effected operating loss, capital loss, and tax credit carryovers
+000022 | $ 120
+000023 | State jurisdiction | Minimum
+000024 | Tax effected operating loss, capital loss, and tax credit carryovers
+000025 | Tax effected operating loss, capital loss, and tax credit carryovers, expiration date (in years)
+000026 | 5 years
+000027 | International jurisdiction
+000028 | Tax effected operating loss, capital loss, and tax credit carryovers
+000029 | Tax effected operating loss, capital loss, and tax credit carryovers
+000030 | $ 75
+000031 | International jurisdiction | Minimum
+000032 | Tax effected operating loss, capital loss, and tax credit carryovers
+000033 | Tax effected operating loss, capital loss, and tax credit carryovers, expiration date (in years)
+000034 | 7 years
+000035 | X
+000036 | - Definition
+000037 | The tax effected operating loss, capital loss, and tax credit carryovers expiration date (in years).
+000038 | + References
+000039 | No definition available.
+000040 | + Details
+000041 | Name:
+000042 | mmm_DeferredTaxAssetsOtherTaxCarryforwardsExpirationDateInYears
+000043 | Namespace Prefix:
+000044 | mmm_
+000045 | Data Type:
+000046 | xbrli:durationItemType
+000047 | Balance Type:
+000048 | na
+000049 | Period Type:
+000050 | duration
+000051 | X
+000052 | - Definition
+000053 | Amount, before allocation of valuation allowance, of deferred tax asset attributable to deductible tax carryforwards.
+000054 | + References
+000055 | No definition available.
+000056 | + Details
+000057 | Name:
+000058 | mmm_TaxEffectedOperatingLossCapitalLossAndTaxCreditCarryovers
+000059 | Namespace Prefix:
+000060 | mmm_
+000061 | Data Type:
+000062 | xbrli:monetaryItemType
+000063 | Balance Type:
+000064 | debit
+000065 | Period Type:
+000066 | instant
+000067 | X
+000068 | - Definition
+000069 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000070 | + References
+000071 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000072 | -Topic 740
+000073 | -SubTopic 10
+000074 | -Name Accounting Standards Codification
+000075 | -Section 50
+000076 | -Paragraph 3
+000077 | -Subparagraph (a)
+000078 | -Publisher FASB
+000079 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-3
+000080 | + Details
+000081 | Name:
+000082 | us-gaap_OperatingLossCarryforwardsLineItems
+000083 | Namespace Prefix:
+000084 | us-gaap_
+000085 | Data Type:
+000086 | xbrli:stringItemType
+000087 | Balance Type:
+000088 | na
+000089 | Period Type:
+000090 | duration
+000091 | X
+000092 | - Details
+000093 | Name:
+000094 | us-gaap_TaxCreditCarryforwardAxis=us-gaap_DomesticCountryMember
+000095 | Namespace Prefix:
+000096 | Data Type:
+000097 | na
+000098 | Balance Type:
+000099 | Period Type:
+000100 | X
+000101 | - Details
+000102 | Name:
+000103 | srt_RangeAxis=srt_MinimumMember
+000104 | Namespace Prefix:
+000105 | Data Type:
+000106 | na
+000107 | Balance Type:
+000108 | Period Type:
+000109 | X
+000110 | - Details
+000111 | Name:
+000112 | srt_RangeAxis=srt_MaximumMember
+000113 | Namespace Prefix:
+000114 | Data Type:
+000115 | na
+000116 | Balance Type:
+000117 | Period Type:
+000118 | X
+000119 | - Details
+000120 | Name:
+000121 | us-gaap_TaxCreditCarryforwardAxis=us-gaap_StateAndLocalJurisdictionMember
+000122 | Namespace Prefix:
+000123 | Data Type:
+000124 | na
+000125 | Balance Type:
+000126 | Period Type:
+000127 | X
+000128 | - Details
+000129 | Name:
+000130 | us-gaap_TaxCreditCarryforwardAxis=us-gaap_ForeignCountryMember
+000131 | Namespace Prefix:
+000132 | Data Type:
+000133 | na
+000134 | Balance Type:
+000135 | Period Type:

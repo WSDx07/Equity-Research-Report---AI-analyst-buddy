@@ -1,0 +1,85 @@
+000001 | v3.25.4
+000002 | Commitments and Contingencies - Insurance Recoveries (Details) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | CAE Settlement
+000007 | Product Liability Litigation
+000008 | Insurance recovery benefits
+000009 | $ 392
+000010 | $ 349
+000011 | X
+000012 | - Definition
+000013 | Amount due in settlement of a claim for reimbursement from an insurance company when the Company has suffered a loss covered under an insurance policy.
+000014 | + References
+000015 | No definition available.
+000016 | + Details
+000017 | Name:
+000018 | us-gaap_InsuranceSettlementsReceivable
+000019 | Namespace Prefix:
+000020 | us-gaap_
+000021 | Data Type:
+000022 | xbrli:monetaryItemType
+000023 | Balance Type:
+000024 | debit
+000025 | Period Type:
+000026 | instant
+000027 | X
+000028 | - Definition
+000029 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000030 | + References
+000031 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000032 | -Topic 450
+000033 | -SubTopic 20
+000034 | -Name Accounting Standards Codification
+000035 | -Section 50
+000036 | -Paragraph 1
+000037 | -Publisher FASB
+000038 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-1
+000039 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000040 | -Topic 450
+000041 | -SubTopic 20
+000042 | -Name Accounting Standards Codification
+000043 | -Section S99
+000044 | -Paragraph 1
+000045 | -Subparagraph (SAB Topic 5.Y.Q2)
+000046 | -Publisher FASB
+000047 | -URI https://asc.fasb.org/1943274/2147480102/450-20-S99-1
+000048 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000049 | -Topic 450
+000050 | -SubTopic 20
+000051 | -Name Accounting Standards Codification
+000052 | -Section 50
+000053 | -Paragraph 4
+000054 | -Subparagraph (b)
+000055 | -Publisher FASB
+000056 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-4
+000057 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000058 | -Topic 450
+000059 | -SubTopic 20
+000060 | -Name Accounting Standards Codification
+000061 | -Section 50
+000062 | -Paragraph 9
+000063 | -Subparagraph (b)
+000064 | -Publisher FASB
+000065 | -URI https://asc.fasb.org/1943274/2147483076/450-20-50-9
+000066 | + Details
+000067 | Name:
+000068 | us-gaap_ProductLiabilityContingencyLineItems
+000069 | Namespace Prefix:
+000070 | us-gaap_
+000071 | Data Type:
+000072 | xbrli:stringItemType
+000073 | Balance Type:
+000074 | na
+000075 | Period Type:
+000076 | duration
+000077 | X
+000078 | - Details
+000079 | Name:
+000080 | srt_LitigationCaseAxis=mmm_CAESettlementMember
+000081 | Namespace Prefix:
+000082 | Data Type:
+000083 | na
+000084 | Balance Type:
+000085 | Period Type:

@@ -1,0 +1,227 @@
+000001 | v3.24.1.1.u2
+000002 | Related Parties - Schedule of Parent's Expense Allocations (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | Mar. 31, 2024
+000006 | Mar. 31, 2023
+000007 | Allocation of Expenses [Line Items]
+000008 | Selling, general and administrative
+000009 | $ 596
+000010 | $ 577
+000011 | Research and development
+000012 | 195
+000013 | 195
+000014 | Total operating expenses
+000015 | 1,635
+000016 | 1,646
+000017 | Related Party
+000018 | Allocation of Expenses [Line Items]
+000019 | Selling, general and administrative
+000020 | 177
+000021 | 186
+000022 | Research and development
+000023 | 28
+000024 | 28
+000025 | Total operating expenses
+000026 | 220
+000027 | 229
+000028 | Costs of product
+000029 | Allocation of Expenses [Line Items]
+000030 | Cost of goods and services sold
+000031 | 725
+000032 | 752
+000033 | Costs of product | Related Party
+000034 | Allocation of Expenses [Line Items]
+000035 | Cost of goods and services sold
+000036 | 15
+000037 | 15
+000038 | Net sales of software and rentals
+000039 | Allocation of Expenses [Line Items]
+000040 | Cost of goods and services sold
+000041 | 119
+000042 | 122
+000043 | Net sales of software and rentals | Related Party
+000044 | Allocation of Expenses [Line Items]
+000045 | Cost of goods and services sold
+000046 | $ 0
+000047 | $ 0
+000048 | X
+000049 | - Definition
+000050 | Allocation of Expenses [Line Items]
+000051 | + References
+000052 | No definition available.
+000053 | + Details
+000054 | Name:
+000055 | solv_AllocationOfExpensesLineItems
+000056 | Namespace Prefix:
+000057 | solv_
+000058 | Data Type:
+000059 | xbrli:stringItemType
+000060 | Balance Type:
+000061 | na
+000062 | Period Type:
+000063 | duration
+000064 | X
+000065 | - Definition
+000066 | The aggregate costs related to goods produced and sold and services rendered by an entity during the reporting period. This excludes costs incurred during the reporting period related to financial services rendered and other revenue generating activities.
+000067 | + References
+000068 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000069 | -Topic 220
+000070 | -SubTopic 10
+000071 | -Name Accounting Standards Codification
+000072 | -Section S99
+000073 | -Paragraph 2
+000074 | -Subparagraph (SX 210.5-03(2)(d))
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000077 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000078 | -Topic 220
+000079 | -SubTopic 10
+000080 | -Name Accounting Standards Codification
+000081 | -Section S99
+000082 | -Paragraph 2
+000083 | -Subparagraph (SX 210.5-03(2)(a))
+000084 | -Publisher FASB
+000085 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000086 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000087 | -Topic 924
+000088 | -SubTopic 10
+000089 | -Name Accounting Standards Codification
+000090 | -Section S99
+000091 | -Paragraph 1
+000092 | -Subparagraph (SAB Topic 11.L)
+000093 | -Publisher FASB
+000094 | -URI https://asc.fasb.org/1943274/2147479941/924-10-S99-1
+000095 | + Details
+000096 | Name:
+000097 | us-gaap_CostOfGoodsAndServicesSold
+000098 | Namespace Prefix:
+000099 | us-gaap_
+000100 | Data Type:
+000101 | xbrli:monetaryItemType
+000102 | Balance Type:
+000103 | debit
+000104 | Period Type:
+000105 | duration
+000106 | X
+000107 | - Definition
+000108 | Total costs of sales and operating expenses for the period.
+000109 | + References
+000110 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000111 | -Topic 220
+000112 | -SubTopic 10
+000113 | -Name Accounting Standards Codification
+000114 | -Section S99
+000115 | -Paragraph 2
+000116 | -Subparagraph (SX 210.5-03)
+000117 | -Publisher FASB
+000118 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000119 | + Details
+000120 | Name:
+000121 | us-gaap_CostsAndExpenses
+000122 | Namespace Prefix:
+000123 | us-gaap_
+000124 | Data Type:
+000125 | xbrli:monetaryItemType
+000126 | Balance Type:
+000127 | debit
+000128 | Period Type:
+000129 | duration
+000130 | X
+000131 | - Definition
+000132 | Amount of expense for research and development. Includes, but is not limited to, cost for computer software product to be sold, leased, or otherwise marketed and writeoff of research and development assets acquired in transaction other than business combination or joint venture formation or both. Excludes write-down of intangible asset acquired in business combination or from joint venture formation or both, used in research and development activity.
+000133 | + References
+000134 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000135 | -Topic 280
+000136 | -SubTopic 10
+000137 | -Name Accounting Standards Codification
+000138 | -Section 55
+000139 | -Paragraph 48
+000140 | -Publisher FASB
+000141 | -URI https://asc.fasb.org/1943274/2147482785/280-10-55-48
+000142 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000143 | -Topic 985
+000144 | -SubTopic 20
+000145 | -Name Accounting Standards Codification
+000146 | -Section 50
+000147 | -Paragraph 2
+000148 | -Publisher FASB
+000149 | -URI https://asc.fasb.org/1943274/2147481283/985-20-50-2
+000150 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000151 | -Topic 730
+000152 | -SubTopic 10
+000153 | -Name Accounting Standards Codification
+000154 | -Section 50
+000155 | -Paragraph 1
+000156 | -Publisher FASB
+000157 | -URI https://asc.fasb.org/1943274/2147482916/730-10-50-1
+000158 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000159 | -Topic 912
+000160 | -SubTopic 730
+000161 | -Name Accounting Standards Codification
+000162 | -Section 25
+000163 | -Paragraph 1
+000164 | -Publisher FASB
+000165 | -URI https://asc.fasb.org/1943274/2147479532/912-730-25-1
+000166 | + Details
+000167 | Name:
+000168 | us-gaap_ResearchAndDevelopmentExpense
+000169 | Namespace Prefix:
+000170 | us-gaap_
+000171 | Data Type:
+000172 | xbrli:monetaryItemType
+000173 | Balance Type:
+000174 | debit
+000175 | Period Type:
+000176 | duration
+000177 | X
+000178 | - Definition
+000179 | The aggregate total costs related to selling a firm's product and services, as well as all other general and administrative expenses. Direct selling expenses (for example, credit, warranty, and advertising) are expenses that can be directly linked to the sale of specific products. Indirect selling expenses are expenses that cannot be directly linked to the sale of specific products, for example telephone expenses, Internet, and postal charges. General and administrative expenses include salaries of non-sales personnel, rent, utilities, communication, etc.
+000180 | + References
+000181 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000182 | -Topic 220
+000183 | -SubTopic 10
+000184 | -Name Accounting Standards Codification
+000185 | -Section S99
+000186 | -Paragraph 2
+000187 | -Subparagraph (SX 210.5-03(4))
+000188 | -Publisher FASB
+000189 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000190 | + Details
+000191 | Name:
+000192 | us-gaap_SellingGeneralAndAdministrativeExpense
+000193 | Namespace Prefix:
+000194 | us-gaap_
+000195 | Data Type:
+000196 | xbrli:monetaryItemType
+000197 | Balance Type:
+000198 | debit
+000199 | Period Type:
+000200 | duration
+000201 | X
+000202 | - Details
+000203 | Name:
+000204 | us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember
+000205 | Namespace Prefix:
+000206 | Data Type:
+000207 | na
+000208 | Balance Type:
+000209 | Period Type:
+000210 | X
+000211 | - Details
+000212 | Name:
+000213 | srt_ProductOrServiceAxis=us-gaap_ProductMember
+000214 | Namespace Prefix:
+000215 | Data Type:
+000216 | na
+000217 | Balance Type:
+000218 | Period Type:
+000219 | X
+000220 | - Details
+000221 | Name:
+000222 | srt_ProductOrServiceAxis=solv_SalesOfSoftwareAndRentalsMember
+000223 | Namespace Prefix:
+000224 | Data Type:
+000225 | na
+000226 | Balance Type:
+000227 | Period Type:

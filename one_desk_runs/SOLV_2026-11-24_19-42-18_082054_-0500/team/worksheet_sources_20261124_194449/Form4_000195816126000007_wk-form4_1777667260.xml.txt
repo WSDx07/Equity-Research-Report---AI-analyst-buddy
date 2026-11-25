@@ -1,0 +1,148 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0609</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2026-04-30</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001964738</issuerCik>
+000015 |         <issuerName>Solventum Corp</issuerName>
+000016 |         <issuerTradingSymbol>SOLV</issuerTradingSymbol>
+000017 |         <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+000018 |     </issuer>
+000019 | 
+000020 |     <reportingOwner>
+000021 |         <reportingOwnerId>
+000022 |             <rptOwnerCik>0001958161</rptOwnerCik>
+000023 |             <rptOwnerName>Edwards Shirley Ann</rptOwnerName>
+000024 |         </reportingOwnerId>
+000025 |         <reportingOwnerAddress>
+000026 |             <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+000027 |             <rptOwnerStreet1>1750 YANKEE DOODLE ROAD</rptOwnerStreet1>
+000028 |             <rptOwnerStreet2></rptOwnerStreet2>
+000029 |             <rptOwnerCity>EAGAN</rptOwnerCity>
+000030 |             <rptOwnerState>MN</rptOwnerState>
+000031 |             <rptOwnerZipCode>55121</rptOwnerZipCode>
+000032 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000033 |         </reportingOwnerAddress>
+000034 |         <reportingOwnerRelationship>
+000035 |             <isDirector>1</isDirector>
+000036 |             <isOfficer>0</isOfficer>
+000037 |             <isTenPercentOwner>0</isTenPercentOwner>
+000038 |             <isOther>0</isOther>
+000039 |         </reportingOwnerRelationship>
+000040 |     </reportingOwner>
+000041 | 
+000042 |     <aff10b5One>0</aff10b5One>
+000043 | 
+000044 |     <nonDerivativeTable>
+000045 |         <nonDerivativeTransaction>
+000046 |             <securityTitle>
+000047 |                 <value>Common Stock</value>
+000048 |             </securityTitle>
+000049 |             <transactionDate>
+000050 |                 <value>2026-04-30</value>
+000051 |             </transactionDate>
+000052 |             <transactionCoding>
+000053 |                 <transactionFormType>4</transactionFormType>
+000054 |                 <transactionCode>M</transactionCode>
+000055 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000056 |             </transactionCoding>
+000057 |             <transactionAmounts>
+000058 |                 <transactionShares>
+000059 |                     <value>3403</value>
+000060 |                 </transactionShares>
+000061 |                 <transactionPricePerShare>
+000062 |                     <value>0</value>
+000063 |                 </transactionPricePerShare>
+000064 |                 <transactionAcquiredDisposedCode>
+000065 |                     <value>A</value>
+000066 |                 </transactionAcquiredDisposedCode>
+000067 |             </transactionAmounts>
+000068 |             <postTransactionAmounts>
+000069 |                 <sharesOwnedFollowingTransaction>
+000070 |                     <value>8947</value>
+000071 |                 </sharesOwnedFollowingTransaction>
+000072 |             </postTransactionAmounts>
+000073 |             <ownershipNature>
+000074 |                 <directOrIndirectOwnership>
+000075 |                     <value>D</value>
+000076 |                 </directOrIndirectOwnership>
+000077 |             </ownershipNature>
+000078 |         </nonDerivativeTransaction>
+000079 |     </nonDerivativeTable>
+000080 | 
+000081 |     <derivativeTable>
+000082 |         <derivativeTransaction>
+000083 |             <securityTitle>
+000084 |                 <value>Restricted Stock Units</value>
+000085 |             </securityTitle>
+000086 |             <conversionOrExercisePrice>
+000087 |                 <footnoteId id="F1"/>
+000088 |             </conversionOrExercisePrice>
+000089 |             <transactionDate>
+000090 |                 <value>2026-04-30</value>
+000091 |             </transactionDate>
+000092 |             <transactionCoding>
+000093 |                 <transactionFormType>4</transactionFormType>
+000094 |                 <transactionCode>M</transactionCode>
+000095 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000096 |             </transactionCoding>
+000097 |             <transactionAmounts>
+000098 |                 <transactionShares>
+000099 |                     <value>3403</value>
+000100 |                 </transactionShares>
+000101 |                 <transactionPricePerShare>
+000102 |                     <value>0</value>
+000103 |                 </transactionPricePerShare>
+000104 |                 <transactionAcquiredDisposedCode>
+000105 |                     <value>D</value>
+000106 |                 </transactionAcquiredDisposedCode>
+000107 |             </transactionAmounts>
+000108 |             <exerciseDate>
+000109 |                 <footnoteId id="F2"/>
+000110 |             </exerciseDate>
+000111 |             <expirationDate>
+000112 |                 <value>2035-04-30</value>
+000113 |             </expirationDate>
+000114 |             <underlyingSecurity>
+000115 |                 <underlyingSecurityTitle>
+000116 |                     <value>Common Stock</value>
+000117 |                 </underlyingSecurityTitle>
+000118 |                 <underlyingSecurityShares>
+000119 |                     <value>3403</value>
+000120 |                 </underlyingSecurityShares>
+000121 |             </underlyingSecurity>
+000122 |             <postTransactionAmounts>
+000123 |                 <sharesOwnedFollowingTransaction>
+000124 |                     <value>0</value>
+000125 |                 </sharesOwnedFollowingTransaction>
+000126 |             </postTransactionAmounts>
+000127 |             <ownershipNature>
+000128 |                 <directOrIndirectOwnership>
+000129 |                     <value>D</value>
+000130 |                 </directOrIndirectOwnership>
+000131 |             </ownershipNature>
+000132 |         </derivativeTransaction>
+000133 |     </derivativeTable>
+000134 | 
+000135 |     <footnotes>
+000136 |         <footnote id="F1">Each Restricted Stock unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the issuer's Common Stock upon settlement.</footnote>
+000137 |         <footnote id="F2">The RSUs are fully vested.</footnote>
+000138 |     </footnotes>
+000139 | 
+000140 |     <remarks></remarks>
+000141 | 
+000142 |     <ownerSignature>
+000143 |         <signatureName>/s/Megan Bombick, attorney-in-fact for Shirley Edwards</signatureName>
+000144 |         <signatureDate>2026-05-01</signatureDate>
+000145 |     </ownerSignature>
+000146 | </ownershipDocument>
+000147 | </XML>
+000148 | 

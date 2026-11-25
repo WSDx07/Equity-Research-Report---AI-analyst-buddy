@@ -1,0 +1,286 @@
+000001 | v3.25.4
+000002 | Significant Accounting Policies - Schedule of Property, Plant and Equipment (PPE) and Definite-Lived Intangible Assets (Details) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Property, plant and equipment - at cost
+000007 | Property, plant and equipment
+000008 | $ 23,922
+000009 | $ 23,406
+000010 | Accumulated depreciation
+000011 | (16,821)
+000012 | (16,018)
+000013 | Property, plant and equipment - net
+000014 | 7,101
+000015 | 7,388
+000016 | Land
+000017 | Property, plant and equipment - at cost
+000018 | Property, plant and equipment
+000019 | 202
+000020 | 200
+000021 | Buildings and leasehold improvements (original lives 10 to 40 years)
+000022 | Property, plant and equipment - at cost
+000023 | Property, plant and equipment
+000024 | $ 7,729
+000025 | 7,432
+000026 | Buildings and leasehold improvements (original lives 10 to 40 years) | Minimum
+000027 | Property, plant and equipment - at cost
+000028 | Estimated useful life (in years)
+000029 | 10 years
+000030 | Buildings and leasehold improvements (original lives 10 to 40 years) | Maximum
+000031 | Property, plant and equipment - at cost
+000032 | Estimated useful life (in years)
+000033 | 40 years
+000034 | Machinery and equipment (original lives 3 to 15 years)
+000035 | Property, plant and equipment - at cost
+000036 | Property, plant and equipment
+000037 | $ 15,328
+000038 | 14,780
+000039 | Machinery and equipment (original lives 3 to 15 years) | Minimum
+000040 | Property, plant and equipment - at cost
+000041 | Estimated useful life (in years)
+000042 | 3 years
+000043 | Machinery and equipment (original lives 3 to 15 years) | Maximum
+000044 | Property, plant and equipment - at cost
+000045 | Estimated useful life (in years)
+000046 | 15 years
+000047 | Construction in progress
+000048 | Property, plant and equipment - at cost
+000049 | Property, plant and equipment
+000050 | $ 663
+000051 | $ 994
+000052 | X
+000053 | - Definition
+000054 | Amount of accumulated depreciation, depletion and amortization for physical assets used in the normal conduct of business to produce goods and services.
+000055 | + References
+000056 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000057 | -Topic 944
+000058 | -SubTopic 210
+000059 | -Name Accounting Standards Codification
+000060 | -Section S99
+000061 | -Paragraph 1
+000062 | -Subparagraph (SX 210.7-03(a)(8)(b))
+000063 | -Publisher FASB
+000064 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000065 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000066 | -Topic 210
+000067 | -SubTopic 10
+000068 | -Name Accounting Standards Codification
+000069 | -Section S99
+000070 | -Paragraph 1
+000071 | -Subparagraph (SX 210.5-02(14))
+000072 | -Publisher FASB
+000073 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000074 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000075 | -Name Accounting Standards Codification
+000076 | -Topic 360
+000077 | -SubTopic 10
+000078 | -Section 50
+000079 | -Paragraph 1
+000080 | -Subparagraph (c)
+000081 | -Publisher FASB
+000082 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-1
+000083 | + Details
+000084 | Name:
+000085 | us-gaap_AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment
+000086 | Namespace Prefix:
+000087 | us-gaap_
+000088 | Data Type:
+000089 | xbrli:monetaryItemType
+000090 | Balance Type:
+000091 | credit
+000092 | Period Type:
+000093 | instant
+000094 | X
+000095 | - Definition
+000096 | Amount before accumulated depreciation, depletion and amortization of physical assets used in the normal conduct of business and not intended for resale. Examples include, but are not limited to, land, buildings, machinery and equipment, office equipment, and furniture and fixtures.
+000097 | + References
+000098 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000099 | -Topic 944
+000100 | -SubTopic 210
+000101 | -Name Accounting Standards Codification
+000102 | -Section S99
+000103 | -Paragraph 1
+000104 | -Subparagraph (SX 210.7-03(a)(8))
+000105 | -Publisher FASB
+000106 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000107 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000108 | -Topic 210
+000109 | -SubTopic 10
+000110 | -Name Accounting Standards Codification
+000111 | -Section S99
+000112 | -Paragraph 1
+000113 | -Subparagraph (SX 210.5-02(13))
+000114 | -Publisher FASB
+000115 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000116 | Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+000117 | -Topic 360
+000118 | -SubTopic 10
+000119 | -Name Accounting Standards Codification
+000120 | -Section 50
+000121 | -Paragraph 1
+000122 | -Subparagraph (b)
+000123 | -Publisher FASB
+000124 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-1
+000125 | + Details
+000126 | Name:
+000127 | us-gaap_PropertyPlantAndEquipmentGross
+000128 | Namespace Prefix:
+000129 | us-gaap_
+000130 | Data Type:
+000131 | xbrli:monetaryItemType
+000132 | Balance Type:
+000133 | debit
+000134 | Period Type:
+000135 | instant
+000136 | X
+000137 | - Definition
+000138 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000139 | + References
+000140 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000141 | -Topic 842
+000142 | -SubTopic 20
+000143 | -Name Accounting Standards Codification
+000144 | -Section 50
+000145 | -Paragraph 7A
+000146 | -Subparagraph (a)
+000147 | -Publisher FASB
+000148 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-7A
+000149 | + Details
+000150 | Name:
+000151 | us-gaap_PropertyPlantAndEquipmentLineItems
+000152 | Namespace Prefix:
+000153 | us-gaap_
+000154 | Data Type:
+000155 | xbrli:stringItemType
+000156 | Balance Type:
+000157 | na
+000158 | Period Type:
+000159 | duration
+000160 | X
+000161 | - Definition
+000162 | Amount after accumulated depreciation, depletion and amortization of physical assets used in the normal conduct of business to produce goods and services and not intended for resale. Examples include, but are not limited to, land, buildings, machinery and equipment, office equipment, and furniture and fixtures.
+000163 | + References
+000164 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000165 | -Name Accounting Standards Codification
+000166 | -Section 50
+000167 | -Paragraph 1
+000168 | -SubTopic 10
+000169 | -Topic 360
+000170 | -Publisher FASB
+000171 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-1
+000172 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000173 | -Topic 842
+000174 | -SubTopic 20
+000175 | -Name Accounting Standards Codification
+000176 | -Section 50
+000177 | -Paragraph 7A
+000178 | -Subparagraph (a)
+000179 | -Publisher FASB
+000180 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-7A
+000181 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000182 | -Topic 852
+000183 | -SubTopic 10
+000184 | -Name Accounting Standards Codification
+000185 | -Section 55
+000186 | -Paragraph 10
+000187 | -Publisher FASB
+000188 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000189 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000190 | -Topic 944
+000191 | -SubTopic 210
+000192 | -Name Accounting Standards Codification
+000193 | -Section S99
+000194 | -Paragraph 1
+000195 | -Subparagraph (SX 210.7-03(a)(8))
+000196 | -Publisher FASB
+000197 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000198 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000199 | -Topic 942
+000200 | -SubTopic 360
+000201 | -Name Accounting Standards Codification
+000202 | -Section 50
+000203 | -Paragraph 1
+000204 | -Publisher FASB
+000205 | -URI https://asc.fasb.org/1943274/2147478451/942-360-50-1
+000206 | + Details
+000207 | Name:
+000208 | us-gaap_PropertyPlantAndEquipmentNet
+000209 | Namespace Prefix:
+000210 | us-gaap_
+000211 | Data Type:
+000212 | xbrli:monetaryItemType
+000213 | Balance Type:
+000214 | debit
+000215 | Period Type:
+000216 | instant
+000217 | X
+000218 | - Definition
+000219 | Useful life of long lived, physical assets used in the normal conduct of business and not intended for resale, in 'PnYnMnDTnHnMnS' format, for example, 'P1Y5M13D' represents the reported fact of one year, five months, and thirteen days. Examples include, but not limited to, land, buildings, machinery and equipment, office equipment, furniture and fixtures, and computer equipment.
+000220 | + References
+000221 | No definition available.
+000222 | + Details
+000223 | Name:
+000224 | us-gaap_PropertyPlantAndEquipmentUsefulLife
+000225 | Namespace Prefix:
+000226 | us-gaap_
+000227 | Data Type:
+000228 | xbrli:durationItemType
+000229 | Balance Type:
+000230 | na
+000231 | Period Type:
+000232 | instant
+000233 | X
+000234 | - Details
+000235 | Name:
+000236 | us-gaap_PropertyPlantAndEquipmentByTypeAxis=us-gaap_LandMember
+000237 | Namespace Prefix:
+000238 | Data Type:
+000239 | na
+000240 | Balance Type:
+000241 | Period Type:
+000242 | X
+000243 | - Details
+000244 | Name:
+000245 | us-gaap_PropertyPlantAndEquipmentByTypeAxis=us-gaap_BuildingAndBuildingImprovementsMember
+000246 | Namespace Prefix:
+000247 | Data Type:
+000248 | na
+000249 | Balance Type:
+000250 | Period Type:
+000251 | X
+000252 | - Details
+000253 | Name:
+000254 | srt_RangeAxis=srt_MinimumMember
+000255 | Namespace Prefix:
+000256 | Data Type:
+000257 | na
+000258 | Balance Type:
+000259 | Period Type:
+000260 | X
+000261 | - Details
+000262 | Name:
+000263 | srt_RangeAxis=srt_MaximumMember
+000264 | Namespace Prefix:
+000265 | Data Type:
+000266 | na
+000267 | Balance Type:
+000268 | Period Type:
+000269 | X
+000270 | - Details
+000271 | Name:
+000272 | us-gaap_PropertyPlantAndEquipmentByTypeAxis=us-gaap_MachineryAndEquipmentMember
+000273 | Namespace Prefix:
+000274 | Data Type:
+000275 | na
+000276 | Balance Type:
+000277 | Period Type:
+000278 | X
+000279 | - Details
+000280 | Name:
+000281 | us-gaap_PropertyPlantAndEquipmentByTypeAxis=us-gaap_ConstructionInProgressMember
+000282 | Namespace Prefix:
+000283 | Data Type:
+000284 | na
+000285 | Balance Type:
+000286 | Period Type:

@@ -1,0 +1,203 @@
+000001 | v3.25.4
+000002 | Consolidated Balance Sheet (Parenthetical) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Current assets
+000007 | Allowances for doubtful accounts receivable
+000008 | $ 61
+000009 | $ 60
+000010 | 3M Company shareholders’ equity:
+000011 | Common stock, par value (in dollars per share)
+000012 | $ 0.01
+000013 | $ 0.01
+000014 | Common stock, issued (in shares)
+000015 | 944,033,056
+000016 | 944,033,056
+000017 | Common stock, outstanding (in shares)
+000018 | 530,279,131
+000019 | 539,470,303
+000020 | X
+000021 | - Definition
+000022 | Amount of allowance for credit loss on accounts receivable, classified as current.
+000023 | + References
+000024 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000025 | -Topic 210
+000026 | -SubTopic 10
+000027 | -Name Accounting Standards Codification
+000028 | -Section S99
+000029 | -Paragraph 1
+000030 | -Subparagraph (SX 210.5-02(4))
+000031 | -Publisher FASB
+000032 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000033 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000034 | -Topic 326
+000035 | -SubTopic 20
+000036 | -Name Accounting Standards Codification
+000037 | -Section 45
+000038 | -Paragraph 1
+000039 | -Publisher FASB
+000040 | -URI https://asc.fasb.org/1943274/2147479344/326-20-45-1
+000041 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000042 | -Topic 310
+000043 | -SubTopic 10
+000044 | -Name Accounting Standards Codification
+000045 | -Section 50
+000046 | -Paragraph 4
+000047 | -Publisher FASB
+000048 | -URI https://asc.fasb.org/1943274/2147481962/310-10-50-4
+000049 | + Details
+000050 | Name:
+000051 | us-gaap_AllowanceForDoubtfulAccountsReceivableCurrent
+000052 | Namespace Prefix:
+000053 | us-gaap_
+000054 | Data Type:
+000055 | xbrli:monetaryItemType
+000056 | Balance Type:
+000057 | credit
+000058 | Period Type:
+000059 | instant
+000060 | X
+000061 | - References
+000062 | No definition available.
+000063 | + Details
+000064 | Name:
+000065 | us-gaap_AssetsCurrentAbstract
+000066 | Namespace Prefix:
+000067 | us-gaap_
+000068 | Data Type:
+000069 | xbrli:stringItemType
+000070 | Balance Type:
+000071 | na
+000072 | Period Type:
+000073 | duration
+000074 | X
+000075 | - Definition
+000076 | Face amount or stated value per share of common stock.
+000077 | + References
+000078 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000079 | -Topic 210
+000080 | -SubTopic 10
+000081 | -Name Accounting Standards Codification
+000082 | -Section S99
+000083 | -Paragraph 1
+000084 | -Subparagraph (SX 210.5-02(29))
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000087 | + Details
+000088 | Name:
+000089 | us-gaap_CommonStockParOrStatedValuePerShare
+000090 | Namespace Prefix:
+000091 | us-gaap_
+000092 | Data Type:
+000093 | dtr-types:perShareItemType
+000094 | Balance Type:
+000095 | na
+000096 | Period Type:
+000097 | instant
+000098 | X
+000099 | - Definition
+000100 | Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued, repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners, and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.
+000101 | + References
+000102 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000103 | -Topic 210
+000104 | -SubTopic 10
+000105 | -Name Accounting Standards Codification
+000106 | -Section S99
+000107 | -Paragraph 1
+000108 | -Subparagraph (SX 210.5-02(29))
+000109 | -Publisher FASB
+000110 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000111 | + Details
+000112 | Name:
+000113 | us-gaap_CommonStockSharesIssued
+000114 | Namespace Prefix:
+000115 | us-gaap_
+000116 | Data Type:
+000117 | xbrli:sharesItemType
+000118 | Balance Type:
+000119 | na
+000120 | Period Type:
+000121 | instant
+000122 | X
+000123 | - Definition
+000124 | Number of shares of common stock outstanding. Common stock represent the ownership interest in a corporation.
+000125 | + References
+000126 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000127 | -Name Accounting Standards Codification
+000128 | -Section 50
+000129 | -Paragraph 2
+000130 | -SubTopic 10
+000131 | -Topic 505
+000132 | -Publisher FASB
+000133 | -URI https://asc.fasb.org/1943274/2147481112/505-10-50-2
+000134 | Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+000135 | -Topic 210
+000136 | -SubTopic 10
+000137 | -Name Accounting Standards Codification
+000138 | -Section S99
+000139 | -Paragraph 1
+000140 | -Subparagraph (SX 210.5-02(29))
+000141 | -Publisher FASB
+000142 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000143 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000144 | -Topic 946
+000145 | -SubTopic 210
+000146 | -Name Accounting Standards Codification
+000147 | -Section S99
+000148 | -Paragraph 2
+000149 | -Subparagraph (SX 210.6-05(4))
+000150 | -Publisher FASB
+000151 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-2
+000152 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000153 | -Topic 946
+000154 | -SubTopic 220
+000155 | -Name Accounting Standards Codification
+000156 | -Section S99
+000157 | -Paragraph 3
+000158 | -Subparagraph (SX 210.6-09(4)(b))
+000159 | -Publisher FASB
+000160 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000161 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000162 | -Topic 946
+000163 | -SubTopic 210
+000164 | -Name Accounting Standards Codification
+000165 | -Section S99
+000166 | -Paragraph 1
+000167 | -Subparagraph (SX 210.6-04(16)(a))
+000168 | -Publisher FASB
+000169 | -URI https://asc.fasb.org/1943274/2147479170/946-210-S99-1
+000170 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000171 | -Topic 946
+000172 | -SubTopic 220
+000173 | -Name Accounting Standards Codification
+000174 | -Section S99
+000175 | -Paragraph 3
+000176 | -Subparagraph (SX 210.6-09(7))
+000177 | -Publisher FASB
+000178 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-3
+000179 | + Details
+000180 | Name:
+000181 | us-gaap_CommonStockSharesOutstanding
+000182 | Namespace Prefix:
+000183 | us-gaap_
+000184 | Data Type:
+000185 | xbrli:sharesItemType
+000186 | Balance Type:
+000187 | na
+000188 | Period Type:
+000189 | instant
+000190 | X
+000191 | - References
+000192 | No definition available.
+000193 | + Details
+000194 | Name:
+000195 | us-gaap_StockholdersEquityAbstract
+000196 | Namespace Prefix:
+000197 | us-gaap_
+000198 | Data Type:
+000199 | xbrli:stringItemType
+000200 | Balance Type:
+000201 | na
+000202 | Period Type:
+000203 | duration

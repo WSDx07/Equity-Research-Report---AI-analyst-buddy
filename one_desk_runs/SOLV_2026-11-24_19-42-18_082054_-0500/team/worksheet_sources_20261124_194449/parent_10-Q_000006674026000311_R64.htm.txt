@@ -1,0 +1,171 @@
+000001 | v3.26.3
+000002 | Derivatives - Schedule of Cumulative Basis Adjustment for Fair Value Hedges (Details) - Fair Value Hedge - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Location and Fair Value Amount of Derivative Instruments
+000007 | Carrying value of the hedged (and formerly hedged) liabilities
+000008 | $ 1,507
+000009 | $ 959
+000010 | Balance Sheet Location [Axis]: us-gaap:LongTermDebtNoncurrent | Derivatives designated as hedging instruments
+000011 | Location and Fair Value Amount of Derivative Instruments
+000012 | Cumulative amount of fair value hedging adjustment included in carrying value of hedged liabilities for
+000013 | (12)
+000014 | 0
+000015 | Balance Sheet Location [Axis]: us-gaap:LongTermDebtNoncurrent | Derivatives not designated as hedging instruments
+000016 | Location and Fair Value Amount of Derivative Instruments
+000017 | Cumulative amount of fair value hedging adjustment included in carrying value of hedged liabilities for
+000018 | $ (44)
+000019 | $ (44)
+000020 | X
+000021 | - Definition
+000022 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000023 | + References
+000024 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000025 | -Topic 815
+000026 | -SubTopic 10
+000027 | -Name Accounting Standards Codification
+000028 | -Section 55
+000029 | -Paragraph 182
+000030 | -Publisher FASB
+000031 | -URI https://asc.fasb.org/1943274/2147480401/815-10-55-182
+000032 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000033 | -Topic 815
+000034 | -SubTopic 10
+000035 | -Name Accounting Standards Codification
+000036 | -Section 50
+000037 | -Paragraph 4A
+000038 | -Subparagraph (a)
+000039 | -Publisher FASB
+000040 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4A
+000041 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000042 | -Topic 815
+000043 | -SubTopic 10
+000044 | -Name Accounting Standards Codification
+000045 | -Section 50
+000046 | -Paragraph 4B
+000047 | -Subparagraph (a)
+000048 | -Publisher FASB
+000049 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000050 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000051 | -Topic 815
+000052 | -SubTopic 10
+000053 | -Name Accounting Standards Codification
+000054 | -Section 50
+000055 | -Paragraph 4B
+000056 | -Subparagraph (c)(1)
+000057 | -Publisher FASB
+000058 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000059 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000060 | -Topic 815
+000061 | -SubTopic 10
+000062 | -Name Accounting Standards Codification
+000063 | -Section 50
+000064 | -Paragraph 4B
+000065 | -Subparagraph (c)(2)
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000068 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000069 | -Topic 815
+000070 | -SubTopic 10
+000071 | -Name Accounting Standards Codification
+000072 | -Section 50
+000073 | -Paragraph 4B
+000074 | -Subparagraph (d)
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4B
+000077 | + Details
+000078 | Name:
+000079 | us-gaap_DerivativesFairValueLineItems
+000080 | Namespace Prefix:
+000081 | us-gaap_
+000082 | Data Type:
+000083 | xbrli:stringItemType
+000084 | Balance Type:
+000085 | na
+000086 | Period Type:
+000087 | duration
+000088 | X
+000089 | - Definition
+000090 | Amount of liability hedged in fair value hedging relationship.
+000091 | + References
+000092 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000093 | -Topic 815
+000094 | -SubTopic 10
+000095 | -Name Accounting Standards Codification
+000096 | -Section 50
+000097 | -Paragraph 4EE
+000098 | -Subparagraph (a)
+000099 | -Publisher FASB
+000100 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4EE
+000101 | + Details
+000102 | Name:
+000103 | us-gaap_HedgedLiabilityFairValueHedge
+000104 | Namespace Prefix:
+000105 | us-gaap_
+000106 | Data Type:
+000107 | xbrli:monetaryItemType
+000108 | Balance Type:
+000109 | credit
+000110 | Period Type:
+000111 | instant
+000112 | X
+000113 | - Definition
+000114 | Amount of cumulative increase (decrease) in fair value of hedged liability in fair value hedge, attributable to hedged risk. Excludes cumulative basis adjustment related to foreign exchange risk.
+000115 | + References
+000116 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000117 | -Topic 815
+000118 | -SubTopic 10
+000119 | -Name Accounting Standards Codification
+000120 | -Section 50
+000121 | -Paragraph 4EE
+000122 | -Subparagraph (b)
+000123 | -Publisher FASB
+000124 | -URI https://asc.fasb.org/1943274/2147480434/815-10-50-4EE
+000125 | + Details
+000126 | Name:
+000127 | us-gaap_HedgedLiabilityFairValueHedgeCumulativeIncreaseDecrease
+000128 | Namespace Prefix:
+000129 | us-gaap_
+000130 | Data Type:
+000131 | xbrli:monetaryItemType
+000132 | Balance Type:
+000133 | credit
+000134 | Period Type:
+000135 | instant
+000136 | X
+000137 | - Details
+000138 | Name:
+000139 | us-gaap_DerivativeInstrumentsGainLossByHedgingRelationshipAxis=us-gaap_FairValueHedgingMember
+000140 | Namespace Prefix:
+000141 | Data Type:
+000142 | na
+000143 | Balance Type:
+000144 | Period Type:
+000145 | X
+000146 | - Details
+000147 | Name:
+000148 | us-gaap_StatementOfFinancialPositionLocationBalanceAxis=us-gaap_LongTermDebtNoncurrent
+000149 | Namespace Prefix:
+000150 | Data Type:
+000151 | na
+000152 | Balance Type:
+000153 | Period Type:
+000154 | X
+000155 | - Details
+000156 | Name:
+000157 | us-gaap_HedgingDesignationAxis=us-gaap_DesignatedAsHedgingInstrumentMember
+000158 | Namespace Prefix:
+000159 | Data Type:
+000160 | na
+000161 | Balance Type:
+000162 | Period Type:
+000163 | X
+000164 | - Details
+000165 | Name:
+000166 | us-gaap_HedgingDesignationAxis=us-gaap_NondesignatedMember
+000167 | Namespace Prefix:
+000168 | Data Type:
+000169 | na
+000170 | Balance Type:
+000171 | Period Type:

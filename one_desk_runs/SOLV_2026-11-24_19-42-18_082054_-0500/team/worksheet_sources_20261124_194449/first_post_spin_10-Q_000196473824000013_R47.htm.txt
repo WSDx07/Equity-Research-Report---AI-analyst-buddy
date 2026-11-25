@@ -1,0 +1,286 @@
+000001 | v3.24.1.1.u2
+000002 | Pension and Postretirement Benefit Plans - Change in Benefit Obligation and Plan Assets (Details)
+000003 | $ in Thousands
+000004 | 3 Months Ended
+000005 | Mar. 31, 2024
+000006 | USD ($)
+000007 | Qualified and Non-qualified Pension Benefits | United States
+000008 | Change in benefit obligation
+000009 | Transfers from 3M
+000010 | $ 1,850,000
+000011 | Benefit obligation at March 31
+000012 | 1,850,000
+000013 | Change in plan assets
+000014 | Transfers from 3M
+000015 | 1,808,000
+000016 | Fair value of plan assets at March 31
+000017 | 1,808,000
+000018 | Funded status at March 31
+000019 | (42,000)
+000020 | Qualified and Non-qualified Pension Benefits | International
+000021 | Change in benefit obligation
+000022 | Transfers from 3M
+000023 | 73,000
+000024 | Benefit obligation at March 31
+000025 | 73,000
+000026 | Change in plan assets
+000027 | Transfers from 3M
+000028 | 68,000
+000029 | Fair value of plan assets at March 31
+000030 | 68,000
+000031 | Funded status at March 31
+000032 | (5,000)
+000033 | Postretirement Benefits
+000034 | Change in benefit obligation
+000035 | Transfers from 3M
+000036 | 241,000
+000037 | Benefit obligation at March 31
+000038 | 241,000
+000039 | Change in plan assets
+000040 | Transfers from 3M
+000041 | 129,000
+000042 | Fair value of plan assets at March 31
+000043 | 129,000
+000044 | Funded status at March 31
+000045 | $ (112,000)
+000046 | X
+000047 | - Definition
+000048 | Change in Benefit Obligation
+000049 | + References
+000050 | No definition available.
+000051 | + Details
+000052 | Name:
+000053 | solv_ChangeInBenefitObligationAbstract
+000054 | Namespace Prefix:
+000055 | solv_
+000056 | Data Type:
+000057 | xbrli:stringItemType
+000058 | Balance Type:
+000059 | na
+000060 | Period Type:
+000061 | duration
+000062 | X
+000063 | - Definition
+000064 | Change in Plan Assets
+000065 | + References
+000066 | No definition available.
+000067 | + Details
+000068 | Name:
+000069 | solv_ChangeInPlanAssetsAbstract
+000070 | Namespace Prefix:
+000071 | solv_
+000072 | Data Type:
+000073 | xbrli:stringItemType
+000074 | Balance Type:
+000075 | na
+000076 | Period Type:
+000077 | duration
+000078 | X
+000079 | - Definition
+000080 | Defined Benefit Plan, Benefit Obligation, Transfers From Parent
+000081 | + References
+000082 | No definition available.
+000083 | + Details
+000084 | Name:
+000085 | solv_DefinedBenefitPlanBenefitObligationTransfersFromParent
+000086 | Namespace Prefix:
+000087 | solv_
+000088 | Data Type:
+000089 | xbrli:monetaryItemType
+000090 | Balance Type:
+000091 | credit
+000092 | Period Type:
+000093 | duration
+000094 | X
+000095 | - Definition
+000096 | Amount of increase (decrease) in plan assets of defined benefit plan from assets transferred into (from) plan.
+000097 | + References
+000098 | No definition available.
+000099 | + Details
+000100 | Name:
+000101 | us-gaap_DefinedBenefitPlanAssetsTransferredToFromPlan
+000102 | Namespace Prefix:
+000103 | us-gaap_
+000104 | Data Type:
+000105 | xbrli:monetaryItemType
+000106 | Balance Type:
+000107 | debit
+000108 | Period Type:
+000109 | duration
+000110 | X
+000111 | - Definition
+000112 | Amount of actuarial present value of benefits attributed to service rendered by employee for defined benefit plan.
+000113 | + References
+000114 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000115 | -Topic 715
+000116 | -SubTopic 20
+000117 | -Name Accounting Standards Codification
+000118 | -Section 50
+000119 | -Paragraph 1
+000120 | -Subparagraph (a)
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000123 | + Details
+000124 | Name:
+000125 | us-gaap_DefinedBenefitPlanBenefitObligation
+000126 | Namespace Prefix:
+000127 | us-gaap_
+000128 | Data Type:
+000129 | xbrli:monetaryItemType
+000130 | Balance Type:
+000131 | credit
+000132 | Period Type:
+000133 | instant
+000134 | X
+000135 | - Definition
+000136 | Amount of asset segregated and restricted to provide benefit under defined benefit plan. Asset includes, but is not limited to, stock, bond, other investment, earning from investment, and contribution by employer and employee.
+000137 | + References
+000138 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000139 | -Topic 715
+000140 | -SubTopic 20
+000141 | -Name Accounting Standards Codification
+000142 | -Section 55
+000143 | -Paragraph 17
+000144 | -Publisher FASB
+000145 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17
+000146 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000147 | -Topic 715
+000148 | -SubTopic 20
+000149 | -Name Accounting Standards Codification
+000150 | -Section 50
+000151 | -Paragraph 1
+000152 | -Subparagraph (d)(iv)(02)
+000153 | -Publisher FASB
+000154 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000155 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000156 | -Topic 715
+000157 | -SubTopic 20
+000158 | -Name Accounting Standards Codification
+000159 | -Section 50
+000160 | -Paragraph 1
+000161 | -Subparagraph (d)(ii)
+000162 | -Publisher FASB
+000163 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000164 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000165 | -Topic 715
+000166 | -SubTopic 20
+000167 | -Name Accounting Standards Codification
+000168 | -Section 50
+000169 | -Paragraph 1
+000170 | -Subparagraph (d)(iv)(01)
+000171 | -Publisher FASB
+000172 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000173 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000174 | -Topic 715
+000175 | -SubTopic 20
+000176 | -Name Accounting Standards Codification
+000177 | -Section 50
+000178 | -Paragraph 1
+000179 | -Subparagraph (b)
+000180 | -Publisher FASB
+000181 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000182 | Reference 6: http://www.xbrl.org/2003/role/exampleRef
+000183 | -Topic 715
+000184 | -SubTopic 20
+000185 | -Name Accounting Standards Codification
+000186 | -Section 50
+000187 | -Paragraph 1
+000188 | -Subparagraph (d)(ii)
+000189 | -Publisher FASB
+000190 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000191 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000192 | -Topic 715
+000193 | -SubTopic 20
+000194 | -Name Accounting Standards Codification
+000195 | -Section 50
+000196 | -Paragraph 1
+000197 | -Subparagraph (d)(iv)(01)
+000198 | -Publisher FASB
+000199 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000200 | + Details
+000201 | Name:
+000202 | us-gaap_DefinedBenefitPlanFairValueOfPlanAssets
+000203 | Namespace Prefix:
+000204 | us-gaap_
+000205 | Data Type:
+000206 | xbrli:monetaryItemType
+000207 | Balance Type:
+000208 | debit
+000209 | Period Type:
+000210 | instant
+000211 | X
+000212 | - Definition
+000213 | Amount of funded (unfunded) status of defined benefit plan, measured as difference between fair value of plan assets and benefit obligation. Includes, but is not limited to, overfunded (underfunded) status.
+000214 | + References
+000215 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000216 | -Topic 715
+000217 | -SubTopic 20
+000218 | -Name Accounting Standards Codification
+000219 | -Section 55
+000220 | -Paragraph 17
+000221 | -Publisher FASB
+000222 | -URI https://asc.fasb.org/1943274/2147480482/715-20-55-17
+000223 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000224 | -Topic 715
+000225 | -SubTopic 20
+000226 | -Name Accounting Standards Codification
+000227 | -Section 45
+000228 | -Paragraph 2
+000229 | -Publisher FASB
+000230 | -URI https://asc.fasb.org/1943274/2147480535/715-20-45-2
+000231 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000232 | -Topic 715
+000233 | -SubTopic 20
+000234 | -Name Accounting Standards Codification
+000235 | -Section 50
+000236 | -Paragraph 1
+000237 | -Subparagraph (c)
+000238 | -Publisher FASB
+000239 | -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+000240 | + Details
+000241 | Name:
+000242 | us-gaap_DefinedBenefitPlanFundedStatusOfPlan
+000243 | Namespace Prefix:
+000244 | us-gaap_
+000245 | Data Type:
+000246 | xbrli:monetaryItemType
+000247 | Balance Type:
+000248 | debit
+000249 | Period Type:
+000250 | instant
+000251 | X
+000252 | - Details
+000253 | Name:
+000254 | us-gaap_RetirementPlanTypeAxis=us-gaap_PensionPlansDefinedBenefitMember
+000255 | Namespace Prefix:
+000256 | Data Type:
+000257 | na
+000258 | Balance Type:
+000259 | Period Type:
+000260 | X
+000261 | - Details
+000262 | Name:
+000263 | us-gaap_RetirementPlanSponsorLocationAxis=country_US
+000264 | Namespace Prefix:
+000265 | Data Type:
+000266 | na
+000267 | Balance Type:
+000268 | Period Type:
+000269 | X
+000270 | - Details
+000271 | Name:
+000272 | us-gaap_RetirementPlanSponsorLocationAxis=us-gaap_ForeignPlanMember
+000273 | Namespace Prefix:
+000274 | Data Type:
+000275 | na
+000276 | Balance Type:
+000277 | Period Type:
+000278 | X
+000279 | - Details
+000280 | Name:
+000281 | us-gaap_RetirementPlanTypeAxis=us-gaap_OtherPostretirementBenefitPlansDefinedBenefitMember
+000282 | Namespace Prefix:
+000283 | Data Type:
+000284 | na
+000285 | Balance Type:
+000286 | Period Type:

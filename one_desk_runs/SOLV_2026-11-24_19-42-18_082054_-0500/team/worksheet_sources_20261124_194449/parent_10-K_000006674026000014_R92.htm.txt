@@ -1,0 +1,67 @@
+000001 | v3.25.4
+000002 | Long-Term Debt and Short-Term Borrowings - Schedule of Cash Interest Payments (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Debt Disclosure [Abstract]
+000009 | Cash interest payments
+000010 | $ 467
+000011 | $ 505
+000012 | $ 520
+000013 | X
+000014 | - References
+000015 | No definition available.
+000016 | + Details
+000017 | Name:
+000018 | us-gaap_DebtDisclosureAbstract
+000019 | Namespace Prefix:
+000020 | us-gaap_
+000021 | Data Type:
+000022 | xbrli:stringItemType
+000023 | Balance Type:
+000024 | na
+000025 | Period Type:
+000026 | duration
+000027 | X
+000028 | - Definition
+000029 | Amount of cash paid for interest, excluding capitalized interest, classified as operating activity. Includes, but is not limited to, payment to settle zero-coupon bond for accreted interest of debt discount and debt instrument with insignificant coupon interest rate in relation to effective interest rate of borrowing attributable to accreted interest of debt discount.
+000030 | + References
+000031 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000032 | -Topic 230
+000033 | -SubTopic 10
+000034 | -Name Accounting Standards Codification
+000035 | -Section 45
+000036 | -Paragraph 17
+000037 | -Subparagraph (d)
+000038 | -Publisher FASB
+000039 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-17
+000040 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000041 | -Topic 230
+000042 | -SubTopic 10
+000043 | -Name Accounting Standards Codification
+000044 | -Section 45
+000045 | -Paragraph 25
+000046 | -Subparagraph (e)
+000047 | -Publisher FASB
+000048 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-25
+000049 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000050 | -Topic 230
+000051 | -SubTopic 10
+000052 | -Name Accounting Standards Codification
+000053 | -Section 50
+000054 | -Paragraph 2
+000055 | -Publisher FASB
+000056 | -URI https://asc.fasb.org/1943274/2147482913/230-10-50-2
+000057 | + Details
+000058 | Name:
+000059 | us-gaap_InterestPaidNet
+000060 | Namespace Prefix:
+000061 | us-gaap_
+000062 | Data Type:
+000063 | xbrli:monetaryItemType
+000064 | Balance Type:
+000065 | credit
+000066 | Period Type:
+000067 | duration

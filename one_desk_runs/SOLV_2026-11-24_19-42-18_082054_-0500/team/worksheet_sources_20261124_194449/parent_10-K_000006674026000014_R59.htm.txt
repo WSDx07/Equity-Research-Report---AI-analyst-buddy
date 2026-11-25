@@ -1,0 +1,104 @@
+000001 | v3.25.4
+000002 | Discontinued Operations - Schedule of Cash Flows from Discontinued Operations (Details) - Discontinued Operations, Disposed of by Sale - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2024
+000006 | Dec. 31, 2023
+000007 | Income Statement, Balance Sheet and Additional Disclosures by Disposal Groups, Including Discontinued Operations [Line Items]
+000008 | Depreciation and amortization
+000009 | $ 139
+000010 | $ 554
+000011 | Purchases of PP&E
+000012 | $ 77
+000013 | $ 227
+000014 | X
+000015 | - Definition
+000016 | Disposal Group, Including Discontinued Operation, Purchases Of Property, Plant And Equipment (PP&E)
+000017 | + References
+000018 | No definition available.
+000019 | + Details
+000020 | Name:
+000021 | mmm_DisposalGroupIncludingDiscontinuedOperationPurchasesOfPropertyPlantAndEquipmentPPE
+000022 | Namespace Prefix:
+000023 | mmm_
+000024 | Data Type:
+000025 | xbrli:monetaryItemType
+000026 | Balance Type:
+000027 | debit
+000028 | Period Type:
+000029 | duration
+000030 | X
+000031 | - Definition
+000032 | Amount of deprecation and amortization expense attributable to property, plant and equipment and intangible assets of discontinued operations.
+000033 | + References
+000034 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000035 | -Topic 230
+000036 | -SubTopic 10
+000037 | -Name Accounting Standards Codification
+000038 | -Section 45
+000039 | -Paragraph 28
+000040 | -Subparagraph (b)
+000041 | -Publisher FASB
+000042 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000043 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000044 | -Topic 205
+000045 | -SubTopic 20
+000046 | -Name Accounting Standards Codification
+000047 | -Section 50
+000048 | -Paragraph 5B
+000049 | -Subparagraph (c)(2)
+000050 | -Publisher FASB
+000051 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000052 | + Details
+000053 | Name:
+000054 | us-gaap_DepreciationAndAmortizationDiscontinuedOperations
+000055 | Namespace Prefix:
+000056 | us-gaap_
+000057 | Data Type:
+000058 | xbrli:monetaryItemType
+000059 | Balance Type:
+000060 | debit
+000061 | Period Type:
+000062 | duration
+000063 | X
+000064 | - Definition
+000065 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000066 | + References
+000067 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000068 | -Topic 360
+000069 | -SubTopic 10
+000070 | -Name Accounting Standards Codification
+000071 | -Section 50
+000072 | -Paragraph 3A
+000073 | -Subparagraph (b)(2)
+000074 | -Publisher FASB
+000075 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3A
+000076 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000077 | -Topic 360
+000078 | -SubTopic 10
+000079 | -Name Accounting Standards Codification
+000080 | -Section 50
+000081 | -Paragraph 3A
+000082 | -Subparagraph (b)(1)
+000083 | -Publisher FASB
+000084 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3A
+000085 | + Details
+000086 | Name:
+000087 | us-gaap_IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsLineItems
+000088 | Namespace Prefix:
+000089 | us-gaap_
+000090 | Data Type:
+000091 | xbrli:stringItemType
+000092 | Balance Type:
+000093 | na
+000094 | Period Type:
+000095 | duration
+000096 | X
+000097 | - Details
+000098 | Name:
+000099 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DiscontinuedOperationsDisposedOfBySaleMember
+000100 | Namespace Prefix:
+000101 | Data Type:
+000102 | na
+000103 | Balance Type:
+000104 | Period Type:

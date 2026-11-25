@@ -1,0 +1,607 @@
+000001 | v3.26.3
+000002 | Supplemental Balance Sheet Information - Schedule of Supplemental Balance Sheet Information (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Inventories
+000007 | Finished goods
+000008 | $ 1,940
+000009 | $ 1,744
+000010 | Work in process
+000011 | 1,233
+000012 | 1,126
+000013 | Raw materials and supplies
+000014 | 908
+000015 | 791
+000016 | Total inventories
+000017 | 4,081
+000018 | 3,661
+000019 | Property, Plant & Equipment
+000020 | Property, plant and equipment
+000021 | 24,165
+000022 | 23,922
+000023 | Less: accumulated depreciation
+000024 | (17,196)
+000025 | (16,821)
+000026 | Property, plant and equipment — net
+000027 | 6,969
+000028 | 7,101
+000029 | Operating Leases
+000030 | Right of use assets
+000031 | $ 589
+000032 | $ 516
+000033 | Operating Lease, Right-of-Use Asset, Statement of Financial Position [Extensible Enumeration]
+000034 | Other assets
+000035 | Other assets
+000036 | Current liability
+000037 | $ 153
+000038 | $ 167
+000039 | Operating Lease, Liability, Current, Statement of Financial Position [Extensible Enumeration]
+000040 | Other current liabilities
+000041 | Other current liabilities
+000042 | Noncurrent liability
+000043 | $ 450
+000044 | $ 363
+000045 | Operating Lease, Liability, Noncurrent, Statement of Financial Position [Extensible Enumeration]
+000046 | Other liabilities
+000047 | Other liabilities
+000048 | X
+000049 | - Definition
+000050 | Amount of accumulated depreciation, depletion, and amortization of property, plant, and equipment. Includes, but is not limited to, land and land improvement; building; machinery and equipment; furniture and fixture; and work of art, historical treasure, or similar asset classified as collection.
+000051 | + References
+000052 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000053 | -Topic 360
+000054 | -SubTopic 10
+000055 | -Name Accounting Standards Codification
+000056 | -Section S45
+000057 | -Paragraph 2
+000058 | -Publisher FASB
+000059 | -URI https://asc.fasb.org/1943274/2147480204/360-10-S45-2
+000060 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000061 | -Topic 360
+000062 | -SubTopic 10
+000063 | -Name Accounting Standards Codification
+000064 | -Section 50
+000065 | -Paragraph 1
+000066 | -Subparagraph (c)
+000067 | -Publisher FASB
+000068 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-1
+000069 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000070 | -Topic 942
+000071 | -SubTopic 360
+000072 | -Name Accounting Standards Codification
+000073 | -Section 45
+000074 | -Paragraph 1
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147478443/942-360-45-1
+000077 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000078 | -Topic 942
+000079 | -SubTopic 360
+000080 | -Name Accounting Standards Codification
+000081 | -Section 50
+000082 | -Paragraph 1
+000083 | -Publisher FASB
+000084 | -URI https://asc.fasb.org/1943274/2147478451/942-360-50-1
+000085 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000086 | -Topic 350
+000087 | -SubTopic 40
+000088 | -Name Accounting Standards Codification
+000089 | -Section 50
+000090 | -Paragraph 1
+000091 | -Publisher FASB
+000092 | -URI https://asc.fasb.org/1943274/2147482558/350-40-50-1
+000093 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000094 | -Topic 944
+000095 | -SubTopic 210
+000096 | -Name Accounting Standards Codification
+000097 | -Section S99
+000098 | -Paragraph 1
+000099 | -Subparagraph (SX 210.7-03(a)(8)(b))
+000100 | -Publisher FASB
+000101 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000102 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000103 | -Topic 210
+000104 | -SubTopic 10
+000105 | -Name Accounting Standards Codification
+000106 | -Section S99
+000107 | -Paragraph 1
+000108 | -Subparagraph (SX 210.5-02(14))
+000109 | -Publisher FASB
+000110 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000111 | + Details
+000112 | Name:
+000113 | us-gaap_AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment
+000114 | Namespace Prefix:
+000115 | us-gaap_
+000116 | Data Type:
+000117 | xbrli:monetaryItemType
+000118 | Balance Type:
+000119 | credit
+000120 | Period Type:
+000121 | instant
+000122 | X
+000123 | - References
+000124 | No definition available.
+000125 | + Details
+000126 | Name:
+000127 | us-gaap_AssetsAndLiabilitiesLesseeAbstract
+000128 | Namespace Prefix:
+000129 | us-gaap_
+000130 | Data Type:
+000131 | xbrli:stringItemType
+000132 | Balance Type:
+000133 | na
+000134 | Period Type:
+000135 | duration
+000136 | X
+000137 | - Definition
+000138 | Amount before valuation and LIFO reserves of completed merchandise or goods expected to be sold within one year or operating cycle, if longer.
+000139 | + References
+000140 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000141 | -Topic 210
+000142 | -SubTopic 10
+000143 | -Name Accounting Standards Codification
+000144 | -Section S50
+000145 | -Paragraph 3
+000146 | -Publisher FASB
+000147 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000148 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000149 | -Topic 210
+000150 | -SubTopic 10
+000151 | -Name Accounting Standards Codification
+000152 | -Section S99
+000153 | -Paragraph 1
+000154 | -Subparagraph (SX 210.5-02(6)(a)(1))
+000155 | -Publisher FASB
+000156 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000157 | + Details
+000158 | Name:
+000159 | us-gaap_InventoryFinishedGoods
+000160 | Namespace Prefix:
+000161 | us-gaap_
+000162 | Data Type:
+000163 | xbrli:monetaryItemType
+000164 | Balance Type:
+000165 | debit
+000166 | Period Type:
+000167 | instant
+000168 | X
+000169 | - Definition
+000170 | Amount after valuation and LIFO reserves of inventory expected to be sold, or consumed within one year or operating cycle, if longer.
+000171 | + References
+000172 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000173 | -Topic 210
+000174 | -SubTopic 10
+000175 | -Name Accounting Standards Codification
+000176 | -Section S50
+000177 | -Paragraph 3
+000178 | -Publisher FASB
+000179 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000180 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000181 | -Topic 852
+000182 | -SubTopic 10
+000183 | -Name Accounting Standards Codification
+000184 | -Section 55
+000185 | -Paragraph 10
+000186 | -Publisher FASB
+000187 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000188 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000189 | -Topic 210
+000190 | -SubTopic 10
+000191 | -Name Accounting Standards Codification
+000192 | -Section 45
+000193 | -Paragraph 1
+000194 | -Subparagraph (b)
+000195 | -Publisher FASB
+000196 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-1
+000197 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000198 | -Topic 210
+000199 | -SubTopic 10
+000200 | -Name Accounting Standards Codification
+000201 | -Section S99
+000202 | -Paragraph 1
+000203 | -Subparagraph (SX 210.5-02(6))
+000204 | -Publisher FASB
+000205 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000206 | + Details
+000207 | Name:
+000208 | us-gaap_InventoryNet
+000209 | Namespace Prefix:
+000210 | us-gaap_
+000211 | Data Type:
+000212 | xbrli:monetaryItemType
+000213 | Balance Type:
+000214 | debit
+000215 | Period Type:
+000216 | instant
+000217 | X
+000218 | - References
+000219 | No definition available.
+000220 | + Details
+000221 | Name:
+000222 | us-gaap_InventoryNetAbstract
+000223 | Namespace Prefix:
+000224 | us-gaap_
+000225 | Data Type:
+000226 | xbrli:stringItemType
+000227 | Balance Type:
+000228 | na
+000229 | Period Type:
+000230 | duration
+000231 | X
+000232 | - Definition
+000233 | Gross amount of unprocessed materials to be used in manufacturing or production process and supplies that will be consumed.
+000234 | + References
+000235 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000236 | -Topic 210
+000237 | -SubTopic 10
+000238 | -Name Accounting Standards Codification
+000239 | -Section S99
+000240 | -Paragraph 1
+000241 | -Subparagraph (SX 210.5-02(6))
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000244 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000245 | -Topic 210
+000246 | -SubTopic 10
+000247 | -Name Accounting Standards Codification
+000248 | -Section S50
+000249 | -Paragraph 3
+000250 | -Publisher FASB
+000251 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000252 | + Details
+000253 | Name:
+000254 | us-gaap_InventoryRawMaterialsAndSupplies
+000255 | Namespace Prefix:
+000256 | us-gaap_
+000257 | Data Type:
+000258 | xbrli:monetaryItemType
+000259 | Balance Type:
+000260 | debit
+000261 | Period Type:
+000262 | instant
+000263 | X
+000264 | - Definition
+000265 | Amount before valuation and LIFO reserves of merchandise or goods in the production process expected to be completed within one year or operating cycle, if longer.
+000266 | + References
+000267 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000268 | -Topic 210
+000269 | -SubTopic 10
+000270 | -Name Accounting Standards Codification
+000271 | -Section S50
+000272 | -Paragraph 3
+000273 | -Publisher FASB
+000274 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-3
+000275 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000276 | -Topic 210
+000277 | -SubTopic 10
+000278 | -Name Accounting Standards Codification
+000279 | -Section S99
+000280 | -Paragraph 1
+000281 | -Subparagraph (SX 210.5-02(6)(a)(3))
+000282 | -Publisher FASB
+000283 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000284 | + Details
+000285 | Name:
+000286 | us-gaap_InventoryWorkInProcess
+000287 | Namespace Prefix:
+000288 | us-gaap_
+000289 | Data Type:
+000290 | xbrli:monetaryItemType
+000291 | Balance Type:
+000292 | debit
+000293 | Period Type:
+000294 | instant
+000295 | X
+000296 | - Definition
+000297 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as current.
+000298 | + References
+000299 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000300 | -Topic 210
+000301 | -SubTopic 10
+000302 | -Name Accounting Standards Codification
+000303 | -Section 45
+000304 | -Paragraph 8
+000305 | -Subparagraph (c)
+000306 | -Publisher FASB
+000307 | -URI https://asc.fasb.org/1943274/2147483467/210-10-45-8
+000308 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000309 | -Topic 842
+000310 | -SubTopic 20
+000311 | -Name Accounting Standards Codification
+000312 | -Section 45
+000313 | -Paragraph 1
+000314 | -Subparagraph (b)
+000315 | -Publisher FASB
+000316 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000317 | + Details
+000318 | Name:
+000319 | us-gaap_OperatingLeaseLiabilityCurrent
+000320 | Namespace Prefix:
+000321 | us-gaap_
+000322 | Data Type:
+000323 | xbrli:monetaryItemType
+000324 | Balance Type:
+000325 | credit
+000326 | Period Type:
+000327 | instant
+000328 | X
+000329 | - Definition
+000330 | Indicates line item in statement of financial position that includes current operating lease liability.
+000331 | + References
+000332 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000333 | -Topic 842
+000334 | -SubTopic 20
+000335 | -Name Accounting Standards Codification
+000336 | -Section 45
+000337 | -Paragraph 2
+000338 | -Publisher FASB
+000339 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-2
+000340 | + Details
+000341 | Name:
+000342 | us-gaap_OperatingLeaseLiabilityCurrentStatementOfFinancialPositionExtensibleList
+000343 | Namespace Prefix:
+000344 | us-gaap_
+000345 | Data Type:
+000346 | enum2:enumerationSetItemType
+000347 | Balance Type:
+000348 | na
+000349 | Period Type:
+000350 | instant
+000351 | X
+000352 | - Definition
+000353 | Present value of lessee's discounted obligation for lease payments from operating lease, classified as noncurrent.
+000354 | + References
+000355 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000356 | -Topic 842
+000357 | -SubTopic 20
+000358 | -Name Accounting Standards Codification
+000359 | -Section 45
+000360 | -Paragraph 1
+000361 | -Subparagraph (b)
+000362 | -Publisher FASB
+000363 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000364 | + Details
+000365 | Name:
+000366 | us-gaap_OperatingLeaseLiabilityNoncurrent
+000367 | Namespace Prefix:
+000368 | us-gaap_
+000369 | Data Type:
+000370 | xbrli:monetaryItemType
+000371 | Balance Type:
+000372 | credit
+000373 | Period Type:
+000374 | instant
+000375 | X
+000376 | - Definition
+000377 | Indicates line item in statement of financial position that includes noncurrent operating lease liability.
+000378 | + References
+000379 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000380 | -Topic 842
+000381 | -SubTopic 20
+000382 | -Name Accounting Standards Codification
+000383 | -Section 45
+000384 | -Paragraph 2
+000385 | -Publisher FASB
+000386 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-2
+000387 | + Details
+000388 | Name:
+000389 | us-gaap_OperatingLeaseLiabilityNoncurrentStatementOfFinancialPositionExtensibleList
+000390 | Namespace Prefix:
+000391 | us-gaap_
+000392 | Data Type:
+000393 | enum2:enumerationSetItemType
+000394 | Balance Type:
+000395 | na
+000396 | Period Type:
+000397 | instant
+000398 | X
+000399 | - Definition
+000400 | Amount of lessee's right to use underlying asset under operating lease.
+000401 | + References
+000402 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000403 | -Topic 842
+000404 | -SubTopic 20
+000405 | -Name Accounting Standards Codification
+000406 | -Section 45
+000407 | -Paragraph 1
+000408 | -Subparagraph (a)
+000409 | -Publisher FASB
+000410 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-1
+000411 | + Details
+000412 | Name:
+000413 | us-gaap_OperatingLeaseRightOfUseAsset
+000414 | Namespace Prefix:
+000415 | us-gaap_
+000416 | Data Type:
+000417 | xbrli:monetaryItemType
+000418 | Balance Type:
+000419 | debit
+000420 | Period Type:
+000421 | instant
+000422 | X
+000423 | - Definition
+000424 | Indicates line item in statement of financial position that includes operating lease right-of-use asset.
+000425 | + References
+000426 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000427 | -Topic 842
+000428 | -SubTopic 20
+000429 | -Name Accounting Standards Codification
+000430 | -Section 45
+000431 | -Paragraph 2
+000432 | -Publisher FASB
+000433 | -URI https://asc.fasb.org/1943274/2147479041/842-20-45-2
+000434 | + Details
+000435 | Name:
+000436 | us-gaap_OperatingLeaseRightOfUseAssetStatementOfFinancialPositionExtensibleList
+000437 | Namespace Prefix:
+000438 | us-gaap_
+000439 | Data Type:
+000440 | enum2:enumerationSetItemType
+000441 | Balance Type:
+000442 | na
+000443 | Period Type:
+000444 | instant
+000445 | X
+000446 | - References
+000447 | No definition available.
+000448 | + Details
+000449 | Name:
+000450 | us-gaap_PropertyPlantAndEquipmentAbstract
+000451 | Namespace Prefix:
+000452 | us-gaap_
+000453 | Data Type:
+000454 | xbrli:stringItemType
+000455 | Balance Type:
+000456 | na
+000457 | Period Type:
+000458 | duration
+000459 | X
+000460 | - Definition
+000461 | Amount, before accumulated depreciation, depletion, and amortization, of property, plant, and equipment. Includes, but is not limited to, land and land improvement; building; machinery and equipment; furniture and fixture; and work of art, historical treasure, or similar asset classified as collection.
+000462 | + References
+000463 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000464 | -Topic 360
+000465 | -SubTopic 10
+000466 | -Name Accounting Standards Codification
+000467 | -Section 50
+000468 | -Paragraph 1
+000469 | -Subparagraph (b)
+000470 | -Publisher FASB
+000471 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-1
+000472 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000473 | -Topic 350
+000474 | -SubTopic 40
+000475 | -Name Accounting Standards Codification
+000476 | -Section 50
+000477 | -Paragraph 1
+000478 | -Publisher FASB
+000479 | -URI https://asc.fasb.org/1943274/2147482558/350-40-50-1
+000480 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000481 | -Topic 210
+000482 | -SubTopic 10
+000483 | -Name Accounting Standards Codification
+000484 | -Section S50
+000485 | -Paragraph 5
+000486 | -Publisher FASB
+000487 | -URI https://asc.fasb.org/1943274/2147480657/210-10-S50-5
+000488 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000489 | -Topic 944
+000490 | -SubTopic 210
+000491 | -Name Accounting Standards Codification
+000492 | -Section S99
+000493 | -Paragraph 1
+000494 | -Subparagraph (SX 210.7-03(a)(8))
+000495 | -Publisher FASB
+000496 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000497 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000498 | -Topic 210
+000499 | -SubTopic 10
+000500 | -Name Accounting Standards Codification
+000501 | -Section S99
+000502 | -Paragraph 1
+000503 | -Subparagraph (SX 210.5-02(13))
+000504 | -Publisher FASB
+000505 | -URI https://asc.fasb.org/1943274/2147480566/210-10-S99-1
+000506 | + Details
+000507 | Name:
+000508 | us-gaap_PropertyPlantAndEquipmentGross
+000509 | Namespace Prefix:
+000510 | us-gaap_
+000511 | Data Type:
+000512 | xbrli:monetaryItemType
+000513 | Balance Type:
+000514 | debit
+000515 | Period Type:
+000516 | instant
+000517 | X
+000518 | - Definition
+000519 | Amount, after accumulated depreciation, depletion, and amortization, of property, plant, and equipment. Includes, but is not limited to, land and land improvement; building; machinery and equipment; furniture and fixture; and work of art, historical treasure, or similar asset classified as collection.
+000520 | + References
+000521 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000522 | -Topic 360
+000523 | -SubTopic 10
+000524 | -Name Accounting Standards Codification
+000525 | -Section 50
+000526 | -Paragraph 1
+000527 | -Subparagraph (b)
+000528 | -Publisher FASB
+000529 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-1
+000530 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000531 | -Topic 942
+000532 | -SubTopic 360
+000533 | -Name Accounting Standards Codification
+000534 | -Section 45
+000535 | -Paragraph 1
+000536 | -Publisher FASB
+000537 | -URI https://asc.fasb.org/1943274/2147478443/942-360-45-1
+000538 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000539 | -Topic 942
+000540 | -SubTopic 360
+000541 | -Name Accounting Standards Codification
+000542 | -Section 50
+000543 | -Paragraph 1
+000544 | -Publisher FASB
+000545 | -URI https://asc.fasb.org/1943274/2147478451/942-360-50-1
+000546 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000547 | -Topic 942
+000548 | -SubTopic 210
+000549 | -Name Accounting Standards Codification
+000550 | -Section S45
+000551 | -Paragraph 1
+000552 | -Publisher FASB
+000553 | -URI https://asc.fasb.org/1943274/2147477657/942-210-S45-1
+000554 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000555 | -Topic 942
+000556 | -SubTopic 210
+000557 | -Name Accounting Standards Codification
+000558 | -Section S50
+000559 | -Paragraph 1
+000560 | -Publisher FASB
+000561 | -URI https://asc.fasb.org/1943274/2147478478/942-210-S50-1
+000562 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000563 | -Topic 942
+000564 | -SubTopic 210
+000565 | -Name Accounting Standards Codification
+000566 | -Section S99
+000567 | -Paragraph 1
+000568 | -Subparagraph (SX 210.9-03(8))
+000569 | -Publisher FASB
+000570 | -URI https://asc.fasb.org/1943274/2147478546/942-210-S99-1
+000571 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000572 | -Topic 842
+000573 | -SubTopic 20
+000574 | -Name Accounting Standards Codification
+000575 | -Section 50
+000576 | -Paragraph 7A
+000577 | -Subparagraph (a)
+000578 | -Publisher FASB
+000579 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-7A
+000580 | Reference 8: http://www.xbrl.org/2003/role/exampleRef
+000581 | -Topic 852
+000582 | -SubTopic 10
+000583 | -Name Accounting Standards Codification
+000584 | -Section 55
+000585 | -Paragraph 10
+000586 | -Publisher FASB
+000587 | -URI https://asc.fasb.org/1943274/2147481372/852-10-55-10
+000588 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000589 | -Topic 944
+000590 | -SubTopic 210
+000591 | -Name Accounting Standards Codification
+000592 | -Section S99
+000593 | -Paragraph 1
+000594 | -Subparagraph (SX 210.7-03(a)(8))
+000595 | -Publisher FASB
+000596 | -URI https://asc.fasb.org/1943274/2147478777/944-210-S99-1
+000597 | + Details
+000598 | Name:
+000599 | us-gaap_PropertyPlantAndEquipmentNet
+000600 | Namespace Prefix:
+000601 | us-gaap_
+000602 | Data Type:
+000603 | xbrli:monetaryItemType
+000604 | Balance Type:
+000605 | debit
+000606 | Period Type:
+000607 | instant

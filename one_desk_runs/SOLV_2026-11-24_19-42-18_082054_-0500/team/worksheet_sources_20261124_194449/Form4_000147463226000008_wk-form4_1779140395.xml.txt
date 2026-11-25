@@ -1,0 +1,113 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0609</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2026-05-15</periodOfReport>
+000010 | 
+000011 |     <notSubjectToSection16>0</notSubjectToSection16>
+000012 | 
+000013 |     <issuer>
+000014 |         <issuerCik>0001964738</issuerCik>
+000015 |         <issuerName>Solventum Corp</issuerName>
+000016 |         <issuerTradingSymbol>SOLV</issuerTradingSymbol>
+000017 |         <issuerForeignTradingSymbol></issuerForeignTradingSymbol>
+000018 |     </issuer>
+000019 | 
+000020 |     <reportingOwner>
+000021 |         <reportingOwnerId>
+000022 |             <rptOwnerCik>0001474632</rptOwnerCik>
+000023 |             <rptOwnerName>ALBAN CARLOS</rptOwnerName>
+000024 |         </reportingOwnerId>
+000025 |         <reportingOwnerAddress>
+000026 |             <rptOwnerNonUSAddressFlag>false</rptOwnerNonUSAddressFlag>
+000027 |             <rptOwnerStreet1>1750 YANKEE DOODLE ROAD</rptOwnerStreet1>
+000028 |             <rptOwnerStreet2></rptOwnerStreet2>
+000029 |             <rptOwnerCity>EAGAN</rptOwnerCity>
+000030 |             <rptOwnerState>MN</rptOwnerState>
+000031 |             <rptOwnerZipCode>55121</rptOwnerZipCode>
+000032 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000033 |         </reportingOwnerAddress>
+000034 |         <reportingOwnerRelationship>
+000035 |             <isDirector>1</isDirector>
+000036 |             <isOfficer>0</isOfficer>
+000037 |             <isTenPercentOwner>0</isTenPercentOwner>
+000038 |             <isOther>0</isOther>
+000039 |         </reportingOwnerRelationship>
+000040 |     </reportingOwner>
+000041 | 
+000042 |     <aff10b5One>0</aff10b5One>
+000043 | 
+000044 |     <nonDerivativeTable></nonDerivativeTable>
+000045 | 
+000046 |     <derivativeTable>
+000047 |         <derivativeTransaction>
+000048 |             <securityTitle>
+000049 |                 <value>Restricted Stock Units</value>
+000050 |             </securityTitle>
+000051 |             <conversionOrExercisePrice>
+000052 |                 <footnoteId id="F1"/>
+000053 |             </conversionOrExercisePrice>
+000054 |             <transactionDate>
+000055 |                 <value>2026-05-15</value>
+000056 |             </transactionDate>
+000057 |             <transactionCoding>
+000058 |                 <transactionFormType>4</transactionFormType>
+000059 |                 <transactionCode>A</transactionCode>
+000060 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000061 |             </transactionCoding>
+000062 |             <transactionAmounts>
+000063 |                 <transactionShares>
+000064 |                     <value>3300</value>
+000065 |                 </transactionShares>
+000066 |                 <transactionPricePerShare>
+000067 |                     <value>0</value>
+000068 |                 </transactionPricePerShare>
+000069 |                 <transactionAcquiredDisposedCode>
+000070 |                     <value>A</value>
+000071 |                 </transactionAcquiredDisposedCode>
+000072 |             </transactionAmounts>
+000073 |             <exerciseDate>
+000074 |                 <footnoteId id="F2"/>
+000075 |             </exerciseDate>
+000076 |             <expirationDate>
+000077 |                 <footnoteId id="F2"/>
+000078 |             </expirationDate>
+000079 |             <underlyingSecurity>
+000080 |                 <underlyingSecurityTitle>
+000081 |                     <value>Common Stock</value>
+000082 |                 </underlyingSecurityTitle>
+000083 |                 <underlyingSecurityShares>
+000084 |                     <value>3300</value>
+000085 |                 </underlyingSecurityShares>
+000086 |             </underlyingSecurity>
+000087 |             <postTransactionAmounts>
+000088 |                 <sharesOwnedFollowingTransaction>
+000089 |                     <value>3300</value>
+000090 |                 </sharesOwnedFollowingTransaction>
+000091 |             </postTransactionAmounts>
+000092 |             <ownershipNature>
+000093 |                 <directOrIndirectOwnership>
+000094 |                     <value>D</value>
+000095 |                 </directOrIndirectOwnership>
+000096 |             </ownershipNature>
+000097 |         </derivativeTransaction>
+000098 |     </derivativeTable>
+000099 | 
+000100 |     <footnotes>
+000101 |         <footnote id="F1">Each Restricted Stock unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the issuer's Common Stock upon settlement.</footnote>
+000102 |         <footnote id="F2">The RSUs shall fully vest on May 15, 2027, subject to continued service through the vesting date.</footnote>
+000103 |     </footnotes>
+000104 | 
+000105 |     <remarks></remarks>
+000106 | 
+000107 |     <ownerSignature>
+000108 |         <signatureName>/s/Megan Bombick, attorney-in-fact for Carlos Alban</signatureName>
+000109 |         <signatureDate>2026-05-18</signatureDate>
+000110 |     </ownerSignature>
+000111 | </ownershipDocument>
+000112 | </XML>
+000113 | 

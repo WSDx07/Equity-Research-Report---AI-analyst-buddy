@@ -1,0 +1,308 @@
+000001 | v3.25.4
+000002 | Marketable Securities - Schedule of Current and Non-current (Details) - USD ($)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Debt Securities, Available-for-sale
+000007 | Current marketable securities
+000008 | $ 698
+000009 | $ 2,128
+000010 | Non-current marketable securities
+000011 | 12
+000012 | 16
+000013 | Total marketable securities
+000014 | 710
+000015 | 2,144
+000016 | Corporate debt
+000017 | Debt Securities, Available-for-sale
+000018 | Total marketable securities
+000019 | 302
+000020 | 850
+000021 | Corporate debt | Fair Value on a Recurring Basis
+000022 | Debt Securities, Available-for-sale
+000023 | Current marketable securities
+000024 | 302
+000025 | 850
+000026 | Commercial paper
+000027 | Debt Securities, Available-for-sale
+000028 | Current marketable securities
+000029 | 191
+000030 | 658
+000031 | Total marketable securities
+000032 | 191
+000033 | 658
+000034 | U.S. government and treasury securities
+000035 | Debt Securities, Available-for-sale
+000036 | Total marketable securities
+000037 | 53
+000038 | 407
+000039 | U.S. government and treasury securities | Fair Value on a Recurring Basis
+000040 | Debt Securities, Available-for-sale
+000041 | Current marketable securities
+000042 | 53
+000043 | 407
+000044 | Asset backed securities and certificates of/time deposits
+000045 | Debt Securities, Available-for-sale
+000046 | Total marketable securities
+000047 | 148
+000048 | 209
+000049 | Asset backed securities and certificates of/time deposits | Fair Value on a Recurring Basis
+000050 | Debt Securities, Available-for-sale
+000051 | Current marketable securities
+000052 | 148
+000053 | 209
+000054 | U.S. municipal securities
+000055 | Debt Securities, Available-for-sale
+000056 | Current marketable securities
+000057 | 4
+000058 | 4
+000059 | Non-current marketable securities
+000060 | 12
+000061 | 16
+000062 | Total marketable securities
+000063 | $ 16
+000064 | $ 20
+000065 | X
+000066 | - Definition
+000067 | Amount excluding accrued interest, of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale).
+000068 | + References
+000069 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000070 | -Topic 326
+000071 | -SubTopic 30
+000072 | -Name Accounting Standards Codification
+000073 | -Section 45
+000074 | -Paragraph 1
+000075 | -Publisher FASB
+000076 | -URI https://asc.fasb.org/1943274/2147479130/326-30-45-1
+000077 | + Details
+000078 | Name:
+000079 | us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterest
+000080 | Namespace Prefix:
+000081 | us-gaap_
+000082 | Data Type:
+000083 | xbrli:monetaryItemType
+000084 | Balance Type:
+000085 | debit
+000086 | Period Type:
+000087 | instant
+000088 | X
+000089 | - Definition
+000090 | Amount excluding accrued interest, of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), classified as current.
+000091 | + References
+000092 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000093 | -Topic 326
+000094 | -SubTopic 30
+000095 | -Name Accounting Standards Codification
+000096 | -Section 45
+000097 | -Paragraph 1
+000098 | -Publisher FASB
+000099 | -URI https://asc.fasb.org/1943274/2147479130/326-30-45-1
+000100 | + Details
+000101 | Name:
+000102 | us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent
+000103 | Namespace Prefix:
+000104 | us-gaap_
+000105 | Data Type:
+000106 | xbrli:monetaryItemType
+000107 | Balance Type:
+000108 | debit
+000109 | Period Type:
+000110 | instant
+000111 | X
+000112 | - Definition
+000113 | Amount excluding accrued interest, of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), classified as noncurrent.
+000114 | + References
+000115 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000116 | -Topic 326
+000117 | -SubTopic 30
+000118 | -Name Accounting Standards Codification
+000119 | -Section 45
+000120 | -Paragraph 1
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147479130/326-30-45-1
+000123 | + Details
+000124 | Name:
+000125 | us-gaap_DebtSecuritiesAvailableForSaleExcludingAccruedInterestNoncurrent
+000126 | Namespace Prefix:
+000127 | us-gaap_
+000128 | Data Type:
+000129 | xbrli:monetaryItemType
+000130 | Balance Type:
+000131 | debit
+000132 | Period Type:
+000133 | instant
+000134 | X
+000135 | - Definition
+000136 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000137 | + References
+000138 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000139 | -Topic 320
+000140 | -SubTopic 10
+000141 | -Name Accounting Standards Codification
+000142 | -Section 50
+000143 | -Paragraph 2
+000144 | -Publisher FASB
+000145 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2
+000146 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000147 | -Topic 320
+000148 | -SubTopic 10
+000149 | -Name Accounting Standards Codification
+000150 | -Section 50
+000151 | -Paragraph 2
+000152 | -Subparagraph (a)
+000153 | -Publisher FASB
+000154 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2
+000155 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000156 | -Topic 320
+000157 | -SubTopic 10
+000158 | -Name Accounting Standards Codification
+000159 | -Section 50
+000160 | -Paragraph 2
+000161 | -Subparagraph (aa)
+000162 | -Publisher FASB
+000163 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2
+000164 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000165 | -Topic 320
+000166 | -SubTopic 10
+000167 | -Name Accounting Standards Codification
+000168 | -Section 50
+000169 | -Paragraph 2
+000170 | -Subparagraph (aaa)
+000171 | -Publisher FASB
+000172 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2
+000173 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000174 | -Topic 320
+000175 | -SubTopic 10
+000176 | -Name Accounting Standards Codification
+000177 | -Section 50
+000178 | -Paragraph 2
+000179 | -Subparagraph (b)
+000180 | -Publisher FASB
+000181 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2
+000182 | Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+000183 | -Topic 320
+000184 | -SubTopic 10
+000185 | -Name Accounting Standards Codification
+000186 | -Section 50
+000187 | -Paragraph 2
+000188 | -Subparagraph (c)
+000189 | -Publisher FASB
+000190 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2
+000191 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000192 | -Topic 320
+000193 | -SubTopic 10
+000194 | -Name Accounting Standards Codification
+000195 | -Section 50
+000196 | -Paragraph 2
+000197 | -Subparagraph (d)
+000198 | -Publisher FASB
+000199 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2
+000200 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000201 | -Topic 320
+000202 | -SubTopic 10
+000203 | -Name Accounting Standards Codification
+000204 | -Section 50
+000205 | -Paragraph 3
+000206 | -Publisher FASB
+000207 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3
+000208 | Reference 9: http://www.xbrl.org/2003/role/disclosureRef
+000209 | -Topic 320
+000210 | -SubTopic 10
+000211 | -Name Accounting Standards Codification
+000212 | -Section 50
+000213 | -Paragraph 3
+000214 | -Subparagraph (a)
+000215 | -Publisher FASB
+000216 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3
+000217 | Reference 10: http://www.xbrl.org/2003/role/disclosureRef
+000218 | -Topic 320
+000219 | -SubTopic 10
+000220 | -Name Accounting Standards Codification
+000221 | -Section 50
+000222 | -Paragraph 3
+000223 | -Subparagraph (b)
+000224 | -Publisher FASB
+000225 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3
+000226 | Reference 11: http://www.xbrl.org/2003/role/disclosureRef
+000227 | -Topic 320
+000228 | -SubTopic 10
+000229 | -Name Accounting Standards Codification
+000230 | -Section 50
+000231 | -Paragraph 3
+000232 | -Subparagraph (c)
+000233 | -Publisher FASB
+000234 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3
+000235 | Reference 12: http://www.xbrl.org/2003/role/disclosureRef
+000236 | -Topic 320
+000237 | -SubTopic 10
+000238 | -Name Accounting Standards Codification
+000239 | -Section 50
+000240 | -Paragraph 3
+000241 | -Subparagraph (d)
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3
+000244 | + Details
+000245 | Name:
+000246 | us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems
+000247 | Namespace Prefix:
+000248 | us-gaap_
+000249 | Data Type:
+000250 | xbrli:stringItemType
+000251 | Balance Type:
+000252 | na
+000253 | Period Type:
+000254 | duration
+000255 | X
+000256 | - Details
+000257 | Name:
+000258 | us-gaap_FinancialInstrumentAxis=us-gaap_CorporateDebtSecuritiesMember
+000259 | Namespace Prefix:
+000260 | Data Type:
+000261 | na
+000262 | Balance Type:
+000263 | Period Type:
+000264 | X
+000265 | - Details
+000266 | Name:
+000267 | us-gaap_FairValueByMeasurementFrequencyAxis=us-gaap_FairValueMeasurementsRecurringMember
+000268 | Namespace Prefix:
+000269 | Data Type:
+000270 | na
+000271 | Balance Type:
+000272 | Period Type:
+000273 | X
+000274 | - Details
+000275 | Name:
+000276 | us-gaap_FinancialInstrumentAxis=us-gaap_CommercialPaperMember
+000277 | Namespace Prefix:
+000278 | Data Type:
+000279 | na
+000280 | Balance Type:
+000281 | Period Type:
+000282 | X
+000283 | - Details
+000284 | Name:
+000285 | us-gaap_FinancialInstrumentAxis=us-gaap_USGovernmentDebtSecuritiesMember
+000286 | Namespace Prefix:
+000287 | Data Type:
+000288 | na
+000289 | Balance Type:
+000290 | Period Type:
+000291 | X
+000292 | - Details
+000293 | Name:
+000294 | us-gaap_FinancialInstrumentAxis=us-gaap_AssetBackedSecuritiesMember
+000295 | Namespace Prefix:
+000296 | Data Type:
+000297 | na
+000298 | Balance Type:
+000299 | Period Type:
+000300 | X
+000301 | - Details
+000302 | Name:
+000303 | us-gaap_FinancialInstrumentAxis=us-gaap_USStatesAndPoliticalSubdivisionsMember
+000304 | Namespace Prefix:
+000305 | Data Type:
+000306 | na
+000307 | Balance Type:
+000308 | Period Type:

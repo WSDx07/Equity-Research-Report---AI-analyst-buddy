@@ -1,0 +1,655 @@
+000001 | v3.26.3
+000002 | Acquisitions, Redeemable Noncontrolling Interest and Divestitures - Schedule of Assets and Liabilities Classified as Held for Sale (Details) - Disposal group, Held-for-sale, Not discontinued operations
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | USD ($)
+000006 | Assets held for sale
+000007 | Cash and cash equivalents
+000008 | $ 46
+000009 | Inventories
+000010 | 27
+000011 | Property, plant and equipment — net
+000012 | 96
+000013 | Other assets
+000014 | 18
+000015 | Valuation allowance on assets held for sale
+000016 | (141)
+000017 | Total assets held for sale
+000018 | 46
+000019 | Liabilities held for sale
+000020 | Pension and postretirement benefits
+000021 | (23)
+000022 | Other liabilities
+000023 | (14)
+000024 | Valuation allowance on liabilities held for sale
+000025 | (18)
+000026 | Total liabilities held for sale
+000027 | $ (55)
+000028 | X
+000029 | - Definition
+000030 | Disposal Group, Including Discontinued Operation, Pension And Postretirement Benefits
+000031 | + References
+000032 | No definition available.
+000033 | + Details
+000034 | Name:
+000035 | mmm_DisposalGroupIncludingDiscontinuedOperationPensionAndPostretirementBenefits
+000036 | Namespace Prefix:
+000037 | mmm_
+000038 | Data Type:
+000039 | xbrli:monetaryItemType
+000040 | Balance Type:
+000041 | credit
+000042 | Period Type:
+000043 | instant
+000044 | X
+000045 | - Definition
+000046 | Disposal Group, Including Discontinued Operation, Valuation Allowance On Assets Held For Sale
+000047 | + References
+000048 | No definition available.
+000049 | + Details
+000050 | Name:
+000051 | mmm_DisposalGroupIncludingDiscontinuedOperationValuationAllowanceOnAssetsHeldForSale
+000052 | Namespace Prefix:
+000053 | mmm_
+000054 | Data Type:
+000055 | xbrli:monetaryItemType
+000056 | Balance Type:
+000057 | credit
+000058 | Period Type:
+000059 | instant
+000060 | X
+000061 | - Definition
+000062 | Disposal Group, Including Discontinued Operation, Valuation Allowance On Liabilities Held For Sale
+000063 | + References
+000064 | No definition available.
+000065 | + Details
+000066 | Name:
+000067 | mmm_DisposalGroupIncludingDiscontinuedOperationValuationAllowanceOnLiabilitiesHeldForSale
+000068 | Namespace Prefix:
+000069 | mmm_
+000070 | Data Type:
+000071 | xbrli:monetaryItemType
+000072 | Balance Type:
+000073 | credit
+000074 | Period Type:
+000075 | instant
+000076 | X
+000077 | - Definition
+000078 | Liabilities Held for Sale
+000079 | + References
+000080 | No definition available.
+000081 | + Details
+000082 | Name:
+000083 | mmm_LiabilitiesHeldForSaleAbstract
+000084 | Namespace Prefix:
+000085 | mmm_
+000086 | Data Type:
+000087 | xbrli:stringItemType
+000088 | Balance Type:
+000089 | na
+000090 | Period Type:
+000091 | duration
+000092 | X
+000093 | - Definition
+000094 | Amount classified as assets attributable to disposal group held for sale or disposed of.
+000095 | + References
+000096 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000097 | -Topic 360
+000098 | -SubTopic 10
+000099 | -Name Accounting Standards Codification
+000100 | -Section 50
+000101 | -Paragraph 3
+000102 | -Subparagraph (e)
+000103 | -Publisher FASB
+000104 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000105 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000106 | -Topic 360
+000107 | -SubTopic 10
+000108 | -Name Accounting Standards Codification
+000109 | -Section 45
+000110 | -Paragraph 14
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-14
+000113 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000114 | -Topic 205
+000115 | -SubTopic 20
+000116 | -Name Accounting Standards Codification
+000117 | -Section 55
+000118 | -Paragraph 102
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147483474/205-20-55-102
+000121 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000122 | -Topic 205
+000123 | -SubTopic 20
+000124 | -Name Accounting Standards Codification
+000125 | -Section 50
+000126 | -Paragraph 5C
+000127 | -Subparagraph (a)(1)
+000128 | -Publisher FASB
+000129 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000130 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000131 | -Topic 205
+000132 | -SubTopic 20
+000133 | -Name Accounting Standards Codification
+000134 | -Section 50
+000135 | -Paragraph 5B
+000136 | -Subparagraph (e)
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000139 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000140 | -Topic 205
+000141 | -SubTopic 20
+000142 | -Name Accounting Standards Codification
+000143 | -Section 45
+000144 | -Paragraph 11
+000145 | -Publisher FASB
+000146 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000147 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000148 | -Topic 205
+000149 | -SubTopic 20
+000150 | -Name Accounting Standards Codification
+000151 | -Section 45
+000152 | -Paragraph 10
+000153 | -Publisher FASB
+000154 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+000155 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000156 | -Topic 205
+000157 | -SubTopic 20
+000158 | -Name Accounting Standards Codification
+000159 | -Section 50
+000160 | -Paragraph 5C
+000161 | -Subparagraph (a)(2)
+000162 | -Publisher FASB
+000163 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000164 | + Details
+000165 | Name:
+000166 | us-gaap_AssetsOfDisposalGroupIncludingDiscontinuedOperation
+000167 | Namespace Prefix:
+000168 | us-gaap_
+000169 | Data Type:
+000170 | xbrli:monetaryItemType
+000171 | Balance Type:
+000172 | debit
+000173 | Period Type:
+000174 | instant
+000175 | X
+000176 | - References
+000177 | No definition available.
+000178 | + Details
+000179 | Name:
+000180 | us-gaap_AssetsOfDisposalGroupIncludingDiscontinuedOperationAbstract
+000181 | Namespace Prefix:
+000182 | us-gaap_
+000183 | Data Type:
+000184 | xbrli:stringItemType
+000185 | Balance Type:
+000186 | na
+000187 | Period Type:
+000188 | duration
+000189 | X
+000190 | - Definition
+000191 | Amount classified as cash and cash equivalents attributable to disposal group held for sale or disposed of.
+000192 | + References
+000193 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000194 | -Topic 360
+000195 | -SubTopic 10
+000196 | -Name Accounting Standards Codification
+000197 | -Section 50
+000198 | -Paragraph 3
+000199 | -Subparagraph (e)
+000200 | -Publisher FASB
+000201 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000202 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000203 | -Topic 360
+000204 | -SubTopic 10
+000205 | -Name Accounting Standards Codification
+000206 | -Section 45
+000207 | -Paragraph 14
+000208 | -Publisher FASB
+000209 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-14
+000210 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000211 | -Topic 205
+000212 | -SubTopic 20
+000213 | -Name Accounting Standards Codification
+000214 | -Section 55
+000215 | -Paragraph 102
+000216 | -Publisher FASB
+000217 | -URI https://asc.fasb.org/1943274/2147483474/205-20-55-102
+000218 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000219 | -Topic 205
+000220 | -SubTopic 20
+000221 | -Name Accounting Standards Codification
+000222 | -Section 50
+000223 | -Paragraph 5C
+000224 | -Subparagraph (a)(1)
+000225 | -Publisher FASB
+000226 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000227 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000228 | -Topic 205
+000229 | -SubTopic 20
+000230 | -Name Accounting Standards Codification
+000231 | -Section 50
+000232 | -Paragraph 5B
+000233 | -Subparagraph (e)
+000234 | -Publisher FASB
+000235 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000236 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000237 | -Topic 205
+000238 | -SubTopic 20
+000239 | -Name Accounting Standards Codification
+000240 | -Section 45
+000241 | -Paragraph 11
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000244 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000245 | -Topic 205
+000246 | -SubTopic 20
+000247 | -Name Accounting Standards Codification
+000248 | -Section 50
+000249 | -Paragraph 5C
+000250 | -Subparagraph (a)(2)
+000251 | -Publisher FASB
+000252 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000253 | + Details
+000254 | Name:
+000255 | us-gaap_DisposalGroupIncludingDiscontinuedOperationCashAndCashEquivalents
+000256 | Namespace Prefix:
+000257 | us-gaap_
+000258 | Data Type:
+000259 | xbrli:monetaryItemType
+000260 | Balance Type:
+000261 | debit
+000262 | Period Type:
+000263 | instant
+000264 | X
+000265 | - Definition
+000266 | Amount classified as inventory attributable to disposal group held for sale or disposed of.
+000267 | + References
+000268 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000269 | -Topic 360
+000270 | -SubTopic 10
+000271 | -Name Accounting Standards Codification
+000272 | -Section 50
+000273 | -Paragraph 3
+000274 | -Subparagraph (e)
+000275 | -Publisher FASB
+000276 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000277 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000278 | -Topic 360
+000279 | -SubTopic 10
+000280 | -Name Accounting Standards Codification
+000281 | -Section 45
+000282 | -Paragraph 14
+000283 | -Publisher FASB
+000284 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-14
+000285 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000286 | -Topic 205
+000287 | -SubTopic 20
+000288 | -Name Accounting Standards Codification
+000289 | -Section 55
+000290 | -Paragraph 102
+000291 | -Publisher FASB
+000292 | -URI https://asc.fasb.org/1943274/2147483474/205-20-55-102
+000293 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000294 | -Topic 205
+000295 | -SubTopic 20
+000296 | -Name Accounting Standards Codification
+000297 | -Section 50
+000298 | -Paragraph 5C
+000299 | -Subparagraph (a)(1)
+000300 | -Publisher FASB
+000301 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000302 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000303 | -Topic 205
+000304 | -SubTopic 20
+000305 | -Name Accounting Standards Codification
+000306 | -Section 50
+000307 | -Paragraph 5B
+000308 | -Subparagraph (e)
+000309 | -Publisher FASB
+000310 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000311 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000312 | -Topic 205
+000313 | -SubTopic 20
+000314 | -Name Accounting Standards Codification
+000315 | -Section 45
+000316 | -Paragraph 11
+000317 | -Publisher FASB
+000318 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000319 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000320 | -Topic 205
+000321 | -SubTopic 20
+000322 | -Name Accounting Standards Codification
+000323 | -Section 50
+000324 | -Paragraph 5C
+000325 | -Subparagraph (a)(2)
+000326 | -Publisher FASB
+000327 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000328 | + Details
+000329 | Name:
+000330 | us-gaap_DisposalGroupIncludingDiscontinuedOperationInventory1
+000331 | Namespace Prefix:
+000332 | us-gaap_
+000333 | Data Type:
+000334 | xbrli:monetaryItemType
+000335 | Balance Type:
+000336 | debit
+000337 | Period Type:
+000338 | instant
+000339 | X
+000340 | - Definition
+000341 | Amount classified as other assets attributable to disposal group held for sale or disposed of.
+000342 | + References
+000343 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000344 | -Topic 360
+000345 | -SubTopic 10
+000346 | -Name Accounting Standards Codification
+000347 | -Section 50
+000348 | -Paragraph 3
+000349 | -Subparagraph (e)
+000350 | -Publisher FASB
+000351 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000352 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000353 | -Topic 360
+000354 | -SubTopic 10
+000355 | -Name Accounting Standards Codification
+000356 | -Section 45
+000357 | -Paragraph 14
+000358 | -Publisher FASB
+000359 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-14
+000360 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000361 | -Topic 205
+000362 | -SubTopic 20
+000363 | -Name Accounting Standards Codification
+000364 | -Section 55
+000365 | -Paragraph 102
+000366 | -Publisher FASB
+000367 | -URI https://asc.fasb.org/1943274/2147483474/205-20-55-102
+000368 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000369 | -Topic 205
+000370 | -SubTopic 20
+000371 | -Name Accounting Standards Codification
+000372 | -Section 50
+000373 | -Paragraph 5C
+000374 | -Subparagraph (a)(1)
+000375 | -Publisher FASB
+000376 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000377 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000378 | -Topic 205
+000379 | -SubTopic 20
+000380 | -Name Accounting Standards Codification
+000381 | -Section 50
+000382 | -Paragraph 5B
+000383 | -Subparagraph (e)
+000384 | -Publisher FASB
+000385 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000386 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000387 | -Topic 205
+000388 | -SubTopic 20
+000389 | -Name Accounting Standards Codification
+000390 | -Section 45
+000391 | -Paragraph 11
+000392 | -Publisher FASB
+000393 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000394 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000395 | -Topic 205
+000396 | -SubTopic 20
+000397 | -Name Accounting Standards Codification
+000398 | -Section 50
+000399 | -Paragraph 5C
+000400 | -Subparagraph (a)(2)
+000401 | -Publisher FASB
+000402 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000403 | + Details
+000404 | Name:
+000405 | us-gaap_DisposalGroupIncludingDiscontinuedOperationOtherAssets
+000406 | Namespace Prefix:
+000407 | us-gaap_
+000408 | Data Type:
+000409 | xbrli:monetaryItemType
+000410 | Balance Type:
+000411 | debit
+000412 | Period Type:
+000413 | instant
+000414 | X
+000415 | - Definition
+000416 | Amount classified as other liabilities attributable to disposal group held for sale or disposed of.
+000417 | + References
+000418 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000419 | -Topic 360
+000420 | -SubTopic 10
+000421 | -Name Accounting Standards Codification
+000422 | -Section 50
+000423 | -Paragraph 3
+000424 | -Subparagraph (e)
+000425 | -Publisher FASB
+000426 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000427 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000428 | -Topic 360
+000429 | -SubTopic 10
+000430 | -Name Accounting Standards Codification
+000431 | -Section 45
+000432 | -Paragraph 14
+000433 | -Publisher FASB
+000434 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-14
+000435 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000436 | -Topic 205
+000437 | -SubTopic 20
+000438 | -Name Accounting Standards Codification
+000439 | -Section 55
+000440 | -Paragraph 102
+000441 | -Publisher FASB
+000442 | -URI https://asc.fasb.org/1943274/2147483474/205-20-55-102
+000443 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000444 | -Topic 205
+000445 | -SubTopic 20
+000446 | -Name Accounting Standards Codification
+000447 | -Section 50
+000448 | -Paragraph 5C
+000449 | -Subparagraph (a)(1)
+000450 | -Publisher FASB
+000451 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000452 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000453 | -Topic 205
+000454 | -SubTopic 20
+000455 | -Name Accounting Standards Codification
+000456 | -Section 50
+000457 | -Paragraph 5B
+000458 | -Subparagraph (e)
+000459 | -Publisher FASB
+000460 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000461 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000462 | -Topic 205
+000463 | -SubTopic 20
+000464 | -Name Accounting Standards Codification
+000465 | -Section 45
+000466 | -Paragraph 11
+000467 | -Publisher FASB
+000468 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000469 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000470 | -Topic 205
+000471 | -SubTopic 20
+000472 | -Name Accounting Standards Codification
+000473 | -Section 50
+000474 | -Paragraph 5C
+000475 | -Subparagraph (a)(2)
+000476 | -Publisher FASB
+000477 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000478 | + Details
+000479 | Name:
+000480 | us-gaap_DisposalGroupIncludingDiscontinuedOperationOtherLiabilities
+000481 | Namespace Prefix:
+000482 | us-gaap_
+000483 | Data Type:
+000484 | xbrli:monetaryItemType
+000485 | Balance Type:
+000486 | credit
+000487 | Period Type:
+000488 | instant
+000489 | X
+000490 | - Definition
+000491 | Amount classified as property, plant, and equipment attributable to disposal group held for sale or disposed of.
+000492 | + References
+000493 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000494 | -Topic 360
+000495 | -SubTopic 10
+000496 | -Name Accounting Standards Codification
+000497 | -Section 50
+000498 | -Paragraph 3
+000499 | -Subparagraph (e)
+000500 | -Publisher FASB
+000501 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000502 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000503 | -Topic 360
+000504 | -SubTopic 10
+000505 | -Name Accounting Standards Codification
+000506 | -Section 45
+000507 | -Paragraph 14
+000508 | -Publisher FASB
+000509 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-14
+000510 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000511 | -Topic 205
+000512 | -SubTopic 20
+000513 | -Name Accounting Standards Codification
+000514 | -Section 55
+000515 | -Paragraph 102
+000516 | -Publisher FASB
+000517 | -URI https://asc.fasb.org/1943274/2147483474/205-20-55-102
+000518 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000519 | -Topic 205
+000520 | -SubTopic 20
+000521 | -Name Accounting Standards Codification
+000522 | -Section 50
+000523 | -Paragraph 5C
+000524 | -Subparagraph (a)(1)
+000525 | -Publisher FASB
+000526 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000527 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000528 | -Topic 205
+000529 | -SubTopic 20
+000530 | -Name Accounting Standards Codification
+000531 | -Section 50
+000532 | -Paragraph 5B
+000533 | -Subparagraph (e)
+000534 | -Publisher FASB
+000535 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000536 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000537 | -Topic 205
+000538 | -SubTopic 20
+000539 | -Name Accounting Standards Codification
+000540 | -Section 45
+000541 | -Paragraph 11
+000542 | -Publisher FASB
+000543 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000544 | Reference 7: http://www.xbrl.org/2003/role/exampleRef
+000545 | -Topic 205
+000546 | -SubTopic 20
+000547 | -Name Accounting Standards Codification
+000548 | -Section 50
+000549 | -Paragraph 5C
+000550 | -Subparagraph (a)(2)
+000551 | -Publisher FASB
+000552 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000553 | + Details
+000554 | Name:
+000555 | us-gaap_DisposalGroupIncludingDiscontinuedOperationPropertyPlantAndEquipment
+000556 | Namespace Prefix:
+000557 | us-gaap_
+000558 | Data Type:
+000559 | xbrli:monetaryItemType
+000560 | Balance Type:
+000561 | debit
+000562 | Period Type:
+000563 | instant
+000564 | X
+000565 | - Definition
+000566 | Amount classified as liabilities attributable to disposal group held for sale or disposed of.
+000567 | + References
+000568 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000569 | -Topic 360
+000570 | -SubTopic 10
+000571 | -Name Accounting Standards Codification
+000572 | -Section 50
+000573 | -Paragraph 3
+000574 | -Subparagraph (e)
+000575 | -Publisher FASB
+000576 | -URI https://asc.fasb.org/1943274/2147482099/360-10-50-3
+000577 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000578 | -Topic 360
+000579 | -SubTopic 10
+000580 | -Name Accounting Standards Codification
+000581 | -Section 45
+000582 | -Paragraph 14
+000583 | -Publisher FASB
+000584 | -URI https://asc.fasb.org/1943274/2147482130/360-10-45-14
+000585 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000586 | -Topic 205
+000587 | -SubTopic 20
+000588 | -Name Accounting Standards Codification
+000589 | -Section 55
+000590 | -Paragraph 102
+000591 | -Publisher FASB
+000592 | -URI https://asc.fasb.org/1943274/2147483474/205-20-55-102
+000593 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000594 | -Topic 205
+000595 | -SubTopic 20
+000596 | -Name Accounting Standards Codification
+000597 | -Section 50
+000598 | -Paragraph 5C
+000599 | -Subparagraph (a)(1)
+000600 | -Publisher FASB
+000601 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000602 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000603 | -Topic 205
+000604 | -SubTopic 20
+000605 | -Name Accounting Standards Codification
+000606 | -Section 50
+000607 | -Paragraph 5B
+000608 | -Subparagraph (e)
+000609 | -Publisher FASB
+000610 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5B
+000611 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000612 | -Topic 205
+000613 | -SubTopic 20
+000614 | -Name Accounting Standards Codification
+000615 | -Section 45
+000616 | -Paragraph 11
+000617 | -Publisher FASB
+000618 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-11
+000619 | Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+000620 | -Topic 205
+000621 | -SubTopic 20
+000622 | -Name Accounting Standards Codification
+000623 | -Section 45
+000624 | -Paragraph 10
+000625 | -Publisher FASB
+000626 | -URI https://asc.fasb.org/1943274/2147483475/205-20-45-10
+000627 | Reference 8: http://www.xbrl.org/2003/role/disclosureRef
+000628 | -Topic 205
+000629 | -SubTopic 20
+000630 | -Name Accounting Standards Codification
+000631 | -Section 50
+000632 | -Paragraph 5C
+000633 | -Subparagraph (a)(2)
+000634 | -Publisher FASB
+000635 | -URI https://asc.fasb.org/1943274/2147483499/205-20-50-5C
+000636 | + Details
+000637 | Name:
+000638 | us-gaap_LiabilitiesOfDisposalGroupIncludingDiscontinuedOperation
+000639 | Namespace Prefix:
+000640 | us-gaap_
+000641 | Data Type:
+000642 | xbrli:monetaryItemType
+000643 | Balance Type:
+000644 | credit
+000645 | Period Type:
+000646 | instant
+000647 | X
+000648 | - Details
+000649 | Name:
+000650 | us-gaap_DisposalGroupClassificationAxis=us-gaap_DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+000651 | Namespace Prefix:
+000652 | Data Type:
+000653 | na
+000654 | Balance Type:
+000655 | Period Type:

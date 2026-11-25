@@ -1,0 +1,132 @@
+000001 | v3.24.1.1.u2
+000002 | Subsequent Events (Details) - Subsequent Event
+000003 | $ in Millions
+000004 | 2 Months Ended
+000005 | Apr. 01, 2024
+000006 | USD ($)
+000007 | Jun. 30, 2024
+000008 | USD ($)
+000009 | Subsequent Event [Line Items]
+000010 | Spinoff transaction, percent of shares outstanding distributed
+000011 | 80.10%
+000012 | Stockholders' equity note, spin-off, share ratio received
+000013 | 0.25
+000014 | Retained cash target
+000015 | $ 600
+000016 | Forecast
+000017 | Subsequent Event [Line Items]
+000018 | Expected cash payments to complete spinoff
+000019 | $ 400
+000020 | X
+000021 | - Definition
+000022 | Payments Of Spin Off Transaction Related Costs
+000023 | + References
+000024 | No definition available.
+000025 | + Details
+000026 | Name:
+000027 | solv_PaymentsOfSpinOffTransactionRelatedCosts
+000028 | Namespace Prefix:
+000029 | solv_
+000030 | Data Type:
+000031 | xbrli:monetaryItemType
+000032 | Balance Type:
+000033 | credit
+000034 | Period Type:
+000035 | duration
+000036 | X
+000037 | - Definition
+000038 | Stockholders' Equity Note, Spin-Off, Share Ratio Received
+000039 | + References
+000040 | No definition available.
+000041 | + Details
+000042 | Name:
+000043 | solv_StockholdersEquityNoteSpinOffShareRatioReceived
+000044 | Namespace Prefix:
+000045 | solv_
+000046 | Data Type:
+000047 | xbrli:pureItemType
+000048 | Balance Type:
+000049 | na
+000050 | Period Type:
+000051 | duration
+000052 | X
+000053 | - Definition
+000054 | Stockholders' Equity Note, Spinoff Transaction, Percent Of Shares Outstanding Distributed
+000055 | + References
+000056 | No definition available.
+000057 | + Details
+000058 | Name:
+000059 | solv_StockholdersEquityNoteSpinoffTransactionPercentOfSharesOutstandingDistributed
+000060 | Namespace Prefix:
+000061 | solv_
+000062 | Data Type:
+000063 | dtr-types:percentItemType
+000064 | Balance Type:
+000065 | na
+000066 | Period Type:
+000067 | instant
+000068 | X
+000069 | - Definition
+000070 | Stockholders' Equity Note, Spinoff Transaction, Retained Cash Target
+000071 | + References
+000072 | No definition available.
+000073 | + Details
+000074 | Name:
+000075 | solv_StockholdersEquityNoteSpinoffTransactionRetainedCashTarget
+000076 | Namespace Prefix:
+000077 | solv_
+000078 | Data Type:
+000079 | xbrli:monetaryItemType
+000080 | Balance Type:
+000081 | debit
+000082 | Period Type:
+000083 | instant
+000084 | X
+000085 | - Definition
+000086 | Detail information of subsequent event by type. User is expected to use existing line items from elsewhere in the taxonomy as the primary line items for this disclosure, which is further associated with dimension and member elements pertaining to a subsequent event.
+000087 | + References
+000088 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000089 | -Topic 830
+000090 | -SubTopic 30
+000091 | -Name Accounting Standards Codification
+000092 | -Section 50
+000093 | -Paragraph 2
+000094 | -Publisher FASB
+000095 | -URI https://asc.fasb.org/1943274/2147481674/830-30-50-2
+000096 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000097 | -Topic 855
+000098 | -SubTopic 10
+000099 | -Name Accounting Standards Codification
+000100 | -Section 50
+000101 | -Paragraph 2
+000102 | -Publisher FASB
+000103 | -URI https://asc.fasb.org/1943274/2147483399/855-10-50-2
+000104 | + Details
+000105 | Name:
+000106 | us-gaap_SubsequentEventLineItems
+000107 | Namespace Prefix:
+000108 | us-gaap_
+000109 | Data Type:
+000110 | xbrli:stringItemType
+000111 | Balance Type:
+000112 | na
+000113 | Period Type:
+000114 | duration
+000115 | X
+000116 | - Details
+000117 | Name:
+000118 | us-gaap_SubsequentEventTypeAxis=us-gaap_SubsequentEventMember
+000119 | Namespace Prefix:
+000120 | Data Type:
+000121 | na
+000122 | Balance Type:
+000123 | Period Type:
+000124 | X
+000125 | - Details
+000126 | Name:
+000127 | srt_StatementScenarioAxis=srt_ScenarioForecastMember
+000128 | Namespace Prefix:
+000129 | Data Type:
+000130 | na
+000131 | Balance Type:
+000132 | Period Type:

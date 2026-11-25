@@ -1,0 +1,78 @@
+000001 | v3.25.4
+000002 | Income Taxes - Schedule of Income Tax Benefits Attributable (Details) - USD ($)
+000003 | $ / shares in Units, $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Income Tax Disclosure [Abstract]
+000009 | Income tax benefits attributable to reduced tax rates or exemptions in foreign locations
+000010 | $ 58
+000011 | $ 87
+000012 | $ 100
+000013 | Per diluted share impact of reduced tax rates or exemptions in foreign locations (in dollars per share)
+000014 | $ 0.11
+000015 | $ 0.16
+000016 | $ 0.18
+000017 | X
+000018 | - References
+000019 | No definition available.
+000020 | + Details
+000021 | Name:
+000022 | us-gaap_IncomeTaxDisclosureAbstract
+000023 | Namespace Prefix:
+000024 | us-gaap_
+000025 | Data Type:
+000026 | xbrli:stringItemType
+000027 | Balance Type:
+000028 | na
+000029 | Period Type:
+000030 | duration
+000031 | X
+000032 | - Definition
+000033 | The amount of income taxes from which a reporting entity is exempt or for which it will receive a reduction in income taxes as a result of the income tax holiday granted by the taxing jurisdiction.
+000034 | + References
+000035 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000036 | -Topic 740
+000037 | -SubTopic 10
+000038 | -Name Accounting Standards Codification
+000039 | -Section S99
+000040 | -Paragraph 2
+000041 | -Subparagraph (SAB Topic 11.C)
+000042 | -Publisher FASB
+000043 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-2
+000044 | + Details
+000045 | Name:
+000046 | us-gaap_IncomeTaxHolidayAggregateDollarAmount
+000047 | Namespace Prefix:
+000048 | us-gaap_
+000049 | Data Type:
+000050 | xbrli:monetaryItemType
+000051 | Balance Type:
+000052 | credit
+000053 | Period Type:
+000054 | duration
+000055 | X
+000056 | - Definition
+000057 | Per share amount effect of the income tax benefit resulting from the income tax holidays granted by taxing jurisdictions.
+000058 | + References
+000059 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000060 | -Topic 740
+000061 | -SubTopic 10
+000062 | -Name Accounting Standards Codification
+000063 | -Section S99
+000064 | -Paragraph 2
+000065 | -Subparagraph (SAB Topic 11.C)
+000066 | -Publisher FASB
+000067 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-2
+000068 | + Details
+000069 | Name:
+000070 | us-gaap_IncomeTaxHolidayIncomeTaxBenefitsPerShare
+000071 | Namespace Prefix:
+000072 | us-gaap_
+000073 | Data Type:
+000074 | dtr-types:perShareItemType
+000075 | Balance Type:
+000076 | na
+000077 | Period Type:
+000078 | duration

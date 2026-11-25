@@ -1,0 +1,132 @@
+000001 | v3.25.4
+000002 | Marketable Securities - Schedule of Contractual Maturity (Details)
+000003 | $ in Millions
+000004 | Dec. 31, 2025
+000005 | USD ($)
+000006 | Marketable securities by contractual maturity
+000007 | Due in one year or less
+000008 | $ 599
+000009 | Due after one year through five years
+000010 | 111
+000011 | Total marketable securities
+000012 | $ 710
+000013 | X
+000014 | - Definition
+000015 | Fair value of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), with single maturity date and allocated without single maturity date, maturing in second through fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000016 | + References
+000017 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000018 | -Topic 320
+000019 | -SubTopic 10
+000020 | -Name Accounting Standards Codification
+000021 | -Section 50
+000022 | -Paragraph 3
+000023 | -Subparagraph (b)
+000024 | -Publisher FASB
+000025 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3
+000026 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000027 | -Topic 942
+000028 | -SubTopic 320
+000029 | -Name Accounting Standards Codification
+000030 | -Section 50
+000031 | -Paragraph 3A
+000032 | -Subparagraph (b)
+000033 | -Publisher FASB
+000034 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3A
+000035 | + Details
+000036 | Name:
+000037 | us-gaap_AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue
+000038 | Namespace Prefix:
+000039 | us-gaap_
+000040 | Data Type:
+000041 | xbrli:monetaryItemType
+000042 | Balance Type:
+000043 | debit
+000044 | Period Type:
+000045 | instant
+000046 | X
+000047 | - References
+000048 | No definition available.
+000049 | + Details
+000050 | Name:
+000051 | us-gaap_AvailableForSaleSecuritiesDebtMaturitiesFairValueAbstract
+000052 | Namespace Prefix:
+000053 | us-gaap_
+000054 | Data Type:
+000055 | xbrli:stringItemType
+000056 | Balance Type:
+000057 | na
+000058 | Period Type:
+000059 | duration
+000060 | X
+000061 | - Definition
+000062 | Fair value of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), with single maturity date and allocated without single maturity date.
+000063 | + References
+000064 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000065 | -Topic 320
+000066 | -SubTopic 10
+000067 | -Name Accounting Standards Codification
+000068 | -Section 50
+000069 | -Paragraph 3
+000070 | -Publisher FASB
+000071 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3
+000072 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000073 | -Topic 320
+000074 | -SubTopic 10
+000075 | -Name Accounting Standards Codification
+000076 | -Section 50
+000077 | -Paragraph 2
+000078 | -Subparagraph (d)
+000079 | -Publisher FASB
+000080 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-2
+000081 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000082 | -Topic 942
+000083 | -SubTopic 320
+000084 | -Name Accounting Standards Codification
+000085 | -Section 50
+000086 | -Paragraph 3A
+000087 | -Publisher FASB
+000088 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3A
+000089 | + Details
+000090 | Name:
+000091 | us-gaap_AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate
+000092 | Namespace Prefix:
+000093 | us-gaap_
+000094 | Data Type:
+000095 | xbrli:monetaryItemType
+000096 | Balance Type:
+000097 | debit
+000098 | Period Type:
+000099 | instant
+000100 | X
+000101 | - Definition
+000102 | Fair value of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), with single maturity date and allocated without single maturity date, maturing in next fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).
+000103 | + References
+000104 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000105 | -Topic 320
+000106 | -SubTopic 10
+000107 | -Name Accounting Standards Codification
+000108 | -Section 50
+000109 | -Paragraph 3
+000110 | -Subparagraph (a)
+000111 | -Publisher FASB
+000112 | -URI https://asc.fasb.org/1943274/2147481800/320-10-50-3
+000113 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000114 | -Topic 942
+000115 | -SubTopic 320
+000116 | -Name Accounting Standards Codification
+000117 | -Section 50
+000118 | -Paragraph 3A
+000119 | -Subparagraph (a)
+000120 | -Publisher FASB
+000121 | -URI https://asc.fasb.org/1943274/2147477268/942-320-50-3A
+000122 | + Details
+000123 | Name:
+000124 | us-gaap_AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue
+000125 | Namespace Prefix:
+000126 | us-gaap_
+000127 | Data Type:
+000128 | xbrli:monetaryItemType
+000129 | Balance Type:
+000130 | debit
+000131 | Period Type:
+000132 | instant

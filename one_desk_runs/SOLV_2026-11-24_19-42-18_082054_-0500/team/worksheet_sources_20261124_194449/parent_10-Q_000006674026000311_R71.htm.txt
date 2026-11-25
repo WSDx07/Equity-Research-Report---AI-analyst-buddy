@@ -1,0 +1,243 @@
+000001 | v3.26.3
+000002 | Fair Value Measurements and Marketable Securities - Narrative (Details)
+000003 | 3 Months Ended
+000004 | 9 Months Ended
+000005 | 12 Months Ended
+000006 | Sep. 30, 2026
+000007 | USD ($)
+000008 | Sep. 30, 2025
+000009 | USD ($)
+000010 | Sep. 30, 2026
+000011 | USD ($)
+000012 | Sep. 30, 2025
+000013 | USD ($)
+000014 | Dec. 31, 2025
+000015 | USD ($)
+000016 | Assets and Liabilities Measured on Recurring Basis
+000017 | Marketable security, unrealized gain (loss)
+000018 | $ 0
+000019 | $ 0
+000020 | Marketable security, realized gain (loss)
+000021 | 0
+000022 | 0
+000023 | Marketable security, gain (loss)
+000024 | $ 0
+000025 | $ 0
+000026 | Fair Value, Recurring | Level 3
+000027 | Assets and Liabilities Measured on Recurring Basis
+000028 | Fair value measurement, liability, measurement input
+000029 | 0.43
+000030 | 0.43
+000031 | Fair Value on a Nonrecurring Basis
+000032 | Assets and Liabilities Measured on Recurring Basis
+000033 | Long-lived asset impairment charges
+000034 | $ 0
+000035 | $ 0
+000036 | $ 0
+000037 | $ 0
+000038 | X
+000039 | - Definition
+000040 | Fair Value Measurement With Unobservable Inputs Reconciliation Recurring Basis Liability Measurement Input
+000041 | + References
+000042 | No definition available.
+000043 | + Details
+000044 | Name:
+000045 | mmm_FairValueMeasurementWithUnobservableInputsReconciliationRecurringBasisLiabilityMeasurementInput
+000046 | Namespace Prefix:
+000047 | mmm_
+000048 | Data Type:
+000049 | xbrli:decimalItemType
+000050 | Balance Type:
+000051 | na
+000052 | Period Type:
+000053 | instant
+000054 | X
+000055 | - Definition
+000056 | Amount of impairment loss for asset. Includes, but is not limited to, tangible and intangible assets and goodwill.
+000057 | + References
+000058 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000059 | -Name Accounting Standards Codification
+000060 | -Section 45
+000061 | -Paragraph 28
+000062 | -Subparagraph (b)
+000063 | -SubTopic 10
+000064 | -Topic 230
+000065 | -Publisher FASB
+000066 | -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+000067 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000068 | -Topic 220
+000069 | -SubTopic 10
+000070 | -Name Accounting Standards Codification
+000071 | -Section S99
+000072 | -Paragraph 2
+000073 | -Subparagraph (SX 210.5-03(3))
+000074 | -Publisher FASB
+000075 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000076 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000077 | -Topic 942
+000078 | -SubTopic 10
+000079 | -Name Accounting Standards Codification
+000080 | -Section S50
+000081 | -Paragraph 1
+000082 | -Publisher FASB
+000083 | -URI https://asc.fasb.org/1943274/2147480095/942-10-S50-1
+000084 | Reference 4: http://www.xbrl.org/2003/role/exampleRef
+000085 | -Topic 942
+000086 | -SubTopic 10
+000087 | -Name Accounting Standards Codification
+000088 | -Section S99
+000089 | -Paragraph 6
+000090 | -Publisher FASB
+000091 | -URI https://asc.fasb.org/1943274/2147480035/942-10-S99-6
+000092 | + Details
+000093 | Name:
+000094 | us-gaap_AssetImpairmentCharges
+000095 | Namespace Prefix:
+000096 | us-gaap_
+000097 | Data Type:
+000098 | xbrli:monetaryItemType
+000099 | Balance Type:
+000100 | debit
+000101 | Period Type:
+000102 | duration
+000103 | X
+000104 | - Definition
+000105 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000106 | + References
+000107 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000108 | -Topic 815
+000109 | -SubTopic 45
+000110 | -Name Accounting Standards Codification
+000111 | -Section 50
+000112 | -Paragraph 1
+000113 | -Publisher FASB
+000114 | -URI https://asc.fasb.org/1943274/2147480865/815-45-50-1
+000115 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000116 | -Topic 820
+000117 | -SubTopic 10
+000118 | -Name Accounting Standards Codification
+000119 | -Section 55
+000120 | -Paragraph 100
+000121 | -Publisher FASB
+000122 | -URI https://asc.fasb.org/1943274/2147482078/820-10-55-100
+000123 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000124 | -Topic 820
+000125 | -SubTopic 10
+000126 | -Name Accounting Standards Codification
+000127 | -Section 50
+000128 | -Paragraph 2
+000129 | -Subparagraph (b)
+000130 | -Publisher FASB
+000131 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000132 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000133 | -Topic 820
+000134 | -SubTopic 10
+000135 | -Name Accounting Standards Codification
+000136 | -Section 50
+000137 | -Paragraph 2
+000138 | -Subparagraph (a)
+000139 | -Publisher FASB
+000140 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-2
+000141 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000142 | -Topic 820
+000143 | -SubTopic 10
+000144 | -Name Accounting Standards Codification
+000145 | -Section 50
+000146 | -Paragraph 3
+000147 | -Subparagraph (a)
+000148 | -Publisher FASB
+000149 | -URI https://asc.fasb.org/1943274/2147482106/820-10-50-3
+000150 | + Details
+000151 | Name:
+000152 | us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems
+000153 | Namespace Prefix:
+000154 | us-gaap_
+000155 | Data Type:
+000156 | xbrli:stringItemType
+000157 | Balance Type:
+000158 | na
+000159 | Period Type:
+000160 | duration
+000161 | X
+000162 | - Definition
+000163 | Amount of realized and unrealized gain (loss) on investment in marketable security.
+000164 | + References
+000165 | No definition available.
+000166 | + Details
+000167 | Name:
+000168 | us-gaap_MarketableSecuritiesGainLossExcludingOtherThanTemporaryImpairments
+000169 | Namespace Prefix:
+000170 | us-gaap_
+000171 | Data Type:
+000172 | xbrli:monetaryItemType
+000173 | Balance Type:
+000174 | credit
+000175 | Period Type:
+000176 | duration
+000177 | X
+000178 | - Definition
+000179 | Amount of realized gain (loss) on investment in marketable security.
+000180 | + References
+000181 | No definition available.
+000182 | + Details
+000183 | Name:
+000184 | us-gaap_MarketableSecuritiesRealizedGainLossExcludingOtherThanTemporaryImpairments
+000185 | Namespace Prefix:
+000186 | us-gaap_
+000187 | Data Type:
+000188 | xbrli:monetaryItemType
+000189 | Balance Type:
+000190 | credit
+000191 | Period Type:
+000192 | duration
+000193 | X
+000194 | - Definition
+000195 | Amount of unrealized gain (loss) on investment in marketable security.
+000196 | + References
+000197 | Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+000198 | -Topic 220
+000199 | -SubTopic 10
+000200 | -Name Accounting Standards Codification
+000201 | -Section S99
+000202 | -Paragraph 2
+000203 | -Subparagraph (SX 210.5-03(7)(c))
+000204 | -Publisher FASB
+000205 | -URI https://asc.fasb.org/1943274/2147483621/220-10-S99-2
+000206 | + Details
+000207 | Name:
+000208 | us-gaap_MarketableSecuritiesUnrealizedGainLoss
+000209 | Namespace Prefix:
+000210 | us-gaap_
+000211 | Data Type:
+000212 | xbrli:monetaryItemType
+000213 | Balance Type:
+000214 | credit
+000215 | Period Type:
+000216 | duration
+000217 | X
+000218 | - Details
+000219 | Name:
+000220 | us-gaap_FairValueByMeasurementFrequencyAxis=us-gaap_FairValueMeasurementsRecurringMember
+000221 | Namespace Prefix:
+000222 | Data Type:
+000223 | na
+000224 | Balance Type:
+000225 | Period Type:
+000226 | X
+000227 | - Details
+000228 | Name:
+000229 | us-gaap_FairValueByFairValueHierarchyLevelAxis=us-gaap_FairValueInputsLevel3Member
+000230 | Namespace Prefix:
+000231 | Data Type:
+000232 | na
+000233 | Balance Type:
+000234 | Period Type:
+000235 | X
+000236 | - Details
+000237 | Name:
+000238 | us-gaap_FairValueByMeasurementFrequencyAxis=us-gaap_FairValueMeasurementsNonrecurringMember
+000239 | Namespace Prefix:
+000240 | Data Type:
+000241 | na
+000242 | Balance Type:
+000243 | Period Type:

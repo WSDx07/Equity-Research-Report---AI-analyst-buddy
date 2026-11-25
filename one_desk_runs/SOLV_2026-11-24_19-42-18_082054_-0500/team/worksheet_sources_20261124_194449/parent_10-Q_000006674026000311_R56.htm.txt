@@ -1,0 +1,99 @@
+000001 | v3.26.3
+000002 | Income Taxes - Schedule of Net Deferred Tax Assets (Details) - USD ($)
+000003 | $ in Millions
+000004 | Sep. 30, 2026
+000005 | Dec. 31, 2025
+000006 | Income Tax Disclosure [Abstract]
+000007 | Deferred tax asset (net of valuation allowance)
+000008 | $ 3,534
+000009 | $ 3,826
+000010 | Deferred tax liability
+000011 | 743
+000012 | 418
+000013 | Net deferred tax assets
+000014 | $ 2,791
+000015 | $ 3,408
+000016 | X
+000017 | - Definition
+000018 | Amount of deferred tax liability attributable to taxable temporary differences.
+000019 | + References
+000020 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000021 | -Topic 740
+000022 | -SubTopic 10
+000023 | -Name Accounting Standards Codification
+000024 | -Section 50
+000025 | -Paragraph 2
+000026 | -Subparagraph (a)
+000027 | -Publisher FASB
+000028 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000029 | + Details
+000030 | Name:
+000031 | us-gaap_DeferredIncomeTaxLiabilities
+000032 | Namespace Prefix:
+000033 | us-gaap_
+000034 | Data Type:
+000035 | xbrli:monetaryItemType
+000036 | Balance Type:
+000037 | credit
+000038 | Period Type:
+000039 | instant
+000040 | X
+000041 | - Definition
+000042 | Amount, after allocation of valuation allowances and deferred tax liability, of deferred tax asset attributable to deductible differences and carryforwards, without jurisdictional netting.
+000043 | + References
+000044 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000045 | -Topic 740
+000046 | -SubTopic 10
+000047 | -Name Accounting Standards Codification
+000048 | -Section 50
+000049 | -Paragraph 2
+000050 | -Publisher FASB
+000051 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000052 | + Details
+000053 | Name:
+000054 | us-gaap_DeferredTaxAssetsLiabilitiesNet
+000055 | Namespace Prefix:
+000056 | us-gaap_
+000057 | Data Type:
+000058 | xbrli:monetaryItemType
+000059 | Balance Type:
+000060 | debit
+000061 | Period Type:
+000062 | instant
+000063 | X
+000064 | - Definition
+000065 | Amount after allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences and carryforwards.
+000066 | + References
+000067 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000068 | -Topic 740
+000069 | -SubTopic 10
+000070 | -Name Accounting Standards Codification
+000071 | -Section 50
+000072 | -Paragraph 2
+000073 | -Publisher FASB
+000074 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-2
+000075 | + Details
+000076 | Name:
+000077 | us-gaap_DeferredTaxAssetsNet
+000078 | Namespace Prefix:
+000079 | us-gaap_
+000080 | Data Type:
+000081 | xbrli:monetaryItemType
+000082 | Balance Type:
+000083 | debit
+000084 | Period Type:
+000085 | instant
+000086 | X
+000087 | - References
+000088 | No definition available.
+000089 | + Details
+000090 | Name:
+000091 | us-gaap_IncomeTaxDisclosureAbstract
+000092 | Namespace Prefix:
+000093 | us-gaap_
+000094 | Data Type:
+000095 | xbrli:stringItemType
+000096 | Balance Type:
+000097 | na
+000098 | Period Type:
+000099 | duration

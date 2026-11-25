@@ -1,0 +1,36 @@
+{
+  "research_issues": [
+    "Claim 3 has an invalid or non‑verbatim document line and quote.",
+    "Claim 5 has an invalid or non‑verbatim document line and quote.",
+    "Claim 6 has an invalid or non‑verbatim document line and quote.",
+    "Claim 9 has an invalid or non‑verbatim document line and quote.",
+    "Claim 10 has an invalid or non‑verbatim document line and quote.",
+    "Claim 14 has an invalid or non‑verbatim document line and quote.",
+    "Claim 15 includes a number that is not present in its quoted line.",
+    "No Insight line was supplied.",
+    "Missing content for the Valuation Insights section.",
+    "Missing content for the Investment Recommendation section."
+  ],
+  "financial_issues": [
+    "Insight needs a filing, line number, and exact quote from that line.",
+    "The supplied Insight references EX‑99.1 line 12, but the quoted line in the filing is line 82; citation is inaccurate."
+  ],
+  "advisor_issues": [],
+  "overall_issues": [
+    "Release first paragraph markup is uncertain (no original HTML boundaries).",
+    "Research claims contain multiple invalid line/quote references, limiting verification.",
+    "Valuation Insights and Investment Recommendation sections are absent from the overall document, breaking completeness of the five‑section framework."
+  ],
+  "research_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "financial_insight": {
+    "status": "unassessed",
+    "reason": ""
+  },
+  "advisor_insight": {
+    "status": "unassessed",
+    "reason": ""
+  }
+}

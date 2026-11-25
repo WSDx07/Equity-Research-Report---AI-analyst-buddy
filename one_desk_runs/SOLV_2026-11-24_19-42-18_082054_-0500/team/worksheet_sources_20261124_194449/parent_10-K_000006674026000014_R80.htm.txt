@@ -1,0 +1,545 @@
+000001 | v3.25.4
+000002 | Income Taxes - Schedule of Effective Income Tax Rate (Details)
+000003 | 12 Months Ended
+000004 | Dec. 31, 2025
+000005 | Dec. 31, 2024
+000006 | Dec. 31, 2023
+000007 | Income Tax Disclosure [Abstract]
+000008 | Statutory U.S. tax rate
+000009 | 21.00%
+000010 | 21.00%
+000011 | 21.00%
+000012 | State income taxes - net of federal benefit
+000013 | 0.60%
+000014 | 0.60%
+000015 | 3.20%
+000016 | International income taxes - net
+000017 | 5.00%
+000018 | 2.10%
+000019 | 0.60%
+000020 | Global intangible low taxed income (GILTI)
+000021 | 2.40%
+000022 | 0.60%
+000023 | (0.30%)
+000024 | Foreign derived intangible income (FDII)
+000025 | (0.30%)
+000026 | 0.60%
+000027 | U.S. research and development credit
+000028 | (0.70%)
+000029 | 0.40%
+000030 | Reserves for tax contingencies
+000031 | 0.60%
+000032 | (0.40%)
+000033 | Employee share-based payments
+000034 | 0.40%
+000035 | 0.00%
+000036 | Change in valuation allowance on Solventum ownership
+000037 | (7.70%)
+000038 | 0.00%
+000039 | All other - net
+000040 | 0.10%
+000041 | 0.30%
+000042 | Effective worldwide tax rate
+000043 | 23.80%
+000044 | 16.70%
+000045 | 25.40%
+000046 | X
+000047 | - Definition
+000048 | Effective Income Tax Rate Reconciliation, Change in Valuation Allowance, Percent
+000049 | + References
+000050 | No definition available.
+000051 | + Details
+000052 | Name:
+000053 | mmm_EffectiveIncomeTaxRateReconciliationChangeInValuationAllowancePercent
+000054 | Namespace Prefix:
+000055 | mmm_
+000056 | Data Type:
+000057 | dtr-types:percentItemType
+000058 | Balance Type:
+000059 | na
+000060 | Period Type:
+000061 | duration
+000062 | X
+000063 | - Definition
+000064 | This element represents the impact of employee share-based payments on the effective income tax rate.
+000065 | + References
+000066 | No definition available.
+000067 | + Details
+000068 | Name:
+000069 | mmm_EffectiveIncomeTaxRateReconciliationEmployeeShareBasedPayments
+000070 | Namespace Prefix:
+000071 | mmm_
+000072 | Data Type:
+000073 | dtr-types:percentItemType
+000074 | Balance Type:
+000075 | na
+000076 | Period Type:
+000077 | duration
+000078 | X
+000079 | - Definition
+000080 | Percentage of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining to continuing operations.
+000081 | + References
+000082 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000083 | -Topic 740
+000084 | -SubTopic 10
+000085 | -Name Accounting Standards Codification
+000086 | -Section 50
+000087 | -Paragraph 12
+000088 | -Publisher FASB
+000089 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000090 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000091 | -Topic 740
+000092 | -SubTopic 10
+000093 | -Name Accounting Standards Codification
+000094 | -Section 55
+000095 | -Paragraph 231
+000096 | -Publisher FASB
+000097 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000098 | + Details
+000099 | Name:
+000100 | us-gaap_EffectiveIncomeTaxRateContinuingOperations
+000101 | Namespace Prefix:
+000102 | us-gaap_
+000103 | Data Type:
+000104 | dtr-types:percentItemType
+000105 | Balance Type:
+000106 | na
+000107 | Period Type:
+000108 | duration
+000109 | X
+000110 | - Definition
+000111 | Percentage of domestic federal statutory tax rate applicable to pretax income (loss).
+000112 | + References
+000113 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000114 | -Topic 235
+000115 | -SubTopic 10
+000116 | -Name Accounting Standards Codification
+000117 | -Section S50
+000118 | -Paragraph 1
+000119 | -Publisher FASB
+000120 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000121 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000122 | -Topic 740
+000123 | -SubTopic 10
+000124 | -Name Accounting Standards Codification
+000125 | -Section 50
+000126 | -Paragraph 12
+000127 | -Publisher FASB
+000128 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000129 | Reference 3: http://www.xbrl.org/2003/role/exampleRef
+000130 | -Topic 740
+000131 | -SubTopic 10
+000132 | -Name Accounting Standards Codification
+000133 | -Section 55
+000134 | -Paragraph 231
+000135 | -Publisher FASB
+000136 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000137 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000138 | -Topic 740
+000139 | -SubTopic 10
+000140 | -Name Accounting Standards Codification
+000141 | -Section S99
+000142 | -Paragraph 1
+000143 | -Subparagraph (SAB Topic 6.I.1.Q1)
+000144 | -Publisher FASB
+000145 | -URI https://asc.fasb.org/1943274/2147479360/740-10-S99-1
+000146 | Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+000147 | -Topic 235
+000148 | -SubTopic 10
+000149 | -Name Accounting Standards Codification
+000150 | -Section S99
+000151 | -Paragraph 1
+000152 | -Subparagraph (SX 210.4-08(h)(2))
+000153 | -Publisher FASB
+000154 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000155 | + Details
+000156 | Name:
+000157 | us-gaap_EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate
+000158 | Namespace Prefix:
+000159 | us-gaap_
+000160 | Data Type:
+000161 | dtr-types:percentItemType
+000162 | Balance Type:
+000163 | na
+000164 | Period Type:
+000165 | duration
+000166 | X
+000167 | - Definition
+000168 | Percentage of reported income tax benefit from difference to income tax expense (benefit) computed by applying domestic federal statutory income tax rate to pretax income (loss) from continuing operations, attributable to foreign-derived intangible income (FDII).
+000169 | + References
+000170 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000171 | -Topic 740
+000172 | -SubTopic 10
+000173 | -Name Accounting Standards Codification
+000174 | -Section 55
+000175 | -Paragraph 231
+000176 | -Publisher FASB
+000177 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000178 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000179 | -Topic 740
+000180 | -SubTopic 10
+000181 | -Name Accounting Standards Codification
+000182 | -Section 50
+000183 | -Paragraph 12A
+000184 | -Subparagraph (b)(1)
+000185 | -Publisher FASB
+000186 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12A
+000187 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000188 | -Topic 740
+000189 | -SubTopic 10
+000190 | -Name Accounting Standards Codification
+000191 | -Section 50
+000192 | -Paragraph 12
+000193 | -Publisher FASB
+000194 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000195 | + Details
+000196 | Name:
+000197 | us-gaap_EffectiveIncomeTaxRateReconciliationFdiiPercent
+000198 | Namespace Prefix:
+000199 | us-gaap_
+000200 | Data Type:
+000201 | dtr-types:percentItemType
+000202 | Balance Type:
+000203 | na
+000204 | Period Type:
+000205 | duration
+000206 | X
+000207 | - Definition
+000208 | Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations applicable to statutory income tax expense (benefit) outside of the country of domicile.
+000209 | + References
+000210 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000211 | -Topic 235
+000212 | -SubTopic 10
+000213 | -Name Accounting Standards Codification
+000214 | -Section S50
+000215 | -Paragraph 1
+000216 | -Publisher FASB
+000217 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000218 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000219 | -Topic 740
+000220 | -SubTopic 10
+000221 | -Name Accounting Standards Codification
+000222 | -Section 55
+000223 | -Paragraph 231
+000224 | -Publisher FASB
+000225 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000226 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000227 | -Topic 740
+000228 | -SubTopic 10
+000229 | -Name Accounting Standards Codification
+000230 | -Section 50
+000231 | -Paragraph 12
+000232 | -Subparagraph (b)(2)
+000233 | -Publisher FASB
+000234 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000235 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000236 | -Topic 740
+000237 | -SubTopic 10
+000238 | -Name Accounting Standards Codification
+000239 | -Section 50
+000240 | -Paragraph 12A
+000241 | -Subparagraph (a)(2)
+000242 | -Publisher FASB
+000243 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12A
+000244 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000245 | -Topic 740
+000246 | -SubTopic 10
+000247 | -Name Accounting Standards Codification
+000248 | -Section 50
+000249 | -Paragraph 12
+000250 | -Publisher FASB
+000251 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000252 | Reference 6: http://www.xbrl.org/2009/role/commonPracticeRef
+000253 | -Topic 235
+000254 | -SubTopic 10
+000255 | -Name Accounting Standards Codification
+000256 | -Section S99
+000257 | -Paragraph 1
+000258 | -Subparagraph (SX 210.4-08(h)(2))
+000259 | -Publisher FASB
+000260 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000261 | + Details
+000262 | Name:
+000263 | us-gaap_EffectiveIncomeTaxRateReconciliationForeignIncomeTaxRateDifferential
+000264 | Namespace Prefix:
+000265 | us-gaap_
+000266 | Data Type:
+000267 | dtr-types:percentItemType
+000268 | Balance Type:
+000269 | na
+000270 | Period Type:
+000271 | duration
+000272 | X
+000273 | - Definition
+000274 | Percentage of reported income tax expense from difference to expected income tax expense (benefit) computed by applying domestic federal statutory income tax rate to pretax income (loss) from continuing operations, attributable to global intangible low-taxed income (GILTI).
+000275 | + References
+000276 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000277 | -Topic 740
+000278 | -SubTopic 10
+000279 | -Name Accounting Standards Codification
+000280 | -Section 55
+000281 | -Paragraph 231
+000282 | -Publisher FASB
+000283 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000284 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000285 | -Topic 740
+000286 | -SubTopic 10
+000287 | -Name Accounting Standards Codification
+000288 | -Section 50
+000289 | -Paragraph 12A
+000290 | -Subparagraph (b)(1)
+000291 | -Publisher FASB
+000292 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12A
+000293 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000294 | -Topic 740
+000295 | -SubTopic 10
+000296 | -Name Accounting Standards Codification
+000297 | -Section 50
+000298 | -Paragraph 12
+000299 | -Publisher FASB
+000300 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000301 | + Details
+000302 | Name:
+000303 | us-gaap_EffectiveIncomeTaxRateReconciliationGiltiPercent
+000304 | Namespace Prefix:
+000305 | us-gaap_
+000306 | Data Type:
+000307 | dtr-types:percentItemType
+000308 | Balance Type:
+000309 | na
+000310 | Period Type:
+000311 | duration
+000312 | X
+000313 | - Definition
+000314 | Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to other adjustments.
+000315 | + References
+000316 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000317 | -Topic 235
+000318 | -SubTopic 10
+000319 | -Name Accounting Standards Codification
+000320 | -Section S50
+000321 | -Paragraph 1
+000322 | -Publisher FASB
+000323 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000324 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000325 | -Topic 740
+000326 | -SubTopic 10
+000327 | -Name Accounting Standards Codification
+000328 | -Section 55
+000329 | -Paragraph 231
+000330 | -Publisher FASB
+000331 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000332 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000333 | -Topic 740
+000334 | -SubTopic 10
+000335 | -Name Accounting Standards Codification
+000336 | -Section 50
+000337 | -Paragraph 12
+000338 | -Subparagraph (b)(3)
+000339 | -Publisher FASB
+000340 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000341 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000342 | -Topic 740
+000343 | -SubTopic 10
+000344 | -Name Accounting Standards Codification
+000345 | -Section 50
+000346 | -Paragraph 12
+000347 | -Publisher FASB
+000348 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000349 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000350 | -Topic 235
+000351 | -SubTopic 10
+000352 | -Name Accounting Standards Codification
+000353 | -Section S99
+000354 | -Paragraph 1
+000355 | -Subparagraph (SX 210.4-08(h)(2))
+000356 | -Publisher FASB
+000357 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000358 | + Details
+000359 | Name:
+000360 | us-gaap_EffectiveIncomeTaxRateReconciliationOtherAdjustments
+000361 | Namespace Prefix:
+000362 | us-gaap_
+000363 | Data Type:
+000364 | dtr-types:percentItemType
+000365 | Balance Type:
+000366 | na
+000367 | Period Type:
+000368 | duration
+000369 | X
+000370 | - Definition
+000371 | Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to revisions of previously reported income tax expense.
+000372 | + References
+000373 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000374 | -Topic 235
+000375 | -SubTopic 10
+000376 | -Name Accounting Standards Codification
+000377 | -Section S50
+000378 | -Paragraph 1
+000379 | -Publisher FASB
+000380 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000381 | Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+000382 | -Topic 740
+000383 | -SubTopic 10
+000384 | -Name Accounting Standards Codification
+000385 | -Section 50
+000386 | -Paragraph 12
+000387 | -Subparagraph (b)(3)
+000388 | -Publisher FASB
+000389 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000390 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000391 | -Topic 740
+000392 | -SubTopic 10
+000393 | -Name Accounting Standards Codification
+000394 | -Section 50
+000395 | -Paragraph 12
+000396 | -Publisher FASB
+000397 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000398 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000399 | -Topic 235
+000400 | -SubTopic 10
+000401 | -Name Accounting Standards Codification
+000402 | -Section S99
+000403 | -Paragraph 1
+000404 | -Subparagraph (SX 210.4-08(h)(2))
+000405 | -Publisher FASB
+000406 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000407 | + Details
+000408 | Name:
+000409 | us-gaap_EffectiveIncomeTaxRateReconciliationPriorYearIncomeTaxes
+000410 | Namespace Prefix:
+000411 | us-gaap_
+000412 | Data Type:
+000413 | dtr-types:percentItemType
+000414 | Balance Type:
+000415 | na
+000416 | Period Type:
+000417 | duration
+000418 | X
+000419 | - Definition
+000420 | Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations applicable to state and local income tax expense (benefit), net of federal tax expense (benefit).
+000421 | + References
+000422 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000423 | -Topic 235
+000424 | -SubTopic 10
+000425 | -Name Accounting Standards Codification
+000426 | -Section S50
+000427 | -Paragraph 1
+000428 | -Publisher FASB
+000429 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000430 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000431 | -Topic 740
+000432 | -SubTopic 10
+000433 | -Name Accounting Standards Codification
+000434 | -Section 55
+000435 | -Paragraph 231
+000436 | -Publisher FASB
+000437 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000438 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000439 | -Topic 740
+000440 | -SubTopic 10
+000441 | -Name Accounting Standards Codification
+000442 | -Section 50
+000443 | -Paragraph 12A
+000444 | -Subparagraph (a)(1)
+000445 | -Publisher FASB
+000446 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12A
+000447 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000448 | -Topic 740
+000449 | -SubTopic 10
+000450 | -Name Accounting Standards Codification
+000451 | -Section 50
+000452 | -Paragraph 12
+000453 | -Publisher FASB
+000454 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000455 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000456 | -Topic 235
+000457 | -SubTopic 10
+000458 | -Name Accounting Standards Codification
+000459 | -Section S99
+000460 | -Paragraph 1
+000461 | -Subparagraph (SX 210.4-08(h)(2))
+000462 | -Publisher FASB
+000463 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000464 | + Details
+000465 | Name:
+000466 | us-gaap_EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes
+000467 | Namespace Prefix:
+000468 | us-gaap_
+000469 | Data Type:
+000470 | dtr-types:percentItemType
+000471 | Balance Type:
+000472 | na
+000473 | Period Type:
+000474 | duration
+000475 | X
+000476 | - Definition
+000477 | Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to research tax credit.
+000478 | + References
+000479 | Reference 1: http://www.xbrl.org/2009/role/commonPracticeRef
+000480 | -Topic 235
+000481 | -SubTopic 10
+000482 | -Name Accounting Standards Codification
+000483 | -Section S50
+000484 | -Paragraph 1
+000485 | -Publisher FASB
+000486 | -URI https://asc.fasb.org/1943274/2147480738/235-10-S50-1
+000487 | Reference 2: http://www.xbrl.org/2003/role/exampleRef
+000488 | -Topic 740
+000489 | -SubTopic 10
+000490 | -Name Accounting Standards Codification
+000491 | -Section 55
+000492 | -Paragraph 231
+000493 | -Publisher FASB
+000494 | -URI https://asc.fasb.org/1943274/2147482663/740-10-55-231
+000495 | Reference 3: http://www.xbrl.org/2009/role/commonPracticeRef
+000496 | -Topic 740
+000497 | -SubTopic 10
+000498 | -Name Accounting Standards Codification
+000499 | -Section 50
+000500 | -Paragraph 12A
+000501 | -Subparagraph (b)(1)
+000502 | -Publisher FASB
+000503 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12A
+000504 | Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+000505 | -Topic 740
+000506 | -SubTopic 10
+000507 | -Name Accounting Standards Codification
+000508 | -Section 50
+000509 | -Paragraph 12
+000510 | -Publisher FASB
+000511 | -URI https://asc.fasb.org/1943274/2147482685/740-10-50-12
+000512 | Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+000513 | -Topic 235
+000514 | -SubTopic 10
+000515 | -Name Accounting Standards Codification
+000516 | -Section S99
+000517 | -Paragraph 1
+000518 | -Subparagraph (SX 210.4-08(h)(2))
+000519 | -Publisher FASB
+000520 | -URI https://asc.fasb.org/1943274/2147480678/235-10-S99-1
+000521 | + Details
+000522 | Name:
+000523 | us-gaap_EffectiveIncomeTaxRateReconciliationTaxCreditsResearch
+000524 | Namespace Prefix:
+000525 | us-gaap_
+000526 | Data Type:
+000527 | dtr-types:percentItemType
+000528 | Balance Type:
+000529 | na
+000530 | Period Type:
+000531 | duration
+000532 | X
+000533 | - References
+000534 | No definition available.
+000535 | + Details
+000536 | Name:
+000537 | us-gaap_IncomeTaxDisclosureAbstract
+000538 | Namespace Prefix:
+000539 | us-gaap_
+000540 | Data Type:
+000541 | xbrli:stringItemType
+000542 | Balance Type:
+000543 | na
+000544 | Period Type:
+000545 | duration

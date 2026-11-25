@@ -1,0 +1,129 @@
+000001 | v3.25.4
+000002 | Leases - Schedule of Components of Lease Expense (Details) - USD ($)
+000003 | $ in Millions
+000004 | 12 Months Ended
+000005 | Dec. 31, 2025
+000006 | Dec. 31, 2024
+000007 | Dec. 31, 2023
+000008 | Lease expense
+000009 | Operating lease cost
+000010 | $ 203
+000011 | $ 210
+000012 | $ 259
+000013 | Variable lease cost
+000014 | 105
+000015 | 114
+000016 | 103
+000017 | Total operating lease cost
+000018 | $ 308
+000019 | $ 324
+000020 | $ 362
+000021 | X
+000022 | - Definition
+000023 | Amount of lease cost recognized by lessee for lease contract.
+000024 | + References
+000025 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000026 | -Topic 842
+000027 | -SubTopic 20
+000028 | -Name Accounting Standards Codification
+000029 | -Section 55
+000030 | -Paragraph 53
+000031 | -Publisher FASB
+000032 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000033 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000034 | -Topic 842
+000035 | -SubTopic 20
+000036 | -Name Accounting Standards Codification
+000037 | -Section 50
+000038 | -Paragraph 4
+000039 | -Publisher FASB
+000040 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000041 | + Details
+000042 | Name:
+000043 | us-gaap_LeaseCost
+000044 | Namespace Prefix:
+000045 | us-gaap_
+000046 | Data Type:
+000047 | xbrli:monetaryItemType
+000048 | Balance Type:
+000049 | debit
+000050 | Period Type:
+000051 | duration
+000052 | X
+000053 | - References
+000054 | No definition available.
+000055 | + Details
+000056 | Name:
+000057 | us-gaap_LeaseCostAbstract
+000058 | Namespace Prefix:
+000059 | us-gaap_
+000060 | Data Type:
+000061 | xbrli:stringItemType
+000062 | Balance Type:
+000063 | na
+000064 | Period Type:
+000065 | duration
+000066 | X
+000067 | - Definition
+000068 | Amount of single lease cost, calculated by allocation of remaining cost of lease over remaining lease term. Includes, but is not limited to, single lease cost, after impairment of right-of-use asset, calculated by amortization of remaining right-of-use asset and accretion of lease liability.
+000069 | + References
+000070 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000071 | -Topic 842
+000072 | -SubTopic 20
+000073 | -Name Accounting Standards Codification
+000074 | -Section 55
+000075 | -Paragraph 53
+000076 | -Publisher FASB
+000077 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000078 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000079 | -Topic 842
+000080 | -SubTopic 20
+000081 | -Name Accounting Standards Codification
+000082 | -Section 50
+000083 | -Paragraph 4
+000084 | -Subparagraph (b)
+000085 | -Publisher FASB
+000086 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000087 | + Details
+000088 | Name:
+000089 | us-gaap_OperatingLeaseCost
+000090 | Namespace Prefix:
+000091 | us-gaap_
+000092 | Data Type:
+000093 | xbrli:monetaryItemType
+000094 | Balance Type:
+000095 | debit
+000096 | Period Type:
+000097 | duration
+000098 | X
+000099 | - Definition
+000100 | Amount of variable lease cost, excluded from lease liability, recognized when obligation for payment is incurred for finance and operating leases.
+000101 | + References
+000102 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000103 | -Topic 842
+000104 | -SubTopic 20
+000105 | -Name Accounting Standards Codification
+000106 | -Section 55
+000107 | -Paragraph 53
+000108 | -Publisher FASB
+000109 | -URI https://asc.fasb.org/1943274/2147479589/842-20-55-53
+000110 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000111 | -Topic 842
+000112 | -SubTopic 20
+000113 | -Name Accounting Standards Codification
+000114 | -Section 50
+000115 | -Paragraph 4
+000116 | -Subparagraph (d)
+000117 | -Publisher FASB
+000118 | -URI https://asc.fasb.org/1943274/2147478964/842-20-50-4
+000119 | + Details
+000120 | Name:
+000121 | us-gaap_VariableLeaseCost
+000122 | Namespace Prefix:
+000123 | us-gaap_
+000124 | Data Type:
+000125 | xbrli:monetaryItemType
+000126 | Balance Type:
+000127 | debit
+000128 | Period Type:
+000129 | duration

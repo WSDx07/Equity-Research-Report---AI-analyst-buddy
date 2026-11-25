@@ -1,0 +1,156 @@
+000001 | <XML>
+000002 | <?xml version="1.0"?>
+000003 | <ownershipDocument>
+000004 | 
+000005 |     <schemaVersion>X0508</schemaVersion>
+000006 | 
+000007 |     <documentType>4</documentType>
+000008 | 
+000009 |     <periodOfReport>2024-05-13</periodOfReport>
+000010 | 
+000011 |     <issuer>
+000012 |         <issuerCik>0001964738</issuerCik>
+000013 |         <issuerName>Solventum Corp</issuerName>
+000014 |         <issuerTradingSymbol>SOLV</issuerTradingSymbol>
+000015 |     </issuer>
+000016 | 
+000017 |     <reportingOwner>
+000018 |         <reportingOwnerId>
+000019 |             <rptOwnerCik>0001110753</rptOwnerCik>
+000020 |             <rptOwnerName>COX CARRIE SMITH</rptOwnerName>
+000021 |         </reportingOwnerId>
+000022 |         <reportingOwnerAddress>
+000023 |             <rptOwnerStreet1>2510 CONWAY AVE,</rptOwnerStreet1>
+000024 |             <rptOwnerStreet2>3M CENTER BLDG. 275-6W</rptOwnerStreet2>
+000025 |             <rptOwnerCity>MAPLEWOOD</rptOwnerCity>
+000026 |             <rptOwnerState>MN</rptOwnerState>
+000027 |             <rptOwnerZipCode>55144</rptOwnerZipCode>
+000028 |             <rptOwnerStateDescription></rptOwnerStateDescription>
+000029 |         </reportingOwnerAddress>
+000030 |         <reportingOwnerRelationship>
+000031 |             <isDirector>1</isDirector>
+000032 |         </reportingOwnerRelationship>
+000033 |     </reportingOwner>
+000034 | 
+000035 |     <aff10b5One>0</aff10b5One>
+000036 | 
+000037 |     <derivativeTable>
+000038 |         <derivativeTransaction>
+000039 |             <securityTitle>
+000040 |                 <value>Restricted Stock Units</value>
+000041 |             </securityTitle>
+000042 |             <conversionOrExercisePrice>
+000043 |                 <footnoteId id="F1"/>
+000044 |             </conversionOrExercisePrice>
+000045 |             <transactionDate>
+000046 |                 <value>2024-05-13</value>
+000047 |             </transactionDate>
+000048 |             <transactionCoding>
+000049 |                 <transactionFormType>4</transactionFormType>
+000050 |                 <transactionCode>A</transactionCode>
+000051 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000052 |             </transactionCoding>
+000053 |             <transactionTimeliness></transactionTimeliness>
+000054 |             <transactionAmounts>
+000055 |                 <transactionShares>
+000056 |                     <value>5148</value>
+000057 |                 </transactionShares>
+000058 |                 <transactionPricePerShare>
+000059 |                     <value>0</value>
+000060 |                 </transactionPricePerShare>
+000061 |                 <transactionAcquiredDisposedCode>
+000062 |                     <value>A</value>
+000063 |                 </transactionAcquiredDisposedCode>
+000064 |             </transactionAmounts>
+000065 |             <exerciseDate>
+000066 |                 <footnoteId id="F2"/>
+000067 |             </exerciseDate>
+000068 |             <expirationDate>
+000069 |                 <value>2034-05-13</value>
+000070 |             </expirationDate>
+000071 |             <underlyingSecurity>
+000072 |                 <underlyingSecurityTitle>
+000073 |                     <value>Common Stock</value>
+000074 |                 </underlyingSecurityTitle>
+000075 |                 <underlyingSecurityShares>
+000076 |                     <value>5148</value>
+000077 |                 </underlyingSecurityShares>
+000078 |             </underlyingSecurity>
+000079 |             <postTransactionAmounts>
+000080 |                 <sharesOwnedFollowingTransaction>
+000081 |                     <value>5148</value>
+000082 |                 </sharesOwnedFollowingTransaction>
+000083 |             </postTransactionAmounts>
+000084 |             <ownershipNature>
+000085 |                 <directOrIndirectOwnership>
+000086 |                     <value>D</value>
+000087 |                 </directOrIndirectOwnership>
+000088 |             </ownershipNature>
+000089 |         </derivativeTransaction>
+000090 |         <derivativeTransaction>
+000091 |             <securityTitle>
+000092 |                 <value>Restricted Stock Units</value>
+000093 |             </securityTitle>
+000094 |             <conversionOrExercisePrice>
+000095 |                 <footnoteId id="F1"/>
+000096 |             </conversionOrExercisePrice>
+000097 |             <transactionDate>
+000098 |                 <value>2024-05-13</value>
+000099 |             </transactionDate>
+000100 |             <transactionCoding>
+000101 |                 <transactionFormType>4</transactionFormType>
+000102 |                 <transactionCode>A</transactionCode>
+000103 |                 <equitySwapInvolved>0</equitySwapInvolved>
+000104 |             </transactionCoding>
+000105 |             <transactionTimeliness></transactionTimeliness>
+000106 |             <transactionAmounts>
+000107 |                 <transactionShares>
+000108 |                     <value>6336</value>
+000109 |                 </transactionShares>
+000110 |                 <transactionPricePerShare>
+000111 |                     <value>0</value>
+000112 |                 </transactionPricePerShare>
+000113 |                 <transactionAcquiredDisposedCode>
+000114 |                     <value>A</value>
+000115 |                 </transactionAcquiredDisposedCode>
+000116 |             </transactionAmounts>
+000117 |             <exerciseDate>
+000118 |                 <footnoteId id="F3"/>
+000119 |             </exerciseDate>
+000120 |             <expirationDate>
+000121 |                 <value>2034-05-13</value>
+000122 |             </expirationDate>
+000123 |             <underlyingSecurity>
+000124 |                 <underlyingSecurityTitle>
+000125 |                     <value>Common Stock</value>
+000126 |                 </underlyingSecurityTitle>
+000127 |                 <underlyingSecurityShares>
+000128 |                     <value>6336</value>
+000129 |                 </underlyingSecurityShares>
+000130 |             </underlyingSecurity>
+000131 |             <postTransactionAmounts>
+000132 |                 <sharesOwnedFollowingTransaction>
+000133 |                     <value>11484</value>
+000134 |                 </sharesOwnedFollowingTransaction>
+000135 |             </postTransactionAmounts>
+000136 |             <ownershipNature>
+000137 |                 <directOrIndirectOwnership>
+000138 |                     <value>D</value>
+000139 |                 </directOrIndirectOwnership>
+000140 |             </ownershipNature>
+000141 |         </derivativeTransaction>
+000142 |     </derivativeTable>
+000143 | 
+000144 |     <footnotes>
+000145 |         <footnote id="F1">Each Restricted Stock unit (&quot;RSU&quot;) represents a contingent right to receive 1 share of the issuer's Class A Common Stock upon settlement.</footnote>
+000146 |         <footnote id="F2">The RSUs shall fully vest on May 13, 2025, subject to continued service through the vesting date.</footnote>
+000147 |         <footnote id="F3">The RSUs shall fully vest on March 27, 2026, subject to continued service through the vesting date.</footnote>
+000148 |     </footnotes>
+000149 | 
+000150 |     <ownerSignature>
+000151 |         <signatureName>/s/Breanna L. Wise, attorney-in-fact for Carrie S. Cox</signatureName>
+000152 |         <signatureDate>2024-05-15</signatureDate>
+000153 |     </ownerSignature>
+000154 | </ownershipDocument>
+000155 | </XML>
+000156 | 

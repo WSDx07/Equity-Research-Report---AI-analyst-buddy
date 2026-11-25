@@ -1,0 +1,234 @@
+000001 | v3.24.1.1.u2
+000002 | Related Parties - Reconciliation of Net Transfers to Parent (Details) - USD ($)
+000003 | $ in Millions
+000004 | 3 Months Ended
+000005 | Mar. 31, 2024
+000006 | Mar. 31, 2023
+000007 | Related Party Transaction [Line Items]
+000008 | Net transfers to 3M on the combined changes in equity (Note 5)
+000009 | $ (7,966)
+000010 | $ (433)
+000011 | Net transfers to 3M
+000012 | (7,851)
+000013 | (460)
+000014 | Related Party
+000015 | Related Party Transaction [Line Items]
+000016 | Stock compensation expense
+000017 | (4)
+000018 | (18)
+000019 | Multiemployer pension expense
+000020 | (5)
+000021 | (9)
+000022 | Net balances transferred from 3M
+000023 | (411)
+000024 | 0
+000025 | Net transfers to 3M
+000026 | (7,851)
+000027 | (460)
+000028 | Net Parent Investment
+000029 | Related Party Transaction [Line Items]
+000030 | Net transfers to 3M on the combined changes in equity (Note 5)
+000031 | (7,431)
+000032 | (433)
+000033 | Net Parent Investment | Related Party
+000034 | Related Party Transaction [Line Items]
+000035 | Net transfers to 3M on the combined changes in equity (Note 5)
+000036 | $ (7,431)
+000037 | $ (433)
+000038 | X
+000039 | - Definition
+000040 | Net Transfers From Parent
+000041 | + References
+000042 | No definition available.
+000043 | + Details
+000044 | Name:
+000045 | solv_NetTransfersFromParent
+000046 | Namespace Prefix:
+000047 | solv_
+000048 | Data Type:
+000049 | xbrli:monetaryItemType
+000050 | Balance Type:
+000051 | debit
+000052 | Period Type:
+000053 | duration
+000054 | X
+000055 | - Definition
+000056 | Net Transfers To Parent
+000057 | + References
+000058 | No definition available.
+000059 | + Details
+000060 | Name:
+000061 | solv_NetTransfersToParent
+000062 | Namespace Prefix:
+000063 | solv_
+000064 | Data Type:
+000065 | xbrli:monetaryItemType
+000066 | Balance Type:
+000067 | debit
+000068 | Period Type:
+000069 | duration
+000070 | X
+000071 | - Definition
+000072 | Payments For (Proceeds From) Parent
+000073 | + References
+000074 | No definition available.
+000075 | + Details
+000076 | Name:
+000077 | solv_PaymentsForProceedsFromParent
+000078 | Namespace Prefix:
+000079 | solv_
+000080 | Data Type:
+000081 | xbrli:monetaryItemType
+000082 | Balance Type:
+000083 | credit
+000084 | Period Type:
+000085 | duration
+000086 | X
+000087 | - Definition
+000088 | Amount of expense for award under share-based payment arrangement. Excludes amount capitalized.
+000089 | + References
+000090 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000091 | -Topic 718
+000092 | -SubTopic 10
+000093 | -Name Accounting Standards Codification
+000094 | -Section S99
+000095 | -Paragraph 1
+000096 | -Subparagraph (SAB Topic 14.F)
+000097 | -Publisher FASB
+000098 | -URI https://asc.fasb.org/1943274/2147479830/718-10-S99-1
+000099 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000100 | -Topic 718
+000101 | -SubTopic 10
+000102 | -Name Accounting Standards Codification
+000103 | -Section 50
+000104 | -Paragraph 2
+000105 | -Subparagraph (h)(1)(i)
+000106 | -Publisher FASB
+000107 | -URI https://asc.fasb.org/1943274/2147480429/718-10-50-2
+000108 | + Details
+000109 | Name:
+000110 | us-gaap_AllocatedShareBasedCompensationExpense
+000111 | Namespace Prefix:
+000112 | us-gaap_
+000113 | Data Type:
+000114 | xbrli:monetaryItemType
+000115 | Balance Type:
+000116 | debit
+000117 | Period Type:
+000118 | duration
+000119 | X
+000120 | - Definition
+000121 | Amount of cost for employer contribution to multiemployer plan. Multiemployer plan includes, but is not limited to, pension plan determined to be individually significant and insignificant and other postretirement benefit plan.
+000122 | + References
+000123 | Reference 1: http://www.xbrl.org/2003/role/exampleRef
+000124 | -Topic 715
+000125 | -SubTopic 80
+000126 | -Name Accounting Standards Codification
+000127 | -Section 55
+000128 | -Paragraph 8
+000129 | -Publisher FASB
+000130 | -URI https://asc.fasb.org/1943274/2147480547/715-80-55-8
+000131 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000132 | -Topic 715
+000133 | -SubTopic 80
+000134 | -Name Accounting Standards Codification
+000135 | -Section 35
+000136 | -Paragraph 1
+000137 | -Publisher FASB
+000138 | -URI https://asc.fasb.org/1943274/2147480606/715-80-35-1
+000139 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000140 | -Topic 715
+000141 | -SubTopic 80
+000142 | -Name Accounting Standards Codification
+000143 | -Section 50
+000144 | -Paragraph 11
+000145 | -Publisher FASB
+000146 | -URI https://asc.fasb.org/1943274/2147480576/715-80-50-11
+000147 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000148 | -Topic 715
+000149 | -SubTopic 80
+000150 | -Name Accounting Standards Codification
+000151 | -Section 50
+000152 | -Paragraph 9
+000153 | -Subparagraph (b)
+000154 | -Publisher FASB
+000155 | -URI https://asc.fasb.org/1943274/2147480576/715-80-50-9
+000156 | + Details
+000157 | Name:
+000158 | us-gaap_MultiemployerPlanEmployerContributionCost
+000159 | Namespace Prefix:
+000160 | us-gaap_
+000161 | Data Type:
+000162 | xbrli:monetaryItemType
+000163 | Balance Type:
+000164 | debit
+000165 | Period Type:
+000166 | duration
+000167 | X
+000168 | - Definition
+000169 | Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
+000170 | + References
+000171 | Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+000172 | -Topic 310
+000173 | -SubTopic 10
+000174 | -Name Accounting Standards Codification
+000175 | -Section 45
+000176 | -Paragraph 13
+000177 | -Publisher FASB
+000178 | -URI https://asc.fasb.org/1943274/2147481990/310-10-45-13
+000179 | Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+000180 | -Topic 946
+000181 | -SubTopic 220
+000182 | -Name Accounting Standards Codification
+000183 | -Section S99
+000184 | -Paragraph 1
+000185 | -Subparagraph (SX 210.6-07(2)(c)(2)(i))
+000186 | -Publisher FASB
+000187 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000188 | Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+000189 | -Topic 946
+000190 | -SubTopic 220
+000191 | -Name Accounting Standards Codification
+000192 | -Section S99
+000193 | -Paragraph 1
+000194 | -Subparagraph (SX 210.6-07(2)(c)(2)(ii))
+000195 | -Publisher FASB
+000196 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000197 | Reference 4: http://www.xbrl.org/2003/role/disclosureRef
+000198 | -Topic 946
+000199 | -SubTopic 220
+000200 | -Name Accounting Standards Codification
+000201 | -Section S99
+000202 | -Paragraph 1
+000203 | -Subparagraph (SX 210.6-07(2)(g)(3))
+000204 | -Publisher FASB
+000205 | -URI https://asc.fasb.org/1943274/2147479134/946-220-S99-1
+000206 | + Details
+000207 | Name:
+000208 | us-gaap_RelatedPartyTransactionLineItems
+000209 | Namespace Prefix:
+000210 | us-gaap_
+000211 | Data Type:
+000212 | xbrli:stringItemType
+000213 | Balance Type:
+000214 | na
+000215 | Period Type:
+000216 | duration
+000217 | X
+000218 | - Details
+000219 | Name:
+000220 | us-gaap_RelatedPartyTransactionsByRelatedPartyAxis=us-gaap_RelatedPartyMember
+000221 | Namespace Prefix:
+000222 | Data Type:
+000223 | na
+000224 | Balance Type:
+000225 | Period Type:
+000226 | X
+000227 | - Details
+000228 | Name:
+000229 | us-gaap_StatementEquityComponentsAxis=solv_NetParentInvestmentMember
+000230 | Namespace Prefix:
+000231 | Data Type:
+000232 | na
+000233 | Balance Type:
+000234 | Period Type:
