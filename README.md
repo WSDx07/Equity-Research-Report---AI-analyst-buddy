@@ -72,7 +72,7 @@ For an offline replay check, run:
 
 It blocks socket and DNS calls, requires the saved final report to match the replay output, and writes a proof JSON and output capture in the run folder.
 
-The integrated command completed a live COST run on November 16, 2026, and offline replay passed. The saved run is `one_desk_runs/COST_2026-11-16_16-49-00_960078_-0500/`. COST was absent from the seeker registry, so the spinoff worksheet path correctly reported `not applicable` and checked zero Form 4 filings. The team, worksheet, and hook took 183.16, 4.19, and 0.10 seconds. The final report lists the 10-K, 10-Q, and 8-K it read on its first line. The hook passed, and the Lab 05 page loaded the saved run's report and worksheet.
+The integrated command completed a live COST run on November 16, 2026, and offline replay passed. COST was absent from the seeker registry, so the spinoff worksheet path correctly reported `not applicable` and checked zero Form 4 filings. The team, worksheet, and hook took 183.16, 4.19, and 0.10 seconds. The final report lists the 10-K, 10-Q, and 8-K it read on its first line. The hook passed, and the Lab 05 page loaded the saved run's report and worksheet.
 
 The pipeline completed, but the report needs review before use: its verifier output has 14 unsupported marks and 23 correct marks. Worksheet market prices and reader data were unavailable, so related comparisons are `not computed`. Replay the saved run with the command above; replay does not fetch filings.
 
