@@ -1,0 +1,688 @@
+{
+  "task": "Evaluate financial evidence and valuation limits.",
+  "context": {
+    "facts": {
+      "company": {
+        "ticker": "LEDS",
+        "name": "SemiLEDs Corp",
+        "cik": 1333822,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-27",
+      "retrieved_at": "2026-11-27T17:08:38.572388-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001333822.json",
+      "fiscal_year_end": "2026-08-31",
+      "prior_fiscal_year_end": "2025-08-31",
+      "preferred_10k_accession": "0001193125-26-479479",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:Revenues",
+          "unit": "USD",
+          "current": {
+            "val": 19124000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 43009000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 12000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -1595000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 817000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -1130000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 0.1,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -0.15,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 3764000,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2780000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "current": {
+            "val": 0,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 434000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": {
+            "val": 1584000,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1274000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 2681000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2212000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": {
+            "val": 321000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 569000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "-55.53488804668790253202818015",
+      "operating_margin_percent": "0.06274837900020916126333403054",
+      "return_on_average_equity_percent": "24.96943765281173594132029340",
+      "debt_to_equity": "0.4208289054197662061636556854",
+      "free_cash_flow_usd": "2360000",
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebtNoncurrent"
+      }
+    },
+    "quarter_release": {
+      "source": "https://www.sec.gov/Archives/edgar/data/1333822/000119312526479475/leds-ex99_1.htm",
+      "text_with_line_numbers": "1: EX-99.1\n2: 2\n3: leds-ex99_1.htm\n4: EX-99.1\n5: DFIN ActiveDisclosure (SM) HTML Document - http://www.dfinsolutions.com/ Creation Date :2026-11-27T07:41:38.0310+00:00 Copyright (c) 2026 Donnelley Financial Solutions, Inc. All Rights Reserved.\n6: EX-99.1\n7: Exhibit 99.1\n8: SemiLEDs Reports Fourth Quarter and Fiscal Year End 2026\n9: Financial Results\n10: Hsinchu, Taiwan (November 27, 2026)— SemiLEDs Corporation (NASDAQ: LEDS), “SemiLEDs” or the “Company,” a developer and manufacturer of LED chips and LED components, today announced its financial results for the fourth quarter and full fiscal year 2026, ended August 31, 2026.\n11: Revenue for the fourth quarter of fiscal 2026 was $6.4 million, compared to $9.1 million in the third quarter of fiscal 2026. GAAP net income attributable to SemiLEDs stockholders for the fourth quarter of fiscal 2026 was $640 thousand, or $0.08 per diluted share, compared to a net income of $1.5 million, or $0.18 per diluted share, in the third quarter of fiscal 2026.\n12: GAAP gross margin for the fourth quarter of fiscal 2026 decreased to 23%, compared to 27% for the third quarter of fiscal 2026. Operating margin for the fourth quarter of fiscal 2026 decreased to 7%, compared to 16% for the third quarter of fiscal 2026. The Company’s cash and cash equivalents were $4.6 million at August 31, 2026, compared to $6.0 million at the end of the third quarter of fiscal 2026.\n13: Revenues for fiscal year 2026 decreased to $19.1 million, compared to $43.0 million in fiscal year 2025. GAAP net income attributable to SemiLEDs stockholders for fiscal year 2026 was $817 thousand, or $0.10 per diluted share, compared to a net loss of $1.1 million, or $(0.15) per diluted share, in fiscal year 2025.\n14: GAAP gross margin for fiscal year 2026 increased to 21%, compared to 6% for fiscal year 2025. Operating margin for fiscal year 2026 was 0.1%, compared to negative 4% in fiscal year 2025. The Company’s cash and cash equivalents were $4.6 million as of August 31, 2026, compared to $2.6 million as of August 31, 2025.\n15: In fiscal years 2026 and 2025, the Company entered into a number of buy-sell orders for equipment that it purchased and then sold to its customers, and the Company anticipates continuing to receive buy-sell purchase orders in fiscal year 2027. As a result of these purchase orders and the associated uncertainty of the business, the Company’s revenue, cost of revenues, receivables, inventories and customer deposits may vary significantly over future quarters.\n16: About SemiLEDs\n17: SemiLEDs develops, manufactures, and sells light emitting diode (LED) chips, LED components, LED modules, sensor components incorporating LED or vertical-cavity surface-emitting laser (VCSEL), and systems. Its products are used for general lighting and specialty industrial applications, including ultraviolet, or UV, curing of polymers, LED light therapy in medical/cosmetic applications, counterfeit detection, germicidal and virucidal devices, LED lighting for horticulture applications, architectural lighting, entertainment lighting, and sensing of pressure or distance using LED or VCSEL.\n18: 1\n19: Forward Looking Statements\n20: This press release contains statements that may constitute “forward-looking” statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended, and as defined in the U.S. Private Securities Litigation Reform Act of 1995. All statements other than statements of historical fact could be deemed forward-looking, including any statements regarding the expectation for buy-sell purchase orders in fiscal year 2027; any statements about historical results that may suggest trends for SemiLEDs’ business; any statements of the plans, strategies and objectives of management for future operations; any statements of expectation or belief regarding recovery of the LED industry, market opportunities and other future events or technology developments; any statements regarding SemiLEDs’ position to capitalize on any market opportunities; and any statements of assumptions underlying any of the foregoing. These forward-looking statements are based on current expectations, estimates, forecasts and projections of future SemiLEDs’ or industry performance based on management’s judgment, beliefs, current trends and market conditions and involve risks and uncertainties that may cause actual results to differ materially from those contained in the forward-looking statements. SemiLEDs’ Annual Report on Form 10-K filed with the Securities and Exchange Commission (the “SEC”) and other SemiLEDs filings with the SEC (which you may obtain for free at the SEC’s website at http://www.sec.gov) discuss some of the important risks and other factors that may affect SemiLEDs’ business, results of operations and financial condition. SemiLEDs undertakes no intent or obligation to publicly update or revise any of these forward looking statements, whether as a result of new information, future events or otherwise, except as required by law.\n21: SemiLEDs has not filed its Form 10-K for fiscal year 2026. As a result, all financial results described here should be considered preliminary and are subject to change to reflect any necessary adjustments or changes in accounting estimates that are identified prior to the time SemiLEDs files its Form 10-K.\n22: Contacts:\n23: Christopher Lee\n24: Chief Financial Officer\n25: SemiLEDs Corporation\n26: +886-37-586788\n27: investor@semileds.com\n28: 2\n29: SEMILEDS CORPORATION AND SUBSIDIARIES\n30: Unaudited Condensed Consolidated Balance Sheets\n31: (In thousands of U.S. dollars)\n32: August 31,\n33: August 31,\n34: 2026\n35: 2025\n36: ASSETS\n37: CURRENT ASSETS:\n38: Cash and cash equivalents\n39: $ 4,613\n40: $ 2,593\n41: Accounts receivable (including related parties), net\n42: 818\n43: 3,588\n44: Inventories\n45: 3,963\n46: 4,776\n47: Prepaid expenses and other current assets\n48: 137\n49: 345\n50: Total current assets\n51: 9,531\n52: 11,302\n53: Property, plant and equipment, net\n54: 2,258\n55: 2,713\n56: Operating lease right of use assets\n57: 962\n58: 1,141\n59: Intangible assets, net\n60: 102\n61: 100\n62: Investments in unconsolidated entities\n63: 43\n64: 65\n65: Other assets\n66: 170\n67: 272\n68: TOTAL ASSETS\n69: $ 13,066\n70: $ 15,593\n71: LIABILITIES AND EQUITY\n72: CURRENT LIABILITIES:\n73: Current installments of long-term debt\n74: $ 1,584\n75: $ 1,274\n76: Accounts payable\n77: 2,706\n78: 5,027\n79: Accrued expenses and other current liabilities (including related parties)\n80: 4,050\n81: 4,937\n82: Operating lease liabilities, current portion\n83: 88\n84: 145\n85: Total current liabilities\n86: 8,428\n87: 11,383\n88: Long-term debt, excluding current installments\n89: —\n90: 434\n91: Operating lease liabilities, less current portion\n92: 874\n93: 996\n94: Total liabilities\n95: 9,302\n96: 12,813\n97: Commitments and contingencies\n98: EQUITY:\n99: SemiLEDs stockholders’ equity\n100: Common stock\n101: —\n102: —\n103: Additional paid-in capital\n104: 189,106\n105: 188,939\n106: Accumulated other comprehensive income\n107: 3,652\n108: 3,652\n109: Accumulated deficit\n110: (188,994)\n111: (189,811)\n112: Total SemiLEDs stockholders’ equity\n113: 3,764\n114: 2,780\n115: Noncontrolling interests\n116: —\n117: —\n118: Total equity\n119: 3,764\n120: 2,780\n121: TOTAL LIABILITIES AND EQUITY\n122: $ 13,066\n123: $ 15,593\n124: 3\n125: SEMILEDS CORPORATION AND SUBSIDIARIES\n126: Unaudited Condensed Consolidated Statements of Operations\n127: (In thousands of U.S. dollars and shares, except per share data)\n128: Three Months Ended\n129: Years Ended August 31,\n130: August 31, 2026\n131: May 31, 2026\n132: 2026\n133: 2025\n134: Revenues, net\n135: $\n136: 6,416\n137: $\n138: 9,074\n139: $\n140: 19,124\n141: $\n142: 43,009\n143: Cost of revenues\n144: 4,935\n145: 6,614\n146: 15,158\n147: 40,578\n148: Gross profit\n149: 1,481\n150: 2,460\n151: 3,966\n152: 2,431\n153: Operating expenses:\n154: Research and development\n155: 349\n156: 363\n157: 1,345\n158: 1,154\n159: Selling, general and administrative\n160: 678\n161: 681\n162: 2,637\n163: 2,872\n164: Gain on disposals of long-lived assets, net\n165: —\n166: 1\n167: (28\n168: )\n169: —\n170: Total operating expenses\n171: 1,027\n172: 1,045\n173: 3,954\n174: 4,026\n175: Income (loss) from operations\n176: 454\n177: 1,415\n178: 12\n179: (1,595\n180: )\n181: Other income (expenses):\n182: Investment loss from unconsolidated entities\n183: (3\n184: )\n185: (2\n186: )\n187: (20\n188: )\n189: (958\n190: )\n191: Interest expenses, net\n192: 8\n193: (10\n194: )\n195: (36\n196: )\n197: (141\n198: )\n199: Other income, net\n200: 224\n201: 270\n202: 1,038\n203: 1,100\n204: Foreign currency transaction gain (loss), net\n205: (43\n206: )\n207: (150\n208: )\n209: (177\n210: )\n211: 464\n212: Total other income (expenses), net\n213: 186\n214: 108\n215: 805\n216: 465\n217: Income (loss) before income taxes\n218: 640\n219: 1,523\n220: 817\n221: (1,130\n222: )\n223: Income tax expense\n224: —\n225: —\n226: —\n227: —\n228: Net income (loss)\n229: 640\n230: 1,523\n231: 817\n232: (1,130\n233: )\n234: Less: Net income attributable to noncontrolling interests\n235: —\n236: —\n237: —\n238: —\n239: Net income (loss) attributable to SemiLEDs stockholders\n240: $\n241: 640\n242: $\n243: 1,523\n244: $\n245: 817\n246: $\n247: (1,130\n248: )\n249: Net income (loss) per share attributable to SemiLEDs stockholders:\n250: Basic and diluted\n251: $\n252: 0.08\n253: $\n254: 0.18\n255: $\n256: 0.10\n257: $\n258: (0.15\n259: )\n260: Shares used in computing net income (loss) per share attributable to SemiLEDs stockholders:\n261: Basic and diluted\n262: 8,289\n263: 8,264\n264: 8,257\n265: 7,721\n266: 4"
+    },
+    "peer_facts": {},
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-27T17:08:39.202918-05:00",
+      "analysis_date": "2026-11-27",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 19124000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "19124000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 43009000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 12000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "12000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -1595000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 817000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "817000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -1130000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 0.1,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "0.1"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": -0.15,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3764000,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "3764000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2780000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 0,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 434000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1584000,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1274000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2681000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "2681000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2212000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 321000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 569000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        }
+      ],
+      "status": "completed"
+    },
+    "filing_10k": "[Excerpt selected from filing; omitted lines are not evidence of absence.]\n45: Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule12b-2 of the Exchange Act.\n53: ☒\n54: Emerging growth company\n56: If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n61: The aggregate market value of voting stock held by non‑affiliates of the registrant as of February 27, 2026 (the last business day of the registrant’s most recently completed second fiscal quarter), based upon the closing price of the common stock reported by the NASDAQ Capital Market on such date, was approximately $5.1 million. Shares of common stock held by each executive officer and director of the registrant and by each person who owns 10% or more of the registrant’s outstanding common stock have been excluded in that such persons may be deemed to be affiliates. This determination of affiliate status is not necessarily a conclusive determination for other purposes.\n69: Item 1.\n70: Business\n73: Risk Factors\n97: Item 7.\n98: Management’s Discussion and Analysis of Financial Condition and Results of Operations\n101: Quantitative and Qualitative Disclosures About Market Risk\n103: Item 8.\n132: Principal Accountant Fees and Services\n147: This Annual Report on Form 10‑K contains forward‑looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended, or the Exchange Act. All statements other than statements of historical facts contained in this Form 10‑K, including statements regarding the future results of operations of SemiLEDs Corporation, or “we,” “our” or the “Company,” and financial position, strategy and plans, and our expectations for future operations, are forward‑looking statements. Any statements contained herein that are not statements of historical facts may be deemed to be forward‑looking statements. The words “believe,” “may,” “should,” “plan,” “potential,” “project,” “will,” “estimate,” “continue,” “anticipate,” “design,” “intend,” “expect” and similar expressions are intended to identify forward‑looking statements. We have based these forward‑looking statements largely on our current expectations and projections about future events and trends that we believe may affect our financial condition, results of operations, strategy, short‑term and long‑term business operations and objectives, and financial needs. These forward‑looking statements are subject to a number of risks, uncertainties and assumptions, including those described in Item 1A, Risk Factors. In light of these risks, uncertainties and assumptions, the forward‑looking events and circumstances discussed in this Form 10‑K may not occur, and actual results and the timing of certain events could differ materially and adversely from those anticipated or implied in the forward‑looking statements as a result of many factors.\n148: Although we believe that the expectations reflected in the forward‑looking statements are reasonable, we cannot guarantee future results, levels of activity, performance or achievements. We have not assumed any obligation to, and you should not expect us to, update or revise these statements because of new information, future events or otherwise.\n149: Item 1. Business\n151: We develop, manufacture and sell light emitting diode (LED) chips and LED components, LED modules, sensor components incorporating LED or VCSEL and systems. Our products are used for general lighting and specialty industrial applications, including ultraviolet, or UV, curing of polymers, LED light therapy in medical/cosmetic applications, counterfeit detection, germicidal and virucidal devices, LED lighting for horticulture applications, architectural lighting and entertainment lighting and sensing of pressure or distance using LED or VCSEL. In addition, in fiscal years 2026 and 2025, we entered into a number of buy-sell orders for equipment that we purchased and then sold to our customers.\n152: Utilizing our patented and proprietary technology, our manufacturing process begins by growing upon the surface of a sapphire wafer, or substrate, several very thin separate semiconductive crystalline layers of gallium nitride, or GaN, a process known as epitaxial growth, on top of which a mirror‑like reflective silver layer is then deposited. After the subsequent addition of a copper alloy layer and finally the removal of the sapphire substrate, we further process this multiple‑layered material to create individual vertical LED chips.\n153: We package our LED chips into LED components or sensor components, which we sell to distributors and a customer base in a few select markets, including Taiwan, Europe, Japan and the United States. We also sell our “Enhanced Vertical,” or EV, LED product series in blue, white, green and UV in selected markets. We sell our LED chips to packagers or to distributors, who in turn sell to packagers. Our lighting products customers are primarily original design manufacturers, or ODMs, of lighting products and the end‑users of lighting devices. We also contract other manufacturers to produce for our sale certain LED products, and for certain aspects of our product fabrication, assembly and packaging processes, based on our design and technology requirements and under our quality control specifications and final inspection process.\n154: We provide technology services as a technology development partner for companies that value our MOCVD EPI and advanced packaging knowledge.\n159: optimizing our epitaxial growth processes to create layers that efficiently convert electrical current into light;\n177: These technical capabilities enable us to produce LED chips, LED component, LED modules, sensor components incorporating LED or VCSEL and system products. We believe these capabilities and know-how should also allow us to reduce our manufacturing costs and our dependence on sapphire, a costly raw material used in the production of sapphire-based LED devices and produce new sensor components.\n181: We then remove the sapphire wafer from the N‑GaN layer through laser radiation, and the sapphire wafer is removed from the production line and recycled. The remaining device structure—consisting of the P‑Contact Metal Layer on top of the epitaxial layers— is then ready for further processing. To complete our LED device structure, we then deposit and define additional metal layers on top of the N‑GaN layers to achieve low resistance contact with the N‑GaN layers. These additional metal layers are collectively called the N‑Contact Metal Layer. After this process, our final LED chip structure is: (i)copper alloy metal layer; (ii)P‑GaN; (iii)MQWs; (iv)N‑GaN; and (v) N‑contact Metal layer. Our final LED chip structure is diced into individual LED chips and then separated, tested and binned according to customer specifications, such as wavelength (color) and brightness. When a constant electrical current flows from our P‑Contact Metal Layer to our N‑contact Metal layer, light is generated in the MQWs and emitted through the surface of the N‑GaN.\n185: Our Products\n187: We produce and purchase a wide variety of blue, white, green and UV LED chips, including our EV LED product series, currently ranging from chip sizes of 380 microns, or µm, by 380µm to 1520µm by 1520µm. We sell our LED chips to packaging customers or to distributors, who in turn sell to packagers. Our LED chips are used primarily for applications in the specialty lighting market, including commercial, and industrial sectors. Our LED chips may be used in specialty industrial applications, such as UV curing of polymers, LED\n191: We currently package a portion of our LED chips into LED components for sale to distributors and end-customers in selected markets. The majority of our LED components use chips that are greater than 860μm by 860μm, focusing on high wattage (>3W) applications. Our packaged products can be categorized into three different groups: UV, Multi-Channel Emitter (MCE), automotive and Specialty lighting. Besides the standard products, we provide customization service for all market segments. Our UV LED product portfolio ranges from two to 260 electrical watts, and are designed for industrial applications such as printing, coating, curing, and medical/cosmetic uses. The MCE packages target entertainment, architectural, aquarium and horticultural lighting sectors. Variations of four, seven, 12, 16 channel LEDs allow users to control each LEDs separately to produce all colors in the visible light spectrum. We use specialized chip bonding technology to ensure minimal chip-to-chip distance in order to deliver optimized color mixing capability in compact packages. Specialty lighting is mainly in the infrared spectrum with options of 30, 60, 90 and 120 degree view angles. These are used in surveillance, IP cameras and night vision applications.\n192: To differentiate ourselves from other LED package manufacturers, we are putting more resources towards module and system design. Along with our technical know-how in the chip and package sectors, we are able to further integrate electrical, thermal and mechanical manufacturing resources to provide customers with one-stop system services. Services include design, prototyping, OEM and ODM. Key markets that we target at the system end include different types of UV LED industrial printers, aquarium lighting, medical applications, niche imaging light engines, horticultural lighting, high standard commercial lighting and multi-pixel Mini-LED package (16 RGB pixels in one package) for fine pitch Mini-LED display market, and disinfection markets.\n193: Our packaging process includes chip bonding, wire bonding, phosphor coating, encapsulation, scribing, dicing and testing. We may, from time to time, establish packaging operations in selected markets for sale to distributors and end-customers in such markets. We also contract with other manufacturers to produce for our LED components based on our design and technology requirements and under our quality control specifications and final inspection process.\n194: Lighting Products\n195: We design, assemble and sell lighting fixtures and systems for general lighting applications, including commercial, residential and industrial lighting. Our lighting products consist primarily of LED luminaries and LED retrofits. Our lighting product customers are primarily ODMs of lighting products and the end-users of lighting devices.\n196: OEM/ODM Services\n197: We provide design and manufacturing services at the modular and system level. Currently, most of the design projects involve high power UV LED lamps to be incorporated/retrofitted into large scale press equipment. Besides hardware, we also provide software development to lamp control and equipment-to-lamp signal communication. With our design capability and high precision packaging capabilities, Taiwan Bandaoti Zhaoming Co., Ltd. assisted in the design and manufacturing of transceiver modules to be used for ADAS (Advanced Driver Assistance Systems) applications.\n201: Our manufacturing operations are located in Taiwan. Since late 2011, we have experienced underutilization of our manufacturing capacity, primarily for our LED chips. Consequently, a portion of our manufacturing equipment remains idle, resulting in excess capacity charges. We also use contract manufacturers to produce certain LED products, and for certain aspects of our product fabrication, assembly and packaging processes, based on our design and technology requirements and under our quality control specifications and final inspection process. We have moved to a fabless business model in which we utilize foundry fabs to ODM our chips using our developed technology and continue to explore opportunities to sell our chip manufacturing equipment, which will help us to reduce the idle capacity costs. Over the long term, we expect to invest substantially in LED component products development and production equipment while managing our costs and expenses.\n204: We use the following raw materials in our LED chip manufacturing: metal organics, sapphire, copper alloy, gold slugs, sodium gold sulfite, aluminum granules and electrolytic nickel, among others. We use the following assembly materials in the production of our LED component products: gold bond wire, lead frame, ceramic substrate, phosphor, silicon zener-diode, silicone rubber, eutectic (AuSn) bonding material and silver paste, among others. We also purchase industrial and general chemicals and gases for the manufacture of both our LED chips and LED components. We do not manufacture our lighting products from the raw materials, but we assemble our lighting products from individual components, such as LED emitters, electronic components, printed circuit boards, heat-sink, lenses and other metal and plastic components.\n207: We have implemented quality control measures at each stage of our operations, including obtaining supplier qualifications, inspecting incoming raw materials and random testing during our production process, to ensure consistent product yield and reliability. We test all new processes and new products prior to commercial production. We also inspect all final products prior to deliver to our customers to ensure that production standards are met. If we encounter defects, we conduct an analysis in an effort to identify the cause of the defect and take appropriate corrective and preventative measures. We provide standard product warranties on our products, which generally range from three months to two years. Our manufacturing facility is certified in compliance with ISO 9001:2015. The facility is subject to periodic inspection by relevant governmental authorities for safety, environmental and other regulatory compliance.\n210: We market and sell our products through both our direct sales force, Japanese development partners and distributors. We primarily sell our LED components to distributors and end-customers in selected markets. Our packaging customers package our LED chips and sell the packaged product to distributors or end-customers. Our distributors resell our LED chips either to packagers or to end-customers. We sell our LED chips to packagers and distributors. Our lighting product customers consist primarily of ODMs of lighting products and the end-users of lighting devices with the sales made by our direct sales force. For modules and systems, we mainly deal with end-customers directly. Our sensor components are marketed and sold by our Japanese development partners.\n211: Our direct sales force is primarily based in Taiwan. We assign our sales personnel to different geographic regions so that they can keep abreast of trends in specific markets. We plan to continue expanding our sales coverage in Asia as we grow our business. In addition, we may enter into strategic relationships with companies in Taiwan or other countries that we believe may provide strategic value to us.\n212: We focus our marketing efforts on brand awareness, product advantages and qualified lead generation. We rely on a variety of marketing strategies, including participation in industry conferences and trade shows, to share our technical message with customers, as well as public relations, industry research and online advertising.\n213: Customers\n214: We package our LED chips into LED components, which we sell to distributors and end-customers in selected markets. In addition, we sell a portion of our LED chips products to packaging customers and LED chip distributors.\n215: We have historically derived a significant portion of our revenues from a limited number of customers. For the years ended August 31, 2026 and 2025, our top ten customers collectively accounted for 96% and 99% of our revenues, respectively. Some of our largest customers and what we produce, or have produced, for them have changed from quarter to quarter primarily as a result of the timing of discrete, large project-based purchases and broadening customer base, among other things. For the years ended August 31, 2026 and 2025, sales to our three largest customers, in the aggregate, accounted for 85% and 94% of our revenues, respectively.\n216: Our revenues are concentrated in a few select markets. We expect that our revenues will continue to be substantially derived from these countries for the foreseeable future. Given that we are operating in a rapidly changing industry, our sales in specific markets may fluctuate from quarter to quarter. Therefore, our financial results will be impacted by general economic and political conditions in these markets.\n220: As of August 31, 2026, we had 74 patents issued and 10 patents pending with the United States Patent and Trademark Office covering various aspects of our core technologies. As of August 31, 2026, we also had 85 patents issued and 18 patents pending before patent and trademark offices outside the United States. Of these 159 issued patents, 109 expire between 2027 and 2031, 20 expire between 2032 and 2036, 29 expire between 2037 and 2043, and one expires after 2043. Twenty-seven of our issued patents are design patents and none of our pending patents is a design patent. We believe that factors such as the technological and innovative abilities of our personnel, the success of our ongoing product development efforts and our efforts to maintain trade secret protection are more important than patents in maintaining our competitive position. We pursue the registration of certain of our trademarks in the United States, Taiwan and China and have been granted trademarks with respect to “SemiLEDs” in the United States, and “MvpLED” in China.\n221: Our industry is characterized by frequent intellectual property litigation involving patents, trade secrets, copyrights, mask designs, among others. From time to time, third parties may allege that our products infringe on their intellectual property rights. Defending against any intellectual property infringement claims would likely result in costly litigation and ultimately may lead to our not being able to manufacture, use or sell products found to be infringing. Furthermore, other third parties may also assert infringement claims against our customers with respect to our products, or our customers’ products that incorporate our technologies or products. Any such legal action or the threat of legal action against us, or our customers, could impair such customers’ continued demand for our products. This could prevent us from growing or even maintaining our revenues, or cause us to incur additional costs and expenses, and adversely affect our financial condition and results of operations. See “Risk Factors— Risks Related to Our Business— Intellectual property claims against us or our customers could subject us to significant costs and materially damage our business and reputation.”\n223: We focus our research and development efforts on our design methodology and process technology for our LED products. We also focus on improving our production yields and increasing wafer sizes to lower our production costs. Our research and development team work closely with our manufacturing team. We conduct our research and development activities at our manufacturing facilities in Taiwan. Our future research and development strategy will primarily focus on developing new products in collaboration with our ODM partners utilizing our vertical technology and our expertise in the manufacturing of LED components. We expect to be continually engineering new products and systems, as well as enhancements to existing products, to meet the needs of our customers. By leveraging the fabless business model, we expect to be able to minimize our own research and development costs associated with chip products, increase the scale of our business without increasing overhead and diversify our business risk among many sales channels. In addition, we are partnering with a Japanese manufacturer developing new sensors such as dot projectors and photoplethysmogram (PPG) sensors.\n224: Competition\n225: We believe that our advanced technology helps us to compete in the innovative, intensely competitive and rapidly changing market of LED design and manufacturing. To succeed, however, we must continue to manufacture products that meet the demanding requirements of high performance at low costs. We do not account for a significant percentage of the total market volume today, and we face significant competition from other more established providers of similar products as well as from new entrants into our markets.\n226: We compete with many LED chip manufacturers and LED packaging manufacturers, many of which compete directly with us and are much larger than us. These potential competitors have extensive experience in developing semiconductor chips, which is similar to the manufacturing process for LED chips and LED packaging. We are also aware of a number of well-funded private companies that are developing competing products. We also compete with numerous smaller companies entering the market, some of whom may receive significant government incentives and subsidies pursuant to government programs designed to encourage the use of LED lighting and to establish LED-sector companies.\n227: Some of our existing and potential competitors possess significant advantages, including longer operating histories, greater financial, technical, managerial, marketing, distribution and other resources, more long-standing and established relationships with our existing and potential customers, greater name recognition, larger customer bases and greater government incentives and support.\n232: providing a low total cost of ownership (i.e., cost, efficacy and lifespan) for end-customers;\n235: producing UVA LED for niche markets where customers value quality and performance more than cost;\n246: Competition in the markets for LED products is intense, and we expect that competition will continue to increase, thereby creating a highly aggressive pricing environment. Some of our competitors have in the past reduced their average selling prices, and the resulting competitive pricing pressures have caused us to similarly reduce our prices, accelerating the decline in the gross margin of our products. When prices decline, we must also write down the value of our inventory.\n248: In our research and development and manufacturing processes, we use a variety of hazardous materials and industrial chemicals. In each of the jurisdictions in which we operate, we are subject to a variety of laws and regulations governing the exposure to and storage, handling, emission, discharge and disposal of these materials or otherwise relating to the protection of the environment. Environmental laws and regulations are complex and subject to constant change, with a tendency to become more stringent over time. Failure to comply with any new or existing laws, whether intentional or inadvertent, could subject us to fines, penalties and other material liabilities to the government or third parties, injunctions requiring the suspension of operations, redemption costs or other remedies, and the need for additional capital, equipment or other process requirements, any of which could have a material adverse effect on our business and reputation.\n255: We derive a substantial portion of our revenue from product sales to international customers. For information concerning geographic areas of our customers and geographic information concerning our long‑lived assets, see Note 11, “Product and Geographic Information,” of the Notes to Consolidated Financial Statements in Item 8, Financial Statements and Supplementary Data, of this Annual Report. International operations expose us to risks that are different from operating in the United States, including foreign currency translation and transaction risk, risk of changes in tax laws, application of import/export laws and regulations and other risks described further in Item 1A, Risk Factors, of this Annual Report.\n259: Item 1A. Risk Factors\n260: A wide range of factors could materially affect our business, operating results and financial condition. The following factors and other information included in this Annual Report should be carefully considered. Although the risk factors described below are the ones management deems significant, additional risks and uncertainties not presently known to us or that we presently deem less significant may also impair our business operations. If any of the following risks actually occur, our business, operating results, and financial condition could be adversely affected. In that event, the trading price of our common stock could decline and you could lose part or all of your investment.\n261: Risks Related to Our Business\n263: Although we recognized net income attributable to SemiLEDs stockholders of $0.8 million for the year ended August 31, 2026, we incurred a net loss attributable to SemiLEDs stockholders of $1.1 million for the year ended August 31, 2025 and additional losses in prior years. We can give no assurance that we will not incur net losses in future periods. Our revenue and operating results may continue to decline for a variety of reasons, some of which are described elsewhere in this “Risk Factors” section and are beyond our control. As of August 31, 2026, we had an accumulated deficit of $189 million and cash and cash equivalents of $4.6 million. These facts and conditions raised substantial doubt about our ability to continue as a going concern. However, our management believes it has a liquidity plan, as further described elsewhere in this annual report, that alleviates this substantial doubt and, if executed successfully, should provide sufficient liquidity to meet our obligations as they become due for a reasonable period of time. While we believe that these liquidity plan measures will be adequate to satisfy our liquidity requirements for the twelve months ending August 31, 2027, there is no assurance that the liquidity plan will be successfully implemented. Failure to successfully implement the liquidity plan may have a material adverse effect on our business, results of operations and financial position, and may adversely affect our ability to continue as a going concern. If we do not become consistently profitable, our accumulated deficit will grow larger and our cash balances will decline further, and we will require additional financing to continue operations. Any such financing may not be accessible on acceptable terms, if at all. If we cannot generate sufficient cash or obtain additional financing, we may be required to downsize our business further or discontinue our operations altogether.\n264: In the years ended August 31, 2026 and 2025, we derived the significant majority of our revenues from the purchase and sale of equipment. Our inability to grow our buy-sell revenues would have a negative impact on our financial condition and results of operation.\n265: In the years ended August 31, 2026 and 2025, revenues attributable to other revenues, which were primarily related to buy-sell purchase orders of equipment, represented 85% and 94% of our total revenues, respectively, and improved our gross margin, operating results and cash flows. Our ability to continue to grow and improve our financial position depends, in part, on our continued ability to enter into buy-sell purchase orders of equipment. However, if the buy-sell orders diminish or stop altogether, our gross margin, operating results, and cash flows could be adversely affected.\n267: In fiscal years 2026 and 2025, we entered into buy-sell purchase orders pursuant to which we purchased equipment and then resold the goods to our customers. The revenue relating to these purchase orders was $16.0 million and $40.6 million, and the associated cost of revenue was $10.2 million and $36.5 million, for fiscal years 2026 and 2025, respectively.\n268: We anticipate continuing to receive buy-sell purchase orders in fiscal year 2027. As a result of these purchase orders and associated uncertainty of the business, our revenue, cost of revenues, receivables, inventories and customer deposits over future quarters may vary significantly. In addition, if our shipments are delayed, revenue recognition may be delayed into future quarters. We cannot assure you when, or if, the revenue will be recognized, when payments will be received, or if we will receive further orders in the future.\n269: We depend on contract manufacturing for portions of our supply chain. The inability of our contract manufacturers to produce products that satisfy our requirements may have a material adverse effect on our business.\n270: From time to time, we may use contract manufacturers to produce products or some parts of our products. Our reliance on such contract manufacturers exposes us to a number of significant risks, including:\n274: lack of guaranteed production capacity or product supply; and\n277: If these contract manufacturers fail to deliver products on time and at a satisfactory level of quality, we could have difficulties fulfilling our customer orders and our net revenues could decline. If our contract manufacturers were to become unable or unwilling to continue to manufacture our products at requested quality, quantity, yields and costs, or in a timely manner, our business and reputation could be seriously harmed. As a result, we would have to attempt to identify and qualify substitute manufacturers, which could be time consuming and difficult, and might result in unforeseen manufacturing and operations problems. In such events, our customer relationships, business, financial condition and results of operations would be adversely affected.\n278: Our success depends on the successful development, introduction, commercialization and acceptance of new products and enhancements to existing product lines.\n279: Rapid change and technical innovation characterize the LED chips and components market. Our success depends on the successful development, introduction, commercialization and acceptance of new products and enhancements to existing product lines. We have made and continue to make significant investments in growth initiatives. For example, we moved down the supply chain, supplying customers with\n281: full UV LED lamp systems. We expect to continue our efforts at further research and development of innovative products such as sensor components together with our partners. We may need to spend more time and money than we expect to develop and introduce new products or enhancements and, even if we succeed, these new products or enhancements may not be sufficiently profitable for us to recover all or a meaningful part of our investment. In addition, our new products or enhancements may need certifications or require qualifications by our customers or potential customers. However, both of the certification and qualification processes are lengthy and uncertain and may negatively impact our sales and marketing efforts to sell or transition our customers to such new products or enhancements. Furthermore, once introduced, new products may adversely impact sales of our older generation products, or make them less desirable or even obsolete, and could adversely impact our revenues and operating results.\n282: Our ability to successfully develop and introduce new products, including sensor components developed together with our partners, product enhancements, and the revenues and costs associated with these efforts, are affected by our ability to (i) properly identify customer needs, (ii) prove the feasibility of new products, (iii) price our products competitively and profitably, (iv) accurately predict and control costs and yields associated with manufacturing the products, (v) manufacture and deliver new products timely and in sufficient volume, (vi) assist the customers in qualifying or adopting the new products in a timely manner and (vii) anticipate and compete successfully with competitors. Even if we are successful, if a customer requires certain certifications for or new qualification process of our new products, the time when that customer will actually purchase our products and we will be able to receive revenue from that customer will be significantly delayed.\n283: We derive substantially all of our revenues from a limited number of customers, including distributor customers, and generally do not enter into long-term customer contracts. The loss of, or a significant reduction in purchases by, one or more of these customers, or the failure by one of these customers to pay, could adversely affect our operating results and financial condition.\n284: We have historically derived a significant portion of our revenues from a limited number of customers, including distributor customers. For the years ended August 31, 2026 and 2025, our top ten customers collectively accounted for approximately 96% and 99% of our revenues, respectively. Some of our largest customers and what we produce for them change from quarter to quarter, primarily as a result of the timing of discrete, large project-based purchases and broadening customer base, among other things. For the years ended August 31, 2026 and 2025, sales to our three largest customers, in the aggregate, accounted for approximately 85% and 94% of our revenues, respectively.\n285: The sales cycle from initial contact to confirmed orders with our customers is typically long and unpredictable. We typically enter into individual purchase orders with large customers, which can be altered, reduced or cancelled with little or no notice to us. We do not generally enter into long-term commitment contracts with our customers. As such, these customers may alter their purchasing behavior and reduce or cancel orders with little or no notice to us. Consequently, any one of the following events may cause material fluctuations or declines in our revenues:\n287: reduction, delay or cancellation of orders from one or more of our major customers;\n289: loss of one or more of our major customers and our failure to identify additional or replacement customers; and\n291: failure of any of our major customers to make timely payment for our products.\n292: We may not be able to effectively develop, maintain and expand our sales and distribution channels, which could negatively affect our ability to expand our sales and business and damage our brand reputation.\n293: As part of our strategy, we market and sell our products through third-party distributors in certain markets and our Japanese development partners for sensor components. We rely on these distributors and partners to service end-customers, and our failure to maintain strong working relationships with such distributors and partners could have a material adverse impact on our operating results and revenues from such jurisdictions and damage our brand reputation. If we are unable to effectively develop and expand our distribution channels, or do so in a timely manner, to ensure our products are reaching the appropriate customer base, our sales and results of operations may be adversely impacted. In addition, if we successfully develop these channels, we cannot guarantee that customers will accept our products or that we will be able to manufacture and deliver products in the timeline established by our customers. We have attempted to direct our efforts to areas of business where we see the best opportunity for the most profitable sales of our LED products, which includes primarily a focus on the UV LED market segment and placing a greater emphasis on the sale of LED components in selected markets where pricing pressure is less significant, and pursuing new market opportunities that leverage our core competencies. We are now focused on developing as an end-to-end LED module solution supplier by providing our customers with high quality, flexible and more complete LED system solution, customer technical support and LED module/system design, as opposed to just providing customers with individual components. Continual introductions of new products and solutions, services, and enhancement of existing products and services, and effective servicing of customers are key to our competitive strategy. We also work to develop relationships with a select number of our customers to develop relationships which would continue to enhance our component product growth and profitability to complement our strategic focus. Our primary business objective is to provide our customers with a convenient, full-service, one-stop shopping solution for their needs by offering customized design services and high-quality products at good value. These strategies may negatively impact our revenues as we may not be able to develop and expand our customer base and distribution channels in a timely manner, among other reasons.\n294: We do not control the activities of our distributors and development partners with respect to the marketing and sales of and customer service support for our products. Therefore, the reputation and performance of our distributors and partners and the ability and willingness of our distributors and partners to sell our products, uphold our brand reputation for quality, by providing, for example, high quality service and pre- and post-sales support, and their ability to expand their businesses and their sales channels are essential to the future growth of our business and has a direct and material impact on our sales and profitability in such jurisdictions. Also, as with our individual customers, we do not have long-term purchase commitments from our distributor customers and development partners, and they can therefore generally cancel, modify or reduce orders with little or no advance notice to us. As a result, any reductions or delays in, or cancellations of, orders from any of our distributors may have a negative impact on our sales and budgeting process.\n295: In addition, we have entered and may from time to time enter into exclusivity or other restrictions or arrangements of a similar nature as part of our agreements with our distributors. Such restrictions or arrangements may significantly hinder our ability to sell additional products, or enter into agreements with new or existing customers or distributors that plan to sell our products, in certain markets, which may have a material adverse effect on our business, financial condition and results of operations.\n297: Moreover, we may not be able to compete successfully against those of our competitors who have greater financial resources and are able to provide better incentives to distributors, which may result in reduced sales of our products or the loss of our distributors. The loss of any key distributor may force us to seek replacement distributors, and any resulting delay may be disruptive and costly.\n298: We operate in highly competitive markets that are characterized by rapid technological changes and declining average selling prices. Competitive pressures from existing and new companies and/or damage to our brand may harm our business and operating results.\n299: Competition in the markets for LED products is intense, and we expect that competition will continue to increase. Increased competition could result in increased pricing pressure, reduced profit margins, increased sales and marketing expenses, and failure to increase, or the loss of, market share, any of which would likely seriously harm our business, operating results and financial condition. Competitors may reduce average selling prices faster than our ability to reduce costs, and competitive pricing pressures may accelerate the rate of decline of our average selling prices. To address increased pricing pressure, we have improved and increased our production yields to reduce the per-unit cost of production for our products. However, such cost savings currently have a limited impact on our gross profit, as we have suffered from the underutilization of manufacturing capacity and must absorb a high level of fixed costs, such as depreciation.\n300: We compete with many LED chip manufacturers and LED packaging manufacturers. We have a number of competitors that compete directly with us and are much larger than us. These potential competitors have extensive experience in developing semiconductor chips, which is similar to the manufacturing process for LED chips and LED packaging. We are also aware of a number of well-funded private companies that are developing competing products. We will also compete with numerous smaller companies entering the market, some of whom may receive significant government incentives and subsidies pursuant to government programs designed to encourage the use of LED lighting and to establish LED-sector companies.\n301: Our existing and potential competitors may have a number of significant advantages over us, including greater financial, technical, managerial, marketing, distribution and other resources, more long-standing and established relationships with our existing and potential customers, greater name recognition, larger customer bases and greater government incentives and support. In addition, some of our competitors have been in operation much longer than we have and therefore may have more long-standing and established relationships with our current and potential customers.\n302: We compete primarily on the basis of our products’ performance, price, quality, and reliability and on our ability to customize products to meet customer needs. However, our competitors may be able to develop more competitive products, respond more quickly to new or emerging technologies, offer comparable products at more competitive prices or bring new products to the market earlier. Any failure to respond to increased competition in a timely or cost-effective manner could have a material adverse effect on our business, financial condition, results of operations and prospects. Furthermore, intellectual property claims against us, including pending claims and litigation, regardless of the outcome, could be used by our competitors to damage our brand reputation and our relationships with existing and potential customers.\n303: Historically, we have derived our revenues mainly from the sales of our LED components. Our inability to grow our revenues generated from the sales of LED components would have a negative impact on our financial condition and results of operation.\n304: Until the expansion of buy-sell equipment orders in the last few years, LED components were the core products from which we derived our revenues. Revenues attributable to the sales of our LED components represented approximately 13% and 5% of our revenues for the years ended August 31, 2026 and 2025, respectively. Excluding revenues from buy-sell orders of equipment, we expect to continue to generate our revenues mainly from the sales of LED components for the foreseeable future. As such, the continued market acceptance of our LED components is critical to our continued success. Our inability to grow our revenues generated from the sales of LED components would have a negative impact on our business, financial condition and results of operations.\n305: The market for LEDs has historically been, and we expect will continue to be, highly volatile, which could harm our business and result in significant fluctuations in the market price of our common stock.\n306: Fluctuations in supply and demand for LEDs pose serious risks to our prospects, business, financial condition and results of operations. Our industry, akin to the semiconductor industry, is highly cyclical and characterized by rapid technological change, rapid product obsolescence, declining average selling prices and wide fluctuations in supply and demand. Our industry’s cyclicality results from a complex set of factors, including, but not limited to:\n308: fluctuations in demand for end-products that incorporate LED chips and LED components;\n313: If market demand increases and we are not able to increase our capacity or if we experience delays or unforeseen costs in increasing our capacity levels, we may not be able to achieve our financial targets. Alternatively, as market demand decreases or as market supply surpasses demand, we may not be able to reduce manufacturing expenses or overhead costs proportionately. If an increase in supply outpaces the increase in market demand, or if demand decreases, the resulting oversupply could adversely impact our sales and result in the underutilization of manufacturing capacity, high inventory levels, changes in revenue mix and rapid price erosion, which would lower our margins and adversely impact our financial results. For example, in prior years, we recorded significant excess capacity charges as we suffered from underutilization of our manufacturing capacity as a result of a decrease in customer demand, and significant write-downs of inventories as a result of a decline in their average selling prices. We may experience similar problems in the future, and we cannot predict when they may occur or the severity of such difficulties and the impact on our margins and operating results.\n315: Our ongoing cost and capital expenditure reduction efforts may not be effective, might have unintended consequences, and could negatively impact our business.\n316: We have implemented certain actions to accelerate operating cost reductions and improve operational efficiencies in response to changes in the economic environment, our industry and demand. In connection with the implementation of our cost and capital expenditure reduction programs, we developed a strategic plan to address areas of business where we see the best opportunity for the most profitable sales of our LED products, which includes primarily a focus on the UV LED market segment and placing a greater emphasis on the sale of LED components in selected markets where pricing pressure is less significant, and pursuing new market opportunities that leverage our core competencies. We continue to monitor prices and, consistent with our existing contractual commitments, may decrease our activity level and capital expenditures further. This plan reflects our strategy of controlling capital costs and maintaining financial flexibility. We also disposed of a certain level of our idle equipment to reduce the excess capacity charges that we have suffered for many years. In addition, to provide sufficient liquidity to meet our obligations as they become due for a reasonable period of time, we reduced our capital expenditures as appropriate. The cost reduction plan is further enhanced through the fabless business model in which we implemented certain workforce reductions and have sold certain patents that we were no longer actively developing and are exploring the opportunities to consign or sell certain equipment related to the manufacturing of vertical LED chips to reduce the idle capacity charges, minimize our research and development activities associated with chips manufacturing operation.\n317: Despite our planning, some cost-cutting and capital expenditure reduction measures could have unexpected negative consequences. As part of our ongoing cost reduction efforts, we may reduce our work force further and experience additional attrition, which may expose us to legal claims against us and loss of necessary human resources. If we face costly employee or contract termination claims, our operations and prospects could be harmed. Furthermore, capital expenditure reduction could adversely impact our future sales. While our cost and capital expenditure reduction efforts reduced, or are expected to reduce, our operating costs as well as capital expenditure, we cannot be certain that all efforts will be successful or that we will not be required to implement additional actions to structure our business to operate in a cost-effective manner in the future.\n318: If we are unable to implement our product innovation strategy effectively, our business and financial results could be materially and adversely affected.\n319: As part of our growth strategy, we plan to continue to be innovative in product design, to deliver new products and improve our manufacturing efficiencies. In particular, as the LED industry develops and technical specifications and market standards change, we must continue to innovate and develop competitive products that are accepted by the marketplace. Our existing or potential customers could develop, or acquire companies that develop, products or technologies that may render our products or technologies obsolete or noncompetitive. Our future success depends on our ability to develop and introduce new, technologically advanced and lower cost products, such as high quality, flexible and more complete LED system solution. If we are unable to achieve technological breakthroughs, introduce new products that are commercially viable and meet rapidly evolving customer requirements, and keep pace with evolving technological standards and market development, we may experience reduced market share and our ability to compete may be adversely impacted. If we are unable to execute our product innovation strategy effectively, we may not be able to take advantage of market opportunities as they arise, execute our business plan or respond to competition.\n321: SemiLEDs had moved away from general lighting markets due to extreme price erosion led by companies in China. We have moved on to focus on industrial UV applications. If UVLED does not achieve widespread acceptance and adoption, or if demand for UVLED products does not grow as we anticipate, our revenues may decline and our prospects for growth and profitability will be limited. Moreover, if existing sources of light other than LED devices, such as mercury lamp, remain popular, or if new sources of light are developed, our current products and technologies could become less competitive or obsolete.\n322: Potential customers for UVLED systems may not adopt UVLED as an alternative to mercury lamp technology because of UVLEDs’ higher upfront cost. In addition, manufacturers of mercury lamp systems may have substantial investments and know-how related to their existing technologies, and may perceive risks relating to the complexity, reliability, quality, usefulness and cost-effectiveness of UVLED products. Even if UVLED continues to achieve performance improvements and cost reductions, limited customer awareness of the benefits of UVLEDs, lack of widely accepted standards governing UVLED systems, and customer unwillingness to adopt UVLEDs in favor of entrenched solutions could significantly limit the demand for UVLED products. Additional factors that may limit the adoption of UVLEDs for mercury lamps include, among others:\n328: capital expenditures for new and replacement systems by end-users of UVLED products, which may decline during economic downturns.\n329: Our gross margins could fluctuate as a result of changes in our product mix, the timing and volume of buy-sell equipment purchase orders, decreases in the average selling prices of our products, underutilization of our manufacturing capacity, and other factors, which may adversely impact our operating results.\n330: Our gross margins have fluctuated and may continue to fluctuate from period to period as a result of the mix of products that we sell, the timing and volume of buy-sell equipment purchase orders, and the utilization of our manufacturing capacity in any given period, among other things. For example, as a strategic plan, we placed greater emphasis on the sales of LED components rather than the sales of LED chips where we have been forced to cut prices on older inventory. In 2025, sales increased but gross margin decreased due to higher other revenues,\n332: which generally have lower margins than LED chips, LED components and lighting products sales. In 2026, sales decreased but gross margin increased compared to 2025, primarily due to higher margins realized on buy-sell purchase orders of equipment and higher sales of LED components. We intend to continue to pursue opportunities for profitable growth in areas of business where we see the best opportunity for our UV market, focusing on product enhancement and developing our UV LED into many other applications or devices. As we expand and diversify our product offerings and with varying average selling prices, or execute new business initiatives, like buy-sell orders of equipment, a change in the mix of products that we sell in any given period may increase volatility in our revenues and gross margin from period to period.\n333: Increased competition and the adoption of alternatives to our products, more complex engineering requirements, lower demand, over-capacity in the market and other factors has led to price erosion and, as a result, lower product margins and lower revenues. For example, some of our competitors have in the past reduced their average selling prices, and the resulting competitive pricing pressures have caused us to similarly reduce our prices, accelerating the decline in the gross margin of our products. We anticipate our competitors will continue to implement such competitive strategies from time to time in the future. Our introduction of new LED component products, such as the LED components that incorporate EV or UV LED chips may further reduce the selling prices of our older generation products or render them obsolete.\n334: We rely on a limited number of key suppliers for certain key raw materials and equipment. The loss of key suppliers may have a material adverse effect on our business.\n335: There are a limited number of companies which supply certain of the specialized raw materials that are important to the manufacture of our products as well as a very limited number of manufacturers of equipment that are critical to our operations. We generally enter into spot purchase orders with our suppliers and do not have long-term or guaranteed supply arrangements with any of them. For example, we purchase Red or IR LED chips, the key material used in the manufacture of our LED components, from a limited number of suppliers. A major shortage of these key raw materials would impair our ability to meet our production needs resulting in increased costs.\n336: We also purchase gases, photo chemicals and other materials from various suppliers on the spot market. Although supply constraints do not currently have an impact on our ability to procure supply, supply constraints have occurred in the past and may occur again from time to time in the future. Additionally, we use metals such as copper alloy and other commodities in our manufacturing process. The price volatility of such materials may make our procurement planning challenging. If the prices of materials increase it may adversely affect our operating margins. Although these materials are generally available and are not considered to be specialty chemicals, our inability to procure such materials in volumes and at commercially reasonable prices could result in a material adverse effect on our business, financial condition and results of operations.\n337: If any of our key raw material suppliers fails to meet our needs on time or at all, we may not be able to procure replacement supplies from other sources on a timely basis or on commercially reasonable terms and our production may be delayed or interrupted, which could impair our ability to meet our customers’ needs and damage our customer relationships.\n339: While we intend to focus on managing our costs and expenses, over the long term we expect to be required to invest substantially in LED components product development and production equipment if we are to grow. This will mean having to continually expand our production capacity or upgrade our production facilities as we deem appropriate under future market conditions and future customer demand. Such investment could take time to become fully operational, and could otherwise increase our costs, and we may not be able to execute quickly to take advantage of market opportunities as they arise.\n340: Upgrading or expanding existing facilities could result in manufacturing problems that may reduce our yields and utilization rates below our target levels. For example, we have experienced difficulties in the past in achieving acceptable yields when we moved our manufacturing facilities to a new location and when we introduced new products or new manufacturing processes, which has adversely affected our operating results.\n341: Upgrading or expanding production facilities or capacity requires a significant amount of fixed cost since it requires us to add and purchase manufacturing lines, equipment and additional raw materials and other supplies. If we are not able to recoup these costs through increased sales and profits, our business, financial condition and results of operations could be materially and adversely affected.\n342: Sales of our products are concentrated in a few select markets. Adverse developments in these markets could have a material and disproportionate impact on us.\n343: Our revenues have been highly concentrated in a few select markets, including India, Japan and the United States. Net revenues generated from sales to customers in India, Japan and the United States, in the aggregate, accounted for approximately 92% and 97% of our net revenues for the years ended August 31, 2026 and 2025, respectively. As a result of the concentration of our revenues in these markets, economic downturns, changes in governmental policies and increased competition in these markets could have a material and disproportionate impact on our revenues, operating results, business and prospects. Any unfavorable economic or market conditions in such jurisdictions could have a negative impact on our sales and profitability.\n344: Variations in our production yields and limitations in the amount of process improvements we can implement could impact our ability to reduce costs and could cause our margins to decline and our operating results could suffer.\n345: Our products are manufactured using technologies that are highly complex. The number of saleable products, or yield, from our production processes may fluctuate as a result of many factors, including but not limited to the following:\n361: Introduction of new products and manufacturing processes are often characterized by lower yields in the initial commercialization stage. LED chip and component manufacturing is complicated and consists of many layers of complex materials that must interact with each other. In addition, when we introduce new products and processes, we often use new chemical solutions and chemical compounds with which we have less experience. We must analyze how the various solutions, compounds and layers of materials interact with each other and perform as parts of the LED chip structure. It takes time for us to analyze the data from our initial manufacturing runs and optimize our processes, and over time we generally achieve higher yield rates as we gain more experience with the product or processes. We have continuously improved and increased our production yields to reduce the per-unit cost of production for our new LED components that incorporate EV or UV LED chips; however, such cost savings currently have limited impact on our gross profit, as we currently suffer from the underutilization of manufacturing capacity and must absorb a high level of fixed costs, such as depreciation. In the past, we have experienced difficulties in achieving acceptable yields when introducing new products or new manufacturing processes, which has adversely affected our operating results. We may experience similar problems in the future, and we cannot predict when they may occur or the severity of such difficulties and the impact on our business.\n362: In some instances, we may offer products for future delivery at prices based on planned yield improvements or increased cost efficiencies from other production advances. Failure to achieve these planned improvements or advances could significantly affect our margins and operating results.\n363: We may face challenges further expanding our LED components business. In addition, our strategy of marketing our LED components in jurisdictions with limited intellectual property enforcement regimes may limit the markets where we can sell our LED components and may subject our intellectual property rights to infringement.\n364: We face challenges in further expanding our LED components business, which has been our core product now and onward, because it involves processes and technologies that are significantly different from our manufacturing processes for LED chips. For example, we are developing advanced-level LED component manufacturing techniques, such as processes that allow us to manufacture wafer-level packaging. If we are not able to further develop our LED components business or if competitors create or adopt more advanced packaging technologies than ours, then our business, financial condition and results of operations could be materially and adversely affected.\n365: Our distribution strategy limits the sales of our LED components as we are selling only in countries that may not necessarily have the highest demand or market potential. The intellectual property rights related to LED components are particularly complex and characterized by aggressive enforcement of those rights. To minimize the likelihood that one of our competitors or another third party will assert a claim related to our LED components, we have sought to market these products only in countries in which we believe enforcement of intellectual property rights has historically been more limited as identified below and to ensure the new line of LED products are not subject to any effective injunction in the United States, because we believe that it is important for us to consciously manage our exposure to litigation. Any such litigation, whether with or without merit, could divert our management, financial and other resources away from our business and thereby have a negative impact on our continued development and growth. We do not currently sell our LED components in all countries that meet, what we believe to be, an acceptable litigation risk profile. We review profiles of different countries and may determine from time to time that we should sell our products in one or more additional countries that meet our litigation risk profile for sale of our LED components. However, we may not be able to identify additional countries that we find to be suitable markets for these products. We have considered the potential loss of revenues and income that we may suffer as a result of our strategy to sell only in certain select countries and have concluded that, on balance, the potential loss of such revenues and income is not outweighed by the potential litigation risks. Also, there can be no guarantee that, by selling our LED components in these countries, we have not exposed our intellectual property rights, including our patents, to infringement by others. With respect to any potential infringement of our patents and other intellectual property rights by others in countries where we currently sell our LED components, we have considered the potential loss of revenues and income that we may suffer associated with such sales and have made a business judgment that the benefits outweigh any potential loss. In addition, if the countries in which we currently sell our LED components increase their enforcement of intellectual property rights, the risk of litigation would materially increase and our ability to continue to sell our LED components in these markets may be materially and adversely affected. Sales of our LED components and our other products may also be limited in the event that they are subsequently shipped or otherwise resold in a country and a claim is brought against us or our customer pursuant to the intellectual property laws of the country of final destination.\n366: As we continue to operate in the lighting fixtures market, we may face additional competition and our existing customers may reduce orders.\n367: As we continue to operate in the lighting fixtures market and seek to increase our sales of lighting products in the future, we may face competition from fixtures and bulbs manufactured and marketed by other LED lighting fixture companies and from lighting products incorporating incandescent, fluorescent, halogen, ceramic metal halide or other lighting technology. In addition, many of our existing customers who purchase our LED chips and LED components develop and manufacture lighting fixtures using those chips and components. As we continue to operate in that market, our customers may respond by reducing or discontinuing their orders for our products. This could prevent us from growing or even maintaining our revenues from the sale of LED chips and LED components, which would negatively impact our business, financial condition and results of operations.\n368: As with our LED components, to minimize the likelihood that one of our lighting fixture competitors or another third party will assert an intellectual property right related to our lighting fixtures, we have sought to market these products only in countries in which we believe enforcement of intellectual property rights has been more limited. Our sales of lighting products to customers in the United States decreased\n370: significantly in recent years. This distribution strategy may limit our sales to countries that do not have the highest demand or market potential, and raise similar issues and risks to those raised with respect to our use of this strategy in connection with marketing our LED components.\n371: We are highly dependent on our customers’ ability to produce and sell products incorporating our products. If our customers are not successful, our operating results could be materially and adversely affected.\n372: Our customers incorporate our products into their products. As such, demand for our products is dependent on demand for our customers’ end-products that incorporate our products and our customers’ ability to sell these products. The general lighting market has only recently begun to develop and adopt standards for fixtures that incorporate devices. If the end-customers for our products are unable to manufacture fixtures that meet these standards, our customers’ sales, and consequently our sales, will suffer.\n373: With respect to the sale of our LED components, a substantial portion of which is used in specialty industrial applications, such as UV curing of polymers, LED light therapy in medical/cosmetic applications, counterfeit detection, LED lighting for horticulture applications, and architectural lighting. A majority of our sales are to such end-customers in selected markets. Sales by end-customers of our products are generally dependent on their ability to develop high quality and highly efficient lighting products and require complex designs and processes, including thermal design, optical design and power conversion. We are making a transition to develop as an end-to-end LED module solution supplier by providing our customers with high quality, flexible and more complete LED system solution, customer technical support and LED module/system design, as opposed to just providing customers with individual components. Our customer’s timely and successful product development, the success of our customers’ new product introductions and market acceptance could be materially and adversely affected our operating results.\n374: Any undetected defects in our products may harm our sales and reputation and adversely affect our manufacturing yields.\n375: The manufacture of our products and components is highly complex, requiring precise processes in a highly controlled and sterile environment using specialized equipment. We manufacture our products to meet customer requirements with respect to quality, performance and reliability. Although we utilize quality control procedures at each stage of our manufacturing process, our products may still contain defects that are undetected until after they are shipped or inspected by our customers, or on operation of the device. For example, there could be sub-micron defects that would not be detected by our quality control procedures; such sub-micron defects may increase the current leakage in the device and could negatively affect the product performance over time. Unsatisfactory performance of or defects in our products may cause us to incur additional expenses, including costs in relation to product warranties, cancellation and rescheduling of orders and shipments, and product returns or recalls. Failure to detect and rectify defects in our products before delivery could subject us to product liability claims and harm our credibility and market reputation, which could materially adversely affect our business and results of operations.\n376: In addition, we do not currently have fully automated manufacturing processes, which could potentially introduce contaminants to the production processes through human error. Defects or other difficulties in the manufacturing process can prevent us from achieving maximum capacity utilization, which is the actual number of wafers that we are able to produce in relation to our capacity, and also can prevent acceptable yields of quality products.\n377: Our operations involve the use of hazardous materials, and we must comply with environmental laws, which can result in significant costs, and may affect our business and operating results.\n378: Our research and development and manufacturing activities involve the use of hazardous materials, including acids, adhesives and other industrial chemicals. As a result, we are subject to a variety of environmental, health and safety laws and regulations governing the use, storage, handling, transportation, emission, discharge, exposure to, and disposal of such hazardous materials. Compliance with applicable environmental laws and regulations in each of the jurisdictions in which we operate can be costly, and there can be no assurance that violations of these laws will not occur in the future as a result of human error, accident, equipment failure, or other causes. Liability under environmental and health and safety laws can be joint and several, and without regard to fault or negligence. The failure to comply with past, present, or future laws could subject us to increased costs and significant fines and penalties, damages, legal liabilities, suspension of production or operations, alteration of our manufacturing facilities or processes, curtailment of our sales and adverse publicity. Any of these events could harm our business and financial condition.\n379: Furthermore, environmental protection and workplace safety regulations may become more stringent in the future, and although we cannot predict the ultimate impact of any such new laws, they may impose greater compliance costs or result in increased risks or penalties, which could harm our business. Existing and future environmental laws and regulations could also require us to acquire pollution abatement or remediation equipment, modify our product designs or incur other expenses associated with such laws and regulations. As our industry continues to evolve, we may be required to evaluate and use new materials in our manufacturing process that may be subject to regulation under existing or future environmental laws and regulations, and our use of such new materials may be restricted. Any such restriction could require us to alter our manufacturing processes or increase our expenses. If we fail to comply with current and future environmental laws and regulations, whether intentional or inadvertent, we may be required to pay fines and other liabilities to the government or third parties, suspend production or even cease operation.\n381: Our operations are subject to complex trade and customs laws, regulations, and tax requirements. The countries in which our products are sold may impose duties, tariffs, or other restrictions from time to time on our sales or adversely change existing restrictions. For example, the United States has recently imposed or proposed imposing substantial tariffs on goods imported from many countries, including a 15% tariff on goods imported from Taiwan. In fiscal year 2026, 7.7 percent of our products, by dollar value, were sold into the United States. The current political landscape, including with respect to the United States’ foreign policy priorities and relations with trading partners, has introduced greater uncertainty with respect to future tax and trade policy. We are unable to determine the impact that changes in tax and trade policy could have on our sales into the United States or other countries, but it could be material.\n383: Risks Relating to Our Holding Company Structure\n384: Our ability to receive dividends and other payments from Taiwan Bandaoti Zhaoming Co., Ltd. may be restricted by commercial and legal restrictions, which may materially and adversely affect our ability to grow, fund investments, make acquisitions, pay dividends and otherwise fund and conduct our business.\n386: Dividends and interest on intercompany loans we receive from our subsidiaries in Taiwan, if any, will be subject to withholding tax under Taiwan law. The ability of our subsidiaries in Taiwan to pay dividends, repay intercompany loans from us or make other distributions to us is restricted by, among other things, the availability of funds, the terms of various credit arrangements entered into by our subsidiaries, as well as statutory and other legal restrictions. In addition, although there are currently no foreign exchange control regulations that restrict the ability of our subsidiaries located in Taiwan to distribute dividends to us, we cannot assure you that the relevant regulations will not be changed and that the ability of our subsidiaries to distribute dividends to us will not be restricted in the future. A Taiwan company is generally not permitted to distribute dividends or to make any other distributions to stockholders for any year in which it did not have either earnings or retained earnings (excluding reserves). In addition, before distributing a dividend to stockholders following the end of a fiscal year, the company must recover any past losses, pay all outstanding taxes and set aside 5% of its annual net income (less prior years’ losses and outstanding taxes) as a legal reserve until the accumulated legal reserve equals its paid-in capital, and may set aside a special reserve.\n390: Taiwan Bandaoti Zhaoming Co., Ltd. depends on us to meet its equity financing requirements. Any capital contribution by us to Taiwan Bandaoti Zhaoming Co., Ltd. requires the approval of the relevant Taiwan authorities, such as the Hsinchu Science Park Administration. We may not be able to obtain any such approval in the future in a timely manner, or at all. We cannot assure you that we will be able to complete these government registrations or obtain the government approvals on a timely basis, if at all, with respect to future loans or capital contributions by us to our subsidiaries or any of their respective subsidiaries. If we fail to complete these registrations or obtain the approvals, our ability to capitalize Taiwan Bandaoti Zhaoming Co., Ltd. may be negatively affected, which could adversely and materially affect our liquidity and our ability to fund and expand our business.\n394: Risks Related to Owning Our Common Stock\n404: We expect to require additional capital due to continuing losses, deteriorating business conditions or other future developments. If our current sources of capital are insufficient to satisfy our cash requirements, we may seek to sell additional equity or debt securities, including through an at-the-market equity program, or obtain bank loans and credit facilities. The sale of convertible debt securities or additional equity securities could result in dilution to our stockholders. The incurrence of further indebtedness, whether in the form of public debt or bonds or bank financing, would result in increased debt service obligations and could result in operating and financing covenants that would restrict our operations and liquidity.\n407: our future financial condition, results of operations and cash flows and the trading price of our common stock;\n411: raising additional cash through potential equity offerings, sales of assets and/or issuance of debt as considered necessary and looking at other potential business opportunities;\n424: impeding a merger, consolidation, takeover or other business combination involving us; or\n432: General Risks\n433: Epidemics, pandemics, and other outbreaks could disrupt the Company’s operations and adversely affect its business, results of operations, and cash flows.\n434: Epidemics, pandemics, and other outbreaks of an illness, disease, or virus have adversely affected, and could adversely affect in the future, workforces, customers, economies, and financial markets globally, potentially leading to economic downturns. The significance of the impact on our operations of an epidemic, pandemic, or other outbreak depends on numerous factors that we may not be able to accurately predict or effectively respond to, including, without limitation: the duration and scope of an outbreak (including the extent of surges, mutations, or strains of the outbreak and the efficacy of vaccination and other efforts to contain the outbreak or treat its effects); actions taken by governments, businesses, and individuals in response to the outbreak; the effect on economic activity and actions taken in response; the effect on customers and their demand for our products and services; the effect on the health, wellness, and productivity of our employees; and our ability to manufacture, sell, and service its products, including without limitation as a result of supply chain challenges, facility closures, social distancing, restrictions on travel, fear or anxiety by the populace, and shelter‑in‑place orders. These and other factors relating to or arising from an epidemic, pandemic, or other outbreak could have a material adverse effect on our business, results of operations, and cash flows, as well as the trading price of our common stock.\n435: Our operating results may fluctuate from quarter to quarter, which could make our future performance difficult to predict and could cause our operating results for a particular period to fall below expectations, resulting in a severe decline in the price of our common stock.\n436: Our quarterly operating results are difficult to predict and may fluctuate significantly in the future. We have experienced seasonal and quarterly fluctuations in the past. As such, our past quarterly operating results may not be good indicators of future performance.\n437: The following factors could cause our operating results to fluctuate:\n439: our ability to retain existing customers, attract new customers and successfully enter new geographic markets;\n441: changes in supply and demand and other competitive market conditions, including pricing actions by our competitors and our customers’ competitors;\n443: timing of orders from and shipments to major customers and end-customers, including as part of LED project-based orders, and our ability to forecast demand and manage lead times for the manufacturing of our products; and\n445: seasonal fluctuations in our customers’ purchasing patterns.\n446: For these or other reasons, the results of any prior quarterly or annual periods should not be relied upon as indications of our future performance, and our actual revenue and operating results in future quarters may fall short of the expectations of investors and financial analysts, which could have a severe adverse effect on the trading price of our common stock.\n448: The trading price of our common stock has been and may continue to be subject to broad fluctuations. The market price of shares of our common stock could be subject to wide fluctuations in response to various risk factors listed in this section and others beyond our control, including:\n450: actual or anticipated fluctuations in our key operating metrics, financial condition and operating results;\n452: changes in the composition of and the orders received from our customers;\n454: actual or anticipated changes in our growth rate;\n457: issuance of new or updated research or reports by securities analysts that have a change in outlook regarding the performance of our business or the future trading price of our common stock;\n459: our announcement of actual results for a fiscal period that are higher or lower than projected or expected results or our announcement of revenue or earnings guidance that is higher or lower than expected;\n467: announcements from, or operating results of, our competitors; and\n470: Furthermore, the stock markets have experienced extreme price and volume fluctuations that have affected and continue to affect the market prices of equity securities of many companies. These fluctuations often have been unrelated or disproportionate to the operating performance of those companies. These broad market and industry fluctuations, as well as general economic, political and market conditions, such as recessions, interest rate changes or international currency fluctuations, may cause the market price of shares of our common stock to decline. In the past, companies that have experienced volatility in the market price of their stock have been subject to securities class action litigation. We had previously been a defendant in two filed actions and may be the target of this type of litigation in the future. Securities litigation against us could result in substantial costs and divert our management’s attention from other business concerns, which could seriously harm our business.\n472: We have never declared or paid any cash dividends on our common stock or convertible preferred stock and do not intend to do so for the foreseeable future. We currently intend to invest our future earnings, if any, to fund our growth. Therefore, you are not likely to receive any dividends on your common stock for the foreseeable future and the success of an investment in shares of our common stock will depend upon future appreciation in their value. There is no guarantee that shares of our common stock will appreciate in value or maintain the price at which our stockholders purchased their shares.\n473: We may be exposed to litigation, which could adversely affect our financial condition and results of operations.\n474: In the ordinary course of our business, we may be exposed to general commercial claims related to the conduct of our business, class action lawsuits, employment claims and other litigation claims. Any such litigation, whether with or without merit, could result in significant costs. In addition, members of our senior management may be required to divert significant attention and resources to these matters, reducing the time, attention and resources they have available to devote to managing our business. These additional expenses and diversion of attention and resources, along with any reputational issues raised by these lawsuits, may have a material negative impact on our business, financial condition and results of operations.\n476: Section 404 of the Sarbanes-Oxley Act of 2002 requires that we include a management report that assesses the effectiveness of our internal control over financial reporting in our annual report on Form 10-K. Our testing may reveal deficiencies in our internal controls over financial reporting that are deemed to be material weaknesses, which we will be required to disclose. Our compliance with Section 404 requires that we incur substantial accounting expenses and expend significant management resources and time on compliance related issues. If we are unable to comply with the requirements of Section 404 in a timely manner, or if we identify deficiencies in our internal controls over financial reporting that are deemed to be material weaknesses, we may be subject to sanctions or investigations by regulatory agencies such as the SEC. In addition, failure to meet the requirements of Section 404 or to disclose any material weakness may cause investors to lose confidence in our financial statements and the trading price of our common stock may decline. Moreover, if we fail to remedy any material weakness, our financial statements may be inaccurate, our ability to report our financial results on a timely and accurate basis may be adversely affected, our access to the capital markets may be restricted, we may be subject to sanctions or investigation by regulatory authorities, including the SEC and The Nasdaq Stock Market, or Nasdaq, and our stated results of operations and reputation may be materially and adversely affected.\n477: We may undertake joint ventures, investments, acquisitions, joint projects, and other strategic alliances and such undertakings, as well as our existing joint ventures, may be unsuccessful and may have an adverse effect on our business.\n478: We have grown our business in part through strategic alliances and acquisitions. We continually evaluate and explore strategic opportunities as they arise, including product, technology, business or asset transactions, such as acquisitions or divestitures. Such undertakings may not be successful or may take a substantially longer period than initially expected to become successful, and we may never recover our investments or achieve desired synergies or economies from these undertakings.\n479: This notwithstanding, we may in the future continue to seek to grow our operations in part by entering into joint ventures, undertaking acquisitions or establishing other strategic alliances with third parties in the LED and LED-related industries. These activities involve challenges and risks in negotiation, execution, valuation and integration, and closing of the transactions could be delayed or prevented by regulatory approval requirements, including antitrust review, or other conditions.\n481: Any future agreements that we may enter into also could expose us to new operational, regulatory, market, litigation and geographical risks as well as risks associated with significant capital requirements, the diversion of management and financial resources, unforeseen operating difficulties and expenditures, sharing of proprietary information, loss of control over day-to-day operations, non-performance by a counterparty and potential competition and conflicts of interest. In addition, we may not be successful in finding suitable targets on terms that are favorable to us, or at all. Even if successfully negotiated and closed, expected synergies from a joint venture, acquisition or other strategic alliance may not materialize or may not advance our business strategy, may fall short of expected return-on-investment targets or may not prove successful or effective for our business. We may also encounter difficulty integrating the operations, personnel and financial and operating systems of an acquired business into our current business.\n482: We may need to raise additional debt funding or sell additional equity securities to enter into such joint ventures or make such acquisitions. However, we may not be able to obtain such debt funding or sell equity securities on terms that are favorable to us, or at all. The raising of additional debt funding by us, if required and available, would result in increased debt service obligations and could result in additional operating and financing covenants, or liens on our assets, that would restrict our operations. The sale of additional equity securities, if required and available, could result in dilution to our stockholders.\n483: Risks Related to Human Capital\n484: We rely on certain key personnel. The loss of any of our key personnel, or our failure to attract, assimilate and retain other highly qualified personnel in the future, could harm our business.\n485: Our future success depends on the continued service and performance of our key personnel, including in particular Trung T. Doan, our chief executive officer, and members of our executive team. We do not maintain key man insurance on any of our officers or key employees.\n486: If Mr. Doan or other key personnel were unable or unwilling to continue in their present positions, we may not be able to replace them readily or on terms that are reasonable, if at all. As such, the loss of Mr. Doan or other key personnel, including other key members of our management team and certain of our key marketing, sales, product development or technology personnel, could significantly disrupt our operations and prevent the timely achievement of our development strategies and growth, which would likely have an adverse effect on our financial condition, operating results and prospects. Moreover, we may lose some of our customers if any of our officers or key employees were to join a competitor or form a competing company. The loss of the services of our senior management for any reason could adversely affect our business, operating results and financial condition.\n487: In addition, competition for experienced employees in our industry can be intense, and we may not be successful in recruiting, motivating or retaining sufficiently qualified personnel on terms that are reasonable, or at all. Cyclical volatility in our industry and in our business may aggravate this problem. For example, the challenges we faced in recent years relating to loss of market share and a sustained decrease in the market price of our common stock, among others, could impact our ability to attract and retain employees. When consumer demand for our products is reduced or delayed, we expect lower net revenue and reduced profitability. When our stock price declines, our equity incentive awards may lose retention value. In response to such downturns, we may further implement cost reduction actions, including spending controls, forced holidays and company shutdowns, employee layoffs, shortened workweeks and involuntary salary reductions. Layoffs during an industry downturn could make it more difficult for us to retain key talent and staff members, or to rehire employees should business improve.\n488: Risks Relating to Intellectual Property\n489: We may be exposed to intellectual property infringement or misappropriation claims by third parties, which could adversely affect our financial condition and results of operations.\n490: Trademark, patent, copyright and other intellectual property rights are critical to our business and the business of our competitors. Our industry is characterized by frequent intellectual property litigation involving patents, trade secrets, copyrights, and mask designs among others. Competitors of ours and other third parties have in the past and will likely from time to time in the future allege that our products infringe on their intellectual property rights.\n491: Litigation to determine the validity and scope of any claim against us for infringement, misappropriation, misuse or other violation of third-party intellectual property rights can be highly uncertain because of the complex scientific, legal and factual questions and analyses involved. Defending against any intellectual property infringement claims would likely result in costly litigation, diversion of the attention and efforts of our technical and management personnel and ultimately may lead to our not being able to manufacture, use or sell products found to be infringing. As a result of any such dispute, we may be required to develop non-infringing technology, pay substantial damages, enter into royalty or licensing agreements to use third-party technology, cease selling certain products, adjust our marketing and advertising activities or take other actions to resolve the claims. These actions, if required, may be costly or unavailable on terms acceptable to us. If we are unable to obtain sufficient rights or develop non-infringing intellectual property or otherwise alter our business practices on a timely basis, our business and competitive position may be adversely affected.\n492: The intellectual property rights related to packaging LEDs with phosphors to make white light LED components are particularly complex and characterized by aggressive enforcement of those rights. Many of our competitors and other third parties hold patents or licenses or cross-licenses that relate to phosphors and the use of phosphors in LED packages to make white light LED components. We have sought to minimize the risk that one of our competitors or another third party will assert a claim related to our packaged LED components by marketing these products only in certain countries in which we believe enforcement of intellectual property rights has historically been more limited. We cannot assure you that our belief with respect to the enforcement of rights within those markets is accurate. In addition, if the products we sell in a particular country are subsequently shipped or resold to another country, the intellectual property laws of the country of final destination may also apply to our products. Further, we may be subject to claims if our packaging customers for our LED chips lack sufficient intellectual property rights with respect to their packaging process and related packaging materials. We cannot assure you that our\n494: competitors or others will not claim that our LED chips or our LED components infringe their intellectual property rights or that, if such claims are made, we will be able to successfully dispute such claims.\n495: If our intellectual property, including our proprietary technologies and trade secrets, are not adequately protected to prevent misuse or misappropriation by our competitors, the value of our brand and other intangible assets may be diminished, and our business may be materially and adversely affected. In addition, the sale of certain patents increases our business risk.\n496: Our future success and competitive position depends in part on our ability to protect our intellectual property, including proprietary technologies and trade secrets. In particular, we have developed advanced capabilities and proprietary know-how in sapphire reclamation, gallium nitride, or GaN, epitaxial growth, copper alloy technology, nanoscale surface engineering and vertical LED structure technology that are critical to our business. We rely, and expect to continue to rely, on a combination of confidentiality and license agreements with our employees, licensees, partner and third parties with whom we have relationships, and trademark, copyright, patent and trade secret protection laws, to protect our intellectual property, including our proprietary technologies and trade secrets.\n497: There can be no assurance that the steps we have taken or plan to take in the future are adequate to protect our intellectual property, including our proprietary technologies and trade secrets. We expect to continue to seek patent and trademark protection for our technologies and know-how. However, we will only be able to protect such technologies and know-how from unauthorized use by third parties to the extent that valid, protectable and enforceable rights cover them. We cannot be certain that our patent and trademark applications will lead to patents being issued and registered trademarks being granted in a timely manner, or at all. Even if we are successful in obtaining such rights, the intellectual property laws of other countries in which our products are sold or may in the future be sold may not protect our products and intellectual property rights to the same extent as the laws of the United States. For example, China currently is thought to afford less protection to intellectual property rights generally than some other jurisdictions. As such, the lack of strong patent and other intellectual property protection in China may significantly increase our vulnerability as regards unauthorized disclosure or use of our intellectual property and undermine our competitive position. The legal standards relating to the validity, enforceability and scope of protection of intellectual property rights in LED-related industries are uncertain and still evolving, both in the United States and in other countries. Moreover, the contractual agreements that we enter into with employees, licensees and third parties to protect our intellectual property and proprietary rights afford only limited protection and may not been enforceable.\n498: We also expect that the more successful we are, the more likely it will be that competitors will try to develop or patent similar or superior technologies, products and services. In the event that our competitors or others are able to obtain knowledge of our know-how, trade secrets and technologies through independent development, our failure to protect such know-how, trade secrets and technologies and/or our other intellectual property and proprietary rights may undermine our competitive position. In addition, third parties may knowingly or unknowingly infringe our trademarks and other intellectual property rights, and litigation may be necessary to protect and enforce our intellectual property rights or determine the validity and scope of our proprietary rights. Any such litigation could be very costly and could divert management attention and resources away from our business, and the outcome of such litigation may not be in our favor. If the protection of our intellectual property, including our proprietary technologies and trade secrets, is inadequate to prevent use or appropriation by third parties, the value of our brand and other intangible assets may be diminished and competitors may be able to more effectively mimic our products and methods of operation. Any of these events may have a material adverse effect on our business, financial condition, reputation and competitive position.\n499: We have also sold certain patents, generally for technology that we are no longer actively developing. While we plan to continue to monetize our patent portfolio through sales of non-core patents, we may not be able to realize adequate interest or prices for those patents. Accordingly, we cannot provide assurance that we will be able to generate revenue from these sales. In addition, although we seek to be strategic in our decisions to sell patents, we might incur reputational harm if a purchaser of our patents sues one of our customers for infringement of the purchased patent, and we might later decide to enter a space that requires the use of one or more of the patents we sold.\n502: The reduction or elimination of government investment in LED lighting or the elimination of, or changes in, policies in certain countries that encourage the use of LEDs over some traditional lighting technologies could cause demand for our products to decline, which could materially and adversely affect our revenues, profits and margins.\n506: Political, Geographical and Economic Risks\n523: Risk Management and Strategy",
+    "insight_source_candidates": [
+      {
+        "document": "10-K",
+        "line": 2365,
+        "quote": "9. NET INCOME (LOSS) PER SHARE OF COMMON STOCK"
+      }
+    ],
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 10,
+      "text": "Hsinchu, Taiwan (November 27, 2026)— SemiLEDs Corporation (NASDAQ: LEDS), “SemiLEDs” or the “Company,” a developer and manufacturer of LED chips and LED components, today announced its financial results for the fourth quarter and full fiscal year 2026, ended August 31, 2026.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "revision_feedback": [
+      "No Insight line was supplied.",
+      "No Insight line was supplied.",
+      "Insight review unassessed: No explanation supplied."
+    ]
+  },
+  "expected_output": "Return qualitative observations without digits and gaps; do not perform arithmetic. The Insight may contain a sourced number. End with an insight field containing exactly one line: \"Insight: <one supported claim> — <10-K, 10-Q, 8-K or EX-99.1> line <number>: <exact quote>\". The claim must add more than a figure repeated from the release first paragraph. If no evidence supports such a claim, use an empty insight field and explain the gap."
+}

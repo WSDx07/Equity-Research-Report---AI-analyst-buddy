@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "ticker": "LEDS",
+  "company_name": "SemiLEDs Corp",
+  "cik": "0001333822",
+  "as_of": "2026-11-27",
+  "prepared_at": "2026-11-27T22:13:28.684671+00:00",
+  "saved_run": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/LEDS_2026-11-27_17-08-27_123241_-0500/team",
+  "facts_file": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/LEDS_2026-11-27_17-08-27_123241_-0500/team/facts.json",
+  "filings_file": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/LEDS_2026-11-27_17-08-27_123241_-0500/team/filings.json",
+  "registry_file": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/LEDS_2026-11-27_17-08-27_123241_-0500/seeker/registry-2026-11-16_20-16-50_178773_-0500_2c71aff8.json",
+  "registry_present": false,
+  "registry_facts": {},
+  "parent_cik": null,
+  "distribution_date": null,
+  "registration_accession": null,
+  "distribution_filing_documents": [],
+  "live_release": {
+    "run": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/LEDS_2026-11-27_17-08-27_123241_-0500/team",
+    "ticker": "LEDS",
+    "cik": "0001333822",
+    "form": "8-K",
+    "filing_date": "2026-11-27",
+    "accession": "000119312526479475",
+    "filing_time": {
+      "value": "2026-11-27T15:30:57+00:00",
+      "source": "SEC submissions acceptanceDateTime"
+    },
+    "documents": [
+      {
+        "form": "live_release_8-K",
+        "accession": "000119312526479475",
+        "name": "LEDS_8-K_0001193125-26-479475.txt",
+        "url": "saved agent-team filing",
+        "path": "worksheet_sources_20261127_171327/saved_000119312526479475_LEDS_8-K_0001193125-26-479475.txt",
+        "kind": "reused saved filing"
+      }
+    ]
+  },
+  "live_run_source_files": [],
+  "run_filing_texts": [
+    "LEDS_10-K_0001193125-26-479479.txt",
+    "LEDS_10-K_0001193125-26-479479.txt",
+    "LEDS_10-Q_0001193125-26-302451.txt",
+    "LEDS_10-Q_0001193125-26-302451.txt"
+  ],
+  "first_company_filings_after_spin": [],
+  "parent_filings_after_spin": [],
+  "saved_source_documents": [
+    {
+      "form": "live_release_8-K",
+      "accession": "000119312526479475",
+      "name": "LEDS_8-K_0001193125-26-479475.txt",
+      "url": "saved agent-team filing",
+      "path": "worksheet_sources_20261127_171327/saved_000119312526479475_LEDS_8-K_0001193125-26-479475.txt",
+      "kind": "reused saved filing"
+    }
+  ],
+  "form4_purchase_transactions": 0,
+  "form4_purchase_file": "/Users/blackfox440/orca/projects/Team3-desk/one_desk_runs/LEDS_2026-11-27_17-08-27_123241_-0500/team/worksheet_sources_20261127_171327/form4_purchases.json",
+  "form4_coverage": {
+    "filing_count_checked": 0,
+    "first_filing_date": null,
+    "last_filing_date": null,
+    "scope": "Form 4 filings in the saved run filing list, through the saved run analysis date"
+  },
+  "errors": [],
+  "limitations": [
+    "This command collects and saves sources only; it does not extract worksheet facts, calculate values, call a model, or create a report.",
+    "A missing or conflicting fact stays not known. Registry presence is distinct from an absent CIK entry.",
+    "The saved agent run may not include every filing. The worksheet must state the saved filing-list coverage."
+  ]
+}

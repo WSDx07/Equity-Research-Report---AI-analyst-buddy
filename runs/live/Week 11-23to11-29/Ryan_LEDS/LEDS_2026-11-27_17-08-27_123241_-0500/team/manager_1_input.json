@@ -1,0 +1,822 @@
+{
+  "task": "Check all five sections for completeness and consistency; assign issues to each specialist. For each role independently inspect its Insight and the supplied release first paragraph. Fail if the Insight is missing or its claim only restates a figure from that paragraph; consider metric, period, and meaning, not just matching numbers. Use unassessed if the paragraph or evidence is insufficient.",
+  "context": {
+    "sections": [
+      "Overview",
+      "Market Positioning and Growth Outlook",
+      "Valuation Insights",
+      "Future Developments and Strategic Recommendations",
+      "Investment Recommendation"
+    ],
+    "research": {
+      "claims": [
+        {
+          "section": "Overview",
+          "claim": "SemiLEDs’ core business is the development, manufacture and sale of LED chips, components, modules and sensor systems for general lighting and specialty industrial applications.",
+          "document": "10-K",
+          "line": 151,
+          "quote": "We develop, manufacture and sell light emitting diode (LED) chips and LED components, LED modules, sensor components incorporating LED or VCSEL and systems. Our products are used for general lighting and specialty industrial applications, including ultraviolet, or UV, curing of polymers, LED light therapy in medical/cosmetic applications, counterfeit detection, germicidal and virucidal devices, LED lighting for horticulture applications, architectural lighting and entertainment lighting and sensing of pressure or distance using LED or VCSEL. In addition, in fiscal years 2026 and 2025, we entered into a number of buy-sell orders for equipment that we purchased and then sold to our customers."
+        },
+        {
+          "section": "Overview",
+          "claim": "The company packages its LED chips into components for distributors and end‑customers in selected markets including Taiwan, Europe, Japan and the United States.",
+          "document": "10-K",
+          "line": 154,
+          "quote": "We package our LED chips into LED components or sensor components, which we sell to distributors and a customer base in a few select markets, including Taiwan, Europe, Japan and the United States. We also sell our “Enhanced Vertical,” or EV, LED product series in blue, white, green and UV in selected markets. We sell our LED chips to packagers or to distributors, who in turn sell to packagers."
+        },
+        {
+          "section": "Overview",
+          "claim": "SemiLEDs has adopted a fabless business model, using foundry fabs to ODM its chips and seeking to sell idle chip‑manufacturing equipment to lower capacity costs.",
+          "document": "10-K",
+          "line": 201,
+          "quote": "We have moved to a fabless business model in which we utilize foundry fabs to ODM our chips using our developed technology and continue to explore opportunities to sell our chip manufacturing equipment, which will help us to reduce the idle capacity costs."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "The firm concentrates on high‑value UV LED applications after exiting the highly price‑compressed general lighting market.",
+          "document": "10-K",
+          "line": 321,
+          "quote": "SemiLEDs had moved away from general lighting markets due to extreme price erosion led by companies in China. We have moved on to focus on industrial UV applications."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Revenue and gross margin performance in FY 2026 were driven largely by buy‑sell equipment orders, which represented 85% of total revenue for the year.",
+          "document": "EX-99.1",
+          "line": 15,
+          "quote": "In fiscal years 2026 and 2025, the Company entered into a number of buy‑sell orders for equipment that it purchased and then sold to its customers, and the Company anticipates continuing to receive buy‑sell purchase orders in fiscal year 2027."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "Buy‑sell equipment orders generated $16.0 million of revenue in FY 2026, substantially higher than the $10.2 million cost of revenue associated with those orders.",
+          "document": "EX-99.1",
+          "line": 267,
+          "quote": "In fiscal years 2026 and 2025, the revenue relating to these purchase orders was $16.0 million and $40.6 million, and the associated cost of revenue was $10.2 million and $36.5 million, for fiscal years 2026 and 2025, respectively."
+        },
+        {
+          "section": "Market Positioning and Growth Outlook",
+          "claim": "SemiLEDs’ top ten customers accounted for 96% of FY 2026 revenue, highlighting a highly concentrated customer base.",
+          "document": "10-K",
+          "line": 215,
+          "quote": "We have historically derived a significant portion of our revenues from a limited number of customers. For the years ended August 31, 2026 and 2025, our top ten customers collectively accounted for 96% and 99% of our revenues, respectively."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management plans to increase resources toward module and system design to offer a one‑stop solution for UV industrial printers, horticulture lighting and disinfection markets.",
+          "document": "10-K",
+          "line": 192,
+          "quote": "To differentiate ourselves from other LED package manufacturers, we are putting more resources towards module and system design. Along with our technical know-how in the chip and package sectors, we are able to further integrate electrical, thermal and mechanical manufacturing resources to provide customers with one‑stop system services."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "R&D focus is on design methodology, process technology, yield improvement and larger wafer sizes to reduce production costs.",
+          "document": "10-K",
+          "line": 223,
+          "quote": "We focus our research and development efforts on our design methodology and process technology for our LED products. We also focus on improving our production yields and increasing wafer sizes to lower our production costs."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Management acknowledges that rapid technical change and intense competition create pricing pressure that may erode gross margins.",
+          "document": "10-K",
+          "line": 246,
+          "quote": "Competition in the markets for LED products is intense, and we expect that competition will continue to increase, thereby creating a highly aggressive pricing environment. Some of our competitors have in the past reduced their average selling prices, and the resulting competitive pricing pressures have caused us to similarly reduce our prices, accelerating the decline in the gross margin of our products."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "The company’s strategy includes cost‑reduction measures such as disposing idle equipment and lowering capital expenditures, but further workforce reductions could pose legal and talent‑retention risks.",
+          "document": "10-K",
+          "line": 316,
+          "quote": "In addition, we have implemented certain actions to accelerate operating cost reductions and improve operational efficiencies… We also disposed of a certain level of our idle equipment to reduce the excess capacity charges that we have suffered for many years."
+        },
+        {
+          "section": "Future Developments and Strategic Recommendations",
+          "claim": "Judgment: Pursuing additional buy‑sell equipment orders in FY 2027 could stabilize cash flow, but reliance on this segment creates revenue volatility if order volume drops.",
+          "document": "EX-99.1",
+          "line": 268,
+          "quote": "We anticipate continuing to receive buy‑sell purchase orders in fiscal year 2027. As a result of these purchase orders and associated uncertainty of the business, our revenue, cost of revenues, receivables, inventories and customer deposits over future quarters may vary significantly."
+        }
+      ],
+      "gaps": [
+        "The 10‑K does not provide quantitative forecasts for FY 2027 revenue or margin trends, so any specific growth outlook beyond FY 2026 cannot be sourced.",
+        "There is no disclosed timeline or budget for the planned expansion of module‑system design resources, so the magnitude of this initiative cannot be quantified."
+      ],
+      "insight": "Insight: The company has transitioned to a fabless business model to reduce idle capacity costs — 10-K line 201: We have moved to a fabless business model in which we utilize foundry fabs to ODM our chips using our developed technology and continue to explore opportunities to sell our chip manufacturing equipment, which will help us to reduce the idle capacity costs."
+    },
+    "financial": {
+      "observations": [
+        "The company reports a significant decline in total revenue compared with the prior fiscal period, reflecting a sharp contraction in its core sales activities.",
+        "Operating performance improved from a loss in the prior year to a modest positive operating result in the most recent fiscal year, though the operating margin remains narrow.",
+        "Net income switched from a loss in the prior period to a small profit in the latest fiscal year, which is also reflected in a positive diluted earnings per share figure, reversing the previous negative earnings per share.",
+        "Cash generated from operating activities is positive, indicating that the business continues to produce cash despite the revenue downturn, yet the cash balance remains relatively modest relative to the company's total liabilities.",
+        "The balance sheet shows that short‑term debt obligations are present while long‑term debt is largely absent, resulting in a debt‑to‑equity profile that is not heavily leveraged but still notable given the limited equity base.",
+        "Stockholders’ equity has increased modestly, but the company still carries a substantial accumulated deficit, a point highlighted in the filing and tied to ongoing going‑concern considerations.",
+        "The filing marks the company as an emerging growth company and notes that the financial statements are unaudited and preliminary, signaling that the presented figures may be subject to adjustments.",
+        "Revenue concentration is extreme, with the vast majority of sales derived from a small group of customers and heavily reliant on buy‑sell equipment purchase orders, making future revenue highly sensitive to the continuation of those arrangements.",
+        "The business emphasizes a strategic shift toward ultraviolet and specialty applications while acknowledging intense competition, rapid technological change, and the risk of price erosion across its market segments.",
+        "Risk disclosures point to substantial uncertainties, including intellectual‑property litigation, supply‑chain dependencies, environmental compliance costs, and potential limitations on accessing additional financing, all of which could materially affect financial condition.",
+        "Going‑concern language is prominent, noting substantial doubt about the ability to continue operations without successful execution of a liquidity plan that extends through the subsequent fiscal year."
+      ],
+      "gaps": [
+        "No market price for the common stock is provided, so valuation multiples such as price‑to‑earnings cannot be calculated or discussed.",
+        "Peer data is absent, preventing any comparative analysis with industry peers.",
+        "The filing does not contain a definitive, audited statement of the most recent fiscal year; it is explicitly noted as unaudited and subject to future adjustment.",
+        "insight\": \"Insight: The company carries a substantial accumulated deficit, underscoring its ongoing going‑concern concerns — 10‑K line 263: “As of August 31, 2026, we had an accumulated deficit of $189 million.”\n"
+      ],
+      "insight": ""
+    },
+    "advisor": {
+      "recommendation": "Insufficient evidence",
+      "thesis": "SemiLEDs has moved to a fabless model and is leaning heavily on equipment buy‑sell transactions, which now dominate its revenue mix. The customer base is extremely concentrated, with the vast majority of sales coming from a handful of accounts, creating volatility if those relationships falter. While operating results have swung to a modest positive margin and cash flow from operations is presently positive, the company faces pronounced going‑concern doubts, intense competitive pricing pressure in its UV niche, and uncertainty around the sustainability of its equipment‑trade segment. The lack of disclosed forward forecasts, limited visibility on the scale of its planned module‑system expansion, and reliance on a volatile revenue source together preclude a confident investment stance.",
+      "deciding_metric": "debt_to_equity",
+      "risks": [
+        "Revenue concentration on a small group of customers",
+        "Dependence on equipment buy‑sell orders that may not persist",
+        "Intense competition and price erosion in UV LED markets",
+        "Going‑concern uncertainty and limited cash resources",
+        "Potential challenges in executing the fabless transition and scaling module design resources",
+        "Exposure to supplier and supply‑chain disruptions"
+      ],
+      "insight": "Insight: The company carries a substantial accumulated deficit, underscoring its ongoing going‑concern concerns — 10‑K line 263: “As of August 31, 2026, we had an accumulated deficit of $189 million.”"
+    },
+    "release_first_paragraph": {
+      "status": "candidate",
+      "document": "EX-99.1",
+      "line": 10,
+      "text": "Hsinchu, Taiwan (November 27, 2026)— SemiLEDs Corporation (NASDAQ: LEDS), “SemiLEDs” or the “Company,” a developer and manufacturer of LED chips and LED components, today announced its financial results for the fourth quarter and full fiscal year 2026, ended August 31, 2026.",
+      "limitation": "Saved text has no original HTML paragraph boundaries; confirm this is the release's first paragraph."
+    },
+    "facts": {
+      "company": {
+        "ticker": "LEDS",
+        "name": "SemiLEDs Corp",
+        "cik": 1333822,
+        "source": "https://www.sec.gov/files/company_tickers.json"
+      },
+      "as_of": "2026-11-27",
+      "retrieved_at": "2026-11-27T17:08:38.572388-05:00",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001333822.json",
+      "fiscal_year_end": "2026-08-31",
+      "prior_fiscal_year_end": "2025-08-31",
+      "preferred_10k_accession": "0001193125-26-479479",
+      "concepts": {
+        "total_revenue": {
+          "tag": "us-gaap:Revenues",
+          "unit": "USD",
+          "current": {
+            "val": 19124000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 43009000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "operating_income": {
+          "tag": "us-gaap:OperatingIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 12000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -1595000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "net_income": {
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD",
+          "current": {
+            "val": 817000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -1130000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "diluted_eps": {
+          "tag": "us-gaap:EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "current": {
+            "val": 0.1,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": -0.15,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "stockholders_equity": {
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD",
+          "current": {
+            "val": 3764000,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2780000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "current": {
+            "val": 0,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 434000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "long_term_debt_current": {
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "current": {
+            "val": 1584000,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 1274000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "cash_from_operations": {
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "current": {
+            "val": 2681000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 2212000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        },
+        "additions_to_property_and_equipment": {
+          "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "unit": "USD",
+          "current": {
+            "val": 321000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "prior": {
+            "val": 569000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          }
+        }
+      }
+    },
+    "calculator_results": {
+      "revenue_growth_percent": "-55.53488804668790253202818015",
+      "operating_margin_percent": "0.06274837900020916126333403054",
+      "return_on_average_equity_percent": "24.96943765281173594132029340",
+      "debt_to_equity": "0.4208289054197662061636556854",
+      "free_cash_flow_usd": "2360000",
+      "price_to_earnings": null,
+      "inputs": {
+        "price_usd_per_share": null,
+        "price_date": null,
+        "price_source": null,
+        "debt_tag": "us-gaap:LongTermDebtNoncurrent"
+      }
+    },
+    "financialdatasets_crosscheck": {
+      "source": "https://api.financialdatasets.ai/financials/",
+      "retrieved_at": "2026-11-27T17:08:39.202918-05:00",
+      "analysis_date": "2026-11-27",
+      "basis": "Both sources derive from SEC filings; numeric agreement does not independently establish correctness or definition equivalence.",
+      "rows": [
+        {
+          "concept": "total_revenue",
+          "period_label": "current",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 19124000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "19124000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "total_revenue",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:Revenues",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 43009000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "revenue"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 12000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "12000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "operating_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:OperatingIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -1595000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "operating_income"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 817000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "817000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "net_income",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetIncomeLoss",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": -1130000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "net_income"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "current",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": 0.1,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "0.1"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "diluted_eps",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:EarningsPerShareDiluted",
+          "sec_unit": "USD/shares",
+          "sec_fact": {
+            "val": -0.15,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "income_statements",
+          "provider_field": "earnings_per_share_diluted"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "current",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 3764000,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "3764000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "stockholders_equity",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:StockholdersEquity",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2780000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "balance_sheets",
+          "provider_field": "shareholders_equity"
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 0,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_noncurrent",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtNoncurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 434000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "current",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1584000,
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "long_term_debt_current",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:LongTermDebtCurrent",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 1274000,
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "current",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2681000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "numeric_match",
+          "reason": "Exact numeric comparison; normalized definitions and possible restatements still require review.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations",
+          "provider_fact": {
+            "ticker": "LEDS",
+            "report_period": "2026-08-31",
+            "period": "annual",
+            "currency": "USD",
+            "filing_date": "2026-11-27",
+            "accession_number": "0001193125-26-479479",
+            "filing_url": "https://www.sec.gov/Archives/edgar/data/0001333822/000119312526479479/leds-20260831.htm",
+            "value": "2681000.0"
+          },
+          "difference_provider_minus_sec": "0.0"
+        },
+        {
+          "concept": "cash_from_operations",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 2212000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No unique annual USD statement with the same period and filing accession, filed by the analysis date.",
+          "provider_statement": "cash_flow_statements",
+          "provider_field": "net_cash_flow_from_operations"
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "current",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 321000,
+            "start": "2025-09-01",
+            "end": "2026-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        },
+        {
+          "concept": "additions_to_property_and_equipment",
+          "period_label": "prior",
+          "sec_tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "sec_unit": "USD",
+          "sec_fact": {
+            "val": 569000,
+            "start": "2024-09-01",
+            "end": "2025-08-31",
+            "accn": "0001193125-26-479479",
+            "filed": "2026-11-27",
+            "form": "10-K",
+            "fy": 2026,
+            "fp": "FY"
+          },
+          "status": "not_comparable",
+          "reason": "No safe mapping for this SEC tag and provider field."
+        }
+      ],
+      "status": "completed"
+    },
+    "automatic_checks": {
+      "research_issues": [
+        "Claim 2 has an invalid or non-verbatim document line and quote.",
+        "Claim 5 has an invalid or non-verbatim document line and quote.",
+        "Claim 6 has an invalid or non-verbatim document line and quote.",
+        "Claim 8 has an invalid or non-verbatim document line and quote.",
+        "Claim 11 has an invalid or non-verbatim document line and quote.",
+        "Claim 12 has an invalid or non-verbatim document line and quote."
+      ],
+      "financial_issues": [
+        "No Insight line was supplied."
+      ],
+      "advisor_issues": [
+        "Insight needs a filing, line number, and exact quote from that line."
+      ]
+    }
+  },
+  "expected_output": "Return issue lists by role and unresolved overall issues. Set research_insight, financial_insight and advisor_insight to objects with status pass, fail or unassessed and a reason."
+}
