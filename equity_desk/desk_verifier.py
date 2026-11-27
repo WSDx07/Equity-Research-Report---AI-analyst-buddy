@@ -41,6 +41,69 @@ def decimal_number(value: str) -> Decimal:
     return Decimal(value.replace(",", "").replace("−", "-").removesuffix("%"))
 
 
+QUOTE_MARKS = str.maketrans({"“": '"', "”": '"', "‘": "'", "’": "'"})
+
+
+def quote_core(quote: str) -> str:
+    """The quoted words without the report's own quotation marks or closing punctuation."""
+    text = normalize(quote).translate(QUOTE_MARKS).strip()
+    previous = None
+    while text != previous:
+        previous = text
+        text = text.strip("\"' ").rstrip(".,;:").strip()
+    return text
+
+
+def quote_in_line(quote: str, source_line: str) -> bool:
+    """True when the quoted words occur in the filing line; only quotation marks and end punctuation may differ."""
+    core = quote_core(quote)
+    return bool(core) and core in normalize(source_line).translate(QUOTE_MARKS)
+
+
+_FILING = r"(?:10[-‐-―][KQ]|8[-‐-―]K|EX[-‐-―]99\.1|Form\s+10)"
+_LINES = r"lines?\s+\d+(?:\s*(?:[-‐-―]|to|and|,)\s*\d+)*"
+# "(line 145)" or "10-K line 145" points to the source; it is not a number the report claims.
+CITATION = re.compile(r"\(\s*(?:" + _FILING + r"\s+)?" + _LINES + r"\s*\)|\b" + _FILING + r"\s+" + _LINES, re.I)
+FILING_NAME = re.compile(r"\b" + _FILING + r"(?!\w|\.\d)", re.I)
+_MONTH = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
+_YEAR = r"(?:19|20)\d{2}"
+# A year that names a period ("fiscal 2026", "fiscal years 2026 and 2025", "December 31, 2025") is a label, not a quantity.
+YEAR_LABEL = re.compile(
+    r"\b(?:(?:fiscal|calendar)(?:\s+years?)?|FY|years?|quarters?|Q[1-4]|first|second|third|fourth|full)\s*'?" + _YEAR
+    + r"(?:\s*(?:,|and|or|to|through|versus|vs\.?|[-‐-―])\s*(?:(?:fiscal|FY)\s*)?" + _YEAR + r")*\b"
+    + r"|\b" + _MONTH + r"\s+(?:\d{1,2},?\s+)?" + _YEAR + r"\b", re.I)
+
+
+def claim_numbers_text(claim_text: str) -> str:
+    """Remove source citations, filing names and period-label years before numbers are extracted."""
+    text = CITATION.sub("[citation]", claim_text)
+    text = FILING_NAME.sub("[filing]", text)
+    return YEAR_LABEL.sub("[period]", text)
+
+
+SCALE_EXPONENT = {"thousand": 3, "million": 6, "billion": 9, "trillion": 12}
+
+
+def scaled_match(value: str, claim_text: str, source_line: str) -> bool:
+    """True when "4.02 billion" in the claim is 4,022 (millions) or 4,022,000 (thousands) in the source, at the claim's precision."""
+    if value.endswith("%"):
+        return False
+    match = re.search(r"(?<![\d,.])" + re.escape(value) + r"\s*(thousand|million|billion|trillion)\b", claim_text, re.I)
+    if not match:
+        return False
+    target, claim_exponent = decimal_number(value), SCALE_EXPONENT[match.group(1).lower()]
+    quantum = Decimal(1).scaleb(-len(value.partition(".")[2]))
+    for printed in numbers(source_line):
+        if printed.endswith("%"):
+            continue
+        amount = decimal_number(printed)
+        for source_exponent in (3, 6):  # the statement prints thousands or millions
+            shift = claim_exponent - source_exponent
+            if shift > 0 and amount.scaleb(-shift).quantize(quantum) == target:
+                return True
+    return False
+
+
 def diluted_eps_line(filings: dict[str, str], record: dict) -> tuple[int, str] | None:
     """Locate a unique per-share statement row containing the saved EPS."""
     target = decimal_number(str(record["val"]))
@@ -72,7 +135,7 @@ def annual_revenue_growth(line: str, facts: dict, filings: dict[str, str]) -> di
             return result
         index, quote = int(source.group(1)), source.group(2)
         lines = filings.get("10-K", "").splitlines()
-        if not 1 <= index <= len(lines) or not quote.strip() or normalize(quote) not in normalize(lines[index - 1]):
+        if not 1 <= index <= len(lines) or not quote_in_line(quote, lines[index - 1]):
             return result
         source_line = lines[index - 1]
         if not re.search(r"\btotal\s+revenue\b", source_line, re.I):
@@ -148,9 +211,11 @@ def check_line_source(value: str, line: str, filings: dict[str, str]):
     if index < 1 or index > len(text):
         return "unsupported", "Filing line is unavailable", None
     source_line = text[index - 1]
-    if not quote.strip() or normalize(quote) not in normalize(source_line):
+    if not quote_in_line(quote, source_line):
         return "wrong", "Quoted text does not match the cited filing line", (document, index, source_line)
     if decimal_number(value) not in [decimal_number(n) for n in numbers(source_line)]:
+        if scaled_match(value, line.split(" — ", 1)[0], source_line):
+            return "candidate", "Number matches the cited line after a thousands/millions scale change; semantic review required", (document, index, source_line)
         return "wrong", "The cited line does not contain this number", (document, index, source_line)
     return "candidate", "Source line and number match; semantic review required", (document, index, source_line)
 
@@ -161,7 +226,7 @@ def quoted_line_matches(line: str, filings: dict[str, str]) -> bool | None:
         return None
     document, index, quote = re.sub(r"[\u2010-\u2015]", "-", match.group(1)), int(match.group(2)), match.group(3)
     source_lines = filings.get(document, "").splitlines()
-    return bool(1 <= index <= len(source_lines) and quote.strip() and normalize(quote) in normalize(source_lines[index - 1]))
+    return bool(1 <= index <= len(source_lines) and quote_in_line(quote, source_lines[index - 1]))
 
 
 def check_fact_source(value: str, line: str, facts: dict):
@@ -328,7 +393,7 @@ def verify(folder: Path, output_folder: Path, client, model: str) -> Path:
         else:
             # These are names and document identifiers, not quantities.
             claim_text = re.sub(r"\b[A-Za-z][\w/-]*\s+365\b", "[product name]", claim_text)
-            claim_text = re.sub(r"\b10[\u2010-\u2015-][KQ]\b", "[filing]", claim_text, flags=re.I)
+            claim_text = claim_numbers_text(claim_text)
         growth = annual_revenue_growth(line, facts, filings)
         if growth is not None:
             status, reason = growth["status"], growth["reason"]
