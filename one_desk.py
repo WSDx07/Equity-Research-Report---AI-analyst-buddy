@@ -31,6 +31,14 @@ class RefusalError(ValueError):
     pass
 
 
+def configure_console_output() -> None:
+    """Keep CLI output Unicode-safe on Windows consoles and redirected streams."""
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if callable(reconfigure):
+            reconfigure(encoding="utf-8", errors="backslashreplace")
+
+
 def latest_registry() -> Path | None:
     matches = list(SPINOFF_RUNS.glob("registry-*.json")) if SPINOFF_RUNS.is_dir() else []
     if RUNS.is_dir():
@@ -291,10 +299,12 @@ def run_command(label: str, command: list[str], *, cwd: Path = ROOT, env: dict |
     started = time.perf_counter()
     try:
         chunks: list[str] = []
+        child_env = (os.environ if env is None else env).copy()
+        child_env.update(PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
         proc = subprocess.Popen(
             command,
             cwd=cwd,
-            env=env,
+            env=child_env,
             text=True,
             encoding="utf-8",
             errors="replace",
@@ -580,6 +590,7 @@ def check_report_copy(report_copy: Path) -> None:
 
 
 def main() -> int:
+    configure_console_output()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("ticker", nargs="?", help="Ticker or screen")
     parser.add_argument("--screen-start", help="Start date for the screen; defaults to the configured window")
