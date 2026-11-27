@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 from types import SimpleNamespace
 
-from equity_desk.desk_verifier import SemanticMark, SemanticReview, annual_revenue_growth, check_fact_source, check_line_source, diluted_eps_line, quoted_line_matches, semantic_lookup, structured_semantic_lookup, verify
+from equity_desk.desk_verifier import SemanticMark, SemanticReview, annual_revenue_growth, check_fact_source, check_line_source, claim_numbers_text, diluted_eps_line, numbers, quote_in_line, quoted_line_matches, scaled_match, semantic_lookup, structured_semantic_lookup, verify
 from equity_desk.structured_claims import check_claim, formula_value
 from decimal import Decimal
 from equity_desk.report_metrics import metrics, render_metric
@@ -198,6 +198,53 @@ class VerifierTest(unittest.TestCase):
             self.assertTrue(verified.startswith("Filings: sample\n"))
             self.assertIn("unsupported", verified)
             self.assertIn("Unsupported numeric claim removed", verified)
+
+    def test_citations_filing_names_and_period_years_are_not_claims(self):
+        self.assertEqual(numbers(claim_numbers_text("- HPE is a technology leader (line 145).")), [])
+        self.assertEqual(numbers(claim_numbers_text("- Outlook raised (line 206‑207); see EX-99.1 line 54 and the 8-K.")), [])
+        self.assertEqual(numbers(claim_numbers_text("In fiscal years 2026 and 2025, buy-sell orders continued into fiscal year 2027")), [])
+        self.assertEqual(numbers(claim_numbers_text("Goodwill as of October 31, 2025 was $3.3 billion in FY 2025")), ["3.3"])
+        self.assertEqual(numbers(claim_numbers_text("Revenue was 2,026 million and 2026 units shipped")), ["2,026", "2026"])
+
+    def test_quote_marks_and_end_punctuation_do_not_break_a_matching_quote(self):
+        source = "•Cloud & AI revenue was $11.3 billion, up 68.6% from the prior-year period, with 18.4% operating profit margin, compared to 9.3%."
+        self.assertTrue(quote_in_line('"Cloud & AI revenue was $11.3 billion, up 68.6% from the prior-year period, with 18.4% operating profit margin".', source))
+        self.assertTrue(quote_in_line("“Cloud & AI revenue was $11.3 billion, up 68.6% from the prior‑year period.”", source))
+        self.assertFalse(quote_in_line('"Cloud revenue was $11.3 billion"', source))
+        self.assertFalse(quote_in_line('"."', source))
+        filings = {"EX-99.1": source + "\n"}
+        line = '- Cloud & AI grew 68.6% — EX-99.1 line 1: "Cloud & AI revenue was $11.3 billion, up 68.6% from the prior-year period".'
+        self.assertEqual(check_line_source("68.6%", line, filings)[0], "candidate")
+        self.assertTrue(quoted_line_matches(line, filings))
+        self.assertEqual(check_line_source("68.6%", line.replace("Cloud & AI revenue", "Cloud revenue"), filings)[0], "wrong")
+
+    def test_scale_change_matches_only_at_the_claim_precision(self):
+        source = "Revenue | 4,022 | 3,751"
+        self.assertTrue(scaled_match("4.02", "Revenue was $4.02 billion", source))
+        self.assertTrue(scaled_match("4.0", "Revenue was $4.0 billion", source))
+        self.assertFalse(scaled_match("4.03", "Revenue was $4.03 billion", source))
+        self.assertFalse(scaled_match("4.02", "Revenue was $4.02", source))
+        self.assertFalse(scaled_match("68.6%", "up 68.6% billion", "68,600"))
+        self.assertTrue(scaled_match("4.02", "Revenue was $4.02 billion", "Revenue | 4,022,113"))
+        filings = {"EX-99.1": "Revenue | 4,022 | 3,751\n"}
+        line = "- Revenue was $4.02 billion — EX-99.1 line 1: Revenue | 4,022"
+        self.assertEqual(check_line_source("4.02", line, filings)[0], "candidate")
+        self.assertEqual(check_line_source("4.05", line.replace("4.02", "4.05"), filings)[0], "wrong")
+
+    def test_verify_does_not_mark_a_cited_line_number_wrong(self):
+        class Model:
+            def generate_content(self, **kwargs):
+                return SimpleNamespace(parsed=SemanticReview(marks=[SemanticMark(line=3, value="1,200", supported=True, reason="Same period")]), text=None)
+        with tempfile.TemporaryDirectory() as tmp:
+            run = Path(tmp)
+            report = 'Filings: sample\n## Overview\n- Sales were 1,200 USD in fiscal 2025 (line 2). — 10-K line 2: "Sales were 1,200 USD."\n'
+            (run / "equity_research_report.md").write_text(report, encoding="utf-8")
+            (run / "facts.json").write_text(json.dumps({"concepts": {}}), encoding="utf-8")
+            for form in ("10-K", "10-Q", "8-K", "EX-99.1"):
+                (run / f"TEST_{form}_id.txt").write_text("Header\nSales were 1,200 USD.\n", encoding="utf-8")
+            verify(run, run, SimpleNamespace(models=Model()), "fake")
+            marks = json.loads((run / "verifier_output.json").read_text(encoding="utf-8"))
+            self.assertEqual([(m["number"], m["mark"]) for m in marks], [("1,200", "correct")])
 
 
 if __name__ == "__main__":
